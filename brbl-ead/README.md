@@ -12,6 +12,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.volbach.xml](519.xml) | beinecke.volbach | GEN MSS 1014 | Walther Volbach Collection on Adolphe Appia | 
  [beinecke.rakoff.xml](520.xml) | beinecke.rakoff | GEN MSS 1015 | David Rakoff papers | 
  [beinecke.cameras.xml](522.xml) | beinecke.cameras | GEN MSS 1020 | Early Cameras Collection | 
+ [beinecke.curtius.xml](523.xml) | beinecke.curtius | GEN MSS 1025 | Ernst Curtius Papers | 
+ [beinecke.stevense.xml](524.xml) | beinecke.stevense | GEN MSS 1027 | Stevens family papers | 
+ [beinecke.prince.xml](529.xml) | beinecke.prince | GEN MSS 1069 | Stéphane Prince papers | 
+ [beinecke.macfall.xml](531.xml) | beinecke.macfall | GEN MSS 1079 | Haldane Macfall collection | 
  [beinecke.chickswithdicks.xml](5783.xml) | beinecke.chickswithdicks | Bailey 18 | Transgender erotic pulp fiction collection from the series Chicks with dicks | 
  [beinecke.transvestitetale.xml](5784.xml) | beinecke.transvestitetale | Bailey 9 | Transgender erotic pulp fiction collection from the series Transvestite tales | 
  [beinecke.trisexualbooks.xml](5785.xml) | beinecke.trisexualbooks | Bailey 6 | Transgender erotic pulp fiction collection from the series Trisexual books | 
