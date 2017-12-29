@@ -78,7 +78,28 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.viele.xml](595.xml) | beinecke.viele | GEN MSS 127 | Letters to Francis Vielé-Griffin | 
  [beinecke.levyvictoriana.xml](596.xml) | beinecke.levyvictoriana | GEN MSS 1280 | Charles Joseph Levy Collection of Victoriana | 
  [beinecke.marinet.xml](599.xml) | beinecke.marinet | GEN MSS 130 | Filippo Tommaso Marinetti papers | 
+ [beinecke.lapietra.xml](600.xml) | beinecke.lapietra | GEN MSS 1308 | Ugo La Pietra papers | 
+ [beinecke.pequot.xml](601.xml) | beinecke.pequot | GEN MSS 1309 | Manuscripts in the Monroe, Wakeman, and Holman Collection of the Pequot Library Association | 
+ [beinecke.vinlandmapfiles.xml](602.xml) | beinecke.vinlandmapfiles | GEN MSS 1319 | <title>The Vinland Map and the Tartar Relation</title>: proofs and subject files | 
+ [beinecke.loud.xml](603.xml) | beinecke.loud | GEN MSS 1320 | Lance Loud and Loud family papers | 
+ [beinecke.ward.xml](606.xml) | beinecke.ward | GEN MSS 134 | Mrs. Humphry Ward collection | 
+ [beinecke.powys.xml](608.xml) | beinecke.powys | GEN MSS 136 | John Cowper Powys collection | 
+ [beinecke.gosse.xml](609.xml) | beinecke.gosse | GEN MSS 14 | Edmund Gosse collection | 
+ [beinecke.demorgan.xml](610.xml) | beinecke.demorgan | GEN MSS 141 | William De Morgan collection | 
+ [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
+ [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
+ [beinecke.lyons.xml](5354.xml) | beinecke.lyons | GEN MSS 1360 | Donald Lyons papers | 
+ [beinecke.allen.xml](5460.xml) | beinecke.allen | GEN MSS 1401 | Nathaniel T. Allen collection | 
+ [beinecke.linnell.xml](5462.xml) | beinecke.linnell | GEN MSS 1396 | Tracings of illustrations by William Blake for Dante's Divina Commedia. | 
+ [beinecke.smithd.xml](5467.xml) | beinecke.smithd | GEN MSS 1399 | David Smith Papers | 
+ [beinecke.tully.xml](5474.xml) | beinecke.tully | GEN MSS 1403 | William Tully Papers | 
+ [beinecke.howeh.xml](5476.xml) | beinecke.howeh | GEN MSS 1365 | Hezekiah Howe Papers | 
+ [beinecke.lintoncook.xml](5488.xml) | beinecke.lintoncook | GEN MSS 1406 | Grace Linton Cook Papers About W. J. Linton | 
+ [beinecke.bwi.xml](5491.xml) | beinecke.bwi | GEN MSS 1412 | British Caribbean Documents | 
  [beinecke.wickgrandville.xml](5506.xml) | beinecke.wickgrandville | GEN MSS 1301 | Peter A. Wick Collection of J. J. Grandville | 
+ [beinecke.cranectp.xml](5556.xml) | beinecke.cranectp | GEN MSS 1386 | Catharine T. Patterson Collection of Walter Crane | 
+ [beinecke.cranecoll.xml](5569.xml) | beinecke.cranecoll | GEN MSS 1418 | Walter Crane Collection | 
+ [beinecke.lintonmather.xml](5570.xml) | beinecke.lintonmather | GEN MSS 1387 | W. J. Linton Collection | 
  [beinecke.wordsworth.xml](5778.xml) | beinecke.wordsworth | GEN MSS 1262 | William Wordsworth collection | 
  [beinecke.chickswithdicks.xml](5783.xml) | beinecke.chickswithdicks | Bailey 18 | Transgender erotic pulp fiction collection from the series Chicks with dicks | 
  [beinecke.transvestitetale.xml](5784.xml) | beinecke.transvestitetale | Bailey 9 | Transgender erotic pulp fiction collection from the series Transvestite tales | 
@@ -95,4 +116,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.newhaveneast.xml](5815.xml) | beinecke.newhaveneast | GEN MSS 1295 | New Haven East Association records | 
  [beinecke.newhavenwest.xml](5816.xml) | beinecke.newhavenwest | GEN MSS 1296 | New Haven West Association records | 
  [beinecke.williamsf.xml](5818.xml) | beinecke.williamsf | GEN MSS 1180 | Williams family papers | 
+ [beinecke.academie.xml](5819.xml) | beinecke.academie | GEN MSS 1339 | Académie française autograph collection | 
+ [beinecke.marston.xml](5822.xml) | beinecke.marston | GEN MSS 1341 | Thomas E. Marston family papers | 
+ [beinecke.vansinderen.xml](5823.xml) | beinecke.vansinderen | GEN MSS 1362 | Alfred White Van Sinderen collection of Charles Babbage | 
 
