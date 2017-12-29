@@ -40,6 +40,27 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.dicksont.xml](552.xml) | beinecke.dicksont | GEN MSS 1100 | Frederick Stoever Dickson collection regarding William Makepeace Thackeray | 
  [beinecke.thackeray.xml](553.xml) | beinecke.thackeray | GEN MSS 1101 | William Makepeace Thackeray collection | 
  [beinecke.mondrian.xml](554.xml) | beinecke.mondrian | GEN MSS 1102 | Piet Mondrian papers | 
+ [beinecke.lang.xml](555.xml) | beinecke.lang | GEN MSS 1109 | Andrew Lang collection | 
+ [beinecke.hardy.xml](556.xml) | beinecke.hardy | GEN MSS 111 | Richard L. Purdy Collection of Thomas Hardy | 
+ [beinecke.johnsona.xml](557.xml) | beinecke.johnsona | GEN MSS 1110 | Allen Johnson correspondence relating to the Chronicles of America Series | 
+ [beinecke.exhibitions.xml](558.xml) | beinecke.exhibitions | GEN MSS 1117 | Beinecke Rare Book and Manuscript Library exhibition materials | 
+ [beinecke.marshallj.xml](560.xml) | beinecke.marshallj | GEN MSS 1120 | Joseph Head Marshall papers | 
+ [beinecke.zerbe.xml](561.xml) | beinecke.zerbe | GEN MSS 1122 | Jerome Zerbe photographs and papers | 
+ [beinecke.whitneywd.xml](562.xml) | beinecke.whitneywd | GEN MSS 1125 | William Dwight Whitney papers relating to the Atharvaveda | 
+ [beinecke.morgan.xml](563.xml) | beinecke.morgan | GEN MSS 1126 | James Marshall Osborn collection of Lady Sydney Morgan | 
+ [beinecke.huntw.xml](564.xml) | beinecke.huntw | GEN MSS 1129 | William Holman Hunt collection | 
+ [beinecke.chiaro.xml](565.xml) | beinecke.chiaro | GEN MSS 113 | Nicola Chiaromonte papers | 
+ [beinecke.henley.xml](566.xml) | beinecke.henley | GEN MSS 1131 | William Ernest Henley Collection | 
+ [beinecke.crasepolach.xml](568.xml) | beinecke.crasepolach | GEN MSS 1134 | Douglas Crase and Frank Polach papers | 
+ [beinecke.levis.xml](569.xml) | beinecke.levis | GEN MSS 1135 | François-Gaston, duc de Lévis papers | 
+ [beinecke.levi.xml](571.xml) | beinecke.levi | GEN MSS 1138 | Ezio Levi papers | 
+ [beinecke.asch.xml](572.xml) | beinecke.asch | GEN MSS 114 | John L. De Forest / Sholem Asch collection | 
+ [beinecke.lawfamily.xml](573.xml) | beinecke.lawfamily | GEN MSS 1140 | Law Family Papers | 
+ [beinecke.kiplingr.xml](574.xml) | beinecke.kiplingr | GEN MSS 1143 | David Alan Richards Collection of Rudyard Kipling | 
+ [beinecke.sholem.xml](575.xml) | beinecke.sholem | GEN MSS 115 | Sholem Asch papers | 
+ [beinecke.moricand.xml](576.xml) | beinecke.moricand | GEN MSS 1152 | Conrad Moricand papers | 
+ [beinecke.nabokovn.xml](578.xml) | beinecke.nabokovn | GEN MSS 1154 | Nicolas Nabokov papers | 
+ [beinecke.gilmanob.xml](579.xml) | beinecke.gilmanob | GEN MSS 1155 | O. B. Gilman and Sarah Dow Gilman papers | 
  [beinecke.chickswithdicks.xml](5783.xml) | beinecke.chickswithdicks | Bailey 18 | Transgender erotic pulp fiction collection from the series Chicks with dicks | 
  [beinecke.transvestitetale.xml](5784.xml) | beinecke.transvestitetale | Bailey 9 | Transgender erotic pulp fiction collection from the series Transvestite tales | 
  [beinecke.trisexualbooks.xml](5785.xml) | beinecke.trisexualbooks | Bailey 6 | Transgender erotic pulp fiction collection from the series Trisexual books | 
