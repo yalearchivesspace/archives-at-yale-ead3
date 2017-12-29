@@ -199,13 +199,25 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.levytemperance.xml](923.xml) | beinecke.levytemperance | GEN MSS 956 | Edward G. Levy collection relating to temperance | 
  [beinecke.abchapman.xml](924.xml) | beinecke.abchapman | GEN MSS 957 | A. B. Chapman music and drawings | 
  [beinecke.wolman.xml](928.xml) | beinecke.wolman | GEN MSS 969 | Gil J. Wolman papers | 
+ [beinecke.bryher.xml](929.xml) | beinecke.bryher | GEN.MSS.97 | Bryher papers | 
  [beinecke.sagreen.xml](931.xml) | beinecke.sagreen | GEN MSS 973 | Samuel Adams Green papers | 
  [beinecke.geiss.xml](932.xml) | beinecke.geiss | GEN MSS 979 | Tony Geiss papers | 
  [beinecke.tocque.xml](935.xml) | beinecke.tocque | GEN MSS 982 | Yale Tocqueville Manuscripts | 
  [beinecke.steward.xml](936.xml) | beinecke.steward | GEN MSS 987 | Samuel Steward papers | 
  [beinecke.weiss.xml](939.xml) | beinecke.weiss | GEN MSS 992 | Harvey Weiss papers | 
  [beinecke.morath.xml](941.xml) | beinecke.morath | GEN MSS 996 | Inge Morath Photographs and Papers | 
+ [beinecke.fellowes.xml](948.xml) | beinecke.fellowes | GEN MSS VOL 421 | EXTRA-ILLUSTRATIONS IN SAMUEL JOHNSON, LETTERS TO AND FROM THE LATE SAMUEL JOHNSON... (London: A. Strahan and T. Cadell, 1788) | 
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
+ [beinecke.haynes.xml](952.xml) | beinecke.haynes | JWJ MSS 101 | George Edmund Haynes papers | 
+ [beinecke.dodson.xml](953.xml) | beinecke.dodson | JWJ MSS 103 | Owen Dodson collection | 
+ [beinecke.bennettg.xml](955.xml) | beinecke.bennettg | JWJ MSS 106 | Gwendolyn Bennett Papers | 
+ [beinecke.bakerj.xml](956.xml) | beinecke.bakerj | JWJ MSS 108 | Josephine Baker Collection | 
+ [beinecke.pickens.xml](961.xml) | beinecke.pickens | JWJ MSS 125 | William Pickens papers | 
+ [beinecke.cave.xml](962.xml) | beinecke.cave | JWJ MSS 130 | Cave Canem records | 
+ [beinecke.eady.xml](963.xml) | beinecke.eady | JWJ MSS 146 | Cornelius Eady Papers | 
+ [beinecke.bonds.xml](964.xml) | beinecke.bonds | JWJ MSS 151 | Margaret Bonds papers | 
+ [beinecke.komunyakaa.xml](965.xml) | beinecke.komunyakaa | JWJ MSS 152 | Yusef Komunyakaa papers | 
+ [beinecke.darktown.xml](966.xml) | beinecke.darktown | JWJ MSS 158 | Currier & Ives Darktown Prints | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
  [beinecke.lyons.xml](5354.xml) | beinecke.lyons | GEN MSS 1360 | Donald Lyons papers | 
@@ -228,8 +240,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.benador.xml](5697.xml) | beinecke.benador | GEN MSS 1427 | Galerie Jacques Benador archive | 
  [beinecke.achurch.xml](5707.xml) | beinecke.achurch | GEN MSS 215 | Janet Achurch and Charles Charrington Correspondence | 
  [beinecke.meservekunhardt.xml](5714.xml) | beinecke.meservekunhardt | GEN MSS 1430 | Meserve-Kunhardt collection | 
+ [beinecke.leeming.xml](5730.xml) | beinecke.leeming | JWJ MSS 172 | David Leeming Collection of James Baldwin Research | 
  [beinecke.brooksjs.xml](5738.xml) | beinecke.brooksjs | GEN MSS 1435 | John Sawyer Brooks papers | 
  [beinecke.rhoban.xml](5739.xml) | beinecke.rhoban | GEN MSS 1436 | Russell Hoban papers | 
+ [beinecke.lyonl.xml](5749.xml) | beinecke.lyonl | JWJ MSS 173 | Leviticus Lyon Papers | 
  [beinecke.wordsworth.xml](5778.xml) | beinecke.wordsworth | GEN MSS 1262 | William Wordsworth collection | 
  [beinecke.chickswithdicks.xml](5783.xml) | beinecke.chickswithdicks | Bailey 18 | Transgender erotic pulp fiction collection from the series Chicks with dicks | 
  [beinecke.transvestitetale.xml](5784.xml) | beinecke.transvestitetale | Bailey 9 | Transgender erotic pulp fiction collection from the series Transvestite tales | 
@@ -243,6 +257,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.tdb.xml](5792.xml) | beinecke.tdb | Bailey 20 | Transgender erotic pulp fiction collection from an unnamed series numbered TDB | 
  [beinecke.transvestia.xml](5793.xml) | beinecke.transvestia | Bailey 10 | Transgender erotic pulp fiction collection from the series Transvestia | 
  [beinecke.dobsons.xml](5796.xml) | beinecke.dobsons | GEN MSS 409 | Silvia Dobson papers | 
+ [beinecke.bell.xml](5812.xml) | beinecke.bell | JWJ MSS 153 | [Drawings] | 
  [beinecke.century.xml](5813.xml) | beinecke.century | GEN MSS 1219 | [Walter L. Pforzheimer collection of Century Company illustrations]. | 
  [beinecke.newhaveneast.xml](5815.xml) | beinecke.newhaveneast | GEN MSS 1295 | New Haven East Association records | 
  [beinecke.newhavenwest.xml](5816.xml) | beinecke.newhavenwest | GEN MSS 1296 | New Haven West Association records | 
@@ -251,9 +266,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.barker.xml](5820.xml) | beinecke.barker | GEN MSS 858 | George Barker collection | 
  [beinecke.marston.xml](5822.xml) | beinecke.marston | GEN MSS 1341 | Thomas E. Marston family papers | 
  [beinecke.vansinderen.xml](5823.xml) | beinecke.vansinderen | GEN MSS 1362 | Alfred White Van Sinderen collection of Charles Babbage | 
+ [beinecke.dunbarr.xml](5832.xml) | beinecke.dunbarr | JWJ MSS 174 | Rudolph Dunbar Papers | 
+ [beinecke.lacomblez.xml](5839.xml) | beinecke.lacomblez | GEN MSS 1437 | Jacques Lacomblez papers | 
  [beinecke.tellefsen.xml](5848.xml) | beinecke.tellefsen | GEN MSS 1431 | Lisbet Tellefsen papers | 
  [beinecke.bourneg.xml](5871.xml) | beinecke.bourneg | Gen MSS 1438 | Bourne Family Papers | 
  [beinecke.vaneigem.xml](5893.xml) | beinecke.vaneigem | GEN MSS 1455 | Raoul Vaneigem papers | 
+ [beinecke.vanvechtjwj.xml](10402.xml) | beinecke.vanvechtjwj | JWJ MSS 1050 | Carl Van Vechten Papers Relating to African American Arts and Letters | 
  [beinecke.bory.xml](10656.xml) | beinecke.bory | GEN MSS 1460 | Jean-François Bory Papers | 
  [beinecke.plauchut.xml](10702.xml) | beinecke.plauchut | GEN MSS 1462 | Edmond Plauchut Papers | 
  [beinecke.sandm.xml](10703.xml) | beinecke.sandm | GEN MSS 1463 | Maurice Sand Papers | 
