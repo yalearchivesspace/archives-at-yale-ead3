@@ -174,6 +174,23 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cannan.xml](883.xml) | beinecke.cannan | GEN MSS 873 | Gilbert Cannan papers | 
  [beinecke.douglas.xml](887.xml) | beinecke.douglas | GEN MSS 88 | Norman Douglas Collection | 
  [beinecke.coleridge.xml](888.xml) | beinecke.coleridge | GEN MSS 880 | Samuel Taylor Coleridge collection | 
+ [beinecke.johnstonwww.xml](893.xml) | beinecke.johnstonwww | GEN MSS 887 | William Walker Whitehall Johnston photograph album of Wales, the West Indies, and the 1st West India Regiment. | 
+ [beinecke.fraenkel.xml](895.xml) | beinecke.fraenkel | GEN MSS 891 | Michael Fraenkel papers | 
+ [beinecke.baronbyron.xml](896.xml) | beinecke.baronbyron | GEN MSS 892 | George Gordon Byron, Baron Byron collection | 
+ [beinecke.kiplingwatt.xml](897.xml) | beinecke.kiplingwatt | GEN MSS 893 | A. P. Watt and Son records relating to Rudyard Kipling | 
+ [beinecke.baugniet.xml](900.xml) | beinecke.baugniet | GEN MSS 900 | Marcel-Louis Baugniet collection | 
+ [beinecke.adler.xml](901.xml) | beinecke.adler | GEN MSS 901 | Gerhard and Hella Adler papers | 
+ [beinecke.pond.xml](902.xml) | beinecke.pond | GEN MSS 904 | Fred E. Pond papers related to fishing | 
+ [beinecke.blake.xml](904.xml) | beinecke.blake | GEN MSS 914 | William Blake collection | 
+ [beinecke.cogswell.xml](906.xml) | beinecke.cogswell | GEN MSS 920 | Mason Fitch Cogswell papers | 
+ [beinecke.larkin.xml](907.xml) | beinecke.larkin | GEN MSS 921 | Adella Fowler Larkin correspondence | 
+ [beinecke.vita.xml](908.xml) | beinecke.vita | GEN MSS 925 | Vita Sackville-West papers | 
+ [beinecke.walter.xml](909.xml) | beinecke.walter | GEN MSS 929 | Max Walter commercial art for W. & J. Sloane | 
+ [beinecke.dobson.xml](911.xml) | beinecke.dobson | GEN MSS 930 | Austin Dobson collection | 
+ [beinecke.holloway.xml](913.xml) | beinecke.holloway | GEN MSS 933 | Mark Holloway papers related to Martha Gordon Crotch | 
+ [beinecke.wulff.xml](915.xml) | beinecke.wulff | GEN MSS 946 | Lee Wulff papers | 
+ [beinecke.depalchi.xml](916.xml) | beinecke.depalchi | GEN MSS 947 | Alfredo de Palchi and Sona Raiziss papers | 
+ [beinecke.wolski.xml](917.xml) | beinecke.wolski | GEN MSS 948 | Andrzej Wolski videorecordings for the documentary film Moi, Gombrowicz | 
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
