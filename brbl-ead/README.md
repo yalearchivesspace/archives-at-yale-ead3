@@ -61,6 +61,25 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.moricand.xml](576.xml) | beinecke.moricand | GEN MSS 1152 | Conrad Moricand papers | 
  [beinecke.nabokovn.xml](578.xml) | beinecke.nabokovn | GEN MSS 1154 | Nicolas Nabokov papers | 
  [beinecke.gilmanob.xml](579.xml) | beinecke.gilmanob | GEN MSS 1155 | O. B. Gilman and Sarah Dow Gilman papers | 
+ [beinecke.cerutti.xml](580.xml) | beinecke.cerutti | GEN MSS 1164 | Franco Cerutti papers | 
+ [beinecke.ruskin.xml](581.xml) | beinecke.ruskin | GEN MSS 1168 | John Ruskin collection | 
+ [beinecke.cortes.xml](583.xml) | beinecke.cortes | GEN MSS 1173 | Noël J. Cortés Collection of French Manuscripts | 
+ [beinecke.jwgibbsbein.xml](584.xml) | beinecke.jwgibbsbein | GEN MSS 1175 | Josiah Willard Gibbs papers | 
+ [beinecke.pauker.xml](585.xml) | beinecke.pauker | GEN MSS 118 | Edmond Pauker papers | 
+ [beinecke.sanguinetti.xml](586.xml) | beinecke.sanguinetti | GEN MSS 1181 | Gianfranco Sanguinetti papers | 
+ [beinecke.hoban.xml](587.xml) | beinecke.hoban | GEN MSS 1199 | Lillian Hoban papers | 
+ [beinecke.conradj.xml](588.xml) | beinecke.conradj | GEN MSS 1207 | Joseph Conrad Collection | 
+ [beinecke.baskin.xml](589.xml) | beinecke.baskin | GEN MSS 1229 | Leonard Baskin papers | 
+ [beinecke.reade.xml](590.xml) | beinecke.reade | GEN MSS 124 | Charles Reade collection | 
+ [beinecke.fields.xml](591.xml) | beinecke.fields | GEN MSS 1243 | Danny Fields papers | 
+ [beinecke.piozzi.xml](592.xml) | beinecke.piozzi | GEN MSS 125 | Hester Lynch Piozzi collection | 
+ [beinecke.giaccone.xml](593.xml) | beinecke.giaccone | GEN MSS 1255 | Fausto Giaccone photographs and papers | 
+ [beinecke.carol.xml](594.xml) | beinecke.carol | GEN MSS 126 | Edward Bliss Reed carol collection | 
+ [beinecke.viele.xml](595.xml) | beinecke.viele | GEN MSS 127 | Letters to Francis Vielé-Griffin | 
+ [beinecke.levyvictoriana.xml](596.xml) | beinecke.levyvictoriana | GEN MSS 1280 | Charles Joseph Levy Collection of Victoriana | 
+ [beinecke.marinet.xml](599.xml) | beinecke.marinet | GEN MSS 130 | Filippo Tommaso Marinetti papers | 
+ [beinecke.wickgrandville.xml](5506.xml) | beinecke.wickgrandville | GEN MSS 1301 | Peter A. Wick Collection of J. J. Grandville | 
+ [beinecke.wordsworth.xml](5778.xml) | beinecke.wordsworth | GEN MSS 1262 | William Wordsworth collection | 
  [beinecke.chickswithdicks.xml](5783.xml) | beinecke.chickswithdicks | Bailey 18 | Transgender erotic pulp fiction collection from the series Chicks with dicks | 
  [beinecke.transvestitetale.xml](5784.xml) | beinecke.transvestitetale | Bailey 9 | Transgender erotic pulp fiction collection from the series Transvestite tales | 
  [beinecke.trisexualbooks.xml](5785.xml) | beinecke.trisexualbooks | Bailey 6 | Transgender erotic pulp fiction collection from the series Trisexual books | 
@@ -72,4 +91,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.shemales.xml](5791.xml) | beinecke.shemales | Bailey 5 | Transgender erotic pulp fiction collection from the series She males | 
  [beinecke.tdb.xml](5792.xml) | beinecke.tdb | Bailey 20 | Transgender erotic pulp fiction collection from an unnamed series numbered TDB | 
  [beinecke.transvestia.xml](5793.xml) | beinecke.transvestia | Bailey 10 | Transgender erotic pulp fiction collection from the series Transvestia | 
+ [beinecke.century.xml](5813.xml) | beinecke.century | GEN MSS 1219 | [Walter L. Pforzheimer collection of Century Company illustrations]. | 
+ [beinecke.newhaveneast.xml](5815.xml) | beinecke.newhaveneast | GEN MSS 1295 | New Haven East Association records | 
+ [beinecke.newhavenwest.xml](5816.xml) | beinecke.newhavenwest | GEN MSS 1296 | New Haven West Association records | 
+ [beinecke.williamsf.xml](5818.xml) | beinecke.williamsf | GEN MSS 1180 | Williams family papers | 
 
