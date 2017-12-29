@@ -222,6 +222,27 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.feelings.xml](986.xml) | beinecke.feelings | JWJ MSS 74 | Tom Feelings artwork. | 
  [beinecke.jwjphotos.xml](987.xml) | beinecke.jwjphotos | JWJ MSS 76 | Photographs of prominent African Americans. | 
  [beinecke.jwjclippings.xml](989.xml) | beinecke.jwjclippings | JWJ MSS 89 | Clippings file of the James Weldon Johnson Memorial Collection | 
+ [beinecke.hurston.xml](990.xml) | beinecke.hurston | JWJ MSS 9 | Zora Neale Hurston Collection | 
+ [beinecke.davisc.xml](992.xml) | beinecke.davisc | JWJ MSS 91 | Charles T. Davis papers | 
+ [beinecke.nugent.xml](993.xml) | beinecke.nugent | JWJ MSS 92 | Bruce Nugent papers | 
+ [beinecke.wesley.xml](994.xml) | beinecke.wesley | JWJ MSS 93 | Dorothy Porter Wesley papers | 
+ [beinecke.becker.xml](995.xml) | beinecke.becker | JWJ MSS 95 | Richard S. Becker collection of Alex Bradford and Arthur Alexander and other papers | 
+ [beinecke.rorabackc.xml](996.xml) | beinecke.rorabackc | JWJ MSS 96 | Catherine Roraback Collection of Ericka Huggins Papers | 
+ [beinecke.obrien.xml](997.xml) | beinecke.obrien | JWJ MSS 99 | Peter F. O'Brien collection on African American artists | 
+ [beinecke.jwjmiscellany.xml](998.xml) | beinecke.jwjmiscellany | JWJ MSS MISC | James Weldon Johnson Collection manuscript miscellany | 
+ [beinecke.monteverdi.xml](1002.xml) | beinecke.monteverdi | Monteverdi 2 | Manuscripts in the Albi Rosenthal collection of Monteverdi and the birth of opera | 
+ [beinecke.ndy10.xml](1008.xml) | beinecke.ndy10 | Ndy10 | Miscellaneous financial materials concerning farm corporations operating in the North American West | 
+ [beinecke.ndy32.xml](1009.xml) | beinecke.ndy32 | Ndy32 | Miscellaneous financial materials concerning gold and silver mining companies operating in the North American West | 
+ [beinecke.ndy33.xml](1010.xml) | beinecke.ndy33 | Ndy33 | Miscellaneous financial materials concerning copper and aluminum mining companies operating in the North American West | 
+ [beinecke.ndy35.xml](1011.xml) | beinecke.ndy35 | Ndy35 | Miscellaneous financial materials concerning coal mining companies operating in the North American West | 
+ [beinecke.ndy36.xml](1012.xml) | beinecke.ndy36 | Ndy36 | Miscellaneous financial materials concerning oil companies operating in the North American West | 
+ [beinecke.ndy37.xml](1013.xml) | beinecke.ndy37 | Ndy37 | Miscellaneous financial materials concerning non-metallic mineral companies operating in the North American West | 
+ [beinecke.ndy51.xml](1014.xml) | beinecke.ndy51 | Ndy51 | Miscellaneous financial materials concerning utility companies operating in the North American West | 
+ [beinecke.ndy52.xml](1015.xml) | beinecke.ndy52 | Ndy52 | Miscellaneous financial materials concerning water companies operating in the North American West | 
+ [beinecke.ndy53.xml](1016.xml) | beinecke.ndy53 | Ndy53 | Miscellaneous financial materials concerning natural gas companies operating in the North American West | 
+ [beinecke.ndy54.xml](1017.xml) | beinecke.ndy54 | Ndy54 | Miscellaneous financial materials concerning power companies operating in the North American West | 
+ [beinecke.ndy75.xml](1018.xml) | beinecke.ndy75 | Ndy75 | Miscellaneous financial materials concerning lumber companies operating in the North American West | 
+ [beinecke.ndy98t4.xml](1019.xml) | beinecke.ndy98t4 | Ndy98 T4 | Miscellaneous financial materials concerning the U.S. motion picture industry | 
  [beinecke.richardsl.xml](1543.xml) | beinecke.richardsl | JWJ MSS 176 | Lloyd Richards papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
