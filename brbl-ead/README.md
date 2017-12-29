@@ -119,6 +119,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.pres.xml](649.xml) | beinecke.pres | GEN MSS 271 | United States presidents collection | 
  [beinecke.trollope.xml](650.xml) | beinecke.trollope | GEN MSS 272 | Anthony Trollope collection | 
  [beinecke.winthrop.xml](651.xml) | beinecke.winthrop | GEN MSS 274 | Winthrop family papers | 
+ [beinecke.dix.xml](708.xml) | beinecke.dix | GEN MSS 403 | George Dix papers | 
+ [beinecke.davie.xml](717.xml) | beinecke.davie | GEN MSS 439 | Donald Davie papers | 
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.lyons.xml](5354.xml) | beinecke.lyons | GEN MSS 1360 | Donald Lyons papers | 
@@ -154,6 +156,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.shemales.xml](5791.xml) | beinecke.shemales | Bailey 5 | Transgender erotic pulp fiction collection from the series She males | 
  [beinecke.tdb.xml](5792.xml) | beinecke.tdb | Bailey 20 | Transgender erotic pulp fiction collection from an unnamed series numbered TDB | 
  [beinecke.transvestia.xml](5793.xml) | beinecke.transvestia | Bailey 10 | Transgender erotic pulp fiction collection from the series Transvestia | 
+ [beinecke.dobsons.xml](5796.xml) | beinecke.dobsons | GEN MSS 409 | Silvia Dobson papers | 
  [beinecke.century.xml](5813.xml) | beinecke.century | GEN MSS 1219 | [Walter L. Pforzheimer collection of Century Company illustrations]. | 
  [beinecke.newhaveneast.xml](5815.xml) | beinecke.newhaveneast | GEN MSS 1295 | New Haven East Association records | 
  [beinecke.newhavenwest.xml](5816.xml) | beinecke.newhavenwest | GEN MSS 1296 | New Haven West Association records | 
