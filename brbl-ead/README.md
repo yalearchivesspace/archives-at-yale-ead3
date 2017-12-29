@@ -150,6 +150,20 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bissell.xml](838.xml) | beinecke.bissell | GEN MSS 788 | George H. Bissell papers | 
  [beinecke.dash.xml](842.xml) | beinecke.dash | GEN MSS 792 | Robert Dash papers | 
  [beinecke.phillips.xml](843.xml) | beinecke.phillips | GEN MSS 793 | Caryl Phillips papers | 
+ [beinecke.westhf.xml](845.xml) | beinecke.westhf | GEN MSS 795 | Herbert F. West collection of A. Hugh Fisher | 
+ [beinecke.superstudio.xml](846.xml) | beinecke.superstudio | GEN MSS 796 | Natalini Superstudio collection | 
+ [beinecke.dean.xml](847.xml) | beinecke.dean | GEN MSS 797 | Tunis F. Dean papers | 
+ [beinecke.beach.xml](850.xml) | beinecke.beach | GEN MSS 802 | Stanley Yale Beach papers | 
+ [beinecke.jonesh.xml](851.xml) | beinecke.jonesh | GEN MSS 803 | Howard Jones papers | 
+ [beinecke.holtzman.xml](856.xml) | beinecke.holtzman | GEN MSS 819 | Harry Holtzman papers | 
+ [beinecke.rogers.xml](859.xml) | beinecke.rogers | GEN MSS 824 | Bruce Rogers collection | 
+ [beinecke.audj.xml](861.xml) | beinecke.audj | GEN MSS 829 | John James Audubon collection | 
+ [beinecke.denham.xml](863.xml) | beinecke.denham | GEN MSS 831 | Album of watercolors and drawings. | 
+ [beinecke.dejong.xml](864.xml) | beinecke.dejong | GEN MSS 832 | Jacqueline de Jong papers | 
+ [beinecke.fishing.xml](865.xml) | beinecke.fishing | GEN MSS 834 | Fishing manuscripts collection | 
+ [beinecke.pforzheimerhist.xml](866.xml) | beinecke.pforzheimerhist | GEN MSS 838 | Walter L. Pforzheimer collection of historical manuscripts | 
+ [beinecke.brownings.xml](867.xml) | beinecke.brownings | GEN MSS 839 | Robert Browning and Elizabeth Barrett Browning collection | 
+ [beinecke.jdwild.xml](869.xml) | beinecke.jdwild | GEN MSS 842 | John Daniel Wild papers | 
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.lyons.xml](5354.xml) | beinecke.lyons | GEN MSS 1360 | Donald Lyons papers | 
