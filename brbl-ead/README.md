@@ -243,6 +243,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ndy54.xml](1017.xml) | beinecke.ndy54 | Ndy54 | Miscellaneous financial materials concerning power companies operating in the North American West | 
  [beinecke.ndy75.xml](1018.xml) | beinecke.ndy75 | Ndy75 | Miscellaneous financial materials concerning lumber companies operating in the North American West | 
  [beinecke.ndy98t4.xml](1019.xml) | beinecke.ndy98t4 | Ndy98 T4 | Miscellaneous financial materials concerning the U.S. motion picture industry | 
+ [beinecke.lockerlamp.xml](1035.xml) | beinecke.lockerlamp | OSB MSS 152 | <title>Frederick Locker-Lampson Correspondence</title> | 
+ [beinecke.steadwf.xml](1039.xml) | beinecke.steadwf | OSB MSS 158 | William Force Stead papers | 
+ [beinecke.micklew.xml](1040.xml) | beinecke.micklew | OSB MSS 159 | William Julius Mickle papers | 
+ [beinecke.copperplates.xml](1041.xml) | beinecke.copperplates | OSB MSS 160 | Copper engraving plates of English personalities | 
+ [beinecke.dwing.xml](1044.xml) | beinecke.dwing | OSB MSS 166 | Donald Wing papers | 
+ [beinecke.poas.xml](1045.xml) | beinecke.poas | OSB MSS 167 | Poems on affairs of state records | 
+ [beinecke.clintonp.xml](1046.xml) | beinecke.clintonp | OSB MSS 168 | Clinton papers | 
  [beinecke.richardsl.xml](1543.xml) | beinecke.richardsl | JWJ MSS 176 | Lloyd Richards papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
