@@ -257,6 +257,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.tennant.xml](1052.xml) | beinecke.tennant | OSB MSS 187 | Stephen Tennant papers | 
  [beinecke.blagden.xml](1081.xml) | beinecke.blagden | OSB MSS 51 | Sir Charles Blagden papers | 
  [beinecke.leefam.xml](1082.xml) | beinecke.leefam | OSB MSS 52 | Sir William Lee family papers | 
+ [beinecke.c8.xml](1116.xml) | beinecke.c8 | OSBORN C8 | [Edmund Burke letters] | 
  [beinecke.richardsl.xml](1543.xml) | beinecke.richardsl | JWJ MSS 176 | Lloyd Richards papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
