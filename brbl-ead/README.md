@@ -164,8 +164,19 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.pforzheimerhist.xml](866.xml) | beinecke.pforzheimerhist | GEN MSS 838 | Walter L. Pforzheimer collection of historical manuscripts | 
  [beinecke.brownings.xml](867.xml) | beinecke.brownings | GEN MSS 839 | Robert Browning and Elizabeth Barrett Browning collection | 
  [beinecke.jdwild.xml](869.xml) | beinecke.jdwild | GEN MSS 842 | John Daniel Wild papers | 
+ [beinecke.stadler.xml](870.xml) | beinecke.stadler | GEN MSS 843 | Matthew Stadler papers | 
+ [beinecke.mccourtvirga.xml](872.xml) | beinecke.mccourtvirga | GEN MSS 845 | James McCourt and Vincent Virga papers | 
+ [beinecke.beineckew.xml](873.xml) | beinecke.beineckew | GEN MSS 846 | Walter Beinecke papers | 
+ [beinecke.usher.xml](875.xml) | beinecke.usher | GEN MSS 855 | George F. Usher papers | 
+ [beinecke.trentdefoe.xml](877.xml) | beinecke.trentdefoe | GEN MSS 859 | William Peterfield Trent Daniel Defoe Research Collection | 
+ [beinecke.thornton.xml](879.xml) | beinecke.thornton | GEN MSS 864 | Sir Edward Thornton correspondence with the British Foreign Office | 
+ [beinecke.marnold.xml](880.xml) | beinecke.marnold | GEN MSS 867 | Matthew Arnold collection | 
+ [beinecke.cannan.xml](883.xml) | beinecke.cannan | GEN MSS 873 | Gilbert Cannan papers | 
+ [beinecke.douglas.xml](887.xml) | beinecke.douglas | GEN MSS 88 | Norman Douglas Collection | 
+ [beinecke.coleridge.xml](888.xml) | beinecke.coleridge | GEN MSS 880 | Samuel Taylor Coleridge collection | 
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
+ [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
  [beinecke.lyons.xml](5354.xml) | beinecke.lyons | GEN MSS 1360 | Donald Lyons papers | 
  [beinecke.allen.xml](5460.xml) | beinecke.allen | GEN MSS 1401 | Nathaniel T. Allen collection | 
  [beinecke.linnell.xml](5462.xml) | beinecke.linnell | GEN MSS 1396 | Tracings of illustrations by William Blake for Dante's Divina Commedia. | 
@@ -205,6 +216,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.newhavenwest.xml](5816.xml) | beinecke.newhavenwest | GEN MSS 1296 | New Haven West Association records | 
  [beinecke.williamsf.xml](5818.xml) | beinecke.williamsf | GEN MSS 1180 | Williams family papers | 
  [beinecke.academie.xml](5819.xml) | beinecke.academie | GEN MSS 1339 | Académie française autograph collection | 
+ [beinecke.barker.xml](5820.xml) | beinecke.barker | GEN MSS 858 | George Barker collection | 
  [beinecke.marston.xml](5822.xml) | beinecke.marston | GEN MSS 1341 | Thomas E. Marston family papers | 
  [beinecke.vansinderen.xml](5823.xml) | beinecke.vansinderen | GEN MSS 1362 | Alfred White Van Sinderen collection of Charles Babbage | 
  [beinecke.tellefsen.xml](5848.xml) | beinecke.tellefsen | GEN MSS 1431 | Lisbet Tellefsen papers | 
