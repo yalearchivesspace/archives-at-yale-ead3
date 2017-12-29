@@ -86,6 +86,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.powys.xml](608.xml) | beinecke.powys | GEN MSS 136 | John Cowper Powys collection | 
  [beinecke.gosse.xml](609.xml) | beinecke.gosse | GEN MSS 14 | Edmund Gosse collection | 
  [beinecke.demorgan.xml](610.xml) | beinecke.demorgan | GEN MSS 141 | William De Morgan collection | 
+ [beinecke.sartre.xml](611.xml) | beinecke.sartre | GEN MSS 143 | Jean-Paul Sartre collection | 
+ [beinecke.boswell2.xml](613.xml) | beinecke.boswell2 | GEN MSS 150 | Boswell collection : addition | 
+ [beinecke.boswart.xml](615.xml) | beinecke.boswart | GEN MSS 153 | Boswell collection supplement | 
+ [beinecke.champney.xml](616.xml) | beinecke.champney | GEN MSS 156 | Basil Champneys correspondence | 
+ [beinecke.berb.xml](618.xml) | beinecke.berb | GEN MSS 182 | Nina Berberova papers | 
+ [beinecke.aide.xml](619.xml) | beinecke.aide | GEN MSS 207 | Hamilton Aïdé papers | 
+ [beinecke.bradbury.xml](620.xml) | beinecke.bradbury | GEN MSS 210 | William Bradbury papers | 
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.lyons.xml](5354.xml) | beinecke.lyons | GEN MSS 1360 | Donald Lyons papers | 
@@ -100,6 +107,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cranectp.xml](5556.xml) | beinecke.cranectp | GEN MSS 1386 | Catharine T. Patterson Collection of Walter Crane | 
  [beinecke.cranecoll.xml](5569.xml) | beinecke.cranecoll | GEN MSS 1418 | Walter Crane Collection | 
  [beinecke.lintonmather.xml](5570.xml) | beinecke.lintonmather | GEN MSS 1387 | W. J. Linton Collection | 
+ [beinecke.internationalsyndicate.xml](5678.xml) | beinecke.internationalsyndicate | GEN MSS 1425 | International Syndicate records | 
+ [beinecke.viennaaustria.xml](5688.xml) | beinecke.viennaaustria | GEN MSS 1423 | Prints and drawings of Viennese and Austrian scenes | 
+ [beinecke.gamzu.xml](5691.xml) | beinecke.gamzu | GEN MSS 1426 | Haim Gamzu Collection of Israeli Theater | 
+ [beinecke.benador.xml](5697.xml) | beinecke.benador | GEN MSS 1427 | Galerie Jacques Benador archive | 
+ [beinecke.meservekunhardt.xml](5714.xml) | beinecke.meservekunhardt | GEN MSS 1430 | Meserve-Kunhardt collection | 
+ [beinecke.brooksjs.xml](5738.xml) | beinecke.brooksjs | GEN MSS 1435 | John Sawyer Brooks papers | 
+ [beinecke.rhoban.xml](5739.xml) | beinecke.rhoban | GEN MSS 1436 | Russell Hoban papers | 
  [beinecke.wordsworth.xml](5778.xml) | beinecke.wordsworth | GEN MSS 1262 | William Wordsworth collection | 
  [beinecke.chickswithdicks.xml](5783.xml) | beinecke.chickswithdicks | Bailey 18 | Transgender erotic pulp fiction collection from the series Chicks with dicks | 
  [beinecke.transvestitetale.xml](5784.xml) | beinecke.transvestitetale | Bailey 9 | Transgender erotic pulp fiction collection from the series Transvestite tales | 
@@ -119,4 +133,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.academie.xml](5819.xml) | beinecke.academie | GEN MSS 1339 | Académie française autograph collection | 
  [beinecke.marston.xml](5822.xml) | beinecke.marston | GEN MSS 1341 | Thomas E. Marston family papers | 
  [beinecke.vansinderen.xml](5823.xml) | beinecke.vansinderen | GEN MSS 1362 | Alfred White Van Sinderen collection of Charles Babbage | 
+ [beinecke.tellefsen.xml](5848.xml) | beinecke.tellefsen | GEN MSS 1431 | Lisbet Tellefsen papers | 
+ [beinecke.bourneg.xml](5871.xml) | beinecke.bourneg | Gen MSS 1438 | Bourne Family Papers | 
+ [beinecke.vaneigem.xml](5893.xml) | beinecke.vaneigem | GEN MSS 1455 | Raoul Vaneigem papers | 
+ [beinecke.bory.xml](10656.xml) | beinecke.bory | GEN MSS 1460 | Jean-François Bory Papers | 
+ [beinecke.plauchut.xml](10702.xml) | beinecke.plauchut | GEN MSS 1462 | Edmond Plauchut Papers | 
+ [beinecke.sandm.xml](10703.xml) | beinecke.sandm | GEN MSS 1463 | Maurice Sand Papers | 
+ [beinecke.nees.xml](10783.xml) | beinecke.nees | GEN MSS 1465 | A. Nees & Co. decorative paper sample books | 
 
