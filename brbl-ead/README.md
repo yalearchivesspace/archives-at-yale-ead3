@@ -112,6 +112,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.maugham.xml](642.xml) | beinecke.maugham | GEN MSS 263 | W. Somerset Maugham collection | 
  [beinecke.porter.xml](643.xml) | beinecke.porter | GEN MSS 265 | Jane Porter collection | 
  [beinecke.scott.xml](644.xml) | beinecke.scott | GEN MSS 266 | Sir Walter Scott collection | 
+ [beinecke.crosset.xml](645.xml) | beinecke.crosset | GEN MSS 267 | Christina Rossetti collection | 
+ [beinecke.drosset.xml](646.xml) | beinecke.drosset | GEN MSS 268 | Dante Gabriel Rossetti collection | 
+ [beinecke.wmrosset.xml](647.xml) | beinecke.wmrosset | GEN MSS 269 | William Michael Rossetti collection | 
+ [beinecke.pope.xml](648.xml) | beinecke.pope | GEN MSS 270 | Alexander Pope collection | 
+ [beinecke.pres.xml](649.xml) | beinecke.pres | GEN MSS 271 | United States presidents collection | 
+ [beinecke.trollope.xml](650.xml) | beinecke.trollope | GEN MSS 272 | Anthony Trollope collection | 
+ [beinecke.winthrop.xml](651.xml) | beinecke.winthrop | GEN MSS 274 | Winthrop family papers | 
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.lyons.xml](5354.xml) | beinecke.lyons | GEN MSS 1360 | Donald Lyons papers | 
