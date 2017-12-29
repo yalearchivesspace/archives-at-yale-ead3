@@ -121,6 +121,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.winthrop.xml](651.xml) | beinecke.winthrop | GEN MSS 274 | Winthrop family papers | 
  [beinecke.dix.xml](708.xml) | beinecke.dix | GEN MSS 403 | George Dix papers | 
  [beinecke.davie.xml](717.xml) | beinecke.davie | GEN MSS 439 | Donald Davie papers | 
+ [beinecke.morris.xml](721.xml) | beinecke.morris | GEN MSS 45 | William Morris collection | 
+ [beinecke.bowenm.xml](723.xml) | beinecke.bowenm | GEN MSS 454 | Marjorie Bowen papers | 
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.lyons.xml](5354.xml) | beinecke.lyons | GEN MSS 1360 | Donald Lyons papers | 
