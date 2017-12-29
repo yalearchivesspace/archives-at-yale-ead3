@@ -191,10 +191,25 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wulff.xml](915.xml) | beinecke.wulff | GEN MSS 946 | Lee Wulff papers | 
  [beinecke.depalchi.xml](916.xml) | beinecke.depalchi | GEN MSS 947 | Alfredo de Palchi and Sona Raiziss papers | 
  [beinecke.wolski.xml](917.xml) | beinecke.wolski | GEN MSS 948 | Andrzej Wolski videorecordings for the documentary film Moi, Gombrowicz | 
+ [beinecke.paris.xml](918.xml) | beinecke.paris | GEN MSS 949 | Gabriel Paris collection relating to France, May 1968 | 
+ [beinecke.dayh.xml](919.xml) | beinecke.dayh | GEN MSS 950 | Horace Day papers | 
+ [beinecke.punk.xml](920.xml) | beinecke.punk | GEN MSS 951 | John Holmstrom papers and Punk magazine records | 
+ [beinecke.sala.xml](921.xml) | beinecke.sala | GEN MSS 952 | George Augustus Sala collection | 
+ [beinecke.levymusic.xml](922.xml) | beinecke.levymusic | GEN MSS 955 | Edward G. Levy collection of papers relating to music | 
+ [beinecke.levytemperance.xml](923.xml) | beinecke.levytemperance | GEN MSS 956 | Edward G. Levy collection relating to temperance | 
+ [beinecke.abchapman.xml](924.xml) | beinecke.abchapman | GEN MSS 957 | A. B. Chapman music and drawings | 
+ [beinecke.wolman.xml](928.xml) | beinecke.wolman | GEN MSS 969 | Gil J. Wolman papers | 
+ [beinecke.sagreen.xml](931.xml) | beinecke.sagreen | GEN MSS 973 | Samuel Adams Green papers | 
+ [beinecke.geiss.xml](932.xml) | beinecke.geiss | GEN MSS 979 | Tony Geiss papers | 
+ [beinecke.tocque.xml](935.xml) | beinecke.tocque | GEN MSS 982 | Yale Tocqueville Manuscripts | 
+ [beinecke.steward.xml](936.xml) | beinecke.steward | GEN MSS 987 | Samuel Steward papers | 
+ [beinecke.weiss.xml](939.xml) | beinecke.weiss | GEN MSS 992 | Harvey Weiss papers | 
+ [beinecke.morath.xml](941.xml) | beinecke.morath | GEN MSS 996 | Inge Morath Photographs and Papers | 
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
  [beinecke.lyons.xml](5354.xml) | beinecke.lyons | GEN MSS 1360 | Donald Lyons papers | 
+ [beinecke.genmusmisc.xml](5397.xml) | beinecke.genmusmisc | GEN MSS MUSIC MISC | General Collection manuscript music miscellany | 
  [beinecke.allen.xml](5460.xml) | beinecke.allen | GEN MSS 1401 | Nathaniel T. Allen collection | 
  [beinecke.linnell.xml](5462.xml) | beinecke.linnell | GEN MSS 1396 | Tracings of illustrations by William Blake for Dante's Divina Commedia. | 
  [beinecke.hardycol.xml](5464.xml) | beinecke.hardycol | GEN MSS 307 | Thomas Hardy collection | 
@@ -242,5 +257,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bory.xml](10656.xml) | beinecke.bory | GEN MSS 1460 | Jean-François Bory Papers | 
  [beinecke.plauchut.xml](10702.xml) | beinecke.plauchut | GEN MSS 1462 | Edmond Plauchut Papers | 
  [beinecke.sandm.xml](10703.xml) | beinecke.sandm | GEN MSS 1463 | Maurice Sand Papers | 
+ [beinecke.halversongd.xml](10757.xml) | beinecke.halversongd | GEN MSS 998 | Photographs of the Garment District in New York City | 
  [beinecke.nees.xml](10783.xml) | beinecke.nees | GEN MSS 1465 | A. Nees & Co. decorative paper sample books | 
 
