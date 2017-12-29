@@ -93,6 +93,25 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.berb.xml](618.xml) | beinecke.berb | GEN MSS 182 | Nina Berberova papers | 
  [beinecke.aide.xml](619.xml) | beinecke.aide | GEN MSS 207 | Hamilton Aïdé papers | 
  [beinecke.bradbury.xml](620.xml) | beinecke.bradbury | GEN MSS 210 | William Bradbury papers | 
+ [beinecke.chardin.xml](621.xml) | beinecke.chardin | GEN MSS 216 | John Chardin correspondence and documents | 
+ [beinecke.austin.xml](622.xml) | beinecke.austin | GEN MSS 219 | Alfred Austin collection | 
+ [beinecke.bowring.xml](623.xml) | beinecke.bowring | GEN MSS 223 | John Bowring collection | 
+ [beinecke.hamilton.xml](625.xml) | beinecke.hamilton | GEN MSS 23 | Mrs. Edward S. Harkness collection of Lady Hamilton | 
+ [beinecke.crabbe.xml](626.xml) | beinecke.crabbe | GEN MSS 230 | George Crabbe collection | 
+ [beinecke.drinkwat.xml](628.xml) | beinecke.drinkwat | GEN MSS 234 | John Drinkwater collection | 
+ [beinecke.fitzgera.xml](629.xml) | beinecke.fitzgera | GEN MSS 235 | Edward FitzGerald collection | 
+ [beinecke.liebert.xml](630.xml) | beinecke.liebert | GEN MSS 237 | Herman W. Liebert manuscript collection | 
+ [beinecke.westhut.xml](633.xml) | beinecke.westhut | GEN MSS 240 | G. Evelyn Hutchinson papers relating to Rebecca West | 
+ [beinecke.hodgson.xml](634.xml) | beinecke.hodgson | GEN MSS 245 | Ralph Hodgson papers | 
+ [beinecke.gate.xml](635.xml) | beinecke.gate | GEN MSS 250 | Ethel May Gate papers, 1912-1940. | 
+ [beinecke.knob.xml](636.xml) | beinecke.knob | GEN MSS 253 | Edward Knoblock literary manuscripts | 
+ [beinecke.lamb.xml](637.xml) | beinecke.lamb | GEN MSS 254 | Charles Lamb collection | 
+ [beinecke.machen.xml](639.xml) | beinecke.machen | GEN MSS 256 | Arthur Machen collection | 
+ [beinecke.lincoln.xml](640.xml) | beinecke.lincoln | GEN MSS 257 | Abraham Lincoln collection | 
+ [beinecke.norton.xml](641.xml) | beinecke.norton | GEN MSS 260 | Caroline Sheridan Norton collection | 
+ [beinecke.maugham.xml](642.xml) | beinecke.maugham | GEN MSS 263 | W. Somerset Maugham collection | 
+ [beinecke.porter.xml](643.xml) | beinecke.porter | GEN MSS 265 | Jane Porter collection | 
+ [beinecke.scott.xml](644.xml) | beinecke.scott | GEN MSS 266 | Sir Walter Scott collection | 
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.lyons.xml](5354.xml) | beinecke.lyons | GEN MSS 1360 | Donald Lyons papers | 
@@ -111,6 +130,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.viennaaustria.xml](5688.xml) | beinecke.viennaaustria | GEN MSS 1423 | Prints and drawings of Viennese and Austrian scenes | 
  [beinecke.gamzu.xml](5691.xml) | beinecke.gamzu | GEN MSS 1426 | Haim Gamzu Collection of Israeli Theater | 
  [beinecke.benador.xml](5697.xml) | beinecke.benador | GEN MSS 1427 | Galerie Jacques Benador archive | 
+ [beinecke.achurch.xml](5707.xml) | beinecke.achurch | GEN MSS 215 | Janet Achurch and Charles Charrington Correspondence | 
  [beinecke.meservekunhardt.xml](5714.xml) | beinecke.meservekunhardt | GEN MSS 1430 | Meserve-Kunhardt collection | 
  [beinecke.brooksjs.xml](5738.xml) | beinecke.brooksjs | GEN MSS 1435 | John Sawyer Brooks papers | 
  [beinecke.rhoban.xml](5739.xml) | beinecke.rhoban | GEN MSS 1436 | Russell Hoban papers | 
