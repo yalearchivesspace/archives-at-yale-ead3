@@ -125,6 +125,17 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bowenm.xml](723.xml) | beinecke.bowenm | GEN MSS 454 | Marjorie Bowen papers | 
  [beinecke.amichai.xml](767.xml) | beinecke.amichai | GEN MSS 572 | Yehuda Amichai papers | 
  [beinecke.nicolson.xml](785.xml) | beinecke.nicolson | GEN MSS 614 | Harold Nicolson papers  | 
+ [beinecke.allegret.xml](797.xml) | beinecke.allegret | GEN MSS 651 | Marc Allegrét papers | 
+ [beinecke.damico.xml](798.xml) | beinecke.damico | GEN MSS 655 | Tano D'Amico Photographs of Events in Italy | 
+ [beinecke.acton.xml](800.xml) | beinecke.acton | GEN MSS 663 | Harold Acton papers | 
+ [beinecke.jelenski.xml](804.xml) | beinecke.jelenski | GEN MSS 676 | Konstanty Jeleński papers | 
+ [beinecke.starr.xml](807.xml) | beinecke.starr | GEN MSS 679 | Cecile Starr papers relating to Mary Ellen Bute | 
+ [beinecke.driver.xml](811.xml) | beinecke.driver | GEN MSS 690 | Julia Driver collection of women in photography. | 
+ [beinecke.benson.xml](813.xml) | beinecke.benson | GEN MSS 699 | E. F. Benson papers | 
+ [beinecke.moreno.xml](814.xml) | beinecke.moreno | GEN MSS 701 | Marguerite Moreno papers | 
+ [beinecke.wat.xml](816.xml) | beinecke.wat | GEN MSS 705 | Aleksander Wat papers | 
+ [beinecke.venclova.xml](817.xml) | beinecke.venclova | GEN MSS 714 | Tomas Venclova papers | 
+ [beinecke.rannit.xml](818.xml) | beinecke.rannit | GEN MSS 715 | Aleksis Rannit papers | 
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.lyons.xml](5354.xml) | beinecke.lyons | GEN MSS 1360 | Donald Lyons papers | 
