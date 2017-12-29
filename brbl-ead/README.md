@@ -258,6 +258,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.blagden.xml](1081.xml) | beinecke.blagden | OSB MSS 51 | Sir Charles Blagden papers | 
  [beinecke.leefam.xml](1082.xml) | beinecke.leefam | OSB MSS 52 | Sir William Lee family papers | 
  [beinecke.c8.xml](1116.xml) | beinecke.c8 | OSBORN C8 | [Edmund Burke letters] | 
+ [beinecke.emmonsgf.xml](1176.xml) | beinecke.emmonsgf | WA MSS 166-169 | George F. Emmons papers | 
+ [beinecke.evans.xml](1177.xml) | beinecke.evans | WA MSS 172-191 | Elwood Evans Papers | 
  [beinecke.richardsl.xml](1543.xml) | beinecke.richardsl | JWJ MSS 176 | Lloyd Richards papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
@@ -317,6 +319,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bory.xml](10656.xml) | beinecke.bory | GEN MSS 1460 | Jean-François Bory Papers | 
  [beinecke.plauchut.xml](10702.xml) | beinecke.plauchut | GEN MSS 1462 | Edmond Plauchut Papers | 
  [beinecke.sandm.xml](10703.xml) | beinecke.sandm | GEN MSS 1463 | Maurice Sand Papers | 
+ [beinecke.tradecats.xml](10747.xml) | beinecke.tradecats | Uai Trade Catalogs | Trade catalogs collection. | 
  [beinecke.halversongd.xml](10757.xml) | beinecke.halversongd | GEN MSS 998 | Photographs of the Garment District in New York City | 
  [beinecke.nees.xml](10783.xml) | beinecke.nees | GEN MSS 1465 | A. Nees & Co. decorative paper sample books | 
 
