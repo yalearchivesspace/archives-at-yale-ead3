@@ -136,6 +136,20 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wat.xml](816.xml) | beinecke.wat | GEN MSS 705 | Aleksander Wat papers | 
  [beinecke.venclova.xml](817.xml) | beinecke.venclova | GEN MSS 714 | Tomas Venclova papers | 
  [beinecke.rannit.xml](818.xml) | beinecke.rannit | GEN MSS 715 | Aleksis Rannit papers | 
+ [beinecke.creve.xml](819.xml) | beinecke.creve | GEN MSS 722 | J. Hector St. John de Crèvecoeur papers | 
+ [beinecke.jfrench.xml](820.xml) | beinecke.jfrench | GEN MSS 732 | Jared French papers | 
+ [beinecke.mehta.xml](823.xml) | beinecke.mehta | GEN MSS 744 | Ved Mehta papers | 
+ [beinecke.fondane.xml](824.xml) | beinecke.fondane | GEN MSS 750 | Benjamin Fondane papers | 
+ [beinecke.lemaitre.xml](825.xml) | beinecke.lemaitre | GEN MSS 754 | Bismuth-Lemaître papers | 
+ [beinecke.clesinger.xml](826.xml) | beinecke.clesinger | GEN MSS 755 | Solange Clésinger-Sand Papers | 
+ [beinecke.gamingcounters.xml](827.xml) | beinecke.gamingcounters | GEN MSS 757 | Chinese gaming counters | 
+ [beinecke.shirley.xml](829.xml) | beinecke.shirley | GEN MSS 764 | Betsy Beinecke Shirley collection of American children's literature | 
+ [beinecke.daggettcouey.xml](830.xml) | beinecke.daggettcouey | GEN MSS 767 | Daggett-Couey family papers | 
+ [beinecke.sassoon.xml](831.xml) | beinecke.sassoon | GEN MSS 768 | Siegfried Sassoon papers | 
+ [beinecke.lbailey.xml](837.xml) | beinecke.lbailey | GEN MSS 787 | Laura Bailey collection of gender and transgender materials | 
+ [beinecke.bissell.xml](838.xml) | beinecke.bissell | GEN MSS 788 | George H. Bissell papers | 
+ [beinecke.dash.xml](842.xml) | beinecke.dash | GEN MSS 792 | Robert Dash papers | 
+ [beinecke.phillips.xml](843.xml) | beinecke.phillips | GEN MSS 793 | Caryl Phillips papers | 
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.lyons.xml](5354.xml) | beinecke.lyons | GEN MSS 1360 | Donald Lyons papers | 
