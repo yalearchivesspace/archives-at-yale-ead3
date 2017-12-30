@@ -527,6 +527,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.whittier.xml](1865.xml) | beinecke.whittier | YCAL MSS 986 | John Greenleaf Whittier Collection | 
  [beinecke.fang.xml](1866.xml) | beinecke.fang | YCAL MSS 99 | Achilles Fang papers | 
  [beinecke.ycalmiscellany.xml](1868.xml) | beinecke.ycalmiscellany | YCAL MSS MISC | Yale Collection of American Literature manuscript miscellany | 
+ [beinecke.white.xml](1887.xml) | beinecke.white | YCGL MSS 35 | James F. White research files relating to Thomas Mann | 
+ [beinecke.ycglmisc.xml](1892.xml) | beinecke.ycglmisc | YCGL MSS MISC | Yale Collection of German Literature manuscript miscellany | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
  [beinecke.svbenet.xml](5313.xml) | beinecke.svbenet | YCAL MSS 1046 | Stephen Vincent Benét and Rosemary Benét papers | 
