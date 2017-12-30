@@ -513,6 +513,20 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.millerj.xml](1843.xml) | beinecke.millerj | YCAL MSS 861 | Joaquin Miller Collection | 
  [beinecke.bryd.xml](1846.xml) | beinecke.bryd | YCAL MSS 865 | Doris Bry papers | 
  [beinecke.selden.xml](1847.xml) | beinecke.selden | YCAL MSS 866 | Albert Selden papers | 
+ [beinecke.martinelli.xml](1849.xml) | beinecke.martinelli | YCAL MSS 868 | Sheri Martinelli papers | 
+ [beinecke.bookcritics.xml](1850.xml) | beinecke.bookcritics | YCAL MSS 878 | National Book Critics Circle Records | 
+ [beinecke.martz.xml](1851.xml) | beinecke.martz | YCAL MSS 881 | Louis Lohr Martz Correspondence | 
+ [beinecke.fleming.xml](1854.xml) | beinecke.fleming | YCAL MSS 887 | Keith Fleming Papers Relating to Edmund White | 
+ [beinecke.pearson.xml](1856.xml) | beinecke.pearson | YCAL MSS 899 | Norman Holmes Pearson Papers | 
+ [beinecke.malcolm.xml](1858.xml) | beinecke.malcolm | YCAL MSS 935 | Janet  Malcolm papers | 
+ [beinecke.osborn.xml](1859.xml) | beinecke.osborn | YCAL MSS 938 | Robert Osborn Papers | 
+ [beinecke.byrd.xml](1861.xml) | beinecke.byrd | YCAL MSS 967 | Don Byrd papers | 
+ [beinecke.terner.xml](1862.xml) | beinecke.terner | YCAL MSS 970 | Jacob Y. Terner Collection of Autograph Material by American Artists | 
+ [beinecke.vogel.xml](1863.xml) | beinecke.vogel | YCAL MSS 972 | Paula Vogel Papers | 
+ [beinecke.bernstein.xml](1864.xml) | beinecke.bernstein | YCAL MSS 984 | Charles Bernstein papers | 
+ [beinecke.whittier.xml](1865.xml) | beinecke.whittier | YCAL MSS 986 | John Greenleaf Whittier Collection | 
+ [beinecke.fang.xml](1866.xml) | beinecke.fang | YCAL MSS 99 | Achilles Fang papers | 
+ [beinecke.ycalmiscellany.xml](1868.xml) | beinecke.ycalmiscellany | YCAL MSS MISC | Yale Collection of American Literature manuscript miscellany | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
  [beinecke.svbenet.xml](5313.xml) | beinecke.svbenet | YCAL MSS 1046 | Stephen Vincent Benét and Rosemary Benét papers | 
@@ -534,6 +548,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.howeh.xml](5476.xml) | beinecke.howeh | GEN MSS 1365 | Hezekiah Howe Papers | 
  [beinecke.berssenbrugge.xml](5486.xml) | beinecke.berssenbrugge | YCAL MSS 1082 | Mei-Mei Berssenbrugge papers | 
  [beinecke.lintoncook.xml](5488.xml) | beinecke.lintoncook | GEN MSS 1406 | Grace Linton Cook Papers About W. J. Linton | 
+ [beinecke.gluck.xml](5489.xml) | beinecke.gluck | YCAL MSS 946 | Louise Glück papers | 
  [beinecke.bwi.xml](5491.xml) | beinecke.bwi | GEN MSS 1412 | British Caribbean Documents | 
  [beinecke.cnorth.xml](5494.xml) | beinecke.cnorth | YCAL MSS 1091 | Charles North papers | 
  [beinecke.wickgrandville.xml](5506.xml) | beinecke.wickgrandville | GEN MSS 1301 | Peter A. Wick Collection of J. J. Grandville | 
