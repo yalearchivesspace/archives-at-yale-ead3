@@ -351,7 +351,17 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jennett.xml](1466.xml) | beinecke.jennett | YCAL MSS 231 | Matthew Jennett papers | 
  [beinecke.welch.xml](1471.xml) | beinecke.welch | YCAL MSS 248 | James Welch papers | 
  [beinecke.nathanr.xml](1512.xml) | beinecke.nathanr | YCAL MSS 307 | Robert Nathan papers | 
+ [beinecke.moorer.xml](1532.xml) | beinecke.moorer | YCAL MSS 341 | Richard Moore papers | 
+ [beinecke.okeeffefndn.xml](1533.xml) | beinecke.okeeffefndn | YCAL MSS 342 | Georgia O'Keeffe Foundation records | 
+ [beinecke.civicrep.xml](1534.xml) | beinecke.civicrep | YCAL MSS 343 | Civic Repertory Theatre records | 
+ [beinecke.mellquist.xml](1537.xml) | beinecke.mellquist | YCAL MSS 353 | Jerome Mellquist papers | 
+ [beinecke.tiroff.xml](1538.xml) | beinecke.tiroff | YCAL MSS 358 | James Tiroff notebooks and art works | 
+ [beinecke.hovhaness.xml](1539.xml) | beinecke.hovhaness | YCAL MSS 359 | Alan Hovhaness letters to Judith Malina | 
+ [beinecke.bahlmann.xml](1541.xml) | beinecke.bahlmann | YCAL MSS 361 | Anna Catherine Bahlmann papers relating to Edith Wharton | 
  [beinecke.richardsl.xml](1543.xml) | beinecke.richardsl | JWJ MSS 176 | Lloyd Richards papers | 
+ [beinecke.parkerjr.xml](1546.xml) | beinecke.parkerjr | YCAL MSS 371 | James Reid Parker papers | 
+ [beinecke.harrison.xml](1547.xml) | beinecke.harrison | YCAL MSS 372 | Gilbert A. Harrison papers relating to Thornton Wilder | 
+ [beinecke.fuller.xml](1548.xml) | beinecke.fuller | YCAL MSS 373 | Margaret Fuller Papers | 
  [beinecke.opstedal.xml](1702.xml) | beinecke.opstedal | YCAL MSS 1120 | Kevin Opstedal papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
