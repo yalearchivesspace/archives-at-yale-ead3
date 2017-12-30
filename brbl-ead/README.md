@@ -278,6 +278,26 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.dequille.xml](1304.xml) | beinecke.dequille | WA MSS S-2667 | Dan De Quille papers | 
  [beinecke.hitchcock.xml](1306.xml) | beinecke.hitchcock | WA MSS S-2678 | Ethan Allen Hitchcock collection on Indian removal | 
  [beinecke.fiskr.xml](1307.xml) | beinecke.fiskr | WA MSS S-2683 | Robert B. Fisk papers | 
+ [beinecke.hoodw.xml](1309.xml) | beinecke.hoodw | WA MSS S-2687 | Washington Hood papers | 
+ [beinecke.arndt.xml](1310.xml) | beinecke.arndt | WA MSS S-2690 | Karl John Richard Arndt collection of Bernhard Muller and the Harmony Society | 
+ [beinecke.ginsbergbooks.xml](1311.xml) | beinecke.ginsbergbooks | WA MSS S-2691 | Michael Ginsberg Books records | 
+ [beinecke.quinndm.xml](1312.xml) | beinecke.quinndm | WA MSS S-2692 | D. Michael Quinn papers | 
+ [beinecke.judson.xml](1313.xml) | beinecke.judson | WA MSS S-2695 | Nathan Judson papers | 
+ [beinecke.eberstadt.xml](1314.xml) | beinecke.eberstadt | WA MSS S-2698 | Edward Eberstadt & Sons records | 
+ [beinecke.ruger.xml](1315.xml) | beinecke.ruger | WA MSS S-2699 | Thomas Howard Ruger papers | 
+ [beinecke.ttwilliams.xml](1316.xml) | beinecke.ttwilliams | WA MSS S-2700 | Terry Tempest Williams papers | 
+ [beinecke.northwest.xml](1319.xml) | beinecke.northwest | WA MSS S-2704 | Northwestern Pacific Railroad Company records | 
+ [beinecke.greyz.xml](1320.xml) | beinecke.greyz | WA MSS S-2705 | Betty Zane Grosso collection of Zane and Dolly Grey papers | 
+ [beinecke.perkinsgc.xml](1321.xml) | beinecke.perkinsgc | WA MSS S-2706 | George Clement Perkins papers | 
+ [beinecke.kilpatrick.xml](1322.xml) | beinecke.kilpatrick | WA MSS S-2707 | Kilpatrick collection of Cherokee manuscripts | 
+ [beinecke.swett.xml](1323.xml) | beinecke.swett | WA MSS S-2708 | Leonard H. Swett papers | 
+ [beinecke.gornall.xml](1324.xml) | beinecke.gornall | WA MSS S-2715 | Lola Gornall papers | 
+ [beinecke.slotkin.xml](1325.xml) | beinecke.slotkin | WA MSS S-2716 | Richard Slotkin papers | 
+ [beinecke.westfilm.xml](1326.xml) | beinecke.westfilm | WA MSS S-2730 | Western film collection | 
+ [beinecke.palmquistmale.xml](1327.xml) | beinecke.palmquistmale | WA MSS S-2733 | Peter Palmquist collection of male photographers in the American west | 
+ [beinecke.yukon.xml](1328.xml) | beinecke.yukon | WA MSS S-2751 | Davies/Scroggie collection of Yukon correspondence and records | 
+ [beinecke.beineckefw.xml](1329.xml) | beinecke.beineckefw | WA MSS S-2760 | Frederick W. Beinecke collector's files | 
+ [beinecke.lutherwaters.xml](1368.xml) | beinecke.lutherwaters | WA MSS S-2735 | Tal Luther collection of Frank Waters printed materials and papers | 
  [beinecke.richardsl.xml](1543.xml) | beinecke.richardsl | JWJ MSS 176 | Lloyd Richards papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
@@ -304,6 +324,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.leeming.xml](5730.xml) | beinecke.leeming | JWJ MSS 172 | David Leeming Collection of James Baldwin Research | 
  [beinecke.brooksjs.xml](5738.xml) | beinecke.brooksjs | GEN MSS 1435 | John Sawyer Brooks papers | 
  [beinecke.rhoban.xml](5739.xml) | beinecke.rhoban | GEN MSS 1436 | Russell Hoban papers | 
+ [beinecke.ofallon.xml](5746.xml) | beinecke.ofallon | WA MSS S-2729 | O'Fallon family papers | 
  [beinecke.lyonl.xml](5749.xml) | beinecke.lyonl | JWJ MSS 173 | Leviticus Lyon Papers | 
  [beinecke.wordsworth.xml](5778.xml) | beinecke.wordsworth | GEN MSS 1262 | William Wordsworth collection | 
  [beinecke.chickswithdicks.xml](5783.xml) | beinecke.chickswithdicks | Bailey 18 | Transgender erotic pulp fiction collection from the series Chicks with dicks | 
@@ -318,6 +339,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.tdb.xml](5792.xml) | beinecke.tdb | Bailey 20 | Transgender erotic pulp fiction collection from an unnamed series numbered TDB | 
  [beinecke.transvestia.xml](5793.xml) | beinecke.transvestia | Bailey 10 | Transgender erotic pulp fiction collection from the series Transvestia | 
  [beinecke.dobsons.xml](5796.xml) | beinecke.dobsons | GEN MSS 409 | Silvia Dobson papers | 
+ [beinecke.greyzanecoll.xml](5799.xml) | beinecke.greyzanecoll | WA MSS S-2761 | Zane Grey collection | 
  [beinecke.bell.xml](5812.xml) | beinecke.bell | JWJ MSS 153 | [Drawings] | 
  [beinecke.century.xml](5813.xml) | beinecke.century | GEN MSS 1219 | [Walter L. Pforzheimer collection of Century Company illustrations]. | 
  [beinecke.newhaveneast.xml](5815.xml) | beinecke.newhaveneast | GEN MSS 1295 | New Haven East Association records | 
