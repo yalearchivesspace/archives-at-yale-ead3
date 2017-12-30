@@ -383,6 +383,19 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.tchubb.xml](1594.xml) | beinecke.tchubb | YCAL MSS 441 | Thomas Caldecot Chubb Papers | 
  [beinecke.hillhouse.xml](1597.xml) | beinecke.hillhouse | YCAL MSS 444 | James Abraham Hillhouse papers | 
  [beinecke.maclise.xml](1598.xml) | beinecke.maclise | YCAL MSS 445 | Angus MacLise sound recordings | 
+ [beinecke.hound.xml](1602.xml) | beinecke.hound | YCAL MSS 458 | Hound & Horn records | 
+ [beinecke.seeley.xml](1603.xml) | beinecke.seeley | YCAL MSS 459 | George H. Seeley papers and photographs | 
+ [beinecke.auchincl.xml](1605.xml) | beinecke.auchincl | YCAL MSS 460 | Louis Auchincloss collection | 
+ [beinecke.bristed.xml](1606.xml) | beinecke.bristed | YCAL MSS 462 | Charles Astor Bristed notebooks and other material | 
+ [beinecke.brush.xml](1607.xml) | beinecke.brush | YCAL MSS 463 | Katharine Brush papers | 
+ [beinecke.barney.xml](1609.xml) | beinecke.barney | YCAL MSS 466 | Danford Barney papers | 
+ [beinecke.fletcher.xml](1610.xml) | beinecke.fletcher | YCAL MSS 467 | John Gould Fletcher Collection | 
+ [beinecke.botsford.xml](1613.xml) | beinecke.botsford | YCAL MSS 471 | Keith Botsford papers | 
+ [beinecke.millerh.xml](1614.xml) | beinecke.millerh | YCAL MSS 472 | Henry Miller Papers | 
+ [beinecke.herbst.xml](1616.xml) | beinecke.herbst | YCAL MSS 474 | Josephine Herbst papers | 
+ [beinecke.grahamwa.xml](1619.xml) | beinecke.grahamwa | YCAL MSS 482 | William A. Graham collection of television scripts | 
+ [beinecke.leggett.xml](1621.xml) | beinecke.leggett | YCAL MSS 486 | John Leggett writings | 
+ [beinecke.davenport.xml](1623.xml) | beinecke.davenport | YCAL MSS 489 | Basil Davenport papers | 
  [beinecke.opstedal.xml](1702.xml) | beinecke.opstedal | YCAL MSS 1120 | Kevin Opstedal papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
@@ -430,6 +443,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.leeming.xml](5730.xml) | beinecke.leeming | JWJ MSS 172 | David Leeming Collection of James Baldwin Research | 
  [beinecke.brooksjs.xml](5738.xml) | beinecke.brooksjs | GEN MSS 1435 | John Sawyer Brooks papers | 
  [beinecke.rhoban.xml](5739.xml) | beinecke.rhoban | GEN MSS 1436 | Russell Hoban papers | 
+ [beinecke.harding.xml](5745.xml) | beinecke.harding | YCAL MSS 485 | Bertita Harding Writings | 
  [beinecke.ofallon.xml](5746.xml) | beinecke.ofallon | WA MSS S-2729 | O'Fallon family papers | 
  [beinecke.lyonl.xml](5749.xml) | beinecke.lyonl | JWJ MSS 173 | Leviticus Lyon Papers | 
  [beinecke.wordsworth.xml](5778.xml) | beinecke.wordsworth | GEN MSS 1262 | William Wordsworth collection | 
@@ -451,6 +465,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fisher.xml](5809.xml) | beinecke.fisher | WA MSS S-2823 | Robert B. Fisher photograph collection and papers | 
  [beinecke.bell.xml](5812.xml) | beinecke.bell | JWJ MSS 153 | [Drawings] | 
  [beinecke.century.xml](5813.xml) | beinecke.century | GEN MSS 1219 | [Walter L. Pforzheimer collection of Century Company illustrations]. | 
+ [beinecke.fordpl.xml](5814.xml) | beinecke.fordpl | YCAL MSS 488 | Paul Leicester Ford papers | 
  [beinecke.newhaveneast.xml](5815.xml) | beinecke.newhaveneast | GEN MSS 1295 | New Haven East Association records | 
  [beinecke.newhavenwest.xml](5816.xml) | beinecke.newhavenwest | GEN MSS 1296 | New Haven West Association records | 
  [beinecke.plowden.xml](5817.xml) | beinecke.plowden | WA MSS S-2957 | David Plowden photographs and papers | 
