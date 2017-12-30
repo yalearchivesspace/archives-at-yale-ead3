@@ -362,6 +362,16 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.parkerjr.xml](1546.xml) | beinecke.parkerjr | YCAL MSS 371 | James Reid Parker papers | 
  [beinecke.harrison.xml](1547.xml) | beinecke.harrison | YCAL MSS 372 | Gilbert A. Harrison papers relating to Thornton Wilder | 
  [beinecke.fuller.xml](1548.xml) | beinecke.fuller | YCAL MSS 373 | Margaret Fuller Papers | 
+ [beinecke.telescripts.xml](1553.xml) | beinecke.telescripts | YCAL MSS 383 | Television scripts collection | 
+ [beinecke.newman.xml](1554.xml) | beinecke.newman | YCAL MSS 384 | Paul Newman scripts and films | 
+ [beinecke.hayes.xml](1556.xml) | beinecke.hayes | YCAL MSS 386 | Nelson Hayes Papers | 
+ [beinecke.beer.xml](1558.xml) | beinecke.beer | YCAL MSS 389 | Thomas Beer Collection | 
+ [beinecke.msterne.xml](1559.xml) | beinecke.msterne | YCAL MSS 39 | Maurice Sterne papers | 
+ [beinecke.hagedorn.xml](1560.xml) | beinecke.hagedorn | YCAL MSS 391 | Hermann Hagedorn papers | 
+ [beinecke.hemingwaymw.xml](1561.xml) | beinecke.hemingwaymw | YCAL MSS 392 | Mary Welsh Hemingway papers | 
+ [beinecke.jonesmc.xml](1568.xml) | beinecke.jonesmc | YCAL MSS 409 | Mary Cadwalader Jones correspondence | 
+ [beinecke.barry.xml](1573.xml) | beinecke.barry | YCAL MSS 414 | Philip Barry papers | 
+ [beinecke.wharton.xml](1575.xml) | beinecke.wharton | YCAL MSS 42 | Edith Wharton collection | 
  [beinecke.opstedal.xml](1702.xml) | beinecke.opstedal | YCAL MSS 1120 | Kevin Opstedal papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
@@ -436,6 +446,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.williamsf.xml](5818.xml) | beinecke.williamsf | GEN MSS 1180 | Williams family papers | 
  [beinecke.academie.xml](5819.xml) | beinecke.academie | GEN MSS 1339 | Académie française autograph collection | 
  [beinecke.barker.xml](5820.xml) | beinecke.barker | GEN MSS 858 | George Barker collection | 
+ [beinecke.mackinstry.xml](5821.xml) | beinecke.mackinstry | YCAL MSS 408 | Elizabeth MacKinstry collection | 
  [beinecke.marston.xml](5822.xml) | beinecke.marston | GEN MSS 1341 | Thomas E. Marston family papers | 
  [beinecke.vansinderen.xml](5823.xml) | beinecke.vansinderen | GEN MSS 1362 | Alfred White Van Sinderen collection of Charles Babbage | 
  [beinecke.dunbarr.xml](5832.xml) | beinecke.dunbarr | JWJ MSS 174 | Rudolph Dunbar Papers | 
