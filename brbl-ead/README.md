@@ -422,6 +422,20 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hartley.xml](1669.xml) | beinecke.hartley | YCAL MSS 578 | Marsden Hartley collection | 
  [beinecke.fenton.xml](1670.xml) | beinecke.fenton | YCAL MSS 579 | Charles A. Fenton papers | 
  [beinecke.yenser.xml](1673.xml) | beinecke.yenser | YCAL MSS 581 | Stephen Yenser papers relating to James Merrill | 
+ [beinecke.deforestjw.xml](1674.xml) | beinecke.deforestjw | YCAL MSS 582 | De Forest family papers | 
+ [beinecke.day.xml](1675.xml) | beinecke.day | YCAL MSS 583 | Clarence Day collection | 
+ [beinecke.kennedyde.xml](1676.xml) | beinecke.kennedyde | YCAL MSS 588 | Daniel Edwards Kennedy collection | 
+ [beinecke.benedikt.xml](1677.xml) | beinecke.benedikt | YCAL MSS 589 | Michael Benedikt papers | 
+ [beinecke.howes.xml](1678.xml) | beinecke.howes | YCAL MSS 59 | Barbara Howes papers | 
+ [beinecke.oneilladd.xml](1679.xml) | beinecke.oneilladd | YCAL MSS 597 | Eugene O'Neill papers addition | 
+ [beinecke.poore.xml](1680.xml) | beinecke.poore | YCAL MSS 599 | Dudley Poore papers | 
+ [beinecke.littlefi.xml](1684.xml) | beinecke.littlefi | YCAL MSS 602 | William Horace Littlefield papers related to "Portrait Drawings of Poets, and Their Manuscripts" exhibition | 
+ [beinecke.irwin.xml](1685.xml) | beinecke.irwin | YCAL MSS 603 | Will Irwin and Inez Haynes Gillmore papers | 
+ [beinecke.shapiro.xml](1686.xml) | beinecke.shapiro | YCAL MSS 604 | Harvey Shapiro papers | 
+ [beinecke.foote.xml](1689.xml) | beinecke.foote | YCAL MSS 607 | Mary Foote papers | 
+ [beinecke.robinsonm.xml](1690.xml) | beinecke.robinsonm | YCAL MSS 609 | Marilynne Robinson papers | 
+ [beinecke.aldan.xml](1694.xml) | beinecke.aldan | YCAL MSS 613 | Daisy Aldan papers | 
+ [beinecke.ireland.xml](1697.xml) | beinecke.ireland | YCAL MSS 621 | Joseph Norton Ireland papers | 
  [beinecke.opstedal.xml](1702.xml) | beinecke.opstedal | YCAL MSS 1120 | Kevin Opstedal papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
@@ -513,6 +527,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.nwcompany.xml](5879.xml) | beinecke.nwcompany | WA MSS S-3238 | North West Company voyageur contracts | 
  [beinecke.nuland.xml](5883.xml) | beinecke.nuland | YCAL MSS 1113 | Sherwin B. Nuland papers | 
  [beinecke.benetfamily.xml](5886.xml) | beinecke.benetfamily | YCAL MSS 1107 | Benét Family Papers | 
+ [beinecke.magowan.xml](5889.xml) | beinecke.magowan | YCAL MSS 612 | Robin Magowan papers | 
  [beinecke.vaneigem.xml](5893.xml) | beinecke.vaneigem | GEN MSS 1455 | Raoul Vaneigem papers | 
  [beinecke.vanvechtjwj.xml](10402.xml) | beinecke.vanvechtjwj | JWJ MSS 1050 | Carl Van Vechten Papers Relating to African American Arts and Letters | 
  [beinecke.vanvecht.xml](10403.xml) | beinecke.vanvecht | YCAL MSS 1050 | Carl Van Vechten Papers | 
@@ -523,6 +538,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.tradecats.xml](10747.xml) | beinecke.tradecats | Uai Trade Catalogs | Trade catalogs collection. | 
  [beinecke.halversongd.xml](10757.xml) | beinecke.halversongd | GEN MSS 998 | Photographs of the Garment District in New York City | 
  [beinecke.benetfamcol.xml](10764.xml) | beinecke.benetfamcol | YCAL MSS 1108 | Benét Family Collection | 
+ [beinecke.astrong.xml](10767.xml) | beinecke.astrong | YCAL MSS 619 | Austin Strong papers | 
  [beinecke.bohna.xml](10782.xml) | beinecke.bohna | WA MSS S-2673 | Bohna Family Correspondence | 
  [beinecke.nees.xml](10783.xml) | beinecke.nees | GEN MSS 1465 | A. Nees & Co. decorative paper sample books | 
  [beinecke.belangerriftfault.xml](10802.xml) | beinecke.belangerriftfault | WA Photos Folio 173 | Rift/Fault | 
