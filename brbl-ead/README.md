@@ -472,6 +472,19 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.leavitt.xml](1761.xml) | beinecke.leavitt | YCAL MSS 724 | David Leavitt papers | 
  [beinecke.gurney.xml](1765.xml) | beinecke.gurney | YCAL MSS 728 | A. R. Gurney papers | 
  [beinecke.ohara.xml](1766.xml) | beinecke.ohara | YCAL MSS 729 | John O'Hara papers | 
+ [beinecke.towle.xml](1773.xml) | beinecke.towle | YCAL MSS 745 | Tony Towle papers | 
+ [beinecke.teasdale.xml](1774.xml) | beinecke.teasdale | YCAL MSS 746 | Sara Teasdale collection | 
+ [beinecke.cole.xml](1777.xml) | beinecke.cole | YCAL MSS 749 | Nancy Cole Papers | 
+ [beinecke.coxm.xml](1779.xml) | beinecke.coxm | YCAL MSS 750 | Marian Cox Papers | 
+ [beinecke.macleodcoll.xml](1780.xml) | beinecke.macleodcoll | YCAL MSS 751 | Norman Macleod Collection | 
+ [beinecke.hacker.xml](1782.xml) | beinecke.hacker | YCAL MSS 753 | Marilyn Hacker Papers | 
+ [beinecke.mydans.xml](1783.xml) | beinecke.mydans | YCAL MSS 754 | Carl and Shelley Smith Mydans papers | 
+ [beinecke.williamsj.xml](1787.xml) | beinecke.williamsj | YCAL MSS 757 | Jonathan Williams photographs | 
+ [beinecke.winick.xml](1788.xml) | beinecke.winick | YCAL MSS 758 | Eugene Winick papers relating to Eugene O'Neill | 
+ [beinecke.picano.xml](1791.xml) | beinecke.picano | YCAL MSS 761 | Felice Picano papers | 
+ [beinecke.merkin.xml](1792.xml) | beinecke.merkin | YCAL MSS 762 | Richard Merkin collection | 
+ [beinecke.leighton.xml](1795.xml) | beinecke.leighton | YCAL MSS 766 | Isabel Leighton papers | 
+ [beinecke.mullins.xml](1796.xml) | beinecke.mullins | YCAL MSS 767 | Helene Mullins and Marie McCall papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
  [beinecke.svbenet.xml](5313.xml) | beinecke.svbenet | YCAL MSS 1046 | Stephen Vincent Benét and Rosemary Benét papers | 
