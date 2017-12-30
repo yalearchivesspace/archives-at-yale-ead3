@@ -231,6 +231,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.obrien.xml](997.xml) | beinecke.obrien | JWJ MSS 99 | Peter F. O'Brien collection on African American artists | 
  [beinecke.jwjmiscellany.xml](998.xml) | beinecke.jwjmiscellany | JWJ MSS MISC | James Weldon Johnson Collection manuscript miscellany | 
  [beinecke.monteverdi.xml](1002.xml) | beinecke.monteverdi | Monteverdi 2 | Manuscripts in the Albi Rosenthal collection of Monteverdi and the birth of opera | 
+ [beinecke.steichenfamily.xml](1006.xml) | beinecke.steichenfamily | YCAL MSS 1080 | Steichen family papers | 
  [beinecke.ndy10.xml](1008.xml) | beinecke.ndy10 | Ndy10 | Miscellaneous financial materials concerning farm corporations operating in the North American West | 
  [beinecke.ndy32.xml](1009.xml) | beinecke.ndy32 | Ndy32 | Miscellaneous financial materials concerning gold and silver mining companies operating in the North American West | 
  [beinecke.ndy33.xml](1010.xml) | beinecke.ndy33 | Ndy33 | Miscellaneous financial materials concerning copper and aluminum mining companies operating in the North American West | 
@@ -335,9 +336,16 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.halverson.xml](1386.xml) | beinecke.halverson | WA Photos Folio 75 | Photographs of the American West. | 
  [beinecke.ottenstein.xml](1387.xml) | beinecke.ottenstein | WA Photos Folio 82 | David Ottenstein Photographs of Iowa. | 
  [beinecke.phrenology.xml](1394.xml) | beinecke.phrenology | YCAL MSS 1000 | Fowler & Wells Portrait Posters for Physiognomy Lectures | 
+ [beinecke.wildercopies.xml](1396.xml) | beinecke.wildercopies | YCAL MSS 1006 | Wilder family correspondence | 
+ [beinecke.stedmanec.xml](1397.xml) | beinecke.stedmanec | YCAL MSS 1008 | Edmund Clarence Stedman Collection | 
+ [beinecke.dreier.xml](1398.xml) | beinecke.dreier | YCAL MSS 101 | Katherine S. Dreier papers / Société Anonyme archive | 
+ [beinecke.racohen.xml](1399.xml) | beinecke.racohen | YCAL MSS 1025 | Richard Aaron collection of Ira Cohen | 
+ [beinecke.pearsonawr.xml](1400.xml) | beinecke.pearsonawr | YCAL MSS 1031 | Norman Holmes Pearson Collection of “Art for the Wrong Reason” | 
+ [beinecke.johnson.xml](1404.xml) | beinecke.johnson | YCAL MSS 11 | Owen Johnson papers | 
  [beinecke.richardsl.xml](1543.xml) | beinecke.richardsl | JWJ MSS 176 | Lloyd Richards papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
+ [beinecke.svbenet.xml](5313.xml) | beinecke.svbenet | YCAL MSS 1046 | Stephen Vincent Benét and Rosemary Benét papers | 
  [beinecke.westtheater.xml](5318.xml) | beinecke.westtheater | WA MSS S-3071 | Western Theater Souvenir Program Collection | 
  [beinecke.nevada.xml](5319.xml) | beinecke.nevada | WA MSS S-3072 | Nevada Legislature records | 
  [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
@@ -345,6 +353,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.noble.xml](5361.xml) | beinecke.noble | WA Photos Folio 142 | David Grant Noble Photographs of Southwestern Cultural Landscapes | 
  [beinecke.genmusmisc.xml](5397.xml) | beinecke.genmusmisc | GEN MSS MUSIC MISC | General Collection manuscript music miscellany | 
  [beinecke.berlandi.xml](5452.xml) | beinecke.berlandi | WA MSS S-300 | Jean Louis Berlandier papers | 
+ [beinecke.watkins.xml](5459.xml) | beinecke.watkins | YCAL MSS 1079 | Maurine Watkins papers | 
  [beinecke.allen.xml](5460.xml) | beinecke.allen | GEN MSS 1401 | Nathaniel T. Allen collection | 
  [beinecke.linnell.xml](5462.xml) | beinecke.linnell | GEN MSS 1396 | Tracings of illustrations by William Blake for Dante's Divina Commedia. | 
  [beinecke.hardycol.xml](5464.xml) | beinecke.hardycol | GEN MSS 307 | Thomas Hardy collection | 
@@ -352,15 +361,22 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.smithd.xml](5467.xml) | beinecke.smithd | GEN MSS 1399 | David Smith Papers | 
  [beinecke.tully.xml](5474.xml) | beinecke.tully | GEN MSS 1403 | William Tully Papers | 
  [beinecke.howeh.xml](5476.xml) | beinecke.howeh | GEN MSS 1365 | Hezekiah Howe Papers | 
+ [beinecke.berssenbrugge.xml](5486.xml) | beinecke.berssenbrugge | YCAL MSS 1082 | Mei-Mei Berssenbrugge papers | 
  [beinecke.lintoncook.xml](5488.xml) | beinecke.lintoncook | GEN MSS 1406 | Grace Linton Cook Papers About W. J. Linton | 
  [beinecke.bwi.xml](5491.xml) | beinecke.bwi | GEN MSS 1412 | British Caribbean Documents | 
+ [beinecke.cnorth.xml](5494.xml) | beinecke.cnorth | YCAL MSS 1091 | Charles North papers | 
  [beinecke.wickgrandville.xml](5506.xml) | beinecke.wickgrandville | GEN MSS 1301 | Peter A. Wick Collection of J. J. Grandville | 
  [beinecke.etter.xml](5515.xml) | beinecke.etter | WA MSS S-3137 | Patricia A. Etter Research Files for California Odyssey | 
  [beinecke.cranectp.xml](5556.xml) | beinecke.cranectp | GEN MSS 1386 | Catharine T. Patterson Collection of Walter Crane | 
  [beinecke.cranecoll.xml](5569.xml) | beinecke.cranecoll | GEN MSS 1418 | Walter Crane Collection | 
  [beinecke.lintonmather.xml](5570.xml) | beinecke.lintonmather | GEN MSS 1387 | W. J. Linton Collection | 
+ [beinecke.hokinson.xml](5573.xml) | beinecke.hokinson | YCAL MSS 1084 | Helen E. Hokinson Cartoons for The New Yorker | 
+ [beinecke.killianbellamy.xml](5603.xml) | beinecke.killianbellamy | YCAL MSS 1090 | Kevin Killian and Dodie Bellamy papers | 
  [beinecke.alaska.xml](5642.xml) | beinecke.alaska | WA MSS S-3176 | Alaska manuscripts collection | 
+ [beinecke.goodell.xml](5662.xml) | beinecke.goodell | YCAL MSS 1095 | Larry Goodell papers | 
  [beinecke.internationalsyndicate.xml](5678.xml) | beinecke.internationalsyndicate | GEN MSS 1425 | International Syndicate records | 
+ [beinecke.gioseffi.xml](5679.xml) | beinecke.gioseffi | YCAL MSS 1096 | Daniela Gioseffi papers | 
+ [beinecke.alexander.xml](5685.xml) | beinecke.alexander | YCAL MSS 1098 | Michael Alexander papers | 
  [beinecke.watie.xml](5687.xml) | beinecke.watie | WA MSS S-3204 | Stand Watie papers | 
  [beinecke.viennaaustria.xml](5688.xml) | beinecke.viennaaustria | GEN MSS 1423 | Prints and drawings of Viennese and Austrian scenes | 
  [beinecke.gamzu.xml](5691.xml) | beinecke.gamzu | GEN MSS 1426 | Haim Gamzu Collection of Israeli Theater | 
@@ -369,6 +385,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.achurch.xml](5707.xml) | beinecke.achurch | GEN MSS 215 | Janet Achurch and Charles Charrington Correspondence | 
  [beinecke.meservekunhardt.xml](5714.xml) | beinecke.meservekunhardt | GEN MSS 1430 | Meserve-Kunhardt collection | 
  [beinecke.nuclearlandscapes.xml](5718.xml) | beinecke.nuclearlandscapes | WA Photos Folio 163 | Peter Goin, Nuclear Landscapes: Portfolio of Forty-Four Photographs and Trinity Panorama. | 
+ [beinecke.lewisleg.xml](5727.xml) | beinecke.lewisleg | YCAL MSS 1104 | Legal Records Relating to Sinclair Lewis | 
  [beinecke.leeming.xml](5730.xml) | beinecke.leeming | JWJ MSS 172 | David Leeming Collection of James Baldwin Research | 
  [beinecke.brooksjs.xml](5738.xml) | beinecke.brooksjs | GEN MSS 1435 | John Sawyer Brooks papers | 
  [beinecke.rhoban.xml](5739.xml) | beinecke.rhoban | GEN MSS 1436 | Russell Hoban papers | 
@@ -403,12 +420,16 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.dunbarr.xml](5832.xml) | beinecke.dunbarr | JWJ MSS 174 | Rudolph Dunbar Papers | 
  [beinecke.olsen.xml](5837.xml) | beinecke.olsen | WA MSS S-3230 | Robert Olsen papers | 
  [beinecke.lacomblez.xml](5839.xml) | beinecke.lacomblez | GEN MSS 1437 | Jacques Lacomblez papers | 
+ [beinecke.goldstone.xml](5840.xml) | beinecke.goldstone | YCAL MSS 1106 | Richard Henry Goldstone Papers | 
+ [beinecke.wrbenet.xml](5845.xml) | beinecke.wrbenet | YCAL MSS 1100 | William Rose Benét Papers | 
  [beinecke.tellefsen.xml](5848.xml) | beinecke.tellefsen | GEN MSS 1431 | Lisbet Tellefsen papers | 
  [beinecke.pryor.xml](5860.xml) | beinecke.pryor | JWJ MSS 179 | Richard Pryor collection | 
  [beinecke.bourneg.xml](5871.xml) | beinecke.bourneg | Gen MSS 1438 | Bourne Family Papers | 
  [beinecke.nwcompany.xml](5879.xml) | beinecke.nwcompany | WA MSS S-3238 | North West Company voyageur contracts | 
+ [beinecke.benetfamily.xml](5886.xml) | beinecke.benetfamily | YCAL MSS 1107 | Benét Family Papers | 
  [beinecke.vaneigem.xml](5893.xml) | beinecke.vaneigem | GEN MSS 1455 | Raoul Vaneigem papers | 
  [beinecke.vanvechtjwj.xml](10402.xml) | beinecke.vanvechtjwj | JWJ MSS 1050 | Carl Van Vechten Papers Relating to African American Arts and Letters | 
+ [beinecke.vanvecht.xml](10403.xml) | beinecke.vanvecht | YCAL MSS 1050 | Carl Van Vechten Papers | 
  [beinecke.bory.xml](10656.xml) | beinecke.bory | GEN MSS 1460 | Jean-François Bory Papers | 
  [beinecke.plauchut.xml](10702.xml) | beinecke.plauchut | GEN MSS 1462 | Edmond Plauchut Papers | 
  [beinecke.sandm.xml](10703.xml) | beinecke.sandm | GEN MSS 1463 | Maurice Sand Papers | 
