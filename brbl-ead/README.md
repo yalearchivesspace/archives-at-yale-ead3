@@ -485,6 +485,19 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.merkin.xml](1792.xml) | beinecke.merkin | YCAL MSS 762 | Richard Merkin collection | 
  [beinecke.leighton.xml](1795.xml) | beinecke.leighton | YCAL MSS 766 | Isabel Leighton papers | 
  [beinecke.mullins.xml](1796.xml) | beinecke.mullins | YCAL MSS 767 | Helene Mullins and Marie McCall papers | 
+ [beinecke.page.xml](1799.xml) | beinecke.page | YCAL MSS 774 | Geraldine Page papers | 
+ [beinecke.burke.xml](1801.xml) | beinecke.burke | YCAL MSS 778 | Carolyn Burke Collection on Mina Loy and Lee Miller | 
+ [beinecke.perkins.xml](1803.xml) | beinecke.perkins | YCAL MSS 782 | Mardette Perkins papers | 
+ [beinecke.davisone.xml](1804.xml) | beinecke.davisone | YCAL MSS 787 | Edward Davison Papers | 
+ [beinecke.mordecai.xml](1806.xml) | beinecke.mordecai | YCAL MSS 790 | Benjamin Mordecai papers | 
+ [beinecke.gill.xml](1807.xml) | beinecke.gill | YCAL MSS 791 | Brendan Gill papers | 
+ [beinecke.smithhar.xml](1809.xml) | beinecke.smithhar | YCAL MSS 793 | Harrison Smith papers | 
+ [beinecke.mencken.xml](1810.xml) | beinecke.mencken | YCAL MSS 794 | H. L. Mencken collection | 
+ [beinecke.pyke.xml](1811.xml) | beinecke.pyke | YCAL MSS 798 | Set design drawings for the film Mourning Becomes Electra. | 
+ [beinecke.malanga.xml](1816.xml) | beinecke.malanga | YCAL MSS 813 | Gerard Malanga Papers | 
+ [beinecke.yalepoetryreview.xml](1818.xml) | beinecke.yalepoetryreview | YCAL MSS 819 | <title render="italic">Yale Poetry Review</title> records | 
+ [beinecke.wrightcd.xml](1820.xml) | beinecke.wrightcd | YCAL MSS 820 | C. D. Wright papers | 
+ [beinecke.kroll.xml](1822.xml) | beinecke.kroll | YCAL MSS 826 | Lucy Kroll papers relating to Lynn Riggs | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
  [beinecke.svbenet.xml](5313.xml) | beinecke.svbenet | YCAL MSS 1046 | Stephen Vincent Benét and Rosemary Benét papers | 
@@ -590,5 +603,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.astrong.xml](10767.xml) | beinecke.astrong | YCAL MSS 619 | Austin Strong papers | 
  [beinecke.bohna.xml](10782.xml) | beinecke.bohna | WA MSS S-2673 | Bohna Family Correspondence | 
  [beinecke.nees.xml](10783.xml) | beinecke.nees | GEN MSS 1465 | A. Nees & Co. decorative paper sample books | 
+ [beinecke.momaday.xml](10796.xml) | beinecke.momaday | YCAL MSS 807 | N. Scott Momaday papers | 
  [beinecke.belangerriftfault.xml](10802.xml) | beinecke.belangerriftfault | WA Photos Folio 173 | Rift/Fault | 
 
