@@ -396,6 +396,15 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.grahamwa.xml](1619.xml) | beinecke.grahamwa | YCAL MSS 482 | William A. Graham collection of television scripts | 
  [beinecke.leggett.xml](1621.xml) | beinecke.leggett | YCAL MSS 486 | John Leggett writings | 
  [beinecke.davenport.xml](1623.xml) | beinecke.davenport | YCAL MSS 489 | Basil Davenport papers | 
+ [beinecke.browncather.xml](1625.xml) | beinecke.browncather | YCAL MSS 490 | Edward Killoran Brown collection of Willa Cather | 
+ [beinecke.mitchell.xml](1627.xml) | beinecke.mitchell | YCAL MSS 492 | Donald Grant Mitchell papers | 
+ [beinecke.lindsay.xml](1628.xml) | beinecke.lindsay | YCAL MSS 493 | Vachel Lindsay collection | 
+ [beinecke.powel.xml](1629.xml) | beinecke.powel | YCAL MSS 494 | Robert J. Hare Powel papers | 
+ [beinecke.dunlap.xml](1632.xml) | beinecke.dunlap | YCAL MSS 498 | William Dunlap collection | 
+ [beinecke.fielde.xml](1636.xml) | beinecke.fielde | YCAL MSS 508 | Eugene Field collection | 
+ [beinecke.fieldr.xml](1637.xml) | beinecke.fieldr | YCAL MSS 509 | Rachel Field collection | 
+ [beinecke.crews.xml](1643.xml) | beinecke.crews | YCAL MSS 536 | Judson Crews papers | 
+ [beinecke.bevan.xml](1644.xml) | beinecke.bevan | YCAL MSS 537 | Frank Poole Bevan Papers | 
  [beinecke.opstedal.xml](1702.xml) | beinecke.opstedal | YCAL MSS 1120 | Kevin Opstedal papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
