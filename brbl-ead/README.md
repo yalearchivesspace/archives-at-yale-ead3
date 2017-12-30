@@ -320,6 +320,21 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.westernpostcards.xml](1356.xml) | beinecke.westernpostcards | WA MSS S-3014 | Western postcard collection | 
  [beinecke.guajardo.xml](1365.xml) | beinecke.guajardo | WA MSS S-668 | Luis Alberto Guajardo Papers on the History of Coahuila | 
  [beinecke.lutherwaters.xml](1368.xml) | beinecke.lutherwaters | WA MSS S-2735 | Tal Luther collection of Frank Waters printed materials and papers | 
+ [beinecke.brooksah.xml](1372.xml) | beinecke.brooksah | WA Photos 444 | Alfred Hulse Brooks photographs and papers | 
+ [beinecke.lewisjon.xml](1373.xml) | beinecke.lewisjon | WA Photos 466 | Jon Lewis photographs of the United Farm Workers movement | 
+ [beinecke.germack.xml](1374.xml) | beinecke.germack | WA Photos 483 | Victor F. Germack and Lori Shepard Germack Collection of Photographs of Indians of North America. | 
+ [beinecke.asianamericans.xml](1375.xml) | beinecke.asianamericans | WA Photos 485 | Photographs of Asian Americans. | 
+ [beinecke.aronow.xml](1376.xml) | beinecke.aronow | WA Photos 488 | Abraham Aronow photographs. | 
+ [beinecke.palmquistformats.xml](1377.xml) | beinecke.palmquistformats | WA Photos 495 | Peter E. Palmquist collection of photography and photographic formats | 
+ [beinecke.hook.xml](1378.xml) | beinecke.hook | WA Photos 511 | W. E. Hook photographs of Colorado, New Mexico, and Texas. | 
+ [beinecke.irwinwilliame.xml](1379.xml) | beinecke.irwinwilliame | WA Photos 516 | William E. Irwin Photographs collection. | 
+ [beinecke.palmquistphotos.xml](1380.xml) | beinecke.palmquistphotos | WA Photos 524 | Peter E. Palmquist photographs | 
+ [beinecke.waphotosfile.xml](1381.xml) | beinecke.waphotosfile | WA Photos File | Western Americana card photograph file. | 
+ [beinecke.luckowenwpf151.xml](1382.xml) | beinecke.luckowenwpf151 | WA Photos Folio 151 | Owen Luck Photographs of Alaska and Haida Gwaii | 
+ [beinecke.belanger.xml](1384.xml) | beinecke.belanger | WA Photos Folio 153 | Marion Belanger photographs | 
+ [beinecke.halverson.xml](1386.xml) | beinecke.halverson | WA Photos Folio 75 | Photographs of the American West. | 
+ [beinecke.ottenstein.xml](1387.xml) | beinecke.ottenstein | WA Photos Folio 82 | David Ottenstein Photographs of Iowa. | 
+ [beinecke.phrenology.xml](1394.xml) | beinecke.phrenology | YCAL MSS 1000 | Fowler & Wells Portrait Posters for Physiognomy Lectures | 
  [beinecke.richardsl.xml](1543.xml) | beinecke.richardsl | JWJ MSS 176 | Lloyd Richards papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
@@ -327,6 +342,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.nevada.xml](5319.xml) | beinecke.nevada | WA MSS S-3072 | Nevada Legislature records | 
  [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
  [beinecke.lyons.xml](5354.xml) | beinecke.lyons | GEN MSS 1360 | Donald Lyons papers | 
+ [beinecke.noble.xml](5361.xml) | beinecke.noble | WA Photos Folio 142 | David Grant Noble Photographs of Southwestern Cultural Landscapes | 
  [beinecke.genmusmisc.xml](5397.xml) | beinecke.genmusmisc | GEN MSS MUSIC MISC | General Collection manuscript music miscellany | 
  [beinecke.berlandi.xml](5452.xml) | beinecke.berlandi | WA MSS S-300 | Jean Louis Berlandier papers | 
  [beinecke.allen.xml](5460.xml) | beinecke.allen | GEN MSS 1401 | Nathaniel T. Allen collection | 
@@ -352,6 +368,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.rprice.xml](5699.xml) | beinecke.rprice | WA MSS S-3208 | Roberta Price papers and photographs | 
  [beinecke.achurch.xml](5707.xml) | beinecke.achurch | GEN MSS 215 | Janet Achurch and Charles Charrington Correspondence | 
  [beinecke.meservekunhardt.xml](5714.xml) | beinecke.meservekunhardt | GEN MSS 1430 | Meserve-Kunhardt collection | 
+ [beinecke.nuclearlandscapes.xml](5718.xml) | beinecke.nuclearlandscapes | WA Photos Folio 163 | Peter Goin, Nuclear Landscapes: Portfolio of Forty-Four Photographs and Trinity Panorama. | 
  [beinecke.leeming.xml](5730.xml) | beinecke.leeming | JWJ MSS 172 | David Leeming Collection of James Baldwin Research | 
  [beinecke.brooksjs.xml](5738.xml) | beinecke.brooksjs | GEN MSS 1435 | John Sawyer Brooks papers | 
  [beinecke.rhoban.xml](5739.xml) | beinecke.rhoban | GEN MSS 1436 | Russell Hoban papers | 
@@ -369,6 +386,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.shemales.xml](5791.xml) | beinecke.shemales | Bailey 5 | Transgender erotic pulp fiction collection from the series She males | 
  [beinecke.tdb.xml](5792.xml) | beinecke.tdb | Bailey 20 | Transgender erotic pulp fiction collection from an unnamed series numbered TDB | 
  [beinecke.transvestia.xml](5793.xml) | beinecke.transvestia | Bailey 10 | Transgender erotic pulp fiction collection from the series Transvestia | 
+ [beinecke.catalogs.xml](5794.xml) | beinecke.catalogs | X346 | Antiquarian bookseller catalog collection. | 
  [beinecke.dobsons.xml](5796.xml) | beinecke.dobsons | GEN MSS 409 | Silvia Dobson papers | 
  [beinecke.greyzanecoll.xml](5799.xml) | beinecke.greyzanecoll | WA MSS S-2761 | Zane Grey collection | 
  [beinecke.fisher.xml](5809.xml) | beinecke.fisher | WA MSS S-2823 | Robert B. Fisher photograph collection and papers | 
@@ -394,8 +412,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bory.xml](10656.xml) | beinecke.bory | GEN MSS 1460 | Jean-François Bory Papers | 
  [beinecke.plauchut.xml](10702.xml) | beinecke.plauchut | GEN MSS 1462 | Edmond Plauchut Papers | 
  [beinecke.sandm.xml](10703.xml) | beinecke.sandm | GEN MSS 1463 | Maurice Sand Papers | 
+ [beinecke.adamsharry.xml](10724.xml) | beinecke.adamsharry | WA Photos 589 | Harry Adams photographs | 
  [beinecke.tradecats.xml](10747.xml) | beinecke.tradecats | Uai Trade Catalogs | Trade catalogs collection. | 
  [beinecke.halversongd.xml](10757.xml) | beinecke.halversongd | GEN MSS 998 | Photographs of the Garment District in New York City | 
  [beinecke.bohna.xml](10782.xml) | beinecke.bohna | WA MSS S-2673 | Bohna Family Correspondence | 
  [beinecke.nees.xml](10783.xml) | beinecke.nees | GEN MSS 1465 | A. Nees & Co. decorative paper sample books | 
+ [beinecke.belangerriftfault.xml](10802.xml) | beinecke.belangerriftfault | WA Photos Folio 173 | Rift/Fault | 
 
