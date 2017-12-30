@@ -498,6 +498,21 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.yalepoetryreview.xml](1818.xml) | beinecke.yalepoetryreview | YCAL MSS 819 | <title render="italic">Yale Poetry Review</title> records | 
  [beinecke.wrightcd.xml](1820.xml) | beinecke.wrightcd | YCAL MSS 820 | C. D. Wright papers | 
  [beinecke.kroll.xml](1822.xml) | beinecke.kroll | YCAL MSS 826 | Lucy Kroll papers relating to Lynn Riggs | 
+ [beinecke.seligmann.xml](1823.xml) | beinecke.seligmann | YCAL MSS 827 | Kurt Seligmann papers | 
+ [beinecke.jamesh.xml](1825.xml) | beinecke.jamesh | YCAL MSS 830 | Henry James collection | 
+ [beinecke.runyon.xml](1827.xml) | beinecke.runyon | YCAL MSS 832 | Damon Runyon Papers | 
+ [beinecke.laurenced.xml](1828.xml) | beinecke.laurenced | YCAL MSS 834 | Dan H. Laurence Collection of Henry James | 
+ [beinecke.rorty.xml](1829.xml) | beinecke.rorty | YCAL MSS 835 | James Rorty papers | 
+ [beinecke.gallup.xml](1832.xml) | beinecke.gallup | YCAL MSS 838 | Donald Clifford Gallup papers | 
+ [beinecke.horgan.xml](1835.xml) | beinecke.horgan | YCAL MSS 845 | Paul Horgan papers | 
+ [beinecke.fordr.xml](1836.xml) | beinecke.fordr | YCAL MSS 847 | Ruth Ford papers | 
+ [beinecke.paddock.xml](1837.xml) | beinecke.paddock | YCAL MSS 848 | Willard Dryden Paddock photographs and papers | 
+ [beinecke.sok.xml](1839.xml) | beinecke.sok | YCAL MSS 85 | Alfred Stieglitz / Georgia O'Keeffe archive | 
+ [beinecke.clemenss.xml](1841.xml) | beinecke.clemenss | YCAL MSS 852 | Samuel Langhorne Clemens Collection | 
+ [beinecke.kore.xml](1842.xml) | beinecke.kore | YCAL MSS 854 | Kore Press Archive | 
+ [beinecke.millerj.xml](1843.xml) | beinecke.millerj | YCAL MSS 861 | Joaquin Miller Collection | 
+ [beinecke.bryd.xml](1846.xml) | beinecke.bryd | YCAL MSS 865 | Doris Bry papers | 
+ [beinecke.selden.xml](1847.xml) | beinecke.selden | YCAL MSS 866 | Albert Selden papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
  [beinecke.svbenet.xml](5313.xml) | beinecke.svbenet | YCAL MSS 1046 | Stephen Vincent Benét and Rosemary Benét papers | 
@@ -566,6 +581,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.greyzanecoll.xml](5799.xml) | beinecke.greyzanecoll | WA MSS S-2761 | Zane Grey collection | 
  [beinecke.vfisher.xml](5808.xml) | beinecke.vfisher | YCAL MSS 555 | Vardis Fisher Papers | 
  [beinecke.fisher.xml](5809.xml) | beinecke.fisher | WA MSS S-2823 | Robert B. Fisher photograph collection and papers | 
+ [beinecke.haas.xml](5811.xml) | beinecke.haas | YCAL MSS 833 | Robert Bartlett Haas collection on Gertrude Stein and the Conference Press | 
  [beinecke.bell.xml](5812.xml) | beinecke.bell | JWJ MSS 153 | [Drawings] | 
  [beinecke.century.xml](5813.xml) | beinecke.century | GEN MSS 1219 | [Walter L. Pforzheimer collection of Century Company illustrations]. | 
  [beinecke.fordpl.xml](5814.xml) | beinecke.fordpl | YCAL MSS 488 | Paul Leicester Ford papers | 
