@@ -342,7 +342,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.racohen.xml](1399.xml) | beinecke.racohen | YCAL MSS 1025 | Richard Aaron collection of Ira Cohen | 
  [beinecke.pearsonawr.xml](1400.xml) | beinecke.pearsonawr | YCAL MSS 1031 | Norman Holmes Pearson Collection of “Art for the Wrong Reason” | 
  [beinecke.johnson.xml](1404.xml) | beinecke.johnson | YCAL MSS 11 | Owen Johnson papers | 
+ [beinecke.collins.xml](1407.xml) | beinecke.collins | YCAL MSS 12 | Seward Collins papers | 
+ [beinecke.mwheeler.xml](1415.xml) | beinecke.mwheeler | YCAL MSS 136 | Monroe Wheeler papers | 
  [beinecke.richardsl.xml](1543.xml) | beinecke.richardsl | JWJ MSS 176 | Lloyd Richards papers | 
+ [beinecke.opstedal.xml](1702.xml) | beinecke.opstedal | YCAL MSS 1120 | Kevin Opstedal papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
  [beinecke.svbenet.xml](5313.xml) | beinecke.svbenet | YCAL MSS 1046 | Stephen Vincent Benét and Rosemary Benét papers | 
@@ -426,6 +429,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.pryor.xml](5860.xml) | beinecke.pryor | JWJ MSS 179 | Richard Pryor collection | 
  [beinecke.bourneg.xml](5871.xml) | beinecke.bourneg | Gen MSS 1438 | Bourne Family Papers | 
  [beinecke.nwcompany.xml](5879.xml) | beinecke.nwcompany | WA MSS S-3238 | North West Company voyageur contracts | 
+ [beinecke.nuland.xml](5883.xml) | beinecke.nuland | YCAL MSS 1113 | Sherwin B. Nuland papers | 
  [beinecke.benetfamily.xml](5886.xml) | beinecke.benetfamily | YCAL MSS 1107 | Benét Family Papers | 
  [beinecke.vaneigem.xml](5893.xml) | beinecke.vaneigem | GEN MSS 1455 | Raoul Vaneigem papers | 
  [beinecke.vanvechtjwj.xml](10402.xml) | beinecke.vanvechtjwj | JWJ MSS 1050 | Carl Van Vechten Papers Relating to African American Arts and Letters | 
@@ -436,6 +440,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.adamsharry.xml](10724.xml) | beinecke.adamsharry | WA Photos 589 | Harry Adams photographs | 
  [beinecke.tradecats.xml](10747.xml) | beinecke.tradecats | Uai Trade Catalogs | Trade catalogs collection. | 
  [beinecke.halversongd.xml](10757.xml) | beinecke.halversongd | GEN MSS 998 | Photographs of the Garment District in New York City | 
+ [beinecke.benetfamcol.xml](10764.xml) | beinecke.benetfamcol | YCAL MSS 1108 | Benét Family Collection | 
  [beinecke.bohna.xml](10782.xml) | beinecke.bohna | WA MSS S-2673 | Bohna Family Correspondence | 
  [beinecke.nees.xml](10783.xml) | beinecke.nees | GEN MSS 1465 | A. Nees & Co. decorative paper sample books | 
  [beinecke.belangerriftfault.xml](10802.xml) | beinecke.belangerriftfault | WA Photos Folio 173 | Rift/Fault | 
