@@ -350,6 +350,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.sherman.xml](1463.xml) | beinecke.sherman | YCAL MSS 224 | William David Sherman papers | 
  [beinecke.jennett.xml](1466.xml) | beinecke.jennett | YCAL MSS 231 | Matthew Jennett papers | 
  [beinecke.welch.xml](1471.xml) | beinecke.welch | YCAL MSS 248 | James Welch papers | 
+ [beinecke.nathanr.xml](1512.xml) | beinecke.nathanr | YCAL MSS 307 | Robert Nathan papers | 
  [beinecke.richardsl.xml](1543.xml) | beinecke.richardsl | JWJ MSS 176 | Lloyd Richards papers | 
  [beinecke.opstedal.xml](1702.xml) | beinecke.opstedal | YCAL MSS 1120 | Kevin Opstedal papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
