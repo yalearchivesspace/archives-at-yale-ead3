@@ -264,6 +264,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.chmason.xml](1182.xml) | beinecke.chmason | WA MSS 332 | Charles H. Mason Correspondence | 
  [beinecke.walkerfam.xml](1189.xml) | beinecke.walkerfam | WA MSS 501 | Walker Family papers | 
  [beinecke.ahill.xml](1206.xml) | beinecke.ahill | WA MSS S-1297 | Alonzo A. Hill papers | 
+ [beinecke.willard.xml](1253.xml) | beinecke.willard | WA MSS S-2152 | Rowland Willard and Elizabeth S. Willard papers | 
+ [beinecke.adamsa.xml](1255.xml) | beinecke.adamsa | WA MSS S-2197 | Alexander B. Adams writings on the American West | 
  [beinecke.richardsl.xml](1543.xml) | beinecke.richardsl | JWJ MSS 176 | Lloyd Richards papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
