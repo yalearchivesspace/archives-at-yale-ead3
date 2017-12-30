@@ -447,6 +447,23 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.britton.xml](1717.xml) | beinecke.britton | YCAL MSS 650 | Coburn Britton papers | 
  [beinecke.laughlin.xml](1719.xml) | beinecke.laughlin | YCAL MSS 654 | James Laughlin papers | 
  [beinecke.hale.xml](1722.xml) | beinecke.hale | YCAL MSS 658 | Oliver Hale papers | 
+ [beinecke.dreiser.xml](1724.xml) | beinecke.dreiser | YCAL MSS 665 | Theodore Dreiser collection | 
+ [beinecke.carrington.xml](1725.xml) | beinecke.carrington | YCAL MSS 666 | J. B. Carrington papers | 
+ [beinecke.mccutche.xml](1726.xml) | beinecke.mccutche | YCAL MSS 667 | George Barr McCutcheon collection | 
+ [beinecke.nichols.xml](1728.xml) | beinecke.nichols | YCAL MSS 671 | Dudley Nichols papers | 
+ [beinecke.cannon.xml](1729.xml) | beinecke.cannon | YCAL MSS 674 | LeGrand Cannon collection | 
+ [beinecke.phelps.xml](1730.xml) | beinecke.phelps | YCAL MSS 678 | William Lyon Phelps papers | 
+ [beinecke.geldzahler.xml](1731.xml) | beinecke.geldzahler | YCAL MSS 684 | Henry Geldzahler papers | 
+ [beinecke.prokosch.xml](1732.xml) | beinecke.prokosch | YCAL MSS 685 | Frederic Prokosch collection | 
+ [beinecke.conrad.xml](1734.xml) | beinecke.conrad | YCAL MSS 687 | Barnaby Conrad papers | 
+ [beinecke.putzel.xml](1736.xml) | beinecke.putzel | YCAL MSS 689 | Max Putzel papers relating to William Marion Reedy and The Mirror | 
+ [beinecke.newdramatists.xml](1737.xml) | beinecke.newdramatists | YCAL MSS 690 | New Dramatists records | 
+ [beinecke.ronnebeck.xml](1739.xml) | beinecke.ronnebeck | YCAL MSS 692 | Arnold Ronnebeck papers | 
+ [beinecke.southern.xml](1740.xml) | beinecke.southern | YCAL MSS 694 | The Southern Review records | 
+ [beinecke.doddlw.xml](1741.xml) | beinecke.doddlw | YCAL MSS 695 | Lee Wilson Dodd papers | 
+ [beinecke.simison.xml](1742.xml) | beinecke.simison | YCAL MSS 696 | Barbara D. Simison papers relating to Edward Rowland Sill | 
+ [beinecke.versetilitybooks.xml](1745.xml) | beinecke.versetilitybooks | YCAL MSS 700 | VERSEtility BOOKS records | 
+ [beinecke.percival.xml](1747.xml) | beinecke.percival | YCAL MSS 703 | James Gates Percival collection | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
  [beinecke.svbenet.xml](5313.xml) | beinecke.svbenet | YCAL MSS 1046 | Stephen Vincent Benét and Rosemary Benét papers | 
