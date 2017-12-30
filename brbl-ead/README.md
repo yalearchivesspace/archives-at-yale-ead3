@@ -464,6 +464,14 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.simison.xml](1742.xml) | beinecke.simison | YCAL MSS 696 | Barbara D. Simison papers relating to Edward Rowland Sill | 
  [beinecke.versetilitybooks.xml](1745.xml) | beinecke.versetilitybooks | YCAL MSS 700 | VERSEtility BOOKS records | 
  [beinecke.percival.xml](1747.xml) | beinecke.percival | YCAL MSS 703 | James Gates Percival collection | 
+ [beinecke.louden.xml](1749.xml) | beinecke.louden | YCAL MSS 706 | Elizabeth Hacker Valentine Louden papers | 
+ [beinecke.kellner.xml](1752.xml) | beinecke.kellner | YCAL MSS 709 | Bruce Kellner papers | 
+ [beinecke.sstewart.xml](1754.xml) | beinecke.sstewart | YCAL MSS 714 | Susan Stewart papers | 
+ [beinecke.kramer.xml](1759.xml) | beinecke.kramer | YCAL MSS 722 | Larry Kramer papers | 
+ [beinecke.herseyf.xml](1760.xml) | beinecke.herseyf | YCAL MSS 723 | Hersey Family Papers | 
+ [beinecke.leavitt.xml](1761.xml) | beinecke.leavitt | YCAL MSS 724 | David Leavitt papers | 
+ [beinecke.gurney.xml](1765.xml) | beinecke.gurney | YCAL MSS 728 | A. R. Gurney papers | 
+ [beinecke.ohara.xml](1766.xml) | beinecke.ohara | YCAL MSS 729 | John O'Hara papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
  [beinecke.svbenet.xml](5313.xml) | beinecke.svbenet | YCAL MSS 1046 | Stephen Vincent Benét and Rosemary Benét papers | 
