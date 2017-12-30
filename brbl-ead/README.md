@@ -405,6 +405,23 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fieldr.xml](1637.xml) | beinecke.fieldr | YCAL MSS 509 | Rachel Field collection | 
  [beinecke.crews.xml](1643.xml) | beinecke.crews | YCAL MSS 536 | Judson Crews papers | 
  [beinecke.bevan.xml](1644.xml) | beinecke.bevan | YCAL MSS 537 | Frank Poole Bevan Papers | 
+ [beinecke.szold.xml](1650.xml) | beinecke.szold | YCAL MSS 544 | Bernardine Szold-Fritz correspondence | 
+ [beinecke.stevensw.xml](1651.xml) | beinecke.stevensw | YCAL MSS 545 | Wallace Stevens collection | 
+ [beinecke.thurber.xml](1652.xml) | beinecke.thurber | YCAL MSS 546 | James Thurber papers | 
+ [beinecke.youngm.xml](1653.xml) | beinecke.youngm | YCAL MSS 547 | Marguerite Young papers | 
+ [beinecke.higginson.xml](1654.xml) | beinecke.higginson | YCAL MSS 549 | Thomas Wentworth Higginson collection, 1852-1907. | 
+ [beinecke.brown.xml](1656.xml) | beinecke.brown | YCAL MSS 550 | Alice Brown papers | 
+ [beinecke.williamsww.xml](1657.xml) | beinecke.williamsww | YCAL MSS 551 | Wayland Wells Williams papers | 
+ [beinecke.yup.xml](1658.xml) | beinecke.yup | YCAL MSS 552 | Yale University Press records | 
+ [beinecke.lynes.xml](1659.xml) | beinecke.lynes | YCAL MSS 553 | Russell Lynes papers | 
+ [beinecke.cabell.xml](1663.xml) | beinecke.cabell | YCAL MSS 566 | James Branch Cabell collection | 
+ [beinecke.barlow.xml](1664.xml) | beinecke.barlow | YCAL MSS 568 | Joel Barlow Collection | 
+ [beinecke.clarkbh.xml](1665.xml) | beinecke.clarkbh | YCAL MSS 569 | Barrett H. Clark papers | 
+ [beinecke.borland.xml](1667.xml) | beinecke.borland | YCAL MSS 570 | Hal and Barbara Borland papers | 
+ [beinecke.croyden.xml](1668.xml) | beinecke.croyden | YCAL MSS 577 | Margaret Croyden papers | 
+ [beinecke.hartley.xml](1669.xml) | beinecke.hartley | YCAL MSS 578 | Marsden Hartley collection | 
+ [beinecke.fenton.xml](1670.xml) | beinecke.fenton | YCAL MSS 579 | Charles A. Fenton papers | 
+ [beinecke.yenser.xml](1673.xml) | beinecke.yenser | YCAL MSS 581 | Stephen Yenser papers relating to James Merrill | 
  [beinecke.opstedal.xml](1702.xml) | beinecke.opstedal | YCAL MSS 1120 | Kevin Opstedal papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
@@ -471,6 +488,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.dobsons.xml](5796.xml) | beinecke.dobsons | GEN MSS 409 | Silvia Dobson papers | 
  [beinecke.emersonrw.xml](5797.xml) | beinecke.emersonrw | YCAL MSS 212 | Ralph Waldo Emerson collection | 
  [beinecke.greyzanecoll.xml](5799.xml) | beinecke.greyzanecoll | WA MSS S-2761 | Zane Grey collection | 
+ [beinecke.vfisher.xml](5808.xml) | beinecke.vfisher | YCAL MSS 555 | Vardis Fisher Papers | 
  [beinecke.fisher.xml](5809.xml) | beinecke.fisher | WA MSS S-2823 | Robert B. Fisher photograph collection and papers | 
  [beinecke.bell.xml](5812.xml) | beinecke.bell | JWJ MSS 153 | [Drawings] | 
  [beinecke.century.xml](5813.xml) | beinecke.century | GEN MSS 1219 | [Walter L. Pforzheimer collection of Century Company illustrations]. | 
