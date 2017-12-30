@@ -436,13 +436,24 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.robinsonm.xml](1690.xml) | beinecke.robinsonm | YCAL MSS 609 | Marilynne Robinson papers | 
  [beinecke.aldan.xml](1694.xml) | beinecke.aldan | YCAL MSS 613 | Daisy Aldan papers | 
  [beinecke.ireland.xml](1697.xml) | beinecke.ireland | YCAL MSS 621 | Joseph Norton Ireland papers | 
+ [beinecke.johnsong.xml](1698.xml) | beinecke.johnsong | YCAL MSS 622 | Grace Mott Johnson papers | 
+ [beinecke.carsonadd.xml](1700.xml) | beinecke.carsonadd | YCAL MSS 630 | Rachel Carson papers addition | 
+ [beinecke.mchugh.xml](1701.xml) | beinecke.mchugh | YCAL MSS 631 | Vincent McHugh papers | 
  [beinecke.opstedal.xml](1702.xml) | beinecke.opstedal | YCAL MSS 1120 | Kevin Opstedal papers | 
+ [beinecke.fordje.xml](1705.xml) | beinecke.fordje | YCAL MSS 638 | Julia Ellsworth Ford papers | 
+ [beinecke.smallpond.xml](1710.xml) | beinecke.smallpond | YCAL MSS 642 | The small pond magazine records | 
+ [beinecke.rubington.xml](1711.xml) | beinecke.rubington | YCAL MSS 643 | Norman Rubington papers | 
+ [beinecke.content.xml](1715.xml) | beinecke.content | YCAL MSS 648 | Marjorie Content papers and photographs | 
+ [beinecke.britton.xml](1717.xml) | beinecke.britton | YCAL MSS 650 | Coburn Britton papers | 
+ [beinecke.laughlin.xml](1719.xml) | beinecke.laughlin | YCAL MSS 654 | James Laughlin papers | 
+ [beinecke.hale.xml](1722.xml) | beinecke.hale | YCAL MSS 658 | Oliver Hale papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
  [beinecke.svbenet.xml](5313.xml) | beinecke.svbenet | YCAL MSS 1046 | Stephen Vincent Benét and Rosemary Benét papers | 
  [beinecke.westtheater.xml](5318.xml) | beinecke.westtheater | WA MSS S-3071 | Western Theater Souvenir Program Collection | 
  [beinecke.nevada.xml](5319.xml) | beinecke.nevada | WA MSS S-3072 | Nevada Legislature records | 
  [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
+ [beinecke.iracohen.xml](5353.xml) | beinecke.iracohen | YCAL MSS 625 | Ira Cohen papers | 
  [beinecke.lyons.xml](5354.xml) | beinecke.lyons | GEN MSS 1360 | Donald Lyons papers | 
  [beinecke.noble.xml](5361.xml) | beinecke.noble | WA Photos Folio 142 | David Grant Noble Photographs of Southwestern Cultural Landscapes | 
  [beinecke.genmusmisc.xml](5397.xml) | beinecke.genmusmisc | GEN MSS MUSIC MISC | General Collection manuscript music miscellany | 
