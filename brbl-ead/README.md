@@ -372,6 +372,17 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jonesmc.xml](1568.xml) | beinecke.jonesmc | YCAL MSS 409 | Mary Cadwalader Jones correspondence | 
  [beinecke.barry.xml](1573.xml) | beinecke.barry | YCAL MSS 414 | Philip Barry papers | 
  [beinecke.wharton.xml](1575.xml) | beinecke.wharton | YCAL MSS 42 | Edith Wharton collection | 
+ [beinecke.saltus.xml](1580.xml) | beinecke.saltus | YCAL MSS 425 | Edgar Saltus papers | 
+ [beinecke.argus.xml](1581.xml) | beinecke.argus | YCAL MSS 427 | Argus Book Shop correspondence | 
+ [beinecke.putnamnw.xml](1582.xml) | beinecke.putnamnw | YCAL MSS 428 | Nina Wilcox Putnam papers | 
+ [beinecke.putnamp.xml](1583.xml) | beinecke.putnamp | YCAL MSS 429 | Phelps Putnam papers | 
+ [beinecke.pound.xml](1584.xml) | beinecke.pound | YCAL MSS 43 | Ezra Pound Papers | 
+ [beinecke.furniss.xml](1586.xml) | beinecke.furniss | YCAL MSS 431 | Ruth Pine Furniss papers | 
+ [beinecke.lachaise.xml](1588.xml) | beinecke.lachaise | YCAL MSS 434 | Gaston Lachaise collection | 
+ [beinecke.farrar.xml](1591.xml) | beinecke.farrar | YCAL MSS 437 | John Chipman Farrar papers | 
+ [beinecke.tchubb.xml](1594.xml) | beinecke.tchubb | YCAL MSS 441 | Thomas Caldecot Chubb Papers | 
+ [beinecke.hillhouse.xml](1597.xml) | beinecke.hillhouse | YCAL MSS 444 | James Abraham Hillhouse papers | 
+ [beinecke.maclise.xml](1598.xml) | beinecke.maclise | YCAL MSS 445 | Angus MacLise sound recordings | 
  [beinecke.opstedal.xml](1702.xml) | beinecke.opstedal | YCAL MSS 1120 | Kevin Opstedal papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
