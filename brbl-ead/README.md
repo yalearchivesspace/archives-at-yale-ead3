@@ -344,6 +344,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.johnson.xml](1404.xml) | beinecke.johnson | YCAL MSS 11 | Owen Johnson papers | 
  [beinecke.collins.xml](1407.xml) | beinecke.collins | YCAL MSS 12 | Seward Collins papers | 
  [beinecke.mwheeler.xml](1415.xml) | beinecke.mwheeler | YCAL MSS 136 | Monroe Wheeler papers | 
+ [beinecke.bird.xml](1439.xml) | beinecke.bird | YCAL MSS 178 | William Bird Ezra Pound papers | 
+ [beinecke.kbwilder.xml](1441.xml) | beinecke.kbwilder | YCAL MSS 18 | Katharine Buell Wilder family papers | 
+ [1449.xml](1449.xml) |  | YCAL MSS 198 | Thornton Wilder Documentary Project interviews | 
  [beinecke.richardsl.xml](1543.xml) | beinecke.richardsl | JWJ MSS 176 | Lloyd Richards papers | 
  [beinecke.opstedal.xml](1702.xml) | beinecke.opstedal | YCAL MSS 1120 | Kevin Opstedal papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
