@@ -266,6 +266,18 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ahill.xml](1206.xml) | beinecke.ahill | WA MSS S-1297 | Alonzo A. Hill papers | 
  [beinecke.willard.xml](1253.xml) | beinecke.willard | WA MSS S-2152 | Rowland Willard and Elizabeth S. Willard papers | 
  [beinecke.adamsa.xml](1255.xml) | beinecke.adamsa | WA MSS S-2197 | Alexander B. Adams writings on the American West | 
+ [beinecke.advertisements.xml](1293.xml) | beinecke.advertisements | WA MSS S-2622 | Collection of advertisements that depict American history. | 
+ [beinecke.jonesss.xml](1296.xml) | beinecke.jonesss | WA MSS S-2636 | Solomon Sir Jones films | 
+ [beinecke.lamarh.xml](1297.xml) | beinecke.lamarh | WA MSS S-2639 | Howard Roberts Lamar papers | 
+ [beinecke.kaganphotos.xml](1298.xml) | beinecke.kaganphotos | WA MSS S-2640 | Paul Kagan photographs of utopian communities and personal papers | 
+ [beinecke.cripplecreek.xml](1299.xml) | beinecke.cripplecreek | WA MSS S-2641 | Records concerning real property and legal transactions near Cripple Creek, Colorado | 
+ [beinecke.friedlander.xml](1300.xml) | beinecke.friedlander | WA MSS S-2642 | Lee Friedlander papers | 
+ [beinecke.peck.xml](1301.xml) | beinecke.peck | WA MSS S-2655 | John J. Peck papers | 
+ [beinecke.deloria.xml](1302.xml) | beinecke.deloria | WA MSS S-2661 | Vine Deloria papers | 
+ [beinecke.archiquette.xml](1303.xml) | beinecke.archiquette | WA MSS S-2662 | John Archiquette collection | 
+ [beinecke.dequille.xml](1304.xml) | beinecke.dequille | WA MSS S-2667 | Dan De Quille papers | 
+ [beinecke.hitchcock.xml](1306.xml) | beinecke.hitchcock | WA MSS S-2678 | Ethan Allen Hitchcock collection on Indian removal | 
+ [beinecke.fiskr.xml](1307.xml) | beinecke.fiskr | WA MSS S-2683 | Robert B. Fisk papers | 
  [beinecke.richardsl.xml](1543.xml) | beinecke.richardsl | JWJ MSS 176 | Lloyd Richards papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
@@ -327,5 +339,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.sandm.xml](10703.xml) | beinecke.sandm | GEN MSS 1463 | Maurice Sand Papers | 
  [beinecke.tradecats.xml](10747.xml) | beinecke.tradecats | Uai Trade Catalogs | Trade catalogs collection. | 
  [beinecke.halversongd.xml](10757.xml) | beinecke.halversongd | GEN MSS 998 | Photographs of the Garment District in New York City | 
+ [beinecke.bohna.xml](10782.xml) | beinecke.bohna | WA MSS S-2673 | Bohna Family Correspondence | 
  [beinecke.nees.xml](10783.xml) | beinecke.nees | GEN MSS 1465 | A. Nees & Co. decorative paper sample books | 
 
