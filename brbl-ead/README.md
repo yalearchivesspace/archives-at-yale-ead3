@@ -297,12 +297,32 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.palmquistmale.xml](1327.xml) | beinecke.palmquistmale | WA MSS S-2733 | Peter Palmquist collection of male photographers in the American west | 
  [beinecke.yukon.xml](1328.xml) | beinecke.yukon | WA MSS S-2751 | Davies/Scroggie collection of Yukon correspondence and records | 
  [beinecke.beineckefw.xml](1329.xml) | beinecke.beineckefw | WA MSS S-2760 | Frederick W. Beinecke collector's files | 
+ [beinecke.hickok.xml](1330.xml) | beinecke.hickok | WA MSS S-2762 | Clifton Ewing Hickok papers | 
+ [beinecke.chorpenning.xml](1331.xml) | beinecke.chorpenning | WA MSS S-2767 | George Chorpenning papers | 
+ [beinecke.starrl.xml](1332.xml) | beinecke.starrl | WA MSS S-2774 | Louis Starr collection concerning the field notes of William Clark | 
+ [beinecke.goldrush.xml](1335.xml) | beinecke.goldrush | WA MSS S-2865 | Gold Rush Collection | 
+ [beinecke.suggmcdonald.xml](1336.xml) | beinecke.suggmcdonald | WA MSS S-2885 | Sugg and McDonald family papers | 
+ [beinecke.goldengate.xml](1337.xml) | beinecke.goldengate | WA MSS S-2889 | Golden Gate International Exposition Publicity Records | 
+ [beinecke.foxgeorgew.xml](1338.xml) | beinecke.foxgeorgew | WA MSS S-2893 | George W. Fox Collection of American Indian ledger drawings and photographs | 
+ [beinecke.satoda.xml](1339.xml) | beinecke.satoda | WA MSS S-2897 | Yonekazu Satoda papers, photographs, and moving films | 
+ [beinecke.bookinca.xml](1340.xml) | beinecke.bookinca | WA MSS S-2901 | Collection of Ephemera on the Book in California			
+ | 
+ [beinecke.warnerjonathan.xml](1341.xml) | beinecke.warnerjonathan | WA MSS S-2925 | Jonathan Warner papers | 
+ [beinecke.cadwell.xml](1342.xml) | beinecke.cadwell | WA MSS S-2933 | Cadwell family correspondence | 
+ [beinecke.ochoa.xml](1343.xml) | beinecke.ochoa | WA MSS S-2938 | Antonio Ochoa Carrillo papers and Benito Juárez correspondence | 
+ [beinecke.ledger.xml](1344.xml) | beinecke.ledger | WA MSS S-2942 | Indian ledger drawings by Koba and Etahdleuh Doanmoe. | 
+ [beinecke.hawks.xml](1347.xml) | beinecke.hawks | WA MSS S-2958 | Hawks Family Papers Relating to Business Ventures in the American West | 
+ [beinecke.oddfellows.xml](1348.xml) | beinecke.oddfellows | WA MSS S-2961 | Independent Order of Odd Fellows Records of California Lodges | 
+ [beinecke.palmquistpapers.xml](1351.xml) | beinecke.palmquistpapers | WA MSS S-2965 | Peter E. Palmquist papers | 
+ [beinecke.williamscp.xml](1352.xml) | beinecke.williamscp | WA MSS S-2989 | Chauncey Pratt Williams Writings on the American West | 
+ [beinecke.sfaustin.xml](1354.xml) | beinecke.sfaustin | WA MSS S-3000 | Thomas W. Streeter Collection of Austin Family and Texas Revolution Papers | 
  [beinecke.lutherwaters.xml](1368.xml) | beinecke.lutherwaters | WA MSS S-2735 | Tal Luther collection of Frank Waters printed materials and papers | 
  [beinecke.richardsl.xml](1543.xml) | beinecke.richardsl | JWJ MSS 176 | Lloyd Richards papers | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
  [beinecke.lyons.xml](5354.xml) | beinecke.lyons | GEN MSS 1360 | Donald Lyons papers | 
  [beinecke.genmusmisc.xml](5397.xml) | beinecke.genmusmisc | GEN MSS MUSIC MISC | General Collection manuscript music miscellany | 
+ [beinecke.berlandi.xml](5452.xml) | beinecke.berlandi | WA MSS S-300 | Jean Louis Berlandier papers | 
  [beinecke.allen.xml](5460.xml) | beinecke.allen | GEN MSS 1401 | Nathaniel T. Allen collection | 
  [beinecke.linnell.xml](5462.xml) | beinecke.linnell | GEN MSS 1396 | Tracings of illustrations by William Blake for Dante's Divina Commedia. | 
  [beinecke.hardycol.xml](5464.xml) | beinecke.hardycol | GEN MSS 307 | Thomas Hardy collection | 
@@ -340,10 +360,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.transvestia.xml](5793.xml) | beinecke.transvestia | Bailey 10 | Transgender erotic pulp fiction collection from the series Transvestia | 
  [beinecke.dobsons.xml](5796.xml) | beinecke.dobsons | GEN MSS 409 | Silvia Dobson papers | 
  [beinecke.greyzanecoll.xml](5799.xml) | beinecke.greyzanecoll | WA MSS S-2761 | Zane Grey collection | 
+ [beinecke.fisher.xml](5809.xml) | beinecke.fisher | WA MSS S-2823 | Robert B. Fisher photograph collection and papers | 
  [beinecke.bell.xml](5812.xml) | beinecke.bell | JWJ MSS 153 | [Drawings] | 
  [beinecke.century.xml](5813.xml) | beinecke.century | GEN MSS 1219 | [Walter L. Pforzheimer collection of Century Company illustrations]. | 
  [beinecke.newhaveneast.xml](5815.xml) | beinecke.newhaveneast | GEN MSS 1295 | New Haven East Association records | 
  [beinecke.newhavenwest.xml](5816.xml) | beinecke.newhavenwest | GEN MSS 1296 | New Haven West Association records | 
+ [beinecke.plowden.xml](5817.xml) | beinecke.plowden | WA MSS S-2957 | David Plowden photographs and papers | 
  [beinecke.williamsf.xml](5818.xml) | beinecke.williamsf | GEN MSS 1180 | Williams family papers | 
  [beinecke.academie.xml](5819.xml) | beinecke.academie | GEN MSS 1339 | Académie française autograph collection | 
  [beinecke.barker.xml](5820.xml) | beinecke.barker | GEN MSS 858 | George Barker collection | 
