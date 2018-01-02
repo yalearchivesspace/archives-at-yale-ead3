@@ -644,4 +644,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.nees.xml](10783.xml) | beinecke.nees | GEN MSS 1465 | A. Nees & Co. decorative paper sample books | 
  [beinecke.momaday.xml](10796.xml) | beinecke.momaday | YCAL MSS 807 | N. Scott Momaday papers | 
  [beinecke.belangerriftfault.xml](10802.xml) | beinecke.belangerriftfault | WA Photos Folio 173 | Rift/Fault | 
+ [beinecke.fitchsteve.xml](10813.xml) | beinecke.fitchsteve | WA Photos Folio 174 | Steve Fitch photographs | 
 
