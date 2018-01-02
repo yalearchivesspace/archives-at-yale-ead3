@@ -86,6 +86,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.pequot.xml](601.xml) | beinecke.pequot | GEN MSS 1309 | Manuscripts in the Monroe, Wakeman, and Holman Collection of the Pequot Library Association | 
  [beinecke.vinlandmapfiles.xml](602.xml) | beinecke.vinlandmapfiles | GEN MSS 1319 | <title>The Vinland Map and the Tartar Relation</title>: proofs and subject files | 
  [beinecke.loud.xml](603.xml) | beinecke.loud | GEN MSS 1320 | Lance Loud and Loud family papers | 
+ [beinecke.beerbohm.xml](604.xml) | beinecke.beerbohm | GEN MSS 133 | Max Beerbohm collection | 
  [beinecke.ward.xml](606.xml) | beinecke.ward | GEN MSS 134 | Mrs. Humphry Ward collection | 
  [beinecke.powys.xml](608.xml) | beinecke.powys | GEN MSS 136 | John Cowper Powys collection | 
  [beinecke.gosse.xml](609.xml) | beinecke.gosse | GEN MSS 14 | Edmund Gosse collection | 
@@ -235,6 +236,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.obrien.xml](997.xml) | beinecke.obrien | JWJ MSS 99 | Peter F. O'Brien collection on African American artists | 
  [beinecke.jwjmiscellany.xml](998.xml) | beinecke.jwjmiscellany | JWJ MSS MISC | James Weldon Johnson Collection manuscript miscellany | 
  [beinecke.monteverdi.xml](1002.xml) | beinecke.monteverdi | Monteverdi 2 | Manuscripts in the Albi Rosenthal collection of Monteverdi and the birth of opera | 
+ [beinecke.hilles.xml](1005.xml) | beinecke.hilles | GEN MSS 1429 | Frederick W. Hilles Manuscript Collection and Papers | 
  [beinecke.steichenfamily.xml](1006.xml) | beinecke.steichenfamily | YCAL MSS 1080 | Steichen family papers | 
  [beinecke.ndy10.xml](1008.xml) | beinecke.ndy10 | Ndy10 | Miscellaneous financial materials concerning farm corporations operating in the North American West | 
  [beinecke.ndy32.xml](1009.xml) | beinecke.ndy32 | Ndy32 | Miscellaneous financial materials concerning gold and silver mining companies operating in the North American West | 
