@@ -124,11 +124,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.pres.xml](649.xml) | beinecke.pres | GEN MSS 271 | United States presidents collection | 
  [beinecke.trollope.xml](650.xml) | beinecke.trollope | GEN MSS 272 | Anthony Trollope collection | 
  [beinecke.winthrop.xml](651.xml) | beinecke.winthrop | GEN MSS 274 | Winthrop family papers | 
+ [beinecke.sheridan.xml](660.xml) | beinecke.sheridan | GEN MSS 284 | Richard Brinsley Sheridan collection | 
  [beinecke.dix.xml](708.xml) | beinecke.dix | GEN MSS 403 | George Dix papers | 
  [beinecke.davie.xml](717.xml) | beinecke.davie | GEN MSS 439 | Donald Davie papers | 
  [beinecke.morris.xml](721.xml) | beinecke.morris | GEN MSS 45 | William Morris collection | 
  [beinecke.bowenm.xml](723.xml) | beinecke.bowenm | GEN MSS 454 | Marjorie Bowen papers | 
  [beinecke.amichai.xml](767.xml) | beinecke.amichai | GEN MSS 572 | Yehuda Amichai papers | 
+ [beinecke.brodsky.xml](784.xml) | beinecke.brodsky | GEN MSS 613 | Joseph Brodsky papers | 
  [beinecke.nicolson.xml](785.xml) | beinecke.nicolson | GEN MSS 614 | Harold Nicolson papers  | 
  [beinecke.allegret.xml](797.xml) | beinecke.allegret | GEN MSS 651 | Marc Allegrét papers | 
  [beinecke.damico.xml](798.xml) | beinecke.damico | GEN MSS 655 | Tano D'Amico Photographs of Events in Italy | 
@@ -183,6 +185,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fraenkel.xml](895.xml) | beinecke.fraenkel | GEN MSS 891 | Michael Fraenkel papers | 
  [beinecke.baronbyron.xml](896.xml) | beinecke.baronbyron | GEN MSS 892 | George Gordon Byron, Baron Byron collection | 
  [beinecke.kiplingwatt.xml](897.xml) | beinecke.kiplingwatt | GEN MSS 893 | A. P. Watt and Son records relating to Rudyard Kipling | 
+ [beinecke.romangul.xml](899.xml) | beinecke.romangul | GEN MSS 90 | Roman Gulʹ papers | 
  [beinecke.baugniet.xml](900.xml) | beinecke.baugniet | GEN MSS 900 | Marcel-Louis Baugniet collection | 
  [beinecke.adler.xml](901.xml) | beinecke.adler | GEN MSS 901 | Gerhard and Hella Adler papers | 
  [beinecke.pond.xml](902.xml) | beinecke.pond | GEN MSS 904 | Fred E. Pond papers related to fishing | 
@@ -215,6 +218,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
  [beinecke.haynes.xml](952.xml) | beinecke.haynes | JWJ MSS 101 | George Edmund Haynes papers | 
  [beinecke.dodson.xml](953.xml) | beinecke.dodson | JWJ MSS 103 | Owen Dodson collection | 
+ [beinecke.beman.xml](954.xml) | beinecke.beman | JWJ MSS 105 | Amos Gerry Beman Scrapbooks | 
  [beinecke.bennettg.xml](955.xml) | beinecke.bennettg | JWJ MSS 106 | Gwendolyn Bennett Papers | 
  [beinecke.bakerj.xml](956.xml) | beinecke.bakerj | JWJ MSS 108 | Josephine Baker Collection | 
  [beinecke.pickens.xml](961.xml) | beinecke.pickens | JWJ MSS 125 | William Pickens papers | 
