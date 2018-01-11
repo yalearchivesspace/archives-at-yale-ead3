@@ -14,6 +14,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cameras.xml](522.xml) | beinecke.cameras | GEN MSS 1020 | Early Cameras Collection | 
  [beinecke.curtius.xml](523.xml) | beinecke.curtius | GEN MSS 1025 | Ernst Curtius Papers | 
  [beinecke.stevense.xml](524.xml) | beinecke.stevense | GEN MSS 1027 | Stevens family papers | 
+ [beinecke.lunts.xml](526.xml) | beinecke.lunts | GEN MSS 104 | Lev Lunt︠s︡ papers | 
  [beinecke.prince.xml](529.xml) | beinecke.prince | GEN MSS 1069 | Stéphane Prince papers | 
  [beinecke.strat.xml](530.xml) | beinecke.strat | GEN MSS 107 | Stratemeyer Syndicate records | 
  [beinecke.macfall.xml](531.xml) | beinecke.macfall | GEN MSS 1079 | Haldane Macfall collection | 
