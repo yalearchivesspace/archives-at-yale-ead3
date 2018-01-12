@@ -651,4 +651,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.momaday.xml](10796.xml) | beinecke.momaday | YCAL MSS 807 | N. Scott Momaday papers | 
  [beinecke.belangerriftfault.xml](10802.xml) | beinecke.belangerriftfault | WA Photos Folio 173 | Rift/Fault | 
  [beinecke.fitchsteve.xml](10813.xml) | beinecke.fitchsteve | WA Photos Folio 174 | Steve Fitch photographs | 
+ [beinecke.buswell.xml](10823.xml) | beinecke.buswell | WA Photos 410 | Photographs of Abandoned Wooden Buildings and Artifacts in Montana | 
 
