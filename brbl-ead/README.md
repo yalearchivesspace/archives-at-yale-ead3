@@ -652,5 +652,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.belangerriftfault.xml](10802.xml) | beinecke.belangerriftfault | WA Photos Folio 173 | Rift/Fault | 
  [beinecke.fitchsteve.xml](10813.xml) | beinecke.fitchsteve | WA Photos Folio 174 | Steve Fitch photographs | 
  [beinecke.buswell.xml](10823.xml) | beinecke.buswell | WA Photos 410 | Photographs of Abandoned Wooden Buildings and Artifacts in Montana | 
- [10828.xml](10828.xml) |  | temp2018-01-16T13:55 | MERGE-YCALMSS1050 | 
+ [beinecke.neworleansandthelevees.xml](10826.xml) | beinecke.neworleansandthelevees | WA Photos Folio 175 | New Orleans and the Levees | 
 
