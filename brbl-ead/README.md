@@ -655,4 +655,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.buswell.xml](10823.xml) | beinecke.buswell | WA Photos 410 | Photographs of Abandoned Wooden Buildings and Artifacts in Montana | 
  [beinecke.neworleansandthelevees.xml](10826.xml) | beinecke.neworleansandthelevees | GEN MSS 1470 | New Orleans and the Levees | 
  [beinecke.intothewoods.xml](10833.xml) | beinecke.intothewoods | GEN MSS 1469 | Into the Woods | 
+ [beinecke.smithfrank.xml](10839.xml) | beinecke.smithfrank | YCAL MSS 1123 | Frank L. Smith collection | 
 
