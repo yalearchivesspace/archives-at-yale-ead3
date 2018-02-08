@@ -11,6 +11,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.batesr.xml](518.xml) | beinecke.batesr | GEN MSS 1013 | Ralph Bates Papers | 
  [beinecke.volbach.xml](519.xml) | beinecke.volbach | GEN MSS 1014 | Walther Volbach Collection on Adolphe Appia | 
  [beinecke.rakoff.xml](520.xml) | beinecke.rakoff | GEN MSS 1015 | David Rakoff papers | 
+ [beinecke.beckford.xml](521.xml) | beinecke.beckford | GEN MSS 102 | William Beckford collection | 
  [beinecke.cameras.xml](522.xml) | beinecke.cameras | GEN MSS 1020 | Early Cameras Collection | 
  [beinecke.curtius.xml](523.xml) | beinecke.curtius | GEN MSS 1025 | Ernst Curtius Papers | 
  [beinecke.stevense.xml](524.xml) | beinecke.stevense | GEN MSS 1027 | Stevens family papers | 
