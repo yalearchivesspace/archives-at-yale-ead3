@@ -658,4 +658,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.intothewoods.xml](10833.xml) | beinecke.intothewoods | GEN MSS 1469 | Into the Woods | 
  [beinecke.smithfrank.xml](10839.xml) | beinecke.smithfrank | YCAL MSS 1123 | Frank L. Smith collection | 
  [beinecke.printmakers.xml](10841.xml) | beinecke.printmakers | GEN MSS 1474 | Printmakers Gathering Portfolio | 
+ [beinecke.luckwpf178.xml](10847.xml) | beinecke.luckwpf178 | WA Photos Folio 178 | Photographs of Haida Gwaii, British Columbia | 
 
