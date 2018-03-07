@@ -645,7 +645,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.plauchut.xml](10702.xml) | beinecke.plauchut | GEN MSS 1462 | Edmond Plauchut Papers | 
  [beinecke.sandm.xml](10703.xml) | beinecke.sandm | GEN MSS 1463 | Maurice Sand Papers | 
  [beinecke.adamsharry.xml](10724.xml) | beinecke.adamsharry | WA Photos 589 | Harry Adams photographs | 
- [beinecke.kindred.xml](10725.xml) | beinecke.kindred | WA MSS S-3270	 | Charles F. and Sarah E. Kindred papers | 
+ [beinecke.kindred.xml](10725.xml) | beinecke.kindred | WA MSS S-3270	 | Charles F. Kindred and Sarah E. Kindred papers | 
  [beinecke.tradecats.xml](10747.xml) | beinecke.tradecats | Uai Trade Catalogs | Trade catalogs collection. | 
  [beinecke.halversongd.xml](10757.xml) | beinecke.halversongd | GEN MSS 998 | Photographs of the Garment District in New York City | 
  [beinecke.benetfamcol.xml](10764.xml) | beinecke.benetfamcol | YCAL MSS 1108 | Benét Family Collection | 
