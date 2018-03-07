@@ -23,5 +23,20 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0042.xml](494.xml) | med.ms.0042 | Ms Coll 42 | Howard M. Spiro Papers | 
  [med.ms.0043.xml](495.xml) | med.ms.0043 | Ms Coll 43 | New Haven Hospital and Grace-New Haven Community Hospital Collection | 
  [med.ms.0044.xml](496.xml) | med.ms.0044 | Ms Coll 44 | Delta Omega, Epsilon Chapter (Yale University) records  | 
+ [med.ms.0045.xml](497.xml) | med.ms.0045 | Ms Coll 45 | Ira V. Hiscock collection | 
+ [med.ms.0047.xml](499.xml) | med.ms.0047 | Ms Coll 47 | Edward Roth medical school notes and medical practice case books | 
+ [med.ms.0049.xml](501.xml) | med.ms.0049 | Ms Coll 49 | Miscellaneous letters collection | 
+ [med.ms.0050.xml](502.xml) | med.ms.0050 | Ms Coll 50 | George Alder Blumer correspondence | 
+ [med.ms.0006.xml](504.xml) | med.ms.0006 | Ms Coll 6 | Peter Parker collection | 
+ [med.pam.0006.xml](508.xml) | med.pam.0006 | Pam Coll 6 | Medical trade card collection | 
+ [med.pam.0003.xml](5273.xml) | med.pam.0003 | Pam Coll 3 | Patent medicine almanacs | 
+ [med.ms.0053.xml](5276.xml) | med.ms.0053 | Ms Coll 53 | Marjorie Morse Crunden Papers | 
+ [med.ms.0048.xml](5442.xml) | med.ms.0048 | Ms Coll 48 | G. D. Hsiung papers | 
  [med.ms.0012.xml](5461.xml) | med.ms.0012 | Ms Coll 12 | Yale Medical Library opening and dedication | 
+ [med.pam.0007.xml](5533.xml) | med.pam.0007 | Pam Coll 7 | Comic book collection on medical themes | 
+ [med.ms.0056.xml](5666.xml) | med.ms.0056 | Ms Coll 56 | American Fund for French Wounded Collection | 
+ [med.ms.0057.xml](5852.xml) | med.ms.0057 | Ms Coll 57 | Thomas L. Lentz collection on the history of cell biology and anatomy at Yale | 
+ [med.ms.0058.xml](5890.xml) | med.ms.0058 | Ms Coll 58 | Dryden P. Morse papers | 
+ [med.pam.0010.xml](10789.xml) | med.pam.0010 | Pam Coll 10 | Cancer "cures" collection | 
+ [med.ms.0059.xml](10832.xml) | med.ms.0059 | Ms Coll 59 | James Augustine Haran papers | 
 
