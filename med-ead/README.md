@@ -31,6 +31,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.pam.0006.xml](508.xml) | med.pam.0006 | Pam Coll 6 | Medical trade card collection | 
  [med.pam.0003.xml](5273.xml) | med.pam.0003 | Pam Coll 3 | Patent medicine almanacs | 
  [med.ms.0053.xml](5276.xml) | med.ms.0053 | Ms Coll 53 | Marjorie Morse Crunden Papers | 
+ [med.ms.0022.xml](5324.xml) | med.ms.0022 | Ms Coll 22 | Wallace Lyman Orcutt student notes from Yale University School of Medicine | 
  [med.ms.0048.xml](5442.xml) | med.ms.0048 | Ms Coll 48 | G. D. Hsiung papers | 
  [med.ms.0012.xml](5461.xml) | med.ms.0012 | Ms Coll 12 | Yale Medical Library opening and dedication | 
  [med.pam.0007.xml](5533.xml) | med.pam.0007 | Pam Coll 7 | Comic book collection on medical themes | 
