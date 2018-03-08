@@ -5,6 +5,7 @@ You can browse our finding aids by clicking the links below
 
 Identifier | Description
 ---------- | ----------- |
+| [med-ead](med-ead/README.md) |  |
 | [brbl-ead](brbl-ead/README.md) |  |
 
 
