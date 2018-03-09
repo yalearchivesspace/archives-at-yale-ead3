@@ -650,6 +650,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.halversongd.xml](10757.xml) | beinecke.halversongd | GEN MSS 998 | Photographs of the Garment District in New York City | 
  [beinecke.benetfamcol.xml](10764.xml) | beinecke.benetfamcol | YCAL MSS 1108 | Benét Family Collection | 
  [beinecke.astrong.xml](10767.xml) | beinecke.astrong | YCAL MSS 619 | Austin Strong papers | 
+ [beinecke.altagor.xml](10776.xml) | beinecke.altagor | GEN MSS 1466 | Altagor papers | 
  [beinecke.bohna.xml](10782.xml) | beinecke.bohna | WA MSS S-2673 | Bohna Family Correspondence | 
  [beinecke.nees.xml](10783.xml) | beinecke.nees | GEN MSS 1465 | A. Nees & Co. decorative paper sample books | 
  [beinecke.momaday.xml](10796.xml) | beinecke.momaday | YCAL MSS 807 | N. Scott Momaday papers | 
