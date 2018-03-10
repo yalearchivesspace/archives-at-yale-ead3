@@ -322,8 +322,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.goldengate.xml](1337.xml) | beinecke.goldengate | WA MSS S-2889 | Golden Gate International Exposition Publicity Records | 
  [beinecke.foxgeorgew.xml](1338.xml) | beinecke.foxgeorgew | WA MSS S-2893 | George W. Fox Collection of American Indian ledger drawings and photographs | 
  [beinecke.satoda.xml](1339.xml) | beinecke.satoda | WA MSS S-2897 | Yonekazu Satoda papers, photographs, and moving films | 
- [beinecke.bookinca.xml](1340.xml) | beinecke.bookinca | WA MSS S-2901 | Collection of Ephemera on the Book in California			
- | 
+ [beinecke.bookinca.xml](1340.xml) | beinecke.bookinca | WA MSS S-2901 | Collection of Ephemera on the Book in California | 
  [beinecke.warnerjonathan.xml](1341.xml) | beinecke.warnerjonathan | WA MSS S-2925 | Jonathan Warner papers | 
  [beinecke.cadwell.xml](1342.xml) | beinecke.cadwell | WA MSS S-2933 | Cadwell family correspondence | 
  [beinecke.ochoa.xml](1343.xml) | beinecke.ochoa | WA MSS S-2938 | Antonio Ochoa Carrillo papers and Benito Juárez correspondence | 
