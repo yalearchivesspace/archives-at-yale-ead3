@@ -513,6 +513,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wrightcd.xml](1820.xml) | beinecke.wrightcd | YCAL MSS 820 | C. D. Wright papers | 
  [beinecke.kroll.xml](1822.xml) | beinecke.kroll | YCAL MSS 826 | Lucy Kroll papers relating to Lynn Riggs | 
  [beinecke.seligmann.xml](1823.xml) | beinecke.seligmann | YCAL MSS 827 | Kurt Seligmann papers | 
+ [beinecke.wilk.xml](1824.xml) | beinecke.wilk | YCAL MSS 828 | Max Wilk papers | 
  [beinecke.jamesh.xml](1825.xml) | beinecke.jamesh | YCAL MSS 830 | Henry James collection | 
  [beinecke.runyon.xml](1827.xml) | beinecke.runyon | YCAL MSS 832 | Damon Runyon Papers | 
  [beinecke.laurenced.xml](1828.xml) | beinecke.laurenced | YCAL MSS 834 | Dan H. Laurence Collection of Henry James | 
