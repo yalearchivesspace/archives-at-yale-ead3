@@ -662,5 +662,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.smithfrank.xml](10839.xml) | beinecke.smithfrank | YCAL MSS 1123 | Frank L. Smith collection | 
  [beinecke.printmakers.xml](10841.xml) | beinecke.printmakers | GEN MSS 1474 | Printmakers Gathering Portfolio | 
  [beinecke.luckwpf178.xml](10847.xml) | beinecke.luckwpf178 | WA Photos Folio 178 | Photographs of Haida Gwaii, British Columbia | 
- [beinecke.jcbenet.xml](10942.xml) | beinecke.jcbenet | YCAL MSS 1127 | John C. Wilson Papers | 
+ [beinecke.jcwilson.xml](10942.xml) | beinecke.jcwilson | YCAL MSS 1127 | John C. Wilson Papers | 
+ [10943.xml](10943.xml) |  | temp2018-03-14T11:01 | MERGE-JWJMSS188 | 
 
