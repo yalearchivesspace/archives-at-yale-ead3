@@ -662,6 +662,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.smithfrank.xml](10839.xml) | beinecke.smithfrank | YCAL MSS 1123 | Frank L. Smith collection | 
  [beinecke.printmakers.xml](10841.xml) | beinecke.printmakers | GEN MSS 1474 | Printmakers Gathering Portfolio | 
  [beinecke.luckwpf178.xml](10847.xml) | beinecke.luckwpf178 | WA Photos Folio 178 | Photographs of Haida Gwaii, British Columbia | 
+ [beinecke.carroll.xml](10941.xml) | beinecke.carroll | JWJ MSS 188 | Sandi Carroll Papers Relating to Early Productions of August Wilson's <title>Seven Guitars</title> | 
  [beinecke.jcwilson.xml](10942.xml) | beinecke.jcwilson | YCAL MSS 1127 | John C. Wilson Papers | 
- [10943.xml](10943.xml) |  | temp2018-03-14T11:01 | MERGE-JWJMSS188 | 
+ [beinecke.caesar.xml](10944.xml) | beinecke.caesar | YCAL MSS Caesar | Sid Caesar scripts | 
 
