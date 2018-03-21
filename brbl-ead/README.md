@@ -639,6 +639,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.benetfamily.xml](5886.xml) | beinecke.benetfamily | YCAL MSS 1107 | Benét Family Papers | 
  [beinecke.magowan.xml](5889.xml) | beinecke.magowan | YCAL MSS 612 | Robin Magowan papers | 
  [beinecke.vaneigem.xml](5893.xml) | beinecke.vaneigem | GEN MSS 1455 | Raoul Vaneigem papers | 
+ [5899.xml](5899.xml) |  | GEN MSS 1124 | Zenaida Gutiérrez-Vega collection of Victoria Kent | 
  [beinecke.vanvechtjwj.xml](10402.xml) | beinecke.vanvechtjwj | JWJ MSS 1050 | Carl Van Vechten Papers Relating to African American Arts and Letters | 
  [beinecke.vanvecht.xml](10403.xml) | beinecke.vanvecht | YCAL MSS 1050 | Carl Van Vechten Papers | 
  [beinecke.bory.xml](10656.xml) | beinecke.bory | GEN MSS 1460 | Jean-François Bory Papers | 
