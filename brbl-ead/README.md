@@ -667,5 +667,4 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jcwilson.xml](10942.xml) | beinecke.jcwilson | YCAL MSS 1127 | John C. Wilson Papers | 
  [beinecke.caesar.xml](10944.xml) | beinecke.caesar | YCAL MSS Caesar | Sid Caesar scripts | 
  [10946.xml](10946.xml) |  | YCAL .MSS.1129 | Pearl London papers | 
- [beinecke.bertini.xml](10951.xml) | beinecke.bertini | GEN MSS 970 | Gianni Bertini papers | 
 
