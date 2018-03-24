@@ -7,6 +7,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.willems.xml](512.xml) | beinecke.willems | GEN MSS 1003 | Mo Willems papers | 
  [beinecke.panat.xml](513.xml) | beinecke.panat | GEN MSS 1005 | Panat family papers | 
  [beinecke.odoevts.xml](514.xml) | beinecke.odoevts | GEN MSS 101 | Irina Odoevt︠s︡eva papers | 
+ [beinecke.faure.xml](515.xml) | beinecke.faure | GEN MSS 1010 | Jean-Pierre Faure collection on Raymond Queneau and pataphysics | 
  [beinecke.babb.xml](516.xml) | beinecke.babb | GEN MSS 1011 | James T. Babb Correspondence | 
  [beinecke.gold.xml](517.xml) | beinecke.gold | GEN MSS 1012 | Arthur Gold and Robert Fizdale papers | 
  [beinecke.batesr.xml](518.xml) | beinecke.batesr | GEN MSS 1013 | Ralph Bates Papers | 
@@ -16,6 +17,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cameras.xml](522.xml) | beinecke.cameras | GEN MSS 1020 | Early Cameras Collection | 
  [beinecke.curtius.xml](523.xml) | beinecke.curtius | GEN MSS 1025 | Ernst Curtius Papers | 
  [beinecke.stevense.xml](524.xml) | beinecke.stevense | GEN MSS 1027 | Stevens family papers | 
+ [beinecke.mcdonald.xml](525.xml) | beinecke.mcdonald | GEN MSS 103 | George MacDonald Collection | 
  [beinecke.lunts.xml](526.xml) | beinecke.lunts | GEN MSS 104 | Lev Lunt︠s︡ papers | 
  [beinecke.west.xml](527.xml) | beinecke.west | GEN MSS 105 | Rebecca West papers | 
  [beinecke.prince.xml](529.xml) | beinecke.prince | GEN MSS 1069 | Stéphane Prince papers | 
@@ -246,6 +248,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.monteverdi.xml](1002.xml) | beinecke.monteverdi | Monteverdi 2 | Manuscripts in the Albi Rosenthal collection of Monteverdi and the birth of opera | 
  [beinecke.hilles.xml](1005.xml) | beinecke.hilles | GEN MSS 1429 | Frederick W. Hilles Manuscript Collection and Papers | 
  [beinecke.steichenfamily.xml](1006.xml) | beinecke.steichenfamily | YCAL MSS 1080 | Steichen family papers | 
+ [beinecke.graysoc.xml](1007.xml) | beinecke.graysoc | 2012 +191/2012 Folio 329 | The Bradford H. Gray Collection in the history of social thought | 
  [beinecke.ndy10.xml](1008.xml) | beinecke.ndy10 | Ndy10 | Miscellaneous financial materials concerning farm corporations operating in the North American West | 
  [beinecke.ndy32.xml](1009.xml) | beinecke.ndy32 | Ndy32 | Miscellaneous financial materials concerning gold and silver mining companies operating in the North American West | 
  [beinecke.ndy33.xml](1010.xml) | beinecke.ndy33 | Ndy33 | Miscellaneous financial materials concerning copper and aluminum mining companies operating in the North American West | 
