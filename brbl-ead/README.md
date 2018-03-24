@@ -20,6 +20,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mcdonald.xml](525.xml) | beinecke.mcdonald | GEN MSS 103 | George MacDonald Collection | 
  [beinecke.lunts.xml](526.xml) | beinecke.lunts | GEN MSS 104 | Lev Lunt︠s︡ papers | 
  [beinecke.west.xml](527.xml) | beinecke.west | GEN MSS 105 | Rebecca West papers | 
+ [beinecke.weinbaum.xml](528.xml) | beinecke.weinbaum | GEN MSS 106 | Mark Weinbaum papers | 
  [beinecke.prince.xml](529.xml) | beinecke.prince | GEN MSS 1069 | Stéphane Prince papers | 
  [beinecke.strat.xml](530.xml) | beinecke.strat | GEN MSS 107 | Stratemeyer Syndicate records | 
  [beinecke.macfall.xml](531.xml) | beinecke.macfall | GEN MSS 1079 | Haldane Macfall collection | 
