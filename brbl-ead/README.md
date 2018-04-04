@@ -278,6 +278,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.leefam.xml](1082.xml) | beinecke.leefam | OSB MSS 52 | Sir William Lee family papers | 
  [beinecke.c8.xml](1116.xml) | beinecke.c8 | OSBORN C8 | [Edmund Burke letters] | 
  [beinecke.d98.xml](1126.xml) | beinecke.d98 | OSBORN D98 | "Autographs of English literati" | 
+ [beinecke.fb117.xml](1127.xml) | beinecke.fb117 | OSBORN fb117 | "A colleccon of many learned letters" | 
  [beinecke.emmonsgf.xml](1176.xml) | beinecke.emmonsgf | WA MSS 166-169 | George F. Emmons papers | 
  [beinecke.evans.xml](1177.xml) | beinecke.evans | WA MSS 172-191 | Elwood Evans Papers | 
  [beinecke.kane.xml](1180.xml) | beinecke.kane | WA MSS 279 | Thomas Leiper Kane papers | 
@@ -367,6 +368,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [1449.xml](1449.xml) |  | YCAL MSS 198 | Thornton Wilder Documentary Project interviews | 
  [beinecke.sherman.xml](1463.xml) | beinecke.sherman | YCAL MSS 224 | William David Sherman papers | 
  [beinecke.jennett.xml](1466.xml) | beinecke.jennett | YCAL MSS 231 | Matthew Jennett papers | 
+ [beinecke.hilda.xml](1467.xml) | beinecke.hilda | YCAL MSS 24 | H. D. Papers | 
  [beinecke.welch.xml](1471.xml) | beinecke.welch | YCAL MSS 248 | James Welch papers | 
  [beinecke.nathanr.xml](1512.xml) | beinecke.nathanr | YCAL MSS 307 | Robert Nathan papers | 
  [beinecke.moorer.xml](1532.xml) | beinecke.moorer | YCAL MSS 341 | Richard Moore papers | 
@@ -672,4 +674,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.caesar.xml](10944.xml) | beinecke.caesar | YCAL MSS Caesar | Sid Caesar scripts | 
  [10946.xml](10946.xml) |  | YCAL .MSS.1129 | Pearl London papers | 
  [10954.xml](10954.xml) |  | YCAL MSS UBU ROI | National Ubu Roi Bake-Off collection | 
+ [beinecke.hammer.xml](10956.xml) | beinecke.hammer | GEN MSS 1482 | Barbara Hammer papers | 
 
