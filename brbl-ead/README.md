@@ -672,7 +672,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.carroll.xml](10941.xml) | beinecke.carroll | JWJ MSS 188 | Sandi Carroll Papers Relating to Early Productions of August Wilson's <title>Seven Guitars</title> | 
  [beinecke.jcwilson.xml](10942.xml) | beinecke.jcwilson | YCAL MSS 1127 | John C. Wilson Papers | 
  [beinecke.caesar.xml](10944.xml) | beinecke.caesar | YCAL MSS Caesar | Sid Caesar scripts | 
- [10946.xml](10946.xml) |  | YCAL .MSS.1129 | Pearl London papers | 
- [10954.xml](10954.xml) |  | YCAL MSS UBU ROI | National Ubu Roi Bake-Off collection | 
  [beinecke.hammer.xml](10956.xml) | beinecke.hammer | GEN MSS 1482 | Barbara Hammer papers | 
 
