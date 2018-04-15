@@ -279,6 +279,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.c8.xml](1116.xml) | beinecke.c8 | OSBORN C8 | [Edmund Burke letters] | 
  [beinecke.d98.xml](1126.xml) | beinecke.d98 | OSBORN D98 | "Autographs of English literati" | 
  [beinecke.fb117.xml](1127.xml) | beinecke.fb117 | OSBORN fb117 | "A colleccon of many learned letters" | 
+ [beinecke.fb163.xml](1143.xml) | beinecke.fb163 | OSBORN FB163 | [Unbound letters from Charles I, King of Great Britain (1600-1649), and from Edward Conway, 2nd Viscount Conway (1594-1655), written in the 1640's] | 
  [beinecke.emmonsgf.xml](1176.xml) | beinecke.emmonsgf | WA MSS 166-169 | George F. Emmons papers | 
  [beinecke.evans.xml](1177.xml) | beinecke.evans | WA MSS 172-191 | Elwood Evans Papers | 
  [beinecke.kane.xml](1180.xml) | beinecke.kane | WA MSS 279 | Thomas Leiper Kane papers | 
