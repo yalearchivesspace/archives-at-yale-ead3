@@ -675,4 +675,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jcwilson.xml](10942.xml) | beinecke.jcwilson | YCAL MSS 1127 | John C. Wilson Papers | 
  [beinecke.caesar.xml](10944.xml) | beinecke.caesar | YCAL MSS Caesar | Sid Caesar scripts | 
  [beinecke.hammer.xml](10956.xml) | beinecke.hammer | GEN MSS 1482 | Barbara Hammer papers | 
+ [beinecke.mcpheeronr.xml](10985.xml) | beinecke.mcpheeronr | WA Photos 591 | River of No Return Collection | 
 
