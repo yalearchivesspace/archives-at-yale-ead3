@@ -341,6 +341,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.westernpostcards.xml](1356.xml) | beinecke.westernpostcards | WA MSS S-3014 | Western postcard collection | 
  [beinecke.guajardo.xml](1365.xml) | beinecke.guajardo | WA MSS S-668 | Luis Alberto Guajardo Papers on the History of Coahuila | 
  [beinecke.lutherwaters.xml](1368.xml) | beinecke.lutherwaters | WA MSS S-2735 | Tal Luther collection of Frank Waters printed materials and papers | 
+ [beinecke.dellen.xml](1369.xml) | beinecke.dellen | WA PHOTOS 271 | Frederick Samuel Dellenbaugh collection of photographs and drawings of the Colorado River region. | 
  [beinecke.brooksah.xml](1372.xml) | beinecke.brooksah | WA Photos 444 | Alfred Hulse Brooks photographs and papers | 
  [beinecke.lewisjon.xml](1373.xml) | beinecke.lewisjon | WA Photos 466 | Jon Lewis photographs of the United Farm Workers movement | 
  [beinecke.germack.xml](1374.xml) | beinecke.germack | WA Photos 483 | Victor F. Germack and Lori Shepard Germack Collection of Photographs of Indians of North America. | 
