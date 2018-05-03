@@ -372,6 +372,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jennett.xml](1466.xml) | beinecke.jennett | YCAL MSS 231 | Matthew Jennett papers | 
  [beinecke.hilda.xml](1467.xml) | beinecke.hilda | YCAL MSS 24 | H. D. Papers | 
  [beinecke.welch.xml](1471.xml) | beinecke.welch | YCAL MSS 248 | James Welch papers | 
+ [beinecke.sergeant.xml](1510.xml) | beinecke.sergeant | YCAL MSS 3 | Elizabeth Shepley Sergeant papers | 
  [beinecke.nathanr.xml](1512.xml) | beinecke.nathanr | YCAL MSS 307 | Robert Nathan papers | 
  [beinecke.moorer.xml](1532.xml) | beinecke.moorer | YCAL MSS 341 | Richard Moore papers | 
  [beinecke.okeeffefndn.xml](1533.xml) | beinecke.okeeffefndn | YCAL MSS 342 | Georgia O'Keeffe Foundation records | 
