@@ -213,7 +213,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.levymusic.xml](922.xml) | beinecke.levymusic | GEN MSS 955 | Edward G. Levy collection of papers relating to music | 
  [beinecke.levytemperance.xml](923.xml) | beinecke.levytemperance | GEN MSS 956 | Edward G. Levy collection relating to temperance | 
  [beinecke.abchapman.xml](924.xml) | beinecke.abchapman | GEN MSS 957 | A. B. Chapman music and drawings | 
- [beinecke.wolman.xml](928.xml) | beinecke.wolman | GEN MSS 969 | Gil J. Wolman papers | 
+ [beinecke.wolman.xml](928.xml) | beinecke.wolman | GEN MSS 969 | Gil J Wolman papers | 
  [beinecke.bryher.xml](929.xml) | beinecke.bryher | GEN.MSS.97 | Bryher papers | 
  [beinecke.sagreen.xml](931.xml) | beinecke.sagreen | GEN MSS 973 | Samuel Adams Green papers | 
  [beinecke.geiss.xml](932.xml) | beinecke.geiss | GEN MSS 979 | Tony Geiss papers | 
