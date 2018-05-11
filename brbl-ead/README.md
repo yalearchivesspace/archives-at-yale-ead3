@@ -547,7 +547,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.osborn.xml](1859.xml) | beinecke.osborn | YCAL MSS 938 | Robert Osborn Papers | 
  [beinecke.byrd.xml](1861.xml) | beinecke.byrd | YCAL MSS 967 | Don Byrd papers | 
  [beinecke.terner.xml](1862.xml) | beinecke.terner | YCAL MSS 970 | Jacob Y. Terner Collection of Autograph Material by American Artists | 
- [beinecke.vogel.xml](1863.xml) | beinecke.vogel | YCAL MSS 972 | Paula Vogel Papers | 
  [beinecke.bernstein.xml](1864.xml) | beinecke.bernstein | YCAL MSS 984 | Charles Bernstein papers | 
  [beinecke.whittier.xml](1865.xml) | beinecke.whittier | YCAL MSS 986 | John Greenleaf Whittier Collection | 
  [beinecke.fang.xml](1866.xml) | beinecke.fang | YCAL MSS 99 | Achilles Fang papers | 
