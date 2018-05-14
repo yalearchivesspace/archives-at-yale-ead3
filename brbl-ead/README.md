@@ -354,6 +354,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.palmquistphotos.xml](1380.xml) | beinecke.palmquistphotos | WA Photos 524 | Peter E. Palmquist photographs | 
  [beinecke.waphotosfile.xml](1381.xml) | beinecke.waphotosfile | WA Photos File | Western Americana card photograph file. | 
  [beinecke.luckowenwpf151.xml](1382.xml) | beinecke.luckowenwpf151 | WA Photos Folio 151 | Owen Luck Photographs of Alaska and Haida Gwaii | 
+ [beinecke.mcpheepotaw.xml](1383.xml) | beinecke.mcpheepotaw | WA Photos Folio 152 | Laura McPhee Photographs of the American West | 
  [beinecke.belanger.xml](1384.xml) | beinecke.belanger | WA Photos Folio 153 | Marion Belanger photographs | 
  [beinecke.halverson.xml](1386.xml) | beinecke.halverson | WA Photos Folio 75 | Photographs of the American West. | 
  [beinecke.ottenstein.xml](1387.xml) | beinecke.ottenstein | WA Photos Folio 82 | David Ottenstein Photographs of Iowa. | 
