@@ -680,4 +680,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bertini.xml](10951.xml) | beinecke.bertini | GEN MSS 970 | Gianni Bertini papers | 
  [beinecke.hammer.xml](10956.xml) | beinecke.hammer | GEN MSS 1482 | Barbara Hammer papers | 
  [beinecke.mcpheeronr.xml](10985.xml) | beinecke.mcpheeronr | WA Photos 591 | River of No Return Collection | 
+ [beinecke.sarenco.xml](11005.xml) | beinecke.sarenco | GEN MSS 971 | Sarenco papers | 
 
