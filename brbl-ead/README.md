@@ -369,6 +369,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mwheeler.xml](1415.xml) | beinecke.mwheeler | YCAL MSS 136 | Monroe Wheeler papers | 
  [beinecke.bird.xml](1439.xml) | beinecke.bird | YCAL MSS 178 | William Bird Ezra Pound papers | 
  [beinecke.kbwilder.xml](1441.xml) | beinecke.kbwilder | YCAL MSS 18 | Katharine Buell Wilder family papers | 
+ [beinecke.sandbrg.xml](1446.xml) | beinecke.sandbrg | YCAL MSS 19 | Sandburg-Page papers | 
  [1449.xml](1449.xml) |  | YCAL MSS 198 | Thornton Wilder Documentary Project interviews | 
  [beinecke.sherman.xml](1463.xml) | beinecke.sherman | YCAL MSS 224 | William David Sherman papers | 
  [beinecke.jennett.xml](1466.xml) | beinecke.jennett | YCAL MSS 231 | Matthew Jennett papers | 
