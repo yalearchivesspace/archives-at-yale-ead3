@@ -601,6 +601,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.meservekunhardt.xml](5714.xml) | beinecke.meservekunhardt | GEN MSS 1430 | Meserve-Kunhardt collection | 
  [beinecke.nuclearlandscapes.xml](5718.xml) | beinecke.nuclearlandscapes | WA Photos Folio 163 | Peter Goin, Nuclear Landscapes: Portfolio of Forty-Four Photographs and Trinity Panorama. | 
  [beinecke.lewisleg.xml](5727.xml) | beinecke.lewisleg | YCAL MSS 1104 | Legal Records Relating to Sinclair Lewis | 
+ [beinecke.lethem.xml](5729.xml) | beinecke.lethem | YCAL MSS 1131 | Jonathan Lethem papers | 
  [beinecke.leeming.xml](5730.xml) | beinecke.leeming | JWJ MSS 172 | David Leeming Collection of James Baldwin Research | 
  [beinecke.brooksjs.xml](5738.xml) | beinecke.brooksjs | GEN MSS 1435 | John Sawyer Brooks papers | 
  [beinecke.rhoban.xml](5739.xml) | beinecke.rhoban | GEN MSS 1436 | Russell Hoban papers | 
