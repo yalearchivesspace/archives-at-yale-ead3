@@ -686,5 +686,4 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.marcus.xml](11001.xml) | beinecke.marcus | GEN MSS 1489 | Leonard S. Marcus papers | 
  [beinecke.sarenco.xml](11005.xml) | beinecke.sarenco | GEN MSS 971 | Sarenco papers | 
  [beinecke.stringfellow.xml](11009.xml) | beinecke.stringfellow | WA Photos 592 | Kim Stringfellow Photographs and Papers | 
- [11037.xml](11037.xml) |  | GEN MSS 1495 | Chlingensberg family diaries | 
 
