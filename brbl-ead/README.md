@@ -686,4 +686,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.marcus.xml](11001.xml) | beinecke.marcus | GEN MSS 1489 | Leonard S. Marcus papers | 
  [beinecke.sarenco.xml](11005.xml) | beinecke.sarenco | GEN MSS 971 | Sarenco papers | 
  [beinecke.stringfellow.xml](11009.xml) | beinecke.stringfellow | WA Photos 592 | Kim Stringfellow Photographs and Papers | 
+ [beinecke.savageh.xml](11017.xml) | beinecke.savageh | OSB MSS 200 | Henry Savage papers | 
+ [beinecke.chlingensberg.xml](11037.xml) | beinecke.chlingensberg | GEN MSS 1495 | Chlingensberg family diaries | 
+ [beinecke.vanvechtmaur.xml](11041.xml) | beinecke.vanvechtmaur | YCAL MSS 1144 | Carl Van Vechten Letters to Saul Mauriber | 
 
