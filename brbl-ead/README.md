@@ -650,6 +650,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.nwcompany.xml](5879.xml) | beinecke.nwcompany | WA MSS S-3238 | North West Company voyageur contracts | 
  [beinecke.nuland.xml](5883.xml) | beinecke.nuland | YCAL MSS 1113 | Sherwin B. Nuland papers | 
  [beinecke.benetfamily.xml](5886.xml) | beinecke.benetfamily | YCAL MSS 1107 | Benét Family Papers | 
+ [beinecke.meaning.xml](5887.xml) | beinecke.meaning | YCAL MSS 993 | M/E/A/N/I/N/G records | 
  [beinecke.magowan.xml](5889.xml) | beinecke.magowan | YCAL MSS 612 | Robin Magowan papers | 
  [beinecke.vaneigem.xml](5893.xml) | beinecke.vaneigem | GEN MSS 1455 | Raoul Vaneigem papers | 
  [beinecke.vanvechtjwj.xml](10402.xml) | beinecke.vanvechtjwj | JWJ MSS 1050 | Carl Van Vechten Papers Relating to African American Arts and Letters | 
@@ -689,4 +690,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.savageh.xml](11017.xml) | beinecke.savageh | OSB MSS 200 | Henry Savage papers | 
  [beinecke.chlingensberg.xml](11037.xml) | beinecke.chlingensberg | GEN MSS 1495 | Chlingensberg family diaries | 
  [beinecke.vanvechtmaur.xml](11041.xml) | beinecke.vanvechtmaur | YCAL MSS 1144 | Carl Van Vechten Letters to Saul Mauriber | 
+ [11043.xml](11043.xml) |  | GENM Simonetti | Gianni Emilio Simonetti papers | 
 
