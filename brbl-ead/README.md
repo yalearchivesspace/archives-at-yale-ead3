@@ -136,6 +136,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.davie.xml](717.xml) | beinecke.davie | GEN MSS 439 | Donald Davie papers | 
  [beinecke.morris.xml](721.xml) | beinecke.morris | GEN MSS 45 | William Morris collection | 
  [beinecke.bowenm.xml](723.xml) | beinecke.bowenm | GEN MSS 454 | Marjorie Bowen papers | 
+ [beinecke.gombro.xml](749.xml) | beinecke.gombro | GEN MSS 515 | Witold Gombrowicz archive | 
  [beinecke.amichai.xml](767.xml) | beinecke.amichai | GEN MSS 572 | Yehuda Amichai papers | 
  [beinecke.brodsky.xml](784.xml) | beinecke.brodsky | GEN MSS 613 | Joseph Brodsky papers | 
  [beinecke.nicolson.xml](785.xml) | beinecke.nicolson | GEN MSS 614 | Harold Nicolson papers  | 
