@@ -693,4 +693,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.chlingensberg.xml](11037.xml) | beinecke.chlingensberg | GEN MSS 1495 | Chlingensberg family diaries | 
  [beinecke.vanvechtmaur.xml](11041.xml) | beinecke.vanvechtmaur | YCAL MSS 1144 | Carl Van Vechten Letters to Saul Mauriber | 
  [11043.xml](11043.xml) |  | GENM Simonetti | Gianni Emilio Simonetti papers | 
+ [beinecke.robertolenbutler.xml](11049.xml) | beinecke.robertolenbutler | YCAL MSS.1146 | Robert Olen Butler papers | 
 
