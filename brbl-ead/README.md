@@ -276,6 +276,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.thistle.xml](1050.xml) | beinecke.thistle | OSB MSS 176 | Thomas Thistlewood papers | 
  [beinecke.taussig.xml](1051.xml) | beinecke.taussig | OSB MSS 184 | Anthony Taussig collection of English legal manuscripts | 
  [beinecke.tennant.xml](1052.xml) | beinecke.tennant | OSB MSS 187 | Stephen Tennant papers | 
+ [beinecke.spence.xml](1070.xml) | beinecke.spence | OSB MSS 4 | Joseph Spence papers | 
  [beinecke.blagden.xml](1081.xml) | beinecke.blagden | OSB MSS 51 | Sir Charles Blagden papers | 
  [beinecke.leefam.xml](1082.xml) | beinecke.leefam | OSB MSS 52 | Sir William Lee family papers | 
  [beinecke.c8.xml](1116.xml) | beinecke.c8 | OSBORN C8 | [Edmund Burke letters] | 
