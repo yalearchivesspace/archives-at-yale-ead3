@@ -292,6 +292,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ahill.xml](1206.xml) | beinecke.ahill | WA MSS S-1297 | Alonzo A. Hill papers | 
  [beinecke.willard.xml](1253.xml) | beinecke.willard | WA MSS S-2152 | Rowland Willard and Elizabeth S. Willard papers | 
  [beinecke.adamsa.xml](1255.xml) | beinecke.adamsa | WA MSS S-2197 | Alexander B. Adams writings on the American West | 
+ [beinecke.tobapatotucker.xml](1282.xml) | beinecke.tobapatotucker | WA MSS S-2604 | Toba Pato Tucker photographs and papers | 
  [beinecke.advertisements.xml](1293.xml) | beinecke.advertisements | WA MSS S-2622 | Collection of advertisements that depict American history. | 
  [beinecke.jonesss.xml](1296.xml) | beinecke.jonesss | WA MSS S-2636 | Solomon Sir Jones films | 
  [beinecke.lamarh.xml](1297.xml) | beinecke.lamarh | WA MSS S-2639 | Howard Roberts Lamar papers | 
@@ -693,7 +694,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.savageh.xml](11017.xml) | beinecke.savageh | OSB MSS 200 | Henry Savage papers | 
  [beinecke.chlingensberg.xml](11037.xml) | beinecke.chlingensberg | GEN MSS 1495 | Chlingensberg family diaries | 
  [beinecke.vanvechtmaur.xml](11041.xml) | beinecke.vanvechtmaur | YCAL MSS 1144 | Carl Van Vechten Letters to Saul Mauriber | 
- [11043.xml](11043.xml) |  | GENM Simonetti | Gianni Emilio Simonetti papers | 
  [beinecke.robertolenbutler.xml](11049.xml) | beinecke.robertolenbutler | YCAL MSS.1146 | Robert Olen Butler papers | 
  [beinecke.blanch.xml](11052.xml) | beinecke.blanch | OSB MSS 202 | Lesley Blanch papers | 
 
