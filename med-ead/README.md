@@ -41,4 +41,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0058.xml](5890.xml) | med.ms.0058 | Ms Coll 58 | Dryden P. Morse papers | 
  [med.pam.0010.xml](10789.xml) | med.pam.0010 | Pam Coll 10 | Cancer "cures" collection | 
  [med.ms.0059.xml](10832.xml) | med.ms.0059 | Ms Coll 59 | James Augustine Haran papers | 
+ [med.ms.0061.xml](11039.xml) | med.ms.0061 | Ms Coll 61 | Robert Bogdan Disability Collection | 
 
