@@ -499,6 +499,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.kramer.xml](1759.xml) | beinecke.kramer | YCAL MSS 722 | Larry Kramer papers | 
  [beinecke.herseyf.xml](1760.xml) | beinecke.herseyf | YCAL MSS 723 | Hersey Family Papers | 
  [beinecke.leavitt.xml](1761.xml) | beinecke.leavitt | YCAL MSS 724 | David Leavitt papers | 
+ [beinecke.knowles.xml](1762.xml) | beinecke.knowles | YCAL MSS 725 | John Knowles papers | 
  [beinecke.gurney.xml](1765.xml) | beinecke.gurney | YCAL MSS 728 | A. R. Gurney papers | 
  [beinecke.ohara.xml](1766.xml) | beinecke.ohara | YCAL MSS 729 | John O'Hara papers | 
  [beinecke.towle.xml](1773.xml) | beinecke.towle | YCAL MSS 745 | Tony Towle papers | 
