@@ -399,6 +399,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hagedorn.xml](1560.xml) | beinecke.hagedorn | YCAL MSS 391 | Hermann Hagedorn papers | 
  [beinecke.hemingwaymw.xml](1561.xml) | beinecke.hemingwaymw | YCAL MSS 392 | Mary Welsh Hemingway papers | 
  [beinecke.jonesmc.xml](1568.xml) | beinecke.jonesmc | YCAL MSS 409 | Mary Cadwalader Jones correspondence | 
+ [beinecke.hapgood.xml](1569.xml) | beinecke.hapgood | YCAL MSS 41 | Hapgood family papers | 
  [beinecke.barry.xml](1573.xml) | beinecke.barry | YCAL MSS 414 | Philip Barry papers | 
  [beinecke.wharton.xml](1575.xml) | beinecke.wharton | YCAL MSS 42 | Edith Wharton collection | 
  [beinecke.saltus.xml](1580.xml) | beinecke.saltus | YCAL MSS 425 | Edgar Saltus papers | 
