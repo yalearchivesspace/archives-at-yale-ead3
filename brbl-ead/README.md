@@ -380,6 +380,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.welch.xml](1471.xml) | beinecke.welch | YCAL MSS 248 | James Welch papers | 
  [beinecke.sergeant.xml](1510.xml) | beinecke.sergeant | YCAL MSS 3 | Elizabeth Shepley Sergeant papers | 
  [beinecke.nathanr.xml](1512.xml) | beinecke.nathanr | YCAL MSS 307 | Robert Nathan papers | 
+ [beinecke.ford.xml](1519.xml) | beinecke.ford | YCAL MSS 32 | Charles Henri Ford papers | 
  [beinecke.moorer.xml](1532.xml) | beinecke.moorer | YCAL MSS 341 | Richard Moore papers | 
  [beinecke.okeeffefndn.xml](1533.xml) | beinecke.okeeffefndn | YCAL MSS 342 | Georgia O'Keeffe Foundation records | 
  [beinecke.civicrep.xml](1534.xml) | beinecke.civicrep | YCAL MSS 343 | Civic Repertory Theatre records | 
