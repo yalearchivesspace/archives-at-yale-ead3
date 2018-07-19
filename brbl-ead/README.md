@@ -28,16 +28,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.amhisfin.xml](533.xml) | beinecke.amhisfin | GEN MSS 1081 | American Historical Financial Documents Collection | 
  [beinecke.strong.xml](534.xml) | beinecke.strong | GEN MSS 1084 | Leonard Strong collection | 
  [beinecke.carrillo.xml](535.xml) | beinecke.carrillo | GEN MSS 1089 | Carrillo de Albornoz and Aldama family papers | 
- [beinecke.addendum.xml](536.xml) | beinecke.addendum | GEN MSS 109 | Spinelli Archive: Addendum | 
- [beinecke.bald.xml](537.xml) | beinecke.bald | GEN MSS 109 [bald] | Spinelli Archive: Baldocci Family Papers | 
- [beinecke.buon1.xml](538.xml) | beinecke.buon1 | GEN MSS 109 [buon1] | Spinelli Archive: Buonguglielmi family papers I | 
- [beinecke.buon2.xml](539.xml) | beinecke.buon2 | GEN MSS 109 [buon2] | Spinelli Archive: Buonguglielmi family papers II | 
- [beinecke.guardi.xml](540.xml) | beinecke.guardi | GEN MSS 109 [guardi] | Spinelli Archive: Guardi family papers | 
- [beinecke.parch.xml](541.xml) | beinecke.parch | GEN MSS 109 [parch] | Spinelli Archive: Parchments | 
- [beinecke.spin23.xml](542.xml) | beinecke.spin23 | GEN MSS 109 [spin23] | Spinelli Archive: Spinelli family papers II & III | 
- [beinecke.spinell.xml](543.xml) | beinecke.spinell | GEN MSS 109 [spinell | Spinelli Archive: Spinelli family papers I | 
- [beinecke.spinmisc.xml](544.xml) | beinecke.spinmisc | GEN MSS 109 [spinmis | Spinelli Archive: Miscellaneous material | 
- [beinecke.spinover.xml](545.xml) | beinecke.spinover | GEN MSS 109 [spinove | Spinelli Archive: Oversize | 
  [beinecke.chelsea.xml](546.xml) | beinecke.chelsea | GEN MSS 1090 | Chelsea records | 
  [beinecke.madan.xml](547.xml) | beinecke.madan | GEN MSS 1091 | Falconer Madan collection of Oxford manuscripts | 
  [beinecke.jacquard.xml](548.xml) | beinecke.jacquard | GEN MSS 1092 | Jacquard weaving treatises | 
