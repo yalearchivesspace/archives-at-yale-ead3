@@ -411,6 +411,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.pound.xml](1584.xml) | beinecke.pound | YCAL MSS 43 | Ezra Pound Papers | 
  [beinecke.furniss.xml](1586.xml) | beinecke.furniss | YCAL MSS 431 | Ruth Pine Furniss papers | 
  [beinecke.lachaise.xml](1588.xml) | beinecke.lachaise | YCAL MSS 434 | Gaston Lachaise collection | 
+ [beinecke.theatreguild.xml](1590.xml) | beinecke.theatreguild | YCAL MSS 436 | Theatre Guild archive | 
  [beinecke.farrar.xml](1591.xml) | beinecke.farrar | YCAL MSS 437 | John Chipman Farrar papers | 
  [beinecke.tchubb.xml](1594.xml) | beinecke.tchubb | YCAL MSS 441 | Thomas Caldecot Chubb Papers | 
  [beinecke.hillhouse.xml](1597.xml) | beinecke.hillhouse | YCAL MSS 444 | James Abraham Hillhouse papers | 
@@ -701,4 +702,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.simonetti.xml](11043.xml) | beinecke.simonetti | GEN MSS 1497 | Gianni Emilio Simonetti papers | 
  [beinecke.robertolenbutler.xml](11049.xml) | beinecke.robertolenbutler | YCAL MSS.1146 | Robert Olen Butler papers | 
  [beinecke.blanch.xml](11052.xml) | beinecke.blanch | OSB MSS 202 | Lesley Blanch papers | 
+ [beinecke.spinell.xml](11076.xml) | beinecke.spinell | GEN MSS 109 | Spinelli Archive | 
 
