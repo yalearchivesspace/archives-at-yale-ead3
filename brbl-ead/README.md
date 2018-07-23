@@ -228,6 +228,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.komunyakaa.xml](965.xml) | beinecke.komunyakaa | JWJ MSS 152 | Yusef Komunyakaa papers | 
  [beinecke.darktown.xml](966.xml) | beinecke.darktown | JWJ MSS 158 | Currier & Ives Darktown Prints | 
  [beinecke.wright.xml](972.xml) | beinecke.wright | JWJ MSS 3 | Richard Wright papers | 
+ [beinecke.wfwhite.xml](974.xml) | beinecke.wfwhite | JWJ MSS 38 | Walter Francis White and Poppy Cannon papers | 
  [beinecke.himes.xml](976.xml) | beinecke.himes | JWJ MSS 42 | Chester Himes papers | 
  [beinecke.feelings.xml](986.xml) | beinecke.feelings | JWJ MSS 74 | Tom Feelings artwork. | 
  [beinecke.jwjphotos.xml](987.xml) | beinecke.jwjphotos | JWJ MSS 76 | Photographs of prominent African Americans. | 
