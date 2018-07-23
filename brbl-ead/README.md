@@ -129,6 +129,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.butts.xml](739.xml) | beinecke.butts | GEN MSS 487 | Mary Butts papers | 
  [beinecke.gombro.xml](749.xml) | beinecke.gombro | GEN MSS 515 | Witold Gombrowicz archive | 
  [beinecke.amichai.xml](767.xml) | beinecke.amichai | GEN MSS 572 | Yehuda Amichai papers | 
+ [beinecke.frkoch.xml](775.xml) | beinecke.frkoch | GEN MSS 601 | Frederick R. Koch collection | 
  [beinecke.brodsky.xml](784.xml) | beinecke.brodsky | GEN MSS 613 | Joseph Brodsky papers | 
  [beinecke.nicolson.xml](785.xml) | beinecke.nicolson | GEN MSS 614 | Harold Nicolson papers  | 
  [beinecke.allegret.xml](797.xml) | beinecke.allegret | GEN MSS 651 | Marc Allegrét papers | 
