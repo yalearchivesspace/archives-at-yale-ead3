@@ -697,4 +697,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.robertolenbutler.xml](11049.xml) | beinecke.robertolenbutler | YCAL MSS.1146 | Robert Olen Butler papers | 
  [beinecke.blanch.xml](11052.xml) | beinecke.blanch | OSB MSS 202 | Lesley Blanch papers | 
  [beinecke.spinell.xml](11076.xml) | beinecke.spinell | GEN MSS 109 | Spinelli Archive | 
+ [beinecke.wppy.xml](11084.xml) | beinecke.wppy | YCAL MSS 1147 | World Performance Project at Yale records | 
 
