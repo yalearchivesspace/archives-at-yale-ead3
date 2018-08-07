@@ -19,6 +19,24 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.aob.0042.xml](338.xml) | arts.aob.0042 | AOB 42 | Yale University poster collection | 
  [arts.aob.0043.xml](339.xml) | arts.aob.0043 | AOB 43 | Sam Kim Collection | 
  [arts.aob.0044.xml](340.xml) | arts.aob.0044 | AOB 44 | Lance Hidy Collection | 
+ [arts.aob.0045.xml](341.xml) | arts.aob.0045 | AOB 45 | William Drenttel Collection of Imre Reiner | 
+ [arts.aob.0047.xml](342.xml) | arts.aob.0047 | AOB 47 | Janus Press production material | 
+ [arts.aob.0005.xml](343.xml) | arts.aob.0005 | AOB 5 | Joseph W. Reed designs and art work collection. | 
+ [arts.aob.0050.xml](344.xml) | arts.aob.0050 | AOB 50 | Honorable Company of College Printers Collection | 
+ [arts.aob.0055.xml](345.xml) | arts.aob.0055 | AOB 55 | Collection of Type Specimens | 
+ [arts.aob.0061.xml](347.xml) | arts.aob.0061 | AOB 61 | Jacques Hnizdovsky collection | 
+ [arts.aob.0069.xml](350.xml) | arts.aob.0069 | AOB 69 | Collection of Artwork from Thailand | 
+ [arts.aob.0070.xml](351.xml) | arts.aob.0070 | AOB 70 | Collection of Decorative Papers | 
+ [arts.aob.0073.xml](352.xml) | arts.aob.0073 | AOB 73 | Collection of Drawing and Painting on Paper | 
+ [arts.aob.0074.xml](353.xml) | arts.aob.0074 | AOB 74 | Collection of early graphic art | 
+ [arts.aob.0075.xml](354.xml) | arts.aob.0075 | AOB 75 | Collection of book illustrations | 
+ [arts.aob.0076.xml](355.xml) | arts.aob.0076 | AOB 76 | Collection of Twentieth-Century Graphic Art | 
+ [arts.aob.0077.xml](356.xml) | arts.aob.0077 | AOB 77 | Collection of Nineteenth-Century Graphic Art | 
+ [arts.aob.0080.xml](358.xml) | arts.aob.0080 | AOB 80 | Collection of student printing | 
+ [arts.aob.0082.xml](359.xml) | arts.aob.0082 | AOB 82 | Collection of Japanese prints | 
+ [arts.aob.0009.xml](361.xml) | arts.aob.0009 | AOB 9 | Carl Purington Rollins papers | 
+ [arts.aob.0090.xml](362.xml) | arts.aob.0090 | AOB 90 | Collection of printing production materials | 
+ [arts.art.0014.xml](365.xml) | arts.art.0014 | ART 14 | Winterhouse Art and Design Collection of Volume 1 Number 1 | 
  [arts.aob.0030.xml](5680.xml) | arts.aob.0030 | AOB 30 | Emma Joy Dana Collection of Artuš Scheiner | 
  [5841.xml](5841.xml) |  | AOB 121 | Peace Paper Project collection | 
 
