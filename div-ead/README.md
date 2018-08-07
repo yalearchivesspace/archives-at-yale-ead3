@@ -27,4 +27,28 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.117.xml](57.xml) | divinity.117 | RG 117 | Henry Harris Jessup Papers | 
  [divinity.118.xml](58.xml) | divinity.118 | RG 118 | William James Mutch Papers | 
  [divinity.119.xml](59.xml) | divinity.119 | RG 119 | Frank Chamberlin Porter Papers | 
+ [divinity.011a.xml](60.xml) | divinity.011a | RG 11A | United Board for Christian Higher Education in Asia Records - Addendum A | 
+ [divinity.011b.xml](61.xml) | divinity.011b | RG 11B | United Board for Christian Higher Education in Asia Records - Addendum B | 
+ [divinity.011c.xml](62.xml) | divinity.011c | RG 11C | United Board for Christian Higher Education in Asia Records - Addendum C | 
+ [divinity.011d.xml](63.xml) | divinity.011d | RG 11D | United Board for Christian Higher Education in Asia Records - Addendum D | 
+ [divinity.011e.xml](64.xml) | divinity.011e | RG 11E | United Board for Christian Higher Education in Asia Records - Addendum E | 
+ [divinity.011f.xml](65.xml) | divinity.011f | RG 11F | United Board for Christian Higher Education in Asia Records - Addendum F | 
+ [divinity.011g.xml](66.xml) | divinity.011g | RG 11G | United Board for Christian Higher Education in Asia Records - Addendum G | 
+ [divinity.11h.xml](67.xml) | divinity.11h | RG 11H | United Board for Christian Higher Education in Asia Records - Addendum H | 
+ [divinity.011i.xml](68.xml) | divinity.011i | RG 11I | United Board for Christian Higher Education in Asia Records - Addendum I | 
+ [divinity.012.xml](69.xml) | divinity.012 | RG 12 | Dwight W. Edwards Papers | 
+ [divinity.120.xml](70.xml) | divinity.120 | RG 120 | John and Eleanor Reuling Papers | 
+ [divinity.121.xml](71.xml) | divinity.121 | RG 121 | Reinhold Riemer Papers | 
+ [divinity.122.xml](72.xml) | divinity.122 | RG 122 | Frank Knight Sanders Papers | 
+ [divinity.123.xml](73.xml) | divinity.123 | RG 123 | Noah C. Saxton Papers | 
+ [divinity.124.xml](74.xml) | divinity.124 | RG 124 | Eli Smith Family Papers | 
+ [divinity.125.xml](75.xml) | divinity.125 | RG 125 | Henry Stauffer Papers | 
+ [divinity.126.xml](76.xml) | divinity.126 | RG 126 | Lorenzo and Ruth Bennett Morgan Papers | 
+ [divinity.127.xml](77.xml) | divinity.127 | RG 127 | John David Hayes Papers | 
+ [divinity.128.xml](78.xml) | divinity.128 | RG 128 | William Henricks Wiser and Charlotte Viall Wiser Papers | 
+ [divinity.129.xml](79.xml) | divinity.129 | RG 129 | John William Colenso Papers | 
+ [divinity.013.xml](80.xml) | divinity.013 | RG 13 | Chinese Students' Christian Association in North America Records | 
+ [divinity.130.xml](81.xml) | divinity.130 | RG 130 | Bright Family Papers | 
+ [divinity.131.xml](82.xml) | divinity.131 | RG 131 | Henry Hallam Tweedy Papers | 
+ [divinity.132.xml](83.xml) | divinity.132 | RG 132 | Shanghai American School Records: the Phoebe White Wentworth Collection of Shanghai American School History and Memorabilia | 
 
