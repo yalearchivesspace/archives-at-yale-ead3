@@ -37,6 +37,29 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.aob.0009.xml](361.xml) | arts.aob.0009 | AOB 9 | Carl Purington Rollins papers | 
  [arts.aob.0090.xml](362.xml) | arts.aob.0090 | AOB 90 | Collection of printing production materials | 
  [arts.art.0014.xml](365.xml) | arts.art.0014 | ART 14 | Winterhouse Art and Design Collection of Volume 1 Number 1 | 
+ [arts.art.0015.xml](366.xml) | arts.art.0015 | ART 15 | Dean Sakamoto Collection of Yale School of Architecture Exhibition Publications | 
+ [arts.art.0017.xml](367.xml) | arts.art.0017 | ART 17 | Winterhouse Art and Design Collection of Ezra Winter | 
+ [arts.art.0002.xml](369.xml) | arts.art.0002 | ART 2 | Artists Pamphlet collection | 
+ [arts.art.0022.xml](370.xml) | arts.art.0022 | ART 22 | Winterhouse Art and Design collection of type specimens | 
+ [arts.art.0023.xml](371.xml) | arts.art.0023 | ART 23 | Winterhouse Art and Design collection of ephemera | 
+ [arts.art.0024.xml](372.xml) | arts.art.0024 | ART 24 | Winterhouse Art and Design collection of corporate clients | 
+ [arts.art.0025.xml](373.xml) | arts.art.0025 | ART 25 | Collection of Latin American exhibition catalogs and visual resources | 
+ [arts.art.0027.xml](374.xml) | arts.art.0027 | ART 27 | Martin Sebastian Soria papers | 
+ [arts.art.0028.xml](375.xml) | arts.art.0028 | ART 28 | Collection of Czech viewbooks and guidebooks | 
+ [arts.bkp.0102.xml](377.xml) | arts.bkp.0102 | BKP 102 | Collection of Bookplates of Religious Orders | 
+ [arts.bkp.0103.xml](378.xml) | arts.bkp.0103 | BKP 103 | Collection of Leather Bookplates | 
+ [arts.bkp.0110.xml](379.xml) | arts.bkp.0110 | BKP 110 | Collection of German heraldry materials | 
+ [arts.bkp.0117.xml](380.xml) | arts.bkp.0117 | BKP 117 | Collection of Bookplates by Jan Battermann | 
+ [arts.bkp.0012.xml](381.xml) | arts.bkp.0012 | BKP 12 | Collection of Norwegian Bookplates | 
+ [arts.bkp.0120.xml](382.xml) | arts.bkp.0120 | BKP 120 | George H. Viner Collection of Bookplate Catalogues compiled by Herbert M. Vaughan | 
+ [arts.bkp.0122.xml](383.xml) | arts.bkp.0122 | BKP 122 | Collection of individually donated bookplates | 
+ [arts.bkp.0124.xml](384.xml) | arts.bkp.0124 | BKP 124 | Collection of Bookplates by George W. Eve | 
+ [arts.bkp.0125.xml](385.xml) | arts.bkp.0125 | BKP 125 | Collection of Bookplates by Mark Severin | 
+ [arts.bkp.0127.xml](386.xml) | arts.bkp.0127 | BKP 127 | Collection of Bookplates by John W. Evans | 
+ [arts.bkp.0128.xml](387.xml) | arts.bkp.0128 | BKP 128 | Collection of bookplates by Timothy Cole | 
+ [arts.bkp.0129.xml](388.xml) | arts.bkp.0129 | BKP 129 | Collection of bookplates by F. B. Siegrist | 
+ [arts.bkp.0013.xml](389.xml) | arts.bkp.0013 | BKP 13 | Collection of Danish Bookplates | 
+ [arts.bkp.0130.xml](390.xml) | arts.bkp.0130 | BKP 130 | Collection of bookplates by Robert Osmond | 
  [arts.aob.0030.xml](5680.xml) | arts.aob.0030 | AOB 30 | Emma Joy Dana Collection of Artuš Scheiner | 
  [5841.xml](5841.xml) |  | AOB 121 | Peace Paper Project collection | 
 
