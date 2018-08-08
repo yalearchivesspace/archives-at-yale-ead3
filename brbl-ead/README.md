@@ -193,8 +193,30 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.meyercla.xml](724.xml) | beinecke.meyercla | GEN MSS 456 | Agnes E. Meyer collection of Paul Claudel | 
  [beinecke.giono.xml](725.xml) | beinecke.giono | GEN MSS 457 | Blanche Meyer collection of Jean Giono | 
  [beinecke.gionocol.xml](726.xml) | beinecke.gionocol | GEN MSS 458 | Jean Giono collection | 
+ [beinecke.anouilh.xml](727.xml) | beinecke.anouilh | GEN MSS 459 | Jean Anouilh manuscripts | 
+ [beinecke.watson.xml](728.xml) | beinecke.watson | GEN MSS 460 | William Watson collection | 
+ [beinecke.csa.xml](729.xml) | beinecke.csa | GEN MSS 463 | Confederate States of America collection | 
+ [beinecke.vanthal.xml](730.xml) | beinecke.vanthal | GEN MSS 464 | Letters to Herbert Van Thal | 
+ [beinecke.isted.xml](731.xml) | beinecke.isted | GEN MSS 465 | Barbara Isted collection of Thomas Percy | 
+ [beinecke.jerrold.xml](732.xml) | beinecke.jerrold | GEN MSS 467 | Jerrold/Smith autograph collection | 
+ [beinecke.scheikev.xml](734.xml) | beinecke.scheikev | GEN MSS 469 | Marie Scheikévitch papers and Sicard family papers | 
+ [beinecke.leesmil.xml](735.xml) | beinecke.leesmil | GEN MSS 476 | James Lees-Milne papers | 
+ [beinecke.helier.xml](736.xml) | beinecke.helier | GEN MSS 477 | Lady St. Helier papers | 
+ [beinecke.vare.xml](737.xml) | beinecke.vare | GEN MSS 481 | Daniele Varè / Elizabeth Vincent Foster collection | 
+ [beinecke.marsham.xml](738.xml) | beinecke.marsham | GEN MSS 482 | Robert Marsham-Townshend papers | 
  [beinecke.butts.xml](739.xml) | beinecke.butts | GEN MSS 487 | Mary Butts papers | 
+ [beinecke.morpurgo.xml](740.xml) | beinecke.morpurgo | GEN MSS 493 | Nelson Morpurgo collection | 
+ [beinecke.guy.xml](741.xml) | beinecke.guy | GEN MSS 494 | Guy Johnson papers | 
+ [beinecke.klingsor.xml](742.xml) | beinecke.klingsor | GEN MSS 502 | Tristan Klingsor papers | 
+ [beinecke.bauer.xml](743.xml) | beinecke.bauer | GEN MSS 505 | George H. Bauer Jean Paul Sartre manuscript collection | 
+ [beinecke.mulford.xml](744.xml) | beinecke.mulford | GEN MSS 509 | Stephen Sylvester Day collection of Daniel Mulford | 
+ [beinecke.cadell.xml](745.xml) | beinecke.cadell | GEN MSS 510 | Cadell & Davies records | 
+ [beinecke.dickson.xml](746.xml) | beinecke.dickson | GEN MSS 511 | Frederick Stoever Dickson collection regarding Henry Fielding | 
+ [beinecke.osborne.xml](747.xml) | beinecke.osborne | GEN MSS 512 | Eric Allen Osborne papers concerning In letters of red | 
  [beinecke.gombro.xml](749.xml) | beinecke.gombro | GEN MSS 515 | Witold Gombrowicz archive | 
+ [beinecke.scherer.xml](751.xml) | beinecke.scherer | GEN MSS 526 | Olga Scherer-Virski papers | 
+ [beinecke.herbert.xml](752.xml) | beinecke.herbert | GEN MSS 527 | Zbigniew Herbert papers | 
+ [beinecke.gorczyns.xml](753.xml) | beinecke.gorczyns | GEN MSS 528 | Renata Gorczynski papers relating to Czesław Miłosz | 
  [beinecke.amichai.xml](767.xml) | beinecke.amichai | GEN MSS 572 | Yehuda Amichai papers | 
  [beinecke.frkoch.xml](775.xml) | beinecke.frkoch | GEN MSS 601 | Frederick R. Koch collection | 
  [beinecke.brodsky.xml](784.xml) | beinecke.brodsky | GEN MSS 613 | Joseph Brodsky papers | 
