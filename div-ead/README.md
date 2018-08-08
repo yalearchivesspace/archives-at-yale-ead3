@@ -75,5 +75,27 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.152.xml](105.xml) | divinity.152 | RG 152 | Young Family Papers | 
  [divinity.153.xml](106.xml) | divinity.153 | RG 153 | Carroll and Helen Yerkes Papers | 
  [divinity.154.xml](107.xml) | divinity.154 | RG 154 | Association of Professors and Researchers in Religious Education Records | 
+ [divinity.154A.xml](108.xml) | divinity.154A | RG 154A | Association of Professors and Researchers in Religious Education Records -  Addendum A | 
+ [divinity.155.xml](109.xml) | divinity.155 | RG 155 | Lawrence and Eleanor Mead Papers | 
+ [divinity.156.xml](110.xml) | divinity.156 | RG 156 | David M. Stowe Papers | 
+ [divinity.157.xml](111.xml) | divinity.157 | RG 157 | Bernard and Katherine Read Papers | 
+ [divinity.158.xml](112.xml) | divinity.158 | RG 158 | Merrill Isely Papers | 
+ [divinity.159.xml](113.xml) | divinity.159 | RG 159 | Lillian Picken Papers | 
+ [divinity.016.xml](114.xml) | divinity.016 | RG 16 | Thomas Torrance Papers | 
+ [divinity.160.xml](115.xml) | divinity.160 | RG 160 | George and Grace Snyder Papers | 
+ [divinity.161.xml](116.xml) | divinity.161 | RG 161 | Albert Dewey Papers | 
+ [divinity.162.xml](117.xml) | divinity.162 | RG 162 | World Council of Churches Records | 
+ [divinity.163b.xml](120.xml) | divinity.163b | RG 163B | American Theological Library Association Records - Addendum B | 
+ [divinity.164.xml](121.xml) | divinity.164 | RG 164 | American School Kikungshan and American School Kikungshan Association Records | 
+ [divinity.165.xml](122.xml) | divinity.165 | RG 165 | Earle and Thelma Ballou Papers | 
+ [divinity.166.xml](123.xml) | divinity.166 | RG 166 | Gerald H. Anderson Papers | 
+ [divinity.168.xml](125.xml) | divinity.168 | RG 168 | Ernest and Olivia Ikenberry Papers | 
+ [divinity.169.xml](126.xml) | divinity.169 | RG 169 | Edward Curtis Dahl Papers | 
+ [divinity.017.xml](127.xml) | divinity.017 | RG 17 | Border Service Department of the Church of Christ in China Records | 
+ [divinity.170.xml](128.xml) | divinity.170 | RG 170 | James and Margaret Goff Papers | 
+ [divinity.171.xml](129.xml) | divinity.171 | RG 171 | Ruth M. Harris Papers | 
+ [divinity.172.xml](130.xml) | divinity.172 | RG 172 | George A. Lindbeck Papers | 
  [divinity.136.xml](5401.xml) | divinity.136 | RG 136 | William Palmer Ladd Papers | 
+ [divinity.163a.xml](5405.xml) | divinity.163a | RG 163A | American Theological Library Association Records - Addendum A | 
+ [divinity.167.xml](5406.xml) | divinity.167 | RG 167 | National Association of College and University Chaplains and Directors of Religious Life Records | 
 
