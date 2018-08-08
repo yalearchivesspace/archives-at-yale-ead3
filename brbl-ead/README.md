@@ -217,6 +217,14 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.scherer.xml](751.xml) | beinecke.scherer | GEN MSS 526 | Olga Scherer-Virski papers | 
  [beinecke.herbert.xml](752.xml) | beinecke.herbert | GEN MSS 527 | Zbigniew Herbert papers | 
  [beinecke.gorczyns.xml](753.xml) | beinecke.gorczyns | GEN MSS 528 | Renata Gorczynski papers relating to Czesław Miłosz | 
+ [beinecke.hood.xml](755.xml) | beinecke.hood | GEN MSS 53 | Thomas Hood collection | 
+ [beinecke.schlette.xml](756.xml) | beinecke.schlette | GEN MSS 547 | Annie Schletter papers | 
+ [beinecke.larevell.xml](757.xml) | beinecke.larevell | GEN MSS 549 | Louis-Marie de La Revellière-Lépeaux papers | 
+ [beinecke.quiller.xml](758.xml) | beinecke.quiller | GEN MSS 551 | Quiller-Couch family papers | 
+ [beinecke.hayward.xml](759.xml) | beinecke.hayward | GEN MSS 553 | Abraham Hayward collection | 
+ [beinecke.llewelyn.xml](760.xml) | beinecke.llewelyn | GEN MSS 554 | Llewelyn Davies family papers | 
+ [beinecke.mcglasha.xml](761.xml) | beinecke.mcglasha | GEN MSS 555 | E. L. McGlashan collection of documents concerning slavery in the United States | 
+ [beinecke.kaufman.xml](762.xml) | beinecke.kaufman | GEN MSS 562 | Boris Kaufman papers | 
  [beinecke.amichai.xml](767.xml) | beinecke.amichai | GEN MSS 572 | Yehuda Amichai papers | 
  [beinecke.frkoch.xml](775.xml) | beinecke.frkoch | GEN MSS 601 | Frederick R. Koch collection | 
  [beinecke.brodsky.xml](784.xml) | beinecke.brodsky | GEN MSS 613 | Joseph Brodsky papers | 
