@@ -167,10 +167,32 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cameron.xml](696.xml) | beinecke.cameron | GEN MSS 337 | Kenneth Walter Cameron collection | 
  [beinecke.lane.xml](697.xml) | beinecke.lane | GEN MSS 338 | John Edward Lane papers | 
  [beinecke.fisk.xml](698.xml) | beinecke.fisk | GEN MSS 342 | Earl E. Fisk papers | 
+ [beinecke.audv.xml](699.xml) | beinecke.audv | GEN MSS 343 | Victor Gifford Audubon collection | 
+ [beinecke.tink.xml](701.xml) | beinecke.tink | GEN MSS 354 | Chauncey Brewster Tinker papers | 
+ [beinecke.cad.xml](702.xml) | beinecke.cad | GEN MSS 355 | Ernst Cassirer papers : addition | 
+ [beinecke.tinklet.xml](703.xml) | beinecke.tinklet | GEN MSS 359 | Chauncey Brewster Tinker letters and manuscripts | 
+ [beinecke.tanner.xml](704.xml) | beinecke.tanner | GEN MSS 368 | Allen Tanner papers | 
+ [beinecke.merriam.xml](705.xml) | beinecke.merriam | GEN MSS 370 | G. & C. Merriam Company archive | 
+ [beinecke.steeg.xml](706.xml) | beinecke.steeg | GEN MSS 388 | Francis Steegmuller collection of Jacques Villon | 
+ [beinecke.boxing.xml](707.xml) | beinecke.boxing | GEN MSS 402 | Boxing prints collection | 
  [beinecke.dix.xml](708.xml) | beinecke.dix | GEN MSS 403 | George Dix papers | 
+ [beinecke.jolasadd.xml](709.xml) | beinecke.jolasadd | GEN MSS 411 | Eugène and Maria Jolas papers : addition | 
+ [beinecke.hugo.xml](710.xml) | beinecke.hugo | GEN MSS 412 | Victor Hugo collection | 
+ [beinecke.wag.xml](711.xml) | beinecke.wag | GEN MSS 415 | David Wagstaff papers | 
+ [beinecke.oencraig.xml](712.xml) | beinecke.oencraig | GEN MSS 424 | Donald Oenslager collection of Edward Gordon Craig | 
+ [beinecke.sackvill.xml](714.xml) | beinecke.sackvill | GEN MSS 428 | Vita Sackville-West papers relating to Violet Trefusis | 
+ [beinecke.craig.xml](715.xml) | beinecke.craig | GEN MSS 433 | Edward Gordon Craig collection | 
+ [beinecke.cunard.xml](716.xml) | beinecke.cunard | GEN MSS 438 | Nancy Cunard collection | 
  [beinecke.davie.xml](717.xml) | beinecke.davie | GEN MSS 439 | Donald Davie papers | 
+ [beinecke.gerassi.xml](718.xml) | beinecke.gerassi | GEN MSS 441 | John Gerassi collection of Jean-Paul Sartre | 
+ [beinecke.pitt.xml](719.xml) | beinecke.pitt | GEN MSS 442 | William Pitt collection | 
+ [beinecke.super.xml](720.xml) | beinecke.super | GEN MSS 444 | Jules Supervielle collection | 
  [beinecke.morris.xml](721.xml) | beinecke.morris | GEN MSS 45 | William Morris collection | 
+ [beinecke.polkcoq.xml](722.xml) | beinecke.polkcoq | GEN MSS 453 | Maria H. Dehon Polk collection of Constant Coquelin | 
  [beinecke.bowenm.xml](723.xml) | beinecke.bowenm | GEN MSS 454 | Marjorie Bowen papers | 
+ [beinecke.meyercla.xml](724.xml) | beinecke.meyercla | GEN MSS 456 | Agnes E. Meyer collection of Paul Claudel | 
+ [beinecke.giono.xml](725.xml) | beinecke.giono | GEN MSS 457 | Blanche Meyer collection of Jean Giono | 
+ [beinecke.gionocol.xml](726.xml) | beinecke.gionocol | GEN MSS 458 | Jean Giono collection | 
  [beinecke.butts.xml](739.xml) | beinecke.butts | GEN MSS 487 | Mary Butts papers | 
  [beinecke.gombro.xml](749.xml) | beinecke.gombro | GEN MSS 515 | Witold Gombrowicz archive | 
  [beinecke.amichai.xml](767.xml) | beinecke.amichai | GEN MSS 572 | Yehuda Amichai papers | 
@@ -743,4 +765,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.blanch.xml](11052.xml) | beinecke.blanch | OSB MSS 202 | Lesley Blanch papers | 
  [beinecke.spinell.xml](11076.xml) | beinecke.spinell | GEN MSS 109 | Spinelli Archive | 
  [beinecke.wppy.xml](11084.xml) | beinecke.wppy | YCAL MSS 1147 | World Performance Project at Yale records | 
+ [beinecke.waphotosfolio148.xml](11091.xml) | beinecke.waphotosfolio148 | WA Photos Folio 148 | Photographs of Arizona, Nebraska, New Mexico, North Dakota, and South Dakota  | 
 
