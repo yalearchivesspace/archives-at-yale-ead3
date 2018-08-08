@@ -51,4 +51,29 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.130.xml](81.xml) | divinity.130 | RG 130 | Bright Family Papers | 
  [divinity.131.xml](82.xml) | divinity.131 | RG 131 | Henry Hallam Tweedy Papers | 
  [divinity.132.xml](83.xml) | divinity.132 | RG 132 | Shanghai American School Records: the Phoebe White Wentworth Collection of Shanghai American School History and Memorabilia | 
+ [divinity.133.xml](84.xml) | divinity.133 | RG 133 | Helen Morton Papers | 
+ [divinity.134.xml](85.xml) | divinity.134 | RG 134 | Christina M. Breman Papers | 
+ [divinity.135.xml](86.xml) | divinity.135 | RG 135 | Marvin H. Pope Papers | 
+ [divinity.137.xml](87.xml) | divinity.137 | RG 137 | Hugh Hubbard Papers | 
+ [divinity.138.xml](88.xml) | divinity.138 | RG 138 | Merrill and Lucille Ady Papers | 
+ [divinity.139.xml](89.xml) | divinity.139 | RG 139 | Eva Asher Papers | 
+ [divinity.014.xml](90.xml) | divinity.014 | RG 14 | Trustees of Lingnan University Records | 
+ [divinity.140.xml](91.xml) | divinity.140 | RG 140 | Constance Buell Papers | 
+ [divinity.141.xml](92.xml) | divinity.141 | RG 141 | Robert E. and Gladys Wilson Bundy Papers | 
+ [divinity.142.xml](93.xml) | divinity.142 | RG 142 | Elsie Clark Krug Papers | 
+ [divinity.143.xml](94.xml) | divinity.143 | RG 143 | Chester and Phebe Fuson Papers | 
+ [divinity.144.xml](95.xml) | divinity.144 | RG 144 | Lewis and Lois Gilbert Papers | 
+ [divinity.145.xml](96.xml) | divinity.145 | RG 145 | John Hersey Papers | 
+ [divinity.146.xml](97.xml) | divinity.146 | RG 146 | Austin O. Long Papers | 
+ [divinity.147.xml](98.xml) | divinity.147 | RG 147 | Lyman and Sadie Hale Papers | 
+ [divinity.148.xml](99.xml) | divinity.148 | RG 148 | Randolph C. Sailer Papers | 
+ [divinity.149.xml](100.xml) | divinity.149 | RG 149 | Abbie G. Sanderson Papers | 
+ [divinity.014a.xml](101.xml) | divinity.014a | RG 14A | Lingnan Foundation records | 
+ [divinity.015.xml](102.xml) | divinity.015 | RG 15 | Ellison and Lottie Hildreth Papers | 
+ [divinity.150.xml](103.xml) | divinity.150 | RG 150 | Lennig Sweet Papers | 
+ [divinity.151.xml](104.xml) | divinity.151 | RG 151 | Whitener Family Papers | 
+ [divinity.152.xml](105.xml) | divinity.152 | RG 152 | Young Family Papers | 
+ [divinity.153.xml](106.xml) | divinity.153 | RG 153 | Carroll and Helen Yerkes Papers | 
+ [divinity.154.xml](107.xml) | divinity.154 | RG 154 | Association of Professors and Researchers in Religious Education Records | 
+ [divinity.136.xml](5401.xml) | divinity.136 | RG 136 | William Palmer Ladd Papers | 
 
