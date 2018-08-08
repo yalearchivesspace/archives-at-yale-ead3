@@ -143,6 +143,30 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.southey.xml](669.xml) | beinecke.southey | GEN MSS 298 | Robert Southey collection | 
  [beinecke.toynbee.xml](670.xml) | beinecke.toynbee | GEN MSS 299 | Letters to William Toynbee | 
  [beinecke.terapia.xml](672.xml) | beinecke.terapia | GEN MSS 301 | I︠U︡riĭ Terapiano papers | 
+ [beinecke.richards.xml](673.xml) | beinecke.richards | GEN MSS 302 | Dorothy Richardson collection | 
+ [beinecke.swinbur.xml](674.xml) | beinecke.swinbur | GEN MSS 303 | Algernon Swinburne collection | 
+ [beinecke.minor.xml](675.xml) | beinecke.minor | GEN MSS 304 | William J. Minor horse racing papers | 
+ [beinecke.symons.xml](676.xml) | beinecke.symons | GEN MSS 305 | Arthur Symons collection | 
+ [beinecke.sterling.xml](677.xml) | beinecke.sterling | GEN MSS 306 | Sterling family papers | 
+ [beinecke.french.xml](679.xml) | beinecke.french | GEN MSS 308 | Documents relating to the French participation in the American Revolution | 
+ [beinecke.peyre.xml](680.xml) | beinecke.peyre | GEN MSS 309 | Henri Peyre letters | 
+ [beinecke.tinker.xml](681.xml) | beinecke.tinker | GEN MSS 310 | Chauncey Brewster Tinker manuscript collection | 
+ [beinecke.rosim.xml](682.xml) | beinecke.rosim | GEN MSS 312 | G. Rosimov (I︠U︡riĭ Ofrosimov) papers | 
+ [beinecke.mckenna.xml](684.xml) | beinecke.mckenna | GEN MSS 316 | Letters to Stephen McKenna | 
+ [beinecke.mitford.xml](685.xml) | beinecke.mitford | GEN MSS 32 | Mary Russell Mitford collection | 
+ [beinecke.aldingto.xml](686.xml) | beinecke.aldingto | GEN MSS 321 | Richard Aldington collection | 
+ [beinecke.baring.xml](687.xml) | beinecke.baring | GEN MSS 322 | Maurice Baring collection | 
+ [beinecke.bennett.xml](688.xml) | beinecke.bennett | GEN MSS 323 | Arnold Bennett collection | 
+ [beinecke.borrow.xml](689.xml) | beinecke.borrow | GEN MSS 324 | George Borrow collection | 
+ [beinecke.hazlitt.xml](690.xml) | beinecke.hazlitt | GEN MSS 33 | William Hazlitt collection | 
+ [beinecke.edgewort.xml](691.xml) | beinecke.edgewort | GEN MSS 330 | Maria Edgeworth collection | 
+ [beinecke.trumbull.xml](692.xml) | beinecke.trumbull | GEN MSS 331 | Trumbull College manuscript collection | 
+ [beinecke.corelli.xml](693.xml) | beinecke.corelli | GEN MSS 332 | Marie Corelli collection | 
+ [beinecke.filipp.xml](694.xml) | beinecke.filipp | GEN MSS 334 | Boris Filippov papers | 
+ [beinecke.bartlett.xml](695.xml) | beinecke.bartlett | GEN MSS 336 | Henrietta C. Bartlett papers | 
+ [beinecke.cameron.xml](696.xml) | beinecke.cameron | GEN MSS 337 | Kenneth Walter Cameron collection | 
+ [beinecke.lane.xml](697.xml) | beinecke.lane | GEN MSS 338 | John Edward Lane papers | 
+ [beinecke.fisk.xml](698.xml) | beinecke.fisk | GEN MSS 342 | Earl E. Fisk papers | 
  [beinecke.dix.xml](708.xml) | beinecke.dix | GEN MSS 403 | George Dix papers | 
  [beinecke.davie.xml](717.xml) | beinecke.davie | GEN MSS 439 | Donald Davie papers | 
  [beinecke.morris.xml](721.xml) | beinecke.morris | GEN MSS 45 | William Morris collection | 
