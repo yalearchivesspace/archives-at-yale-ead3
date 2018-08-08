@@ -2,7 +2,10 @@
 
 EAD | EAD ID | Identifier | Title | Other versions
 --- | ------ | ---------- | ----- | --------------
+ [music.mss.0059.xml](5700.xml) | music.mss.0059 | MSS 59 | Slam Stewart Papers | 
+ [music.mss.0004.xml](10544.xml) | music.mss.0004 | MSS 4 | The New Haven Music Club Papers | 
  [music.misc.0173.xml](10545.xml) | music.misc.0173 | Misc. Ms. 173 | Selected Compositions of Julia Ludlow Rockwell | 
+ [music.mss.0005.xml](10546.xml) | music.mss.0005 | MSS 5 | The New Haven Oratorio Society Papers | 
  [music.misc.0290.xml](10547.xml) | music.misc.0290 | Misc. Ms. 290 | The Samuel Coleridge-Taylor Collection | 
  [music.misc.0146.xml](10548.xml) | music.misc.0146 | Misc. Ms. 146 | Organ Music from the Estate of Frank Bozyan | 
  [music.misc.0059.xml](10549.xml) | music.misc.0059 | Misc. Ms. 59 | The Papers of the Yale Music Curriculum Project | 
@@ -28,6 +31,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.misc.0291.xml](10578.xml) | music.misc.0291 | Misc. Ms. 291 | Mary Van Nes: Correspondence from Germany | 
  [music.misc.0355.xml](10579.xml) | music.misc.0355 | Misc. Ms. 355 | The Frank Tirro Collection | 
  [music.misc.0339.xml](10580.xml) | music.misc.0339 | Misc. Ms. 339 | The Music Records of United Church | 
+ [music.mss.0006.xml](10581.xml) | music.mss.0006 | MSS 6 | The Schneeloch Family Papers | 
  [music.mss.0024.xml](10583.xml) | music.mss.0024 | MSS 24 | The Marshall Bartholomew Papers | 
  [music.misc.0053.xml](10584.xml) | music.misc.0053 | Misc. Ms. 53 | Selected Compositions of Elliot Griffis | 
  [music.misc.0051.xml](10585.xml) | music.misc.0051 | Misc. Ms. 51 | Graduate degree projects | 
@@ -36,6 +40,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.misc.0270.xml](10588.xml) | music.misc.0270 | Misc. Ms. 270 | The Charles Martin Loeffler Collection | 
  [music.mss.0022.xml](10589.xml) | music.mss.0022 | MSS 22 | The H. Leroy Baumgartner Papers | 
  [music.mss.0018.xml](10590.xml) | music.mss.0018 | MSS 18 | The Zo Elliott Papers | 
+ [music.mss.0058.xml](10592.xml) | music.mss.0058 | MSS 58 | The James G. Barnett Papers | 
  [music.misc.0348.xml](10593.xml) | music.misc.0348 | Misc. Ms. 348 | The Beethoven Society (Providence, R.I.). Orchestral Parts | 
  [music.misc.0365.xml](10594.xml) | music.misc.0365 | Misc. Ms. 365 | Music, Vocal and Instrumental, Associated with New Haven | 
  [music.mss.0027.xml](10595.xml) | music.mss.0027 | MSS 27 | The Gustav Jakob Stoeckel Papers | 
@@ -45,11 +50,25 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0017.xml](10600.xml) | music.mss.0017 | MSS 17 | The Duane A. Davidson Papers | 
  [music.misc.0055.xml](10602.xml) | music.misc.0055 | Misc. Ms. 55 | Music Published by the Loomis Temple of Music | 
  [music.misc.0308.xml](10604.xml) | music.misc.0308 | Misc. Ms. 308 | The Bruce Simonds Papers | 
+ [music.mss.0003.xml](10607.xml) | music.mss.0003 | MSS 3 | The Yale School of Music Papers | 
+ [music.mss.0033.xml](10609.xml) | music.mss.0033 | MSS 33 | The Lowell Mason Papers | 
  [music.mss.0001.xml](10610.xml) | music.mss.0001 | MSS 1 | The Love Family Papers | 
+ [music.mss.0037.xml](10613.xml) | music.mss.0037 | MSS 37 | The Samuel Gardner Papers | 
  [music.mss.0010.xml](10614.xml) | music.mss.0010 | MSS 10 | The Leo Ornstein Papers | 
  [music.mss.0016.xml](10615.xml) | music.mss.0016 | MSS 16 | The Galeazzi Collection | 
  [music.mss.0025.xml](10616.xml) | music.mss.0025 | MSS 25 | The Leonard Burkat Papers | 
  [music.misc.0057.xml](10617.xml) | music.misc.0057 | Misc. Ms. 57 | Choral Octavos by Yale Alumni | 
  [music.misc.0288.xml](10619.xml) | music.misc.0288 | Misc. Ms. 288 | Paul Dukas: Correspondence with Paul Poujaud | 
  [music.mss.0013.xml](10626.xml) | music.mss.0013 | MSS 13 | The Yale School of Music D.M.A. Papers | 
+ [music.mss.0046.xml](10627.xml) | music.mss.0046 | MSS 46 | Thomas de Hartmann Papers | 
+ [music.mss.0034.xml](10629.xml) | music.mss.0034 | MSS 34 | The Parker Bailey Papers | 
+ [music.mss.0054.xml](10632.xml) | music.mss.0054 | MSS 54 | E. Robert Schmitz Papers | 
+ [music.mss.0030.xml](10674.xml) | music.mss.0030 | MSS 30 | Register to the Papers of Kurt Weill and Lotte Lenya | 
+ [music.mss.0032.xml](10676.xml) | music.mss.0032 | MSS 32 | The Horatio Parker Papers | 
+ [music.mss.0036.xml](10678.xml) | music.mss.0036 | MSS 36 | The Seymour Shifrin Papers | 
+ [music.mss.0038.xml](10679.xml) | music.mss.0038 | MSS 38 | The Charles Shackford Papers | 
+ [music.mss.0040.xml](10680.xml) | music.mss.0040 | MSS 40 | The Ernest Trow Carter Papers | 
+ [music.mss.0053.xml](10681.xml) | music.mss.0053 | MSS 53 | The Benny Goodman Papers | 
+ [music.mss.0049.xml](10742.xml) | music.mss.0049 | MSS 49 | The Harold Rome Papers | 
+ [music.mss.0052.xml](10761.xml) | music.mss.0052 | MSS 52 | The Frederick and Rose Plaut Papers | 
 
