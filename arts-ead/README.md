@@ -60,6 +60,28 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.bkp.0129.xml](388.xml) | arts.bkp.0129 | BKP 129 | Collection of bookplates by F. B. Siegrist | 
  [arts.bkp.0013.xml](389.xml) | arts.bkp.0013 | BKP 13 | Collection of Danish Bookplates | 
  [arts.bkp.0130.xml](390.xml) | arts.bkp.0130 | BKP 130 | Collection of bookplates by Robert Osmond | 
+ [arts.bkp.0131.xml](391.xml) | arts.bkp.0131 | BKP 131 | Collection of original artwork for bookplate designs | 
+ [arts.bkp.0132.xml](392.xml) | arts.bkp.0132 | BKP 132 | Collection of Bookplates by Vytautas O. Virkau | 
+ [arts.bkp.0134.xml](393.xml) | arts.bkp.0134 | BKP 134 | Collection of bookplates by Dmitrij R Saenko | 
+ [arts.bkp.0136.xml](394.xml) | arts.bkp.0136 | BKP 136 | Frank S. Hatch correspondence with F. C. Blank | 
+ [arts.bkp.0137.xml](395.xml) | arts.bkp.0137 | BKP 137 | Carlyle S. Baer correspondence with Samuel X. Radbill | 
+ [arts.bkp.0002.xml](398.xml) | arts.bkp.0002 | BKP 2 | Andrews Memorial Bookplate Collection of Irene D. Andrews Pace (Personal Bookplates) | 
+ [arts.bkp.0038.xml](399.xml) | arts.bkp.0038 | BKP 38 | Collection of Bookplates by Nathaniel Hurd | 
+ [arts.bkp.0004.xml](401.xml) | arts.bkp.0004 | BKP 4 | Andrews Memorial Bookplate Collection of Irene D. Andrews Pace (School and College Bookplates) | 
+ [arts.bkp.0043.xml](402.xml) | arts.bkp.0043 | BKP 43 | Collection of 18th- and 19th-century British Bookplates | 
+ [arts.bkp.0044.xml](403.xml) | arts.bkp.0044 | BKP 44 | Collection of Polish Bookplates | 
+ [arts.bkp.0045.xml](404.xml) | arts.bkp.0045 | BKP 45 | Collection of Spanish bookplates | 
+ [arts.bkp.0046.xml](405.xml) | arts.bkp.0046 | BKP 46 | Collection of Dutch and Flemish Bookplates | 
+ [arts.bkp.0048.xml](406.xml) | arts.bkp.0048 | BKP 48 | Collection of bookplates by Stephen Gooden | 
+ [arts.bkp.0049.xml](407.xml) | arts.bkp.0049 | BKP 49 | Collection of bookplates by Edwin Davis French | 
+ [arts.bkp.0005.xml](408.xml) | arts.bkp.0005 | BKP 5 | Collection of Bookplates by Wim Zwiers | 
+ [arts.bkp.0053.xml](409.xml) | arts.bkp.0053 | BKP 53 | Collection of Bookplates by J. Winfred Spenceley | 
+ [arts.bkp.0054.xml](410.xml) | arts.bkp.0054 | BKP 54 | Collection of Oxford and Cambridge Bookplates | 
+ [arts.bkp.0055.xml](411.xml) | arts.bkp.0055 | BKP 55 | Collection of Bookplates from British Institutions | 
+ [arts.bkp.0056.xml](412.xml) | arts.bkp.0056 | BKP 56 | Collection of Bookplates by Rex Whistler | 
+ [arts.bkp.0006.xml](413.xml) | arts.bkp.0006 | BKP 6 | Andrews Memorial Bookplate Collection of Irene D. Andrews Pace (Early American Bookplates) | 
+ [arts.bkp.0160.xml](5671.xml) | arts.bkp.0160 | BKP 160 | Universal bookplate collection | 
  [arts.aob.0030.xml](5680.xml) | arts.aob.0030 | AOB 30 | Emma Joy Dana Collection of Artuš Scheiner | 
  [5841.xml](5841.xml) |  | AOB 121 | Peace Paper Project collection | 
+ [arts.bkp.0161.xml](10935.xml) | arts.bkp.0161 | BKP 161 | George A. Teel bookplate collection | 
 
