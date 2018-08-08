@@ -90,6 +90,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.demorgan.xml](610.xml) | beinecke.demorgan | GEN MSS 141 | William De Morgan collection | 
  [beinecke.sartre.xml](611.xml) | beinecke.sartre | GEN MSS 143 | Jean-Paul Sartre collection | 
  [beinecke.boswell2.xml](613.xml) | beinecke.boswell2 | GEN MSS 150 | Boswell collection : addition | 
+ [beinecke.edwards.xml](614.xml) | beinecke.edwards | GEN MSS 151 | Jonathan Edwards collection | 
  [beinecke.boswart.xml](615.xml) | beinecke.boswart | GEN MSS 153 | Boswell collection supplement | 
  [beinecke.champney.xml](616.xml) | beinecke.champney | GEN MSS 156 | Basil Champneys correspondence | 
  [beinecke.berb.xml](618.xml) | beinecke.berb | GEN MSS 182 | Nina Berberova papers | 
@@ -98,8 +99,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.chardin.xml](621.xml) | beinecke.chardin | GEN MSS 216 | John Chardin correspondence and documents | 
  [beinecke.austin.xml](622.xml) | beinecke.austin | GEN MSS 219 | Alfred Austin collection | 
  [beinecke.bowring.xml](623.xml) | beinecke.bowring | GEN MSS 223 | John Bowring collection | 
+ [beinecke.campbell.xml](624.xml) | beinecke.campbell | GEN MSS 226 | Thomas Campbell correspondence | 
  [beinecke.hamilton.xml](625.xml) | beinecke.hamilton | GEN MSS 23 | Mrs. Edward S. Harkness collection of Lady Hamilton | 
  [beinecke.crabbe.xml](626.xml) | beinecke.crabbe | GEN MSS 230 | George Crabbe collection | 
+ [beinecke.daudet.xml](627.xml) | beinecke.daudet | GEN MSS 231 | Alphonse Daudet Collection | 
  [beinecke.drinkwat.xml](628.xml) | beinecke.drinkwat | GEN MSS 234 | John Drinkwater collection | 
  [beinecke.fitzgera.xml](629.xml) | beinecke.fitzgera | GEN MSS 235 | Edward FitzGerald collection | 
  [beinecke.liebert.xml](630.xml) | beinecke.liebert | GEN MSS 237 | Herman W. Liebert manuscript collection | 
@@ -108,6 +111,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.gate.xml](635.xml) | beinecke.gate | GEN MSS 250 | Ethel May Gate papers, 1912-1940. | 
  [beinecke.knob.xml](636.xml) | beinecke.knob | GEN MSS 253 | Edward Knoblock literary manuscripts | 
  [beinecke.lamb.xml](637.xml) | beinecke.lamb | GEN MSS 254 | Charles Lamb collection | 
+ [beinecke.wlandor.xml](638.xml) | beinecke.wlandor | GEN MSS 255 | Walter Savage Landor collection | 
  [beinecke.machen.xml](639.xml) | beinecke.machen | GEN MSS 256 | Arthur Machen collection | 
  [beinecke.lincoln.xml](640.xml) | beinecke.lincoln | GEN MSS 257 | Abraham Lincoln collection | 
  [beinecke.norton.xml](641.xml) | beinecke.norton | GEN MSS 260 | Caroline Sheridan Norton collection | 
@@ -121,7 +125,24 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.pres.xml](649.xml) | beinecke.pres | GEN MSS 271 | United States presidents collection | 
  [beinecke.trollope.xml](650.xml) | beinecke.trollope | GEN MSS 272 | Anthony Trollope collection | 
  [beinecke.winthrop.xml](651.xml) | beinecke.winthrop | GEN MSS 274 | Winthrop family papers | 
+ [beinecke.wilde.xml](652.xml) | beinecke.wilde | GEN MSS 275 | Oscar Wilde collection | 
+ [beinecke.tennyson.xml](653.xml) | beinecke.tennyson | GEN MSS 276 | Alfred Tennyson collection | 
+ [beinecke.shaw.xml](655.xml) | beinecke.shaw | GEN MSS 279 | George Bernard Shaw collection | 
+ [beinecke.somervil.xml](656.xml) | beinecke.somervil | GEN MSS 28 | Elizabeth Hudson collection of E. Œ. Somerville & personal papers | 
+ [beinecke.shields.xml](657.xml) | beinecke.shields | GEN MSS 281 | Frederic Shields collection | 
+ [beinecke.thirkell.xml](659.xml) | beinecke.thirkell | GEN MSS 283 | Angela Mackail Thirkell collection | 
  [beinecke.sheridan.xml](660.xml) | beinecke.sheridan | GEN MSS 284 | Richard Brinsley Sheridan collection | 
+ [beinecke.gissing.xml](661.xml) | beinecke.gissing | GEN MSS 286 | George Gissing collection | 
+ [beinecke.tomlin.xml](662.xml) | beinecke.tomlin | GEN MSS 287 | H. M. Tomlinson collection | 
+ [beinecke.mase.xml](663.xml) | beinecke.mase | GEN MSS 288 | John Masefield collection | 
+ [beinecke.iushk.xml](664.xml) | beinecke.iushk | GEN MSS 290 | Semen and Pavel I︠U︡shkevich papers | 
+ [beinecke.panin.xml](665.xml) | beinecke.panin | GEN MSS 294 | Gennadiĭ Panin papers | 
+ [beinecke.samarin.xml](666.xml) | beinecke.samarin | GEN MSS 295 | Vladimir Samarin correspondence and other papers | 
+ [beinecke.evreinow.xml](667.xml) | beinecke.evreinow | GEN MSS 296 | Sergeĭ Aleksandrovich Evreinow correspondence and papers | 
+ [beinecke.shacht.xml](668.xml) | beinecke.shacht | GEN MSS 297 | Max Shachtman correspondence with Leon Trotsky | 
+ [beinecke.southey.xml](669.xml) | beinecke.southey | GEN MSS 298 | Robert Southey collection | 
+ [beinecke.toynbee.xml](670.xml) | beinecke.toynbee | GEN MSS 299 | Letters to William Toynbee | 
+ [beinecke.terapia.xml](672.xml) | beinecke.terapia | GEN MSS 301 | I︠U︡riĭ Terapiano papers | 
  [beinecke.dix.xml](708.xml) | beinecke.dix | GEN MSS 403 | George Dix papers | 
  [beinecke.davie.xml](717.xml) | beinecke.davie | GEN MSS 439 | Donald Davie papers | 
  [beinecke.morris.xml](721.xml) | beinecke.morris | GEN MSS 45 | William Morris collection | 
