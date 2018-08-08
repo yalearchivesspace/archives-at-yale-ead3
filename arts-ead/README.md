@@ -105,8 +105,31 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.dra.0025.xml](436.xml) | arts.dra.0025 | DRA 25 | Nineteenth-century photograph collection | 
  [arts.dra.0026.xml](437.xml) | arts.dra.0026 | DRA 26 | Souvenir Theatrical Postcard Collection | 
  [arts.dra.0027.xml](438.xml) | arts.dra.0027 | DRA 27 | Yale School of Drama Doctor of Fine Arts Dissertations | 
+ [arts.dra.0028.xml](439.xml) | arts.dra.0028 | DRA 28 | Yale School of Drama Master of Fine Arts Theses | 
+ [arts.dra.0029.xml](440.xml) | arts.dra.0029 | DRA 29 | Drama 50 Script Collection | 
+ [arts.dra.0030.xml](442.xml) | arts.dra.0030 | DRA 30 | Yale Repertory Theatre Scripts Collection | 
+ [arts.dra.0033.xml](443.xml) | arts.dra.0033 | DRA 33 | Franklin Jasper Walls Collection | 
+ [arts.dra.0034.xml](444.xml) | arts.dra.0034 | DRA 34 | Yale Cabaret Scripts and Ephemera Collection | 
+ [arts.dra.0035.xml](445.xml) | arts.dra.0035 | DRA 35 | Yale Summer Cabaret Scripts and Ephemera Collection | 
+ [arts.dra.0036.xml](446.xml) | arts.dra.0036 | DRA 36 | Yale Dramatic Association Scripts Collection | 
+ [arts.dra.0037.xml](447.xml) | arts.dra.0037 | DRA 37 | Yale Repertory Theatre and Yale School of Drama Ephemera Collection | 
+ [arts.dra.0038.xml](448.xml) | arts.dra.0038 | DRA 38 | Miscellaneous Scripts Collection | 
+ [arts.dra.0005.xml](449.xml) | arts.dra.0005 | DRA 5 | Fashion and costume plate collection | 
+ [arts.dra.0006.xml](450.xml) | arts.dra.0006 | DRA 6 | Puppetry collection | 
+ [arts.dra.0009.xml](452.xml) | arts.dra.0009 | DRA 9 | Yale Rockefeller theatrical prints collection | 
  [arts.bkp.0160.xml](5671.xml) | arts.bkp.0160 | BKP 160 | Universal bookplate collection | 
  [arts.aob.0030.xml](5680.xml) | arts.aob.0030 | AOB 30 | Emma Joy Dana Collection of Artuš Scheiner | 
  [5841.xml](5841.xml) |  | AOB 121 | Peace Paper Project collection | 
+ [vrc.0105.xml](10415.xml) | vrc.0105 | VRC 105 | Lee and Mary Grimes Travel Slide Collection | 
+ [vrc.0103.xml](10418.xml) | vrc.0103 | VRC 103 | Various Artists Slide Collection | 
+ [vrc.0115.xml](10446.xml) | vrc.0115 | VRC 115 | Eugene M. Waith Travel Slide Collection | 
+ [vrc.1250.xml](10469.xml) | vrc.1250 | VRC 1250 | Prehistoric Arts Slide Collection | 
+ [vrc.0011.xml](10480.xml) | vrc.0011 | VRC 11 | Asian Arts Medium Format Photograph Collection | 
+ [vrc.0012.xml](10526.xml) | vrc.0012 | VRC 12 | Painting Medium Format Photograph Collection | 
+ [vrc.1200.xml](10533.xml) | vrc.1200 | VRC 1200 | Sculpture Slide Collection | 
+ [vrc.0107.xml](10536.xml) | vrc.0107 | VRC 107 | Rose Gerlach Slide Collection | 
+ [vrc.0010.xml](10537.xml) | vrc.0010 | VRC 10 | Architecture Postcard Collection | 
+ [vrc.0001.xml](10538.xml) | vrc.0001 | VRC 1 | American Painting Section of the Mounted Photograph Collection | 
+ [vrc.1000.xml](10542.xml) | vrc.1000 | VRC 1000 | Architecture Slide Collection | 
  [arts.bkp.0161.xml](10935.xml) | arts.bkp.0161 | BKP 161 | George A. Teel bookplate collection | 
 
