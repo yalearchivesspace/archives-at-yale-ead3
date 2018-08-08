@@ -80,6 +80,31 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.bkp.0055.xml](411.xml) | arts.bkp.0055 | BKP 55 | Collection of Bookplates from British Institutions | 
  [arts.bkp.0056.xml](412.xml) | arts.bkp.0056 | BKP 56 | Collection of Bookplates by Rex Whistler | 
  [arts.bkp.0006.xml](413.xml) | arts.bkp.0006 | BKP 6 | Andrews Memorial Bookplate Collection of Irene D. Andrews Pace (Early American Bookplates) | 
+ [arts.bkp.0065.xml](414.xml) | arts.bkp.0065 | BKP 65 | Nathan T. Porter, Jr. Collection of Bookplates by Edwin Davis French | 
+ [arts.bkp.0007.xml](415.xml) | arts.bkp.0007 | BKP 7 | Andrews Memorial Bookplate Collection of Irene D. Andrews Pace (Japanese Bookplates) | 
+ [arts.bkp.0070.xml](416.xml) | arts.bkp.0070 | BKP 70 | Collection of Bookplates by Alfred Cossmann | 
+ [arts.bkp.0071.xml](417.xml) | arts.bkp.0071 | BKP 71 | Collection of Bookplates by Hans Ranzoni the Younger | 
+ [arts.bkp.0072.xml](418.xml) | arts.bkp.0072 | BKP 72 | Collection of Bookplates by Adri de Ruijter | 
+ [arts.bkp.0073.xml](419.xml) | arts.bkp.0073 | BKP 73 | Collection of Bookplates from the British West Indies | 
+ [arts.bkp.0074.xml](420.xml) | arts.bkp.0074 | BKP 74 | Collection of Finnish Bookplates | 
+ [arts.bkp.0075.xml](421.xml) | arts.bkp.0075 | BKP 75 | Simmons & Waters Collection of Bookplates | 
+ [arts.bkp.0078.xml](422.xml) | arts.bkp.0078 | BKP 78 | Collection of Canadian Bookplates | 
+ [arts.bkp.0080.xml](423.xml) | arts.bkp.0080 | BKP 80 | Collection of Library Bookplates | 
+ [arts.bkp.0096.xml](424.xml) | arts.bkp.0096 | BKP 96 | Collection of Bookplates by William Edgar Fisher | 
+ [arts.bkp.0099.xml](425.xml) | arts.bkp.0099 | BKP 99 | Collection of English Bookplates (A-Z) | 
+ [arts.dra.0001.xml](426.xml) | arts.dra.0001 | DRA 1 | A. M. Nagler Slide/Tape Lectures on the History of Theater | 
+ [arts.dra.0010.xml](427.xml) | arts.dra.0010 | DRA 10 | Jack Randall Crawford Modern Drama Collection | 
+ [arts.dra.0011.xml](428.xml) | arts.dra.0011 | DRA 11 | The Doolittle Collection of Japanese Drama | 
+ [arts.dra.0013.xml](429.xml) | arts.dra.0013 | DRA 13 | Yale School of Drama Production Casebook Collection | 
+ [arts.dra.0014.xml](430.xml) | arts.dra.0014 | DRA 14 | Pamela Jordan Yale School of Drama Scrapbook Collection | 
+ [arts.dra.0015.xml](431.xml) | arts.dra.0015 | DRA 15 | Dwight/Edgewood Project collection | 
+ [arts.dra.0016.xml](432.xml) | arts.dra.0016 | DRA 16 | George Pierce Baker Pageant Collection | 
+ [arts.dra.0017.xml](433.xml) | arts.dra.0017 | DRA 17 | Yale School of Drama Production Script Collection | 
+ [arts.dra.0002.xml](434.xml) | arts.dra.0002 | DRA 2 | Stage Lighting Catalogs | 
+ [arts.dra.0024.xml](435.xml) | arts.dra.0024 | DRA 24 | Collection of Drama 131 Course Materials | 
+ [arts.dra.0025.xml](436.xml) | arts.dra.0025 | DRA 25 | Nineteenth-century photograph collection | 
+ [arts.dra.0026.xml](437.xml) | arts.dra.0026 | DRA 26 | Souvenir Theatrical Postcard Collection | 
+ [arts.dra.0027.xml](438.xml) | arts.dra.0027 | DRA 27 | Yale School of Drama Doctor of Fine Arts Dissertations | 
  [arts.bkp.0160.xml](5671.xml) | arts.bkp.0160 | BKP 160 | Universal bookplate collection | 
  [arts.aob.0030.xml](5680.xml) | arts.aob.0030 | AOB 30 | Emma Joy Dana Collection of Artuš Scheiner | 
  [5841.xml](5841.xml) |  | AOB 121 | Peace Paper Project collection | 
