@@ -120,10 +120,14 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.bkp.0160.xml](5671.xml) | arts.bkp.0160 | BKP 160 | Universal bookplate collection | 
  [arts.aob.0030.xml](5680.xml) | arts.aob.0030 | AOB 30 | Emma Joy Dana Collection of Artuš Scheiner | 
  [5841.xml](5841.xml) |  | AOB 121 | Peace Paper Project collection | 
+ [vrc.3004.xml](10414.xml) | vrc.3004 | VRC 3004 | Oriental Arts Lantern Slide Collection | 
  [vrc.0105.xml](10415.xml) | vrc.0105 | VRC 105 | Lee and Mary Grimes Travel Slide Collection | 
  [vrc.0103.xml](10418.xml) | vrc.0103 | VRC 103 | Various Artists Slide Collection | 
  [vrc.0170.xml](10419.xml) | vrc.0170 | VRC 170 | Miscellaneous Postcard Collection | 
  [vrc.0018.xml](10421.xml) | vrc.0018 | VRC 18 | Late Antique, Early Medieval and Byzantine Painting Photograph Collection | 
+ [vrc.0312.xml](10422.xml) | vrc.0312 | VRC 312 | Miscellaneous Photographs of European and Islamic Art and Architecture | 
+ [vrc.0317.xml](10423.xml) | vrc.0317 | VRC 317 | The Charles William Romeyn Collection of Art and Architectural Photographs | 
+ [vrc.0302.xml](10424.xml) | vrc.0302 | VRC 302 | Allan Ludwig Photograph Collection: Renaissance Sculpture in Rome | 
  [vrc.0172.xml](10429.xml) | vrc.0172 | VRC 172 | William Inglis Morse Lantern Slide Collection | 
  [vrc.0141.xml](10430.xml) | vrc.0141 | VRC 141 | Mexican Art and Architecture Photograph Collection | 
  [vrc.0174.xml](10431.xml) | vrc.0174 | VRC 174 | Miscellaneous Classics Photographs Collection | 
@@ -132,25 +136,42 @@ EAD | EAD ID | Identifier | Title | Other versions
  [vrc.0140.xml](10438.xml) | vrc.0140 | VRC 140 | Miscellaneous Pre-Columbian Arts Photograph Collection | 
  [vrc.2500.xml](10439.xml) | vrc.2500 | VRC 2500 | Film Stills and History of Photography Lantern Slide Collection | 
  [vrc.2007.xml](10440.xml) | vrc.2007 | VRC 2007 | General Architecture Lantern Slide Collection | 
+ [vrc.3000.xml](10443.xml) | vrc.3000 | VRC 3000 | Dunhuang (China) and Central Asian Lantern Slide Collection | 
  [vrc.0015.xml](10445.xml) | vrc.0015 | VRC 15 | Ancient Painting Photograph Collection | 
  [vrc.0115.xml](10446.xml) | vrc.0115 | VRC 115 | Eugene M. Waith Travel Slide Collection | 
  [vrc.2400.xml](10449.xml) | vrc.2400 | VRC 2400 | Maps Lantern Slide Collection | 
+ [vrc.0321.xml](10450.xml) | vrc.0321 | VRC 321 | Edward P. Friedland domestic architecture photography collection | 
  [vrc.1950.xml](10451.xml) | vrc.1950 | VRC 1950 | Oriental art and architecture slide collection | 
+ [vrc.0310.xml](10452.xml) | vrc.0310 | VRC 310 | Miscellaneous Spanish Painting, Architecture and Sculpture | 
+ [vrc.0320.xml](10453.xml) | vrc.0320 | VRC 320 | Carroll L.V. Meeks Collection of Ephemera on Various Architects | 
+ [vrc.0311.xml](10454.xml) | vrc.0311 | VRC 311 | James Austin Photograph Collection of French and Italian Medieval Architecture | 
+ [vrc.3003.xml](10455.xml) | vrc.3003 | VRC 3003 | South Asian Arts Lantern Slide Collection | 
  [vrc.0175.xml](10460.xml) | vrc.0175 | VRC 175 | Richard D. Butterfield Slide and Photograph Collection | 
  [vrc.2600.xml](10461.xml) | vrc.2600 | VRC 2600 | Miscellaneous Categories Slide Collection | 
  [vrc.2650.xml](10462.xml) | vrc.2650 | VRC 2650 | African, Afro-, Native American, and Pacific Rim Arts Lantern Slide Collection | 
+ [vrc.0306.xml](10463.xml) | vrc.0306 | VRC 306 | Osvaldo Böhm Photograph Collection: Art and Architecture of Venice | 
  [vrc.0025.xml](10465.xml) | vrc.0025 | VRC 25 | Swedish-Yugoslavian Painting Photograph Collection | 
+ [vrc.2700.xml](10466.xml) | vrc.2700 | VRC 2700 | Islamic Arts Lantern Slide Collection | 
  [vrc.1975.xml](10467.xml) | vrc.1975 | VRC 1975 | Dunhuang (China) and Central Asian Art and Architecture Slide Collection | 
  [vrc.1250.xml](10469.xml) | vrc.1250 | VRC 1250 | Prehistoric Arts Slide Collection | 
  [vrc.0134.xml](10470.xml) | vrc.0134 | VRC 134 | Edith A. Hadamard Travel Slide Collection | 
+ [vrc.0318.xml](10471.xml) | vrc.0318 | VRC 318 | Pierre Devinoy Collection of Medieval, Renaissance and Baroque Architecture Photographs | 
+ [vrc.0316.xml](10474.xml) | vrc.0316 | VRC 316 | Bibliothèque nationale de France: Medieval Manuscript Photograph Collection | 
  [vrc.0139.xml](10475.xml) | vrc.0139 | VRC 139 | Spanish and Portuguese Architecture Photograph Collection | 
  [vrc.0173.xml](10477.xml) | vrc.0173 | VRC 173 | Miscellaneous Architecture Lantern Slide Collection | 
+ [vrc.0029.xml](10478.xml) | vrc.0029 | VRC 29 | Asian Architecture Photograph Collection | 
  [vrc.0023.1.xml](10479.xml) | vrc.0023.1 | VRC 23.1 | Italian Renaissance Painting Photograph Collection: Materials in the Yale University Art Gallery | 
  [vrc.0011.xml](10480.xml) | vrc.0011 | VRC 11 | Asian Arts Medium Format Photograph Collection | 
  [vrc.2001.xml](10482.xml) | vrc.2001 | VRC 2001 | Ancient-Early Medieval Architecture Lantern Slide Collection | 
  [vrc.1650.xml](10483.xml) | vrc.1650 | VRC 1650 | African, Afro-Caribbean, and African American, Native American and Pacific Rim Arts Slide Collection | 
+ [vrc.3001.xml](10484.xml) | vrc.3001 | VRC 3001 | Arts of China Lantern Slide Collection | 
+ [vrc.0325.xml](10486.xml) | vrc.0325 | VRC 325 | Charles Seymour, Jr. Collection of European Sculpture, Painting and Architecture Photographs and Research Materials | 
  [vrc.0013.xml](10489.xml) | vrc.0013 | VRC 13 | Sculpture Medium Format Photograph Collection | 
  [vrc.1500.xml](10491.xml) | vrc.1500 | VRC 1500 | Islamic Arts Slide Collection | 
+ [vrc.0301.xml](10492.xml) | vrc.0301 | VRC 301 | Allan Ludwig Photograph Collection: New England Gravestones | 
+ [vrc.3002.xml](10493.xml) | vrc.3002 | VRC 3002 | Japanese Arts Lantern Slide Collection | 
+ [vrc.0030.xml](10494.xml) | vrc.0030 | VRC 30 | Late Antique and Early Medieval Architecture Photograph Collection | 
+ [vrc.2800.xml](10495.xml) | vrc.2800 | VRC 2800 | Pre-Columbian Arts Lantern Slide Collection | 
  [vrc.0002.xml](10496.xml) | vrc.0002 | VRC 2 | Asian Applied and Decorative Arts Photograph Collection | 
  [vrc.0026.xml](10497.xml) | vrc.0026 | VRC 26 | Ancient Architecture Photograph Collection | 
  [vrc.2002.xml](10502.xml) | vrc.2002 | VRC 2002 | Romanesque Architecture Lantern Slide Collection | 
@@ -164,12 +185,16 @@ EAD | EAD ID | Identifier | Title | Other versions
  [vrc.1450.xml](10511.xml) | vrc.1450 | VRC 1450 | Film Stills and the History of Photography Slide Collection | 
  [vrc.0020.xml](10512.xml) | vrc.0020 | VRC 20 | French Painting Photograph Collection | 
  [vrc.1700.xml](10514.xml) | vrc.1700 | VRC 1700 | Art and Architecture of Japan Slide Collection | 
+ [vrc.0031.xml](10517.xml) | vrc.0031 | VRC 31 | Romanesque Architecture Photograph Collection | 
  [vrc.0024.xml](10518.xml) | vrc.0024 | VRC 24 | Spanish Painting Photograph Collection | 
+ [vrc.0032.xml](10519.xml) | vrc.0032 | VRC 32 | Gothic Architecture Photograph Collection | 
  [vrc.2100.xml](10521.xml) | vrc.2100 | VRC 2100 | Sculpture Lantern Slide Collection | 
  [vrc.2005.xml](10522.xml) | vrc.2005 | VRC 2005 | 19th and 20th century Architecture Lantern Slide Collection | 
+ [vrc.0003.xml](10523.xml) | vrc.0003 | VRC 3 | Asian Painting Photograph Collection | 
  [vrc.1300.xml](10524.xml) | vrc.1300 | VRC 1300 | Applied and Decorative Arts Slide Collection | 
  [vrc.0017.xml](10525.xml) | vrc.0017 | VRC 17 | British Painting Photograph Collection | 
  [vrc.0012.xml](10526.xml) | vrc.0012 | VRC 12 | Painting Medium Format Photograph Collection | 
+ [vrc.0307.xml](10528.xml) | vrc.0307 | VRC 307 | Art of Latin America since Independence Photograph Collection | 
  [vrc.0019.xml](10529.xml) | vrc.0019 | VRC 19 | Flemish Painting Photograph Collection | 
  [vrc.1200.xml](10533.xml) | vrc.1200 | VRC 1200 | Sculpture Slide Collection | 
  [vrc.2004.xml](10534.xml) | vrc.2004 | VRC 2004 | Renaissance Architecture Lantern Slide Collection | 
