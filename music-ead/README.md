@@ -99,4 +99,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0052.xml](10761.xml) | music.mss.0052 | MSS 52 | The Frederick and Rose Plaut Papers | 
  [music.mss.0065.xml](10763.xml) | music.mss.0065 | MSS 65 | The Kay Swift Papers | 
  [music.mss.0148.xml](11068.xml) | music.mss.0148 | MSS.148 | The Siegrun H. Folter Collection of Heinrich Funk Materials | 
+ [music.mss.0147.xml](11078.xml) | music.mss.0147 | MSS.147 | The William L. Vallée Collection of Rudy Vallée Materials | 
 
