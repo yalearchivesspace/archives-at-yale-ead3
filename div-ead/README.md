@@ -119,8 +119,32 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.192.xml](153.xml) | divinity.192 | RG 192 | Carl and Elisabeth Wahl Papers | 
  [divinity.193.xml](154.xml) | divinity.193 | RG 193 | Paul and Charlotte Reynolds Papers | 
  [divinity.194.xml](155.xml) | divinity.194 | RG 194 | United States Catholic China Bureau Records | 
+ [divinity.196.xml](157.xml) | divinity.196 | RG 196 | Anglican Church of Congo Records | 
+ [divinity.197.xml](158.xml) | divinity.197 | RG 197 | Marjorie Tooker Whittlesey Papers | 
+ [divinity.198.xml](159.xml) | divinity.198 | RG 198 | Morgan Phelps Noyes Papers | 
+ [divinity.199.xml](160.xml) | divinity.199 | RG 199 | International Association for Mission Studies Records | 
+ [divinity.002.xml](161.xml) | divinity.002 | RG 2 | Arthur Judson Brown Papers | 
+ [divinity.020.xml](162.xml) | divinity.020 | RG 20 | Albert and Celia Steward Papers | 
+ [divinity.200.xml](163.xml) | divinity.200 | RG 200 | Sidney R. Anderson Papers | 
+ [divinity.201.xml](164.xml) | divinity.201 | RG 201 | Melvin Wittler Papers | 
+ [divinity.202.xml](165.xml) | divinity.202 | RG 202 | Nils Arne Bendtz Papers | 
+ [divinity.203.xml](166.xml) | divinity.203 | RG 203 | Henry Winters Luce Family Papers | 
+ [divinity.204.xml](167.xml) | divinity.204 | RG 204 | Donald MacInnis Papers | 
+ [divinity.205.xml](168.xml) | divinity.205 | RG 205 | Cai Yongchun Papers | 
+ [divinity.206.xml](169.xml) | divinity.206 | RG 206 | Eugene A. Turner Papers | 
+ [divinity.207.xml](170.xml) | divinity.207 | RG 207 | John Curtis and Mary Snell Smith Papers | 
+ [divinity.208.xml](171.xml) | divinity.208 | RG 208 | John B. Lindner Papers | 
+ [divinity.021.xml](173.xml) | divinity.021 | RG 21 | Esther Tappert Mortensen Papers | 
+ [divinity.210.xml](174.xml) | divinity.210 | RG 210 | Ellsworth Eliot Collection | 
+ [divinity.212.xml](176.xml) | divinity.212 | RG 212 | United Mission to Nepal records | 
+ [divinity.213.xml](177.xml) | divinity.213 | RG 213 | Central Asia Fellowship Records | 
+ [divinity.214.xml](5398.xml) | divinity.214 | RG 214 | International Nepal Fellowship records | 
+ [divinity.211.xml](5400.xml) | divinity.211 | RG 211 | Himalayan Collection Pamphlets and Reports | 
  [divinity.136.xml](5401.xml) | divinity.136 | RG 136 | William Palmer Ladd Papers | 
+ [divinity.209.xml](5402.xml) | divinity.209 | RG 209 | China American Schools Collection | 
  [divinity.163a.xml](5405.xml) | divinity.163a | RG 163A | American Theological Library Association Records - Addendum A | 
  [divinity.167.xml](5406.xml) | divinity.167 | RG 167 | National Association of College and University Chaplains and Directors of Religious Life Records | 
  [divinity.173.xml](5407.xml) | divinity.173 | RG 173 | Randolph Crump Miller Papers | 
+ [divinity.216.xml](5703.xml) | divinity.216 | RG 216 | Berkeley Divinity School records | 
+ [divinity.215.xml](10836.xml) | divinity.215 | RG 215 | Nepal Church History Project Records | 
 
