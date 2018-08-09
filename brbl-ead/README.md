@@ -788,7 +788,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.pignotti.xml](11007.xml) | beinecke.pignotti | GEN MSS 1493 | Lamberto Pignotti papers | 
  [beinecke.stringfellow.xml](11009.xml) | beinecke.stringfellow | WA Photos 592 | Kim Stringfellow Photographs and Papers | 
  [beinecke.savageh.xml](11017.xml) | beinecke.savageh | OSB MSS 200 | Henry Savage papers | 
- [beinecke.chlingensberg.xml](11037.xml) | beinecke.chlingensberg | GEN MSS 1495 | Chlingensberg family diaries | 
+ [beinecke.chlingensperg.xml](11037.xml) | beinecke.chlingensperg | GEN MSS 1495 | Chlingensperg family diaries | 
  [beinecke.vanvechtmaur.xml](11041.xml) | beinecke.vanvechtmaur | YCAL MSS 1144 | Carl Van Vechten Letters to Saul Mauriber | 
  [beinecke.simonetti.xml](11043.xml) | beinecke.simonetti | GEN MSS 1497 | Gianni Emilio Simonetti papers | 
  [beinecke.robertolenbutler.xml](11049.xml) | beinecke.robertolenbutler | YCAL MSS.1146 | Robert Olen Butler papers | 
