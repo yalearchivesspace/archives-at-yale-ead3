@@ -122,14 +122,39 @@ EAD | EAD ID | Identifier | Title | Other versions
  [5841.xml](5841.xml) |  | AOB 121 | Peace Paper Project collection | 
  [vrc.0105.xml](10415.xml) | vrc.0105 | VRC 105 | Lee and Mary Grimes Travel Slide Collection | 
  [vrc.0103.xml](10418.xml) | vrc.0103 | VRC 103 | Various Artists Slide Collection | 
+ [vrc.0170.xml](10419.xml) | vrc.0170 | VRC 170 | Miscellaneous Postcard Collection | 
+ [vrc.0018.xml](10421.xml) | vrc.0018 | VRC 18 | Late Antique, Early Medieval and Byzantine Painting Photograph Collection | 
+ [vrc.0172.xml](10429.xml) | vrc.0172 | VRC 172 | William Inglis Morse Lantern Slide Collection | 
+ [vrc.0141.xml](10430.xml) | vrc.0141 | VRC 141 | Mexican Art and Architecture Photograph Collection | 
+ [vrc.0174.xml](10431.xml) | vrc.0174 | VRC 174 | Miscellaneous Classics Photographs Collection | 
+ [vrc.0016.xml](10435.xml) | vrc.0016 | VRC 16 | Belgian Painting Photograph Collection | 
+ [vrc.1900.xml](10437.xml) | vrc.1900 | VRC 1900 | South Asian Art and Architecture Slide Collection | 
+ [vrc.0140.xml](10438.xml) | vrc.0140 | VRC 140 | Miscellaneous Pre-Columbian Arts Photograph Collection | 
+ [vrc.0015.xml](10445.xml) | vrc.0015 | VRC 15 | Ancient Painting Photograph Collection | 
  [vrc.0115.xml](10446.xml) | vrc.0115 | VRC 115 | Eugene M. Waith Travel Slide Collection | 
+ [vrc.1950.xml](10451.xml) | vrc.1950 | VRC 1950 | Oriental art and architecture slide collection | 
+ [vrc.0175.xml](10460.xml) | vrc.0175 | VRC 175 | Richard D. Butterfield Slide and Photograph Collection | 
  [vrc.1250.xml](10469.xml) | vrc.1250 | VRC 1250 | Prehistoric Arts Slide Collection | 
+ [vrc.0134.xml](10470.xml) | vrc.0134 | VRC 134 | Edith A. Hadamard Travel Slide Collection | 
+ [vrc.0139.xml](10475.xml) | vrc.0139 | VRC 139 | Spanish and Portuguese Architecture Photograph Collection | 
+ [vrc.0173.xml](10477.xml) | vrc.0173 | VRC 173 | Miscellaneous Architecture Lantern Slide Collection | 
  [vrc.0011.xml](10480.xml) | vrc.0011 | VRC 11 | Asian Arts Medium Format Photograph Collection | 
+ [vrc.1650.xml](10483.xml) | vrc.1650 | VRC 1650 | African, Afro-Caribbean, and African American, Native American and Pacific Rim Arts Slide Collection | 
+ [vrc.0013.xml](10489.xml) | vrc.0013 | VRC 13 | Sculpture Medium Format Photograph Collection | 
+ [vrc.1500.xml](10491.xml) | vrc.1500 | VRC 1500 | Islamic Arts Slide Collection | 
+ [vrc.1600.xml](10504.xml) | vrc.1600 | VRC 1600 | Pre-Columbian Arts Slide Collection | 
+ [vrc.1400.xml](10510.xml) | vrc.1400 | VRC 1400 | Prints and Printing Slide Collection | 
+ [vrc.1450.xml](10511.xml) | vrc.1450 | VRC 1450 | Film Stills and the History of Photography Slide Collection | 
+ [vrc.1700.xml](10514.xml) | vrc.1700 | VRC 1700 | Art and Architecture of Japan Slide Collection | 
+ [vrc.1300.xml](10524.xml) | vrc.1300 | VRC 1300 | Applied and Decorative Arts Slide Collection | 
+ [vrc.0017.xml](10525.xml) | vrc.0017 | VRC 17 | British Painting Photograph Collection | 
  [vrc.0012.xml](10526.xml) | vrc.0012 | VRC 12 | Painting Medium Format Photograph Collection | 
+ [vrc.0019.xml](10529.xml) | vrc.0019 | VRC 19 | Flemish Painting Photograph Collection | 
  [vrc.1200.xml](10533.xml) | vrc.1200 | VRC 1200 | Sculpture Slide Collection | 
  [vrc.0107.xml](10536.xml) | vrc.0107 | VRC 107 | Rose Gerlach Slide Collection | 
  [vrc.0010.xml](10537.xml) | vrc.0010 | VRC 10 | Architecture Postcard Collection | 
  [vrc.0001.xml](10538.xml) | vrc.0001 | VRC 1 | American Painting Section of the Mounted Photograph Collection | 
+ [vrc.1800.xml](10539.xml) | vrc.1800 | VRC 1800 | Art and Architecture of China Slide Collection | 
  [vrc.1000.xml](10542.xml) | vrc.1000 | VRC 1000 | Architecture Slide Collection | 
  [arts.bkp.0161.xml](10935.xml) | arts.bkp.0161 | BKP 161 | George A. Teel bookplate collection | 
 
