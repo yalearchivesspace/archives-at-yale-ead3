@@ -95,7 +95,32 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.170.xml](128.xml) | divinity.170 | RG 170 | James and Margaret Goff Papers | 
  [divinity.171.xml](129.xml) | divinity.171 | RG 171 | Ruth M. Harris Papers | 
  [divinity.172.xml](130.xml) | divinity.172 | RG 172 | George A. Lindbeck Papers | 
+ [divinity.174.xml](132.xml) | divinity.174 | RG 174 | James E. Dittes Papers | 
+ [divinity.175.xml](133.xml) | divinity.175 | RG 175 | Sarah Refo Mason Papers | 
+ [divinity.176.xml](134.xml) | divinity.176 | RG 176 | Katherine Shapleigh Papers | 
+ [divinity.177.xml](135.xml) | divinity.177 | RG 177 | Roy and Clara Creighton Papers | 
+ [divinity.178.xml](136.xml) | divinity.178 | RG 178 | Charlotte B. DeForest Papers | 
+ [divinity.179.xml](137.xml) | divinity.179 | RG 179 | Alva I. Cox Jr. Papers | 
+ [divinity.018.xml](138.xml) | divinity.018 | RG 18 | Hayes Family Papers | 
+ [divinity.180.xml](139.xml) | divinity.180 | RG 180 | Foundation for Theological Education in South East Asia Records | 
+ [divinity.180a.xml](140.xml) | divinity.180a | RG 180A | Foundation for Theological Education in South East Asia Records - Addendum A | 
+ [divinity.181.xml](141.xml) | divinity.181 | RG 181 | Duane and Marian Waln Papers | 
+ [divinity.182.xml](142.xml) | divinity.182 | RG 182 | Yale Religion in Higher Education Program Records | 
+ [divinity.183.xml](143.xml) | divinity.183 | RG 183 | Wakefield Family Papers | 
+ [divinity.184.xml](144.xml) | divinity.184 | RG 184 | Jonathan Huntting Papers | 
+ [divinity.185.xml](145.xml) | divinity.185 | RG 185 | Harman V. S. Peeke Papers | 
+ [divinity.186.xml](146.xml) | divinity.186 | RG 186 | Sewanee Controversy Papers | 
+ [divinity.187.xml](147.xml) | divinity.187 | RG 187 | Associate Board of the Women's Christian College (Madras, India) Records | 
+ [divinity.188.xml](148.xml) | divinity.188 | RG 188 | Laurence and Virginia Judd Papers | 
+ [divinity.189.xml](149.xml) | divinity.189 | RG 189 | Walter and Margaret Tong Papers | 
+ [divinity.019.xml](150.xml) | divinity.019 | RG 19 | George and Mary Schlosser Papers | 
+ [divinity.190.xml](151.xml) | divinity.190 | RG 190 | James Laughton Papers | 
+ [divinity.191.xml](152.xml) | divinity.191 | RG 191 | Philip C. Landers Papers | 
+ [divinity.192.xml](153.xml) | divinity.192 | RG 192 | Carl and Elisabeth Wahl Papers | 
+ [divinity.193.xml](154.xml) | divinity.193 | RG 193 | Paul and Charlotte Reynolds Papers | 
+ [divinity.194.xml](155.xml) | divinity.194 | RG 194 | United States Catholic China Bureau Records | 
  [divinity.136.xml](5401.xml) | divinity.136 | RG 136 | William Palmer Ladd Papers | 
  [divinity.163a.xml](5405.xml) | divinity.163a | RG 163A | American Theological Library Association Records - Addendum A | 
  [divinity.167.xml](5406.xml) | divinity.167 | RG 167 | National Association of College and University Chaplains and Directors of Religious Life Records | 
+ [divinity.173.xml](5407.xml) | divinity.173 | RG 173 | Randolph Crump Miller Papers | 
 
