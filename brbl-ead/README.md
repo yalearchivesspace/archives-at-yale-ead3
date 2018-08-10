@@ -523,9 +523,33 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.perfam.xml](1102.xml) | beinecke.perfam | OSB MSS 88 | Percy family papers | 
  [beinecke.whirlwin.xml](1103.xml) | beinecke.whirlwin | OSB MSS 9 | Whirlwind Hill Farm papers | 
  [beinecke.esimpso.xml](1104.xml) | beinecke.esimpso | OSB MSS 90 | Evelyn Simpson papers | 
+ [beinecke.nicholls.xml](1105.xml) | beinecke.nicholls | OSB MSS c 467 | Norton Nicholls papers | 
+ [beinecke.manche.xml](1106.xml) | beinecke.manche | OSB MSS fc.37 | Manchester papers | 
+ [beinecke.burney.xml](1107.xml) | beinecke.burney | OSB MSS fd 59 | Burney-Lear drawings collection | 
+ [beinecke.c108.xml](1110.xml) | beinecke.c108 | OSBORN C108 | "College correspondence: Letters from candidates for Parliamt. 1779" | 
+ [beinecke.c195.xml](1111.xml) | beinecke.c195 | OSBORN C195 | [Album containing 165 letters from various correspondents, addressed to John Audley, Chancellor of the Archdiocese of York, and to his father, Edward Audley of Huntington] | 
+ [beinecke.c205.xml](1112.xml) | beinecke.c205 | OSBORN C205 | Letters to Edward Southwell (1671-1730) and others | 
+ [beinecke.c231.xml](1113.xml) | beinecke.c231 | OSBORN C231 | [Collection of autograph letters of various English literati] | 
+ [beinecke.c232.xml](1114.xml) | beinecke.c232 | OSBORN C232 | [Collection of autograph letters of various English peers, statesmen, antiquaries, etc.] | 
+ [beinecke.c357.xml](1115.xml) | beinecke.c357 | OSBORN C357 | 11 AL to various recipients; Salop | 
  [beinecke.c8.xml](1116.xml) | beinecke.c8 | OSBORN C8 | [Edmund Burke letters] | 
+ [beinecke.d1.xml](1117.xml) | beinecke.d1 | OSBORN D1 | "Collection towards forming a history of the now obsolete office of the Master of the Revells" | 
+ [beinecke.d148.xml](1118.xml) | beinecke.d148 | OSBORN D148 | "Original letters" | 
+ [beinecke.d149.xml](1119.xml) | beinecke.d149 | OSBORN D149 | [Correspondence] | 
+ [beinecke.d194.xml](1120.xml) | beinecke.d194 | OSBORN D194 | "Original letters collected by William Upcott of the London Institution Dukes and Marquesses. First series." | 
+ [beinecke.d195.xml](1121.xml) | beinecke.d195 | OSBORN D195 | "Original letters collected by William Upcott of the London Institution. Marquesses. Second series." | 
+ [beinecke.d51.xml](1122.xml) | beinecke.d51 | OSBORN D51 | [Letters and portraits of eminent persons] | 
+ [beinecke.d64.xml](1123.xml) | beinecke.d64 | OSBORN D64 | [Album] | 
+ [beinecke.d65.xml](1124.xml) | beinecke.d65 | OSBORN D65 | [Signature album] | 
+ [beinecke.d66.xml](1125.xml) | beinecke.d66 | OSBORN D66 | [Album] | 
  [beinecke.d98.xml](1126.xml) | beinecke.d98 | OSBORN D98 | "Autographs of English literati" | 
  [beinecke.fb117.xml](1127.xml) | beinecke.fb117 | OSBORN fb117 | "A colleccon of many learned letters" | 
+ [beinecke.fb137.xml](1128.xml) | beinecke.fb137 | OSBORN FB137 | [Letterbook]. Whitehall | 
+ [beinecke.fb138.xml](1129.xml) | beinecke.fb138 | OSBORN FB138 | [Parliamentary speeches, debates, etc., and other miscellaneous manuscripts] | 
+ [beinecke.fb140.xml](1130.xml) | beinecke.fb140 | OSBORN FB140 | A collection of poems sayters and lampoones | 
+ [beinecke.fb145.xml](1131.xml) | beinecke.fb145 | OSBORN FB145 | [Collection of prints, letters, and printed ephemera pertaining to the Earl of Strafford] | 
+ [beinecke.fb150.xml](1132.xml) | beinecke.fb150 | OSBORN FB150 | [Commonplace book] | 
+ [beinecke.fb152.xml](1133.xml) | beinecke.fb152 | OSBORN FB152 | 3 ALS and 5 DS | 
  [beinecke.fb163.xml](1143.xml) | beinecke.fb163 | OSBORN FB163 | [Unbound letters from Charles I, King of Great Britain (1600-1649), and from Edward Conway, 2nd Viscount Conway (1594-1655), written in the 1640's] | 
  [beinecke.emmonsgf.xml](1176.xml) | beinecke.emmonsgf | WA MSS 166-169 | George F. Emmons papers | 
  [beinecke.evans.xml](1177.xml) | beinecke.evans | WA MSS 172-191 | Elwood Evans Papers | 
