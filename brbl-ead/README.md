@@ -411,10 +411,15 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.himes.xml](976.xml) | beinecke.himes | JWJ MSS 42 | Chester Himes papers | 
  [beinecke.adams.xml](977.xml) | beinecke.adams | JWJ MSS 48 | R. A. (Revels Alcorn) Adams papers | 
  [beinecke.fowler.xml](981.xml) | beinecke.fowler | JWJ MSS 59 | Manet Harrison Fowler and Manet Helen Fowler papers | 
+ [beinecke.bontemps.xml](982.xml) | beinecke.bontemps | JWJ MSS 6 | Arna Bontemps Collection | 
+ [beinecke.cullen.xml](984.xml) | beinecke.cullen | JWJ MSS 7 | Countee Cullen Collection | 
+ [beinecke.braithwa.xml](985.xml) | beinecke.braithwa | JWJ MSS 72 | William Stanley Braithwaite Papers | 
  [beinecke.feelings.xml](986.xml) | beinecke.feelings | JWJ MSS 74 | Tom Feelings artwork. | 
  [beinecke.jwjphotos.xml](987.xml) | beinecke.jwjphotos | JWJ MSS 76 | Photographs of prominent African Americans. | 
+ [beinecke.dubois.xml](988.xml) | beinecke.dubois | JWJ MSS 8 | W. E. B. Du Bois Collection | 
  [beinecke.jwjclippings.xml](989.xml) | beinecke.jwjclippings | JWJ MSS 89 | Clippings file of the James Weldon Johnson Memorial Collection | 
  [beinecke.hurston.xml](990.xml) | beinecke.hurston | JWJ MSS 9 | Zora Neale Hurston Collection | 
+ [beinecke.tvscripts.xml](991.xml) | beinecke.tvscripts | JWJ MSS 90 | African American television scripts | 
  [beinecke.davisc.xml](992.xml) | beinecke.davisc | JWJ MSS 91 | Charles T. Davis papers | 
  [beinecke.nugent.xml](993.xml) | beinecke.nugent | JWJ MSS 92 | Bruce Nugent papers | 
  [beinecke.wesley.xml](994.xml) | beinecke.wesley | JWJ MSS 93 | Dorothy Porter Wesley papers | 
@@ -439,14 +444,31 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ndy75.xml](1018.xml) | beinecke.ndy75 | Ndy75 | Miscellaneous financial materials concerning lumber companies operating in the North American West | 
  [beinecke.ndy98t4.xml](1019.xml) | beinecke.ndy98t4 | Ndy98 T4 | Miscellaneous financial materials concerning the U.S. motion picture industry | 
  [beinecke.mshunter.xml](1020.xml) | beinecke.mshunter | OSB MSS 186 | Mary Smyth Hunter correspondence | 
+ [beinecke.poley.xml](1022.xml) | beinecke.poley | OSB MSS 1 | Edmund Poley papers | 
+ [beinecke.dnsmith.xml](1023.xml) | beinecke.dnsmith | OSB MSS 10 | David Nichol Smith papers | 
+ [beinecke.bourbel.xml](1024.xml) | beinecke.bourbel | OSB MSS 102 | Henry de Bourbel papers | 
+ [beinecke.dunton.xml](1025.xml) | beinecke.dunton | OSB MSS 103 | Stephen Parks research collection on John Dunton | 
+ [beinecke.cotton.xml](1026.xml) | beinecke.cotton | OSB MSS 104 | Stephen Parks research collection on Charles Cotton | 
+ [beinecke.bowyer.xml](1027.xml) | beinecke.bowyer | OSB MSS 105 | William Bowyer papers | 
+ [beinecke.campbel2.xml](1028.xml) | beinecke.campbel2 | OSB MSS 106 | Thomas Campbell papers | 
+ [beinecke.pettis1.xml](1029.xml) | beinecke.pettis1 | OSB MSS 113 | Pettigrew papers | 
+ [beinecke.orde.xml](1030.xml) | beinecke.orde | OSB MSS 133 | Sir John Orde papers | 
+ [beinecke.eglevy.xml](1031.xml) | beinecke.eglevy | OSB MSS 135 | Edward G. and Hortense R. Levy Autograph collection, part one | 
+ [beinecke.eglevy2.xml](1032.xml) | beinecke.eglevy2 | OSB MSS 137 | Edward G. and Hortense R. Levy autograph collection, part two | 
+ [beinecke.payne.xml](1033.xml) | beinecke.payne | OSB MSS 138 | Ralph Payne, Baron Lavington family papers | 
  [beinecke.lockerlamp.xml](1035.xml) | beinecke.lockerlamp | OSB MSS 152 | <title>Frederick Locker-Lampson Correspondence</title> | 
+ [beinecke.nicholsf.xml](1036.xml) | beinecke.nicholsf | OSB MSS 154 | Nichols family correspondence | 
+ [beinecke.soufam.xml](1037.xml) | beinecke.soufam | OSB MSS 156 | Southcomb family papers | 
+ [beinecke.wilson.xml](1038.xml) | beinecke.wilson | OSB MSS 157 | Frank Percy Wilson Papers | 
  [beinecke.steadwf.xml](1039.xml) | beinecke.steadwf | OSB MSS 158 | William Force Stead papers | 
  [beinecke.micklew.xml](1040.xml) | beinecke.micklew | OSB MSS 159 | William Julius Mickle papers | 
  [beinecke.copperplates.xml](1041.xml) | beinecke.copperplates | OSB MSS 160 | Copper engraving plates of English personalities | 
  [beinecke.dwing.xml](1044.xml) | beinecke.dwing | OSB MSS 166 | Donald Wing papers | 
  [beinecke.poas.xml](1045.xml) | beinecke.poas | OSB MSS 167 | Poems on affairs of state records | 
  [beinecke.clintonp.xml](1046.xml) | beinecke.clintonp | OSB MSS 168 | Clinton papers | 
+ [beinecke.emalone.xml](1047.xml) | beinecke.emalone | OSB MSS 169 | James Marshall Osborn research files on Edmond Malone | 
  [beinecke.wwimsatt.xml](1048.xml) | beinecke.wwimsatt | OSB MSS 170 | William K. Wimsatt Research Files on Alexander Pope and Art | 
+ [beinecke.heyworth.xml](1049.xml) | beinecke.heyworth | OSB MSS 172 | Laurence Heyworth collection of English religious manuscripts | 
  [beinecke.thistle.xml](1050.xml) | beinecke.thistle | OSB MSS 176 | Thomas Thistlewood papers | 
  [beinecke.taussig.xml](1051.xml) | beinecke.taussig | OSB MSS 184 | Anthony Taussig collection of English legal manuscripts | 
  [beinecke.tennant.xml](1052.xml) | beinecke.tennant | OSB MSS 187 | Stephen Tennant papers | 
