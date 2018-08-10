@@ -225,10 +225,29 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.llewelyn.xml](760.xml) | beinecke.llewelyn | GEN MSS 554 | Llewelyn Davies family papers | 
  [beinecke.mcglasha.xml](761.xml) | beinecke.mcglasha | GEN MSS 555 | E. L. McGlashan collection of documents concerning slavery in the United States | 
  [beinecke.kaufman.xml](762.xml) | beinecke.kaufman | GEN MSS 562 | Boris Kaufman papers | 
+ [beinecke.metamorphosis.xml](763.xml) | beinecke.metamorphosis | GEN MSS 566 | Metamorphosis : amateur drawings and paintings that replicate the publication by Benjamin Sands. | 
+ [beinecke.fksmith.xml](764.xml) | beinecke.fksmith | GEN MSS 567 | Frank Kellogg Smith travel photographs and memorabilia. | 
+ [beinecke.beineckefam.xml](766.xml) | beinecke.beineckefam | GEN MSS 570 | Beinecke family papers | 
  [beinecke.amichai.xml](767.xml) | beinecke.amichai | GEN MSS 572 | Yehuda Amichai papers | 
+ [beinecke.bradyhandy.xml](769.xml) | beinecke.bradyhandy | GEN MSS 580 | Mathew B. Brady and Levin Corbin Handy Photographic Studios Collection | 
+ [beinecke.greb.xml](770.xml) | beinecke.greb | GEN MSS 589 | Alyce Batchelder Collection of George Grebenstchikoff | 
+ [beinecke.lmanian.xml](771.xml) | beinecke.lmanian | GEN MSS 590 | Photographs of Washington, D.C., and New Haven, Connecticut. | 
+ [beinecke.korvin.xml](772.xml) | beinecke.korvin | GEN MSS 598 | Vladimir Korvin-Piotrovskiĭ papers | 
+ [beinecke.gilbert.xml](773.xml) | beinecke.gilbert | GEN MSS 6 | W. S. Lewis collection of W. S. Gilbert manuscripts and letters | 
+ [beinecke.hewcoll.xml](774.xml) | beinecke.hewcoll | GEN MSS 60 | Maurice Hewlett collection | 
  [beinecke.frkoch.xml](775.xml) | beinecke.frkoch | GEN MSS 601 | Frederick R. Koch collection | 
+ [beinecke.bute.xml](776.xml) | beinecke.bute | GEN MSS 603 | Mary Ellen Bute Papers | 
+ [beinecke.mergravure.xml](778.xml) | beinecke.mergravure | GEN MSS 606 | Meriden Gravure Company records | 
+ [beinecke.coward.xml](779.xml) | beinecke.coward | GEN MSS 608 | John C. Wilson Theater Collection on Noel Coward | 
+ [beinecke.hogg.xml](780.xml) | beinecke.hogg | GEN MSS 61 | James Hogg collection | 
+ [beinecke.vignaud.xml](781.xml) | beinecke.vignaud | GEN MSS 610 | Henry Vignaud Research Notes on Cartography | 
+ [beinecke.grant.xml](782.xml) | beinecke.grant | GEN MSS 611 | Henry Duncan Grant watercolor sketchbooks and scrapbooks. | 
+ [beinecke.sykes.xml](783.xml) | beinecke.sykes | GEN MSS 612 | Christopher Sykes Papers | 
  [beinecke.brodsky.xml](784.xml) | beinecke.brodsky | GEN MSS 613 | Joseph Brodsky papers | 
  [beinecke.nicolson.xml](785.xml) | beinecke.nicolson | GEN MSS 614 | Harold Nicolson papers  | 
+ [beinecke.lada.xml](786.xml) | beinecke.lada | GEN MSS 616 | Laura K. and Valerian Lada-Mocarski papers | 
+ [beinecke.chaconycalvo.xml](787.xml) | beinecke.chaconycalvo | GEN MSS 617 | Zenaida Gutiérrez-Vega collection of José María Chacón y Calvo | 
+ [beinecke.wijnpersse.xml](788.xml) | beinecke.wijnpersse | GEN MSS 618 | Wijnpersse family papers | 
  [beinecke.allegret.xml](797.xml) | beinecke.allegret | GEN MSS 651 | Marc Allegrét papers | 
  [beinecke.damico.xml](798.xml) | beinecke.damico | GEN MSS 655 | Tano D'Amico Photographs of Events in Italy | 
  [beinecke.acton.xml](800.xml) | beinecke.acton | GEN MSS 663 | Harold Acton papers | 
