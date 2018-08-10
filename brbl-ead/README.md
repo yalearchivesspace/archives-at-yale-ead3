@@ -300,38 +300,60 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.borton.xml](849.xml) | beinecke.borton | GEN MSS 801 | Borton family papers | 
  [beinecke.beach.xml](850.xml) | beinecke.beach | GEN MSS 802 | Stanley Yale Beach papers | 
  [beinecke.jonesh.xml](851.xml) | beinecke.jonesh | GEN MSS 803 | Howard Jones papers | 
+ [beinecke.oenslag.xml](852.xml) | beinecke.oenslag | GEN MSS 81 | Donald Oenslager collection of Adolphe Appia | 
+ [beinecke.chauncey.xml](853.xml) | beinecke.chauncey | GEN MSS 814 | Chauncey family-Fowler family papers | 
+ [beinecke.coppard.xml](854.xml) | beinecke.coppard | GEN MSS 815 | A. E. Coppard collection | 
+ [beinecke.pforzheimer.xml](855.xml) | beinecke.pforzheimer | GEN MSS 817 | Walter L. Pforzheimer papers | 
  [beinecke.holtzman.xml](856.xml) | beinecke.holtzman | GEN MSS 819 | Harry Holtzman papers | 
+ [beinecke.sutherla.xml](857.xml) | beinecke.sutherla | GEN MSS 82 | Graham Sutherland letters to Felix Hans Man | 
+ [beinecke.paul.xml](858.xml) | beinecke.paul | GEN MSS 820 | David Paul papers | 
  [beinecke.rogers.xml](859.xml) | beinecke.rogers | GEN MSS 824 | Bruce Rogers collection | 
+ [beinecke.ackroyd.xml](860.xml) | beinecke.ackroyd | GEN MSS 828 | Peter Ackroyd papers | 
  [beinecke.audj.xml](861.xml) | beinecke.audj | GEN MSS 829 | John James Audubon collection | 
+ [beinecke.gibbs.xml](862.xml) | beinecke.gibbs | GEN MSS 83 | Gibbs-Van Name papers | 
  [beinecke.denham.xml](863.xml) | beinecke.denham | GEN MSS 831 | Album of watercolors and drawings. | 
  [beinecke.dejong.xml](864.xml) | beinecke.dejong | GEN MSS 832 | Jacqueline de Jong papers | 
  [beinecke.fishing.xml](865.xml) | beinecke.fishing | GEN MSS 834 | Fishing manuscripts collection | 
  [beinecke.pforzheimerhist.xml](866.xml) | beinecke.pforzheimerhist | GEN MSS 838 | Walter L. Pforzheimer collection of historical manuscripts | 
  [beinecke.brownings.xml](867.xml) | beinecke.brownings | GEN MSS 839 | Robert Browning and Elizabeth Barrett Browning collection | 
+ [beinecke.monclar.xml](868.xml) | beinecke.monclar | GEN MSS 84 | Browning-Monclar collection | 
  [beinecke.jdwild.xml](869.xml) | beinecke.jdwild | GEN MSS 842 | John Daniel Wild papers | 
  [beinecke.stadler.xml](870.xml) | beinecke.stadler | GEN MSS 843 | Matthew Stadler papers | 
  [beinecke.mccourtvirga.xml](872.xml) | beinecke.mccourtvirga | GEN MSS 845 | James McCourt and Vincent Virga papers | 
  [beinecke.beineckew.xml](873.xml) | beinecke.beineckew | GEN MSS 846 | Walter Beinecke papers | 
+ [beinecke.aud.xml](874.xml) | beinecke.aud | GEN MSS 85 | Morris Tyler family collection of John James Audubon | 
  [beinecke.usher.xml](875.xml) | beinecke.usher | GEN MSS 855 | George F. Usher papers | 
  [beinecke.trentdefoe.xml](877.xml) | beinecke.trentdefoe | GEN MSS 859 | William Peterfield Trent Daniel Defoe Research Collection | 
+ [beinecke.brigden.xml](878.xml) | beinecke.brigden | GEN MSS 86 | Zachariah Brigden papers | 
  [beinecke.thornton.xml](879.xml) | beinecke.thornton | GEN MSS 864 | Sir Edward Thornton correspondence with the British Foreign Office | 
  [beinecke.marnold.xml](880.xml) | beinecke.marnold | GEN MSS 867 | Matthew Arnold collection | 
+ [beinecke.agenda.xml](882.xml) | beinecke.agenda | GEN MSS 87 | Agenda records | 
  [beinecke.cannan.xml](883.xml) | beinecke.cannan | GEN MSS 873 | Gilbert Cannan papers | 
+ [beinecke.mcdouall.xml](885.xml) | beinecke.mcdouall | GEN MSS 875 | Robin McDouall correspondence | 
+ [beinecke.montgomery.xml](886.xml) | beinecke.montgomery | GEN MSS 878 | James Montgomery collection | 
  [beinecke.douglas.xml](887.xml) | beinecke.douglas | GEN MSS 88 | Norman Douglas Collection | 
  [beinecke.coleridge.xml](888.xml) | beinecke.coleridge | GEN MSS 880 | Samuel Taylor Coleridge collection | 
+ [beinecke.guicharnaud.xml](889.xml) | beinecke.guicharnaud | GEN MSS 883 | Jacques Guicharnaud papers | 
+ [beinecke.linlithgow.xml](890.xml) | beinecke.linlithgow | GEN MSS 884 | Linlithgow and Stirlingshire Hunt records | 
+ [beinecke.deforest.xml](891.xml) | beinecke.deforest | GEN MSS 885 | John L. De Forest papers | 
+ [beinecke.croom.xml](892.xml) | beinecke.croom | GEN MSS 886 | Norman Croom-Johnson diaries | 
  [beinecke.johnstonwww.xml](893.xml) | beinecke.johnstonwww | GEN MSS 887 | William Walker Whitehall Johnston photograph album of Wales, the West Indies, and the 1st West India Regiment. | 
  [beinecke.fraenkel.xml](895.xml) | beinecke.fraenkel | GEN MSS 891 | Michael Fraenkel papers | 
  [beinecke.baronbyron.xml](896.xml) | beinecke.baronbyron | GEN MSS 892 | George Gordon Byron, Baron Byron collection | 
  [beinecke.kiplingwatt.xml](897.xml) | beinecke.kiplingwatt | GEN MSS 893 | A. P. Watt and Son records relating to Rudyard Kipling | 
+ [beinecke.lauweryns.xml](898.xml) | beinecke.lauweryns | GEN MSS 899 | Georges Lauweryns manuscript and printed music | 
  [beinecke.romangul.xml](899.xml) | beinecke.romangul | GEN MSS 90 | Roman Gulʹ papers | 
  [beinecke.baugniet.xml](900.xml) | beinecke.baugniet | GEN MSS 900 | Marcel-Louis Baugniet collection | 
  [beinecke.adler.xml](901.xml) | beinecke.adler | GEN MSS 901 | Gerhard and Hella Adler papers | 
  [beinecke.pond.xml](902.xml) | beinecke.pond | GEN MSS 904 | Fred E. Pond papers related to fishing | 
+ [beinecke.lidiia.xml](903.xml) | beinecke.lidiia | GEN MSS 91 | Lidii︠a︡ Alekseeva papers | 
  [beinecke.blake.xml](904.xml) | beinecke.blake | GEN MSS 914 | William Blake collection | 
+ [beinecke.adamovi.xml](905.xml) | beinecke.adamovi | GEN MSS 92 | Georgiĭ Adamovich papers | 
  [beinecke.cogswell.xml](906.xml) | beinecke.cogswell | GEN MSS 920 | Mason Fitch Cogswell papers | 
  [beinecke.larkin.xml](907.xml) | beinecke.larkin | GEN MSS 921 | Adella Fowler Larkin correspondence | 
  [beinecke.vita.xml](908.xml) | beinecke.vita | GEN MSS 925 | Vita Sackville-West papers | 
  [beinecke.walter.xml](909.xml) | beinecke.walter | GEN MSS 929 | Max Walter commercial art for W. & J. Sloane | 
+ [beinecke.ivask.xml](910.xml) | beinecke.ivask | GEN MSS 93 | George Ivask papers | 
  [beinecke.dobson.xml](911.xml) | beinecke.dobson | GEN MSS 930 | Austin Dobson collection | 
  [beinecke.holloway.xml](913.xml) | beinecke.holloway | GEN MSS 933 | Mark Holloway papers related to Martha Gordon Crotch | 
  [beinecke.wulff.xml](915.xml) | beinecke.wulff | GEN MSS 946 | Lee Wulff papers | 
