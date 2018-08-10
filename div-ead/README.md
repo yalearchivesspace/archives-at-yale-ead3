@@ -161,6 +161,29 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.236.xml](202.xml) | divinity.236 | RG 236 | Council of Church Boards of Education Records | 
  [divinity.238.xml](204.xml) | divinity.238 | RG 238 | Howard Olson Family Papers | 
  [divinity.239.xml](205.xml) | divinity.239 | RG 239 | United Student Christian Council records | 
+ [divinity.024.xml](206.xml) | divinity.024 | RG 24 | James Claude Thomson and James C. Thomson Jr. Papers | 
+ [divinity.240.xml](207.xml) | divinity.240 | RG 240 | Daniel Webster Crofts Papers | 
+ [divinity.241.xml](208.xml) | divinity.241 | RG 241 | Gwen Coventry Papers | 
+ [divinity.244.xml](211.xml) | divinity.244 | RG 244 | Rugh Family Papers | 
+ [divinity.245.xml](212.xml) | divinity.245 | RG 245 | Association for Case Teaching records | 
+ [divinity.246.xml](213.xml) | divinity.246 | RG 246 | Emery and Elvera Carlson Papers | 
+ [divinity.247.xml](214.xml) | divinity.247 | RG 247 | National Student Christian Federation Records | 
+ [divinity.248.xml](215.xml) | divinity.248 | RG 248 | McCandliss-Judson Family Papers | 
+ [divinity.249.xml](216.xml) | divinity.249 | RG 249 | Henry Hale Bucher, Sr. and Louise Scott Bucher Papers | 
+ [divinity.025.xml](217.xml) | divinity.025 | RG 25 | Karl and Ada Scheufler Papers | 
+ [divinity.250.xml](218.xml) | divinity.250 | RG 250 | Henry Hale Bucher, Jr. Papers | 
+ [divinity.251.xml](219.xml) | divinity.251 | RG 251 | Walter and Ruth Marie Taylor Papers | 
+ [divinity.252.xml](220.xml) | divinity.252 | RG 252 | Benjamin Severance Winchester Papers | 
+ [divinity.253.xml](221.xml) | divinity.253 | RG 253 | Hudson Family Papers | 
+ [divinity.254.xml](222.xml) | divinity.254 | RG 254 | United Campus Christian Fellowship Records | 
+ [divinity.256.xml](223.xml) | divinity.256 | RG 256 | Leander E. Keck Papers | 
+ [divinity.257.xml](224.xml) | divinity.257 | RG 257 | Dean and Fanny Wickes Papers | 
+ [divinity.259.xml](226.xml) | divinity.259 | RG 259 | Campus Ministry Advancement Records | 
+ [divinity.026.xml](227.xml) | divinity.026 | RG 26 | Charles Telford Erickson Papers | 
+ [divinity.260.xml](228.xml) | divinity.260 | RG 260 | D.T. Niles Papers | 
+ [divinity.261.xml](229.xml) | divinity.261 | RG 261 | Kirkridge Retreat and Study Center records | 
+ [divinity.255.xml](5356.xml) | divinity.255 | RG 255 | Interfaith Cooperative Ministries records | 
+ [divinity.258.xml](5390.xml) | divinity.258 | RG 258 | Harry Croswell Papers | 
  [divinity.237.xml](5395.xml) | divinity.237 | RG 237 | Christian Conference of Asia Records | 
  [divinity.214.xml](5398.xml) | divinity.214 | RG 214 | International Nepal Fellowship records | 
  [divinity.211.xml](5400.xml) | divinity.211 | RG 211 | Himalayan Collection Pamphlets and Reports | 
@@ -169,6 +192,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.163a.xml](5405.xml) | divinity.163a | RG 163A | American Theological Library Association Records - Addendum A | 
  [divinity.167.xml](5406.xml) | divinity.167 | RG 167 | National Association of College and University Chaplains and Directors of Religious Life Records | 
  [divinity.173.xml](5407.xml) | divinity.173 | RG 173 | Randolph Crump Miller Papers | 
+ [divinity.242.xml](5466.xml) | divinity.242 | RG 242 | John G. Magee Family Papers | 
  [divinity.216.xml](5703.xml) | divinity.216 | RG 216 | Berkeley Divinity School records | 
  [divinity.215.xml](10836.xml) | divinity.215 | RG 215 | Nepal Church History Project Records | 
 
