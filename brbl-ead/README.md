@@ -248,34 +248,56 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lada.xml](786.xml) | beinecke.lada | GEN MSS 616 | Laura K. and Valerian Lada-Mocarski papers | 
  [beinecke.chaconycalvo.xml](787.xml) | beinecke.chaconycalvo | GEN MSS 617 | Zenaida Gutiérrez-Vega collection of José María Chacón y Calvo | 
  [beinecke.wijnpersse.xml](788.xml) | beinecke.wijnpersse | GEN MSS 618 | Wijnpersse family papers | 
+ [beinecke.barnes.xml](792.xml) | beinecke.barnes | GEN MSS 625 | Bernard Frank Dukore Collection of Peter Barnes | 
+ [beinecke.rzhevsky.xml](793.xml) | beinecke.rzhevsky | GEN MSS 630 | Leonid Rzhevsky papers | 
+ [beinecke.joelson.xml](794.xml) | beinecke.joelson | GEN MSS 634 | F. S. Joelson papers | 
+ [beinecke.hunt.xml](795.xml) | beinecke.hunt | GEN MSS 65 | Leigh Hunt collection | 
+ [beinecke.kline.xml](796.xml) | beinecke.kline | GEN MSS 650 | George Louis Kline papers | 
  [beinecke.allegret.xml](797.xml) | beinecke.allegret | GEN MSS 651 | Marc Allegrét papers | 
  [beinecke.damico.xml](798.xml) | beinecke.damico | GEN MSS 655 | Tano D'Amico Photographs of Events in Italy | 
+ [beinecke.milosz.xml](799.xml) | beinecke.milosz | GEN MSS 661 | Czesław Miłosz papers | 
  [beinecke.acton.xml](800.xml) | beinecke.acton | GEN MSS 663 | Harold Acton papers | 
+ [beinecke.ejbstevenson.xml](801.xml) | beinecke.ejbstevenson | GEN MSS 664 | Edwin J. Beinecke Collection of Robert Louis Stevenson | 
+ [beinecke.bradstreet.xml](802.xml) | beinecke.bradstreet | GEN MSS 674 | Martha Bradstreet papers | 
  [beinecke.jelenski.xml](804.xml) | beinecke.jelenski | GEN MSS 676 | Konstanty Jeleński papers | 
+ [beinecke.carlyle.xml](805.xml) | beinecke.carlyle | GEN MSS 677 | Thomas Carlyle collection | 
+ [beinecke.reedj.xml](806.xml) | beinecke.reedj | GEN MSS 678 | Jeremy Reed papers | 
  [beinecke.starr.xml](807.xml) | beinecke.starr | GEN MSS 679 | Cecile Starr papers relating to Mary Ellen Bute | 
+ [beinecke.thom.xml](810.xml) | beinecke.thom | GEN MSS 69 | Lansing V. Hammond collection of Hugh Thomson | 
  [beinecke.driver.xml](811.xml) | beinecke.driver | GEN MSS 690 | Julia Driver collection of women in photography. | 
  [beinecke.benson.xml](813.xml) | beinecke.benson | GEN MSS 699 | E. F. Benson papers | 
  [beinecke.moreno.xml](814.xml) | beinecke.moreno | GEN MSS 701 | Marguerite Moreno papers | 
+ [beinecke.lawrence.xml](815.xml) | beinecke.lawrence | GEN MSS 703 | Lawrence & Wishart records | 
  [beinecke.wat.xml](816.xml) | beinecke.wat | GEN MSS 705 | Aleksander Wat papers | 
  [beinecke.venclova.xml](817.xml) | beinecke.venclova | GEN MSS 714 | Tomas Venclova papers | 
  [beinecke.rannit.xml](818.xml) | beinecke.rannit | GEN MSS 715 | Aleksis Rannit papers | 
  [beinecke.creve.xml](819.xml) | beinecke.creve | GEN MSS 722 | J. Hector St. John de Crèvecoeur papers | 
  [beinecke.jfrench.xml](820.xml) | beinecke.jfrench | GEN MSS 732 | Jared French papers | 
+ [beinecke.kosinski.xml](822.xml) | beinecke.kosinski | GEN MSS 742 | Katherina von Fraunhofer-Kosinski collection of Jerzy Kosinski | 
  [beinecke.mehta.xml](823.xml) | beinecke.mehta | GEN MSS 744 | Ved Mehta papers | 
  [beinecke.fondane.xml](824.xml) | beinecke.fondane | GEN MSS 750 | Benjamin Fondane papers | 
  [beinecke.lemaitre.xml](825.xml) | beinecke.lemaitre | GEN MSS 754 | Bismuth-Lemaître papers | 
  [beinecke.clesinger.xml](826.xml) | beinecke.clesinger | GEN MSS 755 | Solange Clésinger-Sand Papers | 
  [beinecke.gamingcounters.xml](827.xml) | beinecke.gamingcounters | GEN MSS 757 | Chinese gaming counters | 
+ [beinecke.ritson.xml](828.xml) | beinecke.ritson | GEN MSS 76 | Joseph Ritson collection | 
  [beinecke.shirley.xml](829.xml) | beinecke.shirley | GEN MSS 764 | Betsy Beinecke Shirley collection of American children's literature | 
  [beinecke.daggettcouey.xml](830.xml) | beinecke.daggettcouey | GEN MSS 767 | Daggett-Couey family papers | 
  [beinecke.sassoon.xml](831.xml) | beinecke.sassoon | GEN MSS 768 | Siegfried Sassoon papers | 
+ [beinecke.golding.xml](832.xml) | beinecke.golding | GEN MSS 77 | Louis Golding papers | 
+ [beinecke.massie.xml](834.xml) | beinecke.massie | GEN MSS 775 | Robert K. Massie papers relating to Nicholas and Alexandra | 
+ [beinecke.eisner.xml](835.xml) | beinecke.eisner | GEN MSS 778 | Dorothy Eisner papers | 
+ [beinecke.bagnold.xml](836.xml) | beinecke.bagnold | GEN MSS 78 | Enid Bagnold papers | 
  [beinecke.lbailey.xml](837.xml) | beinecke.lbailey | GEN MSS 787 | Laura Bailey collection of gender and transgender materials | 
  [beinecke.bissell.xml](838.xml) | beinecke.bissell | GEN MSS 788 | George H. Bissell papers | 
+ [beinecke.lyon.xml](840.xml) | beinecke.lyon | GEN MSS 79 | William Lyon papers. | 
  [beinecke.dash.xml](842.xml) | beinecke.dash | GEN MSS 792 | Robert Dash papers | 
  [beinecke.phillips.xml](843.xml) | beinecke.phillips | GEN MSS 793 | Caryl Phillips papers | 
+ [beinecke.knott.xml](844.xml) | beinecke.knott | GEN MSS 794 | Frederick Knott papers | 
  [beinecke.westhf.xml](845.xml) | beinecke.westhf | GEN MSS 795 | Herbert F. West collection of A. Hugh Fisher | 
  [beinecke.superstudio.xml](846.xml) | beinecke.superstudio | GEN MSS 796 | Natalini Superstudio collection | 
  [beinecke.dean.xml](847.xml) | beinecke.dean | GEN MSS 797 | Tunis F. Dean papers | 
+ [beinecke.morgthei.xml](848.xml) | beinecke.morgthei | GEN MSS 80 | Louise Morgan and Otto Theis papers | 
+ [beinecke.borton.xml](849.xml) | beinecke.borton | GEN MSS 801 | Borton family papers | 
  [beinecke.beach.xml](850.xml) | beinecke.beach | GEN MSS 802 | Stanley Yale Beach papers | 
  [beinecke.jonesh.xml](851.xml) | beinecke.jonesh | GEN MSS 803 | Howard Jones papers | 
  [beinecke.holtzman.xml](856.xml) | beinecke.holtzman | GEN MSS 819 | Harry Holtzman papers | 
