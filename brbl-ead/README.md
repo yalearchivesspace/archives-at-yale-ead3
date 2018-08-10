@@ -472,7 +472,32 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.thistle.xml](1050.xml) | beinecke.thistle | OSB MSS 176 | Thomas Thistlewood papers | 
  [beinecke.taussig.xml](1051.xml) | beinecke.taussig | OSB MSS 184 | Anthony Taussig collection of English legal manuscripts | 
  [beinecke.tennant.xml](1052.xml) | beinecke.tennant | OSB MSS 187 | Stephen Tennant papers | 
+ [beinecke.blathway.xml](1053.xml) | beinecke.blathway | OSB MSS 2 | William Blathwayt papers | 
+ [beinecke.landor.xml](1054.xml) | beinecke.landor | OSB MSS 23 | Landor papers | 
+ [beinecke.stair.xml](1055.xml) | beinecke.stair | OSB MSS 24 | Stair papers | 
+ [beinecke.france.xml](1056.xml) | beinecke.france | OSB MSS 25 | French revolutionary wars letters and documents | 
+ [beinecke.atterbur.xml](1057.xml) | beinecke.atterbur | OSB MSS 26 | Atterbury papers | 
+ [beinecke.lekeux.xml](1058.xml) | beinecke.lekeux | OSB MSS 27 | Le Keux correspondence | 
+ [beinecke.tracts.xml](1059.xml) | beinecke.tracts | OSB MSS 28 | Tracts | 
+ [beinecke.sherosb.xml](1060.xml) | beinecke.sherosb | OSB MSS 29 | Sheridan papers | 
+ [beinecke.burnfam.xml](1061.xml) | beinecke.burnfam | OSB MSS 3 | Burney family collection | 
+ [beinecke.astle.xml](1062.xml) | beinecke.astle | OSB MSS 30 | Astle correspondence | 
+ [beinecke.hill.xml](1063.xml) | beinecke.hill | OSB MSS 31 | Hill papers | 
+ [beinecke.bateman.xml](1064.xml) | beinecke.bateman | OSB MSS 32 | Bateman family papers | 
+ [beinecke.booktrad.xml](1065.xml) | beinecke.booktrad | OSB MSS 33 | Book trade collection | 
+ [beinecke.bren.xml](1066.xml) | beinecke.bren | OSB MSS 35 | Brenton correspondence | 
+ [beinecke.freeling.xml](1067.xml) | beinecke.freeling | OSB MSS 36 | Freeling correspondence | 
+ [beinecke.high.xml](1068.xml) | beinecke.high | OSB MSS 38 | Higham correspondence | 
+ [beinecke.tpercy.xml](1069.xml) | beinecke.tpercy | OSB MSS 39 | Thomas Percy correspondence | 
  [beinecke.spence.xml](1070.xml) | beinecke.spence | OSB MSS 4 | Joseph Spence papers | 
+ [beinecke.clay.xml](1071.xml) | beinecke.clay | OSB MSS 40 | Clayton papers | 
+ [beinecke.south.xml](1072.xml) | beinecke.south | OSB MSS 41 | Southwell papers | 
+ [beinecke.taylorj.xml](1073.xml) | beinecke.taylorj | OSB MSS 42 | John Taylor correspondence | 
+ [beinecke.laving.xml](1074.xml) | beinecke.laving | OSB MSS 43 | Lavington papers: Stuart negotiations | 
+ [beinecke.temple.xml](1075.xml) | beinecke.temple | OSB MSS 44 | Temple family correspondence | 
+ [beinecke.wilsonj.xml](1076.xml) | beinecke.wilsonj | OSB MSS 45 | John Wilson papers | 
+ [beinecke.manni.xml](1077.xml) | beinecke.manni | OSB MSS 46 | Isaac Mann autograph collection | 
+ [beinecke.pelham.xml](1078.xml) | beinecke.pelham | OSB MSS 48 | Pelham papers | 
  [beinecke.blagden.xml](1081.xml) | beinecke.blagden | OSB MSS 51 | Sir Charles Blagden papers | 
  [beinecke.leefam.xml](1082.xml) | beinecke.leefam | OSB MSS 52 | Sir William Lee family papers | 
  [beinecke.c8.xml](1116.xml) | beinecke.c8 | OSBORN C8 | [Edmund Burke letters] | 
