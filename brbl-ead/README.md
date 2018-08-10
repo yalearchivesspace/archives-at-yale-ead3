@@ -498,8 +498,31 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wilsonj.xml](1076.xml) | beinecke.wilsonj | OSB MSS 45 | John Wilson papers | 
  [beinecke.manni.xml](1077.xml) | beinecke.manni | OSB MSS 46 | Isaac Mann autograph collection | 
  [beinecke.pelham.xml](1078.xml) | beinecke.pelham | OSB MSS 48 | Pelham papers | 
+ [beinecke.carling.xml](1079.xml) | beinecke.carling | OSB MSS 5 | Carlingford papers | 
+ [beinecke.ballitor.xml](1080.xml) | beinecke.ballitor | OSB MSS 50 | Ballitore papers | 
  [beinecke.blagden.xml](1081.xml) | beinecke.blagden | OSB MSS 51 | Sir Charles Blagden papers | 
  [beinecke.leefam.xml](1082.xml) | beinecke.leefam | OSB MSS 52 | Sir William Lee family papers | 
+ [beinecke.eardley.xml](1083.xml) | beinecke.eardley | OSB MSS 54 | Eardley-Wilmot correspondence | 
+ [beinecke.bess.xml](1084.xml) | beinecke.bess | OSB MSS 55 | Bessborough papers | 
+ [beinecke.dennis.xml](1085.xml) | beinecke.dennis | OSB MSS 56 | Dennistoun correspondence | 
+ [beinecke.smithw.xml](1086.xml) | beinecke.smithw | OSB MSS 57 | William Smith papers | 
+ [beinecke.sussex.xml](1087.xml) | beinecke.sussex | OSB MSS 58 | Sussex correspondence | 
+ [beinecke.danby.xml](1088.xml) | beinecke.danby | OSB MSS 6 | Danby papers | 
+ [beinecke.howard.xml](1089.xml) | beinecke.howard | OSB MSS 61 | Howard of Escrick papers | 
+ [beinecke.shen.xml](1090.xml) | beinecke.shen | OSB MSS 63 | William Shenstone papers | 
+ [beinecke.proctor.xml](1091.xml) | beinecke.proctor | OSB MSS 65 | Sir William Beauchamp-Proctor papers | 
+ [beinecke.pugin.xml](1092.xml) | beinecke.pugin | OSB MSS 66 | Augustus Welby Northmore Pugin drawings. | 
+ [beinecke.great.xml](1093.xml) | beinecke.great | OSB MSS 68 | Bertie Greatheed papers | 
+ [beinecke.jmocor.xml](1094.xml) | beinecke.jmocor | OSB MSS 7 | James Marshall Osborn correspondence | 
+ [beinecke.lysons.xml](1095.xml) | beinecke.lysons | OSB MSS 70 | Lysons family collection | 
+ [beinecke.bruce.xml](1096.xml) | beinecke.bruce | OSB MSS 73 | John Bruce collection | 
+ [beinecke.maryham.xml](1097.xml) | beinecke.maryham | OSB MSS 75 | Lady Mary Hamilton papers | 
+ [beinecke.wkent.xml](1098.xml) | beinecke.wkent | OSB MSS 78 | Charles Kent papers | 
+ [beinecke.digby.xml](1100.xml) | beinecke.digby | OSB MSS 81 | Kenelm Henry Digby collection | 
+ [beinecke.barring.xml](1101.xml) | beinecke.barring | OSB MSS 85 | Samuel Barrington letterbooks | 
+ [beinecke.perfam.xml](1102.xml) | beinecke.perfam | OSB MSS 88 | Percy family papers | 
+ [beinecke.whirlwin.xml](1103.xml) | beinecke.whirlwin | OSB MSS 9 | Whirlwind Hill Farm papers | 
+ [beinecke.esimpso.xml](1104.xml) | beinecke.esimpso | OSB MSS 90 | Evelyn Simpson papers | 
  [beinecke.c8.xml](1116.xml) | beinecke.c8 | OSBORN C8 | [Edmund Burke letters] | 
  [beinecke.d98.xml](1126.xml) | beinecke.d98 | OSBORN D98 | "Autographs of English literati" | 
  [beinecke.fb117.xml](1127.xml) | beinecke.fb117 | OSBORN fb117 | "A colleccon of many learned letters" | 
