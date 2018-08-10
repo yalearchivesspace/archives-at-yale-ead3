@@ -355,7 +355,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.walter.xml](909.xml) | beinecke.walter | GEN MSS 929 | Max Walter commercial art for W. & J. Sloane | 
  [beinecke.ivask.xml](910.xml) | beinecke.ivask | GEN MSS 93 | George Ivask papers | 
  [beinecke.dobson.xml](911.xml) | beinecke.dobson | GEN MSS 930 | Austin Dobson collection | 
+ [beinecke.woolly.xml](912.xml) | beinecke.woolly | GEN MSS 932 | Press of the Woolly Whale records | 
  [beinecke.holloway.xml](913.xml) | beinecke.holloway | GEN MSS 933 | Mark Holloway papers related to Martha Gordon Crotch | 
+ [beinecke.nemecek.xml](914.xml) | beinecke.nemecek | GEN MSS 94 | Zdeněk Němeček papers | 
  [beinecke.wulff.xml](915.xml) | beinecke.wulff | GEN MSS 946 | Lee Wulff papers | 
  [beinecke.depalchi.xml](916.xml) | beinecke.depalchi | GEN MSS 947 | Alfredo de Palchi and Sona Raiziss papers | 
  [beinecke.wolski.xml](917.xml) | beinecke.wolski | GEN MSS 948 | Andrzej Wolski videorecordings for the documentary film Moi, Gombrowicz | 
@@ -366,30 +368,49 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.levymusic.xml](922.xml) | beinecke.levymusic | GEN MSS 955 | Edward G. Levy collection of papers relating to music | 
  [beinecke.levytemperance.xml](923.xml) | beinecke.levytemperance | GEN MSS 956 | Edward G. Levy collection relating to temperance | 
  [beinecke.abchapman.xml](924.xml) | beinecke.abchapman | GEN MSS 957 | A. B. Chapman music and drawings | 
+ [beinecke.low.xml](925.xml) | beinecke.low | GEN MSS 96 | David Low papers | 
+ [beinecke.eliot.xml](927.xml) | beinecke.eliot | GEN MSS 963 | George Eliot and George Henry Lewes collection | 
  [beinecke.wolman.xml](928.xml) | beinecke.wolman | GEN MSS 969 | Gil J Wolman papers | 
  [beinecke.bryher.xml](929.xml) | beinecke.bryher | GEN.MSS.97 | Bryher papers | 
  [beinecke.sagreen.xml](931.xml) | beinecke.sagreen | GEN MSS 973 | Samuel Adams Green papers | 
  [beinecke.geiss.xml](932.xml) | beinecke.geiss | GEN MSS 979 | Tony Geiss papers | 
+ [beinecke.johnsonguy.xml](934.xml) | beinecke.johnsonguy | GEN MSS 980 | Johnson and Campbell family papers | 
  [beinecke.tocque.xml](935.xml) | beinecke.tocque | GEN MSS 982 | Yale Tocqueville Manuscripts | 
  [beinecke.steward.xml](936.xml) | beinecke.steward | GEN MSS 987 | Samuel Steward papers | 
+ [beinecke.nadezhin.xml](937.xml) | beinecke.nadezhin | GEN MSS 99 | Nikolai Nadezhin papers | 
  [beinecke.weiss.xml](939.xml) | beinecke.weiss | GEN MSS 992 | Harvey Weiss papers | 
+ [beinecke.marryat.xml](940.xml) | beinecke.marryat | GEN MSS 994 | Florence Marryat collection | 
  [beinecke.morath.xml](941.xml) | beinecke.morath | GEN MSS 996 | Inge Morath Photographs and Papers | 
  [beinecke.fellowes.xml](948.xml) | beinecke.fellowes | GEN MSS VOL 421 | EXTRA-ILLUSTRATIONS IN SAMUEL JOHNSON, LETTERS TO AND FROM THE LATE SAMUEL JOHNSON... (London: A. Strahan and T. Cadell, 1788) | 
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
+ [beinecke.toomer.xml](950.xml) | beinecke.toomer | JWJ MSS 1 | Jean Toomer papers | 
+ [beinecke.peterson.xml](951.xml) | beinecke.peterson | JWJ MSS 10 | Dorothy Peterson collection | 
  [beinecke.haynes.xml](952.xml) | beinecke.haynes | JWJ MSS 101 | George Edmund Haynes papers | 
  [beinecke.dodson.xml](953.xml) | beinecke.dodson | JWJ MSS 103 | Owen Dodson collection | 
  [beinecke.beman.xml](954.xml) | beinecke.beman | JWJ MSS 105 | Amos Gerry Beman Scrapbooks | 
  [beinecke.bennettg.xml](955.xml) | beinecke.bennettg | JWJ MSS 106 | Gwendolyn Bennett Papers | 
  [beinecke.bakerj.xml](956.xml) | beinecke.bakerj | JWJ MSS 108 | Josephine Baker Collection | 
+ [beinecke.spingarn.xml](957.xml) | beinecke.spingarn | JWJ MSS 11 | Joel E. Spingarn Collection | 
+ [beinecke.jwjfile.xml](958.xml) | beinecke.jwjfile | JWJ MSS 114 | James Weldon Johnson collection files | 
+ [beinecke.kerman.xml](959.xml) | beinecke.kerman | JWJ MSS 116 | Cynthia Earl Kerman Papers Relating to <title xlink:type="simple" render="italic">The Lives of Jean Toomer</title> | 
+ [beinecke.thurman.xml](960.xml) | beinecke.thurman | JWJ MSS 12 | Wallace Thurman Collection | 
  [beinecke.pickens.xml](961.xml) | beinecke.pickens | JWJ MSS 125 | William Pickens papers | 
  [beinecke.cave.xml](962.xml) | beinecke.cave | JWJ MSS 130 | Cave Canem records | 
  [beinecke.eady.xml](963.xml) | beinecke.eady | JWJ MSS 146 | Cornelius Eady Papers | 
  [beinecke.bonds.xml](964.xml) | beinecke.bonds | JWJ MSS 151 | Margaret Bonds papers | 
  [beinecke.komunyakaa.xml](965.xml) | beinecke.komunyakaa | JWJ MSS 152 | Yusef Komunyakaa papers | 
  [beinecke.darktown.xml](966.xml) | beinecke.darktown | JWJ MSS 158 | Currier & Ives Darktown Prints | 
+ [beinecke.jobaker.xml](967.xml) | beinecke.jobaker | JWJ MSS 2 | Henry Hurford Janes-Josephine Baker collection | 
+ [beinecke.baldwin.xml](968.xml) | beinecke.baldwin | JWJ MSS 21 | James Baldwin early manuscripts and papers | 
+ [beinecke.mckay.xml](970.xml) | beinecke.mckay | JWJ MSS 27 | Claude McKay collection | 
+ [beinecke.hughesar.xml](971.xml) | beinecke.hughesar | JWJ MSS 28 | Langston Hughes collection | 
  [beinecke.wright.xml](972.xml) | beinecke.wright | JWJ MSS 3 | Richard Wright papers | 
+ [beinecke.printaapolitical.xml](973.xml) | beinecke.printaapolitical | JWJ MSS 36 | Printed ephemera of African American political activism and arts | 
  [beinecke.wfwhite.xml](974.xml) | beinecke.wfwhite | JWJ MSS 38 | Walter Francis White and Poppy Cannon papers | 
+ [beinecke.ellabbrown.xml](975.xml) | beinecke.ellabbrown | JWJ MSS 41 | Ella Barksdale Brown Papers | 
  [beinecke.himes.xml](976.xml) | beinecke.himes | JWJ MSS 42 | Chester Himes papers | 
+ [beinecke.adams.xml](977.xml) | beinecke.adams | JWJ MSS 48 | R. A. (Revels Alcorn) Adams papers | 
+ [beinecke.fowler.xml](981.xml) | beinecke.fowler | JWJ MSS 59 | Manet Harrison Fowler and Manet Helen Fowler papers | 
  [beinecke.feelings.xml](986.xml) | beinecke.feelings | JWJ MSS 74 | Tom Feelings artwork. | 
  [beinecke.jwjphotos.xml](987.xml) | beinecke.jwjphotos | JWJ MSS 76 | Photographs of prominent African Americans. | 
  [beinecke.jwjclippings.xml](989.xml) | beinecke.jwjclippings | JWJ MSS 89 | Clippings file of the James Weldon Johnson Memorial Collection | 
