@@ -186,8 +186,19 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.265.xml](233.xml) | divinity.265 | RG 265 | Morse Family Papers: William Reginald and Anne Crosse Morse | 
  [divinity.027.xml](234.xml) | divinity.027 | RG 27 | Yale Divinity School Faculty Writings and Publications | 
  [divinity.028.xml](235.xml) | divinity.028 | RG 28 | Dwight L. Moody Papers | 
+ [divinity.003.xml](236.xml) | divinity.003 | RG 3 | Kenneth Scott Latourette Papers | 
+ [divinity.031.xml](238.xml) | divinity.031 | RG 31 | Katherine Vaughn Papers | 
+ [divinity.032.xml](239.xml) | divinity.032 | RG 32 | George Sherwood Eddy Papers | 
+ [divinity.033.xml](240.xml) | divinity.033 | RG 33 | Records of Religious Educational Institutions | 
+ [divinity.035.xml](242.xml) | divinity.035 | RG 35 | Clarence Prouty Shedd Papers | 
+ [divinity.036.xml](243.xml) | divinity.036 | RG 36 | George Albert Coe Papers | 
+ [divinity.037.xml](244.xml) | divinity.037 | RG 37 | Charles Reynolds Brown Papers | 
+ [divinity.038.xml](245.xml) | divinity.038 | RG 38 | Robert Parmelee Wilder Papers | 
+ [divinity.039.xml](246.xml) | divinity.039 | RG 39 | Horace Bushnell Papers | 
+ [divinity.004.xml](247.xml) | divinity.004 | RG 4 | Hartwell Family Papers | 
  [divinity.255.xml](5356.xml) | divinity.255 | RG 255 | Interfaith Cooperative Ministries records | 
  [divinity.267.xml](5378.xml) | divinity.267 | RG 267 | George A. Chauncey Papers | 
+ [divinity.030.xml](5384.xml) | divinity.030 | RG 30 | Miscellaneous Personal Papers Collection | 
  [divinity.266a.xml](5385.xml) | divinity.266a | RG 266A | Church of the Redeemer (New Haven, Conn.) Records - Addendum A | 
  [divinity.258.xml](5390.xml) | divinity.258 | RG 258 | Harry Croswell Papers | 
  [divinity.237.xml](5395.xml) | divinity.237 | RG 237 | Christian Conference of Asia Records | 
@@ -206,14 +217,27 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.272.xml](5873.xml) | divinity.272 | RG 272 | Alice L. Hageman Papers | 
  [divinity.273.xml](10651.xml) | divinity.273 | RG 273 | Gleysteen Family Papers | 
  [divinity.278.xml](10730.xml) | divinity.278 | RG 278 | Andover Newton Theological School Alumni Files | 
+ [divinity.300.xml](10734.xml) | divinity.300 | RG 300 | Andover Newton Theological School Theses Collection | 
  [divinity.277.xml](10737.xml) | divinity.277 | RG 277 | Andover Newton Theological School Records | 
+ [divinity.301.xml](10743.xml) | divinity.301 | RG 301 | Unitarian Universalist Women's Heritage Society Records | 
  [divinity.276.xml](10773.xml) | divinity.276 | RG 276 | Newton Theological Institution Records | 
+ [divinity.298.xml](10792.xml) | divinity.298 | RG 298 | Herbert J. Gezork papers | 
  [divinity.281.xml](10806.xml) | divinity.281 | RG 281 | Chauncey Booth papers | 
  [divinity.282.xml](10807.xml) | divinity.282 | RG 282 | Miles Bronson Family papers | 
  [divinity.284.xml](10808.xml) | divinity.284 | RG 284 | J. Leslie Dunstan papers | 
  [divinity.285.xml](10815.xml) | divinity.285 | RG 285 | Ralph Emerson Papers | 
+ [divinity.289.xml](10818.xml) | divinity.289 | RG 289 | William Hurlin Papers | 
  [divinity.287.xml](10825.xml) | divinity.287 | RG 287 | Robert K. Greenleaf Papers | 
  [divinity.215.xml](10836.xml) | divinity.215 | RG 215 | Nepal Church History Project Records | 
  [divinity.288.xml](10844.xml) | divinity.288 | RG 288 | Alvah Hovey Papers | 
+ [divinity.299.xml](10937.xml) | divinity.299 | RG 299 | Gulick Family Papers | 
  [divinity.274.xml](11003.xml) | divinity.274 | RG 274 | Kenneth E. Bailey papers | 
+ [divinity.290.xml](11033.xml) | divinity.290 | RG 290 | Heman Lincoln papers | 
+ [divinity.291.xml](11046.xml) | divinity.291 | RG 291 | Edwards Amasa Park papers | 
+ [divinity.303.xml](11048.xml) | divinity.303 | RG 303 | New England Women Ministers Association Records | 
+ [divinity.292.xml](11056.xml) | divinity.292 | RG 292 | John Winthrop Platner papers | 
+ [divinity.293.xml](11063.xml) | divinity.293 | RG 293 | Edward Robie Papers | 
+ [divinity.294.xml](11064.xml) | divinity.294 | RG 294 | Moses Stuart Papers | 
+ [divinity.296.xml](11065.xml) | divinity.296 | RG 296 | Irah Chase Papers | 
+ [divinity.297.xml](11066.xml) | divinity.297 | RG 297 | Harry P. Dewey Papers | 
 
