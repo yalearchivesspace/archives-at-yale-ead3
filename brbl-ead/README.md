@@ -726,8 +726,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.nolan.xml](1361.xml) | beinecke.nolan | WA MSS S-344 | Henry Raup Wagner collection of Philip Nolan papers | 
  [beinecke.mier.xml](1362.xml) | beinecke.mier | WA MSS S-497 | Mier Expedition Papers | 
  [beinecke.guajardo.xml](1365.xml) | beinecke.guajardo | WA MSS S-668 | Luis Alberto Guajardo Papers on the History of Coahuila | 
+ [beinecke.wheeler.xml](1366.xml) | beinecke.wheeler | WA MSS S-744 | Geographical surveys west of the 100th meridian (U.S.) papers | 
+ [beinecke.field.xml](1367.xml) | beinecke.field | WA MSS S-897 | William Clark field notes | 
  [beinecke.lutherwaters.xml](1368.xml) | beinecke.lutherwaters | WA MSS S-2735 | Tal Luther collection of Frank Waters printed materials and papers | 
  [beinecke.dellen.xml](1369.xml) | beinecke.dellen | WA PHOTOS 271 | Frederick Samuel Dellenbaugh collection of photographs and drawings of the Colorado River region. | 
+ [beinecke.palmcase.xml](1370.xml) | beinecke.palmcase | WA Photos 402 | Peter Palmquist Cased Photographs Collection | 
+ [beinecke.waphotos404.xml](1371.xml) | beinecke.waphotos404 | WA Photos 404 | Photograph album and photographs of Montana, New Mexico, and Colorado. | 
  [beinecke.brooksah.xml](1372.xml) | beinecke.brooksah | WA Photos 444 | Alfred Hulse Brooks photographs and papers | 
  [beinecke.lewisjon.xml](1373.xml) | beinecke.lewisjon | WA Photos 466 | Jon Lewis photographs of the United Farm Workers movement | 
  [beinecke.germack.xml](1374.xml) | beinecke.germack | WA Photos 483 | Victor F. Germack and Lori Shepard Germack Collection of Photographs of Indians of North America. | 
@@ -743,15 +747,29 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.belanger.xml](1384.xml) | beinecke.belanger | WA Photos Folio 153 | Marion Belanger photographs | 
  [beinecke.halverson.xml](1386.xml) | beinecke.halverson | WA Photos Folio 75 | Photographs of the American West. | 
  [beinecke.ottenstein.xml](1387.xml) | beinecke.ottenstein | WA Photos Folio 82 | David Ottenstein Photographs of Iowa. | 
+ [beinecke.marshall.xml](1392.xml) | beinecke.marshall | YCAL MSS 10 | Margaret Marshall papers | 
+ [beinecke.henri.xml](1393.xml) | beinecke.henri | YCAL MSS 100 | Robert Henri papers | 
  [beinecke.phrenology.xml](1394.xml) | beinecke.phrenology | YCAL MSS 1000 | Fowler & Wells Portrait Posters for Physiognomy Lectures | 
+ [beinecke.jbcrane2.xml](1395.xml) | beinecke.jbcrane2 | YCAL MSS 1002 | Josephine Boardman Crane papers relating to the Dalton School | 
  [beinecke.wildercopies.xml](1396.xml) | beinecke.wildercopies | YCAL MSS 1006 | Wilder family correspondence | 
  [beinecke.stedmanec.xml](1397.xml) | beinecke.stedmanec | YCAL MSS 1008 | Edmund Clarence Stedman Collection | 
  [beinecke.dreier.xml](1398.xml) | beinecke.dreier | YCAL MSS 101 | Katherine S. Dreier papers / Société Anonyme archive | 
  [beinecke.racohen.xml](1399.xml) | beinecke.racohen | YCAL MSS 1025 | Richard Aaron collection of Ira Cohen | 
  [beinecke.pearsonawr.xml](1400.xml) | beinecke.pearsonawr | YCAL MSS 1031 | Norman Holmes Pearson Collection of “Art for the Wrong Reason” | 
+ [beinecke.sokcoll.xml](1401.xml) | beinecke.sokcoll | YCAL MSS 104 | Alfred Stieglitz / Georgia O'Keeffe collection | 
+ [beinecke.butler.xml](1403.xml) | beinecke.butler | YCAL MSS 10a | Linda Butler papers | 
  [beinecke.johnson.xml](1404.xml) | beinecke.johnson | YCAL MSS 11 | Owen Johnson papers | 
+ [beinecke.mack.xml](1405.xml) | beinecke.mack | YCAL MSS 111 | Maynard Mack papers | 
  [beinecke.collins.xml](1407.xml) | beinecke.collins | YCAL MSS 12 | Seward Collins papers | 
+ [beinecke.boulton.xml](1408.xml) | beinecke.boulton | YCAL MSS 122 | Agnes Boulton collection of Eugene O'Neill | 
+ [beinecke.eocoll.xml](1410.xml) | beinecke.eocoll | YCAL MSS 124 | Eugene O'Neill collection | 
+ [beinecke.bry.xml](1411.xml) | beinecke.bry | YCAL MSS 125 | Lois Williams Bry collection of Eugene O'Neill, Jr. | 
+ [beinecke.lfbaum.xml](1413.xml) | beinecke.lfbaum | YCAL MSS 13 | L. Frank Baum collection | 
  [beinecke.mwheeler.xml](1415.xml) | beinecke.mwheeler | YCAL MSS 136 | Monroe Wheeler papers | 
+ [beinecke.gplscrap.xml](1416.xml) | beinecke.gplscrap | YCAL MSS 139 | George Platt Lynes scrapbooks. | 
+ [beinecke.curtiss.xml](1417.xml) | beinecke.curtiss | YCAL MSS 14 | Mina Kirstein Curtiss papers | 
+ [beinecke.gilder.xml](1418.xml) | beinecke.gilder | YCAL MSS 141 | Letters in an extra-illustrated copy of <title xlink:type="simple" render="italic">Representative poems of living poets</title> | 
+ [beinecke.roskolen.xml](1419.xml) | beinecke.roskolen | YCAL MSS 142 | Harry Roskolenko collection | 
  [beinecke.bird.xml](1439.xml) | beinecke.bird | YCAL MSS 178 | William Bird Ezra Pound papers | 
  [beinecke.kbwilder.xml](1441.xml) | beinecke.kbwilder | YCAL MSS 18 | Katharine Buell Wilder family papers | 
  [beinecke.sandbrg.xml](1446.xml) | beinecke.sandbrg | YCAL MSS 19 | Sandburg-Page papers | 
