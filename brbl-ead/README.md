@@ -770,9 +770,32 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.curtiss.xml](1417.xml) | beinecke.curtiss | YCAL MSS 14 | Mina Kirstein Curtiss papers | 
  [beinecke.gilder.xml](1418.xml) | beinecke.gilder | YCAL MSS 141 | Letters in an extra-illustrated copy of <title xlink:type="simple" render="italic">Representative poems of living poets</title> | 
  [beinecke.roskolen.xml](1419.xml) | beinecke.roskolen | YCAL MSS 142 | Harry Roskolenko collection | 
+ [beinecke.yalerevi.xml](1420.xml) | beinecke.yalerevi | YCAL MSS 145 | Yale Review records | 
+ [beinecke.cortiz.xml](1421.xml) | beinecke.cortiz | YCAL MSS 146 | Royal Cortissoz papers | 
+ [beinecke.gpl.xml](1422.xml) | beinecke.gpl | YCAL MSS 147 | George Platt Lynes diaries and memorabilia | 
+ [beinecke.hop.xml](1423.xml) | beinecke.hop | YCAL MSS 148 | Harrison of Paris records | 
+ [beinecke.lansdale.xml](1424.xml) | beinecke.lansdale | YCAL MSS 149 | Glenway Wescott collection of Nelson Lansdale papers | 
+ [beinecke.mmoore.xml](1426.xml) | beinecke.mmoore | YCAL MSS 152 | Glenway Wescott and Monroe Wheeler collection of Marianne Moore | 
+ [beinecke.kaporter.xml](1427.xml) | beinecke.kaporter | YCAL MSS 153 | Glenway Wescott and Monroe Wheeler collection of Katherine Anne Porter | 
+ [beinecke.james.xml](1428.xml) | beinecke.james | YCAL MSS 16 | Rebecca Salsbury James papers | 
+ [beinecke.wild162.xml](1429.xml) | beinecke.wild162 | YCAL MSS 162 | Thornton Wilder collection | 
+ [beinecke.delima.xml](1431.xml) | beinecke.delima | YCAL MSS 164 | Agnes de Lima collection of Alyse Gregory | 
+ [beinecke.salsbury.xml](1432.xml) | beinecke.salsbury | YCAL MSS 17 | Nathan Salsbury papers | 
+ [beinecke.arms.xml](1433.xml) | beinecke.arms | YCAL MSS 170 | George Warren Arms collection | 
+ [beinecke.slocum.xml](1434.xml) | beinecke.slocum | YCAL MSS 171 | John J. Slocum papers relating to Ezra Pound | 
+ [beinecke.agresti.xml](1435.xml) | beinecke.agresti | YCAL MSS 173 | Olivia Rossetti Agresti Papers | 
+ [beinecke.jordan.xml](1436.xml) | beinecke.jordan | YCAL MSS 175 | Viola Baxter Jordan papers | 
+ [beinecke.cornell.xml](1437.xml) | beinecke.cornell | YCAL MSS 176 | Julien Cornell papers relating to Ezra Pound | 
+ [beinecke.quinnb.xml](1438.xml) | beinecke.quinnb | YCAL MSS 177 | Sister Mary Bernetta Quinn papers | 
  [beinecke.bird.xml](1439.xml) | beinecke.bird | YCAL MSS 178 | William Bird Ezra Pound papers | 
+ [beinecke.scratton.xml](1440.xml) | beinecke.scratton | YCAL MSS 179 | Bride Scratton/Peter Whigham papers | 
  [beinecke.kbwilder.xml](1441.xml) | beinecke.kbwilder | YCAL MSS 18 | Katharine Buell Wilder family papers | 
+ [beinecke.esquire.xml](1442.xml) | beinecke.esquire | YCAL MSS 180 | Esquire correspondence concerning The question of Ezra Pound | 
+ [beinecke.pndmisc.xml](1443.xml) | beinecke.pndmisc | YCAL MSS 182 | Ezra Pound miscellany | 
+ [beinecke.elwilson.xml](1445.xml) | beinecke.elwilson | YCAL MSS 188 | Elena Wilson papers | 
  [beinecke.sandbrg.xml](1446.xml) | beinecke.sandbrg | YCAL MSS 19 | Sandburg-Page papers | 
+ [beinecke.luhan.xml](1447.xml) | beinecke.luhan | YCAL MSS 196 | Mabel Dodge Luhan papers | 
+ [beinecke.luhancol.xml](1448.xml) | beinecke.luhancol | YCAL MSS 197 | Mabel Dodge Luhan collection | 
  [1449.xml](1449.xml) |  | YCAL MSS 198 | Thornton Wilder Documentary Project interviews | 
  [beinecke.sherman.xml](1463.xml) | beinecke.sherman | YCAL MSS 224 | William David Sherman papers | 
  [beinecke.jennett.xml](1466.xml) | beinecke.jennett | YCAL MSS 231 | Matthew Jennett papers | 
