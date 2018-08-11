@@ -659,7 +659,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.thill.xml](1278.xml) | beinecke.thill | WA MSS S-259 | Thomas R. Hill papers | 
  [beinecke.stenzeladd.xml](1280.xml) | beinecke.stenzeladd | WA MSS S-2601 | Franz R. and Kathryn M. Stenzel Collection of Western American Art Addition | 
  [beinecke.tobapatotucker.xml](1282.xml) | beinecke.tobapatotucker | WA MSS S-2604 | Toba Pato Tucker photographs and papers | 
+ [beinecke.whitegr.xml](1283.xml) | beinecke.whitegr | WA MSS S-2605 | George Ritch White Diaries | 
+ [beinecke.yunative.xml](1287.xml) | beinecke.yunative | WA MSS S-2610 | Yale University Native American Alumni Oral History Project | 
+ [beinecke.blair.xml](1288.xml) | beinecke.blair | WA MSS S-2611 | R. E. Blair collection of Western oil and mining investment prospectuses | 
+ [beinecke.prattl.xml](1290.xml) | beinecke.prattl | WA MSS S-2613 | Lawrence Pratt collection concerning Arizona v. California and the Colorado River | 
  [beinecke.advertisements.xml](1293.xml) | beinecke.advertisements | WA MSS S-2622 | Collection of advertisements that depict American history. | 
+ [beinecke.daviesscroggie.xml](1294.xml) | beinecke.daviesscroggie | WA MSS S-2627 | Davies/Scroggie Collection of White Pass and Yukon Documents and Ephemera | 
  [beinecke.jonesss.xml](1296.xml) | beinecke.jonesss | WA MSS S-2636 | Solomon Sir Jones films | 
  [beinecke.lamarh.xml](1297.xml) | beinecke.lamarh | WA MSS S-2639 | Howard Roberts Lamar papers | 
  [beinecke.kaganphotos.xml](1298.xml) | beinecke.kaganphotos | WA MSS S-2640 | Paul Kagan photographs of utopian communities and personal papers | 
@@ -671,6 +676,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.dequille.xml](1304.xml) | beinecke.dequille | WA MSS S-2667 | Dan De Quille papers | 
  [beinecke.hitchcock.xml](1306.xml) | beinecke.hitchcock | WA MSS S-2678 | Ethan Allen Hitchcock collection on Indian removal | 
  [beinecke.fiskr.xml](1307.xml) | beinecke.fiskr | WA MSS S-2683 | Robert B. Fisk papers | 
+ [beinecke.lazarus.xml](1308.xml) | beinecke.lazarus | WA MSS S-2684 | Arthur Lazarus papers | 
  [beinecke.hoodw.xml](1309.xml) | beinecke.hoodw | WA MSS S-2687 | Washington Hood papers | 
  [beinecke.arndt.xml](1310.xml) | beinecke.arndt | WA MSS S-2690 | Karl John Richard Arndt collection of Bernhard Muller and the Harmony Society | 
  [beinecke.ginsbergbooks.xml](1311.xml) | beinecke.ginsbergbooks | WA MSS S-2691 | Michael Ginsberg Books records | 
@@ -679,6 +685,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.eberstadt.xml](1314.xml) | beinecke.eberstadt | WA MSS S-2698 | Edward Eberstadt & Sons records | 
  [beinecke.ruger.xml](1315.xml) | beinecke.ruger | WA MSS S-2699 | Thomas Howard Ruger papers | 
  [beinecke.ttwilliams.xml](1316.xml) | beinecke.ttwilliams | WA MSS S-2700 | Terry Tempest Williams papers | 
+ [beinecke.dodge.xml](1317.xml) | beinecke.dodge | WA MSS S-2701 | Adee Dodge papers | 
  [beinecke.northwest.xml](1319.xml) | beinecke.northwest | WA MSS S-2704 | Northwestern Pacific Railroad Company records | 
  [beinecke.greyz.xml](1320.xml) | beinecke.greyz | WA MSS S-2705 | Betty Zane Grosso collection of Zane and Dolly Grey papers | 
  [beinecke.perkinsgc.xml](1321.xml) | beinecke.perkinsgc | WA MSS S-2706 | George Clement Perkins papers | 
@@ -703,12 +710,21 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cadwell.xml](1342.xml) | beinecke.cadwell | WA MSS S-2933 | Cadwell family correspondence | 
  [beinecke.ochoa.xml](1343.xml) | beinecke.ochoa | WA MSS S-2938 | Antonio Ochoa Carrillo papers and Benito Juárez correspondence | 
  [beinecke.ledger.xml](1344.xml) | beinecke.ledger | WA MSS S-2942 | Indian ledger drawings by Koba and Etahdleuh Doanmoe. | 
+ [beinecke.jarvis.xml](1345.xml) | beinecke.jarvis | WA MSS S-2948 | Jarvis-Robinson Family Papers | 
  [beinecke.hawks.xml](1347.xml) | beinecke.hawks | WA MSS S-2958 | Hawks Family Papers Relating to Business Ventures in the American West | 
  [beinecke.oddfellows.xml](1348.xml) | beinecke.oddfellows | WA MSS S-2961 | Independent Order of Odd Fellows Records of California Lodges | 
+ [beinecke.northern.xml](1349.xml) | beinecke.northern | WA MSS S-2962 | Northern Pacific Railway Company maps and drawings | 
  [beinecke.palmquistpapers.xml](1351.xml) | beinecke.palmquistpapers | WA MSS S-2965 | Peter E. Palmquist papers | 
  [beinecke.williamscp.xml](1352.xml) | beinecke.williamscp | WA MSS S-2989 | Chauncey Pratt Williams Writings on the American West | 
  [beinecke.sfaustin.xml](1354.xml) | beinecke.sfaustin | WA MSS S-3000 | Thomas W. Streeter Collection of Austin Family and Texas Revolution Papers | 
+ [beinecke.sandoval.xml](1355.xml) | beinecke.sandoval | WA MSS S-3001 | Judith Hancock de Sandoval papers and photographs | 
  [beinecke.westernpostcards.xml](1356.xml) | beinecke.westernpostcards | WA MSS S-3014 | Western postcard collection | 
+ [beinecke.wa339.xml](1357.xml) | beinecke.wa339 | WA MSS S-339 | Henry Raup Wagner Collection of Texas manuscripts | 
+ [beinecke.wa341.xml](1358.xml) | beinecke.wa341 | WA MSS S-341 | Henry Raup Wagner collection of Texas and Coahuila land grants | 
+ [beinecke.conner.xml](1359.xml) | beinecke.conner | WA MSS S-342 | David Conner papers | 
+ [beinecke.louisian.xml](1360.xml) | beinecke.louisian | WA MSS S-343 | Henry Raup Wagner collection of Louisiana manuscripts | 
+ [beinecke.nolan.xml](1361.xml) | beinecke.nolan | WA MSS S-344 | Henry Raup Wagner collection of Philip Nolan papers | 
+ [beinecke.mier.xml](1362.xml) | beinecke.mier | WA MSS S-497 | Mier Expedition Papers | 
  [beinecke.guajardo.xml](1365.xml) | beinecke.guajardo | WA MSS S-668 | Luis Alberto Guajardo Papers on the History of Coahuila | 
  [beinecke.lutherwaters.xml](1368.xml) | beinecke.lutherwaters | WA MSS S-2735 | Tal Luther collection of Frank Waters printed materials and papers | 
  [beinecke.dellen.xml](1369.xml) | beinecke.dellen | WA PHOTOS 271 | Frederick Samuel Dellenbaugh collection of photographs and drawings of the Colorado River region. | 
