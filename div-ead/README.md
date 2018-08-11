@@ -182,7 +182,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.026.xml](227.xml) | divinity.026 | RG 26 | Charles Telford Erickson Papers | 
  [divinity.260.xml](228.xml) | divinity.260 | RG 260 | D.T. Niles Papers | 
  [divinity.261.xml](229.xml) | divinity.261 | RG 261 | Kirkridge Retreat and Study Center records | 
+ [divinity.263.xml](231.xml) | divinity.263 | RG 263 | John Sung Papers | 
+ [divinity.265.xml](233.xml) | divinity.265 | RG 265 | Morse Family Papers: William Reginald and Anne Crosse Morse | 
+ [divinity.027.xml](234.xml) | divinity.027 | RG 27 | Yale Divinity School Faculty Writings and Publications | 
+ [divinity.028.xml](235.xml) | divinity.028 | RG 28 | Dwight L. Moody Papers | 
  [divinity.255.xml](5356.xml) | divinity.255 | RG 255 | Interfaith Cooperative Ministries records | 
+ [divinity.267.xml](5378.xml) | divinity.267 | RG 267 | George A. Chauncey Papers | 
+ [divinity.266a.xml](5385.xml) | divinity.266a | RG 266A | Church of the Redeemer (New Haven, Conn.) Records - Addendum A | 
  [divinity.258.xml](5390.xml) | divinity.258 | RG 258 | Harry Croswell Papers | 
  [divinity.237.xml](5395.xml) | divinity.237 | RG 237 | Christian Conference of Asia Records | 
  [divinity.214.xml](5398.xml) | divinity.214 | RG 214 | International Nepal Fellowship records | 
@@ -193,6 +199,21 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.167.xml](5406.xml) | divinity.167 | RG 167 | National Association of College and University Chaplains and Directors of Religious Life Records | 
  [divinity.173.xml](5407.xml) | divinity.173 | RG 173 | Randolph Crump Miller Papers | 
  [divinity.242.xml](5466.xml) | divinity.242 | RG 242 | John G. Magee Family Papers | 
+ [divinity.268.xml](5473.xml) | divinity.268 | RG 268 | Samuel Moss Carter Papers | 
+ [divinity.270.xml](5561.xml) | divinity.270 | RG 270 | Chick Tract Collection | 
+ [divinity.269.xml](5604.xml) | divinity.269 | RG 269 | Wayne A. Meeks Papers | 
  [divinity.216.xml](5703.xml) | divinity.216 | RG 216 | Berkeley Divinity School records | 
+ [divinity.272.xml](5873.xml) | divinity.272 | RG 272 | Alice L. Hageman Papers | 
+ [divinity.273.xml](10651.xml) | divinity.273 | RG 273 | Gleysteen Family Papers | 
+ [divinity.278.xml](10730.xml) | divinity.278 | RG 278 | Andover Newton Theological School Alumni Files | 
+ [divinity.277.xml](10737.xml) | divinity.277 | RG 277 | Andover Newton Theological School Records | 
+ [divinity.276.xml](10773.xml) | divinity.276 | RG 276 | Newton Theological Institution Records | 
+ [divinity.281.xml](10806.xml) | divinity.281 | RG 281 | Chauncey Booth papers | 
+ [divinity.282.xml](10807.xml) | divinity.282 | RG 282 | Miles Bronson Family papers | 
+ [divinity.284.xml](10808.xml) | divinity.284 | RG 284 | J. Leslie Dunstan papers | 
+ [divinity.285.xml](10815.xml) | divinity.285 | RG 285 | Ralph Emerson Papers | 
+ [divinity.287.xml](10825.xml) | divinity.287 | RG 287 | Robert K. Greenleaf Papers | 
  [divinity.215.xml](10836.xml) | divinity.215 | RG 215 | Nepal Church History Project Records | 
+ [divinity.288.xml](10844.xml) | divinity.288 | RG 288 | Alvah Hovey Papers | 
+ [divinity.274.xml](11003.xml) | divinity.274 | RG 274 | Kenneth E. Bailey papers | 
 
