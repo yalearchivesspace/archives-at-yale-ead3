@@ -571,12 +571,31 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fb94.xml](1152.xml) | beinecke.fb94 | OSBORN FB94 | Civil War. Collection of letters and state papers, apparently from the papers of John Pym | 
  [beinecke.fc109.xml](1153.xml) | beinecke.fc109 | OSBORN FC109 1/2 | [Letterbook] | 
  [beinecke.fc112.xml](1155.xml) | beinecke.fc112 | OSBORN FC112 | [Papers] | 
+ [beinecke.fc2.xml](1156.xml) | beinecke.fc2 | OSBORN FC2 | Four popular English tales | 
+ [beinecke.fc39.xml](1157.xml) | beinecke.fc39 | OSBORN FC39 | [Papers] | 
+ [beinecke.fc62.xml](1158.xml) | beinecke.fc62 | OSBORN FC62 | [Papers]. | 
+ [beinecke.fc76.xml](1159.xml) | beinecke.fc76 | OSBORN FC76 1/3 | [Collection of 233 letters and envelopes] | 
+ [beinecke.fc82.xml](1160.xml) | beinecke.fc82 | OSBORN FC82 | Collection of English drawings | 
+ [beinecke.fd10.xml](1161.xml) | beinecke.fd10 | OSBORN FD10 | "Correspondence" | 
+ [beinecke.fd45.xml](1162.xml) | beinecke.fd45 | OSBORN FD45 | Collection of letters, receipts, proofs, portraits, etc., concerning The British Gallery of Contemporary Portraits, published by Cadell & Davies | 
+ [beinecke.fd49.xml](1163.xml) | beinecke.fd49 | OSBORN FD49 | [Engravings]. | 
+ [beinecke.curtis.xml](1174.xml) | beinecke.curtis | WA MSS 122-125 | Samuel Ryan Curtis Papers | 
  [beinecke.emmonsgf.xml](1176.xml) | beinecke.emmonsgf | WA MSS 166-169 | George F. Emmons papers | 
  [beinecke.evans.xml](1177.xml) | beinecke.evans | WA MSS 172-191 | Elwood Evans Papers | 
+ [beinecke.faulk.xml](1178.xml) | beinecke.faulk | WA MSS 195 | Andrew Jackson Faulk papers | 
+ [beinecke.geary.xml](1179.xml) | beinecke.geary | WA MSS 212 | John White Geary papers | 
  [beinecke.kane.xml](1180.xml) | beinecke.kane | WA MSS 279 | Thomas Leiper Kane papers | 
  [beinecke.chmason.xml](1182.xml) | beinecke.chmason | WA MSS 332 | Charles H. Mason Correspondence | 
+ [beinecke.reed.xml](1184.xml) | beinecke.reed | WA MSS 399 | Silas Reed papers | 
+ [beinecke.strangco.xml](1188.xml) | beinecke.strangco | WA MSS 447 | James Jesse Strang collection | 
  [beinecke.walkerfam.xml](1189.xml) | beinecke.walkerfam | WA MSS 501 | Walker Family papers | 
  [beinecke.andrewsmithgalllery.xml](1190.xml) | beinecke.andrewsmithgalllery | WA MSS S-3056 | Andrew Smith Gallery records | 
+ [beinecke.littlemoses.xml](1192.xml) | beinecke.littlemoses | WA MSS S-1028 | Moses F. Little papers | 
+ [beinecke.miller.xml](1195.xml) | beinecke.miller | WA MSS S-1172 | William Winlock Miller collection | 
+ [beinecke.pratt.xml](1196.xml) | beinecke.pratt | WA MSS S-1174 | Richard Henry Pratt papers | 
+ [beinecke.emory.xml](1198.xml) | beinecke.emory | WA MSS S-1187 | William Hemsley Emory papers | 
+ [beinecke.brady.xml](1199.xml) | beinecke.brady | WA MSS S-1206 | John G. Brady papers | 
+ [beinecke.anderson.xml](1201.xml) | beinecke.anderson | WA MSS S-1292 | Samuel Anderson papers | 
  [beinecke.ahill.xml](1206.xml) | beinecke.ahill | WA MSS S-1297 | Alonzo A. Hill papers | 
  [beinecke.willard.xml](1253.xml) | beinecke.willard | WA MSS S-2152 | Rowland Willard and Elizabeth S. Willard papers | 
  [beinecke.adamsa.xml](1255.xml) | beinecke.adamsa | WA MSS S-2197 | Alexander B. Adams writings on the American West | 
