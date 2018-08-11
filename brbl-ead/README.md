@@ -638,6 +638,26 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.gearybus.xml](1252.xml) | beinecke.gearybus | WA MSS S-209 | John White Geary business papers | 
  [beinecke.willard.xml](1253.xml) | beinecke.willard | WA MSS S-2152 | Rowland Willard and Elizabeth S. Willard papers | 
  [beinecke.adamsa.xml](1255.xml) | beinecke.adamsa | WA MSS S-2197 | Alexander B. Adams writings on the American West | 
+ [beinecke.wilburs.xml](1256.xml) | beinecke.wilburs | WA MSS S-2350 | Susan Wilbur Jones papers | 
+ [beinecke.bond.xml](1258.xml) | beinecke.bond | WA MSS S-2358 | Marshall Bond papers | 
+ [beinecke.ball.xml](1259.xml) | beinecke.ball | WA MSS S-2359 | M. D. Ball papers | 
+ [beinecke.stenzel.xml](1260.xml) | beinecke.stenzel | WA MSS S-2368 | Franz R. and Kathryn M. Stenzel collection of western American art | 
+ [beinecke.wildschu.xml](1262.xml) | beinecke.wildschu | WA MSS S-2386 | William Wildschut papers | 
+ [beinecke.folsom.xml](1263.xml) | beinecke.folsom | WA MSS S-2394 | Joseph Libbey Folsom collection | 
+ [beinecke.hobart.xml](1265.xml) | beinecke.hobart | WA MSS S-2396 | Carroll T. Hobart papers | 
+ [beinecke.choctaw.xml](1266.xml) | beinecke.choctaw | WA MSS S-2397 | J. L. Hargett collection of Choctaw Nation papers | 
+ [beinecke.swain.xml](1268.xml) | beinecke.swain | WA MSS S-2408 | J. S. Holliday research collection on the William Swain family | 
+ [beinecke.customs.xml](1269.xml) | beinecke.customs | WA MSS S-2436 | San Francisco Custom House records | 
+ [beinecke.swift.xml](1270.xml) | beinecke.swift | WA MSS S-2437 | Nancy Tatnall Fuller Research Collection on Joseph Swift | 
+ [beinecke.downie.xml](1271.xml) | beinecke.downie | WA MSS S-2490 | William Downie papers relating to exploration of British Columbia | 
+ [beinecke.rowley.xml](1272.xml) | beinecke.rowley | WA MSS S-2513 | Clarence W. Rowley papers relating to Buffalo Bill and John L. Sullivan | 
+ [beinecke.westernl.xml](1273.xml) | beinecke.westernl | WA MSS S-2553 | Western silent films lobby card collection | 
+ [beinecke.forney.xml](1274.xml) | beinecke.forney | WA MSS S-2561 | United States Office of Indian Affairs papers relating to charges against Jacob Forney, Superintendent of Indian Affairs, Utah Territory | 
+ [beinecke.wwright.xml](1275.xml) | beinecke.wwright | WA MSS S-2564 | William H. Wright papers | 
+ [beinecke.fleckten.xml](1276.xml) | beinecke.fleckten | WA MSS S-2566 | Bernice Britton Fleckten papers | 
+ [beinecke.streetca.xml](1277.xml) | beinecke.streetca | WA MSS S-2588 | Thomas W. Streeter collection of Hudson Book Company, Edward Eberstadt, and Edward Eberstadt & Sons catalogs | 
+ [beinecke.thill.xml](1278.xml) | beinecke.thill | WA MSS S-259 | Thomas R. Hill papers | 
+ [beinecke.stenzeladd.xml](1280.xml) | beinecke.stenzeladd | WA MSS S-2601 | Franz R. and Kathryn M. Stenzel Collection of Western American Art Addition | 
  [beinecke.tobapatotucker.xml](1282.xml) | beinecke.tobapatotucker | WA MSS S-2604 | Toba Pato Tucker photographs and papers | 
  [beinecke.advertisements.xml](1293.xml) | beinecke.advertisements | WA MSS S-2622 | Collection of advertisements that depict American history. | 
  [beinecke.jonesss.xml](1296.xml) | beinecke.jonesss | WA MSS S-2636 | Solomon Sir Jones films | 
