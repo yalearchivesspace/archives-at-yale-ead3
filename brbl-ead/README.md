@@ -619,6 +619,23 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lauder.xml](1225.xml) | beinecke.lauder | WA MSS S-1317 | John Vance Lauderdale papers | 
  [beinecke.vandorn.xml](1227.xml) | beinecke.vandorn | WA MSS S-1319 | Thomas J. Van Dorn papers | 
  [beinecke.taylor.xml](1228.xml) | beinecke.taylor | WA MSS S-1321 | Clifford N. Taylor papers | 
+ [beinecke.sherwood.xml](1231.xml) | beinecke.sherwood | WA MSS S-1324 | William Sherwood papers | 
+ [beinecke.cohen.xml](1232.xml) | beinecke.cohen | WA MSS S-1325 | Felix S. Cohen papers | 
+ [beinecke.howe.xml](1233.xml) | beinecke.howe | WA MSS S-1326 | Ernest Howe papers | 
+ [beinecke.aurora.xml](1234.xml) | beinecke.aurora | WA MSS S-1327 | Aurora, Esmeralda County, Nevada collection | 
+ [beinecke.tobey.xml](1235.xml) | beinecke.tobey | WA MSS S-1354 | Thomas Fry Tobey papers | 
+ [beinecke.clayton.xml](1236.xml) | beinecke.clayton | WA MSS S-1355 | Joshua E. Clayton papers | 
+ [beinecke.schieff.xml](1237.xml) | beinecke.schieff | WA MSS S-1401 | Schieffelin family papers | 
+ [beinecke.graham.xml](1238.xml) | beinecke.graham | WA MSS S-1403 | J. D. Graham papers | 
+ [beinecke.davidson.xml](1240.xml) | beinecke.davidson | WA MSS S-1452 | George M. Davidson papers | 
+ [beinecke.watelep.xml](1243.xml) | beinecke.watelep | WA MSS S-1593 | Western Teleplays Collection | 
+ [beinecke.wilbur.xml](1245.xml) | beinecke.wilbur | WA MSS S-1611 | George W. Wilbur family papers | 
+ [beinecke.dey.xml](1247.xml) | beinecke.dey | WA MSS S-1743 | Anthony Dey Galveston Bay and Texas Land Company records | 
+ [beinecke.scrpbk.xml](1248.xml) | beinecke.scrpbk | WA MSS S-1817 | Views of the Pacific Northwest. | 
+ [beinecke.strang.xml](1249.xml) | beinecke.strang | WA MSS S-186-189 | James Jesse Strang papers | 
+ [beinecke.buffalo.xml](1250.xml) | beinecke.buffalo | WA MSS S-197 | Buffalo Bill papers | 
+ [beinecke.nettleto.xml](1251.xml) | beinecke.nettleto | WA MSS S-20 | Letters | 
+ [beinecke.gearybus.xml](1252.xml) | beinecke.gearybus | WA MSS S-209 | John White Geary business papers | 
  [beinecke.willard.xml](1253.xml) | beinecke.willard | WA MSS S-2152 | Rowland Willard and Elizabeth S. Willard papers | 
  [beinecke.adamsa.xml](1255.xml) | beinecke.adamsa | WA MSS S-2197 | Alexander B. Adams writings on the American West | 
  [beinecke.tobapatotucker.xml](1282.xml) | beinecke.tobapatotucker | WA MSS S-2604 | Toba Pato Tucker photographs and papers | 
