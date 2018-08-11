@@ -596,7 +596,29 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.emory.xml](1198.xml) | beinecke.emory | WA MSS S-1187 | William Hemsley Emory papers | 
  [beinecke.brady.xml](1199.xml) | beinecke.brady | WA MSS S-1206 | John G. Brady papers | 
  [beinecke.anderson.xml](1201.xml) | beinecke.anderson | WA MSS S-1292 | Samuel Anderson papers | 
+ [beinecke.harris.xml](1202.xml) | beinecke.harris | WA MSS S-1293 | Joseph Smith Harris papers | 
+ [beinecke.barnitz.xml](1203.xml) | beinecke.barnitz | WA MSS S-1294 | Albert Barnitz papers | 
+ [beinecke.walker.xml](1204.xml) | beinecke.walker | WA MSS S-1295 | Walker family papers | 
+ [beinecke.fellows.xml](1205.xml) | beinecke.fellows | WA MSS S-1296 | Abraham Lincoln Fellows papers | 
  [beinecke.ahill.xml](1206.xml) | beinecke.ahill | WA MSS S-1297 | Alonzo A. Hill papers | 
+ [beinecke.malick.xml](1207.xml) | beinecke.malick | WA MSS S-1298 | Malick family papers | 
+ [beinecke.dodd.xml](1209.xml) | beinecke.dodd | WA MSS S-1300 | John W. Dodd papers | 
+ [beinecke.beaver.xml](1210.xml) | beinecke.beaver | WA MSS S-1301 | Beaver Creek Ranch Company papers | 
+ [beinecke.gove.xml](1211.xml) | beinecke.gove | WA MSS S-1302 | Gove family papers | 
+ [beinecke.manhatt.xml](1212.xml) | beinecke.manhatt | WA MSS S-1303 | Manhattan Silver Mining Company papers | 
+ [beinecke.kaweah.xml](1213.xml) | beinecke.kaweah | WA MSS S-1304 | Kaweah Cooperative Colony papers | 
+ [beinecke.emmons.xml](1214.xml) | beinecke.emmons | WA MSS S-1306 | Emmons family papers | 
+ [beinecke.emerson.xml](1215.xml) | beinecke.emerson | WA MSS S-1307 | Emerson family papers | 
+ [beinecke.dimon.xml](1216.xml) | beinecke.dimon | WA MSS S-1308 | Charles Augustus Ropes Dimon papers | 
+ [beinecke.brewster.xml](1217.xml) | beinecke.brewster | WA MSS S-1309 | Brewster family papers | 
+ [beinecke.kenaga.xml](1218.xml) | beinecke.kenaga | WA MSS S-1310 | Kenaga family papers | 
+ [beinecke.sully.xml](1219.xml) | beinecke.sully | WA MSS S-1311 | Alfred Sully papers | 
+ [beinecke.goldhill.xml](1221.xml) | beinecke.goldhill | WA MSS S-1313 | Gold Hill Miners Union records | 
+ [beinecke.bates.xml](1222.xml) | beinecke.bates | WA MSS S-1314 | Charles F. Bates papers | 
+ [beinecke.ferson.xml](1223.xml) | beinecke.ferson | WA MSS S-1315 | California correspondence | 
+ [beinecke.lauder.xml](1225.xml) | beinecke.lauder | WA MSS S-1317 | John Vance Lauderdale papers | 
+ [beinecke.vandorn.xml](1227.xml) | beinecke.vandorn | WA MSS S-1319 | Thomas J. Van Dorn papers | 
+ [beinecke.taylor.xml](1228.xml) | beinecke.taylor | WA MSS S-1321 | Clifford N. Taylor papers | 
  [beinecke.willard.xml](1253.xml) | beinecke.willard | WA MSS S-2152 | Rowland Willard and Elizabeth S. Willard papers | 
  [beinecke.adamsa.xml](1255.xml) | beinecke.adamsa | WA MSS S-2197 | Alexander B. Adams writings on the American West | 
  [beinecke.tobapatotucker.xml](1282.xml) | beinecke.tobapatotucker | WA MSS S-2604 | Toba Pato Tucker photographs and papers | 
