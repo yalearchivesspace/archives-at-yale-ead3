@@ -550,7 +550,27 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fb145.xml](1131.xml) | beinecke.fb145 | OSBORN FB145 | [Collection of prints, letters, and printed ephemera pertaining to the Earl of Strafford] | 
  [beinecke.fb150.xml](1132.xml) | beinecke.fb150 | OSBORN FB150 | [Commonplace book] | 
  [beinecke.fb152.xml](1133.xml) | beinecke.fb152 | OSBORN FB152 | 3 ALS and 5 DS | 
+ [beinecke.fb153.xml](1134.xml) | beinecke.fb153 | OSBORN FB153 | [Papers: collection of documents from his papers relating to the Popish Plot] | 
+ [beinecke.fb155.xml](1135.xml) | beinecke.fb155 | OSBORN FB155 | [Commonplace book]. | 
+ [beinecke.fb156.xml](1136.xml) | beinecke.fb156 | OSBORN FB156 | [Parliamentary speeches, debates, etc., and other miscellaneous manuscripts] | 
+ [beinecke.fb157.xml](1137.xml) | beinecke.fb157 | OSBORN fb157 | [Parliamentary speeches, debates, bills, etc. and other miscellaneous manuscripts and printed documents] | 
+ [beinecke.fb158.xml](1138.xml) | beinecke.fb158 | OSBORN FB158 | [Miscellaneous Parliamentary manuscripts] | 
+ [beinecke.fb159.xml](1139.xml) | beinecke.fb159 | OSBORN FB159 | [Parliamentary speeches, debates, etc. and other miscellaneous manuscripts] | 
+ [beinecke.fb160.xml](1140.xml) | beinecke.fb160 | OSBORN FB160 | [Parliamentary extracts, lists, etc.] | 
+ [beinecke.fb161.xml](1141.xml) | beinecke.fb161 | OSBORN FB161 | [Parliamentary speeches, negotiations, etc., (most from 1640-1641)] | 
+ [beinecke.fb162.xml](1142.xml) | beinecke.fb162 | OSBORN FB162 | [Commonplace book, anonymous manuscript] | 
  [beinecke.fb163.xml](1143.xml) | beinecke.fb163 | OSBORN FB163 | [Unbound letters from Charles I, King of Great Britain (1600-1649), and from Edward Conway, 2nd Viscount Conway (1594-1655), written in the 1640's] | 
+ [beinecke.fb164.xml](1144.xml) | beinecke.fb164 | OSBORN FB164 | [Miscellanea historica: Collection of papers of historical interest relating to the reigns of James I and Charles I] | 
+ [beinecke.fb165.xml](1145.xml) | beinecke.fb165 | OSBORN FB165 | [Journal of the proceedings in Parliament] | 
+ [beinecke.fb174.xml](1146.xml) | beinecke.fb174 | OSBORN FB174 | [Parliamentary speeches and two treatises]. | 
+ [beinecke.fb177.xml](1147.xml) | beinecke.fb177 | OSBORN FB177 | [Collection of proceedings, debates, etc.] | 
+ [beinecke.fb190.xml](1148.xml) | beinecke.fb190 | OSBORN FB190 | Copies of letters to and from Col. William Legge, transcribed from the originals in the possession of William Fourth Earl of Dartmouth, during the years 1816 and 1817, by William, 2nd Lord Bagot. | 
+ [beinecke.fb200.xml](1149.xml) | beinecke.fb200 | OSBORN FB200 | [Political miscellany; letters, memoranda, deeds, speeches, accounts, and legal notes] | 
+ [beinecke.fb42.xml](1150.xml) | beinecke.fb42 | OSBORN FB42 | [Letters and documents concerning various members of the Arundell family]. | 
+ [beinecke.fb67.xml](1151.xml) | beinecke.fb67 | OSBORN FB67 | "Oliver Cromwell - autograph letters and historical documents 1646-1658" | 
+ [beinecke.fb94.xml](1152.xml) | beinecke.fb94 | OSBORN FB94 | Civil War. Collection of letters and state papers, apparently from the papers of John Pym | 
+ [beinecke.fc109.xml](1153.xml) | beinecke.fc109 | OSBORN FC109 1/2 | [Letterbook] | 
+ [beinecke.fc112.xml](1155.xml) | beinecke.fc112 | OSBORN FC112 | [Papers] | 
  [beinecke.emmonsgf.xml](1176.xml) | beinecke.emmonsgf | WA MSS 166-169 | George F. Emmons papers | 
  [beinecke.evans.xml](1177.xml) | beinecke.evans | WA MSS 172-191 | Elwood Evans Papers | 
  [beinecke.kane.xml](1180.xml) | beinecke.kane | WA MSS 279 | Thomas Leiper Kane papers | 
@@ -973,5 +993,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.blanch.xml](11052.xml) | beinecke.blanch | OSB MSS 202 | Lesley Blanch papers | 
  [beinecke.spinell.xml](11076.xml) | beinecke.spinell | GEN MSS 109 | Spinelli Archive | 
  [beinecke.wppy.xml](11084.xml) | beinecke.wppy | YCAL MSS 1147 | World Performance Project at Yale records | 
- [beinecke.waphotosfolio148.xml](11091.xml) | beinecke.waphotosfolio148 | WA Photos Folio 148 | Photographs of Arizona, Nebraska, New Mexico, North Dakota, and South Dakota  | 
+ [beinecke.waphotosfolio148.xml](11091.xml) | beinecke.waphotosfolio148 | WA Photos Folio 148 | Photographs of Arizona, Nebraska, New Mexico, North Dakota, and South Dakota | 
 
