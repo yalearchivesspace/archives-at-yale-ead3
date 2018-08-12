@@ -196,6 +196,30 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.038.xml](245.xml) | divinity.038 | RG 38 | Robert Parmelee Wilder Papers | 
  [divinity.039.xml](246.xml) | divinity.039 | RG 39 | Horace Bushnell Papers | 
  [divinity.004.xml](247.xml) | divinity.004 | RG 4 | Hartwell Family Papers | 
+ [divinity.040.xml](248.xml) | divinity.040 | RG 40 | Henry Burt Wright Papers | 
+ [divinity.041.xml](249.xml) | divinity.041 | RG 41 | Yale Divinity School STM Theses | 
+ [divinity.042.xml](250.xml) | divinity.042 | RG 42 | Student Volunteer Movement for Foreign Missions Records | 
+ [divinity.042a.xml](251.xml) | divinity.042a | RG 42a | Student Volunteer Movement for Foreign Missions Records - Addendum A | 
+ [divinity.043.xml](252.xml) | divinity.043 | RG 43 | Theological Discussion Group Papers | 
+ [divinity.045.xml](253.xml) | divinity.045 | RG 45 | John R. Mott Papers | 
+ [divinity.046.xml](254.xml) | divinity.046 | RG 46 | World Student Christian Federation Records | 
+ [divinity.046a.xml](255.xml) | divinity.046a | RG 46A | World Student Christian Federation North America Regional Office Records | 
+ [divinity.046b.xml](256.xml) | divinity.046b | RG 46B | World Student Christian Federation Board of Trustees in the U.S. Records | 
+ [divinity.046c.xml](257.xml) | divinity.046c | RG 46C | World Student Christian Federation Records, Addendum | 
+ [divinity.046d.xml](258.xml) | divinity.046d | RG 46D | World Student Christian Federation Africa Region Records | 
+ [divinity.046e.xml](259.xml) | divinity.046e | RG 46E | World Student Christian Federation Europe Region records | 
+ [divinity.047.xml](260.xml) | divinity.047 | RG 47 | Interseminary Commission for Training for the Rural Ministry Records | 
+ [divinity.048.xml](261.xml) | divinity.048 | RG 48 | New England Church Records | 
+ [divinity.049.xml](262.xml) | divinity.049 | RG 49 | Liston Pope Papers | 
+ [divinity.005.xml](263.xml) | divinity.005 | RG 5 | Smith Family Papers | 
+ [divinity.050.xml](264.xml) | divinity.050 | RG 50 | Douglas Clyde Macintosh Papers | 
+ [divinity.051.xml](265.xml) | divinity.051 | RG 51 | George Leon Walker and Williston Walker Papers | 
+ [divinity.052.xml](266.xml) | divinity.052 | RG 52 | Henry David Gray Papers | 
+ [divinity.054.xml](268.xml) | divinity.054 | RG 54 | New England Commission for United Ministries in Higher Education Records | 
+ [divinity.055.xml](269.xml) | divinity.055 | RG 55 | Catholic Apostolic Church Records | 
+ [divinity.056.xml](270.xml) | divinity.056 | RG 56 | Congregational Church Records | 
+ [divinity.057.xml](271.xml) | divinity.057 | RG 57 | Student Christian Movement in New England Records | 
+ [divinity.058.xml](272.xml) | divinity.058 | RG 58 | YMCA - Student Division Records | 
  [divinity.255.xml](5356.xml) | divinity.255 | RG 255 | Interfaith Cooperative Ministries records | 
  [divinity.267.xml](5378.xml) | divinity.267 | RG 267 | George A. Chauncey Papers | 
  [divinity.030.xml](5384.xml) | divinity.030 | RG 30 | Miscellaneous Personal Papers Collection | 
