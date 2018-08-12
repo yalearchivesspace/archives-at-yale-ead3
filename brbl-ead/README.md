@@ -822,6 +822,17 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hearne.xml](1474.xml) | beinecke.hearne | YCAL MSS 250 | Vicki Hearne papers | 
  [beinecke.campbellkf.xml](1476.xml) | beinecke.campbellkf | YCAL MSS 252 | Kathleen Foster Campbell papers | 
  [beinecke.dialpress.xml](1477.xml) | beinecke.dialpress | YCAL MSS 253 | Dial Press records | 
+ [beinecke.souvprograms.xml](1484.xml) | beinecke.souvprograms | YCAL MSS 260 | Souvenir performance program collection | 
+ [beinecke.longstreet.xml](1485.xml) | beinecke.longstreet | YCAL MSS 262 | Stephen Longstreet papers | 
+ [beinecke.okeeffeabiquiu.xml](1486.xml) | beinecke.okeeffeabiquiu | YCAL MSS 263 | O'Keeffe at Abiquiu. | 
+ [beinecke.schlenk.xml](1490.xml) | beinecke.schlenk | YCAL MSS 267 | Josephine Schlenk and Sophie Schlenk photographs of theatrical performers collection | 
+ [beinecke.whitmore.xml](1494.xml) | beinecke.whitmore | YCAL MSS 274 | George Whitmore papers | 
+ [beinecke.bomc.xml](1496.xml) | beinecke.bomc | YCAL MSS 278 | Book-of-the-Month Club records | 
+ [beinecke.plank.xml](1497.xml) | beinecke.plank | YCAL MSS 28 | George Plank papers | 
+ [beinecke.malbin.xml](1498.xml) | beinecke.malbin | YCAL MSS 280 | Lydia Winston Malbin papers | 
+ [beinecke.brodkinherbert.xml](1499.xml) | beinecke.brodkinherbert | YCAL MSS 281 | Herbert Brodkin Television Production Files | 
+ [beinecke.jeffers.xml](1501.xml) | beinecke.jeffers | YCAL MSS 284 | Robinson Jeffers collection | 
+ [beinecke.smith.xml](1502.xml) | beinecke.smith | YCAL MSS 29 | Alice Rogers Smith papers | 
  [beinecke.sergeant.xml](1510.xml) | beinecke.sergeant | YCAL MSS 3 | Elizabeth Shepley Sergeant papers | 
  [beinecke.nathanr.xml](1512.xml) | beinecke.nathanr | YCAL MSS 307 | Robert Nathan papers | 
  [beinecke.ford.xml](1519.xml) | beinecke.ford | YCAL MSS 32 | Charles Henri Ford papers | 
