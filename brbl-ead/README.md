@@ -833,8 +833,18 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.brodkinherbert.xml](1499.xml) | beinecke.brodkinherbert | YCAL MSS 281 | Herbert Brodkin Television Production Files | 
  [beinecke.jeffers.xml](1501.xml) | beinecke.jeffers | YCAL MSS 284 | Robinson Jeffers collection | 
  [beinecke.smith.xml](1502.xml) | beinecke.smith | YCAL MSS 29 | Alice Rogers Smith papers | 
+ [beinecke.jbcrane.xml](1504.xml) | beinecke.jbcrane | YCAL MSS 292 | Josephine Boardman Crane papers | 
+ [beinecke.mcalmon.xml](1505.xml) | beinecke.mcalmon | YCAL MSS 293 | Robert McAlmon papers | 
+ [beinecke.wood.xml](1506.xml) | beinecke.wood | YCAL MSS 294 | Beatrice Wood papers | 
+ [beinecke.stanford.xml](1507.xml) | beinecke.stanford | YCAL MSS 295 | Frank Stanford papers | 
+ [beinecke.fitts.xml](1508.xml) | beinecke.fitts | YCAL MSS 296 | Dudley Fitts papers | 
  [beinecke.sergeant.xml](1510.xml) | beinecke.sergeant | YCAL MSS 3 | Elizabeth Shepley Sergeant papers | 
+ [beinecke.brooks.xml](1511.xml) | beinecke.brooks | YCAL MSS 30 | Cleanth Brooks papers. | 
  [beinecke.nathanr.xml](1512.xml) | beinecke.nathanr | YCAL MSS 307 | Robert Nathan papers | 
+ [beinecke.glenn.xml](1514.xml) | beinecke.glenn | YCAL MSS 309 | Isa Glenn and Bayard Schindel papers | 
+ [beinecke.mcbride.xml](1515.xml) | beinecke.mcbride | YCAL MSS 31 | Henry McBride papers | 
+ [beinecke.eclark.xml](1516.xml) | beinecke.eclark | YCAL MSS 315 | Eleanor Clark papers | 
+ [beinecke.tchelitchew.xml](1518.xml) | beinecke.tchelitchew | YCAL MSS 318 | Pavel Tchelitchew collection | 
  [beinecke.ford.xml](1519.xml) | beinecke.ford | YCAL MSS 32 | Charles Henri Ford papers | 
  [beinecke.moorer.xml](1532.xml) | beinecke.moorer | YCAL MSS 341 | Richard Moore papers | 
  [beinecke.okeeffefndn.xml](1533.xml) | beinecke.okeeffefndn | YCAL MSS 342 | Georgia O'Keeffe Foundation records | 
