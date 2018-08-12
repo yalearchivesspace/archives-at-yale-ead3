@@ -220,8 +220,30 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.056.xml](270.xml) | divinity.056 | RG 56 | Congregational Church Records | 
  [divinity.057.xml](271.xml) | divinity.057 | RG 57 | Student Christian Movement in New England Records | 
  [divinity.058.xml](272.xml) | divinity.058 | RG 58 | YMCA - Student Division Records | 
+ [divinity.059.xml](273.xml) | divinity.059 | RG 59 | Paul Herman Vieth Papers | 
+ [divinity.006.xml](274.xml) | divinity.006 | RG 6 | William Richard Johnson Papers | 
+ [divinity.060.xml](275.xml) | divinity.060 | RG 60 | Beach Family Papers | 
+ [divinity.060a.xml](276.xml) | divinity.060a | RG 60A | David Nelson Beach, Jr. Papers | 
+ [divinity.061.xml](277.xml) | divinity.061 | RG 61 | Issues of Peace and War Pamphlet Collection | 
+ [divinity.062.xml](278.xml) | divinity.062 | RG 62 | Danforth Study of Campus Ministries Records | 
+ [divinity.063.xml](279.xml) | divinity.063 | RG 63 | Dutton Family Papers | 
+ [divinity.064.xml](280.xml) | divinity.064 | RG 64 | National Campus Ministry Association Records | 
+ [divinity.065.xml](281.xml) | divinity.065 | RG 65 | Gerald H. Beard Papers | 
+ [divinity.066.xml](282.xml) | divinity.066 | RG 66 | Enoch Hale Papers | 
+ [divinity.067.xml](283.xml) | divinity.067 | RG 67 | Henry Knox Sherrill Family Papers | 
+ [divinity.069.xml](284.xml) | divinity.069 | RG 69 | Otis Olney Wright Papers | 
+ [divinity.007.xml](285.xml) | divinity.007 | RG 7 | Campbell Family Papers | 
+ [divinity.070.xml](286.xml) | divinity.070 | RG 70 | Standard Bible Committee Records | 
+ [divinity.071.xml](287.xml) | divinity.071 | RG 71 | Millar Burrows Papers | 
+ [divinity.073.xml](289.xml) | divinity.073 | RG 73 | Social Ethics Pamphlet Collection | 
+ [divinity.074.xml](290.xml) | divinity.074 | RG 74 | Religious Education Association Records | 
+ [divinity.074a.xml](291.xml) | divinity.074a | RG 74A | Religious Education Association Records - Addendum A | 
+ [divinity.076.xml](293.xml) | divinity.076 | RG 76 | Hans Wilhelm Frei Papers | 
+ [divinity.077.xml](294.xml) | divinity.077 | RG 77 | Samuel Clarke Bushnell Papers | 
+ [divinity.078.xml](295.xml) | divinity.078 | RG 78 | Bruce Maguire / Student YMCA Papers | 
  [divinity.255.xml](5356.xml) | divinity.255 | RG 255 | Interfaith Cooperative Ministries records | 
  [divinity.267.xml](5378.xml) | divinity.267 | RG 267 | George A. Chauncey Papers | 
+ [divinity.075.xml](5381.xml) | divinity.075 | RG 75 | Roland Herbert Bainton Papers | 
  [divinity.030.xml](5384.xml) | divinity.030 | RG 30 | Miscellaneous Personal Papers Collection | 
  [divinity.266a.xml](5385.xml) | divinity.266a | RG 266A | Church of the Redeemer (New Haven, Conn.) Records - Addendum A | 
  [divinity.258.xml](5390.xml) | divinity.258 | RG 258 | Harry Croswell Papers | 
@@ -255,6 +277,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.215.xml](10836.xml) | divinity.215 | RG 215 | Nepal Church History Project Records | 
  [divinity.288.xml](10844.xml) | divinity.288 | RG 288 | Alvah Hovey Papers | 
  [divinity.299.xml](10937.xml) | divinity.299 | RG 299 | Gulick Family Papers | 
+ [divinity.068.xml](10993.xml) | divinity.068 | RG 68 | Campus Ministry Women records | 
  [divinity.274.xml](11003.xml) | divinity.274 | RG 274 | Kenneth E. Bailey papers | 
  [divinity.290.xml](11033.xml) | divinity.290 | RG 290 | Heman Lincoln papers | 
  [divinity.291.xml](11046.xml) | divinity.291 | RG 291 | Edwards Amasa Park papers | 
