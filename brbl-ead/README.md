@@ -797,10 +797,31 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.luhan.xml](1447.xml) | beinecke.luhan | YCAL MSS 196 | Mabel Dodge Luhan papers | 
  [beinecke.luhancol.xml](1448.xml) | beinecke.luhancol | YCAL MSS 197 | Mabel Dodge Luhan collection | 
  [1449.xml](1449.xml) |  | YCAL MSS 198 | Thornton Wilder Documentary Project interviews | 
+ [beinecke.heming.xml](1450.xml) | beinecke.heming | YCAL MSS 199 | Ernest Hemingway collection | 
+ [beinecke.bowen.xml](1451.xml) | beinecke.bowen | YCAL MSS 2 | Croswell Bowen papers | 
+ [beinecke.stetthe.xml](1452.xml) | beinecke.stetthe | YCAL MSS 20 | Florine and Ettie Stettheimer papers | 
+ [beinecke.whitman.xml](1453.xml) | beinecke.whitman | YCAL MSS 202 | Walt Whitman collection | 
+ [beinecke.thoreau.xml](1454.xml) | beinecke.thoreau | YCAL MSS 203 | Henry David Thoreau collection | 
+ [beinecke.hawthorn.xml](1455.xml) | beinecke.hawthorn | YCAL MSS 204 | Nathaniel Hawthorne Collection | 
+ [beinecke.whitney.xml](1456.xml) | beinecke.whitney | YCAL MSS 21 | Leon Fradley Whitney papers | 
+ [beinecke.ycalread.xml](1457.xml) | beinecke.ycalread | YCAL MSS 211 | Yale Collection of American Literature reading series | 
+ [beinecke.hamerman.xml](1458.xml) | beinecke.hamerman | YCAL MSS 217 | Wilda Hamerman papers | 
+ [beinecke.green.xml](1459.xml) | beinecke.green | YCAL MSS 218 | Maureen Owen collection of Greenwich Village poetry | 
+ [beinecke.hulme.xml](1460.xml) | beinecke.hulme | YCAL MSS 22 | Kathryn Hulme papers | 
+ [beinecke.blanck.xml](1462.xml) | beinecke.blanck | YCAL MSS 223 | Jacob Blanck papers | 
  [beinecke.sherman.xml](1463.xml) | beinecke.sherman | YCAL MSS 224 | William David Sherman papers | 
+ [beinecke.bdate.xml](1464.xml) | beinecke.bdate | YCAL MSS 225 | Papers relating to Blind Date and New Blind Date | 
+ [beinecke.jones.xml](1465.xml) | beinecke.jones | YCAL MSS 23 | James Jones papers | 
  [beinecke.jennett.xml](1466.xml) | beinecke.jennett | YCAL MSS 231 | Matthew Jennett papers | 
  [beinecke.hilda.xml](1467.xml) | beinecke.hilda | YCAL MSS 24 | H. D. Papers | 
+ [beinecke.olgafin.xml](1468.xml) | beinecke.olgafin | YCAL MSS 241 | Olga Rudge papers : addition | 
+ [beinecke.hare.xml](1469.xml) | beinecke.hare | YCAL MSS 246 | Montgomery Hare papers | 
  [beinecke.welch.xml](1471.xml) | beinecke.welch | YCAL MSS 248 | James Welch papers | 
+ [beinecke.stoddardhaila.xml](1472.xml) | beinecke.stoddardhaila | YCAL MSS 249 | Haila Stoddard playscript collection | 
+ [beinecke.rosenfel.xml](1473.xml) | beinecke.rosenfel | YCAL MSS 25 | Paul Rosenfeld papers | 
+ [beinecke.hearne.xml](1474.xml) | beinecke.hearne | YCAL MSS 250 | Vicki Hearne papers | 
+ [beinecke.campbellkf.xml](1476.xml) | beinecke.campbellkf | YCAL MSS 252 | Kathleen Foster Campbell papers | 
+ [beinecke.dialpress.xml](1477.xml) | beinecke.dialpress | YCAL MSS 253 | Dial Press records | 
  [beinecke.sergeant.xml](1510.xml) | beinecke.sergeant | YCAL MSS 3 | Elizabeth Shepley Sergeant papers | 
  [beinecke.nathanr.xml](1512.xml) | beinecke.nathanr | YCAL MSS 307 | Robert Nathan papers | 
  [beinecke.ford.xml](1519.xml) | beinecke.ford | YCAL MSS 32 | Charles Henri Ford papers | 
