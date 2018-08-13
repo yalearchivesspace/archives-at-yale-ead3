@@ -241,9 +241,30 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.076.xml](293.xml) | divinity.076 | RG 76 | Hans Wilhelm Frei Papers | 
  [divinity.077.xml](294.xml) | divinity.077 | RG 77 | Samuel Clarke Bushnell Papers | 
  [divinity.078.xml](295.xml) | divinity.078 | RG 78 | Bruce Maguire / Student YMCA Papers | 
+ [divinity.008.xml](297.xml) | divinity.008 | RG 8 | China Records Project Miscellaneous Personal Papers Collection | 
+ [divinity.080.xml](298.xml) | divinity.080 | RG 80 | Raymond Philip Morris Papers | 
+ [divinity.081.xml](299.xml) | divinity.081 | RG 81 | American Theological Library Association Library Development Program Records | 
+ [divinity.082.xml](300.xml) | divinity.082 | RG 82 | Manly Family Papers | 
+ [divinity.083.xml](301.xml) | divinity.083 | RG 83 | Sydney Ahlstrom Papers | 
+ [divinity.084.xml](302.xml) | divinity.084 | RG 84 | James Payne Alter Papers | 
+ [divinity.085.xml](303.xml) | divinity.085 | RG 85 | Henry Davies Papers | 
+ [divinity.086.xml](304.xml) | divinity.086 | RG 86 | Margaret Flory Papers | 
+ [divinity.087.xml](305.xml) | divinity.087 | RG 87 | Wider City Parish Records | 
+ [divinity.088.xml](306.xml) | divinity.088 | RG 88 | University Christian Movement in New England Records | 
+ [divinity.088a.xml](307.xml) | divinity.088a | RG 88A | University Christian Movement in New England Records - Addendum A | 
+ [divinity.009.xml](309.xml) | divinity.009 | RG 9 | Lyman Hoover Papers | 
+ [divinity.090.xml](310.xml) | divinity.090 | RG 90 | Committee on Christian Literature For Women and Children in Mission Fields, Inc. Records | 
+ [divinity.091.xml](311.xml) | divinity.091 | RG 91 | Melatiah Everett Dwight Papers | 
+ [divinity.093.xml](312.xml) | divinity.093 | RG 93 | Eleazar Thompson Fitch Papers | 
+ [divinity.094.xml](313.xml) | divinity.094 | RG 94 | Charles Henry Hall Papers | 
+ [divinity.096.xml](314.xml) | divinity.096 | RG 96 | Charles W. Ranson Papers | 
+ [divinity.097.xml](315.xml) | divinity.097 | RG 97 | Edward James Vorba Papers | 
+ [divinity.098.xml](316.xml) | divinity.098 | RG 98 | Edward Stevens Sanborn Papers | 
+ [divinity.099.xml](317.xml) | divinity.099 | RG 99 | War Emergency Council on Student Christian Work Records | 
  [divinity.255.xml](5356.xml) | divinity.255 | RG 255 | Interfaith Cooperative Ministries records | 
  [divinity.267.xml](5378.xml) | divinity.267 | RG 267 | George A. Chauncey Papers | 
  [divinity.075.xml](5381.xml) | divinity.075 | RG 75 | Roland Herbert Bainton Papers | 
+ [divinity.089.xml](5383.xml) | divinity.089 | RG 89 | Japan International Christian University Foundation, Inc. Records | 
  [divinity.030.xml](5384.xml) | divinity.030 | RG 30 | Miscellaneous Personal Papers Collection | 
  [divinity.266a.xml](5385.xml) | divinity.266a | RG 266A | Church of the Redeemer (New Haven, Conn.) Records - Addendum A | 
  [divinity.258.xml](5390.xml) | divinity.258 | RG 258 | Harry Croswell Papers | 
@@ -262,6 +283,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.216.xml](5703.xml) | divinity.216 | RG 216 | Berkeley Divinity School records | 
  [divinity.272.xml](5873.xml) | divinity.272 | RG 272 | Alice L. Hageman Papers | 
  [divinity.273.xml](10651.xml) | divinity.273 | RG 273 | Gleysteen Family Papers | 
+ [divinity.280.xml](10689.xml) | divinity.280 | RG 280 | Isaac Backus papers | 
  [divinity.278.xml](10730.xml) | divinity.278 | RG 278 | Andover Newton Theological School Alumni Files | 
  [divinity.300.xml](10734.xml) | divinity.300 | RG 300 | Andover Newton Theological School Theses Collection | 
  [divinity.277.xml](10737.xml) | divinity.277 | RG 277 | Andover Newton Theological School Records | 
