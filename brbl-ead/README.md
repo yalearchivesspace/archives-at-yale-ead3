@@ -887,39 +887,57 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jonesmc.xml](1568.xml) | beinecke.jonesmc | YCAL MSS 409 | Mary Cadwalader Jones correspondence | 
  [beinecke.hapgood.xml](1569.xml) | beinecke.hapgood | YCAL MSS 41 | Hapgood family papers | 
  [beinecke.mcmahont.xml](1570.xml) | beinecke.mcmahont | YCAL MSS 410 | Thomas McMahon correspondence | 
+ [beinecke.heinemann.xml](1572.xml) | beinecke.heinemann | YCAL MSS 412 | Katherine Heinemann papers | 
  [beinecke.barry.xml](1573.xml) | beinecke.barry | YCAL MSS 414 | Philip Barry papers | 
  [beinecke.wharton.xml](1575.xml) | beinecke.wharton | YCAL MSS 42 | Edith Wharton collection | 
  [beinecke.phoenix.xml](1576.xml) | beinecke.phoenix | YCAL MSS 421 | Phoenix Theatre records | 
+ [beinecke.dillard.xml](1577.xml) | beinecke.dillard | YCAL MSS 422 | Annie Dillard papers | 
  [beinecke.saltus.xml](1580.xml) | beinecke.saltus | YCAL MSS 425 | Edgar Saltus papers | 
  [beinecke.argus.xml](1581.xml) | beinecke.argus | YCAL MSS 427 | Argus Book Shop correspondence | 
  [beinecke.putnamnw.xml](1582.xml) | beinecke.putnamnw | YCAL MSS 428 | Nina Wilcox Putnam papers | 
  [beinecke.putnamp.xml](1583.xml) | beinecke.putnamp | YCAL MSS 429 | Phelps Putnam papers | 
  [beinecke.pound.xml](1584.xml) | beinecke.pound | YCAL MSS 43 | Ezra Pound Papers | 
+ [beinecke.enters.xml](1585.xml) | beinecke.enters | YCAL MSS 430 | Angna Enters and Louis Kalonyme papers | 
  [beinecke.furniss.xml](1586.xml) | beinecke.furniss | YCAL MSS 431 | Ruth Pine Furniss papers | 
+ [beinecke.welish.xml](1587.xml) | beinecke.welish | YCAL MSS 433 | Marjorie Welish papers | 
  [beinecke.lachaise.xml](1588.xml) | beinecke.lachaise | YCAL MSS 434 | Gaston Lachaise collection | 
  [beinecke.theatreguild.xml](1590.xml) | beinecke.theatreguild | YCAL MSS 436 | Theatre Guild archive | 
  [beinecke.farrar.xml](1591.xml) | beinecke.farrar | YCAL MSS 437 | John Chipman Farrar papers | 
+ [beinecke.purdy.xml](1593.xml) | beinecke.purdy | YCAL MSS 44 | James Purdy papers | 
  [beinecke.tchubb.xml](1594.xml) | beinecke.tchubb | YCAL MSS 441 | Thomas Caldecot Chubb Papers | 
+ [beinecke.curtissp.xml](1596.xml) | beinecke.curtissp | YCAL MSS 443 | Philip Everett Curtiss papers | 
  [beinecke.hillhouse.xml](1597.xml) | beinecke.hillhouse | YCAL MSS 444 | James Abraham Hillhouse papers | 
  [beinecke.maclise.xml](1598.xml) | beinecke.maclise | YCAL MSS 445 | Angus MacLise sound recordings | 
+ [beinecke.scottwr.xml](1600.xml) | beinecke.scottwr | YCAL MSS 447 | William R. Scott, Inc. records | 
+ [beinecke.matthias.xml](1601.xml) | beinecke.matthias | YCAL MSS 45 | Blanche Matthias papers | 
  [beinecke.hound.xml](1602.xml) | beinecke.hound | YCAL MSS 458 | Hound & Horn records | 
  [beinecke.seeley.xml](1603.xml) | beinecke.seeley | YCAL MSS 459 | George H. Seeley papers and photographs | 
  [beinecke.auchincl.xml](1605.xml) | beinecke.auchincl | YCAL MSS 460 | Louis Auchincloss collection | 
  [beinecke.bristed.xml](1606.xml) | beinecke.bristed | YCAL MSS 462 | Charles Astor Bristed notebooks and other material | 
  [beinecke.brush.xml](1607.xml) | beinecke.brush | YCAL MSS 463 | Katharine Brush papers | 
+ [beinecke.eshleman.xml](1608.xml) | beinecke.eshleman | YCAL MSS 464 | Clayton Eshleman papers | 
  [beinecke.barney.xml](1609.xml) | beinecke.barney | YCAL MSS 466 | Danford Barney papers | 
  [beinecke.fletcher.xml](1610.xml) | beinecke.fletcher | YCAL MSS 467 | John Gould Fletcher Collection | 
+ [beinecke.bangs.xml](1612.xml) | beinecke.bangs | YCAL MSS 47 | Bangs family papers | 
  [beinecke.botsford.xml](1613.xml) | beinecke.botsford | YCAL MSS 471 | Keith Botsford papers | 
  [beinecke.millerh.xml](1614.xml) | beinecke.millerh | YCAL MSS 472 | Henry Miller Papers | 
  [beinecke.herbst.xml](1616.xml) | beinecke.herbst | YCAL MSS 474 | Josephine Herbst papers | 
+ [beinecke.langerherbst.xml](1617.xml) | beinecke.langerherbst | YCAL MSS 475 | Elinor Langer collection of Josephine Herbst | 
+ [beinecke.marquand.xml](1618.xml) | beinecke.marquand | YCAL MSS 48 | John P. Marquand collection | 
  [beinecke.grahamwa.xml](1619.xml) | beinecke.grahamwa | YCAL MSS 482 | William A. Graham collection of television scripts | 
+ [beinecke.stewart.xml](1620.xml) | beinecke.stewart | YCAL MSS 483 | Donald Ogden Stewart and Ella Winter papers | 
  [beinecke.leggett.xml](1621.xml) | beinecke.leggett | YCAL MSS 486 | John Leggett writings | 
  [beinecke.davenport.xml](1623.xml) | beinecke.davenport | YCAL MSS 489 | Basil Davenport papers | 
  [beinecke.browncather.xml](1625.xml) | beinecke.browncather | YCAL MSS 490 | Edward Killoran Brown collection of Willa Cather | 
+ [beinecke.faulkner.xml](1626.xml) | beinecke.faulkner | YCAL MSS 491 | William Faulkner collection | 
  [beinecke.mitchell.xml](1627.xml) | beinecke.mitchell | YCAL MSS 492 | Donald Grant Mitchell papers | 
  [beinecke.lindsay.xml](1628.xml) | beinecke.lindsay | YCAL MSS 493 | Vachel Lindsay collection | 
  [beinecke.powel.xml](1629.xml) | beinecke.powel | YCAL MSS 494 | Robert J. Hare Powel papers | 
+ [beinecke.matthiessen.xml](1630.xml) | beinecke.matthiessen | YCAL MSS 495 | F. O. Matthiessen papers | 
+ [beinecke.cohena.xml](1631.xml) | beinecke.cohena | YCAL MSS 496 | Arthur A. Cohen papers | 
  [beinecke.dunlap.xml](1632.xml) | beinecke.dunlap | YCAL MSS 498 | William Dunlap collection | 
+ [beinecke.clemens.xml](1633.xml) | beinecke.clemens | YCAL MSS 5 | Cyril Clemens papers | 
+ [beinecke.eaton.xml](1635.xml) | beinecke.eaton | YCAL MSS 505 | Walter Prichard Eaton writings | 
  [beinecke.fielde.xml](1636.xml) | beinecke.fielde | YCAL MSS 508 | Eugene Field collection | 
  [beinecke.fieldr.xml](1637.xml) | beinecke.fieldr | YCAL MSS 509 | Rachel Field collection | 
  [beinecke.crews.xml](1643.xml) | beinecke.crews | YCAL MSS 536 | Judson Crews papers | 
