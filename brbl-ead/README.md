@@ -940,8 +940,15 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.eaton.xml](1635.xml) | beinecke.eaton | YCAL MSS 505 | Walter Prichard Eaton writings | 
  [beinecke.fielde.xml](1636.xml) | beinecke.fielde | YCAL MSS 508 | Eugene Field collection | 
  [beinecke.fieldr.xml](1637.xml) | beinecke.fieldr | YCAL MSS 509 | Rachel Field collection | 
+ [beinecke.unter.xml](1639.xml) | beinecke.unter | YCAL MSS 52 | Jean Starr Untermeyer papers | 
+ [beinecke.tseliot.xml](1640.xml) | beinecke.tseliot | YCAL MSS 523 | T. S. Eliot collection | 
+ [beinecke.barnard.xml](1641.xml) | beinecke.barnard | YCAL MSS 524 | Mary Barnard papers | 
  [beinecke.crews.xml](1643.xml) | beinecke.crews | YCAL MSS 536 | Judson Crews papers | 
  [beinecke.bevan.xml](1644.xml) | beinecke.bevan | YCAL MSS 537 | Frank Poole Bevan Papers | 
+ [beinecke.bennettm.xml](1645.xml) | beinecke.bennettm | YCAL MSS 538 | Michael Bennett papers | 
+ [beinecke.vizenor.xml](1646.xml) | beinecke.vizenor | YCAL MSS 539 | Gerald Robert Vizenor papers | 
+ [beinecke.gouldl.xml](1648.xml) | beinecke.gouldl | YCAL MSS 540 | Lois Gould papers | 
+ [beinecke.gabo.xml](1649.xml) | beinecke.gabo | YCAL MSS 541 | Naum Gabo papers | 
  [beinecke.szold.xml](1650.xml) | beinecke.szold | YCAL MSS 544 | Bernardine Szold-Fritz correspondence | 
  [beinecke.stevensw.xml](1651.xml) | beinecke.stevensw | YCAL MSS 545 | Wallace Stevens collection | 
  [beinecke.thurber.xml](1652.xml) | beinecke.thurber | YCAL MSS 546 | James Thurber papers | 
@@ -951,13 +958,18 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.williamsww.xml](1657.xml) | beinecke.williamsww | YCAL MSS 551 | Wayland Wells Williams papers | 
  [beinecke.yup.xml](1658.xml) | beinecke.yup | YCAL MSS 552 | Yale University Press records | 
  [beinecke.lynes.xml](1659.xml) | beinecke.lynes | YCAL MSS 553 | Russell Lynes papers | 
+ [beinecke.coxeg.xml](1660.xml) | beinecke.coxeg | YCAL MSS 556 | George Harmon Coxe papers | 
+ [beinecke.pringle.xml](1661.xml) | beinecke.pringle | YCAL MSS 56 | Aileen Pringle papers | 
+ [beinecke.stockton.xml](1662.xml) | beinecke.stockton | YCAL MSS 560 | Walter L. Pforzheimer collection of Frank Richard Stockton | 
  [beinecke.cabell.xml](1663.xml) | beinecke.cabell | YCAL MSS 566 | James Branch Cabell collection | 
  [beinecke.barlow.xml](1664.xml) | beinecke.barlow | YCAL MSS 568 | Joel Barlow Collection | 
  [beinecke.clarkbh.xml](1665.xml) | beinecke.clarkbh | YCAL MSS 569 | Barrett H. Clark papers | 
+ [beinecke.basso.xml](1666.xml) | beinecke.basso | YCAL MSS 57 | Hamilton Basso papers | 
  [beinecke.borland.xml](1667.xml) | beinecke.borland | YCAL MSS 570 | Hal and Barbara Borland papers | 
  [beinecke.croyden.xml](1668.xml) | beinecke.croyden | YCAL MSS 577 | Margaret Croyden papers | 
  [beinecke.hartley.xml](1669.xml) | beinecke.hartley | YCAL MSS 578 | Marsden Hartley collection | 
  [beinecke.fenton.xml](1670.xml) | beinecke.fenton | YCAL MSS 579 | Charles A. Fenton papers | 
+ [beinecke.nathan.xml](1671.xml) | beinecke.nathan | YCAL MSS 58 | Adele Gutman Nathan Theatrical Collection | 
  [beinecke.yenser.xml](1673.xml) | beinecke.yenser | YCAL MSS 581 | Stephen Yenser papers relating to James Merrill | 
  [beinecke.deforestjw.xml](1674.xml) | beinecke.deforestjw | YCAL MSS 582 | De Forest family papers | 
  [beinecke.day.xml](1675.xml) | beinecke.day | YCAL MSS 583 | Clarence Day collection | 
@@ -966,11 +978,17 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.howes.xml](1678.xml) | beinecke.howes | YCAL MSS 59 | Barbara Howes papers | 
  [beinecke.oneilladd.xml](1679.xml) | beinecke.oneilladd | YCAL MSS 597 | Eugene O'Neill papers addition | 
  [beinecke.poore.xml](1680.xml) | beinecke.poore | YCAL MSS 599 | Dudley Poore papers | 
+ [beinecke.loy.xml](1681.xml) | beinecke.loy | YCAL MSS 6 | Mina Loy papers | 
+ [beinecke.guthrie.xml](1682.xml) | beinecke.guthrie | YCAL MSS 60 | A. B. Guthrie Jr. Papers | 
+ [beinecke.schulman.xml](1683.xml) | beinecke.schulman | YCAL MSS 601 | Grace Schulman papers | 
  [beinecke.littlefi.xml](1684.xml) | beinecke.littlefi | YCAL MSS 602 | William Horace Littlefield papers related to "Portrait Drawings of Poets, and Their Manuscripts" exhibition | 
  [beinecke.irwin.xml](1685.xml) | beinecke.irwin | YCAL MSS 603 | Will Irwin and Inez Haynes Gillmore papers | 
  [beinecke.shapiro.xml](1686.xml) | beinecke.shapiro | YCAL MSS 604 | Harvey Shapiro papers | 
+ [beinecke.wallant.xml](1688.xml) | beinecke.wallant | YCAL MSS 606 | Edward Lewis Wallant papers | 
  [beinecke.foote.xml](1689.xml) | beinecke.foote | YCAL MSS 607 | Mary Foote papers | 
  [beinecke.robinsonm.xml](1690.xml) | beinecke.robinsonm | YCAL MSS 609 | Marilynne Robinson papers | 
+ [beinecke.riggs.xml](1691.xml) | beinecke.riggs | YCAL MSS 61 | Lynn Riggs papers | 
+ [beinecke.arnold.xml](1693.xml) | beinecke.arnold | YCAL MSS 611 | Eve Arnold papers | 
  [beinecke.aldan.xml](1694.xml) | beinecke.aldan | YCAL MSS 613 | Daisy Aldan papers | 
  [beinecke.ireland.xml](1697.xml) | beinecke.ireland | YCAL MSS 621 | Joseph Norton Ireland papers | 
  [beinecke.johnsong.xml](1698.xml) | beinecke.johnsong | YCAL MSS 622 | Grace Mott Johnson papers | 
