@@ -1040,25 +1040,46 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.percival.xml](1747.xml) | beinecke.percival | YCAL MSS 703 | James Gates Percival collection | 
  [beinecke.mcclatchy.xml](1748.xml) | beinecke.mcclatchy | YCAL MSS 705 | J. D. McClatchy papers | 
  [beinecke.louden.xml](1749.xml) | beinecke.louden | YCAL MSS 706 | Elizabeth Hacker Valentine Louden papers | 
+ [beinecke.jespersen.xml](1751.xml) | beinecke.jespersen | YCAL MSS 708 | Ruth Jespersen papers | 
  [beinecke.kellner.xml](1752.xml) | beinecke.kellner | YCAL MSS 709 | Bruce Kellner papers | 
+ [beinecke.little.xml](1753.xml) | beinecke.little | YCAL MSS 711 | Little Square Review Records | 
  [beinecke.sstewart.xml](1754.xml) | beinecke.sstewart | YCAL MSS 714 | Susan Stewart papers | 
+ [beinecke.lapine.xml](1755.xml) | beinecke.lapine | YCAL MSS 715 | James Lapine papers | 
+ [beinecke.wolfm.xml](1756.xml) | beinecke.wolfm | YCAL MSS 716 | Mary Hunter Wolf papers | 
+ [beinecke.macleod.xml](1757.xml) | beinecke.macleod | YCAL MSS 718 | Norman Macleod papers | 
  [beinecke.kramer.xml](1759.xml) | beinecke.kramer | YCAL MSS 722 | Larry Kramer papers | 
  [beinecke.herseyf.xml](1760.xml) | beinecke.herseyf | YCAL MSS 723 | Hersey Family Papers | 
  [beinecke.leavitt.xml](1761.xml) | beinecke.leavitt | YCAL MSS 724 | David Leavitt papers | 
  [beinecke.knowles.xml](1762.xml) | beinecke.knowles | YCAL MSS 725 | John Knowles papers | 
+ [beinecke.lostroads.xml](1763.xml) | beinecke.lostroads | YCAL MSS 726 | Lost Roads Publishers records | 
+ [beinecke.davisonp.xml](1764.xml) | beinecke.davisonp | YCAL MSS 727 | Peter Davison papers | 
  [beinecke.gurney.xml](1765.xml) | beinecke.gurney | YCAL MSS 728 | A. R. Gurney papers | 
  [beinecke.ohara.xml](1766.xml) | beinecke.ohara | YCAL MSS 729 | John O'Hara papers | 
+ [beinecke.stimmel.xml](1767.xml) | beinecke.stimmel | YCAL MSS 733 | Bert Stimmel papers | 
+ [beinecke.kumin.xml](1768.xml) | beinecke.kumin | YCAL MSS 734 | Maxine Kumin papers | 
+ [beinecke.lauterbach.xml](1769.xml) | beinecke.lauterbach | YCAL MSS 736 | Ann Lauterbach papers | 
+ [beinecke.bruchac.xml](1770.xml) | beinecke.bruchac | YCAL MSS 740 | Joseph Bruchac papers | 
+ [beinecke.perchik.xml](1771.xml) | beinecke.perchik | YCAL MSS 743 | Simon Perchik papers | 
+ [beinecke.sandy.xml](1772.xml) | beinecke.sandy | YCAL MSS 744 | Stephen Sandy papers | 
  [beinecke.towle.xml](1773.xml) | beinecke.towle | YCAL MSS 745 | Tony Towle papers | 
  [beinecke.teasdale.xml](1774.xml) | beinecke.teasdale | YCAL MSS 746 | Sara Teasdale collection | 
+ [beinecke.trudeau.xml](1775.xml) | beinecke.trudeau | YCAL MSS 747 | Garry Trudeau papers | 
+ [beinecke.chase.xml](1776.xml) | beinecke.chase | YCAL MSS 748 | Eleanor Chase papers | 
  [beinecke.cole.xml](1777.xml) | beinecke.cole | YCAL MSS 749 | Nancy Cole Papers | 
+ [beinecke.furioso.xml](1778.xml) | beinecke.furioso | YCAL MSS 75 | Furioso papers | 
  [beinecke.coxm.xml](1779.xml) | beinecke.coxm | YCAL MSS 750 | Marian Cox Papers | 
  [beinecke.macleodcoll.xml](1780.xml) | beinecke.macleodcoll | YCAL MSS 751 | Norman Macleod Collection | 
+ [beinecke.lloyd.xml](1781.xml) | beinecke.lloyd | YCAL MSS 752 | Lewis Lloyd papers | 
  [beinecke.hacker.xml](1782.xml) | beinecke.hacker | YCAL MSS 753 | Marilyn Hacker Papers | 
  [beinecke.mydans.xml](1783.xml) | beinecke.mydans | YCAL MSS 754 | Carl and Shelley Smith Mydans papers | 
+ [beinecke.twichellj.xml](1785.xml) | beinecke.twichellj | YCAL MSS 755 | Joseph Hopkins Twichell papers | 
  [beinecke.williamsj.xml](1787.xml) | beinecke.williamsj | YCAL MSS 757 | Jonathan Williams photographs | 
  [beinecke.winick.xml](1788.xml) | beinecke.winick | YCAL MSS 758 | Eugene Winick papers relating to Eugene O'Neill | 
+ [beinecke.berger.xml](1789.xml) | beinecke.berger | YCAL MSS 759 | Spencer Berger Collection on film, theater, and music | 
  [beinecke.picano.xml](1791.xml) | beinecke.picano | YCAL MSS 761 | Felice Picano papers | 
  [beinecke.merkin.xml](1792.xml) | beinecke.merkin | YCAL MSS 762 | Richard Merkin collection | 
+ [beinecke.vansant.xml](1793.xml) | beinecke.vansant | YCAL MSS 763 | George Van Santvoord collection | 
+ [beinecke.gander.xml](1794.xml) | beinecke.gander | YCAL MSS 765 | Forrest Gander papers | 
  [beinecke.leighton.xml](1795.xml) | beinecke.leighton | YCAL MSS 766 | Isabel Leighton papers | 
  [beinecke.mullins.xml](1796.xml) | beinecke.mullins | YCAL MSS 767 | Helene Mullins and Marie McCall papers | 
  [beinecke.page.xml](1799.xml) | beinecke.page | YCAL MSS 774 | Geraldine Page papers | 
