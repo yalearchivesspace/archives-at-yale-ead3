@@ -1083,39 +1083,58 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.leighton.xml](1795.xml) | beinecke.leighton | YCAL MSS 766 | Isabel Leighton papers | 
  [beinecke.mullins.xml](1796.xml) | beinecke.mullins | YCAL MSS 767 | Helene Mullins and Marie McCall papers | 
  [beinecke.page.xml](1799.xml) | beinecke.page | YCAL MSS 774 | Geraldine Page papers | 
+ [beinecke.dipalma.xml](1800.xml) | beinecke.dipalma | YCAL MSS 776 | Ray DiPalma Papers | 
  [beinecke.burke.xml](1801.xml) | beinecke.burke | YCAL MSS 778 | Carolyn Burke Collection on Mina Loy and Lee Miller | 
+ [beinecke.leostein.xml](1802.xml) | beinecke.leostein | YCAL MSS 78 | Leo Stein Collection | 
  [beinecke.perkins.xml](1803.xml) | beinecke.perkins | YCAL MSS 782 | Mardette Perkins papers | 
  [beinecke.davisone.xml](1804.xml) | beinecke.davisone | YCAL MSS 787 | Edward Davison Papers | 
+ [beinecke.kahn.xml](1805.xml) | beinecke.kahn | YCAL MSS 789 | Michael Kahn papers | 
  [beinecke.mordecai.xml](1806.xml) | beinecke.mordecai | YCAL MSS 790 | Benjamin Mordecai papers | 
  [beinecke.gill.xml](1807.xml) | beinecke.gill | YCAL MSS 791 | Brendan Gill papers | 
+ [beinecke.norman.xml](1808.xml) | beinecke.norman | YCAL MSS 792 | Dorothy Norman papers | 
  [beinecke.smithhar.xml](1809.xml) | beinecke.smithhar | YCAL MSS 793 | Harrison Smith papers | 
  [beinecke.mencken.xml](1810.xml) | beinecke.mencken | YCAL MSS 794 | H. L. Mencken collection | 
  [beinecke.pyke.xml](1811.xml) | beinecke.pyke | YCAL MSS 798 | Set design drawings for the film Mourning Becomes Electra. | 
+ [beinecke.groesbec.xml](1812.xml) | beinecke.groesbec | YCAL MSS 8 | Amy Groesbeck papers | 
+ [beinecke.talma.xml](1814.xml) | beinecke.talma | YCAL MSS 811 | Louise Talma papers | 
+ [beinecke.foster.xml](1815.xml) | beinecke.foster | YCAL MSS 812 | Thomas H. Foster and Catharine Osgood Foster papers | 
  [beinecke.malanga.xml](1816.xml) | beinecke.malanga | YCAL MSS 813 | Gerard Malanga Papers | 
  [beinecke.yalepoetryreview.xml](1818.xml) | beinecke.yalepoetryreview | YCAL MSS 819 | <title render="italic">Yale Poetry Review</title> records | 
+ [beinecke.nathanad.xml](1819.xml) | beinecke.nathanad | YCAL MSS 82 | Adele Gutman Nathan theatrical collection : addition | 
  [beinecke.wrightcd.xml](1820.xml) | beinecke.wrightcd | YCAL MSS 820 | C. D. Wright papers | 
+ [beinecke.weil.xml](1821.xml) | beinecke.weil | YCAL MSS 825 | James L. Weil papers | 
  [beinecke.kroll.xml](1822.xml) | beinecke.kroll | YCAL MSS 826 | Lucy Kroll papers relating to Lynn Riggs | 
  [beinecke.seligmann.xml](1823.xml) | beinecke.seligmann | YCAL MSS 827 | Kurt Seligmann papers | 
  [beinecke.wilk.xml](1824.xml) | beinecke.wilk | YCAL MSS 828 | Max Wilk papers | 
  [beinecke.jamesh.xml](1825.xml) | beinecke.jamesh | YCAL MSS 830 | Henry James collection | 
+ [beinecke.wolfeb.xml](1826.xml) | beinecke.wolfeb | YCAL MSS 831 | Bernard Wolfe papers | 
  [beinecke.runyon.xml](1827.xml) | beinecke.runyon | YCAL MSS 832 | Damon Runyon Papers | 
  [beinecke.laurenced.xml](1828.xml) | beinecke.laurenced | YCAL MSS 834 | Dan H. Laurence Collection of Henry James | 
  [beinecke.rorty.xml](1829.xml) | beinecke.rorty | YCAL MSS 835 | James Rorty papers | 
+ [beinecke.chiron.xml](1830.xml) | beinecke.chiron | YCAL MSS 836 | Chiron Review records | 
  [beinecke.gallup.xml](1832.xml) | beinecke.gallup | YCAL MSS 838 | Donald Clifford Gallup papers | 
  [beinecke.horgan.xml](1835.xml) | beinecke.horgan | YCAL MSS 845 | Paul Horgan papers | 
  [beinecke.fordr.xml](1836.xml) | beinecke.fordr | YCAL MSS 847 | Ruth Ford papers | 
  [beinecke.paddock.xml](1837.xml) | beinecke.paddock | YCAL MSS 848 | Willard Dryden Paddock photographs and papers | 
+ [beinecke.perlin.xml](1838.xml) | beinecke.perlin | YCAL MSS 849 | Bernard Perlin papers | 
  [beinecke.sok.xml](1839.xml) | beinecke.sok | YCAL MSS 85 | Alfred Stieglitz / Georgia O'Keeffe archive | 
+ [beinecke.discht.xml](1840.xml) | beinecke.discht | YCAL MSS 851 | Thomas M. Disch papers | 
  [beinecke.clemenss.xml](1841.xml) | beinecke.clemenss | YCAL MSS 852 | Samuel Langhorne Clemens Collection | 
  [beinecke.kore.xml](1842.xml) | beinecke.kore | YCAL MSS 854 | Kore Press Archive | 
  [beinecke.millerj.xml](1843.xml) | beinecke.millerj | YCAL MSS 861 | Joaquin Miller Collection | 
+ [beinecke.helburn.xml](1845.xml) | beinecke.helburn | YCAL MSS 864 | Theresa Helburn papers | 
  [beinecke.bryd.xml](1846.xml) | beinecke.bryd | YCAL MSS 865 | Doris Bry papers | 
  [beinecke.selden.xml](1847.xml) | beinecke.selden | YCAL MSS 866 | Albert Selden papers | 
+ [beinecke.wolfd.xml](1848.xml) | beinecke.wolfd | YCAL MSS 867 | David Wolf Collection of American Musical Theater | 
  [beinecke.martinelli.xml](1849.xml) | beinecke.martinelli | YCAL MSS 868 | Sheri Martinelli papers | 
  [beinecke.bookcritics.xml](1850.xml) | beinecke.bookcritics | YCAL MSS 878 | National Book Critics Circle Records | 
  [beinecke.martz.xml](1851.xml) | beinecke.martz | YCAL MSS 881 | Louis Lohr Martz Correspondence | 
+ [beinecke.strand.xml](1852.xml) | beinecke.strand | YCAL MSS 882 | Paul Strand Photographs of the American Southwest and Mexico | 
+ [beinecke.robinson.xml](1853.xml) | beinecke.robinson | YCAL MSS 883 | Edwin Arlington Robinson collection | 
  [beinecke.fleming.xml](1854.xml) | beinecke.fleming | YCAL MSS 887 | Keith Fleming Papers Relating to Edmund White | 
+ [beinecke.stiegfam.xml](1855.xml) | beinecke.stiegfam | YCAL MSS 89 | Flora Stieglitz Straus collection of Stieglitz family papers | 
  [beinecke.pearson.xml](1856.xml) | beinecke.pearson | YCAL MSS 899 | Norman Holmes Pearson Papers | 
+ [beinecke.waldo.xml](1857.xml) | beinecke.waldo | YCAL MSS 9 | George Waldo papers | 
  [beinecke.malcolm.xml](1858.xml) | beinecke.malcolm | YCAL MSS 935 | Janet  Malcolm papers | 
  [beinecke.osborn.xml](1859.xml) | beinecke.osborn | YCAL MSS 938 | Robert Osborn Papers | 
  [beinecke.byrd.xml](1861.xml) | beinecke.byrd | YCAL MSS 967 | Don Byrd papers | 
