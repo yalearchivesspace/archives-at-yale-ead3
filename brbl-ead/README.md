@@ -928,6 +928,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.stewart.xml](1620.xml) | beinecke.stewart | YCAL MSS 483 | Donald Ogden Stewart and Ella Winter papers | 
  [beinecke.leggett.xml](1621.xml) | beinecke.leggett | YCAL MSS 486 | John Leggett writings | 
  [beinecke.davenport.xml](1623.xml) | beinecke.davenport | YCAL MSS 489 | Basil Davenport papers | 
+ [beinecke.draper.xml](1624.xml) | beinecke.draper | YCAL MSS 49 | Muriel Draper Papers | 
  [beinecke.browncather.xml](1625.xml) | beinecke.browncather | YCAL MSS 490 | Edward Killoran Brown collection of Willa Cather | 
  [beinecke.faulkner.xml](1626.xml) | beinecke.faulkner | YCAL MSS 491 | William Faulkner collection | 
  [beinecke.mitchell.xml](1627.xml) | beinecke.mitchell | YCAL MSS 492 | Donald Grant Mitchell papers | 
@@ -943,6 +944,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.unter.xml](1639.xml) | beinecke.unter | YCAL MSS 52 | Jean Starr Untermeyer papers | 
  [beinecke.tseliot.xml](1640.xml) | beinecke.tseliot | YCAL MSS 523 | T. S. Eliot collection | 
  [beinecke.barnard.xml](1641.xml) | beinecke.barnard | YCAL MSS 524 | Mary Barnard papers | 
+ [beinecke.poundadd.xml](1642.xml) | beinecke.poundadd | YCAL MSS 53 | Ezra Pound papers : addition | 
  [beinecke.crews.xml](1643.xml) | beinecke.crews | YCAL MSS 536 | Judson Crews papers | 
  [beinecke.bevan.xml](1644.xml) | beinecke.bevan | YCAL MSS 537 | Frank Poole Bevan Papers | 
  [beinecke.bennettm.xml](1645.xml) | beinecke.bennettm | YCAL MSS 538 | Michael Bennett papers | 
@@ -1143,7 +1145,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.whittier.xml](1865.xml) | beinecke.whittier | YCAL MSS 986 | John Greenleaf Whittier Collection | 
  [beinecke.fang.xml](1866.xml) | beinecke.fang | YCAL MSS 99 | Achilles Fang papers | 
  [beinecke.ycalmiscellany.xml](1868.xml) | beinecke.ycalmiscellany | YCAL MSS MISC | Yale Collection of American Literature manuscript miscellany | 
+ [beinecke.prints.xml](1872.xml) | beinecke.prints | YCGL MSS 11 | William A. Speck collection of prints. | 
+ [beinecke.lavater.xml](1873.xml) | beinecke.lavater | YCGL MSS 13 | Lavater collection. | 
+ [beinecke.speck.xml](1877.xml) | beinecke.speck | YCGL MSS 20 | William A. Speck papers | 
+ [beinecke.raphaela.xml](1878.xml) | beinecke.raphaela | YCGL MSS 21 | Alice Raphael Papers | 
+ [beinecke.faber.xml](1880.xml) | beinecke.faber | YCGL MSS 23 | Curt von Faber du Faur papers | 
  [beinecke.white.xml](1887.xml) | beinecke.white | YCGL MSS 35 | James F. White research files relating to Thomas Mann | 
+ [beinecke.mann.xml](1889.xml) | beinecke.mann | YCGL MSS 5 | Thomas Mann collection | 
  [beinecke.ycglmisc.xml](1892.xml) | beinecke.ycglmisc | YCGL MSS MISC | Yale Collection of German Literature manuscript miscellany | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
