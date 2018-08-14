@@ -990,35 +990,55 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.riggs.xml](1691.xml) | beinecke.riggs | YCAL MSS 61 | Lynn Riggs papers | 
  [beinecke.arnold.xml](1693.xml) | beinecke.arnold | YCAL MSS 611 | Eve Arnold papers | 
  [beinecke.aldan.xml](1694.xml) | beinecke.aldan | YCAL MSS 613 | Daisy Aldan papers | 
+ [beinecke.newell.xml](1696.xml) | beinecke.newell | YCAL MSS 62 | Peter Newell family papers | 
  [beinecke.ireland.xml](1697.xml) | beinecke.ireland | YCAL MSS 621 | Joseph Norton Ireland papers | 
  [beinecke.johnsong.xml](1698.xml) | beinecke.johnsong | YCAL MSS 622 | Grace Mott Johnson papers | 
+ [beinecke.newellad.xml](1699.xml) | beinecke.newellad | YCAL MSS 63 | Peter Newell collection | 
  [beinecke.carsonadd.xml](1700.xml) | beinecke.carsonadd | YCAL MSS 630 | Rachel Carson papers addition | 
  [beinecke.mchugh.xml](1701.xml) | beinecke.mchugh | YCAL MSS 631 | Vincent McHugh papers | 
  [beinecke.opstedal.xml](1702.xml) | beinecke.opstedal | YCAL MSS 1120 | Kevin Opstedal papers | 
+ [beinecke.silko.xml](1704.xml) | beinecke.silko | YCAL MSS 637 | Leslie Marmon Silko papers | 
  [beinecke.fordje.xml](1705.xml) | beinecke.fordje | YCAL MSS 638 | Julia Ellsworth Ford papers | 
+ [beinecke.rainer.xml](1706.xml) | beinecke.rainer | YCAL MSS 639 | Dachine Rainer papers | 
+ [beinecke.soto.xml](1708.xml) | beinecke.soto | YCAL MSS 640 | Gary Soto papers | 
+ [beinecke.brewer.xml](1709.xml) | beinecke.brewer | YCAL MSS 641 | Joseph Brewer papers | 
  [beinecke.smallpond.xml](1710.xml) | beinecke.smallpond | YCAL MSS 642 | The small pond magazine records | 
  [beinecke.rubington.xml](1711.xml) | beinecke.rubington | YCAL MSS 643 | Norman Rubington papers | 
+ [beinecke.darling.xml](1712.xml) | beinecke.darling | YCAL MSS 644 | Lois and Louis Darling papers | 
+ [beinecke.etting.xml](1713.xml) | beinecke.etting | YCAL MSS 645 | Emlen Etting papers | 
  [beinecke.content.xml](1715.xml) | beinecke.content | YCAL MSS 648 | Marjorie Content papers and photographs | 
+ [beinecke.daly.xml](1716.xml) | beinecke.daly | YCAL MSS 649 | James Joseph Daly papers | 
  [beinecke.britton.xml](1717.xml) | beinecke.britton | YCAL MSS 650 | Coburn Britton papers | 
  [beinecke.laughlin.xml](1719.xml) | beinecke.laughlin | YCAL MSS 654 | James Laughlin papers | 
+ [beinecke.mordden.xml](1720.xml) | beinecke.mordden | YCAL MSS 655 | Ethan Mordden papers | 
+ [beinecke.ewingm.xml](1721.xml) | beinecke.ewingm | YCAL MSS 656 | Max Ewing collection | 
  [beinecke.hale.xml](1722.xml) | beinecke.hale | YCAL MSS 658 | Oliver Hale papers | 
+ [beinecke.fosterm.xml](1723.xml) | beinecke.fosterm | YCAL MSS 662 | Maxwell E. Foster papers | 
  [beinecke.dreiser.xml](1724.xml) | beinecke.dreiser | YCAL MSS 665 | Theodore Dreiser collection | 
  [beinecke.carrington.xml](1725.xml) | beinecke.carrington | YCAL MSS 666 | J. B. Carrington papers | 
  [beinecke.mccutche.xml](1726.xml) | beinecke.mccutche | YCAL MSS 667 | George Barr McCutcheon collection | 
+ [beinecke.whyte.xml](1727.xml) | beinecke.whyte | YCAL MSS 670 | Ron Whyte papers | 
  [beinecke.nichols.xml](1728.xml) | beinecke.nichols | YCAL MSS 671 | Dudley Nichols papers | 
  [beinecke.cannon.xml](1729.xml) | beinecke.cannon | YCAL MSS 674 | LeGrand Cannon collection | 
  [beinecke.phelps.xml](1730.xml) | beinecke.phelps | YCAL MSS 678 | William Lyon Phelps papers | 
  [beinecke.geldzahler.xml](1731.xml) | beinecke.geldzahler | YCAL MSS 684 | Henry Geldzahler papers | 
  [beinecke.prokosch.xml](1732.xml) | beinecke.prokosch | YCAL MSS 685 | Frederic Prokosch collection | 
+ [beinecke.reubens.xml](1733.xml) | beinecke.reubens | YCAL MSS 686 | John B. Reubens papers | 
  [beinecke.conrad.xml](1734.xml) | beinecke.conrad | YCAL MSS 687 | Barnaby Conrad papers | 
+ [beinecke.langner.xml](1735.xml) | beinecke.langner | YCAL MSS 688 | Lawrence Langner papers | 
  [beinecke.putzel.xml](1736.xml) | beinecke.putzel | YCAL MSS 689 | Max Putzel papers relating to William Marion Reedy and The Mirror | 
  [beinecke.newdramatists.xml](1737.xml) | beinecke.newdramatists | YCAL MSS 690 | New Dramatists records | 
+ [beinecke.bakerrb.xml](1738.xml) | beinecke.bakerrb | YCAL MSS 691 | Richard Brown Baker papers | 
  [beinecke.ronnebeck.xml](1739.xml) | beinecke.ronnebeck | YCAL MSS 692 | Arnold Ronnebeck papers | 
  [beinecke.southern.xml](1740.xml) | beinecke.southern | YCAL MSS 694 | The Southern Review records | 
  [beinecke.doddlw.xml](1741.xml) | beinecke.doddlw | YCAL MSS 695 | Lee Wilson Dodd papers | 
  [beinecke.simison.xml](1742.xml) | beinecke.simison | YCAL MSS 696 | Barbara D. Simison papers relating to Edward Rowland Sill | 
+ [beinecke.roberts.xml](1743.xml) | beinecke.roberts | YCAL MSS 7 | Kenneth Roberts papers | 
+ [beinecke.nardimarcia.xml](1744.xml) | beinecke.nardimarcia | YCAL MSS 70 | Marcia Nardi collection | 
  [beinecke.versetilitybooks.xml](1745.xml) | beinecke.versetilitybooks | YCAL MSS 700 | VERSEtility BOOKS records | 
+ [beinecke.giard.xml](1746.xml) | beinecke.giard | YCAL MSS 702 | Robert Giard papers | 
  [beinecke.percival.xml](1747.xml) | beinecke.percival | YCAL MSS 703 | James Gates Percival collection | 
+ [beinecke.mcclatchy.xml](1748.xml) | beinecke.mcclatchy | YCAL MSS 705 | J. D. McClatchy papers | 
  [beinecke.louden.xml](1749.xml) | beinecke.louden | YCAL MSS 706 | Elizabeth Hacker Valentine Louden papers | 
  [beinecke.kellner.xml](1752.xml) | beinecke.kellner | YCAL MSS 709 | Bruce Kellner papers | 
  [beinecke.sstewart.xml](1754.xml) | beinecke.sstewart | YCAL MSS 714 | Susan Stewart papers | 
