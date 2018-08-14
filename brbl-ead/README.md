@@ -846,26 +846,47 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.eclark.xml](1516.xml) | beinecke.eclark | YCAL MSS 315 | Eleanor Clark papers | 
  [beinecke.tchelitchew.xml](1518.xml) | beinecke.tchelitchew | YCAL MSS 318 | Pavel Tchelitchew collection | 
  [beinecke.ford.xml](1519.xml) | beinecke.ford | YCAL MSS 32 | Charles Henri Ford papers | 
+ [beinecke.grumley.xml](1521.xml) | beinecke.grumley | YCAL MSS 323 | Michael Grumley papers | 
+ [beinecke.frost.xml](1523.xml) | beinecke.frost | YCAL MSS 33 | Frances Frost papers | 
+ [beinecke.fagin.xml](1524.xml) | beinecke.fagin | YCAL MSS 330 | Larry Fagin papers | 
+ [beinecke.jaffe.xml](1525.xml) | beinecke.jaffe | YCAL MSS 332 | James S. Jaffe collection of Jonathan Williams and The Jargon Society | 
+ [beinecke.schwartz.xml](1526.xml) | beinecke.schwartz | YCAL MSS 334 | Delmore Schwartz papers | 
+ [beinecke.elleryqueen.xml](1527.xml) | beinecke.elleryqueen | YCAL MSS 335 | Ellery Queen papers | 
+ [beinecke.closeup.xml](1528.xml) | beinecke.closeup | YCAL MSS 337 | Photograph File of Close Up Magazine | 
+ [beinecke.dial.xml](1531.xml) | beinecke.dial | YCAL MSS 34 | Dial/Scofield Thayer papers | 
  [beinecke.moorer.xml](1532.xml) | beinecke.moorer | YCAL MSS 341 | Richard Moore papers | 
  [beinecke.okeeffefndn.xml](1533.xml) | beinecke.okeeffefndn | YCAL MSS 342 | Georgia O'Keeffe Foundation records | 
  [beinecke.civicrep.xml](1534.xml) | beinecke.civicrep | YCAL MSS 343 | Civic Repertory Theatre records | 
+ [beinecke.chimera.xml](1535.xml) | beinecke.chimera | YCAL MSS 35 | Chimera papers | 
  [beinecke.mellquist.xml](1537.xml) | beinecke.mellquist | YCAL MSS 353 | Jerome Mellquist papers | 
  [beinecke.tiroff.xml](1538.xml) | beinecke.tiroff | YCAL MSS 358 | James Tiroff notebooks and art works | 
  [beinecke.hovhaness.xml](1539.xml) | beinecke.hovhaness | YCAL MSS 359 | Alan Hovhaness letters to Judith Malina | 
+ [beinecke.tcwilson.xml](1540.xml) | beinecke.tcwilson | YCAL MSS 36 | T. C. Wilson Papers | 
  [beinecke.bahlmann.xml](1541.xml) | beinecke.bahlmann | YCAL MSS 361 | Anna Catherine Bahlmann papers relating to Edith Wharton | 
  [beinecke.richardsl.xml](1543.xml) | beinecke.richardsl | JWJ MSS 176 | Lloyd Richards papers | 
+ [beinecke.crane.xml](1545.xml) | beinecke.crane | YCAL MSS 37 | Hart Crane Collection | 
  [beinecke.parkerjr.xml](1546.xml) | beinecke.parkerjr | YCAL MSS 371 | James Reid Parker papers | 
  [beinecke.harrison.xml](1547.xml) | beinecke.harrison | YCAL MSS 372 | Gilbert A. Harrison papers relating to Thornton Wilder | 
  [beinecke.fuller.xml](1548.xml) | beinecke.fuller | YCAL MSS 373 | Margaret Fuller Papers | 
+ [beinecke.buckman.xml](1549.xml) | beinecke.buckman | YCAL MSS 379 | Gertrude Buckman correspondence | 
+ [beinecke.macleish.xml](1550.xml) | beinecke.macleish | YCAL MSS 38 | Archibald MacLeish collection | 
+ [beinecke.brigman.xml](1551.xml) | beinecke.brigman | YCAL MSS 380 | Anne Brigman papers | 
+ [beinecke.difficulties.xml](1552.xml) | beinecke.difficulties | YCAL MSS 382 | The Difficulties Records | 
  [beinecke.telescripts.xml](1553.xml) | beinecke.telescripts | YCAL MSS 383 | Television scripts collection | 
  [beinecke.newman.xml](1554.xml) | beinecke.newman | YCAL MSS 384 | Paul Newman scripts and films | 
+ [beinecke.bakergp.xml](1555.xml) | beinecke.bakergp | YCAL MSS 385 | George Pierce Baker papers | 
  [beinecke.hayes.xml](1556.xml) | beinecke.hayes | YCAL MSS 386 | Nelson Hayes Papers | 
  [beinecke.beer.xml](1558.xml) | beinecke.beer | YCAL MSS 389 | Thomas Beer Collection | 
  [beinecke.msterne.xml](1559.xml) | beinecke.msterne | YCAL MSS 39 | Maurice Sterne papers | 
  [beinecke.hagedorn.xml](1560.xml) | beinecke.hagedorn | YCAL MSS 391 | Hermann Hagedorn papers | 
  [beinecke.hemingwaymw.xml](1561.xml) | beinecke.hemingwaymw | YCAL MSS 392 | Mary Welsh Hemingway papers | 
+ [beinecke.marks.xml](1562.xml) | beinecke.marks | YCAL MSS 4 | Percy Marks papers | 
+ [beinecke.knight.xml](1563.xml) | beinecke.knight | YCAL MSS 40 | Eric Knight papers. | 
+ [beinecke.hardye.xml](1565.xml) | beinecke.hardye | YCAL MSS 404 | Evelyn Hardy papers | 
+ [beinecke.gilmanl.xml](1566.xml) | beinecke.gilmanl | YCAL MSS 407 | Lawrence Gilman papers | 
  [beinecke.jonesmc.xml](1568.xml) | beinecke.jonesmc | YCAL MSS 409 | Mary Cadwalader Jones correspondence | 
  [beinecke.hapgood.xml](1569.xml) | beinecke.hapgood | YCAL MSS 41 | Hapgood family papers | 
+ [beinecke.mcmahont.xml](1570.xml) | beinecke.mcmahont | YCAL MSS 410 | Thomas McMahon correspondence | 
  [beinecke.barry.xml](1573.xml) | beinecke.barry | YCAL MSS 414 | Philip Barry papers | 
  [beinecke.wharton.xml](1575.xml) | beinecke.wharton | YCAL MSS 42 | Edith Wharton collection | 
  [beinecke.phoenix.xml](1576.xml) | beinecke.phoenix | YCAL MSS 421 | Phoenix Theatre records | 
