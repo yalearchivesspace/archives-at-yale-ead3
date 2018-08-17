@@ -1295,5 +1295,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.blanch.xml](11052.xml) | beinecke.blanch | OSB MSS 202 | Lesley Blanch papers | 
  [beinecke.spinell.xml](11076.xml) | beinecke.spinell | GEN MSS 109 | Spinelli Archive | 
  [beinecke.wppy.xml](11084.xml) | beinecke.wppy | YCAL MSS 1147 | World Performance Project at Yale records | 
- [beinecke.waphotosfolio148.xml](11091.xml) | beinecke.waphotosfolio148 | WA Photos Folio 148 | Photographs of Arizona, Nebraska, New Mexico, North Dakota, and South Dakota | 
+ [beinecke.waphotosfolio148.xml](11091.xml) | beinecke.waphotosfolio148 | WA Photos Folio 148 | Photographs of Arizona, Nebraska, New Mexico, North Dakota, Pine Ridge Indian Reservation, and South Dakota | 
 
