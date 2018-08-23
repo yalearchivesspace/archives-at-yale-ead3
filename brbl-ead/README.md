@@ -629,6 +629,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.graham.xml](1238.xml) | beinecke.graham | WA MSS S-1403 | J. D. Graham papers | 
  [beinecke.davidson.xml](1240.xml) | beinecke.davidson | WA MSS S-1452 | George M. Davidson papers | 
  [beinecke.watelep.xml](1243.xml) | beinecke.watelep | WA MSS S-1593 | Western Teleplays Collection | 
+ [beinecke.westfilmscriptc.xml](1244.xml) | beinecke.westfilmscriptc | WA MSS S-1610 | Western filmscript collection | 
  [beinecke.wilbur.xml](1245.xml) | beinecke.wilbur | WA MSS S-1611 | George W. Wilbur family papers | 
  [beinecke.dey.xml](1247.xml) | beinecke.dey | WA MSS S-1743 | Anthony Dey Galveston Bay and Texas Land Company records | 
  [beinecke.scrpbk.xml](1248.xml) | beinecke.scrpbk | WA MSS S-1817 | Views of the Pacific Northwest. | 
