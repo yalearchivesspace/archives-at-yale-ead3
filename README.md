@@ -12,6 +12,7 @@ Identifier | Description
 | [walpole-ead](walpole-ead/README.md) |  |
 | [med-ead](med-ead/README.md) |  |
 | [brbl-ead](brbl-ead/README.md) |  |
+| [peabody-ead](peabody-ead/README.md) |  |
 
 
 
