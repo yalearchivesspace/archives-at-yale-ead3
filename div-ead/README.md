@@ -145,6 +145,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.220.xml](185.xml) | divinity.220 | RG 220 | Anna and Stanley Wilson Papers | 
  [divinity.221.xml](186.xml) | divinity.221 | RG 221 | Missionary Ephemera Collection | 
  [divinity.222.xml](187.xml) | divinity.222 | RG 222 | Bradford Edward Ableson Papers | 
+ [divinity.223.xml](188.xml) | divinity.223 | RG 223 | Lacy Family Papers | 
  [divinity.224.xml](189.xml) | divinity.224 | RG 224 | Rolland and Lottie Welch Papers | 
  [divinity.225.xml](190.xml) | divinity.225 | RG 225 | North American Coalition for Christianity and Ecology records | 
  [divinity.226.xml](191.xml) | divinity.226 | RG 226 | Council of Higher Education Ministries records | 
