@@ -21,7 +21,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0009.xml](25.xml) | ycba.mss.0009 | MSS.9 | Edgar Hockley collection | 
  [ycba.mss.0024.xml](30.xml) | ycba.mss.0024 | MSS.24 | Paul Nash Letters to Mercia Oakley | 
  [ycba.mss.0007.xml](33.xml) | ycba.mss.0007 | MSS.7 | Clare Leighton collection | 
- [ycba.mss.0046.xml](5850.xml) | ycba.mss.0046 | MSS.46 | John Ruskin Letters to Ellen Heaton | 
+ [ycba.mss.0046.xml](5850.xml) | ycba.mss.0046 | MSS 46 | John Ruskin Letters to Ellen Heaton | 
  [ycba.mss.0031.xml](5858.xml) | ycba.mss.0031 | MSS.31 | Dante Gabriel Rossetti Letters to William Houghton Clabburn | 
  [ycba.mss.0047.xml](5859.xml) | ycba.mss.0047 | MSS.47 | Dante Gabriel Rossetti Letters to Ellen Heaton | 
  [ycba.mss.0045.xml](5895.xml) | ycba.mss.0045 | MSS.45 | Edward Burne-Jones Letters to Cormell Price | 
