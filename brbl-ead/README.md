@@ -1284,7 +1284,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hammer.xml](10956.xml) | beinecke.hammer | GEN MSS 1482 | Barbara Hammer papers | 
  [beinecke.mcpheeronr.xml](10985.xml) | beinecke.mcpheeronr | WA Photos 591 | River of No Return Collection | 
  [beinecke.ruhl.xml](10999.xml) | beinecke.ruhl | YCAL MSS 1139 | Sarah Ruhl papers | 
- [beinecke.marcus.xml](11001.xml) | beinecke.marcus | GEN MSS 1489 | Leonard S. Marcus papers | 
  [beinecke.sarenco.xml](11005.xml) | beinecke.sarenco | GEN MSS 971 | Sarenco papers | 
  [beinecke.pignotti.xml](11007.xml) | beinecke.pignotti | GEN MSS 1493 | Lamberto Pignotti papers | 
  [beinecke.stringfellow.xml](11009.xml) | beinecke.stringfellow | WA Photos 592 | Kim Stringfellow Photographs and Papers | 
