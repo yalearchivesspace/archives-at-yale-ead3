@@ -83,6 +83,14 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0630.xml](2997.xml) | mssa.ms.0630 | MS 630 | Field family collection | 
  [mssa.ms.0635.xml](2998.xml) | mssa.ms.0635 | MS 635 | Leonard Bloomfield papers | 
  [mssa.ms.0637.xml](2999.xml) | mssa.ms.0637 | MS 637 | Austin Foster Hawes papers | 
+ [mssa.ms.0646.xml](3000.xml) | mssa.ms.0646 | MS 646 | Richard F. C. Hartley papers | 
+ [mssa.ms.0652.xml](3001.xml) | mssa.ms.0652 | MS 652 | Thornton Taft Munger papers | 
+ [mssa.ms.0653.xml](3002.xml) | mssa.ms.0653 | MS 653 | Kent Tenney Healy papers | 
+ [mssa.ms.0668.xml](3003.xml) | mssa.ms.0668 | MS 668 | Eleanor Robson Belmont collection | 
+ [mssa.ms.0672.xml](3004.xml) | mssa.ms.0672 | MS 672 | James Boyer collection | 
+ [mssa.ms.0684.xml](3005.xml) | mssa.ms.0684 | MS 684 | Alexander Stewart Webb papers | 
+ [mssa.ms.0686.xml](3006.xml) | mssa.ms.0686 | MS 686 | Reeve family papers | 
+ [mssa.ms.0687.xml](3007.xml) | mssa.ms.0687 | MS 687 | Annie Burr Jennings collection | 
  [mssa.ms.0013.xml](3008.xml) | mssa.ms.0013 | MS 13 | Alois Francis Kovarik papers | 
  [mssa.ms.0014.xml](3009.xml) | mssa.ms.0014 | MS 14 | Walter Lionel Pforzheimer collection | 
  [mssa.ms.0016.xml](3010.xml) | mssa.ms.0016 | MS 16 | Potter family papers | 
@@ -174,8 +182,21 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0626.xml](3113.xml) | mssa.ms.0626 | MS 626 | Kellogg-Dickie papers | 
  [mssa.ms.0631.xml](3114.xml) | mssa.ms.0631 | MS 631 | Joseph Wheaton papers | 
  [mssa.ms.0640.xml](3116.xml) | mssa.ms.0640 | MS 640 | Barnett Fred Dodge papers | 
+ [mssa.ms.0654.xml](3117.xml) | mssa.ms.0654 | MS 654 | William Hepburn Buckler papers | 
+ [mssa.ms.0655.xml](3118.xml) | mssa.ms.0655 | MS 655 | Frances B. Denton papers | 
+ [mssa.ms.0659.xml](3120.xml) | mssa.ms.0659 | MS 659 | Thomas Wells Farnam papers | 
+ [mssa.ms.0662.xml](3122.xml) | mssa.ms.0662 | MS 662 | Talman family papers | 
+ [mssa.ms.0674.xml](3123.xml) | mssa.ms.0674 | MS 674 | American Revolutionary War collection | 
+ [mssa.ms.0683.xml](3124.xml) | mssa.ms.0683 | MS 683 | James Watson Webb papers | 
+ [mssa.ms.0685.xml](3125.xml) | mssa.ms.0685 | MS 685 | Parker Family Papers | 
+ [mssa.ms.0691.xml](3126.xml) | mssa.ms.0691 | MS 691 | Edward Claudius Herrick papers | 
+ [mssa.ms.0707.xml](3127.xml) | mssa.ms.0707 | MS 707 | Bacon-Schneeloch family papers | 
+ [mssa.ms.0737.xml](3130.xml) | mssa.ms.0737 | MS 737 | John Wesley Blassingame Papers | 
+ [mssa.ms.0744.xml](3131.xml) | mssa.ms.0744 | MS 744 | Frances Bernice Field papers | 
+ [mssa.ms.0746.xml](3132.xml) | mssa.ms.0746 | MS 746 | Ward Shepard papers | 
  [mssa.ms.0133.xml](3608.xml) | mssa.ms.0133 | MS 133 | Champion Spalding Chase papers | 
  [mssa.ms.0273.xml](3609.xml) | mssa.ms.0273 | MS 273 | Edgar Laing Heermance papers | 
+ [mssa.ms.0727.xml](3612.xml) | mssa.ms.0727 | MS 727 | Thomas Collier Platt papers | 
  [mssa.ms.0004.xml](3785.xml) | mssa.ms.0004 | MS 4 | D. Cady Eaton papers | 
  [mssa.ms.0006.xml](3787.xml) | mssa.ms.0006 | MS 6 | Michael Meredith Hare papers | 
  [mssa.ms.0010.xml](3788.xml) | mssa.ms.0010 | MS 10 | Charles Templeman Loram papers | 
@@ -234,7 +255,20 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0629.xml](3848.xml) | mssa.ms.0629 | MS 629 | John Hall Paxton papers | 
  [mssa.ms.0634.xml](3849.xml) | mssa.ms.0634 | MS 634 | Arnold Oscar Wolfers papers | 
  [mssa.ms.0641.xml](3850.xml) | mssa.ms.0641 | MS 641 | Alan Mara Bateman papers | 
+ [mssa.ms.0666.xml](3851.xml) | mssa.ms.0666 | MS 666 | Sir William Wiseman papers | 
+ [mssa.ms.0715.xml](3852.xml) | mssa.ms.0715 | MS 715 | Dickson H. and Marjorie B. Leavens papers | 
+ [mssa.ms.0689.xml](3918.xml) | mssa.ms.0689 | MS 689 | Enoch Fitch Burr papers | 
+ [mssa.ms.0693.xml](3919.xml) | mssa.ms.0693 | MS 693 | George Frederick Gundelfinger papers | 
+ [mssa.ms.0696.xml](3920.xml) | mssa.ms.0696 | MS 696 | Nathaniel Terry Bacon papers | 
+ [mssa.ms.0697.xml](3921.xml) | mssa.ms.0697 | MS 697 | Richard Hooker papers | 
+ [mssa.ms.0699.xml](3922.xml) | mssa.ms.0699 | MS 699 | Peyton Randolph Gilbert family papers | 
+ [mssa.ms.0704.xml](3923.xml) | mssa.ms.0704 | MS 704 | Thomas Lawrason Riggs papers | 
+ [mssa.ms.0716.xml](3925.xml) | mssa.ms.0716 | MS 716 | Woodrow Wilson miscellaneous collection | 
+ [mssa.ms.0723.xml](3926.xml) | mssa.ms.0723 | MS 723 | Erwin Ramsdell Goodenough papers | 
+ [mssa.ms.0726.xml](3927.xml) | mssa.ms.0726 | MS 726 | Samuel Lockwood papers | 
+ [mssa.ms.0741.xml](3928.xml) | mssa.ms.0741 | MS 741 | Alexander Bryan Johnson papers | 
  [mssa.ms.0644.xml](4006.xml) | mssa.ms.0644 | MS 644 | Philosophy and social science manuscripts collection | 
+ [mssa.ms.0700.xml](4007.xml) | mssa.ms.0700 | MS 700 | Gilbert-Cheever family papers | 
  [mssa.ms.0002.xml](4024.xml) | mssa.ms.0002 | MS 2 | James Rowland Angell personal papers | 
  [mssa.ms.0009.xml](4025.xml) | mssa.ms.0009 | MS 9 | James Hosmer Penniman collection | 
  [mssa.ms.0021.xml](4026.xml) | mssa.ms.0021 | MS 21 | Protestant Episcopal Bishops collection | 
@@ -266,6 +300,14 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0601.xml](4056.xml) | mssa.ms.0601 | MS 601 | F. Trubee Davison papers | 
  [mssa.ms.0622.xml](4057.xml) | mssa.ms.0622 | MS 622 | Charles Gould Morris family papers | 
  [mssa.ms.0627.xml](4058.xml) | mssa.ms.0627 | MS 627 | Filmer Stuart Cuckow Northrop papers | 
+ [mssa.ms.0645.xml](4059.xml) | mssa.ms.0645 | MS 645 | Harold Phelps Stokes papers | 
+ [mssa.ms.0660.xml](4061.xml) | mssa.ms.0660 | MS 660 | Pierre Jay papers | 
+ [mssa.ms.0664.xml](4062.xml) | mssa.ms.0664 | MS 664 | Yale Peruvian Expedition papers | 
+ [mssa.ms.0701.xml](4063.xml) | mssa.ms.0701 | MS 701 | Mitchell-Tiffany family papers | 
+ [mssa.ms.0706.xml](4064.xml) | mssa.ms.0706 | MS 706 | Carroll L. V. Meeks papers | 
+ [mssa.ms.0720.xml](4065.xml) | mssa.ms.0720 | MS 720 | Arthur Willert papers | 
+ [mssa.ms.0721.xml](4066.xml) | mssa.ms.0721 | MS 721 | Charles Humboldt papers | 
+ [mssa.ms.0728.xml](4067.xml) | mssa.ms.0728 | MS 728 | Edward John Kempf papers | 
  [mssa.ms.0029.xml](4102.xml) | mssa.ms.0029 | MS 29 | Account books collection | 
  [mssa.ms.0055.xml](4103.xml) | mssa.ms.0055 | MS 55 | Baldwin family papers | 
  [mssa.ms.0079.xml](4104.xml) | mssa.ms.0079 | MS 79 | Bidwell family papers | 
@@ -377,6 +419,21 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0633.xml](4229.xml) | mssa.ms.0633 | MS 633 | Pierce family papers | 
  [mssa.ms.0638.xml](4230.xml) | mssa.ms.0638 | MS 638 | Pond family papers | 
  [mssa.ms.0642.xml](4231.xml) | mssa.ms.0642 | MS 642 | John Gamble Kirkwood papers | 
+ [mssa.ms.0651.xml](4232.xml) | mssa.ms.0651 | MS 651 | David Tappan Stoddard papers | 
+ [mssa.ms.0665.xml](4233.xml) | mssa.ms.0665 | MS 665 | George William Watt papers | 
+ [mssa.ms.0667.xml](4234.xml) | mssa.ms.0667 | MS 667 | Theater manuscripts collection | 
+ [mssa.ms.0673.xml](4235.xml) | mssa.ms.0673 | MS 673 | Selden family papers | 
+ [mssa.ms.0677.xml](4236.xml) | mssa.ms.0677 | MS 677 | Andrew Jackson Davis papers | 
+ [mssa.ms.0678.xml](4237.xml) | mssa.ms.0678 | MS 678 | Bennett Upson papers | 
+ [mssa.ms.0679.xml](4238.xml) | mssa.ms.0679 | MS 679 | Clark family papers | 
+ [mssa.ms.0680.xml](4239.xml) | mssa.ms.0680 | MS 680 | Henry Hill papers | 
+ [mssa.ms.0681.xml](4240.xml) | mssa.ms.0681 | MS 681 | Fred John Beck papers | 
+ [mssa.ms.0711.xml](4241.xml) | mssa.ms.0711 | MS 711 | Kenneth McLeod Bissell papers | 
+ [mssa.ms.0714.xml](4242.xml) | mssa.ms.0714 | MS 714 | American Student Union papers | 
+ [mssa.ms.0717.xml](4243.xml) | mssa.ms.0717 | MS 717 | Slavery Miscellaneous Manuscripts collection | 
+ [mssa.ms.0725.xml](4244.xml) | mssa.ms.0725 | MS 725 | Lathrop family papers | 
+ [mssa.ms.0734.xml](4245.xml) | mssa.ms.0734 | MS 734 | Munson family papers | 
+ [mssa.ms.0742.xml](4247.xml) | mssa.ms.0742 | MS 742 | Korean War collection | 
  [mssa.ms.0593.xml](4418.xml) | mssa.ms.0593 | MS 593 | Eero Saarinen collection | 
  [mssa.ms.0073.xml](4422.xml) | mssa.ms.0073 | MS 73 | Beer family papers | 
  [mssa.ms.0291.xml](4424.xml) | mssa.ms.0291 | MS 291 | William Graham Sumner papers | 
@@ -384,6 +441,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0384.xml](4427.xml) | mssa.ms.0384 | MS 384 | Park family papers | 
  [mssa.ms.0440.xml](4428.xml) | mssa.ms.0440 | MS 440 | Seymour family papers | 
  [mssa.ms.0442.xml](4429.xml) | mssa.ms.0442 | MS 442 | George Dudley Seymour papers | 
+ [mssa.ms.0695.xml](4432.xml) | mssa.ms.0695 | MS 695 | Leonard Jimmie Savage papers | 
  [mssa.ms.0071.xml](4434.xml) | mssa.ms.0071 | MS 71 | Beecher Family Papers | 
  [mssa.ms.0125.xml](4436.xml) | mssa.ms.0125 | MS 125 | Walter Chauncey Camp papers | 
  [mssa.ms.0522.xml](4437.xml) | mssa.ms.0522 | MS 522 | Verstille family papers | 
@@ -393,7 +451,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0587.xml](4443.xml) | mssa.ms.0587 | MS 587 | Lewis Perry Curtis family papers | 
  [mssa.ms.0604.xml](4445.xml) | mssa.ms.0604 | MS 604 | Kingsley memorial collection | 
  [mssa.ms.0617.xml](4446.xml) | mssa.ms.0617 | MS 617 | Movement (Protest) collection | 
+ [mssa.ms.0649.xml](4447.xml) | mssa.ms.0649 | MS 649 | G. Evelyn Hutchinson papers | 
+ [mssa.ms.0670.xml](4449.xml) | mssa.ms.0670 | MS 670 | Edwin Montefiore Borchard papers | 
+ [mssa.ms.0688.xml](4450.xml) | mssa.ms.0688 | MS 688 | World War II collection | 
+ [mssa.ms.0698.xml](4451.xml) | mssa.ms.0698 | MS 698 | Samuel C. G. Watkins autograph collection | 
  [mssa.ms.0421.xml](4463.xml) | mssa.ms.0421 | MS 421 | James Harvey Rogers papers | 
+ [mssa.ms.0712.xml](4464.xml) | mssa.ms.0712 | MS 712 | Franklin Bowditch Dexter papers | 
  [mssa.ms.0441.xml](4501.xml) | mssa.ms.0441 | MS 441 | Charles Seymour papers | 
  [mssa.ms.0299.xml](4546.xml) | mssa.ms.0299 | MS 299 | Anson Phelps Stokes family papers | 
  [mssa.ms.0222.xml](4547.xml) | mssa.ms.0222 | MS 222 | Jerome New Frank papers | 
