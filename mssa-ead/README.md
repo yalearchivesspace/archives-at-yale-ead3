@@ -3,9 +3,79 @@
 EAD | EAD ID | Identifier | Title | Other versions
 --- | ------ | ---------- | ----- | --------------
  [mssa.ms.0003.xml](2909.xml) | mssa.ms.0003 | MS 3 | John Augustus Hendrix McLane papers | 
+ [mssa.ms.0015.xml](2910.xml) | mssa.ms.0015 | MS 15 | William Barrett Pease papers | 
+ [mssa.ms.0017.xml](2911.xml) | mssa.ms.0017 | MS 17 | George G. Phelps Family papers | 
+ [mssa.ms.0035.xml](2912.xml) | mssa.ms.0035 | MS 35 | American Indian collection | 
+ [mssa.ms.0036.xml](2913.xml) | mssa.ms.0036 | MS 36 | Luther Anderson papers | 
+ [mssa.ms.0037.xml](2914.xml) | mssa.ms.0037 | MS 37 | Rudolph John Anderson papers | 
+ [mssa.ms.0063.xml](2915.xml) | mssa.ms.0063 | MS 63 | Bartram family papers | 
+ [mssa.ms.0065.xml](2916.xml) | mssa.ms.0065 | MS 65 | Bates family papers | 
+ [mssa.ms.0068.xml](2917.xml) | mssa.ms.0068 | MS 68 | Hugh Aiken Bayne papers | 
+ [mssa.ms.0077.xml](2918.xml) | mssa.ms.0077 | MS 77 | Horatio Southgate papers | 
+ [mssa.ms.0082.xml](2919.xml) | mssa.ms.0082 | MS 82 | Isaac Bird papers | 
+ [mssa.ms.0088.xml](2920.xml) | mssa.ms.0088 | MS 88 | Board of Research Associates in American Economic History papers | 
+ [mssa.ms.0097.xml](2921.xml) | mssa.ms.0097 | MS 97 | Dan Beach and Cornelius Beach Bradley papers | 
+ [mssa.ms.0105.xml](2922.xml) | mssa.ms.0105 | MS 105 | Colonel John Brown and Major General Preston Brown papers | 
+ [mssa.ms.0106.xml](2923.xml) | mssa.ms.0106 | MS 106 | General Joseph W. Brown papers | 
+ [mssa.ms.0111.xml](2924.xml) | mssa.ms.0111 | MS 111 | Ludlow Seguine Bull papers | 
+ [mssa.ms.0013.xml](3008.xml) | mssa.ms.0013 | MS 13 | Alois Francis Kovarik papers | 
+ [mssa.ms.0014.xml](3009.xml) | mssa.ms.0014 | MS 14 | Walter Lionel Pforzheimer collection | 
+ [mssa.ms.0016.xml](3010.xml) | mssa.ms.0016 | MS 16 | Potter family papers | 
+ [mssa.ms.0025.xml](3012.xml) | mssa.ms.0025 | MS 25 | William Henry Morse papers | 
+ [mssa.ms.0028.xml](3013.xml) | mssa.ms.0028 | MS 28 | George Jacob Abbot papers | 
+ [mssa.ms.0030.xml](3014.xml) | mssa.ms.0030 | MS 30 | George Burton Adams papers | 
+ [mssa.ms.0032.xml](3015.xml) | mssa.ms.0032 | MS 32 | Josef Albers papers | 
+ [mssa.ms.0039.xml](3016.xml) | mssa.ms.0039 | MS 39 | William Nevins Armstrong papers | 
+ [mssa.ms.0040.xml](3017.xml) | mssa.ms.0040 | MS 40 | Kan'ichi Asakawa papers | 
+ [mssa.ms.0058.xml](3018.xml) | mssa.ms.0058 | MS 58 | Sir Joseph Banks papers | 
+ [mssa.ms.0066.xml](3019.xml) | mssa.ms.0066 | MS 66 | Committee to Defend America by Aiding the Allies (Hartford and Connecticut Chapters) papers | 
+ [mssa.ms.0074.xml](3020.xml) | mssa.ms.0074 | MS 74 | Samuel Flagg Bemis papers | 
+ [mssa.ms.0086.xml](3022.xml) | mssa.ms.0086 | MS 86 | John Morton Blum papers | 
+ [mssa.ms.0087.xml](3023.xml) | mssa.ms.0087 | MS 87 | Robert Blum papers | 
+ [mssa.ms.0096.xml](3024.xml) | mssa.ms.0096 | MS 96 | Edward Gaylord Bourne papers | 
+ [mssa.ms.0103.xml](3025.xml) | mssa.ms.0103 | MS 103 | Bronson Family papers | 
+ [mssa.ms.0107.xml](3026.xml) | mssa.ms.0107 | MS 107 | William Robinson Brown papers | 
  [mssa.ms.0004.xml](3785.xml) | mssa.ms.0004 | MS 4 | D. Cady Eaton papers | 
  [mssa.ms.0006.xml](3787.xml) | mssa.ms.0006 | MS 6 | Michael Meredith Hare papers | 
+ [mssa.ms.0010.xml](3788.xml) | mssa.ms.0010 | MS 10 | Charles Templeman Loram papers | 
+ [mssa.ms.0011.xml](3789.xml) | mssa.ms.0011 | MS 11 | Frank Parsons papers | 
+ [mssa.ms.0012.xml](3790.xml) | mssa.ms.0012 | MS 12 | Love family papers | 
+ [mssa.ms.0041.xml](3791.xml) | mssa.ms.0041 | MS 41 | Paul Moody Atkins papers | 
+ [mssa.ms.0044.xml](3792.xml) | mssa.ms.0044 | MS 44 | James E. Babb Memorial collection | 
+ [mssa.ms.0047.xml](3793.xml) | mssa.ms.0047 | MS 47 | Backus family papers | 
+ [mssa.ms.0051.xml](3794.xml) | mssa.ms.0051 | MS 51 | George Pierce Baker papers | 
+ [mssa.ms.0056.xml](3795.xml) | mssa.ms.0056 | MS 56 | Baldwin and Company papers | 
+ [mssa.ms.0076.xml](3796.xml) | mssa.ms.0076 | MS 76 | Adolph Burnett Benson papers | 
+ [mssa.ms.0085.xml](3797.xml) | mssa.ms.0085 | MS 85 | Blake family papers | 
+ [mssa.ms.0089.xml](3798.xml) | mssa.ms.0089 | MS 89 | Boardman family papers | 
+ [mssa.ms.0092.xml](3800.xml) | mssa.ms.0092 | MS 92 | Kenneth Farrand Simpson papers | 
+ [mssa.ms.0108.xml](3801.xml) | mssa.ms.0108 | MS 108 | George Jarvis Brush family papers | 
  [mssa.ms.0002.xml](4024.xml) | mssa.ms.0002 | MS 2 | James Rowland Angell personal papers | 
+ [mssa.ms.0009.xml](4025.xml) | mssa.ms.0009 | MS 9 | James Hosmer Penniman collection | 
+ [mssa.ms.0021.xml](4026.xml) | mssa.ms.0021 | MS 21 | Protestant Episcopal Bishops collection | 
+ [mssa.ms.0024.xml](4027.xml) | mssa.ms.0024 | MS 24 | La Farge family papers | 
+ [mssa.ms.0027.xml](4028.xml) | mssa.ms.0027 | MS 27 | Edwin Hale Abbot family papers | 
+ [mssa.ms.0034.xml](4029.xml) | mssa.ms.0034 | MS 34 | Alsop family papers | 
+ [mssa.ms.0038.xml](4030.xml) | mssa.ms.0038 | MS 38 | Charles McLean Andrews papers | 
+ [mssa.ms.0101.xml](4032.xml) | mssa.ms.0101 | MS 101 | Bristol family papers | 
+ [mssa.ms.0029.xml](4102.xml) | mssa.ms.0029 | MS 29 | Account books collection | 
+ [mssa.ms.0055.xml](4103.xml) | mssa.ms.0055 | MS 55 | Baldwin family papers | 
+ [mssa.ms.0079.xml](4104.xml) | mssa.ms.0079 | MS 79 | Bidwell family papers | 
+ [mssa.ms.0100.xml](4106.xml) | mssa.ms.0100 | MS 100 | William Henry Brewer papers | 
+ [mssa.ms.0018.xml](4133.xml) | mssa.ms.0018 | MS 18 | Job Clark papers | 
+ [mssa.ms.0022.xml](4134.xml) | mssa.ms.0022 | MS 22 | Henry Wick Chambers papers | 
+ [mssa.ms.0043.xml](4135.xml) | mssa.ms.0043 | MS 43 | John Avery papers | 
+ [mssa.ms.0050.xml](4136.xml) | mssa.ms.0050 | MS 50 | John and Katherine Bakeless papers | 
+ [mssa.ms.0053.xml](4137.xml) | mssa.ms.0053 | MS 53 | Caleb Baldwin papers | 
+ [mssa.ms.0075.xml](4138.xml) | mssa.ms.0075 | MS 75 | Samuel Benjamin papers | 
+ [mssa.ms.0084.xml](4139.xml) | mssa.ms.0084 | MS 84 | Asa Blair papers | 
+ [mssa.ms.0095.xml](4140.xml) | mssa.ms.0095 | MS 95 | Avant-garde poetry collection | 
+ [mssa.ms.0110.xml](4141.xml) | mssa.ms.0110 | MS 110 | Theodore D. Buhl collection | 
+ [mssa.ms.0073.xml](4422.xml) | mssa.ms.0073 | MS 73 | Beer family papers | 
+ [mssa.ms.0071.xml](4434.xml) | mssa.ms.0071 | MS 71 | Beecher Family Papers | 
+ [mssa.ms.0046.xml](4812.xml) | mssa.ms.0046 | MS 46 | Bacon family papers | 
+ [mssa.ms.0081.xml](4813.xml) | mssa.ms.0081 | MS 81 | Bingham family papers | 
+ [mssa.ms.0031.xml](4894.xml) | mssa.ms.0031 | MS 31 | Thomas Sewall Adams papers | 
  [5117.xml](5117.xml) |  | HM 209 | Central America - Mosquito Kingdom Manuscript, from the Miscellaneous Manuscripts Collection [microform] | 
  [5118.xml](5118.xml) |  | HM 210 | William Jackson Papers [microform] | 
  [5119.xml](5119.xml) |  | HM 205 | Yale Football Scrapbooks 1876-1935[microform] | 
