@@ -392,6 +392,58 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1467.xml](3365.xml) | mssa.ms.1467 | MS 1467 | Boris Novikoff papers | 
  [mssa.ms.1468.xml](3366.xml) | mssa.ms.1468 | MS 1468 | Stephen Blank papers | 
  [mssa.ms.1469.xml](3367.xml) | mssa.ms.1469 | MS 1469 | James Allardyce Ewing papers | 
+ [mssa.ms.1472.xml](3368.xml) | mssa.ms.1472 | MS 1472 | Hugh Payne Greeley papers | 
+ [mssa.ms.1477.xml](3369.xml) | mssa.ms.1477 | MS 1477 | Frederic Brenton Fitch papers | 
+ [mssa.ms.1480.xml](3370.xml) | mssa.ms.1480 | MS 1480 | Keith Merrill papers | 
+ [mssa.ms.1481.xml](3371.xml) | mssa.ms.1481 | MS 1481 | Samuel F. Pryor papers | 
+ [mssa.ms.1483.xml](3372.xml) | mssa.ms.1483 | MS 1483 | Pancholi collection of Gandhi letters | 
+ [mssa.ms.1484.xml](3373.xml) | mssa.ms.1484 | MS 1484 | Charles Page papers | 
+ [mssa.ms.1485.xml](3374.xml) | mssa.ms.1485 | MS 1485 | Mary Henrietta Kingsley papers | 
+ [mssa.ms.1487.xml](3375.xml) | mssa.ms.1487 | MS 1487 | Albert William Sherer, Jr. papers | 
+ [mssa.ms.1493.xml](3376.xml) | mssa.ms.1493 | MS 1493 | Harold Washington Library Center collection | 
+ [mssa.ms.1494.xml](3377.xml) | mssa.ms.1494 | MS 1494 | Ezekiel Dodge Cushing papers | 
+ [mssa.ms.1497.xml](3378.xml) | mssa.ms.1497 | MS 1497 | Charles Morgan Coit papers | 
+ [mssa.ms.1501.xml](3379.xml) | mssa.ms.1501 | MS 1501 | Algeria collection | 
+ [mssa.ms.1503.xml](3380.xml) | mssa.ms.1503 | MS 1503 | Benin collection | 
+ [mssa.ms.1504.xml](3381.xml) | mssa.ms.1504 | MS 1504 | Botswana collection | 
+ [mssa.ms.1505.xml](3382.xml) | mssa.ms.1505 | MS 1505 | Burkina Faso collection | 
+ [mssa.ms.1506.xml](3383.xml) | mssa.ms.1506 | MS 1506 | Burundi collection | 
+ [mssa.ms.1507.xml](3384.xml) | mssa.ms.1507 | MS 1507 | Cameroon collection | 
+ [mssa.ms.1508.xml](3385.xml) | mssa.ms.1508 | MS 1508 | Cape Verde collection | 
+ [mssa.ms.1509.xml](3386.xml) | mssa.ms.1509 | MS 1509 | Central African Republic collection | 
+ [mssa.ms.1510.xml](3387.xml) | mssa.ms.1510 | MS 1510 | Chad collection | 
+ [mssa.ms.1511.xml](3388.xml) | mssa.ms.1511 | MS 1511 | Congo (Brazzaville) collection | 
+ [mssa.ms.1512.xml](3389.xml) | mssa.ms.1512 | MS 1512 | Djibouti collection | 
+ [mssa.ms.1513.xml](3390.xml) | mssa.ms.1513 | MS 1513 | Egypt collection | 
+ [mssa.ms.1514.xml](3391.xml) | mssa.ms.1514 | MS 1514 | Equatorial Guinea collection | 
+ [mssa.ms.1515.xml](3392.xml) | mssa.ms.1515 | MS 1515 | Eritrea collection | 
+ [mssa.ms.1516.xml](3393.xml) | mssa.ms.1516 | MS 1516 | Ethiopia collection | 
+ [mssa.ms.1517.xml](3394.xml) | mssa.ms.1517 | MS 1517 | Gabon collection | 
+ [mssa.ms.1518.xml](3395.xml) | mssa.ms.1518 | MS 1518 | Gambia collection | 
+ [mssa.ms.1520.xml](3396.xml) | mssa.ms.1520 | MS 1520 | Guinea collection | 
+ [mssa.ms.1521.xml](3397.xml) | mssa.ms.1521 | MS 1521 | Guinea-Bissau collection | 
+ [mssa.ms.1522.xml](3398.xml) | mssa.ms.1522 | MS 1522 | Ivory Coast (Côte d'Ivoire) collection | 
+ [mssa.ms.1525.xml](3399.xml) | mssa.ms.1525 | MS 1525 | Liberia collection | 
+ [mssa.ms.1526.xml](3400.xml) | mssa.ms.1526 | MS 1526 | Libya collection | 
+ [mssa.ms.1527.xml](3401.xml) | mssa.ms.1527 | MS 1527 | Madagascar collection | 
+ [mssa.ms.1528.xml](3402.xml) | mssa.ms.1528 | MS 1528 | Malawi collection | 
+ [mssa.ms.1529.xml](3403.xml) | mssa.ms.1529 | MS 1529 | Mali collection | 
+ [mssa.ms.1530.xml](3404.xml) | mssa.ms.1530 | MS 1530 | Mauritania collection | 
+ [mssa.ms.1531.xml](3405.xml) | mssa.ms.1531 | MS 1531 | Mauritius collection | 
+ [mssa.ms.1532.xml](3406.xml) | mssa.ms.1532 | MS 1532 | Morocco collection | 
+ [mssa.ms.1535.xml](3407.xml) | mssa.ms.1535 | MS 1535 | Réunion collection | 
+ [mssa.ms.1536.xml](3408.xml) | mssa.ms.1536 | MS 1536 | Rwanda collection | 
+ [mssa.ms.1537.xml](3409.xml) | mssa.ms.1537 | MS 1537 | Saint Helena collection | 
+ [mssa.ms.1538.xml](3410.xml) | mssa.ms.1538 | MS 1538 | Sao Tome and Principe collection | 
+ [mssa.ms.1539.xml](3411.xml) | mssa.ms.1539 | MS 1539 | Senegal collection | 
+ [mssa.ms.1540.xml](3412.xml) | mssa.ms.1540 | MS 1540 | Seychelles collection | 
+ [mssa.ms.1541.xml](3413.xml) | mssa.ms.1541 | MS 1541 | Sierra Leone collection | 
+ [mssa.ms.1542.xml](3414.xml) | mssa.ms.1542 | MS 1542 | Somalia collection | 
+ [mssa.ms.1544.xml](3415.xml) | mssa.ms.1544 | MS 1544 | Swaziland collection | 
+ [mssa.ms.1546.xml](3416.xml) | mssa.ms.1546 | MS 1546 | Togo collection | 
+ [mssa.ms.1547.xml](3417.xml) | mssa.ms.1547 | MS 1547 | Tunisia collection | 
+ [mssa.ms.1549.xml](3418.xml) | mssa.ms.1549 | MS 1549 | Congo (Democratic Republic) collection | 
+ [mssa.ms.1552.xml](3419.xml) | mssa.ms.1552 | MS 1552 | Niger collection | 
  [mssa.ms.0133.xml](3608.xml) | mssa.ms.0133 | MS 133 | Champion Spalding Chase papers | 
  [mssa.ms.0273.xml](3609.xml) | mssa.ms.0273 | MS 273 | Edgar Laing Heermance papers | 
  [mssa.ms.0727.xml](3612.xml) | mssa.ms.0727 | MS 727 | Thomas Collier Platt papers | 
@@ -453,6 +505,24 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1433.xml](3674.xml) | mssa.ms.1433 | MS 1433 | Douglas Joseph Bennet papers | 
  [mssa.ms.1434.xml](3675.xml) | mssa.ms.1434 | MS 1434 | Save the Wetlands Committee, Inc. of Connecticut records | 
  [mssa.ms.1452.xml](3677.xml) | mssa.ms.1452 | MS 1452 | World Academy of Art and Science records | 
+ [mssa.ms.1474.xml](3678.xml) | mssa.ms.1474 | MS 1474 | Alfred de Liagre papers | 
+ [mssa.ms.1475.xml](3679.xml) | mssa.ms.1475 | MS 1475 | Arnold Rosin papers | 
+ [mssa.ms.1476.xml](3680.xml) | mssa.ms.1476 | MS 1476 | Walter Huber Meyer papers | 
+ [mssa.ms.1479.xml](3681.xml) | mssa.ms.1479 | MS 1479 | Walter Jack Cunningham papers | 
+ [mssa.ms.1482.xml](3682.xml) | mssa.ms.1482 | MS 1482 | Madeline Earle Stanton papers | 
+ [mssa.ms.1486.xml](3683.xml) | mssa.ms.1486 | MS 1486 | David Andrew Hunter papers | 
+ [mssa.ms.1496.xml](3685.xml) | mssa.ms.1496 | MS 1496 | Robert Barclay Fetter papers | 
+ [mssa.ms.1502.xml](3686.xml) | mssa.ms.1502 | MS 1502 | Angola collection | 
+ [mssa.ms.1519.xml](3687.xml) | mssa.ms.1519 | MS 1519 | Ghana collection | 
+ [mssa.ms.1523.xml](3688.xml) | mssa.ms.1523 | MS 1523 | Kenya collection | 
+ [mssa.ms.1524.xml](3689.xml) | mssa.ms.1524 | MS 1524 | Lesotho collection | 
+ [mssa.ms.1533.xml](3690.xml) | mssa.ms.1533 | MS 1533 | Mozambique collection | 
+ [mssa.ms.1534.xml](3691.xml) | mssa.ms.1534 | MS 1534 | Namibia collection | 
+ [mssa.ms.1543.xml](3692.xml) | mssa.ms.1543 | MS 1543 | Sudan collection | 
+ [mssa.ms.1545.xml](3693.xml) | mssa.ms.1545 | MS 1545 | Tanzania collection | 
+ [mssa.ms.1548.xml](3694.xml) | mssa.ms.1548 | MS 1548 | Uganda collection | 
+ [mssa.ms.1550.xml](3695.xml) | mssa.ms.1550 | MS 1550 | Zambia collection | 
+ [mssa.ms.1551.xml](3696.xml) | mssa.ms.1551 | MS 1551 | Zimbabwe collection | 
  [mssa.ms.1296.xml](3784.xml) | mssa.ms.1296 | MS 1296 | Edith Banfield Jackson papers | 
  [mssa.ms.0004.xml](3785.xml) | mssa.ms.0004 | MS 4 | D. Cady Eaton papers | 
  [mssa.ms.0006.xml](3787.xml) | mssa.ms.0006 | MS 6 | Michael Meredith Hare papers | 
@@ -550,6 +620,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1453.xml](3895.xml) | mssa.ms.1453 | MS 1453 | Donald Chase Downes Papers | 
  [mssa.ms.1455.xml](3896.xml) | mssa.ms.1455 | MS 1455 | Ralph Heyward Isham papers | 
  [mssa.ms.1463.xml](3897.xml) | mssa.ms.1463 | MS 1463 | Leon Weliczker Wells papers | 
+ [mssa.ms.1470.xml](3898.xml) | mssa.ms.1470 | MS 1470 | Frank Alonzo McMullan papers | 
+ [mssa.ms.1490.xml](3899.xml) | mssa.ms.1490 | MS 1490 | William Singer Moorhead Papers | 
+ [mssa.ms.1495.xml](3900.xml) | mssa.ms.1495 | MS 1495 | American Jewish Society for Service records | 
  [mssa.ms.1216.xml](3911.xml) | mssa.ms.1216 | MS 1216 | Sargent family papers | 
  [mssa.ms.0689.xml](3918.xml) | mssa.ms.0689 | MS 689 | Enoch Fitch Burr papers | 
  [mssa.ms.0693.xml](3919.xml) | mssa.ms.0693 | MS 693 | George Frederick Gundelfinger papers | 
@@ -673,6 +746,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1344.xml](4082.xml) | mssa.ms.1344 | MS 1344 | Charles Edward Clark papers | 
  [mssa.ms.1446.xml](4084.xml) | mssa.ms.1446 | MS 1446 | Henry Stuart Hughes papers | 
  [mssa.ms.1459.xml](4085.xml) | mssa.ms.1459 | MS 1459 | Robert Sabatino Lopez papers | 
+ [mssa.ms.1498.xml](4086.xml) | mssa.ms.1498 | MS 1498 | John Devereaux Thompson papers | 
  [mssa.ms.0759.xml](4099.xml) | mssa.ms.0759 | MS 759 | Brown vs. Board of Education collection | 
  [mssa.ms.0029.xml](4102.xml) | mssa.ms.0029 | MS 29 | Account books collection | 
  [mssa.ms.0055.xml](4103.xml) | mssa.ms.0055 | MS 55 | Baldwin family papers | 
@@ -978,9 +1052,15 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1399.xml](4490.xml) | mssa.ms.1399 | MS 1399 | Horace Dwight Taft papers | 
  [mssa.ms.0858.xml](4492.xml) | mssa.ms.0858 | MS 858 | Abe Fortas papers | 
  [mssa.ms.1138.xml](4493.xml) | mssa.ms.1138 | MS 1138 | Margaret S. Mahler papers | 
+ [mssa.ms.1478.xml](4495.xml) | mssa.ms.1478 | MS 1478 | John Franklin Enders papers | 
+ [mssa.ms.1499.xml](4496.xml) | mssa.ms.1499 | MS 1499 | E. S. Reddy papers | 
  [mssa.ms.0441.xml](4501.xml) | mssa.ms.0441 | MS 441 | Charles Seymour papers | 
  [mssa.ms.1465.xml](4503.xml) | mssa.ms.1465 | MS 1465 | Gregory Breit papers | 
+ [mssa.ms.1471.xml](4504.xml) | mssa.ms.1471 | MS 1471 | Albert Waldo Snoke papers | 
+ [mssa.ms.1489.xml](4505.xml) | mssa.ms.1489 | MS 1489 | Eric Alfred Havelock papers | 
+ [mssa.ms.1500.xml](4506.xml) | mssa.ms.1500 | MS 1500 | South African Apartheid Collection | 
  [mssa.ms.1043.xml](4523.xml) | mssa.ms.1043 | MS 1043 | Harold Dwight Lasswell papers | 
+ [mssa.ms.1488.xml](4526.xml) | mssa.ms.1488 | MS 1488 | Brand Blanshard papers | 
  [mssa.ms.0299.xml](4546.xml) | mssa.ms.0299 | MS 299 | Anson Phelps Stokes family papers | 
  [mssa.ms.0222.xml](4547.xml) | mssa.ms.0222 | MS 222 | Jerome New Frank papers | 
  [mssa.ms.0592.xml](4548.xml) | mssa.ms.0592 | MS 592 | John Vliet Lindsay papers | 
