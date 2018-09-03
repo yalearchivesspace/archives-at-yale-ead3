@@ -607,6 +607,21 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1910.xml](3589.xml) | mssa.ms.1910 | MS 1910 | Andrew Davis collection on Jedwabne, Poland | 
  [mssa.ms.1911.xml](3590.xml) | mssa.ms.1911 | MS 1911 | Agudat Israel records | 
  [mssa.ms.1912.xml](3591.xml) | mssa.ms.1912 | MS 1912 | Andrew St. George papers | 
+ [mssa.ms.1914.xml](3592.xml) | mssa.ms.1914 | MS 1914 | Katharine R. H. Lyman papers | 
+ [mssa.ms.1916.xml](3593.xml) | mssa.ms.1916 | MS 1916 | Robbins Battell Anderson journals | 
+ [mssa.ms.1918.xml](3594.xml) | mssa.ms.1918 | MS 1918 | Swid Powell scrapbook | 
+ [mssa.ms.1919.xml](3595.xml) | mssa.ms.1919 | MS 1919 | Herman Martin memoirs | 
+ [mssa.ms.1921.xml](3596.xml) | mssa.ms.1921 | MS 1921 | Alois M. Nagler papers | 
+ [mssa.ms.1928.xml](3597.xml) | mssa.ms.1928 | MS 1928 | Anthony John Monk collection on Paul Rudolph | 
+ [mssa.ms.1931.xml](3598.xml) | mssa.ms.1931 | MS 1931 | American Movie Poster collection | 
+ [mssa.ms.1932.xml](3599.xml) | mssa.ms.1932 | MS 1932 | Herbert Edmund Crocker Boer War diaries | 
+ [mssa.ms.1933.xml](3600.xml) | mssa.ms.1933 | MS 1933 | Frederick Bland collection of sketches of the Yale Art and Architecture Building by Paul Rudolph | 
+ [mssa.ms.1934.xml](3601.xml) | mssa.ms.1934 | MS 1934 | Agudat Ahvah records | 
+ [mssa.ms.1936.xml](3602.xml) | mssa.ms.1936 | MS 1936 | Alsace Jewish manuscripts collection | 
+ [mssa.ms.1940.xml](3603.xml) | mssa.ms.1940 | MS 1940 | David Knapp papers | 
+ [mssa.ms.1941.xml](3604.xml) | mssa.ms.1941 | MS 1941 | Bondy family memoirs | 
+ [mssa.ms.1956.xml](3606.xml) | mssa.ms.1956 | MS 1956 | Harold C. Conklin papers | 
+ [mssa.ms.1957.xml](3607.xml) | mssa.ms.1957 | MS 1957 | Francis John Baker Boer War diary | 
  [mssa.ms.0133.xml](3608.xml) | mssa.ms.0133 | MS 133 | Champion Spalding Chase papers | 
  [mssa.ms.0273.xml](3609.xml) | mssa.ms.0273 | MS 273 | Edgar Laing Heermance papers | 
  [mssa.ms.0727.xml](3612.xml) | mssa.ms.0727 | MS 727 | Thomas Collier Platt papers | 
@@ -755,6 +770,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1890.xml](3774.xml) | mssa.ms.1890 | MS 1890 | Jews of Italy collection of manuscripts and documents | 
  [mssa.ms.1897.xml](3775.xml) | mssa.ms.1897 | MS 1897 | William Silver papers | 
  [mssa.ms.1908.xml](3776.xml) | mssa.ms.1908 | MS 1908 | Harold I. Seeley, Jr. collection on Cherry Grove | 
+ [mssa.ms.1913.xml](3777.xml) | mssa.ms.1913 | MS 1913 | Fortunoff Video Archive for Holocaust Testimonies collection of related documents and ephemera | 
+ [mssa.ms.1915.xml](3778.xml) | mssa.ms.1915 | MS 1915 | E. Dorrit Hoffleit papers | 
+ [mssa.ms.1922.xml](3779.xml) | mssa.ms.1922 | MS 1922 | Philip M. and Lorna Sarrel papers | 
+ [mssa.ms.1927.xml](3780.xml) | mssa.ms.1927 | MS 1927 | Phillips family papers | 
+ [mssa.ms.1946.xml](3782.xml) | mssa.ms.1946 | MS 1946 | Elizabeth Mills Brown files on New Haven architecture | 
+ [mssa.ms.1948.xml](3783.xml) | mssa.ms.1948 | MS 1948 | C. Ray Smith manuscript and research files on the Yale Art and Architecture Building by Paul Rudolph | 
  [mssa.ms.1296.xml](3784.xml) | mssa.ms.1296 | MS 1296 | Edith Banfield Jackson papers | 
  [mssa.ms.0004.xml](3785.xml) | mssa.ms.0004 | MS 4 | D. Cady Eaton papers | 
  [mssa.ms.0006.xml](3787.xml) | mssa.ms.0006 | MS 6 | Michael Meredith Hare papers | 
@@ -948,6 +969,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1847.xml](4018.xml) | mssa.ms.1847 | MS 1847 | Queer zines, magazines, and newspapers collection | 
  [mssa.ms.1878.xml](4019.xml) | mssa.ms.1878 | MS 1878 | New Haven and Connecticut lesbian, gay, bisexual, and transgender collection | 
  [mssa.ms.1884.xml](4020.xml) | mssa.ms.1884 | MS 1884 | Kevin Roche John Dinkeloo and Associates records | 
+ [mssa.ms.1923.xml](4021.xml) | mssa.ms.1923 | MS 1923 | Samuel Kravitt photographs and other materials | 
+ [mssa.ms.1955.xml](4023.xml) | mssa.ms.1955 | MS 1955 | Bloodroot Collective records | 
  [mssa.ms.0002.xml](4024.xml) | mssa.ms.0002 | MS 2 | James Rowland Angell personal papers | 
  [mssa.ms.0009.xml](4025.xml) | mssa.ms.0009 | MS 9 | James Hosmer Penniman collection | 
  [mssa.ms.0021.xml](4026.xml) | mssa.ms.0021 | MS 21 | Protestant Episcopal Bishops collection | 
@@ -1274,6 +1297,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0593.xml](4418.xml) | mssa.ms.0593 | MS 593 | Eero Saarinen collection | 
  [mssa.ms.0073.xml](4422.xml) | mssa.ms.0073 | MS 73 | Beer family papers | 
  [mssa.ms.0291.xml](4424.xml) | mssa.ms.0291 | MS 291 | William Graham Sumner papers | 
+ [mssa.ms.1979.xml](4425.xml) | mssa.ms.1979 | MS 1979 | Puebla archives | 
  [mssa.ms.0352.xml](4426.xml) | mssa.ms.0352 | MS 352 | Miscellaneous manuscripts collection | 
  [mssa.ms.0384.xml](4427.xml) | mssa.ms.0384 | MS 384 | Park family papers | 
  [mssa.ms.0440.xml](4428.xml) | mssa.ms.0440 | MS 440 | Seymour family papers | 
@@ -1376,31 +1400,49 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1874.xml](4853.xml) | mssa.ms.1874 | MS 1874 | Warren Platner records | 
  [mssa.ms.1880.xml](4854.xml) | mssa.ms.1880 | MS 1880 | Islamic fundamentalist audio recordings collection | 
  [mssa.ms.1900.xml](4855.xml) | mssa.ms.1900 | MS 1900 | Robert Wilbar Wilson papers | 
+ [mssa.ms.1939.xml](4856.xml) | mssa.ms.1939 | MS 1939 | Pelli Clarke Pelli Architects records | 
  [mssa.ms.1833.xml](4860.xml) | mssa.ms.1833 | MS 1833 | Douglas W. Rae papers | 
  [mssa.ms.1885.xml](4861.xml) | mssa.ms.1885 | MS 1885 | Balmori Associates records | 
+ [mssa.ms.1943.xml](4863.xml) | mssa.ms.1943 | MS 1943 | Lloyd G. Reynolds papers | 
  [mssa.ms.1825.xml](4864.xml) | mssa.ms.1825 | MS 1825 | North African Jewish manuscript collection | 
  [mssa.ms.1406.xml](4865.xml) | mssa.ms.1406 | MS 1406 | Stanley Milgram papers | 
  [mssa.ms.0874.xml](4866.xml) | mssa.ms.0874 | MS 874 | Robert Triffin papers | 
  [mssa.ms.0814.xml](4867.xml) | mssa.ms.0814 | MS 814 | William Bayard Hale papers | 
+ [mssa.ms.1920.xml](4868.xml) | mssa.ms.1920 | MS 1920 | The Glines records | 
  [mssa.ms.1821.xml](4869.xml) | mssa.ms.1821 | MS 1821 | Rights and Wrongs records | 
  [mssa.ms.1861.xml](4870.xml) | mssa.ms.1861 | MS 1861 | George A. Dudley papers | 
  [mssa.ms.1575.xml](4871.xml) | mssa.ms.1575 | MS 1575 | African postcard collection | 
+ [mssa.ms.1926.xml](4872.xml) | mssa.ms.1926 | MS 1926 | Bosnia and Herzegovina political ephemera collection | 
  [mssa.ms.1889.xml](4873.xml) | mssa.ms.1889 | MS 1889 | Robert J. Levine papers | 
  [mssa.ms.1375.xml](4874.xml) | mssa.ms.1375 | MS 1375 | Thomas Wilfred papers | 
  [mssa.ms.0318.xml](4875.xml) | mssa.ms.0318 | MS 318 | Richard Charles Lee papers | 
  [mssa.ms.0343.xml](4876.xml) | mssa.ms.0343 | MS 343 | Othniel Charles Marsh papers | 
+ [mssa.ms.1935.xml](4877.xml) | mssa.ms.1935 | MS 1935 | Djibril Tamsir Niane audiorecordings documenting Guinean oral traditions | 
+ [mssa.ms.1917.xml](4878.xml) | mssa.ms.1917 | MS 1917 | Lawrence Z. Freedman papers | 
  [mssa.ms.1592.xml](4879.xml) | mssa.ms.1592 | MS 1592 | James D. and Eleanor F. Newton papers | 
+ [mssa.ms.1954.xml](4880.xml) | mssa.ms.1954 | MS 1954 | Stanton Wheeler Papers | 
  [mssa.ms.0496a.xml](4881.xml) | mssa.ms.0496a | MS 496A | Loomis-Wilder Family papers | 
  [mssa.ms.0496c.xml](4883.xml) | mssa.ms.0496c | MS 496C | Mabel Loomis Todd papers | 
  [mssa.ms.0496e.xml](4885.xml) | mssa.ms.0496e | MS 496E | Todd-Bingham picture collection | 
  [mssa.ms.0496f.xml](4886.xml) | mssa.ms.0496f | MS 496F | Todd-Bingham memorabilia collection | 
+ [mssa.ms.1953.xml](4887.xml) | mssa.ms.1953 | MS 1953 | Greentree Stud and Stable records | 
  [mssa.ms.0198.xml](4888.xml) | mssa.ms.0198 | MS 198 | Edwin Rogers Embree papers | 
  [mssa.ms.0139.xml](4889.xml) | mssa.ms.0139 | MS 139 | Elisha Lord Cleaveland papers | 
  [mssa.ms.0031.xml](4894.xml) | mssa.ms.0031 | MS 31 | Thomas Sewall Adams papers | 
  [mssa.ms.1843.xml](4896.xml) | mssa.ms.1843 | MS 1843 | Albert Heman Ely, Jr. family papers | 
  [mssa.ms.1728.xml](4897.xml) | mssa.ms.1728 | MS 1728 | Maurice Durand papers | 
+ [mssa.ms.1960.xml](4899.xml) | mssa.ms.1960 | MS 1960 | <title render="italic">Al cantío de un gallo</title> radio program audio recordings | 
+ [mssa.ms.1952.xml](4900.xml) | mssa.ms.1952 | MS 1952 | John Hay Whitney Foundation records | 
+ [mssa.ms.1938.xml](4901.xml) | mssa.ms.1938 | MS 1938 | John Hay Whitney and Betsey Cushing Whitney family papers | 
+ [mssa.ms.1962.xml](4904.xml) | mssa.ms.1962 | MS 1962 | Love Makes a Family records | 
  [mssa.ms.1834.xml](4905.xml) | mssa.ms.1834 | MS 1834 | AIDS collection | 
+ [mssa.ms.1951.xml](4948.xml) | mssa.ms.1951 | MS 1951 | Russell E. Train correspondence with Charles A. Lindbergh regarding conservation issues | 
+ [mssa.ms.1958.xml](4949.xml) | mssa.ms.1958 | MS 1958 | Jay Katz papers | 
+ [mssa.ms.1963.xml](4951.xml) | mssa.ms.1963 | MS 1963 | Stephen Gendin papers | 
  [mssa.ms.0402.xml](5043.xml) | mssa.ms.0402 | MS 402 | Anson Phelps Stokes Autograph Collection | 
+ [mssa.ms.1968.xml](5082.xml) | mssa.ms.1968 | MS 1968 | Donald Horowitz collection on ethnic riots | 
+ [mssa.ms.1969.xml](5083.xml) | mssa.ms.1969 | MS 1969 | Richard W. Arnold drawings | 
+ [mssa.ms.1950.xml](5106.xml) | mssa.ms.1950 | MS 1950 | Mirjan R. Damaška papers on Yugoslavia, Serbia, and Montenegro | 
  [5117.xml](5117.xml) |  | HM 209 | Central America - Mosquito Kingdom Manuscript, from the Miscellaneous Manuscripts Collection [microform] | 
  [5118.xml](5118.xml) |  | HM 210 | William Jackson Papers [microform] | 
  [5119.xml](5119.xml) |  | HM 205 | Yale Football Scrapbooks 1876-1935[microform] | 
@@ -1435,6 +1477,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [5148.xml](5148.xml) |  | HM 223 | George Bird Grinnell Papers [microform] | 
  [5149.xml](5149.xml) |  | HM 256 | Peck and Phelps - letterbook 1826-1858 from the Miscellaneous Manuscripts Collection [microform] | 
  [5150.xml](5150.xml) |  | HM 241 | Harvey Williams Cushing - Brain Tumor Registry - Boxes 89-107 [microform] | 
+ [mssa.ms.1970.xml](5151.xml) | mssa.ms.1970 | MS 1970 | City and regional planning collection | 
  [5152.xml](5152.xml) |  | HM 248 | Mexico Collection [microform]  | 
  [5153.xml](5153.xml) |  | HM 247 | Andean Collecion [microform] | 
  [5154.xml](5154.xml) |  | HM 258 | Dean Gooderham Acheson Papers [microform] | 
@@ -1449,6 +1492,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [5163.xml](5163.xml) |  | HM 274 | Dan Beach and Cornelius Beach Bradley [microform] | 
  [5164.xml](5164.xml) |  | HM 273 | Marshall Reece Newport Papers [microform]  | 
  [5165.xml](5165.xml) |  | HM 271 | Jewish Communal Registers - (Pinkese kehilah) - selected volumes from boxes 18, 19 and 27 [microform] | 
+ [mssa.ms.1971.xml](5166.xml) | mssa.ms.1971 | MS 1971 | Gwathmey Siegel & Associates Architects, LLC, records | 
  [5168.xml](5168.xml) |  | HM 270 | Narcissus Graham Papers [microform] | 
  [5169.xml](5169.xml) |  | HM 269 | John Fee Embree Papers - Ascent of Waialeale, a personal narrative, in folder 2, box 4 [microform] | 
  [5170.xml](5170.xml) |  | HM 268 | Nathaniel W. Taylor - journal of a voyage to Hurd's Island 1857-1859 - from series I of the Yale Miscellaneous Manuscripts Collection [microform]  | 
@@ -1458,6 +1502,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [5174.xml](5174.xml) |  | HM 272 | Yale Directory Of Living Non-Graduates [microform] | 
  [5175.xml](5175.xml) |  | HM 195 | John Russell Pope - Yale University, a plan for it's future building [microform] | 
  [5176.xml](5176.xml) |  | HM 215 | David Ben-Gurion files - from the Ogden Reid Papers  [microform] | 
+ [mssa.ms.1961.xml](5177.xml) | mssa.ms.1961 | MS 1961 | Gay & Lesbian Advocates & Defenders records | 
  [5178.xml](5178.xml) |  | HM 188 | Denison Olmsted Papers - journal 1826 - 1841, includes lectures on chemistry delivered at the University of North Carolina [microform] | 
  [5179.xml](5179.xml) |  | HM 161 | Yale Freshman Crew - Logbook and Boat Club Records | 
  [5180.xml](5180.xml) |  | HM 266 | Yale Kappa Sigma Theta Records [microform] | 
@@ -1465,15 +1510,47 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1895.xml](5184.xml) | mssa.ms.1895 | MS 1895 | John Glines papers | 
  [5185.xml](5185.xml) |  | HM 255 | John Woodruff Ewell Papers - Correspondence, notes, landscape drawings, purchase orders, and other papers relating to the Book and Snake Society garden 1963-1969. From the Yale Miscellaneous Manuscripts Collection [microform]
   | 
+ [mssa.ms.1972.xml](5186.xml) | mssa.ms.1972 | MS 1972 | Latin American manuscripts bindings collection | 
+ [mssa.ms.1973.xml](5187.xml) | mssa.ms.1973 | MS 1973 | New York Architects/Frank Lupo Daniel Rowen records | 
+ [mssa.ms.1974.xml](5188.xml) | mssa.ms.1974 | MS 1974 | John Boswell papers | 
+ [mssa.ms.1975.xml](5189.xml) | mssa.ms.1975 | MS 1975 | Larry Townsend collection | 
  [5190.xml](5190.xml) |  | HM 278 | Jozef Pilsudski Institute & The Belvedere Archives | 
+ [mssa.ms.1977.xml](5191.xml) | mssa.ms.1977 | MS 1977 | Stephen G. Bickford papers | 
+ [mssa.ms.1978.xml](5192.xml) | mssa.ms.1978 | MS 1978 | Rich Hanley interview with Kevin Roche | 
  [5193.xml](5193.xml) |  | HM 280 | Frank Hulme Melland Papers [microform] | 
  [5194.xml](5194.xml) |  | HM 279 | Hubert Frank Mathews Papers [microform] | 
  [5195.xml](5195.xml) |  | HM 281 | Edmund T. Silk Papers [microform] | 
+ [mssa.ms.1976.xml](5196.xml) | mssa.ms.1976 | MS 1976 | John Hart Ely papers | 
+ [mssa.ms.1964.xml](5199.xml) | mssa.ms.1964 | MS 1964 | Joseph Verner Reed (1937-) papers | 
  [mssa.ms.1905.xml](5202.xml) | mssa.ms.1905 | MS 1905 | Japanese film ephemera collection | 
+ [mssa.ms.1983.xml](5204.xml) | mssa.ms.1983 | MS 1983 | Carroll Revue collection | 
+ [mssa.ms.1984.xml](5205.xml) | mssa.ms.1984 | MS 1984 | Robert Davies papers on Hanson Baldwin | 
+ [mssa.ms.1980.xml](5206.xml) | mssa.ms.1980 | MS 1980 | Burton Jesse Hendrick papers | 
+ [mssa.ms.1985.xml](5207.xml) | mssa.ms.1985 | MS 1985 | Christine Pattee papers on the New Haven women's liberation movement | 
+ [mssa.ms.1925.xml](5208.xml) | mssa.ms.1925 | MS 1925 | United Nations collection of Kofi Annan papers | 
+ [mssa.ms.1986.xml](5212.xml) | mssa.ms.1986 | MS 1986 | Dori Laub interviews of Holocaust survivors | 
  [5213.xml](5213.xml) |  | HM 282 | Eugene C. Gardner papers [microfilm] | 
+ [mssa.ms.1987.xml](5218.xml) | mssa.ms.1987 | MS 1987 | Journal of Sir Simonds d'Ewes (transcripts) | 
+ [mssa.ms.1989.xml](5221.xml) | mssa.ms.1989 | MS 1989 | Louis H. Pollak papers | 
+ [mssa.ms.1991.xml](5226.xml) | mssa.ms.1991 | MS 1991 | Cooper, Robertson & Partners records | 
+ [mssa.ms.1992.xml](5228.xml) | mssa.ms.1992 | MS 1992 | Elizabeth Cutter Morrow papers regarding Dwight W. Morrow, Jr. | 
+ [mssa.ms.1993.xml](5229.xml) | mssa.ms.1993 | MS 1993 | Ruth Barcan Marcus papers | 
+ [mssa.ms.1994.xml](5230.xml) | mssa.ms.1994 | MS 1994 | Theodore Martindale Purdy photographs and papers | 
+ [mssa.ms.1996.xml](5231.xml) | mssa.ms.1996 | MS 1996 | Lawrence Allderdice scrapbook | 
+ [mssa.ms.1990.xml](5233.xml) | mssa.ms.1990 | MS 1990 | Collection of Barack Obama ephemera from African countries | 
+ [mssa.ms.1998.xml](5236.xml) | mssa.ms.1998 | MS 1998 | Indonesian national legislative election collection | 
+ [mssa.ms.2001.xml](5238.xml) | mssa.ms.2001 | MS 2001 | William Jay Foltz African political ephemera collection | 
+ [mssa.ms.2003.xml](5239.xml) | mssa.ms.2003 | MS 2003 | South and Southeast Asian broadside collection | 
+ [mssa.ms.2004.xml](5240.xml) | mssa.ms.2004 | MS 2004 | Henry A. Kissinger papers, part III | 
+ [mssa.ms.2005.xml](5241.xml) | mssa.ms.2005 | MS 2005 | Richard Henry Green papers | 
+ [mssa.ms.1999.xml](5243.xml) | mssa.ms.1999 | MS 1999 | Richard Gamble Knight papers | 
  [mssa.ms.1820.xml](5247.xml) | mssa.ms.1820 | MS 1820 | Clark, Hall, and Peck and White Brothers records | 
+ [mssa.ms.2000.xml](5248.xml) | mssa.ms.2000 | MS 2000 | Family Equality Council records | 
+ [mssa.ms.1929.xml](5249.xml) | mssa.ms.1929 | MS 1929 | Edward R. Becker papers | 
  [5256.xml](5256.xml) |  | RU 1129 | Office of the Secretary, Yale University, video footage of the inauguration of Peter Salovey  | 
+ [mssa.ms.1995.xml](5260.xml) | mssa.ms.1995 | MS 1995 | Richard C. Levin papers | 
  [5280.xml](5280.xml) |  | RU 1139 | Charles Wayne Chase, Class of 1923, Sheffield Scientific School, photographs and memorabilia documenting life at Yale | 
+ [mssa.ms.1937.xml](5501.xml) | mssa.ms.1937 | MS 1937 | Jews of Germany collection of manuscripts and documents | 
  [5582.xml](5582.xml) |  | MS 2057 | Jean M. Conklin papers | 
  [5706.xml](5706.xml) |  | RU 1147 | Associate University Librarian for Program Development and Research, Yale University, records | 
  [5888.xml](5888.xml) |  | MS 2068 | James Gustave Speth papers | 
