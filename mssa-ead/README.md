@@ -486,6 +486,47 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1649.xml](3461.xml) | mssa.ms.1649 | MS 1649 | Peter B. Cooper papers | 
  [mssa.ms.1650.xml](3462.xml) | mssa.ms.1650 | MS 1650 | Holwell Walshe papers | 
  [mssa.ms.1651.xml](3463.xml) | mssa.ms.1651 | MS 1651 | Harry Kaigh Eustace papers | 
+ [mssa.ms.1653.xml](3464.xml) | mssa.ms.1653 | MS 1653 | Edward A. Bayne papers | 
+ [mssa.ms.1654.xml](3465.xml) | mssa.ms.1654 | MS 1654 | William R. Burt papers | 
+ [mssa.ms.1655.xml](3466.xml) | mssa.ms.1655 | MS 1655 | Philip Laurance Buttrick papers | 
+ [mssa.ms.1657.xml](3467.xml) | mssa.ms.1657 | MS 1657 | Alfred C. Burrill papers | 
+ [mssa.ms.1662.xml](3469.xml) | mssa.ms.1662 | MS 1662 | George S. Lewis papers | 
+ [mssa.ms.1663.xml](3470.xml) | mssa.ms.1663 | MS 1663 | Ralph Patteson Cobbold papers | 
+ [mssa.ms.1666.xml](3471.xml) | mssa.ms.1666 | MS 1666 | Frederick Townsend Ward papers | 
+ [mssa.ms.1667.xml](3472.xml) | mssa.ms.1667 | MS 1667 | Edward Clark Streeter Papers | 
+ [mssa.ms.1668.xml](3473.xml) | mssa.ms.1668 | MS 1668 | Mitchell family papers | 
+ [mssa.ms.1669.xml](3474.xml) | mssa.ms.1669 | MS 1669 | Vivian Prewett Papers | 
+ [mssa.ms.1671.xml](3475.xml) | mssa.ms.1671 | MS 1671 | Russian referendum collection | 
+ [mssa.ms.1672.xml](3476.xml) | mssa.ms.1672 | MS 1672 | Erik Seeger papers | 
+ [mssa.ms.1674.xml](3477.xml) | mssa.ms.1674 | MS 1674 | Thomas Davis Day papers | 
+ [mssa.ms.1678.xml](3478.xml) | mssa.ms.1678 | MS 1678 | Allen Grover records of the Committee on War Information | 
+ [mssa.ms.1679.xml](3479.xml) | mssa.ms.1679 | MS 1679 | Arnold Lerner papers | 
+ [mssa.ms.1680.xml](3480.xml) | mssa.ms.1680 | MS 1680 | Sidney Altman papers | 
+ [mssa.ms.1682.xml](3481.xml) | mssa.ms.1682 | MS 1682 | John Jacob Wolfe papers | 
+ [mssa.ms.1687.xml](3482.xml) | mssa.ms.1687 | MS 1687 | Ethel Grace Davis papers | 
+ [mssa.ms.1688.xml](3483.xml) | mssa.ms.1688 | MS 1688 | Institute for Mediterranean Affairs records | 
+ [mssa.ms.1690.xml](3484.xml) | mssa.ms.1690 | MS 1690 | F. W. Von Fricken papers | 
+ [mssa.ms.1692.xml](3485.xml) | mssa.ms.1692 | MS 1692 | Oscar Roth papers | 
+ [mssa.ms.1693.xml](3486.xml) | mssa.ms.1693 | MS 1693 | William W. L. Glenn papers | 
+ [mssa.ms.1694.xml](3487.xml) | mssa.ms.1694 | MS 1694 | Arthur Ebbert papers | 
+ [mssa.ms.1695.xml](3488.xml) | mssa.ms.1695 | MS 1695 | Hastings Center records | 
+ [mssa.ms.1704.xml](3491.xml) | mssa.ms.1704 | MS 1704 | Baker family papers | 
+ [mssa.ms.1707.xml](3492.xml) | mssa.ms.1707 | MS 1707 | Hubert Masarik papers | 
+ [mssa.ms.1708.xml](3493.xml) | mssa.ms.1708 | MS 1708 | Vasily Vladimir Sardanovski collection | 
+ [mssa.ms.1710.xml](3494.xml) | mssa.ms.1710 | MS 1710 | Ralph Mayer papers | 
+ [mssa.ms.1714.xml](3495.xml) | mssa.ms.1714 | MS 1714 | Boris Garfinkel papers | 
+ [mssa.ms.1715.xml](3496.xml) | mssa.ms.1715 | MS 1715 | Wilcox-Hand family papers | 
+ [mssa.ms.1716.xml](3497.xml) | mssa.ms.1716 | MS 1716 | Edwin R. Meiss papers | 
+ [mssa.ms.1720.xml](3498.xml) | mssa.ms.1720 | MS 1720 | Franklin Edgerton papers | 
+ [mssa.ms.1722.xml](3499.xml) | mssa.ms.1722 | MS 1722 | George Burbank Shattuck papers | 
+ [mssa.ms.1724.xml](3500.xml) | mssa.ms.1724 | MS 1724 | John Collins Pope papers | 
+ [mssa.ms.1726.xml](3501.xml) | mssa.ms.1726 | MS 1726 | Harold C. Geyer papers | 
+ [mssa.ms.1727.xml](3502.xml) | mssa.ms.1727 | MS 1727 | George VanTrump Burgess papers | 
+ [mssa.ms.1731.xml](3503.xml) | mssa.ms.1731 | MS 1731 | Donald F. Poulson papers | 
+ [mssa.ms.1732.xml](3504.xml) | mssa.ms.1732 | MS 1732 | Lewis Charles Everard papers | 
+ [mssa.ms.1734.xml](3505.xml) | mssa.ms.1734 | MS 1734 | Exiles Film Project records | 
+ [mssa.ms.1735.xml](3506.xml) | mssa.ms.1735 | MS 1735 | Peter Libassi papers | 
+ [mssa.ms.1736.xml](3507.xml) | mssa.ms.1736 | MS 1736 | Georges Claude May papers | 
  [mssa.ms.0133.xml](3608.xml) | mssa.ms.0133 | MS 133 | Champion Spalding Chase papers | 
  [mssa.ms.0273.xml](3609.xml) | mssa.ms.0273 | MS 273 | Edgar Laing Heermance papers | 
  [mssa.ms.0727.xml](3612.xml) | mssa.ms.0727 | MS 727 | Thomas Collier Platt papers | 
@@ -584,6 +625,28 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1638.xml](3718.xml) | mssa.ms.1638 | MS 1638 | Gibson A. Danes Papers | 
  [mssa.ms.1641.xml](3719.xml) | mssa.ms.1641 | MS 1641 | Alexander Duff Robertson papers | 
  [mssa.ms.1652.xml](3720.xml) | mssa.ms.1652 | MS 1652 | Leslie A. Falk papers | 
+ [mssa.ms.1656.xml](3721.xml) | mssa.ms.1656 | MS 1656 | New England Society of American Foresters records | 
+ [mssa.ms.1673.xml](3722.xml) | mssa.ms.1673 | MS 1673 | Harold Edward Woodsum, Jr. papers | 
+ [mssa.ms.1675.xml](3723.xml) | mssa.ms.1675 | MS 1675 | Robert Swanton Platt papers | 
+ [mssa.ms.1676.xml](3724.xml) | mssa.ms.1676 | MS 1676 | Frederick Charles Barghoorn papers | 
+ [mssa.ms.1677.xml](3725.xml) | mssa.ms.1677 | MS 1677 | Kenneth Donaldson papers | 
+ [mssa.ms.1683.xml](3726.xml) | mssa.ms.1683 | MS 1683 | Edward F. Dobihal, Jr. papers | 
+ [mssa.ms.1686.xml](3728.xml) | mssa.ms.1686 | MS 1686 | Robert B. Stevens Papers | 
+ [mssa.ms.1689.xml](3729.xml) | mssa.ms.1689 | MS 1689 | Veljko Bulajić collection | 
+ [mssa.ms.1691.xml](3730.xml) | mssa.ms.1691 | MS 1691 | Henry Ashby Turner, Jr. papers | 
+ [mssa.ms.1697.xml](3731.xml) | mssa.ms.1697 | MS 1697 | Thomas Anthony Thacher papers | 
+ [mssa.ms.1705.xml](3732.xml) | mssa.ms.1705 | MS 1705 | Bhatt family papers | 
+ [mssa.ms.1709.xml](3733.xml) | mssa.ms.1709 | MS 1709 | Sophia Tierong Zhu papers | 
+ [mssa.ms.1712.xml](3734.xml) | mssa.ms.1712 | MS 1712 | Arthur William Galston papers | 
+ [mssa.ms.1717.xml](3735.xml) | mssa.ms.1717 | MS 1717 | John Perry Miller papers | 
+ [mssa.ms.1718.xml](3736.xml) | mssa.ms.1718 | MS 1718 | T. F. Gilroy Daly papers | 
+ [mssa.ms.1719.xml](3737.xml) | mssa.ms.1719 | MS 1719 | Richard McGee Morse papers | 
+ [mssa.ms.1721.xml](3738.xml) | mssa.ms.1721 | MS 1721 | Hans W. Loewald papers | 
+ [mssa.ms.1723.xml](3739.xml) | mssa.ms.1723 | MS 1723 | Harold John Lutz papers | 
+ [mssa.ms.1725.xml](3740.xml) | mssa.ms.1725 | MS 1725 | Seventh American Forest Congress records | 
+ [mssa.ms.1729.xml](3741.xml) | mssa.ms.1729 | MS 1729 | Josephine Steiner Barger papers | 
+ [mssa.ms.1730.xml](3742.xml) | mssa.ms.1730 | MS 1730 | St. Luke's Hospice/Palliative Care Program records | 
+ [mssa.ms.1738.xml](3744.xml) | mssa.ms.1738 | MS 1738 | Robert Ralph Young papers | 
  [mssa.ms.1296.xml](3784.xml) | mssa.ms.1296 | MS 1296 | Edith Banfield Jackson papers | 
  [mssa.ms.0004.xml](3785.xml) | mssa.ms.0004 | MS 4 | D. Cady Eaton papers | 
  [mssa.ms.0006.xml](3787.xml) | mssa.ms.0006 | MS 6 | Michael Meredith Hare papers | 
@@ -692,6 +755,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1629.xml](3908.xml) | mssa.ms.1629 | MS 1629 | Thomas Goddard Bergin papers | 
  [mssa.ms.1636.xml](3909.xml) | mssa.ms.1636 | MS 1636 | Myres Smith McDougal papers | 
  [mssa.ms.1216.xml](3911.xml) | mssa.ms.1216 | MS 1216 | Sargent family papers | 
+ [mssa.ms.1660.xml](3912.xml) | mssa.ms.1660 | MS 1660 | Sally Provence papers | 
+ [mssa.ms.1699.xml](3913.xml) | mssa.ms.1699 | MS 1699 | Donaldson family papers | 
+ [mssa.ms.1703.xml](3915.xml) | mssa.ms.1703 | MS 1703 | United Nations Oral History Project interview transcripts and tapes | 
+ [mssa.ms.1737.xml](3917.xml) | mssa.ms.1737 | MS 1737 | <title xlink:type="simple" render="italic">Voices of the Children</title> footage and transcripts | 
  [mssa.ms.0689.xml](3918.xml) | mssa.ms.0689 | MS 689 | Enoch Fitch Burr papers | 
  [mssa.ms.0693.xml](3919.xml) | mssa.ms.0693 | MS 693 | George Frederick Gundelfinger papers | 
  [mssa.ms.0696.xml](3920.xml) | mssa.ms.0696 | MS 696 | Nathaniel Terry Bacon papers | 
@@ -818,6 +885,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1593.xml](4087.xml) | mssa.ms.1593 | MS 1593 | Amy L. Lettick papers | 
  [mssa.ms.1604.xml](4088.xml) | mssa.ms.1604 | MS 1604 | Karen Horney papers | 
  [mssa.ms.1617.xml](4089.xml) | mssa.ms.1617 | MS 1617 | Robert Abercrombie Lovett papers | 
+ [mssa.ms.1661.xml](4091.xml) | mssa.ms.1661 | MS 1661 | John Arthur Wilkinson papers | 
+ [mssa.ms.1681.xml](4092.xml) | mssa.ms.1681 | MS 1681 | Lifwynn Foundation records | 
+ [mssa.ms.1696.xml](4093.xml) | mssa.ms.1696 | MS 1696 | Coalition to Stop Trident records | 
  [mssa.ms.0759.xml](4099.xml) | mssa.ms.0759 | MS 759 | Brown vs. Board of Education collection | 
  [mssa.ms.0029.xml](4102.xml) | mssa.ms.0029 | MS 29 | Account books collection | 
  [mssa.ms.0055.xml](4103.xml) | mssa.ms.0055 | MS 55 | Baldwin family papers | 
@@ -1135,8 +1205,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1608.xml](4509.xml) | mssa.ms.1608 | MS 1608 | I. Richard Savage papers | 
  [mssa.ms.1622.xml](4511.xml) | mssa.ms.1622 | MS 1622 | Thomas Irwin Emerson papers | 
  [mssa.ms.1624.xml](4512.xml) | mssa.ms.1624 | MS 1624 | Hans Caspar Syz papers | 
+ [mssa.ms.1685.xml](4514.xml) | mssa.ms.1685 | MS 1685 | Deane Keller papers | 
+ [mssa.ms.1700.xml](4515.xml) | mssa.ms.1700 | MS 1700 | Dorothy M. Horstmann papers | 
+ [mssa.ms.1706.xml](4516.xml) | mssa.ms.1706 | MS 1706 | Frank J. Donner papers | 
  [mssa.ms.1043.xml](4523.xml) | mssa.ms.1043 | MS 1043 | Harold Dwight Lasswell papers | 
  [mssa.ms.1488.xml](4526.xml) | mssa.ms.1488 | MS 1488 | Brand Blanshard papers | 
+ [mssa.ms.1665.xml](4527.xml) | mssa.ms.1665 | MS 1665 | William Sloane Coffin, Jr. papers | 
  [mssa.ms.0299.xml](4546.xml) | mssa.ms.0299 | MS 299 | Anson Phelps Stokes family papers | 
  [mssa.ms.0222.xml](4547.xml) | mssa.ms.0222 | MS 222 | Jerome New Frank papers | 
  [mssa.ms.0592.xml](4548.xml) | mssa.ms.0592 | MS 592 | John Vliet Lindsay papers | 
@@ -1155,6 +1229,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1178.xml](4835.xml) | mssa.ms.1178 | MS 1178 | Frank Logue papers | 
  [mssa.ms.1393.xml](4837.xml) | mssa.ms.1393 | MS 1393 | Baruch Nadel papers | 
  [mssa.ms.1458.xml](4838.xml) | mssa.ms.1458 | MS 1458 | Whitelaw Reid papers | 
+ [mssa.ms.1670.xml](4846.xml) | mssa.ms.1670 | MS 1670 | Russian state military archives collection | 
+ [mssa.ms.1701.xml](4847.xml) | mssa.ms.1701 | MS 1701 | Palestinian liberation movement collection | 
+ [mssa.ms.1713.xml](4849.xml) | mssa.ms.1713 | MS 1713 | Abbott Lowell Cummings papers | 
  [mssa.ms.1406.xml](4865.xml) | mssa.ms.1406 | MS 1406 | Stanley Milgram papers | 
  [mssa.ms.0874.xml](4866.xml) | mssa.ms.0874 | MS 874 | Robert Triffin papers | 
  [mssa.ms.0814.xml](4867.xml) | mssa.ms.0814 | MS 814 | William Bayard Hale papers | 
@@ -1170,6 +1247,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0198.xml](4888.xml) | mssa.ms.0198 | MS 198 | Edwin Rogers Embree papers | 
  [mssa.ms.0139.xml](4889.xml) | mssa.ms.0139 | MS 139 | Elisha Lord Cleaveland papers | 
  [mssa.ms.0031.xml](4894.xml) | mssa.ms.0031 | MS 31 | Thomas Sewall Adams papers | 
+ [mssa.ms.1728.xml](4897.xml) | mssa.ms.1728 | MS 1728 | Maurice Durand papers | 
  [mssa.ms.0402.xml](5043.xml) | mssa.ms.0402 | MS 402 | Anson Phelps Stokes Autograph Collection | 
  [5117.xml](5117.xml) |  | HM 209 | Central America - Mosquito Kingdom Manuscript, from the Miscellaneous Manuscripts Collection [microform] | 
  [5118.xml](5118.xml) |  | HM 210 | William Jackson Papers [microform] | 
