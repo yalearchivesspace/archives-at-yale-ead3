@@ -5,6 +5,7 @@ You can browse our finding aids by clicking the links below
 
 Identifier | Description
 ---------- | ----------- |
+| [mssa-ead](mssa-ead/README.md) |  |
 | [ycba-ead](ycba-ead/README.md) |  |
 | [div-ead](div-ead/README.md) |  |
 | [arts-ead](arts-ead/README.md) |  |
