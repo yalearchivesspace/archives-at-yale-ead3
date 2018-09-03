@@ -444,6 +444,48 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1547.xml](3417.xml) | mssa.ms.1547 | MS 1547 | Tunisia collection | 
  [mssa.ms.1549.xml](3418.xml) | mssa.ms.1549 | MS 1549 | Congo (Democratic Republic) collection | 
  [mssa.ms.1552.xml](3419.xml) | mssa.ms.1552 | MS 1552 | Niger collection | 
+ [mssa.ms.1554.xml](3420.xml) | mssa.ms.1554 | MS 1554 | Comoros collection | 
+ [mssa.ms.1555.xml](3421.xml) | mssa.ms.1555 | MS 1555 | Western Sahara collection | 
+ [mssa.ms.1557.xml](3422.xml) | mssa.ms.1557 | MS 1557 | Lawrence Gordon collection | 
+ [mssa.ms.1558.xml](3423.xml) | mssa.ms.1558 | MS 1558 | Roy Welensky papers | 
+ [mssa.ms.1561.xml](3424.xml) | mssa.ms.1561 | MS 1561 | Esther Ziskind Weltman papers | 
+ [mssa.ms.1570.xml](3425.xml) | mssa.ms.1570 | MS 1570 | Dorothy Hadley Bayen papers | 
+ [mssa.ms.1571.xml](3426.xml) | mssa.ms.1571 | MS 1571 | African glass slides collection | 
+ [mssa.ms.1572.xml](3427.xml) | mssa.ms.1572 | MS 1572 | Henry M. Lyons papers | 
+ [mssa.ms.1573.xml](3428.xml) | mssa.ms.1573 | MS 1573 | Casimir Zagourski African postcards | 
+ [mssa.ms.1577.xml](3429.xml) | mssa.ms.1577 | MS 1577 | Forest fire poster collection | 
+ [mssa.ms.1578.xml](3430.xml) | mssa.ms.1578 | MS 1578 | Robert E. Upson family papers | 
+ [mssa.ms.1579.xml](3431.xml) | mssa.ms.1579 | MS 1579 | Dudley Landon Vaill papers | 
+ [mssa.ms.1582.xml](3432.xml) | mssa.ms.1582 | MS 1582 | Flürscheim family papers | 
+ [mssa.ms.1584.xml](3433.xml) | mssa.ms.1584 | MS 1584 | Watson Fredericks Kinney collection | 
+ [mssa.ms.1585.xml](3434.xml) | mssa.ms.1585 | MS 1585 | Adoption study records of the Child Development Center | 
+ [mssa.ms.1595.xml](3435.xml) | mssa.ms.1595 | MS 1595 | Halton Cheadle collection | 
+ [mssa.ms.1598.xml](3437.xml) | mssa.ms.1598 | MS 1598 | W. Todd Furniss papers | 
+ [mssa.ms.1599.xml](3438.xml) | mssa.ms.1599 | MS 1599 | Genrikh Markovich Deĭch papers | 
+ [mssa.ms.1602.xml](3439.xml) | mssa.ms.1602 | MS 1602 | E. Byrne Hackett papers | 
+ [mssa.ms.1606.xml](3440.xml) | mssa.ms.1606 | MS 1606 | Aris Phillips papers | 
+ [mssa.ms.1610.xml](3441.xml) | mssa.ms.1610 | MS 1610 | Eric Oldberg papers | 
+ [mssa.ms.1612.xml](3442.xml) | mssa.ms.1612 | MS 1612 | Henry Samuel Hacker collection | 
+ [mssa.ms.1613.xml](3443.xml) | mssa.ms.1613 | MS 1613 | Partido Nacionalista de Puerto Rico records | 
+ [mssa.ms.1615.xml](3445.xml) | mssa.ms.1615 | MS 1615 | Joseph Warner Angell papers | 
+ [mssa.ms.1616.xml](3446.xml) | mssa.ms.1616 | MS 1616 | John Kirby Davis papers | 
+ [mssa.ms.1618.xml](3447.xml) | mssa.ms.1618 | MS 1618 | A. C. Gilbert papers | 
+ [mssa.ms.1620.xml](3448.xml) | mssa.ms.1620 | MS 1620 | Hoyt Curtiss Pease papers | 
+ [mssa.ms.1626.xml](3449.xml) | mssa.ms.1626 | MS 1626 | Stephen Herbert Hymer papers | 
+ [mssa.ms.1628.xml](3450.xml) | mssa.ms.1628 | MS 1628 | Mary Loughlin Bierman papers | 
+ [mssa.ms.1632.xml](3451.xml) | mssa.ms.1632 | MS 1632 | Angelo Spinelli papers | 
+ [mssa.ms.1633.xml](3452.xml) | mssa.ms.1633 | MS 1633 | Brigid Maire Clark papers | 
+ [mssa.ms.1639.xml](3453.xml) | mssa.ms.1639 | MS 1639 | Justus Baldwin Lawrence papers | 
+ [mssa.ms.1640.xml](3454.xml) | mssa.ms.1640 | MS 1640 | Henry John May papers | 
+ [mssa.ms.1642.xml](3455.xml) | mssa.ms.1642 | MS 1642 | William Vernon Brelsford papers | 
+ [mssa.ms.1643.xml](3456.xml) | mssa.ms.1643 | MS 1643 | Thomas Heazle Parke papers | 
+ [mssa.ms.1644.xml](3457.xml) | mssa.ms.1644 | MS 1644 | Herbert Brewster Fuller papers | 
+ [mssa.ms.1645.xml](3458.xml) | mssa.ms.1645 | MS 1645 | Henry B. White papers | 
+ [mssa.ms.1647.xml](3459.xml) | mssa.ms.1647 | MS 1647 | Ernestine Wiedenbach papers | 
+ [mssa.ms.1648.xml](3460.xml) | mssa.ms.1648 | MS 1648 | William Vinal Caldwell papers | 
+ [mssa.ms.1649.xml](3461.xml) | mssa.ms.1649 | MS 1649 | Peter B. Cooper papers | 
+ [mssa.ms.1650.xml](3462.xml) | mssa.ms.1650 | MS 1650 | Holwell Walshe papers | 
+ [mssa.ms.1651.xml](3463.xml) | mssa.ms.1651 | MS 1651 | Harry Kaigh Eustace papers | 
  [mssa.ms.0133.xml](3608.xml) | mssa.ms.0133 | MS 133 | Champion Spalding Chase papers | 
  [mssa.ms.0273.xml](3609.xml) | mssa.ms.0273 | MS 273 | Edgar Laing Heermance papers | 
  [mssa.ms.0727.xml](3612.xml) | mssa.ms.0727 | MS 727 | Thomas Collier Platt papers | 
@@ -523,6 +565,25 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1548.xml](3694.xml) | mssa.ms.1548 | MS 1548 | Uganda collection | 
  [mssa.ms.1550.xml](3695.xml) | mssa.ms.1550 | MS 1550 | Zambia collection | 
  [mssa.ms.1551.xml](3696.xml) | mssa.ms.1551 | MS 1551 | Zimbabwe collection | 
+ [mssa.ms.1553.xml](3697.xml) | mssa.ms.1553 | MS 1553 | Nigeria collection | 
+ [mssa.ms.1560.xml](3698.xml) | mssa.ms.1560 | MS 1560 | Raymond M. Fuoss papers | 
+ [mssa.ms.1566.xml](3699.xml) | mssa.ms.1566 | MS 1566 | Roberta Yerkes Blanshard papers | 
+ [mssa.ms.1569.xml](3701.xml) | mssa.ms.1569 | MS 1569 | Brocklehurst family papers | 
+ [mssa.ms.1574.xml](3702.xml) | mssa.ms.1574 | MS 1574 | South African poster collection | 
+ [mssa.ms.1576.xml](3703.xml) | mssa.ms.1576 | MS 1576 | Franz B. Tuteur papers | 
+ [mssa.ms.1590.xml](3705.xml) | mssa.ms.1590 | MS 1590 | Moritz Schlesinger papers | 
+ [mssa.ms.1594.xml](3706.xml) | mssa.ms.1594 | MS 1594 | Paolo Valesio papers | 
+ [mssa.ms.1596.xml](3707.xml) | mssa.ms.1596 | MS 1596 | Rocko Michael Fasanella collection | 
+ [mssa.ms.1600.xml](3708.xml) | mssa.ms.1600 | MS 1600 | International Defense and Aid Fund for Southern Africa records | 
+ [mssa.ms.1609.xml](3711.xml) | mssa.ms.1609 | MS 1609 | Francis John Anscombe Papers | 
+ [mssa.ms.1619.xml](3712.xml) | mssa.ms.1619 | MS 1619 | Konstantin Reichardt papers | 
+ [mssa.ms.1623.xml](3714.xml) | mssa.ms.1623 | MS 1623 | Elizabeth Harriet Thomson papers | 
+ [mssa.ms.1627.xml](3715.xml) | mssa.ms.1627 | MS 1627 | Tanja Lorkovic papers | 
+ [mssa.ms.1630.xml](3716.xml) | mssa.ms.1630 | MS 1630 | Yale Collection of Herbert Matter | 
+ [mssa.ms.1634.xml](3717.xml) | mssa.ms.1634 | MS 1634 | James Robinson Smith papers | 
+ [mssa.ms.1638.xml](3718.xml) | mssa.ms.1638 | MS 1638 | Gibson A. Danes Papers | 
+ [mssa.ms.1641.xml](3719.xml) | mssa.ms.1641 | MS 1641 | Alexander Duff Robertson papers | 
+ [mssa.ms.1652.xml](3720.xml) | mssa.ms.1652 | MS 1652 | Leslie A. Falk papers | 
  [mssa.ms.1296.xml](3784.xml) | mssa.ms.1296 | MS 1296 | Edith Banfield Jackson papers | 
  [mssa.ms.0004.xml](3785.xml) | mssa.ms.0004 | MS 4 | D. Cady Eaton papers | 
  [mssa.ms.0006.xml](3787.xml) | mssa.ms.0006 | MS 6 | Michael Meredith Hare papers | 
@@ -623,6 +684,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1470.xml](3898.xml) | mssa.ms.1470 | MS 1470 | Frank Alonzo McMullan papers | 
  [mssa.ms.1490.xml](3899.xml) | mssa.ms.1490 | MS 1490 | William Singer Moorhead Papers | 
  [mssa.ms.1495.xml](3900.xml) | mssa.ms.1495 | MS 1495 | American Jewish Society for Service records | 
+ [mssa.ms.1556.xml](3901.xml) | mssa.ms.1556 | MS 1556 | South Africa historical collection | 
+ [mssa.ms.1583.xml](3903.xml) | mssa.ms.1583 | MS 1583 | Irving J. Lewis papers | 
+ [mssa.ms.1587.xml](3904.xml) | mssa.ms.1587 | MS 1587 | James Graham Phelps Stokes papers | 
+ [mssa.ms.1605.xml](3906.xml) | mssa.ms.1605 | MS 1605 | Frederick Albert Pottle papers | 
+ [mssa.ms.1625.xml](3907.xml) | mssa.ms.1625 | MS 1625 | Vincent Price papers | 
+ [mssa.ms.1629.xml](3908.xml) | mssa.ms.1629 | MS 1629 | Thomas Goddard Bergin papers | 
+ [mssa.ms.1636.xml](3909.xml) | mssa.ms.1636 | MS 1636 | Myres Smith McDougal papers | 
  [mssa.ms.1216.xml](3911.xml) | mssa.ms.1216 | MS 1216 | Sargent family papers | 
  [mssa.ms.0689.xml](3918.xml) | mssa.ms.0689 | MS 689 | Enoch Fitch Burr papers | 
  [mssa.ms.0693.xml](3919.xml) | mssa.ms.0693 | MS 693 | George Frederick Gundelfinger papers | 
@@ -747,6 +815,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1446.xml](4084.xml) | mssa.ms.1446 | MS 1446 | Henry Stuart Hughes papers | 
  [mssa.ms.1459.xml](4085.xml) | mssa.ms.1459 | MS 1459 | Robert Sabatino Lopez papers | 
  [mssa.ms.1498.xml](4086.xml) | mssa.ms.1498 | MS 1498 | John Devereaux Thompson papers | 
+ [mssa.ms.1593.xml](4087.xml) | mssa.ms.1593 | MS 1593 | Amy L. Lettick papers | 
+ [mssa.ms.1604.xml](4088.xml) | mssa.ms.1604 | MS 1604 | Karen Horney papers | 
+ [mssa.ms.1617.xml](4089.xml) | mssa.ms.1617 | MS 1617 | Robert Abercrombie Lovett papers | 
  [mssa.ms.0759.xml](4099.xml) | mssa.ms.0759 | MS 759 | Brown vs. Board of Education collection | 
  [mssa.ms.0029.xml](4102.xml) | mssa.ms.0029 | MS 29 | Account books collection | 
  [mssa.ms.0055.xml](4103.xml) | mssa.ms.0055 | MS 55 | Baldwin family papers | 
@@ -1059,6 +1130,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1471.xml](4504.xml) | mssa.ms.1471 | MS 1471 | Albert Waldo Snoke papers | 
  [mssa.ms.1489.xml](4505.xml) | mssa.ms.1489 | MS 1489 | Eric Alfred Havelock papers | 
  [mssa.ms.1500.xml](4506.xml) | mssa.ms.1500 | MS 1500 | South African Apartheid Collection | 
+ [mssa.ms.1559.xml](4507.xml) | mssa.ms.1559 | MS 1559 | South Africa collection | 
+ [mssa.ms.1586.xml](4508.xml) | mssa.ms.1586 | MS 1586 | Harold D. Gunn collection | 
+ [mssa.ms.1608.xml](4509.xml) | mssa.ms.1608 | MS 1608 | I. Richard Savage papers | 
+ [mssa.ms.1622.xml](4511.xml) | mssa.ms.1622 | MS 1622 | Thomas Irwin Emerson papers | 
+ [mssa.ms.1624.xml](4512.xml) | mssa.ms.1624 | MS 1624 | Hans Caspar Syz papers | 
  [mssa.ms.1043.xml](4523.xml) | mssa.ms.1043 | MS 1043 | Harold Dwight Lasswell papers | 
  [mssa.ms.1488.xml](4526.xml) | mssa.ms.1488 | MS 1488 | Brand Blanshard papers | 
  [mssa.ms.0299.xml](4546.xml) | mssa.ms.0299 | MS 299 | Anson Phelps Stokes family papers | 
@@ -1066,6 +1142,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0592.xml](4548.xml) | mssa.ms.0592 | MS 592 | John Vliet Lindsay papers | 
  [mssa.ms.0755.xml](4551.xml) | mssa.ms.0755 | MS 755 | Ogden Rogers Reid papers | 
  [mssa.ms.1367.xml](4553.xml) | mssa.ms.1367 | MS 1367 | Potter Stewart papers | 
+ [mssa.ms.1635.xml](4554.xml) | mssa.ms.1635 | MS 1635 | William Nelson Parker papers | 
  [mssa.ms.0466.xml](4556.xml) | mssa.ms.0466 | MS 466 | Edward Mandell House papers | 
  [mssa.ms.0628.xml](4557.xml) | mssa.ms.0628 | MS 628 | Chester Bowles papers | 
  [mssa.ms.1351.xml](4562.xml) | mssa.ms.1351 | MS 1351 | Pamphlet collection | 
@@ -1081,9 +1158,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1406.xml](4865.xml) | mssa.ms.1406 | MS 1406 | Stanley Milgram papers | 
  [mssa.ms.0874.xml](4866.xml) | mssa.ms.0874 | MS 874 | Robert Triffin papers | 
  [mssa.ms.0814.xml](4867.xml) | mssa.ms.0814 | MS 814 | William Bayard Hale papers | 
+ [mssa.ms.1575.xml](4871.xml) | mssa.ms.1575 | MS 1575 | African postcard collection | 
  [mssa.ms.1375.xml](4874.xml) | mssa.ms.1375 | MS 1375 | Thomas Wilfred papers | 
  [mssa.ms.0318.xml](4875.xml) | mssa.ms.0318 | MS 318 | Richard Charles Lee papers | 
  [mssa.ms.0343.xml](4876.xml) | mssa.ms.0343 | MS 343 | Othniel Charles Marsh papers | 
+ [mssa.ms.1592.xml](4879.xml) | mssa.ms.1592 | MS 1592 | James D. and Eleanor F. Newton papers | 
  [mssa.ms.0496a.xml](4881.xml) | mssa.ms.0496a | MS 496A | Loomis-Wilder Family papers | 
  [mssa.ms.0496c.xml](4883.xml) | mssa.ms.0496c | MS 496C | Mabel Loomis Todd papers | 
  [mssa.ms.0496e.xml](4885.xml) | mssa.ms.0496e | MS 496E | Todd-Bingham picture collection | 
