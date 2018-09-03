@@ -347,6 +347,51 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1369.xml](3312.xml) | mssa.ms.1369 | MS 1369 | Thomas Walter Swan papers | 
  [mssa.ms.1371.xml](3313.xml) | mssa.ms.1371 | MS 1371 | George Trumbull Ladd papers | 
  [mssa.ms.1374.xml](3315.xml) | mssa.ms.1374 | MS 1374 | Socialist Party of New Haven records | 
+ [mssa.ms.1377.xml](3316.xml) | mssa.ms.1377 | MS 1377 | Albert Cadwallader Worrell papers | 
+ [mssa.ms.1378.xml](3317.xml) | mssa.ms.1378 | MS 1378 | Viscount James Bryce papers | 
+ [mssa.ms.1381.xml](3318.xml) | mssa.ms.1381 | MS 1381 | Henry Schmidt papers | 
+ [mssa.ms.1382.xml](3319.xml) | mssa.ms.1382 | MS 1382 | Daggett family papers | 
+ [mssa.ms.1383.xml](3320.xml) | mssa.ms.1383 | MS 1383 | David C. Acheson papers | 
+ [mssa.ms.1384.xml](3321.xml) | mssa.ms.1384 | MS 1384 | Guillermo F. Pardo de Leygonier papers | 
+ [mssa.ms.1386.xml](3322.xml) | mssa.ms.1386 | MS 1386 | Arnold More Knight papers | 
+ [mssa.ms.1389.xml](3323.xml) | mssa.ms.1389 | MS 1389 | Schauffler family papers | 
+ [mssa.ms.1390.xml](3324.xml) | mssa.ms.1390 | MS 1390 | Nourse family papers | 
+ [mssa.ms.1392.xml](3325.xml) | mssa.ms.1392 | MS 1392 | Gordon James collection | 
+ [mssa.ms.1397.xml](3326.xml) | mssa.ms.1397 | MS 1397 | Henry Fitzhugh papers | 
+ [mssa.ms.1400.xml](3327.xml) | mssa.ms.1400 | MS 1400 | Henry Phelps Johnston papers | 
+ [mssa.ms.1401.xml](3328.xml) | mssa.ms.1401 | MS 1401 | Roger Kent papers | 
+ [mssa.ms.1402.xml](3329.xml) | mssa.ms.1402 | MS 1402 | John Killam Murphy papers | 
+ [mssa.ms.1407.xml](3330.xml) | mssa.ms.1407 | MS 1407 | Green and Smith Company collection | 
+ [mssa.ms.1408.xml](3331.xml) | mssa.ms.1408 | MS 1408 | Swift and Hine Company collection | 
+ [mssa.ms.1411.xml](3332.xml) | mssa.ms.1411 | MS 1411 | Paul Marvin Rudolph papers | 
+ [mssa.ms.1413.xml](3333.xml) | mssa.ms.1413 | MS 1413 | Richard Benson Sewall papers | 
+ [mssa.ms.1415.xml](3334.xml) | mssa.ms.1415 | MS 1415 | Stanley Russell McCandless papers | 
+ [mssa.ms.1417.xml](3335.xml) | mssa.ms.1417 | MS 1417 | Roland Arthur Paul papers | 
+ [mssa.ms.1421.xml](3336.xml) | mssa.ms.1421 | MS 1421 | Asa Burton papers | 
+ [mssa.ms.1422.xml](3337.xml) | mssa.ms.1422 | MS 1422 | Hipolite Dumas papers | 
+ [mssa.ms.1423.xml](3338.xml) | mssa.ms.1423 | MS 1423 | Konrad Liberman papers | 
+ [mssa.ms.1425.xml](3340.xml) | mssa.ms.1425 | MS 1425 | John C. Mersick family papers | 
+ [mssa.ms.1426.xml](3341.xml) | mssa.ms.1426 | MS 1426 | Stephen Dickerman Pardee family papers | 
+ [mssa.ms.1427.xml](3342.xml) | mssa.ms.1427 | MS 1427 | Benjamin Pearson family papers | 
+ [mssa.ms.1428.xml](3343.xml) | mssa.ms.1428 | MS 1428 | Eliza D. Pierson papers | 
+ [mssa.ms.1429.xml](3344.xml) | mssa.ms.1429 | MS 1429 | Gustave Reinhold Sattig collection | 
+ [mssa.ms.1431.xml](3346.xml) | mssa.ms.1431 | MS 1431 | Thomas Wood family papers | 
+ [mssa.ms.1440.xml](3349.xml) | mssa.ms.1440 | MS 1440 | Matthew Goniwe papers | 
+ [mssa.ms.1441.xml](3350.xml) | mssa.ms.1441 | MS 1441 | William Callyhan Robinson papers | 
+ [mssa.ms.1444.xml](3352.xml) | mssa.ms.1444 | MS 1444 | Anne Nelson-Black papers | 
+ [mssa.ms.1445.xml](3353.xml) | mssa.ms.1445 | MS 1445 | Wendell W. Mischler papers | 
+ [mssa.ms.1448.xml](3354.xml) | mssa.ms.1448 | MS 1448 | Milton Stahl Garver papers | 
+ [mssa.ms.1450.xml](3356.xml) | mssa.ms.1450 | MS 1450 | Allard K. Lowenstein collection | 
+ [mssa.ms.1451.xml](3357.xml) | mssa.ms.1451 | MS 1451 | Liverpool Emancipation Society records | 
+ [mssa.ms.1454.xml](3358.xml) | mssa.ms.1454 | MS 1454 | Frederic Rodrigo Gruger collection | 
+ [mssa.ms.1456.xml](3359.xml) | mssa.ms.1456 | MS 1456 | Carlo Tommaso Maillard de Tournon collection | 
+ [mssa.ms.1460.xml](3361.xml) | mssa.ms.1460 | MS 1460 | Johan William Colenbrander collection | 
+ [mssa.ms.1461.xml](3362.xml) | mssa.ms.1461 | MS 1461 | Beverlee A. Myers papers | 
+ [mssa.ms.1464.xml](3363.xml) | mssa.ms.1464 | MS 1464 | Elizabeth Hudson papers | 
+ [mssa.ms.1466.xml](3364.xml) | mssa.ms.1466 | MS 1466 | Charles Maurice Fleischner papers | 
+ [mssa.ms.1467.xml](3365.xml) | mssa.ms.1467 | MS 1467 | Boris Novikoff papers | 
+ [mssa.ms.1468.xml](3366.xml) | mssa.ms.1468 | MS 1468 | Stephen Blank papers | 
+ [mssa.ms.1469.xml](3367.xml) | mssa.ms.1469 | MS 1469 | James Allardyce Ewing papers | 
  [mssa.ms.0133.xml](3608.xml) | mssa.ms.0133 | MS 133 | Champion Spalding Chase papers | 
  [mssa.ms.0273.xml](3609.xml) | mssa.ms.0273 | MS 273 | Edgar Laing Heermance papers | 
  [mssa.ms.0727.xml](3612.xml) | mssa.ms.0727 | MS 727 | Thomas Collier Platt papers | 
@@ -393,6 +438,21 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1363.xml](3658.xml) | mssa.ms.1363 | MS 1363 | Catherine Strunk Amatruda papers | 
  [mssa.ms.1364.xml](3659.xml) | mssa.ms.1364 | MS 1364 | Metaphysical Society of America records | 
  [mssa.ms.1376.xml](3661.xml) | mssa.ms.1376 | MS 1376 | Martin Allen Pond papers | 
+ [mssa.ms.1380.xml](3662.xml) | mssa.ms.1380 | MS 1380 | Maurice Emile Henri Rotival papers | 
+ [mssa.ms.1385.xml](3663.xml) | mssa.ms.1385 | MS 1385 | Theodore L. Badger papers | 
+ [mssa.ms.1391.xml](3664.xml) | mssa.ms.1391 | MS 1391 | Emanuel Zeid New Haven slide collection | 
+ [mssa.ms.1395.xml](3665.xml) | mssa.ms.1395 | MS 1395 | Henri Peyre collection | 
+ [mssa.ms.1398.xml](3666.xml) | mssa.ms.1398 | MS 1398 | John R. Williams papers | 
+ [mssa.ms.1403.xml](3667.xml) | mssa.ms.1403 | MS 1403 | Foster and Company records | 
+ [mssa.ms.1405.xml](3668.xml) | mssa.ms.1405 | MS 1405 | Elihu Geer collection | 
+ [mssa.ms.1412.xml](3669.xml) | mssa.ms.1412 | MS 1412 | Kirby Smith Howlett, Jr. papers | 
+ [mssa.ms.1414.xml](3670.xml) | mssa.ms.1414 | MS 1414 | Dorothy Wildes Bridgwater papers | 
+ [mssa.ms.1419.xml](3671.xml) | mssa.ms.1419 | MS 1419 | Sergius Ossipovich Yakobson Papers | 
+ [mssa.ms.1420.xml](3672.xml) | mssa.ms.1420 | MS 1420 | Czechoslovakian press clippings collection | 
+ [mssa.ms.1432.xml](3673.xml) | mssa.ms.1432 | MS 1432 | Than Vanneman Ranck papers | 
+ [mssa.ms.1433.xml](3674.xml) | mssa.ms.1433 | MS 1433 | Douglas Joseph Bennet papers | 
+ [mssa.ms.1434.xml](3675.xml) | mssa.ms.1434 | MS 1434 | Save the Wetlands Committee, Inc. of Connecticut records | 
+ [mssa.ms.1452.xml](3677.xml) | mssa.ms.1452 | MS 1452 | World Academy of Art and Science records | 
  [mssa.ms.1296.xml](3784.xml) | mssa.ms.1296 | MS 1296 | Edith Banfield Jackson papers | 
  [mssa.ms.0004.xml](3785.xml) | mssa.ms.0004 | MS 4 | D. Cady Eaton papers | 
  [mssa.ms.0006.xml](3787.xml) | mssa.ms.0006 | MS 6 | Michael Meredith Hare papers | 
@@ -478,6 +538,18 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1261.xml](3883.xml) | mssa.ms.1261 | MS 1261 | Benjamin Pogrund papers | 
  [mssa.ms.1308.xml](3884.xml) | mssa.ms.1308 | MS 1308 | Annie Warburton Goodrich papers | 
  [mssa.ms.1333.xml](3885.xml) | mssa.ms.1333 | MS 1333 | John Rodman Paul papers | 
+ [mssa.ms.1388.xml](3886.xml) | mssa.ms.1388 | MS 1388 | George Bird Grinnell papers | 
+ [mssa.ms.1396.xml](3887.xml) | mssa.ms.1396 | MS 1396 | Joseph Stewart Fruton papers | 
+ [mssa.ms.1404.xml](3888.xml) | mssa.ms.1404 | MS 1404 | MASH (television program) scripts collection | 
+ [mssa.ms.1410.xml](3889.xml) | mssa.ms.1410 | MS 1410 | Helen Heffron Roberts papers | 
+ [mssa.ms.1416.xml](3890.xml) | mssa.ms.1416 | MS 1416 | Donald Oenslager papers | 
+ [mssa.ms.1418.xml](3891.xml) | mssa.ms.1418 | MS 1418 | Sergei Germanovich Pushkarev papers | 
+ [mssa.ms.1439.xml](3892.xml) | mssa.ms.1439 | MS 1439 | Tjalling Charles Koopmans papers | 
+ [mssa.ms.1443.xml](3893.xml) | mssa.ms.1443 | MS 1443 | Richard Kluger papers | 
+ [mssa.ms.1447.xml](3894.xml) | mssa.ms.1447 | MS 1447 | Mark Arthur May papers | 
+ [mssa.ms.1453.xml](3895.xml) | mssa.ms.1453 | MS 1453 | Donald Chase Downes Papers | 
+ [mssa.ms.1455.xml](3896.xml) | mssa.ms.1455 | MS 1455 | Ralph Heyward Isham papers | 
+ [mssa.ms.1463.xml](3897.xml) | mssa.ms.1463 | MS 1463 | Leon Weliczker Wells papers | 
  [mssa.ms.1216.xml](3911.xml) | mssa.ms.1216 | MS 1216 | Sargent family papers | 
  [mssa.ms.0689.xml](3918.xml) | mssa.ms.0689 | MS 689 | Enoch Fitch Burr papers | 
  [mssa.ms.0693.xml](3919.xml) | mssa.ms.0693 | MS 693 | George Frederick Gundelfinger papers | 
@@ -599,6 +671,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1238.xml](4080.xml) | mssa.ms.1238 | MS 1238 | Herman Miles Somers papers | 
  [mssa.ms.1251.xml](4081.xml) | mssa.ms.1251 | MS 1251 | Connecticut Public Health Association records | 
  [mssa.ms.1344.xml](4082.xml) | mssa.ms.1344 | MS 1344 | Charles Edward Clark papers | 
+ [mssa.ms.1446.xml](4084.xml) | mssa.ms.1446 | MS 1446 | Henry Stuart Hughes papers | 
+ [mssa.ms.1459.xml](4085.xml) | mssa.ms.1459 | MS 1459 | Robert Sabatino Lopez papers | 
  [mssa.ms.0759.xml](4099.xml) | mssa.ms.0759 | MS 759 | Brown vs. Board of Education collection | 
  [mssa.ms.0029.xml](4102.xml) | mssa.ms.0029 | MS 29 | Account books collection | 
  [mssa.ms.0055.xml](4103.xml) | mssa.ms.0055 | MS 55 | Baldwin family papers | 
@@ -901,9 +975,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1237.xml](4485.xml) | mssa.ms.1237 | MS 1237 | Anne Ramsay Somers papers | 
  [mssa.ms.1284.xml](4487.xml) | mssa.ms.1284 | MS 1284 | Ira Vaughan Hiscock papers | 
  [mssa.ms.1297.xml](4488.xml) | mssa.ms.1297 | MS 1297 | Arnold Carl Klebs papers | 
+ [mssa.ms.1399.xml](4490.xml) | mssa.ms.1399 | MS 1399 | Horace Dwight Taft papers | 
  [mssa.ms.0858.xml](4492.xml) | mssa.ms.0858 | MS 858 | Abe Fortas papers | 
  [mssa.ms.1138.xml](4493.xml) | mssa.ms.1138 | MS 1138 | Margaret S. Mahler papers | 
  [mssa.ms.0441.xml](4501.xml) | mssa.ms.0441 | MS 441 | Charles Seymour papers | 
+ [mssa.ms.1465.xml](4503.xml) | mssa.ms.1465 | MS 1465 | Gregory Breit papers | 
  [mssa.ms.1043.xml](4523.xml) | mssa.ms.1043 | MS 1043 | Harold Dwight Lasswell papers | 
  [mssa.ms.0299.xml](4546.xml) | mssa.ms.0299 | MS 299 | Anson Phelps Stokes family papers | 
  [mssa.ms.0222.xml](4547.xml) | mssa.ms.0222 | MS 222 | Jerome New Frank papers | 
@@ -920,6 +996,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1042.xml](4833.xml) | mssa.ms.1042 | MS 1042 | Luther Allan Weigle papers | 
  [mssa.ms.1101.xml](4834.xml) | mssa.ms.1101 | MS 1101 | Historical postcard collection | 
  [mssa.ms.1178.xml](4835.xml) | mssa.ms.1178 | MS 1178 | Frank Logue papers | 
+ [mssa.ms.1393.xml](4837.xml) | mssa.ms.1393 | MS 1393 | Baruch Nadel papers | 
+ [mssa.ms.1458.xml](4838.xml) | mssa.ms.1458 | MS 1458 | Whitelaw Reid papers | 
+ [mssa.ms.1406.xml](4865.xml) | mssa.ms.1406 | MS 1406 | Stanley Milgram papers | 
  [mssa.ms.0874.xml](4866.xml) | mssa.ms.0874 | MS 874 | Robert Triffin papers | 
  [mssa.ms.0814.xml](4867.xml) | mssa.ms.0814 | MS 814 | William Bayard Hale papers | 
  [mssa.ms.1375.xml](4874.xml) | mssa.ms.1375 | MS 1375 | Thomas Wilfred papers | 
