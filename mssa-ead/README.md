@@ -570,6 +570,43 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1819.xml](3550.xml) | mssa.ms.1819 | MS 1819 | Thomas Sieniewicz collection of glass negatives of New Haven | 
  [mssa.ms.1822.xml](3551.xml) | mssa.ms.1822 | MS 1822 | Richard Lawrence Day papers | 
  [mssa.ms.1823.xml](3552.xml) | mssa.ms.1823 | MS 1823 | Herbert Warren Wind papers | 
+ [mssa.ms.1828.xml](3553.xml) | mssa.ms.1828 | MS 1828 | Saint Petersburg (Russia) tercentennial collection | 
+ [mssa.ms.1829.xml](3554.xml) | mssa.ms.1829 | MS 1829 | Latin American poster collection | 
+ [mssa.ms.1835.xml](3555.xml) | mssa.ms.1835 | MS 1835 | Frederic Lawrence Holmes papers | 
+ [mssa.ms.1841.xml](3556.xml) | mssa.ms.1841 | MS 1841 | Constance Welch papers | 
+ [mssa.ms.1842.xml](3557.xml) | mssa.ms.1842 | MS 1842 | King-Lui Wu papers | 
+ [mssa.ms.1845.xml](3558.xml) | mssa.ms.1845 | MS 1845 | Irving Miller collection of World War II posters | 
+ [mssa.ms.1849.xml](3559.xml) | mssa.ms.1849 | MS 1849 | Radical sex and leather collection | 
+ [mssa.ms.1852.xml](3561.xml) | mssa.ms.1852 | MS 1852 | Homophobia collection | 
+ [mssa.ms.1853.xml](3562.xml) | mssa.ms.1853 | MS 1853 | Luther Noss papers | 
+ [mssa.ms.1855.xml](3563.xml) | mssa.ms.1855 | MS 1855 | Center for Information on America records | 
+ [mssa.ms.1856.xml](3564.xml) | mssa.ms.1856 | MS 1856 | Alfred Stephen McCarthy papers | 
+ [mssa.ms.1858.xml](3565.xml) | mssa.ms.1858 | MS 1858 | William Louis Gaines papers | 
+ [mssa.ms.1860.xml](3566.xml) | mssa.ms.1860 | MS 1860 | Arthur Williams Wright papers | 
+ [mssa.ms.1863.xml](3567.xml) | mssa.ms.1863 | MS 1863 | Ruth Adele Williams papers | 
+ [mssa.ms.1865.xml](3568.xml) | mssa.ms.1865 | MS 1865 | Immanuel Wallerstein collection of African liberation movement posters | 
+ [mssa.ms.1870.xml](3569.xml) | mssa.ms.1870 | MS 1870 | Robert E. Apfel papers | 
+ [mssa.ms.1871.xml](3570.xml) | mssa.ms.1871 | MS 1871 | Richard Ruggles papers | 
+ [mssa.ms.1872.xml](3571.xml) | mssa.ms.1872 | MS 1872 | Vincent Joseph Scully writings | 
+ [mssa.ms.1881.xml](3573.xml) | mssa.ms.1881 | MS 1881 | Richard W. Cutler papers | 
+ [mssa.ms.1882.xml](3574.xml) | mssa.ms.1882 | MS 1882 | Policy Sciences Center records | 
+ [mssa.ms.1883.xml](3575.xml) | mssa.ms.1883 | MS 1883 | Matthew Charles Rosenblum papers | 
+ [mssa.ms.1886.xml](3576.xml) | mssa.ms.1886 | MS 1886 | British fascist, anti-fascist, and anti-Semitic printed ephemera collection | 
+ [mssa.ms.1891.xml](3577.xml) | mssa.ms.1891 | MS 1891 | James Wilder Green papers | 
+ [mssa.ms.1892.xml](3578.xml) | mssa.ms.1892 | MS 1892 | David J. Piel papers | 
+ [mssa.ms.1893.xml](3579.xml) | mssa.ms.1893 | MS 1893 | David Cushman Twichell papers | 
+ [mssa.ms.1894.xml](3580.xml) | mssa.ms.1894 | MS 1894 | Lester Clyde Lichty reports and correspondence | 
+ [mssa.ms.1896.xml](3581.xml) | mssa.ms.1896 | MS 1896 | Aaron Lerner papers | 
+ [mssa.ms.1898.xml](3582.xml) | mssa.ms.1898 | MS 1898 | Postcards and printed ephemera documenting the Italian occupation of Ethiopia | 
+ [mssa.ms.1899.xml](3583.xml) | mssa.ms.1899 | MS 1899 | Postcards documenting the German occupation of East Africa | 
+ [mssa.ms.1901.xml](3584.xml) | mssa.ms.1901 | MS 1901 | Robert P. Joyce papers | 
+ [mssa.ms.1902.xml](3585.xml) | mssa.ms.1902 | MS 1902 | Paul Jablonski videotapes of the Cherry Bowl Volleyball Tournament | 
+ [mssa.ms.1903.xml](3586.xml) | mssa.ms.1903 | MS 1903 | Paul C. Daniels Papers | 
+ [mssa.ms.1904.xml](3587.xml) | mssa.ms.1904 | MS 1904 | Connecticut Society for Mental Hygiene records | 
+ [mssa.ms.1906.xml](3588.xml) | mssa.ms.1906 | MS 1906 | Ida Allien Pyland photograph album and correspondence | 
+ [mssa.ms.1910.xml](3589.xml) | mssa.ms.1910 | MS 1910 | Andrew Davis collection on Jedwabne, Poland | 
+ [mssa.ms.1911.xml](3590.xml) | mssa.ms.1911 | MS 1911 | Agudat Israel records | 
+ [mssa.ms.1912.xml](3591.xml) | mssa.ms.1912 | MS 1912 | Andrew St. George papers | 
  [mssa.ms.0133.xml](3608.xml) | mssa.ms.0133 | MS 133 | Champion Spalding Chase papers | 
  [mssa.ms.0273.xml](3609.xml) | mssa.ms.0273 | MS 273 | Edgar Laing Heermance papers | 
  [mssa.ms.0727.xml](3612.xml) | mssa.ms.0727 | MS 727 | Thomas Collier Platt papers | 
@@ -705,6 +742,19 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1808.xml](3759.xml) | mssa.ms.1808 | MS 1808 | Family Counseling of Greater New Haven, Inc. records | 
  [mssa.ms.1809.xml](3760.xml) | mssa.ms.1809 | MS 1809 | Albert J. Solnit papers | 
  [mssa.ms.1824.xml](3761.xml) | mssa.ms.1824 | MS 1824 | Jewish communal registers (Pinkese kehilah) collection | 
+ [mssa.ms.1837.xml](3763.xml) | mssa.ms.1837 | MS 1837 | Michael Roemer papers | 
+ [mssa.ms.1848.xml](3765.xml) | mssa.ms.1848 | MS 1848 | Transgender collection | 
+ [mssa.ms.1850.xml](3766.xml) | mssa.ms.1850 | MS 1850 | Physique collection | 
+ [mssa.ms.1854.xml](3767.xml) | mssa.ms.1854 | MS 1854 | Holocaust photograph collection | 
+ [mssa.ms.1857.xml](3768.xml) | mssa.ms.1857 | MS 1857 | John Calmann papers | 
+ [mssa.ms.1866.xml](3769.xml) | mssa.ms.1866 | MS 1866 | Martin J. Klein papers | 
+ [mssa.ms.1869.xml](3770.xml) | mssa.ms.1869 | MS 1869 | Boris I. Bittker papers | 
+ [mssa.ms.1873.xml](3771.xml) | mssa.ms.1873 | MS 1873 | John W. Cook interviews with architects | 
+ [mssa.ms.1875.xml](3772.xml) | mssa.ms.1875 | MS 1875 | ʻAlī Kassār papers | 
+ [mssa.ms.1879.xml](3773.xml) | mssa.ms.1879 | MS 1879 | Ephemera collection | 
+ [mssa.ms.1890.xml](3774.xml) | mssa.ms.1890 | MS 1890 | Jews of Italy collection of manuscripts and documents | 
+ [mssa.ms.1897.xml](3775.xml) | mssa.ms.1897 | MS 1897 | William Silver papers | 
+ [mssa.ms.1908.xml](3776.xml) | mssa.ms.1908 | MS 1908 | Harold I. Seeley, Jr. collection on Cherry Grove | 
  [mssa.ms.1296.xml](3784.xml) | mssa.ms.1296 | MS 1296 | Edith Banfield Jackson papers | 
  [mssa.ms.0004.xml](3785.xml) | mssa.ms.0004 | MS 4 | D. Cady Eaton papers | 
  [mssa.ms.0006.xml](3787.xml) | mssa.ms.0006 | MS 6 | Michael Meredith Hare papers | 
@@ -815,7 +865,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1216.xml](3911.xml) | mssa.ms.1216 | MS 1216 | Sargent family papers | 
  [mssa.ms.1660.xml](3912.xml) | mssa.ms.1660 | MS 1660 | Sally Provence papers | 
  [mssa.ms.1699.xml](3913.xml) | mssa.ms.1699 | MS 1699 | Donaldson family papers | 
+ [mssa.ms.1887.xml](3914.xml) | mssa.ms.1887 | MS 1887 | Hyman I. Feldman records | 
  [mssa.ms.1703.xml](3915.xml) | mssa.ms.1703 | MS 1703 | United Nations Oral History Project interview transcripts and tapes | 
+ [mssa.ms.1909.xml](3916.xml) | mssa.ms.1909 | MS 1909 | Holocaust Survivors Film Project records | 
  [mssa.ms.1737.xml](3917.xml) | mssa.ms.1737 | MS 1737 | <title xlink:type="simple" render="italic">Voices of the Children</title> footage and transcripts | 
  [mssa.ms.0689.xml](3918.xml) | mssa.ms.0689 | MS 689 | Enoch Fitch Burr papers | 
  [mssa.ms.0693.xml](3919.xml) | mssa.ms.0693 | MS 693 | George Frederick Gundelfinger papers | 
@@ -892,6 +944,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1784.xml](4014.xml) | mssa.ms.1784 | MS 1784 | Brooks family papers | 
  [mssa.ms.1785.xml](4015.xml) | mssa.ms.1785 | MS 1785 | Helen Coley Nauts papers | 
  [mssa.ms.1800.xml](4016.xml) | mssa.ms.1800 | MS 1800 | ACLU of Ohio Kent State Project records | 
+ [mssa.ms.1832.xml](4017.xml) | mssa.ms.1832 | MS 1832 | William Dowdell Denson papers | 
+ [mssa.ms.1847.xml](4018.xml) | mssa.ms.1847 | MS 1847 | Queer zines, magazines, and newspapers collection | 
+ [mssa.ms.1878.xml](4019.xml) | mssa.ms.1878 | MS 1878 | New Haven and Connecticut lesbian, gay, bisexual, and transgender collection | 
+ [mssa.ms.1884.xml](4020.xml) | mssa.ms.1884 | MS 1884 | Kevin Roche John Dinkeloo and Associates records | 
  [mssa.ms.0002.xml](4024.xml) | mssa.ms.0002 | MS 2 | James Rowland Angell personal papers | 
  [mssa.ms.0009.xml](4025.xml) | mssa.ms.0009 | MS 9 | James Hosmer Penniman collection | 
  [mssa.ms.0021.xml](4026.xml) | mssa.ms.0021 | MS 21 | Protestant Episcopal Bishops collection | 
@@ -956,6 +1012,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1681.xml](4092.xml) | mssa.ms.1681 | MS 1681 | Lifwynn Foundation records | 
  [mssa.ms.1696.xml](4093.xml) | mssa.ms.1696 | MS 1696 | Coalition to Stop Trident records | 
  [mssa.ms.1777.xml](4094.xml) | mssa.ms.1777 | MS 1777 | Spain collection | 
+ [mssa.ms.1831.xml](4095.xml) | mssa.ms.1831 | MS 1831 | Candida Scott Piel papers | 
+ [mssa.ms.1846.xml](4097.xml) | mssa.ms.1846 | MS 1846 | Lesbian and gay liberation collection | 
+ [mssa.ms.1864.xml](4098.xml) | mssa.ms.1864 | MS 1864 | Harvey Fierstein papers | 
  [mssa.ms.0759.xml](4099.xml) | mssa.ms.0759 | MS 759 | Brown vs. Board of Education collection | 
  [mssa.ms.0029.xml](4102.xml) | mssa.ms.0029 | MS 29 | Account books collection | 
  [mssa.ms.0055.xml](4103.xml) | mssa.ms.0055 | MS 55 | Baldwin family papers | 
@@ -1242,6 +1301,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0421.xml](4463.xml) | mssa.ms.0421 | MS 421 | James Harvey Rogers papers | 
  [mssa.ms.0712.xml](4464.xml) | mssa.ms.0712 | MS 712 | Franklin Bowditch Dexter papers | 
  [mssa.ms.0762.xml](4466.xml) | mssa.ms.0762 | MS 762 | Alexander Mordecai Bickel papers | 
+ [mssa.ms.1868.xml](4469.xml) | mssa.ms.1868 | MS 1868 | Arabic film poster collection | 
  [mssa.ms.0794.xml](4470.xml) | mssa.ms.0794 | MS 794 | Lars Onsager papers | 
  [mssa.ms.0804.xml](4471.xml) | mssa.ms.0804 | MS 804 | Kent State collection | 
  [mssa.ms.0811.xml](4472.xml) | mssa.ms.0811 | MS 811 | Arthur Jack Viseltear papers | 
@@ -1281,10 +1341,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1796.xml](4519.xml) | mssa.ms.1796 | MS 1796 | David A. Kessler papers | 
  [mssa.ms.1799.xml](4520.xml) | mssa.ms.1799 | MS 1799 | General Motors documents relating to World War II corporate activities in Europe | 
  [mssa.ms.1814.xml](4521.xml) | mssa.ms.1814 | MS 1814 | New Haven Redevelopment Agency records | 
+ [mssa.ms.1836.xml](4522.xml) | mssa.ms.1836 | MS 1836 | Bruce Cratsley papers | 
  [mssa.ms.1043.xml](4523.xml) | mssa.ms.1043 | MS 1043 | Harold Dwight Lasswell papers | 
  [mssa.ms.1488.xml](4526.xml) | mssa.ms.1488 | MS 1488 | Brand Blanshard papers | 
  [mssa.ms.1665.xml](4527.xml) | mssa.ms.1665 | MS 1665 | William Sloane Coffin, Jr. papers | 
  [mssa.ms.1818.xml](4528.xml) | mssa.ms.1818 | MS 1818 | South Africa Now collection | 
+ [mssa.ms.1862.xml](4529.xml) | mssa.ms.1862 | MS 1862 | David Benjamin Mixner papers | 
  [mssa.ms.0299.xml](4546.xml) | mssa.ms.0299 | MS 299 | Anson Phelps Stokes family papers | 
  [mssa.ms.0222.xml](4547.xml) | mssa.ms.0222 | MS 222 | Jerome New Frank papers | 
  [mssa.ms.0592.xml](4548.xml) | mssa.ms.0592 | MS 592 | John Vliet Lindsay papers | 
@@ -1308,11 +1370,22 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1670.xml](4846.xml) | mssa.ms.1670 | MS 1670 | Russian state military archives collection | 
  [mssa.ms.1701.xml](4847.xml) | mssa.ms.1701 | MS 1701 | Palestinian liberation movement collection | 
  [mssa.ms.1713.xml](4849.xml) | mssa.ms.1713 | MS 1713 | Abbott Lowell Cummings papers | 
+ [mssa.ms.1838.xml](4850.xml) | mssa.ms.1838 | MS 1838 | Richard Kelly papers | 
+ [mssa.ms.1844.xml](4851.xml) | mssa.ms.1844 | MS 1844 | Centerbrook Architects and Planners records | 
+ [mssa.ms.1859.xml](4852.xml) | mssa.ms.1859 | MS 1859 | Robert A. M. Stern Architects records | 
+ [mssa.ms.1874.xml](4853.xml) | mssa.ms.1874 | MS 1874 | Warren Platner records | 
+ [mssa.ms.1880.xml](4854.xml) | mssa.ms.1880 | MS 1880 | Islamic fundamentalist audio recordings collection | 
+ [mssa.ms.1900.xml](4855.xml) | mssa.ms.1900 | MS 1900 | Robert Wilbar Wilson papers | 
+ [mssa.ms.1833.xml](4860.xml) | mssa.ms.1833 | MS 1833 | Douglas W. Rae papers | 
+ [mssa.ms.1885.xml](4861.xml) | mssa.ms.1885 | MS 1885 | Balmori Associates records | 
+ [mssa.ms.1825.xml](4864.xml) | mssa.ms.1825 | MS 1825 | North African Jewish manuscript collection | 
  [mssa.ms.1406.xml](4865.xml) | mssa.ms.1406 | MS 1406 | Stanley Milgram papers | 
  [mssa.ms.0874.xml](4866.xml) | mssa.ms.0874 | MS 874 | Robert Triffin papers | 
  [mssa.ms.0814.xml](4867.xml) | mssa.ms.0814 | MS 814 | William Bayard Hale papers | 
  [mssa.ms.1821.xml](4869.xml) | mssa.ms.1821 | MS 1821 | Rights and Wrongs records | 
+ [mssa.ms.1861.xml](4870.xml) | mssa.ms.1861 | MS 1861 | George A. Dudley papers | 
  [mssa.ms.1575.xml](4871.xml) | mssa.ms.1575 | MS 1575 | African postcard collection | 
+ [mssa.ms.1889.xml](4873.xml) | mssa.ms.1889 | MS 1889 | Robert J. Levine papers | 
  [mssa.ms.1375.xml](4874.xml) | mssa.ms.1375 | MS 1375 | Thomas Wilfred papers | 
  [mssa.ms.0318.xml](4875.xml) | mssa.ms.0318 | MS 318 | Richard Charles Lee papers | 
  [mssa.ms.0343.xml](4876.xml) | mssa.ms.0343 | MS 343 | Othniel Charles Marsh papers | 
@@ -1324,7 +1397,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0198.xml](4888.xml) | mssa.ms.0198 | MS 198 | Edwin Rogers Embree papers | 
  [mssa.ms.0139.xml](4889.xml) | mssa.ms.0139 | MS 139 | Elisha Lord Cleaveland papers | 
  [mssa.ms.0031.xml](4894.xml) | mssa.ms.0031 | MS 31 | Thomas Sewall Adams papers | 
+ [mssa.ms.1843.xml](4896.xml) | mssa.ms.1843 | MS 1843 | Albert Heman Ely, Jr. family papers | 
  [mssa.ms.1728.xml](4897.xml) | mssa.ms.1728 | MS 1728 | Maurice Durand papers | 
+ [mssa.ms.1834.xml](4905.xml) | mssa.ms.1834 | MS 1834 | AIDS collection | 
  [mssa.ms.0402.xml](5043.xml) | mssa.ms.0402 | MS 402 | Anson Phelps Stokes Autograph Collection | 
  [5117.xml](5117.xml) |  | HM 209 | Central America - Mosquito Kingdom Manuscript, from the Miscellaneous Manuscripts Collection [microform] | 
  [5118.xml](5118.xml) |  | HM 210 | William Jackson Papers [microform] | 
@@ -1387,12 +1462,14 @@ EAD | EAD ID | Identifier | Title | Other versions
  [5179.xml](5179.xml) |  | HM 161 | Yale Freshman Crew - Logbook and Boat Club Records | 
  [5180.xml](5180.xml) |  | HM 266 | Yale Kappa Sigma Theta Records [microform] | 
  [5181.xml](5181.xml) |  | HM 203 | Yale Architectual Archives - Series I [microform] | 
+ [mssa.ms.1895.xml](5184.xml) | mssa.ms.1895 | MS 1895 | John Glines papers | 
  [5185.xml](5185.xml) |  | HM 255 | John Woodruff Ewell Papers - Correspondence, notes, landscape drawings, purchase orders, and other papers relating to the Book and Snake Society garden 1963-1969. From the Yale Miscellaneous Manuscripts Collection [microform]
   | 
  [5190.xml](5190.xml) |  | HM 278 | Jozef Pilsudski Institute & The Belvedere Archives | 
  [5193.xml](5193.xml) |  | HM 280 | Frank Hulme Melland Papers [microform] | 
  [5194.xml](5194.xml) |  | HM 279 | Hubert Frank Mathews Papers [microform] | 
  [5195.xml](5195.xml) |  | HM 281 | Edmund T. Silk Papers [microform] | 
+ [mssa.ms.1905.xml](5202.xml) | mssa.ms.1905 | MS 1905 | Japanese film ephemera collection | 
  [5213.xml](5213.xml) |  | HM 282 | Eugene C. Gardner papers [microfilm] | 
  [mssa.ms.1820.xml](5247.xml) | mssa.ms.1820 | MS 1820 | Clark, Hall, and Peck and White Brothers records | 
  [5256.xml](5256.xml) |  | RU 1129 | Office of the Secretary, Yale University, video footage of the inauguration of Peter Salovey  | 
