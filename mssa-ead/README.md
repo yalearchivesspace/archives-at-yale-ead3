@@ -65,6 +65,52 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0298.xml](1979.xml) | mssa.ru.0298 | RU 298 | David Seiferheld, Class of 1926, Yale College, letters to his classmates | 
  [mssa.ru.0301.xml](1980.xml) | mssa.ru.0301 | RU 301 | Graduate School of Arts and Sciences, Yale University, records concerning the Cleanth Brooks Graduate Fellowship in the Humanities | 
  [mssa.ru.0302.xml](1981.xml) | mssa.ru.0302 | RU 302 | Yale University Library signage and diagrams | 
+ [mssa.ru.0312.xml](1983.xml) | mssa.ru.0312 | RU 312 | Office of University Development, Yale University, Motion pictures | 
+ [mssa.ru.0323.xml](1985.xml) | mssa.ru.0323 | RU 323 | Edward Tripp, editor of the Yale University Press, records | 
+ [mssa.ru.0324.xml](1986.xml) | mssa.ru.0324 | RU 324 | Class of 1955, Yale College, records | 
+ [mssa.ru.0327.xml](1987.xml) | mssa.ru.0327 | RU 327 | Saybrook College, Yale University, scrapbooks maintained by the master | 
+ [mssa.ru.0330.xml](1989.xml) | mssa.ru.0330 | RU 330 | Yale Summer and Special Programs financial records | 
+ [mssa.ru.0332.xml](1990.xml) | mssa.ru.0332 | RU 332 | Department of Manuscripts and Archives, Yale University, exhibit records | 
+ [mssa.ru.0333.xml](1991.xml) | mssa.ru.0333 | RU 333 | Department of Anthropology, Yale University, records | 
+ [mssa.ru.0334.xml](1992.xml) | mssa.ru.0334 | RU 334 | Lawrence M. DiFilippo, Class of 1938, Yale College, letters concerning his experiences in World War II | 
+ [mssa.ru.0335.xml](1993.xml) | mssa.ru.0335 | RU 335 | Department of City Planning, School of Art and Architecture, Yale University, records | 
+ [mssa.ru.0337.xml](1994.xml) | mssa.ru.0337 | RU 337 | Theodore Dwight Woolsey, president of Yale College, records | 
+ [mssa.ru.0338.xml](1995.xml) | mssa.ru.0338 | RU 338 | Karl Parrish, Class of 1934, School of Engineering, Yale University, scrapbooks | 
+ [mssa.ru.0339.xml](1996.xml) | mssa.ru.0339 | RU 339 | Yale Club of Montclair, New Jersey, scrapbooks | 
+ [mssa.ru.0349.xml](1998.xml) | mssa.ru.0349 | RU 349 | Calhoun College, Yale University, records of the dean | 
+ [mssa.ru.0352.xml](1999.xml) | mssa.ru.0352 | RU 352 | Class of 1880, Yale College, Records | 
+ [mssa.ru.0353.xml](2000.xml) | mssa.ru.0353 | RU 353 | Class of 1958, Yale College, records | 
+ [mssa.ru.0357.xml](2003.xml) | mssa.ru.0357 | RU 357 | Office of Facilities, Yale University, survey of buildings | 
+ [mssa.ru.0358.xml](2004.xml) | mssa.ru.0358 | RU 358 | Committee on Canadian Studies, Yale University, records of Robin Winks | 
+ [mssa.ru.0360.xml](2005.xml) | mssa.ru.0360 | RU 360 | Silliman lecture series, Yale University, records | 
+ [mssa.ru.0363.xml](2006.xml) | mssa.ru.0363 | RU 363 | Office of Undergraduate Admissions, Yale University, records concerning minority recruitment | 
+ [mssa.ru.0369.xml](2008.xml) | mssa.ru.0369 | RU 369 | Class of 1911, Sheffield Scientific School, Yale University, records | 
+ [mssa.ru.0370.xml](2009.xml) | mssa.ru.0370 | RU 370 | Office of Public Affairs, Yale University, press releases | 
+ [mssa.ru.0375.xml](2010.xml) | mssa.ru.0375 | RU 375 | Yale Center for British Art, exhibit and program records | 
+ [mssa.ru.0376.xml](2011.xml) | mssa.ru.0376 | RU 376 | Sterling Memorial Library, motion pictures | 
+ [mssa.ru.0381.xml](2013.xml) | mssa.ru.0381 | RU 381 | Class of 1968, Yale College, records | 
+ [mssa.ru.0382.xml](2014.xml) | mssa.ru.0382 | RU 382 | Class of 1970, Yale College, records | 
+ [mssa.ru.0383.xml](2015.xml) | mssa.ru.0383 | RU 383 | Class of 1959, Yale College, records | 
+ [mssa.ru.0386.xml](2018.xml) | mssa.ru.0386 | RU 386 | Association of Yale Alumni (AYA) videorecordings | 
+ [mssa.ru.0388.xml](2019.xml) | mssa.ru.0388 | RU 388 | Frederick A. Davis landscape plans for the Yale Record building, Yale University | 
+ [mssa.ru.0389.xml](2020.xml) | mssa.ru.0389 | RU 389 | Yale Digital Media Center for the Arts, symposia material | 
+ [mssa.ru.0391.xml](2021.xml) | mssa.ru.0391 | RU 391 | Yale College, Class of 1940, records | 
+ [mssa.ru.0395.xml](2022.xml) | mssa.ru.0395 | RU 395 | Class of 1861, Yale College, record | 
+ [mssa.ru.0396.xml](2023.xml) | mssa.ru.0396 | RU 396 | Class of 1902, Sheffield Scientific School, Yale University, records | 
+ [mssa.ru.0398.xml](2024.xml) | mssa.ru.0398 | RU 398 | Hillary Rodham Clinton address commemorating the Comer School Development Program, School of Medicine, Yale University | 
+ [mssa.ru.0399.xml](2025.xml) | mssa.ru.0399 | RU 399 | School of Art, Yale University, memorabilia | 
+ [mssa.ru.0401.xml](2026.xml) | mssa.ru.0401 | RU 401 | Connecticut Historical Records Advisory Board records maintained by the Dept. of Manuscripts and Archives, Yale University | 
+ [mssa.ru.0406.xml](2030.xml) | mssa.ru.0406 | RU 406 | Yale athletics Sound recordings | 
+ [mssa.ru.0410.xml](2032.xml) | mssa.ru.0410 | RU 410 | Arbovirus Research Unit, Department of Epidemiology and Public Health, Yale University, records | 
+ [mssa.ru.0411.xml](2033.xml) | mssa.ru.0411 | RU 411 | Conversation for Bart, recorded by friends of A. Bartlett Giamatti | 
+ [mssa.ru.0413.xml](2034.xml) | mssa.ru.0413 | RU 413 | Class of 1972, Yale University, records | 
+ [mssa.ru.0417.xml](2036.xml) | mssa.ru.0417 | RU 417 | Department of Physics, Yale University, records | 
+ [mssa.ru.0423.xml](2037.xml) | mssa.ru.0423 | RU 423 | Department of English, Yale University, grade books | 
+ [mssa.ru.0430.xml](2040.xml) | mssa.ru.0430 | RU 430 | Department of Engineering and Applied Science, Yale University, records | 
+ [mssa.ru.0432.xml](2041.xml) | mssa.ru.0432 | RU 432 | Committee on Residential Colleges, Yale University, records | 
+ [mssa.ru.0433.xml](2042.xml) | mssa.ru.0433 | RU 433 | Committee on Acceleration, Yale University, records | 
+ [mssa.ru.0435.xml](2043.xml) | mssa.ru.0435 | RU 435 | Committee on University Development, Yale University, records | 
+ [mssa.ru.0436.xml](2044.xml) | mssa.ru.0436 | RU 436 | Committee on University Entertainment, Yale University, records | 
  [mssa.ru.0006.xml](2364.xml) | mssa.ru.0006 | RU 6 | Harvey Cushing/John Hay Whitney Medical Library, Yale University, renovation records | 
  [mssa.ru.0008.xml](2365.xml) | mssa.ru.0008 | RU 8 | Office of Facilities, Yale University, records | 
  [mssa.ru.0013.xml](2367.xml) | mssa.ru.0013 | RU 13 | Kingman Brewster, Jr., president of Yale University, inauguration records | 
@@ -110,6 +156,20 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0303.xml](2419.xml) | mssa.ru.0303 | RU 303 | Catalogue Department, Yale University Library, records | 
  [mssa.ru.0305.xml](2420.xml) | mssa.ru.0305 | RU 305 | Secretary's office, Yale University, records concerning commencement planning | 
  [mssa.ru.0307.xml](2421.xml) | mssa.ru.0307 | RU 307 | Yale University Corporation and Prudential Committee minutes | 
+ [mssa.ru.0311.xml](2423.xml) | mssa.ru.0311 | RU 311 | Gordon Grand Fellowship at Yale University records | 
+ [mssa.ru.0328.xml](2425.xml) | mssa.ru.0328 | RU 328 | Yale Summer School of Music and Art records | 
+ [mssa.ru.0345.xml](2426.xml) | mssa.ru.0345 | RU 345 | Class of 1919, Yale College, records | 
+ [mssa.ru.0348.xml](2427.xml) | mssa.ru.0348 | RU 348 | School of Organization and Management, Yale University, records of the dean | 
+ [mssa.ru.0366.xml](2428.xml) | mssa.ru.0366 | RU 366 | Yale diploma and certificates collection | 
+ [mssa.ru.0373.xml](2429.xml) | mssa.ru.0373 | RU 373 | Angelo Bartlett Giamatti, president of Yale University, inauguration records | 
+ [mssa.ru.0374.xml](2430.xml) | mssa.ru.0374 | RU 374 | Benno C. Schmidt, Jr., president of Yale University, inauguration records | 
+ [mssa.ru.0387.xml](2431.xml) | mssa.ru.0387 | RU 387 | Yale University Library photographs and memorabilia of collections and events | 
+ [mssa.ru.0392.xml](2432.xml) | mssa.ru.0392 | RU 392 | Sterling Memorial Library, Yale University, photographs of windows | 
+ [mssa.ru.0393.xml](2433.xml) | mssa.ru.0393 | RU 393 | Office of the president, Yale University, gifts received | 
+ [mssa.ru.0416.xml](2434.xml) | mssa.ru.0416 | RU 416 | Astronomical Observatory, Yale University, records | 
+ [mssa.ru.0421.xml](2435.xml) | mssa.ru.0421 | RU 421 | Department of Sociology, Yale University, records | 
+ [mssa.ru.0426.xml](2436.xml) | mssa.ru.0426 | RU 426 | Department of Geology and Geophysics, Yale University, records | 
+ [mssa.ru.0434.xml](2437.xml) | mssa.ru.0434 | RU 434 | Committee on General Education, Yale University, records | 
  [mssa.ru.0004.xml](2587.xml) | mssa.ru.0004 | RU 4 | Yale University building assignment plans | 
  [mssa.ru.0029.xml](2591.xml) | mssa.ru.0029 | RU 29 | Investment Committee, Yale University Corporation, meeting minutes | 
  [mssa.ru.0039.xml](2593.xml) | mssa.ru.0039 | RU 39 | School of Forestry and Environmental Studies, Yale University, records concerning research projects and grants conducted by faculty | 
@@ -136,6 +196,17 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0286.xml](2632.xml) | mssa.ru.0286 | RU 286 | Yale Summer and Special Programs records concerning the National Endowment for the Humanities summer seminar program, records | 
  [mssa.ru.0296.xml](2635.xml) | mssa.ru.0296 | RU 296 | Investment Office, Yale University, records concerning ethical investments | 
  [mssa.ru.0297.xml](2636.xml) | mssa.ru.0297 | RU 297 | Investment Committee, Yale University, records of meetings | 
+ [mssa.ru.0313.xml](2638.xml) | mssa.ru.0313 | RU 313 | Program for Humanities in Medicine, School of Medicine, Yale University, records of Howard M. Spiro as director | 
+ [mssa.ru.0336.xml](2639.xml) | mssa.ru.0336 | RU 336 | <emph render="italic">Perspecta</emph>, School of Architecture, Yale University, records | 
+ [mssa.ru.0350.xml](2641.xml) | mssa.ru.0350 | RU 350 | Sheila Wellington, secretary of Yale University, records | 
+ [mssa.ru.0351.xml](2642.xml) | mssa.ru.0351 | RU 351 | Student activism at Yale University collection | 
+ [mssa.ru.0356.xml](2643.xml) | mssa.ru.0356 | RU 356 | Henry W. Broude, special assistant to the president of Yale University, records | 
+ [mssa.ru.0359.xml](2644.xml) | mssa.ru.0359 | RU 359 | Yale University Art Gallery and the Yale Center for British Art, recordings of lectures and presentations | 
+ [mssa.ru.0419.xml](2647.xml) | mssa.ru.0419 | RU 419 | Department of Classics, Yale University, records | 
+ [mssa.ru.0422.xml](2648.xml) | mssa.ru.0422 | RU 422 | Department of Economics, Yale University, records | 
+ [mssa.ru.0428.xml](2649.xml) | mssa.ru.0428 | RU 428 | Department of Linguistics, Yale University, records | 
+ [mssa.ru.0431.xml](2650.xml) | mssa.ru.0431 | RU 431 | Study Group on Yale College (Dahl Committee) records | 
+ [mssa.ru.0437.xml](2651.xml) | mssa.ru.0437 | RU 437 | Campaign for Yale records | 
  [mssa.ru.0007.xml](2760.xml) | mssa.ru.0007 | RU 7 | Architectural and Engineering Services, Yale University, records | 
  [mssa.ru.0019.xml](2761.xml) | mssa.ru.0019 | RU 19 | Reuben A. Holden, secretary of Yale University, records | 
  [mssa.ru.0023.xml](2762.xml) | mssa.ru.0023 | RU 23 | Charles Seymour, president of Yale University, records | 
@@ -158,6 +229,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0269.xml](2793.xml) | mssa.ru.0269 | RU 269 | Associate University Librarian for Public Services, Yale University, records | 
  [mssa.ru.0274.xml](2795.xml) | mssa.ru.0274 | RU 274 | Department of Astronomy, Yale University, records | 
  [mssa.ru.0280.xml](2796.xml) | mssa.ru.0280 | RU 280 | English Language and Orientation Program, Summer Language Institute, Yale University, student records | 
+ [mssa.ru.0320.xml](2802.xml) | mssa.ru.0320 | RU 320 | Residential College Seminar Program, Yale University, records | 
+ [mssa.ru.0346.xml](2805.xml) | mssa.ru.0346 | RU 346 | Acquisitions Department, Yale University Library, records | 
+ [mssa.ru.0397.xml](2806.xml) | mssa.ru.0397 | RU 397 | Yale School of Drama photographs and posters | 
+ [mssa.ru.0400.xml](2807.xml) | mssa.ru.0400 | RU 400 | African Collection, Yale University Library, records of the curator | 
+ [mssa.ru.0412.xml](2808.xml) | mssa.ru.0412 | RU 412 | Office of International Education and Fellowship Programs, Yale University, records | 
+ [mssa.ru.0424.xml](2810.xml) | mssa.ru.0424 | RU 424 | Department of French, Yale University, records | 
+ [mssa.ru.0425.xml](2811.xml) | mssa.ru.0425 | RU 425 | Department of Botany, Yale University, records | 
  [mssa.ru.0049.xml](2873.xml) | mssa.ru.0049 | RU 49 | Secretary's office, Yale University, records | 
  [mssa.ru.0128.xml](2874.xml) | mssa.ru.0128 | RU 128 | General counsel, Yale University, records | 
  [mssa.ru.0129.xml](2875.xml) | mssa.ru.0129 | RU 129 | Department of Manuscripts and Archives, Yale University, administrative records | 
