@@ -157,6 +157,58 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0536.xml](2099.xml) | mssa.ru.0536 | RU 536 | Alumni Records Office, Yale University, obituaries of faculty, staff, and alumni | 
  [mssa.ru.0539.xml](2100.xml) | mssa.ru.0539 | RU 539 | Honors Committee, Yale College, records | 
  [mssa.ru.0540.xml](2101.xml) | mssa.ru.0540 | RU 540 | Human Culture and Behavior program, Yale College, records | 
+ [mssa.ru.0542.xml](2102.xml) | mssa.ru.0542 | RU 542 | Board of Permanent Officers, Yale College, records | 
+ [mssa.ru.0543.xml](2103.xml) | mssa.ru.0543 | RU 543 | Yale College account books and records | 
+ [mssa.ru.0546.xml](2104.xml) | mssa.ru.0546 | RU 546 | Class of 1908, Sheffield Scientific School, Yale University, motion pictures | 
+ [mssa.ru.0547.xml](2105.xml) | mssa.ru.0547 | RU 547 | Class of 1896, Sheffield Scientific School, Yale University, motion pictures | 
+ [mssa.ru.0548.xml](2106.xml) | mssa.ru.0548 | RU 548 | Class of 1909, Yale College, records | 
+ [mssa.ru.0549.xml](2107.xml) | mssa.ru.0549 | RU 549 | Class of 1912, Yale College, motion pictures | 
+ [mssa.ru.0550.xml](2108.xml) | mssa.ru.0550 | RU 550 | Yale College, Class of 1927 motion pictures | 
+ [mssa.ru.0551.xml](2109.xml) | mssa.ru.0551 | RU 551 | Yale University Library records concerning the <emph render="italic">Yale University Library Gazette</emph> | 
+ [mssa.ru.0553.xml](2110.xml) | mssa.ru.0553 | RU 553 | Beinecke Rare Book and Manuscript Library, Yale University, film of opening | 
+ [mssa.ru.0556.xml](2112.xml) | mssa.ru.0556 | RU 556 | Yale University long-range building plan | 
+ [mssa.ru.0560.xml](2113.xml) | mssa.ru.0560 | RU 560 | Transitional Year Programs, Inc., records | 
+ [mssa.ru.0564.xml](2114.xml) | mssa.ru.0564 | RU 564 | Alexander Orr Vietor, secretary of the Council on the Library and Museums, Yale University, records | 
+ [mssa.ru.0566.xml](2116.xml) | mssa.ru.0566 | RU 566 | Chi Delta Theta, Yale College, records | 
+ [mssa.ru.0572.xml](2119.xml) | mssa.ru.0572 | RU 572 | Department of Surgery, School of Medicine, Yale University, records | 
+ [mssa.ru.0573.xml](2120.xml) | mssa.ru.0573 | RU 573 | Pi Sigma Tau, Yale College, records | 
+ [mssa.ru.0580.xml](2121.xml) | mssa.ru.0580 | RU 580 | Yale College Gifts, citations, and proclamations | 
+ [mssa.ru.0582.xml](2122.xml) | mssa.ru.0582 | RU 582 | Science Advisory Committee, Yale University, meeting minutes | 
+ [mssa.ru.0585.xml](2124.xml) | mssa.ru.0585 | RU 585 | Yale Endowment Fund records | 
+ [mssa.ru.0589.xml](2126.xml) | mssa.ru.0589 | RU 589 | Richard C. Carroll, associate dean, Yale College, records concerning the Ivy Group Eligibility Committee | 
+ [mssa.ru.0590.xml](2127.xml) | mssa.ru.0590 | RU 590 | Richard C. Carroll, associate dean, Yale College, records concerning the Standing Committee on Licensing and Accrediting of the Connecticut Council on Higher Education | 
+ [mssa.ru.0601.xml](2128.xml) | mssa.ru.0601 | RU 601 | Silliman College, Yale University, photographs | 
+ [mssa.ru.0602.xml](2129.xml) | mssa.ru.0602 | RU 602 | Timothy Dwight College, Yale University, photographs | 
+ [mssa.ru.0603.xml](2130.xml) | mssa.ru.0603 | RU 603 | Berkeley College, Yale University, photographs | 
+ [mssa.ru.0604.xml](2131.xml) | mssa.ru.0604 | RU 604 | Branford College and Saybrook College, Yale University, photographs | 
+ [mssa.ru.0605.xml](2132.xml) | mssa.ru.0605 | RU 605 | Calhoun College, Yale University, photographs | 
+ [mssa.ru.0606.xml](2133.xml) | mssa.ru.0606 | RU 606 | Josiah Willard Gibbs Research Laboratories, Yale University, photographs | 
+ [mssa.ru.0607.xml](2134.xml) | mssa.ru.0607 | RU 607 | Otto Eggers proposal sketches for John Russell Pope's "Yale University: A Plan for Its Future Building" | 
+ [mssa.ru.0608.xml](2135.xml) | mssa.ru.0608 | RU 608 | Jonathan Edwards College, Yale University, photographs | 
+ [mssa.ru.0609.xml](2136.xml) | mssa.ru.0609 | RU 609 | Trumbull College, Yale University, photographs | 
+ [mssa.ru.0611.xml](2137.xml) | mssa.ru.0611 | RU 611 | Ray Tompkins House, Yale University, photographs | 
+ [mssa.ru.0613.xml](2138.xml) | mssa.ru.0613 | RU 613 | Sterling Law Buildings, Yale University, photographs | 
+ [mssa.ru.0614.xml](2139.xml) | mssa.ru.0614 | RU 614 | Sheffield Hall, Sterling Tower, and Strathcona Hall, Yale University, photographs | 
+ [mssa.ru.0615.xml](2140.xml) | mssa.ru.0615 | RU 615 | Helen Hadley Hall, Yale University, photographs | 
+ [mssa.ru.0616.xml](2141.xml) | mssa.ru.0616 | RU 616 | Kline Geology Laboratory, Yale University, photographs | 
+ [mssa.ru.0617.xml](2142.xml) | mssa.ru.0617 | RU 617 | Kline Chemistry Laboratory, Yale University, photographs | 
+ [mssa.ru.0618.xml](2143.xml) | mssa.ru.0618 | RU 618 | Accelerator Laboratories, Yale University, photographs | 
+ [mssa.ru.0619.xml](2144.xml) | mssa.ru.0619 | RU 619 | Sterling Chemistry Laboratory, Yale University, photographs | 
+ [mssa.ru.0620.xml](2145.xml) | mssa.ru.0620 | RU 620 | Sterling Memorial Library, Yale University, post-construction photographs | 
+ [mssa.ru.0621.xml](2146.xml) | mssa.ru.0621 | RU 621 | Kline Biology Tower, Yale University, photographs | 
+ [mssa.ru.0622.xml](2147.xml) | mssa.ru.0622 | RU 622 | Yale University Art Gallery photographs and film | 
+ [mssa.ru.0623.xml](2148.xml) | mssa.ru.0623 | RU 623 | Hall of Graduate Studies, Yale University, photographs | 
+ [mssa.ru.0624.xml](2149.xml) | mssa.ru.0624 | RU 624 | Street Hall, Yale University, architectural drawings and pictures by P. B. Wight | 
+ [mssa.ru.0625.xml](2150.xml) | mssa.ru.0625 | RU 625 | Health Services Center, Yale University, photographs | 
+ [mssa.ru.0626.xml](2151.xml) | mssa.ru.0626 | RU 626 | Bingham Oceanographic Laboratory, Yale University, photographs | 
+ [mssa.ru.0627.xml](2152.xml) | mssa.ru.0627 | RU 627 | William B. Greeley Memorial Laboratory, Yale University, photographs | 
+ [mssa.ru.0628.xml](2153.xml) | mssa.ru.0628 | RU 628 | Sterling Divinity Quadrangle, Yale University, photographs | 
+ [mssa.ru.0629.xml](2154.xml) | mssa.ru.0629 | RU 629 | David S. Ingalls Rink, Yale University, photographs | 
+ [mssa.ru.0630.xml](2155.xml) | mssa.ru.0630 | RU 630 | Becton Engineering and Applied Sciences Center, Yale University, photographs | 
+ [mssa.ru.0633.xml](2156.xml) | mssa.ru.0633 | RU 633 | Adolph Wittemann photographs of buildings and grounds of Yale and New Haven used in the publication "New Haven and Yale University" | 
+ [mssa.ru.0635.xml](2157.xml) | mssa.ru.0635 | RU 635 | Warren Photographs of Yale and New Haven | 
+ [mssa.ru.0639.xml](2158.xml) | mssa.ru.0639 | RU 639 | C. B. Wells photographs of Yale | 
+ [mssa.ru.0640.xml](2159.xml) | mssa.ru.0640 | RU 640 | Loveday Yates sketches of Yale University | 
  [mssa.ru.0006.xml](2364.xml) | mssa.ru.0006 | RU 6 | Harvey Cushing/John Hay Whitney Medical Library, Yale University, renovation records | 
  [mssa.ru.0008.xml](2365.xml) | mssa.ru.0008 | RU 8 | Office of Facilities, Yale University, records | 
  [mssa.ru.0013.xml](2367.xml) | mssa.ru.0013 | RU 13 | Kingman Brewster, Jr., president of Yale University, inauguration records | 
@@ -231,6 +283,20 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0493.xml](2454.xml) | mssa.ru.0493 | RU 493 | Class of 1915, Yale College, records | 
  [mssa.ru.0526.xml](2456.xml) | mssa.ru.0526 | RU 526 | Vassar-Yale Joint Study Group, Yale University, records | 
  [mssa.ru.0527.xml](2457.xml) | mssa.ru.0527 | RU 527 | Committee on Educational Planning and Costs, Yale University, records | 
+ [mssa.ru.0541.xml](2458.xml) | mssa.ru.0541 | RU 541 | Faculty of Yale College records | 
+ [mssa.ru.0545.xml](2459.xml) | mssa.ru.0545 | RU 545 | Human Resources Office, Yale University, records | 
+ [mssa.ru.0563.xml](2461.xml) | mssa.ru.0563 | RU 563 | Department of Pathology, School of Medicine, Yale University, records | 
+ [mssa.ru.0576.xml](2462.xml) | mssa.ru.0576 | RU 576 | Yale College records concerning the floating counselor program | 
+ [mssa.ru.0583.xml](2463.xml) | mssa.ru.0583 | RU 583 | Committee on Bachelor of Arts Degree, Yale College, Records | 
+ [mssa.ru.0596.xml](2466.xml) | mssa.ru.0596 | RU 596 | Association of Class Officers, Yale University, records | 
+ [mssa.ru.0600.xml](2468.xml) | mssa.ru.0600 | RU 600 | Davenport College and Pierson College, Yale University, photographs | 
+ [mssa.ru.0610.xml](2469.xml) | mssa.ru.0610 | RU 610 | Dwight Hall, Yale University, photographs | 
+ [mssa.ru.0612.xml](2470.xml) | mssa.ru.0612 | RU 612 | Payne Whitney Gymnasium, Yale University, photographs | 
+ [mssa.ru.0631.xml](2471.xml) | mssa.ru.0631 | RU 631 | Memorial Quadrangle, Yale University, photographs by James S. Hedden | 
+ [mssa.ru.0632.xml](2472.xml) | mssa.ru.0632 | RU 632 | Residential colleges, Yale University, photographs | 
+ [mssa.ru.0634.xml](2473.xml) | mssa.ru.0634 | RU 634 | Henry Hunn, Class of 1914, Sheffield Scientific School, Yale University, photograph collection documenting life at Yale and in New Haven | 
+ [mssa.ru.0636.xml](2474.xml) | mssa.ru.0636 | RU 636 | Thomas C. Wilson, Class of 1929, Sheffield Scientific School, Yale University, Photographs of Yale | 
+ [mssa.ru.0637.xml](2475.xml) | mssa.ru.0637 | RU 637 | Edward J. Tytus, Class of 1868, Yale College, photograph collection documenting buildings and grounds at Yale | 
  [mssa.ru.0004.xml](2587.xml) | mssa.ru.0004 | RU 4 | Yale University building assignment plans | 
  [mssa.ru.0029.xml](2591.xml) | mssa.ru.0029 | RU 29 | Investment Committee, Yale University Corporation, meeting minutes | 
  [mssa.ru.0039.xml](2593.xml) | mssa.ru.0039 | RU 39 | School of Forestry and Environmental Studies, Yale University, records concerning research projects and grants conducted by faculty | 
@@ -283,6 +349,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0530.xml](2668.xml) | mssa.ru.0530 | RU 530 | Study Commission on Governance, Yale University, records | 
  [mssa.ru.0537.xml](2669.xml) | mssa.ru.0537 | RU 537 | Vice-president for development and alumni affairs, Yale University, records | 
  [mssa.ru.0538.xml](2670.xml) | mssa.ru.0538 | RU 538 | Yale Alumni Fund records | 
+ [mssa.ru.0557.xml](2671.xml) | mssa.ru.0557 | RU 557 | Department of University Health, Yale University, records | 
+ [mssa.ru.0559.xml](2672.xml) | mssa.ru.0559 | RU 559 | National Humanities Institute, Yale University, records | 
+ [mssa.ru.0561.xml](2673.xml) | mssa.ru.0561 | RU 561 | Mabel Brady Garvan Institute of American Arts and Crafts, Yale University, records | 
+ [mssa.ru.0570.xml](2675.xml) | mssa.ru.0570 | RU 570 | Yale College records concerning its internship program | 
+ [mssa.ru.0594.xml](2681.xml) | mssa.ru.0594 | RU 594 | Yale College records concerning the five year bachelor of arts program | 
+ [mssa.ru.0595.xml](2682.xml) | mssa.ru.0595 | RU 595 | Course of Study Committee, Yale College, records | 
+ [mssa.ru.0638.xml](2684.xml) | mssa.ru.0638 | RU 638 | Samuel Chamberlain postcard and photograph collection documenting Yale University | 
  [mssa.ru.0007.xml](2760.xml) | mssa.ru.0007 | RU 7 | Architectural and Engineering Services, Yale University, records | 
  [mssa.ru.0019.xml](2761.xml) | mssa.ru.0019 | RU 19 | Reuben A. Holden, secretary of Yale University, records | 
  [mssa.ru.0023.xml](2762.xml) | mssa.ru.0023 | RU 23 | Charles Seymour, president of Yale University, records | 
@@ -314,6 +387,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0425.xml](2811.xml) | mssa.ru.0425 | RU 425 | Department of Botany, Yale University, records | 
  [mssa.ru.0483.xml](2813.xml) | mssa.ru.0483 | RU 483 | Institute of Human Relations, Yale University, records | 
  [mssa.ru.0507.xml](2814.xml) | mssa.ru.0507 | RU 507 | Department of Athletics, Yale University, records | 
+ [mssa.ru.0544.xml](2815.xml) | mssa.ru.0544 | RU 544 | Assistant comptroller for estates, trusts and taxes, Yale University, records | 
+ [mssa.ru.0552.xml](2816.xml) | mssa.ru.0552 | RU 552 | Bingham Oceanographic Laboratory, Peabody Museum of Natural History, Yale University, records | 
+ [mssa.ru.0558.xml](2817.xml) | mssa.ru.0558 | RU 558 | Committee on the Protection of Human Subjects, Yale University, records | 
+ [mssa.ru.0569.xml](2818.xml) | mssa.ru.0569 | RU 569 | Whitney Humanities Center, Yale University, records | 
+ [mssa.ru.0581.xml](2819.xml) | mssa.ru.0581 | RU 581 | Hanna Holborn Gray, president of Yale University, records | 
+ [mssa.ru.0598.xml](2821.xml) | mssa.ru.0598 | RU 598 | Council on Southeast Asia Studies, Yale University, records | 
  [mssa.ru.0049.xml](2873.xml) | mssa.ru.0049 | RU 49 | Secretary's office, Yale University, records | 
  [mssa.ru.0128.xml](2874.xml) | mssa.ru.0128 | RU 128 | General counsel, Yale University, records | 
  [mssa.ru.0129.xml](2875.xml) | mssa.ru.0129 | RU 129 | Department of Manuscripts and Archives, Yale University, administrative records | 
@@ -1693,6 +1772,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1862.xml](4529.xml) | mssa.ms.1862 | MS 1862 | David Benjamin Mixner papers | 
  [mssa.ru.0168.xml](4536.xml) | mssa.ru.0168 | RU 168 | Yale University Press records concerning the publication of individual titles | 
  [mssa.ru.0275.xml](4537.xml) | mssa.ru.0275 | RU 275 | Provost's office, Yale University, records | 
+ [mssa.ru.0554.xml](4538.xml) | mssa.ru.0554 | RU 554 | Yale University Press records | 
  [mssa.ru.0052.xml](4540.xml) | mssa.ru.0052 | RU 52 | Secretary's office, Yale University, records | 
  [mssa.ru.0100.xml](4541.xml) | mssa.ru.0100 | RU 100 | Yale University Library personnel records | 
  [mssa.ru.0281.xml](4545.xml) | mssa.ru.0281 | RU 281 | Benno C. Schmidt, Jr., president of Yale University, records | 
