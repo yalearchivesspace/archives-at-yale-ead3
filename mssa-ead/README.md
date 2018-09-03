@@ -2,6 +2,17 @@
 
 EAD | EAD ID | Identifier | Title | Other versions
 --- | ------ | ---------- | ----- | --------------
+ [mssa.ru.0003.xml](1896.xml) | mssa.ru.0003 | RU 3 | Yale Bowl Materials Collected By Charles A. Ferry | 
+ [mssa.ru.0010.xml](1897.xml) | mssa.ru.0010 | RU 10 | Helen Hadley Hall, Yale University, construction records maintained by the treasurer | 
+ [mssa.ru.0014.xml](1898.xml) | mssa.ru.0014 | RU 14 | Kingman Brewster, Jr., president of Yale University, resignation records | 
+ [mssa.ru.0015.xml](1899.xml) | mssa.ru.0015 | RU 15 | 275th Anniversary Commemoration, Yale University, records | 
+ [mssa.ru.0018.xml](1900.xml) | mssa.ru.0018 | RU 18 | Yale University Police Department records | 
+ [mssa.ru.0006.xml](2364.xml) | mssa.ru.0006 | RU 6 | Harvey Cushing/John Hay Whitney Medical Library, Yale University, renovation records | 
+ [mssa.ru.0008.xml](2365.xml) | mssa.ru.0008 | RU 8 | Office of Facilities, Yale University, records | 
+ [mssa.ru.0013.xml](2367.xml) | mssa.ru.0013 | RU 13 | Kingman Brewster, Jr., president of Yale University, inauguration records | 
+ [mssa.ru.0017.xml](2369.xml) | mssa.ru.0017 | RU 17 | Ivy Group Presidents records | 
+ [mssa.ru.0004.xml](2587.xml) | mssa.ru.0004 | RU 4 | Yale University building assignment plans | 
+ [mssa.ru.0007.xml](2760.xml) | mssa.ru.0007 | RU 7 | Architectural and Engineering Services, Yale University, records | 
  [mssa.ms.0003.xml](2909.xml) | mssa.ms.0003 | MS 3 | John Augustus Hendrix McLane papers | 
  [mssa.ms.0015.xml](2910.xml) | mssa.ms.0015 | MS 15 | William Barrett Pease papers | 
  [mssa.ms.0017.xml](2911.xml) | mssa.ms.0017 | MS 17 | George G. Phelps Family papers | 
@@ -1294,6 +1305,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1150.xml](4411.xml) | mssa.ms.1150 | MS 1150 | Temperance societies collection | 
  [mssa.ms.1151.xml](4412.xml) | mssa.ms.1151 | MS 1151 | American Social Surveys, Inc. collection | 
  [mssa.ms.1152.xml](4413.xml) | mssa.ms.1152 | MS 1152 | Charles H. S. Davis papers | 
+ [mssa.ru.0005.xml](4415.xml) | mssa.ru.0005 | RU 5 | Yale University building project records | 
  [mssa.ms.0593.xml](4418.xml) | mssa.ms.0593 | MS 593 | Eero Saarinen collection | 
  [mssa.ms.0073.xml](4422.xml) | mssa.ms.0073 | MS 73 | Beer family papers | 
  [mssa.ms.0291.xml](4424.xml) | mssa.ms.0291 | MS 291 | William Graham Sumner papers | 
@@ -1544,15 +1556,76 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2004.xml](5240.xml) | mssa.ms.2004 | MS 2004 | Henry A. Kissinger papers, part III | 
  [mssa.ms.2005.xml](5241.xml) | mssa.ms.2005 | MS 2005 | Richard Henry Green papers | 
  [mssa.ms.1999.xml](5243.xml) | mssa.ms.1999 | MS 1999 | Richard Gamble Knight papers | 
+ [mssa.ms.2006.xml](5244.xml) | mssa.ms.2006 | MS 2006 | Rainbow Families records | 
  [mssa.ms.1820.xml](5247.xml) | mssa.ms.1820 | MS 1820 | Clark, Hall, and Peck and White Brothers records | 
  [mssa.ms.2000.xml](5248.xml) | mssa.ms.2000 | MS 2000 | Family Equality Council records | 
  [mssa.ms.1929.xml](5249.xml) | mssa.ms.1929 | MS 1929 | Edward R. Becker papers | 
+ [mssa.ms.2007.xml](5250.xml) | mssa.ms.2007 | MS 2007 | Greater New Haven Coalition for People records | 
+ [mssa.ms.2008.xml](5251.xml) | mssa.ms.2008 | MS 2008 | Ravi D. Goel collection on Henry Roe Cloud  | 
+ [mssa.ms.2011.xml](5253.xml) | mssa.ms.2011 | MS 2011 | Ramsay MacMullen papers | 
  [5256.xml](5256.xml) |  | RU 1129 | Office of the Secretary, Yale University, video footage of the inauguration of Peter Salovey  | 
+ [mssa.ms.2009.xml](5258.xml) | mssa.ms.2009 | MS 2009 | Walter J. P. Curley papers | 
  [mssa.ms.1995.xml](5260.xml) | mssa.ms.1995 | MS 1995 | Richard C. Levin papers | 
+ [mssa.ms.2016.xml](5261.xml) | mssa.ms.2016 | MS 2016 | New Haven Peace Coalition collection | 
+ [mssa.ms.2018.xml](5262.xml) | mssa.ms.2018 | MS 2018 | William Henry Anderson correspondence regarding the Crocodile Club  | 
+ [mssa.ms.2019.xml](5263.xml) | mssa.ms.2019 | MS 2019 | Leon Lipson papers | 
+ [mssa.ms.2017.xml](5264.xml) | mssa.ms.2017 | MS 2017 | Allen R. Maxwell papers | 
+ [mssa.ms.2020.xml](5265.xml) | mssa.ms.2020 | MS 2020 | Caribbean and Latin American postcard collection | 
+ [mssa.ms.2039.xml](5267.xml) | mssa.ms.2039 | MS 2039 | Project Maje records | 
+ [mssa.ms.2012.xml](5268.xml) | mssa.ms.2012 | MS 2012 | F. Herbert Bormann papers | 
+ [mssa.ms.2023.xml](5269.xml) | mssa.ms.2023 | MS 2023 | Traugott Lawler papers | 
+ [mssa.ms.2024.xml](5274.xml) | mssa.ms.2024 | MS 2024 | Manuscripts and Archives, Yale University Library Gaylesta publications collection | 
+ [mssa.ms.2025.xml](5275.xml) | mssa.ms.2025 | MS 2025 | Manuscripts and Archives, Yale University Library Good Vibrations publications collection | 
+ [mssa.ms.2026.xml](5278.xml) | mssa.ms.2026 | MS 2026 | Elisha Spencer Benton diary | 
  [5280.xml](5280.xml) |  | RU 1139 | Charles Wayne Chase, Class of 1923, Sheffield Scientific School, photographs and memorabilia documenting life at Yale | 
+ [mssa.ms.2013.xml](5310.xml) | mssa.ms.2013 | MS 2013 | Mordecai Hillel Kroshnitz papers | 
+ [mssa.ms.2014.xml](5320.xml) | mssa.ms.2014 | MS 2014 | Jacob Berman papers | 
+ [mssa.ms.2027.xml](5328.xml) | mssa.ms.2027 | MS 2027 | Yiddish Theater collection | 
+ [mssa.ms.2028.xml](5330.xml) | mssa.ms.2028 | MS 2028 | Collection on the Jewish community of Botosani, Romania | 
+ [mssa.ms.2031.xml](5333.xml) | mssa.ms.2031 | MS 2031 | Shemuʼel ben Avraham Daṿid ha-Ḳaṭan papers | 
+ [mssa.ms.2032.xml](5334.xml) | mssa.ms.2032 | MS 2032 | Isaac Simha Hurewitz family correspondence | 
+ [mssa.ms.2033.xml](5335.xml) | mssa.ms.2033 | MS 2033 | Central Committee Knesseth-Israel records | 
+ [mssa.ms.2041.xml](5344.xml) | mssa.ms.2041 | MS 2041 | Julia Penelope research files on the Language of the Homosexual Community study | 
+ [mssa.ms.2042.xml](5345.xml) | mssa.ms.2042 | MS 2042 | Bert Hansen papers | 
+ [mssa.ms.2043.xml](5348.xml) | mssa.ms.2043 | MS 2043 | Leyzer Ran collection on the Jewish communities of Vilna and Kovno | 
+ [mssa.ms.2036.xml](5357.xml) | mssa.ms.2036 | MS 2036 | Donna Stein papers on Thomas Wilfred | 
+ [mssa.ms.2035.xml](5359.xml) | mssa.ms.2035 | MS 2035 | Robert P. Anderson papers | 
+ [mssa.ms.2045.xml](5375.xml) | mssa.ms.2045 | MS 2045 | Scoville Family Papers | 
+ [mssa.ms.2046.xml](5376.xml) | mssa.ms.2046 | MS 2046 | Russell Sturgis, Jr., papers | 
+ [mssa.ms.2040.xml](5379.xml) | mssa.ms.2040 | MS 2040 | Helen Varney papers | 
+ [mssa.ms.2038.xml](5380.xml) | mssa.ms.2038 | MS 2038 | Freedom to Marry records | 
+ [mssa.ms.2034.xml](5391.xml) | mssa.ms.2034 | MS 2034 | Peter J. Gay papers | 
+ [mssa.ms.2049.xml](5487.xml) | mssa.ms.2049 | MS 2049 | Bokari Kanneh notebooks of Mende script | 
+ [mssa.ms.2050.xml](5495.xml) | mssa.ms.2050 | MS 2050 | Mary Johnson papers | 
+ [mssa.ms.2051.xml](5499.xml) | mssa.ms.2051 | MS 2051 | Zionist Revisionist movement collection | 
  [mssa.ms.1937.xml](5501.xml) | mssa.ms.1937 | MS 1937 | Jews of Germany collection of manuscripts and documents | 
+ [mssa.ms.2054.xml](5542.xml) | mssa.ms.2054 | MS 2054 | Susan M. Chambré research files on volunteer AIDS organizations | 
+ [mssa.ms.2056.xml](5557.xml) | mssa.ms.2056 | MS 2056 | Walter Hinds Allen papers | 
+ [mssa.ms.2052.xml](5558.xml) | mssa.ms.2052 | MS 2052 | Robert A. Burt papers | 
  [5582.xml](5582.xml) |  | MS 2057 | Jean M. Conklin papers | 
+ [mssa.ms.2058.xml](5584.xml) | mssa.ms.2058 | MS 2058 | Spanish Civil War Collection | 
+ [mssa.ms.2061.xml](5638.xml) | mssa.ms.2061 | MS 2061 | Charles W. Toth correspondence with Tram Combs | 
+ [mssa.ms.2055.xml](5644.xml) | mssa.ms.2055 | MS 2055 | Warren L. Duffield papers | 
+ [mssa.ms.2064.xml](5645.xml) | mssa.ms.2064 | MS 2064 | Edward M. Dew III collection on Suriname | 
+ [mssa.ms.2060.xml](5647.xml) | mssa.ms.2060 | MS 2060 | Jaime Arando correspondence | 
+ [mssa.ms.2059.xml](5648.xml) | mssa.ms.2059 | MS 2059 | Puertes family correspondence on the Spanish Civil War | 
+ [mssa.ms.2048.xml](5661.xml) | mssa.ms.2048 | MS 2048 | Ivan Kats papers | 
+ [mssa.ms.2063.xml](5667.xml) | mssa.ms.2063 | MS 2063 | Mark A. Bradley collection on Duncan Chaplin Lee | 
+ [mssa.ms.2062.xml](5674.xml) | mssa.ms.2062 | MS 2062 | Duncan Chaplin Lee and John Lee Papers | 
+ [mssa.ms.2065.xml](5675.xml) | mssa.ms.2065 | MS 2065 | Robert C. Wilhelm papers | 
+ [mssa.ms.2066.xml](5693.xml) | mssa.ms.2066 | MS 2066 | William Alvord Borst travel diary | 
  [5706.xml](5706.xml) |  | RU 1147 | Associate University Librarian for Program Development and Research, Yale University, records | 
+ [mssa.ms.2067.xml](5716.xml) | mssa.ms.2067 | MS 2067 | Japanese lesbian, gay, bisexual, transgender, and queer collection | 
+ [mssa.ms.2069.xml](5735.xml) | mssa.ms.2069 | MS 2069 | Harry W. Selden right wing materials collection | 
  [5888.xml](5888.xml) |  | MS 2068 | James Gustave Speth papers | 
+ [mssa.ms.2072.xml](5891.xml) | mssa.ms.2072 | MS 2072 | Lewis B. Cullman papers | 
  [10653.xml](10653.xml) |  | RU 1149 | Yale Club of Hong Kong | 
+ [mssa.ms.2074.xml](10658.xml) | mssa.ms.2074 | MS 2074 | The Bartos Company records | 
+ [mssa.ms.2079.xml](10660.xml) | mssa.ms.2079 | MS 2079 | María Pilar Fort Trigo diary | 
+ [mssa.ms.2077.xml](10661.xml) | mssa.ms.2077 | MS 2077 | Argimiro Bosch letters | 
+ [mssa.ms.2078.xml](10662.xml) | mssa.ms.2078 | MS 2078 | Lluís Baró Segimón correspondence | 
+ [mssa.ms.2076.xml](10666.xml) | mssa.ms.2076 | MS 2076 | Patricia Marx interview with Thomas Wilfred | 
+ [mssa.ms.2080.xml](10668.xml) | mssa.ms.2080 | MS 2080 | Joaquim Sancho papers | 
+ [mssa.ms.2081.xml](10699.xml) | mssa.ms.2081 | MS 2081 | André Landín correspondence | 
+ [mssa.ms.2082.xml](10700.xml) | mssa.ms.2082 | MS 2082 | Joan Alzina papers | 
 
