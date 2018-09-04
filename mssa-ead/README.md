@@ -286,6 +286,42 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0902.xml](2277.xml) | mssa.ru.0902 | RU 902 | Cambodian Genocide Program, Yale University, records | 
  [mssa.ru.0903.xml](2278.xml) | mssa.ru.0903 | RU 903 | Handsome Dan (Yale mascot) collection | 
  [mssa.ru.0905.xml](2280.xml) | mssa.ru.0905 | RU 905 | Richard Willstatter, Class of 1943, Sheffield Scientific School, papers concerning his experiences in World War II | 
+ [mssa.ru.0907.xml](2282.xml) | mssa.ru.0907 | RU 907 | Class of 1929, Yale College, records | 
+ [mssa.ru.0909.xml](2283.xml) | mssa.ru.0909 | RU 909 | Class of 1877, Yale College, records | 
+ [mssa.ru.0911.xml](2284.xml) | mssa.ru.0911 | RU 911 | Philippe Halsman photographs of Yale affiliated individuals | 
+ [mssa.ru.0912.xml](2285.xml) | mssa.ru.0912 | RU 912 | Department of African Studies, Yale University, records | 
+ [mssa.ru.0914.xml](2286.xml) | mssa.ru.0914 | RU 914 | Steven Bergman research files documenting the School of Management, Yale University | 
+ [mssa.ru.0926.xml](2289.xml) | mssa.ru.0926 | RU 926 | Saybrook College, Yale University, memorabilia | 
+ [mssa.ru.0927.xml](2290.xml) | mssa.ru.0927 | RU 927 | Council on African Studies, Yale University, records | 
+ [mssa.ru.0928.xml](2291.xml) | mssa.ru.0928 | RU 928 | Center for Language Study, Yale University, records | 
+ [mssa.ru.0936.xml](2294.xml) | mssa.ru.0936 | RU 936 | Yale University Athletic Association scrapbooks documenting boxing | 
+ [mssa.ru.0937.xml](2295.xml) | mssa.ru.0937 | RU 937 | Department of Athletics, Yale University, records documenting golf | 
+ [mssa.ru.0954.xml](2296.xml) | mssa.ru.0954 | RU 954 | Yale University album of architectural views | 
+ [mssa.ru.0956.xml](2298.xml) | mssa.ru.0956 | RU 956 | Yale gay and lesbian alumni records | 
+ [mssa.ru.0976.xml](2303.xml) | mssa.ru.0976 | RU 976 | Public Interfaces Committee, Yale University Library, records | 
+ [mssa.ru.0980.xml](2304.xml) | mssa.ru.0980 | RU 980 | Yale Law School Fund records | 
+ [mssa.ru.0981.xml](2305.xml) | mssa.ru.0981 | RU 981 | Undergraduate Financial Aid Office, Yale University, records | 
+ [mssa.ru.0984.xml](2306.xml) | mssa.ru.0984 | RU 984 | Faculty Committee on Athletics, Yale University, records | 
+ [mssa.ru.0985.xml](2307.xml) | mssa.ru.0985 | RU 985 | Athletics Governing Board, Yale University, records | 
+ [mssa.ru.0986.xml](2308.xml) | mssa.ru.0986 | RU 986 | Department of Athletics, Yale University, records documenting boating and sailing | 
+ [mssa.ru.0993.xml](2312.xml) | mssa.ru.0993 | RU 993 | Department of Athletics, Yale University, records documenting volleyball | 
+ [mssa.ru.0994.xml](2313.xml) | mssa.ru.0994 | RU 994 | Department of Athletics, Yale University, records documenting softball | 
+ [mssa.ru.0997.xml](2315.xml) | mssa.ru.0997 | RU 997 | Yale University <title render="italic">Framework for Campus Planning</title> [final draft] | 
+ [mssa.ru.0999.xml](2317.xml) | mssa.ru.0999 | RU 999 | Petition from the officers of Yale University to United States senators from Connecticut | 
+ [mssa.ru.1000.xml](2318.xml) | mssa.ru.1000 | RU 1000 | Department of Music, Yale University, records | 
+ [mssa.ru.1002.xml](2319.xml) | mssa.ru.1002 | RU 1002 | Class of 1963, Yale College, records | 
+ [mssa.ru.1003.xml](2320.xml) | mssa.ru.1003 | RU 1003 | Yale Bibliophiles records | 
+ [mssa.ru.1009.xml](2322.xml) | mssa.ru.1009 | RU 1009 | Yale buildings motion picture showing former sites and replacements | 
+ [mssa.ru.1010.xml](2323.xml) | mssa.ru.1010 | RU 1010 | Class of 1910, Yale College, reunion motion pictures | 
+ [mssa.ru.1013.xml](2324.xml) | mssa.ru.1013 | RU 1013 | Lesbian and Gay Studies Center at Yale records | 
+ [mssa.ru.1015.xml](2325.xml) | mssa.ru.1015 | RU 1015 | English Language Institute, Yale University, records | 
+ [mssa.ru.1020.xml](2327.xml) | mssa.ru.1020 | RU 1020 | Edwin C. Taylor and Robert Galvin drawings of Yale University buildings | 
+ [mssa.ru.1022.xml](2328.xml) | mssa.ru.1022 | RU 1022 | Detroit Photographic Company photographs of Yale University buildings | 
+ [mssa.ru.1026.xml](2330.xml) | mssa.ru.1026 | RU 1026 | Elizur Goodrich, Secretary of the Yale Corporation, correspondence | 
+ [mssa.ru.1027.xml](2331.xml) | mssa.ru.1027 | RU 1027 | Samuel Rogers Andrew, secretary of Yale College, correspondence | 
+ [mssa.ru.1034.xml](2334.xml) | mssa.ru.1034 | RU 1034 | Undergraduate Athletic Association, Yale University, meeting minutes | 
+ [mssa.ru.1035.xml](2335.xml) | mssa.ru.1035 | RU 1035 | Yale University and New Haven photograph collection | 
+ [mssa.ru.1038.xml](2336.xml) | mssa.ru.1038 | RU 1038 | Wesley Needham photographic slides of Yale University | 
  [mssa.ru.0006.xml](2364.xml) | mssa.ru.0006 | RU 6 | Harvey Cushing/John Hay Whitney Medical Library, Yale University, renovation records | 
  [mssa.ru.0008.xml](2365.xml) | mssa.ru.0008 | RU 8 | Office of Facilities, Yale University, records | 
  [mssa.ru.0013.xml](2367.xml) | mssa.ru.0013 | RU 13 | Kingman Brewster, Jr., president of Yale University, inauguration records | 
@@ -410,6 +446,29 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0857.xml](2518.xml) | mssa.ru.0857 | RU 857 | Calliopean Society, Yale College, records | 
  [mssa.ru.0885.xml](2520.xml) | mssa.ru.0885 | RU 885 | Department of Manuscripts and Archives, Yale University, records concerning the Archives 300 Project | 
  [mssa.ru.0895.xml](2521.xml) | mssa.ru.0895 | RU 895 | Ulysses S. Grant Foundation records | 
+ [mssa.ru.0908.xml](2522.xml) | mssa.ru.0908 | RU 908 | Department of Athletics, Yale University, records documenting polo | 
+ [mssa.ru.0921.xml](2524.xml) | mssa.ru.0921 | RU 921 | Yale Co-operative Corporation records | 
+ [mssa.ru.0924.xml](2525.xml) | mssa.ru.0924 | RU 924 | Yale University Women's Organization oral history project records | 
+ [mssa.ru.0938.xml](2527.xml) | mssa.ru.0938 | RU 938 | Department of Athletics, Yale University, records documenting hockey | 
+ [mssa.ru.0939.xml](2528.xml) | mssa.ru.0939 | RU 939 | Department of Athletics, Yale University, records documenting lacrosse | 
+ [mssa.ru.0942.xml](2529.xml) | mssa.ru.0942 | RU 942 | Department of Athletics, Yale University, records documenting tennis | 
+ [mssa.ru.0944.xml](2530.xml) | mssa.ru.0944 | RU 944 | Department of Athletics, Yale University, records documenting wrestling | 
+ [mssa.ru.0947.xml](2533.xml) | mssa.ru.0947 | RU 947 | Department of Athletics, Yale University, records documenting basketball | 
+ [mssa.ru.0949.xml](2534.xml) | mssa.ru.0949 | RU 949 | Yale New Haven Educational Corporation records | 
+ [mssa.ru.0951.xml](2535.xml) | mssa.ru.0951 | RU 951 | Secretary's office, Yale University, records concerning <title render="italic">The Yale</title> | 
+ [mssa.ru.0952.xml](2536.xml) | mssa.ru.0952 | RU 952 | Class of 1929, Sheffield Scientific School, Yale University, records | 
+ [mssa.ru.0953.xml](2537.xml) | mssa.ru.0953 | RU 953 | Conference for Fulbright Scholars, Yale University, records | 
+ [mssa.ru.0964.xml](2539.xml) | mssa.ru.0964 | RU 964 | Waltraude Woods, senior architect/planner, Yale University, records | 
+ [mssa.ru.0965.xml](2540.xml) | mssa.ru.0965 | RU 965 | Waltraude Woods, senior architect/planner, Yale University, records documenting the history of Yale buildings and grounds | 
+ [mssa.ru.0975.xml](2544.xml) | mssa.ru.0975 | RU 975 | Hematopoiesis research project, School of Medicine, Yale University, records | 
+ [mssa.ru.0977.xml](2545.xml) | mssa.ru.0977 | RU 977 | Labor-Management Relations, Yale University, records | 
+ [mssa.ru.1006.xml](2549.xml) | mssa.ru.1006 | RU 1006 | Yale Journal of Criticism records | 
+ [mssa.ru.1008.xml](2550.xml) | mssa.ru.1008 | RU 1008 | Social Science Data Archive, Yale University, records | 
+ [mssa.ru.1017.xml](2551.xml) | mssa.ru.1017 | RU 1017 | Yale Summer and Special Programs records concerning faculty | 
+ [mssa.ru.1019.xml](2552.xml) | mssa.ru.1019 | RU 1019 | Roth and Moore Architects records concerning the Seeley G. Mudd Library, Yale University | 
+ [mssa.ru.1025.xml](2553.xml) | mssa.ru.1025 | RU 1025 | Social Science Libraries and Information Services, Yale University, records | 
+ [mssa.ru.1028.xml](2554.xml) | mssa.ru.1028 | RU 1028 | Class of 1864, Yale College, records | 
+ [mssa.ru.1036.xml](2556.xml) | mssa.ru.1036 | RU 1036 | Yale University and New Haven photograph album | 
  [mssa.ru.0004.xml](2587.xml) | mssa.ru.0004 | RU 4 | Yale University building assignment plans | 
  [mssa.ru.0029.xml](2591.xml) | mssa.ru.0029 | RU 29 | Investment Committee, Yale University Corporation, meeting minutes | 
  [mssa.ru.0039.xml](2593.xml) | mssa.ru.0039 | RU 39 | School of Forestry and Environmental Studies, Yale University, records concerning research projects and grants conducted by faculty | 
@@ -492,6 +551,16 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0831.xml](2719.xml) | mssa.ru.0831 | RU 831 | Branford College, Yale University, records of the master | 
  [mssa.ru.0834.xml](2720.xml) | mssa.ru.0834 | RU 834 | President's office, Yale University, records | 
  [mssa.ru.0838.xml](2721.xml) | mssa.ru.0838 | RU 838 | Ivy Network records | 
+ [mssa.ru.0925.xml](2726.xml) | mssa.ru.0925 | RU 925 | School of Architecture, Yale University, memorabilia | 
+ [mssa.ru.0933.xml](2727.xml) | mssa.ru.0933 | RU 933 | Marketing Office, Yale School of Drama, records | 
+ [mssa.ru.0943.xml](2728.xml) | mssa.ru.0943 | RU 943 | Department of Athletics, Yale University, records documenting track and cross country | 
+ [mssa.ru.0963.xml](2730.xml) | mssa.ru.0963 | RU 963 | Larry Kramer Initiative for Lesbian and Gay Studies, Yale University, exhibit and research materials from The Pink and The Blue | 
+ [mssa.ru.0979.xml](2732.xml) | mssa.ru.0979 | RU 979 | Facilities Construction and Renovation, School of Medicine, Yale University, records | 
+ [mssa.ru.0982.xml](2733.xml) | mssa.ru.0982 | RU 982 | Yale University Library subject card catalog | 
+ [mssa.ru.1005.xml](2735.xml) | mssa.ru.1005 | RU 1005 | Office of Admissions, School of Medicine, Yale University, records | 
+ [mssa.ru.1011.xml](2736.xml) | mssa.ru.1011 | RU 1011 | Diana E. E. Kleiner, deputy provost for the arts, Yale University, records | 
+ [mssa.ru.1012.xml](2737.xml) | mssa.ru.1012 | RU 1012 | School of Architecture, Yale University, records concerning admissions and registration | 
+ [mssa.ru.1029.xml](2738.xml) | mssa.ru.1029 | RU 1029 | Development and Alumni Affairs, School of Nursing, Yale University, records | 
  [mssa.ru.0007.xml](2760.xml) | mssa.ru.0007 | RU 7 | Architectural and Engineering Services, Yale University, records | 
  [mssa.ru.0019.xml](2761.xml) | mssa.ru.0019 | RU 19 | Reuben A. Holden, secretary of Yale University, records | 
  [mssa.ru.0023.xml](2762.xml) | mssa.ru.0023 | RU 23 | Charles Seymour, president of Yale University, records | 
@@ -545,6 +614,14 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0884.xml](2844.xml) | mssa.ru.0884 | RU 884 | Yale University's 300th anniversary commemoration records | 
  [mssa.ru.0886.xml](2845.xml) | mssa.ru.0886 | RU 886 | School of Architecture, Yale University, records concerning events and exhibitions | 
  [mssa.ru.0892.xml](2846.xml) | mssa.ru.0892 | RU 892 | Office of Cooperative Research, Yale University, records | 
+ [mssa.ru.0941.xml](2852.xml) | mssa.ru.0941 | RU 941 | Department of Athletics, Yale University, records documenting swimming | 
+ [mssa.ru.0950.xml](2853.xml) | mssa.ru.0950 | RU 950 | Program on Non-Profit Organizations, Yale University, records | 
+ [mssa.ru.0962.xml](2855.xml) | mssa.ru.0962 | RU 962 | Philip K. Bond, professor of medicine, School of Medicine, Yale University, records | 
+ [mssa.ru.0978.xml](2857.xml) | mssa.ru.0978 | RU 978 | Program in Judaic Studies, Yale University, records | 
+ [mssa.ru.0983.xml](2858.xml) | mssa.ru.0983 | RU 983 | Department of Athletics, Yale University, records of the athletic director | 
+ [mssa.ru.0995.xml](2859.xml) | mssa.ru.0995 | RU 995 | Pierre Hohenberg, Deputy provost for science and technology, Yale University, records | 
+ [mssa.ru.1007.xml](2860.xml) | mssa.ru.1007 | RU 1007 | School of Management, Yale University, records of the associate dean for development and alumni relations | 
+ [mssa.ru.1014.xml](2861.xml) | mssa.ru.1014 | RU 1014 | School of Forestry and Environmental Studies, Yale University, records of the dean concerning faculty | 
  [mssa.ru.0049.xml](2873.xml) | mssa.ru.0049 | RU 49 | Secretary's office, Yale University, records | 
  [mssa.ru.0128.xml](2874.xml) | mssa.ru.0128 | RU 128 | General counsel, Yale University, records | 
  [mssa.ru.0129.xml](2875.xml) | mssa.ru.0129 | RU 129 | Department of Manuscripts and Archives, Yale University, administrative records | 
@@ -552,6 +629,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0279.xml](2881.xml) | mssa.ru.0279 | RU 279 | Vice president for finance and administration, Yale University, records | 
  [mssa.ru.0521.xml](2897.xml) | mssa.ru.0521 | RU 521 | Insurance Office, Yale University, records | 
  [mssa.ru.0896.xml](2900.xml) | mssa.ru.0896 | RU 896 | Treasury Services, Yale University, records | 
+ [mssa.ru.0910.xml](2903.xml) | mssa.ru.0910 | RU 910 | Child Study Center, School of Medicine, Yale University, records | 
  [mssa.ru.0506.xml](2904.xml) | mssa.ru.0506 | RU 506 | Department of Manuscripts and Archives, Yale University, reference service records | 
  [mssa.ms.0003.xml](2909.xml) | mssa.ms.0003 | MS 3 | John Augustus Hendrix McLane papers | 
  [mssa.ms.0015.xml](2910.xml) | mssa.ms.0015 | MS 15 | William Barrett Pease papers | 
@@ -1610,6 +1688,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0458.xml](4124.xml) | mssa.ms.0458 | MS 458 | George Howard Edward Smith papers | 
  [mssa.ru.0846.xml](4126.xml) | mssa.ru.0846 | RU 846 | Yale Law School records of the dean | 
  [mssa.ru.0891.xml](4127.xml) | mssa.ru.0891 | RU 891 | Office of Development, Yale University, records | 
+ [mssa.ru.0948.xml](4128.xml) | mssa.ru.0948 | RU 948 | Graduate School of Arts and Sciences, Yale University, records of the dean | 
  [mssa.ms.0018.xml](4133.xml) | mssa.ms.0018 | MS 18 | Job Clark papers | 
  [mssa.ms.0022.xml](4134.xml) | mssa.ms.0022 | MS 22 | Henry Wick Chambers papers | 
  [mssa.ms.0043.xml](4135.xml) | mssa.ms.0043 | MS 43 | John Avery papers | 
