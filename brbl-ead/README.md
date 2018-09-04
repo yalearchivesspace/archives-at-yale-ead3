@@ -595,6 +595,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.pratt.xml](1196.xml) | beinecke.pratt | WA MSS S-1174 | Richard Henry Pratt papers | 
  [beinecke.emory.xml](1198.xml) | beinecke.emory | WA MSS S-1187 | William Hemsley Emory papers | 
  [beinecke.brady.xml](1199.xml) | beinecke.brady | WA MSS S-1206 | John G. Brady papers | 
+ [beinecke.verein.xml](1200.xml) | beinecke.verein | WA MSS S-1291 | Archiv des Vereins zum Schutz deutscher Einwanderer in Texas | 
  [beinecke.anderson.xml](1201.xml) | beinecke.anderson | WA MSS S-1292 | Samuel Anderson papers | 
  [beinecke.harris.xml](1202.xml) | beinecke.harris | WA MSS S-1293 | Joseph Smith Harris papers | 
  [beinecke.barnitz.xml](1203.xml) | beinecke.barnitz | WA MSS S-1294 | Albert Barnitz papers | 
@@ -602,6 +603,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fellows.xml](1205.xml) | beinecke.fellows | WA MSS S-1296 | Abraham Lincoln Fellows papers | 
  [beinecke.ahill.xml](1206.xml) | beinecke.ahill | WA MSS S-1297 | Alonzo A. Hill papers | 
  [beinecke.malick.xml](1207.xml) | beinecke.malick | WA MSS S-1298 | Malick family papers | 
+ [beinecke.wagner.xml](1208.xml) | beinecke.wagner | WA MSS S-1299 | Henry Raup Wagner papers | 
  [beinecke.dodd.xml](1209.xml) | beinecke.dodd | WA MSS S-1300 | John W. Dodd papers | 
  [beinecke.beaver.xml](1210.xml) | beinecke.beaver | WA MSS S-1301 | Beaver Creek Ranch Company papers | 
  [beinecke.gove.xml](1211.xml) | beinecke.gove | WA MSS S-1302 | Gove family papers | 
@@ -613,9 +615,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.brewster.xml](1217.xml) | beinecke.brewster | WA MSS S-1309 | Brewster family papers | 
  [beinecke.kenaga.xml](1218.xml) | beinecke.kenaga | WA MSS S-1310 | Kenaga family papers | 
  [beinecke.sully.xml](1219.xml) | beinecke.sully | WA MSS S-1311 | Alfred Sully papers | 
+ [beinecke.streeter.xml](1220.xml) | beinecke.streeter | WA MSS S-1312 | Thomas W. Streeter papers | 
  [beinecke.goldhill.xml](1221.xml) | beinecke.goldhill | WA MSS S-1313 | Gold Hill Miners Union records | 
  [beinecke.bates.xml](1222.xml) | beinecke.bates | WA MSS S-1314 | Charles F. Bates papers | 
  [beinecke.ferson.xml](1223.xml) | beinecke.ferson | WA MSS S-1315 | California correspondence | 
+ [beinecke.strubb.xml](1224.xml) | beinecke.strubb | WA MSS S-1316 | Friedrich Armand Strubberg collection | 
  [beinecke.lauder.xml](1225.xml) | beinecke.lauder | WA MSS S-1317 | John Vance Lauderdale papers | 
  [beinecke.vandorn.xml](1227.xml) | beinecke.vandorn | WA MSS S-1319 | Thomas J. Van Dorn papers | 
  [beinecke.taylor.xml](1228.xml) | beinecke.taylor | WA MSS S-1321 | Clifford N. Taylor papers | 
@@ -726,6 +730,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.louisian.xml](1360.xml) | beinecke.louisian | WA MSS S-343 | Henry Raup Wagner collection of Louisiana manuscripts | 
  [beinecke.nolan.xml](1361.xml) | beinecke.nolan | WA MSS S-344 | Henry Raup Wagner collection of Philip Nolan papers | 
  [beinecke.mier.xml](1362.xml) | beinecke.mier | WA MSS S-497 | Mier Expedition Papers | 
+ [beinecke.wa498.xml](1363.xml) | beinecke.wa498 | WA MSS S-498-500 | Thomas W. Streeter collection of Texas manuscripts | 
  [beinecke.guajardo.xml](1365.xml) | beinecke.guajardo | WA MSS S-668 | Luis Alberto Guajardo Papers on the History of Coahuila | 
  [beinecke.wheeler.xml](1366.xml) | beinecke.wheeler | WA MSS S-744 | Geographical surveys west of the 100th meridian (U.S.) papers | 
  [beinecke.field.xml](1367.xml) | beinecke.field | WA MSS S-897 | William Clark field notes | 
