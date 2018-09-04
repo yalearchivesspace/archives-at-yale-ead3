@@ -724,6 +724,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0427.xml](2961.xml) | mssa.ms.0427 | MS 427 | Isaac Munroe St. John papers | 
  [mssa.ms.0437.xml](2962.xml) | mssa.ms.0437 | MS 437 | Walter Keeler Scofield papers | 
  [mssa.ms.0453.xml](2963.xml) | mssa.ms.0453 | MS 453 | Theodore Sizer papers | 
+ [mssa.ms.0459.xml](2964.xml) | mssa.ms.0459 | MS 459 | Mary M. Geran Starr papers | 
  [mssa.ms.0460.xml](2965.xml) | mssa.ms.0460 | MS 460 | John Cotton Smith papers | 
  [mssa.ms.0468.xml](2967.xml) | mssa.ms.0468 | MS 468 | Leonidas Polk family papers | 
  [mssa.ms.0471.xml](2968.xml) | mssa.ms.0471 | MS 471 | James Merriam Howard papers | 
@@ -776,6 +777,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0058.xml](3018.xml) | mssa.ms.0058 | MS 58 | Sir Joseph Banks papers | 
  [mssa.ms.0066.xml](3019.xml) | mssa.ms.0066 | MS 66 | Committee to Defend America by Aiding the Allies (Hartford and Connecticut Chapters) papers | 
  [mssa.ms.0074.xml](3020.xml) | mssa.ms.0074 | MS 74 | Samuel Flagg Bemis papers | 
+ [mssa.ms.0083.xml](3021.xml) | mssa.ms.0083 | MS 83 | William Henry Bishop papers | 
  [mssa.ms.0086.xml](3022.xml) | mssa.ms.0086 | MS 86 | John Morton Blum papers | 
  [mssa.ms.0087.xml](3023.xml) | mssa.ms.0087 | MS 87 | Robert Blum papers | 
  [mssa.ms.0096.xml](3024.xml) | mssa.ms.0096 | MS 96 | Edward Gaylord Bourne papers | 
@@ -788,9 +790,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0157.xml](3032.xml) | mssa.ms.0157 | MS 157 | Alexander Griswold Cummins papers | 
  [mssa.ms.0167.xml](3033.xml) | mssa.ms.0167 | MS 167 | Darrach family papers | 
  [mssa.ms.0175.xml](3035.xml) | mssa.ms.0175 | MS 175 | Day family papers | 
+ [mssa.ms.0179.xml](3037.xml) | mssa.ms.0179 | MS 179 | Jean André DeLuc papers | 
  [mssa.ms.0180.xml](3038.xml) | mssa.ms.0180 | MS 180 | Chauncey Mitchell Depew papers | 
  [mssa.ms.0190.xml](3039.xml) | mssa.ms.0190 | MS 190 | Walter Prichard Eaton papers | 
  [mssa.ms.0191.xml](3040.xml) | mssa.ms.0191 | MS 191 | Edwards family papers | 
+ [mssa.ms.0208.xml](3041.xml) | mssa.ms.0208 | MS 208 | Albert Gabriel Feuillerat papers | 
  [mssa.ms.0213.xml](3042.xml) | mssa.ms.0213 | MS 213 | Samuel Herbert Fisher papers | 
  [mssa.ms.0232.xml](3043.xml) | mssa.ms.0232 | MS 232 | Garvan-Sheldon collection | 
  [mssa.ms.0234.xml](3044.xml) | mssa.ms.0234 | MS 234 | Genealogical manuscripts collection | 
@@ -1297,6 +1301,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1957.xml](3607.xml) | mssa.ms.1957 | MS 1957 | Francis John Baker Boer War diary | 
  [mssa.ms.0133.xml](3608.xml) | mssa.ms.0133 | MS 133 | Champion Spalding Chase papers | 
  [mssa.ms.0273.xml](3609.xml) | mssa.ms.0273 | MS 273 | Edgar Laing Heermance papers | 
+ [mssa.ms.0434.xml](3610.xml) | mssa.ms.0434 | MS 434 | John Christopher Schwab family papers | 
+ [mssa.ms.0506.xml](3611.xml) | mssa.ms.0506 | MS 506 | John Trumbull papers | 
  [mssa.ms.0727.xml](3612.xml) | mssa.ms.0727 | MS 727 | Thomas Collier Platt papers | 
  [mssa.ms.0765.xml](3613.xml) | mssa.ms.0765 | MS 765 | Charles Montague Bakewell papers | 
  [mssa.ms.1156.xml](3614.xml) | mssa.ms.1156 | MS 1156 | Norman Morrison Isham papers | 
@@ -1655,6 +1661,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0132.xml](4033.xml) | mssa.ms.0132 | MS 132 | E. Clowes Chorley papers | 
  [mssa.ms.0155.xml](4034.xml) | mssa.ms.0155 | MS 155 | Wilbur Lucius Cross papers | 
  [mssa.ms.0162.xml](4035.xml) | mssa.ms.0162 | MS 162 | David Daggett papers | 
+ [mssa.ms.0164.xml](4036.xml) | mssa.ms.0164 | MS 164 | Dana family papers | 
  [mssa.ms.0206.xml](4038.xml) | mssa.ms.0206 | MS 206 | Charles Andrews Fenton papers | 
  [mssa.ms.0207.xml](4039.xml) | mssa.ms.0207 | MS 207 | James William Fesler papers | 
  [mssa.ms.0230.xml](4040.xml) | mssa.ms.0230 | MS 230 | Gardiner-Tyler Family Papers | 
@@ -1974,6 +1981,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0005.xml](4415.xml) | mssa.ru.0005 | RU 5 | Yale University building project records | 
  [mssa.ms.0593.xml](4418.xml) | mssa.ms.0593 | MS 593 | Eero Saarinen collection | 
  [mssa.ms.0073.xml](4422.xml) | mssa.ms.0073 | MS 73 | Beer family papers | 
+ [mssa.ms.0200.xml](4423.xml) | mssa.ms.0200 | MS 200 | Evarts family papers | 
  [mssa.ms.0291.xml](4424.xml) | mssa.ms.0291 | MS 291 | William Graham Sumner papers | 
  [mssa.ms.1979.xml](4425.xml) | mssa.ms.1979 | MS 1979 | Puebla archives | 
  [mssa.ms.0352.xml](4426.xml) | mssa.ms.0352 | MS 352 | Miscellaneous manuscripts collection | 
@@ -2110,6 +2118,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1592.xml](4879.xml) | mssa.ms.1592 | MS 1592 | James D. and Eleanor F. Newton papers | 
  [mssa.ms.1954.xml](4880.xml) | mssa.ms.1954 | MS 1954 | Stanton Wheeler Papers | 
  [mssa.ms.0496a.xml](4881.xml) | mssa.ms.0496a | MS 496A | Loomis-Wilder Family papers | 
+ [mssa.ms.0496b.xml](4882.xml) | mssa.ms.0496b | MS 496B | David Peck Todd papers | 
  [mssa.ms.0496c.xml](4883.xml) | mssa.ms.0496c | MS 496C | Mabel Loomis Todd papers | 
  [mssa.ms.0496e.xml](4885.xml) | mssa.ms.0496e | MS 496E | Todd-Bingham picture collection | 
  [mssa.ms.0496f.xml](4886.xml) | mssa.ms.0496f | MS 496F | Todd-Bingham memorabilia collection | 
