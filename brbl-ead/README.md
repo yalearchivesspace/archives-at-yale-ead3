@@ -770,11 +770,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.boulton.xml](1408.xml) | beinecke.boulton | YCAL MSS 122 | Agnes Boulton collection of Eugene O'Neill | 
  [beinecke.eocoll.xml](1410.xml) | beinecke.eocoll | YCAL MSS 124 | Eugene O'Neill collection | 
  [beinecke.bry.xml](1411.xml) | beinecke.bry | YCAL MSS 125 | Lois Williams Bry collection of Eugene O'Neill, Jr. | 
+ [beinecke.eojr.xml](1412.xml) | beinecke.eojr | YCAL MSS 126 | Eugene O'Neill, Jr. collection | 
  [beinecke.lfbaum.xml](1413.xml) | beinecke.lfbaum | YCAL MSS 13 | L. Frank Baum collection | 
  [beinecke.mwheeler.xml](1415.xml) | beinecke.mwheeler | YCAL MSS 136 | Monroe Wheeler papers | 
  [beinecke.gplscrap.xml](1416.xml) | beinecke.gplscrap | YCAL MSS 139 | George Platt Lynes scrapbooks. | 
  [beinecke.curtiss.xml](1417.xml) | beinecke.curtiss | YCAL MSS 14 | Mina Kirstein Curtiss papers | 
- [beinecke.gilder.xml](1418.xml) | beinecke.gilder | YCAL MSS 141 | Letters in an extra-illustrated copy of <title xlink:type="simple" render="italic">Representative poems of living poets</title> | 
+ [beinecke.gilder.xml](1418.xml) | beinecke.gilder | YCAL MSS 141 | Letters in an extra-illustrated copy of <title xlink:type="simple" render="italic">Representative Poems of Living Poets</title> | 
  [beinecke.roskolen.xml](1419.xml) | beinecke.roskolen | YCAL MSS 142 | Harry Roskolenko collection | 
  [beinecke.yalerevi.xml](1420.xml) | beinecke.yalerevi | YCAL MSS 145 | Yale Review records | 
  [beinecke.cortiz.xml](1421.xml) | beinecke.cortiz | YCAL MSS 146 | Royal Cortissoz papers | 
@@ -814,6 +815,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hamerman.xml](1458.xml) | beinecke.hamerman | YCAL MSS 217 | Wilda Hamerman papers | 
  [beinecke.green.xml](1459.xml) | beinecke.green | YCAL MSS 218 | Maureen Owen collection of Greenwich Village poetry | 
  [beinecke.hulme.xml](1460.xml) | beinecke.hulme | YCAL MSS 22 | Kathryn Hulme papers | 
+ [beinecke.fitz.xml](1461.xml) | beinecke.fitz | YCAL MSS 222 | Robert Fitzgerald papers | 
  [beinecke.blanck.xml](1462.xml) | beinecke.blanck | YCAL MSS 223 | Jacob Blanck papers | 
  [beinecke.sherman.xml](1463.xml) | beinecke.sherman | YCAL MSS 224 | William David Sherman papers | 
  [beinecke.bdate.xml](1464.xml) | beinecke.bdate | YCAL MSS 225 | Papers relating to Blind Date and New Blind Date | 

@@ -58,10 +58,10 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2018-07-13T19:04:08-04:00</eventdatetime>
+            <eventdatetime>2018-09-04T23:25:09+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace v2.2.0</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Friday July 13, 2018 at 19:04</eventdescription>
+            <agent>ArchivesSpace 2.4.1.yale.hm.mm</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday September  4, 2018 at 23:25</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -80,16 +80,22 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(2 boxes)</physdesc>
-    
-         <unitdate unitdatetype="inclusive">2006-2015</unitdate>
+         <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+               <fromdate standarddate="2006">2006</fromdate>
+               <todate standarddate="2015">2015</todate>
+            </daterange>
+         </unitdatestructured>
          <abstract id="aspace_be11fc865bef6703db05565537cfc2f0">Photographs created by Marion Belanger, 2006-2012 and printed 2015 that document tectonic shifting of the North American Plate in California and Iceland. </abstract>
          <langmaterial id="aspace_caeea6547ee51f1ac595a51759cdc235">
             <language>Title page and inscriptions in English.</language>
          </langmaterial>
     
          <origination label="creator">
-            <persname relator="pht" source="ingest">
-               <part>Belanger, Marion</part>
+            <persname identifier="dts_0e15bdcb466a8934287848af5184f8177fe32af6"
+                      rules="aacr"
+                      source="naf">
+               <part>Belanger, Marion, 1957-</part>
             </persname>
          </origination>
       </did>
@@ -123,33 +129,46 @@
          <p>The Marion Belanger Photographs are the physical property of the Beinecke Rare Book and Manuscript Library, Yale University. Literary rights, including copyright, belong to the authors or their legal heirs and assigns. For further information, consult the appropriate curator.</p>  
       </accessrestrict>
       <controlaccess>
-         <subject source="local_beinecke">
-            <part>Faults (Geology) -- California -- Pictorial works</part>
+         <subject identifier="dts_d571278d5fe95bfed413ec3ed8cf65f2868e0c52"
+                  source="Library of Congress Subject Headings">
+            <part>Faults (Geology) -- California -- Pictorial works.</part>
          </subject>
-         <subject source="local_beinecke">
-            <part>Plate tectonics -- California -- Pictorial works</part>
+         <subject identifier="dts_707b165a47c8487b36013ac5e68f466df80a84ca"
+                  source="Library of Congress Subject Headings">
+            <part>Plate tectonics -- California -- Pictorial works.</part>
          </subject>
-         <subject source="local_beinecke">
-            <part>Plate tectonics -- Iceland -- Pictorial works</part>
+         <subject identifier="dts_290751e793e981f72dfe7588723f24ea83e6f30b"
+                  source="Library of Congress Subject Headings">
+            <part>Plate tectonics -- Iceland -- Pictorial works.</part>
          </subject>
-         <subject source="local_beinecke">
-            <part>Rifts (Geology)  -- Iceland -- Pictorial works</part>
+         <subject identifier="dts_d8ff84b06800ac6bd325b2c871c18a2f481eb680"
+                  source="Library of Congress Subject Headings">
+            <part>Rifts (Geology)  -- Iceland -- Pictorial works.</part>
          </subject>
-         <geogname source="lcnaf">
+         <geogname identifier="dts_cca3f6d0826d0e7f9b81a66e754022ba2ca9008a"
+                   source="Library of Congress Subject Headings">
             <part>California -- Pictorial works.</part>
          </geogname>
-         <geogname source="local_beinecke">
-            <part>Iceland -- Pictorial works</part>
+         <geogname identifier="dts_03333c2cff737555fdfeda5fcbac11c69b6e9397"
+                   source="Library of Congress Subject Headings">
+            <part>Iceland -- Pictorial works.</part>
          </geogname>
-         <genreform identifier="http://vocab.getty.edu/page/aat/300265621" source="aat">
-            <part>Inkjet prints</part>
+         <genreform identifier="dts_39f004923d802950a77e9dbb4b19ae3092afe718"
+                    source="Library of Congress Subject Headings">
+            <part>Inkjet prints.</part>
          </genreform>
-         <genreform identifier="300127104" source="aat">
-            <part>Photographic prints</part>
+         <genreform identifier="dts_38f90019f0e04c3882d2ce5bb2403e2f1e0c0470"
+                    source="Library of Congress Subject Headings">
+            <part>Photographic prints.</part>
          </genreform>
          <corpname relator="bsl" rules="local" source="local">
             <part>Radius Books</part>
          </corpname>
+         <persname identifier="dts_ff1c3176e47d2cb08d43dfac7086e239fccdcc6e"
+                   rules="aacr"
+                   source="lcsh">
+            <part>Belanger, Marion, 1957-</part>
+         </persname>
       </controlaccess>
       <dsc>
          <c id="aspace_cc8b376f19a83ba6c15a0c733e4f4ef1" level="series">
@@ -176,24 +195,16 @@
                            <part>Rift #1</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2006">2006</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">image printed in 2015</unitdate>
+                     <unitdate unitdatetype="inclusive">image created in 2006</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_a7b85334ead4a5323e6957fda7334570"
+                                id="aspace_7f046ab0490725c5c77b6ac5f8a12f3a"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_0ad5e06a25914e44ac9dc5ba2c41bf78"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_0cbc627eb7805b881b356872027fb70e"
                                 localtype="folder"
-                                parent="aspace_a7b85334ead4a5323e6957fda7334570">1</container>
+                                parent="aspace_7f046ab0490725c5c77b6ac5f8a12f3a">1</container>
                   </did>
                </c>
                <c id="aspace_890f82dde87c4737aaa45c1abae8718b" level="file">
@@ -203,24 +214,16 @@
                            <part>Rift #11</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2006">2006</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">image printed in 2015</unitdate>
+                     <unitdate unitdatetype="inclusive">image created in 2006</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_5e30b7f001826c68dce7ef60ec3e4166"
+                                id="aspace_2c7b411a87f0fc9d6640e4bd764dc957"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_cb7fd19e554257786192d6da6392d153"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_2640009c02cf0d42a0ff7def7a689f8c"
                                 localtype="folder"
-                                parent="aspace_5e30b7f001826c68dce7ef60ec3e4166">2</container>
+                                parent="aspace_2c7b411a87f0fc9d6640e4bd764dc957">2</container>
                   </did>
                </c>
                <c id="aspace_2cc8d3d956658515ef992fecacf21fc4" level="file">
@@ -230,24 +233,16 @@
                            <part>Rift #22</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2006">2006</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">image printed in 2015</unitdate>
+                     <unitdate unitdatetype="inclusive">image created in 2006</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_732ce744ca6b646a660f7307f89b7963"
+                                id="aspace_0787e422045531e30aebfe0029fcf1f5"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_1819bc6fdd81bb5c5e201c41074dd7ad"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_e2531db3e323789f66cee32605374d97"
                                 localtype="folder"
-                                parent="aspace_732ce744ca6b646a660f7307f89b7963">3</container>
+                                parent="aspace_0787e422045531e30aebfe0029fcf1f5">3</container>
                   </did>
                </c>
                <c id="aspace_9f2c0302f82c53588a3ec205c621ddd8" level="file">
@@ -257,24 +252,16 @@
                            <part>Rift #23</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2006">2006</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">image printed in 2015</unitdate>
+                     <unitdate unitdatetype="inclusive">image created in 2006</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_8839a7c4c19253bbde3d25ad366d2f6e"
+                                id="aspace_d811141a3325a971b82df880ec776720"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_ebe86435ed895d504e097309e396a22d"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_419e363094ea688d45e0e5c9d79ce646"
                                 localtype="folder"
-                                parent="aspace_8839a7c4c19253bbde3d25ad366d2f6e">4</container>
+                                parent="aspace_d811141a3325a971b82df880ec776720">4</container>
                   </did>
                </c>
                <c id="aspace_45cc78a58fb0b44c2823a4eb29f3ad76" level="file">
@@ -284,24 +271,16 @@
                            <part>Rift #26</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2007">2007</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">image printed in 2015</unitdate>
+                     <unitdate unitdatetype="inclusive">image created in 2007</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_403e7fa1a82bb7a737813ef0fe51096e"
+                                id="aspace_cbf5239f6b69315cd2b1a3b80b038c2e"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_4f7c81b794501ddb661fa906572dfde6"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_49c63136ae7fade98e040bd5f1ee4dd6"
                                 localtype="folder"
-                                parent="aspace_403e7fa1a82bb7a737813ef0fe51096e">5</container>
+                                parent="aspace_cbf5239f6b69315cd2b1a3b80b038c2e">5</container>
                   </did>
                </c>
                <c id="aspace_37e76a1d1c77622e047748c134fe913b" level="file">
@@ -311,24 +290,16 @@
                            <part>Rift #31</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2007">2007</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">image printed in 2015</unitdate>
+                     <unitdate unitdatetype="inclusive">image created in 2007</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_46ddc8368e77a37c5e55dcd8a42a3df4"
+                                id="aspace_e51230ac15839726b07d3f3db42d1e68"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_c2dadfb36ae4cb0a20f0b297f9136961"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_171af19b62700fd28b5930bf4dfbe2e1"
                                 localtype="folder"
-                                parent="aspace_46ddc8368e77a37c5e55dcd8a42a3df4">6</container>
+                                parent="aspace_e51230ac15839726b07d3f3db42d1e68">6</container>
                   </did>
                </c>
                <c id="aspace_cf18f742280dafb0129263889d925bda" level="file">
@@ -338,24 +309,16 @@
                            <part>Rift #43</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2011">2011</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">image printed in 2015</unitdate>
+                     <unitdate unitdatetype="inclusive">image created in 2011</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_3454578240645eb734e5109ed6276c5d"
+                                id="aspace_d597a9f034a444743927d8e33c7d2181"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_a0b940a7f703b36ecb5c7f11ca0dd0ba"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_f0df2561a040346656860e75152a343a"
                                 localtype="folder"
-                                parent="aspace_3454578240645eb734e5109ed6276c5d">7</container>
+                                parent="aspace_d597a9f034a444743927d8e33c7d2181">7</container>
                   </did>
                </c>
                <c id="aspace_1ccd4a1eeb9882ac283be7a4cf16af9f" level="file">
@@ -365,24 +328,16 @@
                            <part>Rift #62</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2011">2011</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">image printed in 2015</unitdate>
+                     <unitdate unitdatetype="inclusive">image created in 2011</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_e4b8b6fbed85b379420b919258b2a025"
+                                id="aspace_4b1048de9da71f1347045b3c2a111223"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_d9c77d86edd1c178cf2d2f98dd6c8faf"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_17c4b36eaa441d0d2ce16e9cc51f2d88"
                                 localtype="folder"
-                                parent="aspace_e4b8b6fbed85b379420b919258b2a025">8</container>
+                                parent="aspace_4b1048de9da71f1347045b3c2a111223">8</container>
                   </did>
                </c>
             </c>
@@ -397,24 +352,16 @@
                            <part>Fault #10</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2008">2008</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">image printed in 2015</unitdate>
+                     <unitdate unitdatetype="inclusive">image created in 2008</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_a9e684c3af8cd011b8278850661fd999"
+                                id="aspace_d5ca998f8c04a990753d5182f7b29e0e"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_8a4c06496457cca3bb896825fe1e8b01"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_d89241321b1c6394aeee59886855043f"
                                 localtype="folder"
-                                parent="aspace_a9e684c3af8cd011b8278850661fd999">9</container>
+                                parent="aspace_d5ca998f8c04a990753d5182f7b29e0e">9</container>
                   </did>
                </c>
                <c id="aspace_6d2e252c24be29fa327387d832181200" level="file">
@@ -424,24 +371,16 @@
                            <part>Fault #18</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2009">2009</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">image printed in 2015</unitdate>
+                     <unitdate unitdatetype="inclusive">image created in 2009</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_638269b5501ec44b5bf7d9a7c919807a"
+                                id="aspace_f4051b3284dec1958ef7fc924f44b2ac"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_b9ab47f796ae1a7455002badfa99b337"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_3b4018e44dbf8e239ea8ffef40c52ed9"
                                 localtype="folder"
-                                parent="aspace_638269b5501ec44b5bf7d9a7c919807a">10</container>
+                                parent="aspace_f4051b3284dec1958ef7fc924f44b2ac">10</container>
                   </did>
                </c>
                <c id="aspace_c02c866ed3502c4b667c31edb59b42cd" level="file">
@@ -451,24 +390,16 @@
                            <part>Fault #23</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2012">2012</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">image printed in 2015</unitdate>
+                     <unitdate unitdatetype="inclusive">image created in 2012</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_9b024c47b07336b58f10edb7bacbd1ff"
+                                id="aspace_915cbbda9cfb9378ad97e21c002e57d0"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_4938c95c2634b9b097db1c35db9b3bcd"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_e7d883c6bca5d777c0513e8a4054ef99"
                                 localtype="folder"
-                                parent="aspace_9b024c47b07336b58f10edb7bacbd1ff">11</container>
+                                parent="aspace_915cbbda9cfb9378ad97e21c002e57d0">11</container>
                   </did>
                </c>
                <c id="aspace_a15fa3eeb01622ec621a83f5fc258629" level="file">
@@ -478,24 +409,16 @@
                            <part>Fault #26</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2012">2012</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">image printed in 2015</unitdate>
+                     <unitdate unitdatetype="inclusive">image created in 2012</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_cce05f18473317fef124a982c4373c06"
+                                id="aspace_6165e3d49a2c44a06518cb4fb92d86b0"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_295fffeb0be435833a0a58f6f550db3b"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_d94ebf64ee45c1b6b3684a3c6c72d2ee"
                                 localtype="folder"
-                                parent="aspace_cce05f18473317fef124a982c4373c06">12</container>
+                                parent="aspace_6165e3d49a2c44a06518cb4fb92d86b0">12</container>
                   </did>
                </c>
                <c id="aspace_a0baedcb07736b8350be3696690a14d0" level="file">
@@ -505,24 +428,16 @@
                            <part>Fault #28</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2012">2012</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">image printed in 2015</unitdate>
+                     <unitdate unitdatetype="inclusive">image created in 2012</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_19242b60a0f31ce404d27dbd8e95fb70"
+                                id="aspace_78edd09bccd5b71181ee468dda242608"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_fa31efbcf79811ef8f918b24ef359bdc"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_54dddac4efb8f20e620256464fbab8ba"
                                 localtype="folder"
-                                parent="aspace_19242b60a0f31ce404d27dbd8e95fb70">13</container>
+                                parent="aspace_78edd09bccd5b71181ee468dda242608">13</container>
                   </did>
                </c>
                <c id="aspace_686b92a305221f2ce5e177c39ac07b98" level="file">
@@ -532,24 +447,16 @@
                            <part>Fault #30</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2012">2012</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">image printed in 2015</unitdate>
+                     <unitdate unitdatetype="inclusive">image created in 2012</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_c68390891b39455b4a0304940080c408"
+                                id="aspace_c3fcf8834036c0be56ddbe1f929e7fe8"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_7c8ab0704e09eda3f2602cb5b11b16bd"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_edbb812c5444649a9d6d84b25e9051df"
                                 localtype="folder"
-                                parent="aspace_c68390891b39455b4a0304940080c408">14</container>
+                                parent="aspace_c3fcf8834036c0be56ddbe1f929e7fe8">14</container>
                   </did>
                </c>
                <c id="aspace_98bd721c55f7b57b38d90ccbaa277e64" level="file">
@@ -559,24 +466,16 @@
                            <part>Fault #37</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2012">2012</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">image printed in 2015</unitdate>
+                     <unitdate unitdatetype="inclusive">image created in 2012</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_daba7c1154d436ce168f034833f29745"
+                                id="aspace_0befb47ce79a6a34370b41134951bdc1"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_448d51272345440d44013a9f45a961d9"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_290ba71e160610253d1e24a48f17816c"
                                 localtype="folder"
-                                parent="aspace_daba7c1154d436ce168f034833f29745">15</container>
+                                parent="aspace_0befb47ce79a6a34370b41134951bdc1">15</container>
                   </did>
                </c>
                <c id="aspace_522380417acb775f3ba969160303c207" level="file">
@@ -586,24 +485,16 @@
                            <part>Fault #52</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2012">2012</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">image printed in 2015</unitdate>
+                     <unitdate unitdatetype="inclusive">image created in 2012</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_e91b0f35345ab7a565e14312332b6eb6"
+                                id="aspace_726e672aa46f7bb81a8b1ec98c77e9eb"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_868c464f18f693102afe08980e469469"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_5a3195509c85fc85fb2d82d8e519cc74"
                                 localtype="folder"
-                                parent="aspace_e91b0f35345ab7a565e14312332b6eb6">16</container>
+                                parent="aspace_726e672aa46f7bb81a8b1ec98c77e9eb">16</container>
                   </did>
                </c>
             </c>
@@ -614,19 +505,15 @@
                <c id="aspace_5d4c5deb17b597f45064e5278b62e186" level="file">
                   <did>
                      <unittitle>Title Sheet</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">2015</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_9ff7c8cdfab956d5c128258115e829f5"
+                                id="aspace_49641b6fdfa03e78df1fa357f3828a7f"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_6b8690da1890fcade3bddafb9910a15b"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_86d0462ebacfce4f63c9d6e15825c7b8"
                                 localtype="folder"
-                                parent="aspace_9ff7c8cdfab956d5c128258115e829f5">17</container>
+                                parent="aspace_49641b6fdfa03e78df1fa357f3828a7f">17</container>
                   </did>
                </c>
                <c id="aspace_471a84e1b704615f17f3ca71c662dc40" level="file">
@@ -635,30 +522,26 @@
                      <unitdate unitdatetype="inclusive">undated</unitdate>
                      <container altrender="flat box (16d 1h 20w)"
                                 containerid="39002091472929"
-                                id="aspace_2757c037ce1fb8bb56f45c14f850e9be"
+                                id="aspace_ef3feababfcf79881961d50de79a0a52"
                                 label="Mixed Materials"
-                                localtype="Box">1 (Oversize)</container>
-                     <container id="aspace_b2308894710f4b26aa97244aa7874162"
+                                localtype="box">1 (Oversize)</container>
+                     <container id="aspace_e5841829328986746d6e6efc76765793"
                                 localtype="folder"
-                                parent="aspace_2757c037ce1fb8bb56f45c14f850e9be">18</container>
+                                parent="aspace_ef3feababfcf79881961d50de79a0a52">18</container>
                   </did>
                </c>
                <c id="aspace_5ee324f631c836ec9163ea2eebb5f782" level="file">
                   <did>
                      <unittitle>Box</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="2015">2015</fromdate>
-                        </daterange>
-                     </unitdatestructured>
+                     <unitdate unitdatetype="inclusive">2015</unitdate>
                      <container altrender="flat box (14d 3h 18w)"
                                 containerid="39002091472937"
-                                id="aspace_cf580adc5605f1010dcd0a573e80519a"
+                                id="aspace_37df06ae2a7f75164fe0326e142ed170"
                                 label="Mixed Materials"
-                                localtype="Box">2 (Oversize)</container>
-                     <container id="aspace_d62fb5c3a49d0cc7c2dc95a6652a0fab"
+                                localtype="box">2 (Oversize)</container>
+                     <container id="aspace_b13950fb9e8a6270080fe254c6770345"
                                 localtype="folder"
-                                parent="aspace_cf580adc5605f1010dcd0a573e80519a">19</container>
+                                parent="aspace_37df06ae2a7f75164fe0326e142ed170">19</container>
                   </did>
                   <scopecontent id="aspace_286b5238a10fd72a1847ebae08be275c">
                      <head>Scope and Contents</head>
