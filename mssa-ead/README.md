@@ -861,6 +861,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0640.xml](3116.xml) | mssa.ms.0640 | MS 640 | Barnett Fred Dodge papers | 
  [mssa.ms.0654.xml](3117.xml) | mssa.ms.0654 | MS 654 | William Hepburn Buckler papers | 
  [mssa.ms.0655.xml](3118.xml) | mssa.ms.0655 | MS 655 | Frances B. Denton papers | 
+ [mssa.ms.0657.xml](3119.xml) | mssa.ms.0657 | MS 657 | Sidney Edward Mezes papers | 
  [mssa.ms.0659.xml](3120.xml) | mssa.ms.0659 | MS 659 | Thomas Wells Farnam papers | 
  [mssa.ms.0662.xml](3122.xml) | mssa.ms.0662 | MS 662 | Talman family papers | 
  [mssa.ms.0674.xml](3123.xml) | mssa.ms.0674 | MS 674 | American Revolutionary War collection | 
@@ -885,7 +886,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0820.xml](3146.xml) | mssa.ms.0820 | MS 820 | Century of Progress International Exposition - New York World's Fair collection | 
  [mssa.ms.0825.xml](3147.xml) | mssa.ms.0825 | MS 825 | Miller-Auchincloss papers | 
  [mssa.ms.0828.xml](3148.xml) | mssa.ms.0828 | MS 828 | William Weldon Watson Papers | 
+ [mssa.ms.0833.xml](3149.xml) | mssa.ms.0833 | MS 833 | Robert Chapman Bates papers | 
  [mssa.ms.0840.xml](3150.xml) | mssa.ms.0840 | MS 840 | P. D. Ouspensky memorial collection | 
+ [mssa.ms.0855.xml](3151.xml) | mssa.ms.0855 | MS 855 | Colton Family Papers | 
  [mssa.ms.0859.xml](3152.xml) | mssa.ms.0859 | MS 859 | Milton Charles Winternitz papers | 
  [mssa.ms.0865.xml](3153.xml) | mssa.ms.0865 | MS 865 | Shepherd Stevens papers | 
  [mssa.ms.0866.xml](3154.xml) | mssa.ms.0866 | MS 866 | Alexander William Evans papers | 
@@ -893,6 +896,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0872.xml](3156.xml) | mssa.ms.0872 | MS 872 | Linus Yale papers | 
  [mssa.ms.0875.xml](3157.xml) | mssa.ms.0875 | MS 875 | Hubert Bradford Vickery papers | 
  [mssa.ms.0877.xml](3158.xml) | mssa.ms.0877 | MS 877 | Ralph Clement Bryant papers | 
+ [mssa.ms.0884.xml](3159.xml) | mssa.ms.0884 | MS 884 | Warren Hiram Lowenhaupt papers | 
  [mssa.ms.0940.xml](3162.xml) | mssa.ms.0940 | MS 940 | Andrew Keogh papers | 
  [mssa.ms.0946.xml](3163.xml) | mssa.ms.0946 | MS 946 | Street family papers | 
  [mssa.ms.0950.xml](3164.xml) | mssa.ms.0950 | MS 950 | Macdonald family papers | 
@@ -1507,6 +1511,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0534.xml](3839.xml) | mssa.ms.0534 | MS 534 | Caroline Farrar Ware papers | 
  [mssa.ms.0547.xml](3840.xml) | mssa.ms.0547 | MS 547 | Samuel Wells Williams family papers | 
  [mssa.ms.0554.xml](3841.xml) | mssa.ms.0554 | MS 554 | Eli Whitney papers | 
+ [mssa.ms.0555.xml](3842.xml) | mssa.ms.0555 | MS 555 | William Dwight Whitney family papers | 
  [mssa.ms.0590.xml](3844.xml) | mssa.ms.0590 | MS 590 | Humanities and Fine Arts Collection | 
  [mssa.ms.0603.xml](3845.xml) | mssa.ms.0603 | MS 603 | Samuel Rossiter Betts autograph collection | 
  [mssa.ms.0615.xml](3846.xml) | mssa.ms.0615 | MS 615 | Alvin Saunders Johnson papers | 
@@ -1521,6 +1526,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0764.xml](3855.xml) | mssa.ms.0764 | MS 764 | Connecticut Regional Medical Program Records | 
  [mssa.ms.0772.xml](3856.xml) | mssa.ms.0772 | MS 772 | Page family papers | 
  [mssa.ms.0773.xml](3857.xml) | mssa.ms.0773 | MS 773 | Wickham Family papers | 
+ [mssa.ms.0791.xml](3858.xml) | mssa.ms.0791 | MS 791 | James Wesley Cooper papers | 
  [mssa.ms.0797.xml](3859.xml) | mssa.ms.0797 | MS 797 | Phillips F. and Ruth A. Greene papers | 
  [mssa.ms.0801.xml](3860.xml) | mssa.ms.0801 | MS 801 | Mary Ann Phelps Montgomery collection | 
  [mssa.ms.0810.xml](3861.xml) | mssa.ms.0810 | MS 810 | American Public Health Association records | 
@@ -1590,12 +1596,17 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0812.xml](3938.xml) | mssa.ms.0812 | MS 812 | Mussolini collection of V. Lada-Mocarski | 
  [mssa.ms.0827.xml](3939.xml) | mssa.ms.0827 | MS 827 | Albert Lemuel Judd family papers | 
  [mssa.ms.0830.xml](3940.xml) | mssa.ms.0830 | MS 830 | Caesar R. Bannihr papers | 
+ [mssa.ms.0832.xml](3941.xml) | mssa.ms.0832 | MS 832 | Henry Sherman family papers | 
  [mssa.ms.0834.xml](3942.xml) | mssa.ms.0834 | MS 834 | Basil Duke Henning papers | 
+ [mssa.ms.0847.xml](3943.xml) | mssa.ms.0847 | MS 847 | Laurance Johnson Carmalt papers | 
  [mssa.ms.0848.xml](3944.xml) | mssa.ms.0848 | MS 848 | Franklin Manley Foote papers | 
+ [mssa.ms.0851.xml](3945.xml) | mssa.ms.0851 | MS 851 | Noyes family papers | 
  [mssa.ms.0853.xml](3946.xml) | mssa.ms.0853 | MS 853 | Reuben L. and Marcionella V. Curtiss papers | 
  [mssa.ms.0863.xml](3947.xml) | mssa.ms.0863 | MS 863 | John Hays Hammond, Jr. papers | 
+ [mssa.ms.0864.xml](3948.xml) | mssa.ms.0864 | MS 864 | Curtis family papers | 
  [mssa.ms.0870.xml](3949.xml) | mssa.ms.0870 | MS 870 | Chittenden-Lusk family papers | 
  [mssa.ms.0879.xml](3950.xml) | mssa.ms.0879 | MS 879 | Robert Kaplan papers | 
+ [mssa.ms.0881.xml](3951.xml) | mssa.ms.0881 | MS 881 | Henry Ward Camp papers | 
  [mssa.ms.0882.xml](3952.xml) | mssa.ms.0882 | MS 882 | John Cleaveland papers | 
  [mssa.ms.0890.xml](3953.xml) | mssa.ms.0890 | MS 890 | E. Tappan Stannard papers | 
  [mssa.ms.0902.xml](3954.xml) | mssa.ms.0902 | MS 902 | George Alfred Baitsell papers | 
@@ -1857,17 +1868,24 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0805.xml](4254.xml) | mssa.ms.0805 | MS 805 | Emanuel Fritz papers | 
  [mssa.ms.0808.xml](4255.xml) | mssa.ms.0808 | MS 808 | Lee Sanford Hyde papers | 
  [mssa.ms.0809.xml](4256.xml) | mssa.ms.0809 | MS 809 | Milton Terris papers | 
+ [mssa.ms.0818.xml](4257.xml) | mssa.ms.0818 | MS 818 | Harry William Cofrances papers | 
  [mssa.ms.0821.xml](4258.xml) | mssa.ms.0821 | MS 821 | Edgar Howard Sturtevant papers | 
  [mssa.ms.0824.xml](4259.xml) | mssa.ms.0824 | MS 824 | Alphonso Bickford Brown papers | 
  [mssa.ms.0831.xml](4260.xml) | mssa.ms.0831 | MS 831 | Theodore James Holmes papers | 
+ [mssa.ms.0836.xml](4261.xml) | mssa.ms.0836 | MS 836 | James McLaren Breed Dwight papers | 
  [mssa.ms.0837.xml](4262.xml) | mssa.ms.0837 | MS 837 | Charles Augustus Russell papers | 
  [mssa.ms.0839.xml](4263.xml) | mssa.ms.0839 | MS 839 | Bishop family papers | 
  [mssa.ms.0844.xml](4264.xml) | mssa.ms.0844 | MS 844 | Thomas Hartley Crawford papers | 
  [mssa.ms.0846.xml](4265.xml) | mssa.ms.0846 | MS 846 | William Henry Carmalt papers | 
+ [mssa.ms.0849.xml](4266.xml) | mssa.ms.0849 | MS 849 | Lyman Hotchkiss Bagg papers | 
+ [mssa.ms.0852.xml](4267.xml) | mssa.ms.0852 | MS 852 | Edward Hussey Knight papers | 
+ [mssa.ms.0856.xml](4268.xml) | mssa.ms.0856 | MS 856 | William Huse Dunham, Jr. papers | 
  [mssa.ms.0860.xml](4269.xml) | mssa.ms.0860 | MS 860 | Cummings family papers | 
  [mssa.ms.0868.xml](4270.xml) | mssa.ms.0868 | MS 868 | Joel Foote Bingham papers | 
  [mssa.ms.0873.xml](4271.xml) | mssa.ms.0873 | MS 873 | Ulysse Rouchon collection | 
  [mssa.ms.0878.xml](4272.xml) | mssa.ms.0878 | MS 878 | Hugh Picken Brady papers | 
+ [mssa.ms.0880.xml](4273.xml) | mssa.ms.0880 | MS 880 | William Barron Calhoun papers | 
+ [mssa.ms.0883.xml](4274.xml) | mssa.ms.0883 | MS 883 | Norman White Cary papers | 
  [mssa.ms.0886.xml](4275.xml) | mssa.ms.0886 | MS 886 | David Chittenden Collins papers | 
  [mssa.ms.0888.xml](4276.xml) | mssa.ms.0888 | MS 888 | Amos Sheffield Chesebrough papers | 
  [mssa.ms.0891.xml](4277.xml) | mssa.ms.0891 | MS 891 | John Graves Chapman papers | 
@@ -1877,8 +1895,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0901.xml](4282.xml) | mssa.ms.0901 | MS 901 | Jonathan Barnes papers | 
  [mssa.ms.0903.xml](4283.xml) | mssa.ms.0903 | MS 903 | Ramdas Bhaduri papers | 
  [mssa.ms.0905.xml](4284.xml) | mssa.ms.0905 | MS 905 | Bern, Switzerland documents collection | 
+ [mssa.ms.0906.xml](4285.xml) | mssa.ms.0906 | MS 906 | Battell family papers | 
  [mssa.ms.0907.xml](4286.xml) | mssa.ms.0907 | MS 907 | William Beebe papers | 
  [mssa.ms.0909.xml](4287.xml) | mssa.ms.0909 | MS 909 | Frank Altschul papers | 
+ [mssa.ms.0911.xml](4288.xml) | mssa.ms.0911 | MS 911 | Carpenter family papers | 
  [mssa.ms.0914.xml](4290.xml) | mssa.ms.0914 | MS 914 | Paul Bowen Johnson papers | 
  [mssa.ms.0916.xml](4291.xml) | mssa.ms.0916 | MS 916 | Blackstone family papers | 
  [mssa.ms.0919.xml](4293.xml) | mssa.ms.0919 | MS 919 | Edwin Munsell Bliss papers | 
@@ -2018,6 +2038,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0845.xml](4473.xml) | mssa.ms.0845 | MS 845 | Milbank Memorial Fund records | 
  [mssa.ms.0850.xml](4474.xml) | mssa.ms.0850 | MS 850 | John Sylvester Fischer papers | 
  [mssa.ms.0854.xml](4475.xml) | mssa.ms.0854 | MS 854 | Sherman Kent papers | 
+ [mssa.ms.0857.xml](4476.xml) | mssa.ms.0857 | MS 857 | Humphreys-Marvin-Olmstead collection | 
  [mssa.ms.0889.xml](4477.xml) | mssa.ms.0889 | MS 889 | New Schools Exchange records | 
  [mssa.ms.0895.xml](4478.xml) | mssa.ms.0895 | MS 895 | Theodore and Ruth Lidz papers | 
  [mssa.ms.0897.xml](4479.xml) | mssa.ms.0897 | MS 897 | John Punnett Peters papers | 
@@ -2067,6 +2088,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0299.xml](4546.xml) | mssa.ms.0299 | MS 299 | Anson Phelps Stokes family papers | 
  [mssa.ms.0222.xml](4547.xml) | mssa.ms.0222 | MS 222 | Jerome New Frank papers | 
  [mssa.ms.0592.xml](4548.xml) | mssa.ms.0592 | MS 592 | John Vliet Lindsay papers | 
+ [mssa.ms.0730.xml](4550.xml) | mssa.ms.0730 | MS 730 | Dwight Macdonald papers | 
  [mssa.ms.0755.xml](4551.xml) | mssa.ms.0755 | MS 755 | Ogden Rogers Reid papers | 
  [mssa.ms.1367.xml](4553.xml) | mssa.ms.1367 | MS 1367 | Potter Stewart papers | 
  [mssa.ms.1635.xml](4554.xml) | mssa.ms.1635 | MS 1635 | William Nelson Parker papers | 
