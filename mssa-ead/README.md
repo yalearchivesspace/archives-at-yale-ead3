@@ -416,37 +416,53 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0994.xml](2313.xml) | mssa.ru.0994 | RU 994 | Department of Athletics, Yale University, records documenting softball | 
  [mssa.ru.0996.xml](2314.xml) | mssa.ru.0996 | RU 996 | Richard Nash Gould research materials used in the publication "The Twentieth Century Project" | 
  [mssa.ru.0997.xml](2315.xml) | mssa.ru.0997 | RU 997 | Yale University <title render="italic">Framework for Campus Planning</title> [final draft] | 
+ [mssa.ru.0998.xml](2316.xml) | mssa.ru.0998 | RU 998 | Department of Athletics, Yale University, records documenting field hockey | 
  [mssa.ru.0999.xml](2317.xml) | mssa.ru.0999 | RU 999 | Petition from the officers of Yale University to United States senators from Connecticut | 
  [mssa.ru.1000.xml](2318.xml) | mssa.ru.1000 | RU 1000 | Department of Music, Yale University, records | 
  [mssa.ru.1002.xml](2319.xml) | mssa.ru.1002 | RU 1002 | Class of 1963, Yale College, records | 
  [mssa.ru.1003.xml](2320.xml) | mssa.ru.1003 | RU 1003 | Yale Bibliophiles records | 
+ [mssa.ru.1004.xml](2321.xml) | mssa.ru.1004 | RU 1004 | William Bunnell Norton, Class of 1925, Yale College, photograph collection documenting Yale University | 
  [mssa.ru.1009.xml](2322.xml) | mssa.ru.1009 | RU 1009 | Yale buildings motion picture showing former sites and replacements | 
  [mssa.ru.1010.xml](2323.xml) | mssa.ru.1010 | RU 1010 | Class of 1910, Yale College, reunion motion pictures | 
  [mssa.ru.1013.xml](2324.xml) | mssa.ru.1013 | RU 1013 | Lesbian and Gay Studies Center at Yale records | 
  [mssa.ru.1015.xml](2325.xml) | mssa.ru.1015 | RU 1015 | English Language Institute, Yale University, records | 
+ [mssa.ru.1016.xml](2326.xml) | mssa.ru.1016 | RU 1016 | Iktinos Society, Yale University, records | 
  [mssa.ru.1020.xml](2327.xml) | mssa.ru.1020 | RU 1020 | Edwin C. Taylor and Robert Galvin drawings of Yale University buildings | 
  [mssa.ru.1022.xml](2328.xml) | mssa.ru.1022 | RU 1022 | Detroit Photographic Company photographs of Yale University buildings | 
+ [mssa.ru.1023.xml](2329.xml) | mssa.ru.1023 | RU 1023 | Frederick Ely Williamson, Class of 1898, Yale College, photographs documenting life at Yale University | 
  [mssa.ru.1026.xml](2330.xml) | mssa.ru.1026 | RU 1026 | Elizur Goodrich, Secretary of the Yale Corporation, correspondence | 
  [mssa.ru.1027.xml](2331.xml) | mssa.ru.1027 | RU 1027 | Samuel Rogers Andrew, secretary of Yale College, correspondence | 
+ [mssa.ru.1033.xml](2333.xml) | mssa.ru.1033 | RU 1033 | Department of Athletics, Yale University, records documenting squash | 
  [mssa.ru.1034.xml](2334.xml) | mssa.ru.1034 | RU 1034 | Undergraduate Athletic Association, Yale University, meeting minutes | 
  [mssa.ru.1035.xml](2335.xml) | mssa.ru.1035 | RU 1035 | Yale University and New Haven photograph collection | 
  [mssa.ru.1038.xml](2336.xml) | mssa.ru.1038 | RU 1038 | Wesley Needham photographic slides of Yale University | 
+ [mssa.ru.1039.xml](2337.xml) | mssa.ru.1039 | RU 1039 | Black Tie Society, Yale University, records | 
+ [mssa.ru.1041.xml](2338.xml) | mssa.ru.1041 | RU 1041 | Department of Athletics, Yale University, records documenting women's gymnastics | 
+ [mssa.ru.1042.xml](2339.xml) | mssa.ru.1042 | RU 1042 | Lesbian, gay, transgender, bi-sexual, and queer student life at Yale University collection | 
  [mssa.ru.1043.xml](2340.xml) | mssa.ru.1043 | RU 1043 | Communications Committee, Yale University Library, records | 
+ [mssa.ru.1044.xml](2341.xml) | mssa.ru.1044 | RU 1044 | Harry T. Hamilton, Jr., Yale College Class of 1938, photographs and memorabilia documenting life at Yale University | 
+ [mssa.ru.1047.xml](2342.xml) | mssa.ru.1047 | RU 1047 | Marcia Cleveland slides documenting Yale University student life | 
  [mssa.ru.1052.xml](2343.xml) | mssa.ru.1052 | RU 1052 | Yale Civil Rights Council records | 
  [mssa.ru.1053.xml](2344.xml) | mssa.ru.1053 | RU 1053 | Religious student life at Yale College collection | 
+ [mssa.ru.1056.xml](2345.xml) | mssa.ru.1056 | RU 1056 | Program in History of Science and Medicine, Yale University, prize-winning essays | 
  [mssa.ru.1060.xml](2346.xml) | mssa.ru.1060 | RU 1060 | Yale Club of the Central Valley (Calif.) records | 
+ [mssa.ru.1061.xml](2347.xml) | mssa.ru.1061 | RU 1061 | Department of Athletics, Yale University, Motion Picture Film Documenting Track and Field | 
  [mssa.ru.1064.xml](2348.xml) | mssa.ru.1064 | RU 1064 | Yale Medical Wives Association records | 
  [mssa.ru.1066.xml](2349.xml) | mssa.ru.1066 | RU 1066 | Yale Women's Coordinating Council meeting minutes | 
  [mssa.ru.1067.xml](2350.xml) | mssa.ru.1067 | RU 1067 | Yale Club of Southern California records | 
  [mssa.ru.1068.xml](2351.xml) | mssa.ru.1068 | RU 1068 | Yale Sustainable Food Project records | 
  [mssa.ru.1071.xml](2352.xml) | mssa.ru.1071 | RU 1071 | Department of Athletics, Yale University, scrapbooks | 
  [mssa.ru.1076.xml](2353.xml) | mssa.ru.1076 | RU 1076 | Yale photograph and photograph album collection | 
+ [mssa.ru.1077.xml](2354.xml) | mssa.ru.1077 | RU 1077 | Mixed Company of Yale records | 
  [mssa.ru.1079.xml](2355.xml) | mssa.ru.1079 | RU 1079 | Calhoun College, Yale University, memorabilia | 
  [mssa.ru.1080.xml](2356.xml) | mssa.ru.1080 | RU 1080 | Calhoun College, Yale University, fellows records | 
  [mssa.ru.1084.xml](2357.xml) | mssa.ru.1084 | RU 1084 | Sheffield Scientific School, Yale University, class records | 
  [mssa.ru.1096.xml](2358.xml) | mssa.ru.1096 | RU 1096 | Audit Department, Yale University, photographs | 
  [mssa.ru.1100.xml](2359.xml) | mssa.ru.1100 | RU 1100 | Funds Management, Yale University, gift annuity records | 
+ [mssa.ru.1101.xml](2360.xml) | mssa.ru.1101 | RU 1101 | Party of the Right, Yale University, records | 
+ [mssa.ru.1103.xml](2361.xml) | mssa.ru.1103 | RU 1103 | <title xlink:type="simple" render="italic">Yale Scientific Monthly</title> board of editors minutes | 
  [mssa.ru.1107.xml](2362.xml) | mssa.ru.1107 | RU 1107 | Office of New Haven and State Affairs, Yale University, records | 
+ [mssa.ru.1109.xml](2363.xml) | mssa.ru.1109 | RU 1109 | AIDS Task Force at Yale records | 
  [mssa.ru.0006.xml](2364.xml) | mssa.ru.0006 | RU 6 | Harvey Cushing/John Hay Whitney Medical Library, Yale University, renovation records | 
  [mssa.ru.0008.xml](2365.xml) | mssa.ru.0008 | RU 8 | Office of Facilities, Yale University, records | 
  [mssa.ru.0009.xml](2366.xml) | mssa.ru.0009 | RU 9 | Fellowship of Helen Hadley Hall, Yale University, records | 
@@ -629,19 +645,26 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0977.xml](2545.xml) | mssa.ru.0977 | RU 977 | Labor-Management Relations, Yale University, records | 
  [mssa.ru.0991.xml](2546.xml) | mssa.ru.0991 | RU 991 | Department of Athletics, Yale University, motion pictures documenting soccer | 
  [mssa.ru.0992.xml](2547.xml) | mssa.ru.0992 | RU 992 | Department of Athletics, Yale University, motion pictures documenting volleyball | 
+ [mssa.ru.1001.xml](2548.xml) | mssa.ru.1001 | RU 1001 | School of Architecture, Yale University, reminiscences and documentation of architecture students collected by Robert A. M. Stern | 
  [mssa.ru.1006.xml](2549.xml) | mssa.ru.1006 | RU 1006 | Yale Journal of Criticism records | 
  [mssa.ru.1008.xml](2550.xml) | mssa.ru.1008 | RU 1008 | Social Science Data Archive, Yale University, records | 
  [mssa.ru.1017.xml](2551.xml) | mssa.ru.1017 | RU 1017 | Yale Summer and Special Programs records concerning faculty | 
  [mssa.ru.1019.xml](2552.xml) | mssa.ru.1019 | RU 1019 | Roth and Moore Architects records concerning the Seeley G. Mudd Library, Yale University | 
  [mssa.ru.1025.xml](2553.xml) | mssa.ru.1025 | RU 1025 | Social Science Libraries and Information Services, Yale University, records | 
  [mssa.ru.1028.xml](2554.xml) | mssa.ru.1028 | RU 1028 | Class of 1864, Yale College, records | 
+ [mssa.ru.1030.xml](2555.xml) | mssa.ru.1030 | RU 1030 | Department of Athletics, Yale University, records documenting soccer | 
  [mssa.ru.1036.xml](2556.xml) | mssa.ru.1036 | RU 1036 | Yale University and New Haven photograph album | 
  [mssa.ru.1040.xml](2557.xml) | mssa.ru.1040 | RU 1040 | School of Medicine, Yale University, audio recordings of events and programs | 
+ [mssa.ru.1046.xml](2558.xml) | mssa.ru.1046 | RU 1046 | Asian American Students Alliance, Yale University, records | 
  [mssa.ru.1051.xml](2559.xml) | mssa.ru.1051 | RU 1051 | Oral histories documenting Yale University women | 
+ [mssa.ru.1059.xml](2560.xml) | mssa.ru.1059 | RU 1059 | Lesbian, Gay, Bisexual, Transgender Cooperative at Yale records | 
  [mssa.ru.1063.xml](2561.xml) | mssa.ru.1063 | RU 1063 | Faculty Club records | 
  [mssa.ru.1065.xml](2562.xml) | mssa.ru.1065 | RU 1065 | Yale Dames records | 
  [mssa.ru.1069.xml](2563.xml) | mssa.ru.1069 | RU 1069 | DeVane Lecture Series, Yale University, audiorecordings | 
+ [mssa.ru.1081.xml](2564.xml) | mssa.ru.1081 | RU 1081 | Ravi D. Goel collection on Yale | 
+ [mssa.ru.1082.xml](2565.xml) | mssa.ru.1082 | RU 1082 | Shades, Yale University, records | 
  [mssa.ru.1083.xml](2566.xml) | mssa.ru.1083 | RU 1083 | School of Art, Yale University, lectures and presentations | 
+ [mssa.ru.1085.xml](2567.xml) | mssa.ru.1085 | RU 1085 | Berkeley College, Yale University, Paul Mellon Fellowship correspondence | 
  [mssa.ru.1088.xml](2568.xml) | mssa.ru.1088 | RU 1088 | School of Medicine, Yale University, records of James D. Kenney as associate dean for postgraduate and continuing medical education | 
  [mssa.ru.1089.xml](2569.xml) | mssa.ru.1089 | RU 1089 | Yale Science and Engineering Association records | 
  [mssa.ru.1091.xml](2570.xml) | mssa.ru.1091 | RU 1091 | General Accounting Services, Yale University, monthly accounting statements | 
@@ -806,6 +829,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1075.xml](2746.xml) | mssa.ru.1075 | RU 1075 | Yale Cabaret records | 
  [mssa.ru.1078.xml](2747.xml) | mssa.ru.1078 | RU 1078 | Yale School of Architecture Building Project records | 
  [mssa.ru.1086.xml](2748.xml) | mssa.ru.1086 | RU 1086 | Drama Library, Yale University, records | 
+ [mssa.ru.1097.xml](2749.xml) | mssa.ru.1097 | RU 1097 | Anna Wipfler senior essay and interviews documenting lesbian and gay student activism at Yale | 
  [mssa.ru.1099.xml](2750.xml) | mssa.ru.1099 | RU 1099 | Jon P. Gunnemann files on ethical investments at Yale | 
  [mssa.ru.1102.xml](2751.xml) | mssa.ru.1102 | RU 1102 | Police Advisory Board, Yale University, records | 
  [mssa.ru.1104.xml](2752.xml) | mssa.ru.1104 | RU 1104 | Morse College, Yale University, fellows records | 
@@ -906,6 +930,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0995.xml](2859.xml) | mssa.ru.0995 | RU 995 | Pierre Hohenberg, Deputy provost for science and technology, Yale University, records | 
  [mssa.ru.1007.xml](2860.xml) | mssa.ru.1007 | RU 1007 | School of Management, Yale University, records of the associate dean for development and alumni relations | 
  [mssa.ru.1014.xml](2861.xml) | mssa.ru.1014 | RU 1014 | School of Forestry and Environmental Studies, Yale University, records of the dean concerning faculty | 
+ [mssa.ru.1018.xml](2862.xml) | mssa.ru.1018 | RU 1018 | School of Architecture, Yale University, records concerning <title render="italic">Retrospecta</title> | 
+ [mssa.ru.1021.xml](2863.xml) | mssa.ru.1021 | RU 1021 | Department of the History of Art, Yale University, student records | 
+ [mssa.ru.1024.xml](2864.xml) | mssa.ru.1024 | RU 1024 | Yale School of Drama audio-visual recordings | 
+ [mssa.ru.1045.xml](2866.xml) | mssa.ru.1045 | RU 1045 | Chaplain's Office, Yale University, records | 
  [mssa.ru.1055.xml](2867.xml) | mssa.ru.1055 | RU 1055 | Oral histories documenting New Haven, Connecticut | 
  [mssa.ru.1087.xml](2868.xml) | mssa.ru.1087 | RU 1087 | Barbara Shailor, deputy provost for the arts, Yale University, records | 
  [mssa.ru.1106.xml](2869.xml) | mssa.ru.1106 | RU 1106 | Lesbian, Gay, Bisexual, and Transgender Studies at Yale records | 
@@ -931,6 +959,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0821.xml](2895.xml) | mssa.ru.0821 | RU 821 | Office on the Education of Women, Yale University, records | 
  [mssa.ru.0172.xml](2896.xml) | mssa.ru.0172 | RU 172 | Saybrook College, Yale University, student records for the Classes of 1964-2010 maintained by the dean | 
  [mssa.ru.0521.xml](2897.xml) | mssa.ru.0521 | RU 521 | Insurance Office, Yale University, records | 
+ [mssa.ru.1049.xml](2899.xml) | mssa.ru.1049 | RU 1049 | School of Architecture, Yale University, student records | 
  [mssa.ru.0896.xml](2900.xml) | mssa.ru.0896 | RU 896 | Treasury Services, Yale University, records | 
  [mssa.ru.0255.xml](2901.xml) | mssa.ru.0255 | RU 255 | Calhoun College, Yale University, student records for the Classes of 1964-2016 maintained by the dean | 
  [mssa.ru.0257.xml](2902.xml) | mssa.ru.0257 | RU 257 | Silliman College, Yale University, student records of the Classes of 1964-present maintained by the dean | 
@@ -1177,6 +1206,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1051.xml](3172.xml) | mssa.ms.1051 | MS 1051 | Theophil Mitchell Prudden papers | 
  [mssa.ms.1084.xml](3173.xml) | mssa.ms.1084 | MS 1084 | Lewis Sheldon Welch Papers | 
  [mssa.ms.1093.xml](3174.xml) | mssa.ms.1093 | MS 1093 | William Appleton Aiken papers | 
+ [mssa.ms.1095.xml](3175.xml) | mssa.ms.1095 | MS 1095 | Alfred White Van Sinderen Collection | 
  [mssa.ms.1098.xml](3176.xml) | mssa.ms.1098 | MS 1098 | Journal of Experimental Zoology records | 
  [mssa.ms.1125.xml](3177.xml) | mssa.ms.1125 | MS 1125 | Pierpont Family Papers | 
  [mssa.ms.1129.xml](3178.xml) | mssa.ms.1129 | MS 1129 | Bernard Bloch papers | 
@@ -1735,6 +1765,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1725.xml](3740.xml) | mssa.ms.1725 | MS 1725 | Seventh American Forest Congress records | 
  [mssa.ms.1729.xml](3741.xml) | mssa.ms.1729 | MS 1729 | Josephine Steiner Barger papers | 
  [mssa.ms.1730.xml](3742.xml) | mssa.ms.1730 | MS 1730 | St. Luke's Hospice/Palliative Care Program records | 
+ [mssa.ms.1733.xml](3743.xml) | mssa.ms.1733 | MS 1733 | Jonathan Barnett papers | 
  [mssa.ms.1738.xml](3744.xml) | mssa.ms.1738 | MS 1738 | Robert Ralph Young papers | 
  [mssa.ms.1743.xml](3746.xml) | mssa.ms.1743 | MS 1743 | John Whitney Hall papers | 
  [mssa.ms.1744.xml](3747.xml) | mssa.ms.1744 | MS 1744 | Maurice Parmelee papers | 
@@ -1769,10 +1800,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1915.xml](3778.xml) | mssa.ms.1915 | MS 1915 | E. Dorrit Hoffleit papers | 
  [mssa.ms.1922.xml](3779.xml) | mssa.ms.1922 | MS 1922 | Philip M. and Lorna Sarrel papers | 
  [mssa.ms.1927.xml](3780.xml) | mssa.ms.1927 | MS 1927 | Phillips family papers | 
+ [mssa.ms.1930.xml](3781.xml) | mssa.ms.1930 | MS 1930 | American Field Service application records | 
  [mssa.ms.1946.xml](3782.xml) | mssa.ms.1946 | MS 1946 | Elizabeth Mills Brown files on New Haven architecture | 
  [mssa.ms.1948.xml](3783.xml) | mssa.ms.1948 | MS 1948 | C. Ray Smith manuscript and research files on the Yale Art and Architecture Building by Paul Rudolph | 
  [mssa.ms.1296.xml](3784.xml) | mssa.ms.1296 | MS 1296 | Edith Banfield Jackson papers | 
  [mssa.ms.0004.xml](3785.xml) | mssa.ms.0004 | MS 4 | D. Cady Eaton papers | 
+ [mssa.ms.0005.xml](3786.xml) | mssa.ms.0005 | MS 5 | Arthur Bliss Lane papers | 
  [mssa.ms.0006.xml](3787.xml) | mssa.ms.0006 | MS 6 | Michael Meredith Hare papers | 
  [mssa.ms.0010.xml](3788.xml) | mssa.ms.0010 | MS 10 | Charles Templeman Loram papers | 
  [mssa.ms.0011.xml](3789.xml) | mssa.ms.0011 | MS 11 | Frank Parsons papers | 
@@ -1852,6 +1885,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0985.xml](3870.xml) | mssa.ms.0985 | MS 985 | Hadley family papers | 
  [mssa.ms.1002.xml](3871.xml) | mssa.ms.1002 | MS 1002 | George A. Silver papers | 
  [mssa.ms.1010.xml](3872.xml) | mssa.ms.1010 | MS 1010 | Thomas E. Packer papers | 
+ [mssa.ms.1030.xml](3873.xml) | mssa.ms.1030 | MS 1030 | Russell Cornell Leffingwell papers | 
  [mssa.ms.1089.xml](3874.xml) | mssa.ms.1089 | MS 1089 | A. Sidney Lovett papers | 
  [mssa.ms.1114.xml](3875.xml) | mssa.ms.1114 | MS 1114 | William Clyde De Vane papers | 
  [mssa.ms.1140.xml](3876.xml) | mssa.ms.1140 | MS 1140 | William Harlan Hale papers | 
@@ -1887,6 +1921,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1625.xml](3907.xml) | mssa.ms.1625 | MS 1625 | Vincent Price papers | 
  [mssa.ms.1629.xml](3908.xml) | mssa.ms.1629 | MS 1629 | Thomas Goddard Bergin papers | 
  [mssa.ms.1636.xml](3909.xml) | mssa.ms.1636 | MS 1636 | Myres Smith McDougal papers | 
+ [mssa.ms.1637.xml](3910.xml) | mssa.ms.1637 | MS 1637 | W. Cameron Caswell and John Marshall Holcombe, Jr. collection | 
  [mssa.ms.1216.xml](3911.xml) | mssa.ms.1216 | MS 1216 | Sargent family papers | 
  [mssa.ms.1660.xml](3912.xml) | mssa.ms.1660 | MS 1660 | Sally Provence papers | 
  [mssa.ms.1699.xml](3913.xml) | mssa.ms.1699 | MS 1699 | Donaldson family papers | 
@@ -2091,6 +2126,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0846.xml](4126.xml) | mssa.ru.0846 | RU 846 | Yale Law School records of the dean | 
  [mssa.ru.0891.xml](4127.xml) | mssa.ru.0891 | RU 891 | Office of Development, Yale University, records | 
  [mssa.ru.0948.xml](4128.xml) | mssa.ru.0948 | RU 948 | Graduate School of Arts and Sciences, Yale University, records of the dean | 
+ [mssa.ru.1073.xml](4129.xml) | mssa.ru.1073 | RU 1073 | School of Nursing, Yale University, Historical Collection | 
  [mssa.ru.0709.xml](4131.xml) | mssa.ru.0709 | RU 709 | Sheffield Scientific School, Yale University, student records | 
  [mssa.ms.0018.xml](4133.xml) | mssa.ms.0018 | MS 18 | Job Clark papers | 
  [mssa.ms.0022.xml](4134.xml) | mssa.ms.0022 | MS 22 | Henry Wick Chambers papers | 
@@ -2418,6 +2454,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1237.xml](4485.xml) | mssa.ms.1237 | MS 1237 | Anne Ramsay Somers papers | 
  [mssa.ms.1284.xml](4487.xml) | mssa.ms.1284 | MS 1284 | Ira Vaughan Hiscock papers | 
  [mssa.ms.1297.xml](4488.xml) | mssa.ms.1297 | MS 1297 | Arnold Carl Klebs papers | 
+ [mssa.ms.1387.xml](4489.xml) | mssa.ms.1387 | MS 1387 | Crawford Theater collection | 
  [mssa.ms.1399.xml](4490.xml) | mssa.ms.1399 | MS 1399 | Horace Dwight Taft papers | 
  [mssa.ms.0858.xml](4492.xml) | mssa.ms.0858 | MS 858 | Abe Fortas papers | 
  [mssa.ms.1138.xml](4493.xml) | mssa.ms.1138 | MS 1138 | Margaret S. Mahler papers | 
@@ -2528,6 +2565,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0496a.xml](4881.xml) | mssa.ms.0496a | MS 496A | Loomis-Wilder Family papers | 
  [mssa.ms.0496b.xml](4882.xml) | mssa.ms.0496b | MS 496B | David Peck Todd papers | 
  [mssa.ms.0496c.xml](4883.xml) | mssa.ms.0496c | MS 496C | Mabel Loomis Todd papers | 
+ [mssa.ms.0496d.xml](4884.xml) | mssa.ms.0496d | MS 496D | Millicent Todd Bingham papers | 
  [mssa.ms.0496e.xml](4885.xml) | mssa.ms.0496e | MS 496E | Todd-Bingham picture collection | 
  [mssa.ms.0496f.xml](4886.xml) | mssa.ms.0496f | MS 496F | Todd-Bingham memorabilia collection | 
  [mssa.ms.1953.xml](4887.xml) | mssa.ms.1953 | MS 1953 | Greentree Stud and Stable records | 
@@ -2547,6 +2585,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1958.xml](4949.xml) | mssa.ms.1958 | MS 1958 | Jay Katz papers | 
  [mssa.ms.1963.xml](4951.xml) | mssa.ms.1963 | MS 1963 | Stephen Gendin papers | 
  [mssa.ru.1050.xml](5035.xml) | mssa.ru.1050 | RU 1050 | Medieval Studies Program records | 
+ [mssa.ms.0650.xml](5037.xml) | mssa.ms.0650 | MS 650 | Cuban revolution collection | 
  [mssa.ms.0402.xml](5043.xml) | mssa.ms.0402 | MS 402 | Anson Phelps Stokes Autograph Collection | 
  [mssa.ms.1968.xml](5082.xml) | mssa.ms.1968 | MS 1968 | Donald Horowitz collection on ethnic riots | 
  [mssa.ms.1969.xml](5083.xml) | mssa.ms.1969 | MS 1969 | Richard W. Arnold drawings | 
@@ -2616,6 +2655,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [5180.xml](5180.xml) |  | HM 266 | Yale Kappa Sigma Theta Records [microform] | 
  [5181.xml](5181.xml) |  | HM 203 | Yale Architectual Archives - Series I [microform] | 
  [mssa.ru.1111.xml](5182.xml) | mssa.ru.1111 | RU 1111 | School Development Program, Child Study Center, School of Medicine, Yale University, records | 
+ [mssa.ru.1110.xml](5183.xml) | mssa.ru.1110 | RU 1110 | John Herrick Jackson, Class of 1934, Yale College, photographs and etchings documenting student life at Yale | 
  [mssa.ms.1895.xml](5184.xml) | mssa.ms.1895 | MS 1895 | John Glines papers | 
  [5185.xml](5185.xml) |  | HM 255 | John Woodruff Ewell Papers - Correspondence, notes, landscape drawings, purchase orders, and other papers relating to the Book and Snake Society garden 1963-1969. From the Yale Miscellaneous Manuscripts Collection [microform]
   | 
@@ -2633,6 +2673,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1112.xml](5197.xml) | mssa.ru.1112 | RU 1112 | J. Lloyd Suttle, Deputy Provost for Academic Resources, Yale University, records | 
  [mssa.ms.1964.xml](5199.xml) | mssa.ms.1964 | MS 1964 | Joseph Verner Reed (1937-) papers | 
  [mssa.ru.1113.xml](5200.xml) | mssa.ru.1113 | RU 1113 | "Yale Reports" Audio Recordings and Transcripts | 
+ [mssa.ru.1114.xml](5201.xml) | mssa.ru.1114 | RU 1114 | Special Divisional Major, Yale College, student records | 
  [mssa.ms.1905.xml](5202.xml) | mssa.ms.1905 | MS 1905 | Japanese film ephemera collection | 
  [mssa.ms.1982.xml](5203.xml) | mssa.ms.1982 | MS 1982 | Jon Butler papers | 
  [mssa.ms.1983.xml](5204.xml) | mssa.ms.1983 | MS 1983 | Carroll Revue collection | 
@@ -2641,17 +2682,21 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1985.xml](5207.xml) | mssa.ms.1985 | MS 1985 | Christine Pattee papers on the New Haven women's liberation movement | 
  [mssa.ms.1925.xml](5208.xml) | mssa.ms.1925 | MS 1925 | United Nations collection of Kofi Annan papers | 
  [mssa.ru.1115.xml](5209.xml) | mssa.ru.1115 | RU 1115 | University Tribunal, Yale University, records of the Chair | 
+ [mssa.ru.1116.xml](5210.xml) | mssa.ru.1116 | RU 1116 | John Emory Buxton Wells, Class of 1917, Sheffield Scientific School, Yale University, photograph collection | 
  [mssa.ms.1986.xml](5212.xml) | mssa.ms.1986 | MS 1986 | Dori Laub interviews of Holocaust survivors | 
  [5213.xml](5213.xml) |  | HM 282 | Eugene C. Gardner papers [microfilm] | 
  [mssa.ru.1117.xml](5214.xml) | mssa.ru.1117 | RU 1117 | Howard R. Lamar Center for the Study of Frontiers and Borders, Yale University, records | 
+ [mssa.ru.1118.xml](5215.xml) | mssa.ru.1118 | RU 1118 | Frederick J. Mahaffey, School of Fine Arts, Yale University, correspondence and memorabilia | 
  [mssa.ru.1119.xml](5216.xml) | mssa.ru.1119 | RU 1119 | School of Forestry and Environmental Studies Library, Yale University, records | 
  [mssa.ms.1987.xml](5218.xml) | mssa.ms.1987 | MS 1987 | Journal of Sir Simonds d'Ewes (transcripts) | 
  [mssa.ru.1120.xml](5219.xml) | mssa.ru.1120 | RU 1120 | Yale University Library name/title card catalog | 
  [mssa.ms.1989.xml](5221.xml) | mssa.ms.1989 | MS 1989 | Louis H. Pollak papers | 
  [mssa.ru.1121.xml](5222.xml) | mssa.ru.1121 | RU 1121 | A Brief History of Bladderball [research materials and essay] by Sarah Hammond | 
+ [mssa.ru.1122.xml](5223.xml) | mssa.ru.1122 | RU 1122 | Education Studies, Yale College, records | 
  [mssa.ru.1123.xml](5224.xml) | mssa.ru.1123 | RU 1123 | Class of 1956, Yale College, records | 
  [mssa.ru.1124.xml](5225.xml) | mssa.ru.1124 | RU 1124 | Lesbian, Gay, Bisexual, and Transgender Families Project, Yale Research Initiative on the History of Sexualities, records | 
  [mssa.ms.1991.xml](5226.xml) | mssa.ms.1991 | MS 1991 | Cooper, Robertson & Partners records | 
+ [mssa.ru.1125.xml](5227.xml) | mssa.ru.1125 | RU 1125 | Bulldogs Across America, Yale College, records | 
  [mssa.ms.1992.xml](5228.xml) | mssa.ms.1992 | MS 1992 | Elizabeth Cutter Morrow papers regarding Dwight W. Morrow, Jr. | 
  [mssa.ms.1993.xml](5229.xml) | mssa.ms.1993 | MS 1993 | Ruth Barcan Marcus papers | 
  [mssa.ms.1994.xml](5230.xml) | mssa.ms.1994 | MS 1994 | Theodore Martindale Purdy photographs and papers | 
@@ -2742,6 +2787,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2069.xml](5735.xml) | mssa.ms.2069 | MS 2069 | Harry W. Selden right wing materials collection | 
  [5888.xml](5888.xml) |  | MS 2068 | James Gustave Speth papers | 
  [mssa.ms.2072.xml](5891.xml) | mssa.ms.2072 | MS 2072 | Lewis B. Cullman papers | 
+ [mssa.ru.1148.xml](10407.xml) | mssa.ru.1148 | RU 1148 | Freshman Outdoor Orientation Trips, records | 
  [10653.xml](10653.xml) |  | RU 1149 | Yale Club of Hong Kong | 
  [mssa.ms.2074.xml](10658.xml) | mssa.ms.2074 | MS 2074 | The Bartos Company records | 
  [mssa.ms.2079.xml](10660.xml) | mssa.ms.2079 | MS 2079 | María Pilar Fort Trigo diary | 
@@ -2754,5 +2800,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2082.xml](10700.xml) | mssa.ms.2082 | MS 2082 | Joan Alzina papers | 
  [mssa.ru.1151.xml](10732.xml) | mssa.ru.1151 | RU 1151 | Bureau of Highway Traffic, Yale University, records | 
  [mssa.ru.0207.xml](10778.xml) | mssa.ru.0207 | RU 207 | Timothy Dwight College, Yale University, student records | 
+ [mssa.ru.1153.xml](10837.xml) | mssa.ru.1153 | RU 1153 | Yale University Corporation 1949 Presidential Search Committee Records | 
  [mssa.ru.1156.xml](11096.xml) | mssa.ru.1156 | RU .1156 | Institute of Sacred Music, Yale University, records | 
 
