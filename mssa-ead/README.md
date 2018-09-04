@@ -991,6 +991,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0144.xml](2928.xml) | mssa.ms.0144 | MS 144 | Colgate Family papers | 
  [mssa.ms.0147.xml](2929.xml) | mssa.ms.0147 | MS 147 | Arthur Morris Collins papers | 
  [mssa.ms.0177.xml](2930.xml) | mssa.ms.0177 | MS 177 | De Forest family papers | 
+ [mssa.ms.0178.xml](2931.xml) | mssa.ms.0178 | MS 178 | William Adams Delano papers | 
  [mssa.ms.0193.xml](2932.xml) | mssa.ms.0193 | MS 193 | Jacob Eliot family papers | 
  [mssa.ms.0201.xml](2933.xml) | mssa.ms.0201 | MS 201 | Fabrique family papers | 
  [mssa.ms.0215.xml](2935.xml) | mssa.ms.0215 | MS 215 | Asa Fitch papers | 
@@ -1085,6 +1086,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0157.xml](3032.xml) | mssa.ms.0157 | MS 157 | Alexander Griswold Cummins papers | 
  [mssa.ms.0167.xml](3033.xml) | mssa.ms.0167 | MS 167 | Darrach family papers | 
  [mssa.ms.0175.xml](3035.xml) | mssa.ms.0175 | MS 175 | Day family papers | 
+ [mssa.ms.0176.xml](3036.xml) | mssa.ms.0176 | MS 176 | Decision Magazine papers | 
  [mssa.ms.0179.xml](3037.xml) | mssa.ms.0179 | MS 179 | Jean André DeLuc papers | 
  [mssa.ms.0180.xml](3038.xml) | mssa.ms.0180 | MS 180 | Chauncey Mitchell Depew papers | 
  [mssa.ms.0190.xml](3039.xml) | mssa.ms.0190 | MS 190 | Walter Prichard Eaton papers | 
@@ -2014,6 +2016,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1142.xml](4002.xml) | mssa.ms.1142 | MS 1142 | Hugh Rechnitzer papers | 
  [mssa.ms.1148.xml](4003.xml) | mssa.ms.1148 | MS 1148 | Rush Benjamin Wheeler papers | 
  [mssa.ru.0592.xml](4004.xml) | mssa.ru.0592 | RU 592 | Jonathan Edwards College, Yale University, records of the master | 
+ [mssa.ms.0033.xml](4005.xml) | mssa.ms.0033 | MS 33 | John Maudgridge Snowden Allison papers | 
  [mssa.ms.0644.xml](4006.xml) | mssa.ms.0644 | MS 644 | Philosophy and social science manuscripts collection | 
  [mssa.ms.0700.xml](4007.xml) | mssa.ms.0700 | MS 700 | Gilbert-Cheever family papers | 
  [mssa.ms.1746.xml](4008.xml) | mssa.ms.1746 | MS 1746 | James Tobin papers | 
@@ -2402,6 +2405,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1153.xml](4414.xml) | mssa.ms.1153 | MS 1153 | Increase Niles Tarbox papers | 
  [mssa.ru.0005.xml](4415.xml) | mssa.ru.0005 | RU 5 | Yale University building project records | 
  [mssa.ms.0593.xml](4418.xml) | mssa.ms.0593 | MS 593 | Eero Saarinen collection | 
+ [mssa.ms.0656.xml](4419.xml) | mssa.ms.0656 | MS 656 | Frank Lyon Polk papers | 
+ [mssa.ms.0008.xml](4421.xml) | mssa.ms.0008 | MS 8 | The Inquiry Papers | 
  [mssa.ms.0073.xml](4422.xml) | mssa.ms.0073 | MS 73 | Beer family papers | 
  [mssa.ms.0200.xml](4423.xml) | mssa.ms.0200 | MS 200 | Evarts family papers | 
  [mssa.ms.0291.xml](4424.xml) | mssa.ms.0291 | MS 291 | William Graham Sumner papers | 
@@ -2412,8 +2417,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0442.xml](4429.xml) | mssa.ms.0442 | MS 442 | George Dudley Seymour papers | 
  [mssa.ms.0695.xml](4432.xml) | mssa.ms.0695 | MS 695 | Leonard Jimmie Savage papers | 
  [mssa.ms.0071.xml](4434.xml) | mssa.ms.0071 | MS 71 | Beecher Family Papers | 
+ [mssa.ms.0112.xml](4435.xml) | mssa.ms.0112 | MS 112 | William C. Bullitt papers | 
  [mssa.ms.0125.xml](4436.xml) | mssa.ms.0125 | MS 125 | Walter Chauncey Camp papers | 
  [mssa.ms.0522.xml](4437.xml) | mssa.ms.0522 | MS 522 | Verstille family papers | 
+ [mssa.ms.0544.xml](4438.xml) | mssa.ms.0544 | MS 544 | Wallace Notestein papers | 
  [mssa.ms.0562.xml](4439.xml) | mssa.ms.0562 | MS 562 | Woolsey family papers | 
  [mssa.ms.0573.xml](4440.xml) | mssa.ms.0573 | MS 573 | Rose Pastor Stokes papers | 
  [mssa.ms.0581.xml](4442.xml) | mssa.ms.0581 | MS 581 | Daniel Cady Eaton papers | 
@@ -2432,6 +2439,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0785.xml](4458.xml) | mssa.ms.0785 | MS 785 | Lorin Edgar Kerr papers | 
  [mssa.ru.0256.xml](4459.xml) | mssa.ru.0256 | RU 256 | Pierson College, Yale University, student records for the Classes of 1964-2012 maintained by the dean | 
  [mssa.ru.0285.xml](4460.xml) | mssa.ru.0285 | RU 285 | School of Medicine, Yale University, records of the dean | 
+ [mssa.ms.0160.xml](4462.xml) | mssa.ms.0160 | MS 160 | Harvey Williams Cushing Papers in the Yale University Library | 
  [mssa.ms.0421.xml](4463.xml) | mssa.ms.0421 | MS 421 | James Harvey Rogers papers | 
  [mssa.ms.0712.xml](4464.xml) | mssa.ms.0712 | MS 712 | Franklin Bowditch Dexter papers | 
  [mssa.ms.0762.xml](4466.xml) | mssa.ms.0762 | MS 762 | Alexander Mordecai Bickel papers | 
@@ -2452,6 +2460,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1111.xml](4483.xml) | mssa.ms.1111 | MS 1111 | Anna Strunsky Walling papers | 
  [mssa.ms.1139.xml](4484.xml) | mssa.ms.1139 | MS 1139 | Margaret S. Mahler Psychiatric Research Foundation papers | 
  [mssa.ms.1237.xml](4485.xml) | mssa.ms.1237 | MS 1237 | Anne Ramsay Somers papers | 
+ [mssa.ms.1258.xml](4486.xml) | mssa.ms.1258 | MS 1258 | Yale Miscellaneous Manuscripts collection | 
  [mssa.ms.1284.xml](4487.xml) | mssa.ms.1284 | MS 1284 | Ira Vaughan Hiscock papers | 
  [mssa.ms.1297.xml](4488.xml) | mssa.ms.1297 | MS 1297 | Arnold Carl Klebs papers | 
  [mssa.ms.1387.xml](4489.xml) | mssa.ms.1387 | MS 1387 | Crawford Theater collection | 
@@ -2526,7 +2535,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0046.xml](4812.xml) | mssa.ms.0046 | MS 46 | Bacon family papers | 
  [mssa.ms.0081.xml](4813.xml) | mssa.ms.0081 | MS 81 | Bingham family papers | 
  [mssa.ms.0231.xml](4816.xml) | mssa.ms.0231 | MS 231 | Henry Killam Murphy papers | 
+ [mssa.ms.0465.xml](4819.xml) | mssa.ms.0465 | MS 465 | Henry Lewis Stimson papers | 
+ [mssa.ms.0553.xml](4820.xml) | mssa.ms.0553 | MS 553 | Harry Weinberger papers | 
  [mssa.ms.0619.xml](4824.xml) | mssa.ms.0619 | MS 619 | Civil War manuscripts collection | 
+ [mssa.ms.0829.xml](4831.xml) | mssa.ms.0829 | MS 829 | Anne Morrow Lindbergh papers | 
  [mssa.ms.1042.xml](4833.xml) | mssa.ms.1042 | MS 1042 | Luther Allan Weigle papers | 
  [mssa.ms.1101.xml](4834.xml) | mssa.ms.1101 | MS 1101 | Historical postcard collection | 
  [mssa.ms.1178.xml](4835.xml) | mssa.ms.1178 | MS 1178 | Frank Logue papers | 
