@@ -31,11 +31,6 @@
             <date>2014</date>
             <num>GEN MSS 1095</num>
          </publicationstmt>
-         <notestmt>
-            <controlnote>
-               <p>This finding aid, which is compliant with the Yale EAD Best Practice Guidelines, Version 1.0., has a MARC record in Yale's ILS with the following bib number: <num localtype="Orbis-bib">11893454</num>.</p>
-            </controlnote>
-         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency countrycode="US">
@@ -50,13 +45,20 @@
          <abbr>dacs</abbr>
          <citation>Describing Archives: A Content Standard</citation>
       </conventiondeclaration>
+      <rightsdeclaration>
+         <abbr>CC0</abbr>
+         <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
+         <descriptivenote>
+            <p>CC0 1.0 Universal (CC0 1.0)</p>
+         </descriptivenote>
+      </rightsdeclaration>
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2018-04-26T21:59:21-04:00</eventdatetime>
+            <eventdatetime>2018-09-05T23:27:08+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace v2.2.0</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday April 26, 2018 at 21:59</eventdescription>
+            <agent>ArchivesSpace 2.4.1.yale.hm.mm</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday September  5, 2018 at 23:27</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -85,8 +87,10 @@
          </unitdatestructured>
          <abstract id="aspace_e7e67c6d405c1b9538b74e51e10abc68">The collection consists of correspondence, data forms, name indexes, and pedigree charts related to William Woodbridge Rodman's work on the genealogy of the Pomeroy family. Also present is the correspondence of Rebekah Pomeroy Bulkley, who continued Rodman's work after his death.</abstract>
          <origination label="creator">
-            <persname source="ingest">
-               <part>Rodman, William Woodbridge, 1817-1900.</part>
+            <persname identifier="http://id.loc.gov/authorities/names/n87804795"
+                      rules="aacr"
+                      source="naf">
+               <part>Rodman, William Woodbridge, 1817-1900</part>
             </persname>
          </origination>
     
@@ -132,36 +136,47 @@
          <p>Organized into three series: I. Correspondence, 1885-1908. II. Documents, undated. III. Pedigree Sheets, undated.</p>  
       </arrangement>
       <controlaccess>
-         <occupation source="lcsh">
-            <part>Genealogists -- Connecticut -- 20th century.</part>
-         </occupation>
-         <occupation source="lcsh">
-            <part>Genealogists -- Connecticut -- 19th century.</part>
-         </occupation>
-         <genreform source="aat">
-            <part>Scrapbooks -- United States -- 19th century.</part>
-         </genreform>
-         <genreform source="aat">
-            <part>Genealogical tables -- United States -- 20th century.</part>
-         </genreform>
-         <subject source="lcsh">
-            <part>Genealogy.</part>
-         </subject>
-         <subject source="lcsh">
+         <subject identifier="dts_917b53fb0d338916809e1f67bb96f33517c487c5"
+                  source="Library of Congress Subject Headings">
             <part>Genealogists -- Connecticut.</part>
          </subject>
-         <persname source="ingest">
-            <part>Bulkley, Rebekah Wheeler Pomeroy, 1835-1908.</part>
+         <subject identifier="http://id.loc.gov/authorities/subjects/sh85053742"
+                  source="Library of Congress Subject Headings">
+            <part>Genealogy</part>
+         </subject>
+         <genreform identifier="dts_e976ef5a3fe06b31028967f328d5d056f800073f"
+                    source="Library of Congress Subject Headings">
+            <part>Genealogical tables -- United States -- 20th Century.</part>
+         </genreform>
+         <genreform identifier="dts_86876a6fc64964d58bc73b14da395118bcbcca8a"
+                    source="Library of Congress Subject Headings">
+            <part>Scrapbooks -- United States -- 19th century.</part>
+         </genreform>
+         <occupation identifier="dts_0d47576016b381fe13f5512df002b415cf51ae98"
+                     source="local">
+            <part>Genealogists -- Connecticut -- 19th century.</part>
+         </occupation>
+         <occupation identifier="dts_8c9b97c33764c5a3724a3f0fbc23b8e7878c5cb7"
+                     source="local">
+            <part>Genealogists -- Connecticut -- 20th Century.</part>
+         </occupation>
+         <persname identifier="http://id.loc.gov/authorities/names/n85078719" source="naf">
+            <part>Bulkley, Rebekah Wheeler Pomeroy, 1835-1908</part>
          </persname>
-         <corpname source="ingest">
-            <part>Pomeroy Family Association.</part>
-         </corpname>
-         <famname source="ingest">
-            <part>Pomeroy family.</part>
+         <famname identifier="http://id.loc.gov/authorities/subjects/sh85104761"
+                  source="naf">
+            <part>Pomeroy family</part>
          </famname>
-         <persname source="ingest">
-            <part>Rodman, William Woodbridge, 1817-1900.</part>
+         <persname identifier="http://id.loc.gov/authorities/names/n87804795"
+                   rules="aacr"
+                   source="naf">
+            <part>Rodman, William Woodbridge, 1817-1900</part>
          </persname>
+         <corpname identifier="http://id.loc.gov/authorities/names/nb2010011675"
+                   rules="aacr"
+                   source="naf">
+            <part>Pomeroy Family Association</part>
+         </corpname>
       </controlaccess>
       <dsc>
          <c id="ref12" level="series">
@@ -173,12 +188,6 @@
                   <unittype>Linear Feet</unittype>
                </physdescstructured>
                <physdesc localtype="container_summary">(8 boxes)</physdesc>
-               <unitdatestructured unitdatetype="inclusive">
-                  <daterange>
-                     <fromdate standarddate="1885">1885</fromdate>
-                     <todate standarddate="1908">1908</todate>
-                  </daterange>
-               </unitdatestructured>
                <unitdate unitdatetype="inclusive">1885-1908</unitdate>
             </did>
             <arrangement id="aspace_110415b33780657859aa8995d36d6677">
@@ -196,15 +205,9 @@
                <c id="ref15" level="file">
                   <did>
                      <unittitle>Volume I, pages 1-248</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="1885">1885</fromdate>
-                           <todate standarddate="1893">1893</todate>
-                        </daterange>
-                     </unitdatestructured>
                      <unitdate unitdatetype="inclusive">1885-1893</unitdate>
                      <container containerid="39002102340511"
-                                id="aspace_2da4613aedcce0bccaee0a8b56dd9d6d"
+                                id="aspace_bad70401810ba0c5917cea3a35d9e601"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                   </did>
@@ -212,15 +215,9 @@
                <c id="ref16" level="file">
                   <did>
                      <unittitle>Volume II, pages 249-610</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="1885">1885</fromdate>
-                           <todate standarddate="1893">1893</todate>
-                        </daterange>
-                     </unitdatestructured>
                      <unitdate unitdatetype="inclusive">1885-1893</unitdate>
                      <container containerid="39002102340529"
-                                id="aspace_a508ccd929e925d45dda2e0a6377bbf3"
+                                id="aspace_dc8370101cf3f415819ac9a4b81ea974"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                   </did>
@@ -228,15 +225,9 @@
                <c id="ref17" level="file">
                   <did>
                      <unittitle>Volume III, pages 611-850</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="1885">1885</fromdate>
-                           <todate standarddate="1893">1893</todate>
-                        </daterange>
-                     </unitdatestructured>
                      <unitdate unitdatetype="inclusive">1885-1893</unitdate>
                      <container containerid="39002102340537"
-                                id="aspace_6881390aa8f767b2e5e03b31a950ad53"
+                                id="aspace_92d41493d654ced7e38ab92f020b3a93"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
@@ -244,15 +235,9 @@
                <c id="ref18" level="file">
                   <did>
                      <unittitle>Volume IV, pages 851-1006</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="1885">1885</fromdate>
-                           <todate standarddate="1893">1893</todate>
-                        </daterange>
-                     </unitdatestructured>
                      <unitdate unitdatetype="inclusive">1885-1893</unitdate>
                      <container containerid="39002102340545"
-                                id="aspace_f9944c909bb921de66fa199915f3e901"
+                                id="aspace_de77f55cea5248260f1aa0206a793fe0"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                   </did>
@@ -260,15 +245,9 @@
                <c id="ref19" level="file">
                   <did>
                      <unittitle>Volume V, pages 1007-1249</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="1885">1885</fromdate>
-                           <todate standarddate="1893">1893</todate>
-                        </daterange>
-                     </unitdatestructured>
                      <unitdate unitdatetype="inclusive">1885-1893</unitdate>
                      <container containerid="39002102340552"
-                                id="aspace_caa87f9d619e06371ef2b77b14b950f8"
+                                id="aspace_8a9d8248798ee3ae4f3b8d74a57a81a8"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                   </did>
@@ -276,15 +255,9 @@
                <c id="ref20" level="file">
                   <did>
                      <unittitle>Volume VI, pages 1250-1426</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="1885">1885</fromdate>
-                           <todate standarddate="1893">1893</todate>
-                        </daterange>
-                     </unitdatestructured>
                      <unitdate unitdatetype="inclusive">1885-1893</unitdate>
                      <container containerid="39002102340560"
-                                id="aspace_71510b4611a2a862b91d57ddbc81d585"
+                                id="aspace_7d9599b26f50b297ee1e4effa05e1f5d"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                   </did>
@@ -298,7 +271,7 @@
                      </physdescstructured>
                      <unitdate unitdatetype="inclusive">undated</unitdate>
                      <container containerid="39002104854071"
-                                id="aspace_5e2e47f24c10407af4e41192508b6884"
+                                id="aspace_e00d03185c4c5bde398ae683d1b99ddc"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                   </did>
@@ -311,15 +284,9 @@
                <c id="ref24" level="file">
                   <did>
                      <unittitle>Perkins, Sarah Dewey</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="1904">1904</fromdate>
-                           <todate standarddate="1906">1906</todate>
-                        </daterange>
-                     </unitdatestructured>
                      <unitdate unitdatetype="inclusive">1904-1906</unitdate>
                      <container containerid="39002104854089"
-                                id="aspace_9ee83f067fe3f95d0de48304c5e45fe0"
+                                id="aspace_5c1882a7a39ff7516140702da625b159"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                   </did>
@@ -327,15 +294,9 @@
                <c id="ref25" level="file">
                   <did>
                      <unittitle>Pomeroy, Hiram Sterling</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="1901">1901</fromdate>
-                           <todate standarddate="1904">1904</todate>
-                        </daterange>
-                     </unitdatestructured>
                      <unitdate unitdatetype="inclusive">1901-1904</unitdate>
                      <container containerid="39002104854089"
-                                id="aspace_eb8b2ab7c2a9566057cb68f2af522129"
+                                id="aspace_48c6f7e19429b4288804825f8ca02393"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                   </did>
@@ -343,15 +304,9 @@
                <c id="ref26" level="file">
                   <did>
                      <unittitle>Pomeroy, Sylvester G.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="1902">1902</fromdate>
-                           <todate standarddate="1908">1908</todate>
-                        </daterange>
-                     </unitdatestructured>
                      <unitdate unitdatetype="inclusive">1902-1908</unitdate>
                      <container containerid="39002104854089"
-                                id="aspace_acf54d5a2d8d2ae0fed6414444dc87d0"
+                                id="aspace_62271b776ded2c6d33260914e10a66d8"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                   </did>
@@ -363,15 +318,9 @@
                         <quantity>5</quantity>
                         <unittype>folders</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                           <fromdate standarddate="1890">1890</fromdate>
-                           <todate standarddate="1908">1908</todate>
-                        </daterange>
-                     </unitdatestructured>
                      <unitdate unitdatetype="inclusive">1890-1908</unitdate>
                      <container containerid="39002104854089"
-                                id="aspace_505e7b20abaeb1df7afd5f9239f95217"
+                                id="aspace_48e05da926334665cac120043e788022"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                   </did>
@@ -384,7 +333,7 @@
                <unitid>Series II</unitid>
                <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                   <quantity>1</quantity>
-                  <unittype>Linear Feet</unittype>
+                  <unittype>Linear Foot</unittype>
                </physdescstructured>
                <physdesc localtype="container_summary">(5 boxes)</physdesc>
                <unitdate unitdatetype="inclusive">undated</unitdate>
@@ -402,7 +351,7 @@
                   </physdescstructured>
                   <unitdate unitdatetype="inclusive">undated</unitdate>
                   <container containerid="39002104854097"
-                             id="aspace_ba97f4237f6e73e4368e2f9b2d119e5b"
+                             id="aspace_f1b5648f1fdadac2995481373bdb59f9"
                              label="Mixed Materials"
                              localtype="box">9</container>
                </did>
@@ -416,7 +365,7 @@
                   </physdescstructured>
                   <unitdate unitdatetype="inclusive">undated</unitdate>
                   <container containerid="39002104854105"
-                             id="aspace_6ebb5487087a4ee3623dcdc48dbd1b4e"
+                             id="aspace_859c832eac43e4ea093875b156a8e54f"
                              label="Mixed Materials"
                              localtype="box">10</container>
                </did>
@@ -426,7 +375,7 @@
                   <unittitle>Family address book</unittitle>
                   <unitdate unitdatetype="inclusive">undated</unitdate>
                   <container containerid="39002104854105"
-                             id="aspace_bcb5beb6762956e9a6c639fea719fa65"
+                             id="aspace_f7cfed48fe68b16ec4639f8d60dc6987"
                              label="Mixed Materials"
                              localtype="box">10</container>
                </did>
@@ -436,7 +385,7 @@
                   <unittitle>Other notes</unittitle>
                   <unitdate unitdatetype="inclusive">undated</unitdate>
                   <container containerid="39002104854105"
-                             id="aspace_2f3257231ed30165221a20c4a6669477"
+                             id="aspace_2802872d3f9587b159c172204e054f93"
                              label="Mixed Materials"
                              localtype="box">10</container>
                </did>
@@ -446,7 +395,7 @@
                   <unittitle>Unidentified index</unittitle>
                   <unitdate unitdatetype="inclusive">undated</unitdate>
                   <container containerid="39002102340594"
-                             id="aspace_c70360ec8f9626cdb143d243d446836d"
+                             id="aspace_68a8319b579c566e00aa6e46b3456bc9"
                              label="Mixed Materials"
                              localtype="box">11</container>
                </did>
@@ -456,7 +405,7 @@
                   <unittitle>Pomeroy Marriages, volume I (A-K)</unittitle>
                   <unitdate unitdatetype="inclusive">undated</unitdate>
                   <container containerid="39002102340578"
-                             id="aspace_111e4a549d8ef780a07507840d933b2e"
+                             id="aspace_3dd2145ae52cd8f801199619b894fd63"
                              label="Mixed Materials"
                              localtype="box">12</container>
                </did>
@@ -466,7 +415,7 @@
                   <unittitle>Pomeroy Marriages, volume II (L-Z)</unittitle>
                   <unitdate unitdatetype="inclusive">undated</unitdate>
                   <container containerid="39002102340586"
-                             id="aspace_372bf31764ab559d8fbd95c936514325"
+                             id="aspace_870cfc1f0bf64343f956aff0199f6d1d"
                              label="Mixed Materials"
                              localtype="box">13</container>
                </did>
@@ -496,7 +445,7 @@
                   </physdescstructured>
                   <unitdate unitdatetype="inclusive">undated</unitdate>
                   <container containerid="39002102340602"
-                             id="aspace_d8cff5cae2ab420185f22c9a977b4907"
+                             id="aspace_5ae6f426b22d497a8afb186c275b68ab"
                              label="Mixed Materials"
                              localtype="box">14 (Oversize)</container>
                </did>
