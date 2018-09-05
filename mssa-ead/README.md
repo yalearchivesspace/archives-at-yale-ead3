@@ -1851,6 +1851,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0397.xml](3830.xml) | mssa.ms.0397 | MS 397 | Ulrich Bonnell Phillips papers | 
  [mssa.ms.0401.xml](3831.xml) | mssa.ms.0401 | MS 401 | George Wilson Pierson papers | 
  [mssa.ms.0416.xml](3832.xml) | mssa.ms.0416 | MS 416 | Richard H. Rickard papers | 
+ [mssa.ms.0429.xml](3833.xml) | mssa.ms.0429 | MS 429 | Salisbury family papers | 
  [mssa.ms.0446.xml](3834.xml) | mssa.ms.0446 | MS 446 | James Rockwell Sheffield papers | 
  [mssa.ms.0448.xml](3835.xml) | mssa.ms.0448 | MS 448 | Roger Sherman papers | 
  [mssa.ms.0473.xml](3836.xml) | mssa.ms.0473 | MS 473 | George Henry Nettleton papers | 
@@ -2238,6 +2239,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0717.xml](4243.xml) | mssa.ms.0717 | MS 717 | Slavery Miscellaneous Manuscripts collection | 
  [mssa.ms.0725.xml](4244.xml) | mssa.ms.0725 | MS 725 | Lathrop family papers | 
  [mssa.ms.0734.xml](4245.xml) | mssa.ms.0734 | MS 734 | Munson family papers | 
+ [mssa.ms.0740.xml](4246.xml) | mssa.ms.0740 | MS 740 | Walter Johnson Robb papers | 
  [mssa.ms.0742.xml](4247.xml) | mssa.ms.0742 | MS 742 | Korean War collection | 
  [mssa.ms.0761.xml](4249.xml) | mssa.ms.0761 | MS 761 | Ethan Allen Andrews family papers | 
  [mssa.ms.0763.xml](4250.xml) | mssa.ms.0763 | MS 763 | Meyer family papers | 
@@ -2814,4 +2816,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0207.xml](10778.xml) | mssa.ru.0207 | RU 207 | Timothy Dwight College, Yale University, student records | 
  [mssa.ru.1153.xml](10837.xml) | mssa.ru.1153 | RU 1153 | Yale University Corporation 1949 Presidential Search Committee Records | 
  [mssa.ru.1156.xml](11096.xml) | mssa.ru.1156 | RU .1156 | Institute of Sacred Music, Yale University, records | 
+ [11197.xml](11197.xml) |  | RU 1157 | Peter Salovey, President of Yale University, Records | 
 
