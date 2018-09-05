@@ -40,7 +40,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lang.xml](555.xml) | beinecke.lang | GEN MSS 1109 | Andrew Lang collection | 
  [beinecke.hardy.xml](556.xml) | beinecke.hardy | GEN MSS 111 | Richard L. Purdy Collection of Thomas Hardy | 
  [beinecke.johnsona.xml](557.xml) | beinecke.johnsona | GEN MSS 1110 | Allen Johnson correspondence relating to the Chronicles of America Series | 
- [beinecke.exhibitions.xml](558.xml) | beinecke.exhibitions | GEN MSS 1117 | Beinecke Rare Book and Manuscript Library exhibition materials | 
  [beinecke.marshallj.xml](560.xml) | beinecke.marshallj | GEN MSS 1120 | Joseph Head Marshall papers | 
  [beinecke.zerbe.xml](561.xml) | beinecke.zerbe | GEN MSS 1122 | Jerome Zerbe photographs and papers | 
  [beinecke.whitneywd.xml](562.xml) | beinecke.whitneywd | GEN MSS 1125 | William Dwight Whitney papers relating to the Atharvaveda | 
@@ -381,6 +380,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.weiss.xml](939.xml) | beinecke.weiss | GEN MSS 992 | Harvey Weiss papers | 
  [beinecke.marryat.xml](940.xml) | beinecke.marryat | GEN MSS 994 | Florence Marryat collection | 
  [beinecke.morath.xml](941.xml) | beinecke.morath | GEN MSS 996 | Inge Morath Photographs and Papers | 
+ [beinecke.genmisc.xml](946.xml) | beinecke.genmisc | GEN MSS MISC | General Collection manuscript miscellany | 
  [beinecke.fellowes.xml](948.xml) | beinecke.fellowes | GEN MSS VOL 421 | EXTRA-ILLUSTRATIONS IN SAMUEL JOHNSON, LETTERS TO AND FROM THE LATE SAMUEL JOHNSON... (London: A. Strahan and T. Cadell, 1788) | 
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
  [beinecke.toomer.xml](950.xml) | beinecke.toomer | JWJ MSS 1 | Jean Toomer papers | 
@@ -1309,7 +1309,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.savageh.xml](11017.xml) | beinecke.savageh | OSB MSS 200 | Henry Savage papers | 
  [beinecke.chlingensperg.xml](11037.xml) | beinecke.chlingensperg | GEN MSS 1495 | Chlingensperg family diaries | 
  [beinecke.vanvechtmaur.xml](11041.xml) | beinecke.vanvechtmaur | YCAL MSS 1144 | Carl Van Vechten Letters to Saul Mauriber | 
- [beinecke.simonetti.xml](11043.xml) | beinecke.simonetti | GEN MSS 1497 | Gianni Emilio Simonetti papers | 
  [beinecke.robertolenbutler.xml](11049.xml) | beinecke.robertolenbutler | YCAL MSS.1146 | Robert Olen Butler papers | 
  [beinecke.blanch.xml](11052.xml) | beinecke.blanch | OSB MSS 202 | Lesley Blanch papers | 
  [beinecke.spinell.xml](11076.xml) | beinecke.spinell | GEN MSS 109 | Spinelli Archive | 
