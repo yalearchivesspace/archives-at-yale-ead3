@@ -2556,6 +2556,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1880.xml](4854.xml) | mssa.ms.1880 | MS 1880 | Islamic fundamentalist audio recordings collection | 
  [mssa.ms.1900.xml](4855.xml) | mssa.ms.1900 | MS 1900 | Robert Wilbar Wilson papers | 
  [mssa.ms.1939.xml](4856.xml) | mssa.ms.1939 | MS 1939 | Pelli Clarke Pelli Architects records | 
+ [mssa.ms.0325b.xml](4858.xml) | mssa.ms.0325b | MS 325B | Lindbergh picture collection | 
  [mssa.ms.1833.xml](4860.xml) | mssa.ms.1833 | MS 1833 | Douglas W. Rae papers | 
  [mssa.ms.1885.xml](4861.xml) | mssa.ms.1885 | MS 1885 | Balmori Associates records | 
  [mssa.ms.1943.xml](4863.xml) | mssa.ms.1943 | MS 1943 | Lloyd G. Reynolds papers | 
