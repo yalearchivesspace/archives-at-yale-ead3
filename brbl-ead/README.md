@@ -216,6 +216,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.scherer.xml](751.xml) | beinecke.scherer | GEN MSS 526 | Olga Scherer-Virski papers | 
  [beinecke.herbert.xml](752.xml) | beinecke.herbert | GEN MSS 527 | Zbigniew Herbert papers | 
  [beinecke.gorczyns.xml](753.xml) | beinecke.gorczyns | GEN MSS 528 | Renata Gorczynski papers relating to Czesław Miłosz | 
+ [beinecke.gascoyn.xml](754.xml) | beinecke.gascoyn | GEN MSS 529 | David Gascoyne collection | 
  [beinecke.hood.xml](755.xml) | beinecke.hood | GEN MSS 53 | Thomas Hood collection | 
  [beinecke.schlette.xml](756.xml) | beinecke.schlette | GEN MSS 547 | Annie Schletter papers | 
  [beinecke.larevell.xml](757.xml) | beinecke.larevell | GEN MSS 549 | Louis-Marie de La Revellière-Lépeaux papers | 
@@ -226,6 +227,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.kaufman.xml](762.xml) | beinecke.kaufman | GEN MSS 562 | Boris Kaufman papers | 
  [beinecke.metamorphosis.xml](763.xml) | beinecke.metamorphosis | GEN MSS 566 | Metamorphosis : amateur drawings and paintings that replicate the publication by Benjamin Sands. | 
  [beinecke.fksmith.xml](764.xml) | beinecke.fksmith | GEN MSS 567 | Frank Kellogg Smith travel photographs and memorabilia. | 
+ [beinecke.clifford.xml](765.xml) | beinecke.clifford | GEN MSS 568 | Mrs. W. K. Clifford papers | 
  [beinecke.beineckefam.xml](766.xml) | beinecke.beineckefam | GEN MSS 570 | Beinecke family papers | 
  [beinecke.amichai.xml](767.xml) | beinecke.amichai | GEN MSS 572 | Yehuda Amichai papers | 
  [beinecke.bradyhandy.xml](769.xml) | beinecke.bradyhandy | GEN MSS 580 | Mathew B. Brady and Levin Corbin Handy Photographic Studios Collection | 
@@ -236,6 +238,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hewcoll.xml](774.xml) | beinecke.hewcoll | GEN MSS 60 | Maurice Hewlett collection | 
  [beinecke.frkoch.xml](775.xml) | beinecke.frkoch | GEN MSS 601 | Frederick R. Koch collection | 
  [beinecke.bute.xml](776.xml) | beinecke.bute | GEN MSS 603 | Mary Ellen Bute Papers | 
+ [beinecke.byron.xml](777.xml) | beinecke.byron | GEN MSS 605 | Robert Byron Papers | 
  [beinecke.mergravure.xml](778.xml) | beinecke.mergravure | GEN MSS 606 | Meriden Gravure Company records | 
  [beinecke.coward.xml](779.xml) | beinecke.coward | GEN MSS 608 | John C. Wilson Theater Collection on Noel Coward | 
  [beinecke.hogg.xml](780.xml) | beinecke.hogg | GEN MSS 61 | James Hogg collection | 
@@ -247,6 +250,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lada.xml](786.xml) | beinecke.lada | GEN MSS 616 | Laura K. and Valerian Lada-Mocarski papers | 
  [beinecke.chaconycalvo.xml](787.xml) | beinecke.chaconycalvo | GEN MSS 617 | Zenaida Gutiérrez-Vega collection of José María Chacón y Calvo | 
  [beinecke.wijnpersse.xml](788.xml) | beinecke.wijnpersse | GEN MSS 618 | Wijnpersse family papers | 
+ [beinecke.zenj.xml](789.xml) | beinecke.zenj | GEN MSS 619 | Land of Zenj photograph collection | 
+ [beinecke.schlein.xml](790.xml) | beinecke.schlein | GEN MSS 621 | Miriam Schlein papers | 
+ [beinecke.mcdonaldj.xml](791.xml) | beinecke.mcdonaldj | GEN MSS 622 | John McDonald papers | 
  [beinecke.barnes.xml](792.xml) | beinecke.barnes | GEN MSS 625 | Bernard Frank Dukore Collection of Peter Barnes | 
  [beinecke.rzhevsky.xml](793.xml) | beinecke.rzhevsky | GEN MSS 630 | Leonid Rzhevsky papers | 
  [beinecke.joelson.xml](794.xml) | beinecke.joelson | GEN MSS 634 | F. S. Joelson papers | 
