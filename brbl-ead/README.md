@@ -264,10 +264,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.acton.xml](800.xml) | beinecke.acton | GEN MSS 663 | Harold Acton papers | 
  [beinecke.ejbstevenson.xml](801.xml) | beinecke.ejbstevenson | GEN MSS 664 | Edwin J. Beinecke Collection of Robert Louis Stevenson | 
  [beinecke.bradstreet.xml](802.xml) | beinecke.bradstreet | GEN MSS 674 | Martha Bradstreet papers | 
+ [beinecke.betjeman.xml](803.xml) | beinecke.betjeman | GEN MSS 675 | John Betjeman collection | 
  [beinecke.jelenski.xml](804.xml) | beinecke.jelenski | GEN MSS 676 | Konstanty Jeleński papers | 
  [beinecke.carlyle.xml](805.xml) | beinecke.carlyle | GEN MSS 677 | Thomas Carlyle collection | 
  [beinecke.reedj.xml](806.xml) | beinecke.reedj | GEN MSS 678 | Jeremy Reed papers | 
  [beinecke.starr.xml](807.xml) | beinecke.starr | GEN MSS 679 | Cecile Starr papers relating to Mary Ellen Bute | 
+ [beinecke.stevenson.xml](809.xml) | beinecke.stevenson | GEN MSS 684 | Robert Louis Stevenson Collection | 
  [beinecke.thom.xml](810.xml) | beinecke.thom | GEN MSS 69 | Lansing V. Hammond collection of Hugh Thomson | 
  [beinecke.driver.xml](811.xml) | beinecke.driver | GEN MSS 690 | Julia Driver collection of women in photography. | 
  [beinecke.benson.xml](813.xml) | beinecke.benson | GEN MSS 699 | E. F. Benson papers | 
