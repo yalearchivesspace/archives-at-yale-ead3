@@ -326,6 +326,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.monclar.xml](868.xml) | beinecke.monclar | GEN MSS 84 | Browning-Monclar collection | 
  [beinecke.jdwild.xml](869.xml) | beinecke.jdwild | GEN MSS 842 | John Daniel Wild papers | 
  [beinecke.stadler.xml](870.xml) | beinecke.stadler | GEN MSS 843 | Matthew Stadler papers | 
+ [beinecke.bergery.xml](871.xml) | beinecke.bergery | GEN MSS 844 | Bettina Bergery papers | 
  [beinecke.mccourtvirga.xml](872.xml) | beinecke.mccourtvirga | GEN MSS 845 | James McCourt and Vincent Virga papers | 
  [beinecke.beineckew.xml](873.xml) | beinecke.beineckew | GEN MSS 846 | Walter Beinecke papers | 
  [beinecke.aud.xml](874.xml) | beinecke.aud | GEN MSS 85 | Morris Tyler family collection of John James Audubon | 
