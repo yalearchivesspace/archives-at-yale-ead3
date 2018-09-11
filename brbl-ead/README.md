@@ -377,6 +377,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.levytemperance.xml](923.xml) | beinecke.levytemperance | GEN MSS 956 | Edward G. Levy collection relating to temperance | 
  [beinecke.abchapman.xml](924.xml) | beinecke.abchapman | GEN MSS 957 | A. B. Chapman music and drawings | 
  [beinecke.low.xml](925.xml) | beinecke.low | GEN MSS 96 | David Low papers | 
+ [beinecke.overbrook.xml](926.xml) | beinecke.overbrook | GEN MSS 961 | Overbrook Press records | 
  [beinecke.eliot.xml](927.xml) | beinecke.eliot | GEN MSS 963 | George Eliot and George Henry Lewes collection | 
  [beinecke.wolman.xml](928.xml) | beinecke.wolman | GEN MSS 969 | Gil J Wolman papers | 
  [beinecke.bryher.xml](929.xml) | beinecke.bryher | GEN.MSS.97 | Bryher papers | 
@@ -419,8 +420,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ellabbrown.xml](975.xml) | beinecke.ellabbrown | JWJ MSS 41 | Ella Barksdale Brown Papers | 
  [beinecke.himes.xml](976.xml) | beinecke.himes | JWJ MSS 42 | Chester Himes papers | 
  [beinecke.adams.xml](977.xml) | beinecke.adams | JWJ MSS 48 | R. A. (Revels Alcorn) Adams papers | 
+ [beinecke.pubsim.xml](979.xml) | beinecke.pubsim | JWJ MSS 54 | Randolph Linsly Simpson African-American Collection | 
  [beinecke.fowler.xml](981.xml) | beinecke.fowler | JWJ MSS 59 | Manet Harrison Fowler and Manet Helen Fowler papers | 
  [beinecke.bontemps.xml](982.xml) | beinecke.bontemps | JWJ MSS 6 | Arna Bontemps Collection | 
+ [beinecke.mcadoo.xml](983.xml) | beinecke.mcadoo | JWJ MSS 60 | Orpheus M. McAdoo and Mattie Allen McAdoo papers | 
  [beinecke.cullen.xml](984.xml) | beinecke.cullen | JWJ MSS 7 | Countee Cullen Collection | 
  [beinecke.braithwa.xml](985.xml) | beinecke.braithwa | JWJ MSS 72 | William Stanley Braithwaite Papers | 
  [beinecke.feelings.xml](986.xml) | beinecke.feelings | JWJ MSS 74 | Tom Feelings artwork. | 
