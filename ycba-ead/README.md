@@ -18,6 +18,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0030.xml](18.xml) | ycba.mss.0030 | MSS.30 | Joshua Reynolds Archive | 
  [ycba.mss.0004.xml](20.xml) | ycba.mss.0004 | MSS.4 | Miles & Edwards and Charles Hindley & Sons correspondence | 
  [ycba.mss.0005.xml](22.xml) | ycba.mss.0005 | MSS.5 | John Ruskin: Letters to Thomas Goff Lupton | 
+ [ycba.mss.0006.xml](23.xml) | ycba.mss.0006 | MSS.6 | Pease family collection of sketchbooks and exercise books | 
  [ycba.mss.0008.xml](24.xml) | ycba.mss.0008 | MSS.8 | Carr family collection of travel sketches, scrapbooks, and genealogical material | 
  [ycba.mss.0009.xml](25.xml) | ycba.mss.0009 | MSS.9 | Edgar Hockley collection | 
  [ycba.mss.0024.xml](30.xml) | ycba.mss.0024 | MSS.24 | Paul Nash Letters to Mercia Oakley | 
