@@ -1150,6 +1150,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0599.xml](3105.xml) | mssa.ms.0599 | MS 599 | Bromfield family papers | 
  [mssa.ms.0602.xml](3106.xml) | mssa.ms.0602 | MS 602 | Yung Wing papers | 
  [mssa.ms.0607.xml](3107.xml) | mssa.ms.0607 | MS 607 | David Shub papers | 
+ [mssa.ms.0611.xml](3109.xml) | mssa.ms.0611 | MS 611 | Russell Henry Chittenden papers | 
  [mssa.ms.0614.xml](3110.xml) | mssa.ms.0614 | MS 614 | American Immigration Conference Board Records | 
  [mssa.ms.0621.xml](3111.xml) | mssa.ms.0621 | MS 621 | Howard Lee Haag papers | 
  [mssa.ms.0625.xml](3112.xml) | mssa.ms.0625 | MS 625 | Bostwick Company records | 
@@ -2108,6 +2109,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1864.xml](4098.xml) | mssa.ms.1864 | MS 1864 | Harvey Fierstein papers | 
  [mssa.ms.0759.xml](4099.xml) | mssa.ms.0759 | MS 759 | Brown vs. Board of Education collection | 
  [mssa.ms.0019.xml](4100.xml) | mssa.ms.0019 | MS 19 | Bronislaw Malinowski papers | 
+ [mssa.ms.0026.xml](4101.xml) | mssa.ms.0026 | MS 26 | Bernhard Knollenberg collection | 
  [mssa.ms.0029.xml](4102.xml) | mssa.ms.0029 | MS 29 | Account books collection | 
  [mssa.ms.0055.xml](4103.xml) | mssa.ms.0055 | MS 55 | Baldwin family papers | 
  [mssa.ms.0079.xml](4104.xml) | mssa.ms.0079 | MS 79 | Bidwell family papers | 
@@ -2417,6 +2419,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0384.xml](4427.xml) | mssa.ms.0384 | MS 384 | Park family papers | 
  [mssa.ms.0440.xml](4428.xml) | mssa.ms.0440 | MS 440 | Seymour family papers | 
  [mssa.ms.0442.xml](4429.xml) | mssa.ms.0442 | MS 442 | George Dudley Seymour papers | 
+ [mssa.ms.0569.xml](4430.xml) | mssa.ms.0569 | MS 569 | Robert Mearns Yerkes papers | 
  [mssa.ms.0695.xml](4432.xml) | mssa.ms.0695 | MS 695 | Leonard Jimmie Savage papers | 
  [mssa.ms.0071.xml](4434.xml) | mssa.ms.0071 | MS 71 | Beecher Family Papers | 
  [mssa.ms.0112.xml](4435.xml) | mssa.ms.0112 | MS 112 | William C. Bullitt papers | 
@@ -2817,5 +2820,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0207.xml](10778.xml) | mssa.ru.0207 | RU 207 | Timothy Dwight College, Yale University, student records | 
  [mssa.ru.1153.xml](10837.xml) | mssa.ru.1153 | RU 1153 | Yale University Corporation 1949 Presidential Search Committee Records | 
  [mssa.ru.1156.xml](11096.xml) | mssa.ru.1156 | RU .1156 | Institute of Sacred Music, Yale University, records | 
- [11197.xml](11197.xml) |  | RU 1157 | Peter Salovey, President of Yale University, Records | 
+ [mssa.ru.1157.xml](11197.xml) | mssa.ru.1157 | RU 1157 | Peter Salovey, President of Yale University, Records | 
+ [mssa.ru.0281.IMPORT.2018-09-11T10:46:25-04:00.xml](11206.xml) | mssa.ru.0281.IMPORT.2018-09-11T10:46:25-04:00 | RU 1157IMPORT2018-09-11T10:46:25-04:00 | Peter Salovey, president of Yale University, records IMPORT 2018-09-11T10:46:25-04:00 | 
 
