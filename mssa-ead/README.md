@@ -995,6 +995,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0193.xml](2932.xml) | mssa.ms.0193 | MS 193 | Jacob Eliot family papers | 
  [mssa.ms.0201.xml](2933.xml) | mssa.ms.0201 | MS 201 | Fabrique family papers | 
  [mssa.ms.0215.xml](2935.xml) | mssa.ms.0215 | MS 215 | Asa Fitch papers | 
+ [mssa.ms.0216.xml](2936.xml) | mssa.ms.0216 | MS 216 | S. Griswold Flagg collection | 
  [mssa.ms.0219.xml](2937.xml) | mssa.ms.0219 | MS 219 | Justus Forward papers | 
  [mssa.ms.0220.xml](2938.xml) | mssa.ms.0220 | MS 220 | Isabella Graham Foster papers | 
  [mssa.ms.0223.xml](2939.xml) | mssa.ms.0223 | MS 223 | Victor Oscar Freeburg papers | 
