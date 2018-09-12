@@ -1858,6 +1858,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0448.xml](3835.xml) | mssa.ms.0448 | MS 448 | Roger Sherman papers | 
  [mssa.ms.0473.xml](3836.xml) | mssa.ms.0473 | MS 473 | George Henry Nettleton papers | 
  [mssa.ms.0482.xml](3837.xml) | mssa.ms.0482 | MS 482 | Terry family papers | 
+ [mssa.ms.0498.xml](3838.xml) | mssa.ms.0498 | MS 498 | Ernst Toller papers | 
  [mssa.ms.0534.xml](3839.xml) | mssa.ms.0534 | MS 534 | Caroline Farrar Ware papers | 
  [mssa.ms.0547.xml](3840.xml) | mssa.ms.0547 | MS 547 | Samuel Wells Williams family papers | 
  [mssa.ms.0554.xml](3841.xml) | mssa.ms.0554 | MS 554 | Eli Whitney papers | 
@@ -2546,6 +2547,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0465.xml](4819.xml) | mssa.ms.0465 | MS 465 | Henry Lewis Stimson papers | 
  [mssa.ms.0553.xml](4820.xml) | mssa.ms.0553 | MS 553 | Harry Weinberger papers | 
  [mssa.ms.0619.xml](4824.xml) | mssa.ms.0619 | MS 619 | Civil War manuscripts collection | 
+ [mssa.ms.0690.xml](4826.xml) | mssa.ms.0690 | MS 690 | Palestine Statehood Committee "Concerning the campaigns for a Jewish Army; to save the Jewish people of Europe and the establishment of a Hebrew Republic in Palestine"  papers | 
  [mssa.ms.0829.xml](4831.xml) | mssa.ms.0829 | MS 829 | Anne Morrow Lindbergh papers | 
  [mssa.ms.1042.xml](4833.xml) | mssa.ms.1042 | MS 1042 | Luther Allan Weigle papers | 
  [mssa.ms.1101.xml](4834.xml) | mssa.ms.1101 | MS 1101 | Historical postcard collection | 
@@ -2592,6 +2594,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1953.xml](4887.xml) | mssa.ms.1953 | MS 1953 | Greentree Stud and Stable records | 
  [mssa.ms.0198.xml](4888.xml) | mssa.ms.0198 | MS 198 | Edwin Rogers Embree papers | 
  [mssa.ms.0139.xml](4889.xml) | mssa.ms.0139 | MS 139 | Elisha Lord Cleaveland papers | 
+ [mssa.ms.0822.xml](4891.xml) | mssa.ms.0822 | MS 822 | Benjamin Lee Whorf papers | 
  [mssa.ms.0031.xml](4894.xml) | mssa.ms.0031 | MS 31 | Thomas Sewall Adams papers | 
  [mssa.ru.1070.xml](4895.xml) | mssa.ru.1070 | RU 1070 | Office of Facilities Construction and Renovation, School of Medicine, Yale University, records | 
  [mssa.ms.1843.xml](4896.xml) | mssa.ms.1843 | MS 1843 | Albert Heman Ely, Jr. family papers | 
