@@ -1098,6 +1098,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0242.xml](3046.xml) | mssa.ms.0242 | MS 242 | Goodrich Family Papers | 
  [mssa.ms.0245.xml](3047.xml) | mssa.ms.0245 | MS 245 | Goodyear Family Papers | 
  [mssa.ms.0255.xml](3048.xml) | mssa.ms.0255 | MS 255 | Alfred Whitney Griswold personal papers | 
+ [mssa.ms.0257.xml](3049.xml) | mssa.ms.0257 | MS 257 | Gustav Gruener papers | 
  [mssa.ms.0269.xml](3050.xml) | mssa.ms.0269 | MS 269 | Herman Haupt papers | 
  [mssa.ms.0279.xml](3051.xml) | mssa.ms.0279 | MS 279 | Ebenezer J. Hill papers | 
  [mssa.ms.0287.xml](3053.xml) | mssa.ms.0287 | MS 287 | William Fowler Hopson papers | 
@@ -2048,6 +2049,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0155.xml](4034.xml) | mssa.ms.0155 | MS 155 | Wilbur Lucius Cross papers | 
  [mssa.ms.0162.xml](4035.xml) | mssa.ms.0162 | MS 162 | David Daggett papers | 
  [mssa.ms.0164.xml](4036.xml) | mssa.ms.0164 | MS 164 | Dana family papers | 
+ [mssa.ms.0169.xml](4037.xml) | mssa.ms.0169 | MS 169 | Thomas Davidson papers | 
  [mssa.ms.0206.xml](4038.xml) | mssa.ms.0206 | MS 206 | Charles Andrews Fenton papers | 
  [mssa.ms.0207.xml](4039.xml) | mssa.ms.0207 | MS 207 | James William Fesler papers | 
  [mssa.ms.0230.xml](4040.xml) | mssa.ms.0230 | MS 230 | Gardiner-Tyler Family Papers | 
