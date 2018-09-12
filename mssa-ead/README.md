@@ -2470,6 +2470,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1297.xml](4488.xml) | mssa.ms.1297 | MS 1297 | Arnold Carl Klebs papers | 
  [mssa.ms.1387.xml](4489.xml) | mssa.ms.1387 | MS 1387 | Crawford Theater collection | 
  [mssa.ms.1399.xml](4490.xml) | mssa.ms.1399 | MS 1399 | Horace Dwight Taft papers | 
+ [mssa.ms.0788.xml](4491.xml) | mssa.ms.0788 | MS 788 | Henry Ernest Sigerist papers | 
  [mssa.ms.0858.xml](4492.xml) | mssa.ms.0858 | MS 858 | Abe Fortas papers | 
  [mssa.ms.1138.xml](4493.xml) | mssa.ms.1138 | MS 1138 | Margaret S. Mahler papers | 
  [mssa.ms.1231.xml](4494.xml) | mssa.ms.1231 | MS 1231 | Thomas Raynesford Lounsbury papers | 
