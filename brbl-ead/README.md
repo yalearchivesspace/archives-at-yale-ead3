@@ -603,6 +603,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.kane.xml](1180.xml) | beinecke.kane | WA MSS 279 | Thomas Leiper Kane papers | 
  [beinecke.chmason.xml](1182.xml) | beinecke.chmason | WA MSS 332 | Charles H. Mason Correspondence | 
  [beinecke.reed.xml](1184.xml) | beinecke.reed | WA MSS 399 | Silas Reed papers | 
+ [beinecke.rbsage.xml](1185.xml) | beinecke.rbsage | WA MSS 414 | Rufus B. Sage papers | 
  [beinecke.strangco.xml](1188.xml) | beinecke.strangco | WA MSS 447 | James Jesse Strang collection | 
  [beinecke.walkerfam.xml](1189.xml) | beinecke.walkerfam | WA MSS 501 | Walker Family papers | 
  [beinecke.andrewsmithgalllery.xml](1190.xml) | beinecke.andrewsmithgalllery | WA MSS S-3056 | Andrew Smith Gallery records | 
@@ -648,6 +649,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.schieff.xml](1237.xml) | beinecke.schieff | WA MSS S-1401 | Schieffelin family papers | 
  [beinecke.graham.xml](1238.xml) | beinecke.graham | WA MSS S-1403 | J. D. Graham papers | 
  [beinecke.davidson.xml](1240.xml) | beinecke.davidson | WA MSS S-1452 | George M. Davidson papers | 
+ [beinecke.musquiz.xml](1241.xml) | beinecke.musquiz | WA MSS S-1482 | Luis Alberto Guajardo Collection of Músquiz, Mexico Records | 
  [beinecke.watelep.xml](1243.xml) | beinecke.watelep | WA MSS S-1593 | Western Teleplays Collection | 
  [beinecke.westfilmscriptc.xml](1244.xml) | beinecke.westfilmscriptc | WA MSS S-1610 | Western filmscript collection | 
  [beinecke.wilbur.xml](1245.xml) | beinecke.wilbur | WA MSS S-1611 | George W. Wilbur family papers | 
