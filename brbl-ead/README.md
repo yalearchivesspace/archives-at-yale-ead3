@@ -582,6 +582,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fb67.xml](1151.xml) | beinecke.fb67 | OSBORN FB67 | "Oliver Cromwell - autograph letters and historical documents 1646-1658" | 
  [beinecke.fb94.xml](1152.xml) | beinecke.fb94 | OSBORN FB94 | Civil War. Collection of letters and state papers, apparently from the papers of John Pym | 
  [beinecke.fc109.xml](1153.xml) | beinecke.fc109 | OSBORN FC109 1/2 | [Letterbook] | 
+ [beinecke.fc110.xml](1154.xml) | beinecke.fc110 | OSBORN FC110 | [Letterbook] | 
  [beinecke.fc112.xml](1155.xml) | beinecke.fc112 | OSBORN FC112 | [Papers] | 
  [beinecke.fc2.xml](1156.xml) | beinecke.fc2 | OSBORN FC2 | Four popular English tales | 
  [beinecke.fc39.xml](1157.xml) | beinecke.fc39 | OSBORN FC39 | [Papers] | 
@@ -591,7 +592,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fd10.xml](1161.xml) | beinecke.fd10 | OSBORN FD10 | "Correspondence" | 
  [beinecke.fd45.xml](1162.xml) | beinecke.fd45 | OSBORN FD45 | Collection of letters, receipts, proofs, portraits, etc., concerning The British Gallery of Contemporary Portraits, published by Cadell & Davies | 
  [beinecke.fd49.xml](1163.xml) | beinecke.fd49 | OSBORN FD49 | [Engravings]. | 
+ [beinecke.tankas.xml](1170.xml) | beinecke.tankas | Tibet MSS 62 | Tanka collection | 
+ [beinecke.needham.xml](1171.xml) | beinecke.needham | Tibet MSS 64 | Wesley E. Needham Papers | 
  [beinecke.curtis.xml](1174.xml) | beinecke.curtis | WA MSS 122-125 | Samuel Ryan Curtis Papers | 
+ [1175.xml](1175.xml) |  | WA MSS 161-162 | Henry Eld papers | 
  [beinecke.emmonsgf.xml](1176.xml) | beinecke.emmonsgf | WA MSS 166-169 | George F. Emmons papers | 
  [beinecke.evans.xml](1177.xml) | beinecke.evans | WA MSS 172-191 | Elwood Evans Papers | 
  [beinecke.faulk.xml](1178.xml) | beinecke.faulk | WA MSS 195 | Andrew Jackson Faulk papers | 
