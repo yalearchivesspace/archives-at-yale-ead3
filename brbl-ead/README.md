@@ -667,6 +667,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.stenzel.xml](1260.xml) | beinecke.stenzel | WA MSS S-2368 | Franz R. and Kathryn M. Stenzel collection of western American art | 
  [beinecke.wildschu.xml](1262.xml) | beinecke.wildschu | WA MSS S-2386 | William Wildschut papers | 
  [beinecke.folsom.xml](1263.xml) | beinecke.folsom | WA MSS S-2394 | Joseph Libbey Folsom collection | 
+ [beinecke.kern.xml](1264.xml) | beinecke.kern | WA MSS S-2395 | Edward Meyer Kern and Richard H. Kern papers | 
  [beinecke.hobart.xml](1265.xml) | beinecke.hobart | WA MSS S-2396 | Carroll T. Hobart papers | 
  [beinecke.choctaw.xml](1266.xml) | beinecke.choctaw | WA MSS S-2397 | J. L. Hargett collection of Choctaw Nation papers | 
  [beinecke.swain.xml](1268.xml) | beinecke.swain | WA MSS S-2408 | J. S. Holliday research collection on the William Swain family | 
@@ -680,11 +681,15 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fleckten.xml](1276.xml) | beinecke.fleckten | WA MSS S-2566 | Bernice Britton Fleckten papers | 
  [beinecke.streetca.xml](1277.xml) | beinecke.streetca | WA MSS S-2588 | Thomas W. Streeter collection of Hudson Book Company, Edward Eberstadt, and Edward Eberstadt & Sons catalogs | 
  [beinecke.thill.xml](1278.xml) | beinecke.thill | WA MSS S-259 | Thomas R. Hill papers | 
+ [beinecke.wipa.xml](1279.xml) | beinecke.wipa | WA MSS S-2600 | Peter Palmquist collection of women in photography | 
  [beinecke.stenzeladd.xml](1280.xml) | beinecke.stenzeladd | WA MSS S-2601 | Franz R. and Kathryn M. Stenzel Collection of Western American Art Addition | 
+ [beinecke.cohenadd.xml](1281.xml) | beinecke.cohenadd | WA MSS S-2602 | Felix S. Cohen Papers Addition | 
  [beinecke.tobapatotucker.xml](1282.xml) | beinecke.tobapatotucker | WA MSS S-2604 | Toba Pato Tucker photographs and papers | 
  [beinecke.whitegr.xml](1283.xml) | beinecke.whitegr | WA MSS S-2605 | George Ritch White Diaries | 
+ [beinecke.johnston.xml](1284.xml) | beinecke.johnston | WA MSS S-2606 | George F. Johnston Company records | 
  [beinecke.yunative.xml](1287.xml) | beinecke.yunative | WA MSS S-2610 | Yale University Native American Alumni Oral History Project | 
  [beinecke.blair.xml](1288.xml) | beinecke.blair | WA MSS S-2611 | R. E. Blair collection of Western oil and mining investment prospectuses | 
+ [beinecke.patterson.xml](1289.xml) | beinecke.patterson | WA MSS S-2612 | Stuart H. Patterson papers | 
  [beinecke.prattl.xml](1290.xml) | beinecke.prattl | WA MSS S-2613 | Lawrence Pratt collection concerning Arizona v. California and the Colorado River | 
  [beinecke.advertisements.xml](1293.xml) | beinecke.advertisements | WA MSS S-2622 | Collection of advertisements that depict American history. | 
  [beinecke.daviesscroggie.xml](1294.xml) | beinecke.daviesscroggie | WA MSS S-2627 | Davies/Scroggie Collection of White Pass and Yukon Documents and Ephemera | 
