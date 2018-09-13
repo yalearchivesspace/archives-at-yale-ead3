@@ -1169,6 +1169,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0685.xml](3125.xml) | mssa.ms.0685 | MS 685 | Parker Family Papers | 
  [mssa.ms.0691.xml](3126.xml) | mssa.ms.0691 | MS 691 | Edward Claudius Herrick papers | 
  [mssa.ms.0707.xml](3127.xml) | mssa.ms.0707 | MS 707 | Bacon-Schneeloch family papers | 
+ [mssa.ms.0731.xml](3128.xml) | mssa.ms.0731 | MS 731 | Harold Lamport autograph collection | 
  [mssa.ms.0737.xml](3130.xml) | mssa.ms.0737 | MS 737 | John Wesley Blassingame Papers | 
  [mssa.ms.0744.xml](3131.xml) | mssa.ms.0744 | MS 744 | Frances Bernice Field papers | 
  [mssa.ms.0746.xml](3132.xml) | mssa.ms.0746 | MS 746 | Ward Shepard papers | 
