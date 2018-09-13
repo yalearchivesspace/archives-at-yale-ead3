@@ -849,6 +849,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hilda.xml](1467.xml) | beinecke.hilda | YCAL MSS 24 | H. D. Papers | 
  [beinecke.olgafin.xml](1468.xml) | beinecke.olgafin | YCAL MSS 241 | Olga Rudge papers : addition | 
  [beinecke.hare.xml](1469.xml) | beinecke.hare | YCAL MSS 246 | Montgomery Hare papers | 
+ [beinecke.kahnjoan.xml](1470.xml) | beinecke.kahnjoan | YCAL MSS 247 | Joan Kahn papers | 
  [beinecke.welch.xml](1471.xml) | beinecke.welch | YCAL MSS 248 | James Welch papers | 
  [beinecke.stoddardhaila.xml](1472.xml) | beinecke.stoddardhaila | YCAL MSS 249 | Haila Stoddard playscript collection | 
  [beinecke.rosenfel.xml](1473.xml) | beinecke.rosenfel | YCAL MSS 25 | Paul Rosenfeld papers | 
