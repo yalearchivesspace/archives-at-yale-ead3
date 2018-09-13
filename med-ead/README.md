@@ -42,4 +42,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.pam.0010.xml](10789.xml) | med.pam.0010 | Pam Coll 10 | Cancer "cures" collection | 
  [med.ms.0059.xml](10832.xml) | med.ms.0059 | Ms Coll 59 | James Augustine Haran papers | 
  [med.ms.0061.xml](11039.xml) | med.ms.0061 | Ms Coll 61 | Robert Bogdan Disability Collection | 
+ [med.ms.0062.xml](11208.xml) | med.ms.0062 | Ms Coll 62 | James H. Etheridge and family collection | 
 
