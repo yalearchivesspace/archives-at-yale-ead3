@@ -728,6 +728,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hickok.xml](1330.xml) | beinecke.hickok | WA MSS S-2762 | Clifton Ewing Hickok papers | 
  [beinecke.chorpenning.xml](1331.xml) | beinecke.chorpenning | WA MSS S-2767 | George Chorpenning papers | 
  [beinecke.starrl.xml](1332.xml) | beinecke.starrl | WA MSS S-2774 | Louis Starr collection concerning the field notes of William Clark | 
+ [beinecke.pinart.xml](1334.xml) | beinecke.pinart | WA MSS S-285 | Native American vocabularies | 
  [beinecke.goldrush.xml](1335.xml) | beinecke.goldrush | WA MSS S-2865 | Gold Rush Collection | 
  [beinecke.suggmcdonald.xml](1336.xml) | beinecke.suggmcdonald | WA MSS S-2885 | Sugg and McDonald family papers | 
  [beinecke.goldengate.xml](1337.xml) | beinecke.goldengate | WA MSS S-2889 | Golden Gate International Exposition Publicity Records | 
@@ -742,6 +743,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hawks.xml](1347.xml) | beinecke.hawks | WA MSS S-2958 | Hawks Family Papers Relating to Business Ventures in the American West | 
  [beinecke.oddfellows.xml](1348.xml) | beinecke.oddfellows | WA MSS S-2961 | Independent Order of Odd Fellows Records of California Lodges | 
  [beinecke.northern.xml](1349.xml) | beinecke.northern | WA MSS S-2962 | Northern Pacific Railway Company maps and drawings | 
+ [beinecke.gandert.xml](1350.xml) | beinecke.gandert | WA MSS S-2964 | Miguel A. Gandert photographs and papers | 
  [beinecke.palmquistpapers.xml](1351.xml) | beinecke.palmquistpapers | WA MSS S-2965 | Peter E. Palmquist papers | 
  [beinecke.williamscp.xml](1352.xml) | beinecke.williamscp | WA MSS S-2989 | Chauncey Pratt Williams Writings on the American West | 
  [beinecke.sfaustin.xml](1354.xml) | beinecke.sfaustin | WA MSS S-3000 | Thomas W. Streeter Collection of Austin Family and Texas Revolution Papers | 
