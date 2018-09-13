@@ -2414,6 +2414,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0005.xml](4415.xml) | mssa.ru.0005 | RU 5 | Yale University building project records | 
  [mssa.ms.0593.xml](4418.xml) | mssa.ms.0593 | MS 593 | Eero Saarinen collection | 
  [mssa.ms.0656.xml](4419.xml) | mssa.ms.0656 | MS 656 | Frank Lyon Polk papers | 
+ [mssa.ms.0692.xml](4420.xml) | mssa.ms.0692 | MS 692 | Edwin Richard Weinerman papers | 
  [mssa.ms.0008.xml](4421.xml) | mssa.ms.0008 | MS 8 | The Inquiry Papers | 
  [mssa.ms.0073.xml](4422.xml) | mssa.ms.0073 | MS 73 | Beer family papers | 
  [mssa.ms.0200.xml](4423.xml) | mssa.ms.0200 | MS 200 | Evarts family papers | 
