@@ -26,6 +26,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0046.xml](5850.xml) | ycba.mss.0046 | MSS 46 | John Ruskin Letters to Ellen Heaton | 
  [ycba.mss.0031.xml](5858.xml) | ycba.mss.0031 | MSS.31 | Dante Gabriel Rossetti Letters to William Houghton Clabburn | 
  [ycba.mss.0047.xml](5859.xml) | ycba.mss.0047 | MSS.47 | Dante Gabriel Rossetti Letters to Ellen Heaton | 
+ [ycba.mss.0017.xml](5884.xml) | ycba.mss.0017 | MSS.17 | Roger W. Moss Collection of Manuscript, Original Art and Printed Material by and about Richard Shirley Smith | 
  [ycba.mss.0045.xml](5895.xml) | ycba.mss.0045 | MSS.45 | Edward Burne-Jones Letters to Cormell Price | 
  [ycba.mss.0053.xml](10701.xml) | ycba.mss.0053 | MSS.53 | Thomas Woolner Letters to John Frederick Lewis | 
  [ycba.mss.0054.xml](10704.xml) | ycba.mss.0054 | MSS.54 | Royal College of Art Sketch Club Collection | 
