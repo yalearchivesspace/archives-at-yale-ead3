@@ -2123,6 +2123,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0165.xml](4109.xml) | mssa.ms.0165 | MS 165 | John Anthony Danaher papers | 
  [mssa.ms.0170.xml](4110.xml) | mssa.ms.0170 | MS 170 | John William Davis papers | 
  [mssa.ms.0203.xml](4111.xml) | mssa.ms.0203 | MS 203 | Farnam family papers | 
+ [mssa.ms.0235.xml](4112.xml) | mssa.ms.0235 | MS 235 | Ghassem Ghani collection | 
  [mssa.ms.0243.xml](4113.xml) | mssa.ms.0243 | MS 243 | James Lippincott Goodwin papers | 
  [mssa.ms.0254.xml](4114.xml) | mssa.ms.0254 | MS 254 | Wilfred Thomason Grenfell papers | 
  [mssa.ms.0322.xml](4115.xml) | mssa.ms.0322 | MS 322 | Max Lerner papers | 
@@ -2684,8 +2685,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1111.xml](5182.xml) | mssa.ru.1111 | RU 1111 | School Development Program, Child Study Center, School of Medicine, Yale University, records | 
  [mssa.ru.1110.xml](5183.xml) | mssa.ru.1110 | RU 1110 | John Herrick Jackson, Class of 1934, Yale College, photographs and etchings documenting student life at Yale | 
  [mssa.ms.1895.xml](5184.xml) | mssa.ms.1895 | MS 1895 | John Glines papers | 
- [5185.xml](5185.xml) |  | HM 255 | John Woodruff Ewell Papers - Correspondence, notes, landscape drawings, purchase orders, and other papers relating to the Book and Snake Society garden 1963-1969. From the Yale Miscellaneous Manuscripts Collection [microform]
-  | 
+ [5185.xml](5185.xml) |  | HM 255 | John Woodruff Ewell Papers - Correspondence, notes, landscape drawings, purchase orders, and other papers relating to the Book and Snake Society garden 1963-1969. From the Yale Miscellaneous Manuscripts Collection [microform]   | 
  [mssa.ms.1972.xml](5186.xml) | mssa.ms.1972 | MS 1972 | Latin American manuscripts bindings collection | 
  [mssa.ms.1973.xml](5187.xml) | mssa.ms.1973 | MS 1973 | New York Architects/Frank Lupo Daniel Rowen records | 
  [mssa.ms.1974.xml](5188.xml) | mssa.ms.1974 | MS 1974 | John Boswell papers | 
