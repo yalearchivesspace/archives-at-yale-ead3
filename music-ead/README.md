@@ -3,7 +3,6 @@
 EAD | EAD ID | Identifier | Title | Other versions
 --- | ------ | ---------- | ----- | --------------
  [music.mss.0132.xml](453.xml) | music.mss.0132 | MSS.132 | Rocky Clark Papers | 
- [454.xml](454.xml) |  | MSS.55.additions | Additions | 
  [music.mss.0106.xml](5403.xml) | music.mss.0106 | MSS.106 | Betsy Jolas Papers | 
  [music.mss.0069.xml](5453.xml) | music.mss.0069 | MSS.69 | Goddard Lieberson Papers | 
  [music.mss.0112.xml](5586.xml) | music.mss.0112 | MSS.112 | Thomas Z. Shepard Papers | 
