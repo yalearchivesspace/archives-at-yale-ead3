@@ -1082,6 +1082,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0107.xml](3026.xml) | mssa.ms.0107 | MS 107 | William Robinson Brown papers | 
  [mssa.ms.0121.xml](3027.xml) | mssa.ms.0121 | MS 121 | Hugh Byas papers | 
  [mssa.ms.0130.xml](3028.xml) | mssa.ms.0130 | MS 130 | Carrington Family papers | 
+ [mssa.ms.0140.xml](3029.xml) | mssa.ms.0140 | MS 140 | Laurent Clerc papers | 
  [mssa.ms.0141.xml](3030.xml) | mssa.ms.0141 | MS 141 | Cogswell family papers | 
  [mssa.ms.0143.xml](3031.xml) | mssa.ms.0143 | MS 143 | George Watson Cole papers | 
  [mssa.ms.0157.xml](3032.xml) | mssa.ms.0157 | MS 157 | Alexander Griswold Cummins papers | 
