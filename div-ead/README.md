@@ -191,6 +191,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.031.xml](238.xml) | divinity.031 | RG 31 | Katherine Vaughn Papers | 
  [divinity.032.xml](239.xml) | divinity.032 | RG 32 | George Sherwood Eddy Papers | 
  [divinity.033.xml](240.xml) | divinity.033 | RG 33 | Records of Religious Educational Institutions | 
+ [divinity.034.xml](241.xml) | divinity.034 | RG 34 | Records of Religious and Benevolent Societies, Organizations, and Meetings | 
  [divinity.035.xml](242.xml) | divinity.035 | RG 35 | Clarence Prouty Shedd Papers | 
  [divinity.036.xml](243.xml) | divinity.036 | RG 36 | George Albert Coe Papers | 
  [divinity.037.xml](244.xml) | divinity.037 | RG 37 | Charles Reynolds Brown Papers | 
@@ -236,12 +237,14 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.007.xml](285.xml) | divinity.007 | RG 7 | Campbell Family Papers | 
  [divinity.070.xml](286.xml) | divinity.070 | RG 70 | Standard Bible Committee Records | 
  [divinity.071.xml](287.xml) | divinity.071 | RG 71 | Millar Burrows Papers | 
+ [divinity.072.xml](288.xml) | divinity.072 | RG 72 | Horace Waller Papers | 
  [divinity.073.xml](289.xml) | divinity.073 | RG 73 | Social Ethics Pamphlet Collection | 
  [divinity.074.xml](290.xml) | divinity.074 | RG 74 | Religious Education Association Records | 
  [divinity.074a.xml](291.xml) | divinity.074a | RG 74A | Religious Education Association Records - Addendum A | 
  [divinity.076.xml](293.xml) | divinity.076 | RG 76 | Hans Wilhelm Frei Papers | 
  [divinity.077.xml](294.xml) | divinity.077 | RG 77 | Samuel Clarke Bushnell Papers | 
  [divinity.078.xml](295.xml) | divinity.078 | RG 78 | Bruce Maguire / Student YMCA Papers | 
+ [divinity.079.xml](296.xml) | divinity.079 | RG 79 | William H. Genné Papers | 
  [divinity.008.xml](297.xml) | divinity.008 | RG 8 | China Records Project Miscellaneous Personal Papers Collection | 
  [divinity.080.xml](298.xml) | divinity.080 | RG 80 | Raymond Philip Morris Papers | 
  [divinity.081.xml](299.xml) | divinity.081 | RG 81 | American Theological Library Association Library Development Program Records | 
