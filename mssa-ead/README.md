@@ -1008,11 +1008,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0278.xml](2946.xml) | mssa.ms.0278 | MS 278 | William H. H. Hewitt papers | 
  [mssa.ms.0290.xml](2947.xml) | mssa.ms.0290 | MS 290 | Hopkins family papers | 
  [mssa.ms.0333.xml](2948.xml) | mssa.ms.0333 | MS 333 | Chauncey McKinley Louttit papers | 
+ [mssa.ms.0334.xml](2949.xml) | mssa.ms.0334 | MS 334 | Joe Vincent Meigs papers | 
  [mssa.ms.0341.xml](2950.xml) | mssa.ms.0341 | MS 341 | Mailliard Family papers | 
  [mssa.ms.0350.xml](2951.xml) | mssa.ms.0350 | MS 350 | John Stuart Mill papers | 
  [mssa.ms.0369.xml](2953.xml) | mssa.ms.0369 | MS 369 | New England Council Steel Committee records | 
  [mssa.ms.0377.xml](2954.xml) | mssa.ms.0377 | MS 377 | Matthew Noyes papers | 
  [mssa.ms.0392.xml](2955.xml) | mssa.ms.0392 | MS 392 | Nathaniel Pendleton Family papers | 
+ [mssa.ms.0398.xml](2956.xml) | mssa.ms.0398 | MS 398 | Pierce-Dahlgren-Vinton family papers | 
  [mssa.ms.0406.xml](2957.xml) | mssa.ms.0406 | MS 406 | Pruden family papers | 
  [mssa.ms.0411.xml](2958.xml) | mssa.ms.0411 | MS 411 | Alfred Augustus Reed papers | 
  [mssa.ms.0412.xml](2959.xml) | mssa.ms.0412 | MS 412 | Edward Bliss Reed papers | 
@@ -1025,6 +1027,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0468.xml](2967.xml) | mssa.ms.0468 | MS 468 | Leonidas Polk family papers | 
  [mssa.ms.0471.xml](2968.xml) | mssa.ms.0471 | MS 471 | James Merriam Howard papers | 
  [mssa.ms.0480.xml](2969.xml) | mssa.ms.0480 | MS 480 | William Howard Taft papers | 
+ [mssa.ms.0489.xml](2970.xml) | mssa.ms.0489 | MS 489 | Thönges family papers | 
  [mssa.ms.0493.xml](2971.xml) | mssa.ms.0493 | MS 493 | John Lawrence Thurston papers | 
  [mssa.ms.0494.xml](2972.xml) | mssa.ms.0494 | MS 494 | Richard Christian Thurnwald papers | 
  [mssa.ms.0501.xml](2973.xml) | mssa.ms.0501 | MS 501 | Townshend family papers | 
@@ -1103,6 +1106,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0257.xml](3049.xml) | mssa.ms.0257 | MS 257 | Gustav Gruener papers | 
  [mssa.ms.0269.xml](3050.xml) | mssa.ms.0269 | MS 269 | Herman Haupt papers | 
  [mssa.ms.0279.xml](3051.xml) | mssa.ms.0279 | MS 279 | Ebenezer J. Hill papers | 
+ [mssa.ms.0280.xml](3052.xml) | mssa.ms.0280 | MS 280 | Hiller family papers | 
  [mssa.ms.0287.xml](3053.xml) | mssa.ms.0287 | MS 287 | William Fowler Hopson papers | 
  [mssa.ms.0288.xml](3054.xml) | mssa.ms.0288 | MS 288 | James William Hook papers | 
  [mssa.ms.0289.xml](3055.xml) | mssa.ms.0289 | MS 289 | Hooker family papers | 
@@ -1110,6 +1114,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0295.xml](3057.xml) | mssa.ms.0295 | MS 295 | Jesse Hurd family papers | 
  [mssa.ms.0301.xml](3058.xml) | mssa.ms.0301 | MS 301 | James Jackson Jarves collection | 
  [mssa.ms.0305.xml](3059.xml) | mssa.ms.0305 | MS 305 | Johnson family papers | 
+ [mssa.ms.0312.xml](3060.xml) | mssa.ms.0312 | MS 312 | Alfred von Kiderlen-Wächter papers | 
  [mssa.ms.0319.xml](3061.xml) | mssa.ms.0319 | MS 319 | Lefferts family papers | 
  [mssa.ms.0320.xml](3062.xml) | mssa.ms.0320 | MS 320 | Leffingwell family papers | 
  [mssa.ms.0327.xml](3063.xml) | mssa.ms.0327 | MS 327 | Sylvanus Dyer Locke papers | 
@@ -1171,6 +1176,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0691.xml](3126.xml) | mssa.ms.0691 | MS 691 | Edward Claudius Herrick papers | 
  [mssa.ms.0707.xml](3127.xml) | mssa.ms.0707 | MS 707 | Bacon-Schneeloch family papers | 
  [mssa.ms.0731.xml](3128.xml) | mssa.ms.0731 | MS 731 | Harold Lamport autograph collection | 
+ [mssa.ms.0735.xml](3129.xml) | mssa.ms.0735 | MS 735 | German Pamphlet Collection | 
  [mssa.ms.0737.xml](3130.xml) | mssa.ms.0737 | MS 737 | John Wesley Blassingame Papers | 
  [mssa.ms.0744.xml](3131.xml) | mssa.ms.0744 | MS 744 | Frances Bernice Field papers | 
  [mssa.ms.0746.xml](3132.xml) | mssa.ms.0746 | MS 746 | Ward Shepard papers | 
@@ -1885,6 +1891,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0801.xml](3860.xml) | mssa.ms.0801 | MS 801 | Mary Ann Phelps Montgomery collection | 
  [mssa.ms.0810.xml](3861.xml) | mssa.ms.0810 | MS 810 | American Public Health Association records | 
  [mssa.ms.0815.xml](3862.xml) | mssa.ms.0815 | MS 815 | Raymond Laurel Lindeman papers | 
+ [mssa.ms.0826.xml](3863.xml) | mssa.ms.0826 | MS 826 | Abraham Robinson papers | 
  [mssa.ms.0835.xml](3864.xml) | mssa.ms.0835 | MS 835 | Yale-New Haven Hospital records | 
  [mssa.ms.0841.xml](3865.xml) | mssa.ms.0841 | MS 841 | George Baehr papers | 
  [mssa.ms.0843.xml](3866.xml) | mssa.ms.0843 | MS 843 | George Alexander Kubler papers | 
@@ -2179,6 +2186,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0304.xml](4168.xml) | mssa.ms.0304 | MS 304 | Obadiah Johnson papers | 
  [mssa.ms.0308.xml](4169.xml) | mssa.ms.0308 | MS 308 | George Alexander Kennedy papers | 
  [mssa.ms.0310.xml](4170.xml) | mssa.ms.0310 | MS 310 | Tyler Gatewood Kent papers | 
+ [mssa.ms.0323.xml](4172.xml) | mssa.ms.0323 | MS 323 | De Lévis family papers | 
  [mssa.ms.0324.xml](4173.xml) | mssa.ms.0324 | MS 324 | Charles Herman Liebert papers | 
  [mssa.ms.0325a.xml](4174.xml) | mssa.ms.0325a | MS 325A | Charles Augustus Lindbergh gift collection | 
  [mssa.ms.0329.xml](4175.xml) | mssa.ms.0329 | MS 329 | John Davis Lodge papers | 
@@ -2199,12 +2207,14 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0405.xml](4190.xml) | mssa.ms.0405 | MS 405 | Truman Smith papers | 
  [mssa.ms.0408.xml](4191.xml) | mssa.ms.0408 | MS 408 | Arthur Bernhard Recknagel papers | 
  [mssa.ms.0409.xml](4192.xml) | mssa.ms.0409 | MS 409 | Samuel B. Reed papers | 
+ [mssa.ms.0413.xml](4193.xml) | mssa.ms.0413 | MS 413 | Charles Mason Remey papers | 
  [mssa.ms.0425.xml](4195.xml) | mssa.ms.0425 | MS 425 | Louis Samuel Rothschild papers | 
  [mssa.ms.0433.xml](4196.xml) | mssa.ms.0433 | MS 433 | School and College Conference on English records | 
  [mssa.ms.0449.xml](4197.xml) | mssa.ms.0449 | MS 449 | William Findlay Shunk papers | 
  [mssa.ms.0451.xml](4198.xml) | mssa.ms.0451 | MS 451 | Hartley Simpson papers | 
  [mssa.ms.0456.xml](4199.xml) | mssa.ms.0456 | MS 456 | Smith-Nyman papers | 
  [mssa.ms.0461.xml](4200.xml) | mssa.ms.0461 | MS 461 | Joel Sumner Smith papers | 
+ [mssa.ms.0469.xml](4201.xml) | mssa.ms.0469 | MS 469 | Walter Goodwin Davis papers | 
  [mssa.ms.0481.xml](4202.xml) | mssa.ms.0481 | MS 481 | Tarleton family papers | 
  [mssa.ms.0483.xml](4203.xml) | mssa.ms.0483 | MS 483 | Terry-Slocomb family papers | 
  [mssa.ms.0486.xml](4204.xml) | mssa.ms.0486 | MS 486 | Anna and Marion Tompson collection | 
@@ -2221,6 +2231,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0549.xml](4215.xml) | mssa.ms.0549 | MS 549 | Winthrop-Weston family papers | 
  [mssa.ms.0585.xml](4216.xml) | mssa.ms.0585 | MS 585 | Ephraim B. Bishop papers | 
  [mssa.ms.0588.xml](4217.xml) | mssa.ms.0588 | MS 588 | Archaeological Institute of America (Connecticut Society) records | 
+ [mssa.ms.0591.xml](4218.xml) | mssa.ms.0591 | MS 591 | Paul Jean Gaston Darrot papers | 
  [mssa.ms.0594.xml](4219.xml) | mssa.ms.0594 | MS 594 | Edward Augustine Sherman papers | 
  [mssa.ms.0595.xml](4220.xml) | mssa.ms.0595 | MS 595 | Chester Wells Purington papers | 
  [mssa.ms.0596.xml](4221.xml) | mssa.ms.0596 | MS 596 | Labaree family papers | 
@@ -2250,6 +2261,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0734.xml](4245.xml) | mssa.ms.0734 | MS 734 | Munson family papers | 
  [mssa.ms.0740.xml](4246.xml) | mssa.ms.0740 | MS 740 | Walter Johnson Robb papers | 
  [mssa.ms.0742.xml](4247.xml) | mssa.ms.0742 | MS 742 | Korean War collection | 
+ [mssa.ms.0745.xml](4248.xml) | mssa.ms.0745 | MS 745 | Leon Mitkiewicz papers | 
  [mssa.ms.0761.xml](4249.xml) | mssa.ms.0761 | MS 761 | Ethan Allen Andrews family papers | 
  [mssa.ms.0763.xml](4250.xml) | mssa.ms.0763 | MS 763 | Meyer family papers | 
  [mssa.ms.0778.xml](4251.xml) | mssa.ms.0778 | MS 778 | Joseph Barrell papers | 
@@ -2428,6 +2440,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0440.xml](4428.xml) | mssa.ms.0440 | MS 440 | Seymour family papers | 
  [mssa.ms.0442.xml](4429.xml) | mssa.ms.0442 | MS 442 | George Dudley Seymour papers | 
  [mssa.ms.0569.xml](4430.xml) | mssa.ms.0569 | MS 569 | Robert Mearns Yerkes papers | 
+ [mssa.ms.0648.xml](4431.xml) | mssa.ms.0648 | MS 648 | Albrecht Goetze papers | 
  [mssa.ms.0695.xml](4432.xml) | mssa.ms.0695 | MS 695 | Leonard Jimmie Savage papers | 
  [mssa.ms.0071.xml](4434.xml) | mssa.ms.0071 | MS 71 | Beecher Family Papers | 
  [mssa.ms.0112.xml](4435.xml) | mssa.ms.0112 | MS 112 | William C. Bullitt papers | 
@@ -2552,6 +2565,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0465.xml](4819.xml) | mssa.ms.0465 | MS 465 | Henry Lewis Stimson papers | 
  [mssa.ms.0553.xml](4820.xml) | mssa.ms.0553 | MS 553 | Harry Weinberger papers | 
  [mssa.ms.0619.xml](4824.xml) | mssa.ms.0619 | MS 619 | Civil War manuscripts collection | 
+ [mssa.ms.0671.xml](4825.xml) | mssa.ms.0671 | MS 671 | War poster collection | 
  [mssa.ms.0690.xml](4826.xml) | mssa.ms.0690 | MS 690 | Palestine Statehood Committee "Concerning the campaigns for a Jewish Army; to save the Jewish people of Europe and the establishment of a Hebrew Republic in Palestine"  papers | 
  [mssa.ms.0829.xml](4831.xml) | mssa.ms.0829 | MS 829 | Anne Morrow Lindbergh papers | 
  [mssa.ms.1042.xml](4833.xml) | mssa.ms.1042 | MS 1042 | Luther Allan Weigle papers | 
@@ -2829,7 +2843,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1151.xml](10732.xml) | mssa.ru.1151 | RU 1151 | Bureau of Highway Traffic, Yale University, records | 
  [mssa.ru.0207.xml](10778.xml) | mssa.ru.0207 | RU 207 | Timothy Dwight College, Yale University, student records | 
  [mssa.ru.1153.xml](10837.xml) | mssa.ru.1153 | RU 1153 | Yale University Corporation 1949 Presidential Search Committee Records | 
- [mssa.ru.1156.xml](11096.xml) | mssa.ru.1156 | RU .1156 | Institute of Sacred Music, Yale University, records | 
  [mssa.ru.1157.xml](11197.xml) | mssa.ru.1157 | RU 1157 | Peter Salovey, President of Yale University, Records | 
  [mssa.ru.0281.IMPORT.2018-09-11T10:46:25-04:00.xml](11206.xml) | mssa.ru.0281.IMPORT.2018-09-11T10:46:25-04:00 | RU 1157IMPORT2018-09-11T10:46:25-04:00 | Peter Salovey, president of Yale University, records IMPORT 2018-09-11T10:46:25-04:00 | 
 
