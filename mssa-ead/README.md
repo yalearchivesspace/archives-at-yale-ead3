@@ -1834,6 +1834,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0092.xml](3800.xml) | mssa.ms.0092 | MS 92 | Kenneth Farrand Simpson papers | 
  [mssa.ms.0108.xml](3801.xml) | mssa.ms.0108 | MS 108 | George Jarvis Brush family papers | 
  [mssa.ms.0115.xml](3802.xml) | mssa.ms.0115 | MS 115 | Frederick Russell Burnham papers | 
+ [mssa.ms.0122.xml](3803.xml) | mssa.ms.0122 | MS 122 | Cabié collection | 
  [mssa.ms.0124.xml](3804.xml) | mssa.ms.0124 | MS 124 | Kenneth Walter Cameron papers | 
  [mssa.ms.0129.xml](3805.xml) | mssa.ms.0129 | MS 129 | Henry Margenau papers | 
  [mssa.ms.0149.xml](3806.xml) | mssa.ms.0149 | MS 149 | Connecticut Miscellaneous Manuscripts Collection | 
