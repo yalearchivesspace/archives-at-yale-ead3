@@ -314,4 +314,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.296.xml](11065.xml) | divinity.296 | RG 296 | Irah Chase Papers | 
  [divinity.297.xml](11066.xml) | divinity.297 | RG 297 | Harry P. Dewey Papers | 
  [divinity.275.xml](11196.xml) | divinity.275 | RG 275 | Andover Theological Seminary Records | 
+ [divinity.279.xml](11230.xml) | divinity.279 | RG 279 | Andover Newton Faculty Publications Collection | 
 
