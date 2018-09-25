@@ -660,7 +660,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.buffalo.xml](1250.xml) | beinecke.buffalo | WA MSS S-197 | Buffalo Bill papers | 
  [beinecke.nettleto.xml](1251.xml) | beinecke.nettleto | WA MSS S-20 | Letters | 
  [beinecke.gearybus.xml](1252.xml) | beinecke.gearybus | WA MSS S-209 | John White Geary business papers | 
- [beinecke.willard.xml](1253.xml) | beinecke.willard | WA MSS S-2152 | Rowland Willard and Elizabeth S. Willard papers | 
+ [beinecke.willard.xml](1253.xml) | beinecke.willard | WA MSS S-2512 | Rowland Willard and Elizabeth S. Willard papers | 
  [beinecke.adamsa.xml](1255.xml) | beinecke.adamsa | WA MSS S-2197 | Alexander B. Adams writings on the American West | 
  [beinecke.wilburs.xml](1256.xml) | beinecke.wilburs | WA MSS S-2350 | Susan Wilbur Jones papers | 
  [beinecke.bond.xml](1258.xml) | beinecke.bond | WA MSS S-2358 | Marshall Bond papers | 
@@ -1349,7 +1349,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.halversongd.xml](10757.xml) | beinecke.halversongd | GEN MSS 998 | Photographs of the Garment District in New York City | 
  [beinecke.benetfamcol.xml](10764.xml) | beinecke.benetfamcol | YCAL MSS 1108 | Benét Family Collection | 
  [beinecke.astrong.xml](10767.xml) | beinecke.astrong | YCAL MSS 619 | Austin Strong papers | 
- [beinecke.altagor.xml](10776.xml) | beinecke.altagor | GEN MSS 1466 | Altagor papers | 
+ [beinecke.altagor.xml](10776.xml) | beinecke.altagor | GEN MSS 1466 | Altagor papers | 
  [beinecke.fisheram.xml](10777.xml) | beinecke.fisheram | GEN MSS 1473 | Alexander Metcalf Fisher Papers | 
  [beinecke.bohna.xml](10782.xml) | beinecke.bohna | WA MSS S-2673 | Bohna Family Correspondence | 
  [beinecke.nees.xml](10783.xml) | beinecke.nees | GEN MSS 1465 | A. Nees & Co. decorative paper sample books | 
