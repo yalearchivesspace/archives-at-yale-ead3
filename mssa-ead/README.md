@@ -1024,6 +1024,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0453.xml](2963.xml) | mssa.ms.0453 | MS 453 | Theodore Sizer papers | 
  [mssa.ms.0459.xml](2964.xml) | mssa.ms.0459 | MS 459 | Mary M. Geran Starr papers | 
  [mssa.ms.0460.xml](2965.xml) | mssa.ms.0460 | MS 460 | John Cotton Smith papers | 
+ [mssa.ms.0467.xml](2966.xml) | mssa.ms.0467 | MS 467 | Ernst Jäckh papers | 
  [mssa.ms.0468.xml](2967.xml) | mssa.ms.0468 | MS 468 | Leonidas Polk family papers | 
  [mssa.ms.0471.xml](2968.xml) | mssa.ms.0471 | MS 471 | James Merriam Howard papers | 
  [mssa.ms.0480.xml](2969.xml) | mssa.ms.0480 | MS 480 | William Howard Taft papers | 
