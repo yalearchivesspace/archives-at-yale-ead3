@@ -994,6 +994,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0178.xml](2931.xml) | mssa.ms.0178 | MS 178 | William Adams Delano papers | 
  [mssa.ms.0193.xml](2932.xml) | mssa.ms.0193 | MS 193 | Jacob Eliot family papers | 
  [mssa.ms.0201.xml](2933.xml) | mssa.ms.0201 | MS 201 | Fabrique family papers | 
+ [mssa.ms.0205.xml](2934.xml) | mssa.ms.0205 | MS 205 | Percival Farquhar papers | 
  [mssa.ms.0215.xml](2935.xml) | mssa.ms.0215 | MS 215 | Asa Fitch papers | 
  [mssa.ms.0216.xml](2936.xml) | mssa.ms.0216 | MS 216 | S. Griswold Flagg collection | 
  [mssa.ms.0219.xml](2937.xml) | mssa.ms.0219 | MS 219 | Justus Forward papers | 
@@ -1011,6 +1012,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0334.xml](2949.xml) | mssa.ms.0334 | MS 334 | Joe Vincent Meigs papers | 
  [mssa.ms.0341.xml](2950.xml) | mssa.ms.0341 | MS 341 | Mailliard Family papers | 
  [mssa.ms.0350.xml](2951.xml) | mssa.ms.0350 | MS 350 | John Stuart Mill papers | 
+ [mssa.ms.0359.xml](2952.xml) | mssa.ms.0359 | MS 359 | Aleksandr Ivanovich Spiridovitch papers | 
  [mssa.ms.0369.xml](2953.xml) | mssa.ms.0369 | MS 369 | New England Council Steel Committee records | 
  [mssa.ms.0377.xml](2954.xml) | mssa.ms.0377 | MS 377 | Matthew Noyes papers | 
  [mssa.ms.0392.xml](2955.xml) | mssa.ms.0392 | MS 392 | Nathaniel Pendleton Family papers | 
@@ -1159,6 +1161,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0599.xml](3105.xml) | mssa.ms.0599 | MS 599 | Bromfield family papers | 
  [mssa.ms.0602.xml](3106.xml) | mssa.ms.0602 | MS 602 | Yung Wing papers | 
  [mssa.ms.0607.xml](3107.xml) | mssa.ms.0607 | MS 607 | David Shub papers | 
+ [mssa.ms.0608.xml](3108.xml) | mssa.ms.0608 | MS 608 | Narodno-Trudovoj Sojuz papers | 
  [mssa.ms.0611.xml](3109.xml) | mssa.ms.0611 | MS 611 | Russell Henry Chittenden papers | 
  [mssa.ms.0614.xml](3110.xml) | mssa.ms.0614 | MS 614 | American Immigration Conference Board Records | 
  [mssa.ms.0621.xml](3111.xml) | mssa.ms.0621 | MS 621 | Howard Lee Haag papers | 
@@ -2188,6 +2191,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0304.xml](4168.xml) | mssa.ms.0304 | MS 304 | Obadiah Johnson papers | 
  [mssa.ms.0308.xml](4169.xml) | mssa.ms.0308 | MS 308 | George Alexander Kennedy papers | 
  [mssa.ms.0310.xml](4170.xml) | mssa.ms.0310 | MS 310 | Tyler Gatewood Kent papers | 
+ [mssa.ms.0311.xml](4171.xml) | mssa.ms.0311 | MS 311 | Alexander Kesküla papers | 
  [mssa.ms.0323.xml](4172.xml) | mssa.ms.0323 | MS 323 | De Lévis family papers | 
  [mssa.ms.0324.xml](4173.xml) | mssa.ms.0324 | MS 324 | Charles Herman Liebert papers | 
  [mssa.ms.0325a.xml](4174.xml) | mssa.ms.0325a | MS 325A | Charles Augustus Lindbergh gift collection | 
@@ -2847,4 +2851,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1153.xml](10837.xml) | mssa.ru.1153 | RU 1153 | Yale University Corporation 1949 Presidential Search Committee Records | 
  [mssa.ru.1157.xml](11197.xml) | mssa.ru.1157 | RU 1157 | Peter Salovey, President of Yale University, Records | 
  [mssa.ru.0281.IMPORT.2018-09-11T10:46:25-04:00.xml](11206.xml) | mssa.ru.0281.IMPORT.2018-09-11T10:46:25-04:00 | RU 1157IMPORT2018-09-11T10:46:25-04:00 | Peter Salovey, president of Yale University, records IMPORT 2018-09-11T10:46:25-04:00 | 
+ [11232.xml](11232.xml) |  | 2019.m.0010 | John Lewis Gaddis Papers | 
 
