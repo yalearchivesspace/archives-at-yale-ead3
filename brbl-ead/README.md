@@ -1119,7 +1119,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jespersen.xml](1751.xml) | beinecke.jespersen | YCAL MSS 708 | Ruth Jespersen papers | 
  [beinecke.kellner.xml](1752.xml) | beinecke.kellner | YCAL MSS 709 | Bruce Kellner papers | 
  [beinecke.little.xml](1753.xml) | beinecke.little | YCAL MSS 711 | Little Square Review Records | 
- [beinecke.sstewart.xml](1754.xml) | beinecke.sstewart | YCAL MSS 714 | Susan Stewart papers | 
  [beinecke.lapine.xml](1755.xml) | beinecke.lapine | YCAL MSS 715 | James Lapine papers | 
  [beinecke.wolfm.xml](1756.xml) | beinecke.wolfm | YCAL MSS 716 | Mary Hunter Wolf papers | 
  [beinecke.macleod.xml](1757.xml) | beinecke.macleod | YCAL MSS 718 | Norman Macleod papers | 
