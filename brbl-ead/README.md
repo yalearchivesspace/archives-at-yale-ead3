@@ -1178,7 +1178,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.foster.xml](1815.xml) | beinecke.foster | YCAL MSS 812 | Thomas H. Foster and Catharine Osgood Foster papers | 
  [beinecke.malanga.xml](1816.xml) | beinecke.malanga | YCAL MSS 813 | Gerard Malanga Papers | 
  [beinecke.kennedym.xml](1817.xml) | beinecke.kennedym | YCAL MSS 814 | Mary Kennedy papers | 
- [beinecke.yalepoetryreview.xml](1818.xml) | beinecke.yalepoetryreview | YCAL MSS 819 | <title render="italic">Yale Poetry Review</title> records | 
  [beinecke.nathanad.xml](1819.xml) | beinecke.nathanad | YCAL MSS 82 | Adele Gutman Nathan theatrical collection : addition | 
  [beinecke.wrightcd.xml](1820.xml) | beinecke.wrightcd | YCAL MSS 820 | C. D. Wright papers | 
  [beinecke.weil.xml](1821.xml) | beinecke.weil | YCAL MSS 825 | James L. Weil papers | 
