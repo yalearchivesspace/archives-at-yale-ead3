@@ -259,7 +259,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hunt.xml](795.xml) | beinecke.hunt | GEN MSS 65 | Leigh Hunt collection | 
  [beinecke.kline.xml](796.xml) | beinecke.kline | GEN MSS 650 | George Louis Kline papers | 
  [beinecke.allegret.xml](797.xml) | beinecke.allegret | GEN MSS 651 | Marc Allegrét papers | 
- [beinecke.damico.xml](798.xml) | beinecke.damico | GEN MSS 655 | Tano D'Amico Photographs of Events in Italy | 
  [beinecke.milosz.xml](799.xml) | beinecke.milosz | GEN MSS 661 | Czesław Miłosz papers | 
  [beinecke.acton.xml](800.xml) | beinecke.acton | GEN MSS 663 | Harold Acton papers | 
  [beinecke.ejbstevenson.xml](801.xml) | beinecke.ejbstevenson | GEN MSS 664 | Edwin J. Beinecke Collection of Robert Louis Stevenson | 
@@ -380,7 +379,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.overbrook.xml](926.xml) | beinecke.overbrook | GEN MSS 961 | Overbrook Press records | 
  [beinecke.eliot.xml](927.xml) | beinecke.eliot | GEN MSS 963 | George Eliot and George Henry Lewes collection | 
  [beinecke.wolman.xml](928.xml) | beinecke.wolman | GEN MSS 969 | Gil J Wolman papers | 
- [beinecke.bryher.xml](929.xml) | beinecke.bryher | GEN.MSS.97 | Bryher papers | 
+ [beinecke.bryher.xml](929.xml) | beinecke.bryher | GEN MSS 97 | Bryher papers | 
  [beinecke.sagreen.xml](931.xml) | beinecke.sagreen | GEN MSS 973 | Samuel Adams Green papers | 
  [beinecke.geiss.xml](932.xml) | beinecke.geiss | GEN MSS 979 | Tony Geiss papers | 
  [beinecke.johnsonguy.xml](934.xml) | beinecke.johnsonguy | GEN MSS 980 | Johnson and Campbell family papers | 
@@ -1323,7 +1322,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.vansinderen.xml](5823.xml) | beinecke.vansinderen | GEN MSS 1362 | Alfred White Van Sinderen collection of Charles Babbage | 
  [beinecke.dunbarr.xml](5832.xml) | beinecke.dunbarr | JWJ MSS 174 | Rudolph Dunbar Papers | 
  [beinecke.olsen.xml](5837.xml) | beinecke.olsen | WA MSS S-3230 | Robert Olsen papers | 
- [beinecke.lacomblez.xml](5839.xml) | beinecke.lacomblez | GEN MSS 1437 | Jacques Lacomblez papers | 
+ [beinecke.lacomblez.xml](5839.xml) | beinecke.lacomblez | GEN MSS 1437 | Jacques Lacomblez papers | 
  [beinecke.goldstone.xml](5840.xml) | beinecke.goldstone | YCAL MSS 1106 | Richard Henry Goldstone Papers | 
  [beinecke.wrbenet.xml](5845.xml) | beinecke.wrbenet | YCAL MSS 1100 | William Rose Benét Papers | 
  [beinecke.tellefsen.xml](5848.xml) | beinecke.tellefsen | GEN MSS 1431 | Lisbet Tellefsen papers | 
@@ -1342,7 +1341,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.plauchut.xml](10702.xml) | beinecke.plauchut | GEN MSS 1462 | Edmond Plauchut Papers | 
  [beinecke.sandm.xml](10703.xml) | beinecke.sandm | GEN MSS 1463 | Maurice Sand Papers | 
  [beinecke.adamsharry.xml](10724.xml) | beinecke.adamsharry | WA Photos 589 | Harry Adams photographs | 
- [beinecke.kindred.xml](10725.xml) | beinecke.kindred | WA MSS S-3270	 | Charles F. Kindred and Sarah E. Kindred papers | 
+ [beinecke.kindred.xml](10725.xml) | beinecke.kindred | WA MSS S-3270 | Charles F. Kindred and Sarah E. Kindred papers | 
  [beinecke.tradecats.xml](10747.xml) | beinecke.tradecats | Uai Trade Catalogs | Trade catalogs collection. | 
  [beinecke.halversongd.xml](10757.xml) | beinecke.halversongd | GEN MSS 998 | Photographs of the Garment District in New York City | 
  [beinecke.benetfamcol.xml](10764.xml) | beinecke.benetfamcol | YCAL MSS 1108 | Benét Family Collection | 
