@@ -58,10 +58,10 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2018-08-27T17:03:28-04:00</eventdatetime>
+            <eventdatetime>2018-10-05T21:02:47+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace HEAD</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Monday August 27, 2018 at 17:03</eventdescription>
+            <agent>ArchivesSpace 2.4.1.yale.hm.mm</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Friday October  5, 2018 at 21:02</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -79,11 +79,15 @@
          </langmaterial>
          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
             <quantity>.42</quantity>
-            <unittype>Linear feet</unittype>
+            <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">1 box</physdesc>
-    
-         <unitdate certainty="approximate" unitdatetype="inclusive">1862-ca. 1889</unitdate>
+         <unitdatestructured certainty="approximate" unitdatetype="inclusive">
+            <daterange>
+               <fromdate standarddate="1862">1862</fromdate>
+               <todate standarddate="1889">1889</todate>
+            </daterange>
+         </unitdatestructured>
          <abstract id="aspace_e66c532b632e59a63b0dc0470b91a493">The collection comprises letters from Edward Burne-Jones to John Ruskin, written from 1862 to ca. 1889.</abstract>
       </did>
       <accessrestrict id="aspace_b93ebdd9e11c17fefa3c18afbd95cc25">
@@ -126,21 +130,15 @@
                      <part>Burne-Jones, Edward Coley, 1833-1898</part>
                   </persname>
                </origination>
-               <unitdatestructured unitdatetype="inclusive">
-                  <daterange>
-                     <fromdate standarddate="1862-06">1862-06</fromdate>
-                     <todate standarddate="1862-06">1862-06</todate>
-                  </daterange>
-               </unitdatestructured>
                <unitdate unitdatetype="inclusive">1862 June</unitdate>
                <physdesc id="aspace_9b255ea9c46823c73ea416521bc3b466">1 sheet (3 pages) : autograph letter, signed ; 21 x 26 cm folded to 21 x 13 cm</physdesc>
                <container altrender="archive half legal"
-                          id="aspace_3e9749f763347eefc8d9f33ccb4c360e"
+                          id="aspace_c70a598ea0bfe4fa210a084bf920c629"
                           label="mixed materials"
-                          localtype="Box">1</container>
-               <container id="aspace_70178ac52c0f9daa64b6191cdc2c9269"
+                          localtype="box">1</container>
+               <container id="aspace_aea4583afb4069fcd287575bd6596910"
                           localtype="folder"
-                          parent="aspace_3e9749f763347eefc8d9f33ccb4c360e">1</container>
+                          parent="aspace_c70a598ea0bfe4fa210a084bf920c629">1</container>
             </did>
             <scopecontent id="aspace_c2c6d9b91c0b09fad85d8e2dfe5a126e">
                <head>Scope and Contents</head>
@@ -158,8 +156,9 @@
                <p>With later annotation, in graphite: Hotel de Ville, Venice.</p>
             </odd>
             <controlaccess>
-               <genreform source="ingest">
-                  <part>Correspondence </part>
+               <genreform identifier="http://vocab.getty.edu/aat/300026877"
+                          source="Art and Architecture Thesaurus">
+                  <part>Correspondence.</part>
                </genreform>
                <persname identifier="http://id.loc.gov/authorities/names/n79006950" source="naf">
                   <part>Ruskin, John, 1819-1900 -- Correspondence </part>
@@ -191,21 +190,15 @@
                      <part>Burne-Jones, Edward Coley, 1833-1898</part>
                   </persname>
                </origination>
-               <unitdatestructured unitdatetype="inclusive">
-                  <daterange>
-                     <fromdate standarddate="1862-06">1862-06</fromdate>
-                     <todate standarddate="1862-06">1862-06</todate>
-                  </daterange>
-               </unitdatestructured>
                <unitdate unitdatetype="inclusive">1862 June</unitdate>
                <physdesc id="aspace_3f66a8631ab6f48ca6d5e6063f0f1612">1 sheet (4 pages) : autograph letter, signed ; 21 x 26 cm folded to 21 x 13 cm</physdesc>
                <container altrender="archive half legal"
-                          id="aspace_328321cfa53aa91cc8f8dd6cc1ad766c"
+                          id="aspace_d832e5621f88fb0d3d1f9b2dc5fec790"
                           label="mixed materials"
-                          localtype="Box">1</container>
-               <container id="aspace_7913720460470685c2863bfbfe5a4bc0"
+                          localtype="box">1</container>
+               <container id="aspace_1c8bb6daab0a1c6242cd7bb83357942c"
                           localtype="folder"
-                          parent="aspace_328321cfa53aa91cc8f8dd6cc1ad766c">2</container>
+                          parent="aspace_d832e5621f88fb0d3d1f9b2dc5fec790">2</container>
             </did>
             <scopecontent id="aspace_174ee43929f8f8978467e003949aed63">
                <head>Scope and Contents</head>
@@ -222,14 +215,17 @@
                          source="lcsh">
                   <part>Torcello (Italy)</part>
                </geogname>
-               <geogname source="lcnaf">
+               <geogname identifier="http://id.loc.gov/authorities/names/n79018142"
+                         source="Library of Congress Subject Headings">
                   <part>Venice (Italy)</part>
                </geogname>
-               <genreform source="ingest">
-                  <part>Correspondence </part>
+               <genreform identifier="http://vocab.getty.edu/aat/300026877"
+                          source="Art and Architecture Thesaurus">
+                  <part>Correspondence.</part>
                </genreform>
-               <genreform source="ingest">
-                  <part>Ink drawings</part>
+               <genreform identifier="dts_17132bc563ed491878b65d1d7ee33c244214e8fc"
+                          source="Library of Congress Subject Headings">
+                  <part>Ink drawings.</part>
                </genreform>
                <persname identifier="http://id.loc.gov/authorities/names/n79006950" source="naf">
                   <part>Ruskin, John, 1819-1900 -- Correspondence </part>
@@ -259,21 +255,15 @@
                      <part>Burne-Jones, Edward Coley, 1833-1898</part>
                   </persname>
                </origination>
-               <unitdatestructured unitdatetype="inclusive">
-                  <daterange>
-                     <fromdate standarddate="1862-06">1862-06</fromdate>
-                     <todate standarddate="1862-06">1862-06</todate>
-                  </daterange>
-               </unitdatestructured>
                <unitdate unitdatetype="inclusive">1862 June</unitdate>
                <physdesc id="aspace_42de37e17cad81278f53ea5a005fb967">1 sheet (1 page) : autograph letter, signed ; 21 x 26 cm folded to 21 x 13 cm</physdesc>
                <container altrender="archive half legal"
-                          id="aspace_af897811b839cad315eba47b0185f591"
+                          id="aspace_96f1d642325b9483ca8a306bffef7f1a"
                           label="mixed materials"
-                          localtype="Box">1</container>
-               <container id="aspace_62f25688aed4a2afa386d6cab1b5d2b8"
+                          localtype="box">1</container>
+               <container id="aspace_4a2f8cb0cd7725f846d0dad2aecd2ac0"
                           localtype="folder"
-                          parent="aspace_af897811b839cad315eba47b0185f591">3</container>
+                          parent="aspace_96f1d642325b9483ca8a306bffef7f1a">3</container>
             </did>
             <scopecontent id="aspace_03ea03888bb52d828e40150c73d801de">
                <head>Scope and Contents</head>
@@ -281,8 +271,9 @@
                <p>Partially reproduced in Georgiana Burne-Jones, Memorials of Edward Burne-Jones, vol. 1. (London: Macmillan, 1904), 247-248.</p>
             </scopecontent>
             <controlaccess>
-               <genreform source="ingest">
-                  <part>Correspondence </part>
+               <genreform identifier="http://vocab.getty.edu/aat/300026877"
+                          source="Art and Architecture Thesaurus">
+                  <part>Correspondence.</part>
                </genreform>
                <persname identifier="http://id.loc.gov/authorities/names/n79006950" source="naf">
                   <part>Ruskin, John, 1819-1900 -- Correspondence </part>
@@ -314,12 +305,12 @@
                <unitdate unitdatetype="inclusive">between 1860 and 1890?</unitdate>
                <physdesc id="aspace_c6aae3f532bd8141ddb24c2e0b03adbe">1 sheet (1 page) : autograph letter, signed ; 11.5 x 18 cm</physdesc>
                <container altrender="archive half legal"
-                          id="aspace_9a4b3cdb38251a9d472fdd907d7974e1"
+                          id="aspace_c415c4352daed00b657c563bad536041"
                           label="mixed materials"
-                          localtype="Box">1</container>
-               <container id="aspace_e369a8c0973f6938c409cb3f78dd1401"
+                          localtype="box">1</container>
+               <container id="aspace_c4f6f2e5dd5135c3651b44005c58bebd"
                           localtype="folder"
-                          parent="aspace_9a4b3cdb38251a9d472fdd907d7974e1">4</container>
+                          parent="aspace_c415c4352daed00b657c563bad536041">4</container>
             </did>
             <scopecontent id="aspace_05694d5571bc1ba249844cc3d3d5ae7b">
                <head>Scope and Contents</head>
@@ -327,8 +318,9 @@
                <p>If, indeed, addressed to 'Oldie' then this is written to John Ruskin. Ruskin signed his letters 'Oldie' in his correspondence with Burne-Jones.</p>
             </scopecontent>
             <controlaccess>
-               <genreform source="ingest">
-                  <part>Correspondence </part>
+               <genreform identifier="http://vocab.getty.edu/aat/300026877"
+                          source="Art and Architecture Thesaurus">
+                  <part>Correspondence.</part>
                </genreform>
                <persname identifier="http://id.loc.gov/authorities/names/n79006950" source="naf">
                   <part>Ruskin, John, 1819-1900 -- Correspondence </part>
@@ -349,12 +341,12 @@
                <unitdate unitdatetype="inclusive">between 1885 and 1889?</unitdate>
                <physdesc id="aspace_eeeb82d403ca46aa34a48ae887fcb907">1 sheet (4 pages) : autograph letter, signed ; 18 x 23 cm folded to 18 x 12 cm</physdesc>
                <container altrender="archive half legal"
-                          id="aspace_16b4555db9eadc0b383bab4bf6097b33"
+                          id="aspace_24d2fb9265be1a140fd9fe142ece4665"
                           label="mixed materials"
-                          localtype="Box">1</container>
-               <container id="aspace_001e92f62e70a6bdaa3e75ac16711bb3"
+                          localtype="box">1</container>
+               <container id="aspace_9e883f8bcd49cb0198b8be5892d6565a"
                           localtype="folder"
-                          parent="aspace_16b4555db9eadc0b383bab4bf6097b33">5</container>
+                          parent="aspace_24d2fb9265be1a140fd9fe142ece4665">5</container>
             </did>
             <scopecontent id="aspace_e74b4a69b536e7958b054c60b44ebefb">
                <head>Scope and Contents</head>
@@ -379,8 +371,9 @@
                <title source="local_ycba_rbm">
                   <part>Ruskin, John, 1819-1900. Praeterita</part>
                </title>
-               <genreform source="ingest">
-                  <part>Correspondence </part>
+               <genreform identifier="http://vocab.getty.edu/aat/300026877"
+                          source="Art and Architecture Thesaurus">
+                  <part>Correspondence.</part>
                </genreform>
                <persname identifier="http://id.loc.gov/authorities/names/n79006950" source="naf">
                   <part>Ruskin, John, 1819-1900 -- Correspondence </part>
@@ -406,21 +399,15 @@
                      <part>Burne-Jones, Edward Coley, 1833-1898</part>
                   </persname>
                </origination>
-               <unitdatestructured unitdatetype="inclusive">
-                  <daterange>
-                     <fromdate standarddate="1880">1880</fromdate>
-                     <todate standarddate="1889">1889</todate>
-                  </daterange>
-               </unitdatestructured>
                <unitdate unitdatetype="inclusive">1880s?</unitdate>
                <physdesc id="aspace_c26a0bb27f21cd0270a4e19e01d9d873">1 sheet (4 pages) : autograph letter, signed ; 17.5 x 23 cm folded to 17.5 x 11.5 cm</physdesc>
                <container altrender="archive half legal"
-                          id="aspace_fd2583f47fedcdf5014bbb1b48309baa"
+                          id="aspace_51dd57c4a2ca96fd17ca6781257a37be"
                           label="mixed materials"
-                          localtype="Box">1</container>
-               <container id="aspace_a00c7fb79c8313ef6e5353da26c4cd21"
+                          localtype="box">1</container>
+               <container id="aspace_31be733fde14ab37eae663ea843a795d"
                           localtype="folder"
-                          parent="aspace_fd2583f47fedcdf5014bbb1b48309baa">6</container>
+                          parent="aspace_51dd57c4a2ca96fd17ca6781257a37be">6</container>
             </did>
             <scopecontent id="aspace_7ce9f7d4018fc884596260bae1526d71">
                <head>Scope and Contents</head>
@@ -435,8 +422,9 @@
                         source="lcsh">
                   <part>Picture frames and framing</part>
                </subject>
-               <genreform source="ingest">
-                  <part>Correspondence </part>
+               <genreform identifier="http://vocab.getty.edu/aat/300026877"
+                          source="Art and Architecture Thesaurus">
+                  <part>Correspondence.</part>
                </genreform>
                <persname identifier="http://id.loc.gov/authorities/names/n79006950" source="naf">
                   <part>Ruskin, John, 1819-1900 -- Correspondence </part>
