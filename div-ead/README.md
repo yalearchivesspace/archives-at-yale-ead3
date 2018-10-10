@@ -183,6 +183,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.026.xml](227.xml) | divinity.026 | RG 26 | Charles Telford Erickson Papers | 
  [divinity.260.xml](228.xml) | divinity.260 | RG 260 | D.T. Niles Papers | 
  [divinity.261.xml](229.xml) | divinity.261 | RG 261 | Kirkridge Retreat and Study Center records | 
+ [divinity.262.xml](230.xml) | divinity.262 | RG 262 | National Council on Religion and Public Education Records | 
  [divinity.263.xml](231.xml) | divinity.263 | RG 263 | John Sung Papers | 
  [divinity.265.xml](233.xml) | divinity.265 | RG 265 | Morse Family Papers: William Reginald and Anne Crosse Morse | 
  [divinity.027.xml](234.xml) | divinity.027 | RG 27 | Yale Divinity School Faculty Writings and Publications | 
@@ -285,6 +286,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.270.xml](5561.xml) | divinity.270 | RG 270 | Chick Tract Collection | 
  [divinity.269.xml](5604.xml) | divinity.269 | RG 269 | Wayne A. Meeks Papers | 
  [divinity.216.xml](5703.xml) | divinity.216 | RG 216 | Berkeley Divinity School records | 
+ [divinity.266.xml](5836.xml) | divinity.266 | RG 266 | Church of the Redeemer (New Haven, Conn.) Records | 
  [divinity.272.xml](5873.xml) | divinity.272 | RG 272 | Alice L. Hageman Papers | 
  [divinity.273.xml](10651.xml) | divinity.273 | RG 273 | Gleysteen Family Papers | 
  [divinity.280.xml](10689.xml) | divinity.280 | RG 280 | Isaac Backus papers | 
