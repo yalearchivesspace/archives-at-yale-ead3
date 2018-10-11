@@ -2076,7 +2076,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0353.xml](4045.xml) | mssa.ms.0353 | MS 353 | John Flournoy Montgomery papers | 
  [mssa.ms.0374.xml](4046.xml) | mssa.ms.0374 | MS 374 | Byron Rufus Newton papers | 
  [mssa.ms.0400.xml](4047.xml) | mssa.ms.0400 | MS 400 | Edwards Pierrepont papers | 
- [mssa.ms.0464.xml](4048.xml) | mssa.ms.0464 | MS 464 | Edward Luther Stevenson papers | 
  [mssa.ms.0532.xml](4050.xml) | mssa.ms.0532 | MS 532 | Arthur Clarence Walworth papers | 
  [mssa.ms.0550.xml](4051.xml) | mssa.ms.0550 | MS 550 | John Ferguson Weir papers | 
  [mssa.ms.0565.xml](4052.xml) | mssa.ms.0565 | MS 565 | Howell Wright collection | 
