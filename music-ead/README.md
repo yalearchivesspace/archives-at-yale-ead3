@@ -2,19 +2,19 @@
 
 EAD | EAD ID | Identifier | Title | Other versions
 --- | ------ | ---------- | ----- | --------------
- [music.mss.0132.xml](453.xml) | music.mss.0132 | MSS.132 | Rocky Clark Papers | 
- [music.mss.0106.xml](5403.xml) | music.mss.0106 | MSS.106 | Betsy Jolas Papers | 
- [music.mss.0069.xml](5453.xml) | music.mss.0069 | MSS.69 | Goddard Lieberson Papers | 
- [music.mss.0112.xml](5586.xml) | music.mss.0112 | MSS.112 | Thomas Z. Shepard Papers | 
- [music.mss.0124.xml](5681.xml) | music.mss.0124 | MSS.124 | Ruth Bracher Papers | 
- [music.mss.0109.xml](5690.xml) | music.mss.0109 | MSS.109 | Donald Currier Papers | 
+ [music.mss.0132.xml](453.xml) | music.mss.0132 | MSS 132 | Rocky Clark Papers | 
+ [music.mss.0106.xml](5403.xml) | music.mss.0106 | MSS 106 | Betsy Jolas Papers | 
+ [music.mss.0069.xml](5453.xml) | music.mss.0069 | MSS 69 | Goddard Lieberson Papers | 
+ [music.mss.0112.xml](5586.xml) | music.mss.0112 | MSS 112 | Thomas Z. Shepard Papers | 
+ [music.mss.0124.xml](5681.xml) | music.mss.0124 | MSS 124 | Ruth Bracher Papers | 
+ [music.mss.0109.xml](5690.xml) | music.mss.0109 | MSS 109 | Donald Currier Papers | 
  [music.mss.0059.xml](5700.xml) | music.mss.0059 | MSS 59 | Slam Stewart Papers | 
- [music.mss.0133.xml](5833.xml) | music.mss.0133 | MSS.133 | Ezra Laderman Papers | 
- [music.mss.0143.xml](5856.xml) | music.mss.0143 | MSS.143 | D. Russell Connor collection of Benny Goodman interviews | 
- [music.mss.0140.xml](5874.xml) | music.mss.0140 | MSS.140 | Sauter-Finegan Orchestra Papers | 
- [music.mss.0142.xml](5878.xml) | music.mss.0142 | MSS.142 | Berliner Gramophone Disc Collection | 
- [music.mss.0102.xml](5901.xml) | music.mss.0102 | MSS.102 | Collection on Adelina Patti | 
- [music.mss.0014hsr.xml](10404.xml) | music.mss.0014hsr | MSS.14.HSR | Charles Ives Rare and Non-Commercial Sound Recordings | 
+ [music.mss.0133.xml](5833.xml) | music.mss.0133 | MSS 133 | Ezra Laderman Papers | 
+ [music.mss.0143.xml](5856.xml) | music.mss.0143 | MSS 143 | D. Russell Connor collection of Benny Goodman interviews | 
+ [music.mss.0140.xml](5874.xml) | music.mss.0140 | MSS 140 | Sauter-Finegan Orchestra Papers | 
+ [music.mss.0142.xml](5878.xml) | music.mss.0142 | MSS 142 | Berliner Gramophone Disc Collection | 
+ [music.mss.0102.xml](5901.xml) | music.mss.0102 | MSS 102 | Collection on Adelina Patti | 
+ [music.mss.0014hsr.xml](10404.xml) | music.mss.0014hsr | MSS 14 HSR | Charles Ives Rare and Non-Commercial Sound Recordings | 
  [music.mss.0004.xml](10544.xml) | music.mss.0004 | MSS 4 | The New Haven Music Club Papers | 
  [music.misc.0173.xml](10545.xml) | music.misc.0173 | Misc. Ms. 173 | Selected Compositions of Julia Ludlow Rockwell | 
  [music.mss.0005.xml](10546.xml) | music.mss.0005 | MSS 5 | The New Haven Oratorio Society Papers | 
@@ -90,13 +90,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0038.xml](10679.xml) | music.mss.0038 | MSS 38 | The Charles Shackford Papers | 
  [music.mss.0040.xml](10680.xml) | music.mss.0040 | MSS 40 | The Ernest Trow Carter Papers | 
  [music.mss.0053.xml](10681.xml) | music.mss.0053 | MSS 53 | The Benny Goodman Papers | 
- [music.mss.0144.xml](10685.xml) | music.mss.0144 | MSS.144 | Roberto Sierra Papers | 
- [music.mss.0135.xml](10686.xml) | music.mss.0135 | MSS.135 | Allen Forte Papers | 
- [music.mss.0062.xml](10707.xml) | music.mss.0062 | MSS.62 | Papers of Stanley Dance and Helen Oakley Dance | 
+ [music.mss.0144.xml](10685.xml) | music.mss.0144 | MSS 144 | Roberto Sierra Papers | 
+ [music.mss.0135.xml](10686.xml) | music.mss.0135 | MSS 135 | Allen Forte Papers | 
+ [music.mss.0062.xml](10707.xml) | music.mss.0062 | MSS 62 | Papers of Stanley Dance and Helen Oakley Dance | 
  [music.mss.0049.xml](10742.xml) | music.mss.0049 | MSS 49 | The Harold Rome Papers | 
  [music.mss.0071.xml](10759.xml) | music.mss.0071 | MSS 71 | Kurt Stone papers | 
  [music.mss.0052.xml](10761.xml) | music.mss.0052 | MSS 52 | The Frederick and Rose Plaut Papers | 
  [music.mss.0065.xml](10763.xml) | music.mss.0065 | MSS 65 | The Kay Swift Papers | 
- [music.mss.0148.xml](11068.xml) | music.mss.0148 | MSS.148 | The Siegrun H. Folter Collection of Heinrich Funk Materials | 
- [music.mss.0147.xml](11078.xml) | music.mss.0147 | MSS.147 | The William L. Vallée Collection of Rudy Vallée Materials | 
+ [music.mss.0148.xml](11068.xml) | music.mss.0148 | MSS 148 | The Siegrun H. Folter Collection of Heinrich Funk Materials | 
+ [music.mss.0147.xml](11078.xml) | music.mss.0147 | MSS 147 | The William L. Vallée Collection of Rudy Vallée Materials | 
 
