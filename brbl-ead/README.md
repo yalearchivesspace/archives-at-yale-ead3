@@ -48,7 +48,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.chiaro.xml](565.xml) | beinecke.chiaro | GEN MSS 113 | Nicola Chiaromonte papers | 
  [beinecke.henley.xml](566.xml) | beinecke.henley | GEN MSS 1131 | William Ernest Henley Collection | 
  [beinecke.albarelli.xml](567.xml) | beinecke.albarelli | GEN MSS 1132 | Josephine Procopio Albarelli collection of Gilberto Owen and Elías Nandino | 
- [beinecke.crasepolach.xml](568.xml) | beinecke.crasepolach | GEN MSS 1134 | Douglas Crase and Frank Polach papers | 
  [beinecke.levis.xml](569.xml) | beinecke.levis | GEN MSS 1135 | François-Gaston, duc de Lévis papers | 
  [beinecke.graves.xml](570.xml) | beinecke.graves | GEN MSS 1137 | William S. Reese Collection of Robert Graves | 
  [beinecke.levi.xml](571.xml) | beinecke.levi | GEN MSS 1138 | Ezio Levi papers | 
