@@ -2788,6 +2788,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2025.xml](5275.xml) | mssa.ms.2025 | MS 2025 | Manuscripts and Archives, Yale University Library Good Vibrations publications collection | 
  [mssa.ms.2026.xml](5278.xml) | mssa.ms.2026 | MS 2026 | Elisha Spencer Benton diary | 
  [5280.xml](5280.xml) |  | RU 1139 | Charles Wayne Chase, Class of 1923, Sheffield Scientific School, photographs and memorabilia documenting life at Yale | 
+ [5283.xml](5283.xml) |  | RU 1140 | Yale College, Records of the Yale Bands | 
  [mssa.ru.1141.xml](5300.xml) | mssa.ru.1141 | RU 1141 | Joseph W. Gordon, Deputy Dean of Yale College, records | 
  [mssa.ms.2013.xml](5310.xml) | mssa.ms.2013 | MS 2013 | Mordecai Hillel Kroshnitz papers | 
  [mssa.ms.2014.xml](5320.xml) | mssa.ms.2014 | MS 2014 | Jacob Berman papers | 
