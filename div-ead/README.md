@@ -305,6 +305,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.215.xml](10836.xml) | divinity.215 | RG 215 | Nepal Church History Project Records | 
  [divinity.288.xml](10844.xml) | divinity.288 | RG 288 | Alvah Hovey Papers | 
  [divinity.299.xml](10937.xml) | divinity.299 | RG 299 | Gulick Family Papers | 
+ [divinity.295.xml](10949.xml) | divinity.295 | RG 295 | Andover Newton Miscellaneous Personal Papers Collection | 
  [divinity.068.xml](10993.xml) | divinity.068 | RG 68 | Campus Ministry Women records | 
  [divinity.274.xml](11003.xml) | divinity.274 | RG 274 | Kenneth E. Bailey papers | 
  [divinity.290.xml](11033.xml) | divinity.290 | RG 290 | Heman Lincoln papers | 
