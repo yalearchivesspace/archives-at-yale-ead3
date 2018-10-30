@@ -2432,6 +2432,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1152.xml](4413.xml) | mssa.ms.1152 | MS 1152 | Charles H. S. Davis papers | 
  [mssa.ms.1153.xml](4414.xml) | mssa.ms.1153 | MS 1153 | Increase Niles Tarbox papers | 
  [mssa.ru.0005.xml](4415.xml) | mssa.ru.0005 | RU 5 | Yale University building project records | 
+ [mssa.ru.0151.xml](4416.xml) | mssa.ru.0151 | RU 151 | Treasurer, Yale University, records | 
  [mssa.ms.0593.xml](4418.xml) | mssa.ms.0593 | MS 593 | Eero Saarinen collection | 
  [mssa.ms.0656.xml](4419.xml) | mssa.ms.0656 | MS 656 | Frank Lyon Polk papers | 
  [mssa.ms.0692.xml](4420.xml) | mssa.ms.0692 | MS 692 | Edwin Richard Weinerman papers | 
