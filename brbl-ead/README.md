@@ -273,6 +273,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.rannit.xml](818.xml) | beinecke.rannit | GEN MSS 715 | Aleksis Rannit papers | 
  [beinecke.creve.xml](819.xml) | beinecke.creve | GEN MSS 722 | J. Hector St. John de Crèvecoeur papers | 
  [beinecke.jfrench.xml](820.xml) | beinecke.jfrench | GEN MSS 732 | Jared French papers | 
+ [beinecke.worldsfair.xml](821.xml) | beinecke.worldsfair | GEN MSS 734 | Alfred E. Heller collection of world's fair material | 
  [beinecke.kosinski.xml](822.xml) | beinecke.kosinski | GEN MSS 742 | Katherina von Fraunhofer-Kosinski collection of Jerzy Kosinski | 
  [beinecke.mehta.xml](823.xml) | beinecke.mehta | GEN MSS 744 | Ved Mehta papers | 
  [beinecke.fondane.xml](824.xml) | beinecke.fondane | GEN MSS 750 | Benjamin Fondane papers | 
