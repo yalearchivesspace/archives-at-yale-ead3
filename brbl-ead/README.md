@@ -1346,6 +1346,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hammer.xml](10956.xml) | beinecke.hammer | GEN MSS 1482 | Barbara Hammer papers | 
  [beinecke.mcpheeronr.xml](10985.xml) | beinecke.mcpheeronr | WA Photos 591 | River of No Return Collection | 
  [beinecke.ruhl.xml](10999.xml) | beinecke.ruhl | YCAL MSS 1139 | Sarah Ruhl papers | 
+ [beinecke.marcus.xml](11001.xml) | beinecke.marcus | GEN MSS 1489 | Leonard S. Marcus papers | 
  [beinecke.sarenco.xml](11005.xml) | beinecke.sarenco | GEN MSS 971 | Sarenco papers | 
  [beinecke.pignotti.xml](11007.xml) | beinecke.pignotti | GEN MSS 1493 | Lamberto Pignotti papers | 
  [beinecke.savageh.xml](11017.xml) | beinecke.savageh | OSB MSS 200 | Henry Savage papers | 
@@ -1358,4 +1359,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.blume.xml](11190.xml) | beinecke.blume | GEN MSS 1481 | Judy Blume papers | 
  [beinecke.guest.xml](11192.xml) | beinecke.guest | YCAL MSS 1185 | Barbara Guest papers | 
  [beinecke.steinbeckcol.xml](11257.xml) | beinecke.steinbeckcol | YCAL MSS 1191 | Collection of Film Material Relating to John Steinbeck | 
+ [beinecke.galassi.xml](11289.xml) | beinecke.galassi | YCAL MSS 1197 | Jonathan Galassi papers | 
 
