@@ -2850,7 +2850,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1151.xml](10732.xml) | mssa.ru.1151 | RU 1151 | Bureau of Highway Traffic, Yale University, records | 
  [mssa.ru.0207.xml](10778.xml) | mssa.ru.0207 | RU 207 | Timothy Dwight College, Yale University, student records | 
  [mssa.ru.1153.xml](10837.xml) | mssa.ru.1153 | RU 1153 | Yale University Corporation 1949 Presidential Search Committee Records | 
+ [mssa.ms.2085.xml](10838.xml) | mssa.ms.2085 | MS 2085 | Paul Stephen Galatowitsch papers | 
  [mssa.ru.1157.xml](11197.xml) | mssa.ru.1157 | RU 1157 | Peter Salovey, President of Yale University, Records | 
  [11234.xml](11234.xml) |  | RU 1158 | Yale Egyptological Institute in Egypt, Yale University, Records | 
- [mssa.ru.0948.IMPORT.2018-10-05T14:05:48.205-04:00.xml](11240.xml) | mssa.ru.0948.IMPORT.2018-10-05T14:05:48.205-04:00 | RU 948IMPORT2018-10-05T14:05:48.205-04:00 | Graduate School of Arts and Sciences, Yale University, records of the dean IMPORT 2018-10-05T14:05:48.205-04:00 | 
+ [mssa.ru.0948.IMPORT.2018-11-09T09:57:56.466-05:00.xml](11290.xml) | mssa.ru.0948.IMPORT.2018-11-09T09:57:56.466-05:00 | RU 948IMPORT2018-11-09T09:57:56.466-05:00 | Graduate School of Arts and Sciences, Yale University, records of the dean IMPORT 2018-11-09T09:57:56.466-05:00 | 
 
