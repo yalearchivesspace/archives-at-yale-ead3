@@ -1176,6 +1176,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.rorty.xml](1829.xml) | beinecke.rorty | YCAL MSS 835 | James Rorty papers | 
  [beinecke.chiron.xml](1830.xml) | beinecke.chiron | YCAL MSS 836 | Chiron Review records | 
  [beinecke.gallup.xml](1832.xml) | beinecke.gallup | YCAL MSS 838 | Donald Clifford Gallup papers | 
+ [beinecke.reedjk.xml](1833.xml) | beinecke.reedjk | YCAL MSS 843 | Joseph W. and Kit Reed Papers | 
  [beinecke.horgan.xml](1835.xml) | beinecke.horgan | YCAL MSS 845 | Paul Horgan papers | 
  [beinecke.fordr.xml](1836.xml) | beinecke.fordr | YCAL MSS 847 | Ruth Ford papers | 
  [beinecke.paddock.xml](1837.xml) | beinecke.paddock | YCAL MSS 848 | Willard Dryden Paddock photographs and papers | 
@@ -1222,6 +1223,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ycglmisc.xml](1892.xml) | beinecke.ycglmisc | YCGL MSS MISC | Yale Collection of German Literature manuscript miscellany | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
+ [beinecke.elstevenson.xml](4048.xml) | beinecke.elstevenson | GEN MSS 1517 | Edward Luther Stevenson papers | 
  [beinecke.svbenet.xml](5313.xml) | beinecke.svbenet | YCAL MSS 1046 | Stephen Vincent Benét and Rosemary Benét papers | 
  [beinecke.westtheater.xml](5318.xml) | beinecke.westtheater | WA MSS S-3071 | Western Theater Souvenir Program Collection | 
  [beinecke.nevada.xml](5319.xml) | beinecke.nevada | WA MSS S-3072 | Nevada Legislature records | 
