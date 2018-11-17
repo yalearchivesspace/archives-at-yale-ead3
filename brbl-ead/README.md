@@ -1362,5 +1362,4 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.guest.xml](11192.xml) | beinecke.guest | YCAL MSS 1185 | Barbara Guest papers | 
  [beinecke.steinbeckcol.xml](11257.xml) | beinecke.steinbeckcol | YCAL MSS 1191 | Collection of Film Material Relating to John Steinbeck | 
  [beinecke.galassi.xml](11289.xml) | beinecke.galassi | YCAL MSS 1197 | Jonathan Galassi papers | 
- [11291.xml](11291.xml) |  | GEN MSS 1520 | Ron G. Davis collection of Dario Fo | 
 
