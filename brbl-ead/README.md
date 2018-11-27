@@ -121,7 +121,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wilde.xml](652.xml) | beinecke.wilde | GEN MSS 275 | Oscar Wilde collection | 
  [beinecke.tennyson.xml](653.xml) | beinecke.tennyson | GEN MSS 276 | Alfred Tennyson collection | 
  [beinecke.shaw.xml](655.xml) | beinecke.shaw | GEN MSS 279 | George Bernard Shaw collection | 
- [beinecke.somervil.xml](656.xml) | beinecke.somervil | GEN MSS 28 | Elizabeth Hudson collection of E. Œ. Somerville & personal papers | 
+ [beinecke.somervil.xml](656.xml) | beinecke.somervil | GEN MSS 28 | Elizabeth Hudson collection of E. Œ. Somerville and personal papers | 
  [beinecke.shields.xml](657.xml) | beinecke.shields | GEN MSS 281 | Frederic Shields collection | 
  [beinecke.thirkell.xml](659.xml) | beinecke.thirkell | GEN MSS 283 | Angela Mackail Thirkell collection | 
  [beinecke.sheridan.xml](660.xml) | beinecke.sheridan | GEN MSS 284 | Richard Brinsley Sheridan collection | 
