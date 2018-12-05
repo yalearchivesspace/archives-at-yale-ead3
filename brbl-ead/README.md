@@ -46,6 +46,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.chiaro.xml](565.xml) | beinecke.chiaro | GEN MSS 113 | Nicola Chiaromonte papers | 
  [beinecke.henley.xml](566.xml) | beinecke.henley | GEN MSS 1131 | William Ernest Henley Collection | 
  [beinecke.albarelli.xml](567.xml) | beinecke.albarelli | GEN MSS 1132 | Josephine Procopio Albarelli collection of Gilberto Owen and Elías Nandino | 
+ [beinecke.crasepolach.xml](568.xml) | beinecke.crasepolach | GEN MSS 1134 | Douglas Crase and Frank Polach papers | 
  [beinecke.levis.xml](569.xml) | beinecke.levis | GEN MSS 1135 | François-Gaston, duc de Lévis papers | 
  [beinecke.graves.xml](570.xml) | beinecke.graves | GEN MSS 1137 | William S. Reese Collection of Robert Graves | 
  [beinecke.levi.xml](571.xml) | beinecke.levi | GEN MSS 1138 | Ezio Levi papers | 
@@ -1357,6 +1358,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.simonetti.xml](11043.xml) | beinecke.simonetti | GEN MSS 1497 | Gianni Emilio Simonetti papers | 
  [beinecke.blanch.xml](11052.xml) | beinecke.blanch | OSB MSS 202 | Lesley Blanch papers | 
  [beinecke.spinell.xml](11076.xml) | beinecke.spinell | GEN MSS 109 | Spinelli Archive | 
+ [beinecke.variety.xml](11080.xml) | beinecke.variety | YCAL MSS 1189 | Variety's Protected Material Department Submissions | 
  [beinecke.wppy.xml](11084.xml) | beinecke.wppy | YCAL MSS 1147 | World Performance Project at Yale records | 
  [beinecke.blume.xml](11190.xml) | beinecke.blume | GEN MSS 1481 | Judy Blume papers | 
  [beinecke.guest.xml](11192.xml) | beinecke.guest | YCAL MSS 1185 | Barbara Guest papers | 
