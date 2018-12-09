@@ -1335,6 +1335,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fisheram.xml](10777.xml) | beinecke.fisheram | GEN MSS 1473 | Alexander Metcalf Fisher Papers | 
  [beinecke.bohna.xml](10782.xml) | beinecke.bohna | WA MSS S-2673 | Bohna Family Correspondence | 
  [beinecke.nees.xml](10783.xml) | beinecke.nees | GEN MSS 1465 | A. Nees & Co. decorative paper sample books | 
+ [beinecke.momaday.xml](10796.xml) | beinecke.momaday | YCAL MSS 807 | N. Scott Momaday papers | 
  [beinecke.belangerriftfault.xml](10802.xml) | beinecke.belangerriftfault | WA Photos Folio 173 | Rift/Fault | 
  [beinecke.fitchsteve.xml](10813.xml) | beinecke.fitchsteve | WA Photos Folio 174 | Steve Fitch photographs | 
  [beinecke.buswell.xml](10823.xml) | beinecke.buswell | WA Photos 410 | Photographs of Abandoned Wooden Buildings and Artifacts in Montana | 
