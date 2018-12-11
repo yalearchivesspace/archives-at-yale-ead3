@@ -2719,7 +2719,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [5195.xml](5195.xml) |  | HM 281 | Edmund T. Silk Papers [microform] | 
  [mssa.ms.1976.xml](5196.xml) | mssa.ms.1976 | MS 1976 | John Hart Ely papers | 
  [mssa.ru.1112.xml](5197.xml) | mssa.ru.1112 | RU 1112 | J. Lloyd Suttle, Deputy Provost for Academic Resources, Yale University, records | 
- [mssa.ms.1964.xml](5199.xml) | mssa.ms.1964 | MS 1964 | Joseph Verner Reed (1937-) papers | 
+ [mssa.ms.1964.xml](5199.xml) | mssa.ms.1964 | MS 1964 | Joseph Verner Reed (1937-2016) papers | 
  [mssa.ru.1113.xml](5200.xml) | mssa.ru.1113 | RU 1113 | "Yale Reports" Audio Recordings and Transcripts | 
  [mssa.ru.1114.xml](5201.xml) | mssa.ru.1114 | RU 1114 | Special Divisional Major, Yale College, student records | 
  [mssa.ms.1905.xml](5202.xml) | mssa.ms.1905 | MS 1905 | Japanese film ephemera collection | 
