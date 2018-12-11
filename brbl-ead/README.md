@@ -1365,6 +1365,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.blume.xml](11190.xml) | beinecke.blume | GEN MSS 1481 | Judy Blume papers | 
  [beinecke.guest.xml](11192.xml) | beinecke.guest | YCAL MSS 1185 | Barbara Guest papers | 
  [beinecke.ariasmisson.xml](11199.xml) | beinecke.ariasmisson | GEN MSS 1514 | Alain Arias-Misson papers | 
+ [beinecke.sedaris.xml](11201.xml) | beinecke.sedaris | GEN MSS 1515 | David Sedaris papers | 
  [beinecke.steinbeckcol.xml](11257.xml) | beinecke.steinbeckcol | YCAL MSS 1191 | Collection of Film Material Relating to John Steinbeck | 
  [beinecke.galassi.xml](11289.xml) | beinecke.galassi | YCAL MSS 1197 | Jonathan Galassi papers | 
 
