@@ -255,4 +255,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [vrc.1000.xml](10542.xml) | vrc.1000 | VRC 1000 | Architecture Slide Collection | 
  [vrc.1100.xml](10543.xml) | vrc.1100 | VRC.1100 | Painting Slide Collection | 
  [arts.bkp.0161.xml](10935.xml) | arts.bkp.0161 | BKP 161 | George A. Teel bookplate collection | 
+ [arts.aob.0060.xml](11314.xml) | arts.aob.0060 | AOB 60 | Polly Rubin Collection of Volvelles and Slide Rules | 
 
