@@ -25,6 +25,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0043.xml](495.xml) | med.ms.0043 | Ms Coll 43 | New Haven Hospital and Grace-New Haven Community Hospital Collection | 
  [med.ms.0044.xml](496.xml) | med.ms.0044 | Ms Coll 44 | Delta Omega, Epsilon Chapter (Yale University) records  | 
  [med.ms.0045.xml](497.xml) | med.ms.0045 | Ms Coll 45 | Ira V. Hiscock collection | 
+ [med.ms.0046.xml](498.xml) | med.ms.0046 | Ms Coll 46 | Stephen E. Malawista papers | 
  [med.ms.0047.xml](499.xml) | med.ms.0047 | Ms Coll 47 | Edward Roth medical school notes and medical practice case books | 
  [med.ms.0049.xml](501.xml) | med.ms.0049 | Ms Coll 49 | Miscellaneous letters collection | 
  [med.ms.0050.xml](502.xml) | med.ms.0050 | Ms Coll 50 | George Alder Blumer correspondence | 
