@@ -880,7 +880,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fitts.xml](1508.xml) | beinecke.fitts | YCAL MSS 296 | Dudley Fitts papers | 
  [beinecke.mellow.xml](1509.xml) | beinecke.mellow | YCAL MSS 297 | James R. Mellow papers | 
  [beinecke.sergeant.xml](1510.xml) | beinecke.sergeant | YCAL MSS 3 | Elizabeth Shepley Sergeant papers | 
- [beinecke.brooks.xml](1511.xml) | beinecke.brooks | YCAL MSS 30 | Cleanth Brooks papers. | 
+ [beinecke.brooks.xml](1511.xml) | beinecke.brooks | YCAL MSS 30 | Cleanth Brooks papers | 
  [beinecke.nathanr.xml](1512.xml) | beinecke.nathanr | YCAL MSS 307 | Robert Nathan papers | 
  [beinecke.boultona.xml](1513.xml) | beinecke.boultona | YCAL MSS 308 | Agnes Boulton papers | 
  [beinecke.glenn.xml](1514.xml) | beinecke.glenn | YCAL MSS 309 | Isa Glenn and Bayard Schindel papers | 
