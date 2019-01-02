@@ -264,6 +264,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.carlyle.xml](805.xml) | beinecke.carlyle | GEN MSS 677 | Thomas Carlyle collection | 
  [beinecke.reedj.xml](806.xml) | beinecke.reedj | GEN MSS 678 | Jeremy Reed papers | 
  [beinecke.starr.xml](807.xml) | beinecke.starr | GEN MSS 679 | Cecile Starr papers relating to Mary Ellen Bute | 
+ [beinecke.livingston.xml](808.xml) | beinecke.livingston | GEN MSS 680 | Livingston family papers | 
  [beinecke.stevenson.xml](809.xml) | beinecke.stevenson | GEN MSS 684 | Robert Louis Stevenson Collection | 
  [beinecke.thom.xml](810.xml) | beinecke.thom | GEN MSS 69 | Lansing V. Hammond collection of Hugh Thomson | 
  [beinecke.driver.xml](811.xml) | beinecke.driver | GEN MSS 690 | Julia Driver collection of women in photography. | 
