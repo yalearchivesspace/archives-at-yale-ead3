@@ -2853,5 +2853,4 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2085.xml](10838.xml) | mssa.ms.2085 | MS 2085 | Paul Stephen Galatowitsch papers | 
  [mssa.ru.1157.xml](11197.xml) | mssa.ru.1157 | RU 1157 | Peter Salovey, President of Yale University, Records | 
  [11234.xml](11234.xml) |  | RU 1158 | Yale Egyptological Institute in Egypt, Yale University, Records | 
- [mssa.ru.0262.IMPORT.2018-12-03T15:01:10.113-05:00.xml](11300.xml) | mssa.ru.0262.IMPORT.2018-12-03T15:01:10.113-05:00 | RU 262IMPORT2018-12-03T15:01:10.113-05:00 | Graduate School of Arts and Sciences, Yale University, student records IMPORT 2018-12-03T15:01:10.113-05:00 | 
 
