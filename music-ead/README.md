@@ -85,6 +85,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0079.xml](10631.xml) | music.mss.0079 | MSS 79 | The David Kraehenbuehl Papers | 
  [music.mss.0054.xml](10632.xml) | music.mss.0054 | MSS 54 | E. Robert Schmitz Papers | 
  [music.mss.0050.xml](10638.xml) | music.mss.0050 | MSS 50 | The Paul Bekker Papers | 
+ [music.mss.0014.xml](10652.xml) | music.mss.0014 | MSS 14 | The Charles Ives Papers | 
  [music.mss.0030.xml](10674.xml) | music.mss.0030 | MSS 30 | Register to the Papers of Kurt Weill and Lotte Lenya | 
  [music.mss.0032.xml](10676.xml) | music.mss.0032 | MSS 32 | The Horatio Parker Papers | 
  [music.mss.0036.xml](10678.xml) | music.mss.0036 | MSS 36 | The Seymour Shifrin Papers | 
