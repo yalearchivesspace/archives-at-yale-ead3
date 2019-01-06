@@ -69,6 +69,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0068.xml](10608.xml) | music.mss.0068 | MSS 68 | The Isidor Achron Papers | 
  [music.mss.0033.xml](10609.xml) | music.mss.0033 | MSS 33 | The Lowell Mason Papers | 
  [music.mss.0001.xml](10610.xml) | music.mss.0001 | MSS 1 | The Love Family Papers | 
+ [music.mss.0012.xml](10611.xml) | music.mss.0012 | MSS 12 | The Sidney Rose Collection of Gilbert and Sullivan | 
  [music.mss.0037.xml](10613.xml) | music.mss.0037 | MSS 37 | The Samuel Gardner Papers | 
  [music.mss.0010.xml](10614.xml) | music.mss.0010 | MSS 10 | The Leo Ornstein Papers | 
  [music.mss.0016.xml](10615.xml) | music.mss.0016 | MSS 16 | The Galeazzi Collection | 
