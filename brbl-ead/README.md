@@ -589,9 +589,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.tankas.xml](1170.xml) | beinecke.tankas | Tibet MSS 62 | Tanka collection | 
  [beinecke.needham.xml](1171.xml) | beinecke.needham | Tibet MSS 64 | Wesley E. Needham Papers | 
  [beinecke.curtis.xml](1174.xml) | beinecke.curtis | WA MSS 122-125 | Samuel Ryan Curtis Papers | 
- [1175.xml](1175.xml) |  | WA MSS 161-162 | Henry Eld papers | 
  [beinecke.emmonsgf.xml](1176.xml) | beinecke.emmonsgf | WA MSS 166-169 | George F. Emmons papers | 
- [beinecke.evans.xml](1177.xml) | beinecke.evans | WA MSS 172-191 | Elwood Evans Papers | 
  [beinecke.faulk.xml](1178.xml) | beinecke.faulk | WA MSS 195 | Andrew Jackson Faulk papers | 
  [beinecke.geary.xml](1179.xml) | beinecke.geary | WA MSS 212 | John White Geary papers | 
  [beinecke.kane.xml](1180.xml) | beinecke.kane | WA MSS 279 | Thomas Leiper Kane papers | 
@@ -823,7 +821,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.sandbrg.xml](1446.xml) | beinecke.sandbrg | YCAL MSS 19 | Sandburg-Page papers | 
  [beinecke.luhan.xml](1447.xml) | beinecke.luhan | YCAL MSS 196 | Mabel Dodge Luhan papers | 
  [beinecke.luhancol.xml](1448.xml) | beinecke.luhancol | YCAL MSS 197 | Mabel Dodge Luhan collection | 
- [1449.xml](1449.xml) |  | YCAL MSS 198 | Thornton Wilder Documentary Project interviews | 
  [beinecke.heming.xml](1450.xml) | beinecke.heming | YCAL MSS 199 | Ernest Hemingway collection | 
  [beinecke.bowen.xml](1451.xml) | beinecke.bowen | YCAL MSS 2 | Croswell Bowen papers | 
  [beinecke.stetthe.xml](1452.xml) | beinecke.stetthe | YCAL MSS 20 | Florine and Ettie Stettheimer papers | 
@@ -1178,6 +1175,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.laurenced.xml](1828.xml) | beinecke.laurenced | YCAL MSS 834 | Dan H. Laurence Collection of Henry James | 
  [beinecke.rorty.xml](1829.xml) | beinecke.rorty | YCAL MSS 835 | James Rorty papers | 
  [beinecke.chiron.xml](1830.xml) | beinecke.chiron | YCAL MSS 836 | Chiron Review records | 
+ [beinecke.hollander.xml](1831.xml) | beinecke.hollander | YCAL MSS 837 | John Hollander papers | 
  [beinecke.gallup.xml](1832.xml) | beinecke.gallup | YCAL MSS 838 | Donald Clifford Gallup papers | 
  [beinecke.reedjk.xml](1833.xml) | beinecke.reedjk | YCAL MSS 843 | Joseph W. and Kit Reed Papers | 
  [beinecke.horgan.xml](1835.xml) | beinecke.horgan | YCAL MSS 845 | Paul Horgan papers | 
@@ -1218,6 +1216,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.raphaela.xml](1878.xml) | beinecke.raphaela | YCGL MSS 21 | Alice Raphael Papers | 
  [beinecke.schreiber.xml](1879.xml) | beinecke.schreiber | YCGL MSS 22 | Carl F. Schreiber papers | 
  [beinecke.faber.xml](1880.xml) | beinecke.faber | YCGL MSS 23 | Curt von Faber du Faur papers | 
+ [beinecke.specktheater.xml](1881.xml) | beinecke.specktheater | YCGL MSS 24 | William A. Speck collection of Goetheana : theater ephemera | 
  [beinecke.white.xml](1887.xml) | beinecke.white | YCGL MSS 35 | James F. White research files relating to Thomas Mann | 
  [beinecke.mayer.xml](1888.xml) | beinecke.mayer | YCGL MSS 36 | Elizabeth Mayer and Wolfgang Sauerländer papers | 
  [beinecke.mann.xml](1889.xml) | beinecke.mann | YCGL MSS 5 | Thomas Mann collection | 
