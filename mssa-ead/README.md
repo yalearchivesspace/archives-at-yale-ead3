@@ -863,6 +863,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0219.xml](2787.xml) | mssa.ru.0219 | RU 219 | Office of the Secretary, Yale University, annual reports submitted to the president | 
  [mssa.ru.0233.xml](2788.xml) | mssa.ru.0233 | RU 233 | Yale-China Association administrative records | 
  [mssa.ru.0237.xml](2789.xml) | mssa.ru.0237 | RU 237 | Biographical information on Yale University affiliated individuals | 
+ [mssa.ru.0259.xml](2791.xml) | mssa.ru.0259 | RU 259 | Art, architecture, and art history theses and projects, Yale University | 
  [mssa.ru.0265.xml](2792.xml) | mssa.ru.0265 | RU 265 | Yale School of Music student records | 
  [mssa.ru.0269.xml](2793.xml) | mssa.ru.0269 | RU 269 | Associate University Librarian for Public Services, Yale University, records | 
  [mssa.ru.0272.xml](2794.xml) | mssa.ru.0272 | RU 272 | American Studies Program, Yale University, records | 
@@ -2471,6 +2472,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0785.xml](4458.xml) | mssa.ms.0785 | MS 785 | Lorin Edgar Kerr papers | 
  [mssa.ru.0256.xml](4459.xml) | mssa.ru.0256 | RU 256 | Pierson College, Yale University, student records for the Classes of 1964-2012 maintained by the dean | 
  [mssa.ru.0285.xml](4460.xml) | mssa.ru.0285 | RU 285 | School of Medicine, Yale University, records of the dean | 
+ [mssa.ru.0684.xml](4461.xml) | mssa.ru.0684 | RU 684 | Images of Yale individuals | 
  [mssa.ms.0160.xml](4462.xml) | mssa.ms.0160 | MS 160 | Harvey Williams Cushing Papers in the Yale University Library | 
  [mssa.ms.0421.xml](4463.xml) | mssa.ms.0421 | MS 421 | James Harvey Rogers papers | 
  [mssa.ms.0712.xml](4464.xml) | mssa.ms.0712 | MS 712 | Franklin Bowditch Dexter papers | 
