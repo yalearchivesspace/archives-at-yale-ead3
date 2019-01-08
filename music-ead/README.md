@@ -13,6 +13,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0143.xml](5856.xml) | music.mss.0143 | MSS 143 | D. Russell Connor collection of Benny Goodman interviews | 
  [music.mss.0140.xml](5874.xml) | music.mss.0140 | MSS 140 | Sauter-Finegan Orchestra Papers | 
  [music.mss.0142.xml](5878.xml) | music.mss.0142 | MSS 142 | Berliner Gramophone Disc Collection | 
+ [music.mss.0086.xml](5898.xml) | music.mss.0086 | MSS 86 | Robert Shaw Papers | 
  [music.mss.0102.xml](5901.xml) | music.mss.0102 | MSS 102 | Collection on Adelina Patti | 
  [music.mss.0014hsr.xml](10404.xml) | music.mss.0014hsr | MSS 14 HSR | Charles Ives Rare and Non-Commercial Sound Recordings | 
  [music.mss.0004.xml](10544.xml) | music.mss.0004 | MSS 4 | The New Haven Music Club Papers | 
@@ -34,6 +35,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.misc.0056.xml](10564.xml) | music.misc.0056 | Misc. Ms. 56 | Selected Compositions of Frank H. Smith | 
  [music.misc.0052.xml](10565.xml) | music.misc.0052 | Misc. Ms. 52 | Selected Compositions of Peter Easley | 
  [music.misc.0172.xml](10566.xml) | music.misc.0172 | Misc. Ms. 172 | The Papers of the Society for the Publication of American Music | 
+ [music.misc.0345.xml](10567.xml) | music.misc.0345 | Misc. Ms. 345 | Wagner-Jenkins Correspondence | 
  [music.misc.0171.xml](10568.xml) | music.misc.0171 | Misc. Ms. 171 | The Papers of the New Haven Chapter, ISCM | 
  [music.misc.0418.xml](10570.xml) | music.misc.0418 | Misc. Ms. 418 | Ethel Smyth: Letters and Scrapbook | 
  [music.misc.0242.xml](10571.xml) | music.misc.0242 | Misc. Ms. 242 | The Jenny Lind Collection | 
@@ -58,6 +60,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.misc.0348.xml](10593.xml) | music.misc.0348 | Misc. Ms. 348 | The Beethoven Society (Providence, R.I.). Orchestral Parts | 
  [music.misc.0365.xml](10594.xml) | music.misc.0365 | Misc. Ms. 365 | Music, Vocal and Instrumental, Associated with New Haven | 
  [music.mss.0027.xml](10595.xml) | music.mss.0027 | MSS 27 | The Gustav Jakob Stoeckel Papers | 
+ [music.misc.0306.xml](10596.xml) | music.misc.0306 | Misc. Ms. 306 | The Troostwyk Family Papers | 
  [music.mss.0019.xml](10597.xml) | music.mss.0019 | MSS 19 | The Marie Corelli Collection | 
  [music.misc.0287.xml](10598.xml) | music.misc.0287 | Misc. Ms. 287 | Gabriel Fauré: Letters to Paul Dukas | 
  [music.misc.0302.xml](10599.xml) | music.misc.0302 | Misc. Ms. 302 | The Libretto Collection | 
