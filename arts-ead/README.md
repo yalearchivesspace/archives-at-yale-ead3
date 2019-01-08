@@ -119,7 +119,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.dra.0009.xml](452.xml) | arts.dra.0009 | DRA 9 | Yale Rockefeller theatrical prints collection | 
  [arts.bkp.0160.xml](5671.xml) | arts.bkp.0160 | BKP 160 | Universal bookplate collection | 
  [arts.aob.0030.xml](5680.xml) | arts.aob.0030 | AOB 30 | Emma Joy Dana Collection of Artuš Scheiner | 
- [5841.xml](5841.xml) |  | AOB 121 | Peace Paper Project collection | 
  [vrc.0071.xml](10410.xml) | vrc.0071 | VRC 71 | Miscellaneous Oversized Sculpture Photographs | 
  [vrc.0058.xml](10411.xml) | vrc.0058 | VRC 58 | 20th century Japanese Painting Photograph Collection | 
  [vrc.0070.xml](10412.xml) | vrc.0070 | VRC 70 | Miscellaneous Oversized Painting Photographs | 
