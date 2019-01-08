@@ -949,6 +949,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.furniss.xml](1586.xml) | beinecke.furniss | YCAL MSS 431 | Ruth Pine Furniss papers | 
  [beinecke.welish.xml](1587.xml) | beinecke.welish | YCAL MSS 433 | Marjorie Welish papers | 
  [beinecke.lachaise.xml](1588.xml) | beinecke.lachaise | YCAL MSS 434 | Gaston Lachaise collection | 
+ [beinecke.clapp.xml](1589.xml) | beinecke.clapp | YCAL MSS 435 | Frederick Mortimer Clapp Papers | 
  [beinecke.theatreguild.xml](1590.xml) | beinecke.theatreguild | YCAL MSS 436 | Theatre Guild archive | 
  [beinecke.farrar.xml](1591.xml) | beinecke.farrar | YCAL MSS 437 | John Chipman Farrar papers | 
  [beinecke.purdy.xml](1593.xml) | beinecke.purdy | YCAL MSS 44 | James Purdy papers | 
@@ -1200,6 +1201,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.stiegfam.xml](1855.xml) | beinecke.stiegfam | YCAL MSS 89 | Flora Stieglitz Straus collection of Stieglitz family papers | 
  [beinecke.pearson.xml](1856.xml) | beinecke.pearson | YCAL MSS 899 | Norman Holmes Pearson Papers | 
  [beinecke.waldo.xml](1857.xml) | beinecke.waldo | YCAL MSS 9 | George Waldo papers | 
+ [beinecke.malcolm.xml](1858.xml) | beinecke.malcolm | YCAL MSS 935 | Janet  Malcolm papers | 
  [beinecke.osborn.xml](1859.xml) | beinecke.osborn | YCAL MSS 938 | Robert Osborn Papers | 
  [beinecke.dialadd.xml](1860.xml) | beinecke.dialadd | YCAL MSS 95 | Dial/Scofield Thayer papers : addition | 
  [beinecke.byrd.xml](1861.xml) | beinecke.byrd | YCAL MSS 967 | Don Byrd papers | 
@@ -1207,6 +1209,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.whittier.xml](1865.xml) | beinecke.whittier | YCAL MSS 986 | John Greenleaf Whittier Collection | 
  [beinecke.fang.xml](1866.xml) | beinecke.fang | YCAL MSS 99 | Achilles Fang papers | 
  [beinecke.ycalmiscellany.xml](1868.xml) | beinecke.ycalmiscellany | YCAL MSS MISC | Yale Collection of American Literature manuscript miscellany | 
+ [beinecke.broch.xml](1871.xml) | beinecke.broch | YCGL MSS 1 | Hermann Broch archive | 
  [beinecke.prints.xml](1872.xml) | beinecke.prints | YCGL MSS 11 | William A. Speck collection of prints. | 
  [beinecke.lavater.xml](1873.xml) | beinecke.lavater | YCGL MSS 13 | Lavater collection. | 
  [beinecke.winkler.xml](1874.xml) | beinecke.winkler | YCGL MSS 14 | Winkler collection | 
@@ -1368,4 +1371,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.sedaris.xml](11201.xml) | beinecke.sedaris | GEN MSS 1515 | David Sedaris papers | 
  [beinecke.steinbeckcol.xml](11257.xml) | beinecke.steinbeckcol | YCAL MSS 1191 | Collection of Film Material Relating to John Steinbeck | 
  [beinecke.galassi.xml](11289.xml) | beinecke.galassi | YCAL MSS 1197 | Jonathan Galassi papers | 
+ [beinecke.garber.xml](11325.xml) | beinecke.garber | GEN MSS 756 | Bette S. Garber photographs | 
 
