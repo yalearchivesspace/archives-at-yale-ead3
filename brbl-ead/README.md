@@ -762,7 +762,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.irwinwilliame.xml](1379.xml) | beinecke.irwinwilliame | WA Photos 516 | William E. Irwin Photographs collection. | 
  [beinecke.palmquistphotos.xml](1380.xml) | beinecke.palmquistphotos | WA Photos 524 | Peter E. Palmquist photographs | 
  [beinecke.waphotosfile.xml](1381.xml) | beinecke.waphotosfile | WA Photos File | Western Americana card photograph file. | 
- [beinecke.luckowenwpf151.xml](1382.xml) | beinecke.luckowenwpf151 | WA Photos Folio 151 | Owen Luck Photographs of Alaska and Haida Gwaii | 
  [beinecke.mcpheepotaw.xml](1383.xml) | beinecke.mcpheepotaw | WA Photos Folio 152 | Laura McPhee Photographs of the American West | 
  [beinecke.belanger.xml](1384.xml) | beinecke.belanger | WA Photos Folio 153 | Marion Belanger photographs | 
  [beinecke.halverson.xml](1386.xml) | beinecke.halverson | WA Photos Folio 75 | Photographs of the American West. | 
@@ -852,6 +851,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.davisclyde.xml](1478.xml) | beinecke.davisclyde | YCAL MSS 255 | Clyde Brion Davis papers | 
  [beinecke.knappf.xml](1479.xml) | beinecke.knappf | YCAL MSS 256 | Farwell Knapp papers | 
  [beinecke.jonesl.xml](1480.xml) | beinecke.jonesl | YCAL MSS 257 | Llewellyn Jones papers | 
+ [beinecke.zilboorgg.xml](1481.xml) | beinecke.zilboorgg | YCAL MSS 258 | Gregory Zilboorg Papers | 
  [beinecke.joseph.xml](1483.xml) | beinecke.joseph | YCAL MSS 26 | Matthew Josephson papers | 
  [beinecke.souvprograms.xml](1484.xml) | beinecke.souvprograms | YCAL MSS 260 | Souvenir performance program collection | 
  [beinecke.longstreet.xml](1485.xml) | beinecke.longstreet | YCAL MSS 262 | Stephen Longstreet papers | 
@@ -1220,6 +1220,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.schreiber.xml](1879.xml) | beinecke.schreiber | YCGL MSS 22 | Carl F. Schreiber papers | 
  [beinecke.faber.xml](1880.xml) | beinecke.faber | YCGL MSS 23 | Curt von Faber du Faur papers | 
  [beinecke.specktheater.xml](1881.xml) | beinecke.specktheater | YCGL MSS 24 | William A. Speck collection of Goetheana : theater ephemera | 
+ [beinecke.speckartwork.xml](1882.xml) | beinecke.speckartwork | YCGL MSS 26 | William A. Speck collection of Goetheana : original artwork | 
+ [beinecke.speckmedals.xml](1884.xml) | beinecke.speckmedals | YCGL MSS 28 | William A. Speck collection of Goetheana : medals and medallions | 
  [beinecke.white.xml](1887.xml) | beinecke.white | YCGL MSS 35 | James F. White research files relating to Thomas Mann | 
  [beinecke.mayer.xml](1888.xml) | beinecke.mayer | YCGL MSS 36 | Elizabeth Mayer and Wolfgang Sauerländer papers | 
  [beinecke.mann.xml](1889.xml) | beinecke.mann | YCGL MSS 5 | Thomas Mann collection | 
@@ -1324,6 +1326,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.magowan.xml](5889.xml) | beinecke.magowan | YCAL MSS 612 | Robin Magowan papers | 
  [beinecke.vanvechtjwj.xml](10402.xml) | beinecke.vanvechtjwj | JWJ MSS 1050 | Carl Van Vechten Papers Relating to African American Arts and Letters | 
  [beinecke.vanvecht.xml](10403.xml) | beinecke.vanvecht | YCAL MSS 1050 | Carl Van Vechten Papers | 
+ [beinecke.ramseier.xml](10640.xml) | beinecke.ramseier | WA MSS S-3242 | Roy Edwin Ramseier papers | 
  [beinecke.delany.xml](10650.xml) | beinecke.delany | JWJ MSS 184 | Samuel R. Delany papers | 
  [beinecke.bory.xml](10656.xml) | beinecke.bory | GEN MSS 1460 | Jean-François Bory Papers | 
  [beinecke.plauchut.xml](10702.xml) | beinecke.plauchut | GEN MSS 1462 | Edmond Plauchut Papers | 
@@ -1362,7 +1365,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.vanvechtmaur.xml](11041.xml) | beinecke.vanvechtmaur | YCAL MSS 1144 | Carl Van Vechten Letters to Saul Mauriber | 
  [beinecke.simonetti.xml](11043.xml) | beinecke.simonetti | GEN MSS 1497 | Gianni Emilio Simonetti papers | 
  [beinecke.blanch.xml](11052.xml) | beinecke.blanch | OSB MSS 202 | Lesley Blanch papers | 
- [beinecke.spinell.xml](11076.xml) | beinecke.spinell | GEN MSS 109 | Spinelli Archive | 
+ [beinecke.spinelliarchive.xml](11076.xml) | beinecke.spinelliarchive | GEN MSS 109 | Spinelli Archive | 
  [beinecke.variety.xml](11080.xml) | beinecke.variety | YCAL MSS 1189 | Variety's Protected Material Department Submissions | 
  [beinecke.wppy.xml](11084.xml) | beinecke.wppy | YCAL MSS 1147 | World Performance Project at Yale records | 
  [beinecke.blume.xml](11190.xml) | beinecke.blume | GEN MSS 1481 | Judy Blume papers | 
