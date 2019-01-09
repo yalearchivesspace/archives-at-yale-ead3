@@ -478,6 +478,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.heyworth.xml](1049.xml) | beinecke.heyworth | OSB MSS 172 | Laurence Heyworth collection of English religious manuscripts | 
  [beinecke.thistle.xml](1050.xml) | beinecke.thistle | OSB MSS 176 | Thomas Thistlewood papers | 
  [beinecke.taussig.xml](1051.xml) | beinecke.taussig | OSB MSS 184 | Anthony Taussig collection of English legal manuscripts | 
+ [beinecke.tennant.xml](1052.xml) | beinecke.tennant | OSB MSS 187 | Stephen Tennant papers | 
  [beinecke.blathway.xml](1053.xml) | beinecke.blathway | OSB MSS 2 | William Blathwayt papers | 
  [beinecke.landor.xml](1054.xml) | beinecke.landor | OSB MSS 23 | Landor papers | 
  [beinecke.stair.xml](1055.xml) | beinecke.stair | OSB MSS 24 | Stair papers | 
