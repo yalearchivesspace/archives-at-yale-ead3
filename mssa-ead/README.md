@@ -111,6 +111,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0358.xml](2004.xml) | mssa.ru.0358 | RU 358 | Committee on Canadian Studies, Yale University, records of Robin Winks | 
  [mssa.ru.0360.xml](2005.xml) | mssa.ru.0360 | RU 360 | Silliman lecture series, Yale University, records | 
  [mssa.ru.0363.xml](2006.xml) | mssa.ru.0363 | RU 363 | Office of Undergraduate Admissions, Yale University, records concerning minority recruitment | 
+ [mssa.ru.0368.xml](2007.xml) | mssa.ru.0368 | RU 368 | Yale University Library materials concerning events and exhibits | 
  [mssa.ru.0369.xml](2008.xml) | mssa.ru.0369 | RU 369 | Class of 1911, Sheffield Scientific School, Yale University, records | 
  [mssa.ru.0370.xml](2009.xml) | mssa.ru.0370 | RU 370 | Office of Public Affairs, Yale University, press releases | 
  [mssa.ru.0375.xml](2010.xml) | mssa.ru.0375 | RU 375 | Yale Center for British Art, exhibit and program records | 
@@ -938,6 +939,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1055.xml](2867.xml) | mssa.ru.1055 | RU 1055 | Oral histories documenting New Haven, Connecticut | 
  [mssa.ru.1087.xml](2868.xml) | mssa.ru.1087 | RU 1087 | Barbara Shailor, deputy provost for the arts, Yale University, records | 
  [mssa.ru.1106.xml](2869.xml) | mssa.ru.1106 | RU 1106 | Lesbian, Gay, Bisexual, and Transgender Studies at Yale records | 
+ [mssa.ru.0001.xml](2871.xml) | mssa.ru.0001 | RU 1 | Architectural drawings and maps of Yale University buildings and grounds | 
  [mssa.ru.0049.xml](2873.xml) | mssa.ru.0049 | RU 49 | Secretary's office, Yale University, records | 
  [mssa.ru.0128.xml](2874.xml) | mssa.ru.0128 | RU 128 | General counsel, Yale University, records | 
  [mssa.ru.0129.xml](2875.xml) | mssa.ru.0129 | RU 129 | Department of Manuscripts and Archives, Yale University, administrative records | 
