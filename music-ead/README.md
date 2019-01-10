@@ -83,6 +83,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0007.xml](10620.xml) | music.mss.0007 | MSS 7 | The Richard Donovan Papers | 
  [music.mss.0061.xml](10621.xml) | music.mss.0061 | MSS 61 | The Leroy Anderson Papers | 
  [music.mss.0073.xml](10623.xml) | music.mss.0073 | MSS 73 | The Karl Weigl Papers | 
+ [music.mss.0083.xml](10625.xml) | music.mss.0083 | MSS 83 | The E.Y. Harburg Collection | 
  [music.mss.0013.xml](10626.xml) | music.mss.0013 | MSS 13 | The Yale School of Music D.M.A. Papers | 
  [music.mss.0046.xml](10627.xml) | music.mss.0046 | MSS 46 | Thomas de Hartmann Papers | 
  [music.mss.0034.xml](10629.xml) | music.mss.0034 | MSS 34 | The Parker Bailey Papers | 
@@ -90,8 +91,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0054.xml](10632.xml) | music.mss.0054 | MSS 54 | E. Robert Schmitz Papers | 
  [music.mss.0050.xml](10638.xml) | music.mss.0050 | MSS 50 | The Paul Bekker Papers | 
  [music.mss.0014.xml](10652.xml) | music.mss.0014 | MSS 14 | The Charles Ives Papers | 
+ [music.mss.0015.xml](10672.xml) | music.mss.0015 | MSS 15 | Quincy Porter Papers | 
  [music.mss.0030.xml](10674.xml) | music.mss.0030 | MSS 30 | Register to the Papers of Kurt Weill and Lotte Lenya | 
  [music.mss.0032.xml](10676.xml) | music.mss.0032 | MSS 32 | The Horatio Parker Papers | 
+ [music.mss.0035.xml](10677.xml) | music.mss.0035 | MSS 35 | The Henry Gilbert Papers | 
  [music.mss.0036.xml](10678.xml) | music.mss.0036 | MSS 36 | The Seymour Shifrin Papers | 
  [music.mss.0038.xml](10679.xml) | music.mss.0038 | MSS 38 | The Charles Shackford Papers | 
  [music.mss.0040.xml](10680.xml) | music.mss.0040 | MSS 40 | The Ernest Trow Carter Papers | 
@@ -101,7 +104,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0062.xml](10707.xml) | music.mss.0062 | MSS 62 | Papers of Stanley Dance and Helen Oakley Dance | 
  [music.mss.0049.xml](10742.xml) | music.mss.0049 | MSS 49 | The Harold Rome Papers | 
  [music.mss.0071.xml](10759.xml) | music.mss.0071 | MSS 71 | Kurt Stone papers | 
+ [music.mss.0047.xml](10760.xml) | music.mss.0047 | MSS 47 | The Paul Hindemith Collection | 
  [music.mss.0052.xml](10761.xml) | music.mss.0052 | MSS 52 | The Frederick and Rose Plaut Papers | 
+ [music.mss.0055.xml](10762.xml) | music.mss.0055 | MSS 55 | The Papers of Vladimir and Wanda Toscanini Horowitz. | 
  [music.mss.0065.xml](10763.xml) | music.mss.0065 | MSS 65 | The Kay Swift Papers | 
  [music.mss.0148.xml](11068.xml) | music.mss.0148 | MSS 148 | The Siegrun H. Folter Collection of Heinrich Funk Materials | 
  [music.mss.0147.xml](11078.xml) | music.mss.0147 | MSS 147 | The William L. Vallée Collection of Rudy Vallée Materials | 
