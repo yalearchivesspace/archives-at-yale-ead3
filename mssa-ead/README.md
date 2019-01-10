@@ -2624,6 +2624,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0198.xml](4888.xml) | mssa.ms.0198 | MS 198 | Edwin Rogers Embree papers | 
  [mssa.ms.0139.xml](4889.xml) | mssa.ms.0139 | MS 139 | Elisha Lord Cleaveland papers | 
  [mssa.ms.0822.xml](4891.xml) | mssa.ms.0822 | MS 822 | Benjamin Lee Whorf papers | 
+ [mssa.ms.0001.xml](4892.xml) | mssa.ms.0001 | MS 1 | Ellsworth Huntington papers | 
  [mssa.ms.0031.xml](4894.xml) | mssa.ms.0031 | MS 31 | Thomas Sewall Adams papers | 
  [mssa.ru.1070.xml](4895.xml) | mssa.ru.1070 | RU 1070 | Office of Facilities Construction and Renovation, School of Medicine, Yale University, records | 
  [mssa.ms.1843.xml](4896.xml) | mssa.ms.1843 | MS 1843 | Albert Heman Ely, Jr. family papers | 
