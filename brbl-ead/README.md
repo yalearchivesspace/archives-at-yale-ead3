@@ -679,10 +679,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.tobapatotucker.xml](1282.xml) | beinecke.tobapatotucker | WA MSS S-2604 | Toba Pato Tucker photographs and papers | 
  [beinecke.whitegr.xml](1283.xml) | beinecke.whitegr | WA MSS S-2605 | George Ritch White Diaries | 
  [beinecke.johnston.xml](1284.xml) | beinecke.johnston | WA MSS S-2606 | George F. Johnston Company records | 
+ [beinecke.westfilmposter.xml](1285.xml) | beinecke.westfilmposter | WA MSS S-2607 | Western film lobby card and poster collection | 
  [beinecke.yunative.xml](1287.xml) | beinecke.yunative | WA MSS S-2610 | Yale University Native American Alumni Oral History Project | 
  [beinecke.blair.xml](1288.xml) | beinecke.blair | WA MSS S-2611 | R. E. Blair collection of Western oil and mining investment prospectuses | 
  [beinecke.patterson.xml](1289.xml) | beinecke.patterson | WA MSS S-2612 | Stuart H. Patterson papers | 
  [beinecke.prattl.xml](1290.xml) | beinecke.prattl | WA MSS S-2613 | Lawrence Pratt collection concerning Arizona v. California and the Colorado River | 
+ [beinecke.litwack.xml](1292.xml) | beinecke.litwack | WA MSS S-2616 | Leon F. Litwack collection of Berkeley, California, protest literature | 
  [beinecke.advertisements.xml](1293.xml) | beinecke.advertisements | WA MSS S-2622 | Collection of advertisements that depict American history. | 
  [beinecke.daviesscroggie.xml](1294.xml) | beinecke.daviesscroggie | WA MSS S-2627 | Davies/Scroggie Collection of White Pass and Yukon Documents and Ephemera | 
  [beinecke.jonesss.xml](1296.xml) | beinecke.jonesss | WA MSS S-2636 | Solomon Sir Jones films | 
@@ -694,6 +696,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.deloria.xml](1302.xml) | beinecke.deloria | WA MSS S-2661 | Vine Deloria papers | 
  [beinecke.archiquette.xml](1303.xml) | beinecke.archiquette | WA MSS S-2662 | John Archiquette collection | 
  [beinecke.dequille.xml](1304.xml) | beinecke.dequille | WA MSS S-2667 | Dan De Quille papers | 
+ [beinecke.palmhumco.xml](1305.xml) | beinecke.palmhumco | WA MSS S-2670 | Peter Palmquist collection of Humboldt County, California, male photographers | 
  [beinecke.hitchcock.xml](1306.xml) | beinecke.hitchcock | WA MSS S-2678 | Ethan Allen Hitchcock collection on Indian removal | 
  [beinecke.fiskr.xml](1307.xml) | beinecke.fiskr | WA MSS S-2683 | Robert B. Fisk papers | 
  [beinecke.lazarus.xml](1308.xml) | beinecke.lazarus | WA MSS S-2684 | Arthur Lazarus papers | 
@@ -897,6 +900,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.schwartz.xml](1526.xml) | beinecke.schwartz | YCAL MSS 334 | Delmore Schwartz papers | 
  [beinecke.elleryqueen.xml](1527.xml) | beinecke.elleryqueen | YCAL MSS 335 | Ellery Queen papers | 
  [beinecke.closeup.xml](1528.xml) | beinecke.closeup | YCAL MSS 337 | Photograph File of Close Up Magazine | 
+ [beinecke.howesu.xml](1529.xml) | beinecke.howesu | YCAL MSS 338 | Susan Howe papers | 
  [beinecke.dial.xml](1531.xml) | beinecke.dial | YCAL MSS 34 | Dial/Scofield Thayer papers | 
  [beinecke.moorer.xml](1532.xml) | beinecke.moorer | YCAL MSS 341 | Richard Moore papers | 
  [beinecke.okeeffefndn.xml](1533.xml) | beinecke.okeeffefndn | YCAL MSS 342 | Georgia O'Keeffe Foundation records | 
@@ -953,6 +957,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.clapp.xml](1589.xml) | beinecke.clapp | YCAL MSS 435 | Frederick Mortimer Clapp Papers | 
  [beinecke.theatreguild.xml](1590.xml) | beinecke.theatreguild | YCAL MSS 436 | Theatre Guild archive | 
  [beinecke.farrar.xml](1591.xml) | beinecke.farrar | YCAL MSS 437 | John Chipman Farrar papers | 
+ [beinecke.rose.xml](1592.xml) | beinecke.rose | YCAL MSS 438 | Philip Rose papers | 
  [beinecke.purdy.xml](1593.xml) | beinecke.purdy | YCAL MSS 44 | James Purdy papers | 
  [beinecke.tchubb.xml](1594.xml) | beinecke.tchubb | YCAL MSS 441 | Thomas Caldecot Chubb Papers | 
  [beinecke.chapman.xml](1595.xml) | beinecke.chapman | YCAL MSS 442 | Elizabeth Fuller Chapman papers and films | 
@@ -1222,6 +1227,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.faber.xml](1880.xml) | beinecke.faber | YCGL MSS 23 | Curt von Faber du Faur papers | 
  [beinecke.specktheater.xml](1881.xml) | beinecke.specktheater | YCGL MSS 24 | William A. Speck collection of Goetheana : theater ephemera | 
  [beinecke.speckartwork.xml](1882.xml) | beinecke.speckartwork | YCGL MSS 26 | William A. Speck collection of Goetheana : original artwork | 
+ [beinecke.speckephemera.xml](1883.xml) | beinecke.speckephemera | YCGL MSS 27 | William A. Speck collection of Goetheana : general ephemera | 
  [beinecke.speckmedals.xml](1884.xml) | beinecke.speckmedals | YCGL MSS 28 | William A. Speck collection of Goetheana : medals and medallions | 
  [beinecke.white.xml](1887.xml) | beinecke.white | YCGL MSS 35 | James F. White research files relating to Thomas Mann | 
  [beinecke.mayer.xml](1888.xml) | beinecke.mayer | YCGL MSS 36 | Elizabeth Mayer and Wolfgang Sauerländer papers | 
@@ -1250,6 +1256,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.smithd.xml](5467.xml) | beinecke.smithd | GEN MSS 1399 | David Smith Papers | 
  [beinecke.tully.xml](5474.xml) | beinecke.tully | GEN MSS 1403 | William Tully Papers | 
  [beinecke.howeh.xml](5476.xml) | beinecke.howeh | GEN MSS 1365 | Hezekiah Howe Papers | 
+ [beinecke.livingtheatre.xml](5485.xml) | beinecke.livingtheatre | Multiple call numbers | Living Theatre Records | 
  [beinecke.lintoncook.xml](5488.xml) | beinecke.lintoncook | GEN MSS 1406 | Grace Linton Cook Papers about W. J. Linton | 
  [beinecke.gluck.xml](5489.xml) | beinecke.gluck | YCAL MSS 946 | Louise Glück papers | 
  [beinecke.bwi.xml](5491.xml) | beinecke.bwi | GEN MSS 1412 | British Caribbean Documents | 
