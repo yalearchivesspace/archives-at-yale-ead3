@@ -2778,7 +2778,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2011.xml](5253.xml) | mssa.ms.2011 | MS 2011 | Ramsay MacMullen papers | 
  [mssa.ru.1135.xml](5254.xml) | mssa.ru.1135 | RU 1135 | Russell Trust Association records | 
  [mssa.ru.1136.xml](5255.xml) | mssa.ru.1136 | RU 1136 | Brian Kiss photographs of stained glass in the Sterling Memorial Library Nave, Yale University | 
- [5256.xml](5256.xml) |  | RU 1129 | Office of the Secretary, Yale University, video footage of the inauguration of Peter Salovey  | 
+ [mssa.ru.1129.xml](5256.xml) | mssa.ru.1129 | RU 1129 | Office of the Secretary, Yale University, video footage of the inauguration of Peter Salovey | 
  [mssa.ms.2009.xml](5258.xml) | mssa.ms.2009 | MS 2009 | Walter J. P. Curley papers | 
  [mssa.ru.1138.xml](5259.xml) | mssa.ru.1138 | RU 1138 | Peter Salovey, president of Yale University, inauguration records | 
  [mssa.ms.1995.xml](5260.xml) | mssa.ms.1995 | MS 1995 | Richard C. Levin papers | 
@@ -2793,8 +2793,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2024.xml](5274.xml) | mssa.ms.2024 | MS 2024 | Manuscripts and Archives, Yale University Library Gaylesta publications collection | 
  [mssa.ms.2025.xml](5275.xml) | mssa.ms.2025 | MS 2025 | Manuscripts and Archives, Yale University Library Good Vibrations publications collection | 
  [mssa.ms.2026.xml](5278.xml) | mssa.ms.2026 | MS 2026 | Elisha Spencer Benton diary | 
- [5280.xml](5280.xml) |  | RU 1139 | Charles Wayne Chase, Class of 1923, Sheffield Scientific School, photographs and memorabilia documenting life at Yale | 
- [5283.xml](5283.xml) |  | RU 1140 | Yale College, Records of the Yale Bands | 
+ [mssa.ru.1139.xml](5280.xml) | mssa.ru.1139 | RU 1139 | Charles Wayne Chase, Class of 1923, Sheffield Scientific School, photographs and memorabilia documenting life at Yale | 
+ [mssa.ru.1140.xml](5283.xml) | mssa.ru.1140 | RU 1140 | Yale College, Records of the Yale Bands | 
  [mssa.ru.1141.xml](5300.xml) | mssa.ru.1141 | RU 1141 | Joseph W. Gordon, Deputy Dean of Yale College, records | 
  [mssa.ms.2013.xml](5310.xml) | mssa.ms.2013 | MS 2013 | Mordecai Hillel Kroshnitz papers | 
  [mssa.ms.2014.xml](5320.xml) | mssa.ms.2014 | MS 2014 | Jacob Berman papers | 
@@ -2823,7 +2823,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2054.xml](5542.xml) | mssa.ms.2054 | MS 2054 | Susan M. Chambré research files on volunteer AIDS organizations | 
  [mssa.ms.2056.xml](5557.xml) | mssa.ms.2056 | MS 2056 | Walter Hinds Allen papers | 
  [mssa.ms.2052.xml](5558.xml) | mssa.ms.2052 | MS 2052 | Robert A. Burt papers | 
- [5582.xml](5582.xml) |  | MS 2057 | Jean M. Conklin papers | 
  [mssa.ms.2058.xml](5584.xml) | mssa.ms.2058 | MS 2058 | Spanish Civil War Collection | 
  [mssa.ms.2061.xml](5638.xml) | mssa.ms.2061 | MS 2061 | Charles W. Toth correspondence with Tram Combs | 
  [mssa.ms.2055.xml](5644.xml) | mssa.ms.2055 | MS 2055 | Warren L. Duffield papers | 
@@ -2836,13 +2835,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2065.xml](5675.xml) | mssa.ms.2065 | MS 2065 | Robert C. Wilhelm papers | 
  [mssa.ru.1145.xml](5683.xml) | mssa.ru.1145 | RU 1145 | Yale Library Associates records | 
  [mssa.ms.2066.xml](5693.xml) | mssa.ms.2066 | MS 2066 | William Alvord Borst travel diary | 
- [5706.xml](5706.xml) |  | RU 1147 | Associate University Librarian for Program Development and Research, Yale University, records | 
+ [mssa.ru.1147.xml](5706.xml) | mssa.ru.1147 | RU 1147 | Associate University Librarian for Program Development and Research, Yale University, records | 
  [mssa.ms.2067.xml](5716.xml) | mssa.ms.2067 | MS 2067 | Japanese lesbian, gay, bisexual, transgender, and queer collection | 
  [mssa.ms.2069.xml](5735.xml) | mssa.ms.2069 | MS 2069 | Harry W. Selden right wing materials collection | 
- [5888.xml](5888.xml) |  | MS 2068 | James Gustave Speth papers | 
+ [mssa.ms.2068.xml](5888.xml) | mssa.ms.2068 | MS 2068 | James Gustave Speth papers | 
  [mssa.ms.2072.xml](5891.xml) | mssa.ms.2072 | MS 2072 | Lewis B. Cullman papers | 
  [mssa.ru.1148.xml](10407.xml) | mssa.ru.1148 | RU 1148 | Freshman Outdoor Orientation Trips, records | 
- [10653.xml](10653.xml) |  | RU 1149 | Yale Club of Hong Kong | 
+ [mssa.ru.1149.xml](10653.xml) | mssa.ru.1149 | RU 1149 | Yale Club of Hong Kong | 
  [mssa.ms.2074.xml](10658.xml) | mssa.ms.2074 | MS 2074 | The Bartos Company records | 
  [mssa.ms.2079.xml](10660.xml) | mssa.ms.2079 | MS 2079 | María Pilar Fort Trigo diary | 
  [mssa.ms.2077.xml](10661.xml) | mssa.ms.2077 | MS 2077 | Argimiro Bosch letters | 
@@ -2856,6 +2855,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0207.xml](10778.xml) | mssa.ru.0207 | RU 207 | Timothy Dwight College, Yale University, student records | 
  [mssa.ru.1153.xml](10837.xml) | mssa.ru.1153 | RU 1153 | Yale University Corporation 1949 Presidential Search Committee Records | 
  [mssa.ms.2085.xml](10838.xml) | mssa.ms.2085 | MS 2085 | Paul Stephen Galatowitsch papers | 
+ [mssa.ru.1156.xml](11096.xml) | mssa.ru.1156 | RU 1156 | Institute of Sacred Music, Yale University, records | 
  [mssa.ru.1157.xml](11197.xml) | mssa.ru.1157 | RU 1157 | Peter Salovey, President of Yale University, Records | 
- [11234.xml](11234.xml) |  | RU 1158 | Yale Egyptological Institute in Egypt, Yale University, Records | 
 
