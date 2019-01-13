@@ -32,6 +32,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.aob.0075.xml](354.xml) | arts.aob.0075 | AOB 75 | Collection of book illustrations | 
  [arts.aob.0076.xml](355.xml) | arts.aob.0076 | AOB 76 | Collection of Twentieth-Century Graphic Art | 
  [arts.aob.0077.xml](356.xml) | arts.aob.0077 | AOB 77 | Collection of Nineteenth-Century Graphic Art | 
+ [arts.aob.0008.xml](357.xml) | arts.aob.0008 | AOB 8 | Richard Minsky archive | 
  [arts.aob.0080.xml](358.xml) | arts.aob.0080 | AOB 80 | Collection of student printing | 
  [arts.aob.0082.xml](359.xml) | arts.aob.0082 | AOB 82 | Collection of Japanese prints | 
  [arts.aob.0009.xml](361.xml) | arts.aob.0009 | AOB 9 | Carl Purington Rollins papers | 
