@@ -226,6 +226,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.clifford.xml](765.xml) | beinecke.clifford | GEN MSS 568 | Mrs. W. K. Clifford papers | 
  [beinecke.beineckefam.xml](766.xml) | beinecke.beineckefam | GEN MSS 570 | Beinecke family papers | 
  [beinecke.amichai.xml](767.xml) | beinecke.amichai | GEN MSS 572 | Yehuda Amichai papers | 
+ [beinecke.berbcoll.xml](768.xml) | beinecke.berbcoll | GEN MSS 573 | Nina Berberova collection | 
  [beinecke.bradyhandy.xml](769.xml) | beinecke.bradyhandy | GEN MSS 580 | Mathew B. Brady and Levin Corbin Handy Photographic Studios Collection | 
  [beinecke.greb.xml](770.xml) | beinecke.greb | GEN MSS 589 | Alyce Batchelder Collection of George Grebenstchikoff | 
  [beinecke.lmanian.xml](771.xml) | beinecke.lmanian | GEN MSS 590 | Photographs of Washington, D.C., and New Haven, Connecticut. | 
@@ -288,12 +289,14 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.daggettcouey.xml](830.xml) | beinecke.daggettcouey | GEN MSS 767 | Daggett-Couey family papers | 
  [beinecke.sassoon.xml](831.xml) | beinecke.sassoon | GEN MSS 768 | Siegfried Sassoon papers | 
  [beinecke.golding.xml](832.xml) | beinecke.golding | GEN MSS 77 | Louis Golding papers | 
+ [beinecke.kirkup.xml](833.xml) | beinecke.kirkup | GEN MSS 773 | James Kirkup papers | 
  [beinecke.massie.xml](834.xml) | beinecke.massie | GEN MSS 775 | Robert K. Massie papers relating to Nicholas and Alexandra | 
  [beinecke.eisner.xml](835.xml) | beinecke.eisner | GEN MSS 778 | Dorothy Eisner papers | 
  [beinecke.bagnold.xml](836.xml) | beinecke.bagnold | GEN MSS 78 | Enid Bagnold papers | 
  [beinecke.lbailey.xml](837.xml) | beinecke.lbailey | GEN MSS 787 | Laura Bailey collection of gender and transgender materials | 
  [beinecke.bissell.xml](838.xml) | beinecke.bissell | GEN MSS 788 | George H. Bissell papers | 
  [beinecke.lyon.xml](840.xml) | beinecke.lyon | GEN MSS 79 | William Lyon papers. | 
+ [beinecke.lord.xml](841.xml) | beinecke.lord | GEN MSS 790 | James Lord papers | 
  [beinecke.dash.xml](842.xml) | beinecke.dash | GEN MSS 792 | Robert Dash papers | 
  [beinecke.phillips.xml](843.xml) | beinecke.phillips | GEN MSS 793 | Caryl Phillips papers | 
  [beinecke.knott.xml](844.xml) | beinecke.knott | GEN MSS 794 | Frederick Knott papers | 
@@ -416,6 +419,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.himes.xml](976.xml) | beinecke.himes | JWJ MSS 42 | Chester Himes papers | 
  [beinecke.adams.xml](977.xml) | beinecke.adams | JWJ MSS 48 | R. A. (Revels Alcorn) Adams papers | 
  [beinecke.pubsim.xml](979.xml) | beinecke.pubsim | JWJ MSS 54 | Randolph Linsly Simpson African-American Collection | 
+ [beinecke.granger.xml](980.xml) | beinecke.granger | JWJ MSS 58 | Lester Blackwell Granger papers | 
  [beinecke.fowler.xml](981.xml) | beinecke.fowler | JWJ MSS 59 | Manet Harrison Fowler and Manet Helen Fowler papers | 
  [beinecke.bontemps.xml](982.xml) | beinecke.bontemps | JWJ MSS 6 | Arna Bontemps Collection | 
  [beinecke.mcadoo.xml](983.xml) | beinecke.mcadoo | JWJ MSS 60 | Orpheus M. McAdoo and Mattie Allen McAdoo papers | 
@@ -471,6 +475,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.steadwf.xml](1039.xml) | beinecke.steadwf | OSB MSS 158 | William Force Stead papers | 
  [beinecke.micklew.xml](1040.xml) | beinecke.micklew | OSB MSS 159 | William Julius Mickle papers | 
  [beinecke.copperplates.xml](1041.xml) | beinecke.copperplates | OSB MSS 160 | Copper engraving plates of English personalities | 
+ [beinecke.bourdillon.xml](1043.xml) | beinecke.bourdillon | OSB MSS 165 | Francis William Bourdillon collection | 
  [beinecke.dwing.xml](1044.xml) | beinecke.dwing | OSB MSS 166 | Donald Wing papers | 
  [beinecke.poas.xml](1045.xml) | beinecke.poas | OSB MSS 167 | Poems on affairs of state records | 
  [beinecke.clintonp.xml](1046.xml) | beinecke.clintonp | OSB MSS 168 | Clinton papers | 
@@ -689,6 +694,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.litwack.xml](1292.xml) | beinecke.litwack | WA MSS S-2616 | Leon F. Litwack collection of Berkeley, California, protest literature | 
  [beinecke.advertisements.xml](1293.xml) | beinecke.advertisements | WA MSS S-2622 | Collection of advertisements that depict American history. | 
  [beinecke.daviesscroggie.xml](1294.xml) | beinecke.daviesscroggie | WA MSS S-2627 | Davies/Scroggie Collection of White Pass and Yukon Documents and Ephemera | 
+ [beinecke.cohenlk.xml](1295.xml) | beinecke.cohenlk | WA MSS S-2635 | Lucy Kramer Cohen papers | 
  [beinecke.jonesss.xml](1296.xml) | beinecke.jonesss | WA MSS S-2636 | Solomon Sir Jones films | 
  [beinecke.lamarh.xml](1297.xml) | beinecke.lamarh | WA MSS S-2639 | Howard Roberts Lamar papers | 
  [beinecke.kaganphotos.xml](1298.xml) | beinecke.kaganphotos | WA MSS S-2640 | Paul Kagan photographs of utopian communities and personal papers | 
@@ -711,6 +717,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ruger.xml](1315.xml) | beinecke.ruger | WA MSS S-2699 | Thomas Howard Ruger papers | 
  [beinecke.ttwilliams.xml](1316.xml) | beinecke.ttwilliams | WA MSS S-2700 | Terry Tempest Williams papers | 
  [beinecke.dodge.xml](1317.xml) | beinecke.dodge | WA MSS S-2701 | Adee Dodge papers | 
+ [beinecke.neworleans.xml](1318.xml) | beinecke.neworleans | WA MSS S-2702 | Imagining New Orleans Oral History Project collection | 
  [beinecke.northwest.xml](1319.xml) | beinecke.northwest | WA MSS S-2704 | Northwestern Pacific Railroad Company records | 
  [beinecke.greyz.xml](1320.xml) | beinecke.greyz | WA MSS S-2705 | Betty Zane Grosso collection of Zane and Dolly Grey papers | 
  [beinecke.perkinsgc.xml](1321.xml) | beinecke.perkinsgc | WA MSS S-2706 | George Clement Perkins papers | 
