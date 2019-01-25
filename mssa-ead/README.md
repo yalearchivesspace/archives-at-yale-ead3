@@ -2843,6 +2843,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1148.xml](10407.xml) | mssa.ru.1148 | RU 1148 | Freshman Outdoor Orientation Trips, records | 
  [mssa.ru.1149.xml](10653.xml) | mssa.ru.1149 | RU 1149 | Yale Club of Hong Kong | 
  [mssa.ms.2074.xml](10658.xml) | mssa.ms.2074 | MS 2074 | The Bartos Company records | 
+ [mssa.ms.2015.xml](10659.xml) | mssa.ms.2015 | MS 2015 | Edison Price Papers | 
  [mssa.ms.2079.xml](10660.xml) | mssa.ms.2079 | MS 2079 | María Pilar Fort Trigo diary | 
  [mssa.ms.2077.xml](10661.xml) | mssa.ms.2077 | MS 2077 | Argimiro Bosch letters | 
  [mssa.ms.2078.xml](10662.xml) | mssa.ms.2078 | MS 2078 | Lluís Baró Segimón correspondence | 
