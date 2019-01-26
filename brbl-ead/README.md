@@ -1400,4 +1400,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.steinbeckcol.xml](11257.xml) | beinecke.steinbeckcol | YCAL MSS 1191 | Collection of Film Material Relating to John Steinbeck | 
  [beinecke.galassi.xml](11289.xml) | beinecke.galassi | YCAL MSS 1197 | Jonathan Galassi papers | 
  [beinecke.garber.xml](11325.xml) | beinecke.garber | GEN MSS 756 | Bette S. Garber photographs | 
+ [beinecke.stapleton.xml](11349.xml) | beinecke.stapleton | YCAL MSS 1211 | Maureen Stapleton papers | 
 
