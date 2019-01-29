@@ -388,7 +388,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.weiss.xml](939.xml) | beinecke.weiss | GEN MSS 992 | Harvey Weiss papers | 
  [beinecke.marryat.xml](940.xml) | beinecke.marryat | GEN MSS 994 | Florence Marryat collection | 
  [beinecke.morath.xml](941.xml) | beinecke.morath | GEN MSS 996 | Inge Morath Photographs and Papers | 
- [beinecke.genmisc.xml](946.xml) | beinecke.genmisc | GEN MSS MISC | General Collection manuscript miscellany | 
+ [beinecke.genmisc.xml](946.xml) | beinecke.genmisc | GEN MSS MISC | Beinecke Rare Book and Manuscript Library General Collection manuscript miscellany | 
  [beinecke.fellowes.xml](948.xml) | beinecke.fellowes | GEN MSS VOL 421 | EXTRA-ILLUSTRATIONS IN SAMUEL JOHNSON, LETTERS TO AND FROM THE LATE SAMUEL JOHNSON... (London: A. Strahan and T. Cadell, 1788) | 
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
  [beinecke.toomer.xml](950.xml) | beinecke.toomer | JWJ MSS 1 | Jean Toomer papers | 
@@ -437,7 +437,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.becker.xml](995.xml) | beinecke.becker | JWJ MSS 95 | Richard S. Becker collection of Alex Bradford and Arthur Alexander and other papers | 
  [beinecke.rorabackc.xml](996.xml) | beinecke.rorabackc | JWJ MSS 96 | Catherine Roraback Collection of Ericka Huggins Papers | 
  [beinecke.obrien.xml](997.xml) | beinecke.obrien | JWJ MSS 99 | Peter F. O'Brien collection on African American artists | 
- [beinecke.jwjmiscellany.xml](998.xml) | beinecke.jwjmiscellany | JWJ MSS MISC | James Weldon Johnson Collection manuscript miscellany | 
+ [beinecke.jwjmiscellany.xml](998.xml) | beinecke.jwjmiscellany | JWJ MSS MISC | Beinecke Rare Book and Manuscript Library James Weldon Johnson Collection manuscript miscellany | 
  [beinecke.monteverdi.xml](1002.xml) | beinecke.monteverdi | Monteverdi 2 | Manuscripts in the Albi Rosenthal collection of Monteverdi and the birth of opera | 
  [beinecke.hilles.xml](1005.xml) | beinecke.hilles | GEN MSS 1429 | Frederick W. Hilles Manuscript Collection and Papers | 
  [beinecke.steichenfamily.xml](1006.xml) | beinecke.steichenfamily | YCAL MSS 1080 | Steichen family papers | 
@@ -1230,7 +1230,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.terner.xml](1862.xml) | beinecke.terner | YCAL MSS 970 | Jacob Y. Terner Collection of Autograph Material by American Artists | 
  [beinecke.whittier.xml](1865.xml) | beinecke.whittier | YCAL MSS 986 | John Greenleaf Whittier Collection | 
  [beinecke.fang.xml](1866.xml) | beinecke.fang | YCAL MSS 99 | Achilles Fang papers | 
- [beinecke.ycalmiscellany.xml](1868.xml) | beinecke.ycalmiscellany | YCAL MSS MISC | Yale Collection of American Literature manuscript miscellany | 
+ [beinecke.ycalmiscellany.xml](1868.xml) | beinecke.ycalmiscellany | YCAL MSS MISC | Beinecke Rare Book and Manuscript Library Yale Collection of American Literature manuscript miscellany | 
  [beinecke.broch.xml](1871.xml) | beinecke.broch | YCGL MSS 1 | Hermann Broch archive | 
  [beinecke.prints.xml](1872.xml) | beinecke.prints | YCGL MSS 11 | William A. Speck collection of prints. | 
  [beinecke.lavater.xml](1873.xml) | beinecke.lavater | YCGL MSS 13 | Lavater collection. | 
@@ -1251,7 +1251,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mann.xml](1889.xml) | beinecke.mann | YCGL MSS 5 | Thomas Mann collection | 
  [beinecke.speckmss.xml](1890.xml) | beinecke.speckmss | YCGL MSS 6 | William A. Speck collection of Goetheana : manuscripts | 
  [beinecke.speckmus.xml](1891.xml) | beinecke.speckmus | YCGL MSS 9 | William A. Speck collection of Goetheana : music | 
- [beinecke.ycglmisc.xml](1892.xml) | beinecke.ycglmisc | YCGL MSS MISC | Yale Collection of German Literature manuscript miscellany | 
+ [beinecke.ycglmisc.xml](1892.xml) | beinecke.ycglmisc | YCGL MSS MISC | Beinecke Rare Book and Manuscript Library Yale Collection of German Literature manuscript miscellany | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald writings on American utopian communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
  [beinecke.elstevenson.xml](4048.xml) | beinecke.elstevenson | GEN MSS 1517 | Edward Luther Stevenson papers | 
@@ -1400,5 +1400,4 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.steinbeckcol.xml](11257.xml) | beinecke.steinbeckcol | YCAL MSS 1191 | Collection of Film Material Relating to John Steinbeck | 
  [beinecke.galassi.xml](11289.xml) | beinecke.galassi | YCAL MSS 1197 | Jonathan Galassi papers | 
  [beinecke.garber.xml](11325.xml) | beinecke.garber | GEN MSS 756 | Bette S. Garber photographs | 
- [beinecke.stapleton.xml](11349.xml) | beinecke.stapleton | YCAL MSS 1211 | Maureen Stapleton papers | 
 
