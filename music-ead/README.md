@@ -111,6 +111,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0148.xml](11068.xml) | music.mss.0148 | MSS 148 | The Siegrun H. Folter Collection of Heinrich Funk Materials | 
  [music.mss.0147.xml](11078.xml) | music.mss.0147 | MSS 147 | The William L. Vallée Collection of Rudy Vallée Materials | 
  [music.mss.0100.xml](11285.xml) | music.mss.0100 | MSS 100 | Collection of Enrico Caruso caricatures, photographs, and other material | 
- [music.mss.0149.xml](11321.xml) | music.mss.0149 | MSS.149 | The AXA Equitable Life Insurance Company Papers Related to Charles Ives | 
+ [music.mss.0149.xml](11321.xml) | music.mss.0149 | MSS 149 | The AXA Equitable Life Insurance Company Papers Related to Charles Ives  | 
  [music.mss.0101.xml](11335.xml) | music.mss.0101 | MSS 101 | Collection of Geraldine Farrar correspondence and other material | 
+ [music.mss,0103.xml](11346.xml) | music.mss,0103 | MSS 103 | Collection on prominent figures in historical recorded sound | 
+ [music.mss.0150.xml](11352.xml) | music.mss.0150 | MSS 150 | Hugo Benioff Recordings Collection | 
 
