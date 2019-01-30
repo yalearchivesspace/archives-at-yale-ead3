@@ -1068,6 +1068,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.foote.xml](1689.xml) | beinecke.foote | YCAL MSS 607 | Mary Foote papers | 
  [beinecke.robinsonm.xml](1690.xml) | beinecke.robinsonm | YCAL MSS 609 | Marilynne Robinson papers | 
  [beinecke.riggs.xml](1691.xml) | beinecke.riggs | YCAL MSS 61 | Lynn Riggs papers | 
+ [beinecke.bellamy.xml](1692.xml) | beinecke.bellamy | YCAL MSS 610 | Joe David Bellamy papers | 
  [beinecke.arnold.xml](1693.xml) | beinecke.arnold | YCAL MSS 611 | Eve Arnold papers | 
  [beinecke.aldan.xml](1694.xml) | beinecke.aldan | YCAL MSS 613 | Daisy Aldan papers | 
  [beinecke.newell.xml](1696.xml) | beinecke.newell | YCAL MSS 62 | Peter Newell family papers | 
