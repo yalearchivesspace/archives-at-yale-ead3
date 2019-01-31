@@ -26,6 +26,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.misc.0247.xml](10551.xml) | music.misc.0247 | Misc. Ms. 247 | The Stoeckel Family Papers | 
  [music.misc.0354.xml](10552.xml) | music.misc.0354 | Misc. Ms. 354 | The John Mehegan Collection | 
  [music.misc.0293.xml](10553.xml) | music.misc.0293 | Misc. Ms. 293 | The Max Kowalski Collection | 
+ [music.misc.0176.xml](10554.xml) | music.misc.0176 | Misc. Ms. 176 | Silent Film Music | 
  [music.misc.0216.xml](10556.xml) | music.misc.0216 | Misc. Ms. 216 | Selected Compositions of Harry Benjamin Jepson ; | 
  [music.misc.0241.xml](10557.xml) | music.misc.0241 | Misc. Ms. 241 | Selected Songs of Celius Dougherty | 
  [music.misc.0174.xml](10558.xml) | music.misc.0174 | Misc. Ms. 174 | Florence Wilshire: Florence Wilshire: Muzio Clementi and his Era | 
