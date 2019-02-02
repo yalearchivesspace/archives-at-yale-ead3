@@ -605,6 +605,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.rbsage.xml](1185.xml) | beinecke.rbsage | WA MSS 414 | Rufus B. Sage papers | 
  [beinecke.strangco.xml](1188.xml) | beinecke.strangco | WA MSS 447 | James Jesse Strang collection | 
  [beinecke.walkerfam.xml](1189.xml) | beinecke.walkerfam | WA MSS 501 | Walker Family papers | 
+ [beinecke.andrewsmithgalllery.xml](1190.xml) | beinecke.andrewsmithgalllery | WA MSS S-3056 | Andrew Smith Gallery records | 
  [beinecke.littlemoses.xml](1192.xml) | beinecke.littlemoses | WA MSS S-1028 | Moses F. Little papers | 
  [beinecke.miller.xml](1195.xml) | beinecke.miller | WA MSS S-1172 | William Winlock Miller collection | 
  [beinecke.pratt.xml](1196.xml) | beinecke.pratt | WA MSS S-1174 | Richard Henry Pratt papers | 
