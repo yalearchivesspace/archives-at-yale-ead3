@@ -194,6 +194,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.vanthal.xml](730.xml) | beinecke.vanthal | GEN MSS 464 | Letters to Herbert Van Thal | 
  [beinecke.isted.xml](731.xml) | beinecke.isted | GEN MSS 465 | Barbara Isted collection of Thomas Percy | 
  [beinecke.jerrold.xml](732.xml) | beinecke.jerrold | GEN MSS 467 | Jerrold/Smith autograph collection | 
+ [beinecke.ferris.xml](733.xml) | beinecke.ferris | GEN MSS 468 | Dwight and Ferris family papers | 
  [beinecke.scheikev.xml](734.xml) | beinecke.scheikev | GEN MSS 469 | Marie Scheikévitch papers and Sicard family papers | 
  [beinecke.leesmil.xml](735.xml) | beinecke.leesmil | GEN MSS 476 | James Lees-Milne papers | 
  [beinecke.helier.xml](736.xml) | beinecke.helier | GEN MSS 477 | Lady St. Helier papers | 
@@ -269,6 +270,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.stevenson.xml](809.xml) | beinecke.stevenson | GEN MSS 684 | Robert Louis Stevenson Collection | 
  [beinecke.thom.xml](810.xml) | beinecke.thom | GEN MSS 69 | Lansing V. Hammond collection of Hugh Thomson | 
  [beinecke.driver.xml](811.xml) | beinecke.driver | GEN MSS 690 | Julia Driver collection of women in photography. | 
+ [beinecke.dakyns.xml](812.xml) | beinecke.dakyns | GEN MSS 698 | Henry Graham Dakyns Papers | 
  [beinecke.benson.xml](813.xml) | beinecke.benson | GEN MSS 699 | E. F. Benson papers | 
  [beinecke.moreno.xml](814.xml) | beinecke.moreno | GEN MSS 701 | Marguerite Moreno papers | 
  [beinecke.lawrence.xml](815.xml) | beinecke.lawrence | GEN MSS 703 | Lawrence & Wishart records | 
@@ -335,8 +337,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.brigden.xml](878.xml) | beinecke.brigden | GEN MSS 86 | Zachariah Brigden papers | 
  [beinecke.thornton.xml](879.xml) | beinecke.thornton | GEN MSS 864 | Sir Edward Thornton correspondence with the British Foreign Office | 
  [beinecke.marnold.xml](880.xml) | beinecke.marnold | GEN MSS 867 | Matthew Arnold collection | 
+ [beinecke.chopin.xml](881.xml) | beinecke.chopin | GEN MSS 868 | Henri Chopin papers | 
  [beinecke.agenda.xml](882.xml) | beinecke.agenda | GEN MSS 87 | Agenda records | 
  [beinecke.cannan.xml](883.xml) | beinecke.cannan | GEN MSS 873 | Gilbert Cannan papers | 
+ [beinecke.daulaire.xml](884.xml) | beinecke.daulaire | GEN MSS 874 | Edgar Parin and Ingri D'Aulaire Papers | 
  [beinecke.mcdouall.xml](885.xml) | beinecke.mcdouall | GEN MSS 875 | Robin McDouall correspondence | 
  [beinecke.montgomery.xml](886.xml) | beinecke.montgomery | GEN MSS 878 | James Montgomery collection | 
  [beinecke.douglas.xml](887.xml) | beinecke.douglas | GEN MSS 88 | Norman Douglas Collection | 
@@ -346,6 +350,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.deforest.xml](891.xml) | beinecke.deforest | GEN MSS 885 | John L. De Forest papers | 
  [beinecke.croom.xml](892.xml) | beinecke.croom | GEN MSS 886 | Norman Croom-Johnson diaries | 
  [beinecke.johnstonwww.xml](893.xml) | beinecke.johnstonwww | GEN MSS 887 | William Walker Whitehall Johnston photograph album of Wales, the West Indies, and the 1st West India Regiment. | 
+ [beinecke.boswell.xml](894.xml) | beinecke.boswell | GEN MSS 89 | Boswell Collection | 
  [beinecke.fraenkel.xml](895.xml) | beinecke.fraenkel | GEN MSS 891 | Michael Fraenkel papers | 
  [beinecke.baronbyron.xml](896.xml) | beinecke.baronbyron | GEN MSS 892 | George Gordon Byron, Baron Byron collection | 
  [beinecke.kiplingwatt.xml](897.xml) | beinecke.kiplingwatt | GEN MSS 893 | A. P. Watt and Son records relating to Rudyard Kipling | 
@@ -381,6 +386,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wolman.xml](928.xml) | beinecke.wolman | GEN MSS 969 | Gil J Wolman papers | 
  [beinecke.bryher.xml](929.xml) | beinecke.bryher | GEN MSS 97 | Bryher papers | 
  [beinecke.geiss.xml](932.xml) | beinecke.geiss | GEN MSS 979 | Tony Geiss papers | 
+ [beinecke.cassirer.xml](933.xml) | beinecke.cassirer | GEN MSS 98 | Ernst Cassirer papers | 
  [beinecke.johnsonguy.xml](934.xml) | beinecke.johnsonguy | GEN MSS 980 | Johnson and Campbell family papers | 
  [beinecke.tocque.xml](935.xml) | beinecke.tocque | GEN MSS 982 | Yale Tocqueville Manuscripts | 
  [beinecke.steward.xml](936.xml) | beinecke.steward | GEN MSS 987 | Samuel Steward papers | 
@@ -539,6 +545,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.nicholls.xml](1105.xml) | beinecke.nicholls | OSB MSS c 467 | Norton Nicholls papers | 
  [beinecke.manche.xml](1106.xml) | beinecke.manche | OSB MSS fc.37 | Manchester papers | 
  [beinecke.burney.xml](1107.xml) | beinecke.burney | OSB MSS fd 59 | Burney-Lear drawings collection | 
+ [beinecke.osbfile.xml](1108.xml) | beinecke.osbfile | OSB MSS FILE | Osborn Manuscript Files | 
  [beinecke.c108.xml](1110.xml) | beinecke.c108 | OSBORN C108 | "College correspondence: Letters from candidates for Parliamt. 1779" | 
  [beinecke.c195.xml](1111.xml) | beinecke.c195 | OSBORN C195 | [Album containing 165 letters from various correspondents, addressed to John Audley, Chancellor of the Archdiocese of York, and to his father, Edward Audley of Huntington] | 
  [beinecke.c205.xml](1112.xml) | beinecke.c205 | OSBORN C205 | Letters to Edward Southwell (1671-1730) and others | 
@@ -600,6 +607,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.faulk.xml](1178.xml) | beinecke.faulk | WA MSS 195 | Andrew Jackson Faulk papers | 
  [beinecke.geary.xml](1179.xml) | beinecke.geary | WA MSS 212 | John White Geary papers | 
  [beinecke.kane.xml](1180.xml) | beinecke.kane | WA MSS 279 | Thomas Leiper Kane papers | 
+ [beinecke.clark.xml](1181.xml) | beinecke.clark | WA MSS 303-304 | Lewis and Clark Expedition maps and receipt | 
  [beinecke.chmason.xml](1182.xml) | beinecke.chmason | WA MSS 332 | Charles H. Mason Correspondence | 
  [beinecke.reed.xml](1184.xml) | beinecke.reed | WA MSS 399 | Silas Reed papers | 
  [beinecke.rbsage.xml](1185.xml) | beinecke.rbsage | WA MSS 414 | Rufus B. Sage papers | 
@@ -639,6 +647,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lauder.xml](1225.xml) | beinecke.lauder | WA MSS S-1317 | John Vance Lauderdale papers | 
  [beinecke.vandorn.xml](1227.xml) | beinecke.vandorn | WA MSS S-1319 | Thomas J. Van Dorn papers | 
  [beinecke.taylor.xml](1228.xml) | beinecke.taylor | WA MSS S-1321 | Clifford N. Taylor papers | 
+ [beinecke.davis.xml](1230.xml) | beinecke.davis | WA MSS S-1323 | W. W. H. Davis papers | 
  [beinecke.sherwood.xml](1231.xml) | beinecke.sherwood | WA MSS S-1324 | William Sherwood papers | 
  [beinecke.cohen.xml](1232.xml) | beinecke.cohen | WA MSS S-1325 | Felix S. Cohen papers | 
  [beinecke.howe.xml](1233.xml) | beinecke.howe | WA MSS S-1326 | Ernest Howe papers | 
@@ -647,6 +656,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.clayton.xml](1236.xml) | beinecke.clayton | WA MSS S-1355 | Joshua E. Clayton papers | 
  [beinecke.schieff.xml](1237.xml) | beinecke.schieff | WA MSS S-1401 | Schieffelin family papers | 
  [beinecke.graham.xml](1238.xml) | beinecke.graham | WA MSS S-1403 | J. D. Graham papers | 
+ [beinecke.forsyth.xml](1239.xml) | beinecke.forsyth | WA MSS S-1404 | James W. Forsyth papers | 
  [beinecke.davidson.xml](1240.xml) | beinecke.davidson | WA MSS S-1452 | George M. Davidson papers | 
  [beinecke.musquiz.xml](1241.xml) | beinecke.musquiz | WA MSS S-1482 | Luis Alberto Guajardo Collection of Músquiz, Mexico Records | 
  [beinecke.watelep.xml](1243.xml) | beinecke.watelep | WA MSS S-1593 | Western Teleplays Collection | 
@@ -687,6 +697,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.whitegr.xml](1283.xml) | beinecke.whitegr | WA MSS S-2605 | George Ritch White Diaries | 
  [beinecke.johnston.xml](1284.xml) | beinecke.johnston | WA MSS S-2606 | George F. Johnston Company records | 
  [beinecke.westfilmposter.xml](1285.xml) | beinecke.westfilmposter | WA MSS S-2607 | Western film lobby card and poster collection | 
+ [beinecke.erdoes.xml](1286.xml) | beinecke.erdoes | WA MSS S-2609 | Richard Erdoes papers | 
  [beinecke.yunative.xml](1287.xml) | beinecke.yunative | WA MSS S-2610 | Yale University Native American Alumni Oral History Project | 
  [beinecke.blair.xml](1288.xml) | beinecke.blair | WA MSS S-2611 | R. E. Blair collection of Western oil and mining investment prospectuses | 
  [beinecke.patterson.xml](1289.xml) | beinecke.patterson | WA MSS S-2612 | Stuart H. Patterson papers | 
@@ -797,6 +808,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.williamswc.xml](1406.xml) | beinecke.williamswc | YCAL MSS 116 | William Carlos Williams papers | 
  [beinecke.collins.xml](1407.xml) | beinecke.collins | YCAL MSS 12 | Seward Collins papers | 
  [beinecke.boulton.xml](1408.xml) | beinecke.boulton | YCAL MSS 122 | Agnes Boulton collection of Eugene O'Neill | 
+ [beinecke.eopapers.xml](1409.xml) | beinecke.eopapers | YCAL MSS 123 | Eugene O'Neill papers | 
  [beinecke.eocoll.xml](1410.xml) | beinecke.eocoll | YCAL MSS 124 | Eugene O'Neill collection | 
  [beinecke.bry.xml](1411.xml) | beinecke.bry | YCAL MSS 125 | Lois Williams Bry collection of Eugene O'Neill, Jr. | 
  [beinecke.eojr.xml](1412.xml) | beinecke.eojr | YCAL MSS 126 | Eugene O'Neill, Jr. collection | 
@@ -830,6 +842,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.kbwilder.xml](1441.xml) | beinecke.kbwilder | YCAL MSS 18 | Katharine Buell Wilder family papers | 
  [beinecke.esquire.xml](1442.xml) | beinecke.esquire | YCAL MSS 180 | Esquire correspondence concerning The question of Ezra Pound | 
  [beinecke.pndmisc.xml](1443.xml) | beinecke.pndmisc | YCAL MSS 182 | Ezra Pound miscellany | 
+ [beinecke.edwilson.xml](1444.xml) | beinecke.edwilson | YCAL MSS 187 | Edmund Wilson papers | 
  [beinecke.elwilson.xml](1445.xml) | beinecke.elwilson | YCAL MSS 188 | Elena Wilson papers | 
  [beinecke.sandbrg.xml](1446.xml) | beinecke.sandbrg | YCAL MSS 19 | Sandburg-Page papers | 
  [beinecke.luhan.xml](1447.xml) | beinecke.luhan | YCAL MSS 196 | Mabel Dodge Luhan papers | 
@@ -984,6 +997,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.matthias.xml](1601.xml) | beinecke.matthias | YCAL MSS 45 | Blanche Matthias papers | 
  [beinecke.hound.xml](1602.xml) | beinecke.hound | YCAL MSS 458 | Hound & Horn records | 
  [beinecke.seeley.xml](1603.xml) | beinecke.seeley | YCAL MSS 459 | George H. Seeley papers and photographs | 
+ [beinecke.carson.xml](1604.xml) | beinecke.carson | YCAL MSS 46 | Rachel Carson papers | 
  [beinecke.auchincl.xml](1605.xml) | beinecke.auchincl | YCAL MSS 460 | Louis Auchincloss collection | 
  [beinecke.bristed.xml](1606.xml) | beinecke.bristed | YCAL MSS 462 | Charles Astor Bristed notebooks and other material | 
  [beinecke.brush.xml](1607.xml) | beinecke.brush | YCAL MSS 463 | Katharine Brush papers | 
@@ -1066,6 +1080,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.littlefi.xml](1684.xml) | beinecke.littlefi | YCAL MSS 602 | William Horace Littlefield papers related to "Portrait Drawings of Poets, and Their Manuscripts" exhibition | 
  [beinecke.irwin.xml](1685.xml) | beinecke.irwin | YCAL MSS 603 | Will Irwin and Inez Haynes Gillmore papers | 
  [beinecke.shapiro.xml](1686.xml) | beinecke.shapiro | YCAL MSS 604 | Harvey Shapiro papers | 
+ [beinecke.corn.xml](1687.xml) | beinecke.corn | YCAL MSS 605 | Alfred Corn papers | 
  [beinecke.wallant.xml](1688.xml) | beinecke.wallant | YCAL MSS 606 | Edward Lewis Wallant papers | 
  [beinecke.foote.xml](1689.xml) | beinecke.foote | YCAL MSS 607 | Mary Foote papers | 
  [beinecke.robinsonm.xml](1690.xml) | beinecke.robinsonm | YCAL MSS 609 | Marilynne Robinson papers | 
