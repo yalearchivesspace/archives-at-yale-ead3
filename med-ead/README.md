@@ -8,6 +8,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0019.xml](476.xml) | med.ms.0019 | Ms Coll 19 | Association of Internes and Medical Students. Harvey Cushing Chapter Records | 
  [med.ms.0020.xml](477.xml) | med.ms.0020 | Ms Coll 20 | William Van Duyn Tobacco Advertisement Collection | 
  [med.ms.0021.xml](478.xml) | med.ms.0021 | Ms Coll 21 | Joan K. Jackson Diary on Stanley W. Jackson's Medical Training | 
+ [med.ms.0025.xml](479.xml) | med.ms.0025 | Ms Coll 25 | Edward Clark Streeter collection | 
+ [med.ms.0027.xml](480.xml) | med.ms.0027 | Ms Coll 27 | Iser Steiman papers | 
  [med.ms.0028.xml](481.xml) | med.ms.0028 | Ms Coll 28 | Averill A. Liebow Collection | 
  [med.ms.0029.xml](482.xml) | med.ms.0029 | Ms Coll 29 | Kristaps J. Keggi Vietnam War service papers | 
  [med.ms.0031.xml](483.xml) | med.ms.0031 | Ms Coll 31 | Helen Forbes collection on medical wives | 
@@ -29,7 +31,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0047.xml](499.xml) | med.ms.0047 | Ms Coll 47 | Edward Roth medical school notes and medical practice case books | 
  [med.ms.0049.xml](501.xml) | med.ms.0049 | Ms Coll 49 | Miscellaneous letters collection | 
  [med.ms.0050.xml](502.xml) | med.ms.0050 | Ms Coll 50 | George Alder Blumer correspondence | 
+ [med.ms.0051.xml](503.xml) | med.ms.0051 | Ms Coll 51 | Ashley W. Oughterson collection | 
  [med.ms.0006.xml](504.xml) | med.ms.0006 | Ms Coll 6 | Peter Parker collection | 
+ [med.ms.0007.xml](505.xml) | med.ms.0007 | Ms Coll 7 | Madeline Earle Stanton correspondence | 
+ [med.ms.0008.xml](506.xml) | med.ms.0008 | Ms Coll 8 | Stephen Henry Bronson collection | 
  [med.pam.0005.xml](507.xml) | med.pam.0005 | Pam Coll 5 | Sheet music collection on medical themes | 
  [med.pam.0006.xml](508.xml) | med.pam.0006 | Pam Coll 6 | Medical trade card collection | 
  [med.pam.0003.xml](5273.xml) | med.pam.0003 | Pam Coll 3 | Patent medicine almanacs | 
@@ -45,6 +50,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0058.xml](5890.xml) | med.ms.0058 | Ms Coll 58 | Dryden P. Morse papers | 
  [med.pam.0010.xml](10789.xml) | med.pam.0010 | Pam Coll 10 | Cancer "cures" collection | 
  [med.ms.0059.xml](10832.xml) | med.ms.0059 | Ms Coll 59 | James Augustine Haran papers | 
+ [med.ms.0060.xml](11034.xml) | med.ms.0060 | Ms Coll 60 | Medical illustrations for Harvey Cushing by Mildred Codding and others | 
  [med.ms.0061.xml](11039.xml) | med.ms.0061 | Ms Coll 61 | Robert Bogdan Disability Collection | 
  [med.ms.0062.xml](11208.xml) | med.ms.0062 | Ms Coll 62 | James H. Etheridge and family collection | 
 
