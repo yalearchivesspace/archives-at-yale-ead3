@@ -39,6 +39,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lang.xml](555.xml) | beinecke.lang | GEN MSS 1109 | Andrew Lang collection | 
  [beinecke.hardy.xml](556.xml) | beinecke.hardy | GEN MSS 111 | Richard L. Purdy Collection of Thomas Hardy | 
  [beinecke.johnsona.xml](557.xml) | beinecke.johnsona | GEN MSS 1110 | Allen Johnson correspondence relating to the Chronicles of America Series | 
+ [beinecke.joyce.xml](559.xml) | beinecke.joyce | GEN MSS 112 | James Joyce collection | 
  [beinecke.marshallj.xml](560.xml) | beinecke.marshallj | GEN MSS 1120 | Joseph Head Marshall papers | 
  [beinecke.zerbe.xml](561.xml) | beinecke.zerbe | GEN MSS 1122 | Jerome Zerbe photographs and papers | 
  [beinecke.whitneywd.xml](562.xml) | beinecke.whitneywd | GEN MSS 1125 | William Dwight Whitney papers relating to the Atharvaveda | 
@@ -122,9 +123,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.winthrop.xml](651.xml) | beinecke.winthrop | GEN MSS 274 | Winthrop family papers | 
  [beinecke.wilde.xml](652.xml) | beinecke.wilde | GEN MSS 275 | Oscar Wilde collection | 
  [beinecke.tennyson.xml](653.xml) | beinecke.tennyson | GEN MSS 276 | Alfred Tennyson collection | 
+ [beinecke.galswor.xml](654.xml) | beinecke.galswor | GEN MSS 278 | John Galsworthy collection | 
  [beinecke.shaw.xml](655.xml) | beinecke.shaw | GEN MSS 279 | George Bernard Shaw collection | 
  [beinecke.somervil.xml](656.xml) | beinecke.somervil | GEN MSS 28 | Elizabeth Hudson collection of E. Œ. Somerville and personal papers | 
  [beinecke.shields.xml](657.xml) | beinecke.shields | GEN MSS 281 | Frederic Shields collection | 
+ [beinecke.garrick.xml](658.xml) | beinecke.garrick | GEN MSS 282 | David Garrick collection | 
  [beinecke.thirkell.xml](659.xml) | beinecke.thirkell | GEN MSS 283 | Angela Mackail Thirkell collection | 
  [beinecke.sheridan.xml](660.xml) | beinecke.sheridan | GEN MSS 284 | Richard Brinsley Sheridan collection | 
  [beinecke.gissing.xml](661.xml) | beinecke.gissing | GEN MSS 286 | George Gissing collection | 
@@ -163,6 +166,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lane.xml](697.xml) | beinecke.lane | GEN MSS 338 | John Edward Lane papers | 
  [beinecke.fisk.xml](698.xml) | beinecke.fisk | GEN MSS 342 | Earl E. Fisk papers | 
  [beinecke.audv.xml](699.xml) | beinecke.audv | GEN MSS 343 | Victor Gifford Audubon collection | 
+ [beinecke.graffign.xml](700.xml) | beinecke.graffign | GEN MSS 353 | Graffigny papers | 
  [beinecke.tink.xml](701.xml) | beinecke.tink | GEN MSS 354 | Chauncey Brewster Tinker papers | 
  [beinecke.cad.xml](702.xml) | beinecke.cad | GEN MSS 355 | Ernst Cassirer papers : addition | 
  [beinecke.tinklet.xml](703.xml) | beinecke.tinklet | GEN MSS 359 | Chauncey Brewster Tinker letters and manuscripts | 
@@ -210,6 +214,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.dickson.xml](746.xml) | beinecke.dickson | GEN MSS 511 | Frederick Stoever Dickson collection regarding Henry Fielding | 
  [beinecke.osborne.xml](747.xml) | beinecke.osborne | GEN MSS 512 | Eric Allen Osborne papers concerning In letters of red | 
  [beinecke.gombro.xml](749.xml) | beinecke.gombro | GEN MSS 515 | Witold Gombrowicz archive | 
+ [beinecke.haymarkt.xml](750.xml) | beinecke.haymarkt | GEN MSS 516 | Haymarket Affair collection | 
  [beinecke.scherer.xml](751.xml) | beinecke.scherer | GEN MSS 526 | Olga Scherer-Virski papers | 
  [beinecke.herbert.xml](752.xml) | beinecke.herbert | GEN MSS 527 | Zbigniew Herbert papers | 
  [beinecke.gorczyns.xml](753.xml) | beinecke.gorczyns | GEN MSS 528 | Renata Gorczynski papers relating to Czesław Miłosz | 
@@ -297,6 +302,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bagnold.xml](836.xml) | beinecke.bagnold | GEN MSS 78 | Enid Bagnold papers | 
  [beinecke.lbailey.xml](837.xml) | beinecke.lbailey | GEN MSS 787 | Laura Bailey collection of gender and transgender materials | 
  [beinecke.bissell.xml](838.xml) | beinecke.bissell | GEN MSS 788 | George H. Bissell papers | 
+ [beinecke.gcmerriam.xml](839.xml) | beinecke.gcmerriam | GEN MSS 789 | G. & C. Merriam Company records | 
  [beinecke.lyon.xml](840.xml) | beinecke.lyon | GEN MSS 79 | William Lyon papers. | 
  [beinecke.lord.xml](841.xml) | beinecke.lord | GEN MSS 790 | James Lord papers | 
  [beinecke.dash.xml](842.xml) | beinecke.dash | GEN MSS 792 | Robert Dash papers | 
@@ -416,6 +422,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.darktown.xml](966.xml) | beinecke.darktown | JWJ MSS 158 | Currier & Ives Darktown Prints | 
  [beinecke.jobaker.xml](967.xml) | beinecke.jobaker | JWJ MSS 2 | Henry Hurford Janes-Josephine Baker collection | 
  [beinecke.baldwin.xml](968.xml) | beinecke.baldwin | JWJ MSS 21 | James Baldwin early manuscripts and papers | 
+ [beinecke.hughes.xml](969.xml) | beinecke.hughes | JWJ MSS 26 | Langston Hughes papers | 
  [beinecke.mckay.xml](970.xml) | beinecke.mckay | JWJ MSS 27 | Claude McKay collection | 
  [beinecke.hughesar.xml](971.xml) | beinecke.hughesar | JWJ MSS 28 | Langston Hughes collection | 
  [beinecke.wright.xml](972.xml) | beinecke.wright | JWJ MSS 3 | Richard Wright papers | 
@@ -481,6 +488,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.steadwf.xml](1039.xml) | beinecke.steadwf | OSB MSS 158 | William Force Stead papers | 
  [beinecke.micklew.xml](1040.xml) | beinecke.micklew | OSB MSS 159 | William Julius Mickle papers | 
  [beinecke.copperplates.xml](1041.xml) | beinecke.copperplates | OSB MSS 160 | Copper engraving plates of English personalities | 
+ [beinecke.greg.xml](1042.xml) | beinecke.greg | OSB MSS 162 | Walter Wilson Greg papers | 
  [beinecke.bourdillon.xml](1043.xml) | beinecke.bourdillon | OSB MSS 165 | Francis William Bourdillon collection | 
  [beinecke.dwing.xml](1044.xml) | beinecke.dwing | OSB MSS 166 | Donald Wing papers | 
  [beinecke.poas.xml](1045.xml) | beinecke.poas | OSB MSS 167 | Poems on affairs of state records | 
@@ -615,6 +623,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.walkerfam.xml](1189.xml) | beinecke.walkerfam | WA MSS 501 | Walker Family papers | 
  [beinecke.andrewsmithgalllery.xml](1190.xml) | beinecke.andrewsmithgalllery | WA MSS S-3056 | Andrew Smith Gallery records | 
  [beinecke.littlemoses.xml](1192.xml) | beinecke.littlemoses | WA MSS S-1028 | Moses F. Little papers | 
+ [beinecke.gran.xml](1193.xml) | beinecke.gran | WA MSS S-1120 | Granville Stuart papers | 
+ [beinecke.jesuits.xml](1194.xml) | beinecke.jesuits | WA MSS S-1143 | Jesuit Missionary Collection | 
  [beinecke.miller.xml](1195.xml) | beinecke.miller | WA MSS S-1172 | William Winlock Miller collection | 
  [beinecke.pratt.xml](1196.xml) | beinecke.pratt | WA MSS S-1174 | Richard Henry Pratt papers | 
  [beinecke.emory.xml](1198.xml) | beinecke.emory | WA MSS S-1187 | William Hemsley Emory papers | 
@@ -932,6 +942,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.okeeffefndn.xml](1533.xml) | beinecke.okeeffefndn | YCAL MSS 342 | Georgia O'Keeffe Foundation records | 
  [beinecke.civicrep.xml](1534.xml) | beinecke.civicrep | YCAL MSS 343 | Civic Repertory Theatre records | 
  [beinecke.chimera.xml](1535.xml) | beinecke.chimera | YCAL MSS 35 | Chimera papers | 
+ [beinecke.heyen.xml](1536.xml) | beinecke.heyen | YCAL MSS 352 | William Heyen Papers | 
  [beinecke.mellquist.xml](1537.xml) | beinecke.mellquist | YCAL MSS 353 | Jerome Mellquist papers | 
  [beinecke.tiroff.xml](1538.xml) | beinecke.tiroff | YCAL MSS 358 | James Tiroff notebooks and art works | 
  [beinecke.hovhaness.xml](1539.xml) | beinecke.hovhaness | YCAL MSS 359 | Alan Hovhaness letters to Judith Malina | 
@@ -1142,6 +1153,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.percival.xml](1747.xml) | beinecke.percival | YCAL MSS 703 | James Gates Percival collection | 
  [beinecke.mcclatchy.xml](1748.xml) | beinecke.mcclatchy | YCAL MSS 705 | J. D. McClatchy papers | 
  [beinecke.louden.xml](1749.xml) | beinecke.louden | YCAL MSS 706 | Elizabeth Hacker Valentine Louden papers | 
+ [beinecke.hersey.xml](1750.xml) | beinecke.hersey | YCAL MSS 707 | John Hersey papers | 
  [beinecke.jespersen.xml](1751.xml) | beinecke.jespersen | YCAL MSS 708 | Ruth Jespersen papers | 
  [beinecke.kellner.xml](1752.xml) | beinecke.kellner | YCAL MSS 709 | Bruce Kellner papers | 
  [beinecke.little.xml](1753.xml) | beinecke.little | YCAL MSS 711 | Little Square Review Records | 
@@ -1417,4 +1429,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.sedaris.xml](11201.xml) | beinecke.sedaris | GEN MSS 1515 | David Sedaris papers | 
  [beinecke.steinbeckcol.xml](11257.xml) | beinecke.steinbeckcol | YCAL MSS 1191 | Collection of Film Material Relating to John Steinbeck | 
  [beinecke.garber.xml](11325.xml) | beinecke.garber | GEN MSS 756 | Bette S. Garber photographs | 
+ [beinecke.liberace.xml](11345.xml) | beinecke.liberace | GEN MSS 1528 | Collection of materials relating to Liberace | 
 
