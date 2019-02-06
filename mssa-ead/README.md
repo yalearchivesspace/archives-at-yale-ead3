@@ -2478,8 +2478,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0160.xml](4462.xml) | mssa.ms.0160 | MS 160 | Harvey Williams Cushing Papers in the Yale University Library | 
  [mssa.ms.0421.xml](4463.xml) | mssa.ms.0421 | MS 421 | James Harvey Rogers papers | 
  [mssa.ms.0712.xml](4464.xml) | mssa.ms.0712 | MS 712 | Franklin Bowditch Dexter papers | 
+ [mssa.ms.0749.xml](4465.xml) | mssa.ms.0749 | MS 749 | Charles-Edward Amory Winslow papers | 
  [mssa.ms.0762.xml](4466.xml) | mssa.ms.0762 | MS 762 | Alexander Mordecai Bickel papers | 
  [mssa.ms.1039.xml](4467.xml) | mssa.ms.1039 | MS 1039 | Isidore Sydney Falk papers | 
+ [mssa.ms.1236.xml](4468.xml) | mssa.ms.1236 | MS 1236 | John Farquhar Fulton papers | 
  [mssa.ms.1868.xml](4469.xml) | mssa.ms.1868 | MS 1868 | Arabic film poster collection | 
  [mssa.ms.0794.xml](4470.xml) | mssa.ms.0794 | MS 794 | Lars Onsager papers | 
  [mssa.ms.0804.xml](4471.xml) | mssa.ms.0804 | MS 804 | Kent State collection | 
@@ -2509,6 +2511,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1499.xml](4496.xml) | mssa.ms.1499 | MS 1499 | E. S. Reddy papers | 
  [mssa.ms.1770.xml](4497.xml) | mssa.ms.1770 | MS 1770 | Neal E. Miller papers | 
  [mssa.ms.1830.xml](4498.xml) | mssa.ms.1830 | MS 1830 | Christopher Phillips papers | 
+ [mssa.ms.0212.xml](4500.xml) | mssa.ms.0212 | MS 212 | Irving Fisher papers | 
  [mssa.ms.0441.xml](4501.xml) | mssa.ms.0441 | MS 441 | Charles Seymour papers | 
  [mssa.ms.1436.xml](4502.xml) | mssa.ms.1436 | MS 1436 | C. Vann Woodward papers | 
  [mssa.ms.1465.xml](4503.xml) | mssa.ms.1465 | MS 1465 | Gregory Breit papers | 
@@ -2529,6 +2532,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1814.xml](4521.xml) | mssa.ms.1814 | MS 1814 | New Haven Redevelopment Agency records | 
  [mssa.ms.1836.xml](4522.xml) | mssa.ms.1836 | MS 1836 | Bruce Cratsley papers | 
  [mssa.ms.1043.xml](4523.xml) | mssa.ms.1043 | MS 1043 | Harold Dwight Lasswell papers | 
+ [mssa.ms.1171.xml](4524.xml) | mssa.ms.1171 | MS 1171 | Caldwell B. Esselstyn papers | 
  [mssa.ms.1370.xml](4525.xml) | mssa.ms.1370 | MS 1370 | Trigant Burrow papers | 
  [mssa.ms.1488.xml](4526.xml) | mssa.ms.1488 | MS 1488 | Brand Blanshard papers | 
  [mssa.ms.1665.xml](4527.xml) | mssa.ms.1665 | MS 1665 | William Sloane Coffin, Jr. papers | 
@@ -2560,6 +2564,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0125.xml](4555.xml) | mssa.ru.0125 | RU 125 | Yale Summer and Special Programs student records | 
  [mssa.ms.0466.xml](4556.xml) | mssa.ms.0466 | MS 466 | Edward Mandell House papers | 
  [mssa.ms.0628.xml](4557.xml) | mssa.ms.0628 | MS 628 | Chester Bowles papers | 
+ [mssa.ms.0263.xml](4558.xml) | mssa.ms.0263 | MS 263 | Ross Granville Harrison papers | 
  [mssa.ru.0587.xml](4559.xml) | mssa.ru.0587 | RU 587 | Yale College student records | 
  [mssa.ru.0205.xml](4560.xml) | mssa.ru.0205 | RU 205 | School of Nursing, Yale University, records | 
  [mssa.ms.1351.xml](4562.xml) | mssa.ms.1351 | MS 1351 | Pamphlet collection | 
