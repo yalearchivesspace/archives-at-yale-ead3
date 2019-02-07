@@ -451,6 +451,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.rorabackc.xml](996.xml) | beinecke.rorabackc | JWJ MSS 96 | Catherine Roraback Collection of Ericka Huggins Papers | 
  [beinecke.obrien.xml](997.xml) | beinecke.obrien | JWJ MSS 99 | Peter F. O'Brien collection on African American artists | 
  [beinecke.jwjmiscellany.xml](998.xml) | beinecke.jwjmiscellany | JWJ MSS MISC | James Weldon Johnson Collection manuscript miscellany | 
+ [beinecke.jwjsmall.xml](999.xml) | beinecke.jwjsmall | JWJ MSS SMALL COLLEC | Small Collections in the James Weldon Johnson collection | 
  [beinecke.monteverdi.xml](1002.xml) | beinecke.monteverdi | Monteverdi 2 | Manuscripts in the Albi Rosenthal collection of Monteverdi and the birth of opera | 
  [beinecke.hilles.xml](1005.xml) | beinecke.hilles | GEN MSS 1429 | Frederick W. Hilles Manuscript Collection and Papers | 
  [beinecke.steichenfamily.xml](1006.xml) | beinecke.steichenfamily | YCAL MSS 1080 | Steichen family papers | 
@@ -610,6 +611,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fd49.xml](1163.xml) | beinecke.fd49 | OSBORN FD49 | [Engravings]. | 
  [beinecke.tankas.xml](1170.xml) | beinecke.tankas | Tibet MSS 62 | Tanka collection | 
  [beinecke.needham.xml](1171.xml) | beinecke.needham | Tibet MSS 64 | Wesley E. Needham Papers | 
+ [beinecke.micro.xml](1173.xml) | beinecke.micro | WA MFM 1-6 | Women in the West: Microfilm Sets | 
  [beinecke.curtis.xml](1174.xml) | beinecke.curtis | WA MSS 122-125 | Samuel Ryan Curtis Papers | 
  [beinecke.emmonsgf.xml](1176.xml) | beinecke.emmonsgf | WA MSS 166-169 | George F. Emmons papers | 
  [beinecke.faulk.xml](1178.xml) | beinecke.faulk | WA MSS 195 | Andrew Jackson Faulk papers | 
@@ -689,6 +691,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.kern.xml](1264.xml) | beinecke.kern | WA MSS S-2395 | Edward Meyer Kern and Richard H. Kern papers | 
  [beinecke.hobart.xml](1265.xml) | beinecke.hobart | WA MSS S-2396 | Carroll T. Hobart papers | 
  [beinecke.choctaw.xml](1266.xml) | beinecke.choctaw | WA MSS S-2397 | J. L. Hargett collection of Choctaw Nation papers | 
+ [beinecke.levy.xml](1267.xml) | beinecke.levy | WA MSS S-2406 | Jacques E. Levy research collection on Cesar Chavez | 
  [beinecke.swain.xml](1268.xml) | beinecke.swain | WA MSS S-2408 | J. S. Holliday research collection on the William Swain family | 
  [beinecke.customs.xml](1269.xml) | beinecke.customs | WA MSS S-2436 | San Francisco Custom House records | 
  [beinecke.swift.xml](1270.xml) | beinecke.swift | WA MSS S-2437 | Nancy Tatnall Fuller Research Collection on Joseph Swift | 
@@ -781,6 +784,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.nolan.xml](1361.xml) | beinecke.nolan | WA MSS S-344 | Henry Raup Wagner collection of Philip Nolan papers | 
  [beinecke.mier.xml](1362.xml) | beinecke.mier | WA MSS S-497 | Mier Expedition Papers | 
  [beinecke.wa498.xml](1363.xml) | beinecke.wa498 | WA MSS S-498-500 | Thomas W. Streeter collection of Texas manuscripts | 
+ [beinecke.jwgeary.xml](1364.xml) | beinecke.jwgeary | WA MSS S-585 | John White Geary Mexican War papers | 
  [beinecke.guajardo.xml](1365.xml) | beinecke.guajardo | WA MSS S-668 | Luis Alberto Guajardo Papers on the History of Coahuila | 
  [beinecke.wheeler.xml](1366.xml) | beinecke.wheeler | WA MSS S-744 | Geographical surveys west of the 100th meridian (U.S.) papers | 
  [beinecke.field.xml](1367.xml) | beinecke.field | WA MSS S-897 | William Clark field notes | 
