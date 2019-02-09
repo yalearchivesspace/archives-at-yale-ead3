@@ -90,6 +90,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.edwards.xml](614.xml) | beinecke.edwards | GEN MSS 151 | Jonathan Edwards collection | 
  [beinecke.boswart.xml](615.xml) | beinecke.boswart | GEN MSS 153 | Boswell collection supplement | 
  [beinecke.champney.xml](616.xml) | beinecke.champney | GEN MSS 156 | Basil Champneys correspondence | 
+ [beinecke.stepun.xml](617.xml) | beinecke.stepun | GEN MSS 172 | Fedor Stepun papers | 
  [beinecke.berb.xml](618.xml) | beinecke.berb | GEN MSS 182 | Nina Berberova papers | 
  [beinecke.aide.xml](619.xml) | beinecke.aide | GEN MSS 207 | Hamilton Aïdé papers | 
  [beinecke.bradbury.xml](620.xml) | beinecke.bradbury | GEN MSS 210 | William Bradbury papers | 
@@ -103,6 +104,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.drinkwat.xml](628.xml) | beinecke.drinkwat | GEN MSS 234 | John Drinkwater collection | 
  [beinecke.fitzgera.xml](629.xml) | beinecke.fitzgera | GEN MSS 235 | Edward FitzGerald collection | 
  [beinecke.liebert.xml](630.xml) | beinecke.liebert | GEN MSS 237 | Herman W. Liebert manuscript collection | 
+ [beinecke.serge.xml](631.xml) | beinecke.serge | GEN MSS 238 | Victor Serge papers | 
+ [beinecke.westart.xml](632.xml) | beinecke.westart | GEN MSS 239 | Rebecca West collection | 
  [beinecke.westhut.xml](633.xml) | beinecke.westhut | GEN MSS 240 | G. Evelyn Hutchinson papers relating to Rebecca West | 
  [beinecke.hodgson.xml](634.xml) | beinecke.hodgson | GEN MSS 245 | Ralph Hodgson papers | 
  [beinecke.gate.xml](635.xml) | beinecke.gate | GEN MSS 250 | Ethel May Gate papers, 1912-1940. | 
@@ -182,6 +185,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hugo.xml](710.xml) | beinecke.hugo | GEN MSS 412 | Victor Hugo collection | 
  [beinecke.wag.xml](711.xml) | beinecke.wag | GEN MSS 415 | David Wagstaff papers | 
  [beinecke.oencraig.xml](712.xml) | beinecke.oencraig | GEN MSS 424 | Donald Oenslager collection of Edward Gordon Craig | 
+ [beinecke.trefusis.xml](713.xml) | beinecke.trefusis | GEN MSS 427 | Violet Trefusis papers | 
  [beinecke.sackvill.xml](714.xml) | beinecke.sackvill | GEN MSS 428 | Vita Sackville-West papers relating to Violet Trefusis | 
  [beinecke.craig.xml](715.xml) | beinecke.craig | GEN MSS 433 | Edward Gordon Craig collection | 
  [beinecke.cunard.xml](716.xml) | beinecke.cunard | GEN MSS 438 | Nancy Cunard collection | 
@@ -553,6 +557,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bruce.xml](1096.xml) | beinecke.bruce | OSB MSS 73 | John Bruce collection | 
  [beinecke.maryham.xml](1097.xml) | beinecke.maryham | OSB MSS 75 | Lady Mary Hamilton papers | 
  [beinecke.wkent.xml](1098.xml) | beinecke.wkent | OSB MSS 78 | Charles Kent papers | 
+ [beinecke.simpson.xml](1099.xml) | beinecke.simpson | OSB MSS 8 | Percy Simpson papers | 
  [beinecke.digby.xml](1100.xml) | beinecke.digby | OSB MSS 81 | Kenelm Henry Digby collection | 
  [beinecke.barring.xml](1101.xml) | beinecke.barring | OSB MSS 85 | Samuel Barrington letterbooks | 
  [beinecke.perfam.xml](1102.xml) | beinecke.perfam | OSB MSS 88 | Percy family papers | 
@@ -628,6 +633,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.chmason.xml](1182.xml) | beinecke.chmason | WA MSS 332 | Charles H. Mason Correspondence | 
  [beinecke.reed.xml](1184.xml) | beinecke.reed | WA MSS 399 | Silas Reed papers | 
  [beinecke.rbsage.xml](1185.xml) | beinecke.rbsage | WA MSS 414 | Rufus B. Sage papers | 
+ [beinecke.stevens.xml](1186.xml) | beinecke.stevens | WA MSS 442-445 | Isaac Ingalls Stevens papers | 
  [beinecke.strangco.xml](1188.xml) | beinecke.strangco | WA MSS 447 | James Jesse Strang collection | 
  [beinecke.walkerfam.xml](1189.xml) | beinecke.walkerfam | WA MSS 501 | Walker Family papers | 
  [beinecke.andrewsmithgalllery.xml](1190.xml) | beinecke.andrewsmithgalllery | WA MSS S-3056 | Andrew Smith Gallery records | 
@@ -698,6 +704,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bond.xml](1258.xml) | beinecke.bond | WA MSS S-2358 | Marshall Bond papers | 
  [beinecke.ball.xml](1259.xml) | beinecke.ball | WA MSS S-2359 | M. D. Ball papers | 
  [beinecke.stenzel.xml](1260.xml) | beinecke.stenzel | WA MSS S-2368 | Franz R. and Kathryn M. Stenzel collection of western American art | 
+ [beinecke.stenzelr.xml](1261.xml) | beinecke.stenzelr | WA MSS S-2369 | Franz R. and Kathryn M. Stenzel Research Files on Western American Art | 
  [beinecke.wildschu.xml](1262.xml) | beinecke.wildschu | WA MSS S-2386 | William Wildschut papers | 
  [beinecke.folsom.xml](1263.xml) | beinecke.folsom | WA MSS S-2394 | Joseph Libbey Folsom collection | 
  [beinecke.kern.xml](1264.xml) | beinecke.kern | WA MSS S-2395 | Edward Meyer Kern and Richard H. Kern papers | 
@@ -839,6 +846,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bry.xml](1411.xml) | beinecke.bry | YCAL MSS 125 | Lois Williams Bry collection of Eugene O'Neill, Jr. | 
  [beinecke.eojr.xml](1412.xml) | beinecke.eojr | YCAL MSS 126 | Eugene O'Neill, Jr. collection | 
  [beinecke.lfbaum.xml](1413.xml) | beinecke.lfbaum | YCAL MSS 13 | L. Frank Baum collection | 
+ [beinecke.wescott.xml](1414.xml) | beinecke.wescott | YCAL MSS 134 | Glenway Wescott papers | 
  [beinecke.mwheeler.xml](1415.xml) | beinecke.mwheeler | YCAL MSS 136 | Monroe Wheeler papers | 
  [beinecke.gplscrap.xml](1416.xml) | beinecke.gplscrap | YCAL MSS 139 | George Platt Lynes scrapbooks. | 
  [beinecke.curtiss.xml](1417.xml) | beinecke.curtiss | YCAL MSS 14 | Mina Kirstein Curtiss papers | 
@@ -1000,6 +1008,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wharton.xml](1575.xml) | beinecke.wharton | YCAL MSS 42 | Edith Wharton collection | 
  [beinecke.phoenix.xml](1576.xml) | beinecke.phoenix | YCAL MSS 421 | Phoenix Theatre records | 
  [beinecke.dillard.xml](1577.xml) | beinecke.dillard | YCAL MSS 422 | Annie Dillard papers | 
+ [beinecke.stephan.xml](1578.xml) | beinecke.stephan | YCAL MSS 423 | Ruth Stephan papers | 
  [beinecke.windham.xml](1579.xml) | beinecke.windham | YCAL MSS 424 | Donald Windham and Sandy Campbell papers | 
  [beinecke.saltus.xml](1580.xml) | beinecke.saltus | YCAL MSS 425 | Edgar Saltus papers | 
  [beinecke.argus.xml](1581.xml) | beinecke.argus | YCAL MSS 427 | Argus Book Shop correspondence | 
@@ -1230,6 +1239,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mencken.xml](1810.xml) | beinecke.mencken | YCAL MSS 794 | H. L. Mencken collection | 
  [beinecke.pyke.xml](1811.xml) | beinecke.pyke | YCAL MSS 798 | Set design drawings for the film Mourning Becomes Electra. | 
  [beinecke.groesbec.xml](1812.xml) | beinecke.groesbec | YCAL MSS 8 | Amy Groesbeck papers | 
+ [beinecke.whitee.xml](1813.xml) | beinecke.whitee | YCAL MSS 808 | Edmund White Papers | 
  [beinecke.talma.xml](1814.xml) | beinecke.talma | YCAL MSS 811 | Louise Talma papers | 
  [beinecke.foster.xml](1815.xml) | beinecke.foster | YCAL MSS 812 | Thomas H. Foster and Catharine Osgood Foster papers | 
  [beinecke.malanga.xml](1816.xml) | beinecke.malanga | YCAL MSS 813 | Gerard Malanga Papers | 
@@ -1294,6 +1304,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.speckephemera.xml](1883.xml) | beinecke.speckephemera | YCGL MSS 27 | William A. Speck collection of Goetheana : general ephemera | 
  [beinecke.speckmedals.xml](1884.xml) | beinecke.speckmedals | YCGL MSS 28 | William A. Speck collection of Goetheana : medals and medallions | 
  [beinecke.dimension.xml](1885.xml) | beinecke.dimension | YCGL MSS 29 | Dimension records | 
+ [beinecke.wolff.xml](1886.xml) | beinecke.wolff | YCGL MSS 3 | Kurt Wolff archive | 
  [beinecke.white.xml](1887.xml) | beinecke.white | YCGL MSS 35 | James F. White research files relating to Thomas Mann | 
  [beinecke.mayer.xml](1888.xml) | beinecke.mayer | YCGL MSS 36 | Elizabeth Mayer and Wolfgang Sauerländer papers | 
  [beinecke.mann.xml](1889.xml) | beinecke.mann | YCGL MSS 5 | Thomas Mann collection | 
@@ -1401,6 +1412,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.vanvecht.xml](10403.xml) | beinecke.vanvecht | YCAL MSS 1050 | Carl Van Vechten Papers | 
  [beinecke.ramseier.xml](10640.xml) | beinecke.ramseier | WA MSS S-3242 | Roy Edwin Ramseier papers | 
  [beinecke.delany.xml](10650.xml) | beinecke.delany | JWJ MSS 184 | Samuel R. Delany papers | 
+ [beinecke.knabb.xml](10654.xml) | beinecke.knabb | GEN MSS 1456 | Ken Knabb papers | 
  [beinecke.bory.xml](10656.xml) | beinecke.bory | GEN MSS 1460 | Jean-François Bory Papers | 
  [beinecke.plauchut.xml](10702.xml) | beinecke.plauchut | GEN MSS 1462 | Edmond Plauchut Papers | 
  [beinecke.sandm.xml](10703.xml) | beinecke.sandm | GEN MSS 1463 | Maurice Sand Papers | 
