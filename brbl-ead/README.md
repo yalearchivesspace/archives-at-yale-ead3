@@ -75,6 +75,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.carol.xml](594.xml) | beinecke.carol | GEN MSS 126 | Edward Bliss Reed carol collection | 
  [beinecke.viele.xml](595.xml) | beinecke.viele | GEN MSS 127 | Letters to Francis Vielé-Griffin | 
  [beinecke.levyvictoriana.xml](596.xml) | beinecke.levyvictoriana | GEN MSS 1280 | Charles Joseph Levy Collection of Victoriana | 
+ [beinecke.schutz.xml](598.xml) | beinecke.schutz | GEN MSS 129 | Alfred Schutz papers | 
  [beinecke.marinet.xml](599.xml) | beinecke.marinet | GEN MSS 130 | Filippo Tommaso Marinetti papers | 
  [beinecke.pequot.xml](601.xml) | beinecke.pequot | GEN MSS 1309 | Manuscripts in the Monroe, Wakeman, and Holman Collection of the Pequot Library Association | 
  [beinecke.vinlandmapfiles.xml](602.xml) | beinecke.vinlandmapfiles | GEN MSS 1319 | <title>The Vinland Map and the Tartar Relation</title>: proofs and subject files | 
@@ -701,6 +702,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.oastler.xml](1254.xml) | beinecke.oastler | WA MSS S-2162 | Frank Richard Oastler collection. | 
  [beinecke.adamsa.xml](1255.xml) | beinecke.adamsa | WA MSS S-2197 | Alexander B. Adams writings on the American West | 
  [beinecke.wilburs.xml](1256.xml) | beinecke.wilburs | WA MSS S-2350 | Susan Wilbur Jones papers | 
+ [beinecke.voyageur.xml](1257.xml) | beinecke.voyageur | WA MSS S-2357 | Davies/Scroggie collection of Canadian fur trade documents | 
  [beinecke.bond.xml](1258.xml) | beinecke.bond | WA MSS S-2358 | Marshall Bond papers | 
  [beinecke.ball.xml](1259.xml) | beinecke.ball | WA MSS S-2359 | M. D. Ball papers | 
  [beinecke.stenzel.xml](1260.xml) | beinecke.stenzel | WA MSS S-2368 | Franz R. and Kathryn M. Stenzel collection of western American art | 
