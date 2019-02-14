@@ -88,6 +88,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0013.xml](10626.xml) | music.mss.0013 | MSS 13 | The Yale School of Music D.M.A. Papers | 
  [music.mss.0046.xml](10627.xml) | music.mss.0046 | MSS 46 | Thomas de Hartmann Papers | 
  [music.mss.0034.xml](10629.xml) | music.mss.0034 | MSS 34 | The Parker Bailey Papers | 
+ [music.mss.0020.xml](10630.xml) | music.mss.0020 | MSS 20 | The Armin Loos Papers | 
  [music.mss.0079.xml](10631.xml) | music.mss.0079 | MSS 79 | The David Kraehenbuehl Papers | 
  [music.mss.0054.xml](10632.xml) | music.mss.0054 | MSS 54 | E. Robert Schmitz Papers | 
  [music.mss.0050.xml](10638.xml) | music.mss.0050 | MSS 50 | The Paul Bekker Papers | 
