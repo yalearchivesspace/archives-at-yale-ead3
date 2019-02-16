@@ -134,7 +134,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0402.xml](2027.xml) | mssa.ru.0402 | RU 402 | Lewis M. Porter, Class of 1924, Sheffield Scientific School, Yale University, memorabilia | 
  [mssa.ru.0403.xml](2028.xml) | mssa.ru.0403 | RU 403 | Vance R. Dittman, Class of 1924, Yale College, memorabilia | 
  [mssa.ru.0405.xml](2029.xml) | mssa.ru.0405 | RU 405 | Julius Cohn, Class of 1909, Yale Law School, memorabilia | 
- [mssa.ru.0406.xml](2030.xml) | mssa.ru.0406 | RU 406 | Yale athletics Sound recordings | 
  [mssa.ru.0407.xml](2031.xml) | mssa.ru.0407 | RU 407 | William W. Crawford, Class of 1938, Yale College, records concerning the University Outline series | 
  [mssa.ru.0410.xml](2032.xml) | mssa.ru.0410 | RU 410 | Arbovirus Research Unit, Department of Epidemiology and Public Health, Yale University, records | 
  [mssa.ru.0411.xml](2033.xml) | mssa.ru.0411 | RU 411 | Conversation for Bart, recorded by friends of A. Bartlett Giamatti | 
