@@ -688,6 +688,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.forsyth.xml](1239.xml) | beinecke.forsyth | WA MSS S-1404 | James W. Forsyth papers | 
  [beinecke.davidson.xml](1240.xml) | beinecke.davidson | WA MSS S-1452 | George M. Davidson papers | 
  [beinecke.musquiz.xml](1241.xml) | beinecke.musquiz | WA MSS S-1482 | Luis Alberto Guajardo Collection of Músquiz, Mexico Records | 
+ [beinecke.dehuff.xml](1242.xml) | beinecke.dehuff | WA MSS S-150 | Elizabeth Willis DeHuff Collection of American Indian Art | 
  [beinecke.watelep.xml](1243.xml) | beinecke.watelep | WA MSS S-1593 | Western Teleplays Collection | 
  [beinecke.westfilmscriptc.xml](1244.xml) | beinecke.westfilmscriptc | WA MSS S-1610 | Western filmscript collection | 
  [beinecke.wilbur.xml](1245.xml) | beinecke.wilbur | WA MSS S-1611 | George W. Wilbur family papers | 
