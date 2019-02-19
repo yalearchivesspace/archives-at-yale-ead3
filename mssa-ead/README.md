@@ -2862,6 +2862,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2085.xml](10838.xml) | mssa.ms.2085 | MS 2085 | Paul Stephen Galatowitsch papers | 
  [mssa.ru.1156.xml](11096.xml) | mssa.ru.1156 | RU 1156 | Institute of Sacred Music, Yale University, records | 
  [mssa.ru.1157.xml](11197.xml) | mssa.ru.1157 | RU 1157 | Peter Salovey, President of Yale University, Records | 
+ [mssa.ms.2091.xml](11229.xml) | mssa.ms.2091 | MS 2091 | Arthur Bostwick Van Buskirk World War I Diaries | 
  [mssa.ms.2092.xml](11232.xml) | mssa.ms.2092 | MS 2092 | John Lewis Gaddis Papers | 
  [mssa.ms.2101.xml](11306.xml) | mssa.ms.2101 | MS 2101 | Mas Yebra family correspondence | 
  [mssa.ms.2100.xml](11307.xml) | mssa.ms.2100 | MS 2100 | Felipe Lorenzo Famoso diary | 
