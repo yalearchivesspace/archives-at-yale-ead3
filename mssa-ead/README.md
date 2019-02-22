@@ -173,7 +173,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0492.xml](2068.xml) | mssa.ru.0492 | RU 492 | Class of 1964, Yale College, survey of the members | 
  [mssa.ru.0494.xml](2069.xml) | mssa.ru.0494 | RU 494 | Class of 1920, Yale College, records | 
  [mssa.ru.0495.xml](2070.xml) | mssa.ru.0495 | RU 495 | Class of 1924, Yale College, Records | 
- [mssa.ru.0496.xml](2071.xml) | mssa.ru.0496 | RU 496 | George H. W. Bush, Class of 1945W, Yale College, letter to his classmates at their 45th reunion | 
+ [mssa.ru.0496.xml](2071.xml) | mssa.ru.0496 | RU 496 | George H. W. Bush, Class of 1948 Yale College, letter to his classmates at their 45th reunion | 
  [mssa.ru.0498.xml](2072.xml) | mssa.ru.0498 | RU 498 | Class of 1802, Yale College, class lists | 
  [mssa.ru.0499.xml](2073.xml) | mssa.ru.0499 | RU 499 | Yale College register of students seeking employment | 
  [mssa.ru.0501.xml](2074.xml) | mssa.ru.0501 | RU 501 | John Perry Miller records concerning the Faculty of Arts and Sciences, Yale University | 
