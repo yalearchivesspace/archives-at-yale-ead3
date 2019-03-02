@@ -670,7 +670,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1091.xml](2570.xml) | mssa.ru.1091 | RU 1091 | General Accounting Services, Yale University, monthly accounting statements | 
  [mssa.ru.1092.xml](2571.xml) | mssa.ru.1092 | RU 1092 | Business Support Center, Office of the Provost, Yale University, budget records | 
  [mssa.ru.1093.xml](2572.xml) | mssa.ru.1093 | RU 1093 | Faculty of Arts and Sciences, Yale University, photographs | 
- [mssa.ru.1094.xml](2573.xml) | mssa.ru.1094 | RU 1094 | <title xlink:type="simple" render="italic">Yale Alumni Magazine</title> records. | 
+ [mssa.ru.1094.xml](2573.xml) | mssa.ru.1094 | RU 1094 | <title xlink:type="simple" render="italic">Yale Alumni Magazine</title> records | 
  [mssa.ru.1108.xml](2574.xml) | mssa.ru.1108 | RU 1108 | Office of the Secretary, Yale University, audio recordings of speeches, assemblies, and events | 
  [mssa.ru.0004.xml](2587.xml) | mssa.ru.0004 | RU 4 | Yale University building assignment plans | 
  [mssa.ru.0020.xml](2589.xml) | mssa.ru.0020 | RU 20 | Richard C. Carroll, assistant and associate dean of Yale College, records | 
