@@ -16,6 +16,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0029.xml](16.xml) | ycba.mss.0029 | MSS.29 | Hester Lynch Piozzi Letters to Dr. William Makepeace Thackeray | 
  [ycba.mss.0003.xml](17.xml) | ycba.mss.0003 | MSS.3 | Philip Hermogenes Calderon correspondence from John Everett Millais and Frederic Leighton | 
  [ycba.mss.0030.xml](18.xml) | ycba.mss.0030 | MSS.30 | Joshua Reynolds Archive | 
+ [ycba.mss.0038.xml](19.xml) | ycba.mss.0038 | MSS.38 | Edwin Augustus Porcher Collection | 
  [ycba.mss.0004.xml](20.xml) | ycba.mss.0004 | MSS.4 | Miles & Edwards and Charles Hindley & Sons correspondence | 
  [ycba.mss.0005.xml](22.xml) | ycba.mss.0005 | MSS.5 | John Ruskin: Letters to Thomas Goff Lupton | 
  [ycba.mss.0006.xml](23.xml) | ycba.mss.0006 | MSS.6 | Pease family collection of sketchbooks and exercise books | 
@@ -23,6 +24,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0009.xml](25.xml) | ycba.mss.0009 | MSS.9 | Edgar Hockley collection | 
  [ycba.mss.0024.xml](30.xml) | ycba.mss.0024 | MSS.24 | Paul Nash Letters to Mercia Oakley | 
  [ycba.mss.0007.xml](33.xml) | ycba.mss.0007 | MSS.7 | Clare Leighton collection | 
+ [ycba.mss.0050.xml](5731.xml) | ycba.mss.0050 | MSS.50 | Collection of Cabaret Theatre Club and Cave of the Golden Calf printed ephemera | 
  [ycba.mss.0046.xml](5850.xml) | ycba.mss.0046 | MSS 46 | John Ruskin Letters to Ellen Heaton | 
  [ycba.mss.0031.xml](5858.xml) | ycba.mss.0031 | MSS.31 | Dante Gabriel Rossetti Letters to William Houghton Clabburn | 
  [ycba.mss.0047.xml](5859.xml) | ycba.mss.0047 | MSS.47 | Dante Gabriel Rossetti Letters to Ellen Heaton | 
