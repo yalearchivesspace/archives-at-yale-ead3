@@ -272,15 +272,20 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.089.xml](5383.xml) | divinity.089 | RG 89 | Japan International Christian University Foundation, Inc. Records | 
  [divinity.030.xml](5384.xml) | divinity.030 | RG 30 | Miscellaneous Personal Papers Collection | 
  [divinity.266a.xml](5385.xml) | divinity.266a | RG 266A | Church of the Redeemer (New Haven, Conn.) Records - Addendum A | 
+ [divinity.264.xml](5388.xml) | divinity.264 | RG 264 | National Religious Partnership for the Environment Records | 
  [divinity.258.xml](5390.xml) | divinity.258 | RG 258 | Harry Croswell Papers | 
+ [divinity.053.xml](5393.xml) | divinity.053 | RG 53 | Yale University Divinity School Memorabilia Collection | 
+ [divinity.243.xml](5394.xml) | divinity.243 | RG 243 | William H. Poteat Papers | 
  [divinity.237.xml](5395.xml) | divinity.237 | RG 237 | Christian Conference of Asia Records | 
  [divinity.214.xml](5398.xml) | divinity.214 | RG 214 | International Nepal Fellowship records | 
  [divinity.211.xml](5400.xml) | divinity.211 | RG 211 | Himalayan Collection Pamphlets and Reports | 
  [divinity.136.xml](5401.xml) | divinity.136 | RG 136 | William Palmer Ladd Papers | 
  [divinity.209.xml](5402.xml) | divinity.209 | RG 209 | China American Schools Collection | 
+ [divinity.163.xml](5404.xml) | divinity.163 | RG 163 | American Theological Library Association Records | 
  [divinity.163a.xml](5405.xml) | divinity.163a | RG 163A | American Theological Library Association Records - Addendum A | 
  [divinity.167.xml](5406.xml) | divinity.167 | RG 167 | National Association of College and University Chaplains and Directors of Religious Life Records | 
  [divinity.173.xml](5407.xml) | divinity.173 | RG 173 | Randolph Crump Miller Papers | 
+ [divinity.195.xml](5408.xml) | divinity.195 | RG 195 | Paul L. Holmer Papers | 
  [divinity.242.xml](5466.xml) | divinity.242 | RG 242 | John G. Magee Family Papers | 
  [divinity.268.xml](5473.xml) | divinity.268 | RG 268 | Samuel Moss Carter Papers | 
  [divinity.270.xml](5561.xml) | divinity.270 | RG 270 | Chick Tract Collection | 
@@ -300,6 +305,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.282.xml](10807.xml) | divinity.282 | RG 282 | Miles Bronson Family papers | 
  [divinity.284.xml](10808.xml) | divinity.284 | RG 284 | J. Leslie Dunstan papers | 
  [divinity.285.xml](10815.xml) | divinity.285 | RG 285 | Ralph Emerson Papers | 
+ [divinity.286.xml](10817.xml) | divinity.286 | RG 286 | Nels F. S. Ferré Papers | 
  [divinity.289.xml](10818.xml) | divinity.289 | RG 289 | William Hurlin Papers | 
  [divinity.287.xml](10825.xml) | divinity.287 | RG 287 | Robert K. Greenleaf Papers | 
  [divinity.215.xml](10836.xml) | divinity.215 | RG 215 | Nepal Church History Project Records | 
