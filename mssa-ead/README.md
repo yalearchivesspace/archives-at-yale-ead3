@@ -2862,6 +2862,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2085.xml](10838.xml) | mssa.ms.2085 | MS 2085 | Paul Stephen Galatowitsch papers | 
  [mssa.ru.1156.xml](11096.xml) | mssa.ru.1156 | RU 1156 | Institute of Sacred Music, Yale University, records | 
  [mssa.ru.1157.xml](11197.xml) | mssa.ru.1157 | RU 1157 | Peter Salovey, President of Yale University, Records | 
+ [mssa.ms.2086.xml](11202.xml) | mssa.ms.2086 | MS 2086 | James F. Ahern papers | 
  [mssa.ms.2091.xml](11229.xml) | mssa.ms.2091 | MS 2091 | Arthur Bostwick Van Buskirk World War I Diaries | 
  [mssa.ms.2092.xml](11232.xml) | mssa.ms.2092 | MS 2092 | John Lewis Gaddis Papers | 
  [mssa.ms.2102.xml](11305.xml) | mssa.ms.2102 | MS 2102 | Ramon Llado correspondence | 
