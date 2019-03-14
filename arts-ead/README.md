@@ -40,6 +40,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.art.0014.xml](365.xml) | arts.art.0014 | ART 14 | Winterhouse Art and Design Collection of Volume 1 Number 1 | 
  [arts.art.0015.xml](366.xml) | arts.art.0015 | ART 15 | Dean Sakamoto Collection of Yale School of Architecture Exhibition Publications | 
  [arts.art.0017.xml](367.xml) | arts.art.0017 | ART 17 | Winterhouse Art and Design Collection of Ezra Winter | 
+ [arts.art.0019.xml](368.xml) | arts.art.0019 | ART 19 | Winterhouse Art and Design collection of Pentagram ephemera | 
  [arts.art.0002.xml](369.xml) | arts.art.0002 | ART 2 | Artists Pamphlet collection | 
  [arts.art.0022.xml](370.xml) | arts.art.0022 | ART 22 | Winterhouse Art and Design collection of type specimens | 
  [arts.art.0023.xml](371.xml) | arts.art.0023 | ART 23 | Winterhouse Art and Design collection of ephemera | 
@@ -66,6 +67,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.bkp.0134.xml](393.xml) | arts.bkp.0134 | BKP 134 | Collection of bookplates by Dmitrij R Saenko | 
  [arts.bkp.0136.xml](394.xml) | arts.bkp.0136 | BKP 136 | Frank S. Hatch correspondence with F. C. Blank | 
  [arts.bkp.0137.xml](395.xml) | arts.bkp.0137 | BKP 137 | Carlyle S. Baer correspondence with Samuel X. Radbill | 
+ [arts.bkp.0014.xml](396.xml) | arts.bkp.0014 | BKP 14 | Andrews Memorial Bookplate Collection of Irene D. Andrews Pace (Diamond Family Bookplates) | 
  [arts.bkp.0002.xml](398.xml) | arts.bkp.0002 | BKP 2 | Andrews Memorial Bookplate Collection of Irene D. Andrews Pace (Personal Bookplates) | 
  [arts.bkp.0038.xml](399.xml) | arts.bkp.0038 | BKP 38 | Collection of Bookplates by Nathaniel Hurd | 
  [arts.bkp.0004.xml](401.xml) | arts.bkp.0004 | BKP 4 | Andrews Memorial Bookplate Collection of Irene D. Andrews Pace (School and College Bookplates) | 
