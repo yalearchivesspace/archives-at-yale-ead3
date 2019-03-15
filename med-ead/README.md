@@ -53,4 +53,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0060.xml](11034.xml) | med.ms.0060 | Ms Coll 60 | Medical illustrations for Harvey Cushing by Mildred Codding and others | 
  [med.ms.0061.xml](11039.xml) | med.ms.0061 | Ms Coll 61 | Robert Bogdan Disability Collection | 
  [med.ms.0062.xml](11208.xml) | med.ms.0062 | Ms Coll 62 | James H. Etheridge and family collection | 
+ [med.ms.0065.xml](11353.xml) | med.ms.0065 | Ms Coll 65 | Malcolm Bowers reprints and publications | 
 
