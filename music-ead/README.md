@@ -27,6 +27,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.misc.0354.xml](10552.xml) | music.misc.0354 | Misc. Ms. 354 | The John Mehegan Collection | 
  [music.misc.0293.xml](10553.xml) | music.misc.0293 | Misc. Ms. 293 | The Max Kowalski Collection | 
  [music.misc.0176.xml](10554.xml) | music.misc.0176 | Misc. Ms. 176 | Silent Film Music | 
+ [music.mss.0096.xml](10555.xml) | music.mss.0096 | MSS 96 | The Vivian Perlis Collection of Schmitz, Ornstein, Copland, and Kirkpatrick | 
  [music.misc.0216.xml](10556.xml) | music.misc.0216 | Misc. Ms. 216 | Selected Compositions of Harry Benjamin Jepson ; | 
  [music.misc.0241.xml](10557.xml) | music.misc.0241 | Misc. Ms. 241 | Selected Songs of Celius Dougherty | 
  [music.misc.0174.xml](10558.xml) | music.misc.0174 | Misc. Ms. 174 | Florence Wilshire: Florence Wilshire: Muzio Clementi and his Era | 
@@ -41,6 +42,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.misc.0418.xml](10570.xml) | music.misc.0418 | Misc. Ms. 418 | Ethel Smyth: Letters and Scrapbook | 
  [music.misc.0242.xml](10571.xml) | music.misc.0242 | Misc. Ms. 242 | The Jenny Lind Collection | 
  [music.misc.0218.xml](10572.xml) | music.misc.0218 | Misc. Ms. 218 | The Music Vale Seminary Papers | 
+ [music.mss.0095.xml](10574.xml) | music.mss.0095 | MSS 95 | Hans L. Bilger Papers | 
  [music.misc.0060.xml](10575.xml) | music.misc.0060 | Misc. Ms. 60 | The Gounod Society Papers | 
  [music.misc.0157.xml](10576.xml) | music.misc.0157 | Misc. Ms. 157 | Selected Compositions of Robbins Battell | 
  [music.misc.0300.xml](10577.xml) | music.misc.0300 | Misc. Ms. 300 | New Haven Concert Programs | 
@@ -68,12 +70,14 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0017.xml](10600.xml) | music.mss.0017 | MSS 17 | The Duane A. Davidson Papers | 
  [music.mss.0084.xml](10601.xml) | music.mss.0084 | MSS 84 | The Eric Simon Papers | 
  [music.misc.0055.xml](10602.xml) | music.misc.0055 | Misc. Ms. 55 | Music Published by the Loomis Temple of Music | 
+ [music.mss.0092.xml](10603.xml) | music.mss.0092 | MSS 92 | Enrico Batelli Papers | 
  [music.misc.0308.xml](10604.xml) | music.misc.0308 | Misc. Ms. 308 | The Bruce Simonds Papers | 
  [music.mss.0003.xml](10607.xml) | music.mss.0003 | MSS 3 | The Yale School of Music Papers | 
  [music.mss.0068.xml](10608.xml) | music.mss.0068 | MSS 68 | The Isidor Achron Papers | 
  [music.mss.0033.xml](10609.xml) | music.mss.0033 | MSS 33 | The Lowell Mason Papers | 
  [music.mss.0001.xml](10610.xml) | music.mss.0001 | MSS 1 | The Love Family Papers | 
  [music.mss.0012.xml](10611.xml) | music.mss.0012 | MSS 12 | The Sidney Rose Collection of Gilbert and Sullivan | 
+ [music.mss.0107.xml](10612.xml) | music.mss.0107 | MSS 107 | Paul Dukas Correspondence with Marguerite Hasselmans, and Related Materials. | 
  [music.mss.0037.xml](10613.xml) | music.mss.0037 | MSS 37 | The Samuel Gardner Papers | 
  [music.mss.0010.xml](10614.xml) | music.mss.0010 | MSS 10 | The Leo Ornstein Papers | 
  [music.mss.0016.xml](10615.xml) | music.mss.0016 | MSS 16 | The Galeazzi Collection | 
@@ -95,6 +99,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0014.xml](10652.xml) | music.mss.0014 | MSS 14 | The Charles Ives Papers | 
  [music.mss.0015.xml](10672.xml) | music.mss.0015 | MSS 15 | Quincy Porter Papers | 
  [music.mss.0030.xml](10674.xml) | music.mss.0030 | MSS 30 | Register to the Papers of Kurt Weill and Lotte Lenya | 
+ [music.mss.0031.xml](10675.xml) | music.mss.0031 | MSS 31 | The David Stanley Smith Papers | 
  [music.mss.0032.xml](10676.xml) | music.mss.0032 | MSS 32 | The Horatio Parker Papers | 
  [music.mss.0035.xml](10677.xml) | music.mss.0035 | MSS 35 | The Henry Gilbert Papers | 
  [music.mss.0036.xml](10678.xml) | music.mss.0036 | MSS 36 | The Seymour Shifrin Papers | 
