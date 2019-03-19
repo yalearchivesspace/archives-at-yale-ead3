@@ -7,6 +7,7 @@ Identifier | Description
 ---------- | ----------- |
 | [mssa-ead](mssa-ead/README.md) |  |
 | [ycba-ead](ycba-ead/README.md) |  |
+| [ycba-ia-ead](ycba-ia-ead/README.md) |  |
 | [div-ead](div-ead/README.md) |  |
 | [arts-ead](arts-ead/README.md) |  |
 | [music-ead](music-ead/README.md) |  |
