@@ -1705,6 +1705,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1362.xml](3657.xml) | mssa.ms.1362 | MS 1362 | Stanley Wilson papers | 
  [mssa.ms.1363.xml](3658.xml) | mssa.ms.1363 | MS 1363 | Catherine Strunk Amatruda papers | 
  [mssa.ms.1364.xml](3659.xml) | mssa.ms.1364 | MS 1364 | Metaphysical Society of America records | 
+ [mssa.ms.1373.xml](3660.xml) | mssa.ms.1373 | MS 1373 | Connecticut Academy of Arts and Sciences records | 
  [mssa.ms.1376.xml](3661.xml) | mssa.ms.1376 | MS 1376 | Martin Allen Pond papers | 
  [mssa.ms.1380.xml](3662.xml) | mssa.ms.1380 | MS 1380 | Maurice Emile Henri Rotival papers | 
  [mssa.ms.1385.xml](3663.xml) | mssa.ms.1385 | MS 1385 | Theodore L. Badger papers | 
@@ -1837,6 +1838,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0076.xml](3796.xml) | mssa.ms.0076 | MS 76 | Adolph Burnett Benson papers | 
  [mssa.ms.0085.xml](3797.xml) | mssa.ms.0085 | MS 85 | Blake family papers | 
  [mssa.ms.0089.xml](3798.xml) | mssa.ms.0089 | MS 89 | Boardman family papers | 
+ [mssa.ms.0090.xml](3799.xml) | mssa.ms.0090 | MS 90 | Bertram Borden Boltwood papers | 
  [mssa.ms.0092.xml](3800.xml) | mssa.ms.0092 | MS 92 | Kenneth Farrand Simpson papers | 
  [mssa.ms.0108.xml](3801.xml) | mssa.ms.0108 | MS 108 | George Jarvis Brush family papers | 
  [mssa.ms.0115.xml](3802.xml) | mssa.ms.0115 | MS 115 | Frederick Russell Burnham papers | 
