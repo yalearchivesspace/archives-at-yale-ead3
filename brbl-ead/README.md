@@ -1454,6 +1454,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.vanvechtmaur.xml](11041.xml) | beinecke.vanvechtmaur | YCAL MSS 1144 | Carl Van Vechten Letters to Saul Mauriber | 
  [beinecke.simonetti.xml](11043.xml) | beinecke.simonetti | GEN MSS 1497 | Gianni Emilio Simonetti papers | 
  [beinecke.blanch.xml](11052.xml) | beinecke.blanch | OSB MSS 202 | Lesley Blanch papers | 
+ [beinecke.kotanyi.xml](11073.xml) | beinecke.kotanyi | GEN MSS 1499 | Attila Kotányi papers | 
  [beinecke.spinelliarchive.xml](11076.xml) | beinecke.spinelliarchive | GEN MSS 109 | Spinelli Archive | 
  [beinecke.variety.xml](11080.xml) | beinecke.variety | YCAL MSS 1189 | Variety's Protected Material Department Submissions | 
  [beinecke.wppy.xml](11084.xml) | beinecke.wppy | YCAL MSS 1147 | World Performance Project at Yale records | 
