@@ -120,7 +120,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.dra.0005.xml](449.xml) | arts.dra.0005 | DRA 5 | Fashion and costume plate collection | 
  [arts.dra.0006.xml](450.xml) | arts.dra.0006 | DRA 6 | Puppetry collection | 
  [arts.dra.0009.xml](452.xml) | arts.dra.0009 | DRA 9 | Yale Rockefeller theatrical prints collection | 
- [arts.bkp.0160.xml](5671.xml) | arts.bkp.0160 | BKP 160 | Universal bookplate collection | 
  [arts.aob.0030.xml](5680.xml) | arts.aob.0030 | AOB 30 | Emma Joy Dana Collection of Artuš Scheiner | 
  [vrc.0071.xml](10410.xml) | vrc.0071 | VRC 71 | Miscellaneous Oversized Sculpture Photographs | 
  [vrc.0058.xml](10411.xml) | vrc.0058 | VRC 58 | 20th century Japanese Painting Photograph Collection | 
@@ -256,6 +255,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [vrc.2000.xml](10541.xml) | vrc.2000 | VRC 2000 | Painting Lantern Slide Collection | 
  [vrc.1000.xml](10542.xml) | vrc.1000 | VRC 1000 | Architecture Slide Collection | 
  [vrc.1100.xml](10543.xml) | vrc.1100 | VRC.1100 | Painting Slide Collection | 
- [arts.bkp.0161.xml](10935.xml) | arts.bkp.0161 | BKP 161 | George A. Teel bookplate collection | 
  [arts.aob.0060.xml](11314.xml) | arts.aob.0060 | AOB 60 | Polly Rubin Collection of Volvelles and Slide Rules | 
 
