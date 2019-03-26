@@ -466,7 +466,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.monteverdi.xml](1002.xml) | beinecke.monteverdi | Monteverdi 2 | Manuscripts in the Albi Rosenthal collection of Monteverdi and the birth of opera | 
  [beinecke.hilles.xml](1005.xml) | beinecke.hilles | GEN MSS 1429 | Frederick W. Hilles Manuscript Collection and Papers | 
  [beinecke.steichenfamily.xml](1006.xml) | beinecke.steichenfamily | YCAL MSS 1080 | Steichen family papers | 
- [beinecke.graysoc.xml](1007.xml) | beinecke.graysoc | 2012 +191/2012 Folio 329 | The Bradford H. Gray Collection in the history of social thought | 
  [beinecke.ndy10.xml](1008.xml) | beinecke.ndy10 | Ndy10 | Miscellaneous financial materials concerning farm corporations operating in the North American West | 
  [beinecke.ndy32.xml](1009.xml) | beinecke.ndy32 | Ndy32 | Miscellaneous financial materials concerning gold and silver mining companies operating in the North American West | 
  [beinecke.ndy33.xml](1010.xml) | beinecke.ndy33 | Ndy33 | Miscellaneous financial materials concerning copper and aluminum mining companies operating in the North American West | 
