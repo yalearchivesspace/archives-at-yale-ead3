@@ -2700,6 +2700,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [5164.xml](5164.xml) |  | HM 273 | Marshall Reece Newport Papers [microform]  | 
  [5165.xml](5165.xml) |  | HM 271 | Jewish Communal Registers - (Pinkese kehilah) - selected volumes from boxes 18, 19 and 27 [microform] | 
  [mssa.ms.1971.xml](5166.xml) | mssa.ms.1971 | MS 1971 | Gwathmey Siegel & Associates Architects, LLC, records | 
+ [mssa.ms.1965.xml](5167.xml) | mssa.ms.1965 | MS 1965 | Natural Resources Defense Council records | 
  [5168.xml](5168.xml) |  | HM 270 | Narcissus Graham Papers [microform] | 
  [5169.xml](5169.xml) |  | HM 269 | John Fee Embree Papers - Ascent of Waialeale, a personal narrative, in folder 2, box 4 [microform] | 
  [5170.xml](5170.xml) |  | HM 268 | Nathaniel W. Taylor - journal of a voyage to Hurd's Island 1857-1859 - from series I of the Yale Miscellaneous Manuscripts Collection [microform]  | 
@@ -2844,6 +2845,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1147.xml](5706.xml) | mssa.ru.1147 | RU 1147 | Associate University Librarian for Program Development and Research, Yale University, records | 
  [mssa.ms.2067.xml](5716.xml) | mssa.ms.2067 | MS 2067 | Japanese lesbian, gay, bisexual, transgender, and queer collection | 
  [mssa.ms.2069.xml](5735.xml) | mssa.ms.2069 | MS 2069 | Harry W. Selden right wing materials collection | 
+ [mssa.ms.2070.xml](5838.xml) | mssa.ms.2070 | MS 2070 | Charles Hill Papers | 
  [mssa.ms.2068.xml](5888.xml) | mssa.ms.2068 | MS 2068 | James Gustave Speth papers | 
  [mssa.ms.2072.xml](5891.xml) | mssa.ms.2072 | MS 2072 | Lewis B. Cullman papers | 
  [mssa.ru.1148.xml](10407.xml) | mssa.ru.1148 | RU 1148 | Freshman Outdoor Orientation Trips, records | 
