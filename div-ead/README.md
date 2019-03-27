@@ -327,4 +327,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.305.xml](11233.xml) | divinity.305 | RG 305 | Andover Newton Oxyrhynchus Papyri Collection | 
  [divinity.304.xml](11292.xml) | divinity.304 | RG 304 | Nott Family Papers | 
  [divinity.101.xml](11361.xml) | divinity.101 | RG 101 | Missionary Postcard Collection | 
+ [divinity.313.xml](11383.xml) | divinity.313 | RG 313 | Ruth Rouse papers | 
 
