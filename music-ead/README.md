@@ -42,6 +42,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.misc.0418.xml](10570.xml) | music.misc.0418 | Misc. Ms. 418 | Ethel Smyth: Letters and Scrapbook | 
  [music.misc.0242.xml](10571.xml) | music.misc.0242 | Misc. Ms. 242 | The Jenny Lind Collection | 
  [music.misc.0218.xml](10572.xml) | music.misc.0218 | Misc. Ms. 218 | The Music Vale Seminary Papers | 
+ [music.misc.0427.xml](10573.xml) | music.misc.0427 | Misc Ms 427 | The Charles Henry Kauffman Collection of Materials Relating to Charles Ives | 
  [music.mss.0095.xml](10574.xml) | music.mss.0095 | MSS 95 | Hans L. Bilger Papers | 
  [music.misc.0060.xml](10575.xml) | music.misc.0060 | Misc. Ms. 60 | The Gounod Society Papers | 
  [music.misc.0157.xml](10576.xml) | music.misc.0157 | Misc. Ms. 157 | Selected Compositions of Robbins Battell | 
@@ -59,6 +60,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.misc.0270.xml](10588.xml) | music.misc.0270 | Misc. Ms. 270 | The Charles Martin Loeffler Collection | 
  [music.mss.0022.xml](10589.xml) | music.mss.0022 | MSS 22 | The H. Leroy Baumgartner Papers | 
  [music.mss.0018.xml](10590.xml) | music.mss.0018 | MSS 18 | The Zo Elliott Papers | 
+ [music.mss.0080.xml](10591.xml) | music.mss.0080 | MSS 80 | Earl Banquer Collection | 
  [music.mss.0058.xml](10592.xml) | music.mss.0058 | MSS 58 | The James G. Barnett Papers | 
  [music.misc.0348.xml](10593.xml) | music.misc.0348 | Misc. Ms. 348 | The Beethoven Society (Providence, R.I.). Orchestral Parts | 
  [music.misc.0365.xml](10594.xml) | music.misc.0365 | Misc. Ms. 365 | Music, Vocal and Instrumental, Associated with New Haven | 
@@ -110,6 +112,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0135.xml](10686.xml) | music.mss.0135 | MSS 135 | Allen Forte Papers | 
  [music.mss.0062.xml](10707.xml) | music.mss.0062 | MSS 62 | Papers of Stanley Dance and Helen Oakley Dance | 
  [music.mss.0049.xml](10742.xml) | music.mss.0049 | MSS 49 | The Harold Rome Papers | 
+ [music.mss.0131.xml](10758.xml) | music.mss.0131 | MSS 131 | William McBrien papers | 
  [music.mss.0071.xml](10759.xml) | music.mss.0071 | MSS 71 | Kurt Stone papers | 
  [music.mss.0047.xml](10760.xml) | music.mss.0047 | MSS 47 | The Paul Hindemith Collection | 
  [music.mss.0052.xml](10761.xml) | music.mss.0052 | MSS 52 | The Frederick and Rose Plaut Papers | 
@@ -118,7 +121,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0148.xml](11068.xml) | music.mss.0148 | MSS 148 | The Siegrun H. Folter Collection of Heinrich Funk Materials | 
  [music.mss.0147.xml](11078.xml) | music.mss.0147 | MSS 147 | The William L. Vallée Collection of Rudy Vallée Materials | 
  [music.mss.0100.xml](11285.xml) | music.mss.0100 | MSS 100 | Collection of Enrico Caruso caricatures, photographs, and other material | 
- [music.mss.0149.xml](11321.xml) | music.mss.0149 | MSS 149 | The AXA Equitable Life Insurance Company Papers Related to Charles Ives  | 
+ [music.mss.0149.xml](11321.xml) | music.mss.0149 | MSS 149 | The AXA Equitable Life Insurance Company Papers Related to Charles Ives | 
  [music.mss.0101.xml](11335.xml) | music.mss.0101 | MSS 101 | Collection of Geraldine Farrar correspondence and other material | 
  [music.mss.0103.xml](11346.xml) | music.mss.0103 | MSS 103 | Collection on prominent figures in historical recorded sound | 
  [music.mss.0150.xml](11352.xml) | music.mss.0150 | MSS 150 | Hugo Benioff Recordings Collection | 
