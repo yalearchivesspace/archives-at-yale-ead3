@@ -2650,85 +2650,19 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1968.xml](5082.xml) | mssa.ms.1968 | MS 1968 | Donald Horowitz collection on ethnic riots | 
  [mssa.ms.1969.xml](5083.xml) | mssa.ms.1969 | MS 1969 | Richard W. Arnold drawings | 
  [mssa.ms.1950.xml](5106.xml) | mssa.ms.1950 | MS 1950 | Mirjan R. Damaška papers on Yugoslavia, Serbia, and Montenegro | 
- [5117.xml](5117.xml) |  | HM 209 | Central America - Mosquito Kingdom Manuscript, from the Miscellaneous Manuscripts Collection [microform] | 
- [5118.xml](5118.xml) |  | HM 210 | William Jackson Papers [microform] | 
- [5119.xml](5119.xml) |  | HM 205 | Yale Football Scrapbooks 1876-1935[microform] | 
- [5120.xml](5120.xml) |  | HM 200 | Winthrop-Weston Family Papers - family correspondence of William Woolsey Winthrop, Sarah Chauncey Winthrop Weston and Elizabeth Dwight Woolsey Winthrop [micorfom] | 
- [5121.xml](5121.xml) |  | HM 201 | Kan'ichi Asakawa Papers - Boxes: 1-10, 51-52, and 56-57 [microform] | 
- [5122.xml](5122.xml) |  | HM 208 | Baruch Nadel Papers [microform] | 
- [5123.xml](5123.xml) |  | HM 212 | Michael F. Campbell Diary - from the Diaries Miscellaneous Collection [microform] | 
- [5124.xml](5124.xml) |  | HM 216 | Yale College Faculty - minutes of meetings 1871-1956 [microfilm] | 
- [5125.xml](5125.xml) |  | HM 217 | Yale College Faculty - minutes of meetings and Yale College Records [micorfilm] | 
- [5126.xml](5126.xml) |  | HM 219 | Eli Whitney Papers [microform] | 
- [5127.xml](5127.xml) |  | HM 206 | Helen Manner - Romanesque Architecture of Viterbo: Illustrations - Yale Art, Architecture and Art History Theses and Projects [microform] | 
- [5128.xml](5128.xml) |  | HM 207 | Pamala Blum - Salisbury Cathedral Chapter-House: Plates - Yale Art, Architecture and Art History Theses and Projects [microform] | 
- [5129.xml](5129.xml) |  | HM 229 | Silvain Van Praet Papers [microform] | 
- [5130.xml](5130.xml) |  | HM 221 | John Trumbull Papers [microform] | 
- [5131.xml](5131.xml) |  | HM 222 | Bogdan Radica Papers [microform] | 
- [5132.xml](5132.xml) |  | HM 228 | Catalog of the Gibbs mineral collection. Gigot d'Orcy. 2 vols.on one reel - circa 1800 [microfilm] | 
- [5133.xml](5133.xml) |  | HM 211 | Gregory Breit Papers - Series I correspondence (1932-1973) -  Series II diaries and notebooks (1935-1973)  [microform] | 
- [5134.xml](5134.xml) |  | HM 234 | Salisbury Family Papers - Journals of travels in Europe by Edward Elbridge Salisbury, 1836-1839 [microform] | 
- [5135.xml](5135.xml) |  | HM 235 | Thomas David Day Papers - letterbooks [microfilm] | 
- [5136.xml](5136.xml) |  | HM 236 | Edward Mandell House Papers - Diaries, Reminiscences and Memories [microform] | 
- [5137.xml](5137.xml) |  | HM 240 | Canby Family Papers - diaries of Samuel Canby [microform] | 
- [5138.xml](5138.xml) |  | HM 239 | Latin American Manuscripts Collection [microform] | 
- [5139.xml](5139.xml) |  | HM 243 | Jerome Frank Family Papers - Annotated transcript of Jerome Frank’s Columbia Oral History interview [microform] | 
- [5140.xml](5140.xml) |  | HM 244 | Yale Account Book Collection - Account book from New Haven, Connecticut, ca. 1695-1850 [microform] | 
- [5141.xml](5141.xml) |  | HM 245 | Matthew Calbraith Perry - letterbook 1849-1850 from the Miscellaneous Manuscripts Collection [microform] | 
- [5142.xml](5142.xml) |  | HM 246 | Skinner Family Papers - Roger Sherman Skinners' notes on the lectures of James Gould at the Litchfield Law School 1815-1816 [microform] | 
- [5143.xml](5143.xml) |  | HM 254 | Brazil and Portugal Collection [microform] | 
- [5144.xml](5144.xml) |  | HM 253 | Caribbean Collection [microform] | 
- [5145.xml](5145.xml) |  | HM 252 | Central American Collection [microform] | 
- [5146.xml](5146.xml) |  | HM 251 | Southern Cone Collection [microform] | 
- [5147.xml](5147.xml) |  | HM 250 | Ernst Jackh Papers [microform] | 
- [5148.xml](5148.xml) |  | HM 223 | George Bird Grinnell Papers [microform] | 
- [5149.xml](5149.xml) |  | HM 256 | Peck and Phelps - letterbook 1826-1858 from the Miscellaneous Manuscripts Collection [microform] | 
- [5150.xml](5150.xml) |  | HM 241 | Harvey Williams Cushing - Brain Tumor Registry - Boxes 89-107 [microform] | 
  [mssa.ms.1970.xml](5151.xml) | mssa.ms.1970 | MS 1970 | City and regional planning collection | 
- [5152.xml](5152.xml) |  | HM 248 | Mexico Collection [microform]  | 
- [5153.xml](5153.xml) |  | HM 247 | Andean Collecion [microform] | 
- [5154.xml](5154.xml) |  | HM 258 | Dean Gooderham Acheson Papers [microform] | 
- [5155.xml](5155.xml) |  | HM 249 | The Spain Collection [microform] | 
- [5156.xml](5156.xml) |  | HM 259 | Charles Jeffery Smith Papers - original writings from folders 1-3  [microform] | 
- [5157.xml](5157.xml) |  | HM 261 | World War II Collection - box 42 of series II, leaflets, newspapers and reports [microform] | 
- [5158.xml](5158.xml) |  | HM 262 | Lewis W. Fairchild Papers [microform] | 
- [5159.xml](5159.xml) |  | HM 257 | Walter Lippman Papers [microform] | 
- [5160.xml](5160.xml) |  | HM 277 | Samuel Wells Williams - Series I Correspondence 1824-1939 [microform] | 
- [5161.xml](5161.xml) |  | HM 276 | Leonidas Polk Family Papers [microform] | 
- [5162.xml](5162.xml) |  | HM 275 | William Fergusson Papers [microform] | 
- [5163.xml](5163.xml) |  | HM 274 | Dan Beach and Cornelius Beach Bradley [microform] | 
- [5164.xml](5164.xml) |  | HM 273 | Marshall Reece Newport Papers [microform]  | 
- [5165.xml](5165.xml) |  | HM 271 | Jewish Communal Registers - (Pinkese kehilah) - selected volumes from boxes 18, 19 and 27 [microform] | 
  [mssa.ms.1971.xml](5166.xml) | mssa.ms.1971 | MS 1971 | Gwathmey Siegel & Associates Architects, LLC, records | 
  [mssa.ms.1965.xml](5167.xml) | mssa.ms.1965 | MS 1965 | Natural Resources Defense Council records | 
- [5168.xml](5168.xml) |  | HM 270 | Narcissus Graham Papers [microform] | 
- [5169.xml](5169.xml) |  | HM 269 | John Fee Embree Papers - Ascent of Waialeale, a personal narrative, in folder 2, box 4 [microform] | 
- [5170.xml](5170.xml) |  | HM 268 | Nathaniel W. Taylor - journal of a voyage to Hurd's Island 1857-1859 - from series I of the Yale Miscellaneous Manuscripts Collection [microform]  | 
- [5171.xml](5171.xml) |  | HM 263 | Thomas Heazle Parke Papers [microform] | 
- [5172.xml](5172.xml) |  | HM 264 | British East India Company Records [microform] | 
- [5173.xml](5173.xml) |  | HM 265 | Ralph P. Cobbold Papers [microform] | 
- [5174.xml](5174.xml) |  | HM 272 | Yale Directory Of Living Non-Graduates [microform] | 
- [5175.xml](5175.xml) |  | HM 195 | John Russell Pope - Yale University, a plan for it's future building [microform] | 
- [5176.xml](5176.xml) |  | HM 215 | David Ben-Gurion files - from the Ogden Reid Papers  [microform] | 
  [mssa.ms.1961.xml](5177.xml) | mssa.ms.1961 | MS 1961 | Gay & Lesbian Advocates & Defenders records | 
- [5178.xml](5178.xml) |  | HM 188 | Denison Olmsted Papers - journal 1826 - 1841, includes lectures on chemistry delivered at the University of North Carolina [microform] | 
- [5179.xml](5179.xml) |  | HM 161 | Yale Freshman Crew - Logbook and Boat Club Records | 
- [5180.xml](5180.xml) |  | HM 266 | Yale Kappa Sigma Theta Records [microform] | 
- [5181.xml](5181.xml) |  | HM 203 | Yale Architectual Archives - Series I [microform] | 
  [mssa.ru.1111.xml](5182.xml) | mssa.ru.1111 | RU 1111 | School Development Program, Child Study Center, School of Medicine, Yale University, records | 
  [mssa.ru.1110.xml](5183.xml) | mssa.ru.1110 | RU 1110 | John Herrick Jackson, Class of 1934, Yale College, photographs and etchings documenting student life at Yale | 
  [mssa.ms.1895.xml](5184.xml) | mssa.ms.1895 | MS 1895 | John Glines papers | 
- [5185.xml](5185.xml) |  | HM 255 | John Woodruff Ewell Papers - Correspondence, notes, landscape drawings, purchase orders, and other papers relating to the Book and Snake Society garden 1963-1969. From the Yale Miscellaneous Manuscripts Collection [microform]   | 
  [mssa.ms.1972.xml](5186.xml) | mssa.ms.1972 | MS 1972 | Latin American manuscripts bindings collection | 
  [mssa.ms.1973.xml](5187.xml) | mssa.ms.1973 | MS 1973 | New York Architects/Frank Lupo Daniel Rowen records | 
  [mssa.ms.1974.xml](5188.xml) | mssa.ms.1974 | MS 1974 | John Boswell papers | 
  [mssa.ms.1975.xml](5189.xml) | mssa.ms.1975 | MS 1975 | Larry Townsend collection | 
- [5190.xml](5190.xml) |  | HM 278 | Jozef Pilsudski Institute & The Belvedere Archives | 
  [mssa.ms.1977.xml](5191.xml) | mssa.ms.1977 | MS 1977 | Stephen G. Bickford papers | 
  [mssa.ms.1978.xml](5192.xml) | mssa.ms.1978 | MS 1978 | Rich Hanley interview with Kevin Roche | 
- [5193.xml](5193.xml) |  | HM 280 | Frank Hulme Melland Papers [microform] | 
- [5194.xml](5194.xml) |  | HM 279 | Hubert Frank Mathews Papers [microform] | 
- [5195.xml](5195.xml) |  | HM 281 | Edmund T. Silk Papers [microform] | 
  [mssa.ms.1976.xml](5196.xml) | mssa.ms.1976 | MS 1976 | John Hart Ely papers | 
  [mssa.ru.1112.xml](5197.xml) | mssa.ru.1112 | RU 1112 | J. Lloyd Suttle, Deputy Provost for Academic Resources, Yale University, records | 
  [mssa.ms.1964.xml](5199.xml) | mssa.ms.1964 | MS 1964 | Joseph Verner Reed (1937-2016) papers | 
@@ -2744,7 +2678,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1115.xml](5209.xml) | mssa.ru.1115 | RU 1115 | University Tribunal, Yale University, records of the Chair | 
  [mssa.ru.1116.xml](5210.xml) | mssa.ru.1116 | RU 1116 | John Emory Buxton Wells, Class of 1917, Sheffield Scientific School, Yale University, photograph collection | 
  [mssa.ms.1986.xml](5212.xml) | mssa.ms.1986 | MS 1986 | Dori Laub interviews of Holocaust survivors | 
- [5213.xml](5213.xml) |  | HM 282 | Eugene C. Gardner papers [microfilm] | 
  [mssa.ru.1117.xml](5214.xml) | mssa.ru.1117 | RU 1117 | Howard R. Lamar Center for the Study of Frontiers and Borders, Yale University, records | 
  [mssa.ru.1118.xml](5215.xml) | mssa.ru.1118 | RU 1118 | Frederick J. Mahaffey, School of Fine Arts, Yale University, correspondence and memorabilia | 
  [mssa.ru.1119.xml](5216.xml) | mssa.ru.1119 | RU 1119 | School of Forestry and Environmental Studies Library, Yale University, records | 
