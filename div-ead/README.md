@@ -328,4 +328,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.304.xml](11292.xml) | divinity.304 | RG 304 | Nott Family Papers | 
  [divinity.101.xml](11361.xml) | divinity.101 | RG 101 | Missionary Postcard Collection | 
  [divinity.313.xml](11383.xml) | divinity.313 | RG 313 | Ruth Rouse papers | 
+ [divinity.310.xml](11389.xml) | divinity.310 | RG 310 | Norvin Hein Papers | 
 
