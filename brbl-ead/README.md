@@ -1469,6 +1469,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.tcarey.xml](11341.xml) | beinecke.tcarey | YCAL MSS 1210 | Tom Carey papers | 
  [beinecke.liberace.xml](11345.xml) | beinecke.liberace | GEN MSS 1528 | Collection of materials relating to Liberace | 
  [beinecke.sasse.xml](11365.xml) | beinecke.sasse | WA MSS S-3469 | A. H. Sasse papers | 
+ [beinecke.sjsedgwick.xml](11366.xml) | beinecke.sjsedgwick | WA MSS S-2360 | S. J. Sedgwick collection | 
  [beinecke.vanhorn.xml](11387.xml) | beinecke.vanhorn | YCAL MSS 340 | Erica Van Horn prints. | 
  [beinecke.leroyscott.xml](11392.xml) | beinecke.leroyscott | GEN MSS 993 | LeRoy Scott papers | 
 
