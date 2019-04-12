@@ -788,7 +788,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0757.xml](2703.xml) | mssa.ru.0757 | RU 757 | Health Systems Management Group, School of Organization and Management, Yale University, records | 
  [mssa.ru.0762.xml](2704.xml) | mssa.ru.0762 | RU 762 | Department of Italian, Yale University, records | 
  [mssa.ru.0772.xml](2705.xml) | mssa.ru.0772 | RU 772 | Divinity School, Yale University, photographs and memorabilia | 
- [mssa.ru.0775.xml](2706.xml) | mssa.ru.0775 | RU 775 | Charles Albertus photograph collection documenting life at Yale | 
+ [mssa.ru.0775.xml](2706.xml) | mssa.ru.0775 | RU 775 | Charles Alburtus photograph collection documenting life at Yale | 
  [mssa.ru.0782.xml](2707.xml) | mssa.ru.0782 | RU 782 | University Council, Yale University, records | 
  [mssa.ru.0788.xml](2708.xml) | mssa.ru.0788 | RU 788 | George Langdon, associate provost, Yale University, records | 
  [mssa.ru.0789.xml](2709.xml) | mssa.ru.0789 | RU 789 | Sherry Penny, associate provost, Yale University, records | 
