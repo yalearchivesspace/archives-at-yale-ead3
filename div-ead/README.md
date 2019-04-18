@@ -330,4 +330,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.313.xml](11383.xml) | divinity.313 | RG 313 | Ruth Rouse papers | 
  [divinity.310.xml](11389.xml) | divinity.310 | RG 310 | Norvin Hein Papers | 
  [divinity.306.xml](11393.xml) | divinity.306 | RG 306 | Backus Historical Society Records | 
+ [divinity.314.xml](11405.xml) | divinity.314 | RG 314 | Suzanne de Dietrich papers | 
 
