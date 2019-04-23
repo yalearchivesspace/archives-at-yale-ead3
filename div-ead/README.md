@@ -328,8 +328,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.304.xml](11292.xml) | divinity.304 | RG 304 | Nott Family Papers | 
  [divinity.101.xml](11361.xml) | divinity.101 | RG 101 | Missionary Postcard Collection | 
  [divinity.313.xml](11383.xml) | divinity.313 | RG 313 | Ruth Rouse papers | 
- [divinity.310.xml](11389.xml) | divinity.310 | RG 310 | Norvin Hein Papers | 
  [divinity.306.xml](11393.xml) | divinity.306 | RG 306 | Backus Historical Society Records | 
+ [divinity.311.xml](11402.xml) | divinity.311 | RG 311 | Sanford Richardson Papers | 
  [divinity.314.xml](11405.xml) | divinity.314 | RG 314 | Suzanne de Dietrich papers | 
  [divinity.46f.xml](11412.xml) | divinity.46f | RG 46F | World Student Christian Federation Geneva office records | 
 
