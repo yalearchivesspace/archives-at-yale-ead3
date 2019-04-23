@@ -31,6 +31,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.misc.0216.xml](10556.xml) | music.misc.0216 | Misc. Ms. 216 | Selected Compositions of Harry Benjamin Jepson ; | 
  [music.misc.0241.xml](10557.xml) | music.misc.0241 | Misc. Ms. 241 | Selected Songs of Celius Dougherty | 
  [music.misc.0174.xml](10558.xml) | music.misc.0174 | Misc. Ms. 174 | Florence Wilshire: Florence Wilshire: Muzio Clementi and his Era | 
+ [music.mss.0108.xml](10559.xml) | music.mss.0108 | MSS 108 | Sylvia Fine and Danny Kaye Musical Comedy Library | 
  [music.mss.0009.xml](10560.xml) | music.mss.0009 | MSS 9 | The John Carter Glenn Collection | 
  [music.misc.0307.xml](10561.xml) | music.misc.0307 | Misc. Ms. 307 | The Blake Stern Papers | 
  [music.misc.0245.xml](10562.xml) | music.misc.0245 | Misc. Ms. 245 | The Joseph Jaskewitz Papers | 
