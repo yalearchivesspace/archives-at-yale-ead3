@@ -494,7 +494,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.eglevy2.xml](1032.xml) | beinecke.eglevy2 | OSB MSS 137 | Edward G. and Hortense R. Levy autograph collection, part two | 
  [beinecke.payne.xml](1033.xml) | beinecke.payne | OSB MSS 138 | Ralph Payne, Baron Lavington family papers | 
  [beinecke.hanover.xml](1034.xml) | beinecke.hanover | OSB MSS 146 | Hanover royal music archive | 
- [beinecke.lockerlamp.xml](1035.xml) | beinecke.lockerlamp | OSB MSS 152 | <title>Frederick Locker-Lampson Correspondence</title> | 
+ [beinecke.lockerlamp.xml](1035.xml) | beinecke.lockerlamp | OSB MSS 152 | Frederick Locker-Lampson Correspondence | 
  [beinecke.nicholsf.xml](1036.xml) | beinecke.nicholsf | OSB MSS 154 | Nichols family correspondence | 
  [beinecke.soufam.xml](1037.xml) | beinecke.soufam | OSB MSS 156 | Southcomb family papers | 
  [beinecke.wilson.xml](1038.xml) | beinecke.wilson | OSB MSS 157 | Frank Percy Wilson Papers | 
