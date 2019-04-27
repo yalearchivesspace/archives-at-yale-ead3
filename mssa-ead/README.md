@@ -934,6 +934,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1018.xml](2862.xml) | mssa.ru.1018 | RU 1018 | School of Architecture, Yale University, records concerning <title render="italic">Retrospecta</title> | 
  [mssa.ru.1021.xml](2863.xml) | mssa.ru.1021 | RU 1021 | Department of the History of Art, Yale University, student records | 
  [mssa.ru.1024.xml](2864.xml) | mssa.ru.1024 | RU 1024 | Yale School of Drama audio-visual recordings | 
+ [mssa.ru.1037.xml](2865.xml) | mssa.ru.1037 | RU 1037 | Oral History Project Documenting Yale University | 
  [mssa.ru.1045.xml](2866.xml) | mssa.ru.1045 | RU 1045 | Chaplain's Office, Yale University, records | 
  [mssa.ru.1055.xml](2867.xml) | mssa.ru.1055 | RU 1055 | Oral histories documenting New Haven, Connecticut | 
  [mssa.ru.1087.xml](2868.xml) | mssa.ru.1087 | RU 1087 | Barbara Shailor, deputy provost for the arts, Yale University, records | 
