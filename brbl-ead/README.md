@@ -1290,6 +1290,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.dialadd.xml](1860.xml) | beinecke.dialadd | YCAL MSS 95 | Dial/Scofield Thayer papers : addition | 
  [beinecke.byrd.xml](1861.xml) | beinecke.byrd | YCAL MSS 967 | Don Byrd papers | 
  [beinecke.terner.xml](1862.xml) | beinecke.terner | YCAL MSS 970 | Jacob Y. Terner Collection of Autograph Material by American Artists | 
+ [beinecke.vogel.xml](1863.xml) | beinecke.vogel | YCAL MSS 972 | Paula Vogel papers | 
  [beinecke.whittier.xml](1865.xml) | beinecke.whittier | YCAL MSS 986 | John Greenleaf Whittier Collection | 
  [beinecke.fang.xml](1866.xml) | beinecke.fang | YCAL MSS 99 | Achilles Fang papers | 
  [beinecke.ycalmiscellany.xml](1868.xml) | beinecke.ycalmiscellany | YCAL MSS MISC | Yale Collection of American Literature manuscript miscellany | 
