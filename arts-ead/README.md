@@ -3,6 +3,8 @@
 EAD | EAD ID | Identifier | Title | Other versions
 --- | ------ | ---------- | ----- | --------------
  [arts.aob.0001.xml](318.xml) | arts.aob.0001 | AOB 1 | Commercial Paper Sample Book Collection | 
+ [arts.aob.0116.xml](320.xml) | arts.aob.0116 | AOB 116 | Collection of Gillett Griffin production materials for <title xlink:type="simple" render="italic">A Mouse’s Tale</title> | 
+ [arts.aob.0125.xml](321.xml) | arts.aob.0125 | AOB 125 | Nahanni Productions archive | 
  [arts.aob.0127.xml](323.xml) | arts.aob.0127 | AOB 127 | Collection of Scott Helmes artworks | 
  [arts.aob.0014.xml](326.xml) | arts.aob.0014 | AOB 14 | British School Printing Examples | 
  [arts.aob.0018.xml](327.xml) | arts.aob.0018 | AOB 18 | John O. C. McCrillis Designs and Art Work | 
@@ -68,6 +70,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.bkp.0136.xml](394.xml) | arts.bkp.0136 | BKP 136 | Frank S. Hatch correspondence with F. C. Blank | 
  [arts.bkp.0137.xml](395.xml) | arts.bkp.0137 | BKP 137 | Carlyle S. Baer correspondence with Samuel X. Radbill | 
  [arts.bkp.0014.xml](396.xml) | arts.bkp.0014 | BKP 14 | Andrews Memorial Bookplate Collection of Irene D. Andrews Pace (Diamond Family Bookplates) | 
+ [arts.bkp.0142.xml](397.xml) | arts.bkp.0142 | BKP 142 | W. P. Barrett correspondence | 
  [arts.bkp.0002.xml](398.xml) | arts.bkp.0002 | BKP 2 | Andrews Memorial Bookplate Collection of Irene D. Andrews Pace (Personal Bookplates) | 
  [arts.bkp.0038.xml](399.xml) | arts.bkp.0038 | BKP 38 | Collection of Bookplates by Nathaniel Hurd | 
  [arts.bkp.0004.xml](401.xml) | arts.bkp.0004 | BKP 4 | Andrews Memorial Bookplate Collection of Irene D. Andrews Pace (School and College Bookplates) | 
