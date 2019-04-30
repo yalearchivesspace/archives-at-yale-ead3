@@ -1474,4 +1474,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.vanhorn.xml](11387.xml) | beinecke.vanhorn | YCAL MSS 340 | Erica Van Horn prints. | 
  [beinecke.leroyscott.xml](11392.xml) | beinecke.leroyscott | GEN MSS 993 | LeRoy Scott papers | 
  [beinecke.meharding.xml](11410.xml) | beinecke.meharding | GEN MSS 939 | M. Esther Harding collection | 
+ [11428.xml](11428.xml) |  | JWulff-fisher | Joan Salvato Wulff papers | 
 
