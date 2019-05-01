@@ -2,7 +2,7 @@
 
 EAD | EAD ID | Identifier | Title | Other versions
 --- | ------ | ---------- | ----- | --------------
- [beinecke.sedykh.xml](510.xml) | beinecke.sedykh | GEN MSS 100 | Andreĭ Sedykh papers | 
+ [beinecke.sedykh.xml](510.xml) | beinecke.sedykh | GEN MSS 100 | Andreĭ Sedykh papers | 
  [beinecke.genprint.xml](511.xml) | beinecke.genprint | GEN MSS 1000 | Robert Fridenberg Collection of Portrait and Topographical Prints | 
  [beinecke.willems.xml](512.xml) | beinecke.willems | GEN MSS 1003 | Mo Willems papers | 
  [beinecke.odoevts.xml](514.xml) | beinecke.odoevts | GEN MSS 101 | Irina Odoevt︠s︡eva papers | 
@@ -1474,5 +1474,4 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.vanhorn.xml](11387.xml) | beinecke.vanhorn | YCAL MSS 340 | Erica Van Horn prints. | 
  [beinecke.leroyscott.xml](11392.xml) | beinecke.leroyscott | GEN MSS 993 | LeRoy Scott papers | 
  [beinecke.meharding.xml](11410.xml) | beinecke.meharding | GEN MSS 939 | M. Esther Harding collection | 
- [11428.xml](11428.xml) |  | JWulff-fisher | Joan Salvato Wulff papers | 
 
