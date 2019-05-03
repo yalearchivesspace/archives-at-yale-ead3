@@ -1455,6 +1455,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.chlingensperg.xml](11037.xml) | beinecke.chlingensperg | GEN MSS 1495 | Chlingensperg family diaries | 
  [beinecke.vanvechtmaur.xml](11041.xml) | beinecke.vanvechtmaur | YCAL MSS 1144 | Carl Van Vechten Letters to Saul Mauriber | 
  [beinecke.simonetti.xml](11043.xml) | beinecke.simonetti | GEN MSS 1497 | Gianni Emilio Simonetti papers | 
+ [beinecke.robertolenbutler.xml](11049.xml) | beinecke.robertolenbutler | YCAL MSS 1146 | Robert Olen Butler papers | 
  [beinecke.blanch.xml](11052.xml) | beinecke.blanch | OSB MSS 202 | Lesley Blanch papers | 
  [beinecke.kotanyi.xml](11073.xml) | beinecke.kotanyi | GEN MSS 1499 | Attila Kotányi papers | 
  [beinecke.spinelliarchive.xml](11076.xml) | beinecke.spinelliarchive | GEN MSS 109 | Spinelli Archive | 
@@ -1464,7 +1465,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.guest.xml](11192.xml) | beinecke.guest | YCAL MSS 1185 | Barbara Guest papers | 
  [beinecke.ariasmisson.xml](11199.xml) | beinecke.ariasmisson | GEN MSS 1514 | Alain Arias-Misson papers | 
  [beinecke.sedaris.xml](11201.xml) | beinecke.sedaris | GEN MSS 1515 | David Sedaris papers | 
+ [beinecke.wilderfamily.xml](11248.xml) | beinecke.wilderfamily | YCAL MSS 1114 | Amos Niven Wilder and Wilder Family Papers | 
+ [beinecke.sharaff.xml](11255.xml) | beinecke.sharaff | YCAL MSS 1201 | Irene Sharaff papers | 
  [beinecke.steinbeckcol.xml](11257.xml) | beinecke.steinbeckcol | YCAL MSS 1191 | Collection of Film Material Relating to John Steinbeck | 
+ [beinecke.galassi.xml](11289.xml) | beinecke.galassi | YCAL MSS 1197 | Jonathan Galassi papers | 
+ [beinecke.rexbeach.xml](11320.xml) | beinecke.rexbeach | WA MSS S-3417 | Rex Beach papers | 
  [beinecke.garber.xml](11325.xml) | beinecke.garber | GEN MSS 756 | Bette S. Garber photographs | 
  [beinecke.abclark.xml](11339.xml) | beinecke.abclark | WA MSS S-3437 | Aaron Baker Clark and Sarah Booth Clark papers | 
  [beinecke.tcarey.xml](11341.xml) | beinecke.tcarey | YCAL MSS 1210 | Tom Carey papers | 
