@@ -1469,6 +1469,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.sharaff.xml](11255.xml) | beinecke.sharaff | YCAL MSS 1201 | Irene Sharaff papers | 
  [beinecke.steinbeckcol.xml](11257.xml) | beinecke.steinbeckcol | YCAL MSS 1191 | Collection of Film Material Relating to John Steinbeck | 
  [beinecke.galassi.xml](11289.xml) | beinecke.galassi | YCAL MSS 1197 | Jonathan Galassi papers | 
+ [beinecke.davisfo.xml](11291.xml) | beinecke.davisfo | GEN MSS 1520 | R. G. Davis papers relating to Dario Fo | 
  [beinecke.rexbeach.xml](11320.xml) | beinecke.rexbeach | WA MSS S-3417 | Rex Beach papers | 
  [beinecke.garber.xml](11325.xml) | beinecke.garber | GEN MSS 756 | Bette S. Garber photographs | 
  [beinecke.abclark.xml](11339.xml) | beinecke.abclark | WA MSS S-3437 | Aaron Baker Clark and Sarah Booth Clark papers | 
