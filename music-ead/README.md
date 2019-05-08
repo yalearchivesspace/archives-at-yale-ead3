@@ -90,7 +90,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.misc.0288.xml](10619.xml) | music.misc.0288 | Misc. Ms. 288 | Paul Dukas: Correspondence with Paul Poujaud | 
  [music.mss.0007.xml](10620.xml) | music.mss.0007 | MSS 7 | The Richard Donovan Papers | 
  [music.mss.0061.xml](10621.xml) | music.mss.0061 | MSS 61 | The Leroy Anderson Papers | 
+ [music.mss.0026.xml](10622.xml) | music.mss.0026 | MSS 26 | Carl Ruggles Papers | 
  [music.mss.0073.xml](10623.xml) | music.mss.0073 | MSS 73 | The Karl Weigl Papers | 
+ [music.mss.0082.xml](10624.xml) | music.mss.0082 | MSS 82 | The Cole Porter Collection | 
  [music.mss.0083.xml](10625.xml) | music.mss.0083 | MSS 83 | The E.Y. Harburg Collection | 
  [music.mss.0013.xml](10626.xml) | music.mss.0013 | MSS 13 | The Yale School of Music D.M.A. Papers | 
  [music.mss.0046.xml](10627.xml) | music.mss.0046 | MSS 46 | Thomas de Hartmann Papers | 
@@ -98,9 +100,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0020.xml](10630.xml) | music.mss.0020 | MSS 20 | The Armin Loos Papers | 
  [music.mss.0079.xml](10631.xml) | music.mss.0079 | MSS 79 | The David Kraehenbuehl Papers | 
  [music.mss.0054.xml](10632.xml) | music.mss.0054 | MSS 54 | E. Robert Schmitz Papers | 
+ [music.mss.0021.xml](10633.xml) | music.mss.0021 | MSS 21 | The J. Rosamond Johnson Papers | 
  [music.mss.0050.xml](10638.xml) | music.mss.0050 | MSS 50 | The Paul Bekker Papers | 
  [music.mss.0014.xml](10652.xml) | music.mss.0014 | MSS 14 | The Charles Ives Papers | 
  [music.mss.0015.xml](10672.xml) | music.mss.0015 | MSS 15 | Quincy Porter Papers | 
+ [music.mss.0029.xml](10673.xml) | music.mss.0029 | MSS 29, MSS 29A | The Virgil Thomson Papers | 
  [music.mss.0030.xml](10674.xml) | music.mss.0030 | MSS 30 | Register to the Papers of Kurt Weill and Lotte Lenya | 
  [music.mss.0031.xml](10675.xml) | music.mss.0031 | MSS 31 | The David Stanley Smith Papers | 
  [music.mss.0032.xml](10676.xml) | music.mss.0032 | MSS 32 | The Horatio Parker Papers | 
