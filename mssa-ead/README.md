@@ -2542,8 +2542,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1862.xml](4529.xml) | mssa.ms.1862 | MS 1862 | David Benjamin Mixner papers | 
  [mssa.ru.0133.xml](4530.xml) | mssa.ru.0133 | RU 133 | Jonathan Edwards College, Yale University, student records | 
  [mssa.ru.0223.xml](4531.xml) | mssa.ru.0223 | RU 223 | Davenport College, Yale University, student records for the Classes of 1964-2006 maintained by the dean | 
- [mssa.ru.0717.xml](4532.xml) | mssa.ru.0717 | RU 717 | University Career Services, Yale University, records | 
  [mssa.ru.0728.xml](4533.xml) | mssa.ru.0728 | RU 728 | Yale School of Drama records | 
+ [mssa.ru.0011.xml](4535.xml) | mssa.ru.0011 | RU 11 | Kingman Brewster, Jr., president of Yale University, records | 
  [mssa.ru.0168.xml](4536.xml) | mssa.ru.0168 | RU 168 | Yale University Press records concerning the publication of individual titles | 
  [mssa.ru.0275.xml](4537.xml) | mssa.ru.0275 | RU 275 | Provost's office, Yale University, records | 
  [mssa.ru.0554.xml](4538.xml) | mssa.ru.0554 | RU 554 | Yale University Press records | 
@@ -2581,6 +2581,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0231.xml](4816.xml) | mssa.ms.0231 | MS 231 | Henry Killam Murphy papers | 
  [mssa.ms.0465.xml](4819.xml) | mssa.ms.0465 | MS 465 | Henry Lewis Stimson papers | 
  [mssa.ms.0553.xml](4820.xml) | mssa.ms.0553 | MS 553 | Harry Weinberger papers | 
+ [mssa.ms.0576.xml](4822.xml) | mssa.ms.0576 | MS 576 | William F. Buckley, Jr., papers | 
  [mssa.ms.0619.xml](4824.xml) | mssa.ms.0619 | MS 619 | Civil War manuscripts collection | 
  [mssa.ms.0671.xml](4825.xml) | mssa.ms.0671 | MS 671 | War poster collection | 
  [mssa.ms.0690.xml](4826.xml) | mssa.ms.0690 | MS 690 | Palestine Statehood Committee "Concerning the campaigns for a Jewish Army; to save the Jewish people of Europe and the establishment of a Hebrew Republic in Palestine"  papers | 
@@ -2808,4 +2809,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2100.xml](11307.xml) | mssa.ms.2100 | MS 2100 | Felipe Lorenzo Famoso diary | 
  [mssa.ru.1159.xml](11363.xml) | mssa.ru.1159 | RU 1159 | Walter Irenaeus Lowe, Yale College Class of 1890, photographs documenting life at Yale University | 
  [mssa.ru.1160.xml](11431.xml) | mssa.ru.1160 | RU 1160 | New Blue, Yale University, records | 
+ [mssa.ru.1161.xml](11440.xml) | mssa.ru.1161 | RU 1161 | <emph render="italic">Colossal Keepsake</emph> motion picture film by Peter Hentschel and William Richardson | 
 
