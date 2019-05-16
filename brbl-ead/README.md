@@ -1483,5 +1483,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.vanhorn.xml](11387.xml) | beinecke.vanhorn | YCAL MSS 340 | Erica Van Horn prints. | 
  [beinecke.leroyscott.xml](11392.xml) | beinecke.leroyscott | GEN MSS 993 | LeRoy Scott papers | 
  [beinecke.meharding.xml](11410.xml) | beinecke.meharding | GEN MSS 939 | M. Esther Harding collection | 
+ [beinecke.derricotte.xml](11422.xml) | beinecke.derricotte | YCAL MSS 1219 | Toi Derricotte papers | 
  [beinecke.hlscott.xml](11425.xml) | beinecke.hlscott | WA MSS S-3642 | Horace L. Scott papers | 
+ [beinecke.davenportfam.xml](11429.xml) | beinecke.davenportfam | WA MSS S-3644 | Davenport family papers | 
+ [beinecke.kjensen.xml](11432.xml) | beinecke.kjensen | WA MSS S-3649 | Knute Jensen diaries | 
+ [beinecke.ahwilbur.xml](11433.xml) | beinecke.ahwilbur | WA MSS S-3656 | Albert H. Wilbur Family Papers | 
 
