@@ -39,6 +39,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.aob.0082.xml](359.xml) | arts.aob.0082 | AOB 82 | Collection of Japanese prints | 
  [arts.aob.0009.xml](361.xml) | arts.aob.0009 | AOB 9 | Carl Purington Rollins papers | 
  [arts.aob.0090.xml](362.xml) | arts.aob.0090 | AOB 90 | Collection of printing production materials | 
+ [arts.art.0001.xml](363.xml) | arts.art.0001 | ART 1 | Volvelle collection | 
  [arts.art.0014.xml](365.xml) | arts.art.0014 | ART 14 | Winterhouse Art and Design Collection of Volume 1 Number 1 | 
  [arts.art.0015.xml](366.xml) | arts.art.0015 | ART 15 | Dean Sakamoto Collection of Yale School of Architecture Exhibition Publications | 
  [arts.art.0017.xml](367.xml) | arts.art.0017 | ART 17 | Winterhouse Art and Design Collection of Ezra Winter | 
