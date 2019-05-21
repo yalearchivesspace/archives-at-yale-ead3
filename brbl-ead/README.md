@@ -39,6 +39,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lang.xml](555.xml) | beinecke.lang | GEN MSS 1109 | Andrew Lang collection | 
  [beinecke.hardy.xml](556.xml) | beinecke.hardy | GEN MSS 111 | Richard L. Purdy Collection of Thomas Hardy | 
  [beinecke.johnsona.xml](557.xml) | beinecke.johnsona | GEN MSS 1110 | Allen Johnson correspondence relating to the Chronicles of America Series | 
+ [beinecke.exhibitions.xml](558.xml) | beinecke.exhibitions | GEN MSS 1117 | Beinecke Rare Book and Manuscript Library exhibition materials | 
  [beinecke.joyce.xml](559.xml) | beinecke.joyce | GEN MSS 112 | James Joyce collection | 
  [beinecke.marshallj.xml](560.xml) | beinecke.marshallj | GEN MSS 1120 | Joseph Head Marshall papers | 
  [beinecke.zerbe.xml](561.xml) | beinecke.zerbe | GEN MSS 1122 | Jerome Zerbe photographs and papers | 
@@ -1475,6 +1476,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.davisfo.xml](11291.xml) | beinecke.davisfo | GEN MSS 1520 | R. G. Davis papers relating to Dario Fo | 
  [beinecke.rexbeach.xml](11320.xml) | beinecke.rexbeach | WA MSS S-3417 | Rex Beach papers | 
  [beinecke.garber.xml](11325.xml) | beinecke.garber | GEN MSS 756 | Bette S. Garber photographs | 
+ [beinecke.helfand.xml](11331.xml) | beinecke.helfand | GEN MSS 837 | Jessica Helfand scrapbook collection | 
  [beinecke.abclark.xml](11339.xml) | beinecke.abclark | WA MSS S-3437 | Aaron Baker Clark and Sarah Booth Clark papers | 
  [beinecke.tcarey.xml](11341.xml) | beinecke.tcarey | YCAL MSS 1210 | Tom Carey papers | 
  [beinecke.liberace.xml](11345.xml) | beinecke.liberace | GEN MSS 1528 | Collection of materials relating to Liberace | 
