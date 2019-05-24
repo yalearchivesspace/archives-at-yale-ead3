@@ -1160,6 +1160,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0552.xml](3099.xml) | mssa.ms.0552 | MS 552 | Nathan Whiting papers | 
  [mssa.ms.0564.xml](3100.xml) | mssa.ms.0564 | MS 564 | William Paul Wreden Collection | 
  [mssa.ms.0566.xml](3101.xml) | mssa.ms.0566 | MS 566 | Elihu Yale collection | 
+ [mssa.ms.0575.xml](3102.xml) | mssa.ms.0575 | MS 575 | Thomas Hodgskin papers | 
  [mssa.ms.0584.xml](3104.xml) | mssa.ms.0584 | MS 584 | George Miller Beard papers | 
  [mssa.ms.0599.xml](3105.xml) | mssa.ms.0599 | MS 599 | Bromfield family papers | 
  [mssa.ms.0602.xml](3106.xml) | mssa.ms.0602 | MS 602 | Yung Wing papers | 
@@ -1608,6 +1609,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1842.xml](3557.xml) | mssa.ms.1842 | MS 1842 | King-Lui Wu papers | 
  [mssa.ms.1845.xml](3558.xml) | mssa.ms.1845 | MS 1845 | Irving Miller collection of World War II posters | 
  [mssa.ms.1849.xml](3559.xml) | mssa.ms.1849 | MS 1849 | Radical sex and leather collection | 
+ [mssa.ms.1851.xml](3560.xml) | mssa.ms.1851 | MS 1851 | Gay comics collection | 
  [mssa.ms.1852.xml](3561.xml) | mssa.ms.1852 | MS 1852 | Homophobia collection | 
  [mssa.ms.1853.xml](3562.xml) | mssa.ms.1853 | MS 1853 | Luther Noss papers | 
  [mssa.ms.1855.xml](3563.xml) | mssa.ms.1855 | MS 1855 | Center for Information on America records | 
@@ -1883,6 +1885,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0547.xml](3840.xml) | mssa.ms.0547 | MS 547 | Samuel Wells Williams family papers | 
  [mssa.ms.0554.xml](3841.xml) | mssa.ms.0554 | MS 554 | Eli Whitney papers | 
  [mssa.ms.0555.xml](3842.xml) | mssa.ms.0555 | MS 555 | William Dwight Whitney family papers | 
+ [mssa.ms.0579.xml](3843.xml) | mssa.ms.0579 | MS 579 | Hajo Holborn papers | 
  [mssa.ms.0590.xml](3844.xml) | mssa.ms.0590 | MS 590 | Humanities and Fine Arts Collection | 
  [mssa.ms.0603.xml](3845.xml) | mssa.ms.0603 | MS 603 | Samuel Rossiter Betts autograph collection | 
  [mssa.ms.0615.xml](3846.xml) | mssa.ms.0615 | MS 615 | Alvin Saunders Johnson papers | 
@@ -1944,6 +1947,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1565.xml](3902.xml) | mssa.ms.1565 | MS 1565 | Martin I. J. Griffin, Jr., papers | 
  [mssa.ms.1583.xml](3903.xml) | mssa.ms.1583 | MS 1583 | Irving J. Lewis papers | 
  [mssa.ms.1587.xml](3904.xml) | mssa.ms.1587 | MS 1587 | James Graham Phelps Stokes papers | 
+ [mssa.ms.1588.xml](3905.xml) | mssa.ms.1588 | MS 1588 | Bogdan Radica papers | 
  [mssa.ms.1605.xml](3906.xml) | mssa.ms.1605 | MS 1605 | Frederick Albert Pottle papers | 
  [mssa.ms.1625.xml](3907.xml) | mssa.ms.1625 | MS 1625 | Vincent Price papers | 
  [mssa.ms.1629.xml](3908.xml) | mssa.ms.1629 | MS 1629 | Thomas Goddard Bergin papers | 
@@ -2497,6 +2501,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0895.xml](4478.xml) | mssa.ms.0895 | MS 895 | Theodore and Ruth Lidz papers | 
  [mssa.ms.0897.xml](4479.xml) | mssa.ms.0897 | MS 897 | John Punnett Peters papers | 
  [mssa.ms.1070.xml](4480.xml) | mssa.ms.1070 | MS 1070 | Christopher Tunnard papers | 
+ [mssa.ms.1087.xml](4481.xml) | mssa.ms.1087 | MS 1087 | Dean Gooderham Acheson papers | 
  [mssa.ms.1090.xml](4482.xml) | mssa.ms.1090 | MS 1090 | Jane Roberts papers | 
  [mssa.ms.1111.xml](4483.xml) | mssa.ms.1111 | MS 1111 | Anna Strunsky Walling papers | 
  [mssa.ms.1139.xml](4484.xml) | mssa.ms.1139 | MS 1139 | Margaret S. Mahler Psychiatric Research Foundation papers | 
