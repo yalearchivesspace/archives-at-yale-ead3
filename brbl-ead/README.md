@@ -1430,6 +1430,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.halversongd.xml](10757.xml) | beinecke.halversongd | GEN MSS 998 | Photographs of the Garment District in New York City | 
  [beinecke.benetfamcol.xml](10764.xml) | beinecke.benetfamcol | YCAL MSS 1108 | Benét Family Collection | 
  [beinecke.astrong.xml](10767.xml) | beinecke.astrong | YCAL MSS 619 | Austin Strong papers | 
+ [beinecke.violi.xml](10769.xml) | beinecke.violi | YCAL MSS 624 | Paul Violi papers | 
  [beinecke.dprycejones.xml](10771.xml) | beinecke.dprycejones | OSB MSS 198 | David Pryce-Jones papers | 
  [beinecke.altagor.xml](10776.xml) | beinecke.altagor | GEN MSS 1466 | Altagor papers | 
  [beinecke.fisheram.xml](10777.xml) | beinecke.fisheram | GEN MSS 1473 | Alexander Metcalf Fisher Papers | 
@@ -1488,6 +1489,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.leroyscott.xml](11392.xml) | beinecke.leroyscott | GEN MSS 993 | LeRoy Scott papers | 
  [beinecke.meharding.xml](11410.xml) | beinecke.meharding | GEN MSS 939 | M. Esther Harding collection | 
  [beinecke.hlscott.xml](11425.xml) | beinecke.hlscott | WA MSS S-3642 | Horace L. Scott papers | 
+ [beinecke.rbprice.xml](11427.xml) | beinecke.rbprice | WA MSS S-3643 | Robert Beverly Price papers | 
  [beinecke.davenportfam.xml](11429.xml) | beinecke.davenportfam | WA MSS S-3644 | Davenport family papers | 
  [beinecke.kjensen.xml](11432.xml) | beinecke.kjensen | WA MSS S-3649 | Knute Jensen diaries | 
  [beinecke.ahwilbur.xml](11433.xml) | beinecke.ahwilbur | WA MSS S-3656 | Albert H. Wilbur Family Papers | 
