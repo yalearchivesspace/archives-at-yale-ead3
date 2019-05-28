@@ -333,4 +333,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.311.xml](11402.xml) | divinity.311 | RG 311 | Sanford Richardson Papers | 
  [divinity.314.xml](11405.xml) | divinity.314 | RG 314 | Suzanne de Dietrich papers | 
  [divinity.46f.xml](11412.xml) | divinity.46f | RG 46F | World Student Christian Federation Geneva office records | 
+ [divinity.271.xml](11436.xml) | divinity.271 | RG 271 | Charles Cutler Torrey papers | 
 
