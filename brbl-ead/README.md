@@ -1349,6 +1349,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lintonmather.xml](5570.xml) | beinecke.lintonmather | GEN MSS 1387 | W. J. Linton Collection | 
  [beinecke.hokinson.xml](5573.xml) | beinecke.hokinson | YCAL MSS 1084 | Helen E. Hokinson Cartoons for The New Yorker | 
  [beinecke.killianbellamy.xml](5603.xml) | beinecke.killianbellamy | YCAL MSS 1090 | Kevin Killian and Dodie Bellamy papers | 
+ [beinecke.bryan.xml](5623.xml) | beinecke.bryan | YCAL MSS 1103 | C. D. B. Bryan papers | 
  [beinecke.alaska.xml](5642.xml) | beinecke.alaska | WA MSS S-3176 | Alaska manuscripts collection | 
  [beinecke.goodell.xml](5662.xml) | beinecke.goodell | YCAL MSS 1095 | Larry Goodell papers | 
  [beinecke.internationalsyndicate.xml](5678.xml) | beinecke.internationalsyndicate | GEN MSS 1425 | International Syndicate records | 
@@ -1469,6 +1470,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.blume.xml](11190.xml) | beinecke.blume | GEN MSS 1481 | Judy Blume papers | 
  [beinecke.guest.xml](11192.xml) | beinecke.guest | YCAL MSS 1185 | Barbara Guest papers | 
  [beinecke.ariasmisson.xml](11199.xml) | beinecke.ariasmisson | GEN MSS 1514 | Alain Arias-Misson papers | 
+ [beinecke.seldes.xml](11200.xml) | beinecke.seldes | YCAL MSS 1186 | Marian Seldes papers | 
  [beinecke.sedaris.xml](11201.xml) | beinecke.sedaris | GEN MSS 1515 | David Sedaris papers | 
  [beinecke.duplessis.xml](11209.xml) | beinecke.duplessis | YCAL MSS 1188 | Rachel Blau DuPlessis papers | 
  [beinecke.wilderfamily.xml](11248.xml) | beinecke.wilderfamily | YCAL MSS 1114 | Amos Niven Wilder and Wilder Family Papers | 
