@@ -1489,10 +1489,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.sjsedgwick.xml](11366.xml) | beinecke.sjsedgwick | WA MSS S-2360 | S. J. Sedgwick collection | 
  [beinecke.vanhorn.xml](11387.xml) | beinecke.vanhorn | YCAL MSS 340 | Erica Van Horn prints. | 
  [beinecke.leroyscott.xml](11392.xml) | beinecke.leroyscott | GEN MSS 993 | LeRoy Scott papers | 
+ [beinecke.stiles.xml](11407.xml) | beinecke.stiles | GEN MSS 1475 | Ezra Stiles Papers | 
+ [beinecke.tayloredward.xml](11408.xml) | beinecke.tayloredward | GEN MSS 1476 | Edward Taylor Collection | 
  [beinecke.meharding.xml](11410.xml) | beinecke.meharding | GEN MSS 939 | M. Esther Harding collection | 
  [beinecke.hlscott.xml](11425.xml) | beinecke.hlscott | WA MSS S-3642 | Horace L. Scott papers | 
  [beinecke.rbprice.xml](11427.xml) | beinecke.rbprice | WA MSS S-3643 | Robert Beverly Price papers | 
  [beinecke.davenportfam.xml](11429.xml) | beinecke.davenportfam | WA MSS S-3644 | Davenport family papers | 
  [beinecke.kjensen.xml](11432.xml) | beinecke.kjensen | WA MSS S-3649 | Knute Jensen diaries | 
  [beinecke.ahwilbur.xml](11433.xml) | beinecke.ahwilbur | WA MSS S-3656 | Albert H. Wilbur Family Papers | 
+ [11451.xml](11451.xml) |  | GENM Koestenbaum | Wayne Koestenbaum papers | 
 
