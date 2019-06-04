@@ -728,7 +728,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.thill.xml](1278.xml) | beinecke.thill | WA MSS S-259 | Thomas R. Hill papers | 
  [beinecke.wipa.xml](1279.xml) | beinecke.wipa | WA MSS S-2600 | Peter Palmquist collection of women in photography | 
  [beinecke.stenzeladd.xml](1280.xml) | beinecke.stenzeladd | WA MSS S-2601 | Franz R. and Kathryn M. Stenzel Collection of Western American Art Addition | 
- [beinecke.cohenadd.xml](1281.xml) | beinecke.cohenadd | WA MSS S-2602 | Felix S. Cohen Papers Addition | 
  [beinecke.tobapatotucker.xml](1282.xml) | beinecke.tobapatotucker | WA MSS S-2604 | Toba Pato Tucker photographs and papers | 
  [beinecke.whitegr.xml](1283.xml) | beinecke.whitegr | WA MSS S-2605 | George Ritch White Diaries | 
  [beinecke.johnston.xml](1284.xml) | beinecke.johnston | WA MSS S-2606 | George F. Johnston Company records | 
@@ -1498,5 +1497,4 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.davenportfam.xml](11429.xml) | beinecke.davenportfam | WA MSS S-3644 | Davenport family papers | 
  [beinecke.kjensen.xml](11432.xml) | beinecke.kjensen | WA MSS S-3649 | Knute Jensen diaries | 
  [beinecke.ahwilbur.xml](11433.xml) | beinecke.ahwilbur | WA MSS S-3656 | Albert H. Wilbur Family Papers | 
- [11451.xml](11451.xml) |  | GENM Koestenbaum | Wayne Koestenbaum papers | 
 
