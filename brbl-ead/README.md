@@ -810,6 +810,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.guajardo.xml](1365.xml) | beinecke.guajardo | WA MSS S-668 | Luis Alberto Guajardo Papers on the History of Coahuila | 
  [beinecke.wheeler.xml](1366.xml) | beinecke.wheeler | WA MSS S-744 | Geographical surveys west of the 100th meridian (U.S.) papers | 
  [beinecke.field.xml](1367.xml) | beinecke.field | WA MSS S-897 | William Clark field notes | 
+ [beinecke.lutherwaters.xml](1368.xml) | beinecke.lutherwaters | WA MSS S-2735 | Tal Luther collection of Frank Waters printed materials and papers | 
  [beinecke.dellen.xml](1369.xml) | beinecke.dellen | WA PHOTOS 271 | Frederick Samuel Dellenbaugh collection of photographs and drawings of the Colorado River region. | 
  [beinecke.palmcase.xml](1370.xml) | beinecke.palmcase | WA Photos 402 | Peter Palmquist Cased Photographs Collection | 
  [beinecke.waphotos404.xml](1371.xml) | beinecke.waphotos404 | WA Photos 404 | Photograph album and photographs of Montana, New Mexico, and Colorado. | 
