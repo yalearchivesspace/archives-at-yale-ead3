@@ -1339,6 +1339,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.tully.xml](5474.xml) | beinecke.tully | GEN MSS 1403 | William Tully Papers | 
  [beinecke.howeh.xml](5476.xml) | beinecke.howeh | GEN MSS 1365 | Hezekiah Howe Papers | 
  [beinecke.livingtheatre.xml](5485.xml) | beinecke.livingtheatre | Multiple call numbers | Living Theatre Records | 
+ [beinecke.berssenbrugge.xml](5486.xml) | beinecke.berssenbrugge | YCAL MSS 1082 | Mei-Mei Berssenbrugge papers | 
  [beinecke.lintoncook.xml](5488.xml) | beinecke.lintoncook | GEN MSS 1406 | Grace Linton Cook Papers about W. J. Linton | 
  [beinecke.gluck.xml](5489.xml) | beinecke.gluck | YCAL MSS 946 | Louise Glück papers | 
  [beinecke.bwi.xml](5491.xml) | beinecke.bwi | GEN MSS 1412 | British Caribbean Documents | 
