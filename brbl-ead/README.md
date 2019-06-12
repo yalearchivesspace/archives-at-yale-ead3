@@ -1499,5 +1499,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.davenportfam.xml](11429.xml) | beinecke.davenportfam | WA MSS S-3644 | Davenport family papers | 
  [beinecke.kjensen.xml](11432.xml) | beinecke.kjensen | WA MSS S-3649 | Knute Jensen diaries | 
  [beinecke.ahwilbur.xml](11433.xml) | beinecke.ahwilbur | WA MSS S-3656 | Albert H. Wilbur Family Papers | 
+ [beinecke.petry.xml](11446.xml) | beinecke.petry | JWJ MSS 206 | Ann Petry manuscripts | 
  [beinecke.wantedposters.xml](11464.xml) | beinecke.wantedposters | WA MSS S-3705 | Wanted posters collection | 
 
