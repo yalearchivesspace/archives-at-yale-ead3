@@ -273,7 +273,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0651.xml](2169.xml) | mssa.ru.0651 | RU 651 | Branford College and Mason Laboratory photographs by William A. Stone | 
  [mssa.ru.0652.xml](2170.xml) | mssa.ru.0652 | RU 652 | Reuben A. Holden photographs used in the publication "Profiles and Portraits of Yale University Presidents" | 
  [mssa.ru.0653.xml](2171.xml) | mssa.ru.0653 | RU 653 | Jack Masey caricatures of Yale faculty and staff | 
- [mssa.ru.0659.xml](2172.xml) | mssa.ru.0659 | RU 659 | Ellsworth Eliot photographs used in the publication<title render="italic">Yale in the Civil War</title> | 
+ [mssa.ru.0659.xml](2172.xml) | mssa.ru.0659 | RU 659 | Ellsworth Eliot photographs used in the publication <title render="italic">Yale in the Civil War</title> | 
  [mssa.ru.0660.xml](2173.xml) | mssa.ru.0660 | RU 660 | Viola F. Barnes photograph collection documenting life at Yale | 
  [mssa.ru.0661.xml](2174.xml) | mssa.ru.0661 | RU 661 | Charles F. Baldwin, Class of 1888, Yale College, photograph collection documenting life at Yale and in New Haven | 
  [mssa.ru.0662.xml](2175.xml) | mssa.ru.0662 | RU 662 | Edward S. Parsons, Class of 1887, Yale Divinity School, photograph collection documenting life at Yale | 
@@ -2479,7 +2479,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0771.xml](4456.xml) | mssa.ms.0771 | MS 771 | Elizabeth Page Harris papers | 
  [mssa.ms.0774.xml](4457.xml) | mssa.ms.0774 | MS 774 | Roe family papers | 
  [mssa.ms.0785.xml](4458.xml) | mssa.ms.0785 | MS 785 | Lorin Edgar Kerr papers | 
- [mssa.ru.0256.xml](4459.xml) | mssa.ru.0256 | RU 256 | Pierson College, Yale University, student records for the Classes of 1964-2012 maintained by the dean | 
+ [mssa.ru.0256.xml](4459.xml) | mssa.ru.0256 | RU 256 | Pierson College, Yale University, student records for the Classes of 1964-2014 maintained by the dean | 
  [mssa.ru.0285.xml](4460.xml) | mssa.ru.0285 | RU 285 | School of Medicine, Yale University, records of the dean | 
  [mssa.ru.0684.xml](4461.xml) | mssa.ru.0684 | RU 684 | Images of Yale individuals | 
  [mssa.ms.0160.xml](4462.xml) | mssa.ms.0160 | MS 160 | Harvey Williams Cushing Papers in the Yale University Library | 
@@ -2787,7 +2787,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2067.xml](5716.xml) | mssa.ms.2067 | MS 2067 | Japanese lesbian, gay, bisexual, transgender, and queer collection | 
  [mssa.ms.2069.xml](5735.xml) | mssa.ms.2069 | MS 2069 | Harry W. Selden right wing materials collection | 
  [mssa.ms.2070.xml](5838.xml) | mssa.ms.2070 | MS 2070 | Charles Hill Papers | 
- [mssa.ms.2068.xml](5888.xml) | mssa.ms.2068 | MS 2068 | James Gustave Speth papers | 
+ [mssa.ms.2068.xml](5888.xml) | mssa.ms.2068 | MS.2068 | James Gustave Speth Papers | 
  [mssa.ms.2072.xml](5891.xml) | mssa.ms.2072 | MS 2072 | Lewis B. Cullman papers | 
  [mssa.ru.1148.xml](10407.xml) | mssa.ru.1148 | RU 1148 | Freshman Outdoor Orientation Trips, records | 
  [mssa.ru.1149.xml](10653.xml) | mssa.ru.1149 | RU 1149 | Yale Club of Hong Kong | 
@@ -2810,6 +2810,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2086.xml](11202.xml) | mssa.ms.2086 | MS 2086 | James F. Ahern papers | 
  [mssa.ms.2091.xml](11229.xml) | mssa.ms.2091 | MS 2091 | Arthur Bostwick Van Buskirk World War I Diaries | 
  [mssa.ms.2092.xml](11232.xml) | mssa.ms.2092 | MS 2092 | John Lewis Gaddis Papers | 
+ [mssa.ru.1158.xml](11234.xml) | mssa.ru.1158 | RU 1158 | Yale Egyptological Institute in Egypt, Yale University, records | 
  [mssa.ms.2102.xml](11305.xml) | mssa.ms.2102 | MS 2102 | Ramon Llado correspondence | 
  [mssa.ms.2101.xml](11306.xml) | mssa.ms.2101 | MS 2101 | Mas Yebra family correspondence | 
  [mssa.ms.2100.xml](11307.xml) | mssa.ms.2100 | MS 2100 | Felipe Lorenzo Famoso diary | 
