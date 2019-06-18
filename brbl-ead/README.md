@@ -402,6 +402,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.eliot.xml](927.xml) | beinecke.eliot | GEN MSS 963 | George Eliot and George Henry Lewes collection | 
  [beinecke.wolman.xml](928.xml) | beinecke.wolman | GEN MSS 969 | Gil J Wolman papers | 
  [beinecke.bryher.xml](929.xml) | beinecke.bryher | GEN MSS 97 | Bryher papers | 
+ [beinecke.sagreen.xml](931.xml) | beinecke.sagreen | GEN MSS 973 | Samuel Adams Green papers | 
  [beinecke.geiss.xml](932.xml) | beinecke.geiss | GEN MSS 979 | Tony Geiss papers | 
  [beinecke.cassirer.xml](933.xml) | beinecke.cassirer | GEN MSS 98 | Ernst Cassirer papers | 
  [beinecke.johnsonguy.xml](934.xml) | beinecke.johnsonguy | GEN MSS 980 | Johnson and Campbell family papers | 
