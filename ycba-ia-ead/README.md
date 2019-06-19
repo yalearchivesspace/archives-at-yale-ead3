@@ -3,7 +3,7 @@
 EAD | EAD ID | Identifier | Title | Other versions
 --- | ------ | ---------- | ----- | --------------
  [ycba.ia.A012.xml](5369.xml) | ycba.ia.A012 | A012 | Yale Center for British Art Advancement and External Affairs Department records | 
- [ycba.ia.S006.xml](5370.xml) | ycba.ia.S006 | S006 | Basil Taylor correspondence with Paul Mellon | 
+ [ycba.ia.S006.xml](5370.xml) | ycba.ia.S006 | S006 | Basil Taylor papers | 
  [ycba.ia.A001.xml](5371.xml) | ycba.ia.A001 | A001 | Yale Center for British Art building construction and maintenance collection | 
  [ycba.ia.A003.xml](5409.xml) | ycba.ia.A003 | A003 | Yale Center for British Art building history collection | 
  [ycba.ia.A031.xml](5410.xml) | ycba.ia.A031 | A031 | Yale Center for British Art Research Department records | 
@@ -20,7 +20,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.ia.A006.xml](5422.xml) | ycba.ia.A006 | A006 | Collection of Audio and Video Recordings on the Yale Center for British Art | 
  [ycba.ia.S007.xml](5423.xml) | ycba.ia.S007 | S007 | Paul Mellon correspondence with E. Bartlett Barnes | 
  [ycba.ia.A015.xml](5431.xml) | ycba.ia.A015 | A015 | Yale Center for British Art Conservation Department records | 
- [ycba.ia.S008.xml](5432.xml) | ycba.ia.S008 | S008 | Paul and Rachel Mellon Dealer files | 
+ [ycba.ia.S008.xml](5432.xml) | ycba.ia.S008 | S008 | Paul and Rachel Mellon dealer files | 
  [ycba.ia.A020.xml](5434.xml) | ycba.ia.A020 | A020 | Yale Center for British Art Information Technology Department records | 
  [ycba.ia.A017.xml](5436.xml) | ycba.ia.A017 | A017 | Yale Center for British Art Exhibitions and Publications Department records | 
  [ycba.ia.A019.xml](5438.xml) | ycba.ia.A019 | A019 | Yale Center for British Art Imaging Services Department records | 
