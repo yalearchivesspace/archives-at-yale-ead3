@@ -800,6 +800,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.williamscp.xml](1352.xml) | beinecke.williamscp | WA MSS S-2989 | Chauncey Pratt Williams Writings on the American West | 
  [beinecke.sfaustin.xml](1354.xml) | beinecke.sfaustin | WA MSS S-3000 | Thomas W. Streeter Collection of Austin Family and Texas Revolution Papers | 
  [beinecke.sandoval.xml](1355.xml) | beinecke.sandoval | WA MSS S-3001 | Judith Hancock de Sandoval papers and photographs | 
+ [beinecke.westernpostcards.xml](1356.xml) | beinecke.westernpostcards | WA MSS S-3014 | Western postcard collection | 
  [beinecke.wa339.xml](1357.xml) | beinecke.wa339 | WA MSS S-339 | Henry Raup Wagner Collection of Texas manuscripts | 
  [beinecke.wa341.xml](1358.xml) | beinecke.wa341 | WA MSS S-341 | Henry Raup Wagner collection of Texas and Coahuila land grants | 
  [beinecke.conner.xml](1359.xml) | beinecke.conner | WA MSS S-342 | David Conner papers | 
