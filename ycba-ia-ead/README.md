@@ -3,7 +3,7 @@
 EAD | EAD ID | Identifier | Title | Other versions
 --- | ------ | ---------- | ----- | --------------
  [ycba.ia.A012.xml](5369.xml) | ycba.ia.A012 | A012 | Yale Center for British Art Advancement and External Affairs Department records | 
- [ycba.ia.S006.xml](5370.xml) | ycba.ia.S006 | S006 | Basil Taylor papers | 
+ [ycba.ia.S006.xml](5370.xml) | ycba.ia.S006 | S006 | Paul Mellon collection of Basil Taylor papers | 
  [ycba.ia.A001.xml](5371.xml) | ycba.ia.A001 | A001 | Yale Center for British Art building construction and maintenance collection | 
  [ycba.ia.A003.xml](5409.xml) | ycba.ia.A003 | A003 | Yale Center for British Art building history collection | 
  [ycba.ia.A031.xml](5410.xml) | ycba.ia.A031 | A031 | Yale Center for British Art Research Department records | 
