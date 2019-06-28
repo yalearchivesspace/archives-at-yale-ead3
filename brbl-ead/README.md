@@ -452,7 +452,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mcadoo.xml](983.xml) | beinecke.mcadoo | JWJ MSS 60 | Orpheus M. McAdoo and Mattie Allen McAdoo papers | 
  [beinecke.cullen.xml](984.xml) | beinecke.cullen | JWJ MSS 7 | Countee Cullen Collection | 
  [beinecke.braithwa.xml](985.xml) | beinecke.braithwa | JWJ MSS 72 | William Stanley Braithwaite Papers | 
- [beinecke.feelings.xml](986.xml) | beinecke.feelings | JWJ MSS 74 | Tom Feelings artwork. | 
+ [beinecke.feelings.xml](986.xml) | beinecke.feelings | JWJ MSS 74 | Tom Feelings artwork | 
  [beinecke.jwjphotos.xml](987.xml) | beinecke.jwjphotos | JWJ MSS 76 | Photographs of prominent African Americans | 
  [beinecke.dubois.xml](988.xml) | beinecke.dubois | JWJ MSS 8 | W. E. B. Du Bois Collection | 
  [beinecke.jwjclippings.xml](989.xml) | beinecke.jwjclippings | JWJ MSS 89 | Clippings file of the James Weldon Johnson Memorial Collection | 
