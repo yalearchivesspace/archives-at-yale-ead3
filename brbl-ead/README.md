@@ -5,6 +5,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.sedykh.xml](510.xml) | beinecke.sedykh | GEN MSS 100 | Andreĭ Sedykh papers | 
  [beinecke.genprint.xml](511.xml) | beinecke.genprint | GEN MSS 1000 | Robert Fridenberg Collection of Portrait and Topographical Prints | 
  [beinecke.willems.xml](512.xml) | beinecke.willems | GEN MSS 1003 | Mo Willems papers | 
+ [beinecke.panat.xml](513.xml) | beinecke.panat | GEN MSS 1005 | Panat family papers | 
  [beinecke.odoevts.xml](514.xml) | beinecke.odoevts | GEN MSS 101 | Irina Odoevt︠s︡eva papers | 
  [beinecke.faure.xml](515.xml) | beinecke.faure | GEN MSS 1010 | Jean-Pierre Faure collection on Raymond Queneau and pataphysics | 
  [beinecke.babb.xml](516.xml) | beinecke.babb | GEN MSS 1011 | James T. Babb Correspondence | 
