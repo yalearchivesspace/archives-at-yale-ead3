@@ -1502,9 +1502,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.meharding.xml](11410.xml) | beinecke.meharding | GEN MSS 939 | M. Esther Harding collection | 
  [beinecke.hlscott.xml](11425.xml) | beinecke.hlscott | WA MSS S-3642 | Horace L. Scott papers | 
  [beinecke.rbprice.xml](11427.xml) | beinecke.rbprice | WA MSS S-3643 | Robert Beverly Price papers | 
+ [beinecke.joanwulff.xml](11428.xml) | beinecke.joanwulff | GEN MSS 1553 | Joan Salvato Wulff papers | 
  [beinecke.davenportfam.xml](11429.xml) | beinecke.davenportfam | WA MSS S-3644 | Davenport family papers | 
  [beinecke.kjensen.xml](11432.xml) | beinecke.kjensen | WA MSS S-3649 | Knute Jensen diaries | 
  [beinecke.ahwilbur.xml](11433.xml) | beinecke.ahwilbur | WA MSS S-3656 | Albert H. Wilbur Family Papers | 
+ [beinecke.milch.xml](11441.xml) | beinecke.milch | YCAL MSS 1221 | David Milch papers | 
  [beinecke.petry.xml](11446.xml) | beinecke.petry | JWJ MSS 206 | Ann Petry manuscripts | 
  [beinecke.wantedposters.xml](11464.xml) | beinecke.wantedposters | WA MSS S-3705 | Wanted posters collection | 
  [beinecke.evenson.xml](11490.xml) | beinecke.evenson | YCAL MSS 1119 | Brian Evenson papers | 
