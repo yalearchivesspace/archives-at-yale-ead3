@@ -2600,6 +2600,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1458.xml](4838.xml) | mssa.ms.1458 | MS 1458 | Whitelaw Reid papers | 
  [mssa.ms.1670.xml](4846.xml) | mssa.ms.1670 | MS 1670 | Russian state military archives collection | 
  [mssa.ms.1701.xml](4847.xml) | mssa.ms.1701 | MS 1701 | Palestinian liberation movement collection | 
+ [mssa.ms.1711.xml](4848.xml) | mssa.ms.1711 | MS 1711 | William Timbers papers | 
  [mssa.ms.1713.xml](4849.xml) | mssa.ms.1713 | MS 1713 | Abbott Lowell Cummings papers | 
  [mssa.ms.1838.xml](4850.xml) | mssa.ms.1838 | MS 1838 | Richard Kelly papers | 
  [mssa.ms.1844.xml](4851.xml) | mssa.ms.1844 | MS 1844 | Centerbrook Architects and Planners records | 
