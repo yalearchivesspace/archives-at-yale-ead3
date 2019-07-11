@@ -1497,6 +1497,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.sjsedgwick.xml](11366.xml) | beinecke.sjsedgwick | WA MSS S-2360 | S. J. Sedgwick collection | 
  [beinecke.vanhorn.xml](11387.xml) | beinecke.vanhorn | YCAL MSS 340 | Erica Van Horn prints. | 
  [beinecke.leroyscott.xml](11392.xml) | beinecke.leroyscott | GEN MSS 993 | LeRoy Scott papers | 
+ [beinecke.ww1.xml](11398.xml) | beinecke.ww1 | OSB MSS 173 | Collection of material relating to World War I | 
  [beinecke.stiles.xml](11407.xml) | beinecke.stiles | GEN MSS 1475 | Ezra Stiles Papers | 
  [beinecke.tayloredward.xml](11408.xml) | beinecke.tayloredward | GEN MSS 1476 | Edward Taylor Collection | 
  [beinecke.meharding.xml](11410.xml) | beinecke.meharding | GEN MSS 939 | M. Esther Harding collection | 
