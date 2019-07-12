@@ -2760,6 +2760,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2036.xml](5357.xml) | mssa.ms.2036 | MS 2036 | Donna Stein papers on Thomas Wilfred | 
  [mssa.ms.2044.xml](5358.xml) | mssa.ms.2044 | MS 2044 | James King Bidwell papers | 
  [mssa.ms.2035.xml](5359.xml) | mssa.ms.2035 | MS 2035 | Robert P. Anderson papers | 
+ [mssa.ru.0703.xml](5374.xml) | mssa.ru.0703 | RU 703 | Yale University buildings and grounds photographs | 
  [mssa.ms.2045.xml](5375.xml) | mssa.ms.2045 | MS 2045 | Scoville Family Papers | 
  [mssa.ms.2046.xml](5376.xml) | mssa.ms.2046 | MS 2046 | Russell Sturgis, Jr., papers | 
  [mssa.ms.2040.xml](5379.xml) | mssa.ms.2040 | MS 2040 | Helen Varney papers | 
