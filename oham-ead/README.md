@@ -7,4 +7,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [oham.ohii.xml](5481.xml) | oham.ohii | OHII | Charles Ives Oral History | 
  [oham.ohiv.xml](5482.xml) | oham.ohiv | OHIV | Steinway & Sons Oral History | 
  [oham.ohvi.xml](5483.xml) | oham.ohvi | OHVI | Aaron Copland Oral History | 
+ [oham.ohiii.xml](5484.xml) | oham.ohiii | OHIII | Duke Ellington Oral History | 
 
