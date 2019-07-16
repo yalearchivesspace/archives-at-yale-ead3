@@ -1267,6 +1267,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hollander.xml](1831.xml) | beinecke.hollander | YCAL MSS 837 | John Hollander papers | 
  [beinecke.gallup.xml](1832.xml) | beinecke.gallup | YCAL MSS 838 | Donald Clifford Gallup papers | 
  [beinecke.reedjk.xml](1833.xml) | beinecke.reedjk | YCAL MSS 843 | Joseph W. and Kit Reed Papers | 
+ [beinecke.trask.xml](1834.xml) | beinecke.trask | YCAL MSS 844 | Sherwood Trask Papers | 
  [beinecke.horgan.xml](1835.xml) | beinecke.horgan | YCAL MSS 845 | Paul Horgan papers | 
  [beinecke.fordr.xml](1836.xml) | beinecke.fordr | YCAL MSS 847 | Ruth Ford papers | 
  [beinecke.paddock.xml](1837.xml) | beinecke.paddock | YCAL MSS 848 | Willard Dryden Paddock photographs and papers | 
