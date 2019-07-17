@@ -1277,7 +1277,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.clemenss.xml](1841.xml) | beinecke.clemenss | YCAL MSS 852 | Samuel Langhorne Clemens Collection | 
  [beinecke.kore.xml](1842.xml) | beinecke.kore | YCAL MSS 854 | Kore Press Archive | 
  [beinecke.millerj.xml](1843.xml) | beinecke.millerj | YCAL MSS 861 | Joaquin Miller Collection | 
- [beinecke.ericavanhorn.xml](1844.xml) | beinecke.ericavanhorn | YCAL MSS 863 | Erica Van Horn Papers | 
+ [beinecke.ericavanhorn.xml](1844.xml) | beinecke.ericavanhorn | YCAL MSS 863 | Erica Van Horn papers | 
  [beinecke.helburn.xml](1845.xml) | beinecke.helburn | YCAL MSS 864 | Theresa Helburn papers | 
  [beinecke.bryd.xml](1846.xml) | beinecke.bryd | YCAL MSS 865 | Doris Bry papers | 
  [beinecke.selden.xml](1847.xml) | beinecke.selden | YCAL MSS 866 | Albert Selden papers | 
