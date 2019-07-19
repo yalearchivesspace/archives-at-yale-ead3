@@ -1370,7 +1370,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1378.xml](3317.xml) | mssa.ms.1378 | MS 1378 | Viscount James Bryce papers | 
  [mssa.ms.1381.xml](3318.xml) | mssa.ms.1381 | MS 1381 | Henry Schmidt papers | 
  [mssa.ms.1382.xml](3319.xml) | mssa.ms.1382 | MS 1382 | Daggett family papers | 
- [mssa.ms.1383.xml](3320.xml) | mssa.ms.1383 | MS 1383 | David C. Acheson papers | 
  [mssa.ms.1384.xml](3321.xml) | mssa.ms.1384 | MS 1384 | Guillermo F. Pardo de Leygonier papers | 
  [mssa.ms.1386.xml](3322.xml) | mssa.ms.1386 | MS 1386 | Arnold More Knight papers | 
  [mssa.ms.1389.xml](3323.xml) | mssa.ms.1389 | MS 1389 | Schauffler family papers | 
@@ -2821,4 +2820,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1161.xml](11440.xml) | mssa.ru.1161 | RU 1161 | <emph render="italic">Colossal Keepsake</emph> motion picture film by Peter Hentschel and William Richardson | 
  [mssa.ms.2099.xml](11470.xml) | mssa.ms.2099 | MS 2099 | Catalunya independence movement ephemera | 
  [mssa.ru.1163.xml](11517.xml) | mssa.ru.1163 | RU 1163 | Morse College, Yale University, records of the master | 
+ [mssa.ru.1164.xml](11523.xml) | mssa.ru.1164 | RU 1164 | Herbert E. Pickett, Jr. Class of 1913, Yale College, scrapbook | 
 
