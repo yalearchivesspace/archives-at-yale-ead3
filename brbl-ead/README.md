@@ -840,6 +840,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wildercopies.xml](1396.xml) | beinecke.wildercopies | YCAL MSS 1006 | Wilder family correspondence | 
  [beinecke.stedmanec.xml](1397.xml) | beinecke.stedmanec | YCAL MSS 1008 | Edmund Clarence Stedman Collection | 
  [beinecke.dreier.xml](1398.xml) | beinecke.dreier | YCAL MSS 101 | Katherine S. Dreier papers / Société Anonyme archive | 
+ [1399.xml](1399.xml) |  | YCAL MSS 1025 | Richard Aaron collection of Ira Cohen | 
  [beinecke.pearsonawr.xml](1400.xml) | beinecke.pearsonawr | YCAL MSS 1031 | Norman Holmes Pearson Collection of “Art for the Wrong Reason” | 
  [beinecke.sokcoll.xml](1401.xml) | beinecke.sokcoll | YCAL MSS 104 | Alfred Stieglitz / Georgia O'Keeffe collection | 
  [beinecke.wilder.xml](1402.xml) | beinecke.wilder | YCAL MSS 108 | Thornton Wilder papers | 
@@ -1503,6 +1504,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.stiles.xml](11407.xml) | beinecke.stiles | GEN MSS 1475 | Ezra Stiles Papers | 
  [beinecke.tayloredward.xml](11408.xml) | beinecke.tayloredward | GEN MSS 1476 | Edward Taylor Collection | 
  [beinecke.meharding.xml](11410.xml) | beinecke.meharding | GEN MSS 939 | M. Esther Harding collection | 
+ [beinecke.derricotte.xml](11422.xml) | beinecke.derricotte | JWJ MSS 207 | Toi Derricotte papers | 
  [beinecke.hlscott.xml](11425.xml) | beinecke.hlscott | WA MSS S-3642 | Horace L. Scott papers | 
  [beinecke.rbprice.xml](11427.xml) | beinecke.rbprice | WA MSS S-3643 | Robert Beverly Price papers | 
  [beinecke.joanwulff.xml](11428.xml) | beinecke.joanwulff | GEN MSS 1553 | Joan Salvato Wulff papers | 
@@ -1513,4 +1515,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.petry.xml](11446.xml) | beinecke.petry | JWJ MSS 206 | Ann Petry manuscripts | 
  [beinecke.wantedposters.xml](11464.xml) | beinecke.wantedposters | WA MSS S-3705 | Wanted posters collection | 
  [beinecke.evenson.xml](11490.xml) | beinecke.evenson | YCAL MSS 1119 | Brian Evenson papers | 
+ [beinecke.glansing.xml](11522.xml) | beinecke.glansing | YCAL MSS 469 | Gerrit Lansing papers | 
 
