@@ -54,4 +54,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0061.xml](11039.xml) | med.ms.0061 | Ms Coll 61 | Robert Bogdan Disability Collection | 
  [med.ms.0062.xml](11208.xml) | med.ms.0062 | Ms Coll 62 | James H. Etheridge and family collection | 
  [med.ms.0065.xml](11353.xml) | med.ms.0065 | Ms Coll 65 | Malcolm Bowers reprints and publications | 
+ [med.ms.0066.xml](11354.xml) | med.ms.0066 | Ms Coll 66 | Hall-Benedict Drug Company logbooks and ledgers | 
 
