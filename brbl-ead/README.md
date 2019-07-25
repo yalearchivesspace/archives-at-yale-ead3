@@ -1513,7 +1513,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ahwilbur.xml](11433.xml) | beinecke.ahwilbur | WA MSS S-3656 | Albert H. Wilbur Family Papers | 
  [beinecke.milch.xml](11441.xml) | beinecke.milch | YCAL MSS 1221 | David Milch papers | 
  [beinecke.petry.xml](11446.xml) | beinecke.petry | JWJ MSS 206 | Ann Petry manuscripts | 
+ [beinecke.doucet.xml](11449.xml) | beinecke.doucet | GEN MSS 1554 | Camille Doucet correspondence | 
  [beinecke.wantedposters.xml](11464.xml) | beinecke.wantedposters | WA MSS S-3705 | Wanted posters collection | 
+ [beinecke.youngbuschman.xml](11480.xml) | beinecke.youngbuschman | WA MSS S-3697 | Ernest E. Young and Janet Buschman papers | 
  [beinecke.evenson.xml](11490.xml) | beinecke.evenson | YCAL MSS 1119 | Brian Evenson papers | 
  [beinecke.glansing.xml](11522.xml) | beinecke.glansing | YCAL MSS 469 | Gerrit Lansing papers | 
 
