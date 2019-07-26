@@ -1516,6 +1516,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.doucet.xml](11449.xml) | beinecke.doucet | GEN MSS 1554 | Camille Doucet correspondence | 
  [beinecke.wantedposters.xml](11464.xml) | beinecke.wantedposters | WA MSS S-3705 | Wanted posters collection | 
  [beinecke.youngbuschman.xml](11480.xml) | beinecke.youngbuschman | WA MSS S-3697 | Ernest E. Young and Janet Buschman papers | 
+ [beinecke.jlongstreth.xml](11487.xml) | beinecke.jlongstreth | WA MSS S-3743 | Joseph Longstreth papers relating to Caryl Chessman | 
  [beinecke.evenson.xml](11490.xml) | beinecke.evenson | YCAL MSS 1119 | Brian Evenson papers | 
+ [beinecke.spaprogs.xml](11514.xml) | beinecke.spaprogs | WA MSS S-3651 | Spanish programs for American Western films | 
+ [beinecke.spapress.xml](11515.xml) | beinecke.spapress | WA MSS S-3650 | Spanish pressbooks for American Western films | 
  [beinecke.glansing.xml](11522.xml) | beinecke.glansing | YCAL MSS 469 | Gerrit Lansing papers | 
 
