@@ -1301,6 +1301,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bernstein.xml](1864.xml) | beinecke.bernstein | YCAL MSS 984 | Charles Bernstein papers | 
  [beinecke.whittier.xml](1865.xml) | beinecke.whittier | YCAL MSS 986 | John Greenleaf Whittier Collection | 
  [beinecke.fang.xml](1866.xml) | beinecke.fang | YCAL MSS 99 | Achilles Fang papers | 
+ [1867.xml](1867.xml) |  | YCAL MSS 1089 | August Kleinzahler papers | 
  [beinecke.ycalmiscellany.xml](1868.xml) | beinecke.ycalmiscellany | YCAL MSS MISC | Yale Collection of American Literature manuscript miscellany | 
  [beinecke.broch.xml](1871.xml) | beinecke.broch | YCGL MSS 1 | Hermann Broch archive | 
  [beinecke.prints.xml](1872.xml) | beinecke.prints | YCGL MSS 11 | William A. Speck collection of prints. | 
@@ -1357,6 +1358,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lintonmather.xml](5570.xml) | beinecke.lintonmather | GEN MSS 1387 | W. J. Linton Collection | 
  [beinecke.hokinson.xml](5573.xml) | beinecke.hokinson | YCAL MSS 1084 | Helen E. Hokinson Cartoons for The New Yorker | 
  [beinecke.killianbellamy.xml](5603.xml) | beinecke.killianbellamy | YCAL MSS 1090 | Kevin Killian and Dodie Bellamy papers | 
+ [beinecke.fouratt.xml](5605.xml) | beinecke.fouratt | GEN MSS 1453 | Jim Fouratt papers | 
  [beinecke.bryan.xml](5623.xml) | beinecke.bryan | YCAL MSS 1103 | C. D. B. Bryan papers | 
  [beinecke.alaska.xml](5642.xml) | beinecke.alaska | WA MSS S-3176 | Alaska manuscripts collection | 
  [beinecke.goodell.xml](5662.xml) | beinecke.goodell | YCAL MSS 1095 | Larry Goodell papers | 
@@ -1500,6 +1502,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.sjsedgwick.xml](11366.xml) | beinecke.sjsedgwick | WA MSS S-2360 | S. J. Sedgwick collection | 
  [beinecke.vanhorn.xml](11387.xml) | beinecke.vanhorn | YCAL MSS 340 | Erica Van Horn prints. | 
  [beinecke.leroyscott.xml](11392.xml) | beinecke.leroyscott | GEN MSS 993 | LeRoy Scott papers | 
+ [beinecke.cheersdm.xml](11396.xml) | beinecke.cheersdm | JWJ MSS 205 | D. Michael Cheers papers and photographs | 
  [beinecke.ww1.xml](11398.xml) | beinecke.ww1 | OSB MSS 173 | Collection of material relating to World War I | 
  [beinecke.stiles.xml](11407.xml) | beinecke.stiles | GEN MSS 1475 | Ezra Stiles Papers | 
  [beinecke.tayloredward.xml](11408.xml) | beinecke.tayloredward | GEN MSS 1476 | Edward Taylor Collection | 
@@ -1515,6 +1518,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.petry.xml](11446.xml) | beinecke.petry | JWJ MSS 206 | Ann Petry manuscripts | 
  [beinecke.doucet.xml](11449.xml) | beinecke.doucet | GEN MSS 1554 | Camille Doucet correspondence | 
  [beinecke.wantedposters.xml](11464.xml) | beinecke.wantedposters | WA MSS S-3705 | Wanted posters collection | 
+ [beinecke.natalgonquin.xml](11479.xml) | beinecke.natalgonquin | WA MSS S-3671 | National Algonquin Indian Council records | 
  [beinecke.youngbuschman.xml](11480.xml) | beinecke.youngbuschman | WA MSS S-3697 | Ernest E. Young and Janet Buschman papers | 
  [beinecke.jlongstreth.xml](11487.xml) | beinecke.jlongstreth | WA MSS S-3743 | Joseph Longstreth papers relating to Caryl Chessman | 
  [beinecke.evenson.xml](11490.xml) | beinecke.evenson | YCAL MSS 1119 | Brian Evenson papers | 
