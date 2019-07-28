@@ -1301,7 +1301,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bernstein.xml](1864.xml) | beinecke.bernstein | YCAL MSS 984 | Charles Bernstein papers | 
  [beinecke.whittier.xml](1865.xml) | beinecke.whittier | YCAL MSS 986 | John Greenleaf Whittier Collection | 
  [beinecke.fang.xml](1866.xml) | beinecke.fang | YCAL MSS 99 | Achilles Fang papers | 
- [1867.xml](1867.xml) |  | YCAL MSS 1089 | August Kleinzahler papers | 
+ [beinecke.kleinzahlera.xml](1867.xml) | beinecke.kleinzahlera | YCAL MSS 1089 | August Kleinzahler papers | 
  [beinecke.ycalmiscellany.xml](1868.xml) | beinecke.ycalmiscellany | YCAL MSS MISC | Yale Collection of American Literature manuscript miscellany | 
  [beinecke.broch.xml](1871.xml) | beinecke.broch | YCGL MSS 1 | Hermann Broch archive | 
  [beinecke.prints.xml](1872.xml) | beinecke.prints | YCGL MSS 11 | William A. Speck collection of prints. | 
