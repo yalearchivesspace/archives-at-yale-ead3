@@ -1520,6 +1520,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wantedposters.xml](11464.xml) | beinecke.wantedposters | WA MSS S-3705 | Wanted posters collection | 
  [beinecke.natalgonquin.xml](11479.xml) | beinecke.natalgonquin | WA MSS S-3671 | National Algonquin Indian Council records | 
  [beinecke.youngbuschman.xml](11480.xml) | beinecke.youngbuschman | WA MSS S-3697 | Ernest E. Young and Janet Buschman papers | 
+ [beinecke.ehamiltonlee.xml](11481.xml) | beinecke.ehamiltonlee | WA MSS S-3699 | E. Hamilton Lee papers | 
  [beinecke.jlongstreth.xml](11487.xml) | beinecke.jlongstreth | WA MSS S-3743 | Joseph Longstreth papers relating to Caryl Chessman | 
  [beinecke.evenson.xml](11490.xml) | beinecke.evenson | YCAL MSS 1119 | Brian Evenson papers | 
  [beinecke.spaprogs.xml](11514.xml) | beinecke.spaprogs | WA MSS S-3651 | Spanish programs for American Western films | 
