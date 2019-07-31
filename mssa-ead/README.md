@@ -2789,6 +2789,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2067.xml](5716.xml) | mssa.ms.2067 | MS 2067 | Japanese lesbian, gay, bisexual, transgender, and queer collection | 
  [mssa.ms.2069.xml](5735.xml) | mssa.ms.2069 | MS 2069 | Harry W. Selden right wing materials collection | 
  [mssa.ms.2070.xml](5838.xml) | mssa.ms.2070 | MS 2070 | Charles Hill Papers | 
+ [mssa.ms.2071.xml](5843.xml) | mssa.ms.2071 | MS 2071 | Ronald Dworkin papers | 
  [mssa.ms.2072.xml](5891.xml) | mssa.ms.2072 | MS 2072 | Lewis B. Cullman papers | 
  [mssa.ru.1148.xml](10407.xml) | mssa.ru.1148 | RU 1148 | Freshman Outdoor Orientation Trips, records | 
  [mssa.ru.1149.xml](10653.xml) | mssa.ru.1149 | RU 1149 | Yale Club of Hong Kong | 
