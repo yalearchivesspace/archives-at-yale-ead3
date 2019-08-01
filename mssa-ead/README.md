@@ -913,6 +913,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0865.xml](2840.xml) | mssa.ru.0865 | RU 865 | Treasury Services, Yale University, records concerning estates, wills, and trusts | 
  [mssa.ru.0880.xml](2841.xml) | mssa.ru.0880 | RU 880 | School of Architecture, Yale University, lectures and presentations | 
  [mssa.ru.0881.xml](2842.xml) | mssa.ru.0881 | RU 881 | Preservation Department, Yale University Library, records | 
+ [mssa.ru.0883.xml](2843.xml) | mssa.ru.0883 | RU 883 | Yale-New Haven Teachers Institute records | 
  [mssa.ru.0884.xml](2844.xml) | mssa.ru.0884 | RU 884 | Yale University's 300th anniversary commemoration records | 
  [mssa.ru.0886.xml](2845.xml) | mssa.ru.0886 | RU 886 | School of Architecture, Yale University, records concerning events and exhibitions | 
  [mssa.ru.0892.xml](2846.xml) | mssa.ru.0892 | RU 892 | Office of Cooperative Research, Yale University, records | 
@@ -2790,6 +2791,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2069.xml](5735.xml) | mssa.ms.2069 | MS 2069 | Harry W. Selden right wing materials collection | 
  [mssa.ms.2070.xml](5838.xml) | mssa.ms.2070 | MS 2070 | Charles Hill Papers | 
  [mssa.ms.2071.xml](5843.xml) | mssa.ms.2071 | MS 2071 | Ronald Dworkin papers | 
+ [mssa.ms.2068.xml](5888.xml) | mssa.ms.2068 | MS 2068 | James Gustave Speth papers | 
  [mssa.ms.2072.xml](5891.xml) | mssa.ms.2072 | MS 2072 | Lewis B. Cullman papers | 
  [mssa.ru.1148.xml](10407.xml) | mssa.ru.1148 | RU 1148 | Freshman Outdoor Orientation Trips, records | 
  [mssa.ru.1149.xml](10653.xml) | mssa.ru.1149 | RU 1149 | Yale Club of Hong Kong | 
@@ -2807,6 +2809,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0207.xml](10778.xml) | mssa.ru.0207 | RU 207 | Timothy Dwight College, Yale University, student records | 
  [mssa.ru.1153.xml](10837.xml) | mssa.ru.1153 | RU 1153 | Yale University Corporation 1949 Presidential Search Committee Records | 
  [mssa.ms.2085.xml](10838.xml) | mssa.ms.2085 | MS 2085 | Paul Stephen Galatowitsch papers | 
+ [mssa.ru.1155.xml](11061.xml) | mssa.ru.1155 | RU 1155  | Christopher and Kathleen Murray diary documenting life at Yale University | 
  [mssa.ru.1156.xml](11096.xml) | mssa.ru.1156 | RU 1156 | Institute of Sacred Music, Yale University, records | 
  [mssa.ru.1157.xml](11197.xml) | mssa.ru.1157 | RU 1157 | Peter Salovey, President of Yale University, Records | 
  [mssa.ms.2086.xml](11202.xml) | mssa.ms.2086 | MS 2086 | James F. Ahern papers | 
