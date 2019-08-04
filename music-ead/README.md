@@ -35,6 +35,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0009.xml](10560.xml) | music.mss.0009 | MSS 9 | The John Carter Glenn Collection | 
  [music.misc.0307.xml](10561.xml) | music.misc.0307 | Misc. Ms. 307 | The Blake Stern Papers | 
  [music.misc.0245.xml](10562.xml) | music.misc.0245 | Misc. Ms. 245 | The Joseph Jaskewitz Papers | 
+ [music.mss.0130.xml](10563.xml) | music.mss.0130 | MSS 130 | Ravi Goel Collection of Reuven Kosakoff | 
  [music.misc.0056.xml](10564.xml) | music.misc.0056 | Misc. Ms. 56 | Selected Compositions of Frank H. Smith | 
  [music.misc.0052.xml](10565.xml) | music.misc.0052 | Misc. Ms. 52 | Selected Compositions of Peter Easley | 
  [music.misc.0172.xml](10566.xml) | music.misc.0172 | Misc. Ms. 172 | The Papers of the Society for the Publication of American Music | 
