@@ -55,7 +55,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.134.xml](85.xml) | divinity.134 | RG 134 | Christina M. Breman Papers | 
  [divinity.135.xml](86.xml) | divinity.135 | RG 135 | Marvin H. Pope Papers | 
  [divinity.137.xml](87.xml) | divinity.137 | RG 137 | Hugh Hubbard Papers | 
- [divinity.138.xml](88.xml) | divinity.138 | RG 138 | Merrill and Lucille Ady Papers | 
+ [divinity.138.xml](88.xml) | divinity.138 | RG 138 | Merrill and Lucile Ady Papers | 
  [divinity.139.xml](89.xml) | divinity.139 | RG 139 | Eva Asher Papers | 
  [divinity.014.xml](90.xml) | divinity.014 | RG 14 | Trustees of Lingnan University Records | 
  [divinity.140.xml](91.xml) | divinity.140 | RG 140 | Constance Buell Papers | 
