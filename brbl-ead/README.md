@@ -625,6 +625,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fd10.xml](1161.xml) | beinecke.fd10 | OSBORN FD10 | "Correspondence" | 
  [beinecke.fd45.xml](1162.xml) | beinecke.fd45 | OSBORN FD45 | Collection of letters, receipts, proofs, portraits, etc., concerning The British Gallery of Contemporary Portraits, published by Cadell & Davies | 
  [beinecke.fd49.xml](1163.xml) | beinecke.fd49 | OSBORN FD49 | [Engravings]. | 
+ [1168.xml](1168.xml) |  | YCAL MSS 1051 | Donald Margulies papers | 
  [beinecke.tankas.xml](1170.xml) | beinecke.tankas | Tibet MSS 62 | Tanka collection | 
  [beinecke.needham.xml](1171.xml) | beinecke.needham | Tibet MSS 64 | Wesley E. Needham Papers | 
  [beinecke.micro.xml](1173.xml) | beinecke.micro | WA MFM 1-6 | Women in the West: Microfilm Sets | 
@@ -1524,6 +1525,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ehamiltonlee.xml](11481.xml) | beinecke.ehamiltonlee | WA MSS S-3699 | E. Hamilton Lee papers | 
  [beinecke.jlongstreth.xml](11487.xml) | beinecke.jlongstreth | WA MSS S-3743 | Joseph Longstreth papers relating to Caryl Chessman | 
  [beinecke.evenson.xml](11490.xml) | beinecke.evenson | YCAL MSS 1119 | Brian Evenson papers | 
+ [beinecke.mbernstein.xml](11499.xml) | beinecke.mbernstein | GEN MSS 1556 | Michèle Bernstein papers | 
  [beinecke.spaprogs.xml](11514.xml) | beinecke.spaprogs | WA MSS S-3651 | Spanish programs for American Western films | 
  [beinecke.spapress.xml](11515.xml) | beinecke.spapress | WA MSS S-3650 | Spanish pressbooks for American Western films | 
  [beinecke.glansing.xml](11522.xml) | beinecke.glansing | YCAL MSS 469 | Gerrit Lansing papers | 
