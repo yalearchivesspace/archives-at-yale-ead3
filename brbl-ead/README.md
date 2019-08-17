@@ -625,7 +625,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fd10.xml](1161.xml) | beinecke.fd10 | OSBORN FD10 | "Correspondence" | 
  [beinecke.fd45.xml](1162.xml) | beinecke.fd45 | OSBORN FD45 | Collection of letters, receipts, proofs, portraits, etc., concerning The British Gallery of Contemporary Portraits, published by Cadell & Davies | 
  [beinecke.fd49.xml](1163.xml) | beinecke.fd49 | OSBORN FD49 | [Engravings]. | 
- [1168.xml](1168.xml) |  | YCAL MSS 1051 | Donald Margulies papers | 
+ [beinecke.margulies.xml](1168.xml) | beinecke.margulies | YCAL MSS 1051 | Donald Margulies papers | 
  [beinecke.tankas.xml](1170.xml) | beinecke.tankas | Tibet MSS 62 | Tanka collection | 
  [beinecke.needham.xml](1171.xml) | beinecke.needham | Tibet MSS 64 | Wesley E. Needham Papers | 
  [beinecke.micro.xml](1173.xml) | beinecke.micro | WA MFM 1-6 | Women in the West: Microfilm Sets | 
