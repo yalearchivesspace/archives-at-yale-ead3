@@ -2547,7 +2547,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1818.xml](4528.xml) | mssa.ms.1818 | MS 1818 | South Africa Now collection | 
  [mssa.ms.1862.xml](4529.xml) | mssa.ms.1862 | MS 1862 | David Benjamin Mixner papers | 
  [mssa.ru.0133.xml](4530.xml) | mssa.ru.0133 | RU 133 | Jonathan Edwards College, Yale University, student records | 
- [mssa.ru.0223.xml](4531.xml) | mssa.ru.0223 | RU 223 | Davenport College, Yale University, student records for the Classes of 1964-2006 maintained by the dean | 
+ [mssa.ru.0223.xml](4531.xml) | mssa.ru.0223 | RU 223 | Davenport College, Yale University, student records for the Classes of 1964-2007 maintained by the dean | 
  [mssa.ru.0717.xml](4532.xml) | mssa.ru.0717 | RU 717 | University Career Services, Yale University, records | 
  [mssa.ru.0728.xml](4533.xml) | mssa.ru.0728 | RU 728 | Yale School of Drama records | 
  [mssa.ru.0011.xml](4535.xml) | mssa.ru.0011 | RU 11 | Kingman Brewster, Jr., president of Yale University, records | 
