@@ -795,6 +795,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0792.xml](2710.xml) | mssa.ru.0792 | RU 792 | Association of Yale Alumni records | 
  [mssa.ru.0796.xml](2711.xml) | mssa.ru.0796 | RU 796 | Department of the History of Art, Yale University, records | 
  [mssa.ru.0801.xml](2712.xml) | mssa.ru.0801 | RU 801 | Yale University Library records concerning renovation projects | 
+ [mssa.ru.0803.xml](2713.xml) | mssa.ru.0803 | RU 803 | Yale and New Haven audio and visual recordings | 
  [mssa.ru.0811.xml](2714.xml) | mssa.ru.0811 | RU 811 | Yale College records concerning student discipline | 
  [mssa.ru.0812.xml](2715.xml) | mssa.ru.0812 | RU 812 | Correspondence of World War II servicemen from Branford College, Yale University, and the manuscript of by Polly S. Buck | 
  [mssa.ru.0815.xml](2716.xml) | mssa.ru.0815 | RU 815 | Office of Selective Service and Veterans Affairs, Yale University, records | 
