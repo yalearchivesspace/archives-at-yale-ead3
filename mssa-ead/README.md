@@ -2664,7 +2664,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1970.xml](5151.xml) | mssa.ms.1970 | MS 1970 | City and regional planning collection | 
  [mssa.ms.1971.xml](5166.xml) | mssa.ms.1971 | MS 1971 | Gwathmey Siegel & Associates Architects, LLC, records | 
  [mssa.ms.1965.xml](5167.xml) | mssa.ms.1965 | MS 1965 | Natural Resources Defense Council records | 
- [mssa.ms.1961.xml](5177.xml) | mssa.ms.1961 | MS 1961 | Gay & Lesbian Advocates & Defenders records | 
+ [mssa.ms.1961.xml](5177.xml) | mssa.ms.1961 | MS 1961 | Gay and Lesbian Advocates and Defenders records | 
  [mssa.ru.1111.xml](5182.xml) | mssa.ru.1111 | RU 1111 | School Development Program, Child Study Center, School of Medicine, Yale University, records | 
  [mssa.ru.1110.xml](5183.xml) | mssa.ru.1110 | RU 1110 | John Herrick Jackson, Class of 1934, Yale College, photographs and etchings documenting student life at Yale | 
  [mssa.ms.1895.xml](5184.xml) | mssa.ms.1895 | MS 1895 | John Glines papers | 
