@@ -841,7 +841,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wildercopies.xml](1396.xml) | beinecke.wildercopies | YCAL MSS 1006 | Wilder family correspondence | 
  [beinecke.stedmanec.xml](1397.xml) | beinecke.stedmanec | YCAL MSS 1008 | Edmund Clarence Stedman Collection | 
  [beinecke.dreier.xml](1398.xml) | beinecke.dreier | YCAL MSS 101 | Katherine S. Dreier papers / Société Anonyme archive | 
- [1399.xml](1399.xml) |  | YCAL MSS 1025 | Richard Aaron collection of Ira Cohen | 
+ [beinecke.racohen.xml](1399.xml) | beinecke.racohen | YCAL MSS 1025 | Richard Aaron collection of Ira Cohen | 
  [beinecke.pearsonawr.xml](1400.xml) | beinecke.pearsonawr | YCAL MSS 1031 | Norman Holmes Pearson Collection of “Art for the Wrong Reason” | 
  [beinecke.sokcoll.xml](1401.xml) | beinecke.sokcoll | YCAL MSS 104 | Alfred Stieglitz / Georgia O'Keeffe collection | 
  [beinecke.wilder.xml](1402.xml) | beinecke.wilder | YCAL MSS 108 | Thornton Wilder papers | 
@@ -1476,7 +1476,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.blanch.xml](11052.xml) | beinecke.blanch | OSB MSS 202 | Lesley Blanch papers | 
  [beinecke.kotanyi.xml](11073.xml) | beinecke.kotanyi | GEN MSS 1499 | Attila Kotányi papers | 
  [beinecke.spinelliarchive.xml](11076.xml) | beinecke.spinelliarchive | GEN MSS 109 | Spinelli Archive | 
- [11079.xml](11079.xml) |  | GEN MSS 822 | Edward Mycue papers | 
+ [beinecke.mycue.xml](11079.xml) | beinecke.mycue | GEN MSS 822 | Edward Mycue papers | 
  [beinecke.variety.xml](11080.xml) | beinecke.variety | YCAL MSS 1189 | Variety's Protected Material Department Submissions | 
  [beinecke.wppy.xml](11084.xml) | beinecke.wppy | YCAL MSS 1147 | World Performance Project at Yale records | 
  [beinecke.waphotosfolio148.xml](11091.xml) | beinecke.waphotosfolio148 | WA Photos Folio 148 | Photographs of Arizona, Nebraska, New Mexico, North Dakota, Pine Ridge Indian Reservation, and South Dakota | 
@@ -1529,6 +1529,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.spaprogs.xml](11514.xml) | beinecke.spaprogs | WA MSS S-3651 | Spanish programs for American Western films | 
  [beinecke.spapress.xml](11515.xml) | beinecke.spapress | WA MSS S-3650 | Spanish pressbooks for American Western films | 
  [beinecke.glansing.xml](11522.xml) | beinecke.glansing | YCAL MSS 469 | Gerrit Lansing papers | 
- [11530.xml](11530.xml) |  | WA MSS S-3806 | Fred H. Brice California real estate papers | 
+ [beinecke.fredhbrice.xml](11530.xml) | beinecke.fredhbrice | WA MSS S-3806 | Fred H. Brice California real estate papers | 
  [beinecke.parkcounty.xml](11569.xml) | beinecke.parkcounty | WA MSS S-2963 | Gerald Fogarty Galloway Collection of Records Concerning Mines and Real Property in Park County, Colorado | 
 
