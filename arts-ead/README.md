@@ -6,6 +6,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.aob.0116.xml](320.xml) | arts.aob.0116 | AOB 116 | Collection of Gillett Griffin production materials for <title xlink:type="simple" render="italic">A Mouse’s Tale</title> | 
  [arts.aob.0125.xml](321.xml) | arts.aob.0125 | AOB 125 | Nahanni Productions archive | 
  [arts.aob.0127.xml](323.xml) | arts.aob.0127 | AOB 127 | Collection of Scott Helmes artworks | 
+ [arts.aob.0128.xml](324.xml) | arts.aob.0128 | AOB 128 | Polyglot Press collection | 
  [arts.aob.0014.xml](326.xml) | arts.aob.0014 | AOB 14 | British School Printing Examples | 
  [arts.aob.0018.xml](327.xml) | arts.aob.0018 | AOB 18 | John O. C. McCrillis Designs and Art Work | 
  [arts.aob.0019.xml](328.xml) | arts.aob.0019 | AOB 19 | Bradbury Thompson collection | 
@@ -27,6 +28,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.aob.0050.xml](344.xml) | arts.aob.0050 | AOB 50 | Honorable Company of College Printers Collection | 
  [arts.aob.0055.xml](345.xml) | arts.aob.0055 | AOB 55 | Collection of Type Specimens | 
  [arts.aob.0061.xml](347.xml) | arts.aob.0061 | AOB 61 | Jacques Hnizdovsky collection | 
+ [arts.aob.0067.xml](349.xml) | arts.aob.0067 | AOB 67 | W. A. Dwiggins Collection | 
  [arts.aob.0069.xml](350.xml) | arts.aob.0069 | AOB 69 | Collection of Artwork from Thailand | 
  [arts.aob.0070.xml](351.xml) | arts.aob.0070 | AOB 70 | Collection of Decorative Papers | 
  [arts.aob.0073.xml](352.xml) | arts.aob.0073 | AOB 73 | Collection of Drawing and Painting on Paper | 
