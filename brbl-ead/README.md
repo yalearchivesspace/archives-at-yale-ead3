@@ -1447,7 +1447,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.altagor.xml](10776.xml) | beinecke.altagor | GEN MSS 1466 | Altagor papers | 
  [beinecke.fisheram.xml](10777.xml) | beinecke.fisheram | GEN MSS 1473 | Alexander Metcalf Fisher Papers | 
  [beinecke.secrest.xml](10780.xml) | beinecke.secrest | OSB MSS 201 | Meryle Secrest papers | 
- [beinecke.bohna.xml](10782.xml) | beinecke.bohna | WA MSS S-2673 | Bohna Family Correspondence | 
+ [beinecke.bohna.xml](10782.xml) | beinecke.bohna | WA MSS S-2763 | Bohna Family Correspondence | 
  [beinecke.nees.xml](10783.xml) | beinecke.nees | GEN MSS 1465 | A. Nees & Co. decorative paper sample books | 
  [beinecke.momaday.xml](10796.xml) | beinecke.momaday | YCAL MSS 807 | N. Scott Momaday papers | 
  [beinecke.belangerriftfault.xml](10802.xml) | beinecke.belangerriftfault | WA Photos Folio 173 | Rift/Fault | 
