@@ -1531,4 +1531,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.glansing.xml](11522.xml) | beinecke.glansing | YCAL MSS 469 | Gerrit Lansing papers | 
  [beinecke.fredhbrice.xml](11530.xml) | beinecke.fredhbrice | WA MSS S-3806 | Fred H. Brice California real estate papers | 
  [beinecke.parkcounty.xml](11569.xml) | beinecke.parkcounty | WA MSS S-2963 | Gerald Fogarty Galloway Collection of Records Concerning Mines and Real Property in Park County, Colorado | 
+ [11582.xml](11582.xml) |  | YCAL MSS 704 | David Lehman papers | 
 
