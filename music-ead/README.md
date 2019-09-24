@@ -41,6 +41,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.misc.0172.xml](10566.xml) | music.misc.0172 | Misc. Ms. 172 | The Papers of the Society for the Publication of American Music | 
  [music.misc.0345.xml](10567.xml) | music.misc.0345 | Misc. Ms. 345 | Wagner-Jenkins Correspondence | 
  [music.misc.0171.xml](10568.xml) | music.misc.0171 | Misc. Ms. 171 | The Papers of the New Haven Chapter, ISCM | 
+ [music.mss.0117.xml](10569.xml) | music.mss.0117 | MSS 117 | Miles Kastendieck Papers | 
  [music.misc.0418.xml](10570.xml) | music.misc.0418 | Misc. Ms. 418 | Ethel Smyth: Letters and Scrapbook | 
  [music.misc.0242.xml](10571.xml) | music.misc.0242 | Misc. Ms. 242 | The Jenny Lind Collection | 
  [music.misc.0218.xml](10572.xml) | music.misc.0218 | Misc. Ms. 218 | The Music Vale Seminary Papers | 
@@ -76,6 +77,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.misc.0055.xml](10602.xml) | music.misc.0055 | Misc. Ms. 55 | Music Published by the Loomis Temple of Music | 
  [music.mss.0092.xml](10603.xml) | music.mss.0092 | MSS 92 | Enrico Batelli Papers | 
  [music.misc.0308.xml](10604.xml) | music.misc.0308 | Misc. Ms. 308 | The Bruce Simonds Papers | 
+ [music.mss.0128.xml](10606.xml) | music.mss.0128 | MSS 128 | Adelina Carola Appleton Papers | 
  [music.mss.0003.xml](10607.xml) | music.mss.0003 | MSS 3 | The Yale School of Music Papers | 
  [music.mss.0068.xml](10608.xml) | music.mss.0068 | MSS 68 | The Isidor Achron Papers | 
  [music.mss.0033.xml](10609.xml) | music.mss.0033 | MSS 33 | The Lowell Mason Papers | 
