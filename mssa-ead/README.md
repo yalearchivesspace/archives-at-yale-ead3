@@ -2827,4 +2827,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1163.xml](11517.xml) | mssa.ru.1163 | RU 1163 | Morse College, Yale University, records of the master | 
  [mssa.ru.1164.xml](11523.xml) | mssa.ru.1164 | RU 1164 | Herbert E. Pickett, Jr. Class of 1913, Yale College, scrapbook | 
  [11534.xml](11534.xml) |  | MS 2109 | Paul Maximilian Tedesco Papers | 
+ [mssa.ru.1167.xml](11592.xml) | mssa.ru.1167 | RU 1167 | East Asian Languages and Literatures, Yale University, records | 
 
