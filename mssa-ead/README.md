@@ -2599,6 +2599,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1178.xml](4835.xml) | mssa.ms.1178 | MS 1178 | Frank Logue papers | 
  [mssa.ms.1393.xml](4837.xml) | mssa.ms.1393 | MS 1393 | Baruch Nadel papers | 
  [mssa.ms.1458.xml](4838.xml) | mssa.ms.1458 | MS 1458 | Whitelaw Reid papers | 
+ [mssa.ms.1631.xml](4844.xml) | mssa.ms.1631 | MS 1631 | Patricia McGowan Wald papers | 
  [mssa.ms.1670.xml](4846.xml) | mssa.ms.1670 | MS 1670 | Russian state military archives collection | 
  [mssa.ms.1701.xml](4847.xml) | mssa.ms.1701 | MS 1701 | Palestinian liberation movement collection | 
  [mssa.ms.1711.xml](4848.xml) | mssa.ms.1711 | MS 1711 | William Timbers papers | 
@@ -2828,5 +2829,4 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1164.xml](11523.xml) | mssa.ru.1164 | RU 1164 | Herbert E. Pickett, Jr. Class of 1913, Yale College, scrapbook | 
  [11534.xml](11534.xml) |  | MS 2109 | Paul Maximilian Tedesco Papers | 
  [mssa.ms.2103.xml](11556.xml) | mssa.ms.2103 | MS 2103 | Lee Goebel papers | 
- [mssa.ru.1167.xml](11592.xml) | mssa.ru.1167 | RU 1167 | East Asian Languages and Literatures, Yale University, records | 
 
