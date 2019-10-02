@@ -1337,6 +1337,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lyons.xml](5354.xml) | beinecke.lyons | GEN MSS 1360 | Donald Lyons papers | 
  [beinecke.noble.xml](5361.xml) | beinecke.noble | WA Photos Folio 142 | David Grant Noble Photographs of Southwestern Cultural Landscapes | 
  [beinecke.genmusmisc.xml](5397.xml) | beinecke.genmusmisc | GEN MSS MUSIC MISC | General Collection manuscript music miscellany | 
+ [beinecke.steinberg.xml](5449.xml) | beinecke.steinberg | YCAL MSS 1053 | Saul Steinberg papers | 
  [beinecke.berlandi.xml](5452.xml) | beinecke.berlandi | WA MSS S-300 | Jean Louis Berlandier papers | 
  [beinecke.barrie.xml](5455.xml) | beinecke.barrie | GEN MSS 1400 | J. M. Barrie collection | 
  [beinecke.watkins.xml](5459.xml) | beinecke.watkins | YCAL MSS 1079 | Maurine Watkins papers | 
