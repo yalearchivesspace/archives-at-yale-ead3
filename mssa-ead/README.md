@@ -2758,7 +2758,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2032.xml](5334.xml) | mssa.ms.2032 | MS 2032 | Isaac Simha Hurewitz family correspondence | 
  [mssa.ms.2033.xml](5335.xml) | mssa.ms.2033 | MS 2033 | Central Committee Knesseth-Israel records | 
  [mssa.ms.2041.xml](5344.xml) | mssa.ms.2041 | MS 2041 | Julia Penelope research files on the Language of the Homosexual Community study | 
- [mssa.ms.2042.xml](5345.xml) | mssa.ms.2042 | MS 2042 | Bert Hansen papers | 
  [mssa.ms.2043.xml](5348.xml) | mssa.ms.2043 | MS 2043 | Leyzer Ran collection on the Jewish communities of Vilna and Kovno | 
  [mssa.ms.2036.xml](5357.xml) | mssa.ms.2036 | MS 2036 | Donna Stein papers on Thomas Wilfred | 
  [mssa.ms.2044.xml](5358.xml) | mssa.ms.2044 | MS 2044 | James King Bidwell papers | 
