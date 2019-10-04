@@ -7,6 +7,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.aob.0125.xml](321.xml) | arts.aob.0125 | AOB 125 | Nahanni Productions archive | 
  [arts.aob.0127.xml](323.xml) | arts.aob.0127 | AOB 127 | Collection of Scott Helmes artworks | 
  [arts.aob.0128.xml](324.xml) | arts.aob.0128 | AOB 128 | Polyglot Press collection | 
+ [arts.aob.0013.xml](325.xml) | arts.aob.0013 | AOB 13 | Kenneth D. Love Corporate Brand Identity Manual Collection | 
  [arts.aob.0014.xml](326.xml) | arts.aob.0014 | AOB 14 | British School Printing Examples | 
  [arts.aob.0018.xml](327.xml) | arts.aob.0018 | AOB 18 | John O. C. McCrillis Designs and Art Work | 
  [arts.aob.0019.xml](328.xml) | arts.aob.0019 | AOB 19 | Bradbury Thompson collection | 
