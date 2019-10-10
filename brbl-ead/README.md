@@ -1469,6 +1469,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.marcus.xml](11001.xml) | beinecke.marcus | GEN MSS 1489 | Leonard S. Marcus papers | 
  [beinecke.sarenco.xml](11005.xml) | beinecke.sarenco | GEN MSS 971 | Sarenco papers | 
  [beinecke.pignotti.xml](11007.xml) | beinecke.pignotti | GEN MSS 1493 | Lamberto Pignotti papers | 
+ [beinecke.stringfellow.xml](11009.xml) | beinecke.stringfellow | WA Photos 592 | Kim Stringfellow Photographs and Papers | 
  [beinecke.savageh.xml](11017.xml) | beinecke.savageh | OSB MSS 200 | Henry Savage papers | 
  [beinecke.chlingensperg.xml](11037.xml) | beinecke.chlingensperg | GEN MSS 1495 | Chlingensperg family diaries | 
  [beinecke.vanvechtmaur.xml](11041.xml) | beinecke.vanvechtmaur | YCAL MSS 1144 | Carl Van Vechten Letters to Saul Mauriber | 
@@ -1527,6 +1528,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ehamiltonlee.xml](11481.xml) | beinecke.ehamiltonlee | WA MSS S-3699 | E. Hamilton Lee papers | 
  [beinecke.jlongstreth.xml](11487.xml) | beinecke.jlongstreth | WA MSS S-3743 | Joseph Longstreth papers relating to Caryl Chessman | 
  [beinecke.evenson.xml](11490.xml) | beinecke.evenson | YCAL MSS 1119 | Brian Evenson papers | 
+ [beinecke.takitapapers.xml](11493.xml) | beinecke.takitapapers | WA MSS S-3211 | Aiko Takita and Miyeko Takita papers | 
  [beinecke.mbernstein.xml](11499.xml) | beinecke.mbernstein | GEN MSS 1556 | Michèle Bernstein papers | 
  [beinecke.spaprogs.xml](11514.xml) | beinecke.spaprogs | WA MSS S-3651 | Spanish programs for American Western films | 
  [beinecke.spapress.xml](11515.xml) | beinecke.spapress | WA MSS S-3650 | Spanish pressbooks for American Western films | 
@@ -1534,6 +1536,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fredhbrice.xml](11530.xml) | beinecke.fredhbrice | WA MSS S-3806 | Fred H. Brice California real estate papers | 
  [beinecke.parkcounty.xml](11569.xml) | beinecke.parkcounty | WA MSS S-2963 | Gerald Fogarty Galloway Collection of Records Concerning Mines and Real Property in Park County, Colorado | 
  [beinecke.dwbuck.xml](11573.xml) | beinecke.dwbuck | WA MSS S-3907 | Daniel Webster Buck papers | 
+ [beinecke.jnbarry.xml](11590.xml) | beinecke.jnbarry | WA MSS S-3977 | J. Neilson Barry collection of western maps | 
  [beinecke.hendrick.xml](11593.xml) | beinecke.hendrick | GEN MSS 1530 | Jane B. Hendrick papers relating to James G. Barnett | 
  [beinecke.persson.xml](11609.xml) | beinecke.persson | YCAL MSS 480 | Gene Persson papers relating to<emph render="italic"> Dutchman</emph> | 
 
