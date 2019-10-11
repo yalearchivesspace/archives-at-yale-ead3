@@ -2758,6 +2758,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2032.xml](5334.xml) | mssa.ms.2032 | MS 2032 | Isaac Simha Hurewitz family correspondence | 
  [mssa.ms.2033.xml](5335.xml) | mssa.ms.2033 | MS 2033 | Central Committee Knesseth-Israel records | 
  [mssa.ms.2041.xml](5344.xml) | mssa.ms.2041 | MS 2041 | Julia Penelope research files on the Language of the Homosexual Community study | 
+ [mssa.ms.2042.xml](5345.xml) | mssa.ms.2042 | MS 2042 | Bert Hansen papers | 
  [mssa.ms.2043.xml](5348.xml) | mssa.ms.2043 | MS 2043 | Leyzer Ran collection on the Jewish communities of Vilna and Kovno | 
  [mssa.ms.2036.xml](5357.xml) | mssa.ms.2036 | MS 2036 | Donna Stein papers on Thomas Wilfred | 
  [mssa.ms.2044.xml](5358.xml) | mssa.ms.2044 | MS 2044 | James King Bidwell papers | 
@@ -2822,6 +2823,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2101.xml](11306.xml) | mssa.ms.2101 | MS 2101 | Mas Yebra family correspondence | 
  [mssa.ms.2100.xml](11307.xml) | mssa.ms.2100 | MS 2100 | Felipe Lorenzo Famoso diary | 
  [mssa.ru.1159.xml](11363.xml) | mssa.ru.1159 | RU 1159 | Walter Irenaeus Lowe, Yale College Class of 1890, photographs documenting life at Yale University | 
+ [11370.xml](11370.xml) |  | MS 2105 | Michael Antisdale and Mark R. Melanson Papers | 
  [mssa.ru.1160.xml](11431.xml) | mssa.ru.1160 | RU 1160 | New Blue, Yale University, records | 
  [mssa.ru.1161.xml](11440.xml) | mssa.ru.1161 | RU 1161 | <emph render="italic">Colossal Keepsake</emph> motion picture film by Peter Hentschel and William Richardson | 
  [mssa.ms.2099.xml](11470.xml) | mssa.ms.2099 | MS 2099 | Catalunya independence movement ephemera | 
