@@ -1539,4 +1539,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jnbarry.xml](11590.xml) | beinecke.jnbarry | WA MSS S-3977 | J. Neilson Barry collection of western maps | 
  [beinecke.hendrick.xml](11593.xml) | beinecke.hendrick | GEN MSS 1530 | Jane B. Hendrick papers relating to James G. Barnett | 
  [beinecke.persson.xml](11609.xml) | beinecke.persson | YCAL MSS 480 | Gene Persson papers relating to<emph render="italic"> Dutchman</emph> | 
+ [beinecke.joywulke.xml](11620.xml) | beinecke.joywulke | WA Photos 698 | Joy Wulke photographs of Montana and Washington | 
 
