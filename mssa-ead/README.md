@@ -2,7 +2,7 @@
 
 EAD | EAD ID | Identifier | Title | Other versions
 --- | ------ | ---------- | ----- | --------------
- [mssa.ru.1154.xml](876.xml) | mssa.ru.1154 | RU 1154 | Early Yale documents | 
+ [mssa.ru.1154.xml](876.xml) | mssa.ru.1154 | RU 1154 | Early Yale documents collection | 
  [mssa.ru.0003.xml](1896.xml) | mssa.ru.0003 | RU 3 | Yale Bowl Materials Collected By Charles A. Ferry | 
  [mssa.ru.0010.xml](1897.xml) | mssa.ru.0010 | RU 10 | Helen Hadley Hall, Yale University, construction records maintained by the treasurer | 
  [mssa.ru.0014.xml](1898.xml) | mssa.ru.0014 | RU 14 | Kingman Brewster, Jr., president of Yale University, resignation records | 
