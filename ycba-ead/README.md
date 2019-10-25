@@ -18,7 +18,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0030.xml](18.xml) | ycba.mss.0030 | MSS 30  | Joshua Reynolds Archive | 
  [ycba.mss.0038.xml](19.xml) | ycba.mss.0038 | MSS 38  | Edwin Augustus Porcher Collection | 
  [ycba.mss.0004.xml](20.xml) | ycba.mss.0004 | MSS 4 | Miles & Edwards and Charles Hindley & Sons correspondence | 
- [21.xml](21.xml) |  | MSS 43 | Collection of botanical collages from the circle of Booth Grey | 
  [ycba.mss.0005.xml](22.xml) | ycba.mss.0005 | MSS 5  | John Ruskin: Letters to Thomas Goff Lupton | 
  [ycba.mss.0006.xml](23.xml) | ycba.mss.0006 | MSS 6 | Pease family collection of sketchbooks and exercise books | 
  [ycba.mss.0008.xml](24.xml) | ycba.mss.0008 | MSS 8 | Carr family collection of travel sketches, scrapbooks, and genealogical material | 
