@@ -1494,7 +1494,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.steinbeckcol.xml](11257.xml) | beinecke.steinbeckcol | YCAL MSS 1191 | Collection of Film Material Relating to John Steinbeck | 
  [beinecke.galassi.xml](11289.xml) | beinecke.galassi | YCAL MSS 1197 | Jonathan Galassi papers | 
  [beinecke.davisfo.xml](11291.xml) | beinecke.davisfo | GEN MSS 1520 | R. G. Davis papers relating to Dario Fo | 
- [11301.xml](11301.xml) |  | GEN MSS 1459 | William Smith Mason Papers | 
  [beinecke.bayareafliers.xml](11310.xml) | beinecke.bayareafliers | WA MSS S-3415 | Fliers for Punk Rock Music and New Wave Music Shows in the San Francisco Bay Area, California | 
  [beinecke.rexbeach.xml](11320.xml) | beinecke.rexbeach | WA MSS S-3417 | Rex Beach papers | 
  [beinecke.garber.xml](11325.xml) | beinecke.garber | GEN MSS 756 | Bette S. Garber photographs | 
@@ -1541,4 +1540,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hendrick.xml](11593.xml) | beinecke.hendrick | GEN MSS 1530 | Jane B. Hendrick papers relating to James G. Barnett | 
  [beinecke.persson.xml](11609.xml) | beinecke.persson | YCAL MSS 480 | Gene Persson papers relating to<emph render="italic"> Dutchman</emph> | 
  [beinecke.joywulke.xml](11620.xml) | beinecke.joywulke | WA Photos 698 | Joy Wulke photographs of Montana and Washington | 
+ [beinecke.meredith.xml](11642.xml) | beinecke.meredith | GEN MSS 953 | George Meredith Collection | 
 
