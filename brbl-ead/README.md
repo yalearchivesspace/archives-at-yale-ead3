@@ -1330,6 +1330,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
  [beinecke.elstevenson.xml](4048.xml) | beinecke.elstevenson | GEN MSS 1517 | Edward Luther Stevenson papers | 
  [beinecke.svbenet.xml](5313.xml) | beinecke.svbenet | YCAL MSS 1046 | Stephen Vincent Benét and Rosemary Benét papers | 
+ [beinecke.khayati.xml](5317.xml) | beinecke.khayati | GEN MSS 1480 | Mustapha Khayati papers | 
  [beinecke.westtheater.xml](5318.xml) | beinecke.westtheater | WA MSS S-3071 | Western Theater Souvenir Program Collection | 
  [beinecke.nevada.xml](5319.xml) | beinecke.nevada | WA MSS S-3072 | Nevada Legislature records | 
  [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
