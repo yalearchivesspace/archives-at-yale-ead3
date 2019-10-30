@@ -1503,6 +1503,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.tcarey.xml](11341.xml) | beinecke.tcarey | YCAL MSS 1210 | Tom Carey papers | 
  [beinecke.liberace.xml](11345.xml) | beinecke.liberace | GEN MSS 1528 | Collection of materials relating to Liberace | 
  [beinecke.stapleton.xml](11349.xml) | beinecke.stapleton | YCAL MSS 1211 | Maureen Stapleton papers | 
+ [beinecke.wilsoncipx.xml](11351.xml) | beinecke.wilsoncipx | WA Photos Folio 184 | Critical Indigenous Photographic Exchange Collection | 
  [beinecke.giddings.xml](11355.xml) | beinecke.giddings | GEN MSS 882 | Franklin Henry Giddings collection | 
  [beinecke.sasse.xml](11365.xml) | beinecke.sasse | WA MSS S-3469 | A. H. Sasse papers | 
  [beinecke.sjsedgwick.xml](11366.xml) | beinecke.sjsedgwick | WA MSS S-2360 | S. J. Sedgwick collection | 
@@ -1542,4 +1543,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.persson.xml](11609.xml) | beinecke.persson | YCAL MSS 480 | Gene Persson papers relating to<emph render="italic"> Dutchman</emph> | 
  [beinecke.joywulke.xml](11620.xml) | beinecke.joywulke | WA Photos 698 | Joy Wulke photographs of Montana and Washington | 
  [beinecke.meredith.xml](11642.xml) | beinecke.meredith | GEN MSS 953 | George Meredith Collection | 
+ [beinecke.ashberycollages.xml](11644.xml) | beinecke.ashberycollages | YCAL MSS 1229 | John Ashbery collages | 
 
