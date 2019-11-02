@@ -2831,4 +2831,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1164.xml](11523.xml) | mssa.ru.1164 | RU 1164 | Herbert E. Pickett, Jr. Class of 1913, Yale College, scrapbook | 
  [11534.xml](11534.xml) |  | MS 2109 | Paul Maximilian Tedesco Papers | 
  [mssa.ms.2103.xml](11556.xml) | mssa.ms.2103 | MS 2103 | Lee Goebel papers | 
+ [mssa.ru.1169.xml](11649.xml) | mssa.ru.1169 | RU 1169 | Yale China Group, Yale University, records | 
 
