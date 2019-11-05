@@ -1429,6 +1429,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.benetfamily.xml](5886.xml) | beinecke.benetfamily | YCAL MSS 1107 | Benét Family Papers | 
  [beinecke.meaning.xml](5887.xml) | beinecke.meaning | YCAL MSS 993 | M/E/A/N/I/N/G records | 
  [beinecke.magowan.xml](5889.xml) | beinecke.magowan | YCAL MSS 612 | Robin Magowan papers | 
+ [beinecke.vaneigem.xml](5893.xml) | beinecke.vaneigem | GEN MSS 1455 | Raoul Vaneigem papers | 
  [beinecke.vanvechtjwj.xml](10402.xml) | beinecke.vanvechtjwj | JWJ MSS 1050 | Carl Van Vechten Papers Relating to African American Arts and Letters | 
  [beinecke.vanvecht.xml](10403.xml) | beinecke.vanvecht | YCAL MSS 1050 | Carl Van Vechten Papers | 
  [beinecke.ramseier.xml](10640.xml) | beinecke.ramseier | WA MSS S-3242 | Roy Edwin Ramseier papers | 
