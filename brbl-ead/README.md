@@ -1489,7 +1489,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ariasmisson.xml](11199.xml) | beinecke.ariasmisson | GEN MSS 1514 | Alain Arias-Misson papers | 
  [beinecke.seldes.xml](11200.xml) | beinecke.seldes | YCAL MSS 1186 | Marian Seldes papers | 
  [beinecke.sedaris.xml](11201.xml) | beinecke.sedaris | GEN MSS 1515 | David Sedaris papers | 
- [beinecke.duplessis.xml](11209.xml) | beinecke.duplessis | YCAL MSS 1188 | Rachel Blau DuPlessis papers | 
  [beinecke.koethe.xml](11225.xml) | beinecke.koethe | YCAL MSS 600 | John Koethe papers | 
  [beinecke.wilderfamily.xml](11248.xml) | beinecke.wilderfamily | YCAL MSS 1114 | Amos Niven Wilder and Wilder Family Papers | 
  [beinecke.sharaff.xml](11255.xml) | beinecke.sharaff | YCAL MSS 1201 | Irene Sharaff papers | 
