@@ -639,9 +639,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.reed.xml](1184.xml) | beinecke.reed | WA MSS 399 | Silas Reed papers | 
  [beinecke.rbsage.xml](1185.xml) | beinecke.rbsage | WA MSS 414 | Rufus B. Sage papers | 
  [beinecke.stevens.xml](1186.xml) | beinecke.stevens | WA MSS 442-445 | Isaac Ingalls Stevens papers | 
- [beinecke.strangco.xml](1188.xml) | beinecke.strangco | WA MSS 447 | James Jesse Strang collection | 
  [beinecke.walkerfam.xml](1189.xml) | beinecke.walkerfam | WA MSS 501 | Walker Family papers | 
  [beinecke.andrewsmithgalllery.xml](1190.xml) | beinecke.andrewsmithgalllery | WA MSS S-3056 | Andrew Smith Gallery records | 
+ [beinecke.strangco_revised.xml](1191.xml) | beinecke.strangco_revised | WA MSS 447 (Revised) | James Jesse Strang collection | 
  [beinecke.littlemoses.xml](1192.xml) | beinecke.littlemoses | WA MSS S-1028 | Moses F. Little papers | 
  [beinecke.gran.xml](1193.xml) | beinecke.gran | WA MSS S-1120 | Granville Stuart papers | 
  [beinecke.jesuits.xml](1194.xml) | beinecke.jesuits | WA MSS S-1143 | Jesuit Missionary Collection | 
@@ -1489,6 +1489,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ariasmisson.xml](11199.xml) | beinecke.ariasmisson | GEN MSS 1514 | Alain Arias-Misson papers | 
  [beinecke.seldes.xml](11200.xml) | beinecke.seldes | YCAL MSS 1186 | Marian Seldes papers | 
  [beinecke.sedaris.xml](11201.xml) | beinecke.sedaris | GEN MSS 1515 | David Sedaris papers | 
+ [beinecke.duplessis.xml](11209.xml) | beinecke.duplessis | YCAL MSS 1188 | Rachel Blau DuPlessis papers | 
  [beinecke.koethe.xml](11225.xml) | beinecke.koethe | YCAL MSS 600 | John Koethe papers | 
  [beinecke.wilderfamily.xml](11248.xml) | beinecke.wilderfamily | YCAL MSS 1114 | Amos Niven Wilder and Wilder Family Papers | 
  [beinecke.sharaff.xml](11255.xml) | beinecke.sharaff | YCAL MSS 1201 | Irene Sharaff papers | 
