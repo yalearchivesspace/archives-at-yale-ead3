@@ -2832,4 +2832,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [11534.xml](11534.xml) |  | MS 2109 | Paul Maximilian Tedesco Papers | 
  [mssa.ms.2103.xml](11556.xml) | mssa.ms.2103 | MS 2103 | Lee Goebel papers | 
  [mssa.ru.1169.xml](11649.xml) | mssa.ru.1169 | RU 1169 | Yale China Group, Yale University, records | 
+ [mssa.ms.2112.xml](11656.xml) | mssa.ms.2112 | MS 2112 | Josephine and Antonio Bouzas papers | 
 
