@@ -34,4 +34,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0053.xml](10701.xml) | ycba.mss.0053 | MSS 53  | Thomas Woolner Letters to John Frederick Lewis | 
  [ycba.mss.0054.xml](10704.xml) | ycba.mss.0054 | MSS 54  | Royal College of Art Sketch Club Collection | 
  [ycba.mss.0056.xml](11067.xml) | ycba.mss.0056 | MSS 56 | Edward Burne-Jones Letters to John Ruskin | 
+ [11090.xml](11090.xml) |  | McHale MSS.(In Process) | John McHale archive | 
 
