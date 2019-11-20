@@ -8,5 +8,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [oham.ohiv.xml](5482.xml) | oham.ohiv | OHIV | Steinway & Sons Oral History | 
  [oham.ohvi.xml](5483.xml) | oham.ohvi | OHVI | Aaron Copland Oral History | 
  [oham.ohiii.xml](5484.xml) | oham.ohiii | OHIII | Duke Ellington Oral History | 
- [oham.nmusa.xml](11627.xml) | oham.nmusa | NMUSA | New Music USA Collection | 
+ [oham.nmusa.xml](11627.xml) | oham.nmusa | NMUSA | New Music USA Interviews | 
 
