@@ -1550,4 +1550,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.iwwidentphotos.xml](11632.xml) | beinecke.iwwidentphotos | WA Photos 718 | Collection of identification photographs of Industrial Workers of the World strikers | 
  [beinecke.meredith.xml](11642.xml) | beinecke.meredith | GEN MSS 953 | George Meredith Collection | 
  [beinecke.ashberycollages.xml](11644.xml) | beinecke.ashberycollages | YCAL MSS 1229 | John Ashbery collages | 
+ [11669.xml](11669.xml) |  | JWJ MSS 198 | Amiri Baraka papers | 
 
