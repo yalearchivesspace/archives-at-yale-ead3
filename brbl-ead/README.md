@@ -79,6 +79,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.levyvictoriana.xml](596.xml) | beinecke.levyvictoriana | GEN MSS 1280 | Charles Joseph Levy Collection of Victoriana | 
  [beinecke.schutz.xml](598.xml) | beinecke.schutz | GEN MSS 129 | Alfred Schutz papers | 
  [beinecke.marinet.xml](599.xml) | beinecke.marinet | GEN MSS 130 | Filippo Tommaso Marinetti papers | 
+ [beinecke.lapietra.xml](600.xml) | beinecke.lapietra | GEN MSS 1308 | Ugo La Pietra papers | 
  [beinecke.pequot.xml](601.xml) | beinecke.pequot | GEN MSS 1309 | Manuscripts in the Monroe, Wakeman, and Holman Collection of the Pequot Library Association | 
  [beinecke.vinlandmapfiles.xml](602.xml) | beinecke.vinlandmapfiles | GEN MSS 1319 | <title>The Vinland Map and the Tartar Relation</title>: proofs and subject files | 
  [beinecke.loud.xml](603.xml) | beinecke.loud | GEN MSS 1320 | Lance Loud and Loud family papers | 
@@ -1550,5 +1551,4 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.iwwidentphotos.xml](11632.xml) | beinecke.iwwidentphotos | WA Photos 718 | Collection of identification photographs of Industrial Workers of the World strikers | 
  [beinecke.meredith.xml](11642.xml) | beinecke.meredith | GEN MSS 953 | George Meredith Collection | 
  [beinecke.ashberycollages.xml](11644.xml) | beinecke.ashberycollages | YCAL MSS 1229 | John Ashbery collages | 
- [11669.xml](11669.xml) |  | JWJ MSS 198 | Amiri Baraka papers | 
 
