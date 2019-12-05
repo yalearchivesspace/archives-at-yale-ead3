@@ -1551,4 +1551,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.iwwidentphotos.xml](11632.xml) | beinecke.iwwidentphotos | WA Photos 718 | Collection of identification photographs of Industrial Workers of the World strikers | 
  [beinecke.meredith.xml](11642.xml) | beinecke.meredith | GEN MSS 953 | George Meredith Collection | 
  [beinecke.ashberycollages.xml](11644.xml) | beinecke.ashberycollages | YCAL MSS 1229 | John Ashbery collages | 
+ [beinecke.astronomy.xml](11660.xml) | beinecke.astronomy | GEN MSS 731 | Yale University Department of Astronomy collection of astronomical reference materials | 
 
