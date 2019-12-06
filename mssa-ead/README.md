@@ -2690,6 +2690,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1925.xml](5208.xml) | mssa.ms.1925 | MS 1925 | United Nations collection of Kofi Annan papers | 
  [mssa.ru.1115.xml](5209.xml) | mssa.ru.1115 | RU 1115 | University Tribunal, Yale University, records of the Chair | 
  [mssa.ru.1116.xml](5210.xml) | mssa.ru.1116 | RU 1116 | John Emory Buxton Wells, Class of 1917, Sheffield Scientific School, Yale University, photograph collection | 
+ [mssa.ms.1981.xml](5211.xml) | mssa.ms.1981 | MS 1981 | Henry A. Kissinger papers, part II | 
  [mssa.ms.1986.xml](5212.xml) | mssa.ms.1986 | MS 1986 | Dori Laub interviews of Holocaust survivors | 
  [mssa.ru.1117.xml](5214.xml) | mssa.ru.1117 | RU 1117 | Howard R. Lamar Center for the Study of Frontiers and Borders, Yale University, records | 
  [mssa.ru.1118.xml](5215.xml) | mssa.ru.1118 | RU 1118 | Frederick J. Mahaffey, School of Fine Arts, Yale University, correspondence and memorabilia | 
