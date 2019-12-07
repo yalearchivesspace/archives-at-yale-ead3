@@ -2830,6 +2830,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2099.xml](11470.xml) | mssa.ms.2099 | MS 2099 | Catalunya independence movement ephemera | 
  [mssa.ru.1163.xml](11517.xml) | mssa.ru.1163 | RU 1163 | Morse College, Yale University, records of the master | 
  [mssa.ru.1164.xml](11523.xml) | mssa.ru.1164 | RU 1164 | Herbert E. Pickett, Jr. Class of 1913, Yale College, scrapbook | 
+ [mssa.ms.2107.xml](11526.xml) | mssa.ms.2107 | MS 2107 | Drury A. McMillen Papers | 
  [11534.xml](11534.xml) |  | MS 2109 | Paul Maximilian Tedesco Papers | 
  [mssa.ms.2103.xml](11556.xml) | mssa.ms.2103 | MS 2103 | Lee Goebel papers | 
  [mssa.ru.1169.xml](11649.xml) | mssa.ru.1169 | RU 1169 | Yale China Group, Yale University, records | 
