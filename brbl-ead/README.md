@@ -1552,4 +1552,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.meredith.xml](11642.xml) | beinecke.meredith | GEN MSS 953 | George Meredith Collection | 
  [beinecke.ashberycollages.xml](11644.xml) | beinecke.ashberycollages | YCAL MSS 1229 | John Ashbery collages | 
  [beinecke.astronomy.xml](11660.xml) | beinecke.astronomy | GEN MSS 731 | Yale University Department of Astronomy collection of astronomical reference materials | 
+ [11676.xml](11676.xml) |  | YCAL MSS 1231 | Backwoods Broadsides records | 
 
