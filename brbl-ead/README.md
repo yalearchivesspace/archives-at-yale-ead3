@@ -1554,4 +1554,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.drucker.xml](11654.xml) | beinecke.drucker | YCAL MSS 1230 | Johanna Drucker papers | 
  [beinecke.astronomy.xml](11660.xml) | beinecke.astronomy | GEN MSS 731 | Yale University Department of Astronomy collection of astronomical reference materials | 
  [beinecke.furnisspound.xml](11673.xml) | beinecke.furnisspound | YCAL MSS 633 | Robert M. Furniss collection of Ezra Pound | 
+ [beinecke.moshermamet.xml](11677.xml) | beinecke.moshermamet | YCAL MSS 842 | Gregory Mosher papers relating to David Mamet | 
 
