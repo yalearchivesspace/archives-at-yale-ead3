@@ -2533,6 +2533,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1608.xml](4509.xml) | mssa.ms.1608 | MS 1608 | I. Richard Savage papers | 
  [mssa.ms.1622.xml](4511.xml) | mssa.ms.1622 | MS 1622 | Thomas Irwin Emerson papers | 
  [mssa.ms.1624.xml](4512.xml) | mssa.ms.1624 | MS 1624 | Hans Caspar Syz papers | 
+ [mssa.ms.1664.xml](4513.xml) | mssa.ms.1664 | MS 1664 | Cyrus R. and Grace Sloane Vance papers | 
  [mssa.ms.1685.xml](4514.xml) | mssa.ms.1685 | MS 1685 | Deane Keller papers | 
  [mssa.ms.1700.xml](4515.xml) | mssa.ms.1700 | MS 1700 | Dorothy M. Horstmann papers | 
  [mssa.ms.1706.xml](4516.xml) | mssa.ms.1706 | MS 1706 | Frank J. Donner papers | 
