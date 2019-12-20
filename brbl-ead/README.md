@@ -1544,6 +1544,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fredhbrice.xml](11530.xml) | beinecke.fredhbrice | WA MSS S-3806 | Fred H. Brice California real estate papers | 
  [beinecke.parkcounty.xml](11569.xml) | beinecke.parkcounty | WA MSS S-2963 | Gerald Fogarty Galloway Collection of Records Concerning Mines and Real Property in Park County, Colorado | 
  [beinecke.dwbuck.xml](11573.xml) | beinecke.dwbuck | WA MSS S-3907 | Daniel Webster Buck papers | 
+ [beinecke.lehman.xml](11582.xml) | beinecke.lehman | YCAL MSS 704 | David Lehman papers | 
  [beinecke.jnbarry.xml](11590.xml) | beinecke.jnbarry | WA MSS S-3977 | J. Neilson Barry collection of western maps | 
  [beinecke.hendrick.xml](11593.xml) | beinecke.hendrick | GEN MSS 1530 | Jane B. Hendrick papers relating to James G. Barnett | 
  [beinecke.persson.xml](11609.xml) | beinecke.persson | YCAL MSS 480 | Gene Persson papers relating to <emph render="italic">Dutchman</emph> | 
