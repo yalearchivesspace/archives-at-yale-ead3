@@ -1194,6 +1194,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jespersen.xml](1751.xml) | beinecke.jespersen | YCAL MSS 708 | Ruth Jespersen papers | 
  [beinecke.kellner.xml](1752.xml) | beinecke.kellner | YCAL MSS 709 | Bruce Kellner papers | 
  [beinecke.little.xml](1753.xml) | beinecke.little | YCAL MSS 711 | Little Square Review Records | 
+ [beinecke.sstewart.xml](1754.xml) | beinecke.sstewart | YCAL MSS 714 | Susan Stewart papers | 
  [beinecke.lapine.xml](1755.xml) | beinecke.lapine | YCAL MSS 715 | James Lapine papers | 
  [beinecke.wolfm.xml](1756.xml) | beinecke.wolfm | YCAL MSS 716 | Mary Hunter Wolf papers | 
  [beinecke.macleod.xml](1757.xml) | beinecke.macleod | YCAL MSS 718 | Norman Macleod papers | 
@@ -1230,6 +1231,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.berger.xml](1789.xml) | beinecke.berger | YCAL MSS 759 | Spencer Berger Collection on film, theater, and music | 
  [beinecke.stein.xml](1790.xml) | beinecke.stein | YCAL MSS 76 | Gertrude Stein and Alice B. Toklas papers | 
  [beinecke.picano.xml](1791.xml) | beinecke.picano | YCAL MSS 761 | Felice Picano papers | 
+ [beinecke.merkin.xml](1792.xml) | beinecke.merkin | YCAL MSS 762 | Richard Merkin collection | 
  [beinecke.vansant.xml](1793.xml) | beinecke.vansant | YCAL MSS 763 | George Van Santvoord collection | 
  [beinecke.gander.xml](1794.xml) | beinecke.gander | YCAL MSS 765 | Forrest Gander papers | 
  [beinecke.leighton.xml](1795.xml) | beinecke.leighton | YCAL MSS 766 | Isabel Leighton papers | 
@@ -1537,6 +1539,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.evenson.xml](11490.xml) | beinecke.evenson | YCAL MSS 1119 | Brian Evenson papers | 
  [beinecke.takitapapers.xml](11493.xml) | beinecke.takitapapers | WA MSS S-3211 | Aiko Takita and Miyeko Takita papers | 
  [beinecke.mbernstein.xml](11499.xml) | beinecke.mbernstein | GEN MSS 1556 | Michèle Bernstein papers | 
+ [beinecke.basquinbute.xml](11500.xml) | beinecke.basquinbute | YCAL MSS 1007 | Kit Smyth Basquin collection of Mary Ellen Bute | 
  [beinecke.spaprogs.xml](11514.xml) | beinecke.spaprogs | WA MSS S-3651 | Spanish programs for American Western films | 
  [beinecke.spapress.xml](11515.xml) | beinecke.spapress | WA MSS S-3650 | Spanish pressbooks for American Western films | 
  [beinecke.usbuttons.xml](11519.xml) | beinecke.usbuttons | WA MSS S-3822 | Collection of United States social pinback buttons | 
@@ -1554,7 +1557,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ashberycollages.xml](11644.xml) | beinecke.ashberycollages | YCAL MSS 1229 | John Ashbery collages | 
  [beinecke.drucker.xml](11654.xml) | beinecke.drucker | YCAL MSS 1230 | Johanna Drucker papers | 
  [beinecke.astronomy.xml](11660.xml) | beinecke.astronomy | GEN MSS 731 | Yale University Department of Astronomy collection of astronomical reference materials | 
+ [beinecke.kuskin.xml](11665.xml) | beinecke.kuskin | GEN MSS 791 | Karla Kuskin papers | 
  [beinecke.furnisspound.xml](11673.xml) | beinecke.furnisspound | YCAL MSS 633 | Robert M. Furniss collection of Ezra Pound | 
  [beinecke.russlerburstein.xml](11674.xml) | beinecke.russlerburstein | YCAL MSS 1117 | Goldie Russler and Abraham Burstein papers | 
  [beinecke.moshermamet.xml](11677.xml) | beinecke.moshermamet | YCAL MSS 842 | Gregory Mosher papers relating to David Mamet | 
+ [beinecke.wingstc.xml](11681.xml) | beinecke.wingstc | GEN MSS 1451 | Records relating to the Wing Short title catalog | 
+ [beinecke.orphicfodder.xml](11688.xml) | beinecke.orphicfodder | GEN MSS 1054 | Orphic fodder archive | 
+ [beinecke.ckwilliams.xml](11690.xml) | beinecke.ckwilliams | YCAL MSS 661 | C. K. Williams papers | 
 
