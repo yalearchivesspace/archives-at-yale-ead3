@@ -56,5 +56,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0065.xml](11353.xml) | med.ms.0065 | Ms Coll 65 | Malcolm Bowers reprints and publications | 
  [med.ms.0066.xml](11354.xml) | med.ms.0066 | Ms Coll 66 | Hall-Benedict Drug Company logbooks and ledgers | 
  [med.ms.0064.xml](11375.xml) | med.ms.0064 | Ms Coll 64 | Martha H. Roper Papers | 
- [11447.xml](11447.xml) |  | Ms Coll 67 | The Bert Hansen collection of medicine and public health in popular graphic art | 
+ [med.ms.0067.xml](11447.xml) | med.ms.0067 | Ms Coll 67 | The Bert Hansen collection of medicine and public health in popular graphic art | 
 
