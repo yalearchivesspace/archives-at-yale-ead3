@@ -572,6 +572,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.manche.xml](1106.xml) | beinecke.manche | OSB MSS fc.37 | Manchester papers | 
  [beinecke.burney.xml](1107.xml) | beinecke.burney | OSB MSS fd 59 | Burney-Lear drawings collection | 
  [beinecke.osbfile.xml](1108.xml) | beinecke.osbfile | OSB MSS FILE | Osborn Manuscript Files | 
+ [beinecke.eknollys.xml](1109.xml) | beinecke.eknollys | OSB MSS 205 | Eardley Knollys papers | 
  [beinecke.c108.xml](1110.xml) | beinecke.c108 | OSBORN C108 | "College correspondence: Letters from candidates for Parliamt. 1779" | 
  [beinecke.c195.xml](1111.xml) | beinecke.c195 | OSBORN C195 | [Album containing 165 letters from various correspondents, addressed to John Audley, Chancellor of the Archdiocese of York, and to his father, Edward Audley of Huntington] | 
  [beinecke.c205.xml](1112.xml) | beinecke.c205 | OSBORN C205 | Letters to Edward Southwell (1671-1730) and others | 
