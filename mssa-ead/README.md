@@ -2833,6 +2833,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1164.xml](11523.xml) | mssa.ru.1164 | RU 1164 | Herbert E. Pickett, Jr. Class of 1913, Yale College, scrapbook | 
  [mssa.ms.2107.xml](11526.xml) | mssa.ms.2107 | MS 2107 | Drury A. McMillen Papers | 
  [11534.xml](11534.xml) |  | MS 2109 | Paul Maximilian Tedesco Papers | 
+ [mssa.ru.1166.xml](11553.xml) | mssa.ru.1166 | RU 1166 | Hannah Peck, assistant dean of Yale College, records | 
  [mssa.ms.2103.xml](11556.xml) | mssa.ms.2103 | MS 2103 | Lee Goebel papers | 
  [mssa.ru.1169.xml](11649.xml) | mssa.ru.1169 | RU 1169 | Yale China Group, Yale University, records | 
  [mssa.ms.2112.xml](11656.xml) | mssa.ms.2112 | MS 2112 | Josephine and Antonio Bouzas papers | 
