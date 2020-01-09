@@ -1546,6 +1546,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.usbuttons.xml](11519.xml) | beinecke.usbuttons | WA MSS S-3822 | Collection of United States social pinback buttons | 
  [beinecke.glansing.xml](11522.xml) | beinecke.glansing | YCAL MSS 469 | Gerrit Lansing papers | 
  [beinecke.fredhbrice.xml](11530.xml) | beinecke.fredhbrice | WA MSS S-3806 | Fred H. Brice California real estate papers | 
+ [beinecke.risvoldcady.xml](11532.xml) | beinecke.risvoldcady | WA MSS S-3807 | Floyd E. Risvold Collection of James Edgar Cady Correspondence | 
+ [beinecke.sommer.xml](11560.xml) | beinecke.sommer | WA MSS S-3861 | Watercolors and Pencil Drawings Related to the Utah Expedition | 
  [beinecke.parkcounty.xml](11569.xml) | beinecke.parkcounty | WA MSS S-2963 | Gerald Fogarty Galloway Collection of Records Concerning Mines and Real Property in Park County, Colorado | 
  [beinecke.dwbuck.xml](11573.xml) | beinecke.dwbuck | WA MSS S-3907 | Daniel Webster Buck papers | 
  [beinecke.lehman.xml](11582.xml) | beinecke.lehman | YCAL MSS 704 | David Lehman papers | 
