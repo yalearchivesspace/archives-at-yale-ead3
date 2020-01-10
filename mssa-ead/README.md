@@ -2591,6 +2591,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0231.xml](4816.xml) | mssa.ms.0231 | MS 231 | Henry Killam Murphy papers | 
  [mssa.ms.0465.xml](4819.xml) | mssa.ms.0465 | MS 465 | Henry Lewis Stimson papers | 
  [mssa.ms.0553.xml](4820.xml) | mssa.ms.0553 | MS 553 | Harry Weinberger papers | 
+ [mssa.ms.0572.xml](4821.xml) | mssa.ms.0572 | MS 572 | Kingman Brewster personal papers | 
  [mssa.ms.0576.xml](4822.xml) | mssa.ms.0576 | MS 576 | William F. Buckley, Jr., papers | 
  [mssa.ms.0619.xml](4824.xml) | mssa.ms.0619 | MS 619 | Civil War manuscripts collection | 
  [mssa.ms.0671.xml](4825.xml) | mssa.ms.0671 | MS 671 | War poster collection | 
