@@ -2508,7 +2508,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1111.xml](4483.xml) | mssa.ms.1111 | MS 1111 | Anna Strunsky Walling papers | 
  [mssa.ms.1139.xml](4484.xml) | mssa.ms.1139 | MS 1139 | Margaret S. Mahler Psychiatric Research Foundation papers | 
  [mssa.ms.1237.xml](4485.xml) | mssa.ms.1237 | MS 1237 | Anne Ramsay Somers papers | 
- [mssa.ms.1258.xml](4486.xml) | mssa.ms.1258 | MS 1258 | Yale Miscellaneous Manuscripts collection | 
+ [mssa.ms.1258.xml](4486.xml) | mssa.ms.1258 | MS 1258 | Yale miscellaneous manuscripts collection | 
  [mssa.ms.1284.xml](4487.xml) | mssa.ms.1284 | MS 1284 | Ira Vaughan Hiscock papers | 
  [mssa.ms.1297.xml](4488.xml) | mssa.ms.1297 | MS 1297 | Arnold Carl Klebs papers | 
  [mssa.ms.1387.xml](4489.xml) | mssa.ms.1387 | MS 1387 | Crawford Theater collection | 
