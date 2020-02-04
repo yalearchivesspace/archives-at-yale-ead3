@@ -335,4 +335,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.46f.xml](11412.xml) | divinity.46f | RG 46F | World Student Christian Federation Geneva office records | 
  [divinity.271.xml](11436.xml) | divinity.271 | RG 271 | Charles Cutler Torrey papers | 
  [divinity.316.xml](11579.xml) | divinity.316 | RG 316 | Paul Yu-Kuang Sun papers | 
+ [divinity.283.xml](11703.xml) | divinity.283 | RG 283 | John Woolman Brush papers | 
 
