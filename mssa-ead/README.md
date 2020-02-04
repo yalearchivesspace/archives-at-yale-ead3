@@ -2656,6 +2656,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1938.xml](4901.xml) | mssa.ms.1938 | MS 1938 | John Hay Whitney and Betsey Cushing Whitney family papers | 
  [mssa.ms.1962.xml](4904.xml) | mssa.ms.1962 | MS 1962 | Love Makes a Family records | 
  [mssa.ms.1834.xml](4905.xml) | mssa.ms.1834 | MS 1834 | AIDS collection | 
+ [mssa.ms.1907.xml](4906.xml) | mssa.ms.1907 | MS 1907 | Douglas Conrad Eastern and Central European LGBT interviews and supporting materials | 
  [mssa.ms.1951.xml](4948.xml) | mssa.ms.1951 | MS 1951 | Russell E. Train correspondence with Charles A. Lindbergh regarding conservation issues | 
  [mssa.ms.1958.xml](4949.xml) | mssa.ms.1958 | MS 1958 | Jay Katz papers | 
  [mssa.ms.1963.xml](4951.xml) | mssa.ms.1963 | MS 1963 | Stephen Gendin papers | 
