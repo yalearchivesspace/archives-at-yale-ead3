@@ -1077,6 +1077,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0013.xml](3008.xml) | mssa.ms.0013 | MS 13 | Alois Francis Kovarik papers | 
  [mssa.ms.0014.xml](3009.xml) | mssa.ms.0014 | MS 14 | Walter Lionel Pforzheimer collection | 
  [mssa.ms.0016.xml](3010.xml) | mssa.ms.0016 | MS 16 | Potter family papers | 
+ [mssa.ms.0023.xml](3011.xml) | mssa.ms.0023 | MS 23 | Guy Serge Metraux papers | 
  [mssa.ms.0025.xml](3012.xml) | mssa.ms.0025 | MS 25 | William Henry Morse papers | 
  [mssa.ms.0028.xml](3013.xml) | mssa.ms.0028 | MS 28 | George Jacob Abbot papers | 
  [mssa.ms.0030.xml](3014.xml) | mssa.ms.0030 | MS 30 | George Burton Adams papers | 
@@ -2072,6 +2073,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0027.xml](4028.xml) | mssa.ms.0027 | MS 27 | Edwin Hale Abbot family papers | 
  [mssa.ms.0034.xml](4029.xml) | mssa.ms.0034 | MS 34 | Alsop family papers | 
  [mssa.ms.0038.xml](4030.xml) | mssa.ms.0038 | MS 38 | Charles McLean Andrews papers | 
+ [mssa.ms.0099.xml](4031.xml) | mssa.ms.0099 | MS 99 | Brewer family papers | 
  [mssa.ms.0101.xml](4032.xml) | mssa.ms.0101 | MS 101 | Bristol family papers | 
  [mssa.ms.0132.xml](4033.xml) | mssa.ms.0132 | MS 132 | E. Clowes Chorley papers | 
  [mssa.ms.0155.xml](4034.xml) | mssa.ms.0155 | MS 155 | Wilbur Lucius Cross papers | 
