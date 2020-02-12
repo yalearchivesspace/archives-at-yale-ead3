@@ -1469,7 +1469,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jcwilson.xml](10942.xml) | beinecke.jcwilson | YCAL MSS 1127 | John C. Wilson Papers | 
  [beinecke.shively.xml](10945.xml) | beinecke.shively | GEN MSS 1546 | Charley Shively papers | 
  [beinecke.pearllondon.xml](10946.xml) | beinecke.pearllondon | YCAL MSS 1129  | Pearl London papers | 
- [beinecke.lgbtqfilm.xml](10950.xml) | beinecke.lgbtqfilm | GEN MSS 1560 | LGBTQ film, television, and theater collection | 
+ [beinecke.lgbtqfilm.xml](10950.xml) | beinecke.lgbtqfilm | GEN MSS 1580 | LGBTQ film, television, and theater collection | 
  [beinecke.bertini.xml](10951.xml) | beinecke.bertini | GEN MSS 970 | Gianni Bertini papers | 
  [beinecke.nationaluburoibakeoff.xml](10954.xml) | beinecke.nationaluburoibakeoff | YCAL MSS 1145 | National Ubu Roi Bake-Off collection | 
  [beinecke.hammer.xml](10956.xml) | beinecke.hammer | GEN MSS 1482 | Barbara Hammer papers | 
@@ -1514,6 +1514,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.stapleton.xml](11349.xml) | beinecke.stapleton | YCAL MSS 1211 | Maureen Stapleton papers | 
  [beinecke.wilsoncipx.xml](11351.xml) | beinecke.wilsoncipx | WA Photos Folio 184 | Critical Indigenous Photographic Exchange Collection | 
  [beinecke.giddings.xml](11355.xml) | beinecke.giddings | GEN MSS 882 | Franklin Henry Giddings collection | 
+ [beinecke.bluepress.xml](11359.xml) | beinecke.bluepress | YCAL MSS 1235 | Blue Press records | 
  [beinecke.sasse.xml](11365.xml) | beinecke.sasse | WA MSS S-3469 | A. H. Sasse papers | 
  [beinecke.sjsedgwick.xml](11366.xml) | beinecke.sjsedgwick | WA MSS S-2360 | S. J. Sedgwick collection | 
  [beinecke.antsedwards.xml](11376.xml) | beinecke.antsedwards | GEN MSS 1542 | Andover Newton Theological Seminary collection of Jonathan Edwards | 
@@ -1573,4 +1574,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ckwilliams.xml](11690.xml) | beinecke.ckwilliams | YCAL MSS 661 | C. K. Williams papers | 
  [beinecke.cmautzpbritt.xml](11697.xml) | beinecke.cmautzpbritt | WA Photos 865 | Carl Mautz collection of Peter Britt photographs | 
  [beinecke.mdheastonwesternland.xml](11701.xml) | beinecke.mdheastonwesternland | WA MSS S-4086 | Michael D. Heaston Collection of Western Land and Settlement Manuscripts | 
+ [beinecke.mikedaleyoungerpoets.xml](11707.xml) | beinecke.mikedaleyoungerpoets | YCAL MSS 1236 | Papers related to Mike & Dale's Younger Poets | 
 
