@@ -2890,4 +2890,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2103.xml](11556.xml) | mssa.ms.2103 | MS 2103 | Lee Goebel papers | 
  [mssa.ru.1169.xml](11649.xml) | mssa.ru.1169 | RU 1169 | Yale China Group, Yale University, records | 
  [mssa.ms.2112.xml](11656.xml) | mssa.ms.2112 | MS 2112 | Josephine and Antonio Bouzas papers | 
+ [mssa.ru.1171.xml](11722.xml) | mssa.ru.1171 | RU 1171 | <emph render="italic">Yale Journal of Biology and Medicine</emph>, Yale University, records | 
 
