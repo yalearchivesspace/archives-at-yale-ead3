@@ -336,4 +336,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.271.xml](11436.xml) | divinity.271 | RG 271 | Charles Cutler Torrey papers | 
  [divinity.316.xml](11579.xml) | divinity.316 | RG 316 | Paul Yu-Kuang Sun papers | 
  [divinity.283.xml](11703.xml) | divinity.283 | RG 283 | John Woolman Brush papers | 
+ [divinity.302.xml](11731.xml) | divinity.302 | RG 302 | William L. Holladay papers | 
 
