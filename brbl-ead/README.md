@@ -1490,6 +1490,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mycue.xml](11079.xml) | beinecke.mycue | GEN MSS 822 | Edward Mycue papers | 
  [beinecke.variety.xml](11080.xml) | beinecke.variety | YCAL MSS 1189 | Variety's Protected Material Department Submissions | 
  [beinecke.wppy.xml](11084.xml) | beinecke.wppy | YCAL MSS 1147 | World Performance Project at Yale records | 
+ [beinecke.winkfield.xml](11087.xml) | beinecke.winkfield | YCAL MSS 1233 | Trevor Winkfield papers | 
  [beinecke.waphotosfolio148.xml](11091.xml) | beinecke.waphotosfolio148 | WA Photos Folio 148 | Photographs of Arizona, Nebraska, New Mexico, North Dakota, Pine Ridge Indian Reservation, and South Dakota | 
  [beinecke.blume.xml](11190.xml) | beinecke.blume | GEN MSS 1481 | Judy Blume papers | 
  [beinecke.guest.xml](11192.xml) | beinecke.guest | YCAL MSS 1185 | Barbara Guest papers | 
@@ -1537,6 +1538,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.petry.xml](11446.xml) | beinecke.petry | JWJ MSS 206 | Ann Petry manuscripts | 
  [beinecke.doucet.xml](11449.xml) | beinecke.doucet | GEN MSS 1554 | Camille Doucet correspondence | 
  [beinecke.wantedposters.xml](11464.xml) | beinecke.wantedposters | WA MSS S-3705 | Wanted posters collection | 
+ [beinecke.georgewashingtongrayson.xml](11469.xml) | beinecke.georgewashingtongrayson | WA MSS S-4098 | Transcriptions of George Washington Grayson journals | 
  [beinecke.natalgonquin.xml](11479.xml) | beinecke.natalgonquin | WA MSS S-3671 | National Algonquin Indian Council records | 
  [beinecke.youngbuschman.xml](11480.xml) | beinecke.youngbuschman | WA MSS S-3697 | Ernest E. Young and Janet Buschman papers | 
  [beinecke.ehamiltonlee.xml](11481.xml) | beinecke.ehamiltonlee | WA MSS S-3699 | E. Hamilton Lee papers | 
@@ -1575,4 +1577,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cmautzpbritt.xml](11697.xml) | beinecke.cmautzpbritt | WA Photos 865 | Carl Mautz collection of Peter Britt photographs | 
  [beinecke.mdheastonwesternland.xml](11701.xml) | beinecke.mdheastonwesternland | WA MSS S-4086 | Michael D. Heaston Collection of Western Land and Settlement Manuscripts | 
  [beinecke.mikedaleyoungerpoets.xml](11707.xml) | beinecke.mikedaleyoungerpoets | YCAL MSS 1236 | Papers related to Mike & Dale's Younger Poets | 
+ [beinecke.larissaleclair.xml](11713.xml) | beinecke.larissaleclair | GEN MSS 1584 | Larissa Leclair collection of indie photobook library ephemera | 
 
