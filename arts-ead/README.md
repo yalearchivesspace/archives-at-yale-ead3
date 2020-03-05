@@ -3,6 +3,7 @@
 EAD | EAD ID | Identifier | Title | Other versions
 --- | ------ | ---------- | ----- | --------------
  [arts.aob.0001.xml](318.xml) | arts.aob.0001 | AOB 1 | Commercial Paper Sample Book Collection | 
+ [arts.aob.0106.xml](319.xml) | arts.aob.0106 | AOB 106 | Tom Morin papers | 
  [arts.aob.0116.xml](320.xml) | arts.aob.0116 | AOB 116 | Collection of Gillett Griffin production materials for <title xlink:type="simple" render="italic">A Mouse’s Tale</title> | 
  [arts.aob.0125.xml](321.xml) | arts.aob.0125 | AOB 125 | Nahanni Productions archive | 
  [arts.aob.0127.xml](323.xml) | arts.aob.0127 | AOB 127 | Collection of Scott Helmes artworks | 
