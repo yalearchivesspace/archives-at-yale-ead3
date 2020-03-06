@@ -1559,6 +1559,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lehman.xml](11582.xml) | beinecke.lehman | YCAL MSS 704 | David Lehman papers | 
  [beinecke.jnbarry.xml](11590.xml) | beinecke.jnbarry | WA MSS S-3977 | J. Neilson Barry collection of western maps | 
  [beinecke.hendrick.xml](11593.xml) | beinecke.hendrick | GEN MSS 1530 | Jane B. Hendrick papers relating to James G. Barnett | 
+ [beinecke.agamben.xml](11597.xml) | beinecke.agamben | GEN MSS 1586 | Giorgio Agamben papers | 
  [beinecke.persson.xml](11609.xml) | beinecke.persson | YCAL MSS 480 | Gene Persson papers relating to <emph render="italic">Dutchman</emph> | 
  [beinecke.gramatky.xml](11614.xml) | beinecke.gramatky | GEN MSS 1567 | Hardie Gramatky papers | 
  [beinecke.joywulke.xml](11620.xml) | beinecke.joywulke | WA Photos 698 | Joy Wulke photographs of Montana and Washington | 
@@ -1570,11 +1571,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.kuskin.xml](11665.xml) | beinecke.kuskin | GEN MSS 791 | Karla Kuskin papers | 
  [beinecke.furnisspound.xml](11673.xml) | beinecke.furnisspound | YCAL MSS 633 | Robert M. Furniss collection of Ezra Pound | 
  [beinecke.russlerburstein.xml](11674.xml) | beinecke.russlerburstein | YCAL MSS 1117 | Goldie Russler and Abraham Burstein papers | 
+ [beinecke.backwoodsbroadsides.xml](11676.xml) | beinecke.backwoodsbroadsides | YCAL MSS 1231 | Backwoods Broadsides records | 
  [beinecke.moshermamet.xml](11677.xml) | beinecke.moshermamet | YCAL MSS 842 | Gregory Mosher papers relating to David Mamet | 
  [beinecke.wingstc.xml](11681.xml) | beinecke.wingstc | GEN MSS 1451 | Records relating to the Wing Short title catalog | 
  [beinecke.orphicfodder.xml](11688.xml) | beinecke.orphicfodder | GEN MSS 1054 | Orphic fodder archive | 
  [beinecke.ckwilliams.xml](11690.xml) | beinecke.ckwilliams | YCAL MSS 661 | C. K. Williams papers | 
  [beinecke.cmautzpbritt.xml](11697.xml) | beinecke.cmautzpbritt | WA Photos 865 | Carl Mautz collection of Peter Britt photographs | 
+ [beinecke.bottleofsmoke.xml](11700.xml) | beinecke.bottleofsmoke | YCAL MSS 1234 | Bottle of Smoke Press records | 
  [beinecke.mdheastonwesternland.xml](11701.xml) | beinecke.mdheastonwesternland | WA MSS S-4086 | Michael D. Heaston Collection of Western Land and Settlement Manuscripts | 
  [beinecke.mikedaleyoungerpoets.xml](11707.xml) | beinecke.mikedaleyoungerpoets | YCAL MSS 1236 | Papers related to Mike & Dale's Younger Poets | 
  [beinecke.larissaleclair.xml](11713.xml) | beinecke.larissaleclair | GEN MSS 1584 | Larissa Leclair collection of indie photobook library ephemera | 
