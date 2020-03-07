@@ -6,6 +6,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.aob.0106.xml](319.xml) | arts.aob.0106 | AOB 106 | Tom Morin papers | 
  [arts.aob.0116.xml](320.xml) | arts.aob.0116 | AOB 116 | Collection of Gillett Griffin production materials for <title xlink:type="simple" render="italic">A Mouse’s Tale</title> | 
  [arts.aob.0125.xml](321.xml) | arts.aob.0125 | AOB 125 | Nahanni Productions archive | 
+ [arts.aob.0126.xml](322.xml) | arts.aob.0126 | AOB 126 | Paul Rand papers | 
  [arts.aob.0127.xml](323.xml) | arts.aob.0127 | AOB 127 | Collection of Scott Helmes artworks | 
  [arts.aob.0128.xml](324.xml) | arts.aob.0128 | AOB 128 | Polyglot Press collection | 
  [arts.aob.0013.xml](325.xml) | arts.aob.0013 | AOB 13 | Kenneth D. Love Corporate Brand Identity Manual Collection | 
@@ -42,6 +43,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.aob.0008.xml](357.xml) | arts.aob.0008 | AOB 8 | Richard Minsky archive | 
  [arts.aob.0080.xml](358.xml) | arts.aob.0080 | AOB 80 | Collection of student printing | 
  [arts.aob.0082.xml](359.xml) | arts.aob.0082 | AOB 82 | Collection of Japanese prints | 
+ [arts.aob.0089.xml](360.xml) | arts.aob.0089 | AOB 89 | Fritz Eichenberg papers | 
  [arts.aob.0009.xml](361.xml) | arts.aob.0009 | AOB 9 | Carl Purington Rollins papers | 
  [arts.aob.0090.xml](362.xml) | arts.aob.0090 | AOB 90 | Collection of printing production materials | 
  [arts.art.0001.xml](363.xml) | arts.art.0001 | ART 1 | Volvelle collection | 
@@ -56,6 +58,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.art.0025.xml](373.xml) | arts.art.0025 | ART 25 | Collection of Latin American exhibition catalogs and visual resources | 
  [arts.art.0027.xml](374.xml) | arts.art.0027 | ART 27 | Martin Sebastian Soria papers | 
  [arts.art.0028.xml](375.xml) | arts.art.0028 | ART 28 | Collection of Czech viewbooks and guidebooks | 
+ [arts.art.0008.xml](376.xml) | arts.art.0008 | ART 8 | George Kubler collection | 
  [arts.bkp.0102.xml](377.xml) | arts.bkp.0102 | BKP 102 | Collection of Bookplates of Religious Orders | 
  [arts.bkp.0103.xml](378.xml) | arts.bkp.0103 | BKP 103 | Collection of Leather Bookplates | 
  [arts.bkp.0110.xml](379.xml) | arts.bkp.0110 | BKP 110 | Collection of German heraldry materials | 
@@ -79,6 +82,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.bkp.0142.xml](397.xml) | arts.bkp.0142 | BKP 142 | W. P. Barrett correspondence | 
  [arts.bkp.0002.xml](398.xml) | arts.bkp.0002 | BKP 2 | Andrews Memorial Bookplate Collection of Irene D. Andrews Pace (Personal Bookplates) | 
  [arts.bkp.0038.xml](399.xml) | arts.bkp.0038 | BKP 38 | Collection of Bookplates by Nathaniel Hurd | 
+ [arts.bkp.0039.xml](400.xml) | arts.bkp.0039 | BKP 39 | Louis Ginsberg Collection of Jewish Bookplates | 
  [arts.bkp.0004.xml](401.xml) | arts.bkp.0004 | BKP 4 | Andrews Memorial Bookplate Collection of Irene D. Andrews Pace (School and College Bookplates) | 
  [arts.bkp.0043.xml](402.xml) | arts.bkp.0043 | BKP 43 | Collection of 18th- and 19th-century British Bookplates | 
  [arts.bkp.0044.xml](403.xml) | arts.bkp.0044 | BKP 44 | Collection of Polish Bookplates | 
@@ -119,6 +123,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.dra.0027.xml](438.xml) | arts.dra.0027 | DRA 27 | Yale School of Drama Doctor of Fine Arts Dissertations | 
  [arts.dra.0028.xml](439.xml) | arts.dra.0028 | DRA 28 | Yale School of Drama Master of Fine Arts Theses | 
  [arts.dra.0029.xml](440.xml) | arts.dra.0029 | DRA 29 | Drama 50 Script Collection | 
+ [arts.dra.0003.xml](441.xml) | arts.dra.0003 | DRA 3 | Rollo Peters Costume and Set Designs | 
  [arts.dra.0030.xml](442.xml) | arts.dra.0030 | DRA 30 | Yale Repertory Theatre Scripts Collection | 
  [arts.dra.0033.xml](443.xml) | arts.dra.0033 | DRA 33 | Franklin Jasper Walls Collection | 
  [arts.dra.0034.xml](444.xml) | arts.dra.0034 | DRA 34 | Yale Cabaret Scripts and Ephemera Collection | 
@@ -128,6 +133,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.dra.0038.xml](448.xml) | arts.dra.0038 | DRA 38 | Miscellaneous Scripts Collection | 
  [arts.dra.0005.xml](449.xml) | arts.dra.0005 | DRA 5 | Fashion and costume plate collection | 
  [arts.dra.0006.xml](450.xml) | arts.dra.0006 | DRA 6 | Puppetry collection | 
+ [arts.dra.0007.xml](451.xml) | arts.dra.0007 | DRA 7 | Yale School of Drama Student Costume and Scenic Design Collection | 
  [arts.dra.0009.xml](452.xml) | arts.dra.0009 | DRA 9 | Yale Rockefeller theatrical prints collection | 
  [arts.aob.0030.xml](5680.xml) | arts.aob.0030 | AOB 30 | Emma Joy Dana Collection of Artuš Scheiner | 
  [vrc.0071.xml](10410.xml) | vrc.0071 | VRC 71 | Miscellaneous Oversized Sculpture Photographs | 
