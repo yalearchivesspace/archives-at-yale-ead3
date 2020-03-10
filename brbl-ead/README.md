@@ -1581,4 +1581,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mdheastonwesternland.xml](11701.xml) | beinecke.mdheastonwesternland | WA MSS S-4086 | Michael D. Heaston Collection of Western Land and Settlement Manuscripts | 
  [beinecke.mikedaleyoungerpoets.xml](11707.xml) | beinecke.mikedaleyoungerpoets | YCAL MSS 1236 | Papers related to Mike & Dale's Younger Poets | 
  [beinecke.larissaleclair.xml](11713.xml) | beinecke.larissaleclair | GEN MSS 1584 | Larissa Leclair collection of indie photobook library ephemera | 
+ [beinecke.cmackenzie.xml](11726.xml) | beinecke.cmackenzie | GEN MSS 1589 | Compton Mackenzie papers | 
 
