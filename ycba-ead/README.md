@@ -36,4 +36,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0056.xml](11067.xml) | ycba.mss.0056 | MSS 56 | Edward Burne-Jones Letters to John Ruskin | 
  [ycba.mss.0060.xml](11090.xml) | ycba.mss.0060 | MSS 60 | John McHale archive | 
  [ycba.mss.0059.xml](11283.xml) | ycba.mss.0059 | MSS 59 | Edward Lear archive | 
+ [11734.xml](11734.xml) |  | MSS Forbes | A voyage from England to Bombay with descriptions in Asia, Africa, and South America | 
 
