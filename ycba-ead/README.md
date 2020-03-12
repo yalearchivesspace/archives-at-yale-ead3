@@ -10,6 +10,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0014.xml](7.xml) | ycba.mss.0014 | MSS 14  | Sam Smith Collection | 
  [ycba.mss.0015.xml](8.xml) | ycba.mss.0015 | MSS 15 | Charles Robert Leslie Collection | 
  [ycba.mss.0016.xml](9.xml) | ycba.mss.0016 | MSS 16 | Mary Leighton Collection | 
+ [ycba.mss.0018.xml](11.xml) | ycba.mss.0018 | MSS 18  | Jones family archive | 
  [ycba.mss.0019.xml](12.xml) | ycba.mss.0019 | MSS 19  | Whyte family Correspondence | 
  [ycba.mss.0002.xml](13.xml) | ycba.mss.0002 | MSS 2 | Clayton family papers | 
  [ycba.mss.0028.xml](15.xml) | ycba.mss.0028 | MSS 28 | Ellen Fenton Diaries of Travels to Boulogne-sur-Mer | 
@@ -36,5 +37,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0056.xml](11067.xml) | ycba.mss.0056 | MSS 56 | Edward Burne-Jones Letters to John Ruskin | 
  [ycba.mss.0060.xml](11090.xml) | ycba.mss.0060 | MSS 60 | John McHale archive | 
  [ycba.mss.0059.xml](11283.xml) | ycba.mss.0059 | MSS 59 | Edward Lear archive | 
- [11734.xml](11734.xml) |  | MSS Forbes | A voyage from England to Bombay with descriptions in Asia, Africa, and South America | 
+ [11734.xml](11734.xml) |  | MSS Forbes | James Forbes archive: A voyage from England to Bombay with descriptions in Asia, Africa, and South America | 
 
