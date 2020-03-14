@@ -1545,6 +1545,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jlongstreth.xml](11487.xml) | beinecke.jlongstreth | WA MSS S-3743 | Joseph Longstreth papers relating to Caryl Chessman | 
  [beinecke.evenson.xml](11490.xml) | beinecke.evenson | YCAL MSS 1119 | Brian Evenson papers | 
  [beinecke.takitapapers.xml](11493.xml) | beinecke.takitapapers | WA MSS S-3211 | Aiko Takita and Miyeko Takita papers | 
+ [beinecke.kansaspostcards.xml](11494.xml) | beinecke.kansaspostcards | WA Photos 594 | Photographic Postcards of Kansas | 
  [beinecke.mbernstein.xml](11499.xml) | beinecke.mbernstein | GEN MSS 1556 | Michèle Bernstein papers | 
  [beinecke.basquinbute.xml](11500.xml) | beinecke.basquinbute | YCAL MSS 1007 | Kit Smyth Basquin collection of Mary Ellen Bute | 
  [beinecke.spaprogs.xml](11514.xml) | beinecke.spaprogs | WA MSS S-3651 | Spanish programs for American Western films | 
