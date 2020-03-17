@@ -39,4 +39,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0059.xml](11283.xml) | ycba.mss.0059 | MSS 59 | Edward Lear archive | 
  [11734.xml](11734.xml) |  | MSS Forbes | James Forbes archive: A voyage from England to Bombay with descriptions in Asia, Africa, and South America | 
  [ycba.mss.0020.xml](11756.xml) | ycba.mss.0020 | MSS 20 | Henry Perlee Parker collection | 
+ [ycba.mss.0021.xml](11760.xml) | ycba.mss.0021 | MSS 21 | John Christie archive | 
 
