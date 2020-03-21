@@ -248,7 +248,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bradyhandy.xml](769.xml) | beinecke.bradyhandy | GEN MSS 580 | Mathew B. Brady and Levin Corbin Handy Photographic Studios Collection | 
  [beinecke.greb.xml](770.xml) | beinecke.greb | GEN MSS 589 | Alyce Batchelder Collection of George Grebenstchikoff | 
  [beinecke.lmanian.xml](771.xml) | beinecke.lmanian | GEN MSS 590 | Photographs of Washington, D.C., and New Haven, Connecticut. | 
- [beinecke.korvin.xml](772.xml) | beinecke.korvin | GEN MSS 598 | Vladimir Korvin-Piotrovskiĭ papers | 
+ [beinecke.korvin.xml](772.xml) | beinecke.korvin | GEN MSS 598 | Vladimir Korvin-Piotrovskii? papers | 
  [beinecke.gilbert.xml](773.xml) | beinecke.gilbert | GEN MSS 6 | W. S. Lewis collection of W. S. Gilbert manuscripts and letters | 
  [beinecke.hewcoll.xml](774.xml) | beinecke.hewcoll | GEN MSS 60 | Maurice Hewlett collection | 
  [beinecke.frkoch.xml](775.xml) | beinecke.frkoch | GEN MSS 601 | Frederick R. Koch collection | 
