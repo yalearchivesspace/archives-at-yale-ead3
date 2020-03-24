@@ -499,7 +499,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0106.xml](2395.xml) | mssa.ru.0106 | RU 106 | Beinecke Rare Book and Manuscript Library, Yale University, photographs | 
  [mssa.ru.0121.xml](2396.xml) | mssa.ru.0121 | RU 121 | Department of Athletics, Yale University, records documenting crew | 
  [mssa.ru.0123.xml](2397.xml) | mssa.ru.0123 | RU 123 | Dept. of Manuscripts and Archives, Yale University, reader services records | 
- [mssa.ru.0134.xml](2398.xml) | mssa.ru.0134 | RU 134 | Yale Sailing Associates recprds | 
+ [mssa.ru.0134.xml](2398.xml) | mssa.ru.0134 | RU 134 | Yale Sailing Associates records | 
  [mssa.ru.0138.xml](2399.xml) | mssa.ru.0138 | RU 138 | Yale student scrapbook collection | 
  [mssa.ru.0140.xml](2400.xml) | mssa.ru.0140 | RU 140 | Yale College commencement orations and poems | 
  [mssa.ru.0142.xml](2401.xml) | mssa.ru.0142 | RU 142 | Yale University Corporation 1992 presidential search committee records | 
@@ -2890,5 +2890,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2103.xml](11556.xml) | mssa.ms.2103 | MS 2103 | Lee Goebel papers | 
  [mssa.ru.1169.xml](11649.xml) | mssa.ru.1169 | RU 1169 | Yale China Group, Yale University, records | 
  [mssa.ms.2112.xml](11656.xml) | mssa.ms.2112 | MS 2112 | Josephine and Antonio Bouzas papers | 
+ [mssa.ru.1170.xml](11706.xml) | mssa.ru.1170 | RU 1170 | Proof of the Pudding, Yale University, records | 
  [mssa.ru.1171.xml](11722.xml) | mssa.ru.1171 | RU 1171 | <emph render="italic">Yale Journal of Biology and Medicine</emph>, Yale University, records | 
 
