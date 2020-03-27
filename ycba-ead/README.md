@@ -41,4 +41,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0020.xml](11756.xml) | ycba.mss.0020 | MSS 20 | Henry Perlee Parker collection | 
  [ycba.mss.0021.xml](11760.xml) | ycba.mss.0021 | MSS 21 | John Christie archive | 
  [ycba.mss.0022.xml](11762.xml) | ycba.mss.0022 | MSS 22 | Letters to Richard Redgrave | 
+ [ycba.mss.0023.xml](11763.xml) | ycba.mss.0023 | MSS 23 | Cathy Courtney collection of artists' books ephemera | 
 
