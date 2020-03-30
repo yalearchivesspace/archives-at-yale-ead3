@@ -42,4 +42,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0021.xml](11760.xml) | ycba.mss.0021 | MSS 21 | John Christie archive | 
  [ycba.mss.0022.xml](11762.xml) | ycba.mss.0022 | MSS 22 | Letters to Richard Redgrave | 
  [ycba.mss.0023.xml](11763.xml) | ycba.mss.0023 | MSS 23 | Cathy Courtney collection of artists' books ephemera | 
+ [ycba.mss.0027.xml](11764.xml) | ycba.mss.0027 | MSS 27 | Grimston family correspondence | 
+ [ycba.mss.0026.xml](11766.xml) | ycba.mss.0026 | MSS 26 | James Wales archive | 
 
