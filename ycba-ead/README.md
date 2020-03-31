@@ -26,6 +26,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0009.xml](25.xml) | ycba.mss.0009 | MSS 9  | Edgar Hockley collection | 
  [ycba.mss.0024.xml](30.xml) | ycba.mss.0024 | MSS 24 | Paul Nash Letters to Mercia Oakley | 
  [ycba.mss.0007.xml](33.xml) | ycba.mss.0007 | MSS 7 | Clare Leighton collection | 
+ [ycba.mss.0032.xml](5704.xml) | ycba.mss.0032 | MSS 32  | Matthew Shepperson archive | 
  [ycba.mss.0050.xml](5731.xml) | ycba.mss.0050 | MSS 50 | Collection of Cabaret Theatre Club and Cave of the Golden Calf printed ephemera | 
  [ycba.mss.0046.xml](5850.xml) | ycba.mss.0046 | MSS 46 | John Ruskin Letters to Ellen Heaton | 
  [ycba.mss.0031.xml](5858.xml) | ycba.mss.0031 | MSS 31  | Dante Gabriel Rossetti Letters to William Houghton Clabburn | 
@@ -44,4 +45,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0023.xml](11763.xml) | ycba.mss.0023 | MSS 23 | Cathy Courtney collection of artists' books ephemera | 
  [ycba.mss.0027.xml](11764.xml) | ycba.mss.0027 | MSS 27 | Grimston family correspondence | 
  [ycba.mss.0026.xml](11766.xml) | ycba.mss.0026 | MSS 26 | James Wales archive | 
+ [ycba.mss.0033.xml](11767.xml) | ycba.mss.0033 | MSS 33 | Wake and Bellhouse collection | 
 
