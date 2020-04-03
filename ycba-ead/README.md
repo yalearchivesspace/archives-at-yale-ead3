@@ -47,4 +47,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0026.xml](11766.xml) | ycba.mss.0026 | MSS 26 | James Wales archive | 
  [ycba.mss.0033.xml](11767.xml) | ycba.mss.0033 | MSS 33 | Wake and Bellhouse collection | 
  [ycba.mss.0034.xml](11770.xml) | ycba.mss.0034 | MSS 34 | Album of letters to David Roberts, with autographs, engraved portraits, and printed ephemera, compiled by Henry Sanford Bicknell | 
+ [ycba.mss.0035.xml](11771.xml) | ycba.mss.0035 | MSS 35 | Miss Rowe collection of botanical specimens | 
 
