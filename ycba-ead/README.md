@@ -13,6 +13,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0018.xml](11.xml) | ycba.mss.0018 | MSS 18  | Jones family archive | 
  [ycba.mss.0019.xml](12.xml) | ycba.mss.0019 | MSS 19  | Whyte family Correspondence | 
  [ycba.mss.0002.xml](13.xml) | ycba.mss.0002 | MSS 2 | Clayton family papers | 
+ [ycba.mss.0025.xml](14.xml) | ycba.mss.0025 | MSS 25  | Ken Campbell archive | 
  [ycba.mss.0028.xml](15.xml) | ycba.mss.0028 | MSS 28 | Ellen Fenton Diaries of Travels to Boulogne-sur-Mer | 
  [ycba.mss.0029.xml](16.xml) | ycba.mss.0029 | MSS 29  | Hester Lynch Piozzi Letters to Dr. William Makepeace Thackeray | 
  [ycba.mss.0003.xml](17.xml) | ycba.mss.0003 | MSS 3 | Philip Hermogenes Calderon correspondence from John Everett Millais and Frederic Leighton | 
