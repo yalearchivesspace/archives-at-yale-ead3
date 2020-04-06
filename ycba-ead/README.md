@@ -49,4 +49,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0033.xml](11767.xml) | ycba.mss.0033 | MSS 33 | Wake and Bellhouse collection | 
  [ycba.mss.0034.xml](11770.xml) | ycba.mss.0034 | MSS 34 | Album of letters to David Roberts, with autographs, engraved portraits, and printed ephemera, compiled by Henry Sanford Bicknell | 
  [ycba.mss.0035.xml](11771.xml) | ycba.mss.0035 | MSS 35 | Miss Rowe collection of botanical specimens | 
+ [ycba.mss.0037.xml](11772.xml) | ycba.mss.0037 | MSS 37 | John Ruskin letters to John Henry Le Keux | 
 
