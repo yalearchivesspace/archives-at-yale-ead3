@@ -29,6 +29,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0007.xml](33.xml) | ycba.mss.0007 | MSS 7 | Clare Leighton collection | 
  [ycba.mss.0032.xml](5704.xml) | ycba.mss.0032 | MSS 32  | Matthew Shepperson archive | 
  [ycba.mss.0050.xml](5731.xml) | ycba.mss.0050 | MSS 50 | Collection of Cabaret Theatre Club and Cave of the Golden Calf printed ephemera | 
+ [ycba.mss.0039.xml](5750.xml) | ycba.mss.0039 | MSS 39  | Vanessa Bell and Duncan Grant letters to Kenneth Clark and Jane Clark | 
  [ycba.mss.0046.xml](5850.xml) | ycba.mss.0046 | MSS 46 | John Ruskin Letters to Ellen Heaton | 
  [ycba.mss.0031.xml](5858.xml) | ycba.mss.0031 | MSS 31  | Dante Gabriel Rossetti Letters to William Houghton Clabburn | 
  [ycba.mss.0047.xml](5859.xml) | ycba.mss.0047 | MSS 47  | Dante Gabriel Rossetti Letters to Ellen Heaton | 
