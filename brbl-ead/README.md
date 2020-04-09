@@ -274,6 +274,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hunt.xml](795.xml) | beinecke.hunt | GEN MSS 65 | Leigh Hunt collection | 
  [beinecke.kline.xml](796.xml) | beinecke.kline | GEN MSS 650 | George Louis Kline papers | 
  [beinecke.allegret.xml](797.xml) | beinecke.allegret | GEN MSS 651 | Marc Allegrét papers | 
+ [beinecke.damico.xml](798.xml) | beinecke.damico | GEN MSS 655 | Tano D'Amico Photographs of Events in Italy | 
  [beinecke.milosz.xml](799.xml) | beinecke.milosz | GEN MSS 661 | Czesław Miłosz papers | 
  [beinecke.acton.xml](800.xml) | beinecke.acton | GEN MSS 663 | Harold Acton papers | 
  [beinecke.ejbstevenson.xml](801.xml) | beinecke.ejbstevenson | GEN MSS 664 | Edwin J. Beinecke Collection of Robert Louis Stevenson | 
