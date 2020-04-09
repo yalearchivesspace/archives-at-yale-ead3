@@ -53,4 +53,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0037.xml](11772.xml) | ycba.mss.0037 | MSS 37 | John Ruskin letters to John Henry Le Keux | 
  [ycba.mss.0041.xml](11773.xml) | ycba.mss.0041 | MSS 41 | John Britton archive | 
  [ycba.mss.0040.xml](11775.xml) | ycba.mss.0040 | MSS 40 | Stanley Wootton archive | 
+ [ycba.mss.0042.xml](11776.xml) | ycba.mss.0042 | MSS 42 | Collection of letters to Robert Clutterbuck concerning his History and antiquities of the county of Hertford | 
 
