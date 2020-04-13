@@ -26,6 +26,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0008.xml](24.xml) | ycba.mss.0008 | MSS 8 | Carr family collection of travel sketches, scrapbooks, and genealogical material | 
  [ycba.mss.0009.xml](25.xml) | ycba.mss.0009 | MSS 9  | Edgar Hockley collection | 
  [ycba.mss.0024.xml](30.xml) | ycba.mss.0024 | MSS 24 | Paul Nash Letters to Mercia Oakley | 
+ [ycba.mss.0044.xml](31.xml) | ycba.mss.0044 | MSS 44  | Pugin family archive | 
  [ycba.mss.0007.xml](33.xml) | ycba.mss.0007 | MSS 7 | Clare Leighton collection | 
  [ycba.mss.0032.xml](5704.xml) | ycba.mss.0032 | MSS 32  | Matthew Shepperson archive | 
  [ycba.mss.0050.xml](5731.xml) | ycba.mss.0050 | MSS 50 | Collection of Cabaret Theatre Club and Cave of the Golden Calf printed ephemera | 
@@ -54,4 +55,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0041.xml](11773.xml) | ycba.mss.0041 | MSS 41 | John Britton archive | 
  [ycba.mss.0040.xml](11775.xml) | ycba.mss.0040 | MSS 40 | Stanley Wootton archive | 
  [ycba.mss.0042.xml](11776.xml) | ycba.mss.0042 | MSS 42 | Collection of letters to Robert Clutterbuck concerning his History and antiquities of the county of Hertford | 
+ [ycba.mss.0043.xml](11778.xml) | ycba.mss.0043 | MSS 43 | Bainbridge deer park management archive | 
 
