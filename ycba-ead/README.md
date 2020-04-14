@@ -56,4 +56,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0040.xml](11775.xml) | ycba.mss.0040 | MSS 40 | Stanley Wootton archive | 
  [ycba.mss.0042.xml](11776.xml) | ycba.mss.0042 | MSS 42 | Collection of letters to Robert Clutterbuck concerning his History and antiquities of the county of Hertford | 
  [ycba.mss.0043.xml](11778.xml) | ycba.mss.0043 | MSS 43 | Bainbridge deer park management archive | 
+ [ycba.mss.0048.xml](11779.xml) | ycba.mss.0048 | MSS 48 | Edgeworthstown archive | 
 
