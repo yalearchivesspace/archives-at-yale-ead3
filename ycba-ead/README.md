@@ -59,4 +59,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0048.xml](11779.xml) | ycba.mss.0048 | MSS 48 | Edgeworthstown archive | 
  [ycba.mss.0049.xml](11781.xml) | ycba.mss.0049 | MSS 49 | Alfred Wareing archive | 
  [ycba.mss.0051.xml](11784.xml) | ycba.mss.0051 | MSS 51 | Postcards of the British royal family | 
+ [ycba.mss.0055.xml](11785.xml) | ycba.mss.0055 | MSS 55 | John Bastin archive | 
 
