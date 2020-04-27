@@ -77,6 +77,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.misc.0055.xml](10602.xml) | music.misc.0055 | Misc. Ms. 55 | Music Published by the Loomis Temple of Music | 
  [music.mss.0092.xml](10603.xml) | music.mss.0092 | MSS 92 | Enrico Batelli Papers | 
  [music.misc.0308.xml](10604.xml) | music.misc.0308 | Misc. Ms. 308 | The Bruce Simonds Papers | 
+ [music.mss.0028.xml](10605.xml) | music.mss.0028 | MSS 28 | The Hershy Kay Papers | 
  [music.mss.0128.xml](10606.xml) | music.mss.0128 | MSS 128 | Adelina Carola Appleton Papers | 
  [music.mss.0003.xml](10607.xml) | music.mss.0003 | MSS 3 | The Yale School of Music Papers | 
  [music.mss.0068.xml](10608.xml) | music.mss.0068 | MSS 68 | The Isidor Achron Papers | 
