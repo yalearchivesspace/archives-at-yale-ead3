@@ -1960,7 +1960,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1308.xml](3884.xml) | mssa.ms.1308 | MS 1308 | Annie Warburton Goodrich papers | 
  [mssa.ms.1333.xml](3885.xml) | mssa.ms.1333 | MS 1333 | John Rodman Paul papers | 
  [mssa.ms.1388.xml](3886.xml) | mssa.ms.1388 | MS 1388 | George Bird Grinnell papers | 
- [mssa.ms.1396.xml](3887.xml) | mssa.ms.1396 | MS 1396 | Joseph Stewart Fruton papers | 
  [mssa.ms.1404.xml](3888.xml) | mssa.ms.1404 | MS 1404 | MASH (television program) scripts collection | 
  [mssa.ms.1410.xml](3889.xml) | mssa.ms.1410 | MS 1410 | Helen Heffron Roberts papers | 
  [mssa.ms.1416.xml](3890.xml) | mssa.ms.1416 | MS 1416 | Donald Oenslager papers | 
