@@ -1586,5 +1586,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mikedaleyoungerpoets.xml](11707.xml) | beinecke.mikedaleyoungerpoets | YCAL MSS 1236 | Papers related to Mike & Dale's Younger Poets | 
  [beinecke.larissaleclair.xml](11713.xml) | beinecke.larissaleclair | GEN MSS 1584 | Larissa Leclair collection of indie photobook library ephemera | 
  [beinecke.cmackenzie.xml](11726.xml) | beinecke.cmackenzie | GEN MSS 1589 | Compton Mackenzie papers | 
+ [beinecke.rochambeaufwi.xml](11737.xml) | beinecke.rochambeaufwi | GEN MSS 1576 | Donatien Marie Joseph de Vimeur, vicomte de Rochambeau papers relating to the French West Indies | 
  [beinecke.oharanavajo.xml](11789.xml) | beinecke.oharanavajo | WA MSS S-2625 | Geoffrey O'Hara cylinder recordings and lantern slides of Navajo Indians | 
 
