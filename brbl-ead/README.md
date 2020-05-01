@@ -1476,6 +1476,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.nationaluburoibakeoff.xml](10954.xml) | beinecke.nationaluburoibakeoff | YCAL MSS 1145 | National Ubu Roi Bake-Off collection | 
  [beinecke.hammer.xml](10956.xml) | beinecke.hammer | GEN MSS 1482 | Barbara Hammer papers | 
  [beinecke.mcpheeronr.xml](10985.xml) | beinecke.mcpheeronr | WA Photos 591 | River of No Return Collection | 
+ [beinecke.clementhurd.xml](10992.xml) | beinecke.clementhurd | GEN MSS 1485 | Clement Hurd papers | 
  [beinecke.buzzi.xml](10997.xml) | beinecke.buzzi | YCAL MSS 1135 | Saul Steinberg correspondence to Aldo Buzzi | 
  [beinecke.ruhl.xml](10999.xml) | beinecke.ruhl | YCAL MSS 1139 | Sarah Ruhl papers | 
  [beinecke.marcus.xml](11001.xml) | beinecke.marcus | GEN MSS 1489 | Leonard S. Marcus papers | 
