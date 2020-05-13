@@ -10,4 +10,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [lwl.mss.021.xml](11227.xml) | lwl.mss.021 | LWL MSS 21 | Annie Burr Lewis Papers | 
  [lwl.mss.003.xml](11658.xml) | lwl.mss.003 | LWL MSS 3 | Angelo family papers | 
  [lwl.mss.017.xml](11730.xml) | lwl.mss.017 | LWL MSS 17 | Walpole family ephemera collection | 
+ [lwl.mss.004.xml](11769.xml) | lwl.mss.004 | LWL MSS 4 | Letters to John Ives | 
 
