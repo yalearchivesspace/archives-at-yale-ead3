@@ -71,7 +71,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ypm.izar.001692.xml](11167.xml) | ypm.izar.001692 | IZAR.001692 | Wesley Roswell Coe Archives | 
  [ypm.vpar.000277.xml](11168.xml) | ypm.vpar.000277 | VPAR.000277 | G. Edward Lewis Archives | 
  [ypm.antar.000417.xml](11169.xml) | ypm.antar.000417 | ANTAR.000417 | Theophil Mitchell Prudden Archives | 
- [ypm.arc.000051.xml](11170.xml) | ypm.arc.000051 | ARC.000051 | Wilfrid Swancourt Bronson Archives | 
  [ypm.vpar.000267.xml](11171.xml) | ypm.vpar.000267 | VPAR.000267 | Charles R. Knight Archives | 
  [ypm.vpar.000245.xml](11172.xml) | ypm.vpar.000245 | VPAR.000245 | George Peabody Archives | 
  [ypm.entar.002771.xml](11173.xml) | ypm.entar.002771 | ENTAR.002771 | Entomology Reprint Archives | 
@@ -80,6 +79,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ypm.vpar.000302.xml](11176.xml) | ypm.vpar.000302 | VPAR.000302 | William John Sinclair Archives | 
  [ypm.izar.001124.xml](11177.xml) | ypm.izar.001124 | IZAR.001124 | Willard Daniel Hartman Archives | 
  [ypm.ipar.001158.xml](11178.xml) | ypm.ipar.001158 | IPAR.001158 | Frederick A. Braun Archives | 
- [ypm.arc.000056.xml](11179.xml) | ypm.arc.000056 | ARC.000056 | Yale Peabody Museum Archives | 
  [ypm.vpar.000269.xml](11180.xml) | ypm.vpar.000269 | VPAR.000269 | Arthur Lakes Archives | 
 
