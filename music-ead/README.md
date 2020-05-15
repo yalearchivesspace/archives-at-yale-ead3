@@ -45,7 +45,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.misc.0418.xml](10570.xml) | music.misc.0418 | Misc. Ms. 418 | Ethel Smyth: Letters and Scrapbook | 
  [music.misc.0242.xml](10571.xml) | music.misc.0242 | Misc. Ms. 242 | The Jenny Lind Collection | 
  [music.misc.0218.xml](10572.xml) | music.misc.0218 | Misc. Ms. 218 | The Music Vale Seminary Papers | 
- [music.misc.0427.xml](10573.xml) | music.misc.0427 | Misc Ms 427 | The Charles Henry Kauffman Collection of Materials Relating to Charles Ives | 
+ [music.misc.0427.xml](10573.xml) | music.misc.0427 | Misc. Ms. 427 | The Charles Henry Kauffman Collection of Materials Relating to Charles Ives | 
  [music.mss.0095.xml](10574.xml) | music.mss.0095 | MSS 95 | Hans L. Bilger Papers | 
  [music.misc.0060.xml](10575.xml) | music.misc.0060 | Misc. Ms. 60 | The Gounod Society Papers | 
  [music.misc.0157.xml](10576.xml) | music.misc.0157 | Misc. Ms. 157 | Selected Compositions of Robbins Battell | 
