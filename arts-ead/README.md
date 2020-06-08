@@ -32,6 +32,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.aob.0055.xml](345.xml) | arts.aob.0055 | AOB 55 | Collection of Type Specimens | 
  [arts.aob.0059.xml](346.xml) | arts.aob.0059 | AOB 59 | Miniature Book Collection | 
  [arts.aob.0061.xml](347.xml) | arts.aob.0061 | AOB 61 | Jacques Hnizdovsky collection | 
+ [arts.aob.0062.xml](348.xml) | arts.aob.0062 | AOB 62 | Thomas Nast Collection | 
  [arts.aob.0067.xml](349.xml) | arts.aob.0067 | AOB 67 | W. A. Dwiggins Collection | 
  [arts.aob.0069.xml](350.xml) | arts.aob.0069 | AOB 69 | Collection of Artwork from Thailand | 
  [arts.aob.0070.xml](351.xml) | arts.aob.0070 | AOB 70 | Collection of Decorative Papers | 
