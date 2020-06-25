@@ -769,7 +769,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.judson.xml](1313.xml) | beinecke.judson | WA MSS S-2695 | Nathan Judson papers | 
  [beinecke.eberstadt.xml](1314.xml) | beinecke.eberstadt | WA MSS S-2698 | Edward Eberstadt & Sons records | 
  [beinecke.ruger.xml](1315.xml) | beinecke.ruger | WA MSS S-2699 | Thomas Howard Ruger papers | 
- [beinecke.ttwilliams.xml](1316.xml) | beinecke.ttwilliams | WA MSS S-2700 | Terry Tempest Williams papers | 
  [beinecke.dodge.xml](1317.xml) | beinecke.dodge | WA MSS S-2701 | Adee Dodge papers | 
  [beinecke.neworleans.xml](1318.xml) | beinecke.neworleans | WA MSS S-2702 | Imagining New Orleans Oral History Project collection | 
  [beinecke.northwest.xml](1319.xml) | beinecke.northwest | WA MSS S-2704 | Northwestern Pacific Railroad Company records | 
@@ -1590,4 +1589,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.rochambeaufwi.xml](11737.xml) | beinecke.rochambeaufwi | GEN MSS 1576 | Donatien Marie Joseph de Vimeur, vicomte de Rochambeau papers relating to the French West Indies | 
  [beinecke.monkeysmoon.xml](11765.xml) | beinecke.monkeysmoon | YCAL MSS 598 | Monkey's Moon, Pool Productions, 1929 / by Kenneth Macpherson | 
  [beinecke.oharanavajo.xml](11789.xml) | beinecke.oharanavajo | WA MSS S-2625 | Geoffrey O'Hara cylinder recordings and lantern slides of Navajo Indians | 
+ [beinecke.lfini.xml](11840.xml) | beinecke.lfini | fini genm | Leonor Fini papers | 
+ [beinecke.tgluck.xml](11842.xml) | beinecke.tgluck | gluck ycal | Tereze Glück papers | 
 
