@@ -41,7 +41,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0056.xml](11067.xml) | ycba.mss.0056 | MSS 56 | Edward Burne-Jones Letters to John Ruskin | 
  [ycba.mss.0060.xml](11090.xml) | ycba.mss.0060 | MSS 60 | John McHale archive | 
  [ycba.mss.0059.xml](11283.xml) | ycba.mss.0059 | MSS 59 | Edward Lear archive | 
- [11734.xml](11734.xml) |  | MSS Forbes | James Forbes archive: A voyage from England to Bombay with descriptions in Asia, Africa, and South America | 
+ [ycba.mss.0066.xml](11734.xml) | ycba.mss.0066 | MSS 66 | James Forbes archive: A voyage from England to Bombay with descriptions in Asia, Africa, and South America | 
  [ycba.mss.0020.xml](11756.xml) | ycba.mss.0020 | MSS 20 | Henry Perlee Parker collection | 
  [ycba.mss.0021.xml](11760.xml) | ycba.mss.0021 | MSS 21 | John Christie archive | 
  [ycba.mss.0022.xml](11762.xml) | ycba.mss.0022 | MSS 22 | Letters to Richard Redgrave | 
