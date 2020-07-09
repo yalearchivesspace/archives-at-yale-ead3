@@ -1225,7 +1225,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.coxm.xml](1779.xml) | beinecke.coxm | YCAL MSS 750 | Marian Cox Papers | 
  [beinecke.macleodcoll.xml](1780.xml) | beinecke.macleodcoll | YCAL MSS 751 | Norman Macleod Collection | 
  [beinecke.lloyd.xml](1781.xml) | beinecke.lloyd | YCAL MSS 752 | Lewis Lloyd papers | 
- [beinecke.hacker.xml](1782.xml) | beinecke.hacker | YCAL MSS 753 | Marilyn Hacker Papers | 
+ [beinecke.hacker.xml](1782.xml) | beinecke.hacker | YCAL MSS 753 | Marilyn Hacker papers | 
  [beinecke.mydans.xml](1783.xml) | beinecke.mydans | YCAL MSS 754 | Carl and Shelley Smith Mydans papers | 
  [beinecke.twichellj.xml](1785.xml) | beinecke.twichellj | YCAL MSS 755 | Joseph Hopkins Twichell papers | 
  [beinecke.delisio.xml](1786.xml) | beinecke.delisio | YCAL MSS 756 | Michael De Lisio and Irving Drutman Papers | 
@@ -1590,5 +1590,4 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.rochambeaufwi.xml](11737.xml) | beinecke.rochambeaufwi | GEN MSS 1576 | Donatien Marie Joseph de Vimeur, vicomte de Rochambeau papers relating to the French West Indies | 
  [beinecke.monkeysmoon.xml](11765.xml) | beinecke.monkeysmoon | YCAL MSS 598 | Monkey's Moon, Pool Productions, 1929 / by Kenneth Macpherson | 
  [beinecke.oharanavajo.xml](11789.xml) | beinecke.oharanavajo | WA MSS S-2625 | Geoffrey O'Hara cylinder recordings and lantern slides of Navajo Indians | 
- [beinecke.hollo.xml](11847.xml) | beinecke.hollo | GEN MSS Hollo | Anselm Hollo papers | 
 
