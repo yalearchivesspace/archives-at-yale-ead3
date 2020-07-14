@@ -644,7 +644,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.rbsage.xml](1185.xml) | beinecke.rbsage | WA MSS 414 | Rufus B. Sage papers | 
  [beinecke.stevens.xml](1186.xml) | beinecke.stevens | WA MSS 442-445 | Isaac Ingalls Stevens papers | 
  [beinecke.walkerfam.xml](1189.xml) | beinecke.walkerfam | WA MSS 501 | Walker Family papers | 
- [beinecke.andrewsmithgalllery.xml](1190.xml) | beinecke.andrewsmithgalllery | WA MSS S-3056 | Andrew Smith Gallery records | 
+ [beinecke.andrewsmithgallery.xml](1190.xml) | beinecke.andrewsmithgallery | WA MSS S-3056 | Andrew Smith Gallery records | 
  [beinecke.strangco.xml](1191.xml) | beinecke.strangco | WA MSS 447 | James Jesse Strang collection | 
  [beinecke.littlemoses.xml](1192.xml) | beinecke.littlemoses | WA MSS S-1028 | Moses F. Little papers | 
  [beinecke.gran.xml](1193.xml) | beinecke.gran | WA MSS S-1120 | Granville Stuart papers | 
