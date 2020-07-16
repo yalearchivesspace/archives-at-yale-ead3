@@ -746,7 +746,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.prattl.xml](1290.xml) | beinecke.prattl | WA MSS S-2613 | Lawrence Pratt collection concerning Arizona v. California and the Colorado River | 
  [beinecke.adamsc.xml](1291.xml) | beinecke.adamsc | WA MSS S-2615 | Charles L. Adams papers | 
  [beinecke.litwack.xml](1292.xml) | beinecke.litwack | WA MSS S-2616 | Leon F. Litwack collection of Berkeley, California, protest literature | 
- [beinecke.advertisements.xml](1293.xml) | beinecke.advertisements | WA MSS S-2622 | Collection of advertisements that depict American history. | 
+ [beinecke.advertisements.xml](1293.xml) | beinecke.advertisements | WA MSS S-2622 | Collection of advertisements that depict American history | 
  [beinecke.daviesscroggie.xml](1294.xml) | beinecke.daviesscroggie | WA MSS S-2627 | Davies/Scroggie Collection of White Pass and Yukon Documents and Ephemera | 
  [beinecke.cohenlk.xml](1295.xml) | beinecke.cohenlk | WA MSS S-2635 | Lucy Kramer Cohen papers | 
  [beinecke.jonesss.xml](1296.xml) | beinecke.jonesss | WA MSS S-2636 | Solomon Sir Jones films | 
