@@ -1409,7 +1409,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.vfisher.xml](5808.xml) | beinecke.vfisher | YCAL MSS 555 | Vardis Fisher Papers | 
  [beinecke.fisher.xml](5809.xml) | beinecke.fisher | WA MSS S-2823 | Robert B. Fisher photograph collection and papers | 
  [beinecke.haas.xml](5811.xml) | beinecke.haas | YCAL MSS 833 | Robert Bartlett Haas collection on Gertrude Stein and the Conference Press | 
- [beinecke.bell.xml](5812.xml) | beinecke.bell | JWJ MSS 153 | [Drawings] | 
+ [beinecke.bell.xml](5812.xml) | beinecke.bell | JWJ MSS 153 | Mary A. Bell Drawings | 
  [beinecke.century.xml](5813.xml) | beinecke.century | GEN MSS 1219 | [Walter L. Pforzheimer collection of Century Company illustrations]. | 
  [beinecke.fordpl.xml](5814.xml) | beinecke.fordpl | YCAL MSS 488 | Paul Leicester Ford papers | 
  [beinecke.newhaveneast.xml](5815.xml) | beinecke.newhaveneast | GEN MSS 1295 | New Haven East Association records | 
