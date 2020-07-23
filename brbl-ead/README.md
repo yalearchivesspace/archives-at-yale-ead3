@@ -807,7 +807,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.sfaustin.xml](1354.xml) | beinecke.sfaustin | WA MSS S-3000 | Thomas W. Streeter Collection of Austin Family and Texas Revolution Papers | 
  [beinecke.sandoval.xml](1355.xml) | beinecke.sandoval | WA MSS S-3001 | Judith Hancock de Sandoval papers and photographs | 
  [beinecke.westernpostcards.xml](1356.xml) | beinecke.westernpostcards | WA MSS S-3014 | Western postcard collection | 
- [beinecke.wa339.xml](1357.xml) | beinecke.wa339 | WA MSS S-339 | Henry Raup Wagner Collection of Texas manuscripts | 
+ [beinecke.wa339.xml](1357.xml) | beinecke.wa339 | WA MSS S-339 | Henry Raup Wagner collection of Texas manuscripts | 
  [beinecke.wa341.xml](1358.xml) | beinecke.wa341 | WA MSS S-341 | Henry Raup Wagner collection of Texas and Coahuila land grants | 
  [beinecke.conner.xml](1359.xml) | beinecke.conner | WA MSS S-342 | David Conner papers | 
  [beinecke.louisian.xml](1360.xml) | beinecke.louisian | WA MSS S-343 | Henry Raup Wagner collection of Louisiana manuscripts | 
@@ -1360,6 +1360,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lintoncook.xml](5488.xml) | beinecke.lintoncook | GEN MSS 1406 | Grace Linton Cook Papers about W. J. Linton | 
  [beinecke.gluck.xml](5489.xml) | beinecke.gluck | YCAL MSS 946 | Louise Glück papers | 
  [beinecke.bwi.xml](5491.xml) | beinecke.bwi | GEN MSS 1412 | British Caribbean Documents | 
+ [beinecke.north.xml](5494.xml) | beinecke.north | YCAL MSS 1091 | Charles North papers | 
  [beinecke.wickgrandville.xml](5506.xml) | beinecke.wickgrandville | GEN MSS 1301 | Peter A. Wick Collection of J. J. Grandville | 
  [beinecke.etter.xml](5515.xml) | beinecke.etter | WA MSS S-3137 | Patricia A. Etter Research Files for California Odyssey | 
  [beinecke.cranectp.xml](5556.xml) | beinecke.cranectp | GEN MSS 1386 | Catharine T. Patterson Collection of Walter Crane | 
