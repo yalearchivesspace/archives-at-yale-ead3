@@ -261,7 +261,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.grant.xml](782.xml) | beinecke.grant | GEN MSS 611 | Henry Duncan Grant watercolor sketchbooks and scrapbooks. | 
  [beinecke.sykes.xml](783.xml) | beinecke.sykes | GEN MSS 612 | Christopher Sykes Papers | 
  [beinecke.brodsky.xml](784.xml) | beinecke.brodsky | GEN MSS 613 | Joseph Brodsky papers | 
- [beinecke.nicolson.xml](785.xml) | beinecke.nicolson | GEN MSS 614 | Harold Nicolson papers  | 
+ [beinecke.nicolson.xml](785.xml) | beinecke.nicolson | GEN MSS 614 | Harold Nicolson papers | 
  [beinecke.lada.xml](786.xml) | beinecke.lada | GEN MSS 616 | Laura K. and Valerian Lada-Mocarski papers | 
  [beinecke.chaconycalvo.xml](787.xml) | beinecke.chaconycalvo | GEN MSS 617 | Zenaida Gutiérrez-Vega collection of José María Chacón y Calvo | 
  [beinecke.wijnpersse.xml](788.xml) | beinecke.wijnpersse | GEN MSS 618 | Wijnpersse family papers | 
