@@ -1989,7 +1989,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1887.xml](3914.xml) | mssa.ms.1887 | MS 1887 | Hyman I. Feldman records | 
  [mssa.ms.1703.xml](3915.xml) | mssa.ms.1703 | MS 1703 | United Nations Oral History Project interview transcripts and tapes | 
  [mssa.ms.1909.xml](3916.xml) | mssa.ms.1909 | MS 1909 | Holocaust Survivors Film Project records | 
- [mssa.ms.1737.xml](3917.xml) | mssa.ms.1737 | MS 1737 | <title xlink:type="simple" render="italic">Voices of the Children</title> footage and transcripts | 
+ [mssa.ms.1737.xml](3917.xml) | mssa.ms.1737 | MS 1737 | <title render="italic">Voices of the Children</title> footage and transcripts | 
  [mssa.ms.0689.xml](3918.xml) | mssa.ms.0689 | MS 689 | Enoch Fitch Burr papers | 
  [mssa.ms.0693.xml](3919.xml) | mssa.ms.0693 | MS 693 | George Frederick Gundelfinger papers | 
  [mssa.ms.0696.xml](3920.xml) | mssa.ms.0696 | MS 696 | Nathaniel Terry Bacon papers | 
