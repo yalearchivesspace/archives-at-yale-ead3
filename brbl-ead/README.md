@@ -1592,4 +1592,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.rochambeaufwi.xml](11737.xml) | beinecke.rochambeaufwi | GEN MSS 1576 | Donatien Marie Joseph de Vimeur, vicomte de Rochambeau papers relating to the French West Indies | 
  [beinecke.monkeysmoon.xml](11765.xml) | beinecke.monkeysmoon | YCAL MSS 598 | Monkey's Moon, Pool Productions, 1929 / by Kenneth Macpherson | 
  [beinecke.oharanavajo.xml](11789.xml) | beinecke.oharanavajo | WA MSS S-2625 | Geoffrey O'Hara cylinder recordings and lantern slides of Navajo Indians | 
+ [beinecke.townshend.xml](11889.xml) | beinecke.townshend | OSB MSS 161 | Townshend Papers | 
 
