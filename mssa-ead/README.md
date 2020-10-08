@@ -2891,6 +2891,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2112.xml](11656.xml) | mssa.ms.2112 | MS 2112 | Josephine and Antonio Bouzas papers | 
  [mssa.ru.1170.xml](11706.xml) | mssa.ru.1170 | RU 1170 | Proof of the Pudding, Yale University, records | 
  [mssa.ru.1171.xml](11722.xml) | mssa.ru.1171 | RU 1171 | <emph render="italic">Yale Journal of Biology and Medicine</emph>, Yale University, records | 
- [mssa.ms.2115.xml](11735.xml) | mssa.ms.2115 | MS 2115 | Noriaki Tsuchimoto papers | 
  [mssa.ms.1396.xml](11792.xml) | mssa.ms.1396 | MS 1396 | Joseph Stewart Fruton papers | 
 
