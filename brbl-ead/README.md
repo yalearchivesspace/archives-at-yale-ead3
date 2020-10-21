@@ -1470,6 +1470,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.luckwpf178.xml](10847.xml) | beinecke.luckwpf178 | WA Photos Folio 178 | Photographs of Haida Gwaii, British Columbia | 
  [beinecke.carroll.xml](10941.xml) | beinecke.carroll | JWJ MSS 188 | Sandi Carroll Papers Relating to Early Productions of August Wilson's <title>Seven Guitars</title> | 
  [beinecke.jcwilson.xml](10942.xml) | beinecke.jcwilson | YCAL MSS 1127 | John C. Wilson Papers | 
+ [beinecke.caesar.xml](10944.xml) | beinecke.caesar | YCAL MSS 1245 | Sid Caesar papers | 
  [beinecke.shively.xml](10945.xml) | beinecke.shively | GEN MSS 1546 | Charley Shively papers | 
  [beinecke.pearllondon.xml](10946.xml) | beinecke.pearllondon | YCAL MSS 1129  | Pearl London papers | 
  [beinecke.lgbtqfilm.xml](10950.xml) | beinecke.lgbtqfilm | GEN MSS 1580 | LGBTQ film, television, and theater collection | 
@@ -1551,6 +1552,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.evenson.xml](11490.xml) | beinecke.evenson | YCAL MSS 1119 | Brian Evenson papers | 
  [beinecke.takitapapers.xml](11493.xml) | beinecke.takitapapers | WA MSS S-3211 | Aiko Takita and Miyeko Takita papers | 
  [beinecke.kansaspostcards.xml](11494.xml) | beinecke.kansaspostcards | WA Photos 594 | Photographic Postcards of Kansas | 
+ [beinecke.brodskyheyen.xml](11496.xml) | beinecke.brodskyheyen | YCAL MSS 1257 | Louis Daniel Brodsky collection of William Heyen papers | 
  [beinecke.mbernstein.xml](11499.xml) | beinecke.mbernstein | GEN MSS 1556 | Michèle Bernstein papers | 
  [beinecke.basquinbute.xml](11500.xml) | beinecke.basquinbute | YCAL MSS 1007 | Kit Smyth Basquin collection of Mary Ellen Bute | 
  [beinecke.spaprogs.xml](11514.xml) | beinecke.spaprogs | WA MSS S-3651 | Spanish programs for American Western films | 
@@ -1590,6 +1592,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.larissaleclair.xml](11713.xml) | beinecke.larissaleclair | GEN MSS 1584 | Larissa Leclair collection of indie photobook library ephemera | 
  [beinecke.lshumesklondike.xml](11714.xml) | beinecke.lshumesklondike | WA Photos 993 | L. Stark Humes collection of photographs of the Klondike region | 
  [beinecke.cmackenzie.xml](11726.xml) | beinecke.cmackenzie | GEN MSS 1589 | Compton Mackenzie papers | 
+ [beinecke.underdown.xml](11727.xml) | beinecke.underdown | OSB MSS 214 | David Underdown papers | 
  [beinecke.rochambeaufwi.xml](11737.xml) | beinecke.rochambeaufwi | GEN MSS 1576 | Donatien Marie Joseph de Vimeur, vicomte de Rochambeau papers relating to the French West Indies | 
  [beinecke.dayfamily.xml](11742.xml) | beinecke.dayfamily | WA Photos 1044 | Photographs Related to Navajo, Havasupai, Hopi, and Pueblo Indians, and Sites in Arizona and New Mexico | 
  [beinecke.monkeysmoon.xml](11765.xml) | beinecke.monkeysmoon | YCAL MSS 598 | Monkey's Moon, Pool Productions, 1929 / by Kenneth Macpherson | 
