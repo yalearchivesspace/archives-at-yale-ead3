@@ -11,4 +11,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [lwl.mss.003.xml](11658.xml) | lwl.mss.003 | LWL MSS 3 | Angelo family papers | 
  [lwl.mss.017.xml](11730.xml) | lwl.mss.017 | LWL MSS 17 | Walpole family ephemera collection | 
  [lwl.mss.004.xml](11769.xml) | lwl.mss.004 | LWL MSS 4 | Letters to John Ives | 
+ [lwl.mss.033.xml](11795.xml) | lwl.mss.033 | LWL MSS 33 | British Theatrical and Literary Prints | 
 
