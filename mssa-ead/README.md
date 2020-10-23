@@ -2161,7 +2161,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1604.xml](4088.xml) | mssa.ms.1604 | MS 1604 | Karen Horney papers | 
  [mssa.ms.1617.xml](4089.xml) | mssa.ms.1617 | MS 1617 | Robert Abercrombie Lovett papers | 
  [mssa.ms.1659.xml](4090.xml) | mssa.ms.1659 | MS 1659 | Florence and Henry Wald Papers | 
- [mssa.ms.1661.xml](4091.xml) | mssa.ms.1661 | MS 1661 | John Arthur Wilkinson papers | 
+ [mssa.ms.1661.xml](4091.xml) | mssa.ms.1661 | MS 1661 | John Arthur Wilkinson papers documenting the Center for Advocacy, Research, and Planning | 
  [mssa.ms.1681.xml](4092.xml) | mssa.ms.1681 | MS 1681 | Lifwynn Foundation records | 
  [mssa.ms.1696.xml](4093.xml) | mssa.ms.1696 | MS 1696 | Coalition to Stop Trident records | 
  [mssa.ms.1777.xml](4094.xml) | mssa.ms.1777 | MS 1777 | Spain collection | 
