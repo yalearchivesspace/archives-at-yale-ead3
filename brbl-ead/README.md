@@ -1381,6 +1381,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.benador.xml](5697.xml) | beinecke.benador | GEN MSS 1427 | Galerie Jacques Benador archive | 
  [beinecke.rprice.xml](5699.xml) | beinecke.rprice | WA MSS S-3208 | Roberta Price papers and photographs | 
  [beinecke.achurch.xml](5707.xml) | beinecke.achurch | GEN MSS 215 | Janet Achurch and Charles Charrington Correspondence | 
+ [beinecke.susanbee.xml](5712.xml) | beinecke.susanbee | YCAL MSS 1251 | Susan Bee papers | 
  [beinecke.meservekunhardt.xml](5714.xml) | beinecke.meservekunhardt | GEN MSS 1430 | Meserve-Kunhardt collection | 
  [beinecke.nuclearlandscapes.xml](5718.xml) | beinecke.nuclearlandscapes | WA Photos Folio 163 | Peter Goin, Nuclear Landscapes: Portfolio of Forty-Four Photographs and Trinity Panorama. | 
  [beinecke.lewisleg.xml](5727.xml) | beinecke.lewisleg | YCAL MSS 1104 | Legal Records Relating to Sinclair Lewis | 
