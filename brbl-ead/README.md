@@ -1586,6 +1586,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wingstc.xml](11681.xml) | beinecke.wingstc | GEN MSS 1451 | Records relating to the Wing Short title catalog | 
  [beinecke.orphicfodder.xml](11688.xml) | beinecke.orphicfodder | GEN MSS 1054 | Orphic fodder archive | 
  [beinecke.ckwilliams.xml](11690.xml) | beinecke.ckwilliams | YCAL MSS 661 | C. K. Williams papers | 
+ [beinecke.africanamericanfilm.xml](11694.xml) | beinecke.africanamericanfilm | JWJ MSS 238 | African American film collection | 
  [beinecke.cmautzpbritt.xml](11697.xml) | beinecke.cmautzpbritt | WA Photos 865 | Carl Mautz collection of Peter Britt photographs | 
  [beinecke.bottleofsmoke.xml](11700.xml) | beinecke.bottleofsmoke | YCAL MSS 1234 | Bottle of Smoke Press records | 
  [beinecke.mdheastonwesternland.xml](11701.xml) | beinecke.mdheastonwesternland | WA MSS S-4086 | Michael D. Heaston Collection of Western Land and Settlement Manuscripts | 
