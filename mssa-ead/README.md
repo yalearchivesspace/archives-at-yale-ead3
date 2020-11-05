@@ -2894,4 +2894,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1171.xml](11722.xml) | mssa.ru.1171 | RU 1171 | <emph render="italic">Yale Journal of Biology and Medicine</emph>, Yale University, records | 
  [mssa.ms.2115.xml](11735.xml) | mssa.ms.2115 | MS 2115 | Noriaki Tsuchimoto papers | 
  [mssa.ms.1396.xml](11792.xml) | mssa.ms.1396 | MS 1396 | Joseph Stewart Fruton papers | 
+ [mssa.ms.xxxx or mssa.ru.xxxx.xml](11920.xml) | mssa.ms.xxxx or mssa.ru.xxxx | RU.1173 | Environmental Action Group, Yale University, Records | 
+ [mssa.ms.2118.xml](11921.xml) | mssa.ms.2118 | MS.2118 | Charles A. Reich Papers | 
 
