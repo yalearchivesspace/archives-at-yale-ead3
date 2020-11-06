@@ -10,5 +10,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [oham.ohvi.xml](5483.xml) | oham.ohvi | OHVI | Aaron Copland Oral History | 
  [oham.ohiii.xml](5484.xml) | oham.ohiii | OHIII | Duke Ellington Oral History | 
  [oham.nmusa.xml](11627.xml) | oham.nmusa | NMUSA | NewMusicBox Interviews | 
+ [oham.ohviii.xml](11799.xml) | oham.ohviii | OHVIII | Alone Together: Musicians in the Time of Covid | 
  [oham.yost.xml](11805.xml) | oham.yost | YOST | YOST: Y / Opera / Studies Today | 
 
