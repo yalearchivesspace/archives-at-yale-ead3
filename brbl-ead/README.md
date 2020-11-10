@@ -708,7 +708,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.nettleto.xml](1251.xml) | beinecke.nettleto | WA MSS S-20 | Letters | 
  [beinecke.gearybus.xml](1252.xml) | beinecke.gearybus | WA MSS S-209 | John White Geary business papers | 
  [beinecke.willard.xml](1253.xml) | beinecke.willard | WA MSS S-2512 | Rowland Willard and Elizabeth S. Willard papers | 
- [beinecke.oastler.xml](1254.xml) | beinecke.oastler | WA MSS S-2162 | Frank Richard Oastler collection. | 
+ [beinecke.oastler.xml](1254.xml) | beinecke.oastler | WA MSS S-2162 | Frank Richard Oastler collection | 
  [beinecke.adamsa.xml](1255.xml) | beinecke.adamsa | WA MSS S-2197 | Alexander B. Adams writings on the American West | 
  [beinecke.wilburs.xml](1256.xml) | beinecke.wilburs | WA MSS S-2350 | Susan Wilbur Jones papers | 
  [beinecke.voyageur.xml](1257.xml) | beinecke.voyageur | WA MSS S-2357 | Davies/Scroggie collection of Canadian fur trade documents | 
