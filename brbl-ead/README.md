@@ -1603,4 +1603,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
  [beinecke.townshend.xml](11889.xml) | beinecke.townshend | OSB MSS 161 | Townshend Papers | 
  [beinecke.halfordfm.xml](11890.xml) | beinecke.halfordfm | GEN MSS 1612 | Frederic M. Halford papers | 
+ [beinecke.holcomb.xml](11893.xml) | beinecke.holcomb | WA Photos 1070 | Holcomb Family Photographs | 
 
