@@ -2832,6 +2832,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2054.xml](5542.xml) | mssa.ms.2054 | MS 2054 | Susan M. Chambré research files on volunteer AIDS organizations | 
  [mssa.ms.2056.xml](5557.xml) | mssa.ms.2056 | MS 2056 | Walter Hinds Allen papers | 
  [mssa.ms.2052.xml](5558.xml) | mssa.ms.2052 | MS 2052 | Robert A. Burt papers | 
+ [5582.xml](5582.xml) |  | MS 2057 | Jean M. Conklin papers | 
  [mssa.ms.2058.xml](5584.xml) | mssa.ms.2058 | MS 2058 | Spanish Civil War Collection | 
  [mssa.ms.2061.xml](5638.xml) | mssa.ms.2061 | MS 2061 | Charles W. Toth correspondence with Tram Combs | 
  [mssa.ms.2055.xml](5644.xml) | mssa.ms.2055 | MS 2055 | Warren L. Duffield papers | 
@@ -2888,12 +2889,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2107.xml](11526.xml) | mssa.ms.2107 | MS 2107 | Drury A. McMillen Papers | 
  [mssa.ru.1166.xml](11553.xml) | mssa.ru.1166 | RU 1166 | Hannah Peck, assistant dean of Yale College, records | 
  [mssa.ms.2103.xml](11556.xml) | mssa.ms.2103 | MS 2103 | Lee Goebel papers | 
+ [mssa.ms.2116.xml](11639.xml) | mssa.ms.2116 | MS 2116 | Cuban slavery collection | 
  [mssa.ru.1169.xml](11649.xml) | mssa.ru.1169 | RU 1169 | Yale China Group, Yale University, records | 
  [mssa.ms.2112.xml](11656.xml) | mssa.ms.2112 | MS 2112 | Josephine and Antonio Bouzas papers | 
+ [mssa.ms.2117.xml](11684.xml) | mssa.ms.2117 | MS 2117 | Chinese indentured laborers in Cuba collection | 
  [mssa.ru.1170.xml](11706.xml) | mssa.ru.1170 | RU 1170 | Proof of the Pudding, Yale University, records | 
  [mssa.ru.1171.xml](11722.xml) | mssa.ru.1171 | RU 1171 | <emph render="italic">Yale Journal of Biology and Medicine</emph>, Yale University, records | 
  [mssa.ms.2115.xml](11735.xml) | mssa.ms.2115 | MS 2115 | Noriaki Tsuchimoto papers | 
  [mssa.ms.1396.xml](11792.xml) | mssa.ms.1396 | MS 1396 | Joseph Stewart Fruton papers | 
- [mssa.ms.xxxx or mssa.ru.xxxx.xml](11920.xml) | mssa.ms.xxxx or mssa.ru.xxxx | RU.1173 | Environmental Action Group, Yale University, Records | 
- [mssa.ms.2118.xml](11921.xml) | mssa.ms.2118 | MS.2118 | Charles A. Reich Papers | 
 
