@@ -1598,6 +1598,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.rochambeaufwi.xml](11737.xml) | beinecke.rochambeaufwi | GEN MSS 1576 | Donatien Marie Joseph de Vimeur, vicomte de Rochambeau papers relating to the French West Indies | 
  [beinecke.dayfamily.xml](11742.xml) | beinecke.dayfamily | WA Photos 1044 | Photographs Related to Navajo, Havasupai, Hopi, and Pueblo Indians, and Sites in Arizona and New Mexico | 
  [beinecke.harrington.xml](11747.xml) | beinecke.harrington | JWJ MSS 236 | Walter O. Evans collection of Ollie Harrington artwork | 
+ [beinecke.idharmon.xml](11748.xml) | beinecke.idharmon | WA MSS S-3455 | Isaac Dewey Harmon correspondence and journals | 
  [beinecke.monkeysmoon.xml](11765.xml) | beinecke.monkeysmoon | YCAL MSS 598 | Monkey's Moon, Pool Productions, 1929 / by Kenneth Macpherson | 
  [beinecke.oharanavajo.xml](11789.xml) | beinecke.oharanavajo | WA MSS S-2625 | Geoffrey O'Hara cylinder recordings and lantern slides of Navajo Indians | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
