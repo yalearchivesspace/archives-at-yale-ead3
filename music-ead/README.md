@@ -138,4 +138,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0150.xml](11352.xml) | music.mss.0150 | MSS 150 | Hugo Benioff Recordings Collection | 
  [music.mss.0104.xml](11368.xml) | music.mss.0104 | MSS 104 | Richard C. Burns archive of Overtone Records, Inc. | 
  [music.mss.0105.xml](11371.xml) | music.mss.0105 | MSS 105 | Arthur and Luce Klein Spoken Arts records | 
+ [music.mss.151.xml](11377.xml) | music.mss.151 | MSS 151 | Historical Sound Recordings Collection | 
 
