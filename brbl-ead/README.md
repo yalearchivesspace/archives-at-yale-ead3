@@ -1599,6 +1599,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.dayfamily.xml](11742.xml) | beinecke.dayfamily | WA Photos 1044 | Photographs Related to Navajo, Havasupai, Hopi, and Pueblo Indians, and Sites in Arizona and New Mexico | 
  [beinecke.harrington.xml](11747.xml) | beinecke.harrington | JWJ MSS 236 | Walter O. Evans collection of Ollie Harrington artwork | 
  [beinecke.idharmon.xml](11748.xml) | beinecke.idharmon | WA MSS S-3455 | Isaac Dewey Harmon correspondence and journals | 
+ [beinecke.wpalmerpribilofislands.xml](11757.xml) | beinecke.wpalmerpribilofislands | WA Photos 1065 | William Palmer Kodak views of the Pribylov Islands, Bering Sea, Alaska | 
  [beinecke.monkeysmoon.xml](11765.xml) | beinecke.monkeysmoon | YCAL MSS 598 | Monkey's Moon, Pool Productions, 1929 / by Kenneth Macpherson | 
  [beinecke.oharanavajo.xml](11789.xml) | beinecke.oharanavajo | WA MSS S-2625 | Geoffrey O'Hara cylinder recordings and lantern slides of Navajo Indians | 
  [beinecke.mtlicenses.xml](11800.xml) | beinecke.mtlicenses | WA MSS S-4310 | Collection of licenses and tax receipts for businesses in Montana Territory | 
