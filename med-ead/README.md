@@ -60,4 +60,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0023.xml](11586.xml) | med.ms.0023 | Ms Coll 23 | Harry Gideon Wells papers | 
  [med.ms.0024.xml](11709.xml) | med.ms.0024 | Ms Coll 24 | Ronald H. Fishbein collection on the Nathan Smith family | 
  [med.pam.0001.xml](11745.xml) | med.pam.0001 | Pam Coll 1 | Medical college catalogs, introductory and valedictory addresses, and ephemera collection | 
+ [med.pam.0002.xml](11808.xml) | med.pam.0002 | Pam Coll 2 | Hospital annual reports and ephemera collection | 
+ [med.ms.0076.xml](11880.xml) | med.ms.0076 | Ms Coll 76 | Stanley B. Burns, M.D., historic medical photography collection | 
 
