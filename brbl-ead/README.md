@@ -1311,6 +1311,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.kleinzahlera.xml](1867.xml) | beinecke.kleinzahlera | YCAL MSS 1089 | August Kleinzahler papers | 
  [beinecke.ycalmiscellany.xml](1868.xml) | beinecke.ycalmiscellany | YCAL MSS MISC | Yale Collection of American Literature manuscript miscellany | 
  [beinecke.gcstanford.xml](1869.xml) | beinecke.gcstanford | YCAL MSS 1086 | Ginny Crouch Stanford collection of Frank Stanford | 
+ [beinecke.igo.xml](1870.xml) | beinecke.igo | YCAL MSS 1313 | Harold Igo Papers | 
  [beinecke.broch.xml](1871.xml) | beinecke.broch | YCGL MSS 1 | Hermann Broch archive | 
  [beinecke.prints.xml](1872.xml) | beinecke.prints | YCGL MSS 11 | William A. Speck collection of prints. | 
  [beinecke.lavater.xml](1873.xml) | beinecke.lavater | YCGL MSS 13 | Lavater collection. | 
@@ -1603,10 +1604,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wpalmerpribilofislands.xml](11757.xml) | beinecke.wpalmerpribilofislands | WA Photos 1065 | William Palmer Kodak views of the Pribylov Islands, Bering Sea, Alaska | 
  [beinecke.monkeysmoon.xml](11765.xml) | beinecke.monkeysmoon | YCAL MSS 598 | Monkey's Moon, Pool Productions, 1929 / by Kenneth Macpherson | 
  [beinecke.oharanavajo.xml](11789.xml) | beinecke.oharanavajo | WA MSS S-2625 | Geoffrey O'Hara cylinder recordings and lantern slides of Navajo Indians | 
+ [beinecke.victoriasw.xml](11793.xml) | beinecke.victoriasw | OSB MSS 222 | Victoria Sackville-West papers | 
  [beinecke.mtlicenses.xml](11800.xml) | beinecke.mtlicenses | WA MSS S-4310 | Collection of licenses and tax receipts for businesses in Montana Territory | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
  [beinecke.townshend.xml](11889.xml) | beinecke.townshend | OSB MSS 161 | Townshend Papers | 
  [beinecke.halfordfm.xml](11890.xml) | beinecke.halfordfm | GEN MSS 1612 | Frederic M. Halford papers | 
  [beinecke.holcomb.xml](11893.xml) | beinecke.holcomb | WA Photos 1070 | Holcomb Family Photographs | 
  [beinecke.seligson.xml](11922.xml) | beinecke.seligson | YCAL MSS 1200 | Fred Jeremy Seligson Collection of Cid Corman and James Weil | 
+ [beinecke.basinski.xml](11949.xml) | beinecke.basinski | YCAL MSS 1242 | Michael Basinski poems and other papers | 
 
