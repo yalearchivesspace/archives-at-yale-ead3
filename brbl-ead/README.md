@@ -1607,6 +1607,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.victoriasw.xml](11793.xml) | beinecke.victoriasw | OSB MSS 222 | Victoria Sackville-West papers | 
  [beinecke.mtlicenses.xml](11800.xml) | beinecke.mtlicenses | WA MSS S-4310 | Collection of licenses and tax receipts for businesses in Montana Territory | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
+ [11884.xml](11884.xml) |  | GEN MSS 1591 | Elysium Press Records | 
  [beinecke.townshend.xml](11889.xml) | beinecke.townshend | OSB MSS 161 | Townshend Papers | 
  [beinecke.halfordfm.xml](11890.xml) | beinecke.halfordfm | GEN MSS 1612 | Frederic M. Halford papers | 
  [beinecke.holcomb.xml](11893.xml) | beinecke.holcomb | WA Photos 1070 | Holcomb Family Photographs | 
