@@ -89,7 +89,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.gosse.xml](609.xml) | beinecke.gosse | GEN MSS 14 | Edmund Gosse collection | 
  [beinecke.demorgan.xml](610.xml) | beinecke.demorgan | GEN MSS 141 | William De Morgan collection | 
  [beinecke.sartre.xml](611.xml) | beinecke.sartre | GEN MSS 143 | Jean-Paul Sartre collection | 
- [beinecke.rochamb.xml](612.xml) | beinecke.rochamb | GEN MSS 146 | ROCHAMBEAU PAPERS AND ROCHAMBEAU FAMILY CARTOGRAPHIC ARCHIVE | 
+ [beinecke.rochamb.xml](612.xml) | beinecke.rochamb | GEN MSS 146 | Rochambeau Papers and Rochambeau Family Cartographic Archive | 
  [beinecke.boswell2.xml](613.xml) | beinecke.boswell2 | GEN MSS 150 | Boswell collection : addition | 
  [beinecke.edwards.xml](614.xml) | beinecke.edwards | GEN MSS 151 | Jonathan Edwards collection | 
  [beinecke.boswart.xml](615.xml) | beinecke.boswart | GEN MSS 153 | Boswell collection supplement | 
@@ -1607,7 +1607,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.victoriasw.xml](11793.xml) | beinecke.victoriasw | OSB MSS 222 | Victoria Sackville-West papers | 
  [beinecke.mtlicenses.xml](11800.xml) | beinecke.mtlicenses | WA MSS S-4310 | Collection of licenses and tax receipts for businesses in Montana Territory | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
- [11884.xml](11884.xml) |  | GEN MSS 1591 | Elysium Press Records | 
+ [beinecke.elysium.xml](11884.xml) | beinecke.elysium | GEN MSS 1591 | Elysium Press Records | 
  [beinecke.townshend.xml](11889.xml) | beinecke.townshend | OSB MSS 161 | Townshend Papers | 
  [beinecke.halfordfm.xml](11890.xml) | beinecke.halfordfm | GEN MSS 1612 | Frederic M. Halford papers | 
  [beinecke.holcomb.xml](11893.xml) | beinecke.holcomb | WA Photos 1070 | Holcomb Family Photographs | 
