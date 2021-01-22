@@ -1613,5 +1613,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.holcomb.xml](11893.xml) | beinecke.holcomb | WA Photos 1070 | Holcomb Family Photographs | 
  [beinecke.seligson.xml](11922.xml) | beinecke.seligson | YCAL MSS 1200 | Fred Jeremy Seligson Collection of Cid Corman and James Weil | 
  [beinecke.vaillhl.xml](11930.xml) | beinecke.vaillhl | GEN MSS 1615 | Herman Landon Vaill papers | 
+ [beinecke.wingfamily.xml](11937.xml) | beinecke.wingfamily | WA MSS S-4348 | Wing family correspondence | 
  [beinecke.basinski.xml](11949.xml) | beinecke.basinski | YCAL MSS 1242 | Michael Basinski poems and other papers | 
 
