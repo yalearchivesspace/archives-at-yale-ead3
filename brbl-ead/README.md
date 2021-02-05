@@ -1606,14 +1606,17 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.oharanavajo.xml](11789.xml) | beinecke.oharanavajo | WA MSS S-2625 | Geoffrey O'Hara cylinder recordings and lantern slides of Navajo Indians | 
  [beinecke.victoriasw.xml](11793.xml) | beinecke.victoriasw | OSB MSS 222 | Victoria Sackville-West papers | 
  [beinecke.mtlicenses.xml](11800.xml) | beinecke.mtlicenses | WA MSS S-4310 | Collection of licenses and tax receipts for businesses in Montana Territory | 
+ [beinecke.douglass.xml](11807.xml) | beinecke.douglass | JWJ MSS 240 | Walter O. Evans collection of Frederick Douglass and Douglass Family papers | 
  [beinecke.disneyfamily.xml](11825.xml) | beinecke.disneyfamily | WA MSS S-4149 | Disney family papers | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
  [beinecke.elysium.xml](11884.xml) | beinecke.elysium | GEN MSS 1591 | Elysium Press Records | 
  [beinecke.townshend.xml](11889.xml) | beinecke.townshend | OSB MSS 161 | Townshend Papers | 
  [beinecke.halfordfm.xml](11890.xml) | beinecke.halfordfm | GEN MSS 1612 | Frederic M. Halford papers | 
  [beinecke.holcomb.xml](11893.xml) | beinecke.holcomb | WA Photos 1070 | Holcomb Family Photographs | 
+ [beinecke.ajadamspapers.xml](11906.xml) | beinecke.ajadamspapers | WA MSS S-4335 | Alger Leroy Adams and Jessie M. Wells Adams papers | 
  [beinecke.seligson.xml](11922.xml) | beinecke.seligson | YCAL MSS 1200 | Fred Jeremy Seligson Collection of Cid Corman and James Weil | 
  [beinecke.vaillhl.xml](11930.xml) | beinecke.vaillhl | GEN MSS 1615 | Herman Landon Vaill papers | 
+ [beinecke.masoodwarren.xml](11933.xml) | beinecke.masoodwarren | JWJ MSS 32 | Masood Ali Wilbert Warren Papers | 
  [beinecke.wingfamily.xml](11937.xml) | beinecke.wingfamily | WA MSS S-4348 | Wing family correspondence | 
  [beinecke.basinski.xml](11949.xml) | beinecke.basinski | YCAL MSS 1242 | Michael Basinski poems and other papers | 
 
