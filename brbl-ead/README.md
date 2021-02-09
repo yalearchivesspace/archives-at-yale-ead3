@@ -1520,6 +1520,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.helfand.xml](11331.xml) | beinecke.helfand | GEN MSS 837 | Jessica Helfand scrapbook collection | 
  [beinecke.abclark.xml](11339.xml) | beinecke.abclark | WA MSS S-3437 | Aaron Baker Clark and Sarah Booth Clark papers | 
  [beinecke.tcarey.xml](11341.xml) | beinecke.tcarey | YCAL MSS 1210 | Tom Carey papers | 
+ [beinecke.manzanar.xml](11342.xml) | beinecke.manzanar | WA Photos 537 | Photographs of the Manzanar War Relocation Center, California | 
  [beinecke.liberace.xml](11345.xml) | beinecke.liberace | GEN MSS 1528 | Collection of materials relating to Liberace | 
  [beinecke.stapleton.xml](11349.xml) | beinecke.stapleton | YCAL MSS 1211 | Maureen Stapleton papers | 
  [beinecke.wilsoncipx.xml](11351.xml) | beinecke.wilsoncipx | WA Photos Folio 184 | Critical Indigenous Photographic Exchange Collection | 
