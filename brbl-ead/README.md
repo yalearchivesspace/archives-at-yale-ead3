@@ -835,7 +835,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.luckowenwpf151.xml](1382.xml) | beinecke.luckowenwpf151 | WA Photos Folio 151 | Photographs of Alaska and Haida Gwaii, British Columbia | 
  [beinecke.mcpheepotaw.xml](1383.xml) | beinecke.mcpheepotaw | WA Photos Folio 152 | Laura McPhee Photographs of the American West | 
  [beinecke.belanger.xml](1384.xml) | beinecke.belanger | WA Photos Folio 153 | Marion Belanger photographs | 
- [beinecke.halverson.xml](1386.xml) | beinecke.halverson | WA Photos Folio 75 | Photographs of the American West. | 
+ [beinecke.halverson.xml](1386.xml) | beinecke.halverson | WA Photos Folio 75 | Photographs of the American West | 
  [beinecke.ottenstein.xml](1387.xml) | beinecke.ottenstein | WA Photos Folio 82 | David Ottenstein Photographs of Iowa. | 
  [beinecke.breon.xml](1391.xml) | beinecke.breon | YCAL MSS 1 | John Breon papers | 
  [beinecke.marshall.xml](1392.xml) | beinecke.marshall | YCAL MSS 10 | Margaret Marshall papers | 
@@ -862,7 +862,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lfbaum.xml](1413.xml) | beinecke.lfbaum | YCAL MSS 13 | L. Frank Baum collection | 
  [beinecke.wescott.xml](1414.xml) | beinecke.wescott | YCAL MSS 134 | Glenway Wescott papers | 
  [beinecke.mwheeler.xml](1415.xml) | beinecke.mwheeler | YCAL MSS 136 | Monroe Wheeler papers | 
- [beinecke.gplscrap.xml](1416.xml) | beinecke.gplscrap | YCAL MSS 139 | George Platt Lynes scrapbooks. | 
+ [beinecke.gplscrap.xml](1416.xml) | beinecke.gplscrap | YCAL MSS 139 | George Platt Lynes scrapbooks | 
  [beinecke.curtiss.xml](1417.xml) | beinecke.curtiss | YCAL MSS 14 | Mina Kirstein Curtiss papers | 
  [beinecke.gilder.xml](1418.xml) | beinecke.gilder | YCAL MSS 141 | Letters in an extra-illustrated copy of <title xlink:type="simple" render="italic">Representative Poems of Living Poets</title> | 
  [beinecke.roskolen.xml](1419.xml) | beinecke.roskolen | YCAL MSS 142 | Harry Roskolenko collection | 
@@ -1610,7 +1610,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.douglass.xml](11807.xml) | beinecke.douglass | JWJ MSS 240 | Walter O. Evans collection of Frederick Douglass and Douglass Family papers | 
  [beinecke.disneyfamily.xml](11825.xml) | beinecke.disneyfamily | WA MSS S-4149 | Disney family papers | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
- [beinecke.elysium.xml](11884.xml) | beinecke.elysium | GEN MSS 1591 | Elysium Press Records | 
  [beinecke.townshend.xml](11889.xml) | beinecke.townshend | OSB MSS 161 | Townshend Papers | 
  [beinecke.halfordfm.xml](11890.xml) | beinecke.halfordfm | GEN MSS 1612 | Frederic M. Halford papers | 
  [beinecke.holcomb.xml](11893.xml) | beinecke.holcomb | WA Photos 1070 | Holcomb Family Photographs | 
