@@ -1620,4 +1620,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.masoodwarren.xml](11933.xml) | beinecke.masoodwarren | JWJ MSS 32 | Masood Ali Wilbert Warren Papers | 
  [beinecke.wingfamily.xml](11937.xml) | beinecke.wingfamily | WA MSS S-4348 | Wing family correspondence | 
  [beinecke.basinski.xml](11949.xml) | beinecke.basinski | YCAL MSS 1242 | Michael Basinski poems and other papers | 
+ [beinecke.peoplespark.xml](11956.xml) | beinecke.peoplespark | WA MSS S-4353 | Ephemera concerning the People's Park protests | 
 
