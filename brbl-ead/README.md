@@ -416,6 +416,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.weiss.xml](939.xml) | beinecke.weiss | GEN MSS 992 | Harvey Weiss papers | 
  [beinecke.marryat.xml](940.xml) | beinecke.marryat | GEN MSS 994 | Florence Marryat collection | 
  [beinecke.morath.xml](941.xml) | beinecke.morath | GEN MSS 996 | Inge Morath Photographs and Papers | 
+ [beinecke.EuropeancolonizationinAfricaphotographs.xml](944.xml) | beinecke.EuropeancolonizationinAfricaphotographs | GEN MSS 1606 | Collection of photographs relating to European colonization in Africa | 
  [beinecke.genmisc.xml](946.xml) | beinecke.genmisc | GEN MSS MISC | General Collection manuscript miscellany | 
  [beinecke.fellowes.xml](948.xml) | beinecke.fellowes | GEN MSS VOL 421 | EXTRA-ILLUSTRATIONS IN SAMUEL JOHNSON, LETTERS TO AND FROM THE LATE SAMUEL JOHNSON... (London: A. Strahan and T. Cadell, 1788) | 
  [beinecke.wittig.xml](949.xml) | beinecke.wittig | GEN MSS 1359 | Monique Wittig papers | 
@@ -1098,7 +1099,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.stevensw.xml](1651.xml) | beinecke.stevensw | YCAL MSS 545 | Wallace Stevens collection | 
  [beinecke.thurber.xml](1652.xml) | beinecke.thurber | YCAL MSS 546 | James Thurber papers | 
  [beinecke.youngm.xml](1653.xml) | beinecke.youngm | YCAL MSS 547 | Marguerite Young papers | 
- [beinecke.higginson.xml](1654.xml) | beinecke.higginson | YCAL MSS 549 | Thomas Wentworth Higginson collection, 1852-1907. | 
+ [beinecke.higginson.xml](1654.xml) | beinecke.higginson | YCAL MSS 549 | Thomas Wentworth Higginson collection | 
  [beinecke.fantasy.xml](1655.xml) | beinecke.fantasy | YCAL MSS 55 | Fantasy Magazine papers | 
  [beinecke.brown.xml](1656.xml) | beinecke.brown | YCAL MSS 550 | Alice Brown papers | 
  [beinecke.williamsww.xml](1657.xml) | beinecke.williamsww | YCAL MSS 551 | Wayland Wells Williams papers | 
@@ -1368,7 +1369,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cranectp.xml](5556.xml) | beinecke.cranectp | GEN MSS 1386 | Catharine T. Patterson Collection of Walter Crane | 
  [beinecke.cranecoll.xml](5569.xml) | beinecke.cranecoll | GEN MSS 1418 | Walter Crane Collection | 
  [beinecke.lintonmather.xml](5570.xml) | beinecke.lintonmather | GEN MSS 1387 | W. J. Linton Collection | 
- [beinecke.hokinson.xml](5573.xml) | beinecke.hokinson | YCAL MSS 1084 | Helen E. Hokinson Cartoons for The New Yorker | 
+ [beinecke.hokinson.xml](5573.xml) | beinecke.hokinson | YCAL MSS 1084 | Helen E. Hokinson Cartoons for <title>The New Yorker</title> | 
  [beinecke.killianbellamy.xml](5603.xml) | beinecke.killianbellamy | YCAL MSS 1090 | Kevin Killian and Dodie Bellamy papers | 
  [beinecke.fouratt.xml](5605.xml) | beinecke.fouratt | GEN MSS 1453 | Jim Fouratt papers | 
  [beinecke.bryan.xml](5623.xml) | beinecke.bryan | YCAL MSS 1103 | C. D. B. Bryan papers | 
@@ -1391,7 +1392,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.leeming.xml](5730.xml) | beinecke.leeming | JWJ MSS 172 | David Leeming Collection of James Baldwin Research | 
  [beinecke.brooksjs.xml](5738.xml) | beinecke.brooksjs | GEN MSS 1435 | John Sawyer Brooks papers | 
  [beinecke.rhoban.xml](5739.xml) | beinecke.rhoban | GEN MSS 1436 | Russell Hoban papers | 
- [beinecke.harding.xml](5745.xml) | beinecke.harding | YCAL MSS 485 | Bertita Harding Writings | 
  [beinecke.ofallon.xml](5746.xml) | beinecke.ofallon | WA MSS S-2729 | O'Fallon family papers | 
  [beinecke.lyonl.xml](5749.xml) | beinecke.lyonl | JWJ MSS 173 | Leviticus Lyon Papers | 
  [beinecke.wordsworth.xml](5778.xml) | beinecke.wordsworth | GEN MSS 1262 | William Wordsworth collection | 
