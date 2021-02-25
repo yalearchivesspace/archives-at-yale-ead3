@@ -1009,7 +1009,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hagedorn.xml](1560.xml) | beinecke.hagedorn | YCAL MSS 391 | Hermann Hagedorn papers | 
  [beinecke.hemingwaymw.xml](1561.xml) | beinecke.hemingwaymw | YCAL MSS 392 | Mary Welsh Hemingway papers | 
  [beinecke.marks.xml](1562.xml) | beinecke.marks | YCAL MSS 4 | Percy Marks papers | 
- [beinecke.knight.xml](1563.xml) | beinecke.knight | YCAL MSS 40 | Eric Knight papers. | 
+ [beinecke.knight.xml](1563.xml) | beinecke.knight | YCAL MSS 40 | Eric Knight papers | 
  [beinecke.andersonl.xml](1564.xml) | beinecke.andersonl | YCAL MSS 402 | Lee Anderson papers and Yale Series of Recorded Poets sound recordings | 
  [beinecke.hardye.xml](1565.xml) | beinecke.hardye | YCAL MSS 404 | Evelyn Hardy papers | 
  [beinecke.gilmanl.xml](1566.xml) | beinecke.gilmanl | YCAL MSS 407 | Lawrence Gilman papers | 
