@@ -316,7 +316,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lbailey.xml](837.xml) | beinecke.lbailey | GEN MSS 787 | Laura Bailey collection of gender and transgender materials | 
  [beinecke.bissell.xml](838.xml) | beinecke.bissell | GEN MSS 788 | George H. Bissell papers | 
  [beinecke.gcmerriam.xml](839.xml) | beinecke.gcmerriam | GEN MSS 789 | G. & C. Merriam Company records | 
- [beinecke.lyon.xml](840.xml) | beinecke.lyon | GEN MSS 79 | William Lyon papers. | 
+ [beinecke.lyon.xml](840.xml) | beinecke.lyon | GEN MSS 79 | William Lyon papers | 
  [beinecke.lord.xml](841.xml) | beinecke.lord | GEN MSS 790 | James Lord papers | 
  [beinecke.dash.xml](842.xml) | beinecke.dash | GEN MSS 792 | Robert Dash papers | 
  [beinecke.phillips.xml](843.xml) | beinecke.phillips | GEN MSS 793 | Caryl Phillips papers | 
@@ -1609,6 +1609,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mtlicenses.xml](11800.xml) | beinecke.mtlicenses | WA MSS S-4310 | Collection of licenses and tax receipts for businesses in Montana Territory | 
  [beinecke.douglass.xml](11807.xml) | beinecke.douglass | JWJ MSS 240 | Walter O. Evans collection of Frederick Douglass and Douglass Family papers | 
  [beinecke.disneyfamily.xml](11825.xml) | beinecke.disneyfamily | WA MSS S-4149 | Disney family papers | 
+ [beinecke.sze.xml](11827.xml) | beinecke.sze | YCAL MSS 1261 | Arthur Sze papers | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
  [beinecke.elysium.xml](11884.xml) | beinecke.elysium | GEN MSS 1591 | Elysium Press Records | 
  [beinecke.townshend.xml](11889.xml) | beinecke.townshend | OSB MSS 161 | Townshend Papers | 
