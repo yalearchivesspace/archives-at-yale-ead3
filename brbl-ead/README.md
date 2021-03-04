@@ -1525,6 +1525,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.stapleton.xml](11349.xml) | beinecke.stapleton | YCAL MSS 1211 | Maureen Stapleton papers | 
  [beinecke.wilsoncipx.xml](11351.xml) | beinecke.wilsoncipx | WA Photos Folio 184 | Critical Indigenous Photographic Exchange Collection | 
  [beinecke.giddings.xml](11355.xml) | beinecke.giddings | GEN MSS 882 | Franklin Henry Giddings collection | 
+ [beinecke.waphotosfolio185.xml](11356.xml) | beinecke.waphotosfolio185 | WA Photos Folio 185 | Photographs of Arizona, Nebraska, New Mexico, Pine Ridge Indian Reservation, and South Dakota | 
  [beinecke.bluepress.xml](11359.xml) | beinecke.bluepress | YCAL MSS 1235 | Blue Press records | 
  [beinecke.sasse.xml](11365.xml) | beinecke.sasse | WA MSS S-3469 | A. H. Sasse papers | 
  [beinecke.sjsedgwick.xml](11366.xml) | beinecke.sjsedgwick | WA MSS S-2360 | S. J. Sedgwick collection | 
