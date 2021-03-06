@@ -1611,6 +1611,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.douglass.xml](11807.xml) | beinecke.douglass | JWJ MSS 240 | Walter O. Evans collection of Frederick Douglass and Douglass Family papers | 
  [beinecke.disneyfamily.xml](11825.xml) | beinecke.disneyfamily | WA MSS S-4149 | Loren and Stanley Disney Family Papers | 
  [beinecke.sze.xml](11827.xml) | beinecke.sze | YCAL MSS 1261 | Arthur Sze papers | 
+ [beinecke.lopate.xml](11830.xml) | beinecke.lopate | YCAL MSS 1083 | Phillip Lopate papers | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
  [beinecke.elysium.xml](11884.xml) | beinecke.elysium | GEN MSS 1591 | Elysium Press Records | 
  [beinecke.townshend.xml](11889.xml) | beinecke.townshend | OSB MSS 161 | Townshend Papers | 
@@ -1625,4 +1626,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.stimson.xml](11940.xml) | beinecke.stimson | WA Photos 1072 | Joseph Elam Stimson Photographs | 
  [beinecke.basinski.xml](11949.xml) | beinecke.basinski | YCAL MSS 1242 | Michael Basinski poems and other papers | 
  [beinecke.peoplespark.xml](11956.xml) | beinecke.peoplespark | WA MSS S-4353 | Ephemera concerning the People's Park protests | 
+ [beinecke.schuylerwolff.xml](11978.xml) | beinecke.schuylerwolff | YCGL MSS 17 | Steven Schuyler papers relating to Kurt Wolff and Hermann Broch | 
 
