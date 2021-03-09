@@ -1392,6 +1392,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.leeming.xml](5730.xml) | beinecke.leeming | JWJ MSS 172 | David Leeming Collection of James Baldwin Research | 
  [beinecke.brooksjs.xml](5738.xml) | beinecke.brooksjs | GEN MSS 1435 | John Sawyer Brooks papers | 
  [beinecke.rhoban.xml](5739.xml) | beinecke.rhoban | GEN MSS 1436 | Russell Hoban papers | 
+ [beinecke.harding.xml](5745.xml) | beinecke.harding | YCAL MSS 485 | Bertita Harding Writings | 
  [beinecke.ofallon.xml](5746.xml) | beinecke.ofallon | WA MSS S-2729 | O'Fallon family papers | 
  [beinecke.lyonl.xml](5749.xml) | beinecke.lyonl | JWJ MSS 173 | Leviticus Lyon Papers | 
  [beinecke.wordsworth.xml](5778.xml) | beinecke.wordsworth | GEN MSS 1262 | William Wordsworth collection | 
