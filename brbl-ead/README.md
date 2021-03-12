@@ -1407,7 +1407,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.shemales.xml](5791.xml) | beinecke.shemales | Bailey 5 | Transgender erotic pulp fiction collection from the series She males | 
  [beinecke.tdb.xml](5792.xml) | beinecke.tdb | Bailey 20 | Transgender erotic pulp fiction collection from an unnamed series numbered TDB | 
  [beinecke.transvestia.xml](5793.xml) | beinecke.transvestia | Bailey 10 | Transgender erotic pulp fiction collection from the series Transvestia | 
- [beinecke.catalogs.xml](5794.xml) | beinecke.catalogs | X346 | Antiquarian bookseller catalog collection. | 
+ [beinecke.catalogs.xml](5794.xml) | beinecke.catalogs | X346 | Antiquarian bookseller catalog collection | 
  [beinecke.dobsons.xml](5796.xml) | beinecke.dobsons | GEN MSS 409 | Silvia Dobson papers | 
  [beinecke.emersonrw.xml](5797.xml) | beinecke.emersonrw | YCAL MSS 212 | Ralph Waldo Emerson collection | 
  [beinecke.greyzanecoll.xml](5799.xml) | beinecke.greyzanecoll | WA MSS S-2761 | Zane Grey collection | 
@@ -1415,7 +1415,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fisher.xml](5809.xml) | beinecke.fisher | WA MSS S-2823 | Robert B. Fisher photograph collection and papers | 
  [beinecke.haas.xml](5811.xml) | beinecke.haas | YCAL MSS 833 | Robert Bartlett Haas collection on Gertrude Stein and the Conference Press | 
  [beinecke.bell.xml](5812.xml) | beinecke.bell | JWJ MSS 153 | Mary A. Bell Drawings | 
- [beinecke.century.xml](5813.xml) | beinecke.century | GEN MSS 1219 | [Walter L. Pforzheimer collection of Century Company illustrations]. | 
+ [beinecke.century.xml](5813.xml) | beinecke.century | GEN MSS 1219 | [Walter L. Pforzheimer collection of Century Company illustrations] | 
  [beinecke.fordpl.xml](5814.xml) | beinecke.fordpl | YCAL MSS 488 | Paul Leicester Ford papers | 
  [beinecke.newhaveneast.xml](5815.xml) | beinecke.newhaveneast | GEN MSS 1295 | New Haven East Association records | 
  [beinecke.newhavenwest.xml](5816.xml) | beinecke.newhavenwest | GEN MSS 1296 | New Haven West Association records | 
@@ -1612,8 +1612,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.douglass.xml](11807.xml) | beinecke.douglass | JWJ MSS 240 | Walter O. Evans collection of Frederick Douglass and Douglass Family papers | 
  [beinecke.everhardy.xml](11823.xml) | beinecke.everhardy | WA MSS S-4148 | Louise Everhardy papers | 
  [beinecke.disneyfamily.xml](11825.xml) | beinecke.disneyfamily | WA MSS S-4149 | Loren and Stanley Disney Family Papers | 
- [beinecke.sze.xml](11827.xml) | beinecke.sze | YCAL MSS 1261 | Arthur Sze papers | 
- [beinecke.lopate.xml](11830.xml) | beinecke.lopate | YCAL MSS 1083 | Phillip Lopate papers | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
  [beinecke.elysium.xml](11884.xml) | beinecke.elysium | GEN MSS 1591 | Elysium Press Records | 
  [beinecke.townshend.xml](11889.xml) | beinecke.townshend | OSB MSS 161 | Townshend Papers | 
