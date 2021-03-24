@@ -630,6 +630,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fd45.xml](1162.xml) | beinecke.fd45 | OSBORN FD45 | Collection of letters, receipts, proofs, portraits, etc., concerning The British Gallery of Contemporary Portraits, published by Cadell & Davies | 
  [beinecke.fd49.xml](1163.xml) | beinecke.fd49 | OSBORN FD49 | [Engravings]. | 
  [beinecke.deane.xml](1165.xml) | beinecke.deane | GEN MSS 1588 | Jesse Deane papers and photographs | 
+ [beinecke.wcprizes.xml](1166.xml) | beinecke.wcprizes | GEN MSS 1672 | Donald Windham-Sandy M. Campbell Literature Prizes records | 
  [beinecke.margulies.xml](1168.xml) | beinecke.margulies | YCAL MSS 1051 | Donald Margulies papers | 
  [beinecke.tankas.xml](1170.xml) | beinecke.tankas | Tibet MSS 62 | Tanka collection | 
  [beinecke.needham.xml](1171.xml) | beinecke.needham | Tibet MSS 64 | Wesley E. Needham Papers | 
