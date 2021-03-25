@@ -240,7 +240,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mcglasha.xml](761.xml) | beinecke.mcglasha | GEN MSS 555 | E. L. McGlashan collection of documents concerning slavery in the United States | 
  [beinecke.kaufman.xml](762.xml) | beinecke.kaufman | GEN MSS 562 | Boris Kaufman papers | 
  [beinecke.metamorphosis.xml](763.xml) | beinecke.metamorphosis | GEN MSS 566 | Metamorphosis : amateur drawings and paintings that replicate the publication by Benjamin Sands. | 
- [beinecke.fksmith.xml](764.xml) | beinecke.fksmith | GEN MSS 567 | Frank Kellogg Smith travel photographs and memorabilia. | 
+ [beinecke.fksmith.xml](764.xml) | beinecke.fksmith | GEN MSS 567 | Frank Kellogg Smith travel photographs and memorabilia | 
  [beinecke.clifford.xml](765.xml) | beinecke.clifford | GEN MSS 568 | Mrs. W. K. Clifford papers | 
  [beinecke.beineckefam.xml](766.xml) | beinecke.beineckefam | GEN MSS 570 | Beinecke family papers | 
  [beinecke.amichai.xml](767.xml) | beinecke.amichai | GEN MSS 572 | Yehuda Amichai papers | 
@@ -287,7 +287,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.livingston.xml](808.xml) | beinecke.livingston | GEN MSS 680 | Livingston family papers | 
  [beinecke.stevenson.xml](809.xml) | beinecke.stevenson | GEN MSS 684 | Robert Louis Stevenson Collection | 
  [beinecke.thom.xml](810.xml) | beinecke.thom | GEN MSS 69 | Lansing V. Hammond collection of Hugh Thomson | 
- [beinecke.driver.xml](811.xml) | beinecke.driver | GEN MSS 690 | Julia Driver collection of women in photography. | 
+ [beinecke.driver.xml](811.xml) | beinecke.driver | GEN MSS 690 | Julia Driver collection of women in photography | 
  [beinecke.dakyns.xml](812.xml) | beinecke.dakyns | GEN MSS 698 | Henry Graham Dakyns Papers | 
  [beinecke.benson.xml](813.xml) | beinecke.benson | GEN MSS 699 | E. F. Benson papers | 
  [beinecke.moreno.xml](814.xml) | beinecke.moreno | GEN MSS 701 | Marguerite Moreno papers | 
@@ -827,8 +827,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.brooksah.xml](1372.xml) | beinecke.brooksah | WA Photos 444 | Alfred Hulse Brooks photographs and papers | 
  [beinecke.lewisjon.xml](1373.xml) | beinecke.lewisjon | WA Photos 466 | Jon Lewis photographs of the United Farm Workers movement | 
  [beinecke.germack.xml](1374.xml) | beinecke.germack | WA Photos 483 | Victor F. Germack and Lori Shepard Germack Collection of Photographs of Indians of North America. | 
- [beinecke.asianamericans.xml](1375.xml) | beinecke.asianamericans | WA Photos 485 | Photographs of Asian Americans. | 
- [beinecke.aronow.xml](1376.xml) | beinecke.aronow | WA Photos 488 | Abraham Aronow photographs. | 
+ [beinecke.asianamericans.xml](1375.xml) | beinecke.asianamericans | WA Photos 485 | Photographs of Asian Americans | 
+ [beinecke.aronow.xml](1376.xml) | beinecke.aronow | WA Photos 488 | Abraham Aronow photographs | 
  [beinecke.palmquistformats.xml](1377.xml) | beinecke.palmquistformats | WA Photos 495 | Peter E. Palmquist collection of photography and photographic formats | 
  [beinecke.hook.xml](1378.xml) | beinecke.hook | WA Photos 511 | W. E. Hook photographs of Colorado, New Mexico, and Texas. | 
  [beinecke.irwinwilliame.xml](1379.xml) | beinecke.irwinwilliame | WA Photos 516 | William E. Irwin Photographs collection. | 
