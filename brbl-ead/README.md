@@ -258,7 +258,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.coward.xml](779.xml) | beinecke.coward | GEN MSS 608 | John C. Wilson Theater Collection on Noel Coward | 
  [beinecke.hogg.xml](780.xml) | beinecke.hogg | GEN MSS 61 | James Hogg collection | 
  [beinecke.vignaud.xml](781.xml) | beinecke.vignaud | GEN MSS 610 | Henry Vignaud Research Notes on Cartography | 
- [beinecke.grant.xml](782.xml) | beinecke.grant | GEN MSS 611 | Henry Duncan Grant watercolor sketchbooks and scrapbooks. | 
+ [beinecke.grant.xml](782.xml) | beinecke.grant | GEN MSS 611 | Henry Duncan Grant watercolor sketchbooks and scrapbooks | 
  [beinecke.sykes.xml](783.xml) | beinecke.sykes | GEN MSS 612 | Christopher Sykes Papers | 
  [beinecke.brodsky.xml](784.xml) | beinecke.brodsky | GEN MSS 613 | Joseph Brodsky papers | 
  [beinecke.nicolson.xml](785.xml) | beinecke.nicolson | GEN MSS 614 | Harold Nicolson papers | 
@@ -368,7 +368,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.linlithgow.xml](890.xml) | beinecke.linlithgow | GEN MSS 884 | Linlithgow and Stirlingshire Hunt records | 
  [beinecke.deforest.xml](891.xml) | beinecke.deforest | GEN MSS 885 | John L. De Forest papers | 
  [beinecke.croom.xml](892.xml) | beinecke.croom | GEN MSS 886 | Norman Croom-Johnson diaries | 
- [beinecke.johnstonwww.xml](893.xml) | beinecke.johnstonwww | GEN MSS 887 | William Walker Whitehall Johnston photograph album of Wales, the West Indies, and the 1st West India Regiment. | 
+ [beinecke.johnstonwww.xml](893.xml) | beinecke.johnstonwww | GEN MSS 887 | William Walker Whitehall Johnston photograph album of Wales, the West Indies, and the 1st West India Regiment | 
  [beinecke.boswell.xml](894.xml) | beinecke.boswell | GEN MSS 89 | Boswell Collection | 
  [beinecke.fraenkel.xml](895.xml) | beinecke.fraenkel | GEN MSS 891 | Michael Fraenkel papers | 
  [beinecke.baronbyron.xml](896.xml) | beinecke.baronbyron | GEN MSS 892 | George Gordon Byron, Baron Byron collection | 
@@ -707,7 +707,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.scrpbk.xml](1248.xml) | beinecke.scrpbk | WA MSS S-1817 | Views of the Pacific Northwest. | 
  [beinecke.strang.xml](1249.xml) | beinecke.strang | WA MSS S-186-189 | James Jesse Strang papers | 
  [beinecke.buffalo.xml](1250.xml) | beinecke.buffalo | WA MSS S-197 | Buffalo Bill papers | 
- [beinecke.nettleto.xml](1251.xml) | beinecke.nettleto | WA MSS S-20 | Letters | 
+ [beinecke.nettleto.xml](1251.xml) | beinecke.nettleto | WA MSS S-20 | Sarah Buckingham Wilmot Nettleton Buckingham letters | 
  [beinecke.gearybus.xml](1252.xml) | beinecke.gearybus | WA MSS S-209 | John White Geary business papers | 
  [beinecke.willard.xml](1253.xml) | beinecke.willard | WA MSS S-2512 | Rowland Willard and Elizabeth S. Willard papers | 
  [beinecke.oastler.xml](1254.xml) | beinecke.oastler | WA MSS S-2162 | Frank Richard Oastler collection | 
@@ -798,7 +798,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.warnerjonathan.xml](1341.xml) | beinecke.warnerjonathan | WA MSS S-2925 | Jonathan Warner papers | 
  [beinecke.cadwell.xml](1342.xml) | beinecke.cadwell | WA MSS S-2933 | Cadwell family correspondence | 
  [beinecke.ochoa.xml](1343.xml) | beinecke.ochoa | WA MSS S-2938 | Antonio Ochoa Carrillo papers and Benito Juárez correspondence | 
- [beinecke.ledger.xml](1344.xml) | beinecke.ledger | WA MSS S-2942 | Indian ledger drawings by Koba and Etahdleuh Doanmoe. | 
+ [beinecke.ledger.xml](1344.xml) | beinecke.ledger | WA MSS S-2942 | Indian ledger drawings by Koba and Etahdleuh Doanmoe | 
  [beinecke.jarvis.xml](1345.xml) | beinecke.jarvis | WA MSS S-2948 | Jarvis-Robinson Family Papers | 
  [beinecke.hawks.xml](1347.xml) | beinecke.hawks | WA MSS S-2958 | Hawks Family Papers Relating to Business Ventures in the American West | 
  [beinecke.oddfellows.xml](1348.xml) | beinecke.oddfellows | WA MSS S-2961 | Independent Order of Odd Fellows Records of California Lodges | 
@@ -826,12 +826,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.waphotos404.xml](1371.xml) | beinecke.waphotos404 | WA Photos 404 | Photograph album and photographs of Montana, New Mexico, and Colorado. | 
  [beinecke.brooksah.xml](1372.xml) | beinecke.brooksah | WA Photos 444 | Alfred Hulse Brooks photographs and papers | 
  [beinecke.lewisjon.xml](1373.xml) | beinecke.lewisjon | WA Photos 466 | Jon Lewis photographs of the United Farm Workers movement | 
- [beinecke.germack.xml](1374.xml) | beinecke.germack | WA Photos 483 | Victor F. Germack and Lori Shepard Germack Collection of Photographs of Indians of North America. | 
+ [beinecke.germack.xml](1374.xml) | beinecke.germack | WA Photos 483 | Victor F. Germack and Lori Shepard Germack Collection of Photographs of Indians of North America | 
  [beinecke.asianamericans.xml](1375.xml) | beinecke.asianamericans | WA Photos 485 | Photographs of Asian Americans | 
  [beinecke.aronow.xml](1376.xml) | beinecke.aronow | WA Photos 488 | Abraham Aronow photographs | 
  [beinecke.palmquistformats.xml](1377.xml) | beinecke.palmquistformats | WA Photos 495 | Peter E. Palmquist collection of photography and photographic formats | 
  [beinecke.hook.xml](1378.xml) | beinecke.hook | WA Photos 511 | W. E. Hook photographs of Colorado, New Mexico, and Texas. | 
- [beinecke.irwinwilliame.xml](1379.xml) | beinecke.irwinwilliame | WA Photos 516 | William E. Irwin Photographs collection. | 
+ [beinecke.irwinwilliame.xml](1379.xml) | beinecke.irwinwilliame | WA Photos 516 | William E. Irwin Photographs collection | 
  [beinecke.palmquistphotos.xml](1380.xml) | beinecke.palmquistphotos | WA Photos 524 | Peter E. Palmquist photographs | 
  [beinecke.waphotosfile.xml](1381.xml) | beinecke.waphotosfile | WA Photos File | Western Americana card photograph file. | 
  [beinecke.luckowenwpf151.xml](1382.xml) | beinecke.luckowenwpf151 | WA Photos Folio 151 | Photographs of Alaska and Haida Gwaii, British Columbia | 
@@ -1316,7 +1316,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.igo.xml](1870.xml) | beinecke.igo | YCAL MSS 1313 | Harold Igo Papers | 
  [beinecke.broch.xml](1871.xml) | beinecke.broch | YCGL MSS 1 | Hermann Broch archive | 
  [beinecke.prints.xml](1872.xml) | beinecke.prints | YCGL MSS 11 | William A. Speck collection of prints. | 
- [beinecke.lavater.xml](1873.xml) | beinecke.lavater | YCGL MSS 13 | Lavater collection. | 
+ [beinecke.lavater.xml](1873.xml) | beinecke.lavater | YCGL MSS 13 | Lavater collection | 
  [beinecke.winkler.xml](1874.xml) | beinecke.winkler | YCGL MSS 14 | Winkler collection | 
  [beinecke.wolffhk.xml](1875.xml) | beinecke.wolffhk | YCGL MSS 16 | Helen and Kurt Wolff papers | 
  [beinecke.brochrot.xml](1876.xml) | beinecke.brochrot | YCGL MSS 2 | H. F. Broch de Rothermann papers | 
