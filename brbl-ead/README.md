@@ -636,7 +636,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.needham.xml](1171.xml) | beinecke.needham | Tibet MSS 64 | Wesley E. Needham Papers | 
  [beinecke.micro.xml](1173.xml) | beinecke.micro | WA MFM 1-6 | Women in the West: Microfilm Sets | 
  [beinecke.curtis.xml](1174.xml) | beinecke.curtis | WA MSS 122-125 | Samuel Ryan Curtis Papers | 
- [beinecke.emmonsgf.xml](1176.xml) | beinecke.emmonsgf | WA MSS 166-169 | George F. Emmons papers | 
+ [beinecke.emmonsgf.xml](1176.xml) | beinecke.emmonsgf | WA MSS 166-169, WA MSS S-4386 | George F. Emmons papers | 
  [beinecke.faulk.xml](1178.xml) | beinecke.faulk | WA MSS 195 | Andrew Jackson Faulk papers | 
  [beinecke.geary.xml](1179.xml) | beinecke.geary | WA MSS 212 | John White Geary papers | 
  [beinecke.kane.xml](1180.xml) | beinecke.kane | WA MSS 279 | Thomas Leiper Kane papers | 
