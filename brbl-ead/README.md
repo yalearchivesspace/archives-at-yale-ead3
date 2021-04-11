@@ -823,7 +823,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lutherwaters.xml](1368.xml) | beinecke.lutherwaters | WA MSS S-2735 | Tal Luther collection of Frank Waters printed materials and papers | 
  [beinecke.dellen.xml](1369.xml) | beinecke.dellen | WA PHOTOS 271 | Frederick Samuel Dellenbaugh collection of photographs and drawings of the Colorado River region. | 
  [beinecke.palmcase.xml](1370.xml) | beinecke.palmcase | WA Photos 402 | Peter Palmquist Cased Photographs Collection | 
- [beinecke.waphotos404.xml](1371.xml) | beinecke.waphotos404 | WA Photos 404 | Photograph album and photographs of Montana, New Mexico, and Colorado. | 
+ [beinecke.waphotos404.xml](1371.xml) | beinecke.waphotos404 | WA Photos 404 | Photograph album and photographs of Montana, New Mexico, and Colorado | 
  [beinecke.brooksah.xml](1372.xml) | beinecke.brooksah | WA Photos 444 | Alfred Hulse Brooks photographs and papers | 
  [beinecke.lewisjon.xml](1373.xml) | beinecke.lewisjon | WA Photos 466 | Jon Lewis photographs of the United Farm Workers movement | 
  [beinecke.germack.xml](1374.xml) | beinecke.germack | WA Photos 483 | Victor F. Germack and Lori Shepard Germack Collection of Photographs of Indians of North America | 
@@ -833,7 +833,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hook.xml](1378.xml) | beinecke.hook | WA Photos 511 | W. E. Hook photographs of Colorado, New Mexico, and Texas. | 
  [beinecke.irwinwilliame.xml](1379.xml) | beinecke.irwinwilliame | WA Photos 516 | William E. Irwin Photographs collection | 
  [beinecke.palmquistphotos.xml](1380.xml) | beinecke.palmquistphotos | WA Photos 524 | Peter E. Palmquist photographs | 
- [beinecke.waphotosfile.xml](1381.xml) | beinecke.waphotosfile | WA Photos File | Western Americana card photograph file. | 
+ [beinecke.waphotosfile.xml](1381.xml) | beinecke.waphotosfile | WA Photos File | Western Americana card photograph file | 
  [beinecke.luckowenwpf151.xml](1382.xml) | beinecke.luckowenwpf151 | WA Photos Folio 151 | Photographs of Alaska and Haida Gwaii, British Columbia | 
  [beinecke.mcpheepotaw.xml](1383.xml) | beinecke.mcpheepotaw | WA Photos Folio 152 | Laura McPhee Photographs of the American West | 
  [beinecke.belanger.xml](1384.xml) | beinecke.belanger | WA Photos Folio 153 | Marion Belanger photographs | 
