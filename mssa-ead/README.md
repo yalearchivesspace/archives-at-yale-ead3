@@ -2880,6 +2880,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2101.xml](11306.xml) | mssa.ms.2101 | MS 2101 | Mas Yebra family correspondence | 
  [mssa.ms.2100.xml](11307.xml) | mssa.ms.2100 | MS 2100 | Felipe Lorenzo Famoso diary | 
  [mssa.ru.1159.xml](11363.xml) | mssa.ru.1159 | RU 1159 | Walter Irenaeus Lowe, Yale College Class of 1890, photographs documenting life at Yale University | 
+ [11369.xml](11369.xml) |  | MS 2104 | Stephen Kellert papers | 
  [mssa.ms.2105.xml](11370.xml) | mssa.ms.2105 | MS 2105 | Michael Antisdale and Mark R. Melanson Papers | 
  [mssa.ru.1160.xml](11431.xml) | mssa.ru.1160 | RU 1160 | New Blue, Yale University, records | 
  [mssa.ru.1161.xml](11440.xml) | mssa.ru.1161 | RU 1161 | <emph render="italic">Colossal Keepsake</emph> motion picture film by Peter Hentschel and William Richardson | 
