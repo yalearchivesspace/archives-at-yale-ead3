@@ -2880,7 +2880,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2101.xml](11306.xml) | mssa.ms.2101 | MS 2101 | Mas Yebra family correspondence | 
  [mssa.ms.2100.xml](11307.xml) | mssa.ms.2100 | MS 2100 | Felipe Lorenzo Famoso diary | 
  [mssa.ru.1159.xml](11363.xml) | mssa.ru.1159 | RU 1159 | Walter Irenaeus Lowe, Yale College Class of 1890, photographs documenting life at Yale University | 
- [11369.xml](11369.xml) |  | MS 2104 | Stephen Kellert papers | 
+ [mssa.ms.2104.xml](11369.xml) | mssa.ms.2104 | MS 2104 | Stephen Kellert papers | 
  [mssa.ms.2105.xml](11370.xml) | mssa.ms.2105 | MS 2105 | Michael Antisdale and Mark R. Melanson Papers | 
  [mssa.ru.1160.xml](11431.xml) | mssa.ru.1160 | RU 1160 | New Blue, Yale University, records | 
  [mssa.ru.1161.xml](11440.xml) | mssa.ru.1161 | RU 1161 | <emph render="italic">Colossal Keepsake</emph> motion picture film by Peter Hentschel and William Richardson | 
@@ -2899,4 +2899,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2115.xml](11735.xml) | mssa.ms.2115 | MS 2115 | Noriaki Tsuchimoto papers | 
  [mssa.ms.1396.xml](11792.xml) | mssa.ms.1396 | MS 1396 | Joseph Stewart Fruton papers | 
  [mssa.ru.1172.xml](11898.xml) | mssa.ru.1172 | RU 1172 | Yale Slavic Chorus, Yale University, records | 
+ [mssa.ms.2123.xml](12007.xml) | mssa.ms.2123 | MS 2123 | Lewis Paul Bremer Papers | 
 
