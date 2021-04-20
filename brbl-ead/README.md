@@ -838,7 +838,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mcpheepotaw.xml](1383.xml) | beinecke.mcpheepotaw | WA Photos Folio 152 | Laura McPhee Photographs of the American West | 
  [beinecke.belanger.xml](1384.xml) | beinecke.belanger | WA Photos Folio 153 | Marion Belanger photographs | 
  [beinecke.halverson.xml](1386.xml) | beinecke.halverson | WA Photos Folio 75 | Photographs of the American West | 
- [beinecke.ottenstein.xml](1387.xml) | beinecke.ottenstein | WA Photos Folio 82 | David Ottenstein Photographs of Iowa. | 
+ [beinecke.ottenstein.xml](1387.xml) | beinecke.ottenstein | WA Photos Folio 82 | David Ottenstein Photographs of Iowa | 
  [beinecke.breon.xml](1391.xml) | beinecke.breon | YCAL MSS 1 | John Breon papers | 
  [beinecke.marshall.xml](1392.xml) | beinecke.marshall | YCAL MSS 10 | Margaret Marshall papers | 
  [beinecke.henri.xml](1393.xml) | beinecke.henri | YCAL MSS 100 | Robert Henri papers | 
@@ -933,7 +933,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.joseph.xml](1483.xml) | beinecke.joseph | YCAL MSS 26 | Matthew Josephson papers | 
  [beinecke.souvprograms.xml](1484.xml) | beinecke.souvprograms | YCAL MSS 260 | Souvenir performance program collection | 
  [beinecke.longstreet.xml](1485.xml) | beinecke.longstreet | YCAL MSS 262 | Stephen Longstreet papers | 
- [beinecke.okeeffeabiquiu.xml](1486.xml) | beinecke.okeeffeabiquiu | YCAL MSS 263 | O'Keeffe at Abiquiu. | 
+ [beinecke.okeeffeabiquiu.xml](1486.xml) | beinecke.okeeffeabiquiu | YCAL MSS 263 | O'Keeffe at Abiquiu | 
  [beinecke.coxc.xml](1487.xml) | beinecke.coxc | YCAL MSS 264 | Christopher Cox papers | 
  [beinecke.andersonm.xml](1488.xml) | beinecke.andersonm | YCAL MSS 265 | Elizabeth Jenks Clark Collection of Margaret Anderson | 
  [beinecke.scheuer.xml](1489.xml) | beinecke.scheuer | YCAL MSS 266 | Steven H. Scheuer Collection of Television Program Scripts | 
