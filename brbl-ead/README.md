@@ -1387,7 +1387,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.achurch.xml](5707.xml) | beinecke.achurch | GEN MSS 215 | Janet Achurch and Charles Charrington Correspondence | 
  [beinecke.susanbee.xml](5712.xml) | beinecke.susanbee | YCAL MSS 1251 | Susan Bee papers | 
  [beinecke.meservekunhardt.xml](5714.xml) | beinecke.meservekunhardt | GEN MSS 1430 | Meserve-Kunhardt collection | 
- [beinecke.nuclearlandscapes.xml](5718.xml) | beinecke.nuclearlandscapes | WA Photos Folio 163 | Peter Goin, Nuclear Landscapes: Portfolio of Forty-Four Photographs and Trinity Panorama. | 
+ [beinecke.nuclearlandscapes.xml](5718.xml) | beinecke.nuclearlandscapes | WA Photos Folio 163 | Peter Goin, Nuclear Landscapes: Portfolio of Forty-Four Photographs and Trinity Panorama | 
  [beinecke.lewisleg.xml](5727.xml) | beinecke.lewisleg | YCAL MSS 1104 | Legal Records Relating to Sinclair Lewis | 
  [beinecke.lethem.xml](5729.xml) | beinecke.lethem | YCAL MSS 1131 | Jonathan Lethem papers | 
  [beinecke.leeming.xml](5730.xml) | beinecke.leeming | JWJ MSS 172 | David Leeming Collection of James Baldwin Research | 
@@ -1569,6 +1569,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.usbuttons.xml](11519.xml) | beinecke.usbuttons | WA MSS S-3822 | Collection of United States social pinback buttons | 
  [beinecke.glansing.xml](11522.xml) | beinecke.glansing | YCAL MSS 469 | Gerrit Lansing papers | 
  [beinecke.fredhbrice.xml](11530.xml) | beinecke.fredhbrice | WA MSS S-3806 | Fred H. Brice California real estate papers | 
+ [beinecke.mjgerber.xml](11531.xml) | beinecke.mjgerber | YCAL MSS 1226 | Merrill Joan Gerber papers | 
  [beinecke.risvoldcady.xml](11532.xml) | beinecke.risvoldcady | WA MSS S-3807 | Floyd E. Risvold Collection of James Edgar Cady Correspondence | 
  [beinecke.sommer.xml](11560.xml) | beinecke.sommer | WA MSS S-3861 | Watercolors and Pencil Drawings Related to the Utah Expedition | 
  [beinecke.parkcounty.xml](11569.xml) | beinecke.parkcounty | WA MSS S-2963 | Gerald Fogarty Galloway Collection of Records Concerning Mines and Real Property in Park County, Colorado | 
