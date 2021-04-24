@@ -239,7 +239,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.llewelyn.xml](760.xml) | beinecke.llewelyn | GEN MSS 554 | Llewelyn Davies family papers | 
  [beinecke.mcglasha.xml](761.xml) | beinecke.mcglasha | GEN MSS 555 | E. L. McGlashan collection of documents concerning slavery in the United States | 
  [beinecke.kaufman.xml](762.xml) | beinecke.kaufman | GEN MSS 562 | Boris Kaufman papers | 
- [beinecke.metamorphosis.xml](763.xml) | beinecke.metamorphosis | GEN MSS 566 | Metamorphosis : amateur drawings and paintings that replicate the publication by Benjamin Sands. | 
+ [beinecke.metamorphosis.xml](763.xml) | beinecke.metamorphosis | GEN MSS 566 | Metamorphosis : amateur drawings and paintings that replicate the publication by Benjamin Sands | 
  [beinecke.fksmith.xml](764.xml) | beinecke.fksmith | GEN MSS 567 | Frank Kellogg Smith travel photographs and memorabilia | 
  [beinecke.clifford.xml](765.xml) | beinecke.clifford | GEN MSS 568 | Mrs. W. K. Clifford papers | 
  [beinecke.beineckefam.xml](766.xml) | beinecke.beineckefam | GEN MSS 570 | Beinecke family papers | 
