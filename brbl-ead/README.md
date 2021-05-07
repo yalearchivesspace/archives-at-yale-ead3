@@ -274,7 +274,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hunt.xml](795.xml) | beinecke.hunt | GEN MSS 65 | Leigh Hunt collection | 
  [beinecke.kline.xml](796.xml) | beinecke.kline | GEN MSS 650 | George Louis Kline papers | 
  [beinecke.allegret.xml](797.xml) | beinecke.allegret | GEN MSS 651 | Marc Allegrét papers | 
- [beinecke.damico.xml](798.xml) | beinecke.damico | GEN MSS 655 | Tano D'Amico Photographs of Events in Italy | 
+ [beinecke.damico.xml](798.xml) | beinecke.damico | GEN MSS 655 | Tano D'Amico Photographs and Papers | 
  [beinecke.milosz.xml](799.xml) | beinecke.milosz | GEN MSS 661 | Czesław Miłosz papers | 
  [beinecke.acton.xml](800.xml) | beinecke.acton | GEN MSS 663 | Harold Acton papers | 
  [beinecke.ejbstevenson.xml](801.xml) | beinecke.ejbstevenson | GEN MSS 664 | Edwin J. Beinecke Collection of Robert Louis Stevenson | 
@@ -679,7 +679,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.streeter.xml](1220.xml) | beinecke.streeter | WA MSS S-1312 | Thomas W. Streeter papers | 
  [beinecke.goldhill.xml](1221.xml) | beinecke.goldhill | WA MSS S-1313 | Gold Hill Miners Union records | 
  [beinecke.bates.xml](1222.xml) | beinecke.bates | WA MSS S-1314 | Charles F. Bates papers | 
- [beinecke.ferson.xml](1223.xml) | beinecke.ferson | WA MSS S-1315 | California correspondence | 
+ [beinecke.ferson.xml](1223.xml) | beinecke.ferson | WA MSS S-1315 | David G. Ferson correspondence | 
  [beinecke.strubb.xml](1224.xml) | beinecke.strubb | WA MSS S-1316 | Friedrich Armand Strubberg collection | 
  [beinecke.lauder.xml](1225.xml) | beinecke.lauder | WA MSS S-1317 | John Vance Lauderdale papers | 
  [beinecke.savage.xml](1226.xml) | beinecke.savage | WA MSS S-1318 | Savage Mining Company and associated records | 
@@ -1616,6 +1616,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.douglass.xml](11807.xml) | beinecke.douglass | JWJ MSS 240 | Walter O. Evans collection of Frederick Douglass and Douglass Family papers | 
  [beinecke.everhardy.xml](11823.xml) | beinecke.everhardy | WA MSS S-4148 | Louise Everhardy papers | 
  [beinecke.disneyfamily.xml](11825.xml) | beinecke.disneyfamily | WA MSS S-4149 | Loren and Stanley Disney Family Papers | 
+ [beinecke.sze.xml](11827.xml) | beinecke.sze | YCAL MSS 1261 | Arthur Sze papers | 
+ [beinecke.lopate.xml](11830.xml) | beinecke.lopate | YCAL MSS 1083 | Phillip Lopate papers | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
  [beinecke.elysium.xml](11884.xml) | beinecke.elysium | GEN MSS 1591 | Elysium Press Records | 
  [beinecke.townshend.xml](11889.xml) | beinecke.townshend | OSB MSS 161 | Townshend Papers | 
