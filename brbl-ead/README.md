@@ -1635,4 +1635,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.peoplespark.xml](11956.xml) | beinecke.peoplespark | WA MSS S-4353 | Ephemera concerning the People's Park protests | 
  [beinecke.schuylerwolff.xml](11978.xml) | beinecke.schuylerwolff | YCGL MSS 17 | Steven Schuyler papers relating to Kurt Wolff and Hermann Broch | 
  [beinecke.cousins.xml](11990.xml) | beinecke.cousins | YCAL MSS 1205 | Norman Cousins Collection of Henry Seidel Canby | 
+ [beinecke.cboyle.xml](11996.xml) | beinecke.cboyle | WA MSS S-4396 | Cornelius Boyle papers | 
 
