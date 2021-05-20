@@ -25,6 +25,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0006.xml](23.xml) | ycba.mss.0006 | MSS 6 | Pease family collection of sketchbooks and exercise books | 
  [ycba.mss.0008.xml](24.xml) | ycba.mss.0008 | MSS 8 | Carr family collection of travel sketches, scrapbooks, and genealogical material | 
  [ycba.mss.0009.xml](25.xml) | ycba.mss.0009 | MSS 9  | Edgar Hockley collection | 
+ [ycba.mss.0068.xml](27.xml) | ycba.mss.0068 | MSS 68 | James Bruce archive | 
  [ycba.mss.0024.xml](30.xml) | ycba.mss.0024 | MSS 24 | Paul Nash Letters to Mercia Oakley | 
  [ycba.mss.0044.xml](31.xml) | ycba.mss.0044 | MSS 44  | Pugin family archive | 
  [ycba.mss.0007.xml](33.xml) | ycba.mss.0007 | MSS 7 | Clare Leighton collection | 
@@ -60,4 +61,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0049.xml](11781.xml) | ycba.mss.0049 | MSS 49 | Alfred Wareing archive | 
  [ycba.mss.0051.xml](11784.xml) | ycba.mss.0051 | MSS 51 | Postcards of the British royal family | 
  [ycba.mss.0055.xml](11785.xml) | ycba.mss.0055 | MSS 55 | John Bastin archive | 
+ [ycba.mss.0057.xml](11786.xml) | ycba.mss.0057 | MSS 57 | Linda Benedict-Jones archive | 
+ [ycba.mss.0067.xml](12052.xml) | ycba.mss.0067 | MSS 67 | Frank Brangwyn archive | 
 
