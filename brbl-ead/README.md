@@ -1614,6 +1614,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.victoriasw.xml](11793.xml) | beinecke.victoriasw | OSB MSS 222 | Victoria Sackville-West papers | 
  [beinecke.mtlicenses.xml](11800.xml) | beinecke.mtlicenses | WA MSS S-4310 | Collection of licenses and tax receipts for businesses in Montana Territory | 
  [beinecke.douglass.xml](11807.xml) | beinecke.douglass | JWJ MSS 240 | Walter O. Evans collection of Frederick Douglass and Douglass Family papers | 
+ [beinecke.dawson.xml](11810.xml) | beinecke.dawson | GEN MSS 1608 | Tom and Judy Dawson Collection of Playing Card Ephemera | 
  [beinecke.everhardy.xml](11823.xml) | beinecke.everhardy | WA MSS S-4148 | Louise Everhardy papers | 
  [beinecke.disneyfamily.xml](11825.xml) | beinecke.disneyfamily | WA MSS S-4149 | Loren and Stanley Disney Family Papers | 
  [beinecke.sze.xml](11827.xml) | beinecke.sze | YCAL MSS 1261 | Arthur Sze papers | 
