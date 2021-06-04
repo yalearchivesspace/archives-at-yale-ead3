@@ -837,6 +837,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.luckowenwpf151.xml](1382.xml) | beinecke.luckowenwpf151 | WA Photos Folio 151 | Photographs of Alaska and Haida Gwaii, British Columbia | 
  [beinecke.mcpheepotaw.xml](1383.xml) | beinecke.mcpheepotaw | WA Photos Folio 152 | Laura McPhee Photographs of the American West | 
  [beinecke.belanger.xml](1384.xml) | beinecke.belanger | WA Photos Folio 153 | Marion Belanger photographs | 
+ [beinecke.luckowenwpf154.xml](1385.xml) | beinecke.luckowenwpf154 | WA Photos Folio 154 | Photographs of Alaska and British Columbia | 
  [beinecke.halverson.xml](1386.xml) | beinecke.halverson | WA Photos Folio 75 | Photographs of the American West | 
  [beinecke.ottenstein.xml](1387.xml) | beinecke.ottenstein | WA Photos Folio 82 | David Ottenstein Photographs of Iowa | 
  [beinecke.breon.xml](1391.xml) | beinecke.breon | YCAL MSS 1 | John Breon papers | 
@@ -1640,4 +1641,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cscottcorre.xml](11989.xml) | beinecke.cscottcorre | WA MSS S-4414 | Charles Scott correspondence | 
  [beinecke.cousins.xml](11990.xml) | beinecke.cousins | YCAL MSS 1205 | Norman Cousins Collection of Henry Seidel Canby | 
  [beinecke.cboyle.xml](11996.xml) | beinecke.cboyle | WA MSS S-4396 | Cornelius Boyle papers | 
+ [beinecke.nortonhall.xml](12049.xml) | beinecke.nortonhall | OSB MSS 226 | Papers relating to Norton Hall, South Yorkshire | 
 
