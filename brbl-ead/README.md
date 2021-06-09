@@ -1628,6 +1628,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.holcomb.xml](11893.xml) | beinecke.holcomb | WA Photos 1070 | Holcomb Family Photographs | 
  [beinecke.ajadamspapers.xml](11906.xml) | beinecke.ajadamspapers | WA MSS S-4335 | Alger Leroy Adams and Jessie M. Wells Adams papers | 
  [beinecke.seligson.xml](11922.xml) | beinecke.seligson | YCAL MSS 1200 | Fred Jeremy Seligson Collection of Cid Corman and James Weil | 
+ [beinecke.bigoxmining.xml](11923.xml) | beinecke.bigoxmining | WA MSS S-4330 | Big Ox Mining Company records | 
  [beinecke.vaillhl.xml](11930.xml) | beinecke.vaillhl | GEN MSS 1615 | Herman Landon Vaill papers | 
  [beinecke.ftlee.xml](11932.xml) | beinecke.ftlee | WA MSS S-4349 | Frank Trumbull Lee papers | 
  [beinecke.masoodwarren.xml](11933.xml) | beinecke.masoodwarren | JWJ MSS 32 | Masood Ali Wilbert Warren Papers | 
