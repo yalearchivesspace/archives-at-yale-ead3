@@ -2890,6 +2890,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2107.xml](11526.xml) | mssa.ms.2107 | MS 2107 | Drury A. McMillen Papers | 
  [mssa.ru.1166.xml](11553.xml) | mssa.ru.1166 | RU 1166 | Hannah Peck, assistant dean of Yale College, records | 
  [mssa.ms.2103.xml](11556.xml) | mssa.ms.2103 | MS 2103 | Lee Goebel papers | 
+ [mssa.ru.1167.xml](11592.xml) | mssa.ru.1167 | RU 1167 | East Asian Languages and Literatures, Yale University, records | 
  [mssa.ms.2116.xml](11639.xml) | mssa.ms.2116 | MS 2116 | Cuban slavery collection | 
  [mssa.ru.1169.xml](11649.xml) | mssa.ru.1169 | RU 1169 | Yale China Group, Yale University, records | 
  [mssa.ms.2112.xml](11656.xml) | mssa.ms.2112 | MS 2112 | Josephine and Antonio Bouzas papers | 
