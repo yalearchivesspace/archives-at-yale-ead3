@@ -470,6 +470,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.obrien.xml](997.xml) | beinecke.obrien | JWJ MSS 99 | Peter F. O'Brien collection on African American artists | 
  [beinecke.jwjmiscellany.xml](998.xml) | beinecke.jwjmiscellany | JWJ MSS MISC | James Weldon Johnson Collection manuscript miscellany | 
  [beinecke.jwjsmall.xml](999.xml) | beinecke.jwjsmall | JWJ MSS SMALL COLLECTIONS | Small Collections in the James Weldon Johnson collection | 
+ [beinecke.faragher.xml](1000.xml) | beinecke.faragher | WA MSS S-4446 | Faragher family papers | 
  [beinecke.monteverdi.xml](1002.xml) | beinecke.monteverdi | Monteverdi 2 | Manuscripts in the Albi Rosenthal collection of Monteverdi and the birth of opera | 
  [beinecke.hilles.xml](1005.xml) | beinecke.hilles | GEN MSS 1429 | Frederick W. Hilles Manuscript Collection and Papers | 
  [beinecke.steichenfamily.xml](1006.xml) | beinecke.steichenfamily | YCAL MSS 1080 | Steichen family papers | 
@@ -629,6 +630,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fd10.xml](1161.xml) | beinecke.fd10 | OSBORN FD10 | "Correspondence" | 
  [beinecke.fd45.xml](1162.xml) | beinecke.fd45 | OSBORN FD45 | Collection of letters, receipts, proofs, portraits, etc., concerning The British Gallery of Contemporary Portraits, published by Cadell & Davies | 
  [beinecke.fd49.xml](1163.xml) | beinecke.fd49 | OSBORN FD49 | [Engravings]. | 
+ [beinecke.arthurlee.xml](1164.xml) | beinecke.arthurlee | GEN MSS 1732 | Arthur Lee diaries and papers | 
  [beinecke.deane.xml](1165.xml) | beinecke.deane | GEN MSS 1588 | Jesse Deane papers and photographs | 
  [beinecke.wcprizes.xml](1166.xml) | beinecke.wcprizes | GEN MSS 1672 | Donald Windham-Sandy M. Campbell Literature Prizes records | 
  [beinecke.margulies.xml](1168.xml) | beinecke.margulies | YCAL MSS 1051 | Donald Margulies papers | 
