@@ -44,6 +44,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0048.xml](5442.xml) | med.ms.0048 | Ms Coll 48 | G. D. Hsiung papers | 
  [med.ms.0012.xml](5461.xml) | med.ms.0012 | Ms Coll 12 | Yale Medical Library opening and dedication | 
  [med.pam.0007.xml](5533.xml) | med.pam.0007 | Pam Coll 7 | Comic book collection on medical themes | 
+ [med.ms.0055.xml](5594.xml) | med.ms.0055 | Ms Coll 55 | M. Felix Freshwater Papers | 
  [med.ms.0056.xml](5666.xml) | med.ms.0056 | Ms Coll 56 | American Fund for French Wounded Collection | 
  [med.pam.0008.xml](5713.xml) | med.pam.0008 | Pam Coll 8 | William Helfand collection of medical ephemera | 
  [med.ms.0057.xml](5852.xml) | med.ms.0057 | Ms Coll 57 | Thomas L. Lentz collection on the history of cell biology and anatomy at Yale | 
