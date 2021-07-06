@@ -340,4 +340,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.029.xml](11732.xml) | divinity.029 | RG 29 | Margaret A. Farley papers | 
  [divinity.317.xml](11891.xml) | divinity.317 | RG 317 | Frontier Internship in Mission records | 
  [divinity.319.xml](12111.xml) | divinity.319 | RG 319 | Edward L. Bliss papers | 
+ [divinity.318.xml](12120.xml) | divinity.318 | 318 | Jeanette Hyland papers | 
 
