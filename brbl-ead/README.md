@@ -1612,6 +1612,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.harrington.xml](11747.xml) | beinecke.harrington | JWJ MSS 236 | Walter O. Evans collection of Ollie Harrington artwork | 
  [beinecke.idharmon.xml](11748.xml) | beinecke.idharmon | WA MSS S-3455 | Isaac Dewey Harmon correspondence and journals | 
  [beinecke.wpalmerpribilofislands.xml](11757.xml) | beinecke.wpalmerpribilofislands | WA Photos 1065 | William Palmer Kodak views of the Pribylov Islands, Bering Sea, Alaska | 
+ [beinecke.fwfrostpapers.xml](11759.xml) | beinecke.fwfrostpapers | GEN MSS 1733 | Francis Willoughby Frost papers and photographs | 
  [beinecke.monkeysmoon.xml](11765.xml) | beinecke.monkeysmoon | YCAL MSS 598 | Monkey's Moon, Pool Productions, 1929 / by Kenneth Macpherson | 
  [beinecke.oharanavajo.xml](11789.xml) | beinecke.oharanavajo | WA MSS S-2625 | Geoffrey O'Hara cylinder recordings and lantern slides of Navajo Indians | 
  [beinecke.victoriasw.xml](11793.xml) | beinecke.victoriasw | OSB MSS 222 | Victoria Sackville-West papers | 
@@ -1644,5 +1645,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cscottcorre.xml](11989.xml) | beinecke.cscottcorre | WA MSS S-4414 | Charles Scott correspondence | 
  [beinecke.cousins.xml](11990.xml) | beinecke.cousins | YCAL MSS 1205 | Norman Cousins Collection of Henry Seidel Canby | 
  [beinecke.cboyle.xml](11996.xml) | beinecke.cboyle | WA MSS S-4396 | Cornelius Boyle papers | 
+ [beinecke.brownecorre.xml](12022.xml) | beinecke.brownecorre | WA MSS S-4422 | Robert Sewall Browne and Alice Gray Browne correspondence | 
  [beinecke.nortonhall.xml](12049.xml) | beinecke.nortonhall | OSB MSS 226 | Papers relating to Norton Hall, South Yorkshire | 
+ [beinecke.emeryhuston.xml](12064.xml) | beinecke.emeryhuston | WA MSS S-4354 | Emery Huston papers relating to the 1920 Pikes Peak Hill Climb | 
+ [beinecke.photoorderbook.xml](12083.xml) | beinecke.photoorderbook | WA Photos Folio 214 | Photographic order book for images of California, Hawaii, and Yellowstone National Park | 
 
