@@ -1650,4 +1650,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.emeryhuston.xml](12064.xml) | beinecke.emeryhuston | WA MSS S-4354 | Emery Huston papers relating to the 1920 Pikes Peak Hill Climb | 
  [beinecke.photoorderbook.xml](12083.xml) | beinecke.photoorderbook | WA Photos Folio 214 | Photographic order book for images of California, Hawaii, and Yellowstone National Park | 
  [beinecke.matsukanealbums.xml](12125.xml) | beinecke.matsukanealbums | WA Photos 1276 | Harry Hideo Matsukane and Bernice Kazuko Nagai Matsukane photograph albums of California life | 
+ [beinecke.ichiyasualbums.xml](12127.xml) | beinecke.ichiyasualbums | WA Photos 1271 | Makiko Ichiyasu photograph albums of California | 
 
