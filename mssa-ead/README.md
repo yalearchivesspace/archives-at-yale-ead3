@@ -2879,6 +2879,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2102.xml](11305.xml) | mssa.ms.2102 | MS 2102 | Ramon Llado correspondence | 
  [mssa.ms.2101.xml](11306.xml) | mssa.ms.2101 | MS 2101 | Mas Yebra family correspondence | 
  [mssa.ms.2100.xml](11307.xml) | mssa.ms.2100 | MS 2100 | Felipe Lorenzo Famoso diary | 
+ [mssa.ms.2098.xml](11347.xml) | mssa.ms.2098 | MS 2098 | Kent A. Leslie Collection on Robert Bradford Williams | 
  [mssa.ru.1159.xml](11363.xml) | mssa.ru.1159 | RU 1159 | Walter Irenaeus Lowe, Yale College Class of 1890, photographs documenting life at Yale University | 
  [mssa.ms.2104.xml](11369.xml) | mssa.ms.2104 | MS 2104 | Stephen Kellert papers | 
  [mssa.ms.2105.xml](11370.xml) | mssa.ms.2105 | MS 2105 | Michael Antisdale and Mark R. Melanson Papers | 
