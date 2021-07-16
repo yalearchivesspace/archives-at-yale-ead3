@@ -2866,6 +2866,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2082.xml](10700.xml) | mssa.ms.2082 | MS 2082 | Joan Alzina papers | 
  [mssa.ru.1151.xml](10732.xml) | mssa.ru.1151 | RU 1151 | Bureau of Highway Traffic, Yale University, records | 
  [mssa.ms.2083.xml](10755.xml) | mssa.ms.2083 | MS 2083 | Technoserve Records | 
+ [mssa.ru.1152.xml](10756.xml) | mssa.ru.1152 | RU 1152 | Steven Bergman Documentary Material for the Yale School of Management | 
  [mssa.ru.0207.xml](10778.xml) | mssa.ru.0207 | RU 207 | Timothy Dwight College, Yale University, student records | 
  [mssa.ru.1153.xml](10837.xml) | mssa.ru.1153 | RU 1153 | Yale University Corporation 1949 Presidential Search Committee Records | 
  [mssa.ms.2085.xml](10838.xml) | mssa.ms.2085 | MS 2085 | Paul Stephen Galatowitsch papers | 
