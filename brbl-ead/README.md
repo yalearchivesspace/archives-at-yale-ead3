@@ -1623,8 +1623,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.disneyfamily.xml](11825.xml) | beinecke.disneyfamily | WA MSS S-4149 | Loren and Stanley Disney Family Papers | 
  [beinecke.robertadams.xml](11826.xml) | beinecke.robertadams | WA MSS S-4150 | Robert Adams papers | 
  [beinecke.sze.xml](11827.xml) | beinecke.sze | YCAL MSS 1261 | Arthur Sze papers | 
+ [beinecke.besmilrbrigham.xml](11828.xml) | beinecke.besmilrbrigham | YCAL MSS 1260 | Besmilr Brigham papers | 
  [beinecke.lopate.xml](11830.xml) | beinecke.lopate | YCAL MSS 1083 | Phillip Lopate papers | 
  [beinecke.mjamesslack.xml](11871.xml) | beinecke.mjamesslack | WA MSS S-4440 | M. James Slack papers | 
+ [beinecke.henning.xml](11876.xml) | beinecke.henning | YCAL MSS 1303 | Barbara Henning papers | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
  [beinecke.elysium.xml](11884.xml) | beinecke.elysium | GEN MSS 1591 | Elysium Press Records | 
  [beinecke.townshend.xml](11889.xml) | beinecke.townshend | OSB MSS 161 | Townshend Papers | 
