@@ -1632,6 +1632,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.townshend.xml](11889.xml) | beinecke.townshend | OSB MSS 161 | Townshend Papers | 
  [beinecke.halfordfm.xml](11890.xml) | beinecke.halfordfm | GEN MSS 1612 | Frederic M. Halford papers | 
  [beinecke.holcomb.xml](11893.xml) | beinecke.holcomb | WA Photos 1070 | Holcomb Family Photographs | 
+ [beinecke.heywood.xml](11896.xml) | beinecke.heywood | GEN MSS 1613 | Anne Heywood and Raymond Stross Film Collection | 
  [beinecke.ajadamspapers.xml](11906.xml) | beinecke.ajadamspapers | WA MSS S-4335 | Alger Leroy Adams and Jessie M. Wells Adams papers | 
  [beinecke.seligson.xml](11922.xml) | beinecke.seligson | YCAL MSS 1200 | Fred Jeremy Seligson Collection of Cid Corman and James Weil | 
  [beinecke.bigoxmining.xml](11923.xml) | beinecke.bigoxmining | WA MSS S-4330 | Big Ox Mining Company records | 
