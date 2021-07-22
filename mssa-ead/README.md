@@ -2896,6 +2896,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2116.xml](11639.xml) | mssa.ms.2116 | MS 2116 | Cuban slavery collection | 
  [mssa.ru.1169.xml](11649.xml) | mssa.ru.1169 | RU 1169 | Yale China Group, Yale University, records | 
  [mssa.ms.2112.xml](11656.xml) | mssa.ms.2112 | MS 2112 | Josephine and Antonio Bouzas papers | 
+ [mssa.ms.2113.xml](11679.xml) | mssa.ms.2113 | MS 2113 | Gus Hall Papers | 
  [mssa.ms.2117.xml](11684.xml) | mssa.ms.2117 | MS 2117 | Chinese indentured laborers in Cuba collection | 
  [mssa.ru.1170.xml](11706.xml) | mssa.ru.1170 | RU 1170 | Proof of the Pudding, Yale University, records | 
  [mssa.ru.1171.xml](11722.xml) | mssa.ru.1171 | RU 1171 | <emph render="italic">Yale Journal of Biology and Medicine</emph>, Yale University, records | 
