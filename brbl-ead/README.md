@@ -1652,6 +1652,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cousins.xml](11990.xml) | beinecke.cousins | YCAL MSS 1205 | Norman Cousins Collection of Henry Seidel Canby | 
  [beinecke.cboyle.xml](11996.xml) | beinecke.cboyle | WA MSS S-4396 | Cornelius Boyle papers | 
  [beinecke.willisdapl.xml](12014.xml) | beinecke.willisdapl | WA Photos Folio 186 | Photographs of Dakota Access Pipeline Protests in North Dakota | 
+ [ead.beinecke.willissdborder.xml](12017.xml) | ead.beinecke.willissdborder | WA Photos Folio 213 | Photographs of Nebraska, North Dakota, South Dakota and the Mexican-American Border Region | 
  [beinecke.brownecorre.xml](12022.xml) | beinecke.brownecorre | WA MSS S-4422 | Robert Sewall Browne and Alice Gray Browne correspondence | 
  [beinecke.nortonhall.xml](12049.xml) | beinecke.nortonhall | OSB MSS 226 | Papers relating to Norton Hall, South Yorkshire | 
  [beinecke.emeryhuston.xml](12064.xml) | beinecke.emeryhuston | WA MSS S-4354 | Emery Huston papers relating to the 1920 Pikes Peak Hill Climb | 
