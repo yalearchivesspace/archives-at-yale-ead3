@@ -1652,13 +1652,16 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cousins.xml](11990.xml) | beinecke.cousins | YCAL MSS 1205 | Norman Cousins Collection of Henry Seidel Canby | 
  [beinecke.cboyle.xml](11996.xml) | beinecke.cboyle | WA MSS S-4396 | Cornelius Boyle papers | 
  [beinecke.willisdapl.xml](12014.xml) | beinecke.willisdapl | WA Photos Folio 186 | Photographs of Dakota Access Pipeline Protests in North Dakota | 
- [ead.beinecke.willissdborder.xml](12017.xml) | ead.beinecke.willissdborder | WA Photos Folio 213 | Photographs of Nebraska, North Dakota, South Dakota and the Mexican-American Border Region | 
+ [beinecke.willissdborder.xml](12017.xml) | beinecke.willissdborder | WA Photos Folio 213 | Photographs of Nebraska, North Dakota, South Dakota and the Mexican-American Border Region | 
  [beinecke.brownecorre.xml](12022.xml) | beinecke.brownecorre | WA MSS S-4422 | Robert Sewall Browne and Alice Gray Browne correspondence | 
  [beinecke.nortonhall.xml](12049.xml) | beinecke.nortonhall | OSB MSS 226 | Papers relating to Norton Hall, South Yorkshire | 
  [beinecke.emeryhuston.xml](12064.xml) | beinecke.emeryhuston | WA MSS S-4354 | Emery Huston papers relating to the 1920 Pikes Peak Hill Climb | 
  [beinecke.photoorderbook.xml](12083.xml) | beinecke.photoorderbook | WA Photos Folio 214 | Photographic order book for images of California, Hawaii, and Yellowstone National Park | 
+ [beinecke.westernfilmscenes.xml](12085.xml) | beinecke.westernfilmscenes | WA Photos 1292 | Photographs of scenes from films relating to the American West, Southwest, and Mexico | 
  [ead.beinecke.wilcoxledger.xml](12104.xml) | ead.beinecke.wilcoxledger | WA MSS S-4448 | Ledger Drawings | 
  [beinecke.matsukanealbums.xml](12125.xml) | beinecke.matsukanealbums | WA Photos 1276 | Harry Hideo Matsukane and Bernice Kazuko Nagai Matsukane photograph albums of California life | 
  [beinecke.ichiyasualbums.xml](12127.xml) | beinecke.ichiyasualbums | WA Photos 1271 | Makiko Ichiyasu photograph albums of California | 
+ [beinecke.whjacksonphotos.xml](12136.xml) | beinecke.whjacksonphotos | WA Photos Folio 215 | William Henry Jackson photographs of Arizona, Colorado, Idaho, New Mexico, Utah, and Mexico | 
  [beinecke.gray.xml](12140.xml) | beinecke.gray | GEN MSS 1734 | Bradford H. Gray collector's files | 
+ [beinecke.bensonphotographs.xml](12142.xml) | beinecke.bensonphotographs | WA Photos 1296 | Ruth Wilhelmina Kohlstedt Benson and Eloise Jeanette Benson Nicholl photographs and photograph albums of California life | 
 
