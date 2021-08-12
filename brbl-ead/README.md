@@ -469,7 +469,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.rorabackc.xml](996.xml) | beinecke.rorabackc | JWJ MSS 96 | Catherine Roraback Collection of Ericka Huggins Papers | 
  [beinecke.obrien.xml](997.xml) | beinecke.obrien | JWJ MSS 99 | Peter F. O'Brien collection on African American artists | 
  [beinecke.jwjmiscellany.xml](998.xml) | beinecke.jwjmiscellany | JWJ MSS MISC | James Weldon Johnson Collection manuscript miscellany | 
- [beinecke.jwjsmall.xml](999.xml) | beinecke.jwjsmall | JWJ MSS SMALL COLLECTIONS | Small Collections in the James Weldon Johnson collection | 
  [beinecke.faragher.xml](1000.xml) | beinecke.faragher | WA MSS S-4446 | Faragher family papers | 
  [beinecke.monteverdi.xml](1002.xml) | beinecke.monteverdi | Monteverdi 2 | Manuscripts in the Albi Rosenthal collection of Monteverdi and the birth of opera | 
  [beinecke.hilles.xml](1005.xml) | beinecke.hilles | GEN MSS 1429 | Frederick W. Hilles Manuscript Collection and Papers | 
@@ -1658,6 +1657,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.emeryhuston.xml](12064.xml) | beinecke.emeryhuston | WA MSS S-4354 | Emery Huston papers relating to the 1920 Pikes Peak Hill Climb | 
  [beinecke.photoorderbook.xml](12083.xml) | beinecke.photoorderbook | WA Photos Folio 214 | Photographic order book for images of California, Hawaii, and Yellowstone National Park | 
  [beinecke.westernfilmscenes.xml](12085.xml) | beinecke.westernfilmscenes | WA Photos 1292 | Photographs of scenes from films relating to the American West, Southwest, and Mexico | 
+ [beinecke.willislakotaart.xml](12097.xml) | beinecke.willislakotaart | WA MSS S-4447 | John Willis Collection of Lakota Art | 
  [ead.beinecke.wilcoxledger.xml](12104.xml) | ead.beinecke.wilcoxledger | WA MSS S-4448 | Ledger Drawings | 
  [beinecke.matsukanealbums.xml](12125.xml) | beinecke.matsukanealbums | WA Photos 1276 | Harry Hideo Matsukane and Bernice Kazuko Nagai Matsukane photograph albums of California life | 
  [beinecke.ichiyasualbums.xml](12127.xml) | beinecke.ichiyasualbums | WA Photos 1271 | Makiko Ichiyasu photograph albums of California | 
