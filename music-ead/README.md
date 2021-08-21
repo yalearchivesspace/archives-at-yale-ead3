@@ -139,4 +139,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0104.xml](11368.xml) | music.mss.0104 | MSS 104 | Richard C. Burns archive of Overtone Records, Inc. | 
  [music.mss.0105.xml](11371.xml) | music.mss.0105 | MSS 105 | Arthur and Luce Klein Spoken Arts records | 
  [music.mss.151.xml](11377.xml) | music.mss.151 | MSS 151 | Historical Sound Recordings Collection | 
+ [music.mss.154.xml](12174.xml) | music.mss.154 | MSS 154 | Fredric R. Mann papers | 
 
