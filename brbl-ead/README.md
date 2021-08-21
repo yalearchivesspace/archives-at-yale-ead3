@@ -1519,6 +1519,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.waphotosfolio155.xml](11274.xml) | beinecke.waphotosfolio155 | WA Photos Folio 155 | Photographs of Arizona, Connecticut, New Mexico, and South Dakota | 
  [beinecke.galassi.xml](11289.xml) | beinecke.galassi | YCAL MSS 1197 | Jonathan Galassi papers | 
  [beinecke.davisfo.xml](11291.xml) | beinecke.davisfo | GEN MSS 1520 | R. G. Davis papers relating to Dario Fo | 
+ [beinecke.kayryan.xml](11296.xml) | beinecke.kayryan | YCAL MSS 1330 | Kay Ryan papers | 
  [beinecke.wsmithmason.xml](11301.xml) | beinecke.wsmithmason | GEN MSS 1459 | William Smith Mason Papers | 
  [beinecke.bayareafliers.xml](11310.xml) | beinecke.bayareafliers | WA MSS S-3415 | Fliers for Punk Rock Music and New Wave Music Shows in the San Francisco Bay Area, California | 
  [beinecke.rexbeach.xml](11320.xml) | beinecke.rexbeach | WA MSS S-3417 | Rex Beach papers | 
@@ -1624,7 +1625,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.robertadams.xml](11826.xml) | beinecke.robertadams | WA MSS S-4150 | Robert Adams papers | 
  [beinecke.sze.xml](11827.xml) | beinecke.sze | YCAL MSS 1261 | Arthur Sze papers | 
  [beinecke.besmilrbrigham.xml](11828.xml) | beinecke.besmilrbrigham | YCAL MSS 1260 | Besmilr Brigham papers | 
+ [beinecke.jstevenson.xml](11829.xml) | beinecke.jstevenson | GEN MSS 1693 | James Stevenson papers | 
  [beinecke.lopate.xml](11830.xml) | beinecke.lopate | YCAL MSS 1083 | Phillip Lopate papers | 
+ [beinecke.rrobinson.xml](11831.xml) | beinecke.rrobinson | YCAL MSS 1304 | Roxana Robinson papers | 
  [beinecke.mjamesslack.xml](11871.xml) | beinecke.mjamesslack | WA MSS S-4440 | M. James Slack papers | 
  [beinecke.henning.xml](11876.xml) | beinecke.henning | YCAL MSS 1303 | Barbara Henning papers | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
@@ -1656,6 +1659,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.brownecorre.xml](12022.xml) | beinecke.brownecorre | WA MSS S-4422 | Robert Sewall Browne and Alice Gray Browne correspondence | 
  [beinecke.nortonhall.xml](12049.xml) | beinecke.nortonhall | OSB MSS 226 | Papers relating to Norton Hall, South Yorkshire | 
  [beinecke.emeryhuston.xml](12064.xml) | beinecke.emeryhuston | WA MSS S-4354 | Emery Huston papers relating to the 1920 Pikes Peak Hill Climb | 
+ [beinecke.leephotographs.xml](12075.xml) | beinecke.leephotographs | WA MSS S-4426 | Joseph W. Lee and Nancy L. Kim Lee photographs | 
  [beinecke.photoorderbook.xml](12083.xml) | beinecke.photoorderbook | WA Photos Folio 214 | Photographic order book for images of California, Hawaii, and Yellowstone National Park | 
  [beinecke.westernfilmscenes.xml](12085.xml) | beinecke.westernfilmscenes | WA Photos 1292 | Photographs of scenes from films relating to the American West, Southwest, and Mexico | 
  [beinecke.willislakotaart.xml](12097.xml) | beinecke.willislakotaart | WA MSS S-4447 | John Willis Collection of Lakota Art | 
@@ -1665,5 +1669,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.whjacksonphotos.xml](12136.xml) | beinecke.whjacksonphotos | WA Photos Folio 215 | William Henry Jackson photographs of Arizona, Colorado, Idaho, New Mexico, Utah, and Mexico | 
  [beinecke.gray.xml](12140.xml) | beinecke.gray | GEN MSS 1734 | Bradford H. Gray collector's files | 
  [beinecke.bensonphotographs.xml](12142.xml) | beinecke.bensonphotographs | WA Photos 1296 | Ruth Wilhelmina Kohlstedt Benson and Eloise Jeanette Benson Nicholl photographs and photograph albums of California life | 
+ [beinecke.wwirwin.xml](12153.xml) | beinecke.wwirwin | WA MSS S-4453 | William Wallace Irwin papers | 
  [beinecke.solomondbutcher.xml](12165.xml) | beinecke.solomondbutcher | WA Photos 1273 | Solomon D. Butcher photographs and photographic postcards of Nebraska | 
 
