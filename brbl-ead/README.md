@@ -469,7 +469,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.rorabackc.xml](996.xml) | beinecke.rorabackc | JWJ MSS 96 | Catherine Roraback Collection of Ericka Huggins Papers | 
  [beinecke.obrien.xml](997.xml) | beinecke.obrien | JWJ MSS 99 | Peter F. O'Brien collection on African American artists | 
  [beinecke.jwjmiscellany.xml](998.xml) | beinecke.jwjmiscellany | JWJ MSS MISC | James Weldon Johnson Collection manuscript miscellany | 
- [beinecke.jwjsmall.xml](999.xml) | beinecke.jwjsmall | JWJ MSS SMALL COLLECTIONS | Small Collections in the James Weldon Johnson collection | 
  [beinecke.faragher.xml](1000.xml) | beinecke.faragher | WA MSS S-4446 | Faragher family papers | 
  [beinecke.monteverdi.xml](1002.xml) | beinecke.monteverdi | Monteverdi 2 | Manuscripts in the Albi Rosenthal collection of Monteverdi and the birth of opera | 
  [beinecke.hilles.xml](1005.xml) | beinecke.hilles | GEN MSS 1429 | Frederick W. Hilles Manuscript Collection and Papers | 
