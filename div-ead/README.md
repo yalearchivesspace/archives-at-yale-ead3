@@ -342,4 +342,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.318.xml](12120.xml) | divinity.318 | RG 318 | Jeanette Hyland papers | 
  [divinity.321.xml](12171.xml) | divinity.321 | RG 321 | Tract and Graphic Novel Collection | 
  [divinity.315.xml](12173.xml) | divinity.315 | RG 315 | Church Postcard Collection | 
+ [divinity.307.xml](12180.xml) | divinity.307 | RG 307 | Andover Association Records | 
 
