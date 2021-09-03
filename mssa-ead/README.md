@@ -136,7 +136,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0403.xml](2028.xml) | mssa.ru.0403 | RU 403 | Vance R. Dittman, Class of 1924, Yale College, memorabilia | 
  [mssa.ru.0405.xml](2029.xml) | mssa.ru.0405 | RU 405 | Julius Cohn, Class of 1909, Yale Law School, memorabilia | 
  [mssa.ru.0407.xml](2031.xml) | mssa.ru.0407 | RU 407 | William W. Crawford, Class of 1938, Yale College, records concerning the University Outline series | 
- [mssa.ru.0410.xml](2032.xml) | mssa.ru.0410 | RU 410 | Arbovirus Research Unit, Department of Epidemiology and Public Health, Yale University, records | 
  [mssa.ru.0411.xml](2033.xml) | mssa.ru.0411 | RU 411 | Conversation for Bart, recorded by friends of A. Bartlett Giamatti | 
  [mssa.ru.0413.xml](2034.xml) | mssa.ru.0413 | RU 413 | Class of 1972, Yale University, records | 
  [mssa.ru.0414.xml](2035.xml) | mssa.ru.0414 | RU 414 | Saybrook College, Yale University, records of the master | 
@@ -2906,6 +2905,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1172.xml](11898.xml) | mssa.ru.1172 | RU 1172 | Yale Slavic Chorus, Yale University, records | 
  [mssa.ms.2122.xml](12003.xml) | mssa.ms.2122 | MS 2122 | Carolyn Davidson Hill Diary and Family Papers | 
  [mssa.ms.2123.xml](12007.xml) | mssa.ms.2123 | MS 2123 | L. Paul Bremer III Papers | 
- [12060.xml](12060.xml) |  | MS 2088 | George Bundy Smith papers | 
- [mssa.ru.0410_RELOAD.xml](12190.xml) | mssa.ru.0410_RELOAD | RU 410_RELOAD | Arbovirus Research Unit, Department of Epidemiology and Public Health, Yale University, records | 
+ [mssa.ms.2088.xml](12060.xml) | mssa.ms.2088 | MS 2088 | George Bundy Smith papers | 
+ [mssa.ru.0410.xml](12190.xml) | mssa.ru.0410 | RU 410 | Arbovirus Research Unit, Department of Epidemiology and Public Health, Yale University, records | 
 
