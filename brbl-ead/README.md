@@ -1670,4 +1670,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bensonphotographs.xml](12142.xml) | beinecke.bensonphotographs | WA Photos 1296 | Ruth Wilhelmina Kohlstedt Benson and Eloise Jeanette Benson Nicholl photographs and photograph albums of California life | 
  [beinecke.wwirwin.xml](12153.xml) | beinecke.wwirwin | WA MSS S-4453 | William Wallace Irwin papers | 
  [beinecke.solomondbutcher.xml](12165.xml) | beinecke.solomondbutcher | WA Photos 1273 | Solomon D. Butcher photographs and photographic postcards of Nebraska | 
+ [beinecke.willispineridgesd.xml](12194.xml) | beinecke.willispineridgesd | WA Photos Folio 219 | Photographs of Pine Ridge Indian Reservation and South Dakota | 
 
