@@ -1663,7 +1663,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.photoorderbook.xml](12083.xml) | beinecke.photoorderbook | WA Photos Folio 214 | Photographic order book for images of California, Hawaii, and Yellowstone National Park | 
  [beinecke.westernfilmscenes.xml](12085.xml) | beinecke.westernfilmscenes | WA Photos 1292 | Photographs of scenes from films relating to the American West, Southwest, and Mexico | 
  [beinecke.willislakotaart.xml](12097.xml) | beinecke.willislakotaart | WA MSS S-4447 | John Willis Collection of Lakota Art | 
- [ead.beinecke.wilcoxledger.xml](12104.xml) | ead.beinecke.wilcoxledger | WA MSS S-4448 | Ledger Drawings | 
+ [beinecke.wilcoxledger.xml](12104.xml) | beinecke.wilcoxledger | WA MSS S-4448 | Ledger Drawings | 
  [beinecke.matsukanealbums.xml](12125.xml) | beinecke.matsukanealbums | WA Photos 1276 | Harry Hideo Matsukane and Bernice Kazuko Nagai Matsukane photograph albums of California life | 
  [beinecke.ichiyasualbums.xml](12127.xml) | beinecke.ichiyasualbums | WA Photos 1271 | Makiko Ichiyasu photograph albums of California | 
  [beinecke.whjacksonphotos.xml](12136.xml) | beinecke.whjacksonphotos | WA Photos Folio 215 | William Henry Jackson photographs of Arizona, Colorado, Idaho, New Mexico, Utah, and Mexico | 
