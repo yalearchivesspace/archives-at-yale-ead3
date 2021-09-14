@@ -11,7 +11,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0015.xml](8.xml) | ycba.mss.0015 | MSS 15 | Charles Robert Leslie Collection | 
  [ycba.mss.0016.xml](9.xml) | ycba.mss.0016 | MSS 16 | Mary Leighton Collection | 
  [ycba.mss.0018.xml](11.xml) | ycba.mss.0018 | MSS 18  | Jones family archive | 
- [ycba.mss.0019.xml](12.xml) | ycba.mss.0019 | MSS 19  | Whyte family Correspondence | 
+ [ycba.mss.0019.xml](12.xml) | ycba.mss.0019 | MSS 19  | Whyte Family Correspondence | 
  [ycba.mss.0002.xml](13.xml) | ycba.mss.0002 | MSS 2 | Clayton family papers | 
  [ycba.mss.0025.xml](14.xml) | ycba.mss.0025 | MSS 25  | Ken Campbell archive | 
  [ycba.mss.0028.xml](15.xml) | ycba.mss.0028 | MSS 28 | Ellen Fenton Diaries of Travels to Boulogne-sur-Mer | 
