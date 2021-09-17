@@ -985,7 +985,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.okeeffefndn.xml](1533.xml) | beinecke.okeeffefndn | YCAL MSS 342 | Georgia O'Keeffe Foundation records | 
  [beinecke.civicrep.xml](1534.xml) | beinecke.civicrep | YCAL MSS 343 | Civic Repertory Theatre records | 
  [beinecke.chimera.xml](1535.xml) | beinecke.chimera | YCAL MSS 35 | Chimera papers | 
- [beinecke.heyen.xml](1536.xml) | beinecke.heyen | YCAL MSS 352 | William Heyen Papers | 
+ [beinecke.heyen.xml](1536.xml) | beinecke.heyen | YCAL MSS 352 | William Heyen papers | 
  [beinecke.mellquist.xml](1537.xml) | beinecke.mellquist | YCAL MSS 353 | Jerome Mellquist papers | 
  [beinecke.tiroff.xml](1538.xml) | beinecke.tiroff | YCAL MSS 358 | James Tiroff notebooks and art works | 
  [beinecke.hovhaness.xml](1539.xml) | beinecke.hovhaness | YCAL MSS 359 | Alan Hovhaness letters to Judith Malina | 
@@ -1585,6 +1585,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.persson.xml](11609.xml) | beinecke.persson | YCAL MSS 480 | Gene Persson papers relating to <emph render="italic">Dutchman</emph> | 
  [beinecke.gramatky.xml](11614.xml) | beinecke.gramatky | GEN MSS 1567 | Hardie Gramatky papers | 
  [beinecke.joywulke.xml](11620.xml) | beinecke.joywulke | WA Photos 698 | Joy Wulke photographs of Montana and Washington | 
+ [beinecke.koestenbaum.xml](11629.xml) | beinecke.koestenbaum | GEN MSS 1568 | Wayne Koestenbaum papers | 
  [beinecke.iwwidentphotos.xml](11632.xml) | beinecke.iwwidentphotos | WA Photos 718 | Collection of identification photographs of Industrial Workers of the World strikers | 
  [beinecke.meredith.xml](11642.xml) | beinecke.meredith | GEN MSS 953 | George Meredith Collection | 
  [beinecke.ashberycollages.xml](11644.xml) | beinecke.ashberycollages | YCAL MSS 1229 | John Ashbery collages | 
