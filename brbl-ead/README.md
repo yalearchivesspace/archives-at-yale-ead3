@@ -77,6 +77,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.carol.xml](594.xml) | beinecke.carol | GEN MSS 126 | Edward Bliss Reed carol collection | 
  [beinecke.viele.xml](595.xml) | beinecke.viele | GEN MSS 127 | Letters to Francis Vielé-Griffin | 
  [beinecke.levyvictoriana.xml](596.xml) | beinecke.levyvictoriana | GEN MSS 1280 | Charles Joseph Levy Collection of Victoriana | 
+ [beinecke.tylerkipling.xml](597.xml) | beinecke.tylerkipling | GEN MSS 1289 | Matilda Tyler Collection of Rudyard Kipling | 
  [beinecke.schutz.xml](598.xml) | beinecke.schutz | GEN MSS 129 | Alfred Schutz papers | 
  [beinecke.marinet.xml](599.xml) | beinecke.marinet | GEN MSS 130 | Filippo Tommaso Marinetti papers | 
  [beinecke.lapietra.xml](600.xml) | beinecke.lapietra | GEN MSS 1308 | Ugo La Pietra papers | 
