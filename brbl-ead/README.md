@@ -1629,6 +1629,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jstevenson.xml](11829.xml) | beinecke.jstevenson | GEN MSS 1693 | James Stevenson papers | 
  [beinecke.lopate.xml](11830.xml) | beinecke.lopate | YCAL MSS 1083 | Phillip Lopate papers | 
  [beinecke.rrobinson.xml](11831.xml) | beinecke.rrobinson | YCAL MSS 1304 | Roxana Robinson papers | 
+ [beinecke.hollo.xml](11847.xml) | beinecke.hollo | GEN MSS 1701 | Anselm Hollo papers | 
  [beinecke.mjamesslack.xml](11871.xml) | beinecke.mjamesslack | WA MSS S-4440 | M. James Slack papers | 
  [beinecke.henning.xml](11876.xml) | beinecke.henning | YCAL MSS 1303 | Barbara Henning papers | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
@@ -1655,9 +1656,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cscottcorre.xml](11989.xml) | beinecke.cscottcorre | WA MSS S-4414 | Charles Scott correspondence | 
  [beinecke.cousins.xml](11990.xml) | beinecke.cousins | YCAL MSS 1205 | Norman Cousins Collection of Henry Seidel Canby | 
  [beinecke.cboyle.xml](11996.xml) | beinecke.cboyle | WA MSS S-4396 | Cornelius Boyle papers | 
+ [beinecke.raayjanvan.xml](12013.xml) | beinecke.raayjanvan | YCAL MSS 1329 | Jan van Raay photographs of art strike protests | 
  [beinecke.willisdapl.xml](12014.xml) | beinecke.willisdapl | WA Photos Folio 186 | Photographs of Dakota Access Pipeline Protests in North Dakota | 
  [beinecke.willissdborder.xml](12017.xml) | beinecke.willissdborder | WA Photos Folio 213 | Photographs of Nebraska, North Dakota, South Dakota and the Mexican-American Border Region | 
  [beinecke.brownecorre.xml](12022.xml) | beinecke.brownecorre | WA MSS S-4422 | Robert Sewall Browne and Alice Gray Browne correspondence | 
+ [beinecke.whittaker.xml](12026.xml) | beinecke.whittaker | GEN MSS 1702 | Donald Whittaker collection relating to 20th century culture | 
  [beinecke.mopope.xml](12029.xml) | beinecke.mopope | WA MSS S-4423 | Stephen Mopope drawings | 
  [beinecke.nortonhall.xml](12049.xml) | beinecke.nortonhall | OSB MSS 226 | Papers relating to Norton Hall, South Yorkshire | 
  [beinecke.emeryhuston.xml](12064.xml) | beinecke.emeryhuston | WA MSS S-4354 | Emery Huston papers relating to the 1920 Pikes Peak Hill Climb | 
