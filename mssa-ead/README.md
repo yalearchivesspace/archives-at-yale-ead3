@@ -2877,6 +2877,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2092.xml](11232.xml) | mssa.ms.2092 | MS 2092 | John Lewis Gaddis Papers | 
  [mssa.ru.1158.xml](11234.xml) | mssa.ru.1158 | RU 1158 | Yale Egyptological Institute in Egypt, Yale University, records | 
  [mssa.ms.2090.xml](11251.xml) | mssa.ms.2090 | MS 2090 | Richard D. Weigle papers | 
+ [mssa.ms.2089.xml](11275.xml) | mssa.ms.2089 | MS 2089 | Greenwood Plantation and Greenwood Seed Company records | 
  [mssa.ms.2102.xml](11305.xml) | mssa.ms.2102 | MS 2102 | Ramon Llado correspondence | 
  [mssa.ms.2101.xml](11306.xml) | mssa.ms.2101 | MS 2101 | Mas Yebra family correspondence | 
  [mssa.ms.2100.xml](11307.xml) | mssa.ms.2100 | MS 2100 | Felipe Lorenzo Famoso diary | 
