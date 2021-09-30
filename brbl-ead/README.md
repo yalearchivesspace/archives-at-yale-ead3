@@ -1618,6 +1618,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.monkeysmoon.xml](11765.xml) | beinecke.monkeysmoon | YCAL MSS 598 | Monkey's Moon, Pool Productions, 1929 / by Kenneth Macpherson | 
  [beinecke.oharanavajo.xml](11789.xml) | beinecke.oharanavajo | WA MSS S-2625 | Geoffrey O'Hara cylinder recordings and lantern slides of Navajo Indians | 
  [beinecke.victoriasw.xml](11793.xml) | beinecke.victoriasw | OSB MSS 222 | Victoria Sackville-West papers | 
+ [beinecke.okeeffe.xml](11797.xml) | beinecke.okeeffe | YCAL MSS 1381 | Georgia O'Keeffe Writings and Other Papers | 
  [beinecke.mtlicenses.xml](11800.xml) | beinecke.mtlicenses | WA MSS S-4310 | Collection of licenses and tax receipts for businesses in Montana Territory | 
  [beinecke.douglass.xml](11807.xml) | beinecke.douglass | JWJ MSS 240 | Walter O. Evans collection of Frederick Douglass and Douglass Family papers | 
  [beinecke.dawson.xml](11810.xml) | beinecke.dawson | GEN MSS 1608 | Tom and Judy Dawson Collection of Playing Card Ephemera | 
