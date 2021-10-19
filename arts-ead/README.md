@@ -16,7 +16,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.aob.0028.xml](329.xml) | arts.aob.0028 | AOB 28 | Graphic Design Student Projects Collection | 
  [arts.aob.0003.xml](330.xml) | arts.aob.0003 | AOB 3 | American Trade Card Collection | 
  [arts.aob.0031.xml](331.xml) | arts.aob.0031 | AOB 31 | Emma Joy Dana collection of Anna Mackova | 
- [arts.aob.0033.xml](332.xml) | arts.aob.0033 | AOB 33 | Yale University Master of Fine Arts Theses in Graphic Design | 
  [arts.aob.0034.xml](333.xml) | arts.aob.0034 | AOB 34 | Yale Residential Colleges Student Printing Collection | 
  [arts.aob.0036.xml](334.xml) | arts.aob.0036 | AOB 36 | Yale University Master of Fine Arts Theses in Photography | 
  [arts.aob.0038.xml](335.xml) | arts.aob.0038 | AOB 38 | Ken White Collection | 
@@ -272,6 +271,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [vrc.2000.xml](10541.xml) | vrc.2000 | VRC 2000 | Painting Lantern Slide Collection | 
  [vrc.1000.xml](10542.xml) | vrc.1000 | VRC 1000 | Architecture Slide Collection | 
  [vrc.1100.xml](10543.xml) | vrc.1100 | VRC.1100 | Painting Slide Collection | 
- [arts.aob.0060.xml](11314.xml) | arts.aob.0060 | AOB 60 | Polly Rubin Collection of Volvelles and Slide Rules | 
+ [arts.aob.0060.xml](11314.xml) | arts.aob.0060 | AOB 60 | Polly Rubin collection of volvelles and slide rules | 
  [arts.aob.0020.xml](11919.xml) | arts.aob.0020 | AOB 20 | Clarence Pearson Hornung papers | 
 
