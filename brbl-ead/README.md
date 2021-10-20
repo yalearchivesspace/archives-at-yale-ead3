@@ -71,6 +71,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.sanguinetti.xml](586.xml) | beinecke.sanguinetti | GEN MSS 1181 | Gianfranco Sanguinetti papers | 
  [beinecke.hoban.xml](587.xml) | beinecke.hoban | GEN MSS 1199 | Lillian Hoban papers | 
  [beinecke.conradj.xml](588.xml) | beinecke.conradj | GEN MSS 1207 | Joseph Conrad Collection | 
+ [beinecke.baskin.xml](589.xml) | beinecke.baskin | GEN MSS 1229 | Leonard Baskin papers | 
  [beinecke.reade.xml](590.xml) | beinecke.reade | GEN MSS 124 | Charles Reade collection | 
  [beinecke.piozzi.xml](592.xml) | beinecke.piozzi | GEN MSS 125 | Hester Lynch Piozzi collection | 
  [beinecke.giaccone.xml](593.xml) | beinecke.giaccone | GEN MSS 1255 | Fausto Giaccone photographs and papers | 
@@ -1631,6 +1632,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lopate.xml](11830.xml) | beinecke.lopate | YCAL MSS 1083 | Phillip Lopate papers | 
  [beinecke.rrobinson.xml](11831.xml) | beinecke.rrobinson | YCAL MSS 1304 | Roxana Robinson papers | 
  [beinecke.hollo.xml](11847.xml) | beinecke.hollo | GEN MSS 1701 | Anselm Hollo papers | 
+ [beinecke.wodening.xml](11855.xml) | beinecke.wodening | YCAL MSS 1331 | Jane Wodening papers | 
+ [beinecke.peranio.xml](11863.xml) | beinecke.peranio | YCAL MSS 1346 | Vincent Peranio Papers | 
  [beinecke.mjamesslack.xml](11871.xml) | beinecke.mjamesslack | WA MSS S-4440 | M. James Slack papers | 
  [beinecke.henning.xml](11876.xml) | beinecke.henning | YCAL MSS 1303 | Barbara Henning papers | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
@@ -1647,6 +1650,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.masoodwarren.xml](11933.xml) | beinecke.masoodwarren | JWJ MSS 32 | Masood Ali Wilbert Warren Papers | 
  [beinecke.wingfamily.xml](11937.xml) | beinecke.wingfamily | WA MSS S-4348 | Wing family correspondence | 
  [beinecke.stimson.xml](11940.xml) | beinecke.stimson | WA Photos 1072 | Joseph Elam Stimson Photographs | 
+ [beinecke.lbreuer.xml](11946.xml) | beinecke.lbreuer | YCAL MSS 1392 | Lee Breuer papers | 
  [beinecke.ernst.xml](11947.xml) | beinecke.ernst | YCAL MSS 1209 | K.S. Ernst papers | 
  [beinecke.basinski.xml](11949.xml) | beinecke.basinski | YCAL MSS 1242 | Michael Basinski poems and other papers | 
  [beinecke.amontiel.xml](11950.xml) | beinecke.amontiel | WA MSS S-4392 | Anya Montiel collection of Native American HIV/AIDS awareness materials | 
@@ -1665,11 +1669,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mopope.xml](12029.xml) | beinecke.mopope | WA MSS S-4423 | Stephen Mopope drawings | 
  [beinecke.nortonhall.xml](12049.xml) | beinecke.nortonhall | OSB MSS 226 | Papers relating to Norton Hall, South Yorkshire | 
  [beinecke.emeryhuston.xml](12064.xml) | beinecke.emeryhuston | WA MSS S-4354 | Emery Huston papers relating to the 1920 Pikes Peak Hill Climb | 
+ [beinecke.gaust.xml](12066.xml) | beinecke.gaust | OSB MSS 270 | George Aust papers | 
  [beinecke.leephotographs.xml](12075.xml) | beinecke.leephotographs | WA MSS S-4426 | Joseph W. Lee and Nancy L. Kim Lee photographs | 
  [beinecke.photoorderbook.xml](12083.xml) | beinecke.photoorderbook | WA Photos Folio 214 | Photographic order book for images of California, Hawaii, and Yellowstone National Park | 
  [beinecke.westernfilmscenes.xml](12085.xml) | beinecke.westernfilmscenes | WA Photos 1292 | Photographs of scenes from films relating to the American West, Southwest, and Mexico | 
  [beinecke.willislakotaart.xml](12097.xml) | beinecke.willislakotaart | WA MSS S-4447 | John Willis Collection of Lakota Art | 
  [beinecke.wilcoxledger.xml](12104.xml) | beinecke.wilcoxledger | WA MSS S-4448 | Ledger Drawings | 
+ [beinecke.foxx.xml](12108.xml) | beinecke.foxx | JWJ MSS 242 | Redd Foxx scripts | 
  [beinecke.matsukanealbums.xml](12125.xml) | beinecke.matsukanealbums | WA Photos 1276 | Harry Hideo Matsukane and Bernice Kazuko Nagai Matsukane photograph albums of California life | 
  [beinecke.ichiyasualbums.xml](12127.xml) | beinecke.ichiyasualbums | WA Photos 1271 | Makiko Ichiyasu photograph albums of California | 
  [beinecke.whjacksonphotos.xml](12136.xml) | beinecke.whjacksonphotos | WA Photos Folio 215 | William Henry Jackson photographs of Arizona, Colorado, Idaho, New Mexico, Utah, and Mexico | 
@@ -1678,4 +1684,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wwirwin.xml](12153.xml) | beinecke.wwirwin | WA MSS S-4453 | William Wallace Irwin papers | 
  [beinecke.solomondbutcher.xml](12165.xml) | beinecke.solomondbutcher | WA Photos 1273 | Solomon D. Butcher photographs and photographic postcards of Nebraska | 
  [beinecke.willispineridgesd.xml](12194.xml) | beinecke.willispineridgesd | WA Photos Folio 219 | Photographs of Pine Ridge Indian Reservation and South Dakota | 
+ [beinecke.stieglitzcam.xml](12197.xml) | beinecke.stieglitzcam | YCAL MSS 1389 | Alfred Stieglitz collection of photogravures from <title>Camera work</title> | 
+ [beinecke.jwjmsmusic.xml](12228.xml) | beinecke.jwjmsmusic | JWJ MSS 355 | James Weldon Johnson Memorial Collection manuscript music | 
 
