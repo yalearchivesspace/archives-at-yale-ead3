@@ -65,4 +65,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0076.xml](11880.xml) | med.ms.0076 | Ms Coll 76 | Stanley B. Burns, M.D., historic medical photography collection | 
  [med.ms.0079.xml](12143.xml) | med.ms.0079 | Ms Coll 79 | Sally Hitchcock Pullman at the Yale School of Nursing papers | 
  [med.ms.0071.xml](12155.xml) | med.ms.0071 | Ms Coll 71 | Myron Genel papers | 
+ [med.ms.0082.xml](12214.xml) | med.ms.0082 | Ms Coll 82 | Waltham Hospital medical records | 
 
