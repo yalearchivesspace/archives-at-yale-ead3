@@ -1686,4 +1686,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.willispineridgesd.xml](12194.xml) | beinecke.willispineridgesd | WA Photos Folio 219 | Photographs of Pine Ridge Indian Reservation and South Dakota | 
  [beinecke.stieglitzcam.xml](12197.xml) | beinecke.stieglitzcam | YCAL MSS 1389 | Alfred Stieglitz collection of photogravures from <title>Camera work</title> | 
  [beinecke.jwjmsmusic.xml](12228.xml) | beinecke.jwjmsmusic | JWJ MSS 355 | James Weldon Johnson Memorial Collection manuscript music | 
+ [beinecke.sobekbeutter.xml](12232.xml) | beinecke.sobekbeutter | YCAL MSS 1244 | Gerdi Sobek-Beutter papers relating to Hommage à Gertrude Stein | 
 
