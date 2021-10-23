@@ -1664,6 +1664,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.raayjanvan.xml](12013.xml) | beinecke.raayjanvan | YCAL MSS 1329 | Jan van Raay photographs of art strike protests | 
  [beinecke.willisdapl.xml](12014.xml) | beinecke.willisdapl | WA Photos Folio 186 | Photographs of Dakota Access Pipeline Protests in North Dakota | 
  [beinecke.willissdborder.xml](12017.xml) | beinecke.willissdborder | WA Photos Folio 213 | Photographs of Nebraska, North Dakota, South Dakota and the Mexican-American Border Region | 
+ [beinecke.mhschreiber.xml](12020.xml) | beinecke.mhschreiber | WA Photos 1301 | Martin H. Schreiber photographs and papers | 
  [beinecke.brownecorre.xml](12022.xml) | beinecke.brownecorre | WA MSS S-4422 | Robert Sewall Browne and Alice Gray Browne correspondence | 
  [beinecke.whittaker.xml](12026.xml) | beinecke.whittaker | GEN MSS 1702 | Donald Whittaker collection relating to 20th century culture | 
  [beinecke.mopope.xml](12029.xml) | beinecke.mopope | WA MSS S-4423 | Stephen Mopope drawings | 
@@ -1683,6 +1684,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bensonphotographs.xml](12142.xml) | beinecke.bensonphotographs | WA Photos 1296 | Ruth Wilhelmina Kohlstedt Benson and Eloise Jeanette Benson Nicholl photographs and photograph albums of California life | 
  [beinecke.wwirwin.xml](12153.xml) | beinecke.wwirwin | WA MSS S-4453 | William Wallace Irwin papers | 
  [beinecke.solomondbutcher.xml](12165.xml) | beinecke.solomondbutcher | WA Photos 1273 | Solomon D. Butcher photographs and photographic postcards of Nebraska | 
+ [beinecke.mpschon.xml](12166.xml) | beinecke.mpschon | WA MSS S-4486 | Michael P. Schon collection of Peace and Freedom Party of California papers | 
  [beinecke.willispineridgesd.xml](12194.xml) | beinecke.willispineridgesd | WA Photos Folio 219 | Photographs of Pine Ridge Indian Reservation and South Dakota | 
  [beinecke.stieglitzcam.xml](12197.xml) | beinecke.stieglitzcam | YCAL MSS 1389 | Alfred Stieglitz collection of photogravures from <title>Camera work</title> | 
  [beinecke.jwjmsmusic.xml](12228.xml) | beinecke.jwjmsmusic | JWJ MSS 355 | James Weldon Johnson Memorial Collection manuscript music | 
