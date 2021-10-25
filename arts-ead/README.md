@@ -273,4 +273,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [vrc.1100.xml](10543.xml) | vrc.1100 | VRC.1100 | Painting Slide Collection | 
  [arts.aob.0060.xml](11314.xml) | arts.aob.0060 | AOB 60 | Polly Rubin collection of volvelles and slide rules | 
  [arts.aob.0020.xml](11919.xml) | arts.aob.0020 | AOB 20 | Clarence Pearson Hornung papers | 
+ [arts.ms.0001.xml](11936.xml) | arts.ms.0001 | ALSC MS 1 | Lawrence Wolfson papers | 
 
