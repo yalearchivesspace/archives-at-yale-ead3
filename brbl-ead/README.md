@@ -1517,6 +1517,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wilderfamily.xml](11248.xml) | beinecke.wilderfamily | YCAL MSS 1114 | Amos Niven Wilder and Wilder Family Papers | 
  [beinecke.sharaff.xml](11255.xml) | beinecke.sharaff | YCAL MSS 1201 | Irene Sharaff papers | 
  [beinecke.steinbeckcol.xml](11257.xml) | beinecke.steinbeckcol | YCAL MSS 1191 | Collection of Film Material Relating to John Steinbeck | 
+ [beinecke.waphotosfolio149.xml](11259.xml) | beinecke.waphotosfolio149 | WA Photos Folio 149 | Photographs of Arizona, Cambodia, New Mexico, and the Pine Ridge Indian Reservation | 
  [beinecke.waphotosfolio155.xml](11274.xml) | beinecke.waphotosfolio155 | WA Photos Folio 155 | Photographs of Arizona, Connecticut, New Mexico, and South Dakota | 
  [beinecke.galassi.xml](11289.xml) | beinecke.galassi | YCAL MSS 1197 | Jonathan Galassi papers | 
  [beinecke.davisfo.xml](11291.xml) | beinecke.davisfo | GEN MSS 1520 | R. G. Davis papers relating to Dario Fo | 
