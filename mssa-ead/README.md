@@ -2869,7 +2869,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0207.xml](10778.xml) | mssa.ru.0207 | RU 207 | Timothy Dwight College, Yale University, student records | 
  [mssa.ru.1153.xml](10837.xml) | mssa.ru.1153 | RU 1153 | Yale University Corporation 1949 Presidential Search Committee Records | 
  [mssa.ms.2085.xml](10838.xml) | mssa.ms.2085 | MS 2085 | Paul Stephen Galatowitsch papers | 
- [mssa.ru.1155.xml](11061.xml) | mssa.ru.1155 | RU 1155  | Christopher and Kathleen Murray diary documenting life at Yale University | 
+ [mssa.ru.1155.xml](11061.xml) | mssa.ru.1155 | RU 1155 | Christopher and Kathleen Murray diary documenting life at Yale University | 
  [mssa.ru.1156.xml](11096.xml) | mssa.ru.1156 | RU 1156 | Institute of Sacred Music, Yale University, records | 
  [mssa.ru.1157.xml](11197.xml) | mssa.ru.1157 | RU 1157 | Peter Salovey, President of Yale University, Records | 
  [mssa.ms.2086.xml](11202.xml) | mssa.ms.2086 | MS 2086 | James F. Ahern papers | 
