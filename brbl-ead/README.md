@@ -1481,7 +1481,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jcwilson.xml](10942.xml) | beinecke.jcwilson | YCAL MSS 1127 | John C. Wilson Papers | 
  [beinecke.caesar.xml](10944.xml) | beinecke.caesar | YCAL MSS 1245 | Sid Caesar papers | 
  [beinecke.shively.xml](10945.xml) | beinecke.shively | GEN MSS 1546 | Charley Shively papers | 
- [beinecke.pearllondon.xml](10946.xml) | beinecke.pearllondon | YCAL MSS 1129  | Pearl London papers | 
+ [beinecke.pearllondon.xml](10946.xml) | beinecke.pearllondon | YCAL MSS 1129 | Pearl London papers | 
  [beinecke.lgbtqfilm.xml](10950.xml) | beinecke.lgbtqfilm | GEN MSS 1580 | LGBTQ film, television, and theater collection | 
  [beinecke.bertini.xml](10951.xml) | beinecke.bertini | GEN MSS 970 | Gianni Bertini papers | 
  [beinecke.nationaluburoibakeoff.xml](10954.xml) | beinecke.nationaluburoibakeoff | YCAL MSS 1145 | National Ubu Roi Bake-Off collection | 
@@ -1538,7 +1538,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bluepress.xml](11359.xml) | beinecke.bluepress | YCAL MSS 1235 | Blue Press records | 
  [beinecke.sasse.xml](11365.xml) | beinecke.sasse | WA MSS S-3469 | A. H. Sasse papers | 
  [beinecke.sjsedgwick.xml](11366.xml) | beinecke.sjsedgwick | WA MSS S-2360 | S. J. Sedgwick collection | 
- [beinecke.wesleybrown.xml](11373.xml) | beinecke.wesleybrown | JWJ MSS 229  | Wesley Brown papers | 
+ [beinecke.wesleybrown.xml](11373.xml) | beinecke.wesleybrown | JWJ MSS 229 | Wesley Brown papers | 
  [beinecke.antsedwards.xml](11376.xml) | beinecke.antsedwards | GEN MSS 1542 | Andover Newton Theological Seminary collection of Jonathan Edwards | 
  [beinecke.vanhorn.xml](11387.xml) | beinecke.vanhorn | YCAL MSS 340 | Erica Van Horn prints | 
  [beinecke.leroyscott.xml](11392.xml) | beinecke.leroyscott | GEN MSS 993 | LeRoy Scott papers | 
