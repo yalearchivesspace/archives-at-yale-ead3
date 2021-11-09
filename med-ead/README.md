@@ -66,4 +66,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0079.xml](12143.xml) | med.ms.0079 | Ms Coll 79 | Sally Hitchcock Pullman at the Yale School of Nursing papers | 
  [med.ms.0071.xml](12155.xml) | med.ms.0071 | Ms Coll 71 | Myron Genel papers | 
  [med.ms.0082.xml](12214.xml) | med.ms.0082 | Ms Coll 82 | Waltham Hospital medical records | 
+ [med.ms.0083.xml](12221.xml) | med.ms.0083 | Ms Coll 83 | Wilfrid Rall computational neuroscience research collection | 
 
