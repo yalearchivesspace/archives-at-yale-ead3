@@ -14,4 +14,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [lwl.mss.004.xml](11769.xml) | lwl.mss.004 | LWL MSS 4 | Letters to John Ives | 
  [lwl.mss.033.xml](11795.xml) | lwl.mss.033 | LWL MSS 33 | British Theatrical and Literary Prints | 
  [lwl.125L979.xml](12016.xml) | lwl.125L979 | 125 L979 | Lewis Walpole Library Sales and Auction Catalog Collection | 
+ [lwl.mss.016.xml](12249.xml) | lwl.mss.016 | LWL MSS 16 | Thomas Walpole Family Papers | 
 
