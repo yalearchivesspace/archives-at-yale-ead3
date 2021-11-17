@@ -1624,7 +1624,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mtlicenses.xml](11800.xml) | beinecke.mtlicenses | WA MSS S-4310 | Collection of licenses and tax receipts for businesses in Montana Territory | 
  [beinecke.douglass.xml](11807.xml) | beinecke.douglass | JWJ MSS 240 | Walter O. Evans collection of Frederick Douglass and Douglass Family papers | 
  [beinecke.dawson.xml](11810.xml) | beinecke.dawson | GEN MSS 1608 | Tom and Judy Dawson Collection of Playing Card Ephemera | 
- [beinecke.gavin.xml](11819.xml) | beinecke.gavin | GEN MSS 1724 | Father Carney Gavin legacy collection of Holy Land photographs | 
  [beinecke.everhardy.xml](11823.xml) | beinecke.everhardy | WA MSS S-4148 | Louise Everhardy papers | 
  [beinecke.disneyfamily.xml](11825.xml) | beinecke.disneyfamily | WA MSS S-4149 | Loren and Stanley Disney Family Papers | 
  [beinecke.robertadams.xml](11826.xml) | beinecke.robertadams | WA MSS S-4150 | Robert Adams papers | 
@@ -1694,4 +1693,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jwjmsmusic.xml](12228.xml) | beinecke.jwjmsmusic | JWJ MSS 355 | James Weldon Johnson Memorial Collection manuscript music | 
  [beinecke.sobekbeutter.xml](12232.xml) | beinecke.sobekbeutter | YCAL MSS 1244 | Gerdi Sobek-Beutter papers relating to Hommage à Gertrude Stein | 
  [beinecke.jonesd.xml](12251.xml) | beinecke.jonesd | GEN MSS 903 | David Jones letters to Harman Grisewood | 
+ [beinecke.jknight.xml](12268.xml) | beinecke.jknight | GEN MSS 1855 | Jonathan Knight account books and daybooks | 
 
