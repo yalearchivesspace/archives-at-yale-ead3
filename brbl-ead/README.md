@@ -1610,6 +1610,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mikedaleyoungerpoets.xml](11707.xml) | beinecke.mikedaleyoungerpoets | YCAL MSS 1236 | Papers related to Mike & Dale's Younger Poets | 
  [beinecke.larissaleclair.xml](11713.xml) | beinecke.larissaleclair | GEN MSS 1584 | Larissa Leclair collection of indie photobook library ephemera | 
  [beinecke.lshumesklondike.xml](11714.xml) | beinecke.lshumesklondike | WA Photos 993 | L. Stark Humes collection of photographs of the Klondike region | 
+ [beinecke.ashbery.xml](11725.xml) | beinecke.ashbery | YCAL MSS 1318 | John Ashbery collection of artwork and objects | 
  [beinecke.cmackenzie.xml](11726.xml) | beinecke.cmackenzie | GEN MSS 1589 | Compton Mackenzie papers | 
  [beinecke.underdown.xml](11727.xml) | beinecke.underdown | OSB MSS 214 | David Underdown papers | 
  [beinecke.rochambeaufwi.xml](11737.xml) | beinecke.rochambeaufwi | GEN MSS 1576 | Donatien Marie Joseph de Vimeur, vicomte de Rochambeau papers relating to the French West Indies | 
