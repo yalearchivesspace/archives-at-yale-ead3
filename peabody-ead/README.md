@@ -80,4 +80,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ypm.izar.001124.xml](11177.xml) | ypm.izar.001124 | IZAR.001124 | Willard Daniel Hartman Archives | 
  [ypm.ipar.001158.xml](11178.xml) | ypm.ipar.001158 | IPAR.001158 | Frederick A. Braun Archives | 
  [ypm.vpar.000269.xml](11180.xml) | ypm.vpar.000269 | VPAR.000269 | Arthur Lakes Archives | 
+ [ypm.antar.045624.xml](12290.xml) | ypm.antar.045624 | ANTAR.045624 | Leedom Lefferts and Louise Allison Cort Archives | 
 
