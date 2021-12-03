@@ -1693,9 +1693,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.willispineridgesd.xml](12194.xml) | beinecke.willispineridgesd | WA Photos Folio 219 | Photographs of Pine Ridge Indian Reservation and South Dakota | 
  [beinecke.stieglitzcam.xml](12197.xml) | beinecke.stieglitzcam | YCAL MSS 1389 | Alfred Stieglitz collection of photogravures from <title>Camera work</title> | 
  [beinecke.crite.xml](12220.xml) | beinecke.crite | JWJ MSS 357 | Allan Rohan Crite papers | 
+ [beinecke.socaloilfields.xml](12224.xml) | beinecke.socaloilfields | WA Photos 1306 | Southern California oil fields aerial photographs | 
  [beinecke.wwlowshipslogs.xml](12225.xml) | beinecke.wwlowshipslogs | GEN MSS 1806 | William Whittemore Low ships’ logs | 
  [beinecke.jwjmsmusic.xml](12228.xml) | beinecke.jwjmsmusic | JWJ MSS 355 | James Weldon Johnson Memorial Collection manuscript music | 
  [beinecke.sobekbeutter.xml](12232.xml) | beinecke.sobekbeutter | YCAL MSS 1244 | Gerdi Sobek-Beutter papers relating to Hommage à Gertrude Stein | 
  [beinecke.jonesd.xml](12251.xml) | beinecke.jonesd | GEN MSS 903 | David Jones letters to Harman Grisewood | 
  [beinecke.jknight.xml](12268.xml) | beinecke.jknight | GEN MSS 1855 | Jonathan Knight account books and daybooks | 
+ [beinecke.dyerwhite.xml](12288.xml) | beinecke.dyerwhite | GEN MSS 1862 | Dyer White papers | 
 
