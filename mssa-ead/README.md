@@ -2905,8 +2905,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1396.xml](11792.xml) | mssa.ms.1396 | MS 1396 | Joseph Stewart Fruton papers | 
  [mssa.ru.1172.xml](11898.xml) | mssa.ru.1172 | RU 1172 | Yale Slavic Chorus, Yale University, records | 
  [mssa.ru.1173.xml](11920.xml) | mssa.ru.1173 | RU 1173 | Environmental Action Group, Yale University, Records | 
+ [mssa.ms.2119.xml](11952.xml) | mssa.ms.2119 | MS 2119 | Mary Dillman Papers | 
  [mssa.ms.2122.xml](12003.xml) | mssa.ms.2122 | MS 2122 | Carolyn Davidson Hill Diary and Family Papers | 
  [mssa.ms.2123.xml](12007.xml) | mssa.ms.2123 | MS 2123 | L. Paul Bremer III Papers | 
  [mssa.ms.2088.xml](12060.xml) | mssa.ms.2088 | MS 2088 | George Bundy Smith papers | 
  [mssa.ru.0410.xml](12190.xml) | mssa.ru.0410 | RU 410 | Arbovirus Research Unit, Department of Epidemiology and Public Health, Yale University, records | 
+ [mssa.ms.2110.xml](12223.xml) | mssa.ms.2110 | MS 2110 | National Institute of Social Sciences records | 
 
