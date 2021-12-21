@@ -1703,6 +1703,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.saxe.xml](12254.xml) | beinecke.saxe | YCAL MSS 1217 | Stephen O. Saxe set designs, costume designs, and papers | 
  [beinecke.jknight.xml](12268.xml) | beinecke.jknight | GEN MSS 1855 | Jonathan Knight account books and daybooks | 
  [beinecke.dyerwhite.xml](12288.xml) | beinecke.dyerwhite | GEN MSS 1862 | Dyer White papers | 
+ [beinecke.dorsetdocuments.xml](12293.xml) | beinecke.dorsetdocuments | GEN MSS 1870 | Collection of Dorset, England legal documents | 
  [beinecke.jsdarling.xml](12300.xml) | beinecke.jsdarling | GEN MSS 1877 | Joseph and Samuel Darling Account Books and Daybooks | 
  [beinecke.sjhitchcock.xml](12301.xml) | beinecke.sjhitchcock | GEN MSS 1878 | Samuel J. Hitchcock Papers | 
 
