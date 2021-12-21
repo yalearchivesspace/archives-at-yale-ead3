@@ -344,4 +344,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.315.xml](12173.xml) | divinity.315 | RG 315 | Church Postcard Collection | 
  [divinity.307.xml](12180.xml) | divinity.307 | RG 307 | Andover Association Records | 
  [divinity.320.xml](12192.xml) | divinity.320 | RG 320 | Yale Divinity School Women's Center Records | 
+ [divinity.309.xml](12310.xml) | divinity.309 | RG 309 | North Congregational Church (North Middleboro, Mass.) Records | 
 
