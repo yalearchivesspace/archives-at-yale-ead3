@@ -1654,6 +1654,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.masoodwarren.xml](11933.xml) | beinecke.masoodwarren | JWJ MSS 32 | Masood Ali Wilbert Warren Papers | 
  [beinecke.wingfamily.xml](11937.xml) | beinecke.wingfamily | WA MSS S-4348 | Wing family correspondence | 
  [beinecke.stimson.xml](11940.xml) | beinecke.stimson | WA Photos 1072 | Joseph Elam Stimson Photographs | 
+ [beinecke.jstevenscox.xml](11944.xml) | beinecke.jstevenscox | Beinecke MS 1251 | James Stevens-Cox collection of manuscript leaves and fragments | 
  [beinecke.lbreuer.xml](11946.xml) | beinecke.lbreuer | YCAL MSS 1392 | Lee Breuer papers | 
  [beinecke.ernst.xml](11947.xml) | beinecke.ernst | YCAL MSS 1209 | K.S. Ernst papers | 
  [beinecke.basinski.xml](11949.xml) | beinecke.basinski | YCAL MSS 1242 | Michael Basinski poems and other papers | 
