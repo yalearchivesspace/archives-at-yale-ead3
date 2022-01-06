@@ -1670,10 +1670,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.willisdapl.xml](12014.xml) | beinecke.willisdapl | WA Photos Folio 186 | Photographs of Dakota Access Pipeline Protests in North Dakota | 
  [beinecke.willissdborder.xml](12017.xml) | beinecke.willissdborder | WA Photos Folio 213 | Photographs of Nebraska, North Dakota, South Dakota and the Mexican-American Border Region | 
  [beinecke.mhschreiber.xml](12020.xml) | beinecke.mhschreiber | WA Photos 1301 | Martin H. Schreiber photographs and papers | 
+ [beinecke.robards.xml](12021.xml) | beinecke.robards | YCAL MSS 1393 | Jason Robards papers | 
  [beinecke.brownecorre.xml](12022.xml) | beinecke.brownecorre | WA MSS S-4422 | Robert Sewall Browne and Alice Gray Browne correspondence | 
  [beinecke.whittaker.xml](12026.xml) | beinecke.whittaker | GEN MSS 1702 | Donald Whittaker collection relating to 20th century culture | 
  [beinecke.mopope.xml](12029.xml) | beinecke.mopope | WA MSS S-4423 | Stephen Mopope drawings | 
- [beinecke.rankine.xml](12036.xml) | beinecke.rankine | JWJ MSS 354 | Claudia Rankine papers | 
  [beinecke.nortonhall.xml](12049.xml) | beinecke.nortonhall | OSB MSS 226 | Papers relating to Norton Hall, South Yorkshire | 
  [beinecke.emeryhuston.xml](12064.xml) | beinecke.emeryhuston | WA MSS S-4354 | Emery Huston papers relating to the 1920 Pikes Peak Hill Climb | 
  [beinecke.gaust.xml](12066.xml) | beinecke.gaust | OSB MSS 270 | George Aust papers | 
