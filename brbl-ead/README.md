@@ -1674,6 +1674,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.brownecorre.xml](12022.xml) | beinecke.brownecorre | WA MSS S-4422 | Robert Sewall Browne and Alice Gray Browne correspondence | 
  [beinecke.whittaker.xml](12026.xml) | beinecke.whittaker | GEN MSS 1702 | Donald Whittaker collection relating to 20th century culture | 
  [beinecke.mopope.xml](12029.xml) | beinecke.mopope | WA MSS S-4423 | Stephen Mopope drawings | 
+ [beinecke.rankine.xml](12036.xml) | beinecke.rankine | JWJ MSS 354 | Claudia Rankine papers | 
  [beinecke.nortonhall.xml](12049.xml) | beinecke.nortonhall | OSB MSS 226 | Papers relating to Norton Hall, South Yorkshire | 
  [beinecke.emeryhuston.xml](12064.xml) | beinecke.emeryhuston | WA MSS S-4354 | Emery Huston papers relating to the 1920 Pikes Peak Hill Climb | 
  [beinecke.gaust.xml](12066.xml) | beinecke.gaust | OSB MSS 270 | George Aust papers | 
