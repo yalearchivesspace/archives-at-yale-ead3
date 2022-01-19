@@ -16,4 +16,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [lwl.125L979.xml](12016.xml) | lwl.125L979 | 125 L979 | Lewis Walpole Library Sales and Auction Catalog Collection | 
  [lwl.mss.016.xml](12249.xml) | lwl.mss.016 | LWL MSS 16 | Thomas Walpole Family Papers | 
  [lwl.mss.027.xml](12309.xml) | lwl.mss.027 | LWL MSS 27 | Norton Nicholls correspondence | 
+ [lwl.mss.013.xml](12316.xml) | lwl.mss.013 | LWL MSS 13 | Monson Family Invoices | 
 
