@@ -1700,7 +1700,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wwlowshipslogs.xml](12225.xml) | beinecke.wwlowshipslogs | GEN MSS 1806 | William Whittemore Low ships’ logs | 
  [beinecke.jwjmsmusic.xml](12228.xml) | beinecke.jwjmsmusic | JWJ MSS 355 | James Weldon Johnson Memorial Collection manuscript music | 
  [beinecke.sobekbeutter.xml](12232.xml) | beinecke.sobekbeutter | YCAL MSS 1244 | Gerdi Sobek-Beutter papers relating to Hommage à Gertrude Stein | 
+ [beinecke.wilsonair.xml](12233.xml) | beinecke.wilsonair | WA Photos Folio 220 | Auto Immune Response | 
  [beinecke.franklincoll.xml](12238.xml) | beinecke.franklincoll | GEN MSS 1457 | Yale Collection of Benjamin Franklin Manuscripts | 
+ [beinecke.wilsondots.xml](12239.xml) | beinecke.wilsondots | WA Photos Folio 221 | Connecting the Dots: For a Just Transition | 
  [beinecke.jonesd.xml](12251.xml) | beinecke.jonesd | GEN MSS 903 | David Jones letters to Harman Grisewood | 
  [beinecke.saxe.xml](12254.xml) | beinecke.saxe | YCAL MSS 1217 | Stephen O. Saxe set designs, costume designs, and papers | 
  [beinecke.jknight.xml](12268.xml) | beinecke.jknight | GEN MSS 1855 | Jonathan Knight account books and daybooks | 
