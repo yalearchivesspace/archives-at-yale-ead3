@@ -1581,6 +1581,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.sommer.xml](11560.xml) | beinecke.sommer | WA MSS S-3861 | Watercolors and Pencil Drawings Related to the Utah Expedition | 
  [beinecke.parkcounty.xml](11569.xml) | beinecke.parkcounty | WA MSS S-2963 | Gerald Fogarty Galloway Collection of Records Concerning Mines and Real Property in Park County, Colorado | 
  [beinecke.dwbuck.xml](11573.xml) | beinecke.dwbuck | WA MSS S-3907 | Daniel Webster Buck papers | 
+ [beinecke.dalexander.xml](11577.xml) | beinecke.dalexander | GEN MSS 1750 | Dorothy Alexander photographs | 
  [beinecke.lehman.xml](11582.xml) | beinecke.lehman | YCAL MSS 704 | David Lehman papers | 
  [beinecke.pottlitzer.xml](11584.xml) | beinecke.pottlitzer | YCAL MSS 1228 | Joanne Pottlitzer and TOLA archive | 
  [beinecke.jnbarry.xml](11590.xml) | beinecke.jnbarry | WA MSS S-3977 | J. Neilson Barry collection of western maps | 
