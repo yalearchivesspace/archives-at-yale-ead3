@@ -473,6 +473,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jwjmiscellany.xml](998.xml) | beinecke.jwjmiscellany | JWJ MSS MISC | James Weldon Johnson Collection manuscript miscellany | 
  [beinecke.faragher.xml](1000.xml) | beinecke.faragher | WA MSS S-4446 | Faragher family papers | 
  [beinecke.monteverdi.xml](1002.xml) | beinecke.monteverdi | Monteverdi 2 | Manuscripts in the Albi Rosenthal collection of Monteverdi and the birth of opera | 
+ [beinecke.jonathanbrace.xml](1003.xml) | beinecke.jonathanbrace | GEN MSS 1906 | Jonathan Brace Papers | 
  [beinecke.hilles.xml](1005.xml) | beinecke.hilles | GEN MSS 1429 | Frederick W. Hilles Manuscript Collection and Papers | 
  [beinecke.steichenfamily.xml](1006.xml) | beinecke.steichenfamily | YCAL MSS 1080 | Steichen family papers | 
  [beinecke.ndy10.xml](1008.xml) | beinecke.ndy10 | Ndy10 | Miscellaneous financial materials concerning farm corporations operating in the North American West | 
@@ -1712,4 +1713,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jsdarling.xml](12300.xml) | beinecke.jsdarling | GEN MSS 1877 | Joseph and Samuel Darling Account Books and Daybooks | 
  [beinecke.sjhitchcock.xml](12301.xml) | beinecke.sjhitchcock | GEN MSS 1878 | Samuel J. Hitchcock Papers | 
  [beinecke.thompson.xml](12312.xml) | beinecke.thompson | WA MSS S-2404 | Lucy Thompson papers | 
+ [beinecke.benjamintrumbull.xml](12336.xml) | beinecke.benjamintrumbull | GEN MSS 1894 | Benjamin Trumbull Papers | 
 
