@@ -1638,6 +1638,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lopate.xml](11830.xml) | beinecke.lopate | YCAL MSS 1083 | Phillip Lopate papers | 
  [beinecke.rrobinson.xml](11831.xml) | beinecke.rrobinson | YCAL MSS 1304 | Roxana Robinson papers | 
  [beinecke.hollo.xml](11847.xml) | beinecke.hollo | GEN MSS 1701 | Anselm Hollo papers | 
+ [beinecke.sklar.xml](11850.xml) | beinecke.sklar | YCAL MSS 1446 | George Sklar and Miriam Blecher papers | 
  [beinecke.wodening.xml](11855.xml) | beinecke.wodening | YCAL MSS 1331 | Jane Wodening papers | 
  [beinecke.peranio.xml](11863.xml) | beinecke.peranio | YCAL MSS 1346 | Vincent Peranio Papers | 
  [beinecke.mjamesslack.xml](11871.xml) | beinecke.mjamesslack | WA MSS S-4440 | M. James Slack papers | 
@@ -1715,4 +1716,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.sjhitchcock.xml](12301.xml) | beinecke.sjhitchcock | GEN MSS 1878 | Samuel J. Hitchcock Papers | 
  [beinecke.thompson.xml](12312.xml) | beinecke.thompson | WA MSS S-2404 | Lucy Thompson papers | 
  [beinecke.benjamintrumbull.xml](12336.xml) | beinecke.benjamintrumbull | GEN MSS 1894 | Benjamin Trumbull Papers | 
+ [beinecke.cprrstereographs.xml](12343.xml) | beinecke.cprrstereographs | WA Photos 1265 | Alfred A. Hart and Carleton E. Watkins Stereographs of the Central Pacific Railroad | 
 
