@@ -1653,6 +1653,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.seligson.xml](11922.xml) | beinecke.seligson | YCAL MSS 1200 | Fred Jeremy Seligson Collection of Cid Corman and James Weil | 
  [beinecke.bigoxmining.xml](11923.xml) | beinecke.bigoxmining | WA MSS S-4330 | Big Ox Mining Company records | 
  [beinecke.vaillhl.xml](11930.xml) | beinecke.vaillhl | GEN MSS 1615 | Herman Landon Vaill papers | 
+ [beinecke.gadfly.xml](11931.xml) | beinecke.gadfly | GEN MSS 1356 | Documentary film of Ethel Lilian Voynich watching the 1955 film of her novel the Gadfly | 
  [beinecke.ftlee.xml](11932.xml) | beinecke.ftlee | WA MSS S-4349 | Frank Trumbull Lee papers | 
  [beinecke.masoodwarren.xml](11933.xml) | beinecke.masoodwarren | JWJ MSS 32 | Masood Ali Wilbert Warren Papers | 
  [beinecke.wingfamily.xml](11937.xml) | beinecke.wingfamily | WA MSS S-4348 | Wing Family Correspondence | 
@@ -1717,4 +1718,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.thompson.xml](12312.xml) | beinecke.thompson | WA MSS S-2404 | Lucy Thompson papers | 
  [beinecke.benjamintrumbull.xml](12336.xml) | beinecke.benjamintrumbull | GEN MSS 1894 | Benjamin Trumbull Papers | 
  [beinecke.cprrstereographs.xml](12343.xml) | beinecke.cprrstereographs | WA Photos 1265 | Alfred A. Hart and Carleton E. Watkins Stereographs of the Central Pacific Railroad | 
+ [beinecke.restau.xml](12347.xml) | beinecke.restau | YCAL MSS Restau | Restau Press records and Mark Nunnelee papers | 
 
