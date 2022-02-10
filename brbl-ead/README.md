@@ -1718,5 +1718,4 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.thompson.xml](12312.xml) | beinecke.thompson | WA MSS S-2404 | Lucy Thompson papers | 
  [beinecke.benjamintrumbull.xml](12336.xml) | beinecke.benjamintrumbull | GEN MSS 1894 | Benjamin Trumbull Papers | 
  [beinecke.cprrstereographs.xml](12343.xml) | beinecke.cprrstereographs | WA Photos 1265 | Alfred A. Hart and Carleton E. Watkins Stereographs of the Central Pacific Railroad | 
- [beinecke.restau.xml](12347.xml) | beinecke.restau | YCAL MSS Restau | Restau Press records and Mark Nunnelee papers | 
 
