@@ -1716,6 +1716,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jsdarling.xml](12300.xml) | beinecke.jsdarling | GEN MSS 1877 | Joseph and Samuel Darling Account Books and Daybooks | 
  [beinecke.sjhitchcock.xml](12301.xml) | beinecke.sjhitchcock | GEN MSS 1878 | Samuel J. Hitchcock Papers | 
  [beinecke.thompson.xml](12312.xml) | beinecke.thompson | WA MSS S-2404 | Lucy Thompson papers | 
+ [beinecke.parksstudy.xml](12331.xml) | beinecke.parksstudy | JWJ MSS 363 | Study Sets of Photographs | 
  [beinecke.benjamintrumbull.xml](12336.xml) | beinecke.benjamintrumbull | GEN MSS 1894 | Benjamin Trumbull Papers | 
  [beinecke.cprrstereographs.xml](12343.xml) | beinecke.cprrstereographs | WA Photos 1265 | Alfred A. Hart and Carleton E. Watkins Stereographs of the Central Pacific Railroad | 
 
