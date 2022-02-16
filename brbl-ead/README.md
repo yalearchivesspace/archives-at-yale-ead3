@@ -1623,6 +1623,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fwfrostpapers.xml](11759.xml) | beinecke.fwfrostpapers | GEN MSS 1733 | Francis Willoughby Frost papers and photographs | 
  [beinecke.monkeysmoon.xml](11765.xml) | beinecke.monkeysmoon | YCAL MSS 598 | Monkey's Moon, Pool Productions, 1929 / by Kenneth Macpherson | 
  [beinecke.oharanavajo.xml](11789.xml) | beinecke.oharanavajo | WA MSS S-2625 | Geoffrey O'Hara cylinder recordings and lantern slides of Navajo Indians | 
+ [beinecke.bayley.xml](11791.xml) | beinecke.bayley | GEN MSS 1603 | Roberta Bayley photographs and papers | 
  [beinecke.victoriasw.xml](11793.xml) | beinecke.victoriasw | OSB MSS 222 | Victoria Sackville-West papers | 
  [beinecke.okeeffe.xml](11797.xml) | beinecke.okeeffe | YCAL MSS 1381 | Georgia O'Keeffe Writings and Other Papers | 
  [beinecke.mtlicenses.xml](11800.xml) | beinecke.mtlicenses | WA MSS S-4310 | Collection of licenses and tax receipts for businesses in Montana Territory | 
