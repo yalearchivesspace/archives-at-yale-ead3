@@ -1617,6 +1617,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.underdown.xml](11727.xml) | beinecke.underdown | OSB MSS 214 | David Underdown papers | 
  [beinecke.rochambeaufwi.xml](11737.xml) | beinecke.rochambeaufwi | GEN MSS 1576 | Donatien Marie Joseph de Vimeur, vicomte de Rochambeau papers relating to the French West Indies | 
  [beinecke.dayfamily.xml](11742.xml) | beinecke.dayfamily | WA Photos 1044 | Photographs Related to Navajo, Havasupai, Hopi, and Pueblo Indians, and Sites in Arizona and New Mexico | 
+ [beinecke.EuropeanOccupationColonizationandConflictsinAfricaphotographs.xml](11746.xml) | beinecke.EuropeanOccupationColonizationandConflictsinAfricaphotographs | GEN MSS 1508 | Photographs Relating to European Occupation, Colonization, and Conflicts in North and East Africa | 
  [beinecke.harrington.xml](11747.xml) | beinecke.harrington | JWJ MSS 236 | Walter O. Evans collection of Ollie Harrington artwork | 
  [beinecke.idharmon.xml](11748.xml) | beinecke.idharmon | WA MSS S-3455 | Isaac Dewey Harmon correspondence and journals | 
  [beinecke.wpalmerpribilofislands.xml](11757.xml) | beinecke.wpalmerpribilofislands | WA Photos 1065 | William Palmer Kodak views of the Pribylov Islands, Bering Sea, Alaska | 
