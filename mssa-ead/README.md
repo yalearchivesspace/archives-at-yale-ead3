@@ -2912,5 +2912,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2088.xml](12060.xml) | mssa.ms.2088 | MS 2088 | George Bundy Smith papers | 
  [mssa.ms.2095.xml](12137.xml) | mssa.ms.2095 | MS 2095 | Joel Sanders Papers | 
  [mssa.ru.0410.xml](12190.xml) | mssa.ru.0410 | RU 410 | Arbovirus Research Unit, Department of Epidemiology and Public Health, Yale University, records | 
+ [mssa.ru.1179.xml](12210.xml) | mssa.ru.1179 | RU 1179 | McDougal Graduate Student Center, Yale University, records | 
  [mssa.ms.2110.xml](12223.xml) | mssa.ms.2110 | MS 2110 | National Institute of Social Sciences records | 
 
