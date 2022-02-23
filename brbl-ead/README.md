@@ -318,7 +318,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lbailey.xml](837.xml) | beinecke.lbailey | GEN MSS 787 | Laura Bailey collection of gender and transgender materials | 
  [beinecke.bissell.xml](838.xml) | beinecke.bissell | GEN MSS 788 | George H. Bissell papers | 
  [beinecke.gcmerriam.xml](839.xml) | beinecke.gcmerriam | GEN MSS 789 | G. & C. Merriam Company records | 
- [beinecke.lyon.xml](840.xml) | beinecke.lyon | GEN MSS 79 | William Lyon papers | 
+ [beinecke.lyon.xml](840.xml) | beinecke.lyon | GEN MSS 79 | William Lyon Papers | 
  [beinecke.lord.xml](841.xml) | beinecke.lord | GEN MSS 790 | James Lord papers | 
  [beinecke.dash.xml](842.xml) | beinecke.dash | GEN MSS 792 | Robert Dash papers | 
  [beinecke.phillips.xml](843.xml) | beinecke.phillips | GEN MSS 793 | Caryl Phillips papers | 
