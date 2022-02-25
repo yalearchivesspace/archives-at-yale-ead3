@@ -1643,6 +1643,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.sklar.xml](11850.xml) | beinecke.sklar | YCAL MSS 1446 | George Sklar and Miriam Blecher papers | 
  [beinecke.wodening.xml](11855.xml) | beinecke.wodening | YCAL MSS 1331 | Jane Wodening papers | 
  [beinecke.katz.xml](11857.xml) | beinecke.katz | YCAL MSS 1409 | Leon Katz papers | 
+ [beinecke.perenyi.xml](11858.xml) | beinecke.perenyi | GEN MSS 1771 | Eleanor Perényi papers | 
  [beinecke.peranio.xml](11863.xml) | beinecke.peranio | YCAL MSS 1346 | Vincent Peranio Papers | 
  [beinecke.wiborg.xml](11869.xml) | beinecke.wiborg | YCAL MSS 1408 | Mary Hoyt Wiborg papers | 
  [beinecke.mjamesslack.xml](11871.xml) | beinecke.mjamesslack | WA MSS S-4440 | M. James Slack papers | 
@@ -1699,6 +1700,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.gray.xml](12140.xml) | beinecke.gray | GEN MSS 1734 | Bradford H. Gray collector's files | 
  [beinecke.dickins.xml](12141.xml) | beinecke.dickins | OSB MSS 302 | Dickins family papers | 
  [beinecke.bensonphotographs.xml](12142.xml) | beinecke.bensonphotographs | WA Photos 1296 | Ruth Wilhelmina Kohlstedt Benson and Eloise Jeanette Benson Nicholl photographs and photograph albums of California life | 
+ [beinecke.begon.xml](12152.xml) | beinecke.begon | GEN MSS 1756 | Michel Bégon papers | 
  [beinecke.wwirwin.xml](12153.xml) | beinecke.wwirwin | WA MSS S-4453 | William Wallace Irwin papers | 
  [beinecke.solomondbutcher.xml](12165.xml) | beinecke.solomondbutcher | WA Photos 1273 | Solomon D. Butcher photographs and photographic postcards of Nebraska | 
  [beinecke.mpschon.xml](12166.xml) | beinecke.mpschon | WA MSS S-4486 | Michael P. Schon collection of Peace and Freedom Party of California papers | 
@@ -1715,6 +1717,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jonesd.xml](12251.xml) | beinecke.jonesd | GEN MSS 903 | David Jones letters to Harman Grisewood | 
  [beinecke.saxe.xml](12254.xml) | beinecke.saxe | YCAL MSS 1217 | Stephen O. Saxe set designs, costume designs, and papers | 
  [beinecke.jknight.xml](12268.xml) | beinecke.jknight | GEN MSS 1855 | Jonathan Knight account books and daybooks | 
+ [beinecke.nicaraguacanal.xml](12271.xml) | beinecke.nicaraguacanal | GEN MSS 1774 | Nicaragua Canal Company records | 
  [beinecke.dyerwhite.xml](12288.xml) | beinecke.dyerwhite | GEN MSS 1862 | Dyer White papers | 
  [beinecke.dorsetdocuments.xml](12293.xml) | beinecke.dorsetdocuments | GEN MSS 1870 | Collection of Dorset, England legal documents | 
  [beinecke.jsdarling.xml](12300.xml) | beinecke.jsdarling | GEN MSS 1877 | Joseph and Samuel Darling Account Books and Daybooks | 
