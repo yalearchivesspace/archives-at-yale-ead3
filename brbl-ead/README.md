@@ -1672,6 +1672,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.woodson.xml](11958.xml) | beinecke.woodson | JWJ MSS 245 | Jacqueline Woodson papers | 
  [beinecke.shackleton.xml](11972.xml) | beinecke.shackleton | OSB MSS 230 | Shackleton family papers | 
  [beinecke.schuylerwolff.xml](11978.xml) | beinecke.schuylerwolff | YCGL MSS 17 | Steven Schuyler papers relating to Kurt Wolff and Hermann Broch | 
+ [beinecke.geiringer.xml](11982.xml) | beinecke.geiringer | GEN MSS 1700 | Trude Geiringer photographs and scrapbook | 
  [beinecke.cscottcorre.xml](11989.xml) | beinecke.cscottcorre | WA MSS S-4414 | Charles Scott correspondence | 
  [beinecke.cousins.xml](11990.xml) | beinecke.cousins | YCAL MSS 1205 | Norman Cousins Collection of Henry Seidel Canby | 
  [beinecke.cboyle.xml](11996.xml) | beinecke.cboyle | WA MSS S-4396 | Cornelius Boyle papers | 
