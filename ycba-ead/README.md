@@ -66,4 +66,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0072.xml](12056.xml) | ycba.mss.0072 | MSS 72 | Hubert von Herkomer archive | 
  [ycba.mss.0076.xml](12058.xml) | ycba.mss.0076 | MSS 76 | Edward McKnight Kauffer photographic negatives | 
  [ycba.mss.0080.xml](12227.xml) | ycba.mss.0080 | MSS 80 | Joseph Southall archive | 
+ [ycba.mss.0081.xml](12473.xml) | ycba.mss.0081 | MSS 81 | Neale Albert archive | 
 
