@@ -1729,4 +1729,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.parksstudy.xml](12331.xml) | beinecke.parksstudy | JWJ MSS 363 | Study Sets of Photographs | 
  [beinecke.benjamintrumbull.xml](12336.xml) | beinecke.benjamintrumbull | GEN MSS 1894 | Benjamin Trumbull Papers | 
  [beinecke.cprrstereographs.xml](12343.xml) | beinecke.cprrstereographs | WA Photos 1265 | Alfred A. Hart and Carleton E. Watkins Stereographs of the Central Pacific Railroad | 
+ [beinecke.lyonfamilybusiness.xml](12356.xml) | beinecke.lyonfamilybusiness | GEN MSS 1960 | Lyon Family Business Papers | 
+ [beinecke.deloria1.xml](12492.xml) | beinecke.deloria1 | WA MSS S-4519 | Sacred Land Film Project, Vine Deloria interview | 
 
