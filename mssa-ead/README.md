@@ -2807,6 +2807,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2014.xml](5320.xml) | mssa.ms.2014 | MS 2014 | Jacob Berman papers | 
  [mssa.ms.2027.xml](5328.xml) | mssa.ms.2027 | MS 2027 | Yiddish Theater collection | 
  [mssa.ms.2028.xml](5330.xml) | mssa.ms.2028 | MS 2028 | Collection on the Jewish community of Botosani, Romania | 
+ [mssa.ms.2029.xml](5331.xml) | mssa.ms.2029 | MS 2029 | Collection on the Jewish community of Iași, Romania | 
  [mssa.ms.2030.xml](5332.xml) | mssa.ms.2030 | MS 2030 | Thomas Strong photographs of New Haven May Day rally | 
  [mssa.ms.2031.xml](5333.xml) | mssa.ms.2031 | MS 2031 | Shemuʼel ben Avraham Daṿid ha-Ḳaṭan papers | 
  [mssa.ms.2032.xml](5334.xml) | mssa.ms.2032 | MS 2032 | Isaac Simha Hurewitz family correspondence | 
@@ -2897,6 +2898,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2116.xml](11639.xml) | mssa.ms.2116 | MS 2116 | Cuban slavery collection | 
  [mssa.ru.1169.xml](11649.xml) | mssa.ru.1169 | RU 1169 | Yale China Group, Yale University, records | 
  [mssa.ms.2112.xml](11656.xml) | mssa.ms.2112 | MS 2112 | Josephine and Antonio Bouzas papers | 
+ [mssa.ms.2097.xml](11675.xml) | mssa.ms.2097 | MS 2097 | Marie Borroff papers | 
  [mssa.ms.2113.xml](11679.xml) | mssa.ms.2113 | MS 2113 | Gus Hall Papers | 
  [mssa.ms.2117.xml](11684.xml) | mssa.ms.2117 | MS 2117 | Chinese indentured laborers in Cuba collection | 
  [mssa.ms.2114.xml](11693.xml) | mssa.ms.2114 | MS 2114 | Ravi D. Goel collection on Philip Dodson Sprouse | 
