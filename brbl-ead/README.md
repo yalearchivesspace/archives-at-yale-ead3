@@ -1645,6 +1645,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.katz.xml](11857.xml) | beinecke.katz | YCAL MSS 1409 | Leon Katz papers | 
  [beinecke.perenyi.xml](11858.xml) | beinecke.perenyi | GEN MSS 1771 | Eleanor Perényi papers | 
  [beinecke.peranio.xml](11863.xml) | beinecke.peranio | YCAL MSS 1346 | Vincent Peranio Papers | 
+ [beinecke.thurd.xml](11864.xml) | beinecke.thurd | GEN MSS 1703 | Thacher Hurd papers | 
  [beinecke.wiborg.xml](11869.xml) | beinecke.wiborg | YCAL MSS 1408 | Mary Hoyt Wiborg papers | 
  [beinecke.mjamesslack.xml](11871.xml) | beinecke.mjamesslack | WA MSS S-4440 | M. James Slack papers | 
  [beinecke.henning.xml](11876.xml) | beinecke.henning | YCAL MSS 1303 | Barbara Henning papers | 
