@@ -1722,6 +1722,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jonesd.xml](12251.xml) | beinecke.jonesd | GEN MSS 903 | David Jones letters to Harman Grisewood | 
  [beinecke.henry.xml](12252.xml) | beinecke.henry | GEN MSS 1954 | William A. Henry papers | 
  [beinecke.saxe.xml](12254.xml) | beinecke.saxe | YCAL MSS 1217 | Stephen O. Saxe set designs, costume designs, and papers | 
+ [beinecke.cadmus.xml](12262.xml) | beinecke.cadmus | GEN MSS 1977 | Paul Cadmus papers | 
  [beinecke.jknight.xml](12268.xml) | beinecke.jknight | GEN MSS 1855 | Jonathan Knight account books and daybooks | 
  [beinecke.nicaraguacanal.xml](12271.xml) | beinecke.nicaraguacanal | GEN MSS 1774 | Nicaragua Canal Company records | 
  [beinecke.dyerwhite.xml](12288.xml) | beinecke.dyerwhite | GEN MSS 1862 | Dyer White papers | 
