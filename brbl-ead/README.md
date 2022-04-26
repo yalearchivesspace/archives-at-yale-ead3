@@ -1737,4 +1737,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lyonfamilybusiness.xml](12356.xml) | beinecke.lyonfamilybusiness | GEN MSS 1960 | Lyon Family Business Papers | 
  [beinecke.willis.xml](12489.xml) | beinecke.willis | WA MSS S-4516 | John Willis photographs | 
  [beinecke.deloria1.xml](12492.xml) | beinecke.deloria1 | WA MSS S-4519 | Sacred Land Film Project, Vine Deloria interview | 
+ [beinecke.cwbradley.xml](12618.xml) | beinecke.cwbradley | GEN MSS 325 | Charles William Bradley Papers | 
 
