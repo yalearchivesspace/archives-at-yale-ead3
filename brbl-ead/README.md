@@ -1593,6 +1593,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.joywulke.xml](11620.xml) | beinecke.joywulke | WA Photos 698 | Joy Wulke photographs of Montana and Washington | 
  [beinecke.koestenbaum.xml](11629.xml) | beinecke.koestenbaum | GEN MSS 1568 | Wayne Koestenbaum papers | 
  [beinecke.iwwidentphotos.xml](11632.xml) | beinecke.iwwidentphotos | WA Photos 718 | Collection of identification photographs of Industrial Workers of the World strikers | 
+ [beinecke.fhp.xml](11641.xml) | beinecke.fhp | GEN MSS 1981 | Free History Project video interviews with Jim Fouratt | 
  [beinecke.meredith.xml](11642.xml) | beinecke.meredith | GEN MSS 953 | George Meredith Collection | 
  [beinecke.ashberycollages.xml](11644.xml) | beinecke.ashberycollages | YCAL MSS 1229 | John Ashbery collages | 
  [beinecke.drucker.xml](11654.xml) | beinecke.drucker | YCAL MSS 1230 | Johanna Drucker papers | 
