@@ -1740,4 +1740,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.deloria1.xml](12492.xml) | beinecke.deloria1 | WA MSS S-4519 | Sacred Land Film Project, Vine Deloria interview | 
  [beinecke.newhavenmisc.xml](12617.xml) | beinecke.newhavenmisc | GEN MSS 1896 | New Haven Miscellany | 
  [beinecke.cwbradley.xml](12618.xml) | beinecke.cwbradley | GEN MSS 325 | Charles William Bradley Papers | 
+ [beinecke.jppeters.xml](12749.xml) | beinecke.jppeters | GEN MSS 1996 | John P. Peters Collection of Drawings and Plans of an Archeological Excavation at Nippur | 
 
