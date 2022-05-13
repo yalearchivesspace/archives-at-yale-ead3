@@ -25,6 +25,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0006.xml](23.xml) | ycba.mss.0006 | MSS 6 | Pease family collection of sketchbooks and exercise books | 
  [ycba.mss.0008.xml](24.xml) | ycba.mss.0008 | MSS 8 | Carr family collection of travel sketches, scrapbooks, and genealogical material | 
  [ycba.mss.0009.xml](25.xml) | ycba.mss.0009 | MSS 9  | Edgar Hockley collection | 
+ [ycba.mss.0084.xml](26.xml) | ycba.mss.0084 | MSS 84 | Paul Mellon collection of British artists' correspondence | 
  [ycba.mss.0068.xml](27.xml) | ycba.mss.0068 | MSS 68 | James Bruce archive | 
  [ycba.mss.0024.xml](30.xml) | ycba.mss.0024 | MSS 24 | Paul Nash Letters to Mercia Oakley | 
  [ycba.mss.0044.xml](31.xml) | ycba.mss.0044 | MSS 44  | Pugin family archive | 
