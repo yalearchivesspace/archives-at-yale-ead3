@@ -636,6 +636,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.deane.xml](1165.xml) | beinecke.deane | GEN MSS 1588 | Jesse Deane papers and photographs | 
  [beinecke.wcprizes.xml](1166.xml) | beinecke.wcprizes | GEN MSS 1672 | Donald Windham-Sandy M. Campbell Literature Prizes records | 
  [beinecke.margulies.xml](1168.xml) | beinecke.margulies | YCAL MSS 1051 | Donald Margulies papers | 
+ [beinecke.slewis.xml](1169.xml) | beinecke.slewis | YCAL MSS 1463 | Estate of Sinclair Lewis records | 
  [beinecke.tankas.xml](1170.xml) | beinecke.tankas | Tibet MSS 62 | Tanka collection | 
  [beinecke.needham.xml](1171.xml) | beinecke.needham | Tibet MSS 64 | Wesley E. Needham Papers | 
  [beinecke.micro.xml](1173.xml) | beinecke.micro | WA MFM 1-6 | Women in the West: Microfilm Sets | 
@@ -1711,6 +1712,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.solomondbutcher.xml](12165.xml) | beinecke.solomondbutcher | WA Photos 1273 | Solomon D. Butcher photographs and photographic postcards of Nebraska | 
  [beinecke.mpschon.xml](12166.xml) | beinecke.mpschon | WA MSS S-4486 | Michael P. Schon collection of Peace and Freedom Party of California papers | 
  [beinecke.willispineridgesd.xml](12194.xml) | beinecke.willispineridgesd | WA Photos Folio 219 | Photographs of Pine Ridge Indian Reservation and South Dakota | 
+ [beinecke.taylorhenryc.xml](12196.xml) | beinecke.taylorhenryc | GEN MSS 1743 | Henry C. Taylor papers | 
  [beinecke.stieglitzcam.xml](12197.xml) | beinecke.stieglitzcam | YCAL MSS 1389 | Alfred Stieglitz collection of photogravures from <title>Camera work</title> | 
  [beinecke.crite.xml](12220.xml) | beinecke.crite | JWJ MSS 357 | Allan Rohan Crite papers | 
  [beinecke.socaloilfields.xml](12224.xml) | beinecke.socaloilfields | WA Photos 1306 | Southern California oil fields aerial photographs | 
@@ -1741,4 +1743,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.newhavenmisc.xml](12617.xml) | beinecke.newhavenmisc | GEN MSS 1896 | New Haven Miscellany | 
  [beinecke.cwbradley.xml](12618.xml) | beinecke.cwbradley | GEN MSS 325 | Charles William Bradley Papers | 
  [beinecke.jppeters.xml](12749.xml) | beinecke.jppeters | GEN MSS 1996 | John P. Peters Collection of Drawings and Plans of an Archeological Excavation at Nippur | 
+ [beinecke.ewer.xml](12753.xml) | beinecke.ewer | WA MSS S-3098 | Gary W. Ewer notes for presentation on daguerreotypes by Robert H. Vance | 
 
