@@ -276,7 +276,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hunt.xml](795.xml) | beinecke.hunt | GEN MSS 65 | Leigh Hunt collection | 
  [beinecke.kline.xml](796.xml) | beinecke.kline | GEN MSS 650 | George Louis Kline papers | 
  [beinecke.allegret.xml](797.xml) | beinecke.allegret | GEN MSS 651 | Marc Allegrét papers | 
- [beinecke.damico.xml](798.xml) | beinecke.damico | GEN MSS 655 | Tano D'Amico Photographs and Papers | 
+ [beinecke.damico.xml](798.xml) | beinecke.damico | GEN MSS 655 | Tano D'Amico photographs and papers | 
  [beinecke.milosz.xml](799.xml) | beinecke.milosz | GEN MSS 661 | Czesław Miłosz papers | 
  [beinecke.acton.xml](800.xml) | beinecke.acton | GEN MSS 663 | Harold Acton papers | 
  [beinecke.ejbstevenson.xml](801.xml) | beinecke.ejbstevenson | GEN MSS 664 | Edwin J. Beinecke Collection of Robert Louis Stevenson | 
@@ -472,6 +472,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.obrien.xml](997.xml) | beinecke.obrien | JWJ MSS 99 | Peter F. O'Brien collection on African American artists | 
  [beinecke.jwjmiscellany.xml](998.xml) | beinecke.jwjmiscellany | JWJ MSS MISC | James Weldon Johnson Collection manuscript miscellany | 
  [beinecke.faragher.xml](1000.xml) | beinecke.faragher | WA MSS S-4446 | Faragher family papers | 
+ [beinecke.mitzel.xml](1001.xml) | beinecke.mitzel | GEN MSS 1779 | John Mitzel papers | 
  [beinecke.monteverdi.xml](1002.xml) | beinecke.monteverdi | Monteverdi 2 | Manuscripts in the Albi Rosenthal collection of Monteverdi and the birth of opera | 
  [beinecke.jonathanbrace.xml](1003.xml) | beinecke.jonathanbrace | GEN MSS 1906 | Jonathan Brace Papers | 
  [beinecke.hilles.xml](1005.xml) | beinecke.hilles | GEN MSS 1429 | Frederick W. Hilles Manuscript Collection and Papers | 
@@ -1250,7 +1251,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.irving.xml](1797.xml) | beinecke.irving | YCAL MSS 769 | Washington Irving collection | 
  [beinecke.steincol.xml](1798.xml) | beinecke.steincol | YCAL MSS 77 | Gertrude Stein and Alice B. Toklas collection | 
  [beinecke.page.xml](1799.xml) | beinecke.page | YCAL MSS 774 | Geraldine Page papers | 
- [beinecke.dipalma.xml](1800.xml) | beinecke.dipalma | YCAL MSS 776 | Ray DiPalma Papers | 
+ [beinecke.dipalma.xml](1800.xml) | beinecke.dipalma | YCAL MSS 776 | Ray DiPalma papers | 
  [beinecke.burke.xml](1801.xml) | beinecke.burke | YCAL MSS 778 | Carolyn Burke Collection on Mina Loy and Lee Miller | 
  [beinecke.leostein.xml](1802.xml) | beinecke.leostein | YCAL MSS 78 | Leo Stein Collection | 
  [beinecke.perkins.xml](1803.xml) | beinecke.perkins | YCAL MSS 782 | Mardette Perkins papers | 
@@ -1666,7 +1667,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.masoodwarren.xml](11933.xml) | beinecke.masoodwarren | JWJ MSS 32 | Masood Ali Wilbert Warren Papers | 
  [beinecke.wingfamily.xml](11937.xml) | beinecke.wingfamily | WA MSS S-4348 | Wing Family Correspondence | 
  [beinecke.stimson.xml](11940.xml) | beinecke.stimson | WA Photos 1072 | Joseph Elam Stimson Photographs | 
- [beinecke.jstevenscox.xml](11944.xml) | beinecke.jstevenscox | Beinecke MS 1251 | James Stevens-Cox collection of manuscript leaves and fragments | 
  [beinecke.lbreuer.xml](11946.xml) | beinecke.lbreuer | YCAL MSS 1392 | Lee Breuer papers | 
  [beinecke.ernst.xml](11947.xml) | beinecke.ernst | YCAL MSS 1209 | K.S. Ernst papers | 
  [beinecke.basinski.xml](11949.xml) | beinecke.basinski | YCAL MSS 1242 | Michael Basinski poems and other papers | 
