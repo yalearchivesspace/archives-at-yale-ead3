@@ -20,4 +20,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [lwl.mss.029.xml](12324.xml) | lwl.mss.029 | LWL MSS 29 | W. S. Lewis Collection of Helen and Paget Toynbee | 
  [lwl.mss.039.xml](12354.xml) | lwl.mss.039 | LWL MSS 39 | W. S. Lewis Collection of George Selwyn Correspondence | 
  [lwl.mss.042.xml](12360.xml) | lwl.mss.042 | LWL MSS 42 | Lewis Walpole Library Collection of Prints after William Hogarth | 
+ [lwl.mss.037.xml](12500.xml) | lwl.mss.037 | LWL MSS 37 | Edward Walpole and Dorothy Clement Family Papers | 
 
