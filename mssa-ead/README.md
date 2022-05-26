@@ -2908,6 +2908,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1396.xml](11792.xml) | mssa.ms.1396 | MS 1396 | Joseph Stewart Fruton papers | 
  [mssa.ru.1172.xml](11898.xml) | mssa.ru.1172 | RU 1172 | Yale Slavic Chorus, Yale University, records | 
  [mssa.ru.1173.xml](11920.xml) | mssa.ru.1173 | RU 1173 | Environmental Action Group, Yale University, Records | 
+ [mssa.ms.2120.xml](11951.xml) | mssa.ms.2120 | MS 2120 | Susan M. Watkins papers | 
  [mssa.ms.2119.xml](11952.xml) | mssa.ms.2119 | MS 2119 | Mary Dillman papers | 
  [mssa.ms.2121.xml](11961.xml) | mssa.ms.2121 | MS 2121 | Robert Lane and Dana Ward interview transcripts on political ideology | 
  [mssa.ms.2122.xml](12003.xml) | mssa.ms.2122 | MS 2122 | Carolyn Davidson Hill Diary and Family Papers | 
@@ -2917,5 +2918,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0410.xml](12190.xml) | mssa.ru.0410 | RU 410 | Arbovirus Research Unit, Department of Epidemiology and Public Health, Yale University, records | 
  [mssa.ru.1179.xml](12210.xml) | mssa.ru.1179 | RU 1179 | McDougal Graduate Student Center, Yale University, records | 
  [mssa.ms.2110.xml](12223.xml) | mssa.ms.2110 | MS 2110 | National Institute of Social Sciences records | 
+ [mssa.ru.1180.xml](12366.xml) | mssa.ru.1180 | RU 1180 | Department of Philosophy, Yale University, records | 
  [mssa.ru.1181.xml](12471.xml) | mssa.ru.1181 | RU 1181 | Latinx student life at Yale records | 
 
