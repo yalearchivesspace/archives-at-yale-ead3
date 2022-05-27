@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -9,6 +10,7 @@
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
       <recordid instanceurl="http://hdl.handle.net/10079/fa/beinecke.natalgonquin">beinecke.natalgonquin</recordid>
+      <otherrecordid localtype="BIB">14106961</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the National Algonquin Indian Council Records </titleproper>
@@ -30,6 +32,17 @@
             <date>July 2019</date>
             <num>WA MSS S-3671</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This finding aid, which is compliant with the Yale EAD Best Practice Guidelines, Version 1.0, has a MARC record in Yale's ILS with the following bib number: <num localtype="Orbis-bib">14106961</num>.</p>
+            </controlnote>
+            <controlnote localtype="offsite">
+               <p>Boxes: 1-3, 5-6</p>
+            </controlnote>
+            <controlnote localtype="onsite">
+               <p>Boxes: 4, 7-8</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency countrycode="US">
@@ -37,8 +50,11 @@
          <agencyname>Beinecke Rare Book and Manuscript Library</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -48,7 +64,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -57,14 +73,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-19T05:34:54+00:00</eventdatetime>
+            <eventdatetime>2022-05-27T03:00:59+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday August 19, 2020 at 05:34</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Friday May 27, 2022 at 03:00</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/11/resources/11479" level="collection">
       <did>
          <unittitle>National Algonquin Indian Council records</unittitle>
          <unitid>WA MSS S-3671</unitid>
@@ -81,137 +97,151 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(8 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1850-2017">
+         <unitdatestructured altrender="1850-2017" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1850">1850</fromdate>
                <todate standarddate="2017">2017</todate>
             </daterange>
          </unitdatestructured>
-         <unitdatestructured unitdatetype="bulk" altrender="1924-1980s">
+         <unitdatestructured altrender="1924-1980s" label="creation" unitdatetype="bulk">
             <daterange>
                <fromdate standarddate="1924">1924</fromdate>
                <todate standarddate="1989">1989</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_8e391b7f8ef2489e10ee919ce821ac85">Correspondence, minutes, membership cards, printed material, scrapbook, and other records by or relating to the National Algonquin Indian Council (NAIC), a pan-Indian organization founded in New England in the 1920s. Materials chronicle the membership and activities of the council as it sought to practice ancestral traditions, engage in community building, and secure equality through political action. Also present is a scrapbook assembled by Barbara Farrow, daughter of NAIC secretary Annie Frances Perry Farrow, as well as photograph albums and loose photographs (including tintype photographs) belonging to the Perry family and Farrow family--the latter being of both Native American and African-American descent--of Rhode Island, circa 1905-1960, undated.</abstract>
-    
-         <origination label="creator">
-            <corpname relator="aut" rules="rda" source="local_beinecke">
-               <part>National Algonquin Indian Council</part>
+         <origination label="Source">
+            <corpname relator="bsl" rules="local" source="local">
+               <part localtype="agent_corporate_entity">Robert H. Rubin Books</part>
             </corpname>
          </origination>
-         <origination label="creator">
+         <origination label="Creator">
+            <corpname relator="aut" rules="rda" source="local_beinecke">
+               <part localtype="agent_corporate_entity">National Algonquin Indian Council</part>
+            </corpname>
+         </origination>
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/no2020051940"
                       relator="com"
                       source="naf">
-               <part>Gross, Barbara Hall Farrow, 1922-2016</part>
+               <part localtype="agent_person">Gross, Barbara Hall Farrow, 1922-2016</part>
             </persname>
          </origination>
       </did>
       <accessrestrict id="aspace_9a579df2ceb359aefd190ab83de82e0f">
          <head>Conditions Governing Access</head>
-         <p>This collection is open for research.</p>  
+         <p>This collection is open for research.</p>
       </accessrestrict>
       <acqinfo id="aspace_0323b246aa091a99f3c418068d2a4cf2">
          <head>Immediate Source of Acquisition</head>
-         <p>From the collection of Barbara Hall Farrow Gross, granddaughter of Narragansett chief Alfred C. A. Perry. Purchased from Robert H. Rubin Books on the Walter McClintock Memorial Fund, 2018.</p>  
+         <p>From the collection of Barbara Hall Farrow Gross, granddaughter of Narragansett chief Alfred C. A. Perry. Purchased from Robert H. Rubin Books on the Walter McClintock Memorial Fund, 2018.</p>
       </acqinfo>
       <arrangement id="aspace_10fc606113c0bbaa62f080e78c578227">
          <head>Arrangement</head>
-         <p>Arranged alphabetically by format.</p>  
+         <p>Arranged alphabetically by format.</p>
       </arrangement>
       <bioghist id="aspace_2efe5462a57d707790431b402f9304ab">
          <head>Biographical / Historical</head>
-         <p>The National Algonquin Indian Council was founded in 1926. It was preceded by the Algonquin Indian Council of New England, which was founded in 1923. A Pan-American Indian movement, its purpose was to validate the ancestry of descendants of approximately 30 different Algonquin tribes. Alfred C. A. Perry, Narragansett chief, was among the council's founders. His daughter, Annie Frances Perry Farrow, served as the council's secretary.</p>  
+         <p>The National Algonquin Indian Council was founded in 1926. It was preceded by the Algonquin Indian Council of New England, which was founded in 1923. A Pan-American Indian movement, its purpose was to validate the ancestry of descendants of approximately 30 different Algonquin tribes. Alfred C. A. Perry, Narragansett chief, was among the council's founders. His daughter, Annie Frances Perry Farrow, served as the council's secretary.</p>
       </bioghist>
       <prefercite id="aspace_ff35004ce05695d49da3281f30e38754">
          <head>Preferred Citation</head>
-         <p>National Algonquin Indian Council Records. Yale Collection of Western Americana, Beinecke Rare Book and Manuscript Library.</p>  
+         <p>National Algonquin Indian Council Records. Yale Collection of Western Americana, Beinecke Rare Book and Manuscript Library.</p>
       </prefercite>
       <processinfo id="aspace_75907c0e48bc87d04f312752841c3bc5">
          <head>Processing Information</head>
          <p>Collections are processed to a variety of levels, depending on the work necessary to make them usable, their perceived research value, the availability of staff, competing priorities, and whether or not further accruals are expected. The library attempts to provide a basic level of preservation and access for all collections, and does more extensive processing of higher priority collections as time and resources permit.</p>
-         <p>These materials have been arranged and described according to national and local standards. For more information, please refer to the Beinecke Manuscript Unit Processing Manual.</p>  
+         <p>These materials have been arranged and described according to national and local standards. For more information, please refer to the Beinecke Manuscript Unit Processing Manual.</p>
       </processinfo>
       <scopecontent id="aspace_a73739e0a54131ef1fe2175d26d6ca3a">
          <head>Content Description</head>
-         <p>Correspondence, minutes, membership cards, printed material, and other records by or relating to the National Algonquin Indian Council (NAIC) and photograph albums and loose photographs belonging to the Perry and Farrow families of Rhode Island, 1924-1980s. Founding documents, correspondence, minutes, and treasurer's notes of the NAIC kept by secretary Annie Frances Perry Farrow, daughter of Narragansett chief Alfred C. A. Perry. Also present is a cast-iron hand-press notary seal of the NAIC. Records chronicle the membership and activities of the council as it sought to practice ancestral traditions, engage in community building, and secure equality through political action. There is also a scrapbook assembled by Barbara Farrow, containing newspaper clippings, photographs, correspondence, and documents acquired from her mother, Annie Frances Perry Farrow, with materials dating between the 1920s and 1980s. In addition, there are 3 photograph albums containing 118 photographs, some with manuscript captions; 3 negatives; 10 tintype photographs (2 framed); and 44 loose photographs of the Perry family and family farm as well as the Farrow family, who are of both Native American and African-American descent. There are 2 photographs of NAIC members, 1923 December 13 and circa 1920. There is also a file of research on the Fayerweather family.</p>  
+         <p>Correspondence, minutes, membership cards, printed material, and other records by or relating to the National Algonquin Indian Council (NAIC) and photograph albums and loose photographs belonging to the Perry and Farrow families of Rhode Island, 1924-1980s. Founding documents, correspondence, minutes, and treasurer's notes of the NAIC kept by secretary Annie Frances Perry Farrow, daughter of Narragansett chief Alfred C. A. Perry. Also present is a cast-iron hand-press notary seal of the NAIC. Records chronicle the membership and activities of the council as it sought to practice ancestral traditions, engage in community building, and secure equality through political action. There is also a scrapbook assembled by Barbara Farrow, containing newspaper clippings, photographs, correspondence, and documents acquired from her mother, Annie Frances Perry Farrow, with materials dating between the 1920s and 1980s. In addition, there are 3 photograph albums containing 118 photographs, some with manuscript captions; 3 negatives; 10 tintype photographs (2 framed); and 44 loose photographs of the Perry family and family farm as well as the Farrow family, who are of both Native American and African-American descent. There are 2 photographs of NAIC members, 1923 December 13 and circa 1920. There is also a file of research on the Fayerweather family.</p>
       </scopecontent>
       <userestrict id="aspace_5716728a18bb067f3ac08c9ea999243e">
          <head>Conditions Governing Use</head>
-         <p>The National Algonquin Indian Council Records is the physical property of the Beinecke Rare Book and Manuscript Library, Yale University. Literary rights, including copyright, belong to the authors or their legal heirs and assigns. For further information, consult the appropriate curator.</p>  
+         <p>The National Algonquin Indian Council Records is the physical property of the Beinecke Rare Book and Manuscript Library, Yale University. Literary rights, including copyright, belong to the authors or their legal heirs and assigns. For further information, consult the appropriate curator.</p>
       </userestrict>
       <controlaccess>
          <subject source="lcsh">
-            <part>Algonquin Indians -- New England</part>
+            <part localtype="topical">Algonquin Indians</part>
+            <part localtype="geographic">New England</part>
          </subject>
          <subject source="lcsh">
-            <part>Indian councils -- New England</part>
+            <part localtype="topical">Indian councils</part>
+            <part localtype="geographic">New England</part>
          </subject>
          <subject source="lcsh">
-            <part>Indians of North America -- Ethnic identity</part>
+            <part localtype="topical">Indians of North America</part>
+            <part localtype="topical">Ethnic identity</part>
          </subject>
          <subject source="lcsh">
-            <part>Indians of North America -- Rhode Island</part>
+            <part localtype="topical">Indians of North America</part>
+            <part localtype="geographic">Rhode Island</part>
          </subject>
          <subject source="lcsh">
-            <part>Narragansett Indians -- Rhode Island</part>
+            <part localtype="topical">Narragansett Indians</part>
+            <part localtype="geographic">Rhode Island</part>
          </subject>
          <geogname source="lcsh">
-            <part>New England -- Social conditions -- 20th Century</part>
+            <part localtype="geographic">New England</part>
+            <part localtype="topical">Social conditions</part>
+            <part localtype="temporal">20th Century</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027440" source="aat">
-            <part>Minutes (administrative records)</part>
+            <part localtype="genre_form">Minutes (administrative records)</part>
          </genreform>
          <genreform identifier="http://vocab.getty.edu/aat/300026695" source="aat">
-            <part>Photograph albums</part>
+            <part localtype="genre_form">Photograph albums</part>
          </genreform>
          <genreform identifier="http://vocab.getty.edu/aat/300127104" source="aat">
-            <part>Photographic prints</part>
+            <part localtype="genre_form">Photographic prints</part>
          </genreform>
          <genreform identifier="http://vocab.getty.edu/aat/300046300" source="aat">
-            <part>Photographs</part>
+            <part localtype="genre_form">Photographs</part>
          </genreform>
          <genreform source="local">
-            <part>Scrapbooks</part>
+            <part localtype="genre_form">Scrapbooks</part>
          </genreform>
          <genreform identifier="http://vocab.getty.edu/aat/300134759" source="aat">
-            <part>Tintypes (prints)</part>
+            <part localtype="genre_form">Tintypes (prints)</part>
          </genreform>
          <subject source="lcsh">
-            <part>African Americans -- Rhode Island</part>
+            <part localtype="topical">African Americans</part>
+            <part localtype="geographic">Rhode Island</part>
          </subject>
          <subject source="lcsh">
-            <part>Racially mixed families -- Rhode Island</part>
+            <part localtype="topical">Racially mixed families</part>
+            <part localtype="geographic">Rhode Island</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85065227"
                   source="lcsh">
-            <part>Indians of North America -- Civil rights</part>
+            <part localtype="topical">Indians of North America</part>
+            <part localtype="topical">Civil rights</part>
          </subject>
-         <corpname relator="bsl" rules="local" source="local">
-            <part>Robert H. Rubin Books</part>
-         </corpname>
          <persname identifier="http://id.loc.gov/authorities/names/no2020052155"
                    source="naf">
-            <part>Farrow, Annie Frances, 1894-1978</part>
+            <part localtype="agent_person">Farrow, Annie Frances, 1894-1978</part>
          </persname>
          <persname source="local">
-            <part>Perry, Alfred C. A., 1861-1931</part>
+            <part localtype="agent_person">Perry, Alfred C. A., 1861-1931</part>
          </persname>
          <famname source="naf">
-            <part>Perry family</part>
+            <part localtype="agent_family">Perry family</part>
          </famname>
          <famname source="naf">
-            <part>Farrow family</part>
+            <part localtype="agent_family">Farrow family</part>
          </famname>
       </controlaccess>
       <dsc>
-         <c id="aspace_2655f06fdd9eab6acf7fbe2afebf9952" level="file">
+         <c altrender="/repositories/11/archival_objects/3061984"
+            id="aspace_2655f06fdd9eab6acf7fbe2afebf9952"
+            level="file">
             <did>
                <unittitle>Cast-iron hand-press notary seal</unittitle>
-               <unitdate unitdatetype="inclusive">undated</unitdate>
-               <container altrender="card box (6d 4h 12w)"
+               <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+               <container altrender="/repositories/11/top_containers/358734 /locations/9"
                           containerid="39002099201023"
+                          encodinganalog="card box (6d 4h 12w)"
                           id="aspace_2655f06fdd9eab6acf7fbe2afebf9952_c1"
                           label="Mixed Materials"
                           localtype="box">5</container>
@@ -220,17 +250,20 @@
                           parent="aspace_2655f06fdd9eab6acf7fbe2afebf9952_c1">43</container>
             </did>
          </c>
-         <c id="aspace_683de7fdd70d6231f4b3701ab6b3887f" level="file">
+         <c altrender="/repositories/11/archival_objects/3061453"
+            id="aspace_683de7fdd70d6231f4b3701ab6b3887f"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1924-1926">
+               <unitdatestructured altrender="1924-1926" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1924">1924</fromdate>
                      <todate standarddate="1926">1926</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353650 /locations/9"
                           containerid="39002092865170"
+                          encodinganalog="archive legal"
                           id="aspace_683de7fdd70d6231f4b3701ab6b3887f_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
@@ -239,17 +272,20 @@
                           parent="aspace_683de7fdd70d6231f4b3701ab6b3887f_c1">1</container>
             </did>
          </c>
-         <c id="aspace_3b934e9848411dae036bbc7c24826212" level="file">
+         <c altrender="/repositories/11/archival_objects/3061621"
+            id="aspace_3b934e9848411dae036bbc7c24826212"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1927-1930">
+               <unitdatestructured altrender="1927-1930" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1927">1927</fromdate>
                      <todate standarddate="1930">1930</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353650 /locations/9"
                           containerid="39002092865170"
+                          encodinganalog="archive legal"
                           id="aspace_3b934e9848411dae036bbc7c24826212_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
@@ -258,17 +294,20 @@
                           parent="aspace_3b934e9848411dae036bbc7c24826212_c1">2</container>
             </did>
          </c>
-         <c id="aspace_5ae35dab6aca0435b98ca530c760cc3d" level="file">
+         <c altrender="/repositories/11/archival_objects/3061622"
+            id="aspace_5ae35dab6aca0435b98ca530c760cc3d"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1931-1932">
+               <unitdatestructured altrender="1931-1932" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1931">1931</fromdate>
                      <todate standarddate="1932">1932</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353650 /locations/9"
                           containerid="39002092865170"
+                          encodinganalog="archive legal"
                           id="aspace_5ae35dab6aca0435b98ca530c760cc3d_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
@@ -277,14 +316,17 @@
                           parent="aspace_5ae35dab6aca0435b98ca530c760cc3d_c1">3</container>
             </did>
          </c>
-         <c id="aspace_4f374d90ba1d88d6fe87be7b211b5fb4" level="file">
+         <c altrender="/repositories/11/archival_objects/3061623"
+            id="aspace_4f374d90ba1d88d6fe87be7b211b5fb4"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1933">
+               <unitdatestructured altrender="1933" label="creation" unitdatetype="inclusive">
                   <datesingle standarddate="1933">1933</datesingle>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353650 /locations/9"
                           containerid="39002092865170"
+                          encodinganalog="archive legal"
                           id="aspace_4f374d90ba1d88d6fe87be7b211b5fb4_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
@@ -293,17 +335,22 @@
                           parent="aspace_4f374d90ba1d88d6fe87be7b211b5fb4_c1">4</container>
             </did>
          </c>
-         <c id="aspace_eda9f5ac4422237b7289a82a4839f50a" level="file">
+         <c altrender="/repositories/11/archival_objects/3061624"
+            id="aspace_eda9f5ac4422237b7289a82a4839f50a"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1934 February-July">
+               <unitdatestructured altrender="1934 February-July"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
-                     <fromdate standarddate="1934-02">1934-02</fromdate>
-                     <todate standarddate="1934-07">1934-07</todate>
+                     <fromdate standarddate="1934-02">1934 February</fromdate>
+                     <todate standarddate="1934-07">1934 July</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353650 /locations/9"
                           containerid="39002092865170"
+                          encodinganalog="archive legal"
                           id="aspace_eda9f5ac4422237b7289a82a4839f50a_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
@@ -312,17 +359,22 @@
                           parent="aspace_eda9f5ac4422237b7289a82a4839f50a_c1">5</container>
             </did>
          </c>
-         <c id="aspace_f6ea581146316343ec74d9d04eefe0f6" level="file">
+         <c altrender="/repositories/11/archival_objects/3061625"
+            id="aspace_f6ea581146316343ec74d9d04eefe0f6"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1934 August-November">
+               <unitdatestructured altrender="1934 August-November"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
-                     <fromdate standarddate="1934-08">1934-08</fromdate>
-                     <todate standarddate="1934-11">1934-11</todate>
+                     <fromdate standarddate="1934-08">1934 August</fromdate>
+                     <todate standarddate="1934-11">1934 November</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353650 /locations/9"
                           containerid="39002092865170"
+                          encodinganalog="archive legal"
                           id="aspace_f6ea581146316343ec74d9d04eefe0f6_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
@@ -331,17 +383,20 @@
                           parent="aspace_f6ea581146316343ec74d9d04eefe0f6_c1">6</container>
             </did>
          </c>
-         <c id="aspace_306932d51df32a4917d50fcde90eb8b9" level="file">
+         <c altrender="/repositories/11/archival_objects/3061626"
+            id="aspace_306932d51df32a4917d50fcde90eb8b9"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1935-1936">
+               <unitdatestructured altrender="1935-1936" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1935">1935</fromdate>
                      <todate standarddate="1936">1936</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353650 /locations/9"
                           containerid="39002092865170"
+                          encodinganalog="archive legal"
                           id="aspace_306932d51df32a4917d50fcde90eb8b9_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
@@ -350,17 +405,20 @@
                           parent="aspace_306932d51df32a4917d50fcde90eb8b9_c1">7</container>
             </did>
          </c>
-         <c id="aspace_121d6af742b0061715d9b3d53772b739" level="file">
+         <c altrender="/repositories/11/archival_objects/3061627"
+            id="aspace_121d6af742b0061715d9b3d53772b739"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1941-1951">
+               <unitdatestructured altrender="1941-1951" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1941">1941</fromdate>
                      <todate standarddate="1951">1951</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353650 /locations/9"
                           containerid="39002092865170"
+                          encodinganalog="archive legal"
                           id="aspace_121d6af742b0061715d9b3d53772b739_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
@@ -369,14 +427,17 @@
                           parent="aspace_121d6af742b0061715d9b3d53772b739_c1">8</container>
             </did>
          </c>
-         <c id="aspace_a30cd804b2043ad8403c87704f073a46" level="file">
+         <c altrender="/repositories/11/archival_objects/3061628"
+            id="aspace_a30cd804b2043ad8403c87704f073a46"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1952, undated">
+               <unitdatestructured altrender="1952, undated" label="creation" unitdatetype="inclusive">
                   <datesingle standarddate="1952">1952, undated</datesingle>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353650 /locations/9"
                           containerid="39002092865170"
+                          encodinganalog="archive legal"
                           id="aspace_a30cd804b2043ad8403c87704f073a46_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
@@ -385,17 +446,20 @@
                           parent="aspace_a30cd804b2043ad8403c87704f073a46_c1">9</container>
             </did>
          </c>
-         <c id="aspace_e596d5e4c4566dd9445d7ab034661cf4" level="file">
+         <c altrender="/repositories/11/archival_objects/3061629"
+            id="aspace_e596d5e4c4566dd9445d7ab034661cf4"
+            level="file">
             <did>
                <unittitle>Empty envelopes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1925-1952">
+               <unitdatestructured altrender="1925-1952" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1925">1925</fromdate>
                      <todate standarddate="1952">1952</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353650 /locations/9"
                           containerid="39002092865170"
+                          encodinganalog="archive legal"
                           id="aspace_e596d5e4c4566dd9445d7ab034661cf4_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
@@ -404,12 +468,15 @@
                           parent="aspace_e596d5e4c4566dd9445d7ab034661cf4_c1">10</container>
             </did>
          </c>
-         <c id="aspace_4782598aa8907c569ca1b5a5ca088ea8" level="file">
+         <c altrender="/repositories/11/archival_objects/3061630"
+            id="aspace_4782598aa8907c569ca1b5a5ca088ea8"
+            level="file">
             <did>
                <unittitle>Lists of names</unittitle>
-               <unitdate unitdatetype="inclusive">undated</unitdate>
-               <container altrender="archive legal"
+               <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+               <container altrender="/repositories/11/top_containers/353650 /locations/9"
                           containerid="39002092865170"
+                          encodinganalog="archive legal"
                           id="aspace_4782598aa8907c569ca1b5a5ca088ea8_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
@@ -418,17 +485,22 @@
                           parent="aspace_4782598aa8907c569ca1b5a5ca088ea8_c1">11</container>
             </did>
          </c>
-         <c id="aspace_8e93edb08ac920a6a468dbdf9293552c" level="file">
+         <c altrender="/repositories/11/archival_objects/3061835"
+            id="aspace_8e93edb08ac920a6a468dbdf9293552c"
+            level="file">
             <did>
                <unittitle>Loose notes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1929-1939, undated">
+               <unitdatestructured altrender="1929-1939, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1929">1929</fromdate>
                      <todate standarddate="1939">1939</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353650 /locations/9"
                           containerid="39002092865170"
+                          encodinganalog="archive legal"
                           id="aspace_8e93edb08ac920a6a468dbdf9293552c_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
@@ -437,17 +509,22 @@
                           parent="aspace_8e93edb08ac920a6a468dbdf9293552c_c1">12</container>
             </did>
          </c>
-         <c id="aspace_de330c470e1891815ca04e2607bfbf30" level="file">
+         <c altrender="/repositories/11/archival_objects/3061836"
+            id="aspace_de330c470e1891815ca04e2607bfbf30"
+            level="file">
             <did>
                <unittitle>Meeting resolutions and notes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1930-1938, undated">
+               <unitdatestructured altrender="1930-1938, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1930">1930</fromdate>
                      <todate standarddate="1938">1938</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353650 /locations/9"
                           containerid="39002092865170"
+                          encodinganalog="archive legal"
                           id="aspace_de330c470e1891815ca04e2607bfbf30_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
@@ -456,17 +533,20 @@
                           parent="aspace_de330c470e1891815ca04e2607bfbf30_c1">13</container>
             </did>
          </c>
-         <c id="aspace_50c130f072d8a5114aaf17582b762198" level="file">
+         <c altrender="/repositories/11/archival_objects/3061837"
+            id="aspace_50c130f072d8a5114aaf17582b762198"
+            level="file">
             <did>
                <unittitle>Minutes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1926-1931">
+               <unitdatestructured altrender="1926-1931" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1926">1926</fromdate>
                      <todate standarddate="1931">1931</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353650 /locations/9"
                           containerid="39002092865170"
+                          encodinganalog="archive legal"
                           id="aspace_50c130f072d8a5114aaf17582b762198_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
@@ -475,50 +555,37 @@
                           parent="aspace_50c130f072d8a5114aaf17582b762198_c1">14</container>
             </did>
          </c>
-         <c id="aspace_da40f45b6bf10699493e679af9f39ed6" level="file">
+         <c altrender="/repositories/11/archival_objects/3061838"
+            id="aspace_da40f45b6bf10699493e679af9f39ed6"
+            level="file">
             <did>
                <unittitle>Minutes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1931-1953">
+               <unitdatestructured altrender="1931-1953" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1931">1931</fromdate>
                      <todate standarddate="1953">1953</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353650 /locations/9"
                           containerid="39002092865170"
+                          encodinganalog="archive legal"
                           id="aspace_da40f45b6bf10699493e679af9f39ed6_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_da40f45b6bf10699493e679af9f39ed6_c2"
                           localtype="folder"
-                          parent="aspace_da40f45b6bf10699493e679af9f39ed6_c1">15</container>
+                          parent="aspace_da40f45b6bf10699493e679af9f39ed6_c1">15-16</container>
             </did>
          </c>
-         <c id="aspace_aebfffd8d49790cd32555b0c5d6ddca1" level="file">
-            <did>
-               <unittitle>Minutes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1931-1953">
-                  <daterange>
-                     <fromdate standarddate="1931">1931</fromdate>
-                     <todate standarddate="1953">1953</todate>
-                  </daterange>
-               </unitdatestructured>
-               <container altrender="archive legal"
-                          containerid="39002092865170"
-                          id="aspace_aebfffd8d49790cd32555b0c5d6ddca1_c1"
-                          label="Mixed Materials"
-                          localtype="box">1</container>
-               <container id="aspace_aebfffd8d49790cd32555b0c5d6ddca1_c2"
-                          localtype="folder"
-                          parent="aspace_aebfffd8d49790cd32555b0c5d6ddca1_c1">16</container>
-            </did>
-         </c>
-         <c id="aspace_3691602f68def9b834f0768c9de62637" level="file">
+         <c altrender="/repositories/11/archival_objects/3061918"
+            id="aspace_3691602f68def9b834f0768c9de62637"
+            level="file">
             <did>
                <unittitle>Minutes (empty secretary's record book)</unittitle>
-               <unitdate unitdatetype="inclusive">undated</unitdate>
-               <container altrender="archive legal"
+               <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+               <container altrender="/repositories/11/top_containers/353652 /locations/9"
                           containerid="39002092865485"
+                          encodinganalog="archive legal"
                           id="aspace_3691602f68def9b834f0768c9de62637_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
@@ -527,12 +594,15 @@
                           parent="aspace_3691602f68def9b834f0768c9de62637_c1">17</container>
             </did>
          </c>
-         <c id="aspace_b1f05a8661af1074d8db49164214b80a" level="file">
+         <c altrender="/repositories/11/archival_objects/3061920"
+            id="aspace_b1f05a8661af1074d8db49164214b80a"
+            level="file">
             <did>
                <unittitle>Membership cards</unittitle>
-               <unitdate unitdatetype="inclusive">undated</unitdate>
-               <container altrender="archive legal"
+               <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+               <container altrender="/repositories/11/top_containers/353652 /locations/9"
                           containerid="39002092865485"
+                          encodinganalog="archive legal"
                           id="aspace_b1f05a8661af1074d8db49164214b80a_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
@@ -541,14 +611,17 @@
                           parent="aspace_b1f05a8661af1074d8db49164214b80a_c1">18</container>
             </did>
          </c>
-         <c id="aspace_83c4439a25489420595acb26f8238caa" level="file">
+         <c altrender="/repositories/11/archival_objects/3062042"
+            id="aspace_83c4439a25489420595acb26f8238caa"
+            level="file">
             <did>
                <unittitle>National Association of Colored Women, Inc. membership card (Annie Farrow)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1958">
+               <unitdatestructured altrender="1958" label="creation" unitdatetype="inclusive">
                   <datesingle standarddate="1958">1958</datesingle>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353652 /locations/9"
                           containerid="39002092865485"
+                          encodinganalog="archive legal"
                           id="aspace_83c4439a25489420595acb26f8238caa_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
@@ -557,16 +630,21 @@
                           parent="aspace_83c4439a25489420595acb26f8238caa_c1">19</container>
             </did>
          </c>
-         <c id="aspace_cfbb6e5b8b6363050e45fe155d305535" level="file">
+         <c altrender="/repositories/11/archival_objects/3061989"
+            id="aspace_cfbb6e5b8b6363050e45fe155d305535"
+            level="file">
             <did>
                <unittitle>Newspaper clipping</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1925 October 26">
+               <unitdatestructured altrender="1925 October 26"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
-                     <fromdate standarddate="1925-10-26">1925-10-26</fromdate>
+                     <fromdate standarddate="1925-10-26">1925 October 26</fromdate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="flat box (14d 1h 18w)"
+               <container altrender="/repositories/11/top_containers/358735 /locations/9"
                           containerid="39002099201148"
+                          encodinganalog="flat box (14d 1h 18w)"
                           id="aspace_cfbb6e5b8b6363050e45fe155d305535_c1"
                           label="Mixed Materials"
                           localtype="box">6</container>
@@ -575,17 +653,22 @@
                           parent="aspace_cfbb6e5b8b6363050e45fe155d305535_c1">44</container>
             </did>
          </c>
-         <c id="aspace_4ea50054a11bafedd29ee2c5662f330f" level="file">
+         <c altrender="/repositories/11/archival_objects/3061921"
+            id="aspace_4ea50054a11bafedd29ee2c5662f330f"
+            level="file">
             <did>
                <unittitle>Newspaper clippings</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1950-1998, undated">
+               <unitdatestructured altrender="1950-1998, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1950">1950</fromdate>
                      <todate standarddate="1998">1998</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353652 /locations/9"
                           containerid="39002092865485"
+                          encodinganalog="archive legal"
                           id="aspace_4ea50054a11bafedd29ee2c5662f330f_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
@@ -594,14 +677,17 @@
                           parent="aspace_4ea50054a11bafedd29ee2c5662f330f_c1">20</container>
             </did>
          </c>
-         <c id="aspace_df5a8f51a398e53ea5f5a21807cd0217" level="file">
+         <c altrender="/repositories/11/archival_objects/3061986"
+            id="aspace_df5a8f51a398e53ea5f5a21807cd0217"
+            level="file">
             <did>
                <unittitle>Photograph album</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="circa 1905">
+               <unitdatestructured altrender="circa 1905" label="creation" unitdatetype="inclusive">
                   <datesingle standarddate="1905">circa 1905</datesingle>
                </unitdatestructured>
-               <container altrender="flat box (11d 1h 17w)"
+               <container altrender="/repositories/11/top_containers/358736 /locations/4051"
                           containerid="39002099201130"
+                          encodinganalog="flat box (11d 1h 17w)"
                           id="aspace_df5a8f51a398e53ea5f5a21807cd0217_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
@@ -610,17 +696,22 @@
                           parent="aspace_df5a8f51a398e53ea5f5a21807cd0217_c1">47</container>
             </did>
          </c>
-         <c id="aspace_66c336d4e2cbb080197b9a119f2e9537" level="file">
+         <c altrender="/repositories/11/archival_objects/3061932"
+            id="aspace_66c336d4e2cbb080197b9a119f2e9537"
+            level="file">
             <did>
                <unittitle>Photograph album</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="circa 1910-1960">
+               <unitdatestructured altrender="circa 1910-1960"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1910">1910</fromdate>
                      <todate standarddate="1960">1960</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353652 /locations/9"
                           containerid="39002092865485"
+                          encodinganalog="archive legal"
                           id="aspace_66c336d4e2cbb080197b9a119f2e9537_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
@@ -629,17 +720,20 @@
                           parent="aspace_66c336d4e2cbb080197b9a119f2e9537_c1">21</container>
             </did>
          </c>
-         <c id="aspace_c94df669fe7cec413b7ed5798cb5a012" level="file">
+         <c altrender="/repositories/11/archival_objects/3061985"
+            id="aspace_c94df669fe7cec413b7ed5798cb5a012"
+            level="file">
             <did>
                <unittitle>Photograph album</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1957-1959">
+               <unitdatestructured altrender="1957-1959" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1957">1957</fromdate>
                      <todate standarddate="1959">1959</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="flat box (12d 1h 13w)"
+               <container altrender="/repositories/11/top_containers/358737 /locations/4051"
                           containerid="39002099201122"
+                          encodinganalog="flat box (12d 1h 13w)"
                           id="aspace_c94df669fe7cec413b7ed5798cb5a012_c1"
                           label="Mixed Materials"
                           localtype="box">8</container>
@@ -648,16 +742,19 @@
                           parent="aspace_c94df669fe7cec413b7ed5798cb5a012_c1">48</container>
             </did>
          </c>
-         <c id="aspace_521171af02bee4c3ddf9f78e79031735" level="file">
+         <c altrender="/repositories/11/archival_objects/3061922"
+            id="aspace_521171af02bee4c3ddf9f78e79031735"
+            level="file">
             <did>
                <unittitle>Photographs (Andrew Gross, Caroline Gross)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="circa 1850">
+               <unitdatestructured altrender="circa 1850" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1850">1850</fromdate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353652 /locations/9"
                           containerid="39002092865485"
+                          encodinganalog="archive legal"
                           id="aspace_521171af02bee4c3ddf9f78e79031735_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
@@ -666,14 +763,19 @@
                           parent="aspace_521171af02bee4c3ddf9f78e79031735_c1">22</container>
             </did>
          </c>
-         <c id="aspace_bc53bd60ee3e8ef399e87ed987196e61" level="file">
+         <c altrender="/repositories/11/archival_objects/3061923"
+            id="aspace_bc53bd60ee3e8ef399e87ed987196e61"
+            level="file">
             <did>
                <unittitle>Photographs (Council of Algonquin Indians of New England)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1923 December 13, circa 1920">
+               <unitdatestructured altrender="1923 December 13, circa 1920"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <datesingle standarddate="1923-12-13">1923 December 13, circa 1920</datesingle>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353652 /locations/9"
                           containerid="39002092865485"
+                          encodinganalog="archive legal"
                           id="aspace_bc53bd60ee3e8ef399e87ed987196e61_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
@@ -682,14 +784,17 @@
                           parent="aspace_bc53bd60ee3e8ef399e87ed987196e61_c1">23</container>
             </did>
          </c>
-         <c id="aspace_cd683f5af42f96aab8dd3bd0ad8d7dea" level="file">
+         <c altrender="/repositories/11/archival_objects/3061924"
+            id="aspace_cd683f5af42f96aab8dd3bd0ad8d7dea"
+            level="file">
             <did>
                <unittitle>Photographs (Perry family)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="circa 1860">
+               <unitdatestructured altrender="circa 1860" label="creation" unitdatetype="inclusive">
                   <datesingle standarddate="1860">circa 1860</datesingle>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353652 /locations/9"
                           containerid="39002092865485"
+                          encodinganalog="archive legal"
                           id="aspace_cd683f5af42f96aab8dd3bd0ad8d7dea_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
@@ -698,17 +803,22 @@
                           parent="aspace_cd683f5af42f96aab8dd3bd0ad8d7dea_c1">24</container>
             </did>
          </c>
-         <c id="aspace_4607a7c42a47b5899ec0d0631688f02f" level="file">
+         <c altrender="/repositories/11/archival_objects/3061925"
+            id="aspace_4607a7c42a47b5899ec0d0631688f02f"
+            level="file">
             <did>
                <unittitle>Photographs (Perry family)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1943-1947, undated">
+               <unitdatestructured altrender="1943-1947, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1943">1943</fromdate>
                      <todate standarddate="1947">1947</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353652 /locations/9"
                           containerid="39002092865485"
+                          encodinganalog="archive legal"
                           id="aspace_4607a7c42a47b5899ec0d0631688f02f_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
@@ -717,17 +827,20 @@
                           parent="aspace_4607a7c42a47b5899ec0d0631688f02f_c1">25</container>
             </did>
          </c>
-         <c id="aspace_810ecda43571891649e11e4b14caf651" level="file">
+         <c altrender="/repositories/11/archival_objects/3061926"
+            id="aspace_810ecda43571891649e11e4b14caf651"
+            level="file">
             <did>
                <unittitle>Photographs (Perry family)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1950">
+               <unitdatestructured altrender="1950" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1950">1950</fromdate>
                      <todate standarddate="1950">1950</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353652 /locations/9"
                           containerid="39002092865485"
+                          encodinganalog="archive legal"
                           id="aspace_810ecda43571891649e11e4b14caf651_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
@@ -736,17 +849,20 @@
                           parent="aspace_810ecda43571891649e11e4b14caf651_c1">26</container>
             </did>
          </c>
-         <c id="aspace_92e31a1c5b5131ee4918a68ea2442de2" level="file">
+         <c altrender="/repositories/11/archival_objects/3061927"
+            id="aspace_92e31a1c5b5131ee4918a68ea2442de2"
+            level="file">
             <did>
                <unittitle>Photographs (Perry family)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1952, undated">
+               <unitdatestructured altrender="1952, undated" label="other" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1952">1952</fromdate>
                      <todate standarddate="1952">1952</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353652 /locations/9"
                           containerid="39002092865485"
+                          encodinganalog="archive legal"
                           id="aspace_92e31a1c5b5131ee4918a68ea2442de2_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
@@ -755,17 +871,20 @@
                           parent="aspace_92e31a1c5b5131ee4918a68ea2442de2_c1">27</container>
             </did>
          </c>
-         <c id="aspace_556ce336b04b73f08593de1c79e36b43" level="file">
+         <c altrender="/repositories/11/archival_objects/3061928"
+            id="aspace_556ce336b04b73f08593de1c79e36b43"
+            level="file">
             <did>
                <unittitle>Photographs (Perry family)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1952, undated">
+               <unitdatestructured altrender="1952, undated" label="other" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1952">1952</fromdate>
                      <todate standarddate="1952">1952</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353652 /locations/9"
                           containerid="39002092865485"
+                          encodinganalog="archive legal"
                           id="aspace_556ce336b04b73f08593de1c79e36b43_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
@@ -774,14 +893,17 @@
                           parent="aspace_556ce336b04b73f08593de1c79e36b43_c1">28</container>
             </did>
          </c>
-         <c id="aspace_c37f6c17f3414475bc000e2394dc0f55" level="file">
+         <c altrender="/repositories/11/archival_objects/3061987"
+            id="aspace_c37f6c17f3414475bc000e2394dc0f55"
+            level="file">
             <did>
                <unittitle>Photographs (unidentified family portrait)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="circa 1900">
+               <unitdatestructured altrender="circa 1900" label="creation" unitdatetype="inclusive">
                   <datesingle standarddate="1900">circa 1900</datesingle>
                </unitdatestructured>
-               <container altrender="flat box (14d 1h 18w)"
+               <container altrender="/repositories/11/top_containers/358735 /locations/9"
                           containerid="39002099201148"
+                          encodinganalog="flat box (14d 1h 18w)"
                           id="aspace_c37f6c17f3414475bc000e2394dc0f55_c1"
                           label="Mixed Materials"
                           localtype="box">6</container>
@@ -790,17 +912,20 @@
                           parent="aspace_c37f6c17f3414475bc000e2394dc0f55_c1">45</container>
             </did>
          </c>
-         <c id="aspace_2f369918d78fdc9bc19572cfd445b51e" level="file">
+         <c altrender="/repositories/11/archival_objects/3061929"
+            id="aspace_2f369918d78fdc9bc19572cfd445b51e"
+            level="file">
             <did>
                <unittitle>Photographs (unidentified portraits)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="circa 1860">
+               <unitdatestructured altrender="circa 1860" label="other" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1860">1860</fromdate>
                      <todate standarddate="1860">1860</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="card box (4d 6h 8w)"
+               <container altrender="/repositories/11/top_containers/358733 /locations/4051"
                           containerid="39002092866301"
+                          encodinganalog="card box (4d 6h 8w)"
                           id="aspace_2f369918d78fdc9bc19572cfd445b51e_c1"
                           label="Mixed Materials"
                           localtype="box">4</container>
@@ -809,14 +934,17 @@
                           parent="aspace_2f369918d78fdc9bc19572cfd445b51e_c1">42</container>
             </did>
          </c>
-         <c id="aspace_8b40c8586df41cf860199d1f8aab839e" level="file">
+         <c altrender="/repositories/11/archival_objects/3061988"
+            id="aspace_8b40c8586df41cf860199d1f8aab839e"
+            level="file">
             <did>
                <unittitle>Police constable certificate (George Farrow)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1931 March 23">
+               <unitdatestructured altrender="1931 March 23" label="creation" unitdatetype="inclusive">
                   <datesingle standarddate="1931-03-23">1931 March 23</datesingle>
                </unitdatestructured>
-               <container altrender="flat box (14d 1h 18w)"
+               <container altrender="/repositories/11/top_containers/358735 /locations/9"
                           containerid="39002099201148"
+                          encodinganalog="flat box (14d 1h 18w)"
                           id="aspace_8b40c8586df41cf860199d1f8aab839e_c1"
                           label="Mixed Materials"
                           localtype="box">6</container>
@@ -825,17 +953,20 @@
                           parent="aspace_8b40c8586df41cf860199d1f8aab839e_c1">46</container>
             </did>
          </c>
-         <c id="aspace_7bf719f0f9256bbc659b7533cddb0d15" level="file">
+         <c altrender="/repositories/11/archival_objects/3061930"
+            id="aspace_7bf719f0f9256bbc659b7533cddb0d15"
+            level="file">
             <did>
                <unittitle>Pow wow notices</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1923-1932">
+               <unitdatestructured altrender="1923-1932" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1923">1923</fromdate>
                      <todate standarddate="1932">1932</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353653 /locations/9"
                           containerid="39002092865493"
+                          encodinganalog="archive legal"
                           id="aspace_7bf719f0f9256bbc659b7533cddb0d15_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
@@ -844,17 +975,20 @@
                           parent="aspace_7bf719f0f9256bbc659b7533cddb0d15_c1">29</container>
             </did>
          </c>
-         <c id="aspace_70f2a64ca2499a2ee6c3a6c9d32394f1" level="file">
+         <c altrender="/repositories/11/archival_objects/3061931"
+            id="aspace_70f2a64ca2499a2ee6c3a6c9d32394f1"
+            level="file">
             <did>
                <unittitle>Printed materials</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1934, undated">
+               <unitdatestructured altrender="1934, undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1934">1934</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353653 /locations/9"
                           containerid="39002092865493"
+                          encodinganalog="archive legal"
                           id="aspace_70f2a64ca2499a2ee6c3a6c9d32394f1_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
@@ -863,14 +997,19 @@
                           parent="aspace_70f2a64ca2499a2ee6c3a6c9d32394f1_c1">30</container>
             </did>
          </c>
-         <c id="aspace_1cb002a05fb954f84d3453818aab807b" level="file">
+         <c altrender="/repositories/11/archival_objects/3061975"
+            id="aspace_1cb002a05fb954f84d3453818aab807b"
+            level="file">
             <did>
                <unittitle>Research files on Fayerweather family</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="circa 2017 July">
+               <unitdatestructured altrender="circa 2017 July"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <datesingle standarddate="2017-07">circa 2017 July</datesingle>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353653 /locations/9"
                           containerid="39002092865493"
+                          encodinganalog="archive legal"
                           id="aspace_1cb002a05fb954f84d3453818aab807b_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
@@ -879,17 +1018,22 @@
                           parent="aspace_1cb002a05fb954f84d3453818aab807b_c1">31</container>
             </did>
          </c>
-         <c id="aspace_07490e27830f3a87d62e52237d7cd2f2" level="file">
+         <c altrender="/repositories/11/archival_objects/3061976"
+            id="aspace_07490e27830f3a87d62e52237d7cd2f2"
+            level="file">
             <did>
-               <unittitle>Scrapbook (7 folders)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="circa 1920s-1980s">
+               <unittitle>Scrapbook</unittitle>
+               <unitdatestructured altrender="circa 1920s-1980s"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1920">1920</fromdate>
                      <todate standarddate="1989">1989</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353653 /locations/9"
                           containerid="39002092865493"
+                          encodinganalog="archive legal"
                           id="aspace_07490e27830f3a87d62e52237d7cd2f2_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
@@ -898,17 +1042,22 @@
                           parent="aspace_07490e27830f3a87d62e52237d7cd2f2_c1">32-38</container>
             </did>
          </c>
-         <c id="aspace_10f66891cd25fbb82db0b42e482d1855" level="file">
+         <c altrender="/repositories/11/archival_objects/3061973"
+            id="aspace_10f66891cd25fbb82db0b42e482d1855"
+            level="file">
             <did>
                <unittitle>Treasurer's records</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1907-1950, undated">
+               <unitdatestructured altrender="1907-1950, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1907">1907</fromdate>
                      <todate standarddate="1950">1950</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353653 /locations/9"
                           containerid="39002092865493"
+                          encodinganalog="archive legal"
                           id="aspace_10f66891cd25fbb82db0b42e482d1855_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
@@ -917,17 +1066,22 @@
                           parent="aspace_10f66891cd25fbb82db0b42e482d1855_c1">39</container>
             </did>
          </c>
-         <c id="aspace_6c84debc393a154a7d680e6df42b7c33" level="file">
+         <c altrender="/repositories/11/archival_objects/3061974"
+            id="aspace_6c84debc393a154a7d680e6df42b7c33"
+            level="file">
             <did>
                <unittitle>Treasurer's records</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1920-1925, undated">
+               <unitdatestructured altrender="1920-1925, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1920">1920</fromdate>
                      <todate standarddate="1925">1925</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353653 /locations/9"
                           containerid="39002092865493"
+                          encodinganalog="archive legal"
                           id="aspace_6c84debc393a154a7d680e6df42b7c33_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
@@ -936,17 +1090,22 @@
                           parent="aspace_6c84debc393a154a7d680e6df42b7c33_c1">40</container>
             </did>
          </c>
-         <c id="aspace_ad86fe27ad93060488d1d30302f9112b" level="file">
+         <c altrender="/repositories/11/archival_objects/3062041"
+            id="aspace_ad86fe27ad93060488d1d30302f9112b"
+            level="file">
             <did>
                <unittitle>Miscellaneous certificates and papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1930-1937, undated">
+               <unitdatestructured altrender="1930-1937, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1930">1930</fromdate>
                      <todate standarddate="1937">1937</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/11/top_containers/353653 /locations/9"
                           containerid="39002092865493"
+                          encodinganalog="archive legal"
                           id="aspace_ad86fe27ad93060488d1d30302f9112b_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
