@@ -2918,6 +2918,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0410.xml](12190.xml) | mssa.ru.0410 | RU 410 | Arbovirus Research Unit, Department of Epidemiology and Public Health, Yale University, records | 
  [mssa.ru.1179.xml](12210.xml) | mssa.ru.1179 | RU 1179 | McDougal Graduate Student Center, Yale University, records | 
  [mssa.ms.2110.xml](12223.xml) | mssa.ms.2110 | MS 2110 | National Institute of Social Sciences records | 
- [mssa.ru.1180.xml](12366.xml) | mssa.ru.1180 | RU 1180 | Department of Philosophy, Yale University, records | 
  [mssa.ru.1181.xml](12471.xml) | mssa.ru.1181 | RU 1181 | Latinx student life at Yale records | 
 
