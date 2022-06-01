@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/beinecke.curtius ">beinecke.curtius</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/beinecke.curtius ">beinecke.curtius</recordid>
+      <otherrecordid localtype="BIB">3981999</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Ernst Curtius Papers
@@ -31,6 +33,14 @@
             <date>2013 December</date>
             <num>GEN MSS 1025</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This finding aid, which is compliant with the Yale EAD Best Practice Guidelines, Version 1.0., has a MARC record in Yale's ILS with the following bib number: <num localtype="Orbis-bib">3981999</num>.</p>
+            </controlnote>
+            <controlnote localtype="offsite">
+               <p>Boxes: 1-6</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency countrycode="US">
@@ -38,8 +48,11 @@
          <agencyname>Beinecke Rare Book and Manuscript Library</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -49,7 +62,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -58,14 +71,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-19T03:33:05+00:00</eventdatetime>
+            <eventdatetime>2022-06-01T03:34:14+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday August 19, 2020 at 03:33</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday June  1, 2022 at 03:34</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/11/resources/523" level="collection">
       <did>
          <unittitle>Ernst Curtius Papers</unittitle>
          <unitid>GEN MSS 1025</unitid>
@@ -74,203 +87,254 @@
                <part>Beinecke Rare Book and Manuscript Library</part>
             </corpname>
          </repository>
-    
+         <langmaterial>
+            <language langcode="ger">German</language>
+            <descriptivenote>
+               <p>Chiefly in German; some materials are in Greek or Latin.</p>
+            </descriptivenote>
+         </langmaterial>
          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
             <quantity>2.51</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(6 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="circa 1830s-1896">
+         <unitdatestructured altrender="circa 1830s-1896"
+                             label="creation"
+                             unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1830">1830</fromdate>
                <todate standarddate="1896">1896</todate>
             </daterange>
          </unitdatestructured>
-         <unitdatestructured unitdatetype="bulk">
+         <unitdatestructured label="creation" unitdatetype="bulk">
             <daterange>
                <fromdate standarddate="1860">1860</fromdate>
                <todate standarddate="1896">1896</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_eb3d111c49182d76bae872f14298a0c8">Papers relating to the history and archaeology of ancient Greece and Rome, including autograph manuscript notes and lectures, clippings of writings by Curtius, and clippings of reviews of his writings, circa 1830s-1890s; albumen photographs, drawings, and printed and manuscript maps documenting archaeological excavations in Olympia and other sites in Greece, circa 1850s-1890s; and a few autograph letters, signed, to Curtius from unidentified correspondents, 1860s-1880s.</abstract>
-         <langmaterial id="aspace_f1447edab30950cb68e633fcd8df89af">
-            <language>Chiefly in German; some materials are in Greek or Latin.</language>
-         </langmaterial>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n87120087" source="naf">
-               <part>Curtius, Ernst, 1814-1896</part>
+               <part localtype="agent_person">Curtius, Ernst, 1814-1896</part>
             </persname>
          </origination>
-    
       </did>
       <bioghist id="aspace_421735121b654c2cb62ea632ac8ac0b8">
          <head>Ernst Curtius (1814-1896)</head>
-         <p>German archaeologist and historian; author of Griechische Geschichte (Berlin: Weidmannsche Buchhandlung, 1857-1867).</p>  
+         <p>German archaeologist and historian; author of Griechische Geschichte (Berlin: Weidmannsche Buchhandlung, 1857-1867).</p>
       </bioghist>
       <accessrestrict id="aspace_052a85df97e4cb8bde7d78f2251a8552">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <acqinfo id="aspace_53aa81d4308d47f3f12b8a12fa682ed4">
          <head>Immediate Source of Acquisition</head>
          <p>Two bound volumes, "Attica" and "Platons Leben; Aristotles Leben": gift of Joshua M. Sears (Yale 1877), 1896.
-Other papers: source unknown.</p>  
+Other papers: source unknown.</p>
       </acqinfo>
       <prefercite id="aspace_c875787919f873eb97c5c73f1857ebd4">
          <head>Preferred Citation</head>
-         <p>Ernst Curtius Papers. General Collection, Beinecke Rare Book and Manuscript Library, Yale University.</p>  
+         <p>Ernst Curtius Papers. General Collection, Beinecke Rare Book and Manuscript Library, Yale University.</p>
       </prefercite>
       <processinfo id="aspace_8d78cfaffdedca65b4096a6e2afca626">
          <head>Processing Information</head>
-         <p>This collection consists of materials formerly classed as MS Vault Shelves Curtius, MS Vault Curtius, Z111 121, and Z111 O171. In 2013, the collection received a baseline level of processing, including rehousing and minimal organization. Most folder titles were transcribed from original portfolios, while some were assigned by Library staff. Labels and annotations on original portfolios were photocopied, and most original portfolios were discarded.  Folder titles were not verified against contents.</p>  
+         <p>This collection consists of materials formerly classed as MS Vault Shelves Curtius, MS Vault Curtius, Z111 121, and Z111 O171. In 2013, the collection received a baseline level of processing, including rehousing and minimal organization. Most folder titles were transcribed from original portfolios, while some were assigned by Library staff. Labels and annotations on original portfolios were photocopied, and most original portfolios were discarded.  Folder titles were not verified against contents.</p>
       </processinfo>
       <scopecontent id="aspace_6009834a0497796da4ba861dc38a64a9">
          <head>Scope and Contents</head>
-         <p>Papers relating to the history and archaeology of ancient Greece and Rome, including autograph manuscript notes and lectures, clippings of writings by Curtius, and clippings of reviews of his writings, circa 1830s-1890s; albumen photographs, drawings, and printed and manuscript maps documenting archaeological excavations in Olympia and other sites in Greece, circa 1850s-1890s; and a few autograph letters, signed, to Curtius from unidentified correspondents, 1860s-1880s.</p>  
+         <p>Papers relating to the history and archaeology of ancient Greece and Rome, including autograph manuscript notes and lectures, clippings of writings by Curtius, and clippings of reviews of his writings, circa 1830s-1890s; albumen photographs, drawings, and printed and manuscript maps documenting archaeological excavations in Olympia and other sites in Greece, circa 1850s-1890s; and a few autograph letters, signed, to Curtius from unidentified correspondents, 1860s-1880s.</p>
       </scopecontent>
       <controlaccess>
          <subject source="local">
-            <part>Archaeologists -- Germany</part>
+            <part localtype="topical">Archaeologists</part>
+            <part localtype="geographic">Germany</part>
          </subject>
          <subject source="local">
-            <part>Archaeology -- Greece</part>
+            <part localtype="topical">Archaeology</part>
+            <part localtype="geographic">Greece</part>
          </subject>
          <subject source="local">
-            <part>Archaeology -- Italy</part>
+            <part localtype="topical">Archaeology</part>
+            <part localtype="geographic">Italy</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh2008105653"
                   source="lcsh">
-            <part>Historians -- Germany</part>
+            <part localtype="topical">Historians</part>
+            <part localtype="geographic">Germany</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85057037"
                    source="lcsh">
-            <part>Greece -- Antiquities</part>
+            <part localtype="geographic">Greece</part>
+            <part localtype="topical">Antiquities</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85057073"
                    source="lcsh">
-            <part>Greece -- History</part>
+            <part localtype="geographic">Greece</part>
+            <part localtype="topical">History</part>
          </geogname>
          <geogname source="local">
-            <part>Olympia (Greece : Ancient sanctuary) -- Antiquities</part>
+            <part localtype="geographic">Olympia (Greece : Ancient sanctuary)</part>
+            <part localtype="topical">Antiquities</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85115088"
                    source="lcsh">
-            <part>Rome -- Antiquities</part>
+            <part localtype="geographic">Rome</part>
+            <part localtype="topical">Antiquities</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85115108"
                    source="lcsh">
-            <part>Rome -- History</part>
+            <part localtype="geographic">Rome</part>
+            <part localtype="topical">History</part>
          </geogname>
          <genreform source="local">
-            <part>Albumen prints -- Greece -- 19th century</part>
+            <part localtype="genre_form">Albumen prints</part>
+            <part localtype="geographic">Greece</part>
+            <part localtype="temporal">19th century</part>
          </genreform>
          <genreform source="local">
-            <part>Drawings (visual works) -- Greece -- 19th century</part>
+            <part localtype="genre_form">Drawings (visual works)</part>
+            <part localtype="geographic">Greece</part>
+            <part localtype="temporal">19th century</part>
          </genreform>
          <genreform source="local">
-            <part>Maps (documents) -- Greece -- 19th century</part>
+            <part localtype="genre_form">Maps (documents)</part>
+            <part localtype="geographic">Greece</part>
+            <part localtype="temporal">19th century</part>
          </genreform>
          <genreform source="local">
-            <part>Photographs -- Greece -- 19th century</part>
+            <part localtype="genre_form">Photographs</part>
+            <part localtype="geographic">Greece</part>
+            <part localtype="temporal">19th century</part>
          </genreform>
          <occupation source="local">
-            <part>Archaeologists -- Germany -- 19th century</part>
+            <part localtype="occupation">Archaeologists</part>
+            <part localtype="geographic">Germany</part>
+            <part localtype="temporal">19th century</part>
          </occupation>
          <occupation source="local">
-            <part>Historians -- Germany -- 19th century</part>
+            <part localtype="occupation">Historians</part>
+            <part localtype="geographic">Germany</part>
+            <part localtype="temporal">19th century</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/n87120087" source="naf">
-            <part>Curtius, Ernst, 1814-1896</part>
+            <part localtype="agent_person">Curtius, Ernst, 1814-1896</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Curtius, Ernst, 1814-1896 (Griechische Geschichte)</part>
+            <part localtype="agent_person">Curtius, Ernst, 1814-1896 (Griechische Geschichte)</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref1" level="file">
+         <c altrender="/repositories/11/archival_objects/169361"
+            id="ref1"
+            level="file">
             <did>
                <unittitle>"Alte Geographie: Kleinasia."  Notes and maps</unittitle>
-               <container containerid="39002091335472"
+               <container altrender="/repositories/11/top_containers/16313 /locations/9"
+                          containerid="39002091335472"
                           id="aspace_ref1_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref1_c2" localtype="folder" parent="aspace_ref1_c1">1-4</container>
             </did>
          </c>
-         <c id="ref2" level="file">
+         <c altrender="/repositories/11/archival_objects/169362"
+            id="ref2"
+            level="file">
             <did>
                <unittitle>"Olympia." Photographs, maps, and notes</unittitle>
-               <container containerid="39002091335472"
+               <container altrender="/repositories/11/top_containers/16313 /locations/9"
+                          containerid="39002091335472"
                           id="aspace_ref2_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref2_c2" localtype="folder" parent="aspace_ref2_c1">5-11</container>
             </did>
          </c>
-         <c id="ref3" level="file">
+         <c altrender="/repositories/11/archival_objects/169363"
+            id="ref3"
+            level="file">
             <did>
                <unittitle>"Antiquitates Romanae."  Notes</unittitle>
-               <container containerid="39002091335480"
+               <container altrender="/repositories/11/top_containers/16314 /locations/9"
+                          containerid="39002091335480"
                           id="aspace_ref3_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref3_c2" localtype="folder" parent="aspace_ref3_c1">12-17</container>
             </did>
          </c>
-         <c id="ref4" level="file">
+         <c altrender="/repositories/11/archival_objects/169364"
+            id="ref4"
+            level="file">
             <did>
                <unittitle>"Quellenkunde."  Notes</unittitle>
-               <container containerid="39002091335480"
+               <container altrender="/repositories/11/top_containers/16314 /locations/9"
+                          containerid="39002091335480"
                           id="aspace_ref4_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref4_c2" localtype="folder" parent="aspace_ref4_c1">18-23</container>
             </did>
          </c>
-         <c id="ref5" level="file">
+         <c altrender="/repositories/11/archival_objects/169365"
+            id="ref5"
+            level="file">
             <did>
                <unittitle>"Archäologie: Einleitung. Architektur Tektonik. Thon, Metall, Holz, Stein." Notes and clippings</unittitle>
-               <container containerid="39002091335498"
+               <container altrender="/repositories/11/top_containers/16315 /locations/9"
+                          containerid="39002091335498"
                           id="aspace_ref5_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
                <container id="aspace_ref5_c2" localtype="folder" parent="aspace_ref5_c1">24-30</container>
             </did>
          </c>
-         <c id="ref6" level="file">
+         <c altrender="/repositories/11/archival_objects/169366"
+            id="ref6"
+            level="file">
             <did>
                <unittitle>"Die Kunst in Rom." Notes, clippings, drawings, and photographs</unittitle>
-               <container containerid="39002091335498"
+               <container altrender="/repositories/11/top_containers/16315 /locations/9"
+                          containerid="39002091335498"
                           id="aspace_ref6_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
                <container id="aspace_ref6_c2" localtype="folder" parent="aspace_ref6_c1">31-33</container>
             </did>
          </c>
-         <c id="ref8" level="file">
+         <c altrender="/repositories/11/archival_objects/169367"
+            id="ref8"
+            level="file">
             <did>
                <unittitle>"Hellenismus."  Notes</unittitle>
-               <container containerid="39002091335498"
+               <container altrender="/repositories/11/top_containers/16315 /locations/9"
+                          containerid="39002091335498"
                           id="aspace_ref8_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
                <container id="aspace_ref8_c2" localtype="folder" parent="aspace_ref8_c1">34-36</container>
             </did>
          </c>
-         <c id="ref9" level="file">
+         <c altrender="/repositories/11/archival_objects/169368"
+            id="ref9"
+            level="file">
             <did>
                <unittitle>"Attika."  Notes, drafts, drawings, and maps</unittitle>
-               <container containerid="39002091335506"
+               <container altrender="/repositories/11/top_containers/16316 /locations/9"
+                          containerid="39002091335506"
                           id="aspace_ref9_c1"
                           label="Mixed Materials"
                           localtype="box">4</container>
                <container id="aspace_ref9_c2" localtype="folder" parent="aspace_ref9_c1">37-42</container>
             </did>
          </c>
-         <c id="ref10" level="file">
+         <c altrender="/repositories/11/archival_objects/169369"
+            id="ref10"
+            level="file">
             <did>
                <unittitle>"Attica."  Notes in bound volume</unittitle>
-               <container containerid="39002091335506"
+               <container altrender="/repositories/11/top_containers/16316 /locations/9"
+                          containerid="39002091335506"
                           id="aspace_ref10_c1"
                           label="Mixed Materials"
                           localtype="box">4</container>
@@ -285,16 +349,19 @@ Other papers: source unknown.</p>
                <p>Gift of Joshua M. Sears (Yale 1877), 1896.</p>
             </acqinfo>
          </c>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/11/archival_objects/169370"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>"Platons Leben; Aristotles Leben." Lecture notes in bound volume</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="circa 1836">
+               <unitdatestructured altrender="circa 1836" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1836">1836</fromdate>
                      <todate standarddate="1836">1836</todate>
                   </daterange>
                </unitdatestructured>
-               <container containerid="39002091335506"
+               <container altrender="/repositories/11/top_containers/16316 /locations/9"
+                          containerid="39002091335506"
                           id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">4</container>
@@ -309,55 +376,74 @@ Other papers: source unknown.</p>
                <p>Title from preliminary page</p>
             </scopecontent>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/11/archival_objects/169371"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Reviews of writings by Ernst Curtius.  Clippings</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1840s-1896, undated">
+               <unitdatestructured altrender="1840s-1896, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1840">1840</fromdate>
                      <todate standarddate="1896">1896</todate>
                   </daterange>
                </unitdatestructured>
-               <langmaterial id="aspace_ef53e9212a8e8dde7f727f91775cf604">
-                  <language>Most in German.</language>
+               <langmaterial>
+                  <language/>
+                  <descriptivenote>
+                     <p>Most in German.</p>
+                  </descriptivenote>
                </langmaterial>
-               <container containerid="39002091335506"
+               <container altrender="/repositories/11/top_containers/16316 /locations/9"
+                          containerid="39002091335506"
                           id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">4</container>
                <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">45-47</container>
             </did>
          </c>
-         <c id="ref36" level="file">
+         <c altrender="/repositories/11/archival_objects/169372"
+            id="ref36"
+            level="file">
             <did>
                <unittitle>Reviews of writings by Ernst Curtius.  Clippings</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1840s-1896, undated">
+               <unitdatestructured altrender="1840s-1896, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1840">1840</fromdate>
                      <todate standarddate="1896">1896</todate>
                   </daterange>
                </unitdatestructured>
-               <container containerid="39002091335514"
+               <container altrender="/repositories/11/top_containers/16317 /locations/9"
+                          containerid="39002091335514"
                           id="aspace_ref36_c1"
                           label="Mixed Materials"
                           localtype="box">5</container>
                <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">48-52</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/11/archival_objects/169373"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Other papers. Notes, clippings, drawings,  maps, correspondence, and photographs</unittitle>
-               <container containerid="39002091335514"
+               <container altrender="/repositories/11/top_containers/16317 /locations/9"
+                          containerid="39002091335514"
                           id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">5</container>
                <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">53-64</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/11/archival_objects/169374"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Card file: citations of writings by others</unittitle>
-               <container containerid="39002099449408"
+               <container altrender="/repositories/11/top_containers/16318 /locations/9"
+                          containerid="39002099449408"
                           id="aspace_ref17_c1"
                           label="Mixed Materials"
                           localtype="box">6</container>

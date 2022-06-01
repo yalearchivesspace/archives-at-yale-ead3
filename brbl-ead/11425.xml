@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/beinecke.hlscott">beinecke.hlscott</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/beinecke.hlscott">beinecke.hlscott</recordid>
+      <otherrecordid localtype="BIB">14064270</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Horace L. Scott Papers </titleproper>
@@ -30,6 +32,14 @@
             <date>April 2019</date>
             <num>WA MSS S-3642</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This finding aid, which is compliant with theYale EAD Best Practice Guidelines, Version 1.0, has a MARC record in Yale's ILS with the following bib number: <num localtype="Orbis-bib">14064270</num>.</p>
+            </controlnote>
+            <controlnote localtype="offsite">
+               <p>Boxes: 1-4</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency countrycode="US">
@@ -37,8 +47,11 @@
          <agencyname>Beinecke Rare Book and Manuscript Library</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -48,7 +61,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -57,14 +70,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-19T05:34:38+00:00</eventdatetime>
+            <eventdatetime>2022-06-01T05:36:49+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday August 19, 2020 at 05:34</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday June  1, 2022 at 05:36</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/11/resources/11425" level="collection">
       <did>
          <unittitle>Horace L. Scott papers</unittitle>
          <unitid>WA MSS S-3642</unitid>
@@ -81,158 +94,181 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(4 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1905-1939">
+         <unitdatestructured altrender="1905-1939" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1905">1905</fromdate>
                <todate standarddate="1939">1939</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_56f700589c3d2b7e785de83cac428702">Photographs, typescript reports, and other documents of Horace L. Scott as civil engineer for the United States Reclamation Service. Includes 240 photographs and 12 postcards in 3 photograph albums; 20 loose photographs and 2 loose postcards; 4 typescript reports with 69 photographs and 36 blueprints for St. Mary's Canal bound in, produced by the United States Department of the Interior; 3 printed maps of United States Reclamation Service projects and 3 printed topographical folding maps of Montana; 2 pamphlets produced by the Great Northern Railway Company; and other printed materials. The collection documents the Milk River Project, a project which called for a system of dams, canals, and reservoirs stretching across Montana with the purpose of creating 120,000 arable acres along the Milk River. Photographs depict the irrigation project works, Glacier National Park, the Blackfeet Indian Reservation and Siksikaitsitapi people, and the Flathead Indian Reservation and members of the Bitterroot Salish, Kootenai, and Pend d'Oreilles tribes. Also included are Scott's resume, list of references, and notebook from Rensselaer Polytechnic Institute, circa 1909-1926.</abstract>
-    
-         <origination label="creator">
+         <origination label="Source">
+            <corpname relator="bsl" rules="local" source="local">
+               <part localtype="agent_corporate_entity">William Reese Co.</part>
+            </corpname>
+         </origination>
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n2002072623"
                       relator="com"
                       source="naf">
-               <part>Scott, Horace L., 1885-</part>
+               <part localtype="agent_person">Scott, Horace L., 1885-</part>
             </persname>
          </origination>
       </did>
       <accessrestrict id="aspace_f8709b9d9f115a583bc7c57fa078b668">
          <head>Conditions Governing Access</head>
-         <p>This collection is open for research.</p>  
+         <p>This collection is open for research.</p>
       </accessrestrict>
       <acqinfo id="aspace_105fdd8279e3188574c996ed6d0504f4">
          <head>Immediate Source of Acquisition</head>
-         <p>Purchased from William Reese Co. on the Frederick W. and Carrie S. Beinecke Fund for Western Americana, 2017.</p>  
+         <p>Purchased from William Reese Co. on the Frederick W. and Carrie S. Beinecke Fund for Western Americana, 2017.</p>
       </acqinfo>
       <arrangement id="aspace_d560dc18e716776c6d10c642d65e7e44">
          <head>Arrangement</head>
-         <p>Organized into five series: I. Milk River Project Reports, 1913-1915. II. Milk River Project Photographs and Postcards, circa 1909-1931, undated. III. Printed Materials, 1909-1913. IV. Maps, 1905-1908. V. Personal Papers, circa 1909-1939.</p>  
+         <p>Organized into five series: I. Milk River Project Reports, 1913-1915. II. Milk River Project Photographs and Postcards, circa 1909-1931, undated. III. Printed Materials, 1909-1913. IV. Maps, 1905-1908. V. Personal Papers, circa 1909-1939.</p>
       </arrangement>
       <bioghist id="aspace_ca0004896377af3270a92c4fd7f7c7fe">
          <head>Horace L. Scott</head>
-         <p>Horace L. Scott (1885-1970) of Brattleboro, Vermont, received a degree in civil engineering from Rensselaer Polytechnic Institute in 1909. Following his graduation, he was hired as a junior engineer for the United States Reclamation Service and moved to Montana to work on the St. Mary Storage Unit of the Milk River Project in Glacier National Park and the Blackfeet Indian Reservation. In 1915, Scott was promoted to assistant engineer. He returned to Vermont in 1925, working as an engineer for the Sherman Construction Company in Bellows Falls.</p>  
+         <p>Horace L. Scott (1885-1970) of Brattleboro, Vermont, received a degree in civil engineering from Rensselaer Polytechnic Institute in 1909. Following his graduation, he was hired as a junior engineer for the United States Reclamation Service and moved to Montana to work on the St. Mary Storage Unit of the Milk River Project in Glacier National Park and the Blackfeet Indian Reservation. In 1915, Scott was promoted to assistant engineer. He returned to Vermont in 1925, working as an engineer for the Sherman Construction Company in Bellows Falls.</p>
       </bioghist>
       <prefercite id="aspace_54ddff25bc417fa27fde4373916809aa">
          <head>Preferred Citation</head>
-         <p>Horace L. Scott Papers. Yale Collection of Western Americana, Beinecke Rare Book and Manuscript Library.</p>  
+         <p>Horace L. Scott Papers. Yale Collection of Western Americana, Beinecke Rare Book and Manuscript Library.</p>
       </prefercite>
       <processinfo id="aspace_19d13b820aaf7084ddcb02633ede5908">
          <head>Processing Information</head>
          <p>Collections are processed to a variety of levels, depending on the work necessary to make them usable, their perceived research value, the availability of staff, competing priorities, and whether or not further accruals are expected.  The library attempts to provide a basic level of preservation and access for all collections, and does more extensive processing of higher priority collections as time and resources permit.</p>
-         <p>These materials have been arranged and described according to national and local standards.  For more information, please refer to the Beinecke Manuscript Unit Processing Manual.</p>  
+         <p>These materials have been arranged and described according to national and local standards.  For more information, please refer to the Beinecke Manuscript Unit Processing Manual.</p>
       </processinfo>
       <scopecontent id="aspace_bb1648340592281e267e5b266edee4c5">
          <head>Scope and Contents</head>
-         <p>The collection documents the Milk River Project, a project which called for a system of dams, canals, and reservoirs stretching across Montana with the purpose of creating 120,000 arable acres along the Milk River. Photographs, typescript reports, and printed materials accumulated by Horace L. Scott while civil service engineer for the United States Reclamation Service track the irrigation project conditionally approved by the Secretary of the Interior on 1903 March 14 and authorized on 1905 March 25. Includes 240 photographs and 12 postcards (many with captions) in 3 photograph albums and 20 loose photographs and 2 loose postcards depicting the irrigation project works, Glacier National Park, the Blackfeet Indian Reservation and Siksikaitsitapi people, and the Flathead Indian Reservation and members of the Bitterroot Salish, Kootenai, and Pend d'Oreilles tribes. Also present are 4 typescript reports with 69 photographs and 36 blueprints for St. Mary's Canal bound in, produced by the United States Department of the Interior; 3 printed maps of United States Reclamation Service projects and 3 printed topographical folding maps of Montana; 2 pamphlets produced by the Great Northern Railway Company; and other printed articles and booklets relating to the Milk River Project and Montana. Included in the collection are Scott's resume, list of references, and notebook from Rensselaer Polytechnic Institute, circa 1909-1926.</p>  
+         <p>The collection documents the Milk River Project, a project which called for a system of dams, canals, and reservoirs stretching across Montana with the purpose of creating 120,000 arable acres along the Milk River. Photographs, typescript reports, and printed materials accumulated by Horace L. Scott while civil service engineer for the United States Reclamation Service track the irrigation project conditionally approved by the Secretary of the Interior on 1903 March 14 and authorized on 1905 March 25. Includes 240 photographs and 12 postcards (many with captions) in 3 photograph albums and 20 loose photographs and 2 loose postcards depicting the irrigation project works, Glacier National Park, the Blackfeet Indian Reservation and Siksikaitsitapi people, and the Flathead Indian Reservation and members of the Bitterroot Salish, Kootenai, and Pend d'Oreilles tribes. Also present are 4 typescript reports with 69 photographs and 36 blueprints for St. Mary's Canal bound in, produced by the United States Department of the Interior; 3 printed maps of United States Reclamation Service projects and 3 printed topographical folding maps of Montana; 2 pamphlets produced by the Great Northern Railway Company; and other printed articles and booklets relating to the Milk River Project and Montana. Included in the collection are Scott's resume, list of references, and notebook from Rensselaer Polytechnic Institute, circa 1909-1926.</p>
       </scopecontent>
       <userestrict id="aspace_f28009f497dbd799c54b0ab1b21f44e0">
          <head>Conditions Governing Use</head>
-         <p>The Horace L. Scott Papers is the physical property of the Beinecke Rare Book and Manuscript Library, Yale University. Literary rights, including copyright, belong to the authors or their legal heirs and assigns. For further information, consult the appropriate curator.</p>  
+         <p>The Horace L. Scott Papers is the physical property of the Beinecke Rare Book and Manuscript Library, Yale University. Literary rights, including copyright, belong to the authors or their legal heirs and assigns. For further information, consult the appropriate curator.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/names/nr2001012007.html"
                   source="lcsh">
-            <part>Milk River Project (U.S.)</part>
+            <part localtype="topical">Milk River Project (U.S.)</part>
          </subject>
          <subject source="lcsh">
-            <part>United States -- Department of the Interior</part>
+            <part localtype="topical">United States</part>
+            <part localtype="topical">Department of the Interior</part>
          </subject>
          <occupation source="lcsh">
-            <part>Civil engineers -- Montana -- 20th Century</part>
+            <part localtype="occupation">Civil engineers</part>
+            <part localtype="geographic">Montana</part>
+            <part localtype="temporal">20th Century</part>
          </occupation>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85065483"
                   source="lcsh">
-            <part>Indians of North America -- Montana</part>
+            <part localtype="topical">Indians of North America</part>
+            <part localtype="geographic">Montana</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85065485"
                   source="lcsh">
-            <part>Indian reservations -- Montana</part>
+            <part localtype="topical">Indian reservations</part>
+            <part localtype="geographic">Montana</part>
          </subject>
          <subject source="lcsh">
-            <part>Irrigation -- Montana</part>
+            <part localtype="topical">Irrigation</part>
+            <part localtype="geographic">Montana</part>
          </subject>
          <subject source="lcsh">
-            <part>Salish Indians -- Montana</part>
+            <part localtype="topical">Salish Indians</part>
+            <part localtype="geographic">Montana</part>
          </subject>
          <subject source="local">
-            <part>Siksika Indians -- Montana</part>
+            <part localtype="topical">Siksika Indians</part>
+            <part localtype="geographic">Montana</part>
          </subject>
          <subject source="lcsh">
-            <part>Water development projects -- Milk River (Mont. and Alta.)</part>
+            <part localtype="topical">Water development projects</part>
+            <part localtype="geographic">Milk River (Mont. and Alta.)</part>
          </subject>
          <subject source="lcsh">
-            <part>Water resources development -- Montana</part>
+            <part localtype="topical">Water resources development</part>
+            <part localtype="geographic">Montana</part>
          </subject>
          <geogname source="lcsh">
-            <part>Blackfeet Indian Reservation (Mont.) -- Pictorial works</part>
+            <part localtype="geographic">Blackfeet Indian Reservation (Mont.)</part>
+            <part localtype="genre_form">Pictorial works</part>
          </geogname>
          <geogname source="lcsh">
-            <part>Flathead Indian Reservation (Mont.) -- Pictorial works</part>
+            <part localtype="geographic">Flathead Indian Reservation (Mont.)</part>
+            <part localtype="genre_form">Pictorial works</part>
          </geogname>
          <geogname source="lcsh">
-            <part>Glacier National Park (Mont.) -- Pictorial works</part>
+            <part localtype="geographic">Glacier National Park (Mont.)</part>
+            <part localtype="genre_form">Pictorial works</part>
          </geogname>
          <geogname source="lcsh">
-            <part>Milk River (Mont. and Alta.) -- Pictorial works</part>
+            <part localtype="geographic">Milk River (Mont. and Alta.)</part>
+            <part localtype="genre_form">Pictorial works</part>
          </geogname>
          <geogname source="local">
-            <part>Montana -- Pictorial works</part>
+            <part localtype="geographic">Montana</part>
+            <part localtype="genre_form">Pictorial works</part>
          </geogname>
          <geogname source="lcsh">
-            <part>Saint Mary River (Mont. and Alta.) -- Pictorial works</part>
+            <part localtype="geographic">Saint Mary River (Mont. and Alta.)</part>
+            <part localtype="genre_form">Pictorial works</part>
          </geogname>
          <genreform source="local">
-            <part>Blueprints</part>
+            <part localtype="genre_form">Blueprints</part>
          </genreform>
          <subject source="local">
-            <part>Engineering drawings</part>
+            <part localtype="topical">Engineering drawings</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85080858"
                   source="lcsh">
-            <part>Maps</part>
+            <part localtype="topical">Maps</part>
          </subject>
          <genreform identifier="http://vocab.getty.edu/aat/300220572" source="aat">
-            <part>Pamphlets</part>
+            <part localtype="genre_form">Pamphlets</part>
          </genreform>
          <genreform identifier="http://vocab.getty.edu/aat/300026695" source="aat">
-            <part>Photograph albums</part>
+            <part localtype="genre_form">Photograph albums</part>
          </genreform>
          <genreform identifier="http://vocab.getty.edu/aat/300046300" source="aat">
-            <part>Photographs</part>
+            <part localtype="genre_form">Photographs</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85105462"
                   source="lcsh">
-            <part>Postcards</part>
+            <part localtype="topical">Postcards</part>
          </subject>
          <subject source="lcsh">
-            <part>Great Northern Railway Company (U.S.)</part>
+            <part localtype="topical">Great Northern Railway Company (U.S.)</part>
          </subject>
          <subject source="lcsh">
-            <part>United States Reclamation Service</part>
+            <part localtype="topical">United States Reclamation Service</part>
          </subject>
          <genreform identifier="http://id.loc.gov/authorities/genreForms/gf2011026697.html"
                     source="lcgft">
-            <part>Topographical maps</part>
+            <part localtype="genre_form">Topographical maps</part>
          </genreform>
          <subject source="lcsh">
-            <part>Kootenai Indians -- Montana</part>
+            <part localtype="topical">Kootenai Indians</part>
+            <part localtype="geographic">Montana</part>
          </subject>
-         <corpname relator="bsl" rules="local" source="local">
-            <part>William Reese Co.</part>
-         </corpname>
       </controlaccess>
       <dsc>
-         <c id="aspace_8c6f1a4effc989c1d61c824c7be731af" level="series">
+         <c altrender="/repositories/11/archival_objects/2978700"
+            id="aspace_8c6f1a4effc989c1d61c824c7be731af"
+            level="series">
             <did>
                <unittitle>Milk River Project Reports</unittitle>
                <unitid>Series I</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1913-1915">
+               <unitdatestructured altrender="1913-1915" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1913">1913</fromdate>
                      <todate standarddate="1915">1915</todate>
                   </daterange>
                </unitdatestructured>
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
             </did>
             <arrangement id="aspace_dfe8f789b0627bbe681db6d1c17b8d68">
                <head>Arrangement</head>
@@ -242,14 +278,17 @@
                <head>Scope and Contents</head>
                <p>Series I contains 4 typescript reports with 69 photographs and 36 blueprints for St. Mary's Canal bound in, produced by the United States Department of the Interior as part of the Milk River Project. There is a table of government equipment and number of employees also produced by the Department of the Interior and loose manuscript notes.</p>
             </scopecontent>
-            <c id="aspace_0029a613067a97850cae5662389ab7de" level="file">
+            <c altrender="/repositories/11/archival_objects/2978750"
+               id="aspace_0029a613067a97850cae5662389ab7de"
+               level="file">
                <did>
                   <unittitle>Table of government equipment and number of employees</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1912 June 30">
+                  <unitdatestructured altrender="1912 June 30" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1912-06-30">1912 June 30</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (16d 1h 20w)"
+                  <container altrender="/repositories/11/top_containers/350714 /locations/9"
                              containerid="39002099200538"
+                             encodinganalog="flat box (16d 1h 20w)"
                              id="aspace_0029a613067a97850cae5662389ab7de_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
@@ -258,14 +297,17 @@
                              parent="aspace_0029a613067a97850cae5662389ab7de_c1">20</container>
                </did>
             </c>
-            <c id="aspace_792ff44c0faeae4f63e4d81228c39750" level="file">
+            <c altrender="/repositories/11/archival_objects/2978720"
+               id="aspace_792ff44c0faeae4f63e4d81228c39750"
+               level="file">
                <did>
                   <unittitle>St. Mary storage feature of Milk River Project: Feature history, volume 5</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1913">
+                  <unitdatestructured altrender="1913" label="publication" unitdatetype="inclusive">
                      <datesingle standarddate="1913">1913</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350710 /locations/9"
                              containerid="39002092865139"
+                             encodinganalog="archive legal"
                              id="aspace_792ff44c0faeae4f63e4d81228c39750_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -274,14 +316,17 @@
                              parent="aspace_792ff44c0faeae4f63e4d81228c39750_c1">1</container>
                </did>
             </c>
-            <c id="aspace_b12b147fe2def6b1dd91a3f2eddab71b" level="file">
+            <c altrender="/repositories/11/archival_objects/2978725"
+               id="aspace_b12b147fe2def6b1dd91a3f2eddab71b"
+               level="file">
                <did>
                   <unittitle>St. Mary storage feature of Milk River Project: Feature history, volume 12</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1915">
+                  <unitdatestructured altrender="1915" label="publication" unitdatetype="inclusive">
                      <datesingle standarddate="1915">1915</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350710 /locations/9"
                              containerid="39002092865139"
+                             encodinganalog="archive legal"
                              id="aspace_b12b147fe2def6b1dd91a3f2eddab71b_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -290,14 +335,17 @@
                              parent="aspace_b12b147fe2def6b1dd91a3f2eddab71b_c1">2</container>
                </did>
             </c>
-            <c id="aspace_78605e4513e3e987ef0149c3f2a49504" level="file">
+            <c altrender="/repositories/11/archival_objects/2978727"
+               id="aspace_78605e4513e3e987ef0149c3f2a49504"
+               level="file">
                <did>
                   <unittitle>St. Mary storage feature of Milk River Project: Feature history, volume 13</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1915">
+                  <unitdatestructured altrender="1915" label="publication" unitdatetype="inclusive">
                      <datesingle standarddate="1915">1915</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350710 /locations/9"
                              containerid="39002092865139"
+                             encodinganalog="archive legal"
                              id="aspace_78605e4513e3e987ef0149c3f2a49504_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -306,14 +354,17 @@
                              parent="aspace_78605e4513e3e987ef0149c3f2a49504_c1">3</container>
                </did>
             </c>
-            <c id="aspace_0ef5ced171e3fecc8cc98d6b2e87f244" level="file">
+            <c altrender="/repositories/11/archival_objects/2978730"
+               id="aspace_0ef5ced171e3fecc8cc98d6b2e87f244"
+               level="file">
                <did>
                   <unittitle>St. Mary storage feature of Milk River Project: Feature history, volume 14</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1915">
+                  <unitdatestructured altrender="1915" label="publication" unitdatetype="inclusive">
                      <datesingle standarddate="1915">1915</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350710 /locations/9"
                              containerid="39002092865139"
+                             encodinganalog="archive legal"
                              id="aspace_0ef5ced171e3fecc8cc98d6b2e87f244_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -322,16 +373,21 @@
                              parent="aspace_0ef5ced171e3fecc8cc98d6b2e87f244_c1">4</container>
                </did>
             </c>
-            <c id="aspace_53b31024b0548a3504d10a2976856545" level="file">
+            <c altrender="/repositories/11/archival_objects/2978731"
+               id="aspace_53b31024b0548a3504d10a2976856545"
+               level="file">
                <did>
                   <unittitle>Loose notes</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1909 January, undated">
+                  <unitdatestructured altrender="1909 January, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
-                        <fromdate standarddate="1909-01">1909-01</fromdate>
+                        <fromdate standarddate="1909-01">1909 January</fromdate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350710 /locations/9"
                              containerid="39002092865139"
+                             encodinganalog="archive legal"
                              id="aspace_53b31024b0548a3504d10a2976856545_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -341,16 +397,23 @@
                </did>
             </c>
          </c>
-         <c id="aspace_1255e252daa15fb299c9ac0a86fe8df8" level="series">
+         <c altrender="/repositories/11/archival_objects/2978701"
+            id="aspace_1255e252daa15fb299c9ac0a86fe8df8"
+            level="series">
             <did>
                <unittitle>Milk River Project Photographs and Postcards</unittitle>
                <unitid>Series II</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="circa 1909-1931, undated">
+               <unitdatestructured altrender="circa 1909-1931, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1909">1909</fromdate>
                      <todate standarddate="1931">1931</todate>
                   </daterange>
                </unitdatestructured>
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
             </did>
             <arrangement id="aspace_13774855f14e2eb95d5d751a4a562a1c">
                <head>Arrangement</head>
@@ -360,17 +423,22 @@
                <head>Scope and Contents</head>
                <p>Series II contains 240 photographs and 12 postcards, many with captions, in 3 photograph albums and 20 loose photographs and 2 loose postcards depicting the irrigation project works of the Milk River Project, Glacier National Park, the Blackfeet Indian Reservation and Siksikaitsitapi people, and the Flathead Indian Reservation and members of the Bitterroot Salish, Kootenai, and Pend d'Oreilles tribes. Accompanied by 2 manuscript notebooks identifying 74 photographs.</p>
             </scopecontent>
-            <c id="aspace_b1c5a38a95c963b24e00c74d3c81f148" level="file">
+            <c altrender="/repositories/11/archival_objects/2978737"
+               id="aspace_b1c5a38a95c963b24e00c74d3c81f148"
+               level="file">
                <did>
                   <unittitle>Photograph album</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="circa 1909-1912">
+                  <unitdatestructured altrender="circa 1909-1912"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1909">1909</fromdate>
                         <todate standarddate="1912">1912</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350712 /locations/9"
                              containerid="39002092865147"
+                             encodinganalog="archive legal"
                              id="aspace_b1c5a38a95c963b24e00c74d3c81f148_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
@@ -379,17 +447,22 @@
                              parent="aspace_b1c5a38a95c963b24e00c74d3c81f148_c1">6</container>
                </did>
             </c>
-            <c id="aspace_44b7e5a3b202dcf2221b2249bcbf179b" level="file">
+            <c altrender="/repositories/11/archival_objects/2978739"
+               id="aspace_44b7e5a3b202dcf2221b2249bcbf179b"
+               level="file">
                <did>
                   <unittitle>Photograph album</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="circa 1911-1912">
+                  <unitdatestructured altrender="circa 1911-1912"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1911">1911</fromdate>
                         <todate standarddate="1912">1912</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350712 /locations/9"
                              containerid="39002092865147"
+                             encodinganalog="archive legal"
                              id="aspace_44b7e5a3b202dcf2221b2249bcbf179b_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
@@ -398,17 +471,22 @@
                              parent="aspace_44b7e5a3b202dcf2221b2249bcbf179b_c1">7</container>
                </did>
             </c>
-            <c id="aspace_c3b2178eb7e714a5cbf1a3215b58a2a6" level="file">
+            <c altrender="/repositories/11/archival_objects/2978741"
+               id="aspace_c3b2178eb7e714a5cbf1a3215b58a2a6"
+               level="file">
                <did>
                   <unittitle>Photograph and postcard album</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1915-1917, undated">
+                  <unitdatestructured altrender="1915-1917, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1915">1915</fromdate>
                         <todate standarddate="1917">1917</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350712 /locations/9"
                              containerid="39002092865147"
+                             encodinganalog="archive legal"
                              id="aspace_c3b2178eb7e714a5cbf1a3215b58a2a6_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
@@ -417,16 +495,19 @@
                              parent="aspace_c3b2178eb7e714a5cbf1a3215b58a2a6_c1">8</container>
                </did>
             </c>
-            <c id="aspace_5807870c31777c0442b99911b860587c" level="file">
+            <c altrender="/repositories/11/archival_objects/2978743"
+               id="aspace_5807870c31777c0442b99911b860587c"
+               level="file">
                <did>
                   <unittitle>Postcards</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1915, undated">
+                  <unitdatestructured altrender="1915, undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1915">1915</fromdate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350712 /locations/9"
                              containerid="39002092865147"
+                             encodinganalog="archive legal"
                              id="aspace_5807870c31777c0442b99911b860587c_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
@@ -435,17 +516,22 @@
                              parent="aspace_5807870c31777c0442b99911b860587c_c1">9</container>
                </did>
             </c>
-            <c id="aspace_5d5933ac4c26c5432205eb0f82aa3bd6" level="file">
+            <c altrender="/repositories/11/archival_objects/2978742"
+               id="aspace_5d5933ac4c26c5432205eb0f82aa3bd6"
+               level="file">
                <did>
                   <unittitle>Photographs</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1923-1931, undated">
+                  <unitdatestructured altrender="1923-1931, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1923">1923</fromdate>
                         <todate standarddate="1931">1931</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350712 /locations/9"
                              containerid="39002092865147"
+                             encodinganalog="archive legal"
                              id="aspace_5d5933ac4c26c5432205eb0f82aa3bd6_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
@@ -454,14 +540,17 @@
                              parent="aspace_5d5933ac4c26c5432205eb0f82aa3bd6_c1">10</container>
                </did>
             </c>
-            <c id="aspace_c65a5872b62a34be7426d4406f9e87cb" level="file">
+            <c altrender="/repositories/11/archival_objects/2978744"
+               id="aspace_c65a5872b62a34be7426d4406f9e87cb"
+               level="file">
                <did>
                   <unittitle>Notebook with partial list of photographs</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1910, undated">
+                  <unitdatestructured altrender="1910, undated" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1910">1910, undated</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350712 /locations/9"
                              containerid="39002092865147"
+                             encodinganalog="archive legal"
                              id="aspace_c65a5872b62a34be7426d4406f9e87cb_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
@@ -471,16 +560,23 @@
                </did>
             </c>
          </c>
-         <c id="aspace_e900a0604334703b3eea82bd4e5e1ca0" level="series">
+         <c altrender="/repositories/11/archival_objects/2978702"
+            id="aspace_e900a0604334703b3eea82bd4e5e1ca0"
+            level="series">
             <did>
                <unittitle>Printed Materials</unittitle>
                <unitid>Series III</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1909-1913 March 25, undated">
+               <unitdatestructured altrender="1909-1913 March 25, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1909">1909</fromdate>
-                     <todate standarddate="1913-03-25">1913-03-25</todate>
+                     <todate standarddate="1913-03-25">1913 March 25</todate>
                   </daterange>
                </unitdatestructured>
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
             </did>
             <arrangement id="aspace_9dbab26a22cb0b6e38fee5e820f548a8">
                <head>Arrangement</head>
@@ -490,14 +586,19 @@
                <head>Scope and Contents</head>
                <p>Series III contains 2 booklets and 1 pamphlet on the Milk River Project, produced by the United States Department of the Interior; 1 booklet on irrigation bonds produced by Trowbridge &amp; Niver Co.; 3 articles on Montana; and 2 promotional pamphlets produced by the Great Northern Railway Company. There is also a newspaper article on Helena, Montana, as a tourist destination.</p>
             </scopecontent>
-            <c id="aspace_cadcfc3c5da8724cf94e7578f768f521" level="file">
+            <c altrender="/repositories/11/archival_objects/2978746"
+               id="aspace_cadcfc3c5da8724cf94e7578f768f521"
+               level="file">
                <did>
                   <unittitle>Advertisement, proposal and specifications: Milk River Project, Montana</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1913 March 25">
+                  <unitdatestructured altrender="1913 March 25"
+                                      label="publication"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1913-03-25">1913 March 25</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350713 /locations/9"
                              containerid="39002092865154"
+                             encodinganalog="archive legal"
                              id="aspace_cadcfc3c5da8724cf94e7578f768f521_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -506,12 +607,15 @@
                              parent="aspace_cadcfc3c5da8724cf94e7578f768f521_c1">12</container>
                </did>
             </c>
-            <c id="aspace_704b15be69aa2526d040b06d62581f47" level="file">
+            <c altrender="/repositories/11/archival_objects/2978748"
+               id="aspace_704b15be69aa2526d040b06d62581f47"
+               level="file">
                <did>
                   <unittitle>Articles and booklets about Montana</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="publication" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/11/top_containers/350713 /locations/9"
                              containerid="39002092865154"
+                             encodinganalog="archive legal"
                              id="aspace_704b15be69aa2526d040b06d62581f47_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -520,14 +624,17 @@
                              parent="aspace_704b15be69aa2526d040b06d62581f47_c1">13</container>
                </did>
             </c>
-            <c id="aspace_81c80ddb9c937f61da3709f35fe34636" level="file">
+            <c altrender="/repositories/11/archival_objects/2978747"
+               id="aspace_81c80ddb9c937f61da3709f35fe34636"
+               level="file">
                <did>
                   <unittitle>Irrigation bonds based on the world's greatest industry</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1909">
+                  <unitdatestructured altrender="1909" label="publication" unitdatetype="inclusive">
                      <datesingle standarddate="1909">1909</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350713 /locations/9"
                              containerid="39002092865154"
+                             encodinganalog="archive legal"
                              id="aspace_81c80ddb9c937f61da3709f35fe34636_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -536,14 +643,19 @@
                              parent="aspace_81c80ddb9c937f61da3709f35fe34636_c1">14</container>
                </did>
             </c>
-            <c id="aspace_eb4f612d26810360ac49f7891dd1a67a" level="file">
+            <c altrender="/repositories/11/archival_objects/2978745"
+               id="aspace_eb4f612d26810360ac49f7891dd1a67a"
+               level="file">
                <did>
                   <unittitle>Laws and regulations relating to the reclamation of arid lands by the United States</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1913 February 6">
+                  <unitdatestructured altrender="1913 February 6"
+                                      label="publication"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1913-02-06">1913 February 6</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350713 /locations/9"
                              containerid="39002092865154"
+                             encodinganalog="archive legal"
                              id="aspace_eb4f612d26810360ac49f7891dd1a67a_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -552,12 +664,15 @@
                              parent="aspace_eb4f612d26810360ac49f7891dd1a67a_c1">15</container>
                </did>
             </c>
-            <c id="aspace_84908c00f739a8c5f53d1993259dfb46" level="file">
+            <c altrender="/repositories/11/archival_objects/2978758"
+               id="aspace_84908c00f739a8c5f53d1993259dfb46"
+               level="file">
                <did>
                   <unittitle>Newspaper article on Helena, Montana</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="flat box (16d 1h 20w)"
+                  <unitdate label="publication" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/11/top_containers/350714 /locations/9"
                              containerid="39002099200538"
+                             encodinganalog="flat box (16d 1h 20w)"
                              id="aspace_84908c00f739a8c5f53d1993259dfb46_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
@@ -566,17 +681,20 @@
                              parent="aspace_84908c00f739a8c5f53d1993259dfb46_c1">21</container>
                </did>
             </c>
-            <c id="aspace_3ec26cf42c65ace38387c188282a7b20" level="file">
+            <c altrender="/repositories/11/archival_objects/2978749"
+               id="aspace_3ec26cf42c65ace38387c188282a7b20"
+               level="file">
                <did>
                   <unittitle>Pamphlets</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1909">
+                  <unitdatestructured altrender="1909" label="publication" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1909">1909</fromdate>
                         <todate standarddate="1909">1909</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350713 /locations/9"
                              containerid="39002092865154"
+                             encodinganalog="archive legal"
                              id="aspace_3ec26cf42c65ace38387c188282a7b20_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -586,16 +704,23 @@
                </did>
             </c>
          </c>
-         <c id="aspace_39c6f4bffc8ae22c358594490beac435" level="series">
+         <c altrender="/repositories/11/archival_objects/2978703"
+            id="aspace_39c6f4bffc8ae22c358594490beac435"
+            level="series">
             <did>
                <unittitle>Maps</unittitle>
                <unitid>Series IV</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1905 July-1908 August">
+               <unitdatestructured altrender="1905 July-1908 August"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
-                     <fromdate standarddate="1905-07">1905-07</fromdate>
-                     <todate standarddate="1908-08">1908-08</todate>
+                     <fromdate standarddate="1905-07">1905 July</fromdate>
+                     <todate standarddate="1908-08">1908 August</todate>
                   </daterange>
                </unitdatestructured>
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
             </did>
             <scopecontent id="aspace_8b8eb2b790489f9bb683fa37e1857e97">
                <head>Scope and Contents</head>
@@ -605,14 +730,17 @@
                <head>Scope and Contents</head>
                <p>Series IV contains maps of the Shoshone Project in Wyoming, and the Huntley Project and Milk River Drainage Basin in Montana produced by the United States Reclamation Service. There are also 3 topographical folding maps of Montana as part of a United States geological survey.</p>
             </scopecontent>
-            <c id="aspace_22262fd24b7473ebbbbc03b723ab8295" level="file">
+            <c altrender="/repositories/11/archival_objects/2978753"
+               id="aspace_22262fd24b7473ebbbbc03b723ab8295"
+               level="file">
                <did>
                   <unittitle>Topographical folding maps of Montana</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1905 July">
+                  <unitdatestructured altrender="1905 July" label="publication" unitdatetype="inclusive">
                      <datesingle standarddate="1905-07">1905 July</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (16d 1h 20w)"
+                  <container altrender="/repositories/11/top_containers/350714 /locations/9"
                              containerid="39002099200538"
+                             encodinganalog="flat box (16d 1h 20w)"
                              id="aspace_22262fd24b7473ebbbbc03b723ab8295_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
@@ -621,17 +749,22 @@
                              parent="aspace_22262fd24b7473ebbbbc03b723ab8295_c1">22</container>
                </did>
             </c>
-            <c id="aspace_580953953d86fab7eb39ff714b75d6c6" level="file">
+            <c altrender="/repositories/11/archival_objects/2978755"
+               id="aspace_580953953d86fab7eb39ff714b75d6c6"
+               level="file">
                <did>
                   <unittitle>United States Reclamation Service project maps</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1906 April-1908 August">
+                  <unitdatestructured altrender="1906 April-1908 August"
+                                      label="publication"
+                                      unitdatetype="inclusive">
                      <daterange>
-                        <fromdate standarddate="1906-04">1906-04</fromdate>
-                        <todate standarddate="1908-08">1908-08</todate>
+                        <fromdate standarddate="1906-04">1906 April</fromdate>
+                        <todate standarddate="1908-08">1908 August</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="flat box (16d 1h 20w)"
+                  <container altrender="/repositories/11/top_containers/350714 /locations/9"
                              containerid="39002099200538"
+                             encodinganalog="flat box (16d 1h 20w)"
                              id="aspace_580953953d86fab7eb39ff714b75d6c6_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
@@ -641,16 +774,23 @@
                </did>
             </c>
          </c>
-         <c id="aspace_b53d3cf205cf7eab1c62c9429473ceca" level="series">
+         <c altrender="/repositories/11/archival_objects/2978699"
+            id="aspace_b53d3cf205cf7eab1c62c9429473ceca"
+            level="series">
             <did>
                <unittitle>Personal Papers</unittitle>
                <unitid>Series V</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="circa 1909-1939">
+               <unitdatestructured altrender="circa 1909-1939"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1909">1909</fromdate>
                      <todate standarddate="1939">1939</todate>
                   </daterange>
                </unitdatestructured>
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
             </did>
             <arrangement id="aspace_c02b95da772d6ba7f4708980b484c101">
                <head>Arrangement</head>
@@ -660,14 +800,17 @@
                <head>Scope and Contents</head>
                <p>Series V contains Horace L. Scott's resume, list of references, and notebook from Rensselaer Polytechnic Institute. There is also a bank letter addressed to Scott and 2 postcards from Scott to his sister, Minnie Ann Scott.</p>
             </scopecontent>
-            <c id="aspace_86bb63914ca687344832e238c83b0061" level="file">
+            <c altrender="/repositories/11/archival_objects/2978711"
+               id="aspace_86bb63914ca687344832e238c83b0061"
+               level="file">
                <did>
                   <unittitle>Notebook</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="circa 1909">
+                  <unitdatestructured altrender="circa 1909" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1909">circa 1909</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350713 /locations/9"
                              containerid="39002092865154"
+                             encodinganalog="archive legal"
                              id="aspace_86bb63914ca687344832e238c83b0061_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -676,17 +819,22 @@
                              parent="aspace_86bb63914ca687344832e238c83b0061_c1">17</container>
                </did>
             </c>
-            <c id="aspace_9543b986123cf8f1e7520eb91ef4d375" level="file">
+            <c altrender="/repositories/11/archival_objects/2978708"
+               id="aspace_9543b986123cf8f1e7520eb91ef4d375"
+               level="file">
                <did>
                   <unittitle>References, experience statements, and letter of introduction</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1909 August-1926 May">
+                  <unitdatestructured altrender="1909 August-1926 May"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
-                        <fromdate standarddate="1909-08">1909-08</fromdate>
-                        <todate standarddate="1926-05">1926-05</todate>
+                        <fromdate standarddate="1909-08">1909 August</fromdate>
+                        <todate standarddate="1926-05">1926 May</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350713 /locations/9"
                              containerid="39002092865154"
+                             encodinganalog="archive legal"
                              id="aspace_9543b986123cf8f1e7520eb91ef4d375_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -695,17 +843,20 @@
                              parent="aspace_9543b986123cf8f1e7520eb91ef4d375_c1">18</container>
                </did>
             </c>
-            <c id="aspace_2abbed0f43736b0a2398ff1cc6c88526" level="file">
+            <c altrender="/repositories/11/archival_objects/2978716"
+               id="aspace_2abbed0f43736b0a2398ff1cc6c88526"
+               level="file">
                <did>
                   <unittitle>Letters and postcards</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1912-1939">
+                  <unitdatestructured altrender="1912-1939" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1912">1912</fromdate>
                         <todate standarddate="1939">1939</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/11/top_containers/350713 /locations/9"
                              containerid="39002092865154"
+                             encodinganalog="archive legal"
                              id="aspace_2abbed0f43736b0a2398ff1cc6c88526_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>

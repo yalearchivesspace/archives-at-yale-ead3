@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/beinecke.williamscp">beinecke.williamscp</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/beinecke.williamscp">beinecke.williamscp</recordid>
+      <otherrecordid localtype="BIB">12284481</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Chauncey Pratt Williams Writings on the American West
@@ -31,6 +33,14 @@
             <date>2014</date>
             <num>WA MSS S-2989</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This finding aid, which is compliant with the Yale EAD Best Practice Guidelines, Version 1.0., has a MARC record in Yale's ILS with the following bib number: <num localtype="Orbis-bib">12284481</num>.</p>
+            </controlnote>
+            <controlnote localtype="offsite">
+               <p>Boxes: 1-6</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency countrycode="US">
@@ -38,8 +48,11 @@
          <agencyname>Beinecke Rare Book and Manuscript Library</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -49,7 +62,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -58,14 +71,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-19T05:32:37+00:00</eventdatetime>
+            <eventdatetime>2022-06-01T05:35:10+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday August 19, 2020 at 05:32</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday June  1, 2022 at 05:35</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/11/resources/1352" level="collection">
       <did>
          <unittitle>Chauncey Pratt Williams Writings on the American West</unittitle>
          <unitid>WA MSS S-2989</unitid>
@@ -82,48 +95,47 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(6 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive">
+         <unitdatestructured label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1916">1916</fromdate>
                <todate standarddate="1953">1953</todate>
             </daterange>
          </unitdatestructured>
-         <abstract id="aspace_bd03704387d310357a50bed6661fc6f2"> Writings by Chauncey Pratt Williams and others on the history of the American West. Includes research material, correspondence, manuscripts, typescripts, and published works by Williams, as well as published works by other writers. Williams' writings include works on the trappers Antoine Robidoux and Bill Williams; the United States General and United States Senator from New York Philip Schuyler; and the Western frontiersmen John Hoback and John Coulter. Also included are Western history publications, including Overland Monthly and The Old West Series.</abstract>
-         <origination label="creator">
+         <abstract id="aspace_bd03704387d310357a50bed6661fc6f2">Writings by Chauncey Pratt Williams and others on the history of the American West. Includes research material, correspondence, manuscripts, typescripts, and published works by Williams, as well as published works by other writers. Williams' writings include works on the trappers Antoine Robidoux and Bill Williams; the United States General and United States Senator from New York Philip Schuyler; and the Western frontiersmen John Hoback and John Coulter. Also included are Western history publications, including Overland Monthly and The Old West Series.</abstract>
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/nr2002024645"
                       source="naf">
-               <part>Williams, Chauncey Pratt, 1860-</part>
+               <part localtype="agent_person">Williams, Chauncey Pratt, 1860-</part>
             </persname>
          </origination>
-    
       </did>
       <arrangement id="aspace_3bb90b808f368ff6ff1f5ad13a62ecfe">
          <head>Arrangement</head>
-         <p>Organized into two series: I. Writings by Chauncey Pratt Williams, 1916-1934. II. Writings by Others, 1920-1953.</p>  
+         <p>Organized into two series: I. Writings by Chauncey Pratt Williams, 1916-1934. II. Writings by Others, 1920-1953.</p>
       </arrangement>
       <accessrestrict id="aspace_7f8e7769879363771bc5e5d1ec522f86">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_f1d8ffe6fc3e5511e57f5d5f8936636f">
          <head>Conditions Governing Use</head>
-         <p>The Chauncey Pratt Williams Writings on the American West are the physical property of the Beinecke Rare Book and Manuscript Library, Yale University. Literary rights, including copyright, belong to the authors or their legal heirs and assigns. For further information, consult the appropriate curator.</p>  
+         <p>The Chauncey Pratt Williams Writings on the American West are the physical property of the Beinecke Rare Book and Manuscript Library, Yale University. Literary rights, including copyright, belong to the authors or their legal heirs and assigns. For further information, consult the appropriate curator.</p>
       </userestrict>
       <prefercite id="aspace_042d018e8f3145f24ef246f239496528">
          <head>Preferred Citation</head>
-         <p>Chauncey Pratt Williams Writings on the American West. Yale Collection of Western Americana, Beinecke Rare Book and Manuscript Library.</p>  
+         <p>Chauncey Pratt Williams Writings on the American West. Yale Collection of Western Americana, Beinecke Rare Book and Manuscript Library.</p>
       </prefercite>
       <acqinfo id="aspace_f1517373354822ab47c369717fff9e31">
          <head>Immediate Source of Acquisition</head>
-         <p>Source unknown.</p>  
+         <p>Source unknown.</p>
       </acqinfo>
       <bioghist id="aspace_8247dc79d1295e8e90d6181b6e474527">
          <head>Biographical / Historical</head>
-         <p>Chauncey Pratt Williams (1860-circa 1936) wrote on the history of the American West and collected writings by others on the region.</p>  
+         <p>Chauncey Pratt Williams (1860-circa 1936) wrote on the history of the American West and collected writings by others on the region.</p>
       </bioghist>
       <scopecontent id="aspace_9100266d8746a4070ecc437a8a499241">
          <head>Scope and Contents</head>
-         <p>Writings by Chauncey Pratt Williams and others on the history of the American West. Includes research material, correspondence, manuscripts, typescripts, and published works by Williams, as well as published works by other writers. Williams' writings include works on the trappers Antoine Robidoux and Bill Williams; the United States General and United States Senator from New York Philip Schuyler; and the Western frontiersmen John Hoback and John Coulter. Also included are Western history publications, including Overland Monthly and The Old West Series.</p>  
+         <p>Writings by Chauncey Pratt Williams and others on the history of the American West. Includes research material, correspondence, manuscripts, typescripts, and published works by Williams, as well as published works by other writers. Williams' writings include works on the trappers Antoine Robidoux and Bill Williams; the United States General and United States Senator from New York Philip Schuyler; and the Western frontiersmen John Hoback and John Coulter. Also included are Western history publications, including Overland Monthly and The Old West Series.</p>
       </scopecontent>
       <processinfo id="aspace_22abc3c116baf56538ea03ac25d52ab4">
          <head>Processing Information</head>
@@ -131,63 +143,76 @@
          <p>This collection received a basic level of processing in 2014, including rehousing and minimal organization.</p>
          <p>Information included in the Description of Papers note and Collection Contents section is drawn from information supplied with the collection and from an initial survey of the contents. Folder titles appearing in the contents list below are often based on those provided by the creator or previous custodian. Titles have not been verified against the contents of the folders in all cases. Otherwise, folder titles are supplied by staff during initial processing.</p>
          <p>This finding aid may be updated periodically to account for new acquisitions to the collection and/or revisions in arrangement and description.</p>
-         <p>Former call number: Uncat WA MS Williams.</p>  
+         <p>Former call number: Uncat WA MS Williams.</p>
       </processinfo>
       <controlaccess>
          <subject source="local">
-            <part>French Americans -- West (U.S.)</part>
+            <part localtype="topical">French Americans</part>
+            <part localtype="geographic">West (U.S.)</part>
          </subject>
          <subject source="local">
-            <part>Fur traders -- West (U.S.) -- Biography</part>
+            <part localtype="topical">Fur traders</part>
+            <part localtype="geographic">West (U.S.)</part>
+            <part localtype="genre_form">Biography</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh2008109365"
                   source="lcsh">
-            <part>Pioneers -- West (U.S.) -- Biography</part>
+            <part localtype="topical">Pioneers</part>
+            <part localtype="geographic">West (U.S.)</part>
+            <part localtype="genre_form">Biography</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh2010116994"
                   source="lcsh">
-            <part>Trappers -- West (U.S.) -- Biography</part>
+            <part localtype="topical">Trappers</part>
+            <part localtype="geographic">West (U.S.)</part>
+            <part localtype="genre_form">Biography</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140559"
                    source="lcsh">
-            <part>United States -- Territorial expansion</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">Territorial expansion</part>
          </geogname>
          <geogname source="local">
-            <part>West (U.S.) -- Discovery and exploration</part>
+            <part localtype="geographic">West (U.S.)</part>
+            <part localtype="topical">Discovery and exploration</part>
          </geogname>
          <persname identifier="http://id.loc.gov/authorities/names/n85185055" source="naf">
-            <part>Colter, John, approximately 1775-1813</part>
+            <part localtype="agent_person">Colter, John, approximately 1775-1813</part>
          </persname>
          <persname source="local">
-            <part>Hoback, John, -1813</part>
+            <part localtype="agent_person">Hoback, John, -1813</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/nr97012851"
                    rules="aacr"
                    source="naf">
-            <part>Robidoux, Antoine, 1794-1860</part>
+            <part localtype="agent_person">Robidoux, Antoine, 1794-1860</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50004144"
                    rules="aacr"
                    source="naf">
-            <part>Schuyler, Philip John, 1733-1804</part>
+            <part localtype="agent_person">Schuyler, Philip John, 1733-1804</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/nr2002024645"
                    source="naf">
-            <part>Williams, Chauncey Pratt, 1860-</part>
+            <part localtype="agent_person">Williams, Chauncey Pratt, 1860-</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n80160480"
                    rules="aacr"
                    source="naf">
-            <part>Williams, Bill, 1787-1849</part>
+            <part localtype="agent_person">Williams, Bill, 1787-1849</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref9" level="series">
+         <c altrender="/repositories/11/archival_objects/500917"
+            id="ref9"
+            level="series">
             <did>
                <unittitle>Writings by Chauncey Pratt Williams</unittitle>
                <unitid>Series I</unitid>
             </did>
-            <c id="ref11" level="subseries">
+            <c altrender="/repositories/11/archival_objects/500918"
+               id="ref11"
+               level="subseries">
                <did>
                   <unittitle>
                      <title render="italic">
@@ -195,35 +220,43 @@
                      </title>
                   </unittitle>
                </did>
-               <c id="ref12" level="file">
+               <c altrender="/repositories/11/archival_objects/500919"
+                  id="ref12"
+                  level="file">
                   <did>
                      <unittitle>Notes, correspondence, and clippings</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1916">1916</fromdate>
                            <todate standarddate="1932">1932</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002104797460"
+                     <container altrender="/repositories/11/top_containers/65049 /locations/9"
+                                containerid="39002104797460"
                                 id="aspace_ref12_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                   </did>
                </c>
-               <c id="ref13" level="file">
+               <c altrender="/repositories/11/archival_objects/500920"
+                  id="ref13"
+                  level="file">
                   <did>
                      <unittitle>Typescripts</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1934, undated">
+                     <unitdatestructured altrender="1934, undated" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1934">1934, undated</datesingle>
                      </unitdatestructured>
-                     <container containerid="39002104797460"
+                     <container altrender="/repositories/11/top_containers/65049 /locations/9"
+                                containerid="39002104797460"
                                 id="aspace_ref13_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                   </did>
                </c>
             </c>
-            <c id="ref14" level="subseries">
+            <c altrender="/repositories/11/archival_objects/500921"
+               id="ref14"
+               level="subseries">
                <did>
                   <unittitle>
                      <title render="italic">
@@ -231,108 +264,130 @@
                      </title>
                   </unittitle>
                </did>
-               <c id="ref15" level="file">
+               <c altrender="/repositories/11/archival_objects/500922"
+                  id="ref15"
+                  level="file">
                   <did>
                      <unittitle>Correspondence regarding the publication of Old Bill Williams</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>3</quantity>
                         <unittype>Folders</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1920">1920</fromdate>
                            <todate standarddate="1935">1935</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002104797460"
+                     <container altrender="/repositories/11/top_containers/65049 /locations/9"
+                                containerid="39002104797460"
                                 id="aspace_ref15_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                   </did>
                </c>
-               <c id="ref17" level="file">
+               <c altrender="/repositories/11/archival_objects/500923"
+                  id="ref17"
+                  level="file">
                   <did>
                      <unittitle>Notes and clippings</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1927">1927</fromdate>
                            <todate standarddate="1933">1933</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002104797460"
+                     <container altrender="/repositories/11/top_containers/65049 /locations/9"
+                                containerid="39002104797460"
                                 id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                   </did>
                </c>
-               <c id="ref18" level="file">
+               <c altrender="/repositories/11/archival_objects/500924"
+                  id="ref18"
+                  level="file">
                   <did>
                      <unittitle>Notes and clippings</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>3</quantity>
                         <unittype>Folders</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1927">1927</fromdate>
                            <todate standarddate="1933">1933</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002104797478"
+                     <container altrender="/repositories/11/top_containers/65050 /locations/9"
+                                containerid="39002104797478"
                                 id="aspace_ref18_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                   </did>
                </c>
-               <c id="ref19" level="file">
+               <c altrender="/repositories/11/archival_objects/500925"
+                  id="ref19"
+                  level="file">
                   <did>
                      <unittitle>Research notes</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>2</quantity>
                         <unittype>Folders</unittype>
                      </physdescstructured>
-                     <container containerid="39002104797478"
+                     <container altrender="/repositories/11/top_containers/65050 /locations/9"
+                                containerid="39002104797478"
                                 id="aspace_ref19_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                   </did>
                </c>
-               <c id="ref20" level="file">
+               <c altrender="/repositories/11/archival_objects/500926"
+                  id="ref20"
+                  level="file">
                   <did>
                      <unittitle>Typescripts</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>3</quantity>
                         <unittype>Folders</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1928, 1931, undated">
+                     <unitdatestructured altrender="1928, 1931, undated"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1928">1928</fromdate>
                            <todate standarddate="1931">1931</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002104797486"
+                     <container altrender="/repositories/11/top_containers/65051 /locations/9"
+                                containerid="39002104797486"
                                 id="aspace_ref20_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
                </c>
-               <c id="ref21" level="file">
+               <c altrender="/repositories/11/archival_objects/500927"
+                  id="ref21"
+                  level="file">
                   <did>
                      <unittitle>Lone Elk published in The Old West Series</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1935">1935</fromdate>
                            <todate standarddate="1935">1935</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002104797486"
+                     <container altrender="/repositories/11/top_containers/65051 /locations/9"
+                                containerid="39002104797486"
                                 id="aspace_ref21_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
                </c>
             </c>
-            <c id="ref22" level="subseries">
+            <c altrender="/repositories/11/archival_objects/500928"
+               id="ref22"
+               level="subseries">
                <did>
                   <unittitle>
                      <title render="italic">
@@ -340,23 +395,28 @@
                      </title>
                   </unittitle>
                </did>
-               <c id="ref23" level="file">
+               <c altrender="/repositories/11/archival_objects/500929"
+                  id="ref23"
+                  level="file">
                   <did>
                      <unittitle>Typescript</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="circa 1930">
+                     <unitdatestructured altrender="circa 1930" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1930">1930</fromdate>
                            <todate standarddate="1930">1930</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002104797494"
+                     <container altrender="/repositories/11/top_containers/65052 /locations/9"
+                                containerid="39002104797494"
                                 id="aspace_ref23_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                   </did>
                </c>
             </c>
-            <c id="ref24" level="subseries">
+            <c altrender="/repositories/11/archival_objects/500930"
+               id="ref24"
+               level="subseries">
                <did>
                   <unittitle>
                      <title render="italic">
@@ -364,23 +424,28 @@
                      </title>
                   </unittitle>
                </did>
-               <c id="ref25" level="file">
+               <c altrender="/repositories/11/archival_objects/500931"
+                  id="ref25"
+                  level="file">
                   <did>
                      <unittitle>Notes and correspondence</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1926">1926</fromdate>
                            <todate standarddate="1926">1926</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002104797494"
+                     <container altrender="/repositories/11/top_containers/65052 /locations/9"
+                                containerid="39002104797494"
                                 id="aspace_ref25_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                   </did>
                </c>
             </c>
-            <c id="ref26" level="subseries">
+            <c altrender="/repositories/11/archival_objects/500932"
+               id="ref26"
+               level="subseries">
                <did>
                   <unittitle>
                      <title render="italic">
@@ -388,46 +453,55 @@
                      </title>
                   </unittitle>
                </did>
-               <c id="ref28" level="file">
+               <c altrender="/repositories/11/archival_objects/500933"
+                  id="ref28"
+                  level="file">
                   <did>
                      <unittitle>Notes and correspondence</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1920">1920</fromdate>
                            <todate standarddate="1925">1925</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002104797494"
+                     <container altrender="/repositories/11/top_containers/65052 /locations/9"
+                                containerid="39002104797494"
                                 id="aspace_ref28_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                   </did>
                </c>
-               <c id="ref27" level="file">
+               <c altrender="/repositories/11/archival_objects/500934"
+                  id="ref27"
+                  level="file">
                   <did>
                      <unittitle>Typescripts and carbons</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1930">1930</fromdate>
                            <todate standarddate="1930">1930</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002104797494"
+                     <container altrender="/repositories/11/top_containers/65052 /locations/9"
+                                containerid="39002104797494"
                                 id="aspace_ref27_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                   </did>
                </c>
-               <c id="ref29" level="file">
+               <c altrender="/repositories/11/archival_objects/500935"
+                  id="ref29"
+                  level="file">
                   <did>
                      <unittitle>John Coulter: Discoverer of Yellowstone Park by Stallo Vinton (New York: Edward Eberstadt, 1926)</unittitle>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1926">1926</fromdate>
                            <todate standarddate="1926">1926</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002104797494"
+                     <container altrender="/repositories/11/top_containers/65052 /locations/9"
+                                containerid="39002104797494"
                                 id="aspace_ref29_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
@@ -435,64 +509,77 @@
                </c>
             </c>
          </c>
-         <c id="ref10" level="series">
+         <c altrender="/repositories/11/archival_objects/500936"
+            id="ref10"
+            level="series">
             <did>
                <unittitle>Printed Material</unittitle>
                <unitid>Series II</unitid>
             </did>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/11/archival_objects/500937"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Edward Eberstadt Americana catalogs</unittitle>
-                  <unitdatestructured unitdatetype="inclusive">
+                  <unitdatestructured label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1937">1937</fromdate>
                         <todate standarddate="1953">1953</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002104797502"
+                  <container altrender="/repositories/11/top_containers/65053 /locations/9"
+                             containerid="39002104797502"
                              id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/11/archival_objects/500938"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Kit Carson's Own Story of His Life.</part>
                      </title> Taos, New Mexico: Santa Fe New Mexican Publishing Corporation, 1926.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive">
+                  <unitdatestructured label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1926">1926</fromdate>
                         <todate standarddate="1926">1926</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002104797502"
+                  <container altrender="/repositories/11/top_containers/65053 /locations/9"
+                             containerid="39002104797502"
                              id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/11/archival_objects/500939"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>The Old West Series</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive">
+                  <unitdatestructured label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1934">1934</fromdate>
                         <todate standarddate="1936">1936</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002104797502"
+                  <container altrender="/repositories/11/top_containers/65053 /locations/9"
+                             containerid="39002104797502"
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/11/archival_objects/500940"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
@@ -501,19 +588,22 @@
                         <part>Touring Topics</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1927, 1930">
+                  <unitdatestructured altrender="1927, 1930" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1927">1927</fromdate>
                         <todate standarddate="1930">1930</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002104797502"
+                  <container altrender="/repositories/11/top_containers/65053 /locations/9"
+                             containerid="39002104797502"
                              id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/11/archival_objects/500941"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
@@ -526,19 +616,24 @@
                      <quantity>2</quantity>
                      <unittype>Folders</unittype>
                   </physdescstructured>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1920, 1925-1926">
+                  <unitdatestructured altrender="1920, 1925-1926"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1920">1920</fromdate>
                         <todate standarddate="1926">1926</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002104797502"
+                  <container altrender="/repositories/11/top_containers/65053 /locations/9"
+                             containerid="39002104797502"
                              id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/11/archival_objects/500942"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
@@ -549,19 +644,22 @@
                      <quantity>2</quantity>
                      <unittype>Folders</unittype>
                   </physdescstructured>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1926 June">
+                  <unitdatestructured altrender="1926 June" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1926">1926</fromdate>
                         <todate standarddate="1926">1926</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002104797510"
+                  <container altrender="/repositories/11/top_containers/65054 /locations/9"
+                             containerid="39002104797510"
                              id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                </did>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/11/archival_objects/500943"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>Missouri Historical Society publications, <title render="italic">
                         <part>The Colorado Magazine</part>
@@ -569,51 +667,58 @@
                         <part>Touring Topics</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive">
+                  <unitdatestructured label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1923">1923</fromdate>
                         <todate standarddate="1930">1930</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002104797510"
+                  <container altrender="/repositories/11/top_containers/65054 /locations/9"
+                             containerid="39002104797510"
                              id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/11/archival_objects/500944"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Quarterly Journal of the New York State Historical Association</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1928 October">
+                  <unitdatestructured altrender="1928 October" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1928">1928</fromdate>
                         <todate standarddate="1928">1928</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002104797510"
+                  <container altrender="/repositories/11/top_containers/65054 /locations/9"
+                             containerid="39002104797510"
                              id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/11/archival_objects/500945"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Scribners</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1927 February">
+                  <unitdatestructured altrender="1927 February" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1927">1927</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002104797510"
+                  <container altrender="/repositories/11/top_containers/65054 /locations/9"
+                             containerid="39002104797510"
                              id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
