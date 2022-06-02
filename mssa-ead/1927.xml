@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.0112">mssa.ru.0112</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.0112">mssa.ru.0112</recordid>
+      <otherrecordid localtype="BIB">4317970</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Episcopal Church at Yale Records
@@ -32,6 +34,11 @@
             <date>March 2007</date>
             <num>RU 112</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-23T08:47:19+00:00</eventdatetime>
+            <eventdatetime>2022-06-02T07:25:31+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday January 23, 2020 at 08:47</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday June  2, 2022 at 07:25</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/1927" level="collection">
       <did>
          <unittitle>Episcopal Church at Yale records</unittitle>
          <unitid>RU 112</unitid>
@@ -83,90 +93,100 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1990-1993">
+         <unitdatestructured altrender="1990-1993" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1990">1990</fromdate>
                <todate standarddate="1993">1993</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_cba153ae0e98539fc1903f5fffa06ce8">The records consist of correspondence, minutes, publications, and other materials created or received by Robert B. Meyer, Jr., as a member of the Governing Board and Development Committee of the Episcopal Church at Yale.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname rules="aacr" source="local">
-               <part>Episcopal Church at Yale</part>
+               <part localtype="agent_corporate_entity">Episcopal Church at Yale</part>
             </corpname>
          </origination>
-    
       </did>
       <odd id="aspace_3de78c0eea7d8d3d7223edc92ab232ca">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 39-B (YRG 39-B), Records documenting specific religious denominations or groups at Yale University.</p>  
+         <p>Forms part of Yale Record Group 39-B (YRG 39-B), Records documenting specific religious denominations or groups at Yale University.</p>
       </odd>
       <acqinfo id="aspace_25c32570daa483847c58198ad8bc84e0">
          <head>Immediate Source of Acquisition</head>
-         <p>The records were a gift of Robert B. Meyer, Jr., 1994.</p>  
+         <p>The records were a gift of Robert B. Meyer, Jr., 1994.</p>
       </acqinfo>
       <accessrestrict id="aspace_e752eb2a03a547f8301d0c220d37babc">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_5929e3a22501d46e31f5f90d3cff8716">
          <head>Preferred Citation</head>
-         <p>Episcopal Church at Yale Records (RU 112). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Episcopal Church at Yale Records (RU 112). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_f0ab12c27b39da909a9c76b68adbba30">
          <head>Scope and Contents</head>
-         <p>The records consist of correspondence, minutes, publications, and other materials created or received by Robert B. Meyer, Jr., as a member of the Governing Board and Development Committee of the Episcopal Church at Yale.</p>  
+         <p>The records consist of correspondence, minutes, publications, and other materials created or received by Robert B. Meyer, Jr., as a member of the Governing Board and Development Committee of the Episcopal Church at Yale.</p>
       </scopecontent>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85025778"
                   source="lcsh">
-            <part>Church work</part>
+            <part localtype="topical">Church work</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85028366"
                   source="lcsh">
-            <part>College students -- Religious life</part>
+            <part localtype="topical">College students</part>
+            <part localtype="topical">Religious life</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85141138"
                   source="lcsh">
-            <part>Universities and colleges -- Religion</part>
+            <part localtype="topical">Universities and colleges</part>
+            <part localtype="topical">Religion</part>
          </subject>
          <corpname rules="aacr" source="local">
-            <part>Episcopal Church at Yale</part>
+            <part localtype="agent_corporate_entity">Episcopal Church at Yale</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Religion</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Religion</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref8" level="series">
+         <c altrender="/repositories/12/archival_objects/781424"
+            id="ref8"
+            level="series">
             <did>
                <unittitle>Records, including correspondence, minutes and other printed material</unittitle>
                <unitid>Accession 1994-A-113</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1990-1993">
+               <unitdatestructured altrender="1990-1993" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1990">1990</fromdate>
                      <todate standarddate="1993">1993</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref9" level="file">
+            <c altrender="/repositories/12/archival_objects/781425"
+               id="ref9"
+               level="file">
                <did>
                   <unittitle>Records, including correspondence, minutes and other printed material, of the organization</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1990-1993">
+                  <unitdatestructured altrender="1990-1993" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1990">1990</fromdate>
                         <todate standarddate="1993">1993</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/90357 /locations/9"
                              containerid="39002042551052"
-                             id="d1e252"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref9_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e254" localtype="folder" parent="d1e252">1 - 2</container>
+                  <container id="aspace_ref9_c2" localtype="folder" parent="aspace_ref9_c1">1 - 2</container>
                </did>
             </c>
          </c>

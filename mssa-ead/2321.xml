@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1004">mssa.ru.1004</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1004">mssa.ru.1004</recordid>
+      <otherrecordid localtype="BIB">7437850</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the William Bunnell Norton, Class of 1925, Yale College, Photograph Collection Documenting Yale University
@@ -32,6 +34,11 @@
             <date>May 2006</date>
             <num>RU 1004</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-03-13T07:25:36+00:00</eventdatetime>
+            <eventdatetime>2022-06-02T07:39:43+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Friday March 13, 2020 at 07:25</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>May 2008</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday June  2, 2022 at 07:39</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2321" level="collection">
       <did>
          <unittitle>William Bunnell Norton, Class of 1925, Yale College, photograph collection documenting Yale University</unittitle>
          <unitid>RU 1004</unitid>
@@ -90,86 +93,100 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="circa 1922-1925">
+         <unitdatestructured altrender="circa 1922-1925"
+                             label="creation"
+                             unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1922">1922</fromdate>
                <todate standarddate="1925">1925</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_4b591da1afc337d540da08ebc5afbe06">The collection consist of photographs of William Bunnell Norton documenting the freshman gymnastics team, Skull and Bones, and Yale University buildings.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Norton, William Bunnell</part>
+               <part localtype="agent_person">Norton, William Bunnell</part>
             </persname>
          </origination>
-    
       </did>
       <odd id="aspace_ef5a4e0bd025ae3a9a761174685f1260">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 48-A (YRG 48-A), Yale pictorial records and collections.</p>  
+         <p>Forms part of Yale Record Group 48-A (YRG 48-A), Yale pictorial records and collections.</p>
       </odd>
       <acqinfo id="aspace_fd42190300056f7d25542bec7f150426">
          <head>Immediate Source of Acquisition</head>
-         <p>The materials were a gift of Richard Norton, 2005.</p>  
+         <p>The materials were a gift of Richard Norton, 2005.</p>
       </acqinfo>
       <userestrict id="aspace_fd3c0b6d35ddd32763ce1fe691b04778">
          <head>Conditions Governing Use</head>
-         <p>Copyright has not been transferred to Yale University.</p>  
+         <p>Copyright has not been transferred to Yale University.</p>
       </userestrict>
       <accessrestrict id="aspace_a918d6581de5882069e75755201c2a37">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_d72877ac09f85f1d7f026ff711fb0c2f">
          <head>Preferred Citation</head>
-         <p>William Bunnell Norton, Class of 1925, Yale College, Photograph Collection Documenting Yale University (RU 1004). Manuscripts and Archives, Yale University Library.</p>  
+         <p>William Bunnell Norton, Class of 1925, Yale College, Photograph Collection Documenting Yale University (RU 1004). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <arrangement id="aspace_c25ab87cacf70e8b2a64152c1a2223b6">
          <head>Arrangement</head>
-         <p>The items are arranged by subject.</p>  
+         <p>The items are arranged by subject.</p>
       </arrangement>
       <scopecontent id="aspace_a9b9bef4a2b354b848e1817734ab261d">
          <head>Scope and Contents</head>
-         <p>The collection consist of photographs of William Bunnell Norton documenting the freshman gymnastics team, Skull and Bones, and Yale University buildings.</p>  
+         <p>The collection consist of photographs of William Bunnell Norton documenting the freshman gymnastics team, Skull and Bones, and Yale University buildings.</p>
       </scopecontent>
       <controlaccess>
          <genreform identifier="http://vocab.getty.edu/aat/300046300" source="aat">
-            <part>Photographs</part>
+            <part localtype="genre_form">Photographs</part>
          </genreform>
          <persname source="local">
-            <part>Norton, William Bunnell</part>
+            <part localtype="agent_person">Norton, William Bunnell</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Pictorial works</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="genre_form">Pictorial works</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref9" level="series">
+         <c altrender="/repositories/12/archival_objects/787686"
+            id="ref9"
+            level="series">
             <did>
                <unittitle>Photographs</unittitle>
                <unitid>Accession 2005-A-178</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="circa 1922-1925">
+               <unitdatestructured altrender="circa 1922-1925"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1922">1922</fromdate>
                      <todate standarddate="1925">1925</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref10" level="file">
+            <c altrender="/repositories/12/archival_objects/787687"
+               id="ref10"
+               level="file">
                <did>
                   <unittitle>Photographs of the Freshman gymnastics team, Yale buildings, Skull and Bones group portrait and tomb</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="circa 1922-1925">
+                  <unitdatestructured altrender="circa 1922-1925"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="flat box (16d 1h 20w)"
+                  <container altrender="/repositories/12/top_containers/91728 /locations/9"
                              containerid="39002074973141"
-                             id="d1e265"
+                             encodinganalog="flat box (16d 1h 20w)"
+                             id="aspace_ref10_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>

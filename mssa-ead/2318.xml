@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1000">mssa.ru.1000</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1000">mssa.ru.1000</recordid>
+      <otherrecordid localtype="BIB">7182328</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Department of Music, Yale University, Records
@@ -32,6 +34,11 @@
             <date>June 2007</date>
             <num>RU 1000</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-23T11:36:57+00:00</eventdatetime>
+            <eventdatetime>2022-06-02T07:39:41+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday January 23, 2020 at 11:36</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>May 2008</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday June  2, 2022 at 07:39</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2318" level="collection">
       <did>
          <unittitle>Department of Music, Yale University, records</unittitle>
          <unitid>RU 1000</unitid>
@@ -90,195 +93,225 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(4 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1995-2004">
+         <unitdatestructured altrender="1995-2004" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1995">1995</fromdate>
                <todate standarddate="2004">2004</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_ed0e858a4e95bfb5a4be304c52575a32">The records consist of the files of the director of undergraduate studies, including correspondence, course files, syllabi, senior essays, grades, and financial records of the Yale Department of Music.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname rules="aacr" source="local">
-               <part>Yale University. Dept. of Music</part>
+               <part localtype="agent_corporate_entity">Yale University. Dept. of Music</part>
             </corpname>
          </origination>
-    
       </did>
       <odd id="aspace_e5fd2549621b155f2fbb70f505041c26">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 14-B (YRG 14-B), Records of academic departments and programs of the Yale Faculty of Arts and Sciences.</p>  
+         <p>Forms part of Yale Record Group 14-B (YRG 14-B), Records of academic departments and programs of the Yale Faculty of Arts and Sciences.</p>
       </odd>
       <acqinfo id="aspace_2872eabd73703b9f31cae901aee711bd">
          <head>Immediate Source of Acquisition</head>
-         <p>The records were transferred from the Department of Music, 2006.</p>  
+         <p>The records were transferred from the Department of Music, 2006.</p>
       </acqinfo>
       <accessrestrict id="aspace_0f7219e8f5331b15942a2a666ab45ada">
          <head>Conditions Governing Access</head>
-         <p>Access to the records is restricted. See Collection Contents for details.</p>  
+         <p>Access to the records is restricted. See Collection Contents for details.</p>
       </accessrestrict>
       <prefercite id="aspace_ea55ccab487ca0fa32efb07485394085">
          <head>Preferred Citation</head>
-         <p>Department of Music, Yale University, Records (RU 1000). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Department of Music, Yale University, Records (RU 1000). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <arrangement id="aspace_ddb783cb4763369cf0a2ea4c8125d1be">
          <head>Arrangement</head>
-         <p>The records are arranged by topic.</p>  
+         <p>The records are arranged by topic.</p>
       </arrangement>
       <bioghist id="aspace_ec715789a5fe37a987d0ccb5a1507f68">
          <head>Biographical / Historical</head>
-         <p>The Department of Music in Yale College offers undergraduate level courses in music history, theory, composition, and performance.</p>  
+         <p>The Department of Music in Yale College offers undergraduate level courses in music history, theory, composition, and performance.</p>
       </bioghist>
       <scopecontent id="aspace_43a07b77db35cd9e472ddf4e5bca231f">
          <head>Scope and Contents</head>
-         <p>The records consist of the files of the director of undergraduate studies, including correspondence, course files, syllabi, senior essays, grades, and financial records of the Yale Department of Music.</p>  
+         <p>The records consist of the files of the director of undergraduate studies, including correspondence, course files, syllabi, senior essays, grades, and financial records of the Yale Department of Music.</p>
       </scopecontent>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85088796"
                   source="lcsh">
-            <part>Music -- Instruction and study</part>
+            <part localtype="topical">Music</part>
+            <part localtype="topical">Instruction and study</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85141090"
                   source="lcsh">
-            <part>Universities and colleges -- Administration</part>
+            <part localtype="topical">Universities and colleges</part>
+            <part localtype="topical">Administration</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85141106"
                   source="lcsh">
-            <part>Universities and colleges -- Departments</part>
+            <part localtype="topical">Universities and colleges</part>
+            <part localtype="topical">Departments</part>
          </subject>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Administration</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Administration</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Curricula</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Curricula</part>
          </corpname>
          <corpname rules="aacr" source="local">
-            <part>Yale University. Dept. of Music</part>
+            <part localtype="agent_corporate_entity">Yale University. Dept. of Music</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="series">
+         <c altrender="/repositories/12/archival_objects/787673"
+            id="ref10"
+            level="series">
             <did>
                <unittitle>Director of Undergraduate Studies records</unittitle>
                <unitid>Accession 2006-A-145</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1995-2004">
+               <unitdatestructured altrender="1995-2004" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1995">1995</fromdate>
                      <todate standarddate="2004">2004</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_9e06e87750523fc3d7e90016eca93499">
+            <accessrestrict id="aspace_9e06e87750523fc3d7e90016eca93499"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2039</p>
             </accessrestrict>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/787674"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Financial records</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="2003-2004">
+                  <unitdatestructured altrender="2003-2004" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="2003">2003</fromdate>
                         <todate standarddate="2004">2004</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/91721 /locations/9"
                              containerid="39002074971475"
-                             id="d1e283"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/787675"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Pro-card records</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="2001-2004">
+                  <unitdatestructured altrender="2001-2004" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="2001">2001</fromdate>
                         <todate standarddate="2004">2004</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/91722 /locations/9"
                              containerid="39002074971483"
-                             id="d1e299"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/787676"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Financial records</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1999-2000">
+                  <unitdatestructured altrender="1999-2000" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1999">1999</fromdate>
                         <todate standarddate="2000">2000</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/91722 /locations/9"
                              containerid="39002074971483"
-                             id="d1e315"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/787677"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Payroll</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="2001-2004">
+                  <unitdatestructured altrender="2001-2004" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="2001">2001</fromdate>
                         <todate standarddate="2004">2004</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/91722 /locations/9"
                              containerid="39002074971483"
-                             id="d1e331"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/787678"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Financial records</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="2000-2003">
+                  <unitdatestructured altrender="2000-2003" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="2000">2000</fromdate>
                         <todate standarddate="2003">2003</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/91723 /locations/9"
                              containerid="39002074971491"
-                             id="d1e347"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/787679"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Financial records (cont'd)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="2000-2003">
+                  <unitdatestructured altrender="2000-2003" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="2000">2000</fromdate>
                         <todate standarddate="2003">2003</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/91724 /locations/9"
                              containerid="39002074971509"
-                             id="d1e363"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/787680"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>DUS material</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1995-1998">
+                  <unitdatestructured altrender="1995-1998" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1995">1995</fromdate>
                         <todate standarddate="1998">1998</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/91724 /locations/9"
                              containerid="39002074971509"
-                             id="d1e379"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                </did>
