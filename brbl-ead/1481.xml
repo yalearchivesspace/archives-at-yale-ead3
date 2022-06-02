@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -36,6 +37,12 @@
             <controlnote>
                <p>This finding aid, which is compliant with the Yale EAD Best Practice Guidelines, Version 1.0., has a MARC record in Yale's ILS with the following bib number: <num localtype="Orbis-bib">3815572</num>.</p>
             </controlnote>
+            <controlnote localtype="offsite">
+               <p>Boxes: 1-6</p>
+            </controlnote>
+            <controlnote localtype="onsite">
+               <p>Boxes: 7-9</p>
+            </controlnote>
          </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
@@ -67,10 +74,10 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-11-13T06:36:46+00:00</eventdatetime>
+            <eventdatetime>2022-06-02T03:46:58+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.7.1.yale.20200820</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Friday November 13, 2020 at 06:36</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday June  2, 2022 at 03:46</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -85,11 +92,13 @@
          </repository>
          <langmaterial>
             <language langcode="eng">English</language>
+            <language langcode="eng">English</language>
             <languageset>
                <language langcode="eng">English</language>
                <script scriptcode="Latn">Latin</script>
             </languageset>
             <descriptivenote>
+               <p>Materials in English, Russian and French.</p>
                <p>Materials in English, Russian and French.</p>
             </descriptivenote>
          </langmaterial>
@@ -98,6 +107,19 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(9 boxes)</physdesc>
+         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>6.26</quantity>
+            <unittype>Linear Feet</unittype>
+         </physdescstructured>
+         <physdesc localtype="container_summary">(9 boxes)</physdesc>
+         <unitdatestructured altrender="circa 1910-1960"
+                             label="creation"
+                             unitdatetype="inclusive">
+            <daterange>
+               <fromdate standarddate="1910">1910</fromdate>
+               <todate standarddate="1960">1960</todate>
+            </daterange>
+         </unitdatestructured>
          <unitdatestructured altrender="circa 1910-1960"
                              label="creation"
                              unitdatetype="inclusive">
@@ -114,23 +136,22 @@
                <part localtype="agent_person">Zilboorg, Gregory, 1890-1959</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_d834d4a92bc5d0b2d3b595dab3669b10">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Margaret Zilboorg, 1992.</p>  
+         <p>Gift of Margaret Zilboorg, 1992.</p>
       </acqinfo>
       <accessrestrict id="aspace_5b9929523fe828338c13fdefb0ef17cc">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_be23cfa4e2c9153d7e9e0da0d68878c9">
          <head>Conditions Governing Use</head>
-         <p>The Gregory Zilboorg Papers is the physical property of the Beinecke Rare Book and Manuscript Library, Yale University. Literary rights, including copyright, belong to the authors or their legal heirs and assigns. For further information, consult the appropriate curator.</p>  
+         <p>The Gregory Zilboorg Papers is the physical property of the Beinecke Rare Book and Manuscript Library, Yale University. Literary rights, including copyright, belong to the authors or their legal heirs and assigns. For further information, consult the appropriate curator.</p>
       </userestrict>
       <prefercite id="aspace_964c08d84ded83e1d32c3139f94d263b">
          <head>Preferred Citation</head>
-         <p>Gregory Zilboorg Papers. Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library.</p>  
+         <p>Gregory Zilboorg Papers. Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library.</p>
       </prefercite>
       <relatedmaterial id="aspace_69eab73d54d9c894be03a93754f2b47b">
          <head>Associated Materials</head>
@@ -139,7 +160,7 @@
                  href="http://hdl.handle.net/10079/fa/beinecke.zilboorgj"
                  linkrole="text/html"
                  show="new">James and Eugenia Zilboorg Papers, YCAL MSS 259</ref>
-         </p>  
+         </p>
       </relatedmaterial>
       <bioghist id="aspace_845f5c371b8b09cd2c5d0116379feac2">
          <head>Gregory Zilboorg, 1890-1959</head>
@@ -157,11 +178,11 @@
          <p>Zilboorg was also an avid photographer. His portraits of John Farquhar Fulton and Henry Sigerist were featured in obituaries published in the <title localtype="simple" render="italic">
                <part>Journal of the History of Medicine and Allied Sciences, Inc</part>
             </title>.</p>
-         <p>Zilboorg married Ray Liebow in 1919 and they had two children (Nancy and Gregory, Jr.). He married Margaret Stone in 1946 and they had three children (Caroline, John and Matthew).</p>  
+         <p>Zilboorg married Ray Liebow in 1919 and they had two children (Nancy and Gregory, Jr.). He married Margaret Stone in 1946 and they had three children (Caroline, John and Matthew).</p>
       </bioghist>
       <arrangement id="aspace_3272e8dd624657c6d4532062a86e29ef">
          <head>Arrangement</head>
-         <p>The collection consists of three series: Correspondence, Writings, and Photographs.</p>  
+         <p>The collection consists of three series: Correspondence, Writings, and Photographs.</p>
       </arrangement>
       <scopecontent id="aspace_287c93b052a5e45ab6dd1369e01bf6ea">
          <head>Scope and Contents</head>
@@ -175,7 +196,7 @@
          <p>While the papers described here do not date from Gregory Zilboorg's early years in Kiev and Petrograd (St. Petersburg), readers may consult the <ref actuate="onrequest"
                  href="http://hdl.handle.net/10079/fa/beinecke.zilboorgj"
                  linkrole="text/html"
-                 show="new">James and Eugenia Zilboorg Papers, YCAL MSS 259</ref> for his letters to his brother James Zilboorg, 1915-1959.</p>  
+                 show="new">James and Eugenia Zilboorg Papers, YCAL MSS 259</ref> for his letters to his brother James Zilboorg, 1915-1959.</p>
       </scopecontent>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85108411"
