@@ -1744,4 +1744,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cwbradley.xml](12618.xml) | beinecke.cwbradley | GEN MSS 325 | Charles William Bradley Papers | 
  [beinecke.jppeters.xml](12749.xml) | beinecke.jppeters | GEN MSS 1996 | John P. Peters Collection of Drawings and Plans of an Archeological Excavation at Nippur | 
  [beinecke.ewer.xml](12753.xml) | beinecke.ewer | WA MSS S-3098 | Gary W. Ewer notes for presentation on daguerreotypes by Robert H. Vance | 
+ [beinecke.aheloiseabel.xml](12780.xml) | beinecke.aheloiseabel | WA MSS S-3943 | Annie Heloise Abel notebooks | 
 
