@@ -1745,4 +1745,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jppeters.xml](12749.xml) | beinecke.jppeters | GEN MSS 1996 | John P. Peters Collection of Drawings and Plans of an Archeological Excavation at Nippur | 
  [beinecke.ewer.xml](12753.xml) | beinecke.ewer | WA MSS S-3098 | Gary W. Ewer notes for presentation on daguerreotypes by Robert H. Vance | 
  [beinecke.aheloiseabel.xml](12780.xml) | beinecke.aheloiseabel | WA MSS S-3943 | Annie Heloise Abel notebooks | 
+ [beinecke.stephensbarge.xml](12782.xml) | beinecke.stephensbarge | YCAL MSS 1124 | Stephen Sbarge Papers | 
 
