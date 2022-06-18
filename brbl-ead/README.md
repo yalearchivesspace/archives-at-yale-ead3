@@ -1652,6 +1652,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wiborg.xml](11869.xml) | beinecke.wiborg | YCAL MSS 1408 | Mary Hoyt Wiborg papers | 
  [beinecke.mjamesslack.xml](11871.xml) | beinecke.mjamesslack | WA MSS S-4440 | M. James Slack papers | 
  [beinecke.henning.xml](11876.xml) | beinecke.henning | YCAL MSS 1303 | Barbara Henning papers | 
+ [beinecke.qualls.xml](11877.xml) | beinecke.qualls | YCAL MSS 364 | Larry Qualls photographs and papers | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
  [beinecke.elysium.xml](11884.xml) | beinecke.elysium | GEN MSS 1591 | Elysium Press Records | 
  [beinecke.townshend.xml](11889.xml) | beinecke.townshend | OSB MSS 161 | Townshend Papers | 
