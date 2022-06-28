@@ -1726,6 +1726,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jonesd.xml](12251.xml) | beinecke.jonesd | GEN MSS 903 | David Jones letters to Harman Grisewood | 
  [beinecke.henry.xml](12252.xml) | beinecke.henry | GEN MSS 1954 | William A. Henry papers | 
  [beinecke.saxe.xml](12254.xml) | beinecke.saxe | YCAL MSS 1217 | Stephen O. Saxe set designs, costume designs, and papers | 
+ [beinecke.cadmus.xml](12262.xml) | beinecke.cadmus | GEN MSS 1977 | Paul Cadmus papers | 
  [beinecke.jknight.xml](12268.xml) | beinecke.jknight | GEN MSS 1855 | Jonathan Knight account books and daybooks | 
  [beinecke.nicaraguacanal.xml](12271.xml) | beinecke.nicaraguacanal | GEN MSS 1774 | Nicaragua Canal Company records | 
  [beinecke.dyerwhite.xml](12288.xml) | beinecke.dyerwhite | GEN MSS 1862 | Dyer White papers | 
@@ -1745,6 +1746,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cwbradley.xml](12618.xml) | beinecke.cwbradley | GEN MSS 325 | Charles William Bradley Papers | 
  [beinecke.jppeters.xml](12749.xml) | beinecke.jppeters | GEN MSS 1996 | John P. Peters Collection of Drawings and Plans of an Archeological Excavation at Nippur | 
  [beinecke.ewer.xml](12753.xml) | beinecke.ewer | WA MSS S-3098 | Gary W. Ewer notes for presentation on daguerreotypes by Robert H. Vance | 
+ [beinecke.harada.xml](12775.xml) | beinecke.harada | WA Photos 1336 | Photographs Related to the United States Military Intelligence Service and Japanese American Soldiers in the Philippines and Japan | 
  [beinecke.aheloiseabel.xml](12780.xml) | beinecke.aheloiseabel | WA MSS S-3943 | Annie Heloise Abel notebooks | 
  [beinecke.stephensbarge.xml](12782.xml) | beinecke.stephensbarge | YCAL MSS 1124 | Stephen Sbarge Papers | 
 
