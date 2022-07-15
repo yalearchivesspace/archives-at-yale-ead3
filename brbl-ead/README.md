@@ -1435,6 +1435,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mackinstry.xml](5821.xml) | beinecke.mackinstry | YCAL MSS 408 | Elizabeth MacKinstry collection | 
  [beinecke.marston.xml](5822.xml) | beinecke.marston | GEN MSS 1341 | Thomas E. Marston family papers | 
  [beinecke.vansinderen.xml](5823.xml) | beinecke.vansinderen | GEN MSS 1362 | Alfred White Van Sinderen collection of Charles Babbage | 
+ [beinecke.slavitt.xml](5827.xml) | beinecke.slavitt | YCAL MSS 1476 | David Slavitt papers | 
  [beinecke.dunbarr.xml](5832.xml) | beinecke.dunbarr | JWJ MSS 174 | Rudolph Dunbar Papers | 
  [beinecke.olsen.xml](5837.xml) | beinecke.olsen | WA MSS S-3230 | Robert Olsen papers | 
  [beinecke.lacomblez.xml](5839.xml) | beinecke.lacomblez | GEN MSS 1437 | Jacques Lacomblez papers | 
