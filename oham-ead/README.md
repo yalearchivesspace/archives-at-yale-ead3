@@ -13,5 +13,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [oham.nmusa.xml](11627.xml) | oham.nmusa | NMUSA | NewMusicBox Interviews | 
  [oham.ohviii.xml](11799.xml) | oham.ohviii | OHVIII | Alone Together: Musicians in the Time of Covid | 
  [oham.yost.xml](11805.xml) | oham.yost | YOST | YOST: Y / Opera / Studies Today | 
- [oham.mbc.xml](12801.xml) | oham.mbc | MBC | Music in the Black church | 
+ [oham.mbc.xml](12801.xml) | oham.mbc | MBC | Music in the Black Church | 
 
