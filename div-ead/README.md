@@ -347,4 +347,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.320.xml](12192.xml) | divinity.320 | RG 320 | Yale Divinity School Women's Center Records | 
  [divinity.309.xml](12310.xml) | divinity.309 | RG 309 | North Congregational Church (North Middleboro, Mass.) Records | 
  [divinity.312.xml](12334.xml) | divinity.312 | RG 312 | Herluf M. Jensen papers | 
+ [divinity.324.xml](12855.xml) | divinity.324 | RG 324 | ABCFM Daguerreotypes Collection | 
 
