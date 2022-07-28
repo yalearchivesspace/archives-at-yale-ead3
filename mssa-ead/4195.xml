@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0425">mssa.ms.0425</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0425">mssa.ms.0425</recordid>
+      <otherrecordid localtype="BIB">614442</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Louis Samuel Rothschild Papers
@@ -32,6 +34,11 @@
             <date>February 1980</date>
             <num>MS 425</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T09:24:48+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:05:31+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 09:24</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:05</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4195" level="collection">
       <did>
          <unittitle>Louis Samuel Rothschild papers</unittitle>
          <unitid>MS 425</unitid>
@@ -82,240 +92,275 @@
             <quantity>2.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1953-1958">
+         <unitdatestructured altrender="1953-1958" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1953">1953</fromdate>
                <todate standarddate="1958">1958</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_104d12e2fe8ca787633fe0b016546bdc">Miscellaneous speeches and memoranda concerned with the public career of Louis S. Rothschild, particularly as under secretary of commerce for transportation in the Eisenhower administration.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/no2010028216"
                       rules="aacr"
                       source="naf">
-               <part>Rothschild, Louis S. (Louis Samuel), 1900-1984</part>
+               <part localtype="agent_person">Rothschild, Louis S. (Louis Samuel), 1900-1984</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_7389f74b9606abf85e7dbad9c7797621">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Louis S. Rothschild, 1962.</p>  
+         <p>Gift of Louis S. Rothschild, 1962.</p>
       </acqinfo>
       <accessrestrict id="aspace_2ddd342b3445db28f63c7b682ec4e1e3">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_beb8d0e2e2b4a504b159533890c83b98">
          <head>Preferred Citation</head>
-         <p>Louis Samuel Rothschild Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Louis Samuel Rothschild Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <bioghist id="aspace_6714423e2f64d9547633d2bdbeffd561">
          <head>Biographical / Historical</head>
-         <p>Louis Samuel Rothschild: born in Leavenworth, Kansas, on March 29, 1900; received a Ph.B., Yale University, 1920; business executive with Rothschild and Sons, Inc., Kansas City, Missouri, 1920-1956; chairman, Board of Inland Waterways Corporation, 1953-1959; chairman, Federal Maritime Board of U.S. Department of Commerce, 1953-1955; under secretary of commerce for transportation, 1955-1958; president or director of other corporations and government agencies.</p>  
+         <p>Louis Samuel Rothschild: born in Leavenworth, Kansas, on March 29, 1900; received a Ph.B., Yale University, 1920; business executive with Rothschild and Sons, Inc., Kansas City, Missouri, 1920-1956; chairman, Board of Inland Waterways Corporation, 1953-1959; chairman, Federal Maritime Board of U.S. Department of Commerce, 1953-1955; under secretary of commerce for transportation, 1955-1958; president or director of other corporations and government agencies.</p>
       </bioghist>
       <scopecontent id="aspace_a248997b3400cf702f2e459e0d43fd92">
          <head>Scope and Contents</head>
-         <p>Miscellaneous speeches and memoranda concerned with the public career of Louis S. Rothschild, particularly as under secretary of commerce for transportation in the Eisenhower administration.</p>  
+         <p>Miscellaneous speeches and memoranda concerned with the public career of Louis S. Rothschild, particularly as under secretary of commerce for transportation in the Eisenhower administration.</p>
       </scopecontent>
       <userestrict id="aspace_faa421e290bbb47bd34e289599b5c7f6">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh2010116213"
                   source="lcsh">
-            <part>Transportation -- United States</part>
+            <part localtype="topical">Transportation</part>
+            <part localtype="geographic">United States</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140468"
                    source="lcsh">
-            <part>United States -- Politics and government -- 1953-1961</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">Politics and government</part>
+            <part localtype="temporal">1953-1961</part>
          </geogname>
          <occupation source="local">
-            <part>Public officers</part>
+            <part localtype="occupation">Public officers</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/no2010028216"
                    rules="aacr"
                    source="naf">
-            <part>Rothschild, Louis S. (Louis Samuel), 1900-1984</part>
+            <part localtype="agent_person">Rothschild, Louis S. (Louis Samuel), 1900-1984</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n79071034" source="naf">
-            <part>United States. Department of Commerce</part>
+            <part localtype="agent_corporate_entity">United States. Department of Commerce</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1353206"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Papers relating to public appearances, including photographs of Schofield Barracks (trip to Hawaii, 1955) and of Louis S. Rothschild and other, unnamed dignitaries (trip to Brazil, 1956)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1953-1958">
+               <unitdatestructured altrender="1953-1958" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1953">1953</fromdate>
                      <todate standarddate="1958">1958</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151406 /locations/9"
                           containerid="39002042254988"
-                          id="d1e235"
+                          encodinganalog="archive legal"
+                          id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1353207"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Papers relating to public appearances</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1953-1958">
+               <unitdatestructured altrender="1953-1958" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1953">1953</fromdate>
                      <todate standarddate="1958">1958</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151407 /locations/9"
                           containerid="39002042254996"
-                          id="d1e251"
+                          encodinganalog="archive legal"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1353208"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Papers relating to public appearances</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1953-1958">
+               <unitdatestructured altrender="1953-1958" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1953">1953</fromdate>
                      <todate standarddate="1958">1958</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151408 /locations/9"
                           containerid="39002042255001"
-                          id="d1e267"
+                          encodinganalog="archive half letter"
+                          id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1353209"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Invitations</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1955-1956">
+               <unitdatestructured altrender="1955-1956" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1955">1955</fromdate>
                      <todate standarddate="1956">1956</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151408 /locations/9"
                           containerid="39002042255001"
-                          id="d1e283"
+                          encodinganalog="archive half letter"
+                          id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1353210"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Invitations</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1955-1956">
+               <unitdatestructured altrender="1955-1956" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1955">1955</fromdate>
                      <todate standarddate="1956">1956</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151409 /locations/9"
                           containerid="39002042255019"
-                          id="d1e299"
+                          encodinganalog="archive letter"
+                          id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">4</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1353211"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Papers relating to the U.S. Merchant Marine Academy and maritime commerce generally</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1953-1955">
+               <unitdatestructured altrender="1953-1955" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1953">1953</fromdate>
                      <todate standarddate="1955">1955</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151410 /locations/9"
                           containerid="39002042255027"
-                          id="d1e315"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">5</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1353212"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>U.S. Department of Commerce: press releases</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1953-1955">
+               <unitdatestructured altrender="1953-1955" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1953">1953</fromdate>
                      <todate standarddate="1955">1955</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151411 /locations/9"
                           containerid="39002042255035"
-                          id="d1e331"
+                          encodinganalog="archive letter"
+                          id="aspace_ref17_c1"
                           label="Mixed Materials"
                           localtype="box">6</container>
             </did>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1353213"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>The White House, Executive Branch Liaison Office: "Fact Papers"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1954-1956">
+               <unitdatestructured altrender="1954-1956" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1954">1954</fromdate>
                      <todate standarddate="1956">1956</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151411 /locations/9"
                           containerid="39002042255035"
-                          id="d1e347"
+                          encodinganalog="archive letter"
+                          id="aspace_ref18_c1"
                           label="Mixed Materials"
                           localtype="box">6</container>
             </did>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1353214"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>International Labour Conference: working papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1958">
+               <unitdatestructured altrender="1958" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1958">1958</fromdate>
                      <todate standarddate="1958">1958</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151411 /locations/9"
                           containerid="39002042255035"
-                          id="d1e363"
+                          encodinganalog="archive letter"
+                          id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">6</container>
             </did>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1353215"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>Transportation Council: reports</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1953-1958">
+               <unitdatestructured altrender="1953-1958" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1953">1953</fromdate>
                      <todate standarddate="1958">1958</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="legacy black"
+               <container altrender="/repositories/12/top_containers/151412 /locations/9"
                           containerid="39002042255043"
-                          id="d1e379"
+                          encodinganalog="legacy black"
+                          id="aspace_ref20_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
             </did>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1353216"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>Highway Cost Allocation Study: progress report</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1957">
+               <unitdatestructured altrender="1957" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1957">1957</fromdate>
                      <todate standarddate="1957">1957</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="legacy black"
+               <container altrender="/repositories/12/top_containers/151412 /locations/9"
                           containerid="39002042255043"
-                          id="d1e395"
+                          encodinganalog="legacy black"
+                          id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
             </did>

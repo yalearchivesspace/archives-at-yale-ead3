@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0084">mssa.ms.0084</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0084">mssa.ms.0084</recordid>
+      <otherrecordid localtype="BIB">613733</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Asa Blair Papers
@@ -32,6 +34,11 @@
             <date>May 1981</date>
             <num>MS 84</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T08:37:09+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T07:12:59+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 08:37</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 07:12</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4139" level="collection">
       <did>
          <unittitle>Asa Blair papers</unittitle>
          <unitid>MS 84</unitid>
@@ -83,327 +93,380 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1809-1848">
+         <unitdatestructured altrender="1809-1848" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1809">1809</fromdate>
                <todate standarddate="1848">1848</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_463ada8496b97f21e7a558343639c90b">Pastor, Congregational Church, Kent, Connecticut. Chiefly letters to his wife during a trip to the South (1822) in which he describes Philadelphia, Baltimore, Washington, D. C. and Mount Vernon. A letter of Dec 2, 1822, describes the use of opium during his illness. Also in the collection are the correspondence of his wife Mira A. Blair and miscellaneous legal documents.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Blair, Asa, 1784-1823</part>
+               <part localtype="agent_person">Blair, Asa, 1784-1823</part>
             </persname>
          </origination>
-    
       </did>
       <prefercite id="aspace_bd851d8f28aa2570a8ac0eabc4a9811a">
          <head>Preferred Citation</head>
-         <p>Asa Blair Papers (MS 84). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Asa Blair Papers (MS 84). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_7263ff455ffd12fbf96fc6a949d352d7">
          <head>Scope and Contents</head>
          <p>The Reverend Asa Blair Papers consist primarily of letters he wrote to his wife, Mira Ann (Raymond) Blair, as he traveled in the United States seeking a climate to improve his health. Baltimore, Philadelphia and Washington, D.C. are among the cities Blair visited, and he commented extensively on both the locale and the inhabitants. In a letter of May 1, 1822, for example, he wrote "that Washington is behind no other place in wickedness-" Even some of the members of congress had stimulated too much to walk straight &amp; swore like pirates." Blair also wrote of slavery and the lack of interest in religion in the Southern cities. Of special interest is his letter of December 2, 1822, in which he speaks of using opium to combat his illness.</p>
-         <p>Also included in the papers are letters to Mira (Raymond) Blair (1827-1848), and legal documents of Mira R. Blair and John Raymond, her father.</p>  
+         <p>Also included in the papers are letters to Mira (Raymond) Blair (1827-1848), and legal documents of Mira R. Blair and John Raymond, her father.</p>
       </scopecontent>
       <bioghist id="aspace_b0d96907d933f7bb784227ac7ae639b7">
          <head>Biographical / Historical</head>
          <p>Asa Blair, the second son of Captain Asa and Mehitable (Carnahan) Blair, of Blandford, Massachusetts, and grandson of Deacon Robert and Hannah (Thompson) Blair, of Western (now Warren) and Blandford, was born on May 12, 1784. He did not enter Yale until the Senior year. After graduation he studied theology with the Rev. Ebenezer Porter (Dartmouth Coll. 1791), of Washington, Connecticut, and was licensed to preach in 1811 by the Litchfield South Association of Ministers. On May 26, 1813, he was ordained and installed as pastor of the Congregational Church in Kent, in the immediate vicinity of Washington, where he exercised a useful ministry for about nine years. He received one hundred and seventy members to the church. Failing health led him on the approach of winter in 1822 to seek a Southern climate; and he died, on January 13, 1823, in Georgetown, South Carolina, in his 39th year, from typhus fever, after nineteen days' illness. He married Myra [sic] Ann, daughter of Dr. John Raymond, of Kent, who survived him with one son.</p>
-         <p>From Dexter's Biographical Sketches of the Graduates of Yale's College.</p>  
+         <p>From Dexter's Biographical Sketches of the Graduates of Yale's College.</p>
       </bioghist>
       <accessrestrict id="aspace_3b23cf7c930394656750bd2fbf3643f4">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_9ab589b8e9c5a2227b358a838501776b">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85095096"
                   source="lcsh">
-            <part>Opium abuse</part>
+            <part localtype="topical">Opium abuse</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/n79006530"
                    source="lcsh">
-            <part>Baltimore (Md.)</part>
+            <part localtype="geographic">Baltimore (Md.)</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85087766"
                    source="lcsh">
-            <part>Mount Vernon (Va. : Estate)</part>
+            <part localtype="geographic">Mount Vernon (Va. : Estate)</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n88160603"
                    source="lcsh">
-            <part>Mount Vernon (Va.)</part>
+            <part localtype="geographic">Mount Vernon (Va.)</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n78095520"
                    source="lcsh">
-            <part>Philadelphia (Pa.)</part>
+            <part localtype="geographic">Philadelphia (Pa.)</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85139994"
                    source="lcsh">
-            <part>United States -- Description and travel -- Early works to 1800</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">Description and travel</part>
+            <part localtype="genre_form">Early works to 1800</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n79018774"
                    source="lcsh">
-            <part>Washington (D.C.)</part>
+            <part localtype="geographic">Washington (D.C.)</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85026944"
                   source="lcsh">
-            <part>Clergy</part>
+            <part localtype="topical">Clergy</part>
          </subject>
          <persname source="local">
-            <part>Blair, Asa, 1784-1823</part>
+            <part localtype="agent_person">Blair, Asa, 1784-1823</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/nr97004002"
                    rules="aacr"
                    source="naf">
-            <part>Yale College (1718-1887). Class of 1810</part>
+            <part localtype="agent_corporate_entity">Yale College (1718-1887). Class of 1810</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="file">
+         <c altrender="/repositories/12/archival_objects/1352383"
+            id="ref10"
+            level="file">
             <did>
                <unittitle>Letters written by Asa Blair to his wife Mira A. (Raymond) Blair</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1822 April-May">
+               <unitdatestructured altrender="1822 April-May"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1809">1809</fromdate>
                      <todate standarddate="1848">1848</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151188 /locations/9"
                           containerid="39002038051372"
-                          id="d1e270"
+                          encodinganalog="archive legal"
+                          id="aspace_ref10_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e272" localtype="folder" parent="d1e270">1</container>
+               <container id="aspace_ref10_c2" localtype="folder" parent="aspace_ref10_c1">1</container>
             </did>
          </c>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1352384"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Letters written by Asa Blair to his wife Mira A. (Raymond) Blair</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1882 November-Dec, undated">
+               <unitdatestructured altrender="1882 November-Dec, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1809">1809</fromdate>
                      <todate standarddate="1848">1848</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151188 /locations/9"
                           containerid="39002038051372"
-                          id="d1e288"
+                          encodinganalog="archive legal"
+                          id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e290" localtype="folder" parent="d1e288">2</container>
+               <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">2</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1352385"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Letter written by Asa Blair to William Blair [his brother] with biographical notes by Marion Brayton (Mrs. C. W.) Barrows</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1809, undated">
+               <unitdatestructured altrender="1809, undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1809">1809</fromdate>
                      <todate standarddate="1848">1848</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151188 /locations/9"
                           containerid="39002038051372"
-                          id="d1e306"
+                          encodinganalog="archive legal"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e308" localtype="folder" parent="d1e306">3</container>
+               <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">3</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1352386"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Letters written by Mira A. (Raymond) Blair</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1822-1823">
+               <unitdatestructured altrender="1822-1823" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1822">1822</fromdate>
                      <todate standarddate="1823">1823</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151188 /locations/9"
                           containerid="39002038051372"
-                          id="d1e324"
+                          encodinganalog="archive legal"
+                          id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e326" localtype="folder" parent="d1e324">4</container>
+               <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">4</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1352387"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Letters to Mira A. (Raymond) Blair</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1827-1838">
+               <unitdatestructured altrender="1827-1838" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1827">1827</fromdate>
                      <todate standarddate="1838">1838</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151188 /locations/9"
                           containerid="39002038051372"
-                          id="d1e342"
+                          encodinganalog="archive legal"
+                          id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e344" localtype="folder" parent="d1e342">5</container>
+               <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">5</container>
             </did>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1352388"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Letters to Mira A. (Raymond) Blair</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1839-1844">
+               <unitdatestructured altrender="1839-1844" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1839">1839</fromdate>
                      <todate standarddate="1844">1844</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151188 /locations/9"
                           containerid="39002038051372"
-                          id="d1e360"
+                          encodinganalog="archive legal"
+                          id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e362" localtype="folder" parent="d1e360">6</container>
+               <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">6</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1352389"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Letters to Mira A. (Raymond) Blair</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1847-1848">
+               <unitdatestructured altrender="1847-1848" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1847">1847</fromdate>
                      <todate standarddate="1848">1848</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151188 /locations/9"
                           containerid="39002038051372"
-                          id="d1e378"
+                          encodinganalog="archive legal"
+                          id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e380" localtype="folder" parent="d1e378">7</container>
+               <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">7</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1352390"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Letter to John M. Raymond from William Watson</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1835 October 30">
+               <unitdatestructured altrender="1835 October 30"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1809">1809</fromdate>
                      <todate standarddate="1848">1848</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151188 /locations/9"
                           containerid="39002038051372"
-                          id="d1e396"
+                          encodinganalog="archive legal"
+                          id="aspace_ref17_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e398" localtype="folder" parent="d1e396">8</container>
+               <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">8</container>
             </did>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1352391"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>Letter and legal documents concerning the death of Asa Blair</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1823">
+               <unitdatestructured altrender="1823" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1823">1823</fromdate>
                      <todate standarddate="1823">1823</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151188 /locations/9"
                           containerid="39002038051372"
-                          id="d1e414"
+                          encodinganalog="archive legal"
+                          id="aspace_ref18_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e416" localtype="folder" parent="d1e414">9</container>
+               <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">9</container>
             </did>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1352392"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>Legal papers of John M. Raymond and Mira A. (Raymond) Blair</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1833-1843, undated">
+               <unitdatestructured altrender="1833-1843, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1809">1809</fromdate>
                      <todate standarddate="1848">1848</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151188 /locations/9"
                           containerid="39002038051372"
-                          id="d1e432"
+                          encodinganalog="archive legal"
+                          id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e434" localtype="folder" parent="d1e432">10</container>
+               <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">10</container>
             </did>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1352393"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>Acknowledgment of Asa Blair's membership in the American Bible Society</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="? May 30">
+               <unitdatestructured altrender="? May 30" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1809">1809</fromdate>
                      <todate standarddate="1848">1848</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151188 /locations/9"
                           containerid="39002038051372"
-                          id="d1e450"
+                          encodinganalog="archive legal"
+                          id="aspace_ref20_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e452" localtype="folder" parent="d1e450">11</container>
+               <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">11</container>
             </did>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1352394"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>Receipt for John R. Blair's membership in the American Tract Society</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1832 April 23">
+               <unitdatestructured altrender="1832 April 23" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1809">1809</fromdate>
                      <todate standarddate="1848">1848</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151188 /locations/9"
                           containerid="39002038051372"
-                          id="d1e469"
+                          encodinganalog="archive legal"
+                          id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e471" localtype="folder" parent="d1e469">11</container>
+               <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">11</container>
             </did>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1352395"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>Lock of hair from John R. Blair</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1858 July">
+               <unitdatestructured altrender="1858 July" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1809">1809</fromdate>
                      <todate standarddate="1848">1848</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151188 /locations/9"
                           containerid="39002038051372"
-                          id="d1e487"
+                          encodinganalog="archive legal"
+                          id="aspace_ref22_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e489" localtype="folder" parent="d1e487">12</container>
+               <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">12</container>
             </did>
          </c>
-         <c id="ref23" level="file">
+         <c altrender="/repositories/12/archival_objects/1352396"
+            id="ref23"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>The Traveller's Directory Through the United States</part>
                   </title>, by John Melish</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1822">
+               <unitdatestructured altrender="1822" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1822">1822</fromdate>
                      <todate standarddate="1822">1822</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151188 /locations/9"
                           containerid="39002038051372"
-                          id="d1e508"
+                          encodinganalog="archive legal"
+                          id="aspace_ref23_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e510" localtype="folder" parent="d1e508">13</container>
+               <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">13</container>
             </did>
          </c>
       </dsc>

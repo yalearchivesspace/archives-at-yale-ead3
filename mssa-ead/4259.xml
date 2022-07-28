@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0824">mssa.ms.0824</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0824">mssa.ms.0824</recordid>
+      <otherrecordid localtype="BIB">613918</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Alphonso B. Brown Papers
@@ -32,6 +34,11 @@
             <date>June 2010</date>
             <num>MS 824</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-03-31T07:17:02+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:08:15+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday March 31, 2020 at 07:17</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:08</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4259" level="collection">
       <did>
          <unittitle>Alphonso Bickford Brown papers</unittitle>
          <unitid>MS 824</unitid>
@@ -83,202 +93,223 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1893-1994">
+         <unitdatestructured altrender="1893-1994" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1893">1893</fromdate>
                <todate standarddate="1894">1894</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_88f52ad67606a22a487aae27c6f01b2f">The papers consist of a journal, clippings, a printed article and other items of A. B. Brown, a physician. The journal and clippings record Brown's experiences as a member of the Frederick A. Cook expedition to the Arctic in 1894, while the article and a letter are concerned with the work of the Yale Mission in New Haven.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Brown, Alphonso Bickford, 1872-1906</part>
+               <part localtype="agent_person">Brown, Alphonso Bickford, 1872-1906</part>
             </persname>
          </origination>
-    
       </did>
       <altformavail id="aspace_f66b199557ad743855c56215e76750f7">
          <head>Existence and Location of Copies</head>
-         <p>Papers on the 1894 Cook expedition to the Arctic are available on microfilm (1 reel, 35mm.) from Manuscripts and Archives, Yale University Library, at cost. Order no. HM76. The entire collection is available on microfilm.</p>  
+         <p>Papers on the 1894 Cook expedition to the Arctic are available on microfilm (1 reel, 35mm.) from Manuscripts and Archives, Yale University Library, at cost. Order no. HM76. The entire collection is available on microfilm.</p>
       </altformavail>
       <accessrestrict id="aspace_e95a17a4ba19cca3e423950706ec0f64">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.Patrons must use HM 76 instead of the originals.</p>  
+         <p>The materials are open for research.Patrons must use HM 76 instead of the originals.</p>
       </accessrestrict>
       <prefercite id="aspace_1a5bdfc59fed9af337b0215a11169e5d">
          <head>Preferred Citation</head>
-         <p>Alphonso Bickford Brown Papers (MS 824). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Alphonso Bickford Brown Papers (MS 824). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_bf619b6effc52f35ff5bdc1c7dd079dd">
          <head>Scope and Contents</head>
          <p>Although Alphonso B. Brown was a physician who spent most of his life in Newburyport, Mass, the papers largely reflect his experiences as a member of the Frederick A. Cook expedition to the Arctic in 1894. Included are a journal kept on board the S.S. Miranda (1894 Jul 7, Sep 8), photographs, clippings and memorabilia. Also, in the papers, are a letter and report on the work of the Yale Mission in New Haven (1893).</p>
-         <p>The photographs of the expedition have been filmed and are available on Microfilm HM 76.</p>  
+         <p>The photographs of the expedition have been filmed and are available on Microfilm HM 76.</p>
       </scopecontent>
       <bioghist id="aspace_61f0950110a14da1ebba76cfa378b62a">
          <head>Biographical / Historical</head>
          <p>Alphonso Bickford Brown was the eldest son of Elisha R. and Frances (Bickford) Brown, and was born in Dover, N.H., January 23, 1872. He was named for his grandfather, Dr. Alphonso Bickford, who was for many years one of Dover's most distinguished physicians. He was graduated from Phillips-Andover and in college secured a Dissertation appointment both in Junior Year and at Commencement. He was graduated from the Harvard Medical School in June, 1898, with the degree of M.D. and served on the surgical staff of the Boston City Hospital from January, 1898, to July, 1899. He then took up the practice of his profession in Newburyport, Mass., and on October 3, 1899, he married Miss Edith Lawrence Huse, daughter of Hon. William H. Huse, at Dover, N.H. One child, a daughter, Elizabeth Lawrence, was born to them July 6, 1902.</p>
          <p>About two weeks before his death Dr. Brown was operated upon for appendicitis and seemed to be making rapid progress toward complete recovery, when from some cause not clearly understood his condition took a sudden turn for the worse and he died quite suddenly and unexpectedly on October 17, 1906. A local paper said editorially of him: "Dr. Brown was one of the best young men Dover has produced: he was a gentleman, in the true sense of the word, everywhere and on all occasions. Everybody liked him who made his acquaintance. His scholarly attainments and his skill and success as a young physician gave assured promise that had it been granted him to live, in good health, to old age, he would have held very high rank in his profession."</p>
-         <p>(Take from the Yale College, Class of 1894 Quindennial Record)</p>  
+         <p>(Take from the Yale College, Class of 1894 Quindennial Record)</p>
       </bioghist>
       <userestrict id="aspace_4ad88481e983387620322a31f76420f0">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85006955"
                    source="lcsh">
-            <part>Arctic regions</part>
+            <part localtype="geographic">Arctic regions</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n79007233"
                    source="lcsh">
-            <part>Canada</part>
+            <part localtype="geographic">Canada</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027112" source="aat">
-            <part>Diaries</part>
+            <part localtype="genre_form">Diaries</part>
          </genreform>
          <persname source="local">
-            <part>Brown, Alphonso Bickford, 1872-1906</part>
+            <part localtype="agent_person">Brown, Alphonso Bickford, 1872-1906</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n81021964" source="naf">
-            <part>Cook, Frederick Albert, 1865-1940</part>
+            <part localtype="agent_person">Cook, Frederick Albert, 1865-1940</part>
          </persname>
          <corpname source="local">
-            <part>Yale College (1887- ). Class of 1894</part>
+            <part localtype="agent_corporate_entity">Yale College (1887- ). Class of 1894</part>
          </corpname>
          <corpname source="local">
-            <part>Yale University. Yale College Missionary Society</part>
+            <part localtype="agent_corporate_entity">Yale University. Yale College Missionary Society</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1354164"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Alexander F. Irvine to Alphonso Bickford Brown and enclosure on a proposed New Haven, CT mission</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1893 May 20">
+               <unitdatestructured altrender="1893 May 20" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1893">1893</fromdate>
                      <todate standarddate="1894">1894</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151603 /locations/9"
                           containerid="39002042291212"
+                          encodinganalog="archive half letter"
                           id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
-               <container altrender="microfilm box"
+               <container altrender="/repositories/12/top_containers/204302 /locations/2980"
                           containerid="39002075048562"
+                          encodinganalog="microfilm box"
                           id="aspace_ref12_c3"
                           label="Mixed Materials"
                           localtype="reel">1U</container>
             </did>
-            <accessrestrict id="aspace_92fd76bc93a76752114d393f4d666b12">
+            <accessrestrict id="aspace_92fd76bc93a76752114d393f4d666b12" localtype="UseSurrogate">
                <head>Conditions Governing Access</head>
                <p>This material has been microfilmed. Patrons must use HM 76 instead of the originals.</p>
             </accessrestrict>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1354165"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>The Association Record</part>
                   </title>, Yale University, Vol. iv</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1894 June">
+               <unitdatestructured altrender="1894 June" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1893">1893</fromdate>
                      <todate standarddate="1894">1894</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151603 /locations/9"
                           containerid="39002042291212"
+                          encodinganalog="archive half letter"
                           id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2</container>
-               <container altrender="microfilm box"
+               <container altrender="/repositories/12/top_containers/204302 /locations/2980"
                           containerid="39002075048562"
+                          encodinganalog="microfilm box"
                           id="aspace_ref13_c3"
                           label="Mixed Materials"
                           localtype="reel">1U</container>
             </did>
-            <accessrestrict id="aspace_4ee2afb9fba4cd54d54f30cf40e3f17f">
+            <accessrestrict id="aspace_4ee2afb9fba4cd54d54f30cf40e3f17f" localtype="UseSurrogate">
                <head>Conditions Governing Access</head>
                <p>This material has been microfilmed. Patrons must use HM 76 instead of the originals.</p>
             </accessrestrict>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1354166"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Journal of the Frederick A. Cook arctic expedition, kept by A.B. Brown on the S.S. Miranda</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1894 July 7-September 8">
+               <unitdatestructured altrender="1894 July 7-September 8"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1893">1893</fromdate>
                      <todate standarddate="1894">1894</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151603 /locations/9"
                           containerid="39002042291212"
+                          encodinganalog="archive half letter"
                           id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">3</container>
-               <container altrender="microfilm box"
+               <container altrender="/repositories/12/top_containers/204302 /locations/2980"
                           containerid="39002075048562"
+                          encodinganalog="microfilm box"
                           id="aspace_ref14_c3"
                           label="Mixed Materials"
                           localtype="reel">1U</container>
             </did>
-            <accessrestrict id="aspace_5c170848bfbda80ae730143800b948c3">
+            <accessrestrict id="aspace_5c170848bfbda80ae730143800b948c3" localtype="UseSurrogate">
                <head>Conditions Governing Access</head>
                <p>This material has been microfilmed. Patrons must use HM 76 instead of the originals.</p>
             </accessrestrict>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1354167"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Xerox copies of clippings and memorabilia from A.B. Brown's scrapbook of the 1894 Cook expedition</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1894">
+               <unitdatestructured altrender="1894" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1894">1894</fromdate>
                      <todate standarddate="1894">1894</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151603 /locations/9"
                           containerid="39002042291212"
+                          encodinganalog="archive half letter"
                           id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">4</container>
-               <container altrender="microfilm box"
+               <container altrender="/repositories/12/top_containers/204302 /locations/2980"
                           containerid="39002075048562"
+                          encodinganalog="microfilm box"
                           id="aspace_ref15_c3"
                           label="Mixed Materials"
                           localtype="reel">1U</container>
             </did>
-            <accessrestrict id="aspace_cefed14ba7de1447f623cb96a264fc61">
+            <accessrestrict id="aspace_cefed14ba7de1447f623cb96a264fc61" localtype="UseSurrogate">
                <head>Conditions Governing Access</head>
                <p>This material has been microfilmed. Patrons must use HM 76 instead of the originals.</p>
             </accessrestrict>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1354168"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Photograph album of the 1894 Cook expedition and photogravures from the Arctic Club</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1894">
+               <unitdatestructured altrender="1894" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1894">1894</fromdate>
                      <todate standarddate="1894">1894</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151603 /locations/9"
                           containerid="39002042291212"
+                          encodinganalog="archive half letter"
                           id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">5</container>
-               <container altrender="microfilm box"
+               <container altrender="/repositories/12/top_containers/204302 /locations/2980"
                           containerid="39002075048562"
+                          encodinganalog="microfilm box"
                           id="aspace_ref16_c3"
                           label="Mixed Materials"
                           localtype="reel">1U</container>
             </did>
-            <accessrestrict id="aspace_f04932bd8d1ffbafb547c4388e24f1d0">
+            <accessrestrict id="aspace_f04932bd8d1ffbafb547c4388e24f1d0" localtype="UseSurrogate">
                <head>Conditions Governing Access</head>
                <p>This material has been microfilmed. Patrons must use HM 76 instead of the originals.</p>
             </accessrestrict>

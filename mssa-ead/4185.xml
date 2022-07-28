@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0385">mssa.ms.0385</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0385">mssa.ms.0385</recordid>
+      <otherrecordid localtype="BIB">613821</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Edwin Pond Parker Papers
@@ -32,6 +34,11 @@
             <date>August 1981</date>
             <num>MS 385</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T07:21:13+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:01:56+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 07:21</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:01</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4185" level="collection">
       <did>
          <unittitle>Edwin Pond Parker papers</unittitle>
          <unitid>MS 385</unitid>
@@ -83,100 +93,120 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1883-1919">
+         <unitdatestructured altrender="1883-1919" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1883">1883</fromdate>
                <todate standarddate="1919">1919</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_503943448202ead1c77a543851cb94ba">The papers contain correspondence, some of which relates to his resignation from the Yale Corporation, and a memorandum concerning the election of Arthur Twining Hadley as president of Yale.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/no2002067029"
                       rules="aacr"
                       source="naf">
-               <part>Parker, Edwin Pond, 1836-1920</part>
+               <part localtype="agent_person">Parker, Edwin Pond, 1836-1920</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_052334c531adabea1e80cba078c4e163">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Walter S. Haynes, 1965.</p>  
+         <p>Gift of Walter S. Haynes, 1965.</p>
       </acqinfo>
       <accessrestrict id="aspace_8b4be4357b29e9ddf433319200df6faf">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_40c27357c71205dcf9c3171da8848f27">
          <head>Preferred Citation</head>
-         <p>Edwin Pond Parker Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Edwin Pond Parker Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_29a1821d60d2386bc02f293c660a65ae">
          <head>Scope and Contents</head>
          <p>Contained in this collection is a small amount of correspondence and other papers relating to the resignation of Edwin Pond Parker from the Yale University Corporation in 1919, as well as some earlier correspondence. Among his correspondents are Arthur Twining Hadley, Timothy Dwight, Willian Lyon Phelps, Noah Porter, and Anson Phelps Stokes.</p>
          <p>Also contained in the papers is a memorandum by Parker on the election of Arthur Twining Hadley as president of Yale in 1899, in which he discusses sources of opposition to Twining and how these were overcome.</p>
-         <p>The Edwin Pond Parker Papers were given to Yale University in 1965 by Walter S. Haynes.</p>  
+         <p>The Edwin Pond Parker Papers were given to Yale University in 1965 by Walter S. Haynes.</p>
       </scopecontent>
       <bioghist id="aspace_c78901b40e8bd40dbdcf3362b00f4524">
          <head>Biographical / Historical</head>
-         <p>Clergyman; B.A., Bowdoin, 1856; grad. from Bangor Theological Seminary in 1859; ordained and installed in the Second Church, Hartford, 1860; he was pastor or pastor emeritus of the Second Church of Christ for sixty years.</p>  
+         <p>Clergyman; B.A., Bowdoin, 1856; grad. from Bangor Theological Seminary in 1859; ordained and installed in the Second Church, Hartford, 1860; he was pastor or pastor emeritus of the Second Church of Christ for sixty years.</p>
       </bioghist>
       <userestrict id="aspace_0d9a9486582e8ae57450f5bd6a599a56">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <persname identifier="http://id.loc.gov/authorities/names/n50020644" source="naf">
-            <part>Hadley, Arthur Twining, 1856-1930</part>
+            <part localtype="agent_person">Hadley, Arthur Twining, 1856-1930</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no2002067029"
                    rules="aacr"
                    source="naf">
-            <part>Parker, Edwin Pond, 1836-1920</part>
+            <part localtype="agent_person">Parker, Edwin Pond, 1836-1920</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- History</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">History</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Officals and employees</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Officals and employees</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/no2017089339"
                    source="naf">
-            <part>Yale Corporation</part>
+            <part localtype="agent_corporate_entity">Yale Corporation</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1353007"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1353008"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>1883-1909</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151356 /locations/9"
                              containerid="39002042251653"
+                             encodinganalog="archive half letter"
                              id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1353009"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>1910</unittitle>
-                  <container altrender="archive half letter"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151356 /locations/9"
                              containerid="39002042251653"
+                             encodinganalog="archive half letter"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1353010"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>1919</unittitle>
-                  <container altrender="archive half letter"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151356 /locations/9"
                              containerid="39002042251653"
+                             encodinganalog="archive half letter"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -184,31 +214,40 @@
                </did>
             </c>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1353011"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>"A Memorandum Concerning the Election of President Hadley by the Yale Corporation, May 25th, 1899"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="February 1917">
+               <unitdatestructured altrender="February 1917" label="creation" unitdatetype="inclusive">
                   <datesingle standarddate="1917-02">February 1917</datesingle>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151356 /locations/9"
                           containerid="39002042251653"
+                          encodinganalog="archive half letter"
                           id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">4</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1353012"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Resolution and clippings concerning Parker's resignation from the Yale Corporation</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1919">
+               <unitdatestructured altrender="1919" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1919">1919</fromdate>
                      <todate standarddate="1919">1919</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151356 /locations/9"
                           containerid="39002042251653"
+                          encodinganalog="archive half letter"
                           id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>

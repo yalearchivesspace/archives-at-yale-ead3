@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0844">mssa.ms.0844</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0844">mssa.ms.0844</recordid>
+      <otherrecordid localtype="BIB">614238</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Thomas Hartley Crawford Papers
@@ -32,6 +34,11 @@
             <date>January 1979</date>
             <num>MS 844</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:29:52+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:10:20+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:29</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:10</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4264" level="collection">
       <did>
          <unittitle>Thomas Hartley Crawford papers</unittitle>
          <unitid>MS 844</unitid>
@@ -82,384 +92,441 @@
             <quantity>0.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1827-1862">
+         <unitdatestructured altrender="1827-1862" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1827">1827</fromdate>
                <todate standarddate="1862">1862</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_4bdb73a88a878ca683a65a05a4fd84d5">The most important part of the Thomas Hartley Crawford Papers relate to Crawford's work on a presidential commission investigating land fraud in connection with the 1832 treaty with the Creek Indians. There are also legal opinions, reports, financial records and correspondence with members of Congress which reflect his work as Commissioner of Indian Affairs, 1836-1845, and as a judge in Washington, D.C., 1845-1861. Among his correspondents are Dixon H. Lewis, C. C. Clay, William Mitchell and J. C. Ten Eyck.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n96069942"
                       rules="aacr"
                       source="naf">
-               <part>Crawford, Thomas Hartley, 1786-1863</part>
+               <part localtype="agent_person">Crawford, Thomas Hartley, 1786-1863</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_aa63590f20d95f9dac752fc0ac34c683">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Charles and Lindley Eberstadt, 1971.</p>  
+         <p>Gift of Charles and Lindley Eberstadt, 1971.</p>
       </acqinfo>
       <accessrestrict id="aspace_cb72ca6c741117f83b1d7a94f7d04566">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_95633758760511fed388f7926e35340b">
          <head>Preferred Citation</head>
-         <p>Thomas Hartley Crawford Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Thomas Hartley Crawford Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_4573ffeea9b49f0aa7aae6b892c641fa">
          <head>Scope and Contents</head>
          <p>Thomas Hartley Crawford, a lawyer from Pennsylvania, served as representative to Congress from 1829-1833. In 1836 he was appointed to investigate suspected fraud in the sale of Creek lands in Alabama. From 1838 to 1845 he served as Commissioner of Indian Affairs and subsequently as judge of the criminal court in the District of Columbia, 1845-1861. He died in 1863.</p>
          <p>Thomas Hartley Crawford's papers, spanning the years 1827 to 1862, concern both his personal and official affairs, although in both cases they are largely financial and legal in character. The personal papers include a voluminous financial correspondence (1827-1862) with Anna Maria Inglis, the head of a boarding school attended by Crawford's sisters and daughters. There is also a brief autobiographical sketch written in 1858.</p>
-         <p>The major portion of the papers stems from Crawford's investigative work on the 1832 treaty with the Creek Indians and contains testimony, documents and legal opinions in the case against General James C. Watson. Other papers are connected with Crawford's work as Commisssioner of Indian Affairs, including his legal opinions on cases concerning Indian lands (1838), miscellaneous legal documents, correspondence, accounts and memoranda relating to the Miami Indians (1839-1842). The Shawnee and the Cherokee tribes are also mentioned in several cases. There are a few items concerning local ordinances in Washington (1837-1855).</p>  
+         <p>The major portion of the papers stems from Crawford's investigative work on the 1832 treaty with the Creek Indians and contains testimony, documents and legal opinions in the case against General James C. Watson. Other papers are connected with Crawford's work as Commisssioner of Indian Affairs, including his legal opinions on cases concerning Indian lands (1838), miscellaneous legal documents, correspondence, accounts and memoranda relating to the Miami Indians (1839-1842). The Shawnee and the Cherokee tribes are also mentioned in several cases. There are a few items concerning local ordinances in Washington (1837-1855).</p>
       </scopecontent>
       <bioghist id="aspace_468582b150784cb6ac6d5e8180575e13">
          <head>Biographical / Historical</head>
-         <p>Thomas Hartley Crawford, a lawyer from Pennsylvania, served as representative to Congress from 1829-1833. He then served as a member of the Pennsylvania State House of Representatives in 1833-1834. In 1836, he was appointed to investigate suspected fraud in the sale of Creek lands in Alabama. From 1838 to 1845 he served as Commissioner of Indian Affairs and subsequently as judge of the criminal court in the District of Columbia, 1845-1861. He died in 1863.</p>  
+         <p>Thomas Hartley Crawford, a lawyer from Pennsylvania, served as representative to Congress from 1829-1833. He then served as a member of the Pennsylvania State House of Representatives in 1833-1834. In 1836, he was appointed to investigate suspected fraud in the sale of Creek lands in Alabama. From 1838 to 1845 he served as Commissioner of Indian Affairs and subsequently as judge of the criminal court in the District of Columbia, 1845-1861. He died in 1863.</p>
       </bioghist>
       <userestrict id="aspace_75401f3179cf276341ca323293cac80f">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85033891"
                   source="lcsh">
-            <part>Creek Indians</part>
+            <part localtype="topical">Creek Indians</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85040989"
                   source="lcsh">
-            <part>Education</part>
+            <part localtype="topical">Education</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85065184"
                   source="lcsh">
-            <part>Indians of North America</part>
+            <part localtype="topical">Indians of North America</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075119"
                   source="lcsh">
-            <part>Law</part>
+            <part localtype="topical">Law</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85084652"
                   source="lcsh">
-            <part>Miami Indians</part>
+            <part localtype="topical">Miami Indians</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85125633"
                    source="lcsh">
-            <part>Southern States</part>
+            <part localtype="geographic">Southern States</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n79018774"
                    source="lcsh">
-            <part>Washington (D.C.)</part>
+            <part localtype="geographic">Washington (D.C.)</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075351"
                   source="lcsh">
-            <part>Lawyers</part>
+            <part localtype="topical">Lawyers</part>
          </subject>
          <occupation source="local">
-            <part>Legislators</part>
+            <part localtype="occupation">Legislators</part>
          </occupation>
          <occupation source="local">
-            <part>Politicians</part>
+            <part localtype="occupation">Politicians</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/no89011537"
                    source="naf">
-            <part>Clay, Clement Comer, 1789-1866</part>
+            <part localtype="agent_person">Clay, Clement Comer, 1789-1866</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n96069942"
                    rules="aacr"
                    source="naf">
-            <part>Crawford, Thomas Hartley, 1786-1863</part>
+            <part localtype="agent_person">Crawford, Thomas Hartley, 1786-1863</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/nr92037464"
                    rules="aacr"
                    source="naf">
-            <part>Lewis, Dixon Hall, 1802-1848</part>
+            <part localtype="agent_person">Lewis, Dixon Hall, 1802-1848</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n88071280"
                    rules="aacr"
                    source="naf">
-            <part>Lewis, Ellis, 1798-1871</part>
+            <part localtype="agent_person">Lewis, Ellis, 1798-1871</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no88004385"
                    rules="aacr"
                    source="naf">
-            <part>Livingston, John</part>
+            <part localtype="agent_person">Livingston, John</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no2008179199"
                    rules="aacr"
                    source="naf">
-            <part>Mitchell, William, 1807-1865</part>
+            <part localtype="agent_person">Mitchell, William, 1807-1865</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n83139755" source="naf">
-            <part>Poinsett, Joel Roberts, 1779-1851</part>
+            <part localtype="agent_person">Poinsett, Joel Roberts, 1779-1851</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n85185537"
                    rules="aacr"
                    source="naf">
-            <part>Ten Eyck, John C. (John Conover), 1814-1879</part>
+            <part localtype="agent_person">Ten Eyck, John C. (John Conover), 1814-1879</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n79071198" source="naf">
-            <part>United States. Bureau of Indian Affairs</part>
+            <part localtype="agent_corporate_entity">United States. Bureau of Indian Affairs</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1354208"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Personal papers</unittitle>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1354209"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Personal financial and legal papers</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1831-1851">
+                  <unitdatestructured altrender="1831-1851" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1831">1831</fromdate>
                         <todate standarddate="1851">1851</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151611 /locations/9"
                              containerid="39002042263237"
-                             id="d1e332"
+                             encodinganalog="archive legal"
+                             id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e334" localtype="folder" parent="d1e332">1</container>
+                  <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1354210"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Financial correspondence with Anna Maria Inglis</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1827-1862">
+                  <unitdatestructured altrender="1827-1862" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1827">1827</fromdate>
                         <todate standarddate="1862">1862</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151611 /locations/9"
                              containerid="39002042263237"
-                             id="d1e350"
+                             encodinganalog="archive legal"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e352" localtype="folder" parent="d1e350">2 - 3</container>
+                  <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2 - 3</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1354211"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Eulogy on Alexander H. Lawrence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1857">
+                  <unitdatestructured altrender="1857" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1857">1857</fromdate>
                         <todate standarddate="1857">1857</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151611 /locations/9"
                              containerid="39002042263237"
-                             id="d1e368"
+                             encodinganalog="archive legal"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e370" localtype="folder" parent="d1e368">4</container>
+                  <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">4</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1354212"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Autobiographical sketch</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1858">
+                  <unitdatestructured altrender="1858" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1858">1858</fromdate>
                         <todate standarddate="1858">1858</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151611 /locations/9"
                              containerid="39002042263237"
-                             id="d1e386"
+                             encodinganalog="archive legal"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e388" localtype="folder" parent="d1e386">4</container>
+                  <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">4</container>
                </did>
             </c>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1354213"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Professional papers</unittitle>
             </did>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1354214"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Washington, D.C. - local ordinances and correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1837-1855">
+                  <unitdatestructured altrender="1837-1855" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1837">1837</fromdate>
                         <todate standarddate="1855">1855</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151611 /locations/9"
                              containerid="39002042263237"
-                             id="d1e410"
+                             encodinganalog="archive legal"
+                             id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e412" localtype="folder" parent="d1e410">5</container>
+                  <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">5</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1354215"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1832-1862">
+                  <unitdatestructured altrender="1832-1862" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1832">1832</fromdate>
                         <todate standarddate="1862">1862</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151611 /locations/9"
                              containerid="39002042263237"
-                             id="d1e428"
+                             encodinganalog="archive legal"
+                             id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e430" localtype="folder" parent="d1e428">6 - 7</container>
+                  <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">6 - 7</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1354216"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Indian affairs</unittitle>
                </did>
-               <c id="ref20" level="file">
+               <c altrender="/repositories/12/archival_objects/1354217"
+                  id="ref20"
+                  level="file">
                   <did>
                      <unittitle>Legal opinions on cases relating to Indian lands</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1838">
+                     <unitdatestructured altrender="1838" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1838">1838</fromdate>
                            <todate standarddate="1838">1838</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/151611 /locations/9"
                                 containerid="39002042263237"
-                                id="d1e452"
+                                encodinganalog="archive legal"
+                                id="aspace_ref20_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e454" localtype="folder" parent="d1e452">8</container>
+                     <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">8</container>
                   </did>
                </c>
-               <c id="ref21" level="file">
+               <c altrender="/repositories/12/archival_objects/1354218"
+                  id="ref21"
+                  level="file">
                   <did>
                      <unittitle>Memoranda, reports, notes and miscellaneous financial and legal documents on Indian affairs</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1840-1842, undated">
+                     <unitdatestructured altrender="1840-1842, undated"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1827">1827</fromdate>
                            <todate standarddate="1862">1862</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/151611 /locations/9"
                                 containerid="39002042263237"
-                                id="d1e470"
+                                encodinganalog="archive legal"
+                                id="aspace_ref21_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e472" localtype="folder" parent="d1e470">9</container>
+                     <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">9</container>
                   </did>
                </c>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1354219"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Creek Indians</unittitle>
                </did>
-               <c id="ref23" level="file">
+               <c altrender="/repositories/12/archival_objects/1354220"
+                  id="ref23"
+                  level="file">
                   <did>
                      <unittitle>Names of towns and Indian chiefs in district of R. W. McHenry</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1836 November">
+                     <unitdatestructured altrender="1836 November" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1827">1827</fromdate>
                            <todate standarddate="1862">1862</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/151611 /locations/9"
                                 containerid="39002042263237"
-                                id="d1e494"
+                                encodinganalog="archive legal"
+                                id="aspace_ref23_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e496" localtype="folder" parent="d1e494">10</container>
+                     <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">10</container>
                   </did>
                </c>
-               <c id="ref24" level="file">
+               <c altrender="/repositories/12/archival_objects/1354221"
+                  id="ref24"
+                  level="file">
                   <did>
                      <unittitle>Legal and financial documents</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1826-1836, undated">
+                     <unitdatestructured altrender="1826-1836, undated"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1827">1827</fromdate>
                            <todate standarddate="1862">1862</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/151611 /locations/9"
                                 containerid="39002042263237"
-                                id="d1e512"
+                                encodinganalog="archive legal"
+                                id="aspace_ref24_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e514" localtype="folder" parent="d1e512">11</container>
+                     <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">11</container>
                   </did>
                </c>
-               <c id="ref25" level="file">
+               <c altrender="/repositories/12/archival_objects/1354222"
+                  id="ref25"
+                  level="file">
                   <did>
                      <unittitle>Abstract and notes on testimony of J. C. Watson</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1836 August 26, November 16-17">
+                     <unitdatestructured altrender="1836 August 26, November 16-17"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1827">1827</fromdate>
                            <todate standarddate="1862">1862</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/151611 /locations/9"
                                 containerid="39002042263237"
-                                id="d1e530"
+                                encodinganalog="archive legal"
+                                id="aspace_ref25_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e532" localtype="folder" parent="d1e530">12</container>
+                     <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">12</container>
                   </did>
                </c>
-               <c id="ref26" level="file">
+               <c altrender="/repositories/12/archival_objects/1354223"
+                  id="ref26"
+                  level="file">
                   <did>
                      <unittitle>Opinion of T. Hartley Crawford on the contract of 1836 Aug 28 between certain Creek chiefs and J. C. Watson, et. al.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1827">1827</fromdate>
                            <todate standarddate="1862">1862</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/151611 /locations/9"
                                 containerid="39002042263237"
-                                id="d1e548"
+                                encodinganalog="archive legal"
+                                id="aspace_ref26_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e550" localtype="folder" parent="d1e548">13</container>
+                     <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">13</container>
                   </did>
                </c>
-               <c id="ref27" level="file">
+               <c altrender="/repositories/12/archival_objects/1354224"
+                  id="ref27"
+                  level="file">
                   <did>
                      <unittitle>Copy of the contract approved by the President between certain Creek chiefs and J. C. Watson</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1837 February 17">
+                     <unitdatestructured altrender="1837 February 17"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1827">1827</fromdate>
                            <todate standarddate="1862">1862</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/151611 /locations/9"
                                 containerid="39002042263237"
-                                id="d1e566"
+                                encodinganalog="archive legal"
+                                id="aspace_ref27_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e568" localtype="folder" parent="d1e566">14</container>
+                     <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">14</container>
                   </did>
                </c>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1354225"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>Miami Indians: memoranda, correspondence and other papers on the Miami Indians</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1839-1842">
+                  <unitdatestructured altrender="1839-1842" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1839">1839</fromdate>
                         <todate standarddate="1842">1842</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151611 /locations/9"
                              containerid="39002042263237"
-                             id="d1e584"
+                             encodinganalog="archive legal"
+                             id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e586" localtype="folder" parent="d1e584">15</container>
+                  <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">15</container>
                </did>
             </c>
          </c>

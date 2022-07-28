@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0612">mssa.ms.0612</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0612">mssa.ms.0612</recordid>
+      <otherrecordid localtype="BIB">614113</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Clifford Whittingham Beers Papers
@@ -32,6 +34,14 @@
             <date>September 1971</date>
             <num>MS 612</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+            <controlnote localtype="digital">
+               <p>This collection contains <num localtype="objects" altrender="1">1</num> published digital object. And that object are comprised of <num localtype="files" altrender="1">1</num> digital files.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +49,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +63,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +72,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-19T07:13:40+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:38:10+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday August 19, 2020 at 07:13</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>June 1998</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:38</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4226" level="collection">
       <did>
          <unittitle>Clifford Whittingham Beers papers</unittitle>
          <unitid>MS 612</unitid>
@@ -89,13 +95,13 @@
             <quantity>5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1878-1966">
+         <unitdatestructured altrender="1878-1966" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1878">1878</fromdate>
                <todate standarddate="1966">1966</todate>
             </daterange>
          </unitdatestructured>
-         <unitdatestructured unitdatetype="bulk">
+         <unitdatestructured label="creation" unitdatetype="bulk">
             <daterange>
                <fromdate standarddate="1878">1878</fromdate>
                <todate standarddate="1958">1958</todate>
@@ -104,63 +110,64 @@
          <abstract id="aspace_1c0300982d404cd575a10fc098489df6">Consists of typescript, holograph and mimeograph drafts and notes for <title render="italic">
                <part>A Mind That Found Itself</part>
             </title> by Clifford W. Beers, Yale graduate, author, founder of the Mental Hygiene Movement, and reformer in the field of mental health. Also included are printed materials, pamphlets, and clippings relating to Beers and his work in addition to photographs of Beers and his wife, the former Clara Louise Jepson.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n79126478"
                       rules="aacr"
                       source="naf">
-               <part>Beers, Clifford Whittingham, 1876-1943</part>
+               <part localtype="agent_person">Beers, Clifford Whittingham, 1876-1943</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_2542e26fb162f905bd969de35fcf555d">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Clara Louise Jepson Beers.</p>  
+         <p>Gift of Clara Louise Jepson Beers.</p>
       </acqinfo>
       <prefercite id="aspace_fd9941c7b2730b97be32d0de14ea7574">
          <head>Preferred Citation</head>
-         <p>Clifford Whittingham Beers Papers (MS 612). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Clifford Whittingham Beers Papers (MS 612). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_4a60c17d24971e64ae13e6bc2d321bcb">
          <head>Scope and Contents</head>
          <p>The Clifford W. Beers papers consist primarily of eleven different drafts of his manuscript for <title render="italic">
                <part>A Mind that Found Itself</part>
             </title>. Included in this are typed copies of dictation, holograph manuscripts in pencil, drafts with numerous annotations, elisions, corrections, additions, and readers' copies with their comments and criticisms. The manuscripts were received already numbered and in some order; no attempt has been made at more detailed collation. However, the order may be somewhat arbitrary and further research may reveal some corrections to be made in this connection.</p>
-         <p>The rest of the papers consist of printed materials, pamphlets, clippings, and articles by or about Clifford W. Beers. There are also some photographs of him and his wife. Biographical information may be found in Box 7, folder 47, "Obituaries."</p>  
+         <p>The rest of the papers consist of printed materials, pamphlets, clippings, and articles by or about Clifford W. Beers. There are also some photographs of him and his wife. Biographical information may be found in Box 7, folder 47, "Obituaries."</p>
       </scopecontent>
       <bioghist id="aspace_71b4355e16b6b09cf9e88d1cb20ba19d">
          <head>Biographical / Historical</head>
-         <p>In 1908 founded the Connecticut Society for Mental Hygiene; in 1909 founded National Committee for Mental Hygiene; in 1928 founded American Foundation for Mental Hygiene; founded in 1930 International Committee for Mental Hygiene; founded in 1931 International Foundation for Mental Hygiene.</p>  
+         <p>In 1908 founded the Connecticut Society for Mental Hygiene; in 1909 founded National Committee for Mental Hygiene; in 1928 founded American Foundation for Mental Hygiene; founded in 1930 International Committee for Mental Hygiene; founded in 1931 International Foundation for Mental Hygiene.</p>
       </bioghist>
       <accessrestrict id="aspace_fde5dd66ba349fa418d075d16a3854df">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_4cb4e3d64e65a74e4fc7ddc6bd15213a">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85083064"
                   source="lcsh">
-            <part>Medicine</part>
+            <part localtype="topical">Medicine</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85083615"
                   source="lcsh">
-            <part>Mental health</part>
+            <part localtype="topical">Mental health</part>
          </subject>
          <persname source="local">
-            <part>Beers, Clara Louise Jepson, 1874-1966</part>
+            <part localtype="agent_person">Beers, Clara Louise Jepson, 1874-1966</part>
          </persname>
          <persname source="local">
-            <part>Beers, Clifford Whittingham, 1876-1943 (Mind that found itself)</part>
+            <part localtype="agent_person">Beers, Clifford Whittingham, 1876-1943 (Mind that found itself)</part>
          </persname>
          <corpname rules="aacr" source="local">
-            <part>National Committee for Mental Health</part>
+            <part localtype="agent_corporate_entity">National Committee for Mental Health</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref8" level="file">
+         <c altrender="/repositories/12/archival_objects/1353704"
+            id="ref8"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
@@ -168,199 +175,250 @@
                   </title>
                </unittitle>
             </did>
-            <c id="ref9" level="file">
+            <c altrender="/repositories/12/archival_objects/1353705"
+               id="ref9"
+               level="file">
                <did>
                   <unittitle>Ms. no. 1</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151485 /locations/9"
                              containerid="39002042279068"
+                             encodinganalog="archive letter"
                              id="aspace_ref9_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref9_c2" localtype="folder" parent="aspace_ref9_c1">1 - 2</container>
                </did>
             </c>
-            <c id="ref10" level="file">
+            <c altrender="/repositories/12/archival_objects/1353706"
+               id="ref10"
+               level="file">
                <did>
                   <unittitle>Ms. no. 2</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151485 /locations/9"
                              containerid="39002042279068"
+                             encodinganalog="archive letter"
                              id="aspace_ref10_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref10_c2" localtype="folder" parent="aspace_ref10_c1">3 - 4</container>
                </did>
             </c>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1353707"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Ms. no. 3</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151485 /locations/9"
                              containerid="39002042279068"
+                             encodinganalog="archive letter"
                              id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">5 - 6</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1353708"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Ms. no. 3 (cont.)</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151486 /locations/9"
                              containerid="39002042279076"
+                             encodinganalog="archive letter"
                              id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">7 - 10</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1353709"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Ms. no. 4</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151486 /locations/9"
                              containerid="39002042279076"
+                             encodinganalog="archive letter"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">11 - 12</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1353710"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Ms. no. 5</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151487 /locations/9"
                              containerid="39002042279084"
+                             encodinganalog="archive letter"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">13 - 15</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1353711"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Ms. no. 6</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151487 /locations/9"
                              containerid="39002042279084"
+                             encodinganalog="archive letter"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">16 - 18</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1353712"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Ms. no. 6 (cont.)</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151488 /locations/9"
                              containerid="39002042279092"
+                             encodinganalog="archive letter"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">19 - 21</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1353713"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Ms. no. 7</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151488 /locations/9"
                              containerid="39002042279092"
+                             encodinganalog="archive letter"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">22 - 24</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1353714"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Ms. no. 7 (cont.)</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151489 /locations/9"
                              containerid="39002042279100"
+                             encodinganalog="archive letter"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">25</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1353715"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Ms. no. 8</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151489 /locations/9"
                              containerid="39002042279100"
+                             encodinganalog="archive letter"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">26 - 28</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1353716"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Ms. no. 9</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151489 /locations/9"
                              containerid="39002042279100"
+                             encodinganalog="archive letter"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">29 - 30</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1353717"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Ms. no. 9 (cont.)</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151490 /locations/9"
                              containerid="39002042279118"
+                             encodinganalog="archive letter"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">31</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1353718"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Ms. no. 10</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151490 /locations/9"
                              containerid="39002042279118"
+                             encodinganalog="archive letter"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">32 - 34</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1353719"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>Ms. no. 11</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151490 /locations/9"
                              containerid="39002042279118"
+                             encodinganalog="archive letter"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">35 - 37</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1353720"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Cover for 1st edition</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1908">
+                  <unitdatestructured altrender="1908" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1908">1908</fromdate>
                         <todate standarddate="1908">1908</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151491 /locations/9"
                              containerid="39002042279126"
+                             encodinganalog="archive letter"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">38</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1353721"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Reviews</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1923-1941">
+                  <unitdatestructured altrender="1923-1941" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1923">1923</fromdate>
                         <todate standarddate="1941">1941</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151491 /locations/9"
                              containerid="39002042279126"
+                             encodinganalog="archive letter"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
@@ -368,27 +426,34 @@
                </did>
             </c>
          </c>
-         <c id="ref26" level="file">
+         <c altrender="/repositories/12/archival_objects/1353722"
+            id="ref26"
+            level="file">
             <did>
                <unittitle>ALS to A. P. Stokes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1907 December 6">
+               <unitdatestructured altrender="1907 December 6"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1878">1878</fromdate>
                      <todate standarddate="1958">1958</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151491 /locations/9"
                           containerid="39002042279126"
+                          encodinganalog="archive letter"
                           id="aspace_ref26_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
                <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">40</container>
             </did>
          </c>
-         <c id="ref27" level="file">
+         <c altrender="/repositories/12/archival_objects/1353723"
+            id="ref27"
+            level="file">
             <did>
                <unittitle>TL to George Beers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1923">
+               <unitdatestructured altrender="1923" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1923">1923</fromdate>
                      <todate standarddate="1923">1923</todate>
@@ -396,190 +461,251 @@
                </unitdatestructured>
             </did>
          </c>
-         <c id="ref28" level="file">
+         <c altrender="/repositories/12/archival_objects/1353724"
+            id="ref28"
+            level="file">
             <did>
                <unittitle>Printed material and clippings re: Clifford Beers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1908-1966">
+               <unitdatestructured altrender="1908-1966" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1908">1908</fromdate>
                      <todate standarddate="1966">1966</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151491 /locations/9"
                           containerid="39002042279126"
+                          encodinganalog="archive letter"
                           id="aspace_ref28_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
                <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">41 - 42</container>
             </did>
          </c>
-         <c id="ref29" level="file">
+         <c altrender="/repositories/12/archival_objects/1353725"
+            id="ref29"
+            level="file">
             <did>
                <unittitle>Pamphlets by and about Clifford Beers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1917-1949">
+               <unitdatestructured altrender="1917-1949" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1917">1917</fromdate>
                      <todate standarddate="1949">1949</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151491 /locations/9"
                           containerid="39002042279126"
+                          encodinganalog="archive letter"
                           id="aspace_ref29_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
                <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">43 - 44</container>
             </did>
          </c>
-         <c id="ref30" level="file">
+         <c altrender="/repositories/12/archival_objects/1353726"
+            id="ref30"
+            level="file">
             <did>
                <unittitle>Beers, Clifford: TMS, "Brief Account of the Origin and Growth of My Interest in Drawing and Painting," with "My Kind of Art," with printed material signed</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1932">
+               <unitdatestructured altrender="1932" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1932">1932</fromdate>
                      <todate standarddate="1932">1932</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151491 /locations/9"
                           containerid="39002042279126"
+                          encodinganalog="archive letter"
                           id="aspace_ref30_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
                <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">45</container>
             </did>
          </c>
-         <c id="ref31" level="file">
+         <c altrender="/repositories/12/archival_objects/1353727"
+            id="ref31"
+            level="file">
             <did>
                <unittitle>Printed material, articles, pamphlets re: Mental Hygiene Movement</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1919-1941">
+               <unitdatestructured altrender="1919-1941" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1919">1919</fromdate>
                      <todate standarddate="1941">1941</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151491 /locations/9"
                           containerid="39002042279126"
+                          encodinganalog="archive letter"
                           id="aspace_ref31_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
                <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">46</container>
             </did>
          </c>
-         <c id="ref32" level="file">
+         <c altrender="/repositories/12/archival_objects/1353728"
+            id="ref32"
+            level="file">
             <did>
                <unittitle>Obituaries</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1943">
+               <unitdatestructured altrender="1943" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1943">1943</fromdate>
                      <todate standarddate="1943">1943</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151491 /locations/9"
                           containerid="39002042279126"
+                          encodinganalog="archive letter"
                           id="aspace_ref32_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
                <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">47</container>
             </did>
          </c>
-         <c id="ref33" level="file">
+         <c altrender="/repositories/12/archival_objects/1353729"
+            id="ref33"
+            level="file">
             <did>
                <unittitle>Beers, Clara Louise (Jepson), miscellaneous printed material</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1958-1966">
+               <unitdatestructured altrender="1958-1966" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1958">1958</fromdate>
                      <todate standarddate="1966">1966</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151491 /locations/9"
                           containerid="39002042279126"
+                          encodinganalog="archive letter"
                           id="aspace_ref33_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
                <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">48</container>
             </did>
          </c>
-         <c id="ref34" level="file">
+         <c altrender="/repositories/12/archival_objects/1353730"
+            id="ref34"
+            level="file">
             <did>
                <unittitle>Clifford Beers' copy of <title render="italic">
                      <part>A Mind that Found Itself</part>
                   </title>
                </unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1908">
+               <unitdatestructured altrender="1908" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1908">1908</fromdate>
                      <todate standarddate="1908">1908</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151491 /locations/9"
                           containerid="39002042279126"
+                          encodinganalog="archive letter"
                           id="aspace_ref34_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
                <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">49</container>
             </did>
          </c>
-         <c id="ref35" level="file">
+         <c altrender="/repositories/12/archival_objects/1353731"
+            id="ref35"
+            level="file">
             <did>
                <unittitle>Photographs of Clifford and Clara Beers and others</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1894-1936">
+               <unitdatestructured altrender="1894-1936" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1894">1894</fromdate>
                      <todate standarddate="1936">1936</todate>
                   </daterange>
                </unitdatestructured>
-               <container containerid="39002042610254"
+               <container altrender="/repositories/12/top_containers/151492 /locations/9"
+                          containerid="39002042610254"
                           id="aspace_ref35_c1"
                           label="Mixed Materials"
                           localtype="box">8</container>
                <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">50</container>
+               <daoset altrender="/repositories/12/digital_objects/180829">
+                  <dao actuate="onrequest"
+                       daotype="unknown"
+                       href="https://collections.library.yale.edu/manifests/10013731"
+                       identifier="oid:10013731"
+                       linktitle="1 images"
+                       linkrole="text-json"
+                       show="embed"/>
+                  <dao actuate="onrequest"
+                       daotype="unknown"
+                       href="https://collections.library.yale.edu/iiif/2/32282391/full/!150,150/0/default.jpg"
+                       identifier="oid:10013731"
+                       linktitle="Clifford W. Beers Collection. &#34;Pirie McDonald Portrait."
+                       linkrole="image-thumbnail"
+                       show="embed"/>
+                  <dao actuate="onrequest"
+                       daotype="unknown"
+                       href="https://collections.library.yale.edu/catalog/10013731"
+                       identifier="oid:10013731"
+                       linktitle="Clifford W. Beers Collection. &#34;Pirie McDonald Portrait."
+                       linkrole="text-html"
+                       show="new"/>
+                  <descriptivenote>
+                     <p>Photographs of Clifford and Clara Beers and others</p>
+                  </descriptivenote>
+               </daoset>
             </did>
          </c>
-         <c id="ref36" level="file">
+         <c altrender="/repositories/12/archival_objects/1353732"
+            id="ref36"
+            level="file">
             <did>
                <unittitle>Papers of Benjamin Jepson, 1833-1913?, father of Clara Louise Jepson</unittitle>
             </did>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1353733"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>Ms notes, "Homesteading in Kansas 1856-1858" (photostatic copies)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1878">1878</fromdate>
                         <todate standarddate="1958">1958</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042610254"
+                  <container altrender="/repositories/12/top_containers/151492 /locations/9"
+                             containerid="39002042610254"
                              id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">51</container>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1353734"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>Ms notes, "Civil War Notes 1861-1864"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1878">1878</fromdate>
                         <todate standarddate="1958">1958</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042610254"
+                  <container altrender="/repositories/12/top_containers/151492 /locations/9"
+                             containerid="39002042610254"
                              id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">51</container>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1353735"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>ALS to Hattie Metzger</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1878">
+                  <unitdatestructured altrender="1878" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1878">1878</fromdate>
                         <todate standarddate="1878">1878</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042610254"
+                  <container altrender="/repositories/12/top_containers/151492 /locations/9"
+                             containerid="39002042610254"
                              id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>

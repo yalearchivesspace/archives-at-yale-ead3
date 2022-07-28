@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0394">mssa.ms.0394</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0394">mssa.ms.0394</recordid>
+      <otherrecordid localtype="BIB">613824</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Alexander Ivanovitch Petrunkevitch Papers
@@ -32,6 +34,11 @@
             <date>June 1987</date>
             <num>MS 394</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:09:44+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:02:27+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:09</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:02</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3076" level="collection">
       <did>
          <unittitle>Alexander Ivanovitch Petrunkevitch papers</unittitle>
          <unitid>MS 394</unitid>
@@ -82,46 +92,45 @@
             <quantity>2.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1886-1964">
+         <unitdatestructured altrender="1886-1964" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1886">1886</fromdate>
                <todate standarddate="1964">1964</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_5402aa4dc21c48ae26b8849de4d5a71d">The papers consist primarily of Alexander Petrunkevitch's personal correspondence and contain numerous letters from his father Ivan Il'ich Petrunkevitch and stepmother Anastasia Petrunkevitch. These letters include discussions of the Russian political climate (1900-1919) and focus on Ivan Petrunkevitch's work with the Constitutional Democratic (Kadety) Party. Other correspondents include officials of Russian-American societies. The papers also encompass Alexander Petrunkevitch's writings on the Russian Revolution, his poetry, journals, photographs, and other personal memorabilia.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/no99065096"
                       rules="aacr"
                       source="naf">
-               <part>Petrunkevitch, Alexander, 1875-1964</part>
+               <part localtype="agent_person">Petrunkevitch, Alexander, 1875-1964</part>
             </persname>
          </origination>
-    
       </did>
       <accessrestrict id="aspace_89428026a9d71ea85d0e18f10cd49970">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_0183f76b24758677d584ef645dec0d66">
          <head>Preferred Citation</head>
-         <p>Alexander Ivanovitch Petrunkevitch Papers (MS 394). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Alexander Ivanovitch Petrunkevitch Papers (MS 394). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <acqinfo id="aspace_b2bb060518637c8faa1cc9a223ee4f3b">
          <head>Immediate Source of Acquisition</head>
-         <p>Papers in part purchased from the family in 1965 and in part transferred from the Yale Biology Department, 1979; gift of Edward Opton, 2002.</p>  
+         <p>Papers in part purchased from the family in 1965 and in part transferred from the Yale Biology Department, 1979; gift of Edward Opton, 2002.</p>
       </acqinfo>
       <altformavail id="aspace_9efe98c3e701a2fcacb90be9c834e33a">
          <head>Existence and Location of Copies</head>
          <p>Correspondence of Ivan and Alexander Petrunkevitch is also available on microfilm (1 reel, 35mm.) from Manuscripts and Archives, Yale University Library, at cost. <num>Order no. HM70.</num>
-         </p>  
+         </p>
       </altformavail>
       <arrangement id="aspace_ffd2cbfa9e974cfb409835d8b18fd156">
          <head>Arrangement</head>
-         <p>Arranged in three series: I. Correspondence, 1886-1963. II. Writings, 1917-1963. III. Personal Papers and Photographs, 1894-1964.</p>  
+         <p>Arranged in three series: I. Correspondence, 1886-1963. II. Writings, 1917-1963. III. Personal Papers and Photographs, 1894-1964.</p>
       </arrangement>
       <bioghist id="aspace_648bf6413491049599ba6e33fae601dc">
          <head>Biographical / Historical</head>
-         <p>Alexander Petrunkevitch was born in Pliski, Russia in 1875 and taught at the University of Moscow before immigrating to Germany to escape political persecution. He earned a Ph.D. at the University of Freiburg in 1901. Petrunkevitch taught biology at Harvard University and the University of Indiana before joining the Yale University faculty in 1910. He was known for his research on spiders. He died in New Haven, Connecticut on March 10, 1964.</p>  
+         <p>Alexander Petrunkevitch was born in Pliski, Russia in 1875 and taught at the University of Moscow before immigrating to Germany to escape political persecution. He earned a Ph.D. at the University of Freiburg in 1901. Petrunkevitch taught biology at Harvard University and the University of Indiana before joining the Yale University faculty in 1910. He was known for his research on spiders. He died in New Haven, Connecticut on March 10, 1964.</p>
       </bioghist>
       <scopecontent id="aspace_cd2cfd0c0ed4c7cd044c112a2cd374cb">
          <head>Scope and Contents</head>
@@ -134,71 +143,80 @@ arachnids.</p>
          <p>Series I, CORRESPONDENCE, contains Petrunkevitch's correspondence with family members and with Russian friends and associates. Most of the letters are in Russian, with lesser quantities in English and German. The letters in the "General" folders are arranged in chronological order; the bulk of the material dates from 1919 to 1924. Petrunkevitch's commitment to furthering American-Russian cooperation is reflected in his letters as president of the Russian Collegiate Institute beginning in 1917 and as a member of the Inter-Racial Council beginning in 1919. Correspondence with August Weismann, Petrunkevitch's mentor at the University of Freiburg, is in folder 38.</p>
          <p>The bulk of the series, however, is composed of Petrunkevitch's letters from his father and stepmother Ivan Il'ich and Anastasia Petrunkevitch. The letters commence when Alexander Petrunkevitch leaves home as a young student in 1886. By 1899 when Petrunkevitch was studying in Germany there are monthly letters. Ivan Petrunkevitch's lengthy letters from Tver concern his involvement in the Zemski Sobor, while his stepmother, who signs herself Nastia, writes of family matters. Letters from 1904 to 1911 are written from Crimea and contain observations of Tatar life and customs. Though Ivan Petrunkevitch was elected as a delegate from Crimea to the first Duma in 1905, there are few contemporary letters to document this period. Letters from 1919 on, however, when Ivan Petrunkevitch was engaged in writing his memoirs, contain extensive reflections on the 1905 Revolution, the Constitutional Democratic Party, and the political climate through 1918. Following the Bolshevik Revolution the Petrunkevitchs fled Russia and eventually settled in Prague (1924). Letters from Prague reflect Ivan Petrunkevitch's interest in the democratic experiment of T.G. Masaryk's government.</p>
          <p>Series II, WRITINGS, consists of Alexander Petrunkevitch's addresses, articles, book reviews, and poetry. Most of Petrunkevitch's articles concern Russia, particularly the political climate before, during, and after the October Revolution. Petrunkevitch's Russian poetry is in the romantic tradition and narrates tales of tragic love.</p>
-         <p>Petrunkevitch's personal papers and photographs comprise Series III. The series includes memorabilia such as family history, certificates, awards, and diplomas and files which document Petrunkevitch's interests in Russian organizations in America. Petrunkevitch's journals contain personal reflections as well as additional examples of his poetry. Petrunkevitch published some of these Russian poems under his pseudonym A. Jon-Ruban in Leipzig in 1900. Photographs of Petrunkevitch, his family, friends, and the Russian countryside are in folders 75-79 and 85-87. The photograph album for 1903 (folder 75) contains pictures taken on Petrunkevitch's return visit to Pliski with his American wife.</p>  
+         <p>Petrunkevitch's personal papers and photographs comprise Series III. The series includes memorabilia such as family history, certificates, awards, and diplomas and files which document Petrunkevitch's interests in Russian organizations in America. Petrunkevitch's journals contain personal reflections as well as additional examples of his poetry. Petrunkevitch published some of these Russian poems under his pseudonym A. Jon-Ruban in Leipzig in 1900. Photographs of Petrunkevitch, his family, friends, and the Russian countryside are in folders 75-79 and 85-87. The photograph album for 1903 (folder 75) contains pictures taken on Petrunkevitch's return visit to Pliski with his American wife.</p>
       </scopecontent>
       <userestrict id="aspace_525fb2e2dbd2451755cf12b4d9a943cf">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85046366"
                   source="lcsh">
-            <part>Exiles</part>
+            <part localtype="topical">Exiles</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85045661"
                    source="lcsh">
-            <part>Europe -- Description and travel</part>
+            <part localtype="geographic">Europe</part>
+            <part localtype="topical">Description and travel</part>
          </geogname>
          <geogname source="local">
-            <part>Krymskai︠a︡ oblastʹ (Ukraine) -- Social life and customs</part>
+            <part localtype="geographic">Krymskai︠a︡ oblastʹ (Ukraine)</part>
+            <part localtype="topical">Social life and customs</part>
          </geogname>
          <geogname source="local">
-            <part>Prague (Czech Republic) -- Politics and government</part>
+            <part localtype="geographic">Prague (Czech Republic)</part>
+            <part localtype="topical">Politics and government</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85125842"
                    source="lcsh">
-            <part>Russia -- Politics and government -- 1894-1917</part>
+            <part localtype="geographic">Russia</part>
+            <part localtype="topical">Politics and government</part>
+            <part localtype="temporal">1894-1917</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85125803"
                    source="lcsh">
-            <part>Russia -- History -- Nicholas II, 1894-1917</part>
+            <part localtype="geographic">Russia</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Nicholas II, 1894-1917</part>
          </geogname>
          <genreform source="local">
-            <part>Photoprints</part>
+            <part localtype="genre_form">Photoprints</part>
          </genreform>
          <occupation source="local">
-            <part>Arachnologists</part>
+            <part localtype="occupation">Arachnologists</part>
          </occupation>
          <occupation source="local">
-            <part>Poets</part>
+            <part localtype="occupation">Poets</part>
          </occupation>
          <occupation source="local">
-            <part>Zoologists</part>
+            <part localtype="occupation">Zoologists</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/no99065096"
                    rules="aacr"
                    source="naf">
-            <part>Petrunkevitch, Alexander, 1875-1964</part>
+            <part localtype="agent_person">Petrunkevitch, Alexander, 1875-1964</part>
          </persname>
          <persname source="local">
-            <part>Petrunkevitch, Anastasia</part>
+            <part localtype="agent_person">Petrunkevitch, Anastasia</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Petrunkevitch, Ivan Il'ich, 1843-1928</part>
+            <part localtype="agent_person">Petrunkevitch, Ivan Il'ich, 1843-1928</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n80013465" source="naf">
-            <part>Konstitut͡sionno-demokraticheskai͡a partii͡a</part>
+            <part localtype="agent_corporate_entity">Konstitut͡sionno-demokraticheskai͡a partii͡a</part>
          </corpname>
          <corpname rules="aacr" source="local">
-            <part>Russian Collegiate Institute (New York, N.Y.)</part>
+            <part localtype="agent_corporate_entity">Russian Collegiate Institute (New York, N.Y.)</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref14" level="series">
+         <c altrender="/repositories/12/archival_objects/1187378"
+            id="ref14"
+            level="series">
             <did>
                <unittitle>Correspondence</unittitle>
                <unitid>Series I</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1886-1963">
+               <unitdatestructured altrender="1886-1963" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1886">1886</fromdate>
                      <todate standarddate="1963">1963</todate>
@@ -209,114 +227,135 @@ arachnids.</p>
                <head>Scope and Contents</head>
                <p>General correspondence (folders 1-14) is arranged in chronological order. The remainder of the series is organized in alphabetical order by correspondents' names.</p>
             </scopecontent>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1187379"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>General</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1901-1963">
+                  <unitdatestructured altrender="1901-1963" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1901">1901</fromdate>
                         <todate standarddate="1963">1963</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132172 /locations/9"
                              containerid="39002042251166"
+                             encodinganalog="archive legal"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">1-14</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1187380"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Petrunkevitch, I. I</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1886-1920">
+                  <unitdatestructured altrender="1886-1920" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1886">1886</fromdate>
                         <todate standarddate="1920">1920</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132172 /locations/9"
                              containerid="39002042251166"
+                             encodinganalog="archive legal"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">15-21</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1187381"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Petrunkevitch, I. I.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1921-1928">
+                  <unitdatestructured altrender="1921-1928" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1921">1921</fromdate>
                         <todate standarddate="1928">1928</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132173 /locations/9"
                              containerid="39002042251174"
+                             encodinganalog="archive legal"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">22-31</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1187382"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Petrunkevitch, Anastasia (Nastia)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1888-1932">
+                  <unitdatestructured altrender="1888-1932" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1888">1888</fromdate>
                         <todate standarddate="1932">1932</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132173 /locations/9"
                              containerid="39002042251174"
+                             encodinganalog="archive legal"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">32-36</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1187383"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Petrunkevitch family and friends</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1893-1932">
+                  <unitdatestructured altrender="1893-1932" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1893">1893</fromdate>
                         <todate standarddate="1932">1932</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132173 /locations/9"
                              containerid="39002042251174"
+                             encodinganalog="archive legal"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">37</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1187384"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Weismann, August</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1899-1914">
+                  <unitdatestructured altrender="1899-1914" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1899">1899</fromdate>
                         <todate standarddate="1914">1914</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132173 /locations/9"
                              containerid="39002042251174"
+                             encodinganalog="archive legal"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">38</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1187385"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Fragments</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132173 /locations/9"
                              containerid="39002042251174"
+                             encodinganalog="archive legal"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
@@ -324,7 +363,9 @@ arachnids.</p>
                </did>
             </c>
          </c>
-         <c id="ref24" level="series">
+         <c altrender="/repositories/12/archival_objects/1187386"
+            id="ref24"
+            level="series">
             <did>
                <unittitle>Writings</unittitle>
                <unitid>Series II</unitid>
@@ -333,7 +374,7 @@ arachnids.</p>
                   <unittype>Linear Feet</unittype>
                </physdescstructured>
                <physdesc localtype="container_summary">(1 box)</physdesc>
-               <unitdatestructured unitdatetype="inclusive" altrender="1917-1963">
+               <unitdatestructured altrender="1917-1963" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1917">1917</fromdate>
                      <todate standarddate="1963">1963</todate>
@@ -344,185 +385,262 @@ arachnids.</p>
                <head>Scope and Contents</head>
                <p>This series is arranged alphabetically by record type. Articles are in alphabetical order by title. Untitled short manuscripts are organized by subject.</p>
             </scopecontent>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1187387"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Addresses and memoranda</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1917-1948">
+                  <unitdatestructured altrender="1917-1948" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1948">1948</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132174 /locations/9"
                              containerid="39002042251182"
+                             encodinganalog="archive half legal"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">40-41</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1187388"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>Articles</unittitle>
                </did>
-               <c id="ref28" level="file">
+               <c altrender="/repositories/12/archival_objects/1187389"
+                  id="ref28"
+                  level="file">
                   <did>
                      <unittitle>"Americanization and Peace"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive half legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132174 /locations/9"
                                 containerid="39002042251182"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref28_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">42</container>
                   </did>
                </c>
-               <c id="ref29" level="file">
+               <c altrender="/repositories/12/archival_objects/1187390"
+                  id="ref29"
+                  level="file">
                   <did>
                      <unittitle>"August Weismann: Personal Reminiscences"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1963">
+                     <unitdatestructured altrender="1963" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1963">1963</fromdate>
                            <todate standarddate="1963">1963</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132174 /locations/9"
                                 containerid="39002042251182"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref29_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">43</container>
                   </did>
                </c>
-               <c id="ref30" level="file">
+               <c altrender="/repositories/12/archival_objects/1187391"
+                  id="ref30"
+                  level="file">
                   <did>
                      <unittitle>"Influences of Russian Political Parties, The"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="[ca. 1918]">
+                     <unitdatestructured altrender="[ca. 1918]" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1913">1913</fromdate>
                            <todate standarddate="1923">1923</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132174 /locations/9"
                                 containerid="39002042251182"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref30_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">44</container>
                   </did>
                </c>
-               <c id="ref31" level="file">
+               <c altrender="/repositories/12/archival_objects/1187392"
+                  id="ref31"
+                  level="file">
                   <did>
                      <unittitle>"Political Crisis in Russia"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1917">
+                     <unitdatestructured altrender="1917" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1917">1917</fromdate>
                            <todate standarddate="1917">1917</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132174 /locations/9"
                                 containerid="39002042251182"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref31_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">45</container>
                   </did>
                </c>
-               <c id="ref32" level="file">
+               <c altrender="/repositories/12/archival_objects/1187393"
+                  id="ref32"
+                  level="file">
                   <did>
                      <unittitle>"Role of the Intellectuals in the Liberating Movements in Russia"</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive half legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132174 /locations/9"
                                 containerid="39002042251182"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref32_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">46</container>
                   </did>
                </c>
-               <c id="ref33" level="file">
+               <c altrender="/repositories/12/archival_objects/1187394"
+                  id="ref33"
+                  level="file">
                   <did>
                      <unittitle>"Russia and the Baltic States"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1923-1924">
+                     <unitdatestructured altrender="1923-1924" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1923">1923</fromdate>
                            <todate standarddate="1924">1924</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132174 /locations/9"
                                 containerid="39002042251182"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref33_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">47-48</container>
                   </did>
                </c>
-               <c id="ref34" level="file">
+               <c altrender="/repositories/12/archival_objects/1187395"
+                  id="ref34"
+                  level="file">
                   <did>
                      <unittitle>"Russia Before the War"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive half legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132174 /locations/9"
                                 containerid="39002042251182"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref34_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">49</container>
                   </did>
                </c>
-               <c id="ref35" level="file">
+               <c altrender="/repositories/12/archival_objects/1187396"
+                  id="ref35"
+                  level="file">
                   <did>
                      <unittitle>"Russia Recovering"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive half legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132174 /locations/9"
                                 containerid="39002042251182"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref35_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">50</container>
                   </did>
                </c>
-               <c id="ref36" level="file">
+               <c altrender="/repositories/12/archival_objects/1187397"
+                  id="ref36"
+                  level="file">
                   <did>
                      <unittitle>"Russian Revolution, The"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive half legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132174 /locations/9"
                                 containerid="39002042251182"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref36_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">51</container>
                   </did>
                </c>
-               <c id="ref37" level="file">
+               <c altrender="/repositories/12/archival_objects/1187398"
+                  id="ref37"
+                  level="file">
                   <did>
                      <unittitle>"Sketches From Russian Life"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive half legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132174 /locations/9"
                                 containerid="39002042251182"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref37_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">52</container>
                   </did>
                </c>
-               <c id="ref38" level="file">
+               <c altrender="/repositories/12/archival_objects/1187399"
+                  id="ref38"
+                  level="file">
                   <did>
                      <unittitle>"Truth About Rasputin, The"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive half legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132174 /locations/9"
                                 containerid="39002042251182"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref38_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">53</container>
                   </did>
                </c>
-               <c id="ref39" level="file">
+               <c altrender="/repositories/12/archival_objects/1187400"
+                  id="ref39"
+                  level="file">
                   <did>
                      <unittitle>"Universities in the United States"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive half legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132174 /locations/9"
                                 containerid="39002042251182"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref39_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -530,36 +648,45 @@ arachnids.</p>
                   </did>
                </c>
             </c>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1187401"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>Bolshevism</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132174 /locations/9"
                              containerid="39002042251182"
+                             encodinganalog="archive half legal"
                              id="aspace_ref40_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">55</container>
                </did>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1187402"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>Book reviews</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132174 /locations/9"
                              containerid="39002042251182"
+                             encodinganalog="archive half legal"
                              id="aspace_ref41_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">56</container>
                </did>
             </c>
-            <c id="ref42" level="file">
+            <c altrender="/repositories/12/archival_objects/1187403"
+               id="ref42"
+               level="file">
                <did>
                   <unittitle>Poetry</unittitle>
-                  <unitdate unitdatetype="inclusive">1917; 1945; undated</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">1917; 1945; undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132174 /locations/9"
                              containerid="39002042251182"
+                             encodinganalog="archive half legal"
                              id="aspace_ref42_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -571,12 +698,15 @@ arachnids.</p>
                   </p>
                </odd>
             </c>
-            <c id="ref43" level="file">
+            <c altrender="/repositories/12/archival_objects/1187404"
+               id="ref43"
+               level="file">
                <did>
                   <unittitle>Russia and change</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132174 /locations/9"
                              containerid="39002042251182"
+                             encodinganalog="archive half legal"
                              id="aspace_ref43_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -584,11 +714,13 @@ arachnids.</p>
                </did>
             </c>
          </c>
-         <c id="ref46" level="series">
+         <c altrender="/repositories/12/archival_objects/1187405"
+            id="ref46"
+            level="series">
             <did>
                <unittitle>Personal papers and photographs</unittitle>
                <unitid>Series III</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1894-1964">
+               <unitdatestructured altrender="1894-1964" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1894">1894</fromdate>
                      <todate standarddate="1964">1964</todate>
@@ -599,105 +731,129 @@ arachnids.</p>
                <head>Scope and Contents</head>
                <p>This series is arranged in alphabetical order by subject and record type.</p>
             </scopecontent>
-            <c id="ref48" level="file">
+            <c altrender="/repositories/12/archival_objects/1187406"
+               id="ref48"
+               level="file">
                <did>
                   <unittitle>Clippings</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1917, 1922, undated">
+                  <unitdatestructured altrender="1917, 1922, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1922">1922</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132175 /locations/9"
                              containerid="39002042251190"
+                             encodinganalog="archive legal"
                              id="aspace_ref48_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref48_c2" localtype="folder" parent="aspace_ref48_c1">61</container>
                </did>
             </c>
-            <c id="ref49" level="file">
+            <c altrender="/repositories/12/archival_objects/1187407"
+               id="ref49"
+               level="file">
                <did>
                   <unittitle>Family genealogy</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132175 /locations/9"
                              containerid="39002042251190"
+                             encodinganalog="archive legal"
                              id="aspace_ref49_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref49_c2" localtype="folder" parent="aspace_ref49_c1">62</container>
                </did>
             </c>
-            <c id="ref50" level="file">
+            <c altrender="/repositories/12/archival_objects/1187408"
+               id="ref50"
+               level="file">
                <did>
                   <unittitle>Journals</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1894 - [irca 1924]">
+                  <unitdatestructured altrender="1894 - [irca 1924]"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1894">1894</fromdate>
                         <todate standarddate="1929">1929</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132175 /locations/9"
                              containerid="39002042251190"
+                             encodinganalog="archive legal"
                              id="aspace_ref50_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref50_c2" localtype="folder" parent="aspace_ref50_c1">63-67</container>
                </did>
             </c>
-            <c id="ref51" level="file">
+            <c altrender="/repositories/12/archival_objects/1187409"
+               id="ref51"
+               level="file">
                <did>
                   <unittitle>Jubilee in honor of A. I. Petrunkevitch</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1932">
+                  <unitdatestructured altrender="1932" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1932">1932</fromdate>
                         <todate standarddate="1932">1932</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132175 /locations/9"
                              containerid="39002042251190"
+                             encodinganalog="archive legal"
                              id="aspace_ref51_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref51_c2" localtype="folder" parent="aspace_ref51_c1">68-69</container>
                </did>
             </c>
-            <c id="ref52" level="file">
+            <c altrender="/repositories/12/archival_objects/1187410"
+               id="ref52"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Manual Slavonic Personalities</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1940">
+                  <unitdatestructured altrender="1940" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1940">1940</fromdate>
                         <todate standarddate="1940">1940</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132176 /locations/9"
                              containerid="39002042251208"
+                             encodinganalog="archive legal"
                              id="aspace_ref52_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref52_c2" localtype="folder" parent="aspace_ref52_c1">70</container>
                </did>
             </c>
-            <c id="ref53" level="file">
+            <c altrender="/repositories/12/archival_objects/1187411"
+               id="ref53"
+               level="file">
                <did>
                   <unittitle>Memorabilia</unittitle>
                </did>
-               <c id="ref54" level="file">
+               <c altrender="/repositories/12/archival_objects/1187412"
+                  id="ref54"
+                  level="file">
                   <did>
                      <unittitle>Awards, certificates, and diplomas</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1894-1906">
+                     <unitdatestructured altrender="1894-1906" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1894">1894</fromdate>
                            <todate standarddate="1906">1906</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132176 /locations/9"
                                 containerid="39002042251208"
+                                encodinganalog="archive legal"
                                 id="aspace_ref54_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
@@ -709,17 +865,20 @@ arachnids.</p>
                      </p>
                   </odd>
                </c>
-               <c id="ref55" level="file">
+               <c altrender="/repositories/12/archival_objects/1187413"
+                  id="ref55"
+                  level="file">
                   <did>
                      <unittitle>Honorarium</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1944">
+                     <unitdatestructured altrender="1944" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1944">1944</fromdate>
                            <todate standarddate="1944">1944</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132176 /locations/9"
                                 containerid="39002042251208"
+                                encodinganalog="archive legal"
                                 id="aspace_ref55_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
@@ -731,17 +890,20 @@ arachnids.</p>
                      </p>
                   </odd>
                </c>
-               <c id="ref56" level="file">
+               <c altrender="/repositories/12/archival_objects/1187414"
+                  id="ref56"
+                  level="file">
                   <did>
                      <unittitle>Miscellaneous</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1918-1964">
+                     <unitdatestructured altrender="1918-1964" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1918">1918</fromdate>
                            <todate standarddate="1964">1964</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132176 /locations/9"
                                 containerid="39002042251208"
+                                encodinganalog="archive legal"
                                 id="aspace_ref56_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
@@ -749,7 +911,9 @@ arachnids.</p>
                   </did>
                </c>
             </c>
-            <c id="ref59" level="file">
+            <c altrender="/repositories/12/archival_objects/1187415"
+               id="ref59"
+               level="file">
                <did>
                   <unittitle>Novikov, M.M. <title render="italic">
                         <part>Ot Moskvy do Niu-Iorka</part>
@@ -757,60 +921,70 @@ arachnids.</p>
                         <part>From Moscow to New
 York</part>
                      </title>)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1952">
+                  <unitdatestructured altrender="1952" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1952">1952</fromdate>
                         <todate standarddate="1952">1952</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132176 /locations/9"
                              containerid="39002042251208"
+                             encodinganalog="archive legal"
                              id="aspace_ref59_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref59_c2" localtype="folder" parent="aspace_ref59_c1">74</container>
                </did>
             </c>
-            <c id="ref60" level="file">
+            <c altrender="/repositories/12/archival_objects/1187416"
+               id="ref60"
+               level="file">
                <did>
                   <unittitle>Photograph album</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1903">
+                  <unitdatestructured altrender="1903" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1903">1903</fromdate>
                         <todate standarddate="1903">1903</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132176 /locations/9"
                              containerid="39002042251208"
+                             encodinganalog="archive legal"
                              id="aspace_ref60_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref60_c2" localtype="folder" parent="aspace_ref60_c1">75</container>
                </did>
             </c>
-            <c id="ref61" level="file">
+            <c altrender="/repositories/12/archival_objects/1187417"
+               id="ref61"
+               level="file">
                <did>
                   <unittitle>Photograph albums</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132177 /locations/9"
                              containerid="39002042251216"
+                             encodinganalog="archive legal"
                              id="aspace_ref61_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref61_c2" localtype="folder" parent="aspace_ref61_c1">76-77</container>
                </did>
             </c>
-            <c id="ref62" level="file">
+            <c altrender="/repositories/12/archival_objects/1187418"
+               id="ref62"
+               level="file">
                <did>
                   <unittitle>Photographs</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1895-1919">
+                  <unitdatestructured altrender="1895-1919" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1895">1895</fromdate>
                         <todate standarddate="1919">1919</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132177 /locations/9"
                              containerid="39002042251216"
+                             encodinganalog="archive legal"
                              id="aspace_ref62_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
@@ -827,132 +1001,161 @@ York</part>
                   </p>
                </odd>
             </c>
-            <c id="ref63" level="file">
+            <c altrender="/repositories/12/archival_objects/1187419"
+               id="ref63"
+               level="file">
                <did>
                   <unittitle>Poetry</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132177 /locations/9"
                              containerid="39002042251216"
+                             encodinganalog="archive legal"
                              id="aspace_ref63_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref63_c2" localtype="folder" parent="aspace_ref63_c1">80</container>
                </did>
             </c>
-            <c id="ref64" level="file">
+            <c altrender="/repositories/12/archival_objects/1187420"
+               id="ref64"
+               level="file">
                <did>
                   <unittitle>Russian Collegiate Institute</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132177 /locations/9"
                              containerid="39002042251216"
+                             encodinganalog="archive legal"
                              id="aspace_ref64_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref64_c2" localtype="folder" parent="aspace_ref64_c1">81</container>
                </did>
             </c>
-            <c id="ref65" level="file">
+            <c altrender="/repositories/12/archival_objects/1187421"
+               id="ref65"
+               level="file">
                <did>
                   <unittitle>Russian committees</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132177 /locations/9"
                              containerid="39002042251216"
+                             encodinganalog="archive legal"
                              id="aspace_ref65_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref65_c2" localtype="folder" parent="aspace_ref65_c1">82</container>
                </did>
             </c>
-            <c id="ref66" level="file">
+            <c altrender="/repositories/12/archival_objects/1187422"
+               id="ref66"
+               level="file">
                <did>
                   <unittitle>Russian Orthodox Church</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1922-1927">
+                  <unitdatestructured altrender="1922-1927" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1922">1922</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132177 /locations/9"
                              containerid="39002042251216"
+                             encodinganalog="archive legal"
                              id="aspace_ref66_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref66_c2" localtype="folder" parent="aspace_ref66_c1">83</container>
                </did>
             </c>
-            <c id="ref67" level="file">
+            <c altrender="/repositories/12/archival_objects/1187423"
+               id="ref67"
+               level="file">
                <did>
                   <unittitle>Svidetelstvo (Lineage)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1894">
+                  <unitdatestructured altrender="1894" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1894">1894</fromdate>
                         <todate standarddate="1894">1894</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132177 /locations/9"
                              containerid="39002042251216"
+                             encodinganalog="archive legal"
                              id="aspace_ref67_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref67_c2" localtype="folder" parent="aspace_ref67_c1">84</container>
                </did>
             </c>
-            <c id="ref68" level="file">
+            <c altrender="/repositories/12/archival_objects/1187424"
+               id="ref68"
+               level="file">
                <did>
                   <unittitle>Oversize</unittitle>
                </did>
-               <c id="ref69" level="file">
+               <c altrender="/repositories/12/archival_objects/1187425"
+                  id="ref69"
+                  level="file">
                   <did>
                      <unittitle>Photographs</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1895">
+                     <unitdatestructured altrender="1895" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1895">1895</fromdate>
                            <todate standarddate="1895">1895</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (20d 1h 24w)"
+                     <container altrender="/repositories/12/top_containers/132178 /locations/9"
                                 containerid="39002042282336"
+                                encodinganalog="flat box (20d 1h 24w)"
                                 id="aspace_ref69_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref69_c2" localtype="folder" parent="aspace_ref69_c1">85-87</container>
                   </did>
                </c>
-               <c id="ref70" level="file">
+               <c altrender="/repositories/12/archival_objects/1187426"
+                  id="ref70"
+                  level="file">
                   <did>
                      <unittitle>Honorarium</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1944">
+                     <unitdatestructured altrender="1944" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1944">1944</fromdate>
                            <todate standarddate="1944">1944</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (20d 1h 24w)"
+                     <container altrender="/repositories/12/top_containers/132178 /locations/9"
                                 containerid="39002042282336"
+                                encodinganalog="flat box (20d 1h 24w)"
                                 id="aspace_ref70_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref70_c2" localtype="folder" parent="aspace_ref70_c1">88</container>
                   </did>
                </c>
-               <c id="ref71" level="file">
+               <c altrender="/repositories/12/archival_objects/1187427"
+                  id="ref71"
+                  level="file">
                   <did>
                      <unittitle>Photographs</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="flat box (20d 1h 24w)"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132178 /locations/9"
                                 containerid="39002042282336"
+                                encodinganalog="flat box (20d 1h 24w)"
                                 id="aspace_ref71_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref71_c2" localtype="folder" parent="aspace_ref71_c1">89</container>
                   </did>
                </c>
-               <c id="ref72" level="file">
+               <c altrender="/repositories/12/archival_objects/1187428"
+                  id="ref72"
+                  level="file">
                   <did>
                      <unittitle>Awards, certificates, and diplomas</unittitle>
-                     <unitdate unitdatetype="inclusive">1901; 1906; 1927</unitdate>
-                     <container altrender="flat box (20d 1h 24w)"
+                     <unitdate label="creation" unitdatetype="inclusive">1901; 1906; 1927</unitdate>
+                     <container altrender="/repositories/12/top_containers/132178 /locations/9"
                                 containerid="39002042282336"
+                                encodinganalog="flat box (20d 1h 24w)"
                                 id="aspace_ref72_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>

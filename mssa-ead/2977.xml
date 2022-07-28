@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0508">mssa.ms.0508</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0508">mssa.ms.0508</recordid>
+      <otherrecordid localtype="BIB">613964</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Roger Wellington Tubby papers
@@ -31,6 +33,11 @@
             <date>July 2008</date>
             <num>MS 508</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -38,8 +45,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -49,7 +59,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -58,14 +68,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T10:02:36+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:19:55+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 10:02</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:19</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2977" level="collection">
       <did>
          <unittitle>Roger Wellington Tubby papers</unittitle>
          <unitid>MS 508</unitid>
@@ -82,35 +92,36 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(24 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1923-1991">
+         <unitdatestructured altrender="1923-1991" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1923">1923</fromdate>
                <todate standarddate="1991">1991</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_c08d8b7b50683847d80e87c1517ac7e3">The Roger W. Tubby Papers consist of voluminous personal diaries, as well as correspondence, writings, photographs, press releases, and newspaper clippings, ranging over the period 1925-83. The papers are largely unprocessed.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname rules="aacr" source="local">
-               <part>Tubby, Roger Wellington</part>
+               <part localtype="agent_person">Tubby, Roger Wellington</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_2204d54da5f9efc5a619bc0fe6b2b9db">
          <head>Immediate Source of Acquisition</head>
-         <p>The papers were donated to the Yale Library by Mr. Tubby, beginning in 1955.</p>  
+         <p>The papers were donated to the Yale Library by Mr. Tubby, beginning in 1955.</p>
       </acqinfo>
-      <accessrestrict id="aspace_4fb9f5440a778589d33f96b3297f5263">
+      <accessrestrict id="aspace_4fb9f5440a778589d33f96b3297f5263"
+                      localtype="RestrictedCurApprSpecColl">
          <head>Conditions Governing Access</head>
-         <p>The papers are closed to researchers until January 1, 2050.</p>  
+         <p>The papers are closed to researchers until January 1, 2050.</p>
       </accessrestrict>
       <userestrict id="aspace_ae393835526c73d05f70529d889f45d9">
          <head>Conditions Governing Use</head>
-         <p>Copyright has been transferred to Yale University for unpublished materials authored or otherwise produced by the creator(s) of this collection. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright for unpublished materials authored or otherwise produced by Roger Wellington Tubby has been transferred to Yale University. These materials may be used for non-commercial purposes without seeking permission from Yale University as the copyright holder. For other uses of these materials, please contact mssa.assist@yale.edu.</p>
+         <p>Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <prefercite id="aspace_642257d502f0ee114ffcdc9e6d1dfe39">
          <head>Preferred Citation</head>
-         <p>Roger Wellington Tubby papers (MS 508). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Roger Wellington Tubby papers (MS 508). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <bioghist id="aspace_5df547b8bc3f9c4010a4a6af251ad313">
          <head>Biographical / Historical</head>
@@ -120,169 +131,253 @@
          <p>In 1936 he married Anne Williams. They had four children. Tubby died on January 4, 1991.</p>
          <p>from <title render="italic">
                <part>Who's Who in America</part>
-            </title>, 42nd edition, 1982-83, p.3374.</p>  
+            </title>, 42nd edition, 1982-83, p.3374.</p>
       </bioghist>
       <scopecontent id="aspace_cb0d88975a07244ec9df0f50cbfca6e4">
          <head>Scope and Contents</head>
-         <p>The Roger W. Tubby Papers consist of voluminous personal diaries, as well as correspondence, writings, photographs, press releases, and newspaper clippings, ranging over the period 1925-83. The papers are largely unprocessed.</p>  
+         <p>The Roger W. Tubby Papers consist of voluminous personal diaries, as well as correspondence, writings, photographs, press releases, and newspaper clippings, ranging over the period 1925-83. The papers are largely unprocessed.</p>
       </scopecontent>
       <dsc>
-         <c id="aspace_23b67b236e03f212d2397df13d4e4a03" level="series">
+         <c altrender="/repositories/12/archival_objects/2993679"
+            id="aspace_23b67b236e03f212d2397df13d4e4a03"
+            level="series">
             <did>
                <unittitle>Original accession</unittitle>
             </did>
-            <c id="ref10" level="file">
+            <c altrender="/repositories/12/archival_objects/1173773"
+               id="ref10"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1923-1970">
+                  <unitdatestructured altrender="1923-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1923">1923</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container localtype="box" id="d2e8">1–4</container>
+                  <container altrender="/repositories/12/top_containers/130418 /locations/9"
+                             containerid="39002042351594"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref10_c1"
+                             label="Mixed Materials"
+                             localtype="box">3</container>
+                  <container altrender="/repositories/12/top_containers/130419 /locations/9"
+                             containerid="39002042351578"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref10_c2"
+                             label="Mixed Materials"
+                             localtype="box">1</container>
+                  <container altrender="/repositories/12/top_containers/130420 /locations/9"
+                             containerid="39002042351602"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref10_c3"
+                             label="Mixed Materials"
+                             localtype="box">4</container>
+                  <container altrender="/repositories/12/top_containers/130421 /locations/9"
+                             containerid="39002042351586"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref10_c4"
+                             label="Mixed Materials"
+                             localtype="box">2</container>
                </did>
             </c>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1173774"
+               id="ref11"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1971 May">
+                  <unitdatestructured altrender="1971 May" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1971">1971</fromdate>
                         <todate standarddate="1971">1971</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130422 /locations/9"
                              containerid="39002042351610"
+                             encodinganalog="archive legal"
                              id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1173775"
+               id="ref12"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1971 October">
+                  <unitdatestructured altrender="1971 October" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1971">1971</fromdate>
                         <todate standarddate="1971">1971</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container localtype="box" id="d3e4">6–7</container>
+                  <container altrender="/repositories/12/top_containers/130423 /locations/9"
+                             containerid="39002042351636"
+                             encodinganalog="archive legal"
+                             id="aspace_ref12_c1"
+                             label="Mixed Materials"
+                             localtype="box">7</container>
+                  <container altrender="/repositories/12/top_containers/130424 /locations/9"
+                             containerid="39002042351628"
+                             encodinganalog="archive letter"
+                             id="aspace_ref12_c2"
+                             label="Mixed Materials"
+                             localtype="box">6</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1173776"
+               id="ref13"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1973 June">
+                  <unitdatestructured altrender="1973 June" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1973">1973</fromdate>
                         <todate standarddate="1973">1973</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container localtype="box" id="d4e6">8–10</container>
+                  <container altrender="/repositories/12/top_containers/130425 /locations/9"
+                             containerid="39002042351651"
+                             id="aspace_ref13_c1"
+                             label="Mixed Materials"
+                             localtype="box">9</container>
+                  <container altrender="/repositories/12/top_containers/130426 /locations/9"
+                             containerid="39002042351669"
+                             id="aspace_ref13_c2"
+                             label="Mixed Materials"
+                             localtype="box">10</container>
+                  <container altrender="/repositories/12/top_containers/130427 /locations/9"
+                             containerid="39002042351644"
+                             id="aspace_ref13_c3"
+                             label="Mixed Materials"
+                             localtype="box">8</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1173777"
+               id="ref14"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1975 April">
+                  <unitdatestructured altrender="1975 April" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1975">1975</fromdate>
                         <todate standarddate="1975">1975</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130428 /locations/9"
                              containerid="39002042351677"
+                             encodinganalog="archive letter"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1173778"
+               id="ref15"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1976 Aug; 1977 July">
+                  <unitdatestructured altrender="1976 Aug; 1977 July"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1976">1976</fromdate>
                         <todate standarddate="1977">1977</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130429 /locations/9"
                              containerid="39002042351685"
+                             encodinganalog="archive letter"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">12</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1173779"
+               id="ref16"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive"
-                                      altrender="1978 May; 1979 Feb, Oct; 1980 January">
+                  <unitdatestructured altrender="1978 May; 1979 Feb, Oct; 1980 January"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1978">1978</fromdate>
                         <todate standarddate="1980">1980</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130430 /locations/9"
                              containerid="39002042351693"
+                             encodinganalog="Paige 15"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">13</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1173780"
+               id="ref17"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1981 January">
+                  <unitdatestructured altrender="1981 January" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1981">1981</fromdate>
                         <todate standarddate="1981">1981</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130431 /locations/9"
                              containerid="39002042351701"
+                             encodinganalog="archive letter"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">14</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1173781"
+               id="ref18"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1982 July">
+                  <unitdatestructured altrender="1982 July" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1982">1982</fromdate>
                         <todate standarddate="1982">1982</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130432 /locations/9"
                              containerid="39002042351719"
+                             encodinganalog="Paige 15"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">15</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1173782"
+               id="ref19"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1984 April">
+                  <unitdatestructured altrender="1984 April" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1984">1984</fromdate>
                         <todate standarddate="1984">1984</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130433 /locations/9"
                              containerid="39002042351727"
+                             encodinganalog="archive letter"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">16</container>
                </did>
             </c>
          </c>
-         <c id="ref20" level="series">
+         <c altrender="/repositories/12/archival_objects/1173783"
+            id="ref20"
+            level="series">
             <did>
                <unittitle>Additional material</unittitle>
                <unitid>Accession 1989-M-037</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1932-1988">
+               <unitdatestructured altrender="1932-1988" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1932">1932</fromdate>
                      <todate standarddate="1988">1988</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1173784"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Journals</unittitle>
                </did>
@@ -290,232 +385,298 @@
                   <head>General</head>
                   <p>All journals are interspersed with correspondence, clippings, photographs, etc.</p>
                </odd>
-               <c id="ref23" level="file">
+               <c altrender="/repositories/12/archival_objects/1173785"
+                  id="ref23"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1984 January 1-September 18">
+                     <unitdatestructured altrender="1984 January 1-September 18"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1984">1984</fromdate>
                            <todate standarddate="1984">1984</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130434 /locations/9"
                                 containerid="39002042351735"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref23_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                   </did>
                </c>
-               <c id="ref24" level="file">
+               <c altrender="/repositories/12/archival_objects/1173786"
+                  id="ref24"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1984 September 25-1985 August 18">
+                     <unitdatestructured altrender="1984 September 25-1985 August 18"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1984">1984</fromdate>
                            <todate standarddate="1985">1985</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130434 /locations/9"
                                 containerid="39002042351735"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref24_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                   </did>
                </c>
-               <c id="ref25" level="file">
+               <c altrender="/repositories/12/archival_objects/1173787"
+                  id="ref25"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1985 August 28-1986 July 13">
+                     <unitdatestructured altrender="1985 August 28-1986 July 13"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1985">1985</fromdate>
                            <todate standarddate="1986">1986</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130434 /locations/9"
                                 containerid="39002042351735"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref25_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                   </did>
                </c>
-               <c id="ref26" level="file">
+               <c altrender="/repositories/12/archival_objects/1173788"
+                  id="ref26"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1986 July 16-1987 January 29">
+                     <unitdatestructured altrender="1986 July 16-1987 January 29"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1986">1986</fromdate>
                            <todate standarddate="1987">1987</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130434 /locations/9"
                                 containerid="39002042351735"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref26_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                   </did>
                </c>
-               <c id="ref27" level="file">
+               <c altrender="/repositories/12/archival_objects/1173789"
+                  id="ref27"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1987 January 29-1988 January 6">
+                     <unitdatestructured altrender="1987 January 29-1988 January 6"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1987">1987</fromdate>
                            <todate standarddate="1988">1988</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130434 /locations/9"
                                 containerid="39002042351735"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref27_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                   </did>
                </c>
-               <c id="ref28" level="file">
+               <c altrender="/repositories/12/archival_objects/1173790"
+                  id="ref28"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1988 January 3-November 7">
+                     <unitdatestructured altrender="1988 January 3-November 7"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1988">1988</fromdate>
                            <todate standarddate="1988">1988</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130434 /locations/9"
                                 containerid="39002042351735"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref28_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                   </did>
                </c>
             </c>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1173791"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Correspondence about starting a new four-year liberal arts college at Saranac Lake, New York</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1955">
+                  <unitdatestructured altrender="Circa 1955" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1950">1950</fromdate>
                         <todate standarddate="1959">1959</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130435 /locations/9"
                              containerid="39002042351743"
+                             encodinganalog="archive legal"
                              id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1173792"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Oral history interview with Roger Tubby for the John F. Kennedy Library, by Joseph O'Connor</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1967 January 16">
+                  <unitdatestructured altrender="1967 January 16"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1967">1967</fromdate>
                         <todate standarddate="1967">1967</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130435 /locations/9"
                              containerid="39002042351743"
+                             encodinganalog="archive legal"
                              id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1173793"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>Assorted clippings, letters, etc.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1932-1988">
+                  <unitdatestructured altrender="Circa 1932-1988"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1927">1927</fromdate>
                         <todate standarddate="1988">1988</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130435 /locations/9"
                              containerid="39002042351743"
+                             encodinganalog="archive legal"
                              id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
          </c>
-         <c id="ref33" level="series">
+         <c altrender="/repositories/12/archival_objects/1173794"
+            id="ref33"
+            level="series">
             <did>
                <unittitle>Additional material</unittitle>
                <unitid>Accession 1989-M-057</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1930-1989">
+               <unitdatestructured altrender="1930-1989" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1930">1930</fromdate>
                      <todate standarddate="1989">1989</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1173795"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1930s-1980s">
+                  <unitdatestructured altrender="1930s-1980s" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1930">1930</fromdate>
                         <todate standarddate="1989">1989</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130436 /locations/9"
                              containerid="39002042351750"
+                             encodinganalog="archive legal"
                              id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">1</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1173796"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Melinda</part>
                      </title>, excerpts from a novel by Roger W. Tubby</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/130436 /locations/9"
                              containerid="39002042351750"
+                             encodinganalog="archive legal"
                              id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">2</container>
                </did>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1173797"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>New Bennington</part>
                      </title>, excerpts from a novel by Roger W. Tubby "</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/130436 /locations/9"
                              containerid="39002042351750"
+                             encodinganalog="archive legal"
                              id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">3</container>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1173798"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>Press clippings</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1960s-1980s">
+                  <unitdatestructured altrender="1960s-1980s" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1960">1960</fromdate>
                         <todate standarddate="1989">1989</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130436 /locations/9"
                              containerid="39002042351750"
+                             encodinganalog="archive legal"
                              id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">4</container>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1173799"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>Photographs</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1988, undated">
+                  <unitdatestructured altrender="1988, undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1988">1988</fromdate>
                         <todate standarddate="1988">1988</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130436 /locations/9"
                              containerid="39002042351750"
+                             encodinganalog="archive legal"
                              id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -523,56 +684,70 @@
                </did>
             </c>
          </c>
-         <c id="ref40" level="series">
+         <c altrender="/repositories/12/archival_objects/1173800"
+            id="ref40"
+            level="series">
             <did>
                <unittitle>Additional material</unittitle>
                <unitid>Accession 1989-M-080</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1988-1989">
+               <unitdatestructured altrender="1988-1989" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1988">1988</fromdate>
                      <todate standarddate="1989">1989</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1173801"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>Journal (Correspondence, clippings, and photographs laid in.)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1988 November 17-1989 May 5">
+                  <unitdatestructured altrender="1988 November 17-1989 May 5"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1988">1988</fromdate>
                         <todate standarddate="1989">1989</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/130437 /locations/9"
                              containerid="39002042351768"
+                             encodinganalog="archive half letter"
                              id="aspace_ref41_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
          </c>
-         <c id="ref42" level="series">
+         <c altrender="/repositories/12/archival_objects/1173802"
+            id="ref42"
+            level="series">
             <did>
                <unittitle>Additional material</unittitle>
                <unitid>Accession 1990-M-021</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1989">
+               <unitdatestructured altrender="1989" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1989">1989</fromdate>
                      <todate standarddate="1989">1989</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref43" level="file">
+            <c altrender="/repositories/12/archival_objects/1173803"
+               id="ref43"
+               level="file">
                <did>
                   <unittitle>Journal </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1989 May 5-August 23">
+                  <unitdatestructured altrender="1989 May 5-August 23"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1989">1989</fromdate>
                         <todate standarddate="1989">1989</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/130438 /locations/9"
                              containerid="39002042351776"
+                             encodinganalog="archive half letter"
                              id="aspace_ref43_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -583,11 +758,13 @@
                </odd>
             </c>
          </c>
-         <c id="ref44" level="series">
+         <c altrender="/repositories/12/archival_objects/1173804"
+            id="ref44"
+            level="series">
             <did>
                <unittitle>Additional material</unittitle>
                <unitid>Accession 1991-M-002</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1989-1990">
+               <unitdatestructured altrender="1989-1990" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1989">1989</fromdate>
                      <todate standarddate="1990">1990</todate>
@@ -598,7 +775,9 @@
                <head>Scope and Contents</head>
                <p>Also includes Accession 1991-M-027</p>
             </scopecontent>
-            <c id="ref45" level="file">
+            <c altrender="/repositories/12/archival_objects/1173805"
+               id="ref45"
+               level="file">
                <did>
                   <unittitle>Journals</unittitle>
                </did>
@@ -606,32 +785,42 @@
                   <head>Scope and Contents</head>
                   <p>(Journals are interspersed with correspondence, clippings, photographs, etc.)</p>
                </scopecontent>
-               <c id="ref46" level="file">
+               <c altrender="/repositories/12/archival_objects/1173806"
+                  id="ref46"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1989 September 1- 1990 January 31">
+                     <unitdatestructured altrender="1989 September 1- 1990 January 31"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1989-09-01">1989-09-01</fromdate>
-                           <todate standarddate="1990-01-31">1990-01-31</todate>
+                           <fromdate standarddate="1989-09-01">1989 September 1</fromdate>
+                           <todate standarddate="1990-01-31">1990 January 31</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130439 /locations/9"
                                 containerid="39002042351784"
+                                encodinganalog="archive letter"
                                 id="aspace_ref46_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref46_c2" localtype="folder" parent="aspace_ref46_c1">1-2</container>
                   </did>
                </c>
-               <c id="ref47" level="file">
+               <c altrender="/repositories/12/archival_objects/1173807"
+                  id="ref47"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1990 January 31-June 27">
+                     <unitdatestructured altrender="1990 January 31-June 27"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1990-01-31">1990-01-31</fromdate>
-                           <todate standarddate="1990-06-27">1990-06-27</todate>
+                           <fromdate standarddate="1990-01-31">1990 January 31</fromdate>
+                           <todate standarddate="1990-06-27">1990 June 27</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130439 /locations/9"
                                 containerid="39002042351784"
+                                encodinganalog="archive letter"
                                 id="aspace_ref47_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -639,31 +828,39 @@
                   </did>
                </c>
             </c>
-            <c id="ref49" level="file">
+            <c altrender="/repositories/12/archival_objects/1173808"
+               id="ref49"
+               level="file">
                <did>
                   <unittitle>Videotape interview with Roger W. Tubby</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1989 November">
+                  <unitdatestructured altrender="1989 November" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1989-11">1989 November</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130439 /locations/9"
                              containerid="39002042351784"
+                             encodinganalog="archive letter"
                              id="aspace_ref49_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref49_c2" localtype="folder" parent="aspace_ref49_c1">3</container>
                </did>
             </c>
-            <c id="ref50" level="file">
+            <c altrender="/repositories/12/archival_objects/1173809"
+               id="ref50"
+               level="file">
                <did>
                   <unittitle>Journal</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1990 June 6-September 14">
+                  <unitdatestructured altrender="1990 June 6-September 14"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1990">1990</fromdate>
                         <todate standarddate="1990">1990</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130439 /locations/9"
                              containerid="39002042351784"
+                             encodinganalog="archive letter"
                              id="aspace_ref50_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -675,44 +872,56 @@
                </odd>
             </c>
          </c>
-         <c id="ref52" level="series">
+         <c altrender="/repositories/12/archival_objects/1173810"
+            id="ref52"
+            level="series">
             <did>
                <unittitle>Additional material</unittitle>
                <unitid>Accession 1991-M-061</unitid>
             </did>
-            <c id="ref53" level="file">
+            <c altrender="/repositories/12/archival_objects/1173811"
+               id="ref53"
+               level="file">
                <did>
                   <unittitle>Correspondence</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/130440 /locations/9"
                              containerid="39002042351792"
+                             encodinganalog="archive half letter"
                              id="aspace_ref53_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
          </c>
-         <c id="ref54" level="series">
+         <c altrender="/repositories/12/archival_objects/1173812"
+            id="ref54"
+            level="series">
             <did>
                <unittitle>Additional material</unittitle>
                <unitid>Accession 1991-M-069</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1990">
+               <unitdatestructured altrender="1990" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1990">1990</fromdate>
                      <todate standarddate="1990">1990</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref55" level="file">
+            <c altrender="/repositories/12/archival_objects/1173813"
+               id="ref55"
+               level="file">
                <did>
                   <unittitle>Journal</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1990 September 15-December 17">
+                  <unitdatestructured altrender="1990 September 15-December 17"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1990">1990</fromdate>
                         <todate standarddate="1990">1990</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/130441 /locations/9"
                              containerid="39002042351800"
+                             encodinganalog="archive half letter"
                              id="aspace_ref55_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>

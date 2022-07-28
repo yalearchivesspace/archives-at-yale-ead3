@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0661">mssa.ms.0661</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0661">mssa.ms.0661</recordid>
+      <otherrecordid localtype="BIB">614638</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the George Sylvester Viereck Papers
@@ -32,6 +34,11 @@
             <date>August 1973</date>
             <num>MS 661</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:46:56+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:46:22+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:46</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:46</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3121" level="collection">
       <did>
          <unittitle>George Sylvester Viereck papers</unittitle>
          <unitid>MS 661</unitid>
@@ -83,33 +93,32 @@
             <unittype>Linear Foot</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(5 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1924-1938">
+         <unitdatestructured altrender="1924-1938" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1924">1924</fromdate>
                <todate standarddate="1938">1938</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_9f01490991971478a2735a47b36d0803">Correspondence and manuscripts dealing chiefly with Viereck's book about Colonel E. M. House and President Wilson, The Strangest Friendship in History. Also included are notes and manuscripts concerning "The Memoirs of Colonel House," and miscellaneous other papers.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n78093790"
                       rules="aacr"
                       source="naf">
-               <part>Viereck, George Sylvester, 1884-1962</part>
+               <part localtype="agent_person">Viereck, George Sylvester, 1884-1962</part>
             </persname>
          </origination>
-    
       </did>
       <prefercite id="aspace_500166df5fadb92da734cb25136922fd">
          <head>Preferred Citation</head>
-         <p>George Sylvester Viereck Papers (MS 661). Manuscripts and Archives, Yale University Library.</p>  
+         <p>George Sylvester Viereck Papers (MS 661). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <acqinfo id="aspace_88b58fad9f1dcb64fb40dd68fa7091b6">
          <head>Immediate Source of Acquisition</head>
-         <p>Purchased in 1947 from George S. Viereck.</p>  
+         <p>Purchased in 1947 from George S. Viereck.</p>
       </acqinfo>
       <arrangement id="aspace_94b0ccb591bd91a576e67f2180e3254b">
          <head>Arrangement</head>
-         <p>The papers are arranged in five series: I. General Correspondence. II. "The Strangest Friendship in History". III. "The Memoirs of Colonel House". IV. Conversations with Colonel House. V. Miscellaneous Papers.</p>  
+         <p>The papers are arranged in five series: I. General Correspondence. II. "The Strangest Friendship in History". III. "The Memoirs of Colonel House". IV. Conversations with Colonel House. V. Miscellaneous Papers.</p>
       </arrangement>
       <bioghist id="aspace_12f9ac477d290503763fef02932a298a">
          <head>Biographical / Historical</head>
@@ -129,549 +138,658 @@
          <p>...Finally, in early 1937 Colonel House decided to repurchase publication rights from Liberty for his memoirs, for which he paid the journal $10,000 - presumably the amount that had originally been paid him. Viereck, in turn, decided to reimburse the magazine for the "larger part" of what it had paid him on the projected series. At the same time he told House that he was under the impression that the North American Newspaper Alliance would be permitted to publish them, but nothing came of it. Viereck expressed his disappointment, but he said he would rather forfeit his monetary interest in the memoirs than lose "one particle" of House's friendship. The memoirs remained unpublished and were subsequently donated to Yale University. Charles Seymour later reviewed them and stated that they were based almost exclusively on <emph render="italic">The Intimate Papers of Colonel House</emph>, which he had prepared in the 1920's. He concluded that they did not add objective evidence, but reflected Colonel House's feelings after his memory had been refreshed, and that they also showed Viereck's influence as the ghost-writer. [Note by Charles Seymour, November 12, 1954, attached to MS of Memoirs of E. M. House MSS.]</p>
          <p>The lack of publishers' interest in the memoirs and House's decision to repurchase his literary rights chilled their friendship, but in July, 1937, House responded willingly to Viereck's initiative in renewing their old amity. Viereck told House that he still looked upon him as "more or less a Father Confessor." At the former's request, House reviewed and praised the final manuscript of Viereck's book, <emph render="italic">The Kaiser on Trial</emph>. On October 5, the two met for the first time in a long while; it also turned out to be their last meeting. The next day Viereck wrote Colonel House that he was "deeply touched" by the latter's tribute to his book. Soon thereafter House's health began deteriorating; after a final attack of pleurisy he passed away in March, 1938.</p>
          <p>The House-Viereck "connection" explains, in fact, the existence of this small collection of Viereck Papers in the Yale University Library, where until recently if formed part of the larger "House Collection" brought together by the late Charles Seymour. The bulk of Viereck's papers are to be found at the Special Collections Department of the University of Iowa Library and at the Manuscripts Division of the Library of Congress [Gertz MSS.]</p>
-         <p>In the late 'thirties Viereck once more emerged as a spokesman for the German (in this instance, Hitlerite) "cause" in America and fought vigorously on the side of the isolationist, anglophobe, and Nazi pressure groups in this country. This time his uncritical devotion to the Fatherland cost him dearly, and he emerged with his professional reputation totally ruined and his private and family life in tatters. In March 1942, Viereck was convicted of violating the Foreign Agents Registration Act; and despite a couple of mistrials and numerous appeals he was fined, sentenced to prison, and received a parole only in 1947. He died at Holyoke, Massachusetts in March 1962.</p>  
+         <p>In the late 'thirties Viereck once more emerged as a spokesman for the German (in this instance, Hitlerite) "cause" in America and fought vigorously on the side of the isolationist, anglophobe, and Nazi pressure groups in this country. This time his uncritical devotion to the Fatherland cost him dearly, and he emerged with his professional reputation totally ruined and his private and family life in tatters. In March 1942, Viereck was convicted of violating the Foreign Agents Registration Act; and despite a couple of mistrials and numerous appeals he was fined, sentenced to prison, and received a parole only in 1947. He died at Holyoke, Massachusetts in March 1962.</p>
       </bioghist>
       <accessrestrict id="aspace_098ffc187f812b1230050ac61b536216">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <scopecontent id="aspace_0ab5e832d1c677f829963c72015ec33a">
          <head>Scope and Contents</head>
          <p>The Viereck Papers are divided into five series, as follows:  I. General Correspondence (1 box) [arranged alphabetically by correspondent]; II. "The Strangest Friendship in History" (1 box) [preliminary draft and notes]; III. "The Memoirs of Colonel House" (1 box) [preliminary draft and notes]; IV. Conversations with Colonel House [1929-1931] (1 box); V. Miscellaneous Papers (1 box).</p>
-         <p>The correspondence is mainly the product of Viereck's inquiries to members of the Wilson administration in 1931 about the last eighteen months of Wilson's second term. Several times he put his questions in this form:</p>    
+         <p>The correspondence is mainly the product of Viereck's inquiries to members of the Wilson administration in 1931 about the last eighteen months of Wilson's second term. Several times he put his questions in this form:</p>
          <list listtype="unordered">
             <item>Did President Wilson preside over any meeting of his Cabinet after his breakdown?</item>
             <item>Did he communicate with the Cabinet through Mrs. Wilson, and if not, through whom?</item>
             <item>Was the question of Vice-President Marshall's assumption of the duties of the Presidency considered by the Cabinet, and if not, why not?</item>
          </list>
-         <p>but on other occasions he expressed them more generally. He received informative replies from Newton D. Baker, Bainbridge Colby, Thomas Watt Gregory, David F. Houston, Sidney Mezes, and Frank L. Polk. There are also unsolicited responses to his articles from C. C. Dill, Constantine Dumba, and George W. Watt among others. The only correspondence related to Viereck's political activities in the 1930s and 1940s is an exchange of letters with George W. Watt in 1953 describing Viereck's break with Fulton Oursler, editor of <emph render="italic">Liberty</emph>, and his subsequent conviction under the Foreign Agents Registration Act.</p>  
+         <p>but on other occasions he expressed them more generally. He received informative replies from Newton D. Baker, Bainbridge Colby, Thomas Watt Gregory, David F. Houston, Sidney Mezes, and Frank L. Polk. There are also unsolicited responses to his articles from C. C. Dill, Constantine Dumba, and George W. Watt among others. The only correspondence related to Viereck's political activities in the 1930s and 1940s is an exchange of letters with George W. Watt in 1953 describing Viereck's break with Fulton Oursler, editor of <emph render="italic">Liberty</emph>, and his subsequent conviction under the Foreign Agents Registration Act.</p>
       </scopecontent>
       <userestrict id="aspace_38899d80d8a4b79c6bc03585ac5ccff1">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140410"
                    source="lcsh">
-            <part>United States -- Politics and government</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">Politics and government</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140058"
                    source="lcsh">
-            <part>United States -- Foreign relations</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">Foreign relations</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85009793"
                   source="lcsh">
-            <part>Authors</part>
+            <part localtype="topical">Authors</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/n86114582"
                    rules="aacr"
                    source="naf">
-            <part>Baker, Newton Diehl, 1871-1937</part>
+            <part localtype="agent_person">Baker, Newton Diehl, 1871-1937</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n88026618"
                    rules="aacr"
                    source="naf">
-            <part>Bernstorff, Johann Heinrich, Graf von, 1862-1939</part>
+            <part localtype="agent_person">Bernstorff, Johann Heinrich, Graf von, 1862-1939</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n89103706"
                    rules="aacr"
                    source="naf">
-            <part>Colby, Bainbridge, 1869-1950</part>
+            <part localtype="agent_person">Colby, Bainbridge, 1869-1950</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50018153" source="naf">
-            <part>Costain, Thomas B. (Thomas Bertram), 1885-1965</part>
+            <part localtype="agent_person">Costain, Thomas B. (Thomas Bertram), 1885-1965</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n85252268" source="naf">
-            <part>Dill, Clarence C. (Clarence Cleveland), 1884-1978</part>
+            <part localtype="agent_person">Dill, Clarence C. (Clarence Cleveland), 1884-1978</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n96020035"
                    rules="aacr"
                    source="naf">
-            <part>Gregory, Thomas Watt, 1861-1933</part>
+            <part localtype="agent_person">Gregory, Thomas Watt, 1861-1933</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n88027723" source="naf">
-            <part>Huebsch, B. W. (Benjamin W.), 1876-1964</part>
+            <part localtype="agent_person">Huebsch, B. W. (Benjamin W.), 1876-1964</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50058631" source="naf">
-            <part>Houston, David Franklin, 1866-1940</part>
+            <part localtype="agent_person">Houston, David Franklin, 1866-1940</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n79006704" source="naf">
-            <part>Hughes, Charles Evans, 1862-1948</part>
+            <part localtype="agent_person">Hughes, Charles Evans, 1862-1948</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n82006860"
                    rules="aacr"
                    source="naf">
-            <part>La Follette, Philip Fox, 1897-1965</part>
+            <part localtype="agent_person">La Follette, Philip Fox, 1897-1965</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n81018814"
                    rules="aacr"
                    source="naf">
-            <part>La Follette, Robert M. (Robert Marion), 1895-1953</part>
+            <part localtype="agent_person">La Follette, Robert M. (Robert Marion), 1895-1953</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n88002029"
                    rules="aacr"
                    source="naf">
-            <part>Lawrence, David, 1888-1973</part>
+            <part localtype="agent_person">Lawrence, David, 1888-1973</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50050879"
                    rules="aacr"
                    source="naf">
-            <part>Lindsey, Ben B. (Ben Barr), 1869-1943</part>
+            <part localtype="agent_person">Lindsey, Ben B. (Ben Barr), 1869-1943</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n80056861"
                    rules="aacr"
                    source="naf">
-            <part>MacDonald, William, 1863-1938</part>
+            <part localtype="agent_person">MacDonald, William, 1863-1938</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no00002429"
                    rules="aacr"
                    source="naf">
-            <part>Mezes, Sidney Edward, 1863-1931</part>
+            <part localtype="agent_person">Mezes, Sidney Edward, 1863-1931</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n86071948"
                    rules="aacr"
                    source="naf">
-            <part>O'Sheel, Shaemas, 1886-1954</part>
+            <part localtype="agent_person">O'Sheel, Shaemas, 1886-1954</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n79041782"
                    rules="aacr"
                    source="naf">
-            <part>Oursler, Fulton, 1893-1952</part>
+            <part localtype="agent_person">Oursler, Fulton, 1893-1952</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Polk, Frank Lyon, 1871-1943</part>
+            <part localtype="agent_person">Polk, Frank Lyon, 1871-1943</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50002509"
                    rules="aacr"
                    source="naf">
-            <part>Seymour, Charles, 1885-1963</part>
+            <part localtype="agent_person">Seymour, Charles, 1885-1963</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n79006533" source="naf">
-            <part>Shaw, Bernard, 1856-1950</part>
+            <part localtype="agent_person">Shaw, Bernard, 1856-1950</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n85386476"
                    rules="aacr"
                    source="naf">
-            <part>Tumulty, Joseph P. (Joseph Patrick), 1879-1954</part>
+            <part localtype="agent_person">Tumulty, Joseph P. (Joseph Patrick), 1879-1954</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n80009913" source="naf">
-            <part>Wilson, Edith Bolling Galt, 1872-1961</part>
+            <part localtype="agent_person">Wilson, Edith Bolling Galt, 1872-1961</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n78093790"
                    rules="aacr"
                    source="naf">
-            <part>Viereck, George Sylvester, 1884-1962</part>
+            <part localtype="agent_person">Viereck, George Sylvester, 1884-1962</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n80015582"
                    rules="aacr"
                    source="naf">
-            <part>House, Edward Mandell, 1858-1938</part>
+            <part localtype="agent_person">House, Edward Mandell, 1858-1938</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n79046299" source="naf">
-            <part>Wilson, Woodrow, 1856-1924</part>
+            <part localtype="agent_person">Wilson, Woodrow, 1856-1924</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref13" level="series">
+         <c altrender="/repositories/12/archival_objects/1191458"
+            id="ref13"
+            level="series">
             <did>
                <unittitle>CORRESPONDENCE</unittitle>
                <unitid>Series I</unitid>
             </did>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1191459"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Baker, Newton D. (3)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="June-July 1931">
+                  <unitdatestructured altrender="June-July 1931"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
-                        <fromdate standarddate="1931-06">1931-06</fromdate>
-                        <todate standarddate="1931-07">1931-07</todate>
+                        <fromdate standarddate="1931-06">1931 June</fromdate>
+                        <todate standarddate="1931-07">1931 July</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">1</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1191460"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Benedict, Roswell A. (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">2</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1191461"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Bernstorff, Johann von (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">November, 1930</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">November, 1930</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">3</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1191462"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Cohalan, D. F. (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">June, 1931</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">June, 1931</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">4</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1191463"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Colby, Bainbridge (2)</unittitle>
-                  <unitdate unitdatetype="inclusive">June, 1931</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">June, 1931</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">5</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1191464"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Costain, T. B. (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">January, 1932</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">January, 1932</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">6</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1191465"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Dill, C. C. (4)</unittitle>
-                  <unitdate unitdatetype="inclusive">March-April, 193[illegible]</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">March-April, 193[illegible]</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">7</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1191466"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Dumba, C. (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">October, 1931</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">October, 1931</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">8</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1191467"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Gregory, T. W. (5)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="June 1931">
+                  <unitdatestructured altrender="June 1931" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1931-06">June 1931</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">9</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1191468"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>House, E. M.</unittitle>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1191469"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Houston, D. (2)</unittitle>
-                  <unitdate unitdatetype="inclusive">July, 1931</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">July, 1931</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">10</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1191470"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Huebsh, B. W. (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">January, 1930</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">January, 1930</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">11</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1191471"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Hughes, C. E. (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">June, 1931</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">June, 1931</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">12</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1191472"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>LaFollette, M. (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">June, 1931</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">June, 1931</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">13</container>
                </did>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1191473"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>LaFollette, P. F. (3)</unittitle>
-                  <unitdate unitdatetype="inclusive">May-June, 1931</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">May-June, 1931</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">14</container>
                </did>
             </c>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/1191474"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>LaFollette, R. M., Jr. (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">May, 1931</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">May, 1931</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">15</container>
                </did>
             </c>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1191475"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Lansing, R. Mrs. (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">July, 1931</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">July, 1931</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">16</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1191476"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Lawrence, D. (4)</unittitle>
-                  <unitdate unitdatetype="inclusive">June-July, 1931</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">June-July, 1931</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">17</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1191477"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>Lindsey, B. (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">December, 1930</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">December, 1930</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">18</container>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1191478"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>MacDonald, William (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">May, 1932</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">May, 1932</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">19</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1191479"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>Mezes, S. (5)</unittitle>
-                  <unitdate unitdatetype="inclusive">January - June, 1931</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">January - June, 1931</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">20</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1191480"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Miller, D. H. (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">November, 1931</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">November, 1931</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">21</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1191481"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>Munday, C. P. (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">April, 1932</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">April, 1932</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">22</container>
                </did>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1191482"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>O'Sheel, S. (3)</unittitle>
-                  <unitdate unitdatetype="inclusive">June, 1931 - April, 1932</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">June, 1931 - April, 1932</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">23</container>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1191483"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>Oursler, Fulton (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">May, 1938</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">May, 1938</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">24</container>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1191484"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>Polk, F. (2)</unittitle>
-                  <unitdate unitdatetype="inclusive">June-July, 1931</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">June-July, 1931</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">25</container>
                </did>
             </c>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1191485"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>Sell, Baron (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">January, 1932</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">January, 1932</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref40_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">26</container>
                </did>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1191486"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>Seymour, C.</unittitle>
                </did>
             </c>
-            <c id="ref42" level="file">
+            <c altrender="/repositories/12/archival_objects/1191487"
+               id="ref42"
+               level="file">
                <did>
                   <unittitle>Shaw, G. B. (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">January, 1938</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">January, 1938</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref42_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">27</container>
                </did>
             </c>
-            <c id="ref43" level="file">
+            <c altrender="/repositories/12/archival_objects/1191488"
+               id="ref43"
+               level="file">
                <did>
                   <unittitle>Tumulty, J. (4)</unittitle>
-                  <unitdate unitdatetype="inclusive">June - September, 19[illegible]</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">June - September, 19[illegible]</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref43_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref43_c2" localtype="folder" parent="aspace_ref43_c1">28</container>
                </did>
             </c>
-            <c id="ref44" level="file">
+            <c altrender="/repositories/12/archival_objects/1191489"
+               id="ref44"
+               level="file">
                <did>
                   <unittitle>Waldron, Walter (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">April, 1924</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">April, 1924</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref44_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">29</container>
                </did>
             </c>
-            <c id="ref45" level="file">
+            <c altrender="/repositories/12/archival_objects/1191490"
+               id="ref45"
+               level="file">
                <did>
                   <unittitle>Watt, George (27)</unittitle>
-                  <unitdate unitdatetype="inclusive">1939-1940; 1953</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">1939-1940; 1953</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref45_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref45_c2" localtype="folder" parent="aspace_ref45_c1">30</container>
                </did>
             </c>
-            <c id="ref46" level="file">
+            <c altrender="/repositories/12/archival_objects/1191491"
+               id="ref46"
+               level="file">
                <did>
                   <unittitle>Wilson, E. B. [Mrs. Woodrow] (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref46_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref46_c2" localtype="folder" parent="aspace_ref46_c1">31</container>
                </did>
             </c>
-            <c id="ref47" level="file">
+            <c altrender="/repositories/12/archival_objects/1191492"
+               id="ref47"
+               level="file">
                <did>
                   <unittitle>[?] [illegible signature] (1)</unittitle>
-                  <unitdate unitdatetype="inclusive">May, 1931</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">May, 1931</unitdate>
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132768 /locations/9"
                              containerid="39002042352253"
+                             encodinganalog="archive half legal"
                              id="aspace_ref47_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -679,126 +797,191 @@
                </did>
             </c>
          </c>
-         <c id="ref48" level="series">
+         <c altrender="/repositories/12/archival_objects/1191493"
+            id="ref48"
+            level="series">
             <did>
                <unittitle>"THE STRANGEST FRIENDSHIP IN HISTORY"</unittitle>
                <unitid>Series II</unitid>
             </did>
-            <c id="ref49" level="file">
+            <c altrender="/repositories/12/archival_objects/1191494"
+               id="ref49"
+               level="file">
                <did>
                   <unittitle>"Strangest Friendship"...Contents</unittitle>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132769 /locations/9"
                              containerid="39002042352261"
+                             encodinganalog="archive legal"
                              id="aspace_ref49_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref49_c2" localtype="folder" parent="aspace_ref49_c1">1</container>
                </did>
             </c>
-            <c id="ref50" level="file">
+            <c altrender="/repositories/12/archival_objects/1191495"
+               id="ref50"
+               level="file">
                <did>
                   <unittitle>"Strangest Friendship"... MSS Part 1 [MSS Corrections by House]</unittitle>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132769 /locations/9"
                              containerid="39002042352261"
+                             encodinganalog="archive legal"
                              id="aspace_ref50_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref50_c2" localtype="folder" parent="aspace_ref50_c1">2</container>
                </did>
             </c>
-            <c id="ref51" level="file">
+            <c altrender="/repositories/12/archival_objects/1191496"
+               id="ref51"
+               level="file">
                <did>
                   <unittitle>"Strangest Friendship"...MSS Part 2 [MSS Corrections by House]</unittitle>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132769 /locations/9"
                              containerid="39002042352261"
+                             encodinganalog="archive legal"
                              id="aspace_ref51_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref51_c2" localtype="folder" parent="aspace_ref51_c1">3</container>
                </did>
             </c>
-            <c id="ref52" level="file">
+            <c altrender="/repositories/12/archival_objects/1191497"
+               id="ref52"
+               level="file">
                <did>
                   <unittitle>"Strangest Friendship"... MSS Part 3 [Photostat MSS corrections by House]</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132769 /locations/9"
                              containerid="39002042352261"
+                             encodinganalog="archive legal"
                              id="aspace_ref52_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref52_c2" localtype="folder" parent="aspace_ref52_c1">4</container>
                </did>
             </c>
-            <c id="ref53" level="file">
+            <c altrender="/repositories/12/archival_objects/1191498"
+               id="ref53"
+               level="file">
                <did>
                   <unittitle>"Strangest Friendship"...MSS Part 4 [MSS Corrections by House]</unittitle>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132769 /locations/9"
                              containerid="39002042352261"
+                             encodinganalog="archive legal"
                              id="aspace_ref53_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref53_c2" localtype="folder" parent="aspace_ref53_c1">5</container>
                </did>
             </c>
-            <c id="ref54" level="file">
+            <c altrender="/repositories/12/archival_objects/1191499"
+               id="ref54"
+               level="file">
                <did>
                   <unittitle>"Strangest Friendship"... MSS Part 5 [MSS Corrections by House]</unittitle>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132769 /locations/9"
                              containerid="39002042352261"
+                             encodinganalog="archive legal"
                              id="aspace_ref54_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref54_c2" localtype="folder" parent="aspace_ref54_c1">6</container>
                </did>
             </c>
-            <c id="ref55" level="file">
+            <c altrender="/repositories/12/archival_objects/1191500"
+               id="ref55"
+               level="file">
                <did>
                   <unittitle>"Strangest Friendship"... MSS Part 6 [MSS Corrections by House]</unittitle>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132769 /locations/9"
                              containerid="39002042352261"
+                             encodinganalog="archive legal"
                              id="aspace_ref55_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref55_c2" localtype="folder" parent="aspace_ref55_c1">7</container>
                </did>
             </c>
-            <c id="ref56" level="file">
+            <c altrender="/repositories/12/archival_objects/1191501"
+               id="ref56"
+               level="file">
                <did>
                   <unittitle>"Strangest Friendship"...MSS Part 7 [MSS Corrections by House]</unittitle>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132769 /locations/9"
                              containerid="39002042352261"
+                             encodinganalog="archive legal"
                              id="aspace_ref56_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref56_c2" localtype="folder" parent="aspace_ref56_c1">8</container>
                </did>
             </c>
-            <c id="ref57" level="file">
+            <c altrender="/repositories/12/archival_objects/1191502"
+               id="ref57"
+               level="file">
                <did>
                   <unittitle>"Strangest Friendship"...MSS Part 8 [MSS Corrections by House]</unittitle>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132769 /locations/9"
                              containerid="39002042352261"
+                             encodinganalog="archive legal"
                              id="aspace_ref57_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref57_c2" localtype="folder" parent="aspace_ref57_c1">9</container>
                </did>
             </c>
-            <c id="ref58" level="file">
+            <c altrender="/repositories/12/archival_objects/1191503"
+               id="ref58"
+               level="file">
                <did>
                   <unittitle>"Strangest Friendship"...Miscellaneous Carbons [early drafts?]</unittitle>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132769 /locations/9"
                              containerid="39002042352261"
+                             encodinganalog="archive legal"
                              id="aspace_ref58_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref58_c2" localtype="folder" parent="aspace_ref58_c1">10</container>
                </did>
             </c>
-            <c id="ref59" level="file">
+            <c altrender="/repositories/12/archival_objects/1191504"
+               id="ref59"
+               level="file">
                <did>
                   <unittitle>"Strangest Friendship"...Rendezvous in Heaven" [MSS notes by Viereck][discarded chapter?]</unittitle>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132769 /locations/9"
                              containerid="39002042352261"
+                             encodinganalog="archive legal"
                              id="aspace_ref59_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
@@ -806,60 +989,92 @@
                </did>
             </c>
          </c>
-         <c id="ref60" level="series">
+         <c altrender="/repositories/12/archival_objects/1191505"
+            id="ref60"
+            level="series">
             <did>
                <unittitle>"THE MEMOIRS OF COLONEL HOUSE"</unittitle>
                <unitid>Series III</unitid>
             </did>
-            <c id="ref61" level="file">
+            <c altrender="/repositories/12/archival_objects/1191506"
+               id="ref61"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House", Preface - Part III</unittitle>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132770 /locations/9"
                              containerid="39002042352279"
+                             encodinganalog="archive half legal"
                              id="aspace_ref61_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref61_c2" localtype="folder" parent="aspace_ref61_c1">1</container>
                </did>
             </c>
-            <c id="ref62" level="file">
+            <c altrender="/repositories/12/archival_objects/1191507"
+               id="ref62"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House", Part IV - Part VI</unittitle>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132770 /locations/9"
                              containerid="39002042352279"
+                             encodinganalog="archive half legal"
                              id="aspace_ref62_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref62_c2" localtype="folder" parent="aspace_ref62_c1">2</container>
                </did>
             </c>
-            <c id="ref63" level="file">
+            <c altrender="/repositories/12/archival_objects/1191508"
+               id="ref63"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House", Part VII - Part IX</unittitle>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132770 /locations/9"
                              containerid="39002042352279"
+                             encodinganalog="archive half legal"
                              id="aspace_ref63_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref63_c2" localtype="folder" parent="aspace_ref63_c1">3</container>
                </did>
             </c>
-            <c id="ref64" level="file">
+            <c altrender="/repositories/12/archival_objects/1191509"
+               id="ref64"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House", Part X - Part XII</unittitle>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132770 /locations/9"
                              containerid="39002042352279"
+                             encodinganalog="archive half legal"
                              id="aspace_ref64_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref64_c2" localtype="folder" parent="aspace_ref64_c1">4</container>
                </did>
             </c>
-            <c id="ref65" level="file">
+            <c altrender="/repositories/12/archival_objects/1191510"
+               id="ref65"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House", Part XIII - Part XVI</unittitle>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132770 /locations/9"
                              containerid="39002042352279"
+                             encodinganalog="archive half legal"
                              id="aspace_ref65_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -867,255 +1082,397 @@
                </did>
             </c>
          </c>
-         <c id="ref66" level="series">
+         <c altrender="/repositories/12/archival_objects/1191511"
+            id="ref66"
+            level="series">
             <did>
                <unittitle>CONVERSATIONS WITH COLONEL HOUSE</unittitle>
                <unitid>Series IV</unitid>
             </did>
-            <c id="ref67" level="file">
+            <c altrender="/repositories/12/archival_objects/1191512"
+               id="ref67"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="October 14, 1929, undated">
+                  <unitdatestructured altrender="October 14, 1929, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1929-10-14">October 14, 1929, undated</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref67_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref67_c2" localtype="folder" parent="aspace_ref67_c1">1</container>
                </did>
             </c>
-            <c id="ref68" level="file">
+            <c altrender="/repositories/12/archival_objects/1191513"
+               id="ref68"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="October 13, 1930">
+                  <unitdatestructured altrender="October 13, 1930"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1930-10-13">October 13, 1930</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref68_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref68_c2" localtype="folder" parent="aspace_ref68_c1">2</container>
                </did>
             </c>
-            <c id="ref69" level="file">
+            <c altrender="/repositories/12/archival_objects/1191514"
+               id="ref69"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="October 21, 1930">
+                  <unitdatestructured altrender="October 21, 1930"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1930-10-21">October 21, 1930</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref69_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref69_c2" localtype="folder" parent="aspace_ref69_c1">3</container>
                </did>
             </c>
-            <c id="ref70" level="file">
+            <c altrender="/repositories/12/archival_objects/1191515"
+               id="ref70"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="October 22, 1930">
+                  <unitdatestructured altrender="October 22, 1930"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1930-10-22">October 22, 1930</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref70_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref70_c2" localtype="folder" parent="aspace_ref70_c1">4</container>
                </did>
             </c>
-            <c id="ref71" level="file">
+            <c altrender="/repositories/12/archival_objects/1191516"
+               id="ref71"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="November 4, 1930">
+                  <unitdatestructured altrender="November 4, 1930"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1930-11-04">November 4, 1930</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref71_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref71_c2" localtype="folder" parent="aspace_ref71_c1">5</container>
                </did>
             </c>
-            <c id="ref72" level="file">
+            <c altrender="/repositories/12/archival_objects/1191517"
+               id="ref72"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="November 13, 1930">
+                  <unitdatestructured altrender="November 13, 1930"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1930-11-13">November 13, 1930</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref72_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref72_c2" localtype="folder" parent="aspace_ref72_c1">6</container>
                </did>
             </c>
-            <c id="ref73" level="file">
+            <c altrender="/repositories/12/archival_objects/1191518"
+               id="ref73"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="November 17, 1930">
+                  <unitdatestructured altrender="November 17, 1930"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1930-11-17">November 17, 1930</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref73_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref73_c2" localtype="folder" parent="aspace_ref73_c1">7</container>
                </did>
             </c>
-            <c id="ref74" level="file">
+            <c altrender="/repositories/12/archival_objects/1191519"
+               id="ref74"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="November 21, 1930">
+                  <unitdatestructured altrender="November 21, 1930"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1930-11-21">November 21, 1930</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref74_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref74_c2" localtype="folder" parent="aspace_ref74_c1">8</container>
                </did>
             </c>
-            <c id="ref75" level="file">
+            <c altrender="/repositories/12/archival_objects/1191520"
+               id="ref75"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="November 25, 1930">
+                  <unitdatestructured altrender="November 25, 1930"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1930-11-25">November 25, 1930</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref75_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref75_c2" localtype="folder" parent="aspace_ref75_c1">9</container>
                </did>
             </c>
-            <c id="ref76" level="file">
+            <c altrender="/repositories/12/archival_objects/1191521"
+               id="ref76"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="December 1, 1930">
+                  <unitdatestructured altrender="December 1, 1930"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1930-12-01">December 1, 1930</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref76_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref76_c2" localtype="folder" parent="aspace_ref76_c1">10</container>
                </did>
             </c>
-            <c id="ref77" level="file">
+            <c altrender="/repositories/12/archival_objects/1191522"
+               id="ref77"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="December 4, 1930">
+                  <unitdatestructured altrender="December 4, 1930"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1930-12-04">December 4, 1930</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref77_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref77_c2" localtype="folder" parent="aspace_ref77_c1">11</container>
                </did>
             </c>
-            <c id="ref78" level="file">
+            <c altrender="/repositories/12/archival_objects/1191523"
+               id="ref78"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="December 9, 1930">
+                  <unitdatestructured altrender="December 9, 1930"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1930-12-09">December 9, 1930</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref78_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref78_c2" localtype="folder" parent="aspace_ref78_c1">12</container>
                </did>
             </c>
-            <c id="ref79" level="file">
+            <c altrender="/repositories/12/archival_objects/1191524"
+               id="ref79"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="December 15, 1930">
+                  <unitdatestructured altrender="December 15, 1930"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1930-12-15">December 15, 1930</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref79_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref79_c2" localtype="folder" parent="aspace_ref79_c1">13</container>
                </did>
             </c>
-            <c id="ref80" level="file">
+            <c altrender="/repositories/12/archival_objects/1191525"
+               id="ref80"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="December 29, 1930">
+                  <unitdatestructured altrender="December 29, 1930"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1930-12-29">December 29, 1930</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref80_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref80_c2" localtype="folder" parent="aspace_ref80_c1">14</container>
                </did>
             </c>
-            <c id="ref81" level="file">
+            <c altrender="/repositories/12/archival_objects/1191526"
+               id="ref81"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="December 31, 1930">
+                  <unitdatestructured altrender="December 31, 1930"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1930-12-31">December 31, 1930</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref81_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref81_c2" localtype="folder" parent="aspace_ref81_c1">15</container>
                </did>
             </c>
-            <c id="ref82" level="file">
+            <c altrender="/repositories/12/archival_objects/1191527"
+               id="ref82"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="February 10, 1931">
+                  <unitdatestructured altrender="February 10, 1931"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1931-02-10">February 10, 1931</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref82_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref82_c2" localtype="folder" parent="aspace_ref82_c1">16</container>
                </did>
             </c>
-            <c id="ref83" level="file">
+            <c altrender="/repositories/12/archival_objects/1191528"
+               id="ref83"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="May 28, 1931">
+                  <unitdatestructured altrender="May 28, 1931" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1931-05-28">May 28, 1931</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref83_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref83_c2" localtype="folder" parent="aspace_ref83_c1">17</container>
                </did>
             </c>
-            <c id="ref84" level="file">
+            <c altrender="/repositories/12/archival_objects/1191529"
+               id="ref84"
+               level="file">
                <did>
                   <unittitle>"Memoirs of Colonel House"</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132771 /locations/9"
                              containerid="39002042352287"
+                             encodinganalog="archive half legal"
                              id="aspace_ref84_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
@@ -1127,78 +1484,100 @@
                </odd>
             </c>
          </c>
-         <c id="ref85" level="series">
+         <c altrender="/repositories/12/archival_objects/1191530"
+            id="ref85"
+            level="series">
             <did>
                <unittitle>MISCELLANEOUS PAPERS </unittitle>
                <unitid>Series V</unitid>
             </did>
-            <c id="ref87" level="file">
+            <c altrender="/repositories/12/archival_objects/1191531"
+               id="ref87"
+               level="file">
                <did>
                   <unittitle>Miscellaneous Reading Notes From Memoirs About Wilson</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132772 /locations/9"
                              containerid="39002042352295"
+                             encodinganalog="archive half legal"
                              id="aspace_ref87_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref87_c2" localtype="folder" parent="aspace_ref87_c1">1</container>
                </did>
             </c>
-            <c id="ref88" level="file">
+            <c altrender="/repositories/12/archival_objects/1191532"
+               id="ref88"
+               level="file">
                <did>
                   <unittitle>Miscellaneous Reading Notes on Wilson and House</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132772 /locations/9"
                              containerid="39002042352295"
+                             encodinganalog="archive half legal"
                              id="aspace_ref88_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref88_c2" localtype="folder" parent="aspace_ref88_c1">2</container>
                </did>
             </c>
-            <c id="ref89" level="file">
+            <c altrender="/repositories/12/archival_objects/1191533"
+               id="ref89"
+               level="file">
                <did>
                   <unittitle>Newspaper notes and photostats on Wilson's Illness</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132772 /locations/9"
                              containerid="39002042352295"
+                             encodinganalog="archive half legal"
                              id="aspace_ref89_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref89_c2" localtype="folder" parent="aspace_ref89_c1">3</container>
                </did>
             </c>
-            <c id="ref90" level="file">
+            <c altrender="/repositories/12/archival_objects/1191534"
+               id="ref90"
+               level="file">
                <did>
                   <unittitle>Miscellaneous Printed Material, Clippings, Photo and Notes</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132772 /locations/9"
                              containerid="39002042352295"
+                             encodinganalog="archive half legal"
                              id="aspace_ref90_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref90_c2" localtype="folder" parent="aspace_ref90_c1">4</container>
                </did>
             </c>
-            <c id="ref91" level="file">
+            <c altrender="/repositories/12/archival_objects/1191535"
+               id="ref91"
+               level="file">
                <did>
                   <unittitle>Article [Printed] <title render="italic">
                         <part>The True Story of the 14 Points and the League Covenant</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="April 23, 1932">
+                  <unitdatestructured altrender="April 23, 1932"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1932-04-23">April 23, 1932</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132772 /locations/9"
                              containerid="39002042352295"
+                             encodinganalog="archive half legal"
                              id="aspace_ref91_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref91_c2" localtype="folder" parent="aspace_ref91_c1">5</container>
                </did>
             </c>
-            <c id="ref92" level="file">
+            <c altrender="/repositories/12/archival_objects/1191536"
+               id="ref92"
+               level="file">
                <did>
                   <unittitle>Draft of Article "Colonel House as a British Spy? [typescript]</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132772 /locations/9"
                              containerid="39002042352295"
+                             encodinganalog="archive half legal"
                              id="aspace_ref92_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>

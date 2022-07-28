@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0740">mssa.ms.0740</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0740">mssa.ms.0740</recordid>
+      <otherrecordid localtype="BIB">614338</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Preliminary Guide to the Walter Johnson Robb Papers
@@ -32,6 +34,11 @@
             <date>December 1982</date>
             <num>MS 740</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:16:59+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:57:15+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:16</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:57</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4246" level="collection">
       <did>
          <unittitle>Walter Johnson Robb papers</unittitle>
          <unitid>MS 740</unitid>
@@ -83,286 +93,333 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(4 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1919-1969">
+         <unitdatestructured altrender="1919-1969" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1919">1919</fromdate>
                <todate standarddate="1969">1969</todate>
             </daterange>
          </unitdatestructured>
-         <unitdatestructured unitdatetype="bulk">
+         <unitdatestructured label="creation" unitdatetype="bulk">
             <daterange>
                <fromdate standarddate="1940">1940</fromdate>
                <todate standarddate="1946">1946</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_cb968fdf91a4f215c816463a6f26813f">Correspondence, writings, clippings, photographs, financial papers and memorabilia documenting Robb's career in the Philippines as a correspondent and, during World War II, as a lecturer for the Office of War Information (O.W.I.). The writings include manuscripts of articles by Robb on the Philippines, texts of his broadcasts for the O.W.I., and poetry. Among his correspondents are Henry Andreas, Raymond L. Buell, Percy Hill, Sergio Osmeña, Chick Parsons, and Will Rogers, Jr.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Robb, Walter Johnson, 1880-</part>
+               <part localtype="agent_person">Robb, Walter Johnson, 1880-</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_15443c73038e95753aa4ceb9e5d86722">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Walter Robb, 1969.</p>  
+         <p>Gift of Walter Robb, 1969.</p>
       </acqinfo>
       <accessrestrict id="aspace_ab46c5dfaca96632bcc5d9c0ea84520a">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_94770c403b5e52ce1b4b2fd92f815b07">
          <head>Preferred Citation</head>
-         <p>Walter Johnson Robb Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Walter Johnson Robb Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_dca9faec88b56f23d3bacb748bf429af">
          <head>Scope and Contents</head>
          <p>This unprocessed collection of Walter Johnson Robb Papers pertains primarily to the Philippine Islands. It includes personal correspondence with Henry Andreas, Raymond L. Buell, Percy Hill, Sergio Osmeña, Chick Parsons, and Will Rogers, Jr., as well as other residents of the Philippines and family members, and business correspondence with publishers, editors of newspapers and journals, government offices, and other organizations. Mixed in with the correspondence are financial papers such as bank statements, cancelled checks, receipts, brokers' reports, deeds of sale, and promissory notes.</p>
          <p>Also in the collection are newspaper clippings by Robb and others about the Philippines, Viet Nam and Asia; typescripts and manuscripts of articles by Robb about the Philippines, as well as some printed matter by others; poetry by Robb; and the texts of Robb's radio broadcasts to the Philippines during 1945-1946. There are, in addition, miscellaneous business papers, notes and printed matter concerning A.T. &amp; T. and other topics, items such as calling cards, invitations and so forth, and a selection of photographs, mostly of people and places in the Philippines.</p>
-         <p>These papers were the gift of Walter Johnson Robb to Yale University in 1969.</p>  
+         <p>These papers were the gift of Walter Johnson Robb to Yale University in 1969.</p>
       </scopecontent>
       <bioghist id="aspace_8efd080e5a1fed6252e433e6839b7f68">
          <head>Biographical / Historical</head>
-         <p>Walter J. Robb: author; educated in schools in Kansas and Oklahoma; teacher, country schools in Oklahoma, 1896-1907; teacher, Philippine civil service, 1907-1918; newspaper work and foreign news correspondent, Manila, 1918-1941; public lecturer on war in Pacific, 1942-1943; assistant field correspondent, Foreign Broadcast Intelligence Service, San Francisco, 1943-1944; writer, O.W.I., overseas branch, San Francisco, Philippine Division, 1945-1946.</p>  
+         <p>Walter J. Robb: author; educated in schools in Kansas and Oklahoma; teacher, country schools in Oklahoma, 1896-1907; teacher, Philippine civil service, 1907-1918; newspaper work and foreign news correspondent, Manila, 1918-1941; public lecturer on war in Pacific, 1942-1943; assistant field correspondent, Foreign Broadcast Intelligence Service, San Francisco, 1943-1944; writer, O.W.I., overseas branch, San Francisco, Philippine Division, 1945-1946.</p>
       </bioghist>
       <userestrict id="aspace_b12f4bd9a4acdb7010d4f8f09643ba0e">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject source="local">
-            <part>Americans -- Philippines</part>
+            <part localtype="topical">Americans</part>
+            <part localtype="geographic">Philippines</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85070736"
                   source="lcsh">
-            <part>Journalism</part>
+            <part localtype="topical">Journalism</part>
          </subject>
          <subject source="local">
-            <part>World War, 1939-1945 -- Philippines</part>
+            <part localtype="topical">World War, 1939-1945</part>
+            <part localtype="geographic">Philippines</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85008606"
                    source="lcsh">
-            <part>Asia</part>
+            <part localtype="geographic">Asia</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85100776"
                    source="lcsh">
-            <part>Philippines -- Description and travel</part>
+            <part localtype="geographic">Philippines</part>
+            <part localtype="topical">Description and travel</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85070788"
                   source="lcsh">
-            <part>Journalists</part>
+            <part localtype="topical">Journalists</part>
          </subject>
          <persname source="local">
-            <part>Andreas, Henry</part>
+            <part localtype="agent_person">Andreas, Henry</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n90683064" source="naf">
-            <part>Buell, Raymond Leslie, 1896-1946</part>
+            <part localtype="agent_person">Buell, Raymond Leslie, 1896-1946</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no00070025"
                    source="naf">
-            <part>Hill, Percy A., -1937</part>
+            <part localtype="agent_person">Hill, Percy A., -1937</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n82128811"
                    rules="aacr"
                    source="naf">
-            <part>Osmeña, Sergio, 1878-1961</part>
+            <part localtype="agent_person">Osmeña, Sergio, 1878-1961</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n85025588" source="naf">
-            <part>Parsons, Charles A.</part>
+            <part localtype="agent_person">Parsons, Charles A.</part>
          </persname>
          <persname source="local">
-            <part>Robb, Walter Johnson, 1880-</part>
+            <part localtype="agent_person">Robb, Walter Johnson, 1880-</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no2014052507"
                    source="naf">
-            <part>Rogers, Will, 1912-2008</part>
+            <part localtype="agent_person">Rogers, Will, 1912-2008</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n50062845" source="naf">
-            <part>United States. Office of War Information</part>
+            <part localtype="agent_corporate_entity">United States. Office of War Information</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1353962"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Correspondence and financial papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1923-1947">
+               <unitdatestructured altrender="1923-1947" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1923">1923</fromdate>
                      <todate standarddate="1947">1947</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151577 /locations/9"
                           containerid="39002042521808"
-                          id="d1e310"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1353963"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Correspondence and financial papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1948-1969, undated">
+               <unitdatestructured altrender="1948-1969, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1940">1940</fromdate>
                      <todate standarddate="1946">1946</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151578 /locations/9"
                           containerid="39002042521816"
-                          id="d1e326"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1353964"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Newspaper clippings and other printed matter</unittitle>
             </did>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1353965"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Re: the Philippines</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1903-1946">
+                  <unitdatestructured altrender="1903-1946" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1903">1903</fromdate>
                         <todate standarddate="1946">1946</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151578 /locations/9"
                              containerid="39002042521816"
-                             id="d1e348"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1353966"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Re: Viet Nam</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1965-1968">
+                  <unitdatestructured altrender="1965-1968" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1965">1965</fromdate>
                         <todate standarddate="1968">1968</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151578 /locations/9"
                              containerid="39002042521816"
-                             id="d1e364"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1353967"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Manuscripts</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1930-1941, undated">
+               <unitdatestructured altrender="1930-1941, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1940">1940</fromdate>
                      <todate standarddate="1946">1946</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151579 /locations/9"
                           containerid="39002042521824"
-                          id="d1e380"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1353968"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Poetry and other writings</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1936-1941, undated">
+               <unitdatestructured altrender="1936-1941, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1940">1940</fromdate>
                      <todate standarddate="1946">1946</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151579 /locations/9"
                           containerid="39002042521824"
-                          id="d1e396"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref17_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1353969"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>Papers re: A.T. &amp; T.</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1951">
+               <unitdatestructured altrender="1951" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1951">1951</fromdate>
                      <todate standarddate="1951">1951</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151579 /locations/9"
                           containerid="39002042521824"
-                          id="d1e412"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref18_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1353970"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>Miscellaneous business papers, notes, printed matter, etc.</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1919-1946, undated">
+               <unitdatestructured altrender="1919-1946, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1940">1940</fromdate>
                      <todate standarddate="1946">1946</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151579 /locations/9"
                           containerid="39002042521824"
-                          id="d1e428"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1353971"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>Radio broadcasts</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1945-1946">
+               <unitdatestructured altrender="1945-1946" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1945">1945</fromdate>
                      <todate standarddate="1946">1946</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151580 /locations/9"
                           containerid="39002042521832"
-                          id="d1e444"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref20_c1"
                           label="Mixed Materials"
                           localtype="box">4</container>
             </did>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1353972"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>Photographs and drawings</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1916, [ca. 1940-1946]">
+               <unitdatestructured altrender="1916, [ca. 1940-1946]"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1940">1940</fromdate>
                      <todate standarddate="1946">1946</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151580 /locations/9"
                           containerid="39002042521832"
-                          id="d1e460"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">4</container>
             </did>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1353973"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>Synopsis of Lectures, Office of War Information. Far East Training Course</part>
                   </title>
                </unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1944">
+               <unitdatestructured altrender="1944" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1944">1944</fromdate>
                      <todate standarddate="1944">1944</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151580 /locations/9"
                           containerid="39002042521832"
-                          id="d1e478"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref22_c1"
                           label="Mixed Materials"
                           localtype="box">4</container>
             </did>

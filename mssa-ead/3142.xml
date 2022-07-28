@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0800">mssa.ms.0800</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0800">mssa.ms.0800</recordid>
+      <otherrecordid localtype="BIB">614299</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Rupert Wildt Papers
@@ -32,6 +34,11 @@
             <date>July 1985</date>
             <num>MS 800</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:35:19+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:06:41+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:35</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>July 2000</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:06</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3142" level="collection">
       <did>
          <unittitle>Rupert Wildt papers</unittitle>
          <unitid>MS 800</unitid>
@@ -89,31 +92,30 @@
             <quantity>8.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1876-1981">
+         <unitdatestructured altrender="1876-1981" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1876">1876</fromdate>
                <todate standarddate="1981">1981</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_966a86c5c4a8b1ff4b92633cf83a285d">The papers consist of correspondence, writings, notes and offprints documenting Rupert Wildt's career as a professor in the Yale University department of astronomy (1946-1976), president of the Association of Universities for Research in Astronomy (1965-1968) and as visiting lecturer at universities in the United States and abroad.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname rules="aacr" source="local">
-               <part>Wildt, Rupert, 1905-1976</part>
+               <part localtype="agent_person">Wildt, Rupert, 1905-1976</part>
             </persname>
          </origination>
-    
       </did>
       <prefercite id="aspace_81ecfc90d4a273da4e3a34af990b6456">
          <head>Preferred Citation</head>
-         <p>Rupert Wildt Papers (MS 800). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Rupert Wildt Papers (MS 800). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <acqinfo id="aspace_4a7cf910eeb823c0d4788642b75048e0">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Mrs. Rupert Wildt, 1977.</p>  
+         <p>Gift of Mrs. Rupert Wildt, 1977.</p>
       </acqinfo>
       <arrangement id="aspace_1bef7e06d94d877bdddab0cd9aa451f5">
          <head>Arrangement</head>
-         <p>Arranged in five series and one addition: I. Correspondence, 1946-1974. II. Organizations, 1949-1981. III. Personal Papers, 1898-1968. IV. Writings, 1928-1972. V. Writings of Others, 1876-1974.</p>  
+         <p>Arranged in five series and one addition: I. Correspondence, 1946-1974. II. Organizations, 1949-1981. III. Personal Papers, 1898-1968. IV. Writings, 1928-1972. V. Writings of Others, 1876-1974.</p>
       </arrangement>
       <scopecontent id="aspace_6e8587e2f45cbf67c14e62a2f3f966f5">
          <head>Scope and Contents</head>
@@ -123,61 +125,67 @@
          <p>SERIES II, ORGANIZATIONS, 1949-1981, contains files for several academic, scientific, and professional organizations. Files for the Association of Universities for Research in Astronomy (AURA) includes material relating to Wildt's service as president (1965-1968; 1971-1972), chairman of the board (1973-1976), and director (1958-1976). Files for the Kitt Peak National Observatory (KPNO) document Wildt's tenure as director (1965-1971) of that institution.</p>
          <p>SERIES III, PERSONAL PAPERS, 1898-1968, includes early family documents and letters of recommendation.</p>
          <p>SERIES IV, WRITINGS, 1928-1972, contains drafts of articles; partial bibliographies; notes and equations relating to scientific research (including oversize material in box 15); notes and teaching materials on a range of subjects including cosmochemistry, kinetics, planetochemistry, and thermodynamics; and reprints of articles.</p>
-         <p>SERIES V, WRITINGS OF OTHERS, 1876-1974, contains typescripts of work collected by Wildt and includes material from students and colleagues. Printed material includes published items of a similar nature.</p>  
+         <p>SERIES V, WRITINGS OF OTHERS, 1876-1974, contains typescripts of work collected by Wildt and includes material from students and colleagues. Printed material includes published items of a similar nature.</p>
       </scopecontent>
       <bioghist id="aspace_956fbd9c3890dae9274959f7e6fd5b6e">
          <head>Biographical / Historical</head>
-         <p>Rupert Wildt was born in Munich, Germany on June 25, 1905. Wildt arrived in the United States in 1935 and served as a research associate at Princeton (1937-1942), assistant professor at the University of Virginia (1942-1946), and a member of the Yale University faculty (1946-1976). At Yale Wildt held the positions of chairman in the Astronomy Department (1966-1968) and professor emeritus (1973-1976). He was active in several professional organizations. Wildt died in Orleans, Massachusetts on January 9, 1976.</p>  
+         <p>Rupert Wildt was born in Munich, Germany on June 25, 1905. Wildt arrived in the United States in 1935 and served as a research associate at Princeton (1937-1942), assistant professor at the University of Virginia (1942-1946), and a member of the Yale University faculty (1946-1976). At Yale Wildt held the positions of chairman in the Astronomy Department (1966-1968) and professor emeritus (1973-1976). He was active in several professional organizations. Wildt died in Orleans, Massachusetts on January 9, 1976.</p>
       </bioghist>
       <accessrestrict id="aspace_4e652ec38bd23a3bc10b17a068a2b2cd">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_cec53c6f1a0ced23cf2eaa48313c868f">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85009011"
                   source="lcsh">
-            <part>Astronomy -- Research</part>
+            <part localtype="topical">Astronomy</part>
+            <part localtype="topical">Research</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85009012"
                   source="lcsh">
-            <part>Astronomy -- Study and teaching</part>
+            <part localtype="topical">Astronomy</part>
+            <part localtype="topical">Study and teaching</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85009032"
                   source="lcsh">
-            <part>Astrophysics</part>
+            <part localtype="topical">Astrophysics</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85118553"
                   source="lcsh">
-            <part>Science</part>
+            <part localtype="topical">Science</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85008992"
                   source="lcsh">
-            <part>Astronomers</part>
+            <part localtype="topical">Astronomers</part>
          </subject>
          <persname rules="aacr" source="local">
-            <part>Wildt, Rupert, 1905-1976</part>
+            <part localtype="agent_person">Wildt, Rupert, 1905-1976</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n82115526" source="naf">
-            <part>Association of Universities for Research in Astronomy</part>
+            <part localtype="agent_corporate_entity">Association of Universities for Research in Astronomy</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n80152888" source="naf">
-            <part>Kitt Peak National Observatory</part>
+            <part localtype="agent_corporate_entity">Kitt Peak National Observatory</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n88172963"
                    rules="aacr"
                    source="naf">
-            <part>Yale University. Department of Astronomy</part>
+            <part localtype="agent_corporate_entity">Yale University. Department of Astronomy</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref14" level="series">
+         <c altrender="/repositories/12/archival_objects/1193617"
+            id="ref14"
+            level="series">
             <did>
                <unittitle>CORRESPONDENCE</unittitle>
                <unitid>Series I</unitid>
@@ -186,7 +194,7 @@
                   <unittype>Linear Foot</unittype>
                </physdescstructured>
                <physdesc localtype="container_summary">3 boxes</physdesc>
-               <unitdatestructured unitdatetype="inclusive" altrender="1946-1974">
+               <unitdatestructured altrender="1946-1974" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1946">1946</fromdate>
                      <todate standarddate="1974">1974</todate>
@@ -197,36 +205,48 @@
                <head>Scope and Contents</head>
                <p>This series contains correspondence arranged in two sections: <emph render="italic">General</emph> and <emph render="italic">Select</emph>. General files are arranged in chronological order. Select files are arranged in alphabetical order.</p>
             </scopecontent>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1193618"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>General</unittitle>
                </did>
-               <c id="ref17" level="file">
+               <c altrender="/repositories/12/archival_objects/1193619"
+                  id="ref17"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1946 May - 1961 July">
+                     <unitdatestructured altrender="1946 May - 1961 July"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1946-05">1946-05</fromdate>
-                           <todate standarddate="1961-07">1961-07</todate>
+                           <fromdate standarddate="1946-05">1946 May</fromdate>
+                           <todate standarddate="1961-07">1961 July</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132973 /locations/9"
                                 containerid="39002042364423"
+                                encodinganalog="archive legal"
                                 id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">1-22</container>
                   </did>
                </c>
-               <c id="ref18" level="file">
+               <c altrender="/repositories/12/archival_objects/1193620"
+                  id="ref18"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1961 August - 1974">
+                     <unitdatestructured altrender="1961 August - 1974"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1961-08">1961-08</fromdate>
-                           <todate standarddate="1974-12">1974-12</todate>
+                           <fromdate standarddate="1961-08">1961 August</fromdate>
+                           <todate standarddate="1974-12">1974 December</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132974 /locations/9"
                                 containerid="39002042364431"
+                                encodinganalog="archive legal"
                                 id="aspace_ref18_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
@@ -234,123 +254,146 @@
                   </did>
                </c>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1193621"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Select</unittitle>
                </did>
-               <c id="ref20" level="file">
+               <c altrender="/repositories/12/archival_objects/1193622"
+                  id="ref20"
+                  level="file">
                   <did>
                      <unittitle>DeMarcus, Wendell C.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1958-1963">
+                     <unitdatestructured altrender="1958-1963" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1958">1958</fromdate>
                            <todate standarddate="1963">1963</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132974 /locations/9"
                                 containerid="39002042364431"
+                                encodinganalog="archive legal"
                                 id="aspace_ref20_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">39</container>
                   </did>
                </c>
-               <c id="ref21" level="file">
+               <c altrender="/repositories/12/archival_objects/1193623"
+                  id="ref21"
+                  level="file">
                   <did>
                      <unittitle>DeMarque, Pierre Raymond</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1967-1972">
+                     <unitdatestructured altrender="1967-1972" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1967">1967</fromdate>
                            <todate standarddate="1972">1972</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132974 /locations/9"
                                 containerid="39002042364431"
+                                encodinganalog="archive legal"
                                 id="aspace_ref21_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">40</container>
                   </did>
                </c>
-               <c id="ref22" level="file">
+               <c altrender="/repositories/12/archival_objects/1193624"
+                  id="ref22"
+                  level="file">
                   <did>
                      <unittitle>Edmondson, Frank K.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1964-1968">
+                     <unitdatestructured altrender="1964-1968" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1964">1964</fromdate>
                            <todate standarddate="1968">1968</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132974 /locations/9"
                                 containerid="39002042364431"
+                                encodinganalog="archive legal"
                                 id="aspace_ref22_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">41</container>
                   </did>
                </c>
-               <c id="ref23" level="file">
+               <c altrender="/repositories/12/archival_objects/1193625"
+                  id="ref23"
+                  level="file">
                   <did>
                      <unittitle>Oxenius, Joachim</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1965-1967">
+                     <unitdatestructured altrender="1965-1967" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1965">1965</fromdate>
                            <todate standarddate="1967">1967</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132974 /locations/9"
                                 containerid="39002042364431"
+                                encodinganalog="archive legal"
                                 id="aspace_ref23_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">42</container>
                   </did>
                </c>
-               <c id="ref24" level="file">
+               <c altrender="/repositories/12/archival_objects/1193626"
+                  id="ref24"
+                  level="file">
                   <did>
                      <unittitle>Pritchett, Henry S.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1941-1966">
+                     <unitdatestructured altrender="1941-1966" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1941">1941</fromdate>
                            <todate standarddate="1966">1966</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/132975 /locations/9"
                                 containerid="39002042364449"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref24_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">43</container>
                   </did>
                </c>
-               <c id="ref25" level="file">
+               <c altrender="/repositories/12/archival_objects/1193627"
+                  id="ref25"
+                  level="file">
                   <did>
                      <unittitle>Street, William B.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1967-1970">
+                     <unitdatestructured altrender="1967-1970" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1967">1967</fromdate>
                            <todate standarddate="1970">1970</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/132975 /locations/9"
                                 containerid="39002042364449"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref25_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">44-45</container>
                   </did>
                </c>
-               <c id="ref26" level="file">
+               <c altrender="/repositories/12/archival_objects/1193628"
+                  id="ref26"
+                  level="file">
                   <did>
                      <unittitle>Waddell, John H.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1961-1964">
+                     <unitdatestructured altrender="1961-1964" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1961">1961</fromdate>
                            <todate standarddate="1964">1964</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/132975 /locations/9"
                                 containerid="39002042364449"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref26_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -359,7 +402,9 @@
                </c>
             </c>
          </c>
-         <c id="ref28" level="series">
+         <c altrender="/repositories/12/archival_objects/1193629"
+            id="ref28"
+            level="series">
             <did>
                <unittitle>ORGANIZATIONS</unittitle>
                <unitid>Series II</unitid>
@@ -368,7 +413,7 @@
                   <unittype>Linear Feet</unittype>
                </physdescstructured>
                <physdesc localtype="container_summary">4 boxes</physdesc>
-               <unitdatestructured unitdatetype="inclusive" altrender="1949-1981">
+               <unitdatestructured altrender="1949-1981" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1949">1949</fromdate>
                      <todate standarddate="1981">1981</todate>
@@ -379,365 +424,433 @@
                <head>Scope and Contents</head>
                <p>This series contains an alphabetical arrangement of files according to the name of the organization.</p>
             </scopecontent>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1193630"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Academic Press, Inc.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1955-1961">
+                  <unitdatestructured altrender="1955-1961" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1955">1955</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132976 /locations/9"
                              containerid="39002042364456"
+                             encodinganalog="archive legal"
                              id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">47</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1193631"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>American Journal of Science</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1949-1953">
+                  <unitdatestructured altrender="1949-1953" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1949">1949</fromdate>
                         <todate standarddate="1953">1953</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132976 /locations/9"
                              containerid="39002042364456"
+                             encodinganalog="archive legal"
                              id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">48</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1193632"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>Association of Universities for Research in Astronomy</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1949-1975">
+                  <unitdatestructured altrender="1949-1975" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1949">1949</fromdate>
                         <todate standarddate="1975">1975</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132976 /locations/9"
                              containerid="39002042364456"
+                             encodinganalog="archive legal"
                              id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">49-61</container>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1193633"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>The Astrophysical Journal</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1959-1971">
+                  <unitdatestructured altrender="1959-1971" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1959">1959</fromdate>
                         <todate standarddate="1971">1971</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132976 /locations/9"
                              containerid="39002042364456"
+                             encodinganalog="archive legal"
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">62-63</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1193634"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>CTIO</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1963-1967">
+                  <unitdatestructured altrender="1963-1967" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1963">1963</fromdate>
                         <todate standarddate="1967">1967</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132977 /locations/9"
                              containerid="39002042364464"
+                             encodinganalog="archive legal"
                              id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">64-68</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1193635"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Acta Geochímica</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1950-1967">
+                  <unitdatestructured altrender="1950-1967" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1950">1950</fromdate>
                         <todate standarddate="1967">1967</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132977 /locations/9"
                              containerid="39002042364464"
+                             encodinganalog="archive legal"
                              id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">69</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1193636"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>ICARUS</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1961-1971">
+                  <unitdatestructured altrender="1961-1971" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1961">1961</fromdate>
                         <todate standarddate="1971">1971</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132977 /locations/9"
                              containerid="39002042364464"
+                             encodinganalog="archive legal"
                              id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">70-71</container>
                </did>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1193637"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>Jupiter Conference</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1962-1963">
+                  <unitdatestructured altrender="1962-1963" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1962">1962</fromdate>
                         <todate standarddate="1963">1963</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132977 /locations/9"
                              containerid="39002042364464"
+                             encodinganalog="archive legal"
                              id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">72-73</container>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1193638"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>Kitt Peak National Observatory</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1965 January - 1967">
+                  <unitdatestructured altrender="1965 January - 1967"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
-                        <fromdate standarddate="1965-01">1965-01</fromdate>
-                        <todate standarddate="1967-12">1967-12</todate>
+                        <fromdate standarddate="1965-01">1965 January</fromdate>
+                        <todate standarddate="1967-12">1967 December</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132977 /locations/9"
                              containerid="39002042364464"
+                             encodinganalog="archive legal"
                              id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">74-79</container>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1193639"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>Kitt Peak National Observatory</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1968-1981">
+                  <unitdatestructured altrender="1968-1981" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1968">1968</fromdate>
                         <todate standarddate="1981">1981</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132978 /locations/9"
                              containerid="39002042364472"
+                             encodinganalog="archive legal"
                              id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">80-83</container>
                </did>
             </c>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1193640"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>Liège Symposium</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1956-1963">
+                  <unitdatestructured altrender="1956-1963" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1956">1956</fromdate>
                         <todate standarddate="1963">1963</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132978 /locations/9"
                              containerid="39002042364472"
+                             encodinganalog="archive legal"
                              id="aspace_ref40_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">84-85</container>
                </did>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1193641"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>NASA</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1968-1971">
+                  <unitdatestructured altrender="1968-1971" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1968">1968</fromdate>
                         <todate standarddate="1971">1971</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132978 /locations/9"
                              containerid="39002042364472"
+                             encodinganalog="archive legal"
                              id="aspace_ref41_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">86</container>
                </did>
             </c>
-            <c id="ref42" level="file">
+            <c altrender="/repositories/12/archival_objects/1193642"
+               id="ref42"
+               level="file">
                <did>
                   <unittitle>NATO Advanced Study</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1965-1973">
+                  <unitdatestructured altrender="1965-1973" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1965">1965</fromdate>
                         <todate standarddate="1973">1973</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132978 /locations/9"
                              containerid="39002042364472"
+                             encodinganalog="archive legal"
                              id="aspace_ref42_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">87</container>
                </did>
             </c>
-            <c id="ref43" level="file">
+            <c altrender="/repositories/12/archival_objects/1193643"
+               id="ref43"
+               level="file">
                <did>
                   <unittitle>Royal Astronomical Society</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1966-1969">
+                  <unitdatestructured altrender="1966-1969" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1966">1966</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132978 /locations/9"
                              containerid="39002042364472"
+                             encodinganalog="archive legal"
                              id="aspace_ref43_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref43_c2" localtype="folder" parent="aspace_ref43_c1">88</container>
                </did>
             </c>
-            <c id="ref44" level="file">
+            <c altrender="/repositories/12/archival_objects/1193644"
+               id="ref44"
+               level="file">
                <did>
                   <unittitle>Springer-Verlog, Berlin</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1954-1955">
+                  <unitdatestructured altrender="1954-1955" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1954">1954</fromdate>
                         <todate standarddate="1955">1955</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132978 /locations/9"
                              containerid="39002042364472"
+                             encodinganalog="archive legal"
                              id="aspace_ref44_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">89</container>
                </did>
             </c>
-            <c id="ref45" level="file">
+            <c altrender="/repositories/12/archival_objects/1193645"
+               id="ref45"
+               level="file">
                <did>
                   <unittitle>Universidad Nacional de México</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1960-1965">
+                  <unitdatestructured altrender="1960-1965" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1960">1960</fromdate>
                         <todate standarddate="1965">1965</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132979 /locations/9"
                              containerid="39002042364480"
+                             encodinganalog="archive half legal"
                              id="aspace_ref45_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref45_c2" localtype="folder" parent="aspace_ref45_c1">90</container>
                </did>
             </c>
-            <c id="ref46" level="file">
+            <c altrender="/repositories/12/archival_objects/1193646"
+               id="ref46"
+               level="file">
                <did>
                   <unittitle>Universität Basel</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1960">
+                  <unitdatestructured altrender="1960" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1960">1960</fromdate>
                         <todate standarddate="1960">1960</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132979 /locations/9"
                              containerid="39002042364480"
+                             encodinganalog="archive half legal"
                              id="aspace_ref46_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref46_c2" localtype="folder" parent="aspace_ref46_c1">91</container>
                </did>
             </c>
-            <c id="ref47" level="file">
+            <c altrender="/repositories/12/archival_objects/1193647"
+               id="ref47"
+               level="file">
                <did>
                   <unittitle>Universität München</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1953-1962">
+                  <unitdatestructured altrender="1953-1962" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1953">1953</fromdate>
                         <todate standarddate="1962">1962</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132979 /locations/9"
                              containerid="39002042364480"
+                             encodinganalog="archive half legal"
                              id="aspace_ref47_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref47_c2" localtype="folder" parent="aspace_ref47_c1">92-94</container>
                </did>
             </c>
-            <c id="ref48" level="file">
+            <c altrender="/repositories/12/archival_objects/1193648"
+               id="ref48"
+               level="file">
                <did>
                   <unittitle>Universität Münster</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1956-1958">
+                  <unitdatestructured altrender="1956-1958" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1956">1956</fromdate>
                         <todate standarddate="1958">1958</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132979 /locations/9"
                              containerid="39002042364480"
+                             encodinganalog="archive half legal"
                              id="aspace_ref48_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref48_c2" localtype="folder" parent="aspace_ref48_c1">95</container>
                </did>
             </c>
-            <c id="ref49" level="file">
+            <c altrender="/repositories/12/archival_objects/1193649"
+               id="ref49"
+               level="file">
                <did>
                   <unittitle>University of Washington</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1963-1964">
+                  <unitdatestructured altrender="1963-1964" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1963">1963</fromdate>
                         <todate standarddate="1964">1964</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132979 /locations/9"
                              containerid="39002042364480"
+                             encodinganalog="archive half legal"
                              id="aspace_ref49_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref49_c2" localtype="folder" parent="aspace_ref49_c1">96</container>
                </did>
             </c>
-            <c id="ref50" level="file">
+            <c altrender="/repositories/12/archival_objects/1193650"
+               id="ref50"
+               level="file">
                <did>
                   <unittitle>Yale University</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1958-1974">
+                  <unitdatestructured altrender="1958-1974" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1958">1958</fromdate>
                         <todate standarddate="1974">1974</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132979 /locations/9"
                              containerid="39002042364480"
+                             encodinganalog="archive half legal"
                              id="aspace_ref50_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
@@ -745,7 +858,9 @@
                </did>
             </c>
          </c>
-         <c id="ref52" level="series">
+         <c altrender="/repositories/12/archival_objects/1193651"
+            id="ref52"
+            level="series">
             <did>
                <unittitle>PERSONAL PAPERS</unittitle>
                <unitid>Series III</unitid>
@@ -754,7 +869,7 @@
                   <unittype>Linear Feet</unittype>
                </physdescstructured>
                <physdesc localtype="container_summary">(1 box)</physdesc>
-               <unitdatestructured unitdatetype="inclusive" altrender="1898-1968">
+               <unitdatestructured altrender="1898-1968" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1898">1898</fromdate>
                      <todate standarddate="1968">1968</todate>
@@ -765,34 +880,40 @@
                <head>Scope and Contents</head>
                <p>This series contains general files and recommendations; each is arranged in chronological order.</p>
             </scopecontent>
-            <c id="ref54" level="file">
+            <c altrender="/repositories/12/archival_objects/1193652"
+               id="ref54"
+               level="file">
                <did>
                   <unittitle>General</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1898-1968">
+                  <unitdatestructured altrender="1898-1968" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1898">1898</fromdate>
                         <todate standarddate="1968">1968</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132980 /locations/9"
                              containerid="39002042364498"
+                             encodinganalog="archive half legal"
                              id="aspace_ref54_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref54_c2" localtype="folder" parent="aspace_ref54_c1">99-100</container>
                </did>
             </c>
-            <c id="ref55" level="file">
+            <c altrender="/repositories/12/archival_objects/1193653"
+               id="ref55"
+               level="file">
                <did>
                   <unittitle>Recommendations</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1958-1972">
+                  <unitdatestructured altrender="1958-1972" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1958">1958</fromdate>
                         <todate standarddate="1972">1972</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132980 /locations/9"
                              containerid="39002042364498"
+                             encodinganalog="archive half legal"
                              id="aspace_ref55_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
@@ -800,7 +921,9 @@
                </did>
             </c>
          </c>
-         <c id="ref57" level="series">
+         <c altrender="/repositories/12/archival_objects/1193654"
+            id="ref57"
+            level="series">
             <did>
                <unittitle>WRITINGS</unittitle>
                <unitid>Series IV</unitid>
@@ -809,7 +932,7 @@
                   <unittype>Linear Foot</unittype>
                </physdescstructured>
                <physdesc localtype="container_summary">3 boxes</physdesc>
-               <unitdatestructured unitdatetype="inclusive" altrender="1928-1972">
+               <unitdatestructured altrender="1928-1972" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1928">1928</fromdate>
                      <todate standarddate="1972">1972</todate>
@@ -820,57 +943,80 @@
                <head>Scope and Contents</head>
                <p>This series contains writings arranged in five sections: <emph render="italic">Articles</emph>, <emph render="italic">Bibliographies</emph>, <emph render="italic">Notes and Equations</emph>, <emph render="italic">Notes and Teaching Materials</emph>, and <emph render="italic">Reprints of Articles</emph>.</p>
             </scopecontent>
-            <c id="ref59" level="file">
+            <c altrender="/repositories/12/archival_objects/1193655"
+               id="ref59"
+               level="file">
                <did>
                   <unittitle>Articles</unittitle>
                </did>
-               <c id="ref60" level="file">
+               <c altrender="/repositories/12/archival_objects/1193656"
+                  id="ref60"
+                  level="file">
                   <did>
                      <unittitle>"Cosmochemistry,"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1936-1950">
+                     <unitdatestructured altrender="1936-1950" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1936">1936</fromdate>
                            <todate standarddate="1950">1950</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132981 /locations/9"
                                 containerid="39002042364506"
+                                encodinganalog="archive legal"
                                 id="aspace_ref60_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref60_c2" localtype="folder" parent="aspace_ref60_c1">102</container>
                   </did>
                </c>
-               <c id="ref61" level="file">
+               <c altrender="/repositories/12/archival_objects/1193657"
+                  id="ref61"
+                  level="file">
                   <did>
                      <unittitle>"The Photon Diffusion Equation,"</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132981 /locations/9"
                                 containerid="39002042364506"
+                                encodinganalog="archive legal"
                                 id="aspace_ref61_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref61_c2" localtype="folder" parent="aspace_ref61_c1">103</container>
                   </did>
                </c>
-               <c id="ref62" level="file">
+               <c altrender="/repositories/12/archival_objects/1193658"
+                  id="ref62"
+                  level="file">
                   <did>
                      <unittitle>"Radiation Transfer,"</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132981 /locations/9"
                                 containerid="39002042364506"
+                                encodinganalog="archive legal"
                                 id="aspace_ref62_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref62_c2" localtype="folder" parent="aspace_ref62_c1">104</container>
                   </did>
                </c>
-               <c id="ref63" level="file">
+               <c altrender="/repositories/12/archival_objects/1193659"
+                  id="ref63"
+                  level="file">
                   <did>
                      <unittitle>"Thermodynamics..." II-IV</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132981 /locations/9"
                                 containerid="39002042364506"
+                                encodinganalog="archive legal"
                                 id="aspace_ref63_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
@@ -878,230 +1024,293 @@
                   </did>
                </c>
             </c>
-            <c id="ref64" level="file">
+            <c altrender="/repositories/12/archival_objects/1193660"
+               id="ref64"
+               level="file">
                <did>
                   <unittitle>Bibliographies</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1928-1972">
+                  <unitdatestructured altrender="1928-1972" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1928">1928</fromdate>
                         <todate standarddate="1972">1972</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132981 /locations/9"
                              containerid="39002042364506"
+                             encodinganalog="archive legal"
                              id="aspace_ref64_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                   <container id="aspace_ref64_c2" localtype="folder" parent="aspace_ref64_c1">108</container>
                </did>
             </c>
-            <c id="ref65" level="file">
+            <c altrender="/repositories/12/archival_objects/1193661"
+               id="ref65"
+               level="file">
                <did>
                   <unittitle>Notes and Equations</unittitle>
-                  <unitdate unitdatetype="inclusive">1938-1954, undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdatestructured altrender="1938-1954, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <daterange>
+                        <fromdate standarddate="1938">1938</fromdate>
+                        <todate standarddate="1954">1954</todate>
+                     </daterange>
+                  </unitdatestructured>
+                  <container altrender="/repositories/12/top_containers/132981 /locations/9"
                              containerid="39002042364506"
+                             encodinganalog="archive legal"
                              id="aspace_ref65_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                   <container id="aspace_ref65_c2" localtype="folder" parent="aspace_ref65_c1">109-133</container>
                </did>
             </c>
-            <c id="ref66" level="file">
+            <c altrender="/repositories/12/archival_objects/1193662"
+               id="ref66"
+               level="file">
                <did>
                   <unittitle>Notes and Teaching Materials</unittitle>
                </did>
-               <c id="ref67" level="file">
+               <c altrender="/repositories/12/archival_objects/1193663"
+                  id="ref67"
+                  level="file">
                   <did>
                      <unittitle>Fluctuations</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1969">
+                     <unitdatestructured altrender="1969" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1969">1969</fromdate>
                            <todate standarddate="1969">1969</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132981 /locations/9"
                                 containerid="39002042364506"
+                                encodinganalog="archive legal"
                                 id="aspace_ref67_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref67_c2" localtype="folder" parent="aspace_ref67_c1">134</container>
                   </did>
                </c>
-               <c id="ref68" level="file">
+               <c altrender="/repositories/12/archival_objects/1193664"
+                  id="ref68"
+                  level="file">
                   <did>
                      <unittitle>Astronomy</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132981 /locations/9"
                                 containerid="39002042364506"
+                                encodinganalog="archive legal"
                                 id="aspace_ref68_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref68_c2" localtype="folder" parent="aspace_ref68_c1">135-136</container>
                   </did>
                </c>
-               <c id="ref69" level="file">
+               <c altrender="/repositories/12/archival_objects/1193665"
+                  id="ref69"
+                  level="file">
                   <did>
                      <unittitle>Data of Cosmochemistry</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132981 /locations/9"
                                 containerid="39002042364506"
+                                encodinganalog="archive legal"
                                 id="aspace_ref69_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref69_c2" localtype="folder" parent="aspace_ref69_c1">137</container>
                   </did>
                </c>
-               <c id="ref70" level="file">
+               <c altrender="/repositories/12/archival_objects/1193666"
+                  id="ref70"
+                  level="file">
                   <did>
                      <unittitle>Externals</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132981 /locations/9"
                                 containerid="39002042364506"
+                                encodinganalog="archive legal"
                                 id="aspace_ref70_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref70_c2" localtype="folder" parent="aspace_ref70_c1">138</container>
                   </did>
                </c>
-               <c id="ref71" level="file">
+               <c altrender="/repositories/12/archival_objects/1193667"
+                  id="ref71"
+                  level="file">
                   <did>
                      <unittitle>General Theory of Matter</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132981 /locations/9"
                                 containerid="39002042364506"
+                                encodinganalog="archive legal"
                                 id="aspace_ref71_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref71_c2" localtype="folder" parent="aspace_ref71_c1">139</container>
                   </did>
                </c>
-               <c id="ref72" level="file">
+               <c altrender="/repositories/12/archival_objects/1193668"
+                  id="ref72"
+                  level="file">
                   <did>
                      <unittitle>Grey Atmosphere</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132981 /locations/9"
                                 containerid="39002042364506"
+                                encodinganalog="archive legal"
                                 id="aspace_ref72_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref72_c2" localtype="folder" parent="aspace_ref72_c1">140</container>
                   </did>
                </c>
-               <c id="ref73" level="file">
+               <c altrender="/repositories/12/archival_objects/1193669"
+                  id="ref73"
+                  level="file">
                   <did>
                      <unittitle>Interstellar Matter</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132981 /locations/9"
                                 containerid="39002042364506"
+                                encodinganalog="archive legal"
                                 id="aspace_ref73_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref73_c2" localtype="folder" parent="aspace_ref73_c1">141</container>
                   </did>
                </c>
-               <c id="ref74" level="file">
+               <c altrender="/repositories/12/archival_objects/1193670"
+                  id="ref74"
+                  level="file">
                   <did>
                      <unittitle>Literature</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132981 /locations/9"
                                 containerid="39002042364506"
+                                encodinganalog="archive legal"
                                 id="aspace_ref74_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref74_c2" localtype="folder" parent="aspace_ref74_c1">142</container>
                   </did>
                </c>
-               <c id="ref75" level="file">
+               <c altrender="/repositories/12/archival_objects/1193671"
+                  id="ref75"
+                  level="file">
                   <did>
                      <unittitle>Kinetics</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132982 /locations/9"
                                 containerid="39002042364514"
+                                encodinganalog="archive legal"
                                 id="aspace_ref75_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                      <container id="aspace_ref75_c2" localtype="folder" parent="aspace_ref75_c1">143</container>
                   </did>
                </c>
-               <c id="ref76" level="file">
+               <c altrender="/repositories/12/archival_objects/1193672"
+                  id="ref76"
+                  level="file">
                   <did>
                      <unittitle>Mathematics</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132982 /locations/9"
                                 containerid="39002042364514"
+                                encodinganalog="archive legal"
                                 id="aspace_ref76_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                      <container id="aspace_ref76_c2" localtype="folder" parent="aspace_ref76_c1">144</container>
                   </did>
                </c>
-               <c id="ref77" level="file">
+               <c altrender="/repositories/12/archival_objects/1193673"
+                  id="ref77"
+                  level="file">
                   <did>
                      <unittitle>Planetochemistry</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132982 /locations/9"
                                 containerid="39002042364514"
+                                encodinganalog="archive legal"
                                 id="aspace_ref77_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                      <container id="aspace_ref77_c2" localtype="folder" parent="aspace_ref77_c1">145</container>
                   </did>
                </c>
-               <c id="ref78" level="file">
+               <c altrender="/repositories/12/archival_objects/1193674"
+                  id="ref78"
+                  level="file">
                   <did>
                      <unittitle>Solar and Stellar Chemistry</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132982 /locations/9"
                                 containerid="39002042364514"
+                                encodinganalog="archive legal"
                                 id="aspace_ref78_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                      <container id="aspace_ref78_c2" localtype="folder" parent="aspace_ref78_c1">146</container>
                   </did>
                </c>
-               <c id="ref79" level="file">
+               <c altrender="/repositories/12/archival_objects/1193675"
+                  id="ref79"
+                  level="file">
                   <did>
                      <unittitle>Stress-Strain, Stationary State</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132982 /locations/9"
                                 containerid="39002042364514"
+                                encodinganalog="archive legal"
                                 id="aspace_ref79_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                      <container id="aspace_ref79_c2" localtype="folder" parent="aspace_ref79_c1">147</container>
                   </did>
                </c>
-               <c id="ref80" level="file">
+               <c altrender="/repositories/12/archival_objects/1193676"
+                  id="ref80"
+                  level="file">
                   <did>
                      <unittitle>Thermodynamics</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132982 /locations/9"
                                 containerid="39002042364514"
+                                encodinganalog="archive legal"
                                 id="aspace_ref80_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                      <container id="aspace_ref80_c2" localtype="folder" parent="aspace_ref80_c1">148</container>
                   </did>
                </c>
-               <c id="ref81" level="file">
+               <c altrender="/repositories/12/archival_objects/1193677"
+                  id="ref81"
+                  level="file">
                   <did>
                      <unittitle>Transfer Theory</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132982 /locations/9"
                                 containerid="39002042364514"
+                                encodinganalog="archive legal"
                                 id="aspace_ref81_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                      <container id="aspace_ref81_c2" localtype="folder" parent="aspace_ref81_c1">149</container>
                   </did>
                </c>
-               <c id="ref82" level="file">
+               <c altrender="/repositories/12/archival_objects/1193678"
+                  id="ref82"
+                  level="file">
                   <did>
                      <unittitle>Variation Principles</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132982 /locations/9"
                                 containerid="39002042364514"
+                                encodinganalog="archive legal"
                                 id="aspace_ref82_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
@@ -1109,31 +1318,46 @@
                   </did>
                </c>
             </c>
-            <c id="ref83" level="file">
+            <c altrender="/repositories/12/archival_objects/1193679"
+               id="ref83"
+               level="file">
                <did>
                   <unittitle>Reprints of Articles</unittitle>
                </did>
-               <c id="ref84" level="file">
+               <c altrender="/repositories/12/archival_objects/1193680"
+                  id="ref84"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1928-1966">
+                     <unitdatestructured altrender="1928-1966" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1928">1928</fromdate>
                            <todate standarddate="1966">1966</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132982 /locations/9"
                                 containerid="39002042364514"
+                                encodinganalog="archive legal"
                                 id="aspace_ref84_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                      <container id="aspace_ref84_c2" localtype="folder" parent="aspace_ref84_c1">152-159</container>
                   </did>
                </c>
-               <c id="ref85" level="file">
+               <c altrender="/repositories/12/archival_objects/1193681"
+                  id="ref85"
+                  level="file">
                   <did>
-                     <unitdate unitdatetype="inclusive">1966-1972, undated</unitdate>
-                     <container altrender="archive half legal"
+                     <unitdatestructured altrender="1966-1972, undated"
+                                         label="creation"
+                                         unitdatetype="inclusive">
+                        <daterange>
+                           <fromdate standarddate="1966">1966</fromdate>
+                           <todate standarddate="1972">1972</todate>
+                        </daterange>
+                     </unitdatestructured>
+                     <container altrender="/repositories/12/top_containers/132983 /locations/9"
                                 containerid="39002042364522"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref85_c1"
                                 label="Mixed Materials"
                                 localtype="box">11</container>
@@ -1142,7 +1366,9 @@
                </c>
             </c>
          </c>
-         <c id="ref87" level="series">
+         <c altrender="/repositories/12/archival_objects/1193682"
+            id="ref87"
+            level="series">
             <did>
                <unittitle>WRITINGS OF OTHERS</unittitle>
                <unitid>Series V</unitid>
@@ -1151,7 +1377,7 @@
                   <unittype>Linear Foot</unittype>
                </physdescstructured>
                <physdesc localtype="container_summary">3 boxes</physdesc>
-               <unitdatestructured unitdatetype="inclusive" altrender="1876-1974">
+               <unitdatestructured altrender="1876-1974" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1876">1876</fromdate>
                      <todate standarddate="1974">1974</todate>
@@ -1162,142 +1388,171 @@
                <head>Scope and Contents</head>
                <p>This series contains writings arranged in two sections: <emph render="italic">Typescripts</emph> and <emph render="italic">Printed Material</emph>. Each section is arranged in chronological order.</p>
             </scopecontent>
-            <c id="ref89" level="file">
+            <c altrender="/repositories/12/archival_objects/1193683"
+               id="ref89"
+               level="file">
                <did>
                   <unittitle>Typescripts</unittitle>
                </did>
-               <c id="ref90" level="file">
+               <c altrender="/repositories/12/archival_objects/1193684"
+                  id="ref90"
+                  level="file">
                   <did>
                      <unittitle>Langevin</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1927">
+                     <unitdatestructured altrender="1927" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1927">1927</fromdate>
                            <todate standarddate="1927">1927</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132984 /locations/9"
                                 containerid="39002042364530"
+                                encodinganalog="archive legal"
                                 id="aspace_ref90_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
                      <container id="aspace_ref90_c2" localtype="folder" parent="aspace_ref90_c1">165</container>
                   </did>
                </c>
-               <c id="ref91" level="file">
+               <c altrender="/repositories/12/archival_objects/1193685"
+                  id="ref91"
+                  level="file">
                   <did>
                      <unittitle>Gilmore</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1956">
+                     <unitdatestructured altrender="1956" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1956">1956</fromdate>
                            <todate standarddate="1956">1956</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132984 /locations/9"
                                 containerid="39002042364530"
+                                encodinganalog="archive legal"
                                 id="aspace_ref91_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
                      <container id="aspace_ref91_c2" localtype="folder" parent="aspace_ref91_c1">166</container>
                   </did>
                </c>
-               <c id="ref92" level="file">
+               <c altrender="/repositories/12/archival_objects/1193686"
+                  id="ref92"
+                  level="file">
                   <did>
                      <unittitle>Kröll</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1966">
+                     <unitdatestructured altrender="1966" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1966">1966</fromdate>
                            <todate standarddate="1966">1966</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132984 /locations/9"
                                 containerid="39002042364530"
+                                encodinganalog="archive legal"
                                 id="aspace_ref92_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
                      <container id="aspace_ref92_c2" localtype="folder" parent="aspace_ref92_c1">167</container>
                   </did>
                </c>
-               <c id="ref93" level="file">
+               <c altrender="/repositories/12/archival_objects/1193687"
+                  id="ref93"
+                  level="file">
                   <did>
                      <unittitle>Anonymous</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1971">
+                     <unitdatestructured altrender="1971" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1971">1971</fromdate>
                            <todate standarddate="1971">1971</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132984 /locations/9"
                                 containerid="39002042364530"
+                                encodinganalog="archive legal"
                                 id="aspace_ref93_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
                      <container id="aspace_ref93_c2" localtype="folder" parent="aspace_ref93_c1">168</container>
                   </did>
                </c>
-               <c id="ref94" level="file">
+               <c altrender="/repositories/12/archival_objects/1193688"
+                  id="ref94"
+                  level="file">
                   <did>
                      <unittitle>Gal-Or</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1971-1973">
+                     <unitdatestructured altrender="1971-1973" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1971">1971</fromdate>
                            <todate standarddate="1973">1973</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132984 /locations/9"
                                 containerid="39002042364530"
+                                encodinganalog="archive legal"
                                 id="aspace_ref94_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
                      <container id="aspace_ref94_c2" localtype="folder" parent="aspace_ref94_c1">169-170</container>
                   </did>
                </c>
-               <c id="ref95" level="file">
+               <c altrender="/repositories/12/archival_objects/1193689"
+                  id="ref95"
+                  level="file">
                   <did>
                      <unittitle>Anonymous</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1973">
+                     <unitdatestructured altrender="1973" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1973">1973</fromdate>
                            <todate standarddate="1973">1973</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132984 /locations/9"
                                 containerid="39002042364530"
+                                encodinganalog="archive legal"
                                 id="aspace_ref95_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
                      <container id="aspace_ref95_c2" localtype="folder" parent="aspace_ref95_c1">171</container>
                   </did>
                </c>
-               <c id="ref96" level="file">
+               <c altrender="/repositories/12/archival_objects/1193690"
+                  id="ref96"
+                  level="file">
                   <did>
                      <unittitle>Hamity</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132984 /locations/9"
                                 containerid="39002042364530"
+                                encodinganalog="archive legal"
                                 id="aspace_ref96_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
                      <container id="aspace_ref96_c2" localtype="folder" parent="aspace_ref96_c1">172</container>
                   </did>
                </c>
-               <c id="ref97" level="file">
+               <c altrender="/repositories/12/archival_objects/1193691"
+                  id="ref97"
+                  level="file">
                   <did>
                      <unittitle>Hayashi</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132984 /locations/9"
                                 containerid="39002042364530"
+                                encodinganalog="archive legal"
                                 id="aspace_ref97_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
                      <container id="aspace_ref97_c2" localtype="folder" parent="aspace_ref97_c1">173</container>
                   </did>
                </c>
-               <c id="ref98" level="file">
+               <c altrender="/repositories/12/archival_objects/1193692"
+                  id="ref98"
+                  level="file">
                   <did>
                      <unittitle>Oxenius</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132984 /locations/9"
                                 containerid="39002042364530"
+                                encodinganalog="archive legal"
                                 id="aspace_ref98_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
@@ -1305,47 +1560,65 @@
                   </did>
                </c>
             </c>
-            <c id="ref99" level="file">
+            <c altrender="/repositories/12/archival_objects/1193693"
+               id="ref99"
+               level="file">
                <did>
                   <unittitle>Printed Material</unittitle>
                </did>
-               <c id="ref100" level="file">
+               <c altrender="/repositories/12/archival_objects/1193694"
+                  id="ref100"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1876-1946">
+                     <unitdatestructured altrender="1876-1946" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1876">1876</fromdate>
                            <todate standarddate="1946">1946</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132984 /locations/9"
                                 containerid="39002042364530"
+                                encodinganalog="archive legal"
                                 id="aspace_ref100_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
                      <container id="aspace_ref100_c2" localtype="folder" parent="aspace_ref100_c1">175-179</container>
                   </did>
                </c>
-               <c id="ref101" level="file">
+               <c altrender="/repositories/12/archival_objects/1193695"
+                  id="ref101"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947-1963">
+                     <unitdatestructured altrender="1947-1963" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1947">1947</fromdate>
                            <todate standarddate="1963">1963</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132985 /locations/9"
                                 containerid="39002042364548"
+                                encodinganalog="archive legal"
                                 id="aspace_ref101_c1"
                                 label="Mixed Materials"
                                 localtype="box">13</container>
                      <container id="aspace_ref101_c2" localtype="folder" parent="aspace_ref101_c1">180-187</container>
                   </did>
                </c>
-               <c id="ref102" level="file">
+               <c altrender="/repositories/12/archival_objects/1193696"
+                  id="ref102"
+                  level="file">
                   <did>
-                     <unitdate unitdatetype="inclusive">1964-1974, undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdatestructured altrender="1964-1974, undated"
+                                         label="creation"
+                                         unitdatetype="inclusive">
+                        <daterange>
+                           <fromdate standarddate="1964">1964</fromdate>
+                           <todate standarddate="1974">1974</todate>
+                        </daterange>
+                     </unitdatestructured>
+                     <container altrender="/repositories/12/top_containers/132986 /locations/9"
                                 containerid="39002042364555"
+                                encodinganalog="archive legal"
                                 id="aspace_ref102_c1"
                                 label="Mixed Materials"
                                 localtype="box">14</container>
@@ -1354,68 +1627,91 @@
                </c>
             </c>
          </c>
-         <c id="ref104" level="series">
+         <c altrender="/repositories/12/archival_objects/1193697"
+            id="ref104"
+            level="series">
             <did>
                <unittitle>OVERSIZE MATERIAL</unittitle>
             </did>
-            <c id="ref105" level="file">
+            <c altrender="/repositories/12/archival_objects/1193698"
+               id="ref105"
+               level="file">
                <did>
                   <unittitle>Notes, equations, and computer printouts</unittitle>
                </did>
-               <c id="ref106" level="file">
+               <c altrender="/repositories/12/archival_objects/1193699"
+                  id="ref106"
+                  level="file">
                   <did>
                      <unittitle>Dilute equilibrium radiation</unittitle>
-                     <unitdate unitdatetype="inclusive">1965, undated</unitdate>
-                     <container altrender="flat box (12d 3h 15w)"
+                     <unitdatestructured altrender="1965, undated" label="creation" unitdatetype="inclusive">
+                        <datesingle standarddate="1965">1965, undated</datesingle>
+                     </unitdatestructured>
+                     <container altrender="/repositories/12/top_containers/132987 /locations/9"
                                 containerid="39002042364563"
+                                encodinganalog="flat box (12d 3h 15w)"
                                 id="aspace_ref106_c1"
                                 label="Mixed Materials"
                                 localtype="box">15</container>
                      <container id="aspace_ref106_c2" localtype="folder" parent="aspace_ref106_c1">198</container>
                   </did>
                </c>
-               <c id="ref107" level="file">
+               <c altrender="/repositories/12/archival_objects/1193700"
+                  id="ref107"
+                  level="file">
                   <did>
                      <unittitle>Equilibrium radiation: thermodynamic functions</unittitle>
-                     <unitdate unitdatetype="inclusive">1952, undated</unitdate>
-                     <container altrender="flat box (12d 3h 15w)"
+                     <unitdatestructured altrender="1952, undated" label="creation" unitdatetype="inclusive">
+                        <datesingle standarddate="1952">1952, undated</datesingle>
+                     </unitdatestructured>
+                     <container altrender="/repositories/12/top_containers/132987 /locations/9"
                                 containerid="39002042364563"
+                                encodinganalog="flat box (12d 3h 15w)"
                                 id="aspace_ref107_c1"
                                 label="Mixed Materials"
                                 localtype="box">15</container>
                      <container id="aspace_ref107_c2" localtype="folder" parent="aspace_ref107_c1">199</container>
                   </did>
                </c>
-               <c id="ref108" level="file">
+               <c altrender="/repositories/12/archival_objects/1193701"
+                  id="ref108"
+                  level="file">
                   <did>
                      <unittitle>Gray planetary atmosphere</unittitle>
-                     <unitdate unitdatetype="inclusive">1961, 1965, undated</unitdate>
-                     <container altrender="flat box (12d 3h 15w)"
+                     <unitdate label="creation" unitdatetype="inclusive">1961, 1965, undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132987 /locations/9"
                                 containerid="39002042364563"
+                                encodinganalog="flat box (12d 3h 15w)"
                                 id="aspace_ref108_c1"
                                 label="Mixed Materials"
                                 localtype="box">15</container>
                      <container id="aspace_ref108_c2" localtype="folder" parent="aspace_ref108_c1">200</container>
                   </did>
                </c>
-               <c id="ref109" level="file">
+               <c altrender="/repositories/12/archival_objects/1193702"
+                  id="ref109"
+                  level="file">
                   <did>
                      <unittitle>Gray planetary atmosphere with Kataari source function</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="flat box (12d 3h 15w)"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132987 /locations/9"
                                 containerid="39002042364563"
+                                encodinganalog="flat box (12d 3h 15w)"
                                 id="aspace_ref109_c1"
                                 label="Mixed Materials"
                                 localtype="box">15</container>
                      <container id="aspace_ref109_c2" localtype="folder" parent="aspace_ref109_c1">201</container>
                   </did>
                </c>
-               <c id="ref110" level="file">
+               <c altrender="/repositories/12/archival_objects/1193703"
+                  id="ref110"
+                  level="file">
                   <did>
                      <unittitle>Miscellaneous</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="flat box (12d 3h 15w)"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132987 /locations/9"
                                 containerid="39002042364563"
+                                encodinganalog="flat box (12d 3h 15w)"
                                 id="aspace_ref110_c1"
                                 label="Mixed Materials"
                                 localtype="box">15</container>
@@ -1424,54 +1720,71 @@
                </c>
             </c>
          </c>
-         <c id="ref111" level="series">
+         <c altrender="/repositories/12/archival_objects/1193704"
+            id="ref111"
+            level="series">
             <did>
                <unittitle>Additional Material</unittitle>
                <unitid>Accession 2001-M-001</unitid>
             </did>
-            <c id="ref112" level="file">
+            <c altrender="/repositories/12/archival_objects/1193705"
+               id="ref112"
+               level="file">
                <did>
                   <unittitle>Correspondence</unittitle>
                </did>
-               <c id="ref113" level="file">
+               <c altrender="/repositories/12/archival_objects/1193706"
+                  id="ref113"
+                  level="file">
                   <did>
                      <unittitle>Kabala, Robert E. [includes draft of "The Greenhouse Effect for Inhomogeneous Finite Gray Atmospheres"]</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1966-1967">
+                     <unitdatestructured altrender="1966-1967" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1966">1966</fromdate>
                            <todate standarddate="1967">1967</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/132988 /locations/9"
                                 containerid="39002046627379"
+                                encodinganalog="archive half letter"
                                 id="aspace_ref113_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref113_c2" localtype="folder" parent="aspace_ref113_c1">1</container>
                   </did>
                </c>
-               <c id="ref114" level="file">
+               <c altrender="/repositories/12/archival_objects/1193707"
+                  id="ref114"
+                  level="file">
                   <did>
                      <unittitle>Sagan, Carl</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1970 January 27">
+                     <unitdatestructured altrender="1970 January 27"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1970-01-27">1970 January 27</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/132988 /locations/9"
                                 containerid="39002046627379"
+                                encodinganalog="archive half letter"
                                 id="aspace_ref114_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref114_c2" localtype="folder" parent="aspace_ref114_c1">2</container>
                   </did>
                </c>
-               <c id="ref115" level="file">
+               <c altrender="/repositories/12/archival_objects/1193708"
+                  id="ref115"
+                  level="file">
                   <did>
                      <unittitle>Ueno, Sueo</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1968 September">
+                     <unitdatestructured altrender="1968 September"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1968-09">1968 September</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/132988 /locations/9"
                                 containerid="39002046627379"
+                                encodinganalog="archive half letter"
                                 id="aspace_ref115_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -1479,43 +1792,60 @@
                   </did>
                </c>
             </c>
-            <c id="ref116" level="file">
+            <c altrender="/repositories/12/archival_objects/1193709"
+               id="ref116"
+               level="file">
                <did>
                   <unittitle>Notes and equations</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/132988 /locations/9"
                              containerid="39002046627379"
+                             encodinganalog="archive half letter"
                              id="aspace_ref116_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref116_c2" localtype="folder" parent="aspace_ref116_c1">4</container>
                </did>
             </c>
-            <c id="ref117" level="file">
+            <c altrender="/repositories/12/archival_objects/1193710"
+               id="ref117"
+               level="file">
                <did>
                   <unittitle>Writings</unittitle>
                </did>
-               <c id="ref118" level="file">
+               <c altrender="/repositories/12/archival_objects/1193711"
+                  id="ref118"
+                  level="file">
                   <did>
                      <unittitle>"The Geochemistry of the Atmosphere and the Constitution of the Terrestrial Planets" [fragment, draft of introductory address]</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1941">
+                     <unitdatestructured altrender="1941" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1941">1941</fromdate>
                            <todate standarddate="1941">1941</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132988 /locations/9"
                                 containerid="39002046627379"
+                                encodinganalog="archive half letter"
                                 id="aspace_ref118_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref118_c2" localtype="folder" parent="aspace_ref118_c1">5</container>
                   </did>
                </c>
-               <c id="ref119" level="file">
+               <c altrender="/repositories/12/archival_objects/1193712"
+                  id="ref119"
+                  level="file">
                   <did>
                      <unittitle>"Introductory Report: Planetary Interiors" [1962?]</unittitle>
-                     <container altrender="archive half letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132988 /locations/9"
                                 containerid="39002046627379"
+                                encodinganalog="archive half letter"
                                 id="aspace_ref119_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>

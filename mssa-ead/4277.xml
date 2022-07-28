@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0891">mssa.ms.0891</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0891">mssa.ms.0891</recordid>
+      <otherrecordid localtype="BIB">614352</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the John G. Chapman Papers
@@ -32,6 +34,11 @@
             <date>April 1983</date>
             <num>MS 891</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:33:46+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:14:20+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:33</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:14</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4277" level="collection">
       <did>
          <unittitle>John Graves Chapman papers</unittitle>
          <unitid>MS 891</unitid>
@@ -82,31 +92,30 @@
             <quantity>1</quantity>
             <unittype>Linear Foot</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1866-1914">
+         <unitdatestructured altrender="1866-1914" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1866">1866</fromdate>
                <todate standarddate="1914">1914</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_037a2fcaffcbf36ad5fecb5c13e337e9">The papers consist of nine volumes, six of which contain records of claims for pensions made by Civil War veterans from Connecticut. The remaining volumes contain accounts related to John Graves Chapman's insurance business, a letterbook (ca. 1866-1879), and a collection of mounted postmarks.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Chapman, John Graves, b. 1838</part>
+               <part localtype="agent_person">Chapman, John Graves, b. 1838</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_34314af59d7fd1bcf71be29f60288d5b">
          <head>Immediate Source of Acquisition</head>
-         <p>Purchased, 1945 and 1946.</p>  
+         <p>Purchased, 1945 and 1946.</p>
       </acqinfo>
       <accessrestrict id="aspace_a5bad510c23dc4aa09199e72c06bfcfe">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_4bc1f6cc4f5bef0bee04266111d1cfb0">
          <head>Preferred Citation</head>
-         <p>John Chapman Graves Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>John Chapman Graves Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_5bfcb8d7d7307e83147996181102002b">
          <head>Scope and Contents</head>
@@ -114,85 +123,103 @@
          <p>Six of the volumes record claims for pensions made by Connecticut Civil War Veterans between 1888 and 1914. Included are depositions by the claimants and notes as to which pensions were granted and for what amounts. It is unclear whether Chapman kept these records as a government employee or as part of a private agency. The first volume also contains a seventy-page cash account kept by Chapman, 1876-1877.</p>
          <p>Two further volumes contain records of Chapman's insurance business for the years 1898-1913, including a "List of Members, Universal Identification and Recovery Company," and "Revised List of Members, United States Register Company." In the first of these volumes is mounted a collection of postmarks arranged by state.</p>
          <p>The final volume is a letterbook, ca. 1866-1879, devoted to Chapman's feed and grain business and financial matters.</p>
-         <p>All nine of these volumes are in poor condition and must be handled with care.</p>  
+         <p>All nine of these volumes are in poor condition and must be handled with care.</p>
       </scopecontent>
       <userestrict id="aspace_1621df2b6eddb6980c183adab60e4b59">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85018260"
                   source="lcsh">
-            <part>Business</part>
+            <part localtype="topical">Business</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh95005994"
                   source="lcsh">
-            <part>Feed industry</part>
+            <part localtype="topical">Feed industry</part>
          </subject>
          <subject source="local">
-            <part>Insurance companies -- Connecticut -- New Haven</part>
+            <part localtype="topical">Insurance companies</part>
+            <part localtype="geographic">Connecticut</part>
+            <part localtype="geographic">New Haven</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh2008107804"
                   source="lcsh">
-            <part>Military pensions -- United States -- Civil War, 1861-1865</part>
+            <part localtype="topical">Military pensions</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="temporal">Civil War, 1861-1865</part>
          </subject>
          <subject source="local">
-            <part>Postmarks -- United States</part>
+            <part localtype="topical">Postmarks</part>
+            <part localtype="geographic">United States</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/n79074102"
                    source="lcsh">
-            <part>Connecticut</part>
+            <part localtype="geographic">Connecticut</part>
          </geogname>
          <geogname source="local">
-            <part>New Haven (Conn.) -- Commerce</part>
+            <part localtype="geographic">New Haven (Conn.)</part>
+            <part localtype="topical">Commerce</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140205"
                    source="lcsh">
-            <part>United States -- History -- Civil War, 1861-1865</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Civil War, 1861-1865</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027483" source="aat">
-            <part>Account books</part>
+            <part localtype="genre_form">Account books</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85018328"
                   source="lcsh">
-            <part>Businessmen</part>
+            <part localtype="topical">Businessmen</part>
          </subject>
          <persname source="local">
-            <part>Chapman, John Graves, b. 1838</part>
+            <part localtype="agent_person">Chapman, John Graves, b. 1838</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="file">
+         <c altrender="/repositories/12/archival_objects/1354393"
+            id="ref10"
+            level="file">
             <did>
                <unittitle>Records of claims for pensions made by Connecticut Civil War veterans</unittitle>
             </did>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1354394"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>1888-1890</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151651 /locations/9"
                              containerid="39002042276957"
-                             id="d1e269"
+                             encodinganalog="archive legal"
+                             id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e271" localtype="folder" parent="d1e269">1 - 3</container>
+                  <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1 - 3</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1354395"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>1890-1897, 1907-1914</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151652 /locations/9"
                              containerid="39002042276965"
-                             id="d1e279"
+                             encodinganalog="archive legal"
+                             id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
-                  <container id="d1e281" localtype="folder" parent="d1e279">4 - 6</container>
+                  <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">4 - 6</container>
                </did>
             </c>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1354396"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Cash account, New Haven [70 pages]</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1876-1877">
+               <unitdatestructured altrender="1876-1877" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1876">1876</fromdate>
                      <todate standarddate="1877">1877</todate>
@@ -205,27 +232,32 @@
                </p>
             </odd>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1354397"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Records of Chapman's insurance business</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1898-1913">
+               <unitdatestructured altrender="1898-1913" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1898">1898</fromdate>
                      <todate standarddate="1913">1913</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151653 /locations/9"
                           containerid="39002042276973"
-                          id="d1e317"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
-               <container id="d1e319" localtype="folder" parent="d1e317">7 - 8</container>
+               <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">7 - 8</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1354398"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Collection of postmarks</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1880-1889">
+               <unitdatestructured altrender="1880-1889" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1880">1880</fromdate>
                      <todate standarddate="1889">1889</todate>
@@ -238,38 +270,46 @@
                </p>
             </odd>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1354399"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>Letterbook</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[ca. 1866-1879]">
+               <unitdatestructured altrender="[ca. 1866-1879]"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1861">1861</fromdate>
                      <todate standarddate="1871">1871</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151653 /locations/9"
                           containerid="39002042276973"
-                          id="d1e355"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref18_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
-               <container id="d1e357" localtype="folder" parent="d1e355">9</container>
+               <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">9</container>
             </did>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1354400"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>Photograph</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1866">1866</fromdate>
                      <todate standarddate="1914">1914</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151653 /locations/9"
                           containerid="39002042276973"
-                          id="d1e373"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
-               <container id="d1e375" localtype="folder" parent="d1e373">10</container>
+               <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">10</container>
             </did>
          </c>
       </dsc>

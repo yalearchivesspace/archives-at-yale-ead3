@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0399">mssa.ms.0399</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0399">mssa.ms.0399</recordid>
+      <otherrecordid localtype="BIB">614414</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Preliminary Guide to the Pierpont's Store Records
@@ -32,6 +34,11 @@
             <date>May 1980</date>
             <num>MS 399</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T09:23:02+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:03:07+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 09:23</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:03</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4189" level="collection">
       <did>
          <unittitle>Pierpont's Store records</unittitle>
          <unitid>MS 399</unitid>
@@ -82,332 +92,414 @@
             <quantity>4.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1820-1884">
+         <unitdatestructured altrender="1820-1884" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1820">1820</fromdate>
                <todate standarddate="1884">1884</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_6855c2a87c4af81d3342704bd9c2fabc">Sixty-four volumes of accounts, 1850-1884, of Pierpont's Store in North Haven, Connecticut. Also included are 161 loose papers: 13 of these were removed from the account books; the remaining 148, Sept. 1854-Sept. 1857, are mainly authorizations by various doctors for sale by Pierpont's Store of liquor for medicinal uses.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname source="local">
-               <part>Pierpont's Store</part>
+               <part localtype="agent_corporate_entity">Pierpont's Store</part>
             </corpname>
          </origination>
-    
       </did>
       <accessrestrict id="aspace_4e2dfc9fd8ac5d8e3e8ff6beaa018f03">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_91cdad847c6ee2ad4e738f81b4fc56b1">
          <head>Preferred Citation</head>
-         <p>Pierpont's Store Records (MS 399). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Pierpont's Store Records (MS 399). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_64a9069527c401562c6e3167c9028a68">
          <head>Scope and Contents</head>
          <p>This collection consists of the account books of Rufus Pierpont, 1818-1855, and his wife Harriet Pierpont. They ran a general store in North Haven, Connecticut, dealing in dry goods as well as foodstuffs and liquors.</p>
-         <p>See also the Pierpont Family Papers, MS 1125. That collection includes some 1847 bills of Rufus Pierpont and a church resolution on his death.</p>  
+         <p>See also the Pierpont Family Papers, MS 1125. That collection includes some 1847 bills of Rufus Pierpont and a church resolution on his death.</p>
       </scopecontent>
       <bioghist id="aspace_e3f6b2c31767b08f302a5e91914be67a">
          <head>Biographical / Historical</head>
          <p>This grocery and general store was founded in 1848 by Rufus Pierpont (b. 1818), who managed it until his death in 1855. He was Husband of Harriet R. Peirpont; father of Daniel Hobart Pierpont (a graduate of the Yale Sheffield Scientific School, 1871). Only brother of Elias Pierpont of New Haven. Proprietor of Pierpont's Store in New Haven. Member of St. Johns's Protestant Episcopal Church, North Haven, Conn. Died July 31, 1855.</p>
-         <p>It was taken over by Harriet R. Pierpont, his wife, who appears to have been the proprietor for the remainder of the period of these accounts. The store remained in the family until it was forced to close in 1942, at which time it was the second oldest business institution in North Haven.</p>  
+         <p>It was taken over by Harriet R. Pierpont, his wife, who appears to have been the proprietor for the remainder of the period of these accounts. The store remained in the family until it was forced to close in 1942, at which time it was the second oldest business institution in North Haven.</p>
       </bioghist>
       <userestrict id="aspace_4bdef7109791e4ff66415cc9ebd1aa44">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85018260"
                   source="lcsh">
-            <part>Business</part>
+            <part localtype="topical">Business</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85053768"
                   source="lcsh">
-            <part>General stores</part>
+            <part localtype="topical">General stores</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/n79074102"
                    source="lcsh">
-            <part>Connecticut</part>
+            <part localtype="geographic">Connecticut</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n81082027"
                    source="lcsh">
-            <part>North Haven (Conn.)</part>
+            <part localtype="geographic">North Haven (Conn.)</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027483" source="aat">
-            <part>Account books</part>
+            <part localtype="genre_form">Account books</part>
          </genreform>
          <corpname source="local">
-            <part>Pierpont's Store</part>
+            <part localtype="agent_corporate_entity">Pierpont's Store</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="file">
+         <c altrender="/repositories/12/archival_objects/1353089"
+            id="ref10"
+            level="file">
             <did>
                <unittitle>Day books</unittitle>
             </did>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1353090"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>1862 Jul-Sep</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151372 /locations/9"
                              containerid="39002042254608"
-                             id="d1e235"
+                             encodinganalog="archive legal"
+                             id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1353091"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>1863 Jun-1865 Mar</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151372 /locations/9"
                              containerid="39002042254608"
-                             id="d1e243"
+                             encodinganalog="archive legal"
+                             id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1353092"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>1865 Jun-1866 Jun</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151372 /locations/9"
                              containerid="39002042254608"
-                             id="d1e251"
+                             encodinganalog="archive legal"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1353093"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>1866 Jun-1868 Jun</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151373 /locations/9"
                              containerid="39002042254616"
-                             id="d1e259"
+                             encodinganalog="archive legal"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1353094"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>1868 Jun-1870 Nov</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151374 /locations/9"
                              containerid="39002042254624"
-                             id="d1e267"
+                             encodinganalog="archive legal"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1353095"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>1870 Nov-1873 Jul</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151375 /locations/9"
                              containerid="39002042254632"
-                             id="d1e275"
+                             encodinganalog="archive legal"
+                             id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1353096"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>1873 Sep-1875 Jul</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151376 /locations/9"
                              containerid="39002042254640"
-                             id="d1e283"
+                             encodinganalog="archive legal"
+                             id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1353097"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>1875 Jul-1877 Jan, with some entries to 1884</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151377 /locations/9"
                              containerid="39002042254657"
-                             id="d1e291"
+                             encodinganalog="archive legal"
+                             id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                </did>
             </c>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1353098"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>Ledgers</unittitle>
             </did>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1353099"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>1853-1856</unittitle>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/151378 /locations/9"
                              containerid="39002042254665"
-                             id="d1e305"
+                             encodinganalog="flat box (12d 3h 15w)"
+                             id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1353100"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>1854-1858</unittitle>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/151378 /locations/9"
                              containerid="39002042254665"
-                             id="d1e313"
+                             encodinganalog="flat box (12d 3h 15w)"
+                             id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1353101"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>1855-1862, including an account with the estate of Rufus Pierpont</unittitle>
-                  <container altrender="flat box (16d 3h 20w)"
+                  <container altrender="/repositories/12/top_containers/151379 /locations/9"
                              containerid="39002042254673"
-                             id="d1e321"
+                             encodinganalog="flat box (16d 3h 20w)"
+                             id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1353102"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>1857-1864, with some day book entries</unittitle>
-                  <container altrender="flat box (16d 3h 20w)"
+                  <container altrender="/repositories/12/top_containers/151379 /locations/9"
                              containerid="39002042254673"
-                             id="d1e329"
+                             encodinganalog="flat box (16d 3h 20w)"
+                             id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1353103"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>1861-1869, with some day book entries</unittitle>
-                  <container altrender="flat box (16d 3h 20w)"
+                  <container altrender="/repositories/12/top_containers/151379 /locations/9"
                              containerid="39002042254673"
-                             id="d1e337"
+                             encodinganalog="flat box (16d 3h 20w)"
+                             id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1353104"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>1861-1868</unittitle>
-                  <container altrender="flat box (16d 3h 20w)"
+                  <container altrender="/repositories/12/top_containers/151379 /locations/9"
                              containerid="39002042254673"
-                             id="d1e345"
+                             encodinganalog="flat box (16d 3h 20w)"
+                             id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1353105"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>1865-1877</unittitle>
-                  <container altrender="flat box (16d 3h 20w)"
+                  <container altrender="/repositories/12/top_containers/151379 /locations/9"
                              containerid="39002042254673"
-                             id="d1e353"
+                             encodinganalog="flat box (16d 3h 20w)"
+                             id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1353106"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>1867-1877</unittitle>
-                  <container altrender="flat box (16d 3h 20w)"
+                  <container altrender="/repositories/12/top_containers/151380 /locations/9"
                              containerid="39002042254681"
-                             id="d1e361"
+                             encodinganalog="flat box (16d 3h 20w)"
+                             id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                </did>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1353107"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>1871-1877</unittitle>
-                  <container altrender="flat box (16d 3h 20w)"
+                  <container altrender="/repositories/12/top_containers/151380 /locations/9"
                              containerid="39002042254681"
-                             id="d1e369"
+                             encodinganalog="flat box (16d 3h 20w)"
+                             id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                </did>
             </c>
          </c>
-         <c id="ref29" level="file">
+         <c altrender="/repositories/12/archival_objects/1353108"
+            id="ref29"
+            level="file">
             <did>
                <unittitle>Account books</unittitle>
             </did>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1353109"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>1837-1858</unittitle>
-                  <container altrender="flat box (16d 3h 20w)"
+                  <container altrender="/repositories/12/top_containers/151380 /locations/9"
                              containerid="39002042254681"
-                             id="d1e383"
+                             encodinganalog="flat box (16d 3h 20w)"
+                             id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1353110"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>1850-1859</unittitle>
-                  <container altrender="flat box (16d 3h 20w)"
+                  <container altrender="/repositories/12/top_containers/151380 /locations/9"
                              containerid="39002042254681"
-                             id="d1e391"
+                             encodinganalog="flat box (16d 3h 20w)"
+                             id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1353111"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>1860-1876</unittitle>
-                  <container altrender="flat box (16d 3h 20w)"
+                  <container altrender="/repositories/12/top_containers/151380 /locations/9"
                              containerid="39002042254681"
-                             id="d1e399"
+                             encodinganalog="flat box (16d 3h 20w)"
+                             id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1353112"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>Accounts of liquor purchases and sales, 1854-1857</unittitle>
-                  <container altrender="flat box (16d 3h 20w)"
+                  <container altrender="/repositories/12/top_containers/151380 /locations/9"
                              containerid="39002042254681"
-                             id="d1e407"
+                             encodinganalog="flat box (16d 3h 20w)"
+                             id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1353113"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>1865-1876</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151381 /locations/9"
                              containerid="39002042254699"
-                             id="d1e415"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1353114"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>1869-1880</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151381 /locations/9"
                              containerid="39002042254699"
-                             id="d1e423"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                </did>
             </c>
          </c>
-         <c id="ref36" level="file">
+         <c altrender="/repositories/12/archival_objects/1353115"
+            id="ref36"
+            level="file">
             <did>
                <unittitle>Loose papers</unittitle>
             </did>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1353116"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>1854 Sep-1857 Sep</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151381 /locations/9"
                              containerid="39002042254699"
-                             id="d1e437"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1353117"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>Undated, and printed matter</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151381 /locations/9"
                              containerid="39002042254699"
-                             id="d1e445"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                </did>

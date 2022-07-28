@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0919">mssa.ms.0919</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0919">mssa.ms.0919</recordid>
+      <otherrecordid localtype="BIB">614321</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Edwin Munsell Bliss Papers
@@ -32,6 +34,11 @@
             <date>November 1982</date>
             <num>MS 919</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-03-31T07:17:12+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:16:00+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday March 31, 2020 at 07:17</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:16</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4293" level="collection">
       <did>
          <unittitle>Edwin Munsell Bliss papers</unittitle>
          <unitid>MS 919</unitid>
@@ -82,212 +92,247 @@
             <quantity>0.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1847-1912">
+         <unitdatestructured altrender="1847-1912" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1847">1847</fromdate>
                <todate standarddate="1912">1912</todate>
             </daterange>
          </unitdatestructured>
-         <unitdatestructured unitdatetype="bulk">
+         <unitdatestructured label="creation" unitdatetype="bulk">
             <daterange>
                <fromdate standarddate="1873">1873</fromdate>
                <todate standarddate="1883">1883</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_6f5a7ef058066d363d2c32013b4f26cb">Correspondence, writings and travel journals kept during Edwin Munsell Bliss's travels in the Near East while an agent for the American Bible Society in the Levant (1872-1888). His writings are devoted to his travels, and letters from family and friends also describe their experiences as missionaries living and traveling in the Near East. Also included is the will of Bliss's first wife, Marie Louise Henderson Bliss.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/no2001091497"
                       rules="aacr"
                       source="naf">
-               <part>Bliss, Edwin Munsell, 1848-1919</part>
+               <part localtype="agent_person">Bliss, Edwin Munsell, 1848-1919</part>
             </persname>
          </origination>
-    
       </did>
       <accessrestrict id="aspace_75e44bb220acd985395e3424983e31ff">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_185a4320533a18c3feadee92dc2d40ba">
          <head>Preferred Citation</head>
-         <p>Edwin Munsell Bliss Papers (MS 919). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Edwin Munsell Bliss Papers (MS 919). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_6d015b2fe180391b7052dd8cba398487">
          <head>Scope and Contents</head>
-         <p>The Edwin M. Bliss Papers deal for the most part with experiences of Americans living and traveling in the Middle East in the mid and late 1800s. Approximately one third of the collection is made up of essays written by Bliss (included are manuscript and typed drafts and galley proofs; many of the essays were probably published) describing his travels in the Near East, as well as Near Eastern and Biblical history. More detailed accounts of his travels can be found in his journals and letters written during a trip from Constantinople to Mesopotamia, Georgia, and Persia in 1879 and an undated trip from Alexandria to Khanakhi (Al-Khanakah) in Egypt. The papers contain correspondence of Bliss with family members and fellow missionaries, and some correspondence of his parents, Isaac and Eunice (Day) Bliss. Included are a journal in the form of a letter from Eunice Bliss describing her voyage to Turkey in 1847, and letters from her husband describing his travels around Turkey in the summer of 1850. Most of the Edwin Bliss correspondence is contained in two letterbooks covering the period 1873-1883; many of these letters offer lengthy discussions of political and social conditions in Constantinople and of his missionary work in the Ottoman Empire. Finally, also in the collection are Edwin Bliss's passports and travel documents and a draft of the will of Marie Louise (Henderson) Bliss.</p>  
+         <p>The Edwin M. Bliss Papers deal for the most part with experiences of Americans living and traveling in the Middle East in the mid and late 1800s. Approximately one third of the collection is made up of essays written by Bliss (included are manuscript and typed drafts and galley proofs; many of the essays were probably published) describing his travels in the Near East, as well as Near Eastern and Biblical history. More detailed accounts of his travels can be found in his journals and letters written during a trip from Constantinople to Mesopotamia, Georgia, and Persia in 1879 and an undated trip from Alexandria to Khanakhi (Al-Khanakah) in Egypt. The papers contain correspondence of Bliss with family members and fellow missionaries, and some correspondence of his parents, Isaac and Eunice (Day) Bliss. Included are a journal in the form of a letter from Eunice Bliss describing her voyage to Turkey in 1847, and letters from her husband describing his travels around Turkey in the summer of 1850. Most of the Edwin Bliss correspondence is contained in two letterbooks covering the period 1873-1883; many of these letters offer lengthy discussions of political and social conditions in Constantinople and of his missionary work in the Ottoman Empire. Finally, also in the collection are Edwin Bliss's passports and travel documents and a draft of the will of Marie Louise (Henderson) Bliss.</p>
       </scopecontent>
       <bioghist id="aspace_cd1ac7b7da0d905865b3193204089424">
          <head>Biographical / Historical</head>
-         <p>Edwin Munsell Bliss was born in Erzrum, Turkey, on September 12, 1848. He was the son of a minister sent to Constantinople by the American Bible Society for the Levant. He received an A.B. from Amherst College in 1871 and later studied at Yale Divinity School. He spent his life performing various jobs in the United States for the government and abroad with missionary organizations. He also worked for various newspapers, including a job at The Independent between 1891 and 1901. He was editor of the Encyclopedia of Missions. He was married to Marie Louise Henderson and after her death, to E. Theodora Crosby. He died on August 6, 1919.</p>  
+         <p>Edwin Munsell Bliss was born in Erzrum, Turkey, on September 12, 1848. He was the son of a minister sent to Constantinople by the American Bible Society for the Levant. He received an A.B. from Amherst College in 1871 and later studied at Yale Divinity School. He spent his life performing various jobs in the United States for the government and abroad with missionary organizations. He also worked for various newspapers, including a job at The Independent between 1891 and 1901. He was editor of the Encyclopedia of Missions. He was married to Marie Louise Henderson and after her death, to E. Theodora Crosby. He died on August 6, 1919.</p>
       </bioghist>
       <userestrict id="aspace_80c956ec45dc9e236801bfffea78c354">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85086027"
                   source="lcsh">
-            <part>Missionaries' spouses</part>
+            <part localtype="topical">Missionaries' spouses</part>
          </subject>
          <subject source="local">
-            <part>Missionaries -- Middle East</part>
+            <part localtype="topical">Missionaries</part>
+            <part localtype="geographic">Middle East</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85041273"
                    source="lcsh">
-            <part>Egypt -- Description and travel</part>
+            <part localtype="geographic">Egypt</part>
+            <part localtype="topical">Description and travel</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh2008115875"
                    source="lcsh">
-            <part>Middle East -- Description and travel</part>
+            <part localtype="geographic">Middle East</part>
+            <part localtype="topical">Description and travel</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027112" source="aat">
-            <part>Diaries</part>
+            <part localtype="genre_form">Diaries</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85026944"
                   source="lcsh">
-            <part>Clergy</part>
+            <part localtype="topical">Clergy</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85086017"
                   source="lcsh">
-            <part>Missionaries</part>
+            <part localtype="topical">Missionaries</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/no2001091497"
                    rules="aacr"
                    source="naf">
-            <part>Bliss, Edwin Munsell, 1848-1919</part>
+            <part localtype="agent_person">Bliss, Edwin Munsell, 1848-1919</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Bliss, Eunice Day</part>
+            <part localtype="agent_person">Bliss, Eunice Day</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Bliss, Isaac Groot, 1822-1889</part>
+            <part localtype="agent_person">Bliss, Isaac Groot, 1822-1889</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Bliss, Marie Louise Henderson, d. 1897</part>
+            <part localtype="agent_person">Bliss, Marie Louise Henderson, d. 1897</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref9" level="file">
+         <c altrender="/repositories/12/archival_objects/1354513"
+            id="ref9"
+            level="file">
             <did>
                <unittitle>Writings</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1912, undated">
+               <unitdatestructured altrender="1912, undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1873">1873</fromdate>
                      <todate standarddate="1883">1883</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151672 /locations/9"
                           containerid="39002042652314"
+                          encodinganalog="archive legal"
                           id="aspace_ref9_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref9_c2" localtype="folder" parent="aspace_ref9_c1">1 - 17</container>
             </did>
          </c>
-         <c id="ref10" level="file">
+         <c altrender="/repositories/12/archival_objects/1354514"
+            id="ref10"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
             </did>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1354515"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Eunice (Day) Bliss</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1847?] July 1-15">
+                  <unitdatestructured altrender="[1847?] July 1-15"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1873">1873</fromdate>
                         <todate standarddate="1883">1883</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151672 /locations/9"
                              containerid="39002042652314"
+                             encodinganalog="archive legal"
                              id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">18</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1354516"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Isaac Groot Bliss</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1850 May 31-July 6">
+                  <unitdatestructured altrender="1850 May 31-July 6"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1873">1873</fromdate>
                         <todate standarddate="1883">1883</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151672 /locations/9"
                              containerid="39002042652314"
+                             encodinganalog="archive legal"
                              id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">19</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1354517"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Edwin M. Bliss</unittitle>
                </did>
-               <c id="ref14" level="file">
+               <c altrender="/repositories/12/archival_objects/1354518"
+                  id="ref14"
+                  level="file">
                   <did>
                      <unittitle>Letterbook</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1873-1883">
+                     <unitdatestructured altrender="1873-1883" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1873">1873</fromdate>
                            <todate standarddate="1883">1883</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/151672 /locations/9"
                                 containerid="39002042652314"
+                                encodinganalog="archive legal"
                                 id="aspace_ref14_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">20</container>
                   </did>
                </c>
-               <c id="ref15" level="file">
+               <c altrender="/repositories/12/archival_objects/1354519"
+                  id="ref15"
+                  level="file">
                   <did>
                      <unittitle>ALS to his family</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1878 May 1-July 10, 1879 April 15">
+                     <unitdatestructured altrender="1878 May 1-July 10, 1879 April 15"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1873">1873</fromdate>
                            <todate standarddate="1883">1883</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/151672 /locations/9"
                                 containerid="39002042652314"
+                                encodinganalog="archive legal"
                                 id="aspace_ref15_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">21 - 22</container>
                   </did>
                </c>
-               <c id="ref16" level="file">
+               <c altrender="/repositories/12/archival_objects/1354520"
+                  id="ref16"
+                  level="file">
                   <did>
                      <unittitle>ALS to unidentified</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1873">1873</fromdate>
                            <todate standarddate="1883">1883</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/151672 /locations/9"
                                 containerid="39002042652314"
+                                encodinganalog="archive legal"
                                 id="aspace_ref16_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">23</container>
                   </did>
                </c>
-               <c id="ref17" level="file">
+               <c altrender="/repositories/12/archival_objects/1354521"
+                  id="ref17"
+                  level="file">
                   <did>
                      <unittitle>Letterbook</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1878 May 9-June 26">
+                     <unitdatestructured altrender="1878 May 9-June 26"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1873">1873</fromdate>
                            <todate standarddate="1883">1883</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/151672 /locations/9"
                                 containerid="39002042652314"
+                                encodinganalog="archive legal"
                                 id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -296,38 +341,46 @@
                </c>
             </c>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1354522"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>Travel journals</unittitle>
             </did>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1354523"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Journal of a trip from Constantinople to Persia</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1879">
+                  <unitdatestructured altrender="1879" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1879">1879</fromdate>
                         <todate standarddate="1879">1879</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151672 /locations/9"
                              containerid="39002042652314"
+                             encodinganalog="archive legal"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">25 - 26</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1354524"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Journal of Egyptian trip</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1873">1873</fromdate>
                         <todate standarddate="1883">1883</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151672 /locations/9"
                              containerid="39002042652314"
+                             encodinganalog="archive legal"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -335,34 +388,44 @@
                </did>
             </c>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1354525"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>Travel documents</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1878-1879, undated">
+               <unitdatestructured altrender="1878-1879, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1873">1873</fromdate>
                      <todate standarddate="1883">1883</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151672 /locations/9"
                           containerid="39002042652314"
+                          encodinganalog="archive legal"
                           id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">28</container>
             </did>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1354526"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>Marie Louise (Henderson) Bliss: draft of her will</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[pre-1897 December 12]">
+               <unitdatestructured altrender="[pre-1897 December 12]"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1873">1873</fromdate>
                      <todate standarddate="1883">1883</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151672 /locations/9"
                           containerid="39002042652314"
+                          encodinganalog="archive legal"
                           id="aspace_ref22_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>

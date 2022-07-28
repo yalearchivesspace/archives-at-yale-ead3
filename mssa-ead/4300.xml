@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0930">mssa.ms.0930</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0930">mssa.ms.0930</recordid>
+      <otherrecordid localtype="BIB">614371</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Charles William Bishop Papers
@@ -32,6 +34,11 @@
             <date>June 1983</date>
             <num>MS 930</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-03-31T07:17:13+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:16:24+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday March 31, 2020 at 07:17</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:16</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4300" level="collection">
       <did>
          <unittitle>Charles William Bishop papers</unittitle>
          <unitid>MS 930</unitid>
@@ -82,80 +92,87 @@
             <quantity>0.25</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1862-1864">
+         <unitdatestructured altrender="1862-1864" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1862">1862</fromdate>
                <todate standarddate="1864">1864</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_164607ccb83122bfafe9cb0ab86d5db8">The papers are made up entirely of a combined logbook and journal, "Log of a cruise in the U.S. Gunboat 'Port Royal'." Included in the journal is Charles William Bishop's account of the sinking of the Cumberland by the Merrimac, together with poetry, newspaper clippings, and other papers about the battle.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Bishop, Charles William, 1823-1870</part>
+               <part localtype="agent_person">Bishop, Charles William, 1823-1870</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_b80cb0176be27bc0eb652d363a5d23d1">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Dorothea S. Cist, 1956.</p>  
+         <p>Gift of Dorothea S. Cist, 1956.</p>
       </acqinfo>
       <accessrestrict id="aspace_852db5d4a5b7fe9ac4453d8269c2b663">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_04c587d42ecfaea0e85ba281d7f3a89f">
          <head>Preferred Citation</head>
-         <p>Charles William Bishop Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Charles William Bishop Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_33e05b1d845d10a26ea99e4dfddc11df">
          <head>Scope and Contents</head>
          <p>A combined log book and journal kept by Charles William Bishop during the Civil War makes up this collection. Bishop was born in New Haven, Connecticut, in 1823, and died in Norfolk, Virginia, in 1870.</p>
-         <p>The volume, entitled "Log of a Cruise in the U.S. Gunboat 'Port-Royal,' Lieut. Geo. U. Morris Comdg.," covers the period May 1, 1862 through May 24, 1864, and details Bishop's experiences in the war during that period. Of particular interest is his eye-witness account of the sinking of the <emph render="italic">Cumberland</emph> by the <emph render="italic">Merrimac</emph> (see pages 151 and following), accompanied by poetry, newspaper clippings, and other papers about the battle.</p>  
+         <p>The volume, entitled "Log of a Cruise in the U.S. Gunboat 'Port-Royal,' Lieut. Geo. U. Morris Comdg.," covers the period May 1, 1862 through May 24, 1864, and details Bishop's experiences in the war during that period. Of particular interest is his eye-witness account of the sinking of the <emph render="italic">Cumberland</emph> by the <emph render="italic">Merrimac</emph> (see pages 151 and following), accompanied by poetry, newspaper clippings, and other papers about the battle.</p>
       </scopecontent>
       <userestrict id="aspace_39c29e431910327ec1b1b1cc58947c14">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85121579"
                   source="lcsh">
-            <part>Shipping</part>
+            <part localtype="topical">Shipping</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140251"
                    source="lcsh">
-            <part>United States -- History -- Civil War, 1861-1865 -- Naval operations</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Civil War, 1861-1865</part>
+            <part localtype="topical">Naval operations</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027112" source="aat">
-            <part>Diaries</part>
+            <part localtype="genre_form">Diaries</part>
          </genreform>
          <genreform source="local">
-            <part>Logbooks</part>
+            <part localtype="genre_form">Logbooks</part>
          </genreform>
          <persname source="local">
-            <part>Bishop, Charles William, 1823-1870</part>
+            <part localtype="agent_person">Bishop, Charles William, 1823-1870</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n2004035442"
                    rules="aacr"
                    source="naf">
-            <part>Cumberland (Ship)</part>
+            <part localtype="agent_corporate_entity">Cumberland (Ship)</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n50052140" source="naf">
-            <part>Merrimack (Frigate)</part>
+            <part localtype="agent_corporate_entity">Merrimack (Frigate)</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="file">
+         <c altrender="/repositories/12/archival_objects/1354555"
+            id="ref10"
+            level="file">
             <did>
                <unittitle>Log and journal</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1862 May-1864 May">
+               <unitdatestructured altrender="1862 May-1864 May"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1862">1862</fromdate>
                      <todate standarddate="1864">1864</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151680 /locations/9"
                           containerid="39002042652355"
+                          encodinganalog="archive half legal"
                           id="aspace_ref10_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>

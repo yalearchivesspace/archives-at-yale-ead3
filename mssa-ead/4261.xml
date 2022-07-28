@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0836">mssa.ms.0836</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0836">mssa.ms.0836</recordid>
+      <otherrecordid localtype="BIB">614216</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the James McLaren Breed Dwight Papers
@@ -32,6 +34,11 @@
             <date>November 1978</date>
             <num>MS 836</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T08:40:17+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:09:49+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 08:40</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:09</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4261" level="collection">
       <did>
          <unittitle>James McLaren Breed Dwight papers</unittitle>
          <unitid>MS 836</unitid>
@@ -83,115 +93,131 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1842-1855">
+         <unitdatestructured altrender="1842-1855" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1842">1842</fromdate>
                <todate standarddate="1855">1855</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_1aff52b3a706439320cf4fd54e38b1b8">Five manuscript volumes in the handwriting of various persons, one of whom was James McLaren Breed Dwight. Included are 3 volumes of Edwards Amasa Park's lectures on theology, 1 volume of William G. T. Shedd's lectures on church history and 1 volume on Woolsey and Hillhouse family genealogy.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Dwight, James M. B., 1825-1897</part>
+               <part localtype="agent_person">Dwight, James M. B., 1825-1897</part>
             </persname>
          </origination>
-    
       </did>
       <accessrestrict id="aspace_f0c2ee1c8de4e0ed4b7272afcb0fe0e3">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_c4b735359a8c36da846cd00ec7dd1a08">
          <head>Preferred Citation</head>
-         <p>James McLaren Breed Dwight Papers (MS 836). Manuscripts and Archives, Yale University Library.</p>  
+         <p>James McLaren Breed Dwight Papers (MS 836). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <bioghist id="aspace_ffe67a727365137200b04af61c11a4a0">
          <head>Biographical / Historical</head>
-         <p>James McLaren Breed Dwight: graduated from Yale College in 1846; studied theology in Andover, Mass., 1854-1855 and in New Haven, 1856-1859; studied law at Columbia College Law School, and graduated and was admitted to the New York Bar in 1861.</p>  
+         <p>James McLaren Breed Dwight: graduated from Yale College in 1846; studied theology in Andover, Mass., 1854-1855 and in New Haven, 1856-1859; studied law at Columbia College Law School, and graduated and was admitted to the New York Bar in 1861.</p>
       </bioghist>
       <scopecontent id="aspace_c13a6142435e768042586fb7032c24fd">
          <head>Scope and Contents</head>
-         <p>Five manuscript volumes in the handwriting of various persons, one of whom was James McLaren Breed Dwight. Included are 3 volumes of Edwards Amasa Park's lectures on theology, 1 volume of William G. T. Shedd's lectures on church history and 1 volume on Woolsey and Hillhouse family genealogy.</p>  
+         <p>Five manuscript volumes in the handwriting of various persons, one of whom was James McLaren Breed Dwight. Included are 3 volumes of Edwards Amasa Park's lectures on theology, 1 volume of William G. T. Shedd's lectures on church history and 1 volume on Woolsey and Hillhouse family genealogy.</p>
       </scopecontent>
       <userestrict id="aspace_57f5090b746932d09ab4f71fe77add83">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85026944"
                   source="lcsh">
-            <part>Clergy</part>
+            <part localtype="topical">Clergy</part>
          </subject>
          <persname source="local">
-            <part>Dwight, James M. B., 1825-1897</part>
+            <part localtype="agent_person">Dwight, James M. B., 1825-1897</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n85173462"
                    rules="aacr"
                    source="naf">
-            <part>Park, Edwards Amasa, 1808-1900</part>
+            <part localtype="agent_person">Park, Edwards Amasa, 1808-1900</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n80070506"
                    rules="aacr"
                    source="naf">
-            <part>Shedd, William G. T. (William Greenough Thayer), 1820-1894</part>
+            <part localtype="agent_person">Shedd, William G. T. (William Greenough Thayer), 1820-1894</part>
          </persname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85060830"
                   source="lcsh">
-            <part>Hillis family</part>
+            <part localtype="agent_family">Hillis family</part>
          </famname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85148085"
                   rules="aacr"
                   source="lcsh">
-            <part>Woolsey family</part>
+            <part localtype="agent_family">Woolsey family</part>
          </famname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref9" level="file">
+         <c altrender="/repositories/12/archival_objects/1354185"
+            id="ref9"
+            level="file">
             <did>
                <unittitle>"[Edwards Amasa?] Park's Lectures on Theology," 3 ms. volumes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1842">1842</fromdate>
                      <todate standarddate="1855">1855</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151605 /locations/9"
                           containerid="39002042256892"
+                          encodinganalog="archive letter"
                           id="aspace_ref9_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref10" level="file">
+         <c altrender="/repositories/12/archival_objects/1354186"
+            id="ref10"
+            level="file">
             <did>
                <unittitle>"[William Greenough Thayer?] Shedd's Lectures on Church History," 1 ms. volume</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1854-1855">
+               <unitdatestructured altrender="1854-1855" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1854">1854</fromdate>
                      <todate standarddate="1855">1855</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151605 /locations/9"
                           containerid="39002042256892"
+                          encodinganalog="archive letter"
                           id="aspace_ref10_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1354187"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Ms. notebook on Woolsey genealogy, the Hillhouse family, and list of the 1842-1844 classes of Union College</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1842">1842</fromdate>
                      <todate standarddate="1855">1855</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151605 /locations/9"
                           containerid="39002042256892"
+                          encodinganalog="archive letter"
                           id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>

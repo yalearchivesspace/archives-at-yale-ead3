@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0646">mssa.ms.0646</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0646">mssa.ms.0646</recordid>
+      <otherrecordid localtype="BIB">614417</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Richard F. C. Hartley Papers
@@ -32,6 +34,11 @@
             <date>December 1982</date>
             <num>MS 646</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:02:00+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:43:36+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:02</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>July 2009</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:43</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3000" level="collection">
       <did>
          <unittitle>Richard F. C. Hartley papers</unittitle>
          <unitid>MS 646</unitid>
@@ -90,35 +93,34 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(6 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1816-1884">
+         <unitdatestructured altrender="1816-1884" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1816">1816</fromdate>
                <todate standarddate="1881">1881</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_8b099d8e3ee778c2cedbe209c4ffea2c">Correspondence and business papers of Captain Richard F. C. Hartley, shipping firm owner of Saco, Maine, mainly relating to voyages of the ships Messenger and Devonshire. Also included are Samuel Hartley's memo booklets for the sloop Packet of Saco, 1816-1838. An addition to the collection includes documents of ships owned by Richard Hartley involved in the guano trade between Peru and other countries.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname rules="aacr" source="local">
-               <part>Hartley, Richard F. C.</part>
+               <part localtype="agent_person">Hartley, Richard F. C.</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_58863221e018220603339113012fab61">
          <head>Immediate Source of Acquisition</head>
-         <p>Acquired by purchase.</p>  
+         <p>Acquired by purchase.</p>
       </acqinfo>
       <accessrestrict id="aspace_d7f32f49281b62c1475a775e225bced2">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_ec1bf916eaad490202c6a3f95d11442f">
          <head>Preferred Citation</head>
-         <p>Richard F. C. Hartley Papers (MS 646). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Richard F. C. Hartley Papers (MS 646). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <arrangement id="aspace_0ac7c977fa10eb89f62903d727ab460f">
          <head>Arrangement</head>
-         <p>Arranged primarily by type of material.</p>  
+         <p>Arranged primarily by type of material.</p>
       </arrangement>
       <scopecontent id="aspace_47add19ec355d92e8048218a08c8416b">
          <head>Scope and Contents</head>
@@ -127,343 +129,401 @@
          <p>The correspondence of Richard F. C. Hartley deals with orders for cargoes, the purchase of ships and hiring of crews, financial matters, insurance policies, and related matters. There are letters from several captains reporting on their voyages and on repairs to their ships, including a substantial number of letters from Captain Sedgley recording two voyages (1869-1871) of the "Devonshire" to Europe, China, South East Asia, and Japan. Other letters record voyages of the "Messenger" to Europe and Asia.</p>
          <p>Hartley's diary for 1870 covers a business trip to the West Coast. It contains notes about both business and social activities, as well as some financial records. The rest of Hartley's papers deal with various of his ships. There is a memo book for the "Messenger" for the years 1863-1872 containing lists of crew members, supplies, and equipment, financial records, et cetera. The other ships' papers consist of legal and financial materials such as insurance policies, bills and receipts, checks, and related items. The largest groups of papers pertain to the "Messenger" and the "Devonshire," while smaller amounts of material relate to the "A. Hammond," the "J. Montgomery," and others. The papers are arranged by ship.</p>
          <p>The memo books of Samuel Hartley were acquired by Yale University by purchase in 1967.</p>
-         <p>An addition to the collection includes documents of ships owned by Richard Hartley involved in the guano trade between Peru and other countries. Also included are documents related to trade throught San Francisco and New Orleans.</p>  
+         <p>An addition to the collection includes documents of ships owned by Richard Hartley involved in the guano trade between Peru and other countries. Also included are documents related to trade throught San Francisco and New Orleans.</p>
       </scopecontent>
       <bioghist id="aspace_8d2be8474222af4114547bd8e7207bef">
          <head>Biographical / Historical</head>
-         <p>Richard F. C. Hartley was born around 1808. He was from Saco, Maine, where he was engaged in the shipping business. Hartley made voyages all across the world, transporting European Mormons to the United States in 1854 and traveling to Australia in 1860. He died at sea in 1897 after a long illness.</p>  
+         <p>Richard F. C. Hartley was born around 1808. He was from Saco, Maine, where he was engaged in the shipping business. Hartley made voyages all across the world, transporting European Mormons to the United States in 1854 and traveling to Australia in 1860. He died at sea in 1897 after a long illness.</p>
       </bioghist>
       <userestrict id="aspace_8bab9b5f98f4652eca6b47dc992069e0">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85018260"
                   source="lcsh">
-            <part>Business</part>
+            <part localtype="topical">Business</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85057592"
                   source="lcsh">
-            <part>Guano industry</part>
+            <part localtype="topical">Guano industry</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/n79091151"
                    source="lcsh">
-            <part>China</part>
+            <part localtype="geographic">China</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n78089021"
                    source="lcsh">
-            <part>Japan</part>
+            <part localtype="geographic">Japan</part>
          </geogname>
          <geogname source="local">
-            <part>Maine -- Commerce</part>
+            <part localtype="geographic">Maine</part>
+            <part localtype="topical">Commerce</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85091260"
                    source="lcsh">
-            <part>New England</part>
+            <part localtype="geographic">New England</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n79055130"
                    source="lcsh">
-            <part>Peru</part>
+            <part localtype="geographic">Peru</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85018328"
                   source="lcsh">
-            <part>Businessmen</part>
+            <part localtype="topical">Businessmen</part>
          </subject>
          <persname rules="aacr" source="local">
-            <part>Hartley, Richard F. C.</part>
+            <part localtype="agent_person">Hartley, Richard F. C.</part>
          </persname>
          <persname source="local">
-            <part>Hartley, Samuel</part>
+            <part localtype="agent_person">Hartley, Samuel</part>
          </persname>
          <corpname rules="aacr" source="local">
-            <part>Devonshire (Ship)</part>
+            <part localtype="agent_corporate_entity">Devonshire (Ship)</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n91051968"
                    rules="aacr"
                    source="naf">
-            <part>Messenger (Ship)</part>
+            <part localtype="agent_corporate_entity">Messenger (Ship)</part>
          </corpname>
          <corpname source="local">
-            <part>Packet (Sloop)</part>
+            <part localtype="agent_corporate_entity">Packet (Sloop)</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref9" level="series">
+         <c altrender="/repositories/12/archival_objects/1180480"
+            id="ref9"
+            level="series">
             <did>
                <unittitle>Original accession</unittitle>
             </did>
-            <c id="ref10" level="file">
+            <c altrender="/repositories/12/archival_objects/1180481"
+               id="ref10"
+               level="file">
                <did>
                   <unittitle>Samuel Hartley: memo books for the sloop "Packet of Saco"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1816 May-1838 January">
+                  <unitdatestructured altrender="1816 May-1838 January"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1816">1816</fromdate>
                         <todate standarddate="1881">1881</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130723 /locations/9"
                              containerid="39002042262866"
-                             id="d1e321"
+                             encodinganalog="archive legal"
+                             id="aspace_ref10_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e323" localtype="folder" parent="d1e321">1-2</container>
+                  <container id="aspace_ref10_c2" localtype="folder" parent="aspace_ref10_c1">1-2</container>
                </did>
             </c>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1180482"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Richard F. C. Hartley</unittitle>
                </did>
-               <c id="ref12" level="file">
+               <c altrender="/repositories/12/archival_objects/1180483"
+                  id="ref12"
+                  level="file">
                   <did>
                      <unittitle>Correspondence</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1865-1881, undated">
+                     <unitdatestructured altrender="1865-1881, undated"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1816">1816</fromdate>
                            <todate standarddate="1881">1881</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130723 /locations/9"
                                 containerid="39002042262866"
-                                id="d1e345"
+                                encodinganalog="archive legal"
+                                id="aspace_ref12_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e347" localtype="folder" parent="d1e345">3-10</container>
+                     <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">3-10</container>
                   </did>
                </c>
-               <c id="ref13" level="file">
+               <c altrender="/repositories/12/archival_objects/1180484"
+                  id="ref13"
+                  level="file">
                   <did>
                      <unittitle>Diary</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1870">
+                     <unitdatestructured altrender="1870" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1870">1870</fromdate>
                            <todate standarddate="1870">1870</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130724 /locations/9"
                                 containerid="39002042262874"
-                                id="d1e363"
+                                encodinganalog="archive legal"
+                                id="aspace_ref13_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e365" localtype="folder" parent="d1e363">11</container>
+                     <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">11</container>
                   </did>
                </c>
-               <c id="ref14" level="file">
+               <c altrender="/repositories/12/archival_objects/1180485"
+                  id="ref14"
+                  level="file">
                   <did>
                      <unittitle>Memo book for the ship <title localtype="simple" render="italic">
                            <part>Messenger</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1863-1872">
+                     <unitdatestructured altrender="1863-1872" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1863">1863</fromdate>
                            <todate standarddate="1872">1872</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130724 /locations/9"
                                 containerid="39002042262874"
-                                id="d1e384"
+                                encodinganalog="archive legal"
+                                id="aspace_ref14_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e386" localtype="folder" parent="d1e384">11</container>
+                     <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">11</container>
                   </did>
                </c>
-               <c id="ref15" level="file">
+               <c altrender="/repositories/12/archival_objects/1180486"
+                  id="ref15"
+                  level="file">
                   <did>
                      <unittitle>Ships' legal and financial papers</unittitle>
                   </did>
-                  <c id="ref16" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180487"
+                     id="ref16"
+                     level="file">
                      <did>
                         <unittitle>
                            <title localtype="simple" render="italic">
                               <part>A. Hammond</part>
                            </title>
                         </unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1875-1881">
+                        <unitdatestructured altrender="1875-1881" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1875">1875</fromdate>
                               <todate standarddate="1881">1881</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/130724 /locations/9"
                                    containerid="39002042262874"
-                                   id="d1e410"
+                                   encodinganalog="archive legal"
+                                   id="aspace_ref16_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
-                        <container id="d1e412" localtype="folder" parent="d1e410">12</container>
+                        <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">12</container>
                      </did>
                   </c>
-                  <c id="ref17" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180488"
+                     id="ref17"
+                     level="file">
                      <did>
                         <unittitle>
                            <title localtype="simple" render="italic">
                               <part>D. W. Vaughan</part>
                            </title>
                         </unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1859">
+                        <unitdatestructured altrender="1859" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1859">1859</fromdate>
                               <todate standarddate="1859">1859</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/130724 /locations/9"
                                    containerid="39002042262874"
-                                   id="d1e430"
+                                   encodinganalog="archive legal"
+                                   id="aspace_ref17_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
-                        <container id="d1e432" localtype="folder" parent="d1e430">13</container>
+                        <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">13</container>
                      </did>
                   </c>
-                  <c id="ref18" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180489"
+                     id="ref18"
+                     level="file">
                      <did>
                         <unittitle>
                            <title localtype="simple" render="italic">
                               <part>Delhi</part>
                            </title>
                         </unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1873">
+                        <unitdatestructured altrender="1873" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1873">1873</fromdate>
                               <todate standarddate="1873">1873</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/130724 /locations/9"
                                    containerid="39002042262874"
-                                   id="d1e450"
+                                   encodinganalog="archive legal"
+                                   id="aspace_ref18_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
-                        <container id="d1e452" localtype="folder" parent="d1e450">13</container>
+                        <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">13</container>
                      </did>
                   </c>
-                  <c id="ref19" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180490"
+                     id="ref19"
+                     level="file">
                      <did>
                         <unittitle>
                            <title localtype="simple" render="italic">
                               <part>Devonshire</part>
                            </title>
                         </unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1867-1875">
+                        <unitdatestructured altrender="1867-1875" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1867">1867</fromdate>
                               <todate standarddate="1875">1875</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/130724 /locations/9"
                                    containerid="39002042262874"
-                                   id="d1e470"
+                                   encodinganalog="archive legal"
+                                   id="aspace_ref19_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
-                        <container id="d1e472" localtype="folder" parent="d1e470">14 - 15</container>
+                        <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">14 - 15</container>
                      </did>
                   </c>
-                  <c id="ref20" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180491"
+                     id="ref20"
+                     level="file">
                      <did>
                         <unittitle>
                            <title localtype="simple" render="italic">
                               <part>J. W. Montgomery</part>
                            </title>
                         </unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1867-1869">
+                        <unitdatestructured altrender="1867-1869" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1867">1867</fromdate>
                               <todate standarddate="1869">1869</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/130724 /locations/9"
                                    containerid="39002042262874"
-                                   id="d1e490"
+                                   encodinganalog="archive legal"
+                                   id="aspace_ref20_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
-                        <container id="d1e492" localtype="folder" parent="d1e490">16</container>
+                        <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">16</container>
                      </did>
                   </c>
-                  <c id="ref21" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180492"
+                     id="ref21"
+                     level="file">
                      <did>
                         <unittitle>
                            <title localtype="simple" render="italic">
                               <part>Messenger</part>
                            </title>
                         </unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1864-1875, undated">
+                        <unitdatestructured altrender="1864-1875, undated"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1816">1816</fromdate>
                               <todate standarddate="1881">1881</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/130724 /locations/9"
                                    containerid="39002042262874"
-                                   id="d1e510"
+                                   encodinganalog="archive legal"
+                                   id="aspace_ref21_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
-                        <container id="d1e512" localtype="folder" parent="d1e510">17 - 20</container>
+                        <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">17 - 20</container>
                      </did>
                   </c>
-                  <c id="ref22" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180493"
+                     id="ref22"
+                     level="file">
                      <did>
                         <unittitle>
                            <title localtype="simple" render="italic">
                               <part>Restless</part>
                            </title>
                         </unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1873">
+                        <unitdatestructured altrender="1873" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1873">1873</fromdate>
                               <todate standarddate="1873">1873</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/130724 /locations/9"
                                    containerid="39002042262874"
-                                   id="d1e530"
+                                   encodinganalog="archive legal"
+                                   id="aspace_ref22_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
-                        <container id="d1e532" localtype="folder" parent="d1e530">21</container>
+                        <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">21</container>
                      </did>
                   </c>
-                  <c id="ref23" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180494"
+                     id="ref23"
+                     level="file">
                      <did>
                         <unittitle>
                            <title localtype="simple" render="italic">
                               <part>Windward</part>
                            </title>
                         </unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1867">
+                        <unitdatestructured altrender="1867" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1867">1867</fromdate>
                               <todate standarddate="1867">1867</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/130724 /locations/9"
                                    containerid="39002042262874"
-                                   id="d1e550"
+                                   encodinganalog="archive legal"
+                                   id="aspace_ref23_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
-                        <container id="d1e552" localtype="folder" parent="d1e550">21</container>
+                        <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">21</container>
                      </did>
                   </c>
-                  <c id="ref24" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180495"
+                     id="ref24"
+                     level="file">
                      <did>
                         <unittitle>Miscellaneous</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1865-1899, undated">
+                        <unitdatestructured altrender="1865-1899, undated"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1816">1816</fromdate>
                               <todate standarddate="1881">1881</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/130724 /locations/9"
                                    containerid="39002042262874"
-                                   id="d1e568"
+                                   encodinganalog="archive legal"
+                                   id="aspace_ref24_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
-                        <container id="d1e570" localtype="folder" parent="d1e568">22</container>
+                        <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">22</container>
                      </did>
                   </c>
                </c>
             </c>
          </c>
-         <c id="ref25" level="series">
+         <c altrender="/repositories/12/archival_objects/1180496"
+            id="ref25"
+            level="series">
             <did>
                <unittitle>Additional Material</unittitle>
                <unitid>Accession 2009-M-086</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="Circa 1854-1884">
+               <unitdatestructured altrender="Circa 1854-1884"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1816">1816</fromdate>
                      <todate standarddate="1881">1881</todate>
@@ -478,149 +538,181 @@
                <head>Arrangement</head>
                <p>Arranged primarily by type of material.</p>
             </arrangement>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1180497"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Letters to Richard Hartley from captains of his ships</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1866-1873">
+                  <unitdatestructured altrender="Circa 1866-1873"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1816">1816</fromdate>
                         <todate standarddate="1881">1881</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130725 /locations/9"
                              containerid="39002074954000"
-                             id="d1e612"
+                             encodinganalog="archive legal"
+                             id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
-                  <container id="d1e614" localtype="folder" parent="d1e612">1-5</container>
+                  <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">1-5</container>
                </did>
                <scopecontent id="aspace_36d822f67b2c9f32a1f1859c2d313ef4">
                   <head>Scope and Contents</head>
                   <p>A significant number of these letters are from a ship captain named Waldo Hill.</p>
                </scopecontent>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1180498"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>Letters to Richard Hartley from insurance brokers, shipping merchants, and captains</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1864-1880">
+                  <unitdatestructured altrender="1864-1880" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1816">1816</fromdate>
                         <todate standarddate="1881">1881</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130725 /locations/9"
                              containerid="39002074954000"
-                             id="d1e635"
+                             encodinganalog="archive legal"
+                             id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
-                  <container id="d1e637" localtype="folder" parent="d1e635">6-7</container>
+                  <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">6-7</container>
                </did>
             </c>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/1180499"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>Correspondence and related documents from shipping agents and insurance brokers relating to guano cargo</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1865-1875">
+                  <unitdatestructured altrender="1865-1875" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1816">1816</fromdate>
                         <todate standarddate="1881">1881</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130726 /locations/9"
                              containerid="39002074953994"
-                             id="d1e653"
+                             encodinganalog="archive legal"
+                             id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e655" localtype="folder" parent="d1e653">1</container>
+                  <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">1</container>
                </did>
             </c>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1180500"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Insurance, contracts, and other financial records relating to the ship <emph render="italic">Messenger</emph> and the bark <emph render="italic">Devonshire</emph>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1864-1879">
+                  <unitdatestructured altrender="Circa 1864-1879"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1816">1816</fromdate>
                         <todate standarddate="1881">1881</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130726 /locations/9"
                              containerid="39002074953994"
-                             id="d1e676"
+                             encodinganalog="archive legal"
+                             id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e678" localtype="folder" parent="d1e676">2-4</container>
+                  <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">2-4</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1180501"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Insurance, bills of cargo, tug boat receipts, ballast lists, and invoices</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1863-1877">
+                  <unitdatestructured altrender="1863-1877" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1816">1816</fromdate>
                         <todate standarddate="1881">1881</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130726 /locations/9"
                              containerid="39002074953994"
-                             id="d1e694"
+                             encodinganalog="archive legal"
+                             id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e696" localtype="folder" parent="d1e694">5-6</container>
+                  <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">5-6</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1180502"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>Invoices for goods and services received</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1864-1881">
+                  <unitdatestructured altrender="Circa 1864-1881"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1816">1816</fromdate>
                         <todate standarddate="1881">1881</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130725 /locations/9"
                              containerid="39002074954000"
-                             id="d1e712"
+                             encodinganalog="archive legal"
+                             id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
-                  <container id="d1e714" localtype="folder" parent="d1e712">8-11</container>
+                  <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">8-11</container>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1180503"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>Invoices and customs forms from various ships</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1864-1881">
+                  <unitdatestructured altrender="1864-1881" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1816">1816</fromdate>
                         <todate standarddate="1881">1881</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/130727 /locations/9"
                              containerid="39002074954026"
-                             id="d1e730"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
-                  <container id="d1e732" localtype="folder" parent="d1e730">1</container>
+                  <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">1</container>
                </did>
                <scopecontent id="aspace_edfc1bfc83932961dfebd3759505fd8f">
                   <head>Scope and Contents</head>
                   <p>Ships include <emph render="italic">Sterling</emph>, <emph render="italic">Messenger</emph>, and <emph render="italic">Devonshire</emph>.</p>
                </scopecontent>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1180504"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Agreements between ship masters and crew</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1854-1884">
+                  <unitdatestructured altrender="Circa 1854-1884"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1816">1816</fromdate>
                         <todate standarddate="1881">1881</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="flat box (20d 1h 24w)"
+                  <container altrender="/repositories/12/top_containers/130728 /locations/9"
                              containerid="39002074954018"
-                             id="d1e762"
+                             encodinganalog="flat box (20d 1h 24w)"
+                             id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
-                  <container id="d1e764" localtype="folder" parent="d1e762">1-2</container>
+                  <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">1-2</container>
                </did>
             </c>
          </c>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0932">mssa.ms.0932</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0932">mssa.ms.0932</recordid>
+      <otherrecordid localtype="BIB">613876</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Charles Ives (1815-1880) Papers
@@ -32,6 +34,11 @@
             <date>June 1979</date>
             <num>MS 932</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T10:01:30+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:16:29+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 10:01</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:16</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3959" level="collection">
       <did>
          <unittitle>Charles Ives papers</unittitle>
          <unitid>MS 932</unitid>
@@ -82,33 +92,32 @@
             <quantity>1</quantity>
             <unittype>Linear Foot</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1838-1897">
+         <unitdatestructured altrender="1838-1897" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1838">1838</fromdate>
                <todate standarddate="1897">1897</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_6fd53c690a6971f98fd378995f7bd036">Correspondence, poems, orations and other writings, and miscellaneous legal papers that relate to Charles Ives and his immediate family. Some of his poems appear in Chips from the Workshop (1843). The orations and addresses concern political activities and also include notes and fragments of Isles of Summer, (1880).</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/nr94007532"
                       rules="aacr"
                       source="naf">
-               <part>Ives, Charles, 1815-1880</part>
+               <part localtype="agent_person">Ives, Charles, 1815-1880</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_372ba479749e3c6bbc5755267111d996">
          <head>Immediate Source of Acquisition</head>
-         <p>Purchased from the Collector's Shop, 1945.</p>  
+         <p>Purchased from the Collector's Shop, 1945.</p>
       </acqinfo>
       <accessrestrict id="aspace_978fe1d3eb55e6192bdb74c536132a49">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_163cd60233399c0fd139a048bfb6a2d7">
          <head>Preferred Citation</head>
-         <p>Charles Ives Papers (MS 932). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Charles Ives Papers (MS 932). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_1505cb6a14ad363f9a56fecfa965dbb0">
          <head>Scope and Contents</head>
@@ -121,720 +130,854 @@
             </title> (1880) are included among the writings.</p>
          <p>The legal and financial papers relate mainly to Ives' law practice and to his estate. A section of miscellaneous items—newspaper clippings, unidentified writings and papers to Charles Ives, Jr. (d. 1883)—follows the legal and financial papers.</p>
          <p>The correspondence is arranged chronologically with Ives' copybook following the letters to him. The rest of the papers are arranged by type and then chronologically.</p>
-         <p>The Charles Ives papers were purchased from the Collector's Shop in 1945.</p>  
+         <p>The Charles Ives papers were purchased from the Collector's Shop in 1945.</p>
       </scopecontent>
       <bioghist id="aspace_d2fb1ac915af4831a249361483b80cec">
          <head>Biographical / Historical</head>
-         <p>Lawyer; born in New Haven, CT; graduated from the Lancastrian School in 1831 and began work in a printing office; entered Yale Law School and graduated in 1846; he was admitted to the bar that year and opened a law office in New Haven; elected to the Conn. General Assembly from New Haven in 1853; represented East Haven in 1865, 1867, and 1868; Speaker of the House in his last two years of office.</p>  
+         <p>Lawyer; born in New Haven, CT; graduated from the Lancastrian School in 1831 and began work in a printing office; entered Yale Law School and graduated in 1846; he was admitted to the bar that year and opened a law office in New Haven; elected to the Conn. General Assembly from New Haven in 1853; represented East Haven in 1865, 1867, and 1868; Speaker of the House in his last two years of office.</p>
       </bioghist>
       <userestrict id="aspace_0b703a7e07fc367efbdff218c23b29eb">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075119"
                   source="lcsh">
-            <part>Law</part>
+            <part localtype="topical">Law</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85077519"
                   source="lcsh">
-            <part>Literature -- History and criticism</part>
+            <part localtype="topical">Literature</part>
+            <part localtype="topical">History and criticism</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85031174"
                    source="lcsh">
-            <part>Connecticut -- Politics and government -- 1865-1950</part>
+            <part localtype="geographic">Connecticut</part>
+            <part localtype="topical">Politics and government</part>
+            <part localtype="temporal">1865-1950</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n79100828"
                    source="lcsh">
-            <part>New Haven (Conn.)</part>
+            <part localtype="geographic">New Haven (Conn.)</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300055931" source="aat">
-            <part>Poetry</part>
+            <part localtype="genre_form">Poetry</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075351"
                   source="lcsh">
-            <part>Lawyers</part>
+            <part localtype="topical">Lawyers</part>
          </subject>
          <occupation source="local">
-            <part>Legislators</part>
+            <part localtype="occupation">Legislators</part>
          </occupation>
          <occupation source="local">
-            <part>Poets</part>
+            <part localtype="occupation">Poets</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/nr94007532"
                    rules="aacr"
                    source="naf">
-            <part>Ives, Charles, 1815-1880</part>
+            <part localtype="agent_person">Ives, Charles, 1815-1880</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1258541"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1838-1848">
+               <unitdatestructured altrender="1838-1848" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1848">1848</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1258542"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1849">
+               <unitdatestructured altrender="1849" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1849">1849</fromdate>
                      <todate standarddate="1849">1849</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">2</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1258543"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1850-1853">
+               <unitdatestructured altrender="1850-1853" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1850">1850</fromdate>
                      <todate standarddate="1853">1853</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">3</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1258544"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1854-1856">
+               <unitdatestructured altrender="1854-1856" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1854">1854</fromdate>
                      <todate standarddate="1856">1856</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">4</container>
             </did>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1258545"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1857-1868">
+               <unitdatestructured altrender="1857-1868" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1857">1857</fromdate>
                      <todate standarddate="1868">1868</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">5</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1258546"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1869-1879">
+               <unitdatestructured altrender="1869-1879" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1869">1869</fromdate>
                      <todate standarddate="1879">1879</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">6</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1258547"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1880-1883">
+               <unitdatestructured altrender="1880-1883" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1880">1880</fromdate>
                      <todate standarddate="1883">1883</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref17_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">7</container>
             </did>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1258548"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1892-1897">
+               <unitdatestructured altrender="1892-1897" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1892">1892</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref18_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">8</container>
             </did>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1258549"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">9</container>
             </did>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1258550"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>Letterbook</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1870-1878">
+               <unitdatestructured altrender="1870-1878" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1870">1870</fromdate>
                      <todate standarddate="1878">1878</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref20_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">10</container>
             </did>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1258551"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>Poems</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1834-1853">
+               <unitdatestructured altrender="1834-1853" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1834">1834</fromdate>
                      <todate standarddate="1853">1853</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">11</container>
             </did>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1258552"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>Poems</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref22_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">12</container>
             </did>
          </c>
-         <c id="ref23" level="file">
+         <c altrender="/repositories/12/archival_objects/1258553"
+            id="ref23"
+            level="file">
             <did>
                <unittitle>Poems</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref23_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">13</container>
             </did>
          </c>
-         <c id="ref24" level="file">
+         <c altrender="/repositories/12/archival_objects/1258554"
+            id="ref24"
+            level="file">
             <did>
                <unittitle>Poems</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref24_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">14</container>
             </did>
          </c>
-         <c id="ref25" level="file">
+         <c altrender="/repositories/12/archival_objects/1258555"
+            id="ref25"
+            level="file">
             <did>
                <unittitle>Poems</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref25_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">15</container>
             </did>
          </c>
-         <c id="ref26" level="file">
+         <c altrender="/repositories/12/archival_objects/1258556"
+            id="ref26"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>Chips from the Workshop</part>
                   </title> [partial manuscript]</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[1843?]">
+               <unitdatestructured altrender="[1843?]" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1843">1843</fromdate>
                      <todate standarddate="1843">1843</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref26_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">16</container>
             </did>
          </c>
-         <c id="ref27" level="file">
+         <c altrender="/repositories/12/archival_objects/1258557"
+            id="ref27"
+            level="file">
             <did>
                <unittitle>Orations</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1841, 1844, undated">
+               <unitdatestructured altrender="1841, 1844, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref27_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">17</container>
             </did>
          </c>
-         <c id="ref28" level="file">
+         <c altrender="/repositories/12/archival_objects/1258558"
+            id="ref28"
+            level="file">
             <did>
                <unittitle>Letters to the editor</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1842, 1870, 1880">
+               <unitdatestructured altrender="1842, 1870, 1880"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref28_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">18</container>
             </did>
          </c>
-         <c id="ref29" level="file">
+         <c altrender="/repositories/12/archival_objects/1258559"
+            id="ref29"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>Isles of the Summer</part>
                   </title> [notes and printed pages]</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[ca. 1880]">
+               <unitdatestructured altrender="[ca. 1880]" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1875">1875</fromdate>
                      <todate standarddate="1885">1885</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/143277 /locations/9"
                           containerid="39002042277039"
+                          encodinganalog="archive legal"
                           id="aspace_ref29_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">19 - 20</container>
             </did>
          </c>
-         <c id="ref30" level="file">
+         <c altrender="/repositories/12/archival_objects/1258560"
+            id="ref30"
+            level="file">
             <did>
                <unittitle>Miscellaneous notes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref30_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">21 - 22</container>
             </did>
          </c>
-         <c id="ref31" level="file">
+         <c altrender="/repositories/12/archival_objects/1258561"
+            id="ref31"
+            level="file">
             <did>
                <unittitle>Notebooks in shorthand</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref31_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">23</container>
             </did>
          </c>
-         <c id="ref32" level="file">
+         <c altrender="/repositories/12/archival_objects/1258562"
+            id="ref32"
+            level="file">
             <did>
                <unittitle>Notes in shorthand</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref32_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">24</container>
             </did>
          </c>
-         <c id="ref33" level="file">
+         <c altrender="/repositories/12/archival_objects/1258563"
+            id="ref33"
+            level="file">
             <did>
                <unittitle>Legislative notes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref33_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">25</container>
             </did>
          </c>
-         <c id="ref34" level="file">
+         <c altrender="/repositories/12/archival_objects/1258564"
+            id="ref34"
+            level="file">
             <did>
                <unittitle>Test cases from legal studies</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[1846?]">
+               <unitdatestructured altrender="[1846?]" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1846">1846</fromdate>
                      <todate standarddate="1846">1846</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref34_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">26</container>
             </did>
          </c>
-         <c id="ref35" level="file">
+         <c altrender="/repositories/12/archival_objects/1258565"
+            id="ref35"
+            level="file">
             <did>
                <unittitle>Leases and deeds</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1855-1891">
+               <unitdatestructured altrender="1855-1891" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1855">1855</fromdate>
                      <todate standarddate="1891">1891</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref35_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">27</container>
             </did>
          </c>
-         <c id="ref36" level="file">
+         <c altrender="/repositories/12/archival_objects/1258566"
+            id="ref36"
+            level="file">
             <did>
                <unittitle>Miscellaneous licenses and certificates</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1846-1879">
+               <unitdatestructured altrender="1846-1879" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1846">1846</fromdate>
                      <todate standarddate="1879">1879</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref36_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">28</container>
             </did>
          </c>
-         <c id="ref37" level="file">
+         <c altrender="/repositories/12/archival_objects/1258567"
+            id="ref37"
+            level="file">
             <did>
                <unittitle>Miscellaneous legal papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1874-1897">
+               <unitdatestructured altrender="1874-1897" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1874">1874</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref37_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">29</container>
             </did>
          </c>
-         <c id="ref38" level="file">
+         <c altrender="/repositories/12/archival_objects/1258568"
+            id="ref38"
+            level="file">
             <did>
                <unittitle>Copy of Ives' will</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1877">
+               <unitdatestructured altrender="1877" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1877">1877</fromdate>
                      <todate standarddate="1877">1877</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref38_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">30</container>
             </did>
          </c>
-         <c id="ref39" level="file">
+         <c altrender="/repositories/12/archival_objects/1258569"
+            id="ref39"
+            level="file">
             <did>
                <unittitle>Papers re: Ives' estate</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1883">
+               <unitdatestructured altrender="1883" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1883">1883</fromdate>
                      <todate standarddate="1883">1883</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref39_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">30</container>
             </did>
          </c>
-         <c id="ref40" level="file">
+         <c altrender="/repositories/12/archival_objects/1258570"
+            id="ref40"
+            level="file">
             <did>
                <unittitle>Financial record</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1853-1857">
+               <unitdatestructured altrender="1853-1857" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1853">1853</fromdate>
                      <todate standarddate="1857">1857</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref40_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">31</container>
             </did>
          </c>
-         <c id="ref41" level="file">
+         <c altrender="/repositories/12/archival_objects/1258571"
+            id="ref41"
+            level="file">
             <did>
                <unittitle>Receipts</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1837-1878">
+               <unitdatestructured altrender="1837-1878" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1837">1837</fromdate>
                      <todate standarddate="1878">1878</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref41_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">32</container>
             </did>
          </c>
-         <c id="ref42" level="file">
+         <c altrender="/repositories/12/archival_objects/1258572"
+            id="ref42"
+            level="file">
             <did>
                <unittitle>Penmanship notebook</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1835">
+               <unitdatestructured altrender="1835" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1835">1835</fromdate>
                      <todate standarddate="1835">1835</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref42_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">33</container>
             </did>
          </c>
-         <c id="ref43" level="file">
+         <c altrender="/repositories/12/archival_objects/1258573"
+            id="ref43"
+            level="file">
             <did>
                <unittitle>Miscellaneous writings [by Ives?]</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1838, undated">
+               <unitdatestructured altrender="1838, undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref43_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref43_c2" localtype="folder" parent="aspace_ref43_c1">34</container>
             </did>
          </c>
-         <c id="ref44" level="file">
+         <c altrender="/repositories/12/archival_objects/1258574"
+            id="ref44"
+            level="file">
             <did>
                <unittitle>Invitations and business cards</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1868-1875, undated">
+               <unitdatestructured altrender="1868-1875, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref44_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">35</container>
             </did>
          </c>
-         <c id="ref45" level="file">
+         <c altrender="/repositories/12/archival_objects/1258575"
+            id="ref45"
+            level="file">
             <did>
                <unittitle>Miscellaneous printed matter</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1851-1881">
+               <unitdatestructured altrender="1851-1881" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1851">1851</fromdate>
                      <todate standarddate="1881">1881</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref45_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref45_c2" localtype="folder" parent="aspace_ref45_c1">36</container>
             </did>
          </c>
-         <c id="ref46" level="file">
+         <c altrender="/repositories/12/archival_objects/1258576"
+            id="ref46"
+            level="file">
             <did>
                <unittitle>Charles Ives, Jr.</unittitle>
             </did>
-            <c id="ref47" level="file">
+            <c altrender="/repositories/12/archival_objects/1258577"
+               id="ref47"
+               level="file">
                <did>
                   <unittitle>Note to his aunt</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1853">
+                  <unitdatestructured altrender="1853" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1853">1853</fromdate>
                         <todate standarddate="1853">1853</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143278 /locations/9"
                              containerid="39002042277047"
+                             encodinganalog="archive legal"
                              id="aspace_ref47_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref47_c2" localtype="folder" parent="aspace_ref47_c1">37</container>
                </did>
             </c>
-            <c id="ref48" level="file">
+            <c altrender="/repositories/12/archival_objects/1258578"
+               id="ref48"
+               level="file">
                <did>
                   <unittitle>Document of admission to the bar</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1876">
+                  <unitdatestructured altrender="1876" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1876">1876</fromdate>
                         <todate standarddate="1876">1876</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143278 /locations/9"
                              containerid="39002042277047"
+                             encodinganalog="archive legal"
                              id="aspace_ref48_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref48_c2" localtype="folder" parent="aspace_ref48_c1">37</container>
                </did>
             </c>
-            <c id="ref49" level="file">
+            <c altrender="/repositories/12/archival_objects/1258579"
+               id="ref49"
+               level="file">
                <did>
                   <unittitle>Memorial resolution</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1883">
+                  <unitdatestructured altrender="1883" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1883">1883</fromdate>
                         <todate standarddate="1883">1883</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143278 /locations/9"
                              containerid="39002042277047"
+                             encodinganalog="archive legal"
                              id="aspace_ref49_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref49_c2" localtype="folder" parent="aspace_ref49_c1">37</container>
                </did>
             </c>
-            <c id="ref50" level="file">
+            <c altrender="/repositories/12/archival_objects/1258580"
+               id="ref50"
+               level="file">
                <did>
                   <unittitle>Letter to the editor</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1838">1838</fromdate>
                         <todate standarddate="1897">1897</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143278 /locations/9"
                              containerid="39002042277047"
+                             encodinganalog="archive legal"
                              id="aspace_ref50_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
@@ -842,34 +985,44 @@
                </did>
             </c>
          </c>
-         <c id="ref51" level="file">
+         <c altrender="/repositories/12/archival_objects/1258581"
+            id="ref51"
+            level="file">
             <did>
                <unittitle>Newspaper clippings</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1833-1864, undated">
+               <unitdatestructured altrender="1833-1864, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref51_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref51_c2" localtype="folder" parent="aspace_ref51_c1">38</container>
             </did>
          </c>
-         <c id="ref52" level="file">
+         <c altrender="/repositories/12/archival_objects/1258582"
+            id="ref52"
+            level="file">
             <did>
                <unittitle>Clippings re: persons named Ives</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1889-1895, undated">
+               <unitdatestructured altrender="1889-1895, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143278 /locations/9"
                           containerid="39002042277047"
+                          encodinganalog="archive legal"
                           id="aspace_ref52_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>

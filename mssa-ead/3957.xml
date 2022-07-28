@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0915">mssa.ms.0915</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0915">mssa.ms.0915</recordid>
+      <otherrecordid localtype="BIB">614320</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the William Sully Beebe Papers
@@ -32,6 +34,11 @@
             <date>November 1982</date>
             <num>MS 915</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T08:54:30+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:15:44+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 08:54</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:15</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3957" level="collection">
       <did>
          <unittitle>William Sully Beebe papers</unittitle>
          <unitid>MS 915</unitid>
@@ -82,139 +92,156 @@
             <quantity>0.75</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1844-1898">
+         <unitdatestructured altrender="1844-1898" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1844">1844</fromdate>
                <todate standarddate="1898">1898</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_6f3ca762fc66108497d5bd9ab837b32d">Largely writings on Biblical subjects and on the Indians of South and Central America to support William Sully Beebe's theory that "a great philosophical cult once occupied all the Americas, originating in Peru" and that there is a relationship between the phonetic values of their pictographs and those of the semitic languages. He also held that their legends resemble those of the Genesis cycle, which, Beebe believed, had their origin in America. Included in the papers are several letters on these subjects by Beebe to Josiah Willard Gibbs, William Dwight Whitney and Henry Clark Corgin. Also miscellaneous newspaper clippings, 1893-1894, on archaeology and biblical research.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n89661675"
                       rules="aacr"
                       source="naf">
-               <part>Beebe, William Sully, 1841-1898</part>
+               <part localtype="agent_person">Beebe, William Sully, 1841-1898</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_c8337a6e9c56faccdee7144a3264f2b2">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of William Sully Beebe in 1895 and Frances Dorothy Beebe in 1915.</p>  
+         <p>Gift of William Sully Beebe in 1895 and Frances Dorothy Beebe in 1915.</p>
       </acqinfo>
       <accessrestrict id="aspace_af6bcba5e72f170899c7beb675024ac7">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_dfd37f116836a0cd2b3e5437d221a545">
          <head>Preferred Citation</head>
-         <p>William Sully Beebe Papers (MS 915). Manuscripts and Archives, Yale University Library.</p>  
+         <p>William Sully Beebe Papers (MS 915). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_ab978784b106c427eb97cdb72427fa4b">
          <head>Scope and Contents</head>
          <p>The William Sully Beebe Papers consist largely of undated writings by Beebe on Biblical exegesis and philology, South and Central American Indian mythology and languages, and related topics. There are, in addition, four letters written by Beebe, one of which encloses a manuscript; a selection of newspaper clippings about ancient history, anthropology, and American Indians completes the collection.</p>
-         <p>The manuscripts "Biblical and Hebrew Roots" and "General Vocabulary, Maya and English" were given to Yale University in 1915 by Frances Dorothy Beebe. The remaining papers appear to have been the gift of William Sully Beebe in 1895.</p>  
+         <p>The manuscripts "Biblical and Hebrew Roots" and "General Vocabulary, Maya and English" were given to Yale University in 1915 by Frances Dorothy Beebe. The remaining papers appear to have been the gift of William Sully Beebe in 1895.</p>
       </scopecontent>
       <bioghist id="aspace_418a218b1c9ef52558f615f51d7b2534">
          <head>Biographical / Historical</head>
-         <p>William Sully Beebe was born on February 14, 1841, in Ithica, N. Y. He attended West Point Academy, graduating in 1863. He immediately entered the army, with an appointment of Second Lieutenant of Ordnance. During the Civil War, he received honors on multiple occasions. He remained in the army until 1874, when he resigned his commission. After his resignation, he spent his time creating a theory that argued, in part, for a connection between the Biblical book of Genesis and the ancient peoples of the Americas. With the start of the Spanish-American War, Beebe reentered the army and died of yellow fever in Havana, Cuba, on October 12, 1898.</p>  
+         <p>William Sully Beebe was born on February 14, 1841, in Ithica, N. Y. He attended West Point Academy, graduating in 1863. He immediately entered the army, with an appointment of Second Lieutenant of Ordnance. During the Civil War, he received honors on multiple occasions. He remained in the army until 1874, when he resigned his commission. After his resignation, he spent his time creating a theory that argued, in part, for a connection between the Biblical book of Genesis and the ancient peoples of the Americas. With the start of the Spanish-American War, Beebe reentered the army and died of yellow fever in Havana, Cuba, on October 12, 1898.</p>
       </bioghist>
       <userestrict id="aspace_9f5ff2d832e4083eff8dffe285daf64a">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <title source="local">
-            <part>Bible -- Language, style</part>
+            <part localtype="uniform_title">Bible</part>
+            <part localtype="topical">Language, style</part>
          </title>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85065085"
                   source="lcsh">
-            <part>Indians of Central America</part>
+            <part localtype="topical">Indians of Central America</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85065160"
                   source="lcsh">
-            <part>Indians of Mexico -- Folklore</part>
+            <part localtype="topical">Indians of Mexico</part>
+            <part localtype="genre_form">Folklore</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85065047"
                   source="lcsh">
-            <part>Indians -- Languages</part>
+            <part localtype="topical">Indians</part>
+            <part localtype="topical">Languages</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85082398"
                   source="lcsh">
-            <part>Maya language</part>
+            <part localtype="topical">Maya language</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85086326"
                   source="lcsh">
-            <part>Mixtec Indians</part>
+            <part localtype="topical">Mixtec Indians</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85109788"
                   source="lcsh">
-            <part>Quechua Indians</part>
+            <part localtype="topical">Quechua Indians</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85021871"
                    source="lcsh">
-            <part>Central America</part>
+            <part localtype="geographic">Central America</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85125524"
                    source="lcsh">
-            <part>South America</part>
+            <part localtype="geographic">South America</part>
          </geogname>
          <persname identifier="http://id.loc.gov/authorities/names/n89661675"
                    rules="aacr"
                    source="naf">
-            <part>Beebe, William Sully, 1841-1898</part>
+            <part localtype="agent_person">Beebe, William Sully, 1841-1898</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1258475"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1258476"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>ALS to Josiah Willard Gibbs, enclosing ms. "Cosmic Theory of Primes"; with geometric figures and numerical equivalents of letters</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1844 February 19">
+                  <unitdatestructured altrender="1844 February 19"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1844">1844</fromdate>
                         <todate standarddate="1898">1898</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143272 /locations/9"
                              containerid="39002042277013"
+                             encodinganalog="archive legal"
                              id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1 - 2</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1258477"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>ALS to William Dwight Whitney</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1885 January 27">
+                  <unitdatestructured altrender="1885 January 27"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1844">1844</fromdate>
                         <todate standarddate="1898">1898</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143272 /locations/9"
                              containerid="39002042277013"
+                             encodinganalog="archive legal"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">3</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1258478"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>2 ALS to Henry Clark Corgin</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1898 June 11">
+                  <unitdatestructured altrender="1898 June 11" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1844">1844</fromdate>
                         <todate standarddate="1898">1898</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143272 /locations/9"
                              containerid="39002042277013"
+                             encodinganalog="archive legal"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -222,178 +249,215 @@
                </did>
             </c>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1258479"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Writings</unittitle>
             </did>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1258480"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Biblical topics</unittitle>
                </did>
-               <c id="ref17" level="file">
+               <c altrender="/repositories/12/archival_objects/1258481"
+                  id="ref17"
+                  level="file">
                   <did>
                      <unittitle>Part I: Introduction to an examination of the Bible as a treatise on creation</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143272 /locations/9"
                                 containerid="39002042277013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">4</container>
                   </did>
                </c>
-               <c id="ref18" level="file">
+               <c altrender="/repositories/12/archival_objects/1258482"
+                  id="ref18"
+                  level="file">
                   <did>
                      <unittitle>Part II: Origin of Biblical proper names</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143272 /locations/9"
                                 containerid="39002042277013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref18_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">5</container>
                   </did>
                </c>
-               <c id="ref19" level="file">
+               <c altrender="/repositories/12/archival_objects/1258483"
+                  id="ref19"
+                  level="file">
                   <did>
                      <unittitle>Part III: Discussion of contradictions in the Old Testament</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143272 /locations/9"
                                 containerid="39002042277013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref19_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">6</container>
                   </did>
                </c>
-               <c id="ref20" level="file">
+               <c altrender="/repositories/12/archival_objects/1258484"
+                  id="ref20"
+                  level="file">
                   <did>
                      <unittitle>Part III: Discussion of Biblical allegories</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143272 /locations/9"
                                 containerid="39002042277013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref20_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">7</container>
                   </did>
                </c>
-               <c id="ref21" level="file">
+               <c altrender="/repositories/12/archival_objects/1258485"
+                  id="ref21"
+                  level="file">
                   <did>
                      <unittitle>Part IV: Attempt to prove the truth of Biblical philology</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143272 /locations/9"
                                 containerid="39002042277013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref21_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">8</container>
                   </did>
                </c>
-               <c id="ref22" level="file">
+               <c altrender="/repositories/12/archival_objects/1258486"
+                  id="ref22"
+                  level="file">
                   <did>
                      <unittitle>Part IV: Discussion of Assyrian characters</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143272 /locations/9"
                                 containerid="39002042277013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref22_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">9</container>
                   </did>
                </c>
-               <c id="ref23" level="file">
+               <c altrender="/repositories/12/archival_objects/1258487"
+                  id="ref23"
+                  level="file">
                   <did>
                      <unittitle>Part V: The Bible as a description of benevolent design</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143272 /locations/9"
                                 containerid="39002042277013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref23_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">10</container>
                   </did>
                </c>
-               <c id="ref24" level="file">
+               <c altrender="/repositories/12/archival_objects/1258488"
+                  id="ref24"
+                  level="file">
                   <did>
                      <unittitle>Biblical proper names, A-E</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143272 /locations/9"
                                 containerid="39002042277013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref24_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">11</container>
                   </did>
                </c>
-               <c id="ref25" level="file">
+               <c altrender="/repositories/12/archival_objects/1258489"
+                  id="ref25"
+                  level="file">
                   <did>
                      <unittitle>Quotations from Bible and authorities on ancient history</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143272 /locations/9"
                                 containerid="39002042277013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref25_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">12</container>
                   </did>
                </c>
-               <c id="ref26" level="file">
+               <c altrender="/repositories/12/archival_objects/1258490"
+                  id="ref26"
+                  level="file">
                   <did>
                      <unittitle>"Biblical and Hebrew Roots"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143272 /locations/9"
                                 containerid="39002042277013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref26_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -401,123 +465,154 @@
                   </did>
                </c>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1258491"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>American Indian topics</unittitle>
                </did>
-               <c id="ref28" level="file">
+               <c altrender="/repositories/12/archival_objects/1258492"
+                  id="ref28"
+                  level="file">
                   <did>
                      <unittitle>"A Native Myth," [lecture before the Rembrandt Club, Brooklyn, NY]</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1883 January 7">
+                     <unitdatestructured altrender="1883 January 7"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143272 /locations/9"
                                 containerid="39002042277013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref28_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">14</container>
                   </did>
                </c>
-               <c id="ref29" level="file">
+               <c altrender="/repositories/12/archival_objects/1258493"
+                  id="ref29"
+                  level="file">
                   <did>
                      <unittitle>Notes on the Chimalpopoca Manuscript [Mexican religion and legend of creation]</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143272 /locations/9"
                                 containerid="39002042277013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref29_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">15</container>
                   </did>
                </c>
-               <c id="ref30" level="file">
+               <c altrender="/repositories/12/archival_objects/1258494"
+                  id="ref30"
+                  level="file">
                   <did>
                      <unittitle>Religious legends and gods of the Miztec [i.e., Mixtec] Indians</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143272 /locations/9"
                                 containerid="39002042277013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref30_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">16</container>
                   </did>
                </c>
-               <c id="ref31" level="file">
+               <c altrender="/repositories/12/archival_objects/1258495"
+                  id="ref31"
+                  level="file">
                   <did>
                      <unittitle>Indian myth in English translation [fragment]</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143272 /locations/9"
                                 containerid="39002042277013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref31_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">17</container>
                   </did>
                </c>
-               <c id="ref32" level="file">
+               <c altrender="/repositories/12/archival_objects/1258496"
+                  id="ref32"
+                  level="file">
                   <did>
                      <unittitle>Notes on religion of the Quiche [Quecha] Indians</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143272 /locations/9"
                                 containerid="39002042277013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref32_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">18</container>
                   </did>
                </c>
-               <c id="ref33" level="file">
+               <c altrender="/repositories/12/archival_objects/1258497"
+                  id="ref33"
+                  level="file">
                   <did>
                      <unittitle>"General Vocabulary, Maya and English"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143272 /locations/9"
                                 containerid="39002042277013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref33_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">19 - 20</container>
                   </did>
                </c>
-               <c id="ref34" level="file">
+               <c altrender="/repositories/12/archival_objects/1258498"
+                  id="ref34"
+                  level="file">
                   <did>
                      <unittitle>Unidentified Indian vocabulary, A-B</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/143273 /locations/9"
                                 containerid="39002042277021"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref34_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
@@ -525,57 +620,68 @@
                   </did>
                </c>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1258499"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Miscellaneous</unittitle>
                </did>
-               <c id="ref36" level="file">
+               <c altrender="/repositories/12/archival_objects/1258500"
+                  id="ref36"
+                  level="file">
                   <did>
                      <unittitle>Use of significant symbols to describe phenomena</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/143273 /locations/9"
                                 containerid="39002042277021"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref36_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">22</container>
                   </did>
                </c>
-               <c id="ref37" level="file">
+               <c altrender="/repositories/12/archival_objects/1258501"
+                  id="ref37"
+                  level="file">
                   <did>
                      <unittitle>Table of contents from <title render="italic">
                            <part>Analysis of Basque Legends</part>
                         </title>, by Rev. Wentworth Webster</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/143273 /locations/9"
                                 containerid="39002042277021"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref37_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">23</container>
                   </did>
                </c>
-               <c id="ref38" level="file">
+               <c altrender="/repositories/12/archival_objects/1258502"
+                  id="ref38"
+                  level="file">
                   <did>
                      <unittitle>Unidentified</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1844">1844</fromdate>
                            <todate standarddate="1898">1898</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/143273 /locations/9"
                                 containerid="39002042277021"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref38_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
@@ -584,17 +690,20 @@
                </c>
             </c>
          </c>
-         <c id="ref39" level="file">
+         <c altrender="/repositories/12/archival_objects/1258503"
+            id="ref39"
+            level="file">
             <did>
                <unittitle>Newspaper clippings</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1893-1894">
+               <unitdatestructured altrender="1893-1894" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1893">1893</fromdate>
                      <todate standarddate="1894">1894</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/143273 /locations/9"
                           containerid="39002042277021"
+                          encodinganalog="archive half legal"
                           id="aspace_ref39_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>

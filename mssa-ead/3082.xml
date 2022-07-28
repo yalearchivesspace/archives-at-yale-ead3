@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0436">mssa.ms.0436</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0436">mssa.ms.0436</recordid>
+      <otherrecordid localtype="BIB">614000</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Kurt von Schuschnigg Papers
@@ -32,6 +34,11 @@
             <date>March 1983</date>
             <num>MS 436</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:59:16+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:06:11+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:59</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:06</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3082" level="collection">
       <did>
          <unittitle>Kurt von Schuschnigg papers</unittitle>
          <unitid>MS 436</unitid>
@@ -83,31 +93,30 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1938-1947">
+         <unitdatestructured altrender="1938-1947" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1938">1938</fromdate>
                <todate standarddate="1947">1947</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_4685c6ddbbf80a750274d6dbd7325283">Typescript of von Schuschnigg's prison memoir, Requiem in Rot-Weiss-Rot, with notes for changes for the English translation, Austrian Requiem.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n86820716" source="naf">
-               <part>Schuschnigg, Kurt, 1897-1977</part>
+               <part localtype="agent_person">Schuschnigg, Kurt, 1897-1977</part>
             </persname>
          </origination>
-    
       </did>
       <prefercite id="aspace_f5c1662897738f93d642060b9fedd571">
          <head>Preferred Citation</head>
-         <p>Kurt von Schuschnigg Papers (MS 436). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Kurt von Schuschnigg Papers (MS 436). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <acqinfo id="aspace_f1a839d625d6b9d1881a67025b7cce0b">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Edwin J. Beinecke in 1958 and 1964.</p>  
+         <p>Gift of Edwin J. Beinecke in 1958 and 1964.</p>
       </acqinfo>
       <accessrestrict id="aspace_de5b75e5bea7dffceb3a805b227dc50d">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <bioghist id="aspace_5a5a3ac19db0bd9e4bf9949412eaab5d">
          <head>Biographical / Historical</head>
@@ -115,7 +124,7 @@
          <p>Von Schuschnigg spent the war in prison waiting for a trial on charges by the Nazis. He came to the United States in 1945 and has been a professor of law in St. Louis since 1948.[1]</p>
          <p>Among his works are: <emph render="italic">Dreimal Österreich</emph> (Vienna, 1937) [there are two translations of this under the title <emph render="italic">Farewell Austria</emph> and <emph render="italic">My Austria</emph>], <emph render="italic">Requiem in Rot-Weiss-Rot</emph> (Zurich, 1947) [the English translation of this is <emph render="italic">Austrian Requiem</emph>], and <emph render="italic">International Law: An Introduction to the law of peace</emph>(Milwaukee, 1959).</p>
          <p>He died in 1977</p>
-         <p>[1] Der Grose Brockhaus, Vol. X, Wiesbaden, Germany (1956), p. 513.</p>  
+         <p>[1] Der Grose Brockhaus, Vol. X, Wiesbaden, Germany (1956), p. 513.</p>
       </bioghist>
       <scopecontent id="aspace_080a8d584254e1f688e2c2b1da6ac61b">
          <head>Scope and Contents</head>
@@ -125,145 +134,182 @@
          <p>Later, during 1943, I was tempted more than once to destroy the entire work, or at least to revise what I had written so far. But finally most of it remained exactly as I had written it down during my detention...</p>
          <p>[Kurt von Schuschnigg, <emph render="italic">Austrian Requiem</emph>, translated by Trung von Hildebrand, New York (1946), pp. viii-ix.]</p>
          <p>The typescript is arranged in the box as von Schuschnigg originally numbered it. Massive changes were made, especially for the English edition. His list of changes is translated in the Description of the Series.</p>
-         <p>The papers were the gift of Edwin J. Beinecke in 1958 and 1964.</p>  
+         <p>The papers were the gift of Edwin J. Beinecke in 1958 and 1964.</p>
       </scopecontent>
       <userestrict id="aspace_9fd297e7b5689d93b8bf7a031dacf591">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh2008120275"
                   source="lcsh">
-            <part>Fascism -- Austria</part>
+            <part localtype="topical">Fascism</part>
+            <part localtype="geographic">Austria</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85009737"
                    source="lcsh">
-            <part>Austria -- Politics and government -- 20th Century</part>
+            <part localtype="geographic">Austria</part>
+            <part localtype="topical">Politics and government</part>
+            <part localtype="temporal">20th Century</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85045631"
                    source="lcsh">
-            <part>Europe</part>
+            <part localtype="geographic">Europe</part>
          </geogname>
          <occupation source="local">
-            <part>Politicians</part>
+            <part localtype="occupation">Politicians</part>
          </occupation>
          <occupation source="local">
-            <part>Public officers</part>
+            <part localtype="occupation">Public officers</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/n86820716" source="naf">
-            <part>Schuschnigg, Kurt, 1897-1977</part>
+            <part localtype="agent_person">Schuschnigg, Kurt, 1897-1977</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Schuschnigg, Kurt, 1897-1977 (Austrian Requiem)</part>
+            <part localtype="agent_person">Schuschnigg, Kurt, 1897-1977 (Austrian Requiem)</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Schuschnigg, Kurt, 1897-1977 (Requiem in Rot-Weiss-Rot)</part>
+            <part localtype="agent_person">Schuschnigg, Kurt, 1897-1977 (Requiem in Rot-Weiss-Rot)</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="series">
+         <c altrender="/repositories/12/archival_objects/1187793"
+            id="ref10"
+            level="series">
             <did>
                <unittitle>DESCRIPTION OF SERIES</unittitle>
             </did>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1187794"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Note from von Schuschnigg, Rome, 26 Feb. 1946, listing material sent for English translation, table of contents, list of changes, new titles.</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132324 /locations/9"
                              containerid="39002042282310"
+                             encodinganalog="archive legal"
                              id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1187795"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Table of contents (the worn table of contents with the changes made listed made below)</unittitle>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1187796"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>List of changes (here translated)</unittitle>
                </did>
-               <c id="ref14" level="file">
+               <c altrender="/repositories/12/archival_objects/1187797"
+                  id="ref14"
+                  level="file">
                   <did>
                      <unittitle>I. Reductions</unittitle>
                   </did>
-                  <c id="ref15" level="file">
+                  <c altrender="/repositories/12/archival_objects/1187798"
+                     id="ref15"
+                     level="file">
                      <did>
                         <unittitle>A. Completely removed.</unittitle>
                      </did>
-                     <c id="ref16" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187799"
+                        id="ref16"
+                        level="file">
                         <did>
                            <unittitle>Vol. I, Chapter 7 (Der autaritaere christliche Staat.)</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref16_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref17" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187800"
+                        id="ref17"
+                        level="file">
                         <did>
                            <unittitle>Vol. I, Chapter 9 (Der versuchte, berufstaendische Aufbau)</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref17_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref18" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187801"
+                        id="ref18"
+                        level="file">
                         <did>
                            <unittitle>Vol. I, Chapter 10 (Bilanz)</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref18_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref19" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187802"
+                        id="ref19"
+                        level="file">
                         <did>
                            <unittitle>Vol. II, Chapter 16 (Préces meae non…) [the whole first section: Zur Psychologie eines Haeftlings]</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref19_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref20" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187803"
+                        id="ref20"
+                        level="file">
                         <did>
                            <unittitle>Vol. II, Chapter 19 (Oro supplex…) [the section entitled "Palmsonntag,1939]"</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref20_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref21" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187804"
+                        id="ref21"
+                        level="file">
                         <did>
                            <unittitle>Vol. II, Chapter 23 ("Dionysus und der…")</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref21_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref22" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187805"
+                        id="ref22"
+                        level="file">
                         <did>
                            <unittitle>Vol. II, Chapter 24 ("Vox clamantis")</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref22_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
@@ -271,213 +317,272 @@
                         </did>
                      </c>
                   </c>
-                  <c id="ref23" level="file">
+                  <c altrender="/repositories/12/archival_objects/1187806"
+                     id="ref23"
+                     level="file">
                      <did>
                         <unittitle>B. Further Reductions.</unittitle>
                      </did>
-                     <c id="ref24" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187807"
+                        id="ref24"
+                        level="file">
                         <did>
                            <unittitle>Vol. I, Chapter 3 ("Altoesterr. Suenden"): page 257, first 10 lines, from "Nicht weil er etwa…" to "Zeitrechnung begonnen hat."</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref24_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref25" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187808"
+                        id="ref25"
+                        level="file">
                         <did>
                            <unittitle>page 262, last 8 lines, from "Wiederum suchten…"</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref25_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref26" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187809"
+                        id="ref26"
+                        level="file">
                         <did>
                            <unittitle>page 263, from "und tschechen setrenn hat." (next to last part) with the first three paragraphs of this page.</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref26_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref27" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187810"
+                        id="ref27"
+                        level="file">
                         <did>
                            <unittitle>Vol. I, Chapter 5 ("Vorboten des Umberuchs")</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref27_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref28" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187811"
+                        id="ref28"
+                        level="file">
                         <did>
                            <unittitle>page 297: paragraphs 2,3,4.</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref28_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref29" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187812"
+                        id="ref29"
+                        level="file">
                         <did>
                            <unittitle>page 298: Paragraph 1</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref29_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref30" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187813"
+                        id="ref30"
+                        level="file">
                         <did>
                            <unittitle>page 300: paragraphs 2,3.</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref30_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref31" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187814"
+                        id="ref31"
+                        level="file">
                         <did>
                            <unittitle>pages 310-304: completely removed.</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref31_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref32" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187815"
+                        id="ref32"
+                        level="file">
                         <did>
                            <unittitle>page 305: the first two lines and in the third line the number "4"/so that the text begins with "Natürlich war die lage..."</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref32_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref33" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187816"
+                        id="ref33"
+                        level="file">
                         <did>
                            <unittitle>Vol. I, Chapter 6 ("Die oesterreichische Wunden")</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref33_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref34" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187817"
+                        id="ref34"
+                        level="file">
                         <did>
                            <unittitle>page 318: Paragraphs 2, 3 (from "Dass wir den Friedens. Vertrag…" to "…Nutzen ziehlen konnte."</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref34_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref35" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187818"
+                        id="ref35"
+                        level="file">
                         <did>
                            <unittitle>Vol. I, Chapter 8 (Der selbstaendige und freie Staat."</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref35_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref36" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187819"
+                        id="ref36"
+                        level="file">
                         <did>
                            <unittitle>page 347 paragraphs 1,2</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref36_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref37" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187820"
+                        id="ref37"
+                        level="file">
                         <did>
                            <unittitle>page 351 in the 8th sentence, 1 line from the top, the part: "…internationale anerk-annte Autoritaet <emph render="italic">war</emph> "change for internationale anerkannte Autoritaet <emph render="italic">ist</emph>."</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref37_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref38" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187821"
+                        id="ref38"
+                        level="file">
                         <did>
                            <unittitle>page 352: Remove 2nd paragraph (from "Beé dergegebenen…" to"…zu denhen gewaehnt gewaehnt was.")</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref38_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref39" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187822"
+                        id="ref39"
+                        level="file">
                         <did>
                            <unittitle>page 357: Remove the two last words of the last line ("Es seè)</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref39_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref40" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187823"
+                        id="ref40"
+                        level="file">
                         <did>
                            <unittitle>page 358: Remove the first three paragraphs (from "…an seine Stelle getreben."</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref40_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref41" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187824"
+                        id="ref41"
+                        level="file">
                         <did>
                            <unittitle>Vol. II, Chapter 12 (Zeitenwende)</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref41_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref42" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187825"
+                        id="ref42"
+                        level="file">
                         <did>
                            <unittitle>page 542: 7 lines from the top should really read: "Wer aber-wie <emph render="italic">meine Freinde und</emph>ich-den gegenteiligen…"</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref42_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
@@ -486,19 +591,26 @@
                      </c>
                   </c>
                </c>
-               <c id="ref43" level="file">
+               <c altrender="/repositories/12/archival_objects/1187826"
+                  id="ref43"
+                  level="file">
                   <did>
                      <unittitle>II. Insertions and Supplements</unittitle>
                   </did>
-                  <c id="ref44" level="file">
+                  <c altrender="/repositories/12/archival_objects/1187827"
+                     id="ref44"
+                     level="file">
                      <did>
                         <unittitle>In the First Volume:</unittitle>
                      </did>
-                     <c id="ref45" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187828"
+                        id="ref45"
+                        level="file">
                         <did>
                            <unittitle>After the chapter "Auslandsreisen" and before the closing chapter of the first volume "Zeitenwende"-insert the new chapter (Die Beilage A)" Wenn und Abers, Eventualitaeten"</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref45_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
@@ -506,85 +618,110 @@
                         </did>
                      </c>
                   </c>
-                  <c id="ref46" level="file">
+                  <c altrender="/repositories/12/archival_objects/1187829"
+                     id="ref46"
+                     level="file">
                      <did>
                         <unittitle>In the second volume:</unittitle>
                      </did>
-                     <c id="ref47" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187830"
+                        id="ref47"
+                        level="file">
                         <did>
                            <unittitle>In the former chapter 21: "Land in Sicht" insert as page 676a (161a)* the diary entries fron 9 December 1941.</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref47_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref47_c2" localtype="folder" parent="aspace_ref47_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref48" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187831"
+                        id="ref48"
+                        level="file">
                         <did>
                            <unittitle>In the former chapter 15 "Mihi quoque opein dediste…" a part of the earlier text add the section marked Beilage B.</unittitle>
-                           <container altrender="archive legal"
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref48_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
                            <container id="aspace_ref48_c2" localtype="folder" parent="aspace_ref48_c1">1</container>
                         </did>
                      </c>
-                     <c id="ref49" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187832"
+                        id="ref49"
+                        level="file">
                         <did>
                            <unittitle>In the former chapter 22: Oranienburges Tagebuch</unittitle>
                         </did>
-                        <c id="ref50" level="file">
+                        <c altrender="/repositories/12/archival_objects/1187833"
+                           id="ref50"
+                           level="file">
                            <did>
                               <unittitle>a) insert as 785a (269a) Diary entries from 9 February 1945 (all entries from 8 Feb-12 Feb.)</unittitle>
-                              <container altrender="archive legal"
+                              <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                          containerid="39002042282310"
+                                         encodinganalog="archive legal"
                                          id="aspace_ref50_c1"
                                          label="Mixed Materials"
                                          localtype="box">1</container>
                               <container id="aspace_ref50_c2" localtype="folder" parent="aspace_ref50_c1">1</container>
                            </did>
                         </c>
-                        <c id="ref51" level="file">
+                        <c altrender="/repositories/12/archival_objects/1187834"
+                           id="ref51"
+                           level="file">
                            <did>
                               <unittitle>b) insert new pages 788a (273) and 789a(274) (he then gives a list of things on these pages)</unittitle>
-                              <container altrender="archive legal"
+                              <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                          containerid="39002042282310"
+                                         encodinganalog="archive legal"
                                          id="aspace_ref51_c1"
                                          label="Mixed Materials"
                                          localtype="box">1</container>
                               <container id="aspace_ref51_c2" localtype="folder" parent="aspace_ref51_c1">1</container>
                            </did>
                         </c>
-                        <c id="ref52" level="file">
+                        <c altrender="/repositories/12/archival_objects/1187835"
+                           id="ref52"
+                           level="file">
                            <did>
                               <unittitle>c) insert new pages 792a-792h (277-277g) these are the diary entries from 10, 12, 14, 15, 16, and 17 April.</unittitle>
-                              <container altrender="archive legal"
+                              <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                          containerid="39002042282310"
+                                         encodinganalog="archive legal"
                                          id="aspace_ref52_c1"
                                          label="Mixed Materials"
                                          localtype="box">1</container>
                               <container id="aspace_ref52_c2" localtype="folder" parent="aspace_ref52_c1">1</container>
                            </did>
                         </c>
-                        <c id="ref53" level="file">
+                        <c altrender="/repositories/12/archival_objects/1187836"
+                           id="ref53"
+                           level="file">
                            <did>
                               <unittitle>d) insert new pages 798a to 804 (284-290)</unittitle>
-                              <container altrender="archive legal"
+                              <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                          containerid="39002042282310"
+                                         encodinganalog="archive legal"
                                          id="aspace_ref53_c1"
                                          label="Mixed Materials"
                                          localtype="box">1</container>
                               <container id="aspace_ref53_c2" localtype="folder" parent="aspace_ref53_c1">1</container>
                            </did>
                         </c>
-                        <c id="ref54" level="file">
+                        <c altrender="/repositories/12/archival_objects/1187837"
+                           id="ref54"
+                           level="file">
                            <did>
                               <unittitle>e) A part of the earlier removed closing chapter should be inserted: "Lux aeterna… Ausklang." pp. 802-804 (288-290)</unittitle>
-                              <container altrender="archive legal"
+                              <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                          containerid="39002042282310"
+                                         encodinganalog="archive legal"
                                          id="aspace_ref54_c1"
                                          label="Mixed Materials"
                                          localtype="box">1</container>
@@ -592,11 +729,17 @@
                            </did>
                         </c>
                      </c>
-                     <c id="ref55" level="file">
+                     <c altrender="/repositories/12/archival_objects/1187838"
+                        id="ref55"
+                        level="file">
                         <did>
                            <unittitle>*N.B.: The higher numbers refer to the case if the book is numbered consecutively in both volumes. In case the second volume is numbered starting again, the lower numbers apply.</unittitle>
-                           <container altrender="archive legal"
+                           <langmaterial>
+                              <language langcode="eng">English</language>
+                           </langmaterial>
+                           <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                       containerid="39002042282310"
+                                      encodinganalog="archive legal"
                                       id="aspace_ref55_c1"
                                       label="Mixed Materials"
                                       localtype="box">1</container>
@@ -606,190 +749,243 @@
                   </c>
                </c>
             </c>
-            <c id="ref56" level="file">
+            <c altrender="/repositories/12/archival_objects/1187839"
+               id="ref56"
+               level="file">
                <did>
                   <unittitle>List of number of pages for various sections of the book.</unittitle>
                </did>
-               <c id="ref57" level="file">
+               <c altrender="/repositories/12/archival_objects/1187840"
+                  id="ref57"
+                  level="file">
                   <did>
                      <unittitle>Chapter I. Introduction. "Das ö sterreichische Drama.(Eine kulturhistorische Betrachtung.)" pp. 1-76.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref57_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref57_c2" localtype="folder" parent="aspace_ref57_c1">2</container>
                   </did>
                </c>
-               <c id="ref58" level="file">
+               <c altrender="/repositories/12/archival_objects/1187841"
+                  id="ref58"
+                  level="file">
                   <did>
                      <unittitle>Chapter II. "Ein Gang durch die Dämmerung." pp. 77-253.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref58_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref58_c2" localtype="folder" parent="aspace_ref58_c1">3</container>
                   </did>
                </c>
-               <c id="ref59" level="file">
+               <c altrender="/repositories/12/archival_objects/1187842"
+                  id="ref59"
+                  level="file">
                   <did>
                      <unittitle>Note for part II; Chapter III. "Alt-österreichische Süden?" pp. 255-275</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref59_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref59_c2" localtype="folder" parent="aspace_ref59_c1">4</container>
                   </did>
                </c>
-               <c id="ref60" level="file">
+               <c altrender="/repositories/12/archival_objects/1187843"
+                  id="ref60"
+                  level="file">
                   <did>
                      <unittitle>Chapter IV. "Die erbliche Belastuny." pp. 276-287.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref60_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref60_c2" localtype="folder" parent="aspace_ref60_c1">5</container>
                   </did>
                </c>
-               <c id="ref61" level="file">
+               <c altrender="/repositories/12/archival_objects/1187844"
+                  id="ref61"
+                  level="file">
                   <did>
                      <unittitle>Chapter V. "Verbaten des Umbruchs." pp. 288-314.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref61_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref61_c2" localtype="folder" parent="aspace_ref61_c1">6</container>
                   </did>
                </c>
-               <c id="ref62" level="file">
+               <c altrender="/repositories/12/archival_objects/1187845"
+                  id="ref62"
+                  level="file">
                   <did>
                      <unittitle>Chapter VI. "Die österreichischen Wunden." pp. 315-331.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref62_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref62_c2" localtype="folder" parent="aspace_ref62_c1">7</container>
                   </did>
                </c>
-               <c id="ref63" level="file">
+               <c altrender="/repositories/12/archival_objects/1187846"
+                  id="ref63"
+                  level="file">
                   <did>
                      <unittitle>Chapter VII. "Der autoritare, christliche Stast?" pp.332-346.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref63_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref63_c2" localtype="folder" parent="aspace_ref63_c1">8</container>
                   </did>
                </c>
-               <c id="ref64" level="file">
+               <c altrender="/repositories/12/archival_objects/1187847"
+                  id="ref64"
+                  level="file">
                   <did>
                      <unittitle>Chapter VIII. "Der selbständige und freie Stast?" pp. 347-360</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref64_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref64_c2" localtype="folder" parent="aspace_ref64_c1">9</container>
                   </did>
                </c>
-               <c id="ref65" level="file">
+               <c altrender="/repositories/12/archival_objects/1187848"
+                  id="ref65"
+                  level="file">
                   <did>
                      <unittitle>Chapter IX. "Der versuchte beruf-ständige Dufbou."pp.361-380</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref65_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref65_c2" localtype="folder" parent="aspace_ref65_c1">10</container>
                   </did>
                </c>
-               <c id="ref66" level="file">
+               <c altrender="/repositories/12/archival_objects/1187849"
+                  id="ref66"
+                  level="file">
                   <did>
                      <unittitle>Chapter X. "Eine Bilang." pp. 381-394.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref66_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref66_c2" localtype="folder" parent="aspace_ref66_c1">11</container>
                   </did>
                </c>
-               <c id="ref67" level="file">
+               <c altrender="/repositories/12/archival_objects/1187850"
+                  id="ref67"
+                  level="file">
                   <did>
                      <unittitle>Chapter XI. "Auslandreisen." pp. 395-535.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref67_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref67_c2" localtype="folder" parent="aspace_ref67_c1">12</container>
                   </did>
-                  <c id="ref68" level="file">
+                  <c altrender="/repositories/12/archival_objects/1187851"
+                     id="ref68"
+                     level="file">
                      <did>
                         <unittitle>1. Ungarn. pp 395-408</unittitle>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                    containerid="39002042282310"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref68_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref68_c2" localtype="folder" parent="aspace_ref68_c1">12</container>
                      </did>
                   </c>
-                  <c id="ref69" level="file">
+                  <c altrender="/repositories/12/archival_objects/1187852"
+                     id="ref69"
+                     level="file">
                      <did>
                         <unittitle>2. Italien, Florenz-Rom,-Ravenna-pp. 409-421.</unittitle>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                    containerid="39002042282310"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref69_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref69_c2" localtype="folder" parent="aspace_ref69_c1">12</container>
                      </did>
                   </c>
-                  <c id="ref70" level="file">
+                  <c altrender="/repositories/12/archival_objects/1187853"
+                     id="ref70"
+                     level="file">
                      <did>
                         <unittitle>3. Geachichte und Gegenwart: Impressionen und Gespräche pp. 422-461.</unittitle>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                    containerid="39002042282310"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref70_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref70_c2" localtype="folder" parent="aspace_ref70_c1">12</container>
                      </did>
                   </c>
-                  <c id="ref71" level="file">
+                  <c altrender="/repositories/12/archival_objects/1187854"
+                     id="ref71"
+                     level="file">
                      <did>
                         <unittitle>4. Genf. pp. 462-472.</unittitle>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                    containerid="39002042282310"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref71_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref71_c2" localtype="folder" parent="aspace_ref71_c1">12</container>
                      </did>
                   </c>
-                  <c id="ref72" level="file">
+                  <c altrender="/repositories/12/archival_objects/1187855"
+                     id="ref72"
+                     level="file">
                      <did>
                         <unittitle>5. Paris-London. pp. 473-522.</unittitle>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                    containerid="39002042282310"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref72_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref72_c2" localtype="folder" parent="aspace_ref72_c1">12</container>
                      </did>
                   </c>
-                  <c id="ref73" level="file">
+                  <c altrender="/repositories/12/archival_objects/1187856"
+                     id="ref73"
+                     level="file">
                      <did>
                         <unittitle>6. Prag. pp. 523-535.</unittitle>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                    containerid="39002042282310"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref73_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
@@ -797,121 +993,154 @@
                      </did>
                   </c>
                </c>
-               <c id="ref74" level="file">
+               <c altrender="/repositories/12/archival_objects/1187857"
+                  id="ref74"
+                  level="file">
                   <did>
                      <unittitle>Beilage "A" "Wenn und Aber, Eventuatitäten."</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref74_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref74_c2" localtype="folder" parent="aspace_ref74_c1">13</container>
                   </did>
                </c>
-               <c id="ref75" level="file">
+               <c altrender="/repositories/12/archival_objects/1187858"
+                  id="ref75"
+                  level="file">
                   <did>
                      <unittitle>Chapter XII. "Zeitenwende." pp. 536-544</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref75_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref75_c2" localtype="folder" parent="aspace_ref75_c1">14</container>
                   </did>
                </c>
-               <c id="ref76" level="file">
+               <c altrender="/repositories/12/archival_objects/1187859"
+                  id="ref76"
+                  level="file">
                   <did>
                      <unittitle>Forward to parts III and IV; (here begins Vo1.2 with a slightly different numbering system) Chapter XIV. "Quantus tremor est futurus..." pp. 522-534; Chapter XV. "Culpa rubet vultus mens..." pp.535-542.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref76_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref76_c2" localtype="folder" parent="aspace_ref76_c1">15</container>
                   </did>
                </c>
-               <c id="ref77" level="file">
+               <c altrender="/repositories/12/archival_objects/1187860"
+                  id="ref77"
+                  level="file">
                   <did>
                      <unittitle>Chapter XVI. "Mihi quoque opem dedisti." pp. 543-554.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref77_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref77_c2" localtype="folder" parent="aspace_ref77_c1">16</container>
                   </did>
                </c>
-               <c id="ref78" level="file">
+               <c altrender="/repositories/12/archival_objects/1187861"
+                  id="ref78"
+                  level="file">
                   <did>
                      <unittitle>Chapter XVII. "Preces meae non sunt lignae…" pp.555-566.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref78_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref78_c2" localtype="folder" parent="aspace_ref78_c1">17</container>
                   </did>
                </c>
-               <c id="ref79" level="file">
+               <c altrender="/repositories/12/archival_objects/1187862"
+                  id="ref79"
+                  level="file">
                   <did>
                      <unittitle>Chapter XVIII: "Inter oves locum praesta…" pp.567-577; Chapter XIX."Confutatis.maledictis…" pp. 577-599.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref79_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref79_c2" localtype="folder" parent="aspace_ref79_c1">18</container>
                   </did>
                </c>
-               <c id="ref80" level="file">
+               <c altrender="/repositories/12/archival_objects/1187863"
+                  id="ref80"
+                  level="file">
                   <did>
                      <unittitle>Chapter XX. "Oro supplex et acclines." pp. 600-617.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref80_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref80_c2" localtype="folder" parent="aspace_ref80_c1">19</container>
                   </did>
                </c>
-               <c id="ref81" level="file">
+               <c altrender="/repositories/12/archival_objects/1187864"
+                  id="ref81"
+                  level="file">
                   <did>
                      <unittitle>Chapter XXI. "Haic ergo parce Deus." pp. 618-628.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref81_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref81_c2" localtype="folder" parent="aspace_ref81_c1">20</container>
                   </did>
                </c>
-               <c id="ref82" level="file">
+               <c altrender="/repositories/12/archival_objects/1187865"
+                  id="ref82"
+                  level="file">
                   <did>
                      <unittitle>Part IV. Diary. 30 October 1939 to Christmas 1942, pp. 629-698.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref82_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref82_c2" localtype="folder" parent="aspace_ref82_c1">21</container>
                   </did>
                </c>
-               <c id="ref83" level="file">
+               <c altrender="/repositories/12/archival_objects/1187866"
+                  id="ref83"
+                  level="file">
                   <did>
                      <unittitle>Part IV. Diary. January 1943 to Christmas 1944, pp. 699-777.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref83_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref83_c2" localtype="folder" parent="aspace_ref83_c1">22</container>
                   </did>
                </c>
-               <c id="ref84" level="file">
+               <c altrender="/repositories/12/archival_objects/1187867"
+                  id="ref84"
+                  level="file">
                   <did>
                      <unittitle>Part.IV. Diary. January 1945 to 30 April 1949, pp.778-798. Conclusion. pp. 798a-819.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132324 /locations/9"
                                 containerid="39002042282310"
+                                encodinganalog="archive legal"
                                 id="aspace_ref84_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>

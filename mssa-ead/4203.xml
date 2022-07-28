@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0483">mssa.ms.0483</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0483">mssa.ms.0483</recordid>
+      <otherrecordid localtype="BIB">614043</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Terry-Slocomb Family Papers
@@ -32,6 +34,11 @@
             <date>April 1980</date>
             <num>MS 483</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T09:35:47+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:16:02+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 09:35</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:16</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4203" level="collection">
       <did>
          <unittitle>Terry-Slocomb family papers</unittitle>
          <unitid>MS 483</unitid>
@@ -83,303 +93,337 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(2 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1809-1891">
+         <unitdatestructured altrender="1809-1891" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1809">1809</fromdate>
                <todate standarddate="1891">1891</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_8f8bc7a4e24269f0b40412068059be01">The papers consist of correspondence, a diary, household accounts, and professional documents relating to William Terry; his wife, Maria Roxana Slocomb Terry; his sister, Esther Asenath Terry; and their family and friends in Massachusetts, Connecticut, Pennsylvania, and Minnesota.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <famname identifier="http://id.loc.gov/authorities/subjects/sh85134117"
                      source="lcsh">
-               <part>Terry family</part>
+               <part localtype="agent_family">Terry family</part>
             </famname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_57f448faf552015c82e147f467cfcd55">
          <head>Immediate Source of Acquisition</head>
-         <p>Purchased from Whitlock's in 1942.</p>  
+         <p>Purchased from Whitlock's in 1942.</p>
       </acqinfo>
       <accessrestrict id="aspace_a715e8105231477f0a374766c41e41b2">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_ce605d7c7235e98ad31cdd34c2b45557">
          <head>Preferred Citation</head>
-         <p>Terry-Slocomb Family Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Terry-Slocomb Family Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_a5166984fc3126392321131213c2114d">
          <head>Scope and Contents</head>
          <p>The Terry-Slocomb Family Papers consist mainly of correspondence, the bulk of which is letters addressed to William Terry; his wife, Maria Roxana (Slocomb) Terry; and his sister, Esther Asenath Terry, between 1840 and 189-. They wrote to one another and also received letters from friends and colleagues and from other members of the Terry and Slocomb families in Massachusetts, Connecticut, Pennsylvania, and Minnesota. This is mainly personal correspondence, but the letters of William and Esther include accounts of their experiences as physician and nurse in U.S. Army hospitals during the Civil War, and Esther's later letters describe her work as a teacher in freedmen's schools in Virginia and Georgia and as a missionary among the Jews of New York City. There are also letters ot their father Daniel Terry, from (his brother-in-law?) David Parsons, Harpers Ferry, Virginia, 1817-1821. All the letters are catalogued by sender and recipient in the Union and departmental manuscript catalogues.</p>
          <p>The rest of the collection consists of a diary and professional documents of William Terry, household account books of Maria Roxana (Slocomb) Terry, and miscellaneous papers belonging to them and other members of the Terry family.</p>
-         <p>The Terry-Slocomb Family Papers were purchase from Whitlock's in 1942.</p>  
+         <p>The Terry-Slocomb Family Papers were purchase from Whitlock's in 1942.</p>
       </scopecontent>
       <bioghist id="aspace_c7610c6ecdcd9289017fdf9b3055d5b5">
          <head>Biographical / Historical</head>
-         <p>William Terry, son of Daniel and Mary Pease (Parsons) Terry, was born in Sutton, Massachusetts on June 8, 1822. He studied at Amherst College and in 1846 received his M.D. from Pennsylvania College. He practiced in Sutton, Massachusetts until 1860, when he moved to Ansonia, Connecticut. During the Civil War, Terry served as an assistant surgeon in a military hospital in Alexandria, Virginia. He died in 1908. Esther Asenath Terry, sister of William Terry, was born in Enfield, Connecticut on January 24, 1818. She was a nurse in military hispitals during the Civil War, a teacher of freedmen in Virginia and Georgia after the war, and a missionary in New York City. Terry died in Ansonia, Connecticut on November 16, 1880.</p>  
+         <p>William Terry, son of Daniel and Mary Pease (Parsons) Terry, was born in Sutton, Massachusetts on June 8, 1822. He studied at Amherst College and in 1846 received his M.D. from Pennsylvania College. He practiced in Sutton, Massachusetts until 1860, when he moved to Ansonia, Connecticut. During the Civil War, Terry served as an assistant surgeon in a military hospital in Alexandria, Virginia. He died in 1908. Esther Asenath Terry, sister of William Terry, was born in Enfield, Connecticut on January 24, 1818. She was a nurse in military hispitals during the Civil War, a teacher of freedmen in Virginia and Georgia after the war, and a missionary in New York City. Terry died in Ansonia, Connecticut on November 16, 1880.</p>
       </bioghist>
       <userestrict id="aspace_740aa8836eb4b6ed49cd35280b834477">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85001932"
                   source="lcsh">
-            <part>African Americans</part>
+            <part localtype="topical">African Americans</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85040989"
                   source="lcsh">
-            <part>Education</part>
+            <part localtype="topical">Education</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85051692"
                   source="lcsh">
-            <part>Freedmen</part>
+            <part localtype="topical">Freedmen</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85070361"
                   source="lcsh">
-            <part>Jews</part>
+            <part localtype="topical">Jews</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85083064"
                   source="lcsh">
-            <part>Medicine</part>
+            <part localtype="topical">Medicine</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85147274"
                   source="lcsh">
-            <part>Women</part>
+            <part localtype="topical">Women</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/n83049090"
                    source="lcsh">
-            <part>Ansonia (Conn.)</part>
+            <part localtype="geographic">Ansonia (Conn.)</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n79074102"
                    source="lcsh">
-            <part>Connecticut</part>
+            <part localtype="geographic">Connecticut</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n81029817"
                    source="lcsh">
-            <part>Harpers Ferry (W. Va.)</part>
+            <part localtype="geographic">Harpers Ferry (W. Va.)</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85091260"
                    source="lcsh">
-            <part>New England</part>
+            <part localtype="geographic">New England</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85125633"
                    source="lcsh">
-            <part>Southern States</part>
+            <part localtype="geographic">Southern States</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n2005171147"
                    source="lcsh">
-            <part>Sutton (Mass.)</part>
+            <part localtype="geographic">Sutton (Mass.)</part>
          </geogname>
          <geogname source="local">
-            <part>United States -- History -- Civil War, 1861-1865 -- Medical and sanitary affairs</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Civil War, 1861-1865</part>
+            <part localtype="topical">Medical and sanitary affairs</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85086017"
                   source="lcsh">
-            <part>Missionaries</part>
+            <part localtype="topical">Missionaries</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85093349"
                   source="lcsh">
-            <part>Nurses</part>
+            <part localtype="topical">Nurses</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85101610"
                   source="lcsh">
-            <part>Physicians</part>
+            <part localtype="topical">Physicians</part>
          </subject>
          <persname source="local">
-            <part>Parsons, David, -1872</part>
+            <part localtype="agent_person">Parsons, David, -1872</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Terry, Esther Asenath, 1818-1880</part>
+            <part localtype="agent_person">Terry, Esther Asenath, 1818-1880</part>
          </persname>
          <persname source="local">
-            <part>Terry, Maria Roxana Slocomb, 1824-</part>
+            <part localtype="agent_person">Terry, Maria Roxana Slocomb, 1824-</part>
          </persname>
          <persname source="local">
-            <part>Terry, William, 1822-1908</part>
+            <part localtype="agent_person">Terry, William, 1822-1908</part>
          </persname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85123455"
                   rules="aacr"
                   source="lcsh">
-            <part>Slocum family</part>
+            <part localtype="agent_family">Slocum family</part>
          </famname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85134117"
                   source="lcsh">
-            <part>Terry family</part>
+            <part localtype="agent_family">Terry family</part>
          </famname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1353345"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1817-1886">
+               <unitdatestructured altrender="1817-1886" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1817">1817</fromdate>
                      <todate standarddate="1886">1886</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151434 /locations/9"
                           containerid="39002042251679"
-                          id="d1e360"
+                          encodinganalog="archive legal"
+                          id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1353346"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1887-1891">
+               <unitdatestructured altrender="1887-1891" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1887">1887</fromdate>
                      <todate standarddate="1891">1891</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151435 /locations/9"
                           containerid="39002042251687"
-                          id="d1e376"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1353347"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Maria Roxana (Slocomb) Terry Household account books</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1848-1854">
+               <unitdatestructured altrender="1848-1854" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1848">1848</fromdate>
                      <todate standarddate="1854">1854</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151435 /locations/9"
                           containerid="39002042251687"
-                          id="d1e392"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1353348"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>William Terry</unittitle>
             </did>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1353349"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Certificates of his performance as student and teacher</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1837-1846">
+                  <unitdatestructured altrender="1837-1846" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1837">1837</fromdate>
                         <todate standarddate="1846">1846</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151435 /locations/9"
                              containerid="39002042251687"
-                             id="d1e414"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1353350"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Diary</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1841-1867">
+                  <unitdatestructured altrender="1841-1867" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1841">1841</fromdate>
                         <todate standarddate="1867">1867</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151435 /locations/9"
                              containerid="39002042251687"
-                             id="d1e430"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1353351"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Tickets of admission to medical lectures and facilities</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1843-1846">
+                  <unitdatestructured altrender="1843-1846" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1843">1843</fromdate>
                         <todate standarddate="1846">1846</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151435 /locations/9"
                              containerid="39002042251687"
-                             id="d1e446"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1353352"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>List of subscriptions to help him care for the sick and poor</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1870">
+                  <unitdatestructured altrender="1870" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1870">1870</fromdate>
                         <todate standarddate="1870">1870</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151435 /locations/9"
                              containerid="39002042251687"
-                             id="d1e462"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1353353"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>Legal and financial papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1809-1881">
+               <unitdatestructured altrender="1809-1881" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1809">1809</fromdate>
                      <todate standarddate="1881">1881</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151435 /locations/9"
                           containerid="39002042251687"
-                          id="d1e478"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
             </did>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1353354"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>Miscellaneous papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1809">1809</fromdate>
                      <todate standarddate="1891">1891</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151435 /locations/9"
                           containerid="39002042251687"
-                          id="d1e494"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref20_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
             </did>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1353355"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>Genealogical notes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1809">1809</fromdate>
                      <todate standarddate="1891">1891</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151435 /locations/9"
                           containerid="39002042251687"
-                          id="d1e510"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
             </did>

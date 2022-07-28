@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0486">mssa.ms.0486</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0486">mssa.ms.0486</recordid>
+      <otherrecordid localtype="BIB">614046</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Anna and Marion Tompson Collection
@@ -32,6 +34,11 @@
             <date>August 1981</date>
             <num>MS 486</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-07-12T07:44:48+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:16:09+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Sunday July 12, 2020 at 07:44</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>June 1998</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:16</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4204" level="collection">
       <did>
          <unittitle>Anna and Marion Tompson collection</unittitle>
          <unitid>MS 486</unitid>
@@ -90,195 +93,218 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box, 1 folio)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1681-1869">
+         <unitdatestructured altrender="1681-1869" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1681">1681</fromdate>
                <todate standarddate="1869">1869</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_4ac2859cf62d9b9e4c55d5dce5afe335">Financial and legal papers, advertising brochures for a school at Portsmouth (1801-1808) and correspondence of the Rollins and Hooker families. Also in the collection is a letter of introduction (1831) from the Marquis de Lafayette. Most of the financial and legal papers concern transactions for land in Bretton Woods, Dummer and Portsmouth, New Hampshire, chiefly relating to the Haven family. One of the documents is an original proprietor's grant (1772) for Bretton Woods.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname relator="col" source="local">
-               <part>Tompson, Anna</part>
+               <part localtype="agent_person">Tompson, Anna</part>
             </persname>
          </origination>
-         <origination label="creator">
+         <origination label="Creator">
             <persname relator="col" source="local">
-               <part>Tompson, Marion</part>
+               <part localtype="agent_person">Tompson, Marion</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_0a403b39562db4e3572477920f828e11">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Anna and Marion Tompson in 1946.</p>  
+         <p>Gift of Anna and Marion Tompson in 1946.</p>
       </acqinfo>
       <accessrestrict id="aspace_3a6302de756988b97bf4b7ffc030d7bb">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_3bb4bf868def482eca7fdf9e32b102c4">
          <head>Preferred Citation</head>
-         <p>Anna and Marion Tompson Collection. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Anna and Marion Tompson Collection. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_52f8f3b1c260d5505e0fd9838d5bef78">
          <head>Scope and Contents</head>
          <p>This collection contains various papers (1681-1869) relating to several New Hampshire and Maine Towns. Included is a small amount of correspondence, including one letter signed by the Margquis de Lafayette (1831). Other papers include the original proprietor's grant to Bretton Woods, New Hampshire, deeds and tax receipts for land in the New Hamphire towns of Bretton Woods, Dummer, and Portsmouth, mostly relating to the Haven family, several documents signed by New Hampshire Governor, John Wentworth, and a variety of personal papers of the Rollins and Hooker families of Portsmouth.</p>
-         <p>This collection was donated by Anna and Marion Tompson to Yale University in 1946.</p>  
+         <p>This collection was donated by Anna and Marion Tompson to Yale University in 1946.</p>
       </scopecontent>
       <userestrict id="aspace_34e2753503334429d9f51c8f95220d96">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85091260"
                    source="lcsh">
-            <part>New England</part>
+            <part localtype="geographic">New England</part>
          </geogname>
          <geogname source="local">
-            <part>Portsmouth (N.H.) -- History</part>
+            <part localtype="geographic">Portsmouth (N.H.)</part>
+            <part localtype="topical">History</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140131"
                    source="lcsh">
-            <part>United States -- History -- Colonial period, ca. 1600-1775</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Colonial period, ca. 1600-1775</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027249" source="aat">
-            <part>Deeds</part>
+            <part localtype="genre_form">Deeds</part>
          </genreform>
          <persname source="local">
-            <part>Adams, Nathaniel, fl. 1768</part>
+            <part localtype="agent_person">Adams, Nathaniel, fl. 1768</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n80038471" source="naf">
-            <part>Lafayette, Marie Joseph Paul Yves Roch Gilbert Du Motier, marquis de, 1757-1834</part>
+            <part localtype="agent_person">Lafayette, Marie Joseph Paul Yves Roch Gilbert Du Motier, marquis de, 1757-1834</part>
          </persname>
          <persname source="local">
-            <part>Rollins, Ichabod, fl. 1830</part>
+            <part localtype="agent_person">Rollins, Ichabod, fl. 1830</part>
          </persname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85059333"
                   source="lcsh">
-            <part>Haven family</part>
+            <part localtype="agent_family">Haven family</part>
          </famname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85061899"
                   source="lcsh">
-            <part>Hook family</part>
+            <part localtype="agent_family">Hook family</part>
          </famname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85114905"
                   rules="aacr"
                   source="lcsh">
-            <part>Rollins family</part>
+            <part localtype="agent_family">Rollins family</part>
          </famname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85146435"
                   source="lcsh">
-            <part>Whipple family</part>
+            <part localtype="agent_family">Whipple family</part>
          </famname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="file">
+         <c altrender="/repositories/12/archival_objects/1353357"
+            id="ref10"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1768-1864">
+               <unitdatestructured altrender="1768-1864" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1768">1768</fromdate>
                      <todate standarddate="1864">1864</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151436 /locations/9"
                           containerid="39002038214228"
+                          encodinganalog="archive half legal"
                           id="aspace_ref10_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref10_c2" localtype="folder" parent="aspace_ref10_c1">1</container>
             </did>
          </c>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1353358"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Census of Portsmouth</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1773">
+               <unitdatestructured altrender="1773" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1773">1773</fromdate>
                      <todate standarddate="1773">1773</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151436 /locations/9"
                           containerid="39002038214228"
+                          encodinganalog="archive half legal"
                           id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">2</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1353359"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Reverend Mr. Alden's Academy at Portsmouth: certificates, receipts, roster</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1801-1808">
+               <unitdatestructured altrender="1801-1808" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1801">1801</fromdate>
                      <todate standarddate="1808">1808</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151436 /locations/9"
                           containerid="39002038214228"
+                          encodinganalog="archive half legal"
                           id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">3</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1353360"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Deeds</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1681-1848">
+               <unitdatestructured altrender="1681-1848" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1681">1681</fromdate>
                      <todate standarddate="1848">1848</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151436 /locations/9"
                           containerid="39002038214228"
+                          encodinganalog="archive half legal"
                           id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">4 - 6</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1353361"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Miscellaneous legal and financial papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1759-1869">
+               <unitdatestructured altrender="1759-1869" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1759">1759</fromdate>
                      <todate standarddate="1869">1869</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151436 /locations/9"
                           containerid="39002038214228"
+                          encodinganalog="archive half legal"
                           id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">7 - 10</container>
             </did>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1353362"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Miscellaneous papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1681">1681</fromdate>
                      <todate standarddate="1869">1869</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151436 /locations/9"
                           containerid="39002038214228"
+                          encodinganalog="archive half legal"
                           id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">11</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1353363"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Oversize</unittitle>
-               <container containerid="39002042606906"
+               <container altrender="/repositories/12/top_containers/151437 /locations/9"
+                          containerid="39002042606906"
                           id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>

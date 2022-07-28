@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0964">mssa.ms.0964</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0964">mssa.ms.0964</recordid>
+      <otherrecordid localtype="BIB">614504</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Otis Harrison Fisk Papers
@@ -32,6 +34,11 @@
             <date>July 1983</date>
             <num>MS 964</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T10:01:35+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:19:41+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 10:01</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>July 1998</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:19</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3969" level="collection">
       <did>
          <unittitle>Otis Harrison Fisk papers</unittitle>
          <unitid>MS 964</unitid>
@@ -89,7 +92,7 @@
             <quantity>1</quantity>
             <unittype>Linear Foot</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1893-1944">
+         <unitdatestructured altrender="1893-1944" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1893">1893</fromdate>
                <todate standarddate="1944">1944</todate>
@@ -98,24 +101,23 @@
          <abstract id="aspace_4b59c8beb30396e7c80234ed935f84ef">Chiefly typescripts of both the English and German versions of Otis H. Fisk's (1870-1944) book on the government and legal system of the United States, published in German as <title render="italic">
                <part>Kunde über Amerika</part>
             </title> (1944). Also in the papers are notes on the constitutions of the states of New York and Oklahoma and various diplomas and certificates.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Fisk, Otis Harrison, 1870-</part>
+               <part localtype="agent_person">Fisk, Otis Harrison, 1870-</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_c7cd99b9892a96ba0e7829c6a1334a72">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Mrs. Otis H. Fisk, 1954.</p>  
+         <p>Gift of Mrs. Otis H. Fisk, 1954.</p>
       </acqinfo>
       <accessrestrict id="aspace_97d238102dc9c64f707165f336c3ccde">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_5f3065e01ed7d60adb218781baf95ea7">
          <head>Preferred Citation</head>
-         <p>Otis Harrison Fisk Papers (MS 964). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Otis Harrison Fisk Papers (MS 964). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_d809826fb852ce0158eb41306727ecfd">
          <head>Scope and Contents</head>
@@ -123,7 +125,7 @@
                <part>Information about America</part>
             </title> and of the German Version, <title render="italic">
                <part>Kunde über Amerika</part>
-            </title>, published in 1944. The book describes the structure and organization of the government and legal system of the United States. Accompanying the manuscripts are notes on the United States Constitution and copies of the constitutions of the states of New York and Oklahoma. The remainder of Fisk's papers consist of diplomas and certificates from the universities he studied at in Germany and the University of Cincinnati, and his certificate of admission to the Ohio bar.</p>  
+            </title>, published in 1944. The book describes the structure and organization of the government and legal system of the United States. Accompanying the manuscripts are notes on the United States Constitution and copies of the constitutions of the states of New York and Oklahoma. The remainder of Fisk's papers consist of diplomas and certificates from the universities he studied at in Germany and the University of Cincinnati, and his certificate of admission to the Ohio bar.</p>
       </scopecontent>
       <bioghist id="aspace_1f61f58b435d215ca0d16ab68bef486c">
          <head>Biographical / Historical</head>
@@ -145,43 +147,46 @@
                <part>Institutes of Roman Law of Civil Procedure</part>
             </title> by Leopold Wenger (1940).</p>
          <p>He was a member of Cincinnati Bar Association and Masonic order and vestryman, treasurer, and Sunday-school superintendent Church of the Epiphany (Episcopal), Cincinnati, and vestryman St. Andrew's Church, Framingham.</p>
-         <p>He was married to Helen Whitelaw Pogue on June 5, 1901 and to Mabel Anna Hebb on February 9, 1929. With his first wife, Fisk had four daughters. Otis Fisk died of a cerebral hemorrhage on January 10, 1944, in Framingham, Massachusetts.</p>  
+         <p>He was married to Helen Whitelaw Pogue on June 5, 1901 and to Mabel Anna Hebb on February 9, 1929. With his first wife, Fisk had four daughters. Otis Fisk died of a cerebral hemorrhage on January 10, 1944, in Framingham, Massachusetts.</p>
       </bioghist>
       <userestrict id="aspace_8cc98f83e1e4d4ed69800166a8e8f5c6">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075119"
                   source="lcsh">
-            <part>Law</part>
+            <part localtype="topical">Law</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85045631"
                    source="lcsh">
-            <part>Europe</part>
+            <part localtype="geographic">Europe</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n80125931"
                    source="lcsh">
-            <part>Germany</part>
+            <part localtype="geographic">Germany</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140410"
                    source="lcsh">
-            <part>United States -- Politics and government</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">Politics and government</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85009793"
                   source="lcsh">
-            <part>Authors</part>
+            <part localtype="topical">Authors</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075351"
                   source="lcsh">
-            <part>Lawyers</part>
+            <part localtype="topical">Lawyers</part>
          </subject>
          <persname source="local">
-            <part>Fisk, Otis Harrison, 1870-</part>
+            <part localtype="agent_person">Fisk, Otis Harrison, 1870-</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1258867"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
@@ -189,68 +194,80 @@
                   </title>
                </unittitle>
             </did>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1258868"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Typescript</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[pre-1944]">
+                  <unitdatestructured altrender="[pre-1944]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1893">1893</fromdate>
                         <todate standarddate="1944">1944</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143328 /locations/9"
                              containerid="39002042281536"
+                             encodinganalog="archive legal"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">1 - 4</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1258869"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Appendix I</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[pre-1944]">
+                  <unitdatestructured altrender="[pre-1944]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1893">1893</fromdate>
                         <todate standarddate="1944">1944</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143328 /locations/9"
                              containerid="39002042281536"
+                             encodinganalog="archive legal"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">5 - 13</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1258870"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Appendix II</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[pre-1944]">
+                  <unitdatestructured altrender="[pre-1944]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1893">1893</fromdate>
                         <todate standarddate="1944">1944</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143329 /locations/9"
                              containerid="39002042281544"
+                             encodinganalog="archive legal"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">14</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1258871"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Footnotes</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[pre-1944]">
+                  <unitdatestructured altrender="[pre-1944]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1893">1893</fromdate>
                         <todate standarddate="1944">1944</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143329 /locations/9"
                              containerid="39002042281544"
+                             encodinganalog="archive legal"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
@@ -258,7 +275,9 @@
                </did>
             </c>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1258872"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
@@ -266,34 +285,40 @@
                   </title>
                </unittitle>
             </did>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1258873"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Typescript</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[pre-1944]">
+                  <unitdatestructured altrender="[pre-1944]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1893">1893</fromdate>
                         <todate standarddate="1944">1944</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143329 /locations/9"
                              containerid="39002042281544"
+                             encodinganalog="archive legal"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">16 - 23</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1258874"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Appendices I-IV</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[pre-1944]">
+                  <unitdatestructured altrender="[pre-1944]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1893">1893</fromdate>
                         <todate standarddate="1944">1944</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143329 /locations/9"
                              containerid="39002042281544"
+                             encodinganalog="archive legal"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
@@ -301,139 +326,171 @@
                </did>
             </c>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1258875"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>Constitution of the United States: references</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1893">1893</fromdate>
                      <todate standarddate="1944">1944</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143329 /locations/9"
                           containerid="39002042281544"
+                          encodinganalog="archive legal"
                           id="aspace_ref20_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">26</container>
             </did>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1258876"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>Constitution of the State of New York</part>
                   </title>
                </unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1939">
+               <unitdatestructured altrender="1939" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1939">1939</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/143329 /locations/9"
                           containerid="39002042281544"
+                          encodinganalog="archive legal"
                           id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">27</container>
             </did>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1258877"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>Constitution of the State of Oklahoma</part>
                   </title>
                </unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1893">1893</fromdate>
                      <todate standarddate="1944">1944</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/143329 /locations/9"
                           containerid="39002042281544"
+                          encodinganalog="archive legal"
                           id="aspace_ref22_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">27</container>
             </did>
          </c>
-         <c id="ref23" level="file">
+         <c altrender="/repositories/12/archival_objects/1258878"
+            id="ref23"
+            level="file">
             <did>
                <unittitle>Certificates and diplomas</unittitle>
             </did>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1258879"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>University of Leipzig: certificates</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1893, 1896">
+                  <unitdatestructured altrender="1893, 1896" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1893">1893</fromdate>
                         <todate standarddate="1944">1944</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042656182"
+                  <container altrender="/repositories/12/top_containers/143330 /locations/9"
+                             containerid="39002042656182"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1258880"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>University of Berlin: certificate</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1894">
+                  <unitdatestructured altrender="1894" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1894">1894</fromdate>
                         <todate standarddate="1894">1894</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042656182"
+                  <container altrender="/repositories/12/top_containers/143330 /locations/9"
+                             containerid="39002042656182"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1258881"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>University of Heidelberg: certificates, Ph.D. diploma, J.D. diploma</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1895, 1896">
+                  <unitdatestructured altrender="1895, 1896" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1893">1893</fromdate>
                         <todate standarddate="1944">1944</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042656182"
+                  <container altrender="/repositories/12/top_containers/143330 /locations/9"
+                             containerid="39002042656182"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1258882"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>University of Cincinnati: LL.B. diploma</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1899">
+                  <unitdatestructured altrender="1899" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1899">1899</fromdate>
                         <todate standarddate="1899">1899</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042656182"
+                  <container altrender="/repositories/12/top_containers/143330 /locations/9"
+                             containerid="39002042656182"
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1258883"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>State of Ohio, Supreme Court: admission to the Ohio bar</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1899">
+                  <unitdatestructured altrender="1899" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1899">1899</fromdate>
                         <todate standarddate="1899">1899</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042656182"
+                  <container altrender="/repositories/12/top_containers/143330 /locations/9"
+                             containerid="39002042656182"
                              id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>

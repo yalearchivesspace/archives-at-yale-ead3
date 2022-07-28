@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0883">mssa.ms.0883</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0883">mssa.ms.0883</recordid>
+      <otherrecordid localtype="BIB">614336</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Norman White Cary Papers
@@ -32,6 +34,11 @@
             <date>March 1983</date>
             <num>MS 883</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:33:15+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:13:48+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:33</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:13</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4274" level="collection">
       <did>
          <unittitle>Norman White Cary papers</unittitle>
          <unitid>MS 883</unitid>
@@ -82,103 +92,114 @@
             <quantity>0.75</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1866-1870">
+         <unitdatestructured altrender="1866-1870" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1866">1866</fromdate>
                <todate standarddate="1870">1870</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_11983e0a854ae40f7effb0f077880aa4">The papers consist of letters exchanged between Norman White Cary and his mother and sister during his four years at Yale College. The letters provide a detailed record of his life as a student with accounts of studies, finances, social and cultural events, and life in New Haven. His mother's letters are intensely solicitous of Cary's physical and moral well-being, but also describe family happenings and social life in Philadelphia where she was head of a school for young ladies.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname rules="aacr" source="local">
-               <part>Cary, Norman White, 1849-1928</part>
+               <part localtype="agent_person">Cary, Norman White, 1849-1928</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_0bc52764622895cb97d09ed0f6a42dbf">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of N. Leroy Cary, 1944.</p>  
+         <p>Gift of N. Leroy Cary, 1944.</p>
       </acqinfo>
       <accessrestrict id="aspace_1f53eeecf31c725f730f8e41f421bc64">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_cdff50f74f8341cb7f7220e1bbe10f62">
          <head>Preferred Citation</head>
-         <p>Norman White Cary Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Norman White Cary Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <bioghist id="aspace_32942f8c62eac432517ec6bd6bd3e7bd">
          <head>Biographical / Historical</head>
-         <p>Norman White Cary, son of Rev. Josiah Addison and Gertrude (Jenkins) Cary, was born in New York City, New York, on October 29, 1849. He was prepared for college at the Rev. Dr. J. W. Faire's Classical Institute, Philadelphia, and Phillips Academy, Andover, Massachusetts. He graduated from Yale with the class of 1870 and received an A.M. from Yale in 1873. That same year, he also graduated from Princeton Theological Seminary. He entered the ministry of the Presbyterian Church and was pastor over numerous churches along the east coast and in the northern Midwest. Around 1885, he had the desire to teach and began a school in North Dakota, then moved to Baltimore to learn chemistry and physics at Johns Hopkins University. He quickly returned to the ministry, though, and eventually also began selling life insurance. He and his wife, Hannah S. Craig had three children Addison Reading (1886), Medora Alice (1888), and Norman Leroy (1892). He died on May 11, 1928.</p>  
+         <p>Norman White Cary, son of Rev. Josiah Addison and Gertrude (Jenkins) Cary, was born in New York City, New York, on October 29, 1849. He was prepared for college at the Rev. Dr. J. W. Faire's Classical Institute, Philadelphia, and Phillips Academy, Andover, Massachusetts. He graduated from Yale with the class of 1870 and received an A.M. from Yale in 1873. That same year, he also graduated from Princeton Theological Seminary. He entered the ministry of the Presbyterian Church and was pastor over numerous churches along the east coast and in the northern Midwest. Around 1885, he had the desire to teach and began a school in North Dakota, then moved to Baltimore to learn chemistry and physics at Johns Hopkins University. He quickly returned to the ministry, though, and eventually also began selling life insurance. He and his wife, Hannah S. Craig had three children Addison Reading (1886), Medora Alice (1888), and Norman Leroy (1892). He died on May 11, 1928.</p>
       </bioghist>
       <scopecontent id="aspace_e5f5c57b990bcd04ca58fa5fe28c5819">
          <head>Scope and Contents</head>
-         <p>The papers consist of letters exchanged between Norman White Cary and his mother and sister during his four years at Yale College. The letters provide a detailed record of his life as a student with accounts of studies, finances, social and cultural events, and life in New Haven. His mother's letters are intensely solicitous of Cary's physical and moral well-being, but also describe family happenings and social life in Philadelphia where she was head of a school for young ladies.</p>  
+         <p>The papers consist of letters exchanged between Norman White Cary and his mother and sister during his four years at Yale College. The letters provide a detailed record of his life as a student with accounts of studies, finances, social and cultural events, and life in New Haven. His mother's letters are intensely solicitous of Cary's physical and moral well-being, but also describe family happenings and social life in Philadelphia where she was head of a school for young ladies.</p>
       </scopecontent>
       <userestrict id="aspace_618df054b6e37eeca3a3db60b3739ade">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85087539"
                   source="lcsh">
-            <part>Mothers and sons</part>
+            <part localtype="topical">Mothers and sons</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85129296"
                   source="lcsh">
-            <part>Students</part>
+            <part localtype="topical">Students</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85091315"
                    source="lcsh">
-            <part>New Haven (Conn.) -- History</part>
+            <part localtype="geographic">New Haven (Conn.)</part>
+            <part localtype="topical">History</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85100730"
                    source="lcsh">
-            <part>Philadelphia (Pa.) -- Social life and customs</part>
+            <part localtype="geographic">Philadelphia (Pa.)</part>
+            <part localtype="topical">Social life and customs</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85147719"
                   source="lcsh">
-            <part>Women teachers</part>
+            <part localtype="topical">Women teachers</part>
          </subject>
          <persname rules="aacr" source="local">
-            <part>Cary, Gertrude Jenkins</part>
+            <part localtype="agent_person">Cary, Gertrude Jenkins</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Cary, Norman White, 1849-1928</part>
+            <part localtype="agent_person">Cary, Norman White, 1849-1928</part>
          </persname>
          <corpname rules="aacr" source="local">
-            <part>Yale College (1718-1887). Class of 1870</part>
+            <part localtype="agent_corporate_entity">Yale College (1718-1887). Class of 1870</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1354361"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
             </did>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1354362"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>1866 Sep-1869 Jul</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151646 /locations/9"
                              containerid="39002042277054"
-                             id="d1e258"
+                             encodinganalog="archive letter"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e260" localtype="folder" parent="d1e258">1 - 53</container>
+                  <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">1 - 53</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1354363"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>1869 Sep-1870 Jul</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151647 /locations/9"
                              containerid="39002042277062"
-                             id="d1e268"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
-                  <container id="d1e270" localtype="folder" parent="d1e268">54 - 70</container>
+                  <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">54 - 70</container>
                </did>
             </c>
          </c>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0413">mssa.ms.0413</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0413">mssa.ms.0413</recordid>
+      <otherrecordid localtype="BIB">614438</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Charles Mason Remey Papers
@@ -32,6 +34,11 @@
             <date>March 1980</date>
             <num>MS 413</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T08:57:32+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:04:30+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 08:57</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>September 1995</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:04</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4193" level="collection">
       <did>
          <unittitle>Charles Mason Remey papers</unittitle>
          <unitid>MS 413</unitid>
@@ -89,520 +92,657 @@
             <quantity>8</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1891-1957">
+         <unitdatestructured altrender="1891-1957" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1891">1891</fromdate>
                <todate standarddate="1957">1957</todate>
             </daterange>
          </unitdatestructured>
-         <unitdatestructured unitdatetype="bulk">
+         <unitdatestructured label="creation" unitdatetype="bulk">
             <daterange>
                <fromdate standarddate="1939">1939</fromdate>
                <todate standarddate="1957">1957</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_9514e489ea70295e4151f0631714ac57">The papers consist of his travel journals in Europe and Latin America as a teacher of the Bahá'i faith (1945-1948) and typescripts of family biographies and other aspects of the Remey family history. Included are compilations of the life and letters of Charles Mason, chief justice of Iowa, of George Collier Remey, rear admiral in the United States Navy, and of Mary Josephine Remey. Remey's architectural career is represented in an "Architectural design for a Bahá'i temple to be built upon Mt. Carmel in the Holy Land."</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n86070601" source="naf">
-               <part>Remey, Charles Mason, 1874-1974</part>
+               <part localtype="agent_person">Remey, Charles Mason, 1874-1974</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_f67cdd215bbe662bf533b6c92d8af002">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Charles M. Remey, 1940-1958.</p>  
+         <p>Gift of Charles M. Remey, 1940-1958.</p>
       </acqinfo>
       <accessrestrict id="aspace_7ea03c177e2978a90fcd5de1af80c3cf">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_a61046f896dd388b780104cbebb64dae">
          <head>Preferred Citation</head>
-         <p>Charles Mason Remey Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Charles Mason Remey Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_1593457905e86e0ef5f10bc456e372e5">
          <head>Scope and Contents</head>
-         <p>The Charles Mason Remey Papers were given to Yale University Library by Mr. Remey. The family material consists of typed copies of manuscripts the originals of which are in other repositories, and Yale is one of several institutions that holds a set of these copies. It is not apparent whether any other institution has Remey's own travel diaries.</p>  
+         <p>The Charles Mason Remey Papers were given to Yale University Library by Mr. Remey. The family material consists of typed copies of manuscripts the originals of which are in other repositories, and Yale is one of several institutions that holds a set of these copies. It is not apparent whether any other institution has Remey's own travel diaries.</p>
       </scopecontent>
       <bioghist id="aspace_8770f7bc2e1a02191cd1432f3cb668c1">
          <head>Biographical / Historical</head>
-         <p>Charles Mason Remey: studied architecture at Cornell, at École des Beaux Arts (Paris), 1896-1903; professor of architecture, George Washington University, 1908-1910; active in the Bahá'i faith and designer of the Bahá'i temple on Mount Carmel; author.</p>  
+         <p>Charles Mason Remey: studied architecture at Cornell, at École des Beaux Arts (Paris), 1896-1903; professor of architecture, George Washington University, 1908-1910; active in the Bahá'i faith and designer of the Bahá'i temple on Mount Carmel; author.</p>
       </bioghist>
       <userestrict id="aspace_63fa84c08c922da2ba6fd46eee207be2">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85010990"
                   source="lcsh">
-            <part>Bahai Faith</part>
+            <part localtype="topical">Bahai Faith</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <subject source="local">
-            <part>Judges -- Iowa</part>
+            <part localtype="topical">Judges</part>
+            <part localtype="geographic">Iowa</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85045661"
                    source="lcsh">
-            <part>Europe -- Description and travel</part>
+            <part localtype="geographic">Europe</part>
+            <part localtype="topical">Description and travel</part>
          </geogname>
          <geogname source="local">
-            <part>Iowa -- Politics and government</part>
+            <part localtype="geographic">Iowa</part>
+            <part localtype="topical">Politics and government</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85074879"
                    source="lcsh">
-            <part>Latin America</part>
+            <part localtype="geographic">Latin America</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027112" source="aat">
-            <part>Diaries</part>
+            <part localtype="genre_form">Diaries</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85006565"
                   source="lcsh">
-            <part>Architects</part>
+            <part localtype="topical">Architects</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85026944"
                   source="lcsh">
-            <part>Clergy</part>
+            <part localtype="topical">Clergy</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/n86012087" source="naf">
-            <part>Mason, Charles, 1804-1882</part>
+            <part localtype="agent_person">Mason, Charles, 1804-1882</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n86070601" source="naf">
-            <part>Remey, Charles Mason, 1874-1974</part>
+            <part localtype="agent_person">Remey, Charles Mason, 1874-1974</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n86025819"
                    rules="aacr"
                    source="naf">
-            <part>Remey, George Collier, 1841-1928</part>
+            <part localtype="agent_person">Remey, George Collier, 1841-1928</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Remey, Gertrude Heim Klemm, 1888-1932</part>
+            <part localtype="agent_person">Remey, Gertrude Heim Klemm, 1888-1932</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n86025820"
                    rules="aacr"
                    source="naf">
-            <part>Remey, Mary Josephine Mason, 1845-1938</part>
+            <part localtype="agent_person">Remey, Mary Josephine Mason, 1845-1938</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/subjects/sh85140879"
                    source="lcsh">
-            <part>United States. Navy (Biography)</part>
+            <part localtype="agent_corporate_entity">United States. Navy (Biography)</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1353167"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>A Teacher of the Baha'i Faith in South America--Diary of His Travels</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1945 November 10-1946 April 4">
+               <unitdatestructured altrender="1945 November 10-1946 April 4"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1957">1957</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151394 /locations/9"
                           containerid="39002042531104"
+                          encodinganalog="Paige 15"
                           id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1353168"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>"Journal Diary of Baha'i Travels in Latin America"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1946 December 18-1947 March 9">
+               <unitdatestructured altrender="1946 December 18-1947 March 9"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1957">1957</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151394 /locations/9"
                           containerid="39002042531104"
+                          encodinganalog="Paige 15"
                           id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1353169"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>"Journal Diary of Baha'i Travels in Europe"</unittitle>
             </did>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1353170"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>1947 May 24-Sep 21</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151394 /locations/9"
                              containerid="39002042531104"
+                             encodinganalog="Paige 15"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1353171"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>1948 Apr 27-Nov 3</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151394 /locations/9"
                              containerid="39002042531104"
+                             encodinganalog="Paige 15"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1353172"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>"Houses in Which the Remey Family and Their Forebears Have Lived"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1957">
+               <unitdatestructured altrender="1957" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1957">1957</fromdate>
                      <todate standarddate="1957">1957</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151394 /locations/9"
                           containerid="39002042531104"
+                          encodinganalog="Paige 15"
                           id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1353173"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>"A Record of the USS Remey, Assembled by CMR"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1957">1957</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151394 /locations/9"
                           containerid="39002042531104"
+                          encodinganalog="Paige 15"
                           id="aspace_ref17_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1353174"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>"Architectural Design for the Baha'i Temple to be Built upon Mt. Carmel in the Holy Land"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1957">1957</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151394 /locations/9"
                           containerid="39002042531104"
+                          encodinganalog="Paige 15"
                           id="aspace_ref18_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1353175"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>"Life and Letters of Charles Mason, Chief Justice of Iowa, 1804-82" [typescript]</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1939">
+               <unitdatestructured altrender="1939" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1939">1939</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1353176"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Volumes 1-7</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151394 /locations/9"
                              containerid="39002042531104"
+                             encodinganalog="Paige 15"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1353177"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Volumes 8-12</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151395 /locations/9"
                              containerid="39002042531112"
+                             encodinganalog="Paige 15"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1353178"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>"Life and Letters of Rear Admiral George Collier Remey, United States Navy, 1841-1928," volumes 1-10 [typescript]</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1939">
+               <unitdatestructured altrender="1939" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1939">1939</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151395 /locations/9"
                           containerid="39002042531112"
+                          encodinganalog="Paige 15"
                           id="aspace_ref22_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
             </did>
          </c>
-         <c id="ref23" level="file">
+         <c altrender="/repositories/12/archival_objects/1353179"
+            id="ref23"
+            level="file">
             <did>
                <unittitle>"Life and Letters of Mary Josephine Mason Remey, Wife of Rear Admiral George Collier Remey, Daughter of Chief Justice Charles Mason, 1848-1939," volumes 1-12 [typescript]</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1939">
+               <unitdatestructured altrender="1939" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1939">1939</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151396 /locations/9"
                           containerid="39002042531120"
+                          encodinganalog="Paige 15"
                           id="aspace_ref23_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref24" level="file">
+         <c altrender="/repositories/12/archival_objects/1353180"
+            id="ref24"
+            level="file">
             <did>
                <unittitle>"The Wardrobe of Gertrude Heim Remey, 1888-1932" [typescript with photos]</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1939">
+               <unitdatestructured altrender="1939" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1939">1939</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151396 /locations/9"
                           containerid="39002042531120"
+                          encodinganalog="Paige 15"
                           id="aspace_ref24_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref25" level="file">
+         <c altrender="/repositories/12/archival_objects/1353181"
+            id="ref25"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>The Lost Ring and Other Poems</part>
                   </title> by Caroline M. Mason</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1891">
+               <unitdatestructured altrender="1891" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1891">1891</fromdate>
                      <todate standarddate="1891">1891</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151396 /locations/9"
                           containerid="39002042531120"
+                          encodinganalog="Paige 15"
                           id="aspace_ref25_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref26" level="file">
+         <c altrender="/repositories/12/archival_objects/1353182"
+            id="ref26"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>An Elementary Treatise on the Structure and Operations of the National and State Governments of the United States</part>
                   </title> by Charles Mason</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1893">
+               <unitdatestructured altrender="1893" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1893">1893</fromdate>
                      <todate standarddate="1893">1893</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151396 /locations/9"
                           containerid="39002042531120"
+                          encodinganalog="Paige 15"
                           id="aspace_ref26_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref27" level="file">
+         <c altrender="/repositories/12/archival_objects/1353183"
+            id="ref27"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>Harriette Briggs Stoddard</part>
                   </title> by Mrs. J. D. Kingsbury</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1957">1957</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151396 /locations/9"
                           containerid="39002042531120"
+                          encodinganalog="Paige 15"
                           id="aspace_ref27_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref28" level="file">
+         <c altrender="/repositories/12/archival_objects/1353184"
+            id="ref28"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>Reminiscences and Letters</part>
                   </title> by Charles Mason Remey</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1910-1940s">
+               <unitdatestructured altrender="1910-1940s" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1910">1910</fromdate>
                      <todate standarddate="1949">1949</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151396 /locations/9"
                           containerid="39002042531120"
+                          encodinganalog="Paige 15"
                           id="aspace_ref28_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/1353185"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>Volumes 1-16</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151397 /locations/9"
                              containerid="39002042531138"
+                             encodinganalog="Paige 15"
                              id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                </did>
             </c>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1353186"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Volumes 17-34</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151398 /locations/9"
                              containerid="39002042531146"
+                             encodinganalog="Paige 15"
                              id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1353187"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Volumes 35-50</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151399 /locations/9"
                              containerid="39002042531153"
+                             encodinganalog="Paige 15"
                              id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1353188"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>Volumes 51-68</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151400 /locations/9"
                              containerid="39002042531161"
+                             encodinganalog="Paige 15"
                              id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1353189"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>Volumes 69-86</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151401 /locations/9"
                              containerid="39002042531179"
+                             encodinganalog="Paige 15"
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1353190"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>Volumes 87-105</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151402 /locations/9"
                              containerid="39002042531187"
+                             encodinganalog="Paige 15"
                              id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1353191"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Volumes 106-119</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151403 /locations/9"
                              containerid="39002042531195"
+                             encodinganalog="Paige 15"
                              id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                </did>
             </c>
          </c>
-         <c id="ref36" level="file">
+         <c altrender="/repositories/12/archival_objects/1353192"
+            id="ref36"
+            level="file">
             <did>
                <unittitle>"The Biography of a House: A Monograph of the Home of an Architect," by Charles Mason Remey</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1945">
+               <unitdatestructured altrender="1945" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1945">1945</fromdate>
                      <todate standarddate="1945">1945</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151404 /locations/9"
                           containerid="39002042531203"
+                          encodinganalog="Paige 15"
                           id="aspace_ref36_c1"
                           label="Mixed Materials"
                           localtype="box">11</container>
             </did>
          </c>
-         <c id="ref37" level="file">
+         <c altrender="/repositories/12/archival_objects/1353193"
+            id="ref37"
+            level="file">
             <did>
                <unittitle>"The Mausoleum of the Remey Family," by Charles Mason Remey</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1945">
+               <unitdatestructured altrender="1945" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1945">1945</fromdate>
                      <todate standarddate="1945">1945</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151404 /locations/9"
                           containerid="39002042531203"
+                          encodinganalog="Paige 15"
                           id="aspace_ref37_c1"
                           label="Mixed Materials"
                           localtype="box">11</container>
             </did>
          </c>
-         <c id="ref38" level="file">
+         <c altrender="/repositories/12/archival_objects/1353194"
+            id="ref38"
+            level="file">
             <did>
                <unittitle>
                   <emph render="italic">Baha'i Reminiscences, Diary Letters, and Other Documents</emph>
                </unittitle>
             </did>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1353195"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>"Daily Diaries of Charles Mason Remey" [thirteen notebooks]</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1940-1948">
+                  <unitdatestructured altrender="1940-1948" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1940">1940</fromdate>
                         <todate standarddate="1948">1948</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151404 /locations/9"
                              containerid="39002042531203"
+                             encodinganalog="Paige 15"
                              id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>
                </did>
             </c>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1353196"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>"Herbert's Diary: an Account of Trailer Travels Among Some Centers of Baha'i Teaching," by Herbert Smith, edited by Charles Mason Remey</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1949">
+                  <unitdatestructured altrender="1949" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1949">1949</fromdate>
                         <todate standarddate="1949">1949</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151404 /locations/9"
                              containerid="39002042531203"
+                             encodinganalog="Paige 15"
                              id="aspace_ref40_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>
                </did>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1353197"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>"Letters Treating of Baha'i Activities"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1920s-1940s, undated">
+                  <unitdatestructured altrender="1920s-1940s, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1939">1939</fromdate>
                         <todate standarddate="1957">1957</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151404 /locations/9"
                              containerid="39002042531203"
+                             encodinganalog="Paige 15"
                              id="aspace_ref41_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>

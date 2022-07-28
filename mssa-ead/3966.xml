@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0955">mssa.ms.0955</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0955">mssa.ms.0955</recordid>
+      <otherrecordid localtype="BIB">614425</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Peter Starr Papers
@@ -32,6 +34,11 @@
             <date>July 1979</date>
             <num>MS 955</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:59:22+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:17:59+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:59</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:17</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3966" level="collection">
       <did>
          <unittitle>Peter Starr papers</unittitle>
          <unitid>MS 955</unitid>
@@ -83,34 +93,33 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(21 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1758-1829">
+         <unitdatestructured altrender="1758-1829" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1758">1758</fromdate>
                <todate standarddate="1829">1829</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_3fbdc5ed9276bb13a67dbc53be45710b">Sermons of Peter Starr, together with the sermons of his predecessor in Kent (now Warren), Connecticut, Sylvanus Osborn, and of two relatives by marriage, John Keep and John Stevens. Three-fourths of the papers are by Peter Starr. During the Revolutionary War Starr shifted his loyalty, and the sermons provide biblical justification on both sides. John Keep was a chaplain during the war and a number of his camp sermons are in the collection.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/nr2002016501"
                       rules="aacr"
                       source="naf">
-               <part>Starr, Peter, 1744-1829</part>
+               <part localtype="agent_person">Starr, Peter, 1744-1829</part>
             </persname>
          </origination>
-    
       </did>
       <prefercite id="aspace_5aeaa304f9bf151ba1f682e01613ae01">
          <head>Preferred Citation</head>
-         <p>Peter Starr Papers (MS 955). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Peter Starr Papers (MS 955). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <acqinfo id="aspace_eb7135afd1c5b718bdf084ec6bf0114d">
          <head>Immediate Source of Acquisition</head>
          <p>Transferred to Manuscripts and Archives from the Yale Divinity School Library in 1952 and 1979.</p>
-         <p>The Peter Starr Papers were transferred to Manuscripts and Archives from the Yale Divinity School Library in 1952. Additional sermons of Peter Starr were transferred to the papers from the Sermons, Addresses and Discourses Collection of the Archives and Manuscripts division of the Divinity Library in 1979.</p>  
+         <p>The Peter Starr Papers were transferred to Manuscripts and Archives from the Yale Divinity School Library in 1952. Additional sermons of Peter Starr were transferred to the papers from the Sermons, Addresses and Discourses Collection of the Archives and Manuscripts division of the Divinity Library in 1979.</p>
       </acqinfo>
       <arrangement id="aspace_fbf10d15d7940799c097977739e8f7cf">
          <head>Arrangement</head>
-         <p>Arranged in five series: I. Peter Starr Sermons. II. Sylvanus Osborn Sermons. III. John Keep Sermons. IV. John Stevens Sermons. V. Miscellaneous Sermons.</p>  
+         <p>Arranged in five series: I. Peter Starr Sermons. II. Sylvanus Osborn Sermons. III. John Keep Sermons. IV. John Stevens Sermons. V. Miscellaneous Sermons.</p>
       </arrangement>
       <scopecontent id="aspace_86132aa50fa76e5771cb22b66df883c3">
          <head>Scope and Contents</head>
@@ -121,7 +130,7 @@
          <p>Series V, MISCELLANEOUS SERMONS, contains undated and unidentified sermons. These sermons may have been written by individuals included in the other series or by other ministers whom Peter Starr knew. Positive identification has not been possible.</p>
          <p>
             <emph render="italic">Note</emph>: For additional papers concerning the family of Peter Starr, see the Starr Family Papers in the Miscellaneous Manuscripts Collection. These are primarily papers of the children of Peter Starr and members of other families related by marriage.</p>
-         <p>The Robbins Family Papers also contain sermons and other papers of the family of Peter Starr's first wife. The Joseph Bellamy Papers, MS. Group No. 609, contain correspondence, sermons, and other papers of Peter Starr's teacher, Joseph Bellamy.</p>  
+         <p>The Robbins Family Papers also contain sermons and other papers of the family of Peter Starr's first wife. The Joseph Bellamy Papers, MS. Group No. 609, contain correspondence, sermons, and other papers of Peter Starr's teacher, Joseph Bellamy.</p>
       </scopecontent>
       <bioghist id="aspace_7fddfa5ecc7be17337c700ad05423fc2">
          <head>Biographical / Historical</head>
@@ -146,55 +155,61 @@
          <p>His widow Phebe married Peter Starr on October 24, 1810.</p>
          <p>
             <emph render="italic">Bibliography:</emph> Biographical information obtained from Franklin Bowditch Dexter, <emph render="italic">Yale Biographies and Annals</emph>
-         </p>  
+         </p>
       </bioghist>
       <accessrestrict id="aspace_0552c6b00b3b330b0fa2c8b65b8cde89">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_6a12c5a68854053ec75bf0d5f25cba87">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140139"
                    source="lcsh">
-            <part>United States -- History -- Revolution, 1775-1783</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Revolution, 1775-1783</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n79074102"
                    source="lcsh">
-            <part>Connecticut</part>
+            <part localtype="geographic">Connecticut</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140131"
                    source="lcsh">
-            <part>United States -- History -- Colonial period, ca. 1600-1775</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Colonial period, ca. 1600-1775</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300026669" source="aat">
-            <part>Sermons</part>
+            <part localtype="genre_form">Sermons</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85026944"
                   source="lcsh">
-            <part>Clergy</part>
+            <part localtype="topical">Clergy</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/nr2002001363"
                    rules="aacr"
                    source="naf">
-            <part>Keep, John, 1749-1784</part>
+            <part localtype="agent_person">Keep, John, 1749-1784</part>
          </persname>
          <persname source="local">
-            <part>Osborn, Sylvanus, 1733-1771</part>
+            <part localtype="agent_person">Osborn, Sylvanus, 1733-1771</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n85352286" source="naf">
-            <part>Stevens, John, 1750-1799</part>
+            <part localtype="agent_person">Stevens, John, 1750-1799</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/nr2002016501"
                    rules="aacr"
                    source="naf">
-            <part>Starr, Peter, 1744-1829</part>
+            <part localtype="agent_person">Starr, Peter, 1744-1829</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref13" level="series">
+         <c altrender="/repositories/12/archival_objects/1258773"
+            id="ref13"
+            level="series">
             <did>
                <unittitle>PETER STARR SERMONS</unittitle>
                <unitid>Series I</unitid>
@@ -203,7 +218,7 @@
                   <unittype>Linear Feet</unittype>
                </physdescstructured>
                <physdesc localtype="container_summary">15 boxes</physdesc>
-               <unitdatestructured unitdatetype="inclusive" altrender="1769-1829">
+               <unitdatestructured altrender="1769-1829" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1769">1769</fromdate>
                      <todate standarddate="1829">1829</todate>
@@ -214,314 +229,407 @@
                <head>Scope and Contents</head>
                <p>The sermons are arranged chronologically. Undated sermons are organized by biblical text, if known, with funeral sermons, fragments, and notes at the end. One journal and one set of church meeting minutes have been placed at the end of the series.</p>
             </scopecontent>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1258774"
+               id="ref15"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1769-1774 June">
+                  <unitdatestructured altrender="1769-1774 June"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
-                        <fromdate standarddate="1769-01">1769-01</fromdate>
-                        <todate standarddate="1774-06">1774-06</todate>
+                        <fromdate standarddate="1769-01">1769 January</fromdate>
+                        <todate standarddate="1774-06">1774 June</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143293 /locations/9"
                              containerid="39002042284324"
+                             encodinganalog="archive letter"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">1-12</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1258775"
+               id="ref16"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1774 July - 1778 April">
+                  <unitdatestructured altrender="1774 July - 1778 April"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
-                        <fromdate standarddate="1774-07">1774-07</fromdate>
-                        <todate standarddate="1778-04">1778-04</todate>
+                        <fromdate standarddate="1774-07">1774 July</fromdate>
+                        <todate standarddate="1778-04">1778 April</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143294 /locations/9"
                              containerid="39002042284332"
+                             encodinganalog="archive letter"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">13-24</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1258776"
+               id="ref17"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1778 May-1781">
+                  <unitdatestructured altrender="1778 May-1781" label="creation" unitdatetype="inclusive">
                      <daterange>
-                        <fromdate standarddate="1778-05">1778-05</fromdate>
-                        <todate standarddate="1781-12">1781-12</todate>
+                        <fromdate standarddate="1778-05">1778 May</fromdate>
+                        <todate standarddate="1781-12">1781 December</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143295 /locations/9"
                              containerid="39002042284340"
+                             encodinganalog="archive letter"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">25-35</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1258777"
+               id="ref18"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1782 -1785 September">
+                  <unitdatestructured altrender="1782 -1785 September"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
-                        <fromdate standarddate="1782-01">1782-01</fromdate>
-                        <todate standarddate="1785-09">1785-09</todate>
+                        <fromdate standarddate="1782-01">1782 January</fromdate>
+                        <todate standarddate="1785-09">1785 September</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143296 /locations/9"
                              containerid="39002042284357"
+                             encodinganalog="archive letter"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">36-46</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1258778"
+               id="ref19"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1785 October - 1788 March">
+                  <unitdatestructured altrender="1785 October - 1788 March"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
-                        <fromdate standarddate="1785-10">1785-10</fromdate>
-                        <todate standarddate="1788-03">1788-03</todate>
+                        <fromdate standarddate="1785-10">1785 October</fromdate>
+                        <todate standarddate="1788-03">1788 March</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143297 /locations/9"
                              containerid="39002042284365"
+                             encodinganalog="archive letter"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">47-53</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1258779"
+               id="ref20"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1788 April - 1789">
+                  <unitdatestructured altrender="1788 April - 1789"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
-                        <fromdate standarddate="1788-04">1788-04</fromdate>
-                        <todate standarddate="1789-12">1789-12</todate>
+                        <fromdate standarddate="1788-04">1788 April</fromdate>
+                        <todate standarddate="1789-12">1789 December</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143298 /locations/9"
                              containerid="39002042284373"
+                             encodinganalog="archive letter"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">54-60</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1258780"
+               id="ref21"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1790-1791">
+                  <unitdatestructured altrender="1790-1791" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1790">1790</fromdate>
                         <todate standarddate="1791">1791</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143299 /locations/9"
                              containerid="39002042284381"
+                             encodinganalog="archive letter"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">61-67</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1258781"
+               id="ref22"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1792 - 1794 September">
+                  <unitdatestructured altrender="1792 - 1794 September"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
-                        <fromdate standarddate="1792-01">1792-01</fromdate>
-                        <todate standarddate="1794-09">1794-09</todate>
+                        <fromdate standarddate="1792-01">1792 January</fromdate>
+                        <todate standarddate="1794-09">1794 September</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143300 /locations/9"
                              containerid="39002042284399"
+                             encodinganalog="archive letter"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">68-79</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1258782"
+               id="ref23"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1794 October -1798 April">
+                  <unitdatestructured altrender="1794 October -1798 April"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
-                        <fromdate standarddate="1794-10">1794-10</fromdate>
-                        <todate standarddate="1798-04">1798-04</todate>
+                        <fromdate standarddate="1794-10">1794 October</fromdate>
+                        <todate standarddate="1798-04">1798 April</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143301 /locations/9"
                              containerid="39002042284407"
+                             encodinganalog="archive letter"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                   <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">80-92</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1258783"
+               id="ref24"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1798 May -1802 March">
+                  <unitdatestructured altrender="1798 May -1802 March"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
-                        <fromdate standarddate="1798-05">1798-05</fromdate>
-                        <todate standarddate="1802-03">1802-03</todate>
+                        <fromdate standarddate="1798-05">1798 May</fromdate>
+                        <todate standarddate="1802-03">1802 March</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143302 /locations/9"
                              containerid="39002042284415"
+                             encodinganalog="archive letter"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">93-104</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1258784"
+               id="ref25"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1802 April -1806 March">
+                  <unitdatestructured altrender="1802 April -1806 March"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
-                        <fromdate standarddate="1802-04">1802-04</fromdate>
-                        <todate standarddate="1806-03">1806-03</todate>
+                        <fromdate standarddate="1802-04">1802 April</fromdate>
+                        <todate standarddate="1806-03">1806 March</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143303 /locations/9"
                              containerid="39002042284423"
+                             encodinganalog="archive letter"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>
                   <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">105-116</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1258785"
+               id="ref26"
+               level="file">
                <did>
-                  <unitdate unitdatetype="inclusive">1806 April - 1808 Jul, 1808 September-1809</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">1806 April - 1808 Jul, 1808 September-1809</unitdate>
+                  <container altrender="/repositories/12/top_containers/143304 /locations/9"
                              containerid="39002042284431"
+                             encodinganalog="archive letter"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">12</container>
                   <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">117-129</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1258786"
+               id="ref27"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1810 -1815">
+                  <unitdatestructured altrender="1810 -1815" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1810">1810</fromdate>
                         <todate standarddate="1815">1815</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143305 /locations/9"
                              containerid="39002042284449"
+                             encodinganalog="archive letter"
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">13</container>
                   <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">130-142</container>
                </did>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1258787"
+               id="ref28"
+               level="file">
                <did>
-                  <unitdate unitdatetype="inclusive">1816-1829, undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdatestructured altrender="1816-1829, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <daterange>
+                        <fromdate standarddate="1816">1816</fromdate>
+                        <todate standarddate="1829">1829</todate>
+                     </daterange>
+                  </unitdatestructured>
+                  <container altrender="/repositories/12/top_containers/143306 /locations/9"
                              containerid="39002042284456"
+                             encodinganalog="archive letter"
                              id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">14</container>
                   <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">143-150</container>
                </did>
             </c>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/1258788"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>Sermons based on Old Testament texts</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/143306 /locations/9"
                              containerid="39002042284456"
+                             encodinganalog="archive letter"
                              id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">14</container>
                   <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">151</container>
                </did>
             </c>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1258789"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Sermons based on New Testament texts</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/143306 /locations/9"
                              containerid="39002042284456"
+                             encodinganalog="archive letter"
                              id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">14</container>
                   <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">152-153</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1258790"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Funeral sermons</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/143306 /locations/9"
                              containerid="39002042284456"
+                             encodinganalog="archive letter"
                              id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">14</container>
                   <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">154</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1258791"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>Fragments of sermons</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/143306 /locations/9"
                              containerid="39002042284456"
+                             encodinganalog="archive letter"
                              id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">14</container>
                   <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">155-156</container>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1258792"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>Fragments of sermons</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive half letter"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/143307 /locations/9"
                              containerid="39002042284464"
+                             encodinganalog="archive half letter"
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">15</container>
                   <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">157-160</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1258793"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>Notes for sermons</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive half letter"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/143307 /locations/9"
                              containerid="39002042284464"
+                             encodinganalog="archive half letter"
                              id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">15</container>
                   <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">161</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1258794"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Journal</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1770 June">
+                  <unitdatestructured altrender="1770 June" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1770-06">1770 June</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/143307 /locations/9"
                              containerid="39002042284464"
+                             encodinganalog="archive half letter"
                              id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">15</container>
                   <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">162</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1258795"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>Minutes of church meeting</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1774 August 31">
+                  <unitdatestructured altrender="1774 August 31"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1774-08-31">1774 August 31</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/143307 /locations/9"
                              containerid="39002042284464"
+                             encodinganalog="archive half letter"
                              id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">15</container>
@@ -529,7 +637,9 @@
                </did>
             </c>
          </c>
-         <c id="ref38" level="series">
+         <c altrender="/repositories/12/archival_objects/1258796"
+            id="ref38"
+            level="series">
             <did>
                <unittitle>SYLVANUS OSBORN SERMONS</unittitle>
                <unitid>Series II</unitid>
@@ -538,7 +648,7 @@
                   <unittype>Linear Feet</unittype>
                </physdescstructured>
                <physdesc localtype="container_summary">(1 box)</physdesc>
-               <unitdatestructured unitdatetype="inclusive" altrender="1758-1770">
+               <unitdatestructured altrender="1758-1770" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1758">1758</fromdate>
                      <todate standarddate="1770">1770</todate>
@@ -549,11 +659,21 @@
                <head>Scope and Contents</head>
                <p>The sermons are arranged chronologically.</p>
             </scopecontent>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1258797"
+               id="ref40"
+               level="file">
                <did>
-                  <unitdate unitdatetype="inclusive">1758 - 1770, undated</unitdate>
-                  <container altrender="archive half letter"
+                  <unitdatestructured altrender="1758 - 1770, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <daterange>
+                        <fromdate standarddate="1758">1758</fromdate>
+                        <todate standarddate="1770">1770</todate>
+                     </daterange>
+                  </unitdatestructured>
+                  <container altrender="/repositories/12/top_containers/143308 /locations/9"
                              containerid="39002042284472"
+                             encodinganalog="archive half letter"
                              id="aspace_ref40_c1"
                              label="Mixed Materials"
                              localtype="box">16</container>
@@ -561,11 +681,13 @@
                </did>
             </c>
          </c>
-         <c id="ref42" level="series">
+         <c altrender="/repositories/12/archival_objects/1258798"
+            id="ref42"
+            level="series">
             <did>
                <unittitle>JOHN KEEP SERMONS</unittitle>
                <unitid>Series III</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1770-1783">
+               <unitdatestructured altrender="1770-1783" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1770">1770</fromdate>
                      <todate standarddate="1783">1783</todate>
@@ -577,27 +699,40 @@
                <head>Scope and Contents</head>
                <p>This Series is arranged chronologically.</p>
             </scopecontent>
-            <c id="ref44" level="file">
+            <c altrender="/repositories/12/archival_objects/1258799"
+               id="ref44"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1770 - 1779">
+                  <unitdatestructured altrender="1770 - 1779" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1770">1770</fromdate>
                         <todate standarddate="1779">1779</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143309 /locations/9"
                              containerid="39002042284480"
+                             encodinganalog="archive letter"
                              id="aspace_ref44_c1"
                              label="Mixed Materials"
                              localtype="box">17</container>
                   <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">1-11</container>
                </did>
             </c>
-            <c id="ref45" level="file">
+            <c altrender="/repositories/12/archival_objects/1258800"
+               id="ref45"
+               level="file">
                <did>
-                  <unitdate unitdatetype="inclusive">1780-1783, undated</unitdate>
-                  <container altrender="archive half letter"
+                  <unitdatestructured altrender="1780-1783, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <daterange>
+                        <fromdate standarddate="1780">1780</fromdate>
+                        <todate standarddate="1783">1783</todate>
+                     </daterange>
+                  </unitdatestructured>
+                  <container altrender="/repositories/12/top_containers/143310 /locations/9"
                              containerid="39002042284498"
+                             encodinganalog="archive half letter"
                              id="aspace_ref45_c1"
                              label="Mixed Materials"
                              localtype="box">18</container>
@@ -605,7 +740,9 @@
                </did>
             </c>
          </c>
-         <c id="ref47" level="series">
+         <c altrender="/repositories/12/archival_objects/1258801"
+            id="ref47"
+            level="series">
             <did>
                <unittitle>JOHN STEVENS SERMONS</unittitle>
                <unitid>Series IV</unitid>
@@ -614,7 +751,7 @@
                   <unittype>Linear Foot</unittype>
                </physdescstructured>
                <physdesc localtype="container_summary">2 boxes</physdesc>
-               <unitdatestructured unitdatetype="inclusive" altrender="1780-1799">
+               <unitdatestructured altrender="1780-1799" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1780">1780</fromdate>
                      <todate standarddate="1799">1799</todate>
@@ -625,86 +762,130 @@
                <head>Scope and Contents</head>
                <p>This series is arranged chronologically, according to the numerical order of the sermons.</p>
             </scopecontent>
-            <c id="ref49" level="file">
+            <c altrender="/repositories/12/archival_objects/1258802"
+               id="ref49"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1780 - 1788">
+                  <unitdatestructured altrender="1780 - 1788" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1780">1780</fromdate>
                         <todate standarddate="1788">1788</todate>
                      </daterange>
                   </unitdatestructured>
                </did>
-               <c id="ref50" level="file">
+               <c altrender="/repositories/12/archival_objects/1258803"
+                  id="ref50"
+                  level="file">
                   <did>
                      <unittitle>#193 - #249</unittitle>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143311 /locations/9"
                                 containerid="39002042284506"
+                                encodinganalog="archive letter"
                                 id="aspace_ref50_c1"
                                 label="Mixed Materials"
                                 localtype="box">19</container>
                      <container id="aspace_ref50_c2" localtype="folder" parent="aspace_ref50_c1">1</container>
                   </did>
                </c>
-               <c id="ref51" level="file">
+               <c altrender="/repositories/12/archival_objects/1258804"
+                  id="ref51"
+                  level="file">
                   <did>
                      <unittitle>#250 - #298</unittitle>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143311 /locations/9"
                                 containerid="39002042284506"
+                                encodinganalog="archive letter"
                                 id="aspace_ref51_c1"
                                 label="Mixed Materials"
                                 localtype="box">19</container>
                      <container id="aspace_ref51_c2" localtype="folder" parent="aspace_ref51_c1">2</container>
                   </did>
                </c>
-               <c id="ref52" level="file">
+               <c altrender="/repositories/12/archival_objects/1258805"
+                  id="ref52"
+                  level="file">
                   <did>
                      <unittitle>#307 - #332</unittitle>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143311 /locations/9"
                                 containerid="39002042284506"
+                                encodinganalog="archive letter"
                                 id="aspace_ref52_c1"
                                 label="Mixed Materials"
                                 localtype="box">19</container>
                      <container id="aspace_ref52_c2" localtype="folder" parent="aspace_ref52_c1">3</container>
                   </did>
                </c>
-               <c id="ref53" level="file">
+               <c altrender="/repositories/12/archival_objects/1258806"
+                  id="ref53"
+                  level="file">
                   <did>
                      <unittitle>#333 - #359</unittitle>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143311 /locations/9"
                                 containerid="39002042284506"
+                                encodinganalog="archive letter"
                                 id="aspace_ref53_c1"
                                 label="Mixed Materials"
                                 localtype="box">19</container>
                      <container id="aspace_ref53_c2" localtype="folder" parent="aspace_ref53_c1">4</container>
                   </did>
                </c>
-               <c id="ref54" level="file">
+               <c altrender="/repositories/12/archival_objects/1258807"
+                  id="ref54"
+                  level="file">
                   <did>
                      <unittitle>#360 - #397</unittitle>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143311 /locations/9"
                                 containerid="39002042284506"
+                                encodinganalog="archive letter"
                                 id="aspace_ref54_c1"
                                 label="Mixed Materials"
                                 localtype="box">19</container>
                      <container id="aspace_ref54_c2" localtype="folder" parent="aspace_ref54_c1">5</container>
                   </did>
                </c>
-               <c id="ref55" level="file">
+               <c altrender="/repositories/12/archival_objects/1258808"
+                  id="ref55"
+                  level="file">
                   <did>
                      <unittitle>#403 - #432</unittitle>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143311 /locations/9"
                                 containerid="39002042284506"
+                                encodinganalog="archive letter"
                                 id="aspace_ref55_c1"
                                 label="Mixed Materials"
                                 localtype="box">19</container>
                      <container id="aspace_ref55_c2" localtype="folder" parent="aspace_ref55_c1">6</container>
                   </did>
                </c>
-               <c id="ref56" level="file">
+               <c altrender="/repositories/12/archival_objects/1258809"
+                  id="ref56"
+                  level="file">
                   <did>
                      <unittitle>#437 - #498</unittitle>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143311 /locations/9"
                                 containerid="39002042284506"
+                                encodinganalog="archive letter"
                                 id="aspace_ref56_c1"
                                 label="Mixed Materials"
                                 localtype="box">19</container>
@@ -712,143 +893,182 @@
                   </did>
                </c>
             </c>
-            <c id="ref57" level="file">
+            <c altrender="/repositories/12/archival_objects/1258810"
+               id="ref57"
+               level="file">
                <did>
                   <unittitle>1788 - 1789, #500 - #543</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143311 /locations/9"
                              containerid="39002042284506"
+                             encodinganalog="archive letter"
                              id="aspace_ref57_c1"
                              label="Mixed Materials"
                              localtype="box">19</container>
                   <container id="aspace_ref57_c2" localtype="folder" parent="aspace_ref57_c1">8</container>
                </did>
             </c>
-            <c id="ref58" level="file">
+            <c altrender="/repositories/12/archival_objects/1258811"
+               id="ref58"
+               level="file">
                <did>
                   <unittitle>1789, #547 - #598</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143311 /locations/9"
                              containerid="39002042284506"
+                             encodinganalog="archive letter"
                              id="aspace_ref58_c1"
                              label="Mixed Materials"
                              localtype="box">19</container>
                   <container id="aspace_ref58_c2" localtype="folder" parent="aspace_ref58_c1">9</container>
                </did>
             </c>
-            <c id="ref59" level="file">
+            <c altrender="/repositories/12/archival_objects/1258812"
+               id="ref59"
+               level="file">
                <did>
                   <unittitle>1790, #602 - #643</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143311 /locations/9"
                              containerid="39002042284506"
+                             encodinganalog="archive letter"
                              id="aspace_ref59_c1"
                              label="Mixed Materials"
                              localtype="box">19</container>
                   <container id="aspace_ref59_c2" localtype="folder" parent="aspace_ref59_c1">10</container>
                </did>
             </c>
-            <c id="ref60" level="file">
+            <c altrender="/repositories/12/archival_objects/1258813"
+               id="ref60"
+               level="file">
                <did>
                   <unittitle>1791, #644 - #669</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143311 /locations/9"
                              containerid="39002042284506"
+                             encodinganalog="archive letter"
                              id="aspace_ref60_c1"
                              label="Mixed Materials"
                              localtype="box">19</container>
                   <container id="aspace_ref60_c2" localtype="folder" parent="aspace_ref60_c1">11</container>
                </did>
             </c>
-            <c id="ref61" level="file">
+            <c altrender="/repositories/12/archival_objects/1258814"
+               id="ref61"
+               level="file">
                <did>
                   <unittitle>1791 Aug - Sep, #671 - #680</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143311 /locations/9"
                              containerid="39002042284506"
+                             encodinganalog="archive letter"
                              id="aspace_ref61_c1"
                              label="Mixed Materials"
                              localtype="box">19</container>
                   <container id="aspace_ref61_c2" localtype="folder" parent="aspace_ref61_c1">12</container>
                </did>
             </c>
-            <c id="ref62" level="file">
+            <c altrender="/repositories/12/archival_objects/1258815"
+               id="ref62"
+               level="file">
                <did>
                   <unittitle>1792 Jan - May, #685 - #699</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143312 /locations/9"
                              containerid="39002042284514"
+                             encodinganalog="archive letter"
                              id="aspace_ref62_c1"
                              label="Mixed Materials"
                              localtype="box">20</container>
                   <container id="aspace_ref62_c2" localtype="folder" parent="aspace_ref62_c1">13</container>
                </did>
             </c>
-            <c id="ref63" level="file">
+            <c altrender="/repositories/12/archival_objects/1258816"
+               id="ref63"
+               level="file">
                <did>
                   <unittitle>1792 Jun - Dec, #704 - #721</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143312 /locations/9"
                              containerid="39002042284514"
+                             encodinganalog="archive letter"
                              id="aspace_ref63_c1"
                              label="Mixed Materials"
                              localtype="box">20</container>
                   <container id="aspace_ref63_c2" localtype="folder" parent="aspace_ref63_c1">14</container>
                </did>
             </c>
-            <c id="ref64" level="file">
+            <c altrender="/repositories/12/archival_objects/1258817"
+               id="ref64"
+               level="file">
                <did>
                   <unittitle>1793, #722 - #751</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143312 /locations/9"
                              containerid="39002042284514"
+                             encodinganalog="archive letter"
                              id="aspace_ref64_c1"
                              label="Mixed Materials"
                              localtype="box">20</container>
                   <container id="aspace_ref64_c2" localtype="folder" parent="aspace_ref64_c1">15</container>
                </did>
             </c>
-            <c id="ref65" level="file">
+            <c altrender="/repositories/12/archival_objects/1258818"
+               id="ref65"
+               level="file">
                <did>
                   <unittitle>1793, #752 - #778</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143312 /locations/9"
                              containerid="39002042284514"
+                             encodinganalog="archive letter"
                              id="aspace_ref65_c1"
                              label="Mixed Materials"
                              localtype="box">20</container>
                   <container id="aspace_ref65_c2" localtype="folder" parent="aspace_ref65_c1">16</container>
                </did>
             </c>
-            <c id="ref66" level="file">
+            <c altrender="/repositories/12/archival_objects/1258819"
+               id="ref66"
+               level="file">
                <did>
                   <unittitle>1793, #779 - #785</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143312 /locations/9"
                              containerid="39002042284514"
+                             encodinganalog="archive letter"
                              id="aspace_ref66_c1"
                              label="Mixed Materials"
                              localtype="box">20</container>
                   <container id="aspace_ref66_c2" localtype="folder" parent="aspace_ref66_c1">17</container>
                </did>
             </c>
-            <c id="ref67" level="file">
+            <c altrender="/repositories/12/archival_objects/1258820"
+               id="ref67"
+               level="file">
                <did>
                   <unittitle>n.d. (1780 - 1793), New Concord Society</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143312 /locations/9"
                              containerid="39002042284514"
+                             encodinganalog="archive letter"
                              id="aspace_ref67_c1"
                              label="Mixed Materials"
                              localtype="box">20</container>
                   <container id="aspace_ref67_c2" localtype="folder" parent="aspace_ref67_c1">18-21</container>
                </did>
             </c>
-            <c id="ref68" level="file">
+            <c altrender="/repositories/12/archival_objects/1258821"
+               id="ref68"
+               level="file">
                <did>
                   <unittitle>n.d. (1793 - 1799), New Marlborough, South</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143312 /locations/9"
                              containerid="39002042284514"
+                             encodinganalog="archive letter"
                              id="aspace_ref68_c1"
                              label="Mixed Materials"
                              localtype="box">20</container>
                   <container id="aspace_ref68_c2" localtype="folder" parent="aspace_ref68_c1">22</container>
                </did>
             </c>
-            <c id="ref69" level="file">
+            <c altrender="/repositories/12/archival_objects/1258822"
+               id="ref69"
+               level="file">
                <did>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/143312 /locations/9"
                              containerid="39002042284514"
+                             encodinganalog="archive letter"
                              id="aspace_ref69_c1"
                              label="Mixed Materials"
                              localtype="box">20</container>
@@ -856,7 +1076,9 @@
                </did>
             </c>
          </c>
-         <c id="ref71" level="series">
+         <c altrender="/repositories/12/archival_objects/1258823"
+            id="ref71"
+            level="series">
             <did>
                <unittitle>MISCELLANEOUS SERMONS 
 </unittitle>
@@ -866,18 +1088,21 @@
                   <unittype>Linear Feet</unittype>
                </physdescstructured>
                <physdesc localtype="container_summary">(1 box)</physdesc>
-               <unitdate unitdatetype="inclusive">undated</unitdate>
+               <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
             </did>
             <scopecontent id="aspace_1c99018d0b0934634acff86c43c6ec9d">
                <head>Scope and Contents</head>
                <p>These sermons are all unidentified and undated.</p>
             </scopecontent>
-            <c id="ref73" level="file">
+            <c altrender="/repositories/12/archival_objects/1258824"
+               id="ref73"
+               level="file">
                <did>
                   <unittitle>Sermons</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive half letter"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/143313 /locations/9"
                              containerid="39002042284522"
+                             encodinganalog="archive half letter"
                              id="aspace_ref73_c1"
                              label="Mixed Materials"
                              localtype="box">21</container>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0065">mssa.ms.0065</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0065">mssa.ms.0065</recordid>
+      <otherrecordid localtype="BIB">613762</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Bates Family Papers
@@ -32,6 +34,11 @@
             <date>July 1981</date>
             <num>MS 65</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T08:34:38+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T07:10:20+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 08:34</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 07:10</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2916" level="collection">
       <did>
          <unittitle>Bates family papers</unittitle>
          <unitid>MS 65</unitid>
@@ -83,37 +93,36 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1788-1880">
+         <unitdatestructured altrender="1788-1880" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1788">1788</fromdate>
                <todate standarddate="1880">1880</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_74d75dd44f8400b0290885e262e33256">Miscellaneous papers of the Bates family of Springfield, Massachusetts. One of the two principal figures is Elijah Bates (Y.1794) with accounts of his expenses at Yale College, some notes on his reading and the text of a play in which he took part. Isaac Chapman Bates (Y.1802) is represented with a petition to the president of Yale College, two letters and an obituary notice.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <famname identifier="http://id.loc.gov/authorities/subjects/sh85012320"
                      source="lcsh">
-               <part>Bates family</part>
+               <part localtype="agent_family">Bates family</part>
             </famname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_bf5907e05230227f72cb4824852bab57">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of W.B. Greenough, 1944, and of Gelston Hardy, 1965; further material purchased in 1968.</p>  
+         <p>Gift of W.B. Greenough, 1944, and of Gelston Hardy, 1965; further material purchased in 1968.</p>
       </acqinfo>
       <accessrestrict id="aspace_c3f88cf7f32c8cad2fa1f6dda0b63b3e">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_022912afc6ea6542d68c602e2bcc5c29">
          <head>Preferred Citation</head>
-         <p>Bates Family Papers (MS 65). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Bates Family Papers (MS 65). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_592ec71dc3287d1fec8c4eddfabdd66a">
          <head>Scope and Contents</head>
          <p>This collection contains a small amount of material concerning members of the Bates family of Springfield, Massachusetts. Included are a few items of correspondence, a journal of court cases in Springfield, and papers relating to the Yale careers of Elijah Bates (class of 1794) and Isaac C. Bates (class of 1802).</p>
-         <p>The papers were acquired through gifts from W. B. Greenough in 1944, from Gelston Hardy in 1965, and by purchase in 1968.</p>  
+         <p>The papers were acquired through gifts from W. B. Greenough in 1944, from Gelston Hardy in 1965, and by purchase in 1968.</p>
       </scopecontent>
       <bioghist id="aspace_b01acf581bf9a821fbb7e3e8c4ddf407">
          <head>Biographical / Historical</head>
@@ -136,233 +145,277 @@
          <p>They had five daughters and three sons. The eldest daughter married the Rev. Fordyce M. Hubbard (Williams Coll. 1828); the second daughter married the Hon. Samuel H. Walley (Harvard 1826); the third daughter married Lewis J. Dudly (Yale 1838); the fourth daughter married Haynes H. Chilson (Amherst Coll. 1843); and the youngest married, first, Charles F. Smith (Amherst 1838), and secondly, John A. Dana (Yale 1844). The eldest son was graduated here in 1833; the youngest died in infancy.</p>
          <p>(F. B. Dexter, <title render="italic">
                <part>Yale Biographies and Annals</part>
-            </title>, 1795-1805, pages 470-1805)</p>  
+            </title>, 1795-1805, pages 470-1805)</p>
       </bioghist>
       <userestrict id="aspace_2b8de3468a0a6457b3c83e2382aca01b">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075119"
                   source="lcsh">
-            <part>Law</part>
+            <part localtype="topical">Law</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/n79065976"
                    source="lcsh">
-            <part>Springfield (Mass.)</part>
+            <part localtype="geographic">Springfield (Mass.)</part>
          </geogname>
          <persname identifier="http://id.loc.gov/authorities/names/n2015041116"
                    rules="aacr"
                    source="naf">
-            <part>Bates, Elijah, 1770-1850</part>
+            <part localtype="agent_person">Bates, Elijah, 1770-1850</part>
          </persname>
          <persname source="local">
-            <part>Bates, Isaac Chapman, 1780-1845</part>
+            <part localtype="agent_person">Bates, Isaac Chapman, 1780-1845</part>
          </persname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85012320"
                   source="lcsh">
-            <part>Bates family</part>
+            <part localtype="agent_family">Bates family</part>
          </famname>
          <corpname rules="aacr" source="local">
-            <part>Yale College (1718-1887). Class of 1794</part>
+            <part localtype="agent_corporate_entity">Yale College (1718-1887). Class of 1794</part>
          </corpname>
          <corpname source="local">
-            <part>Yale College (1718-1887). Class of 1802</part>
+            <part localtype="agent_corporate_entity">Yale College (1718-1887). Class of 1802</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1171620"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Ashley, John (1736-1799). Photostatic copy of his appointed as major general in the Massachusetts militia</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1788 November 19">
+               <unitdatestructured altrender="1788 November 19"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1880">1880</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/129936 /locations/9"
                           containerid="39002038051281"
-                          id="d1e304"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e306" localtype="folder" parent="d1e304">1</container>
+               <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1171621"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Bates, Elijah (1770-1850; Y. 1794)</unittitle>
             </did>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1171622"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Account of expenses in Yale College with some notes on his reading</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1790, 1794">
+                  <unitdatestructured altrender="1790, 1794" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1788">1788</fromdate>
                         <todate standarddate="1880">1880</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/129936 /locations/9"
                              containerid="39002038051281"
-                             id="d1e328"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e330" localtype="folder" parent="d1e328">2</container>
+                  <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">2</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1171623"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Play produced at Quarter Day, 1793 Mar 13, in which E. Bates took part</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1793?]">
+                  <unitdatestructured altrender="[1793?]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1793">1793</fromdate>
                         <todate standarddate="1793">1793</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/129936 /locations/9"
                              containerid="39002038051281"
-                             id="d1e346"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e348" localtype="folder" parent="d1e346">3</container>
+                  <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">3</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1171624"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Journal of court cases at Springfield, Hampden Co., Mass., possibly kept by E. Bates</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1815 August-1828 November">
+                  <unitdatestructured altrender="1815 August-1828 November"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1788">1788</fromdate>
                         <todate standarddate="1880">1880</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/129936 /locations/9"
                              containerid="39002038051281"
-                             id="d1e364"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e366" localtype="folder" parent="d1e364">4</container>
+                  <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">4</container>
                </did>
             </c>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1171625"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Bates, Isaac Chapman (1779-1845; Y. 1802)</unittitle>
             </did>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1171626"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>AMS, petition to the President of Yale College</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1800-1801?]">
+                  <unitdatestructured altrender="[1800-1801?]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1800">1800</fromdate>
                         <todate standarddate="1801">1801</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/129936 /locations/9"
                              containerid="39002038051281"
-                             id="d1e388"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e390" localtype="folder" parent="d1e388">5</container>
+                  <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">5</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1171627"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>ALS to Hm. E. Lane [i.e. Ebenezer Lane (1793-1866)?]</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1835">
+                  <unitdatestructured altrender="1835" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1835">1835</fromdate>
                         <todate standarddate="1835">1835</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/129936 /locations/9"
                              containerid="39002038051281"
-                             id="d1e406"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e408" localtype="folder" parent="d1e406">6</container>
+                  <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">6</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1171628"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>ALS to Thomas Aspinvale</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1841">
+                  <unitdatestructured altrender="1841" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1841">1841</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/129936 /locations/9"
                              containerid="39002038051281"
-                             id="d1e424"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e426" localtype="folder" parent="d1e424">6</container>
+                  <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">6</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1171629"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Obituary notice</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1845">
+                  <unitdatestructured altrender="1845" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1845">1845</fromdate>
                         <todate standarddate="1845">1845</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/129936 /locations/9"
                              containerid="39002038051281"
-                             id="d1e442"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e444" localtype="folder" parent="d1e442">6</container>
+                  <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">6</container>
                </did>
             </c>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1171630"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>Bates, William Gelston (1803-1880; Y. 1825)</unittitle>
             </did>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1171631"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>Photostatic copy of ALS to his mother, Mary (Ashley) Bates [Mrs. Elijah Bates]</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1824">
+                  <unitdatestructured altrender="1824" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1824">1824</fromdate>
                         <todate standarddate="1824">1824</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/129936 /locations/9"
                              containerid="39002038051281"
-                             id="d1e466"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e468" localtype="folder" parent="d1e466">7</container>
+                  <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">7</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1171632"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Photostatic copy of eulogy in the <title render="italic">
                         <part>Springfield Daily Republican</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1880 December 7">
+                  <unitdatestructured altrender="1880 December 7"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1788">1788</fromdate>
                         <todate standarddate="1880">1880</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/129936 /locations/9"
                              containerid="39002038051281"
-                             id="d1e487"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e489" localtype="folder" parent="d1e487">8</container>
+                  <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">8</container>
                </did>
             </c>
          </c>

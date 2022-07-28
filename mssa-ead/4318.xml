@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0975">mssa.ms.0975</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0975">mssa.ms.0975</recordid>
+      <otherrecordid localtype="BIB">614655</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the George L. Fox Papers
@@ -32,6 +34,14 @@
             <date>October 1982</date>
             <num>MS 975</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+            <controlnote localtype="digital">
+               <p>This collection contains <num localtype="objects" altrender="1">1</num> published digital object. And that object are comprised of <num localtype="files" altrender="1">1</num> digital files.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +49,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +63,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +72,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:28:35+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:20:09+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:28</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:20</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4318" level="collection">
       <did>
          <unittitle>George Levi Fox papers</unittitle>
          <unitid>MS 975</unitid>
@@ -82,37 +95,36 @@
             <quantity>0.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1874-1930">
+         <unitdatestructured altrender="1874-1930" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1874">1874</fromdate>
                <todate standarddate="1930">1930</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_17612b9cdc9c2248b7f856ab85e0eea0">Outgoing letters, draft of a Ph.D. dissertation, a diary, clippings, printed matter, and miscellaneous papers. The outgoing letters consist of a letter book about George L. Fox's investments in Florida orange groves in the 1880s and a series of drafts of letters to various newspapers on Irish and English politics (1917-1925). The diary records his travels in England and Europe in 1921 and 1923.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Fox, George L. (George Levi), 1852-1931</part>
+               <part localtype="agent_person">Fox, George L. (George Levi), 1852-1931</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_ec0b4a613213e4ec09869a2e1f985126">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of the estate of George L. Fox, 1931.</p>  
+         <p>Gift of the estate of George L. Fox, 1931.</p>
       </acqinfo>
       <accessrestrict id="aspace_be337fa13b64f689ea302b8d1c9320e9">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_383907d90315859a39900c2ba8f90759">
          <head>Preferred Citation</head>
-         <p>George Levi Fox Papers (MS 975). Manuscripts and Archives, Yale University Library.</p>  
+         <p>George Levi Fox Papers (MS 975). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_59e3107256d970366a5891f4a01bc267">
          <head>Scope and Contents</head>
          <p>This collection brings together various items pertaining to George Levi Fox. Three bound volumes are included, one a letterbook concerned with Fox's investments in Florida orange groves in the 1880s, the second a diary for 1921 and 1923 containing scattered entries about travels to Europe and England, and the third a thesis submitted for the Ph.D. at Yale University (no degree was conferred).</p>
          <p>The bulk of the collection consists of writings by and about Fox. Included are a number of typescript and manuscript drafts of essays, addresses, and letters to the editor on politics and education, newspaper clippings and other printed matter largely on English and Irish politics and on education, and several articles about Fox's activities on behalf of the Labour Party in England and against Irish Independence. There are, finally, several miscellaneous items of memorabilia and printed matter.</p>
-         <p>These papers were the gift to Yale University of the estate of George L. Fox in 1931.</p>  
+         <p>These papers were the gift to Yale University of the estate of George L. Fox in 1931.</p>
       </scopecontent>
       <bioghist id="aspace_2188022a8efb1b0887e99ee304b28ab9">
          <head>Biographical / Historical</head>
@@ -150,286 +162,373 @@
          <p>Death due to acute myocardial failure and diabetes mellitus. Buried in Evergreen Cemetery, New Haven. Survived by two nephews, one of whom is Edward L. Fox, '93 S. By the terms of his will Yale was made one of the residuary legatees, the bequest to be used for scholarships to be known as the George L. Fox Scholarships; his library also was given to Yale University with the provision that duplicates should be made available to the New Haven Public Library.</p>
          <p>(Taken from <title render="italic">
                <part>Yale University Obituary Record</part>
-            </title>).</p>  
+            </title>).</p>
       </bioghist>
       <userestrict id="aspace_afea7bee8dc01c50803f88114e39ab40">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <geogname source="local">
-            <part>Florida -- Industry</part>
+            <part localtype="geographic">Florida</part>
+            <part localtype="topical">Industry</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85056918"
                    source="lcsh">
-            <part>Great Britain -- Politics and government -- 1910-1936</part>
+            <part localtype="geographic">Great Britain</part>
+            <part localtype="topical">Politics and government</part>
+            <part localtype="temporal">1910-1936</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027112" source="aat">
-            <part>Diaries</part>
+            <part localtype="genre_form">Diaries</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <persname source="local">
-            <part>Fox, George L. (George Levi), 1852-1931</part>
+            <part localtype="agent_person">Fox, George L. (George Levi), 1852-1931</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1354757"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Letterbook relating to orange groves in Florida</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1883-1885">
+               <unitdatestructured altrender="1883-1885" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1883">1883</fromdate>
                      <todate standarddate="1885">1885</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151739 /locations/9"
                           containerid="39002042281528"
+                          encodinganalog="archive legal"
                           id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
+               <daoset altrender="/repositories/12/digital_objects/182885">
+                  <dao actuate="onrequest"
+                       daotype="unknown"
+                       href="https://collections.library.yale.edu/manifests/10020666"
+                       identifier="oid:10020666"
+                       linktitle="1 images"
+                       linkrole="text-json"
+                       show="embed"/>
+                  <dao actuate="onrequest"
+                       daotype="unknown"
+                       href="https://collections.library.yale.edu/iiif/2/32292038/full/!150,150/0/default.jpg"
+                       identifier="oid:10020666"
+                       linktitle="Letter from Edward A. Bouchet to George Fox."
+                       linkrole="image-thumbnail"
+                       show="embed"/>
+                  <dao actuate="onrequest"
+                       daotype="unknown"
+                       href="https://collections.library.yale.edu/catalog/10020666"
+                       identifier="oid:10020666"
+                       linktitle="Letter from Edward A. Bouchet to George Fox."
+                       linkrole="text-html"
+                       show="new"/>
+                  <descriptivenote>
+                     <p>Letterbook relating to orange groves in Florida</p>
+                  </descriptivenote>
+               </daoset>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1354758"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>London diary</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1921, 1923">
+               <unitdatestructured altrender="1921, 1923" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1874">1874</fromdate>
                      <todate standarddate="1930">1930</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151739 /locations/9"
                           containerid="39002042281528"
+                          encodinganalog="archive legal"
                           id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1354759"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Writings</unittitle>
             </did>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1354760"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>"Charitable Endowments among the Romans up to the Time of Constantine," a thesis submitted for the Ph.D. at Yale (but no degree was awarded)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1907">
+                  <unitdatestructured altrender="1907" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1907">1907</fromdate>
                         <todate standarddate="1907">1907</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151739 /locations/9"
                              containerid="39002042281528"
+                             encodinganalog="archive legal"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">3</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1354761"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Draft article for <title render="italic">
                         <part>Political Science Quarterly</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1916">
+                  <unitdatestructured altrender="1916" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1916">1916</fromdate>
                         <todate standarddate="1916">1916</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151739 /locations/9"
                              containerid="39002042281528"
+                             encodinganalog="archive legal"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">4</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1354762"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Draft letter to the <title render="italic">
                         <part>New York Times</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1917">
+                  <unitdatestructured altrender="1917" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1917">1917</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151739 /locations/9"
                              containerid="39002042281528"
+                             encodinganalog="archive legal"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">4</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1354763"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Testimony before the Committee on Education of the Connecticut General Assembly</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1918">
+                  <unitdatestructured altrender="1918" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1918">1918</fromdate>
                         <todate standarddate="1918">1918</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151739 /locations/9"
                              containerid="39002042281528"
+                             encodinganalog="archive legal"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">4</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1354764"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Draft letter to the <title render="italic">
                         <part>Literary Review</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1922">
+                  <unitdatestructured altrender="1922" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1922">1922</fromdate>
                         <todate standarddate="1922">1922</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151739 /locations/9"
                              containerid="39002042281528"
+                             encodinganalog="archive legal"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">4</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1354765"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Draft letter to the <title render="italic">
                         <part>Spectator</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1923">
+                  <unitdatestructured altrender="1923" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1923">1923</fromdate>
                         <todate standarddate="1923">1923</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151739 /locations/9"
                              containerid="39002042281528"
+                             encodinganalog="archive legal"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">5</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1354766"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Draft letter to the <title render="italic">
                         <part>Journal-Courier</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1925">
+                  <unitdatestructured altrender="1925" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1925">1925</fromdate>
                         <todate standarddate="1925">1925</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151739 /locations/9"
                              containerid="39002042281528"
+                             encodinganalog="archive legal"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">5</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1354767"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>"Brief of an address to the [New Haven] Board of Finance with regard to the Budget of the Board of Education"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1874">1874</fromdate>
                         <todate standarddate="1930">1930</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151739 /locations/9"
                              containerid="39002042281528"
+                             encodinganalog="archive legal"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">5</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1354768"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>"The Criminal Immorality of Germany"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1874">1874</fromdate>
                         <todate standarddate="1930">1930</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151739 /locations/9"
                              containerid="39002042281528"
+                             encodinganalog="archive legal"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">5</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1354769"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>"American Opinion on Irish Affairs"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1874">1874</fromdate>
                         <todate standarddate="1930">1930</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151739 /locations/9"
                              containerid="39002042281528"
+                             encodinganalog="archive legal"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">6</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1354770"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Draft letter to the <title render="italic">
                         <part>Journal-Courier</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1874">1874</fromdate>
                         <todate standarddate="1930">1930</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151739 /locations/9"
                              containerid="39002042281528"
+                             encodinganalog="archive legal"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">6</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1354771"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Clippings and printed matter</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1893-1930, undated">
+                  <unitdatestructured altrender="1893-1930, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1874">1874</fromdate>
                         <todate standarddate="1930">1930</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151739 /locations/9"
                              containerid="39002042281528"
+                             encodinganalog="archive legal"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -437,17 +536,20 @@
                </did>
             </c>
          </c>
-         <c id="ref27" level="file">
+         <c altrender="/repositories/12/archival_objects/1354772"
+            id="ref27"
+            level="file">
             <did>
                <unittitle>Miscellaneous papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1874-1923">
+               <unitdatestructured altrender="1874-1923" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1874">1874</fromdate>
                      <todate standarddate="1923">1923</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151739 /locations/9"
                           containerid="39002042281528"
+                          encodinganalog="archive legal"
                           id="aspace_ref27_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>

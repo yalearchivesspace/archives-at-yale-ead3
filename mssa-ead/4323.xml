@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0983">mssa.ms.0983</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0983">mssa.ms.0983</recordid>
+      <otherrecordid localtype="BIB">614663</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the William C. Marshall Papers
@@ -32,6 +34,11 @@
             <date>July 1983</date>
             <num>MS 983</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:53:28+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:20:34+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:53</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:20</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4323" level="collection">
       <did>
          <unittitle>William Crosby Marshall papers</unittitle>
          <unitid>MS 983</unitid>
@@ -82,31 +92,30 @@
             <quantity>1</quantity>
             <unittype>Linear Foot</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1893-1908">
+         <unitdatestructured altrender="1893-1908" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1893">1893</fromdate>
                <todate standarddate="1908">1908</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_5a139df2e2ab8201036b711b502edf17">The bulk of the papers consists of two textbooks and a notebook on the construction of ships dating from his enrollment in the École d'Application du Gènie Maritime in Paris, 1906-1907. Also included are later notebooks and drawings on engineering projects. Also in the papers is a commonplace book kept by Harriette N. Marshall.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Marshall, William Crosby, 1870-1934</part>
+               <part localtype="agent_person">Marshall, William Crosby, 1870-1934</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_c20c23ab8cd3e0d714a2a0ce567e63a2">
          <head>Immediate Source of Acquisition</head>
-         <p>Purchased in 1941.</p>  
+         <p>Purchased in 1941.</p>
       </acqinfo>
       <accessrestrict id="aspace_7e31c04e9b140de66e18ae21cb19ae12">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_d4070859d583be3ecfcb886caf19235a">
          <head>Preferred Citation</head>
-         <p>William Crosby Marshall Papers (MS 983). Manuscripts and Archives, Yale University Library.</p>  
+         <p>William Crosby Marshall Papers (MS 983). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_724b5cd06c53b1536de46531aca813c4">
          <head>Scope and Contents</head>
@@ -114,7 +123,7 @@
 Paris, 1906-1907. There are two textbooks in French and a notebook on the construction of ships. Other papers include two 
 further notebooks on engineering subjects kept while Marshall was working in the United States, and various geometrical 
 drawings. Finally, these papers are accompanied by a commonplace book kept by Harriette N. Marshall in the 1890s. A number of newspaper clippings and other loose papers are laid in. Harriette Marshall's relationship to William Marshall is not 
-known.</p>  
+known.</p>
       </scopecontent>
       <bioghist id="aspace_4fafccca23e4b3c80d8fe5ffe9d6b1c0">
          <head>Biographical / Historical</head>
@@ -129,144 +138,181 @@ known.</p>
          <p>Death due to acute miliary tuberculosis. Buried in Milford (Conn.) Cemetery. Survived by wife, son, stepmother, and a half brother, Dr. Samuel A. Marshall, '98.</p>
          <p>[Taken from <title render="italic">
                <part>Yale Obituary Record</part>
-            </title>, 1931-34, pages 156-7.]</p>  
+            </title>, 1931-34, pages 156-7.]</p>
       </bioghist>
       <userestrict id="aspace_160d998fe49638f3953375a71a8f172b">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject source="local">
-            <part>Americans -- France</part>
+            <part localtype="topical">Americans</part>
+            <part localtype="geographic">France</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85043176"
                   source="lcsh">
-            <part>Engineering</part>
+            <part localtype="topical">Engineering</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85121557"
                   source="lcsh">
-            <part>Shipbuilding</part>
+            <part localtype="topical">Shipbuilding</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85121579"
                   source="lcsh">
-            <part>Shipping</part>
+            <part localtype="topical">Shipping</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/n79006404"
                    source="lcsh">
-            <part>France</part>
+            <part localtype="geographic">France</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027093" source="aat">
-            <part>Commonplace books</part>
+            <part localtype="genre_form">Commonplace books</part>
          </genreform>
          <occupation source="local">
-            <part>Engineers</part>
+            <part localtype="occupation">Engineers</part>
          </occupation>
          <persname rules="aacr" source="local">
-            <part>Marshall, Harriette N.</part>
+            <part localtype="agent_person">Marshall, Harriette N.</part>
          </persname>
          <persname source="local">
-            <part>Marshall, William Crosby, 1870-1934</part>
+            <part localtype="agent_person">Marshall, William Crosby, 1870-1934</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1354803"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>William Crosby Marshall</unittitle>
             </did>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1354804"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Cours de Construction du navire, 2 vols., by M. Rougé</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1904-1905">
+                  <unitdatestructured altrender="1904-1905" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1904">1904</fromdate>
                         <todate standarddate="1905">1905</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151786 /locations/9"
                              containerid="39002042274184"
+                             encodinganalog="archive legal"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">1 - 2</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1354805"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Cours de Machines à Vapeur, by M. Lelong</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1902-1903">
+                  <unitdatestructured altrender="1902-1903" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1902">1902</fromdate>
                         <todate standarddate="1903">1903</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151787 /locations/9"
                              containerid="39002042274192"
+                             encodinganalog="archive legal"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">3</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1354806"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Notebooks</unittitle>
                </did>
-               <c id="ref16" level="file">
+               <c altrender="/repositories/12/archival_objects/1354807"
+                  id="ref16"
+                  level="file">
                   <did>
                      <unittitle>"Triple Expansion Engine"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1893">
+                     <unitdatestructured altrender="1893" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1893">1893</fromdate>
                            <todate standarddate="1893">1893</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/151787 /locations/9"
                                 containerid="39002042274192"
+                                encodinganalog="archive legal"
                                 id="aspace_ref16_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">4</container>
                   </did>
                </c>
-               <c id="ref17" level="file">
+               <c altrender="/repositories/12/archival_objects/1354808"
+                  id="ref17"
+                  level="file">
                   <did>
                      <unittitle>"Construction des Navires"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1906">
+                     <unitdatestructured altrender="1906" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1906">1906</fromdate>
                            <todate standarddate="1906">1906</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/151787 /locations/9"
                                 containerid="39002042274192"
+                                encodinganalog="archive legal"
                                 id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">5</container>
                   </did>
                </c>
-               <c id="ref18" level="file">
+               <c altrender="/repositories/12/archival_objects/1354809"
+                  id="ref18"
+                  level="file">
                   <did>
                      <unittitle>"Yacht Design"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1908">
+                     <unitdatestructured altrender="1908" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1908">1908</fromdate>
                            <todate standarddate="1908">1908</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/151787 /locations/9"
                                 containerid="39002042274192"
+                                encodinganalog="archive legal"
                                 id="aspace_ref18_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
@@ -274,17 +320,20 @@ known.</p>
                   </did>
                </c>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1354810"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Geometrical drawings</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1893">1893</fromdate>
                         <todate standarddate="1908">1908</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151787 /locations/9"
                              containerid="39002042274192"
+                             encodinganalog="archive legal"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
@@ -292,17 +341,20 @@ known.</p>
                </did>
             </c>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1354811"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>Harriette N. Marshall: commonplace book</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[1890s]">
+               <unitdatestructured altrender="[1890s]" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1890">1890</fromdate>
                      <todate standarddate="1899">1899</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151787 /locations/9"
                           containerid="39002042274192"
+                          encodinganalog="archive legal"
                           id="aspace_ref20_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>

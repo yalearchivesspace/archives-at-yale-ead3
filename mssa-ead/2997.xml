@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0630">mssa.ms.0630</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0630">mssa.ms.0630</recordid>
+      <otherrecordid localtype="BIB">614057</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Field Family Collection
@@ -32,6 +34,11 @@
             <date>September 1982</date>
             <num>MS 630</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T08:51:07+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:42:21+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 08:51</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:42</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2997" level="collection">
       <did>
          <unittitle>Field family collection</unittitle>
          <unitid>MS 630</unitid>
@@ -83,628 +93,752 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1804-1992">
+         <unitdatestructured altrender="1804-1992" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1804">1804</fromdate>
                <todate standarddate="1992">1992</todate>
             </daterange>
          </unitdatestructured>
-         <unitdatestructured unitdatetype="bulk">
+         <unitdatestructured label="creation" unitdatetype="bulk">
             <daterange>
                <fromdate standarddate="1804">1804</fromdate>
                <todate standarddate="1962">1962</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_261228ff60c8c68a4f3600fda0562ec5">The collection consists of clippings, printed and near-print materials, photographs and other papers concerning the Field family of Stockbridge, Massachusetts. Family members figuring prominently in this collection include Cyrus West Field (1819-1892) and David Dudley Field (1805-1894).</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <famname identifier="http://id.loc.gov/authorities/subjects/sh85048104"
                      source="lcsh">
-               <part>Field family</part>
+               <part localtype="agent_family">Field family</part>
             </famname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_bdc567fec23652b9f06544f98fc6bd67">
          <head>Immediate Source of Acquisition</head>
-         <p>The papers were removed from the Brewer Family Papers, MS99; and were the gift of Diane Druin Gravlee, 1992.</p>  
+         <p>The papers were removed from the Brewer Family Papers, MS99; and were the gift of Diane Druin Gravlee, 1992.</p>
       </acqinfo>
       <accessrestrict id="aspace_212528373cbc96026c5fbb4b970fa1c4">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_7ea5fe1e0a86839b5c19702454b9a1a1">
          <head>Preferred Citation</head>
-         <p>Field Family Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Field Family Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_1bdd45ca377a37fc906ca2e9681846fb">
          <head>Scope and Contents</head>
-         <p>The materials in the collection relate to the Field family of Stockbridge, Massachusetts. There are several scattered items of correspondence (folders 13, 22, 32), a small amount of memorabilia such as cards and invitations, and thirty photographs of family members and the Field house (folders 6, 12, 14, 20, 26). However, the bulk of the the collection consists of newspaper clippings and other printed matter about family members, in particular Cyrus W. Field, David Dudley Field, Emilia Ann (Field) Brewer, Rachel Lyman Field, Stephen Dudley Field and Stephen J. Field. The papers are arranged by family members. These papers were originally part of the David Josiah Brewer Papers, Manuscript Group Number 99.</p>  
+         <p>The materials in the collection relate to the Field family of Stockbridge, Massachusetts. There are several scattered items of correspondence (folders 13, 22, 32), a small amount of memorabilia such as cards and invitations, and thirty photographs of family members and the Field house (folders 6, 12, 14, 20, 26). However, the bulk of the the collection consists of newspaper clippings and other printed matter about family members, in particular Cyrus W. Field, David Dudley Field, Emilia Ann (Field) Brewer, Rachel Lyman Field, Stephen Dudley Field and Stephen J. Field. The papers are arranged by family members. These papers were originally part of the David Josiah Brewer Papers, Manuscript Group Number 99.</p>
       </scopecontent>
       <bioghist id="aspace_ecde96ffd5c8dff933ce248278471472">
          <head>Biographical / Historical</head>
-         <p>David Dudley Field (1805-1894): lawyer, law reformer; argued in the Milligan case (1867) concerning the jurisdiction of military courts as specified in the constituion; also faced controversy during the Erie Railroad litigation of 1869; most famous for his codification of the laws of New York state; also published Draft Outline of an International Code (1872), which was translated into Italian and French. Cyrus West Field (1819-1892): merchant, capitalist, promotor of the first Atlantic telegraph cable in 1866.</p>  
+         <p>David Dudley Field (1805-1894): lawyer, law reformer; argued in the Milligan case (1867) concerning the jurisdiction of military courts as specified in the constituion; also faced controversy during the Erie Railroad litigation of 1869; most famous for his codification of the laws of New York state; also published Draft Outline of an International Code (1872), which was translated into Italian and French. Cyrus West Field (1819-1892): merchant, capitalist, promotor of the first Atlantic telegraph cable in 1866.</p>
       </bioghist>
       <userestrict id="aspace_88e0e0ac4eba2df292ef6ef873419ea4">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown, though much of the material in this collection is likely in the public domain. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown, though much of the material in this collection is likely in the public domain. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/n50073869"
                    source="lcsh">
-            <part>Stockbridge (Mass.)</part>
+            <part localtype="geographic">Stockbridge (Mass.)</part>
          </geogname>
          <persname identifier="http://id.loc.gov/authorities/names/n85197407" source="naf">
-            <part>Field, Cyrus W. (Cyrus West), 1819-1892</part>
+            <part localtype="agent_person">Field, Cyrus W. (Cyrus West), 1819-1892</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n85319057"
                    rules="aacr"
                    source="naf">
-            <part>Field, David Dudley, 1805-1894</part>
+            <part localtype="agent_person">Field, David Dudley, 1805-1894</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50023354" source="naf">
-            <part>Field, Rachel, 1894-1942</part>
+            <part localtype="agent_person">Field, Rachel, 1894-1942</part>
          </persname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85048104"
                   source="lcsh">
-            <part>Field family</part>
+            <part localtype="agent_family">Field family</part>
          </famname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1180357"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Address by D. J. Brewer on the occasion of the presentation of an oil portrait of Cyrus W. Field to the town of Irvington-on-Hudson, New York</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1909 March 10">
+               <unitdatestructured altrender="1909 March 10" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1180358"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>"Field and His Cable," <title render="italic">
                      <part>American Jr. Red Cross News</part>
                   </title>, Frances Margaret Fox</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1939 January">
+               <unitdatestructured altrender="1939 January" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">2</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1180359"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Invitations and personal cards: Cyrus W. Field</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1879, undated">
+               <unitdatestructured altrender="1879, undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">3</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1180360"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Clippings: Cyrus W. Field</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">4</container>
             </did>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1180361"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Cover of <title render="italic">
                      <part>Success</part>
                   </title>
                </unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1898 January">
+               <unitdatestructured altrender="1898 January" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">5</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1180362"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Photos of Mr. and Mrs. Cyrus W. Field</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">6</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1180363"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>"A discourse delivered at the ordination of the Rev. David D. Field..." by John Elliott</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1804 April 11">
+               <unitdatestructured altrender="1804 April 11" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref17_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">7</container>
             </did>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1180364"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>Poem by David Dudley Field on his brother Henry's 70 th birthday</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1892 April 3">
+               <unitdatestructured altrender="1892 April 3" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref18_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">8</container>
             </did>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1180365"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>Clippings: Rev. David Dudley Field</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1894, undated">
+               <unitdatestructured altrender="1894, undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">9</container>
             </did>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1180366"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>Clippings: David Dudley Field (1805-1894)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref20_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">10</container>
             </did>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1180367"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>Extracts from notices of David Dudley Field (1805-1894)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1894">
+               <unitdatestructured altrender="1894" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1894">1894</fromdate>
                      <todate standarddate="1894">1894</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">11</container>
             </did>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1180368"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>Photos of David Dudley Field (1805-1894), one with Musgrave grandchildren</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref22_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">12</container>
             </did>
          </c>
-         <c id="ref23" level="file">
+         <c altrender="/repositories/12/archival_objects/1180369"
+            id="ref23"
+            level="file">
             <did>
                <unittitle>Letter from Emilia Ann Field Brewer to Mrs. David D. Field</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1831">
+               <unitdatestructured altrender="1831" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1831">1831</fromdate>
                      <todate standarddate="1831">1831</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref23_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">13</container>
             </did>
          </c>
-         <c id="ref24" level="file">
+         <c altrender="/repositories/12/archival_objects/1180370"
+            id="ref24"
+            level="file">
             <did>
                <unittitle>Photos: Emilia Ann Field (Mrs. Josiah Brewer)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref24_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">14</container>
             </did>
          </c>
-         <c id="ref25" level="file">
+         <c altrender="/repositories/12/archival_objects/1180371"
+            id="ref25"
+            level="file">
             <did>
                <unittitle>Advertisement: "All This and Heaven Too," by Rachel Field</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref25_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">15</container>
             </did>
          </c>
-         <c id="ref26" level="file">
+         <c altrender="/repositories/12/archival_objects/1180372"
+            id="ref26"
+            level="file">
             <did>
                <unittitle>Clippings: Rachel Lyman Field</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1938-1943, 1962, undated">
+               <unitdatestructured altrender="1938-1943, 1962, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref26_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">16</container>
             </did>
          </c>
-         <c id="ref27" level="file">
+         <c altrender="/repositories/12/archival_objects/1180373"
+            id="ref27"
+            level="file">
             <did>
                <unittitle>Clippings: Stephen Dudley Field</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[1913]">
+               <unitdatestructured altrender="[1913]" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1913">1913</fromdate>
                      <todate standarddate="1913">1913</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref27_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">17</container>
             </did>
          </c>
-         <c id="ref28" level="file">
+         <c altrender="/repositories/12/archival_objects/1180374"
+            id="ref28"
+            level="file">
             <did>
                <unittitle>In Memoriam: Stephen Dudley Field</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1913">
+               <unitdatestructured altrender="1913" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1913">1913</fromdate>
                      <todate standarddate="1913">1913</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref28_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">18</container>
             </did>
          </c>
-         <c id="ref29" level="file">
+         <c altrender="/repositories/12/archival_objects/1180375"
+            id="ref29"
+            level="file">
             <did>
                <unittitle>Articles and clippings: Justice Stephen J. Field</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1937, undated">
+               <unitdatestructured altrender="1937, undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref29_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">19</container>
             </did>
          </c>
-         <c id="ref30" level="file">
+         <c altrender="/repositories/12/archival_objects/1180376"
+            id="ref30"
+            level="file">
             <did>
                <unittitle>Photos: Stephen J. Field</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref30_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">20</container>
             </did>
          </c>
-         <c id="ref31" level="file">
+         <c altrender="/repositories/12/archival_objects/1180377"
+            id="ref31"
+            level="file">
             <did>
                <unittitle>Field Family announcement</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1861, undated">
+               <unitdatestructured altrender="1861, undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref31_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">21</container>
             </did>
          </c>
-         <c id="ref32" level="file">
+         <c altrender="/repositories/12/archival_objects/1180378"
+            id="ref32"
+            level="file">
             <did>
                <unittitle>Field Family correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1934, 1935, 1939, 1946">
+               <unitdatestructured altrender="1934, 1935, 1939, 1946"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref32_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">22</container>
             </did>
          </c>
-         <c id="ref33" level="file">
+         <c altrender="/repositories/12/archival_objects/1180379"
+            id="ref33"
+            level="file">
             <did>
                <unittitle>Clippings: Field Family</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1892-1941">
+               <unitdatestructured altrender="1892-1941" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1892">1892</fromdate>
                      <todate standarddate="1941">1941</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref33_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">23</container>
             </did>
          </c>
-         <c id="ref34" level="file">
+         <c altrender="/repositories/12/archival_objects/1180380"
+            id="ref34"
+            level="file">
             <did>
                <unittitle>Clippings: Fields in Stockbridge, Mass.</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1932, 1943, undated">
+               <unitdatestructured altrender="1932, 1943, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref34_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">24</container>
             </did>
          </c>
-         <c id="ref35" level="file">
+         <c altrender="/repositories/12/archival_objects/1180381"
+            id="ref35"
+            level="file">
             <did>
                <unittitle>Album: Field Family photos</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref35_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">25</container>
             </did>
          </c>
-         <c id="ref36" level="file">
+         <c altrender="/repositories/12/archival_objects/1180382"
+            id="ref36"
+            level="file">
             <did>
                <unittitle>Photographs: Field Family</unittitle>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref36_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">26</container>
             </did>
          </c>
-         <c id="ref37" level="file">
+         <c altrender="/repositories/12/archival_objects/1180383"
+            id="ref37"
+            level="file">
             <did>
                <unittitle>Manuscript genealogical chart of the Field and related families prepared by Clara Wells Herbert[in Brewer Collection]</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1958">
+               <unitdatestructured altrender="1958" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1958">1958</fromdate>
                      <todate standarddate="1958">1958</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref37_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">27</container>
             </did>
          </c>
-         <c id="ref38" level="file">
+         <c altrender="/repositories/12/archival_objects/1180384"
+            id="ref38"
+            level="file">
             <did>
                <unittitle>"Memoirs of a Notable Wedding," by Reginald Rowan Belnap</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1927 August 6">
+               <unitdatestructured altrender="1927 August 6" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref38_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">28</container>
             </did>
          </c>
-         <c id="ref39" level="file">
+         <c altrender="/repositories/12/archival_objects/1180385"
+            id="ref39"
+            level="file">
             <did>
                <unittitle>"The Fields of 'Field Elders,'" by Andrew R. Mack</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1950 November">
+               <unitdatestructured altrender="1950 November" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref39_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">29</container>
             </did>
          </c>
-         <c id="ref40" level="file">
+         <c altrender="/repositories/12/archival_objects/1180386"
+            id="ref40"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>David Dudley Field, His Ancestors and Descendants, by Emilia R. Field, with annotations by the author</part>
                   </title> [*Yca 802 F 4 g; in Yale Memorabilia]</unittitle>
-               <container altrender="archive legal"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref40_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">30</container>
             </did>
          </c>
-         <c id="ref41" level="file">
+         <c altrender="/repositories/12/archival_objects/1180387"
+            id="ref41"
+            level="file">
             <did>
                <unittitle>Addenda to the Field book by Emilia R. Field, and news clippings on the Field family</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1930-1931, 1934-1950">
+               <unitdatestructured altrender="1930-1931, 1934-1950"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref41_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">31</container>
             </did>
          </c>
-         <c id="ref42" level="file">
+         <c altrender="/repositories/12/archival_objects/1180388"
+            id="ref42"
+            level="file">
             <did>
                <unittitle>ALS to David Dudley Field from Eleazer Thompson Fitch</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1843 July 17">
+               <unitdatestructured altrender="1843 July 17" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1804">1804</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref42_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">32</container>
             </did>
          </c>
-         <c id="ref43" level="file">
+         <c altrender="/repositories/12/archival_objects/1180389"
+            id="ref43"
+            level="file">
             <did>
                <unittitle>"Descendants of David Dudley Field and His Wife, Submit Dickinson" (A 25 thanniversary edition of the the original "The Family Tree of David Dudley Field and Submit Dickinson," compiled by Diane Druin Gravlee</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1992">
+               <unitdatestructured altrender="1992" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1992">1992</fromdate>
                      <todate standarddate="1992">1992</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/130712 /locations/9"
                           containerid="39002042256884"
+                          encodinganalog="archive legal"
                           id="aspace_ref43_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>

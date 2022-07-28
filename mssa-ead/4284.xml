@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0905">mssa.ms.0905</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0905">mssa.ms.0905</recordid>
+      <otherrecordid localtype="BIB">614503</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Bern, Switzerland, Documents Collection
@@ -32,6 +34,11 @@
             <date>June 1983</date>
             <num>MS 905</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:34:30+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:15:05+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:34</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:15</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4284" level="collection">
       <did>
          <unittitle>Bern, Switzerland documents collection</unittitle>
          <unitid>MS 905</unitid>
@@ -82,105 +92,116 @@
             <quantity>0.25</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1764-1798">
+         <unitdatestructured altrender="1764-1798" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1764">1764</fromdate>
                <todate standarddate="1798">1798</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_e196f961d028e163df410db28d5d7e99">Chiefly a volume of copies of the decrees, ordinances, and statutes of the Bern city council and chancellery, probably compiled shortly after the French conquest of Bern in 1798. Also in the papers are original documents relating to military expenditures of Ormont (Vaud canton) and Bern in the 1700s.</abstract>
-    
       </did>
       <acqinfo id="aspace_a78cec3b4126b26f898a45396e3c7954">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Leonard Bacon, 1936.</p>  
+         <p>Gift of Leonard Bacon, 1936.</p>
       </acqinfo>
       <accessrestrict id="aspace_95c9a8ddeac01163029d4f1fa37b14eb">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_ef224dfa214428656e055d5585a73fbf">
          <head>Preferred Citation</head>
-         <p>Bern, Switzerland Documents Collection. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Bern, Switzerland Documents Collection. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_a8cb9e4273b69da82e502da0d8535c54">
          <head>Scope and Contents</head>
          <p>This collection consists of original documents and a volume of copied documents pertaining to the city of Bern, Switzerland, and to Cormont Commune, covering the years 1476 to 1798. The French seized Bern on March 5, 1798, and it subsequently became part of the Helvetian Republic under French control. It seems likely that these documents were compiled and copies made during or shortly after 1798 as a result of the change in government.</p>
          <p>The majority of the documents, which are all in French except for a few German items, are copies making up the single-volume manuscript record of decrees, ordinances, and statutes of the Bern city council and chancellery. Copies of two fifteenth-century items are included, with the remainder dating originally between 1652 and 1795. The volume seems to have been compiled shortly after the occupation of the city.</p>
-         <p>The balance of the collection consists of original documents relating to military expenditures of Ormont (a commune in the Vaud canton) and Bern during the 1700s, and includes accounts, records of loans between the two governments, receipts for funds paid, and a document canceling outstanding debts due to loss of records during the struggle with the French.</p>  
+         <p>The balance of the collection consists of original documents relating to military expenditures of Ormont (a commune in the Vaud canton) and Bern during the 1700s, and includes accounts, records of loans between the two governments, receipts for funds paid, and a document canceling outstanding debts due to loss of records during the struggle with the French.</p>
       </scopecontent>
       <userestrict id="aspace_b2594ac93eeece909d8a8f7920b5915a">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <geogname identifier="http://id.loc.gov/authorities/names/n79065374"
                    source="lcsh">
-            <part>Bern (Switzerland)</part>
+            <part localtype="geographic">Bern (Switzerland)</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85045631"
                    source="lcsh">
-            <part>Europe</part>
+            <part localtype="geographic">Europe</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85131314"
                    source="lcsh">
-            <part>Switzerland -- History</part>
+            <part localtype="geographic">Switzerland</part>
+            <part localtype="topical">History</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n79123645"
                    source="lcsh">
-            <part>Vaud (Switzerland)</part>
+            <part localtype="geographic">Vaud (Switzerland)</part>
          </geogname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="file">
+         <c altrender="/repositories/12/archival_objects/1354442"
+            id="ref10"
+            level="file">
             <did>
                <unittitle>Manuscript record of decrees, etc., of the city council and chancellery of Bern, Switzerland, 1476-1795</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[ca. 1798?]">
+               <unitdatestructured altrender="[ca. 1798?]" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1793">1793</fromdate>
                      <todate standarddate="1803">1803</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151661 /locations/9"
                           containerid="39002042652249"
-                          id="d1e215"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref10_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e217" localtype="folder" parent="d1e215">1</container>
+               <container id="aspace_ref10_c2" localtype="folder" parent="aspace_ref10_c1">1</container>
             </did>
          </c>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1354443"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Accounts of the military funds of Ormont Commune</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1764">
+               <unitdatestructured altrender="1764" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1764">1764</fromdate>
                      <todate standarddate="1764">1764</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151661 /locations/9"
                           containerid="39002042652249"
-                          id="d1e233"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e235" localtype="folder" parent="d1e233">2</container>
+               <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">2</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1354444"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Documents relating to military loans between Ormont Commune and Bern</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1794, 1798, undated">
+               <unitdatestructured altrender="1794, 1798, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1764">1764</fromdate>
                      <todate standarddate="1798">1798</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151661 /locations/9"
                           containerid="39002042652249"
-                          id="d1e251"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e253" localtype="folder" parent="d1e251">3 - 4</container>
+               <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">3 - 4</container>
             </did>
          </c>
       </dsc>

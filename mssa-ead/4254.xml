@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0805">mssa.ms.0805</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0805">mssa.ms.0805</recordid>
+      <otherrecordid localtype="BIB">614261</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Emanuel Fritz Papers
@@ -32,6 +34,11 @@
             <date>October 1981</date>
             <num>MS 805</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:41:25+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:07:02+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:41</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:07</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4254" level="collection">
       <did>
          <unittitle>Emanuel Fritz papers</unittitle>
          <unitid>MS 805</unitid>
@@ -82,226 +92,261 @@
             <quantity>0.25</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1912-1914">
+         <unitdatestructured altrender="1912-1914" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1912">1912</fromdate>
                <todate standarddate="1914">1914</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_5a4e461c160a8918c47ab198ffb41e6b">The papers are comprised of Fritz's class notes, field work notes and term reports while at the Yale School of Forestry. Also included are Civil Service questions for foresters for 1913.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n83825740"
                       rules="aacr"
                       source="naf">
-               <part>Fritz, Emanuel, 1886-</part>
+               <part localtype="agent_person">Fritz, Emanuel, 1886-</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_61fd4ec0ccb05c30839ba8234e5df9ce">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Emanuel Fritz, 1976.</p>  
+         <p>Gift of Emanuel Fritz, 1976.</p>
       </acqinfo>
       <accessrestrict id="aspace_a4179bc1f6671b81189138b6b9c4eb17">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_48ad0da53e24978a30532dc523b65c89">
          <head>Preferred Citation</head>
-         <p>Emanuel Fritz Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Emanuel Fritz Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_4ff258c45522d62937f3189cde3082e7">
          <head>Scope and Contents</head>
-         <p>This collection contains papers of Emanuel Fritz (born 1886), a member of the Yale School of Forestry class of 1914, and later a professor of forestry at the University of California at Berkeley. The papers consist of class notes, notes on field work, examinations, and a report by Fritz dating from his study at Yale. Also included are Civil Service questions for foresters from 1913. The papers were donated to Yale University by Professor Fritz in 1976.</p>  
+         <p>This collection contains papers of Emanuel Fritz (born 1886), a member of the Yale School of Forestry class of 1914, and later a professor of forestry at the University of California at Berkeley. The papers consist of class notes, notes on field work, examinations, and a report by Fritz dating from his study at Yale. Also included are Civil Service questions for foresters from 1913. The papers were donated to Yale University by Professor Fritz in 1976.</p>
       </scopecontent>
       <bioghist id="aspace_5ebdaf69afb45c1d32b3ecacb72f4e28">
          <head>Biographical / Historical</head>
-         <p>Emanuel Fritz: member of the Yale School of Forestry Class of 1914; later professor of forestry at the University of California at Berkeley.</p>  
+         <p>Emanuel Fritz: member of the Yale School of Forestry Class of 1914; later professor of forestry at the University of California at Berkeley.</p>
       </bioghist>
       <userestrict id="aspace_ceaa5829cc4d56d84c14cae56391a67b">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85050707"
                   source="lcsh">
-            <part>Forests and forestry</part>
+            <part localtype="topical">Forests and forestry</part>
          </subject>
          <occupation source="local">
-            <part>Foresters</part>
+            <part localtype="occupation">Foresters</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/n83825740"
                    rules="aacr"
                    source="naf">
-            <part>Fritz, Emanuel, 1886-</part>
+            <part localtype="agent_person">Fritz, Emanuel, 1886-</part>
          </persname>
          <corpname source="local">
-            <part>Yale College (1887- ). Class of 1914</part>
+            <part localtype="agent_corporate_entity">Yale College (1887- ). Class of 1914</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n80087503"
                    rules="aacr"
                    source="naf">
-            <part>Yale University. School of Forestry</part>
+            <part localtype="agent_corporate_entity">Yale University. School of Forestry</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1354121"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Yale School of Forestry class papers</unittitle>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1354122"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Forest Economics: class notes, examination</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1912">
+                  <unitdatestructured altrender="1912" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1912">1912</fromdate>
                         <todate standarddate="1912">1912</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151597 /locations/9"
                              containerid="39002042262106"
+                             encodinganalog="archive half letter"
                              id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1354123"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Silvics: class notes, examination</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1912">
+                  <unitdatestructured altrender="1912" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1912">1912</fromdate>
                         <todate standarddate="1912">1912</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151597 /locations/9"
                              containerid="39002042262106"
+                             encodinganalog="archive half letter"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1354124"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Silviculture: class and field work notes</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1912">
+                  <unitdatestructured altrender="1912" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1912">1912</fromdate>
                         <todate standarddate="1912">1912</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151597 /locations/9"
                              containerid="39002042262106"
+                             encodinganalog="archive half letter"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">3</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1354125"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>"Field Report on Gray Birch and Eastern Hemlock," by E. Fritz</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1912">
+                  <unitdatestructured altrender="1912" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1912">1912</fromdate>
                         <todate standarddate="1912">1912</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151597 /locations/9"
                              containerid="39002042262106"
+                             encodinganalog="archive half letter"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">4</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1354126"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Forest Engineering and Construction: class notes, examination</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1913">
+                  <unitdatestructured altrender="1913" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1913">1913</fromdate>
                         <todate standarddate="1913">1913</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151597 /locations/9"
                              containerid="39002042262106"
+                             encodinganalog="archive half letter"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">5</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1354127"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Forest Practice: class notes</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1913">
+                  <unitdatestructured altrender="1913" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1913">1913</fromdate>
                         <todate standarddate="1913">1913</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151597 /locations/9"
                              containerid="39002042262106"
+                             encodinganalog="archive half letter"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">6</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1354128"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>National Forest Law: class notes</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1913">
+                  <unitdatestructured altrender="1913" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1913">1913</fromdate>
                         <todate standarddate="1913">1913</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151597 /locations/9"
                              containerid="39002042262106"
+                             encodinganalog="archive half letter"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">7</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1354129"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Miscellaneous notes</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1913">
+                  <unitdatestructured altrender="1913" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1913">1913</fromdate>
                         <todate standarddate="1913">1913</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151597 /locations/9"
                              containerid="39002042262106"
+                             encodinganalog="archive half letter"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">8</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1354130"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Practice of Forestry, Western U.S.: class notes</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1914">
+                  <unitdatestructured altrender="1914" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1914">1914</fromdate>
                         <todate standarddate="1914">1914</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151597 /locations/9"
                              containerid="39002042262106"
+                             encodinganalog="archive half letter"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -309,17 +354,20 @@
                </did>
             </c>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1354131"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>Civil Service questions</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1913">
+               <unitdatestructured altrender="1913" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1913">1913</fromdate>
                      <todate standarddate="1913">1913</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151597 /locations/9"
                           containerid="39002042262106"
+                          encodinganalog="archive half letter"
                           id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>

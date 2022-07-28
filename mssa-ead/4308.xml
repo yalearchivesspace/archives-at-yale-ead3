@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0951">mssa.ms.0951</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0951">mssa.ms.0951</recordid>
+      <otherrecordid localtype="BIB">614405</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Lester Bradner Papers
@@ -32,6 +34,11 @@
             <date>October 1982</date>
             <num>MS 951</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:35:56+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:17:49+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:35</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:17</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4308" level="collection">
       <did>
          <unittitle>Lester Bradner papers</unittitle>
          <unitid>MS 951</unitid>
@@ -82,38 +92,37 @@
             <quantity>0.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1881-1893">
+         <unitdatestructured altrender="1881-1893" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1881">1881</fromdate>
                <todate standarddate="1893">1893</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_854ab0ad0cddc91cb222100f7c565539">The papers consist of approximately 500 letters written by Lester Bradner to his future wife Edith Mitchell Murray of Flushing, New York. During their courtship Bradner spent two years (1891-1893) studying at the University of Berlin, after taking a Ph.D. at Yale University in 1889. His letters describe his life both in New York and Berlin, as well as his summer travels in Europe and the United States. He also discusses his religious beliefs and the ministry.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/no2006038180"
                       rules="aacr"
                       source="naf">
-               <part>Bradner, Lester, 1867-1929</part>
+               <part localtype="agent_person">Bradner, Lester, 1867-1929</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_76055738af664ae12097f56f6f941dd8">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Leicester Bradner, 1964.</p>  
+         <p>Gift of Leicester Bradner, 1964.</p>
       </acqinfo>
       <accessrestrict id="aspace_4474e26ee19a84f778fc8eabdda61f4d">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_e37ae9d3b1bb0bf847a7e77b99209f29">
          <head>Preferred Citation</head>
-         <p>Lester Bradner Papers (MS 951). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Lester Bradner Papers (MS 951). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_48e755f535cc77add9df9583ec988392">
          <head>Scope and Contents</head>
          <p>This collection consists of approximately five hundred letters written by Lester Bradner to his future wife, Edith Mitchell Murray, of Flushing, New York. The correspondence commences shortly after their first meeting in 1888 while Bradner was a Yale College student, and continues through the remainder of his Yale career (he received his Ph.D. in 1889) and the two years which he spent at the University of Berlin (1891-1893) studying Biblical history and exegesis, and Hebrew, Assyrian, and Arabic.</p>
-         <p>Through the letters the growth of their friendship and later engagement can be observed, although unfortunately none of Edith Murray's letters have been preserved. Bradner's letters describe his academic and social life in New Haven, Dansville (New York), and Berlin, as well as his summer travels in America and Europe. He dwells in some detail on his religious beliefs and his view of theology and the ministry.</p>  
+         <p>Through the letters the growth of their friendship and later engagement can be observed, although unfortunately none of Edith Murray's letters have been preserved. Bradner's letters describe his academic and social life in New Haven, Dansville (New York), and Berlin, as well as his summer travels in America and Europe. He dwells in some detail on his religious beliefs and his view of theology and the ministry.</p>
       </scopecontent>
       <bioghist id="aspace_0ccc4955bc43756aad5699cc01d92b25">
          <head>Biographical / Historical</head>
@@ -129,65 +138,72 @@
          <p>Bradner died on September 21, 1929.</p>
          <p>(Taken from <title render="italic">
                <part>Thirty-fifth Reunion Book of the Class of 1889</part>
-            </title>).</p>  
+            </title>).</p>
       </bioghist>
       <userestrict id="aspace_00ddee8619644e89aa51c729b85c6377">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85033596"
                   source="lcsh">
-            <part>Courtship</part>
+            <part localtype="topical">Courtship</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85129296"
                   source="lcsh">
-            <part>Students</part>
+            <part localtype="topical">Students</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85147274"
                   source="lcsh">
-            <part>Women</part>
+            <part localtype="topical">Women</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85045631"
                    source="lcsh">
-            <part>Europe</part>
+            <part localtype="geographic">Europe</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n80125931"
                    source="lcsh">
-            <part>Germany</part>
+            <part localtype="geographic">Germany</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85026944"
                   source="lcsh">
-            <part>Clergy</part>
+            <part localtype="topical">Clergy</part>
          </subject>
          <persname rules="aacr" source="local">
-            <part>Bradner, Edith Mitchell Murray, d. 1919</part>
+            <part localtype="agent_person">Bradner, Edith Mitchell Murray, d. 1919</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no2006038180"
                    rules="aacr"
                    source="naf">
-            <part>Bradner, Lester, 1867-1929</part>
+            <part localtype="agent_person">Bradner, Lester, 1867-1929</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1354662"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Letters to Edith M. Murray</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1888 February 22-1893 December 19">
+               <unitdatestructured altrender="1888 February 22-1893 December 19"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1881">1881</fromdate>
                      <todate standarddate="1893">1893</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151728 /locations/9"
                           containerid="39002042652389"
-                          id="d1e287"
+                          encodinganalog="archive letter"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e289" localtype="folder" parent="d1e287">1 - 24</container>
+               <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1 - 24</container>
             </did>
          </c>
       </dsc>

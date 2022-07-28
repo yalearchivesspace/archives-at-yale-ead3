@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0377">mssa.ms.0377</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0377">mssa.ms.0377</recordid>
+      <otherrecordid localtype="BIB">614335</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Matthew Noyes Papers
@@ -32,6 +34,11 @@
             <date>April 1974</date>
             <num>MS 377</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T09:21:42+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:01:15+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 09:21</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:01</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2954" level="collection">
       <did>
          <unittitle>Matthew Noyes papers</unittitle>
          <unitid>MS 377</unitid>
@@ -82,31 +92,30 @@
             <quantity>0.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1788-1827">
+         <unitdatestructured altrender="1788-1827" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1788">1788</fromdate>
                <todate standarddate="1827">1827</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_2491ff2a93c6002c27ae9a9bf29cfe2f">Forty-four manuscript sermons of Matthew Noyes, Yale 1785, who preached in various Connecticut churches.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n92034041" source="naf">
-               <part>Noyes, Matthew, 1764-1839</part>
+               <part localtype="agent_person">Noyes, Matthew, 1764-1839</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_c3b218fc0e94bc5ef2bde6c66cb42429">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Catherine Noyes Lee, 1967.</p>  
+         <p>Gift of Catherine Noyes Lee, 1967.</p>
       </acqinfo>
       <accessrestrict id="aspace_d518a3b0c8160330aa04c41ed9b4e5dc">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_a00c9bade030729970e4edd7c208dedd">
          <head>Preferred Citation</head>
-         <p>Matthew Noyes Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Matthew Noyes Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <bioghist id="aspace_94e0c35f73734054481314ad48e827bc">
          <head>Biographical / Historical</head>
@@ -118,765 +127,922 @@
          <p>He was chosen a Fellow at Yale College in May, 1823, and continued in office until his death.</p>
          <p>He was reputed to be among the richest ministers in Connecticut in his generation.</p>
          <p>He married, on November 7, 1790, Mary, youngest daughter of the Rev. Stephen Johnson (Yale 1743), of Lyme, Connecticut, who died in Northford on September 1, 1851, aged 83 years. Their only child, a daughter, died in early womanhood.</p>
-         <p>(Taken from <emph render="italic">Yale Biographies and Annals, 1778-1792</emph>, Class of 1785, 433-34).</p>  
+         <p>(Taken from <emph render="italic">Yale Biographies and Annals, 1778-1792</emph>, Class of 1785, 433-34).</p>
       </bioghist>
       <scopecontent id="aspace_07a6d13a617875278efa3dd0fbf5b211">
          <head>Scope and Contents</head>
-         <p>Forty-four manuscript sermons of Matthew Noyes, Yale 1785, who preached in various Connecticut churches.</p>  
+         <p>Forty-four manuscript sermons of Matthew Noyes, Yale 1785, who preached in various Connecticut churches.</p>
       </scopecontent>
       <userestrict id="aspace_5e13a240674247eb6b9c227f5dbd1201">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <geogname identifier="http://id.loc.gov/authorities/names/n79074102"
                    source="lcsh">
-            <part>Connecticut</part>
+            <part localtype="geographic">Connecticut</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300026669" source="aat">
-            <part>Sermons</part>
+            <part localtype="genre_form">Sermons</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85026944"
                   source="lcsh">
-            <part>Clergy</part>
+            <part localtype="topical">Clergy</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/n92034041" source="naf">
-            <part>Noyes, Matthew, 1764-1839</part>
+            <part localtype="agent_person">Noyes, Matthew, 1764-1839</part>
          </persname>
          <corpname rules="aacr" source="local">
-            <part>Yale College (1718-1887). Class of 1785</part>
+            <part localtype="agent_corporate_entity">Yale College (1718-1887). Class of 1785</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1172965"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Genesis 22:12</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1799 April 25">
+               <unitdatestructured altrender="1799 April 25" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e255"
+                          encodinganalog="archive letter"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e257" localtype="folder" parent="d1e255">1</container>
+               <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1172966"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Genesis 22:14</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1813 April 16">
+               <unitdatestructured altrender="1813 April 16" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e273"
+                          encodinganalog="archive letter"
+                          id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e275" localtype="folder" parent="d1e273">2</container>
+               <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1172967"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Deuteronomy 8:2</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1815 March 24">
+               <unitdatestructured altrender="1815 March 24" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e291"
+                          encodinganalog="archive letter"
+                          id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e293" localtype="folder" parent="d1e291">3</container>
+               <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">3</container>
             </did>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1172968"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>I Kings 17:1</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1815 March 5">
+               <unitdatestructured altrender="1815 March 5" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e309"
+                          encodinganalog="archive letter"
+                          id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e311" localtype="folder" parent="d1e309">4</container>
+               <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">4</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1172969"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>I Kings 20:32</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1803 April">
+               <unitdatestructured altrender="1803 April" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e327"
+                          encodinganalog="archive letter"
+                          id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e329" localtype="folder" parent="d1e327">5</container>
+               <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">5</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1172970"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>II Chronicles 28:10</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1795 April 3">
+               <unitdatestructured altrender="1795 April 3" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e345"
+                          encodinganalog="archive letter"
+                          id="aspace_ref17_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e347" localtype="folder" parent="d1e345">6</container>
+               <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">6</container>
             </did>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1172971"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>Psalms 16:8</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1823 January 12">
+               <unitdatestructured altrender="1823 January 12"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e363"
+                          encodinganalog="archive letter"
+                          id="aspace_ref18_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e365" localtype="folder" parent="d1e363">7</container>
+               <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">7</container>
             </did>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1172972"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>Psalms 107:7</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1793 September 22">
+               <unitdatestructured altrender="1793 September 22"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e381"
+                          encodinganalog="archive letter"
+                          id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e383" localtype="folder" parent="d1e381">8</container>
+               <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">8</container>
             </did>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1172973"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>Psalms 116:12</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1790 December 2">
+               <unitdatestructured altrender="1790 December 2"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e399"
+                          encodinganalog="archive letter"
+                          id="aspace_ref20_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e401" localtype="folder" parent="d1e399">9</container>
+               <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">9</container>
             </did>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1172974"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>Proverbs 14:34 (2 sermons)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1793 April 17">
+               <unitdatestructured altrender="1793 April 17" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e417"
+                          encodinganalog="archive letter"
+                          id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e419" localtype="folder" parent="d1e417">10</container>
+               <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">10</container>
             </did>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1172975"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>Isaiah 42:8</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1819 January 31">
+               <unitdatestructured altrender="1819 January 31"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e435"
+                          encodinganalog="archive letter"
+                          id="aspace_ref22_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e437" localtype="folder" parent="d1e435">11</container>
+               <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">11</container>
             </did>
          </c>
-         <c id="ref23" level="file">
+         <c altrender="/repositories/12/archival_objects/1172976"
+            id="ref23"
+            level="file">
             <did>
                <unittitle>Isaiah 53:1</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1809 March 31">
+               <unitdatestructured altrender="1809 March 31" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e454"
+                          encodinganalog="archive letter"
+                          id="aspace_ref23_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e456" localtype="folder" parent="d1e454">12</container>
+               <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">12</container>
             </did>
          </c>
-         <c id="ref24" level="file">
+         <c altrender="/repositories/12/archival_objects/1172977"
+            id="ref24"
+            level="file">
             <did>
                <unittitle>Jeremiah 2:37</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1803 December 18">
+               <unitdatestructured altrender="1803 December 18"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e472"
+                          encodinganalog="archive letter"
+                          id="aspace_ref24_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e474" localtype="folder" parent="d1e472">13</container>
+               <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">13</container>
             </did>
          </c>
-         <c id="ref25" level="file">
+         <c altrender="/repositories/12/archival_objects/1172978"
+            id="ref25"
+            level="file">
             <did>
                <unittitle>Jeremiah 8:20</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1796 October 23">
+               <unitdatestructured altrender="1796 October 23"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e490"
+                          encodinganalog="archive letter"
+                          id="aspace_ref25_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e492" localtype="folder" parent="d1e490">14</container>
+               <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">14</container>
             </did>
          </c>
-         <c id="ref26" level="file">
+         <c altrender="/repositories/12/archival_objects/1172979"
+            id="ref26"
+            level="file">
             <did>
                <unittitle>Jeremiah 14:12</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1800 April 11">
+               <unitdatestructured altrender="1800 April 11" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e508"
+                          encodinganalog="archive letter"
+                          id="aspace_ref26_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e510" localtype="folder" parent="d1e508">15</container>
+               <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">15</container>
             </did>
          </c>
-         <c id="ref27" level="file">
+         <c altrender="/repositories/12/archival_objects/1172980"
+            id="ref27"
+            level="file">
             <did>
                <unittitle>Jeremiah 25:32</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1797 April 14">
+               <unitdatestructured altrender="1797 April 14" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e526"
+                          encodinganalog="archive letter"
+                          id="aspace_ref27_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e528" localtype="folder" parent="d1e526">16</container>
+               <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">16</container>
             </did>
          </c>
-         <c id="ref28" level="file">
+         <c altrender="/repositories/12/archival_objects/1172981"
+            id="ref28"
+            level="file">
             <did>
                <unittitle>Hosea 4:3</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1812 July 23">
+               <unitdatestructured altrender="1812 July 23" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e544"
+                          encodinganalog="archive letter"
+                          id="aspace_ref28_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e546" localtype="folder" parent="d1e544">17</container>
+               <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">17</container>
             </did>
          </c>
-         <c id="ref29" level="file">
+         <c altrender="/repositories/12/archival_objects/1172982"
+            id="ref29"
+            level="file">
             <did>
                <unittitle>Hosea 4:7</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1809 March 31">
+               <unitdatestructured altrender="1809 March 31" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e562"
+                          encodinganalog="archive letter"
+                          id="aspace_ref29_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e564" localtype="folder" parent="d1e562">18</container>
+               <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">18</container>
             </did>
          </c>
-         <c id="ref30" level="file">
+         <c altrender="/repositories/12/archival_objects/1172983"
+            id="ref30"
+            level="file">
             <did>
                <unittitle>Joel 2:15</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1822 April 5">
+               <unitdatestructured altrender="1822 April 5" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e580"
+                          encodinganalog="archive letter"
+                          id="aspace_ref30_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e582" localtype="folder" parent="d1e580">19</container>
+               <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">19</container>
             </did>
          </c>
-         <c id="ref31" level="file">
+         <c altrender="/repositories/12/archival_objects/1172984"
+            id="ref31"
+            level="file">
             <did>
                <unittitle>Amos 4:12</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1812 March 27">
+               <unitdatestructured altrender="1812 March 27" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e598"
+                          encodinganalog="archive letter"
+                          id="aspace_ref31_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e600" localtype="folder" parent="d1e598">20</container>
+               <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">20</container>
             </did>
          </c>
-         <c id="ref32" level="file">
+         <c altrender="/repositories/12/archival_objects/1172985"
+            id="ref32"
+            level="file">
             <did>
                <unittitle>Malachi 3:7</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1813 May 2">
+               <unitdatestructured altrender="1813 May 2" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e616"
+                          encodinganalog="archive letter"
+                          id="aspace_ref32_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e618" localtype="folder" parent="d1e616">21</container>
+               <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">21</container>
             </did>
          </c>
-         <c id="ref33" level="file">
+         <c altrender="/repositories/12/archival_objects/1172986"
+            id="ref33"
+            level="file">
             <did>
                <unittitle>Malachi 3:16</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1807 March 27">
+               <unitdatestructured altrender="1807 March 27" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e634"
+                          encodinganalog="archive letter"
+                          id="aspace_ref33_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e636" localtype="folder" parent="d1e634">22</container>
+               <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">22</container>
             </did>
          </c>
-         <c id="ref34" level="file">
+         <c altrender="/repositories/12/archival_objects/1172987"
+            id="ref34"
+            level="file">
             <did>
                <unittitle>Matthew 8:8-9</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1805 March 24">
+               <unitdatestructured altrender="1805 March 24" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e653"
+                          encodinganalog="archive letter"
+                          id="aspace_ref34_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e655" localtype="folder" parent="d1e653">23</container>
+               <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">23</container>
             </did>
          </c>
-         <c id="ref35" level="file">
+         <c altrender="/repositories/12/archival_objects/1172988"
+            id="ref35"
+            level="file">
             <did>
                <unittitle>Matthew 19:19</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1812 December 27">
+               <unitdatestructured altrender="1812 December 27"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e671"
+                          encodinganalog="archive letter"
+                          id="aspace_ref35_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e673" localtype="folder" parent="d1e671">24</container>
+               <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">24</container>
             </did>
          </c>
-         <c id="ref36" level="file">
+         <c altrender="/repositories/12/archival_objects/1172989"
+            id="ref36"
+            level="file">
             <did>
                <unittitle>Matthew 24:12</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1788 June">
+               <unitdatestructured altrender="1788 June" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e689"
+                          encodinganalog="archive letter"
+                          id="aspace_ref36_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e691" localtype="folder" parent="d1e689">25</container>
+               <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">25</container>
             </did>
          </c>
-         <c id="ref37" level="file">
+         <c altrender="/repositories/12/archival_objects/1172990"
+            id="ref37"
+            level="file">
             <did>
                <unittitle>Luke 5:31</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1794 July 12">
+               <unitdatestructured altrender="1794 July 12" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e707"
+                          encodinganalog="archive letter"
+                          id="aspace_ref37_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e709" localtype="folder" parent="d1e707">26</container>
+               <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">26</container>
             </did>
          </c>
-         <c id="ref38" level="file">
+         <c altrender="/repositories/12/archival_objects/1172991"
+            id="ref38"
+            level="file">
             <did>
                <unittitle>Luke 13:4-5</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1793 October 20">
+               <unitdatestructured altrender="1793 October 20"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e725"
+                          encodinganalog="archive letter"
+                          id="aspace_ref38_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e727" localtype="folder" parent="d1e725">27</container>
+               <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">27</container>
             </did>
          </c>
-         <c id="ref39" level="file">
+         <c altrender="/repositories/12/archival_objects/1172992"
+            id="ref39"
+            level="file">
             <did>
                <unittitle>Luke 13:24</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1821 November 25">
+               <unitdatestructured altrender="1821 November 25"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e743"
+                          encodinganalog="archive letter"
+                          id="aspace_ref39_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e745" localtype="folder" parent="d1e743">28</container>
+               <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">28</container>
             </did>
          </c>
-         <c id="ref40" level="file">
+         <c altrender="/repositories/12/archival_objects/1172993"
+            id="ref40"
+            level="file">
             <did>
                <unittitle>Luke 15:20-21</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1827 April 13">
+               <unitdatestructured altrender="1827 April 13" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e761"
+                          encodinganalog="archive letter"
+                          id="aspace_ref40_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e763" localtype="folder" parent="d1e761">29</container>
+               <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">29</container>
             </did>
          </c>
-         <c id="ref41" level="file">
+         <c altrender="/repositories/12/archival_objects/1172994"
+            id="ref41"
+            level="file">
             <did>
                <unittitle>John 2:17</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1811 January 27">
+               <unitdatestructured altrender="1811 January 27"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e779"
+                          encodinganalog="archive letter"
+                          id="aspace_ref41_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e781" localtype="folder" parent="d1e779">30</container>
+               <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">30</container>
             </did>
          </c>
-         <c id="ref42" level="file">
+         <c altrender="/repositories/12/archival_objects/1172995"
+            id="ref42"
+            level="file">
             <did>
                <unittitle>John 15:1-2</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1821 April 20">
+               <unitdatestructured altrender="1821 April 20" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e797"
+                          encodinganalog="archive letter"
+                          id="aspace_ref42_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e799" localtype="folder" parent="d1e797">31</container>
+               <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">31</container>
             </did>
          </c>
-         <c id="ref43" level="file">
+         <c altrender="/repositories/12/archival_objects/1172996"
+            id="ref43"
+            level="file">
             <did>
                <unittitle>John 6:47</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1810 May 6">
+               <unitdatestructured altrender="1810 May 6" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e815"
+                          encodinganalog="archive letter"
+                          id="aspace_ref43_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e817" localtype="folder" parent="d1e815">32</container>
+               <container id="aspace_ref43_c2" localtype="folder" parent="aspace_ref43_c1">32</container>
             </did>
          </c>
-         <c id="ref44" level="file">
+         <c altrender="/repositories/12/archival_objects/1172997"
+            id="ref44"
+            level="file">
             <did>
                <unittitle>Romans 13:7-9</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1798 April 6">
+               <unitdatestructured altrender="1798 April 6" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e833"
+                          encodinganalog="archive letter"
+                          id="aspace_ref44_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e835" localtype="folder" parent="d1e833">33</container>
+               <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">33</container>
             </did>
          </c>
-         <c id="ref45" level="file">
+         <c altrender="/repositories/12/archival_objects/1172998"
+            id="ref45"
+            level="file">
             <did>
                <unittitle>I Corinthians 2:7</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1794 July 20">
+               <unitdatestructured altrender="1794 July 20" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e852"
+                          encodinganalog="archive letter"
+                          id="aspace_ref45_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e854" localtype="folder" parent="d1e852">34</container>
+               <container id="aspace_ref45_c2" localtype="folder" parent="aspace_ref45_c1">34</container>
             </did>
          </c>
-         <c id="ref46" level="file">
+         <c altrender="/repositories/12/archival_objects/1172999"
+            id="ref46"
+            level="file">
             <did>
                <unittitle>II Corinthians 5:1</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1805 August 2">
+               <unitdatestructured altrender="1805 August 2" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e870"
+                          encodinganalog="archive letter"
+                          id="aspace_ref46_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e872" localtype="folder" parent="d1e870">35</container>
+               <container id="aspace_ref46_c2" localtype="folder" parent="aspace_ref46_c1">35</container>
             </did>
          </c>
-         <c id="ref47" level="file">
+         <c altrender="/repositories/12/archival_objects/1173000"
+            id="ref47"
+            level="file">
             <did>
                <unittitle>Galatians 3:10</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1803 February 27">
+               <unitdatestructured altrender="1803 February 27"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e888"
+                          encodinganalog="archive letter"
+                          id="aspace_ref47_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e890" localtype="folder" parent="d1e888">36</container>
+               <container id="aspace_ref47_c2" localtype="folder" parent="aspace_ref47_c1">36</container>
             </did>
          </c>
-         <c id="ref48" level="file">
+         <c altrender="/repositories/12/archival_objects/1173001"
+            id="ref48"
+            level="file">
             <did>
                <unittitle>I Thessalonians 1:5</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1809 July 16">
+               <unitdatestructured altrender="1809 July 16" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e906"
+                          encodinganalog="archive letter"
+                          id="aspace_ref48_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e908" localtype="folder" parent="d1e906">37</container>
+               <container id="aspace_ref48_c2" localtype="folder" parent="aspace_ref48_c1">37</container>
             </did>
          </c>
-         <c id="ref49" level="file">
+         <c altrender="/repositories/12/archival_objects/1173002"
+            id="ref49"
+            level="file">
             <did>
                <unittitle>I Thessalonians 4:11</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1805 April 12">
+               <unitdatestructured altrender="1805 April 12" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e924"
+                          encodinganalog="archive letter"
+                          id="aspace_ref49_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e926" localtype="folder" parent="d1e924">38</container>
+               <container id="aspace_ref49_c2" localtype="folder" parent="aspace_ref49_c1">38</container>
             </did>
          </c>
-         <c id="ref50" level="file">
+         <c altrender="/repositories/12/archival_objects/1173003"
+            id="ref50"
+            level="file">
             <did>
                <unittitle>Hebrews 12:14</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1820 December 24">
+               <unitdatestructured altrender="1820 December 24"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e942"
+                          encodinganalog="archive letter"
+                          id="aspace_ref50_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e944" localtype="folder" parent="d1e942">39</container>
+               <container id="aspace_ref50_c2" localtype="folder" parent="aspace_ref50_c1">39</container>
             </did>
          </c>
-         <c id="ref51" level="file">
+         <c altrender="/repositories/12/archival_objects/1173004"
+            id="ref51"
+            level="file">
             <did>
                <unittitle>James 4:10</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1810 April 20">
+               <unitdatestructured altrender="1810 April 20" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e960"
+                          encodinganalog="archive letter"
+                          id="aspace_ref51_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e962" localtype="folder" parent="d1e960">40</container>
+               <container id="aspace_ref51_c2" localtype="folder" parent="aspace_ref51_c1">40</container>
             </did>
          </c>
-         <c id="ref52" level="file">
+         <c altrender="/repositories/12/archival_objects/1173005"
+            id="ref52"
+            level="file">
             <did>
                <unittitle>1 John 3:8</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1806 September 21">
+               <unitdatestructured altrender="1806 September 21"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e978"
+                          encodinganalog="archive letter"
+                          id="aspace_ref52_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e980" localtype="folder" parent="d1e978">41</container>
+               <container id="aspace_ref52_c2" localtype="folder" parent="aspace_ref52_c1">41</container>
             </did>
          </c>
-         <c id="ref53" level="file">
+         <c altrender="/repositories/12/archival_objects/1173006"
+            id="ref53"
+            level="file">
             <did>
                <unittitle>Revelations 3:20</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1790 September 5">
+               <unitdatestructured altrender="1790 September 5"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e996"
+                          encodinganalog="archive letter"
+                          id="aspace_ref53_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e998" localtype="folder" parent="d1e996">42</container>
+               <container id="aspace_ref53_c2" localtype="folder" parent="aspace_ref53_c1">42</container>
             </did>
          </c>
-         <c id="ref54" level="file">
+         <c altrender="/repositories/12/archival_objects/1173007"
+            id="ref54"
+            level="file">
             <did>
                <unittitle>Revelations 12:7-8</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1801 April 3">
+               <unitdatestructured altrender="1801 April 3" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1788">1788</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130275 /locations/9"
                           containerid="39002038214715"
-                          id="d1e1014"
+                          encodinganalog="archive letter"
+                          id="aspace_ref54_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e1016" localtype="folder" parent="d1e1014">43</container>
+               <container id="aspace_ref54_c2" localtype="folder" parent="aspace_ref54_c1">43</container>
             </did>
          </c>
       </dsc>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0638">mssa.ms.0638</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0638">mssa.ms.0638</recordid>
+      <otherrecordid localtype="BIB">613857</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Pond Family Papers
@@ -32,6 +34,11 @@
             <date>October 1981</date>
             <num>MS 638</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:01:32+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:42:52+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:01</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:42</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4230" level="collection">
       <did>
          <unittitle>Pond family papers</unittitle>
          <unitid>MS 638</unitid>
@@ -83,220 +93,248 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1716-1896">
+         <unitdatestructured altrender="1716-1896" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1716">1716</fromdate>
                <todate standarddate="1896">1896</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_7bfd3cf5c70018ca4c817d8a86cf0792">Correspondence, Pond and Norton family deeds, and financial papers of the Pond family of Connecticut together with records pertaining to the town of Wolcott. The papers also contain a partial autobiography of Peter Pond (1740-1807) describing his experiences in the French and Indian War and as a fur trader in the northwest.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <famname source="local">
-               <part>Pond family</part>
+               <part localtype="agent_family">Pond family</part>
             </famname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_26da10ee02a0f47360402a424c97a2db">
          <head>Immediate Source of Acquisition</head>
-         <p>Purchased from S.S. Hurwitz in 1946 and gift of Legrand Cannon, Jr., in 1947.</p>  
+         <p>Purchased from S.S. Hurwitz in 1946 and gift of Legrand Cannon, Jr., in 1947.</p>
       </acqinfo>
       <accessrestrict id="aspace_2f32165a3773edda24fb33c2643fb416">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_c724a5bb5ac35a04f6a181c54428fd53">
          <head>Preferred Citation</head>
-         <p>Pond Family Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Pond Family Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_20082fcc677b43cfe4e4077872906021">
          <head>Scope and Contents</head>
          <p>The bulk of the Pond Family Papers relate to Moses Pond (d. 1819), to his sons Moses, Jr., Aaron, and Alpheus, and to Henry A. Pond, son of Moses, Jr. Moses Pond, Jr. (1787-1873), was a lawyer, executor of numerous estates, state representative (1837-1855), collector of the ecclesiastical tax, and selectman of the town of Wolcott, Connecticut.</p>
          <p>The Pond Family papers contain a selection of business correspondence (1818-1896), a large number of deeds for land in Farmington, Wolcott, Southington, Waterbury, and Bristol, Connecticut, belonging to the Pond and Norton families, and legal and financial documents, both originals and copies, such as leases, papers from various estates, and receipts. Also in the papers are letters patent for Seth Peck's tinware manufacturing machine, Adam Pond's petition concerning privateering, various papers relating to the town of Wolcott, including tax records of the ecclesiastical society, and an account book for the Wolcott sawmill. The final item in this collection is the partial autobiography of Peter Pond, describing his experiences in the French and Indian War (1756-1760) and afterwards as a trader in the northwest.</p>
-         <p>Information on the genealogy of the Pond family can be found in <emph render="italic">A Genealogical Record of Samuel Pond, and his Descendants</emph>by Daniel S. Pond.</p>  
+         <p>Information on the genealogy of the Pond family can be found in <emph render="italic">A Genealogical Record of Samuel Pond, and his Descendants</emph>by Daniel S. Pond.</p>
       </scopecontent>
       <bioghist id="aspace_c28968115a5483e959994cc27d55378d">
          <head>Biographical / Historical</head>
-         <p>Moses Pond (1787-1873): lawyer; Connecticut State representative (1837-1855); and selectman of Wolcott, Connecticut. Peter Pond (1740-1807): soldier in the French and Indian War; fur trader in the West, 1765-1785; and explorer of the U.S. Northwest.</p>  
+         <p>Moses Pond (1787-1873): lawyer; Connecticut State representative (1837-1855); and selectman of Wolcott, Connecticut. Peter Pond (1740-1807): soldier in the French and Indian War; fur trader in the West, 1765-1785; and explorer of the U.S. Northwest.</p>
       </bioghist>
       <userestrict id="aspace_6828812f1c43950a272fecf47fc0c63c">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/n79074102"
                    source="lcsh">
-            <part>Connecticut</part>
+            <part localtype="geographic">Connecticut</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140131"
                    source="lcsh">
-            <part>United States -- History -- Colonial period, ca. 1600-1775</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Colonial period, ca. 1600-1775</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140137"
                    source="lcsh">
-            <part>United States -- History -- French and Indian War, 1754-1763</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">French and Indian War, 1754-1763</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n82047136"
                    source="lcsh">
-            <part>Wolcott (Conn. : Town)</part>
+            <part localtype="geographic">Wolcott (Conn. : Town)</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027483" source="aat">
-            <part>Account books</part>
+            <part localtype="genre_form">Account books</part>
          </genreform>
          <genreform identifier="http://vocab.getty.edu/aat/300027249" source="aat">
-            <part>Deeds</part>
+            <part localtype="genre_form">Deeds</part>
          </genreform>
          <occupation source="local">
-            <part>Fur traders</part>
+            <part localtype="occupation">Fur traders</part>
          </occupation>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075351"
                   source="lcsh">
-            <part>Lawyers</part>
+            <part localtype="topical">Lawyers</part>
          </subject>
          <persname rules="aacr" source="local">
-            <part>Pond, Henry A.</part>
+            <part localtype="agent_person">Pond, Henry A.</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Pond, Moses, 1787-1873</part>
+            <part localtype="agent_person">Pond, Moses, 1787-1873</part>
          </persname>
          <persname source="local">
-            <part>Pond, Moses, d. 1819</part>
+            <part localtype="agent_person">Pond, Moses, d. 1819</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/nr95003153"
                    rules="aacr"
                    source="naf">
-            <part>Pond, Peter, 1740-1807</part>
+            <part localtype="agent_person">Pond, Peter, 1740-1807</part>
          </persname>
          <famname source="local">
-            <part>Norton family</part>
+            <part localtype="agent_family">Norton family</part>
          </famname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85105935"
                   source="lcsh">
-            <part>Pounds family</part>
+            <part localtype="agent_family">Pounds family</part>
          </famname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1353774"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1818-1896, undated">
+               <unitdatestructured altrender="1818-1896, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1716">1716</fromdate>
                      <todate standarddate="1896">1896</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151503 /locations/9"
                           containerid="39002042263286"
-                          id="d1e307"
+                          encodinganalog="archive legal"
+                          id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e309" localtype="folder" parent="d1e307">1 - 2</container>
+               <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1 - 2</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1353775"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Deeds</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1716-1885">
+               <unitdatestructured altrender="1716-1885" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1716">1716</fromdate>
                      <todate standarddate="1885">1885</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151503 /locations/9"
                           containerid="39002042263286"
-                          id="d1e325"
+                          encodinganalog="archive legal"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e327" localtype="folder" parent="d1e325">3 - 15</container>
+               <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">3 - 15</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1353776"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Legal and financial papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1774-1873, undated">
+               <unitdatestructured altrender="1774-1873, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1716">1716</fromdate>
                      <todate standarddate="1896">1896</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151503 /locations/9"
                           containerid="39002042263286"
-                          id="d1e343"
+                          encodinganalog="archive legal"
+                          id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e345" localtype="folder" parent="d1e343">16 - 19</container>
+               <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">16 - 19</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1353777"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Letters patent; petitions</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1819-1848">
+               <unitdatestructured altrender="1819-1848" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1819">1819</fromdate>
                      <todate standarddate="1848">1848</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151503 /locations/9"
                           containerid="39002042263286"
-                          id="d1e361"
+                          encodinganalog="archive legal"
+                          id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e363" localtype="folder" parent="d1e361">20</container>
+               <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">20</container>
             </did>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1353778"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Town of Wolcott papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1821-1835">
+               <unitdatestructured altrender="1821-1835" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1821">1821</fromdate>
                      <todate standarddate="1835">1835</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151503 /locations/9"
                           containerid="39002042263286"
-                          id="d1e379"
+                          encodinganalog="archive legal"
+                          id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e381" localtype="folder" parent="d1e379">21</container>
+               <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">21</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1353779"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Sawmill account book</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1834-1841">
+               <unitdatestructured altrender="1834-1841" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1834">1834</fromdate>
                      <todate standarddate="1841">1841</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151503 /locations/9"
                           containerid="39002042263286"
-                          id="d1e397"
+                          encodinganalog="archive legal"
+                          id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e399" localtype="folder" parent="d1e397">22</container>
+               <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">22</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1353780"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Peter Pond: autobiography (with manuscript and photostatic copies)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1756-1761">
+               <unitdatestructured altrender="1756-1761" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1756">1756</fromdate>
                      <todate standarddate="1761">1761</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151503 /locations/9"
                           containerid="39002042263286"
-                          id="d1e415"
+                          encodinganalog="archive legal"
+                          id="aspace_ref17_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e417" localtype="folder" parent="d1e415">23 - 25</container>
+               <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">23 - 25</container>
             </did>
          </c>
       </dsc>

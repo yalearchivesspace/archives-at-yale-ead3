@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0537">mssa.ms.0537</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0537">mssa.ms.0537</recordid>
+      <otherrecordid localtype="BIB">614274</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Waterbury Family Papers
@@ -32,6 +34,11 @@
             <date>February 1982</date>
             <num>MS 537</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T10:00:11+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:21:34+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 10:00</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:21</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2984" level="collection">
       <did>
          <unittitle>Waterbury family papers</unittitle>
          <unitid>MS 537</unitid>
@@ -83,372 +93,439 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(4 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1700-1966">
+         <unitdatestructured altrender="1700-1966" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1700">1700</fromdate>
                <todate standarddate="1966">1966</todate>
             </daterange>
          </unitdatestructured>
-         <unitdatestructured unitdatetype="bulk">
+         <unitdatestructured label="creation" unitdatetype="bulk">
             <daterange>
                <fromdate standarddate="1750">1750</fromdate>
                <todate standarddate="1897">1897</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_478d130726a8b5e5b179cb2f91d06d51">Correspondence, financial records, and memorabilia of this Stamford, Connecticut family. The principal figure is David Waterbury (1722-1801), who served as a colonel in the French and Indian War and again in the American Revolution. Included in the papers are military records relating to these events and a letter to him from Roger Sherman (1776 Apr 30) about a Continental Commission. Also two travel journals kept by his son, William Waterbury IV, one for a trip throught New York, Pennsylvania, Virginia, Kentucky, Maryland and Delaware in 1799-1800 and another for a trip through New York State in 1812-1813.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <famname identifier="http://id.loc.gov/authorities/subjects/sh93007557"
                      source="lcsh">
-               <part>Waterbury family</part>
+               <part localtype="agent_family">Waterbury family</part>
             </famname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_4ca2757478ca3411f557b0e167f7b5cf">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Sara Mead Webb and Walter Edward Leaman, Jr., in 1964, and of Mrs. John L. Waterbury in 1981.</p>  
+         <p>Gift of Sara Mead Webb and Walter Edward Leaman, Jr., in 1964, and of Mrs. John L. Waterbury in 1981.</p>
       </acqinfo>
       <accessrestrict id="aspace_56ff7950ab09b8f5530f8d142a9e3d3c">
          <head>Conditions Governing Access</head>
          <p>The materials are open for research.</p>
-         <p>Due to the physical nature of the mug and ring in box 4, staff supervision is required.</p>  
+         <p>Due to the physical nature of the mug and ring in box 4, staff supervision is required.</p>
       </accessrestrict>
       <prefercite id="aspace_2479b7ea3779a92d88749e7de42ffe19">
          <head>Preferred Citation</head>
-         <p>Waterbury Family Papers (MS 537). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Waterbury Family Papers (MS 537). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_e9d8e5a1ebf8e608c417383a95dfcd41">
          <head>Scope and Contents</head>
-         <p>This collection consists of correspondence, financial records, and memorabilia of the Waterbury family of Stamford, Connecticut, and of military papers belonging to David Waterbury (1722-1801). Included among these is an orderly book (1758-59) and orders for Brigadier General Benedict Arnold at Ticonderoga (1776 Aug 7). The correspondence contains both family and general letters, the most interesting being a letter from Roger Sherman to David Waterbury concerning a Continental Commission (1776 Apr 30). The financial and legal papers of the family include an indenture from 1700, account books, and deeds, while the highlight of the memorabilia is a series of diaries kept by William Waterbury IV (the son of David Waterbury) during travels through New York, Pennsylvania, Virginia, Maryland, and Delaware in 1799-1800 and New York in 1812-13.</p>  
+         <p>This collection consists of correspondence, financial records, and memorabilia of the Waterbury family of Stamford, Connecticut, and of military papers belonging to David Waterbury (1722-1801). Included among these is an orderly book (1758-59) and orders for Brigadier General Benedict Arnold at Ticonderoga (1776 Aug 7). The correspondence contains both family and general letters, the most interesting being a letter from Roger Sherman to David Waterbury concerning a Continental Commission (1776 Apr 30). The financial and legal papers of the family include an indenture from 1700, account books, and deeds, while the highlight of the memorabilia is a series of diaries kept by William Waterbury IV (the son of David Waterbury) during travels through New York, Pennsylvania, Virginia, Maryland, and Delaware in 1799-1800 and New York in 1812-13.</p>
       </scopecontent>
       <bioghist id="aspace_0c5277cae9cdb8462d636c5ac75e98df">
          <head>Biographical / Historical</head>
-         <p>David Waterbury (1722-1801): military officer; served in six campaigns in the French and Indian Wars; appointed Brigadier General, 1776; served 23 successive terms as Stamford representative in the Connecticut legislature.</p>  
+         <p>David Waterbury (1722-1801): military officer; served in six campaigns in the French and Indian Wars; appointed Brigadier General, 1776; served 23 successive terms as Stamford representative in the Connecticut legislature.</p>
       </bioghist>
       <userestrict id="aspace_4e493038a20833e06c16de7c26d44452">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown, though much of the material in this collection is likely in the public domain. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown, though much of the material in this collection is likely in the public domain. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85007241"
                   source="lcsh">
-            <part>Armed Forces</part>
+            <part localtype="topical">Armed Forces</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/n79074102"
                    source="lcsh">
-            <part>Connecticut</part>
+            <part localtype="geographic">Connecticut</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85091440"
                    source="lcsh">
-            <part>New York (State) -- Description and travel</part>
+            <part localtype="geographic">New York (State)</part>
+            <part localtype="topical">Description and travel</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n79065239"
                    source="lcsh">
-            <part>Stamford (Conn.)</part>
+            <part localtype="geographic">Stamford (Conn.)</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85139993"
                    source="lcsh">
-            <part>United States -- Description and travel</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">Description and travel</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140131"
                    source="lcsh">
-            <part>United States -- History -- Colonial period, ca. 1600-1775</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Colonial period, ca. 1600-1775</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140137"
                    source="lcsh">
-            <part>United States -- History -- French and Indian War, 1754-1763</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">French and Indian War, 1754-1763</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140139"
                    source="lcsh">
-            <part>United States -- History -- Revolution, 1775-1783</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Revolution, 1775-1783</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027112" source="aat">
-            <part>Diaries</part>
+            <part localtype="genre_form">Diaries</part>
          </genreform>
          <occupation source="local">
-            <part>Soldiers</part>
+            <part localtype="occupation">Soldiers</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/n85009143" source="naf">
-            <part>Dyer, Eliphalet, 1721-1807</part>
+            <part localtype="agent_person">Dyer, Eliphalet, 1721-1807</part>
          </persname>
          <persname source="local">
-            <part>Lyman, Daniel, 1718-1788</part>
+            <part localtype="agent_person">Lyman, Daniel, 1718-1788</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n80090125"
                    rules="aacr"
                    source="naf">
-            <part>Sherman, Roger, 1721-1793</part>
+            <part localtype="agent_person">Sherman, Roger, 1721-1793</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n96091565"
                    rules="aacr"
                    source="naf">
-            <part>Waterbury, David, 1722-1801</part>
+            <part localtype="agent_person">Waterbury, David, 1722-1801</part>
          </persname>
          <persname source="local">
-            <part>Waterbury, Mary Maltbie, 1733-1810</part>
+            <part localtype="agent_person">Waterbury, Mary Maltbie, 1733-1810</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Waterbury, Silvanus</part>
+            <part localtype="agent_person">Waterbury, Silvanus</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Waterbury, William, 1765-1842</part>
+            <part localtype="agent_person">Waterbury, William, 1765-1842</part>
          </persname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh93007557"
                   source="lcsh">
-            <part>Waterbury family</part>
+            <part localtype="agent_family">Waterbury family</part>
          </famname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="series">
+         <c altrender="/repositories/12/archival_objects/1179829"
+            id="ref10"
+            level="series">
             <did>
                <unittitle>Inventory</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1700-1966">
+               <unitdatestructured altrender="1700-1966" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1700">1700</fromdate>
                      <todate standarddate="1966">1966</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1179830"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Correspondence</unittitle>
                </did>
-               <c id="ref12" level="file">
+               <c altrender="/repositories/12/archival_objects/1179831"
+                  id="ref12"
+                  level="file">
                   <did>
                      <unittitle>ALS to David Waterbury from David Lyman</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1774 November 26">
+                     <unitdatestructured altrender="1774 November 26"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1774">1774</fromdate>
                            <todate standarddate="1774">1774</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref12_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
                   </did>
                </c>
-               <c id="ref13" level="file">
+               <c altrender="/repositories/12/archival_objects/1179832"
+                  id="ref13"
+                  level="file">
                   <did>
                      <unittitle>ALS to David Waterbury from [Hezekiah Ripley?]</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1775 June 17">
+                     <unitdatestructured altrender="1775 June 17" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1775">1775</fromdate>
                            <todate standarddate="1775">1775</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref13_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2</container>
                   </did>
                </c>
-               <c id="ref14" level="file">
+               <c altrender="/repositories/12/archival_objects/1179833"
+                  id="ref14"
+                  level="file">
                   <did>
                      <unittitle>ALS to Mary Waterbury and children from David Waterbury</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1775 August 6">
+                     <unitdatestructured altrender="1775 August 6" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1775">1775</fromdate>
                            <todate standarddate="1775">1775</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref14_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">3</container>
                   </did>
                </c>
-               <c id="ref15" level="file">
+               <c altrender="/repositories/12/archival_objects/1179834"
+                  id="ref15"
+                  level="file">
                   <did>
                      <unittitle>ALS to Mary Waterbury and children from David Waterbury</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1775 September 8">
+                     <unitdatestructured altrender="1775 September 8"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1775">1775</fromdate>
                            <todate standarddate="1775">1775</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref15_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">4</container>
                   </did>
                </c>
-               <c id="ref16" level="file">
+               <c altrender="/repositories/12/archival_objects/1179835"
+                  id="ref16"
+                  level="file">
                   <did>
                      <unittitle>ALS to Mary Waterbury and children from David Waterbury</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1775 September 20">
+                     <unitdatestructured altrender="1775 September 20"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1775">1775</fromdate>
                            <todate standarddate="1775">1775</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref16_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">5</container>
                   </did>
                </c>
-               <c id="ref17" level="file">
+               <c altrender="/repositories/12/archival_objects/1179836"
+                  id="ref17"
+                  level="file">
                   <did>
                      <unittitle>Photostat of ALS to Mary Waterbury from David Waterbury</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1775 November 3">
+                     <unitdatestructured altrender="1775 November 3"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1775">1775</fromdate>
                            <todate standarddate="1775">1775</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">6</container>
                   </did>
                </c>
-               <c id="ref18" level="file">
+               <c altrender="/repositories/12/archival_objects/1179837"
+                  id="ref18"
+                  level="file">
                   <did>
                      <unittitle>ALS to David Waterbury from Mary Waterbury</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1776 February 23">
+                     <unitdatestructured altrender="1776 February 23"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1776">1776</fromdate>
                            <todate standarddate="1776">1776</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref18_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">7</container>
                   </did>
                </c>
-               <c id="ref19" level="file">
+               <c altrender="/repositories/12/archival_objects/1179838"
+                  id="ref19"
+                  level="file">
                   <did>
                      <unittitle>ALS to David Waterbury from Mary Waterbury</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1776 March 7">
+                     <unitdatestructured altrender="1776 March 7" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1776">1776</fromdate>
                            <todate standarddate="1776">1776</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref19_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">8</container>
                   </did>
                </c>
-               <c id="ref20" level="file">
+               <c altrender="/repositories/12/archival_objects/1179839"
+                  id="ref20"
+                  level="file">
                   <did>
                      <unittitle>ALS to David Waterbury from Eliphalet Dyer</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1776 April 25">
+                     <unitdatestructured altrender="1776 April 25" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1776">1776</fromdate>
                            <todate standarddate="1776">1776</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref20_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">9</container>
                   </did>
                </c>
-               <c id="ref21" level="file">
+               <c altrender="/repositories/12/archival_objects/1179840"
+                  id="ref21"
+                  level="file">
                   <did>
                      <unittitle>ALS to David Waterbury from Roger Sherman</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1776 April 30">
+                     <unitdatestructured altrender="1776 April 30" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1776">1776</fromdate>
                            <todate standarddate="1776">1776</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref21_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">10</container>
                   </did>
                </c>
-               <c id="ref22" level="file">
+               <c altrender="/repositories/12/archival_objects/1179841"
+                  id="ref22"
+                  level="file">
                   <did>
                      <unittitle>ALS to David Waterbury from William Tennant</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1776 October 16">
+                     <unitdatestructured altrender="1776 October 16"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1776">1776</fromdate>
                            <todate standarddate="1776">1776</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref22_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">11</container>
                   </did>
                </c>
-               <c id="ref23" level="file">
+               <c altrender="/repositories/12/archival_objects/1179842"
+                  id="ref23"
+                  level="file">
                   <did>
                      <unittitle>AL to Silvanus Waterbury from an unidentified correspondent</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1777 January 4">
+                     <unitdatestructured altrender="1777 January 4"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1777">1777</fromdate>
                            <todate standarddate="1777">1777</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref23_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">12</container>
                   </did>
                </c>
-               <c id="ref24" level="file">
+               <c altrender="/repositories/12/archival_objects/1179843"
+                  id="ref24"
+                  level="file">
                   <did>
                      <unittitle>ALS to William Waterbury from George B. Smythe</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1841 May 3">
+                     <unitdatestructured altrender="1841 May 3" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1841">1841</fromdate>
                            <todate standarddate="1841">1841</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref24_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">13</container>
                   </did>
                </c>
-               <c id="ref25" level="file">
+               <c altrender="/repositories/12/archival_objects/1179844"
+                  id="ref25"
+                  level="file">
                   <did>
                      <unittitle>Electrostatic copy of TLS to Mrs. John Waterbury from David C. Mearns</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1956 June 19">
+                     <unitdatestructured altrender="1956 June 19" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1956">1956</fromdate>
                            <todate standarddate="1956">1956</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref25_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -456,76 +533,93 @@
                   </did>
                </c>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1179845"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Military Papers</unittitle>
                </did>
-               <c id="ref27" level="file">
+               <c altrender="/repositories/12/archival_objects/1179846"
+                  id="ref27"
+                  level="file">
                   <did>
                      <unittitle>Photostatic copies of officer's commission for David Waterbury</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1755">
+                     <unitdatestructured altrender="1755" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1755">1755</fromdate>
                            <todate standarddate="1755">1755</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref27_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">15</container>
                   </did>
                </c>
-               <c id="ref28" level="file">
+               <c altrender="/repositories/12/archival_objects/1179847"
+                  id="ref28"
+                  level="file">
                   <did>
                      <unittitle>Captain David Waterbury's orderly book</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1758-1759">
+                     <unitdatestructured altrender="1758-1759" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1758">1758</fromdate>
                            <todate standarddate="1759">1759</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref28_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">16</container>
                   </did>
                </c>
-               <c id="ref29" level="file">
+               <c altrender="/repositories/12/archival_objects/1179848"
+                  id="ref29"
+                  level="file">
                   <did>
                      <unittitle>Orders and instructions for Brigadier General Benedict Arnold at Ticonderoga</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1776 August 7">
+                     <unitdatestructured altrender="1776 August 7" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1776">1776</fromdate>
                            <todate standarddate="1776">1776</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref29_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">17</container>
                   </did>
                </c>
-               <c id="ref30" level="file">
+               <c altrender="/repositories/12/archival_objects/1179849"
+                  id="ref30"
+                  level="file">
                   <did>
                      <unittitle>
                         <title render="italic">
                            <part>A Complete Roster of Colonel David Waterbury Jr.'s Regiment
 of Connecticut Volunteers</part>
                         </title>, by A. H. Clark</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1897">
+                     <unitdatestructured altrender="1897" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1897">1897</fromdate>
                            <todate standarddate="1897">1897</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref30_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -533,118 +627,143 @@ of Connecticut Volunteers</part>
                   </did>
                </c>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1179850"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Financial and Legal Papers</unittitle>
                </did>
-               <c id="ref32" level="file">
+               <c altrender="/repositories/12/archival_objects/1179851"
+                  id="ref32"
+                  level="file">
                   <did>
                      <unittitle>Indenture by George Hurt</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1700">
+                     <unitdatestructured altrender="1700" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1700">1700</fromdate>
                            <todate standarddate="1700">1700</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref32_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">19</container>
                   </did>
                </c>
-               <c id="ref33" level="file">
+               <c altrender="/repositories/12/archival_objects/1179852"
+                  id="ref33"
+                  level="file">
                   <did>
                      <unittitle>Account book concerning the estate of Timothy Jessup</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1809">
+                     <unitdatestructured altrender="1809" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1809">1809</fromdate>
                            <todate standarddate="1809">1809</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref33_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">20</container>
                   </did>
                </c>
-               <c id="ref34" level="file">
+               <c altrender="/repositories/12/archival_objects/1179853"
+                  id="ref34"
+                  level="file">
                   <did>
                      <unittitle>Account book of William Waterbury IV [son of David Waterbury]</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1812-1834">
+                     <unitdatestructured altrender="1812-1834" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1812">1812</fromdate>
                            <todate standarddate="1834">1834</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref34_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">21</container>
                   </did>
                </c>
-               <c id="ref35" level="file">
+               <c altrender="/repositories/12/archival_objects/1179854"
+                  id="ref35"
+                  level="file">
                   <did>
                      <unittitle>Deed of land sale between Naomi Webb and Theodore Waterbury [son of William Waterbury IV]</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1845 June 2">
+                     <unitdatestructured altrender="1845 June 2" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1845">1845</fromdate>
                            <todate standarddate="1845">1845</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref35_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">22</container>
                   </did>
                </c>
-               <c id="ref36" level="file">
+               <c altrender="/repositories/12/archival_objects/1179855"
+                  id="ref36"
+                  level="file">
                   <did>
                      <unittitle>Deed from Naomi Webb to Theodore Waterbury</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1851 June 16">
+                     <unitdatestructured altrender="1851 June 16" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1851">1851</fromdate>
                            <todate standarddate="1851">1851</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref36_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">23</container>
                   </did>
                </c>
-               <c id="ref37" level="file">
+               <c altrender="/repositories/12/archival_objects/1179856"
+                  id="ref37"
+                  level="file">
                   <did>
                      <unittitle>Deed from George Jessup to Theodore Waterbury</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1857 November 16">
+                     <unitdatestructured altrender="1857 November 16"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1857">1857</fromdate>
                            <todate standarddate="1857">1857</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref37_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">24</container>
                   </did>
                </c>
-               <c id="ref38" level="file">
+               <c altrender="/repositories/12/archival_objects/1179857"
+                  id="ref38"
+                  level="file">
                   <did>
                      <unittitle>Sketch of a parcel of land with bordering owners</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref38_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -652,156 +771,191 @@ of Connecticut Volunteers</part>
                   </did>
                </c>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1179858"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>Memorabilia</unittitle>
                </did>
-               <c id="ref40" level="file">
+               <c altrender="/repositories/12/archival_objects/1179859"
+                  id="ref40"
+                  level="file">
                   <did>
                      <unittitle>Two travel diaries kept by William Waterbury IV on his trips though New York, Pennsylvania, Virginia, Maryland, and Delaware</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1799-1800">
+                     <unitdatestructured altrender="1799-1800" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1799">1799</fromdate>
                            <todate standarddate="1800">1800</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref40_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">26</container>
                   </did>
                </c>
-               <c id="ref41" level="file">
+               <c altrender="/repositories/12/archival_objects/1179860"
+                  id="ref41"
+                  level="file">
                   <did>
                      <unittitle>Two travel diaries kept by William Waterbury IV on his trips to New York</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1812-1813">
+                     <unitdatestructured altrender="1812-1813" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1812">1812</fromdate>
                            <todate standarddate="1813">1813</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130646 /locations/9"
                                 containerid="39002042261975"
+                                encodinganalog="archive legal"
                                 id="aspace_ref41_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">27</container>
                   </did>
                </c>
-               <c id="ref42" level="file">
+               <c altrender="/repositories/12/archival_objects/1179861"
+                  id="ref42"
+                  level="file">
                   <did>
                      <unittitle>
                         <title render="italic">
                            <part>Universal Spelling Book</part>
                         </title> owned by William Waterbury IV</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="Circa 1756">
+                     <unitdatestructured altrender="Circa 1756" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1751">1751</fromdate>
                            <todate standarddate="1761">1761</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/130647 /locations/9"
                                 containerid="39002042261983"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref42_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">28</container>
                   </did>
                </c>
-               <c id="ref43" level="file">
+               <c altrender="/repositories/12/archival_objects/1179862"
+                  id="ref43"
+                  level="file">
                   <did>
                      <unittitle>Handwritten book by Molly Waterbury [daughter of David Waterbury] containing poems, hymns, and a letter to an aunt</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive half legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130647 /locations/9"
                                 containerid="39002042261983"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref43_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref43_c2" localtype="folder" parent="aspace_ref43_c1">29</container>
                   </did>
                </c>
-               <c id="ref44" level="file">
+               <c altrender="/repositories/12/archival_objects/1179863"
+                  id="ref44"
+                  level="file">
                   <did>
                      <unittitle>Poem, "The Beggar and the Divine," by Jesse Hoyt</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive half legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130647 /locations/9"
                                 containerid="39002042261983"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref44_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">30</container>
                   </did>
                </c>
-               <c id="ref45" level="file">
+               <c altrender="/repositories/12/archival_objects/1179864"
+                  id="ref45"
+                  level="file">
                   <did>
                      <unittitle>Poem, "Why do we mourn departed friends," [by Molly Waterbury?]</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive half legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130647 /locations/9"
                                 containerid="39002042261983"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref45_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref45_c2" localtype="folder" parent="aspace_ref45_c1">31</container>
                   </did>
                </c>
-               <c id="ref46" level="file">
+               <c altrender="/repositories/12/archival_objects/1179865"
+                  id="ref46"
+                  level="file">
                   <did>
                      <unittitle>Recipe for General Waterbury's punch</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive half legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130647 /locations/9"
                                 containerid="39002042261983"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref46_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref46_c2" localtype="folder" parent="aspace_ref46_c1">32</container>
                   </did>
                </c>
-               <c id="ref47" level="file">
+               <c altrender="/repositories/12/archival_objects/1179866"
+                  id="ref47"
+                  level="file">
                   <did>
                      <unittitle>Newspaper clippings</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1923, 1966, undated">
+                     <unitdatestructured altrender="1923, 1966, undated"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1923">1923</fromdate>
                            <todate standarddate="1966">1966</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/130647 /locations/9"
                                 containerid="39002042261983"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref47_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref47_c2" localtype="folder" parent="aspace_ref47_c1">33</container>
                   </did>
                </c>
-               <c id="ref48" level="file">
+               <c altrender="/repositories/12/archival_objects/1179867"
+                  id="ref48"
+                  level="file">
                   <did>
                      <unittitle>Family Bible</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1761">
+                     <unitdatestructured altrender="1761" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1761">1761</fromdate>
                            <todate standarddate="1761">1761</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="legacy black"
+                     <container altrender="/repositories/12/top_containers/130648 /locations/9"
                                 containerid="39002042261991"
+                                encodinganalog="legacy black"
                                 id="aspace_ref48_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
                </c>
-               <c id="ref49" level="file">
+               <c altrender="/repositories/12/archival_objects/1179868"
+                  id="ref49"
+                  level="file">
                   <did>
                      <unittitle>Mug and ring</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="card box (8d 5h 12w)"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130649 /locations/9"
                                 containerid="39002042262007"
+                                encodinganalog="card box (8d 5h 12w)"
                                 id="aspace_ref49_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                   </did>
-                  <accessrestrict id="aspace_5367380f77ff187bf67b64005221b0b4">
+                  <accessrestrict id="aspace_5367380f77ff187bf67b64005221b0b4"
+                                  localtype="RestrictedFragileSpecColl">
                      <head>Conditions Governing Access</head>
                      <p>Due to the physical nature of the mug and ring in box 4, staff supervision is required.</p>
                   </accessrestrict>

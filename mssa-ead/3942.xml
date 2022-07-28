@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0834">mssa.ms.0834</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0834">mssa.ms.0834</recordid>
+      <otherrecordid localtype="BIB">614446</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Basil Duke Henning Papers
@@ -32,6 +34,11 @@
             <date>January 1979</date>
             <num>MS 834</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:52:05+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:09:43+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:52</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:09</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3942" level="collection">
       <did>
          <unittitle>Basil Duke Henning papers</unittitle>
          <unitid>MS 834</unitid>
@@ -82,157 +92,178 @@
             <quantity>1.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1934-1978">
+         <unitdatestructured altrender="1934-1978" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1934">1934</fromdate>
                <todate standarddate="1978">1978</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_f6116d419dbe3e8eb08d9b4dcf63d825">Correspondence, writings, research and office files, and teaching materials reflecting Basil Duke Henning's career at Yale University and his service as master of Saybrook College from 1934 to 1978. The correspondence is largely with other historians on professional matters. Among the writers are Henry Horowitz, Douglas Lacey and Caroline Robbins. Included in the papers is a typed draft of: Members of Parliament, 1660-1690 (1963). Other papers relate to his service on various Yale University committees.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n84804121"
                       rules="aacr"
                       source="naf">
-               <part>Henning, Basil Duke</part>
+               <part localtype="agent_person">Henning, Basil Duke</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_2de84326eeb1cbbdedcf75ea0b512b3a">
          <head>Immediate Source of Acquisition</head>
-         <p>Transferred from Basil Duke Henning's office, 1978.</p>  
+         <p>Transferred from Basil Duke Henning's office, 1978.</p>
       </acqinfo>
       <accessrestrict id="aspace_7133bfebf7c75438527bc561c27b516d">
          <head>Conditions Governing Access</head>
          <p>Materials in Box 4 are closed until 2054 as established by <ref actuate="onrequest"
                  href="http://web.library.yale.edu/mssa/collections/research-use-of-yale-university-archives"
                  show="new">Yale Corporation regulations.</ref>
-         </p>  
+         </p>
       </accessrestrict>
       <prefercite id="aspace_698886d7275a27180cc2730c4499a2fd">
          <head>Preferred Citation</head>
-         <p>Basil Duke Henning Papers (MS 834). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Basil Duke Henning Papers (MS 834). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_f7f758e429461f9dfbbcaeddaed130c4">
          <head>Scope and Contents</head>
          <p>The Basil Duke Henning Papers date from 1934 to 1978 and deal primarily with Henning's career as an historian and his service as a Yale master. Included among the papers are correspondence with other historians, files on the publication of <emph render="italic">Crises in English History, 1066-1945</emph>, and material relating to Yale University committees of which Henning was a member.</p>
-         <p>The papers were transferred to Manuscripts and Archives from Professor Henning's office in Sterling Memorial Library in June and July of 1978.</p>  
+         <p>The papers were transferred to Manuscripts and Archives from Professor Henning's office in Sterling Memorial Library in June and July of 1978.</p>
       </scopecontent>
       <bioghist id="aspace_5a557d5b6118c282a818b29ef47bada3">
          <head>Biographical / Historical</head>
-         <p>Basil Duke Henning received his B.A. degree from Yale University in 1932 and his Ph.D. in 1937. In 1935 he became an instructor in history at Yale and was appointed a Sterling Fellow in History, the Arts and Letters from 1939 to 1940. Henning became an assistant professor in 1945 and the following year an associate professor. From 1971 until his retirement in 1978, he was Colgate Professor of English history. Henning served as Master of Saybrook College from 1946 to 1975.</p>  
+         <p>Basil Duke Henning received his B.A. degree from Yale University in 1932 and his Ph.D. in 1937. In 1935 he became an instructor in history at Yale and was appointed a Sterling Fellow in History, the Arts and Letters from 1939 to 1940. Henning became an assistant professor in 1945 and the following year an associate professor. From 1971 until his retirement in 1978, he was Colgate Professor of English history. Henning served as Master of Saybrook College from 1946 to 1975.</p>
       </bioghist>
       <userestrict id="aspace_64eedaab7085f6841f5182fa0b051548">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85061091"
                   source="lcsh">
-            <part>Historians</part>
+            <part localtype="topical">Historians</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/n84804121"
                    rules="aacr"
                    source="naf">
-            <part>Henning, Basil Duke</part>
+            <part localtype="agent_person">Henning, Basil Duke</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Horowitz, Henry, 1923-</part>
+            <part localtype="agent_person">Horowitz, Henry, 1923-</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no2001096888"
                    rules="aacr"
                    source="naf">
-            <part>Lacey, Douglas R. (Douglas Raymond), 1913-</part>
+            <part localtype="agent_person">Lacey, Douglas R. (Douglas Raymond), 1913-</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n82009847" source="naf">
-            <part>Robbins, Caroline</part>
+            <part localtype="agent_person">Robbins, Caroline</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/nr98041633"
                    source="naf">
-            <part>Saybrook College (Yale University)</part>
+            <part localtype="agent_corporate_entity">Saybrook College (Yale University)</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- History</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">History</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/no93012254"
                    source="naf">
-            <part>Yale University. Department of History</part>
+            <part localtype="agent_corporate_entity">Yale University. Department of History</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1258052"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Correspondence with historians</unittitle>
             </did>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1258053"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>A-Z</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1941-1978, undated">
+                  <unitdatestructured altrender="1941-1978, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1934">1934</fromdate>
                         <todate standarddate="1978">1978</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143209 /locations/9"
                              containerid="39002042292319"
+                             encodinganalog="archive legal"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">1 - 3</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1258054"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Horowitz, Henry</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1964-1976, undated">
+                  <unitdatestructured altrender="1964-1976, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1934">1934</fromdate>
                         <todate standarddate="1978">1978</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143209 /locations/9"
                              containerid="39002042292319"
+                             encodinganalog="archive legal"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">4</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1258055"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Lacey, Douglas</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1960-1973">
+                  <unitdatestructured altrender="1960-1973" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1960">1960</fromdate>
                         <todate standarddate="1973">1973</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143209 /locations/9"
                              containerid="39002042292319"
+                             encodinganalog="archive legal"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">5</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1258056"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Robbins, Caroline</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1955-1970">
+                  <unitdatestructured altrender="1955-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1955">1955</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143209 /locations/9"
                              containerid="39002042292319"
+                             encodinganalog="archive legal"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -240,439 +271,552 @@
                </did>
             </c>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1258057"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Correspondence with Almet Jenks regarding Cole Porter</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1954 November 10-December 1">
+               <unitdatestructured altrender="1954 November 10-December 1"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1978">1978</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143209 /locations/9"
                           containerid="39002042292319"
+                          encodinganalog="archive legal"
                           id="aspace_ref17_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">7</container>
             </did>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1258058"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>Correspondence regarding Ted Lewis archive</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1970 February 24-March 6">
+               <unitdatestructured altrender="1970 February 24-March 6"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1978">1978</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143209 /locations/9"
                           containerid="39002042292319"
+                          encodinganalog="archive legal"
                           id="aspace_ref18_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">8</container>
             </did>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1258059"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>Conference on British Studies</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1952-1974, undated">
+               <unitdatestructured altrender="1952-1974, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1978">1978</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143210 /locations/9"
                           containerid="39002042292327"
+                          encodinganalog="archive legal"
                           id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">9</container>
             </did>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1258060"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>English universities, printed matter</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1966-1967, undated">
+               <unitdatestructured altrender="1966-1967, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1978">1978</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143210 /locations/9"
                           containerid="39002042292327"
+                          encodinganalog="archive legal"
                           id="aspace_ref20_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">10</container>
             </did>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1258061"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>Conference on the "Use of Quantitative Methods in the Study of the History of Legislative Behavior"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1972 March 13-15">
+               <unitdatestructured altrender="1972 March 13-15"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1978">1978</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143210 /locations/9"
                           containerid="39002042292327"
+                          encodinganalog="archive legal"
                           id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">11</container>
             </did>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1258062"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>National Endowment for the Humanities, project evaluations</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1974-1977">
+               <unitdatestructured altrender="1974-1977" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1974">1974</fromdate>
                      <todate standarddate="1977">1977</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143210 /locations/9"
                           containerid="39002042292327"
+                          encodinganalog="archive legal"
                           id="aspace_ref22_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">12</container>
             </did>
          </c>
-         <c id="ref23" level="file">
+         <c altrender="/repositories/12/archival_objects/1258063"
+            id="ref23"
+            level="file">
             <did>
                <unittitle>"The evolution towards a committee of the whole house during the reign of Elizabeth"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1934 January">
+               <unitdatestructured altrender="1934 January" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1978">1978</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/143210 /locations/9"
                           containerid="39002042292327"
+                          encodinganalog="archive legal"
                           id="aspace_ref23_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">13</container>
             </did>
          </c>
-         <c id="ref24" level="file">
+         <c altrender="/repositories/12/archival_objects/1258064"
+            id="ref24"
+            level="file">
             <did>
                <unittitle>Book reviews</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1935-1974, undated">
+               <unitdatestructured altrender="1935-1974, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1978">1978</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143210 /locations/9"
                           containerid="39002042292327"
+                          encodinganalog="archive legal"
                           id="aspace_ref24_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">14</container>
             </did>
          </c>
-         <c id="ref25" level="file">
+         <c altrender="/repositories/12/archival_objects/1258065"
+            id="ref25"
+            level="file">
             <did>
                <unittitle>Publication of <title render="italic">
                      <part>Crises in English History</part>
                   </title>
                </unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1947-1963">
+               <unitdatestructured altrender="1947-1963" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1947">1947</fromdate>
                      <todate standarddate="1963">1963</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143210 /locations/9"
                           containerid="39002042292327"
+                          encodinganalog="archive legal"
                           id="aspace_ref25_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">15</container>
             </did>
          </c>
-         <c id="ref26" level="file">
+         <c altrender="/repositories/12/archival_objects/1258066"
+            id="ref26"
+            level="file">
             <did>
                <unittitle>Revisions in publications</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1949-1973">
+               <unitdatestructured altrender="1949-1973" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1949">1949</fromdate>
                      <todate standarddate="1973">1973</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143210 /locations/9"
                           containerid="39002042292327"
+                          encodinganalog="archive legal"
                           id="aspace_ref26_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">16</container>
             </did>
          </c>
-         <c id="ref27" level="file">
+         <c altrender="/repositories/12/archival_objects/1258067"
+            id="ref27"
+            level="file">
             <did>
                <unittitle>Publications file, including correspondence, sales data, and book adoption lists</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1947-1965">
+               <unitdatestructured altrender="1947-1965" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1947">1947</fromdate>
                      <todate standarddate="1965">1965</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143210 /locations/9"
                           containerid="39002042292327"
+                          encodinganalog="archive legal"
                           id="aspace_ref27_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">17</container>
             </did>
          </c>
-         <c id="ref28" level="file">
+         <c altrender="/repositories/12/archival_objects/1258068"
+            id="ref28"
+            level="file">
             <did>
                <unittitle>Publication agreements and royalty statements</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1947-1977">
+               <unitdatestructured altrender="1947-1977" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1947">1947</fromdate>
                      <todate standarddate="1977">1977</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143210 /locations/9"
                           containerid="39002042292327"
+                          encodinganalog="archive legal"
                           id="aspace_ref28_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">18</container>
             </did>
          </c>
-         <c id="ref29" level="file">
+         <c altrender="/repositories/12/archival_objects/1258069"
+            id="ref29"
+            level="file">
             <did>
                <unittitle>Yale Parliamentary Diaries project</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1966-1976, undated">
+               <unitdatestructured altrender="1966-1976, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1978">1978</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143211 /locations/9"
                           containerid="39002042292335"
+                          encodinganalog="archive legal"
                           id="aspace_ref29_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
                <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">19</container>
             </did>
          </c>
-         <c id="ref30" level="file">
+         <c altrender="/repositories/12/archival_objects/1258070"
+            id="ref30"
+            level="file">
             <did>
                <unittitle>Yale University, British history search committee</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1973-1976, undated">
+               <unitdatestructured altrender="1973-1976, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1978">1978</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143211 /locations/9"
                           containerid="39002042292335"
+                          encodinganalog="archive legal"
                           id="aspace_ref30_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
                <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">20</container>
             </did>
          </c>
-         <c id="ref31" level="file">
+         <c altrender="/repositories/12/archival_objects/1258071"
+            id="ref31"
+            level="file">
             <did>
                <unittitle>Yale University, faculty members in the Korean War</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1950 July 24-September 14, undated">
+               <unitdatestructured altrender="1950 July 24-September 14, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1978">1978</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143211 /locations/9"
                           containerid="39002042292335"
+                          encodinganalog="archive legal"
                           id="aspace_ref31_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
                <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">21</container>
             </did>
          </c>
-         <c id="ref32" level="file">
+         <c altrender="/repositories/12/archival_objects/1258072"
+            id="ref32"
+            level="file">
             <did>
                <unittitle>Yale University, committee on residential college deanships</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1965-1975, undated">
+               <unitdatestructured altrender="1965-1975, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1978">1978</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143211 /locations/9"
                           containerid="39002042292335"
+                          encodinganalog="archive legal"
                           id="aspace_ref32_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
                <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">22</container>
             </did>
          </c>
-         <c id="ref33" level="file">
+         <c altrender="/repositories/12/archival_objects/1258073"
+            id="ref33"
+            level="file">
             <did>
                <unittitle>Yale University, Yale College policy coordination committee and committee on university problems</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1974-1975">
+               <unitdatestructured altrender="1974-1975" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1974">1974</fromdate>
                      <todate standarddate="1975">1975</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143211 /locations/9"
                           containerid="39002042292335"
+                          encodinganalog="archive legal"
                           id="aspace_ref33_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
                <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">23</container>
             </did>
          </c>
-         <c id="ref34" level="file">
+         <c altrender="/repositories/12/archival_objects/1258074"
+            id="ref34"
+            level="file">
             <did>
                <unittitle>Yale University Dramatic Association advisory board</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1940-1974, undated">
+               <unitdatestructured altrender="1940-1974, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1978">1978</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143211 /locations/9"
                           containerid="39002042292335"
+                          encodinganalog="archive legal"
                           id="aspace_ref34_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
                <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">24</container>
             </did>
          </c>
-         <c id="ref35" level="file">
+         <c altrender="/repositories/12/archival_objects/1258075"
+            id="ref35"
+            level="file">
             <did>
                <unittitle>Yale 1932 class reunion</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1961-1962, undated">
+               <unitdatestructured altrender="1961-1962, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1978">1978</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143211 /locations/9"
                           containerid="39002042292335"
+                          encodinganalog="archive legal"
                           id="aspace_ref35_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
                <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">25</container>
             </did>
          </c>
-         <c id="ref36" level="file">
+         <c altrender="/repositories/12/archival_objects/1258076"
+            id="ref36"
+            level="file">
             <did>
                <unittitle>Yale Whiffenpoofs, correspondence on crest, anniversaries, Whiffenpoof tent, etc.</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1966-1974, undated">
+               <unitdatestructured altrender="1966-1974, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1978">1978</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143211 /locations/9"
                           containerid="39002042292335"
+                          encodinganalog="archive legal"
                           id="aspace_ref36_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
                <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">26</container>
             </did>
          </c>
-         <c id="ref37" level="file">
+         <c altrender="/repositories/12/archival_objects/1258077"
+            id="ref37"
+            level="file">
             <did>
                <unittitle>Letter from H. A. Robinson regarding Dr. Clements Fry's study of students in Yale's residential colleges</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1949 December 29">
+               <unitdatestructured altrender="1949 December 29"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1978">1978</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143211 /locations/9"
                           containerid="39002042292335"
+                          encodinganalog="archive legal"
                           id="aspace_ref37_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
                <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">27</container>
             </did>
          </c>
-         <c id="ref38" level="file">
+         <c altrender="/repositories/12/archival_objects/1258078"
+            id="ref38"
+            level="file">
             <did>
                <unittitle>Letters commemorating Henning's 29 years as master of Saybrook College</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1975">
+               <unitdatestructured altrender="1975" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1975">1975</fromdate>
                      <todate standarddate="1975">1975</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143211 /locations/9"
                           containerid="39002042292335"
+                          encodinganalog="archive legal"
                           id="aspace_ref38_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
                <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">27a</container>
             </did>
          </c>
-         <c id="ref39" level="file">
+         <c altrender="/repositories/12/archival_objects/1258079"
+            id="ref39"
+            level="file">
             <did>
                <unittitle>RESTRICTED</unittitle>
             </did>
-            <accessrestrict id="aspace_9c71699be662294f670f974ff15fc494">
+            <accessrestrict id="aspace_9c71699be662294f670f974ff15fc494"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Materials restricted until January 1, 2054 as established by <ref actuate="onrequest"
                        href="http://web.library.yale.edu/mssa/collections/research-use-of-yale-university-archives"
                        show="new">Yale Corporation regulations.</ref>
                </p>
             </accessrestrict>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1258080"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>Graduate history course grades</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1972-1978">
+                  <unitdatestructured altrender="1972-1978" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1972">1972</fromdate>
                         <todate standarddate="1978">1978</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/143212 /locations/9"
                              containerid="39002042292343"
+                             encodinganalog="archive half letter"
                              id="aspace_ref40_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">28</container>
                </did>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1258081"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>Recommendations for scholarships, fellowships, and other positions</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1949-1966, undated">
+                  <unitdatestructured altrender="1949-1966, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1934">1934</fromdate>
                         <todate standarddate="1978">1978</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/143212 /locations/9"
                              containerid="39002042292343"
+                             encodinganalog="archive half letter"
                              id="aspace_ref41_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">29</container>
                </did>
             </c>
-            <c id="ref42" level="file">
+            <c altrender="/repositories/12/archival_objects/1258082"
+               id="ref42"
+               level="file">
                <did>
                   <unittitle>Yale University-Clare College (Cambridge) Mellon fellowships</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1949-1972, undated">
+                  <unitdatestructured altrender="1949-1972, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1934">1934</fromdate>
                         <todate standarddate="1978">1978</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/143212 /locations/9"
                              containerid="39002042292343"
+                             encodinganalog="archive half letter"
                              id="aspace_ref42_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>

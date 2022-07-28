@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0704">mssa.ms.0704</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0704">mssa.ms.0704</recordid>
+      <otherrecordid localtype="BIB">614278</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Thomas Lawrason Riggs Papers
@@ -32,6 +34,11 @@
             <date>July 1983</date>
             <num>MS 704</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:49:38+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:53:00+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:49</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:53</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3923" level="collection">
       <did>
          <unittitle>Thomas Lawrason Riggs papers</unittitle>
          <unitid>MS 704</unitid>
@@ -83,39 +93,38 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(2 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1828-1941">
+         <unitdatestructured altrender="1828-1941" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1828">1828</fromdate>
                <todate standarddate="1941">1941</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_8190bb88503e72e32eb97b37ffd3a173">The principal figures in the papers are T. Lawrason Riggs and his grandfather, George Washington Riggs. The papers of T. Lawrason Riggs, a Catholic priest, consist of correspondence, research materials and manuscripts for two works: "Joan of Arc and the Church" and "Readings in Church Latin." Also included are a notebook, photographs and memorabilia. His principal correspondents are Clarence J. McCabe and Alfred Purcell who wrote on Joan of Arc. Also letters from John LaFarge, Hamilton Holt and others. The papers of George Washington Riggs consist of three bound volumes: an autograph album and commonplace book from his Yale College days (1828-1829) and a catalogue of the books in his library.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/no96045113"
                       rules="aacr"
                       source="naf">
-               <part>Riggs, T. Lawrason (Thomas Lawrason), 1888-1943</part>
+               <part localtype="agent_person">Riggs, T. Lawrason (Thomas Lawrason), 1888-1943</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_60a85998cfc83a3c152a6a07f96a92ca">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of the estate of T. Lawrason Riggs in 1944 and from St. Thomas More House in 1961.</p>  
+         <p>Gift of the estate of T. Lawrason Riggs in 1944 and from St. Thomas More House in 1961.</p>
       </acqinfo>
       <accessrestrict id="aspace_e55b6aeea32d006a14cf5e843b06a1cc">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_2761abf968af5fdc168d11d16fa3e7b9">
          <head>Preferred Citation</head>
-         <p>Thomas Lawrason Riggs Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Thomas Lawrason Riggs Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_9d3ea5214b34e886f289c69110016e56">
          <head>Scope and Contents</head>
          <p>The Thomas Lawrason Riggs Family Papers pertain to T. Lawrason Riggs and his grandfather, George Washington Riggs. The papers of the younger Riggs consist of correspondence, manuscript materials, and assorted other items. There are single letters from John LaFarge, Hamilton Holt, and others, while the bulk of the correspondence is with Clarence J. McCabe and Alfred A. Purcell, and concerns Joan of Arc and the book Riggs was writing about her. The manuscript of the book, manuscript notes and various research materials are also present. Other T. Lawrason Riggs papers include a manuscript of selections in Vulgate Latin prepared by Riggs for a course; a notebook containing a poem, a chronological table of Chinese, Indian, and Japanese history, and notes on medical care; a photograph possibly of Riggs, his father, and his brother; and an invitation from the White House for Riggs and his brother. Finally, there are a few miscellaneous printed items and other papers, including an invitation dating ca. 1792-1800 from John Pintard to James Murray to a masons' meeting.</p>
          <p>Three bound volumes constitute the papers of George Washington Riggs. Included are his autograph album and commonplace book, both dating from his Yale College days, and a catalogue of the books in his library, made in 1860. These volumes are in somewhat fragile condition and should be handled with care.</p>
-         <p>The Thomas Lawrason Riggs Family papers were a gift to Yale University from the estate of T. Lawrason Riggs in 1944 and from St. Thomas More House in 1961.</p>  
+         <p>The Thomas Lawrason Riggs Family papers were a gift to Yale University from the estate of T. Lawrason Riggs in 1944 and from St. Thomas More House in 1961.</p>
       </scopecontent>
       <bioghist id="aspace_5554a0a4103399c8af1594397dde59c0">
          <head>Biographical / Historical</head>
@@ -127,175 +136,201 @@
          <p>Death due to coronary occlusion. Buried in St. Lawrence Cemetery, New Haven. Survived by no immediate relatives.</p>
          <p>Father Riggs left a bequest to St. Thomas More House, the income of which is to be used for the salary of the chaplain.</p>
          <p>From <emph render="italic">Yale University Obituary Record</emph>
-         </p>  
+         </p>
       </bioghist>
       <userestrict id="aspace_31f4f58037f97790c2ec021fa6a971ed">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85148236"
                   source="lcsh">
-            <part>World War, 1914-1918</part>
+            <part localtype="topical">World War, 1914-1918</part>
          </subject>
          <genreform source="local">
-            <part>Autographs</part>
+            <part localtype="genre_form">Autographs</part>
          </genreform>
          <genreform identifier="http://vocab.getty.edu/aat/300027093" source="aat">
-            <part>Commonplace books</part>
+            <part localtype="genre_form">Commonplace books</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85026944"
                   source="lcsh">
-            <part>Clergy</part>
+            <part localtype="topical">Clergy</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/n79033041" source="naf">
-            <part>Joan, of Arc, Saint, 1412-1431</part>
+            <part localtype="agent_person">Joan, of Arc, Saint, 1412-1431</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n90616630"
                    rules="aacr"
                    source="naf">
-            <part>Holt, Hamilton, 1872-1951</part>
+            <part localtype="agent_person">Holt, Hamilton, 1872-1951</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n85197557"
                    rules="aacr"
                    source="naf">
-            <part>La Farge, John, 1880-1963</part>
+            <part localtype="agent_person">La Farge, John, 1880-1963</part>
          </persname>
          <persname source="local">
-            <part>McCabe, Clarence J.</part>
+            <part localtype="agent_person">McCabe, Clarence J.</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Purcell, Alfred</part>
+            <part localtype="agent_person">Purcell, Alfred</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n80025928"
                    rules="aacr"
                    source="naf">
-            <part>Riggs, George Washington, 1813-1881</part>
+            <part localtype="agent_person">Riggs, George Washington, 1813-1881</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no96045113"
                    rules="aacr"
                    source="naf">
-            <part>Riggs, T. Lawrason (Thomas Lawrason), 1888-1943</part>
+            <part localtype="agent_person">Riggs, T. Lawrason (Thomas Lawrason), 1888-1943</part>
          </persname>
          <corpname source="local">
-            <part>Yale College (1718-1887). Class of 1833</part>
+            <part localtype="agent_corporate_entity">Yale College (1718-1887). Class of 1833</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1257368"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Thomas Lawrason Riggs</unittitle>
             </did>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1257369"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Correspondence</unittitle>
                </did>
-               <c id="ref14" level="file">
+               <c altrender="/repositories/12/archival_objects/1257370"
+                  id="ref14"
+                  level="file">
                   <did>
                      <unittitle>Hamilton, Holt</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1935">
+                     <unitdatestructured altrender="1935" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1935">1935</fromdate>
                            <todate standarddate="1935">1935</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143103 /locations/9"
                                 containerid="39002042273442"
+                                encodinganalog="archive legal"
                                 id="aspace_ref14_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">1</container>
                   </did>
                </c>
-               <c id="ref15" level="file">
+               <c altrender="/repositories/12/archival_objects/1257371"
+                  id="ref15"
+                  level="file">
                   <did>
                      <unittitle>LaFarge, Henry</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1940">
+                     <unitdatestructured altrender="1940" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1940">1940</fromdate>
                            <todate standarddate="1940">1940</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143103 /locations/9"
                                 containerid="39002042273442"
+                                encodinganalog="archive legal"
                                 id="aspace_ref15_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">1</container>
                   </did>
                </c>
-               <c id="ref16" level="file">
+               <c altrender="/repositories/12/archival_objects/1257372"
+                  id="ref16"
+                  level="file">
                   <did>
                      <unittitle>LaFarge, John</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1931">
+                     <unitdatestructured altrender="1931" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1931">1931</fromdate>
                            <todate standarddate="1931">1931</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143103 /locations/9"
                                 containerid="39002042273442"
+                                encodinganalog="archive legal"
                                 id="aspace_ref16_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">1</container>
                   </did>
                </c>
-               <c id="ref17" level="file">
+               <c altrender="/repositories/12/archival_objects/1257373"
+                  id="ref17"
+                  level="file">
                   <did>
                      <unittitle>McCabe, Clarence J.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1936-1938">
+                     <unitdatestructured altrender="1936-1938" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1936">1936</fromdate>
                            <todate standarddate="1938">1938</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143103 /locations/9"
                                 containerid="39002042273442"
+                                encodinganalog="archive legal"
                                 id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">2</container>
                   </did>
                </c>
-               <c id="ref18" level="file">
+               <c altrender="/repositories/12/archival_objects/1257374"
+                  id="ref18"
+                  level="file">
                   <did>
                      <unittitle>Purcell, Alfred A.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1936-1941">
+                     <unitdatestructured altrender="1936-1941" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1936">1936</fromdate>
                            <todate standarddate="1941">1941</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143103 /locations/9"
                                 containerid="39002042273442"
+                                encodinganalog="archive legal"
                                 id="aspace_ref18_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">3</container>
                   </did>
                </c>
-               <c id="ref19" level="file">
+               <c altrender="/repositories/12/archival_objects/1257375"
+                  id="ref19"
+                  level="file">
                   <did>
                      <unittitle>Stevens, Henry N.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1900">
+                     <unitdatestructured altrender="1900" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1900">1900</fromdate>
                            <todate standarddate="1900">1900</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143103 /locations/9"
                                 containerid="39002042273442"
+                                encodinganalog="archive legal"
                                 id="aspace_ref19_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -303,55 +338,66 @@
                   </did>
                </c>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1257376"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>"Joan of Arc and the Church"</unittitle>
                </did>
-               <c id="ref21" level="file">
+               <c altrender="/repositories/12/archival_objects/1257377"
+                  id="ref21"
+                  level="file">
                   <did>
                      <unittitle>Research materials</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1828">1828</fromdate>
                            <todate standarddate="1941">1941</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143103 /locations/9"
                                 containerid="39002042273442"
+                                encodinganalog="archive legal"
                                 id="aspace_ref21_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">4</container>
                   </did>
                </c>
-               <c id="ref22" level="file">
+               <c altrender="/repositories/12/archival_objects/1257378"
+                  id="ref22"
+                  level="file">
                   <did>
                      <unittitle>Manuscript notes</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1828">1828</fromdate>
                            <todate standarddate="1941">1941</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143103 /locations/9"
                                 containerid="39002042273442"
+                                encodinganalog="archive legal"
                                 id="aspace_ref22_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">5</container>
                   </did>
                </c>
-               <c id="ref23" level="file">
+               <c altrender="/repositories/12/archival_objects/1257379"
+                  id="ref23"
+                  level="file">
                   <did>
                      <unittitle>Manuscript</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1828">1828</fromdate>
                            <todate standarddate="1941">1941</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143103 /locations/9"
                                 containerid="39002042273442"
+                                encodinganalog="archive legal"
                                 id="aspace_ref23_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -359,51 +405,63 @@
                   </did>
                </c>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1257380"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>"Readings in Church Latin"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1828">1828</fromdate>
                         <todate standarddate="1941">1941</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/143103 /locations/9"
                              containerid="39002042273442"
+                             encodinganalog="archive legal"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">7 - 8</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1257381"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Notebook</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1828">1828</fromdate>
                         <todate standarddate="1941">1941</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143103 /locations/9"
                              containerid="39002042273442"
+                             encodinganalog="archive legal"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">9</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1257382"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Photograph [of Elisha Riggs and his sons, E. Francis and Thomas Lawrason Riggs?]</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[ca. 1900]">
+                  <unitdatestructured altrender="[ca. 1900]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1895">1895</fromdate>
                         <todate standarddate="1905">1905</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143103 /locations/9"
                              containerid="39002042273442"
+                             encodinganalog="archive legal"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -411,89 +469,108 @@
                </did>
             </c>
          </c>
-         <c id="ref27" level="file">
+         <c altrender="/repositories/12/archival_objects/1257383"
+            id="ref27"
+            level="file">
             <did>
                <unittitle>Invitation to the White House for E. Francis and Thomas Lawrason Riggs</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[1903?]">
+               <unitdatestructured altrender="[1903?]" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1903">1903</fromdate>
                      <todate standarddate="1903">1903</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143103 /locations/9"
                           containerid="39002042273442"
+                          encodinganalog="archive legal"
                           id="aspace_ref27_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">10</container>
             </did>
          </c>
-         <c id="ref28" level="file">
+         <c altrender="/repositories/12/archival_objects/1257384"
+            id="ref28"
+            level="file">
             <did>
                <unittitle>Miscellaneous papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[ca. 1792-1800], undated">
+               <unitdatestructured altrender="[ca. 1792-1800], undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1787">1787</fromdate>
                      <todate standarddate="1797">1797</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143103 /locations/9"
                           containerid="39002042273442"
+                          encodinganalog="archive legal"
                           id="aspace_ref28_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">11</container>
             </did>
          </c>
-         <c id="ref29" level="file">
+         <c altrender="/repositories/12/archival_objects/1257385"
+            id="ref29"
+            level="file">
             <did>
                <unittitle>George Washington Riggs</unittitle>
             </did>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1257386"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Autograph album</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1828-1829">
+                  <unitdatestructured altrender="1828-1829" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1828">1828</fromdate>
                         <todate standarddate="1829">1829</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/143104 /locations/9"
                              containerid="39002042273459"
+                             encodinganalog="archive half letter"
                              id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">12</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1257387"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Commonplace book</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1832?]">
+                  <unitdatestructured altrender="[1832?]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1832">1832</fromdate>
                         <todate standarddate="1832">1832</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/143104 /locations/9"
                              containerid="39002042273459"
+                             encodinganalog="archive half letter"
                              id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">13</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1257388"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>Library catalogue</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1860">
+                  <unitdatestructured altrender="1860" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1860">1860</fromdate>
                         <todate standarddate="1860">1860</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/143104 /locations/9"
                              containerid="39002042273459"
+                             encodinganalog="archive half letter"
                              id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>

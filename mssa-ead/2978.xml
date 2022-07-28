@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0520">mssa.ms.0520</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0520">mssa.ms.0520</recordid>
+      <otherrecordid localtype="BIB">614073</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the George Vernadsky Papers
@@ -32,6 +34,11 @@
             <date>September 1987</date>
             <num>MS 520</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:24:20+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:20:20+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:24</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:20</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2978" level="collection">
       <did>
          <unittitle>George Vernadsky papers</unittitle>
          <unitid>MS 520</unitid>
@@ -83,206 +93,241 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(18 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1929-1969">
+         <unitdatestructured altrender="1929-1969" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1929">1929</fromdate>
                <todate standarddate="1969">1969</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_d5e64f5632e08be0f5a6b6f7b24a21ed">The papers consist of manuscript drafts of George Vernadsky's published books and articles on Russian history. Also included in the papers are photostats of documents used by Vernadsky in his research and writing.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n82117750" source="naf">
-               <part>Vernadsky, George, 1887-1973</part>
+               <part localtype="agent_person">Vernadsky, George, 1887-1973</part>
             </persname>
          </origination>
-    
       </did>
       <relatedmaterial id="aspace_a169712e6ccd1ee48223f4edbfeb6855">
          <head>Related Materials</head>
-         <p>George Vernadsky Papers, Bakhmeteff Archive, Rare Book and Manuscript Library, Columbia University.</p>  
+         <p>George Vernadsky Papers, Bakhmeteff Archive, Rare Book and Manuscript Library, Columbia University.</p>
       </relatedmaterial>
       <acqinfo id="aspace_88224fbe6bb1bbfde336b7cea9a84410">
          <head>Immediate Source of Acquisition</head>
-         <p>Gifts of George Vernadsky, Sergei Pushkarev, and Howard B. Gotlieb between 1957 and 1973.</p>  
+         <p>Gifts of George Vernadsky, Sergei Pushkarev, and Howard B. Gotlieb between 1957 and 1973.</p>
       </acqinfo>
       <accessrestrict id="aspace_4c959ff41c9b14f22fadc4d32ef96738">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_3d475572a1232befc1d8c0645846a406">
          <head>Preferred Citation</head>
-         <p>George Vernadsky Papers (MS 520). Manuscripts and Archives, Yale University Library.</p>  
+         <p>George Vernadsky Papers (MS 520). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_278a165df55ce0fe85df370a810f0b37">
          <head>Scope and Contents</head>
          <p>The George Vernadsky Papers consist of manuscripts and typescripts for several of Vernadsky's published books and articles on Russian history. The papers also include phostats of documents used by Vernadsky in his research and writings. The materials represent only a small portion of Vernadsky's papers, the bulk of which are in the Bakhmeteff Archives in the Rare Book and Manuscript Library of Columbia University.</p>
          <p>The papers, which include manuscripts, in chronological order, followed by the articles, which are also in chronological order. Manuscripts for Vernadsky's <title render="italic">
                <part>The History of Russia</part>
-            </title>, a major work which was revised and reissued in several editions, comprise the majority of the papers. Included with the manuscripts for this title are research materials in the form of photostats of ancient Greek texts. At the end of the papers there is a manuscript for an autobiography of Vernadsky's life from his birth until 1917.</p>  
+            </title>, a major work which was revised and reissued in several editions, comprise the majority of the papers. Included with the manuscripts for this title are research materials in the form of photostats of ancient Greek texts. At the end of the papers there is a manuscript for an autobiography of Vernadsky's life from his birth until 1917.</p>
       </scopecontent>
       <bioghist id="aspace_b8d0e9e32ff347ebaffe31917e31ae90">
          <head>Biographical / Historical</head>
-         <p>George Vernadsky was born in St. Petersburg, Russia, on August 20, 1887. He studied at Moscow University and received a Magister degree in Russian history from the University of St. Petersburg in 1917. He taught at universities in Russia and Czechoslovakia before emigrating to the United States and joining the Yale University faculty in 1927. He authored several volumes on the history of Russia. Vernadsky died on June 12, 1973 in New Haven, Connecticut.</p>  
+         <p>George Vernadsky was born in St. Petersburg, Russia, on August 20, 1887. He studied at Moscow University and received a Magister degree in Russian history from the University of St. Petersburg in 1917. He taught at universities in Russia and Czechoslovakia before emigrating to the United States and joining the Yale University faculty in 1927. He authored several volumes on the history of Russia. Vernadsky died on June 12, 1973 in New Haven, Connecticut.</p>
       </bioghist>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85061230"
                   source="lcsh">
-            <part>History -- Study and teaching</part>
+            <part localtype="topical">History</part>
+            <part localtype="topical">Study and teaching</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85125764"
                    source="lcsh">
-            <part>Soviet Union -- History</part>
+            <part localtype="geographic">Soviet Union</part>
+            <part localtype="topical">History</part>
          </geogname>
          <genreform source="local">
-            <part>Manuscripts (for publication)</part>
+            <part localtype="genre_form">Manuscripts (for publication)</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85061091"
                   source="lcsh">
-            <part>Historians</part>
+            <part localtype="topical">Historians</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/n82117750" source="naf">
-            <part>Vernadsky, George, 1887-1973</part>
+            <part localtype="agent_person">Vernadsky, George, 1887-1973</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref41" level="file">
+         <c altrender="/repositories/12/archival_objects/1173815"
+            id="ref41"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>A History of Russia</part>
                   </title>
                </unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1929">
+               <unitdatestructured altrender="1929" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1929">1929</fromdate>
                      <todate standarddate="1929">1929</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/130442 /locations/9"
                           containerid="39002042261645"
+                          encodinganalog="archive letter"
                           id="aspace_ref41_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">1-15</container>
             </did>
          </c>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1173816"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>A History of Russia</part>
                   </title>
                </unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1930">
+               <unitdatestructured altrender="1930" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1930">1930</fromdate>
                      <todate standarddate="1930">1930</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/130443 /locations/9"
                           containerid="39002042261652"
+                          encodinganalog="archive letter"
                           id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">16-17</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1173817"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Photostats</unittitle>
-               <unitdate unitdatetype="inclusive">Undated</unitdate>
-               <container altrender="archive letter"
+               <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+               <container altrender="/repositories/12/top_containers/130443 /locations/9"
                           containerid="39002042261652"
+                          encodinganalog="archive letter"
                           id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">18-24</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1173818"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>Lenin: A Red Dictator</part>
                   </title>
                </unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1931">
+               <unitdatestructured altrender="1931" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1931">1931</fromdate>
                      <todate standarddate="1931">1931</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/130444 /locations/9"
                           containerid="39002042261660"
+                          encodinganalog="archive letter"
                           id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
                <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">25-30</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1173819"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>
                   <emph render="italic">A History of Russia</emph>
                </unittitle>
             </did>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1173820"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Volume 1: <title render="italic">
                         <part>Ancient Russia</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1943">
+                  <unitdatestructured altrender="1943" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1943">1943</fromdate>
                         <todate standarddate="1943">1943</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130444 /locations/9"
                              containerid="39002042261660"
+                             encodinganalog="archive letter"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">31-35</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1173821"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Volume 1: <title render="italic">
                         <part>Ancient Russia</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1943">
+                  <unitdatestructured altrender="1943" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1943">1943</fromdate>
                         <todate standarddate="1943">1943</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/130445 /locations/9"
                              containerid="39002042261678"
+                             encodinganalog="archive half letter"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">36-41</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1173822"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Volume 2: <title render="italic">
                         <part>Kievan Russia</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1947-1948">
+                  <unitdatestructured altrender="1947-1948" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1947">1947</fromdate>
                         <todate standarddate="1948">1948</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130446 /locations/9"
                              containerid="39002042261686"
+                             encodinganalog="archive letter"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
@@ -290,87 +335,101 @@
                </did>
             </c>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1173823"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>The Origins of Russia</part>
                   </title>: manuscript</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1959">
+               <unitdatestructured altrender="1959" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1959">1959</fromdate>
                      <todate standarddate="1959">1959</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130447 /locations/9"
                           containerid="39002042261694"
+                          encodinganalog="archive letter"
                           id="aspace_ref18_c1"
                           label="Mixed Materials"
                           localtype="box">6</container>
                <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">55-64</container>
             </did>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1173824"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>The Origins of Russia</part>
                   </title>: manuscript</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1959">
+               <unitdatestructured altrender="1959" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1959">1959</fromdate>
                      <todate standarddate="1959">1959</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130448 /locations/9"
                           containerid="39002042261702"
+                          encodinganalog="archive letter"
                           id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
                <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">65-76</container>
             </did>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1173825"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>The Origins of Russia</part>
                   </title>: manuscript</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1959">
+               <unitdatestructured altrender="1959" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1959">1959</fromdate>
                      <todate standarddate="1959">1959</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130449 /locations/9"
                           containerid="39002042261710"
+                          encodinganalog="archive letter"
                           id="aspace_ref20_c1"
                           label="Mixed Materials"
                           localtype="box">8</container>
                <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">77-79</container>
             </did>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1173826"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>The Origins of Russia</part>
                   </title>: typescript</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1959">
+               <unitdatestructured altrender="1959" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1959">1959</fromdate>
                      <todate standarddate="1959">1959</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/130449 /locations/9"
                           containerid="39002042261710"
+                          encodinganalog="archive letter"
                           id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">8</container>
                <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">80-89</container>
             </did>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1173827"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
@@ -378,180 +437,207 @@
                   </title>
                </unittitle>
             </did>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1173828"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>Volume 4: <title render="italic">
                         <part>Russia at the Dawn of the Modern Age</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1959">
+                  <unitdatestructured altrender="1959" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1959">1959</fromdate>
                         <todate standarddate="1959">1959</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130450 /locations/9"
                              containerid="39002042261728"
+                             encodinganalog="archive letter"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                   <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">90-101</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1173829"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Volume 4: <title render="italic">
                         <part>Russia at the Dawn of the Modern Age</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1959">
+                  <unitdatestructured altrender="1959" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1959">1959</fromdate>
                         <todate standarddate="1959">1959</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130451 /locations/9"
                              containerid="39002042261736"
+                             encodinganalog="archive letter"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">102-114</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1173830"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Volume 5: <title render="italic">
                         <part>Tsardom of Muscovy</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969">
+                  <unitdatestructured altrender="1969" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130452 /locations/9"
                              containerid="39002042261744"
+                             encodinganalog="archive letter"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>
                   <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">115-128</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1173831"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Volume 5: <title render="italic">
                         <part>Tsardom of Muscovy</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969">
+                  <unitdatestructured altrender="1969" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130453 /locations/9"
                              containerid="39002042261751"
+                             encodinganalog="archive letter"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">12</container>
                   <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">129-140</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1173832"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>Volume 5: <title render="italic">
                         <part>Tsardom of Muscovy</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969">
+                  <unitdatestructured altrender="1969" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130454 /locations/9"
                              containerid="39002042261769"
+                             encodinganalog="archive letter"
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">13</container>
                   <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">141-155</container>
                </did>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1173833"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>Volume 5: <title render="italic">
                         <part>Tsardom of Muscovy</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969">
+                  <unitdatestructured altrender="1969" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130455 /locations/9"
                              containerid="39002042261777"
+                             encodinganalog="archive letter"
                              id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">14</container>
                   <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">156-169</container>
                </did>
             </c>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/1173834"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>Volume 5: <title render="italic">
                         <part>Tsardom of Muscovy</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969">
+                  <unitdatestructured altrender="1969" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130456 /locations/9"
                              containerid="39002042261785"
+                             encodinganalog="archive letter"
                              id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">15</container>
                   <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">170-184</container>
                </did>
             </c>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1173835"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Volume 5: <title render="italic">
                         <part>Tsardom of Muscovy</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969">
+                  <unitdatestructured altrender="1969" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130457 /locations/9"
                              containerid="39002042261793"
+                             encodinganalog="archive letter"
                              id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">16</container>
                   <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">185-200</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1173836"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Volume 5: <title render="italic">
                         <part>Tsardom of Muscovy</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969">
+                  <unitdatestructured altrender="1969" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130458 /locations/9"
                              containerid="39002042261801"
+                             encodinganalog="archive letter"
                              id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">17</container>
@@ -559,103 +645,147 @@
                </did>
             </c>
          </c>
-         <c id="ref32" level="file">
+         <c altrender="/repositories/12/archival_objects/1173837"
+            id="ref32"
+            level="file">
             <did>
                <unittitle>Articles</unittitle>
             </did>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1173838"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>"Brotherhood 'Prijutino'" (English)</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/130459 /locations/9"
                              containerid="39002042261819"
+                             encodinganalog="archive letter"
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">18</container>
                   <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">212</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1173839"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>"Brotherhood 'Prijutino'" (Russian)</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/130459 /locations/9"
                              containerid="39002042261819"
+                             encodinganalog="archive letter"
                              id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">18</container>
                   <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">213-216</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1173840"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>"Eurasian Nomads and their Impact on Medieval Europe"</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/130459 /locations/9"
                              containerid="39002042261819"
+                             encodinganalog="archive letter"
                              id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">18</container>
                   <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">217-221</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1173841"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>"Ossetian Tale of Dada Mstislav"</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/130459 /locations/9"
                              containerid="39002042261819"
+                             encodinganalog="archive letter"
                              id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">18</container>
                   <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">222-223</container>
                </did>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1173842"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>"Toxar, Tima, T'mutorkani"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1956">
+                  <unitdatestructured altrender="1956" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1956">1956</fromdate>
                         <todate standarddate="1956">1956</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/130459 /locations/9"
                              containerid="39002042261819"
+                             encodinganalog="archive letter"
                              id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">18</container>
                   <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">224</container>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1173843"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>"Century of Russian Foreign Policy"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1961">
+                  <unitdatestructured altrender="1961" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1961">1961</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/130459 /locations/9"
                              containerid="39002042261819"
+                             encodinganalog="archive letter"
                              id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">18</container>
                   <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">225</container>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1173844"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>"Chronological Outline of My Life, 1887-1917" (Russian)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969">
+                  <unitdatestructured altrender="1969" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/130459 /locations/9"
                              containerid="39002042261819"
+                             encodinganalog="archive letter"
                              id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">18</container>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0563">mssa.ms.0563</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0563">mssa.ms.0563</recordid>
+      <otherrecordid localtype="BIB">614140</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Preliminary Guide to the Edwin Dean Worcester Papers
@@ -32,6 +34,11 @@
             <date>May 1980</date>
             <num>MS 563</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:37:22+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:26:12+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:37</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:26</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2994" level="collection">
       <did>
          <unittitle>Edwin Dean Worcester papers</unittitle>
          <unitid>MS 563</unitid>
@@ -83,23 +93,22 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(7 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1881-1929">
+         <unitdatestructured altrender="1881-1929" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1881">1881</fromdate>
                <todate standarddate="1929">1929</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_5f6ed48f474776d80873a7cc56e70935">Diaries recording principal events in Worcester's professional and personal life and trips to Europe and to England.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname rules="aacr" source="local">
-               <part>Worcester, Edwin D.</part>
+               <part localtype="agent_person">Worcester, Edwin D.</part>
             </persname>
          </origination>
-    
       </did>
       <prefercite id="aspace_111d69a2b103376f93da1aaf8d8db033">
          <head>Preferred Citation</head>
-         <p>Edwin Dean Worcester Papers (MS 563). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Edwin Dean Worcester Papers (MS 563). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_91142027c33e926fe40afcb548d49cea">
          <head>Scope and Contents</head>
@@ -117,7 +126,7 @@
          <p>Williams:</p>
          <p>Charles / Charles Mallory Williams (1872-1951; Y. 1892)</p>
          <p>Mary / Mary Low Williams (1908- ) (Mrs. Macdonald Bick)</p>
-         <p>Margery / Margaret Williams (1910- ) (Mrs. Billing B. Fairbrother)</p>  
+         <p>Margery / Margaret Williams (1910- ) (Mrs. Billing B. Fairbrother)</p>
       </scopecontent>
       <bioghist id="aspace_0dc9056777d1374179f9e002bb9d696d">
          <head>Biographical / Historical</head>
@@ -130,235 +139,283 @@
          <p>Death due to arteriosclerosis and myocarditis. Buried in Albany Rural Cemetery. Survived by a sister, the wife of Charles M. Williams, '92 S., and two brothers, Harry A. Worcester, '84, and Wilfred J. Worcester, '85. Another brother, Franklin E. Worcester, '82 and '84 S., died in 1891.</p>
          <p>Source: <title render="italic">
                <part>Yale University Obituary Record, 1928-1929</part>
-            </title>.</p>  
+            </title>.</p>
       </bioghist>
       <accessrestrict id="aspace_838cf0a7c08d8a9d5097f627d951e117">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_324c9415ff4328165221da8864d200d4">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075119"
                   source="lcsh">
-            <part>Law</part>
+            <part localtype="topical">Law</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85045661"
                    source="lcsh">
-            <part>Europe -- Description and travel</part>
+            <part localtype="geographic">Europe</part>
+            <part localtype="topical">Description and travel</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85056605"
                    source="lcsh">
-            <part>Great Britain</part>
+            <part localtype="geographic">Great Britain</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n80126293"
                    source="lcsh">
-            <part>New York (State)</part>
+            <part localtype="geographic">New York (State)</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027112" source="aat">
-            <part>Diaries</part>
+            <part localtype="genre_form">Diaries</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075351"
                   source="lcsh">
-            <part>Lawyers</part>
+            <part localtype="topical">Lawyers</part>
          </subject>
          <persname rules="aacr" source="local">
-            <part>Worcester, Edwin D.</part>
+            <part localtype="agent_person">Worcester, Edwin D.</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref9" level="series">
+         <c altrender="/repositories/12/archival_objects/1180273"
+            id="ref9"
+            level="series">
             <did>
                <unittitle>Inventory</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1881-1929">
+               <unitdatestructured altrender="1881-1929" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1881">1881</fromdate>
                      <todate standarddate="1929">1929</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1180274"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Diaries</unittitle>
                </did>
-               <c id="ref12" level="file">
+               <c altrender="/repositories/12/archival_objects/1180275"
+                  id="ref12"
+                  level="file">
                   <did>
                      <unittitle>"Diary of European Tour"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1882-1883">
+                     <unitdatestructured altrender="1882-1883" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1882">1882</fromdate>
                            <todate standarddate="1883">1883</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130697 /locations/9"
                                 containerid="39002042265927"
+                                encodinganalog="archive letter"
                                 id="aspace_ref12_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                   </did>
                </c>
-               <c id="ref13" level="file">
+               <c altrender="/repositories/12/archival_objects/1180276"
+                  id="ref13"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1884-1891">
+                     <unitdatestructured altrender="1884-1891" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1884">1884</fromdate>
                            <todate standarddate="1891">1891</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130697 /locations/9"
                                 containerid="39002042265927"
+                                encodinganalog="archive letter"
                                 id="aspace_ref13_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                   </did>
                </c>
-               <c id="ref14" level="file">
+               <c altrender="/repositories/12/archival_objects/1180277"
+                  id="ref14"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1892-1901">
+                     <unitdatestructured altrender="1892-1901" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1892">1892</fromdate>
                            <todate standarddate="1901">1901</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130698 /locations/9"
                                 containerid="39002042265935"
+                                encodinganalog="archive letter"
                                 id="aspace_ref14_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                   </did>
                </c>
-               <c id="ref15" level="file">
+               <c altrender="/repositories/12/archival_objects/1180278"
+                  id="ref15"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1902-1903">
+                     <unitdatestructured altrender="1902-1903" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1902">1902</fromdate>
                            <todate standarddate="1903">1903</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130699 /locations/9"
                                 containerid="39002042265943"
+                                encodinganalog="archive letter"
                                 id="aspace_ref15_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
                </c>
-               <c id="ref16" level="file">
+               <c altrender="/repositories/12/archival_objects/1180279"
+                  id="ref16"
+                  level="file">
                   <did>
                      <unittitle>"Diary of a Journey in England, taken by Will and me in August and September, 1904"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1904">
+                     <unitdatestructured altrender="1904" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1904">1904</fromdate>
                            <todate standarddate="1904">1904</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130699 /locations/9"
                                 containerid="39002042265943"
+                                encodinganalog="archive letter"
                                 id="aspace_ref16_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
                </c>
-               <c id="ref17" level="file">
+               <c altrender="/repositories/12/archival_objects/1180280"
+                  id="ref17"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1904-1909">
+                     <unitdatestructured altrender="1904-1909" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1904">1904</fromdate>
                            <todate standarddate="1909">1909</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130699 /locations/9"
                                 containerid="39002042265943"
+                                encodinganalog="archive letter"
                                 id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
                </c>
-               <c id="ref18" level="file">
+               <c altrender="/repositories/12/archival_objects/1180281"
+                  id="ref18"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1910-1919">
+                     <unitdatestructured altrender="1910-1919" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1910">1910</fromdate>
                            <todate standarddate="1919">1919</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130700 /locations/9"
                                 containerid="39002042265950"
+                                encodinganalog="archive letter"
                                 id="aspace_ref18_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                   </did>
                </c>
-               <c id="ref19" level="file">
+               <c altrender="/repositories/12/archival_objects/1180282"
+                  id="ref19"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1920-1925">
+                     <unitdatestructured altrender="1920-1925" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1920">1920</fromdate>
                            <todate standarddate="1925">1925</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130701 /locations/9"
                                 containerid="39002042265968"
+                                encodinganalog="archive letter"
                                 id="aspace_ref19_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                   </did>
                </c>
-               <c id="ref20" level="file">
+               <c altrender="/repositories/12/archival_objects/1180283"
+                  id="ref20"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1926-1929 May">
+                     <unitdatestructured altrender="1926-1929 May" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1926">1926</fromdate>
                            <todate standarddate="1929">1929</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130702 /locations/9"
                                 containerid="39002042265976"
+                                encodinganalog="archive letter"
                                 id="aspace_ref20_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                   </did>
                </c>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1180284"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Loose items, mostly removed from diaries</unittitle>
                </did>
-               <c id="ref22" level="file">
+               <c altrender="/repositories/12/archival_objects/1180285"
+                  id="ref22"
+                  level="file">
                   <did>
                      <unittitle>Manuscripts and correspondence</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1881-1926">
+                     <unitdatestructured altrender="1881-1926" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1881">1881</fromdate>
                            <todate standarddate="1926">1926</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130702 /locations/9"
                                 containerid="39002042265976"
+                                encodinganalog="archive letter"
                                 id="aspace_ref22_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                   </did>
                </c>
-               <c id="ref23" level="file">
+               <c altrender="/repositories/12/archival_objects/1180286"
+                  id="ref23"
+                  level="file">
                   <did>
                      <unittitle>Photographs and postcards</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1897-1928">
+                     <unitdatestructured altrender="1897-1928" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1897">1897</fromdate>
                            <todate standarddate="1928">1928</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130702 /locations/9"
                                 containerid="39002042265976"
+                                encodinganalog="archive letter"
                                 id="aspace_ref23_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
@@ -368,85 +425,102 @@
                      <p>Includes photographs of Edwin Dean Worcester, George H. Worcester, Margaret Dows Worcester, Charles Mallory Williams, Mary Low Williams, Ruth Sears Cheney, Louise Johnson, unidentified family members, and fellow-passengers on a 1911 voyage.</p>
                   </odd>
                </c>
-               <c id="ref24" level="file">
+               <c altrender="/repositories/12/archival_objects/1180287"
+                  id="ref24"
+                  level="file">
                   <did>
                      <unittitle>Memorabilia: stamps, calling cards, currency, tickets</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1887-1914">
+                     <unitdatestructured altrender="1887-1914" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1887">1887</fromdate>
                            <todate standarddate="1914">1914</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130702 /locations/9"
                                 containerid="39002042265976"
+                                encodinganalog="archive letter"
                                 id="aspace_ref24_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                   </did>
                </c>
-               <c id="ref25" level="file">
+               <c altrender="/repositories/12/archival_objects/1180288"
+                  id="ref25"
+                  level="file">
                   <did>
                      <unittitle>Printed matter</unittitle>
                   </did>
-                  <c id="ref26" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180289"
+                     id="ref26"
+                     level="file">
                      <did>
                         <unittitle>Personal and miscellaneous</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1882-1926">
+                        <unitdatestructured altrender="1882-1926" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1882">1882</fromdate>
                               <todate standarddate="1926">1926</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/130702 /locations/9"
                                    containerid="39002042265976"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref26_c1"
                                    label="Mixed Materials"
                                    localtype="box">6</container>
                      </did>
                   </c>
-                  <c id="ref27" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180290"
+                     id="ref27"
+                     level="file">
                      <did>
                         <unittitle>Clippings</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1891-1928">
+                        <unitdatestructured altrender="1891-1928" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1891">1891</fromdate>
                               <todate standarddate="1928">1928</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/130702 /locations/9"
                                    containerid="39002042265976"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref27_c1"
                                    label="Mixed Materials"
                                    localtype="box">6</container>
                      </did>
                   </c>
-                  <c id="ref28" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180291"
+                     id="ref28"
+                     level="file">
                      <did>
                         <unittitle>Programs</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1890-1924">
+                        <unitdatestructured altrender="1890-1924" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1890">1890</fromdate>
                               <todate standarddate="1924">1924</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/130702 /locations/9"
                                    containerid="39002042265976"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref28_c1"
                                    label="Mixed Materials"
                                    localtype="box">6</container>
                      </did>
                   </c>
-                  <c id="ref29" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180292"
+                     id="ref29"
+                     level="file">
                      <did>
                         <unittitle>Bar Association mailings</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1902-1913">
+                        <unitdatestructured altrender="1902-1913" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1902">1902</fromdate>
                               <todate standarddate="1913">1913</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/130702 /locations/9"
                                    containerid="39002042265976"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref29_c1"
                                    label="Mixed Materials"
                                    localtype="box">6</container>
@@ -454,37 +528,47 @@
                   </c>
                </c>
             </c>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1180293"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Diaries of others</unittitle>
                </did>
-               <c id="ref31" level="file">
+               <c altrender="/repositories/12/archival_objects/1180294"
+                  id="ref31"
+                  level="file">
                   <did>
                      <unittitle>Franklin Eldred Worcester (1860-1891)</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1872-1876">
+                     <unitdatestructured altrender="1872-1876" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1872">1872</fromdate>
                            <todate standarddate="1876">1876</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/130703 /locations/9"
                                 containerid="39002042265984"
+                                encodinganalog="archive half letter"
                                 id="aspace_ref31_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                   </did>
                </c>
-               <c id="ref32" level="file">
+               <c altrender="/repositories/12/archival_objects/1180295"
+                  id="ref32"
+                  level="file">
                   <did>
                      <unittitle>Charles Mallory Williams (1872-1951): diary of European trip</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="[1897?] May-August">
+                     <unitdatestructured altrender="[1897?] May-August"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1897">1897</fromdate>
                            <todate standarddate="1897">1897</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/130703 /locations/9"
                                 containerid="39002042265984"
+                                encodinganalog="archive half letter"
                                 id="aspace_ref32_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0673">mssa.ms.0673</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0673">mssa.ms.0673</recordid>
+      <otherrecordid localtype="BIB">614228</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Selden Family Papers
@@ -32,6 +34,11 @@
             <date>March 1973</date>
             <num>MS 673</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-14T07:49:54+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:49:09+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Friday August 14, 2020 at 07:49</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:49</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4235" level="collection">
       <did>
          <unittitle>Selden family papers</unittitle>
          <unitid>MS 673</unitid>
@@ -83,32 +93,31 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">4 boxes</physdesc>
-         <unitdatestructured unitdatetype="inclusive">
+         <unitdatestructured label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1787">1787</fromdate>
                <todate standarddate="1883">1883</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_c9e381c5a842a16deff57d3db872a5ff">Correspondence, writings (including school essays and exercises, poetry and political essays), miscellaneous accounts, school bills, and other papers of the Selden family of Hadlyme, Connecticut. The principal family members represented are Richard Ely Selden (1797-1868), a member of the class of 1818 at Yale, a justice of the peace, and a state senator, and his son Samuel Hart Selden (1826-1891), a member of the class of 1848.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <famname identifier="http://id.loc.gov/authorities/subjects/sh85119668"
                      source="lcsh">
-               <part>Selden family</part>
+               <part localtype="agent_family">Selden family</part>
             </famname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_8459728e154ffeb383346348ddcbdea1">
          <head>Immediate Source of Acquisition</head>
-         <p>Transferred from Beinecke Rare Book and Manuscript Library in 1973.</p>  
+         <p>Transferred from Beinecke Rare Book and Manuscript Library in 1973.</p>
       </acqinfo>
       <accessrestrict id="aspace_7450313373f54b2872e96ec22da1853c">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_1b719aa3113d080158633256ee6a8636">
          <head>Preferred Citation</head>
-         <p>Selden Family Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Selden Family Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <bioghist id="aspace_476acbb5c7658d5869964bdb4bfc0632">
          <head>Biographical / Historical</head>
@@ -116,106 +125,127 @@
          <p>After graduation from Yale College in 1848, it was his desire to study for the ministry, but his health did not permit. For a year he was a tutor in the family of William Denniston, in Salisbury Mills, New York, and thereafter followed the profession of civil engineering. From 1850 to 1862 he was engaged in railroad work, principally with the Erie &amp; Pittsburgh Railroad, making his home at first in Batavia, New York, and afterwards in Erie and Girard, Pennsylvania. From 1862 to the time of his death he was connected with the Chicago &amp; Northwestern Railway, as resident engineer in charge of the North Michigan Peninsula Division, residing for three years at Marquette, and from 1865 at Escanaba, Michigan.</p>
          <p>On June 16, 1853, Selden married Sarah A., the eldest child of Oliver I. Lay, of Lyme, Connecticut. Mrs. Selden and five of their seven daughters outlived him. The third daughter is the wife of C. P. Coffin (Yale, 1881), and the fourth of T. H. Linsley (Yale, 1876s). Early in November 1891, Selden left Escanaba with his family for their winter home in Harrison, Florida. Making a few days' stop at Linsley's home in Evanston, Illinois, he was there taken ill with erysipelas and passed away on November 25, 1891, at the age of 65.</p>
          <p>Selden was a man of winning presence, of strong character, and of deep religious convictions. For twenty-five years he was an elder in the Presbyterian Church. His life was blameless and his influence strongly felt in the community on the side of religion and morality.</p>
-         <p>(Derived from <emph render="italic">Yale Obituary Record</emph>, 1859-70 and 1880-1902).</p>  
+         <p>(Derived from <emph render="italic">Yale Obituary Record</emph>, 1859-70 and 1880-1902).</p>
       </bioghist>
       <scopecontent id="aspace_7264f425297eecbee7a15b14e29218da">
          <head>Scope and Contents</head>
-         <p>Correspondence, writings (including school essays and exercises, poetry and political essays), miscellaneous accounts, school bills, and other papers of the Selden family of Hadlyme, Connecticut. The principal family members represented are Richard Ely Selden (1797-1868), a member of the class of 1818 at Yale, a justice of the peace, and a state senator, and his son Samuel Hart Selden (1826-1891), a member of the class of 1848.</p>  
+         <p>Correspondence, writings (including school essays and exercises, poetry and political essays), miscellaneous accounts, school bills, and other papers of the Selden family of Hadlyme, Connecticut. The principal family members represented are Richard Ely Selden (1797-1868), a member of the class of 1818 at Yale, a justice of the peace, and a state senator, and his son Samuel Hart Selden (1826-1891), a member of the class of 1848.</p>
       </scopecontent>
       <userestrict id="aspace_99bb66364970586eb8fdc5b6ce2e7186">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85031168"
                    source="lcsh">
-            <part>Connecticut -- Politics and government</part>
+            <part localtype="geographic">Connecticut</part>
+            <part localtype="topical">Politics and government</part>
          </geogname>
          <geogname source="local">
-            <part>Hadlyme (Conn.) -- History</part>
+            <part localtype="geographic">Hadlyme (Conn.)</part>
+            <part localtype="topical">History</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140410"
                    source="lcsh">
-            <part>United States -- Politics and government</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">Politics and government</part>
          </geogname>
          <occupation source="local">
-            <part>Legislators</part>
+            <part localtype="occupation">Legislators</part>
          </occupation>
          <occupation source="local">
-            <part>Politicians</part>
+            <part localtype="occupation">Politicians</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/n85049009"
                    rules="aacr"
                    source="naf">
-            <part>Selden, R. E. (Richard Ely), 1797-1868</part>
+            <part localtype="agent_person">Selden, R. E. (Richard Ely), 1797-1868</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n98025875"
                    rules="aacr"
                    source="naf">
-            <part>Selden, Samuel Hart, 1826-1891</part>
+            <part localtype="agent_person">Selden, Samuel Hart, 1826-1891</part>
          </persname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85119668"
                   source="lcsh">
-            <part>Selden family</part>
+            <part localtype="agent_family">Selden family</part>
          </famname>
          <corpname rules="aacr" source="local">
-            <part>Yale College (1718-1887). Class of 1818</part>
+            <part localtype="agent_corporate_entity">Yale College (1718-1887). Class of 1818</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="aspace_779ce49711724a0c34c6e2ce69f79a2f" level="series">
+         <c altrender="/repositories/12/archival_objects/2993772"
+            id="aspace_779ce49711724a0c34c6e2ce69f79a2f"
+            level="series">
             <did>
                <unittitle>Original accession</unittitle>
             </did>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1353838"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Correspondence</unittitle>
                </did>
-               <c id="ref12" level="file">
+               <c altrender="/repositories/12/archival_objects/1353839"
+                  id="ref12"
+                  level="file">
                   <did>
                      <unittitle>1795, 1815-1817</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/151541 /locations/9"
                                 containerid="39002042256710"
+                                encodinganalog="archive legal"
                                 id="aspace_ref12_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
                   </did>
                </c>
-               <c id="ref13" level="file">
+               <c altrender="/repositories/12/archival_objects/1353840"
+                  id="ref13"
+                  level="file">
                   <did>
                      <unittitle>1818-1819</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/151541 /locations/9"
                                 containerid="39002042256710"
+                                encodinganalog="archive legal"
                                 id="aspace_ref13_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2</container>
                   </did>
                </c>
-               <c id="ref14" level="file">
+               <c altrender="/repositories/12/archival_objects/1353841"
+                  id="ref14"
+                  level="file">
                   <did>
                      <unittitle>1832, 1835-1836, 1838-1839</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/151541 /locations/9"
                                 containerid="39002042256710"
+                                encodinganalog="archive legal"
                                 id="aspace_ref14_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">3</container>
                   </did>
                </c>
-               <c id="ref15" level="file">
+               <c altrender="/repositories/12/archival_objects/1353842"
+                  id="ref15"
+                  level="file">
                   <did>
                      <unittitle>1840-1842, 1844-1848, 1850-1851, 1862</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/151541 /locations/9"
                                 containerid="39002042256710"
+                                encodinganalog="archive legal"
                                 id="aspace_ref15_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -223,77 +253,98 @@
                   </did>
                </c>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1353843"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Drafts, undated</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151541 /locations/9"
                              containerid="39002042256710"
+                             encodinganalog="archive legal"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">5</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1353844"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Invitations sent to Richard E. Selden</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151541 /locations/9"
                              containerid="39002042256710"
+                             encodinganalog="archive legal"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">6</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1353845"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Writings: poetry</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151541 /locations/9"
                              containerid="39002042256710"
+                             encodinganalog="archive legal"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">7</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1353846"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Writings: essays and exercises</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151541 /locations/9"
                              containerid="39002042256710"
+                             encodinganalog="archive legal"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">8</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1353847"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>College bills and other Yale-related papers</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151541 /locations/9"
                              containerid="39002042256710"
+                             encodinganalog="archive legal"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">9</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1353848"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Miscellaneous legal papers</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151541 /locations/9"
                              containerid="39002042256710"
+                             encodinganalog="archive legal"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">10</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1353849"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Selden family-miscellaneous</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151541 /locations/9"
                              containerid="39002042256710"
+                             encodinganalog="archive legal"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -301,11 +352,13 @@
                </did>
             </c>
          </c>
-         <c id="aspace_84ca0d58dc563a44ef9509c8541909ba" level="series">
+         <c altrender="/repositories/12/archival_objects/2719338"
+            id="aspace_84ca0d58dc563a44ef9509c8541909ba"
+            level="series">
             <did>
                <unittitle>Additional Material</unittitle>
                <unitid>Accession 2018-M-0031</unitid>
-               <unitdatestructured unitdatetype="inclusive">
+               <unitdatestructured label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1787">1787</fromdate>
                      <todate standarddate="1883">1883</todate>
@@ -320,20 +373,25 @@
                <head>Scope and Contents</head>
                <p>This accession comprises ledgers, farm recoeds, and family papers documenting the Selden family's farm life in Lyme, Connecticut. The ledgers, 1787-1884, were maintained by Richard Ely Selden and record purchases and payments for goods and services and logs of employee's activities and pay. Transactions include business dealings for timber, grass, hay, fish, livestock, and produce. The ledgers primarily document the farm's business, but they also record births and deaths, marriages performed by Selden, poems, and other personal matters. The farm records, 1787-1845, comprise manuscript material pertaining to the farm's business operations. The family papers, 1812-1868, comprise clippings, writings, and poetry pertaining to the Selden family.</p>
             </scopecontent>
-            <c id="aspace_0a9a9c85bf1daa407e5357e98dcd53be" level="file">
+            <c altrender="/repositories/12/archival_objects/2719339"
+               id="aspace_0a9a9c85bf1daa407e5357e98dcd53be"
+               level="file">
                <did>
                   <unittitle>Ledgers</unittitle>
                </did>
-               <c id="aspace_a9263b28a3cba6c5122c6361696f1c29" level="file">
+               <c altrender="/repositories/12/archival_objects/2719429"
+                  id="aspace_a9263b28a3cba6c5122c6361696f1c29"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="bulk">
+                     <unitdatestructured label="creation" unitdatetype="bulk">
                         <daterange>
                            <fromdate standarddate="1787">1787</fromdate>
                            <todate standarddate="1803">1803</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (12d 3h 18w)"
+                     <container altrender="/repositories/12/top_containers/328025 /locations/9"
                                 containerid="39002109601295"
+                                encodinganalog="flat box (12d 3h 18w)"
                                 id="aspace_a9263b28a3cba6c5122c6361696f1c29_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -342,16 +400,19 @@
                                 parent="aspace_a9263b28a3cba6c5122c6361696f1c29_c1">1</container>
                   </did>
                </c>
-               <c id="aspace_70defc8196408348d17ed764efcffbba" level="file">
+               <c altrender="/repositories/12/archival_objects/2719430"
+                  id="aspace_70defc8196408348d17ed764efcffbba"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1803">1803</fromdate>
                            <todate standarddate="1807">1807</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (12d 3h 18w)"
+                     <container altrender="/repositories/12/top_containers/328025 /locations/9"
                                 containerid="39002109601295"
+                                encodinganalog="flat box (12d 3h 18w)"
                                 id="aspace_70defc8196408348d17ed764efcffbba_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -360,16 +421,19 @@
                                 parent="aspace_70defc8196408348d17ed764efcffbba_c1">2-3</container>
                   </did>
                </c>
-               <c id="aspace_e4cd1d0bdd0f679f980ec4f7979fadc9" level="file">
+               <c altrender="/repositories/12/archival_objects/2719431"
+                  id="aspace_e4cd1d0bdd0f679f980ec4f7979fadc9"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1807">1807</fromdate>
                            <todate standarddate="1814">1814</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/328026 /locations/9"
                                 containerid="39002109601303"
+                                encodinganalog="archive legal"
                                 id="aspace_e4cd1d0bdd0f679f980ec4f7979fadc9_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
@@ -378,16 +442,19 @@
                                 parent="aspace_e4cd1d0bdd0f679f980ec4f7979fadc9_c1">1</container>
                   </did>
                </c>
-               <c id="aspace_d690af872bf1ea01d170bd5b7fa80f8f" level="file">
+               <c altrender="/repositories/12/archival_objects/2719432"
+                  id="aspace_d690af872bf1ea01d170bd5b7fa80f8f"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1817">1817</fromdate>
                            <todate standarddate="1833">1833</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (12d 3h 18w)"
+                     <container altrender="/repositories/12/top_containers/328027 /locations/9"
                                 containerid="39002109601311"
+                                encodinganalog="flat box (12d 3h 18w)"
                                 id="aspace_d690af872bf1ea01d170bd5b7fa80f8f_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -396,16 +463,19 @@
                                 parent="aspace_d690af872bf1ea01d170bd5b7fa80f8f_c1">1</container>
                   </did>
                </c>
-               <c id="aspace_d13794c6588df939ab8b848ec7c842a6" level="file">
+               <c altrender="/repositories/12/archival_objects/2719433"
+                  id="aspace_d13794c6588df939ab8b848ec7c842a6"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1824">1824</fromdate>
                            <todate standarddate="1850">1850</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (12d 3h 18w)"
+                     <container altrender="/repositories/12/top_containers/328027 /locations/9"
                                 containerid="39002109601311"
+                                encodinganalog="flat box (12d 3h 18w)"
                                 id="aspace_d13794c6588df939ab8b848ec7c842a6_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -414,16 +484,19 @@
                                 parent="aspace_d13794c6588df939ab8b848ec7c842a6_c1">2</container>
                   </did>
                </c>
-               <c id="aspace_8eb7223d812ba71e5e901f4561357fec" level="file">
+               <c altrender="/repositories/12/archival_objects/2719434"
+                  id="aspace_8eb7223d812ba71e5e901f4561357fec"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1850">1850</fromdate>
                            <todate standarddate="1877">1877</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/328026 /locations/9"
                                 containerid="39002109601303"
+                                encodinganalog="archive legal"
                                 id="aspace_8eb7223d812ba71e5e901f4561357fec_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
@@ -432,16 +505,19 @@
                                 parent="aspace_8eb7223d812ba71e5e901f4561357fec_c1">2-3</container>
                   </did>
                </c>
-               <c id="aspace_4c0451cb34c1b43a004c52f147dd8e20" level="file">
+               <c altrender="/repositories/12/archival_objects/2719435"
+                  id="aspace_4c0451cb34c1b43a004c52f147dd8e20"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1850">1850</fromdate>
                            <todate standarddate="1883">1883</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/328026 /locations/9"
                                 containerid="39002109601303"
+                                encodinganalog="archive legal"
                                 id="aspace_4c0451cb34c1b43a004c52f147dd8e20_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
@@ -451,20 +527,25 @@
                   </did>
                </c>
             </c>
-            <c id="aspace_4b648be7c83ef2926d3e7e8b2faa7a41" level="file">
+            <c altrender="/repositories/12/archival_objects/2719340"
+               id="aspace_4b648be7c83ef2926d3e7e8b2faa7a41"
+               level="file">
                <did>
                   <unittitle>Farm records</unittitle>
                </did>
-               <c id="aspace_2f373e0c2721773bf5a10122afd5088f" level="file">
+               <c altrender="/repositories/12/archival_objects/2719436"
+                  id="aspace_2f373e0c2721773bf5a10122afd5088f"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1787">1787</fromdate>
                            <todate standarddate="1845">1845</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/328026 /locations/9"
                                 containerid="39002109601303"
+                                encodinganalog="archive legal"
                                 id="aspace_2f373e0c2721773bf5a10122afd5088f_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
@@ -474,20 +555,25 @@
                   </did>
                </c>
             </c>
-            <c id="aspace_6bf63cbd1a8fd88380eabd09fbfee5ba" level="file">
+            <c altrender="/repositories/12/archival_objects/2719341"
+               id="aspace_6bf63cbd1a8fd88380eabd09fbfee5ba"
+               level="file">
                <did>
                   <unittitle>Family papers</unittitle>
                </did>
-               <c id="aspace_b69d7eb4f3697ee7fb9f88d75c64fb3b" level="file">
+               <c altrender="/repositories/12/archival_objects/2719437"
+                  id="aspace_b69d7eb4f3697ee7fb9f88d75c64fb3b"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive">
+                     <unitdatestructured label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1812">1812</fromdate>
                            <todate standarddate="1868">1868</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/328026 /locations/9"
                                 containerid="39002109601303"
+                                encodinganalog="archive legal"
                                 id="aspace_b69d7eb4f3697ee7fb9f88d75c64fb3b_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>

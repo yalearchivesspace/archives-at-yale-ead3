@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0994">mssa.ms.0994</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0994">mssa.ms.0994</recordid>
+      <otherrecordid localtype="BIB">614669</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Addie Whitlock Hale Papers
@@ -32,6 +34,11 @@
             <date>November 1982</date>
             <num>MS 994</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:42:33+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:21:05+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:42</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:21</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4330" level="collection">
       <did>
          <unittitle>Addie Whitlock Hale papers</unittitle>
          <unitid>MS 994</unitid>
@@ -82,186 +92,222 @@
             <quantity>0.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1881-1939">
+         <unitdatestructured altrender="1881-1939" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1881">1881</fromdate>
                <todate standarddate="1939">1939</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_0705f00bd71dc61e032fd8b1db2cfee3">Chiefly account books kept by Addie W. Hale, wife of Charles Reverdy Hale, of Meriden, Connecticut recording her household expenses. Also in the accounts is her income from mending and from giving music and arithmetic lessons, together with notes on her allocation of time and on her arithmetic assignments. Her husband is frequently mentioned in the accounts as is a sister-in-law, Ida Hale Whitlock. An account book kept by Bryant Burwell Glenny, Jr. and a diary by L. S. Stocking are also in the papers.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Hale, Addie Whitlock, 1855-ca. 1940</part>
+               <part localtype="agent_person">Hale, Addie Whitlock, 1855-ca. 1940</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_346cf9b413c94bea0ee452d57453de34">
          <head>Immediate Source of Acquisition</head>
-         <p>Purchased in 1940.</p>  
+         <p>Purchased in 1940.</p>
       </acqinfo>
       <accessrestrict id="aspace_bcdcb96e594835dcbb2d6bb2c9dfb62b">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_480f700cd0c1952d67234682d29b7582">
          <head>Preferred Citation</head>
-         <p>Addie Whitlock Hale Papers (MS 994). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Addie Whitlock Hale Papers (MS 994). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_0d42564462361562a7f2f171339b2c4e">
          <head>Scope and Contents</head>
          <p>The Addie Whitlock Hale Papers consist almost entirely of household account books kept by Addie Hale (1855-[1940]?), the wife of Charles Reverdy Hale, of Meriden, Connecticut. Charles Hale (1848-1924) was the son of Elias and Eliza Camp (Miller) Hale.</p>
          <p>Little else is known about Addie Hale's life beyond the fact that she had no children. The collection suggests that she was a compulsive recordkeeper, watchful as to how she spent her money and her time. Most of the volumes constitute a record, spanning nearly sixty years, of every small purchase she made. Other books record time spent and/or money earned mending, teaching and practicing music, teaching arithmetic and algebra, and learning to type. Her husband ("Charlie") and her sister-in-law Ida Hale Whitlock's family are frequently mentioned in the accounts.</p>
-         <p>Hale's account books, along with a volume partially in the hand of Bryant Burwell Glenny, Jr. (Yale 1909) and two diaries in other hands, were purchased from Whitlock's Book Store in April 1940. The proprietor of Whitlock's Book Store was Addie Hale's great-nephew, the grandson of her sister-in-law, Ida Hale Whitlock.</p>  
+         <p>Hale's account books, along with a volume partially in the hand of Bryant Burwell Glenny, Jr. (Yale 1909) and two diaries in other hands, were purchased from Whitlock's Book Store in April 1940. The proprietor of Whitlock's Book Store was Addie Hale's great-nephew, the grandson of her sister-in-law, Ida Hale Whitlock.</p>
       </scopecontent>
       <bioghist id="aspace_0df48b93d0003e8d045cc5dfb56d27fa">
          <head>Biographical / Historical</head>
-         <p>Addie Whitlock Hale was born in 1855. She was the wife of Charles Reverdy Hale, 1848-1924, of Meriden, Connecticut, who was the son of Elias and Eliza Camp (Miller) Hale. The couple had no children. Addie Hale is thought to have died in 1940.</p>  
+         <p>Addie Whitlock Hale was born in 1855. She was the wife of Charles Reverdy Hale, 1848-1924, of Meriden, Connecticut, who was the son of Elias and Eliza Camp (Miller) Hale. The couple had no children. Addie Hale is thought to have died in 1940.</p>
       </bioghist>
       <userestrict id="aspace_4cfdbbdd8f8f5536e7e6581b8607d1d8">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85061674"
                   source="lcsh">
-            <part>Home economics -- Accounting</part>
+            <part localtype="topical">Home economics</part>
+            <part localtype="topical">Accounting</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/n79074102"
                    source="lcsh">
-            <part>Connecticut</part>
+            <part localtype="geographic">Connecticut</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n81055345"
                    source="lcsh">
-            <part>Meriden (Conn.)</part>
+            <part localtype="geographic">Meriden (Conn.)</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027483" source="aat">
-            <part>Account books</part>
+            <part localtype="genre_form">Account books</part>
          </genreform>
          <persname source="local">
-            <part>Glenny, Bryant Burwell, 1887-1972</part>
+            <part localtype="agent_person">Glenny, Bryant Burwell, 1887-1972</part>
          </persname>
          <persname source="local">
-            <part>Hale, Addie Whitlock, 1855-ca. 1940</part>
+            <part localtype="agent_person">Hale, Addie Whitlock, 1855-ca. 1940</part>
          </persname>
          <persname source="local">
-            <part>Hale, Charles Reverdy, 1848-1924</part>
+            <part localtype="agent_person">Hale, Charles Reverdy, 1848-1924</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Stocking, L. S.</part>
+            <part localtype="agent_person">Stocking, L. S.</part>
          </persname>
          <persname source="local">
-            <part>Whitlock, Ida Hale</part>
+            <part localtype="agent_person">Whitlock, Ida Hale</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1354895"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>"General accounts": 25 volumes recording household expenses, including one which also contains accounts kept by Bryant Burwell Glenny, Jr.</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1881-1923, 1927-1940">
+               <unitdatestructured altrender="1881-1923, 1927-1940"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1881">1881</fromdate>
                      <todate standarddate="1939">1939</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="card box (8d 5h 12w)"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151800 /locations/9"
                           containerid="39002042325473"
+                          encodinganalog="card box (8d 5h 12w)"
                           id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1354896"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Volume of accounts concerning music and arithmetic lessons, and gas expenses</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[ca. 1907-1925]">
+               <unitdatestructured altrender="[ca. 1907-1925]"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1902">1902</fromdate>
                      <todate standarddate="1912">1912</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="card box (8d 5h 12w)"
+               <container altrender="/repositories/12/top_containers/151800 /locations/9"
                           containerid="39002042325473"
+                          encodinganalog="card box (8d 5h 12w)"
                           id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1354897"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Volume of accounts concerning household expenses and music lessons, and time spent practicing piano and typewriting; notes concerning family, friends, books, and miscellaneous; and addresses</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[ca. 1915-1922]">
+               <unitdatestructured altrender="[ca. 1915-1922]"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1910">1910</fromdate>
                      <todate standarddate="1920">1920</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="card box (8d 5h 12w)"
+               <container altrender="/repositories/12/top_containers/151800 /locations/9"
                           containerid="39002042325473"
+                          encodinganalog="card box (8d 5h 12w)"
                           id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1354898"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Volume of accounts concerning time spent and money earned mending; and expenses regarding dentist, rent, and theater; and newspaper subscriptions</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[ca. 1927-1934]">
+               <unitdatestructured altrender="[ca. 1927-1934]"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1922">1922</fromdate>
                      <todate standarddate="1932">1932</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="card box (8d 5h 12w)"
+               <container altrender="/repositories/12/top_containers/151800 /locations/9"
                           containerid="39002042325473"
+                          encodinganalog="card box (8d 5h 12w)"
                           id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1354899"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Cards recording Addie Hale's account during stay at Meriden YWCA</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1936-1940">
+               <unitdatestructured altrender="1936-1940" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1936">1936</fromdate>
                      <todate standarddate="1940">1940</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="card box (8d 5h 12w)"
+               <container altrender="/repositories/12/top_containers/151800 /locations/9"
                           containerid="39002042325473"
+                          encodinganalog="card box (8d 5h 12w)"
                           id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1354900"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Diary volume containing Addie Hale's accounts, and notes on arithmetic assignments, grading books; and diary of L. S. Stocking, mostly concerning weather observations and work in store</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[ca. 1902-1911]">
+               <unitdatestructured altrender="[ca. 1902-1911]"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1897">1897</fromdate>
                      <todate standarddate="1907">1907</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="card box (8d 5h 12w)"
+               <container altrender="/repositories/12/top_containers/151800 /locations/9"
                           containerid="39002042325473"
+                          encodinganalog="card box (8d 5h 12w)"
                           id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1354901"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Diary volume containing unknown person's accounts and notes on law cases</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[ca. 1907-1908]">
+               <unitdatestructured altrender="[ca. 1907-1908]"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1902">1902</fromdate>
                      <todate standarddate="1912">1912</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="card box (8d 5h 12w)"
+               <container altrender="/repositories/12/top_containers/151800 /locations/9"
                           containerid="39002042325473"
+                          encodinganalog="card box (8d 5h 12w)"
                           id="aspace_ref17_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>

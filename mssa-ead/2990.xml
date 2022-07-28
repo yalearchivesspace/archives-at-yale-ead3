@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0557">mssa.ms.0557</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0557">mssa.ms.0557</recordid>
+      <otherrecordid localtype="BIB">614249</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Stanley Thomas Williams Papers
@@ -32,6 +34,11 @@
             <date>March 1983</date>
             <num>MS 557</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:01:15+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:25:10+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:01</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>May 2013</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:25</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2990" level="collection">
       <did>
          <unittitle>Stanley Thomas Williams papers</unittitle>
          <unitid>MS 557</unitid>
@@ -90,377 +93,464 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(5 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1917-1969">
+         <unitdatestructured altrender="1917-1969" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1917">1917</fromdate>
                <todate standarddate="1969">1969</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_26f4cbbc24cdb70c219b8abd6e35385b">Correspondence, notes, lectures, writings, and miscellanea relating to the academic career and literary works of Stanley T. Williams, a Yale University professor of American literature, including notes on several prominent American authors.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n50018986"
                       rules="aacr"
                       source="naf">
-               <part>Williams, Stanley Thomas, 1888-1956</part>
+               <part localtype="agent_person">Williams, Stanley Thomas, 1888-1956</part>
             </persname>
          </origination>
-    
       </did>
       <prefercite id="aspace_3a575e0dc2c5bdc9c9644bb88b1c3db4">
          <head>Preferred Citation</head>
-         <p>Stanley Thomas Williams Papers (MS 557). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Stanley Thomas Williams Papers (MS 557). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <bioghist id="aspace_e963bb2a218f18a829056b99af89ed47">
          <head>Biographical / Historical</head>
-         <p>Stanley T. Williams (1888-1956): educator; B.A., Yale, 1911, M.A., 1914, Ph.D., 1915; instructor at Yale, 1915-1917, 1919-1920, 1920-1926, associate professor, 1926-1932, professor, 1932-1956; author of many books.</p>  
+         <p>Stanley T. Williams (1888-1956): educator; B.A., Yale, 1911, M.A., 1914, Ph.D., 1915; instructor at Yale, 1915-1917, 1919-1920, 1920-1926, associate professor, 1926-1932, professor, 1932-1956; author of many books.</p>
       </bioghist>
       <scopecontent id="aspace_55265068dffb6b46e032f9a0c7e512f8">
          <head>Scope and Contents</head>
-         <p>Correspondence, notes, lectures, writings, and miscellanea relating to the academic career and literary works of Stanley T. Williams, a Yale University professor of American literature, including notes on several prominent American authors.</p>  
+         <p>Correspondence, notes, lectures, writings, and miscellanea relating to the academic career and literary works of Stanley T. Williams, a Yale University professor of American literature, including notes on several prominent American authors.</p>
       </scopecontent>
       <accessrestrict id="aspace_d3bf3a2e96bb4fd99d9695e59374d0ae">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_cd31dbefa6d62cc840e834543f725cf3">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85009808"
                   source="lcsh">
-            <part>Authors, American</part>
+            <part localtype="topical">Authors, American</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85077519"
                   source="lcsh">
-            <part>Literature -- History and criticism</part>
+            <part localtype="topical">Literature</part>
+            <part localtype="topical">History and criticism</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh2009129998"
                   source="lcsh">
-            <part>Literature -- Study and teaching -- United States</part>
+            <part localtype="topical">Literature</part>
+            <part localtype="topical">Study and teaching</part>
+            <part localtype="geographic">United States</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/no2013138256"
                    source="naf">
-            <part>Alsop, Richard</part>
+            <part localtype="agent_person">Alsop, Richard</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/nr91008095"
                    rules="aacr"
                    source="naf">
-            <part>Brainard, John G. C. (John Gardiner Calkins), 1796-1828</part>
+            <part localtype="agent_person">Brainard, John G. C. (John Gardiner Calkins), 1796-1828</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no2007012039"
                    source="naf">
-            <part>Wildman, Thomas G. (Thomas Gregory), 1837-1891</part>
+            <part localtype="agent_person">Wildman, Thomas G. (Thomas Gregory), 1837-1891</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50018986"
                    rules="aacr"
                    source="naf">
-            <part>Williams, Stanley Thomas, 1888-1956</part>
+            <part localtype="agent_person">Williams, Stanley Thomas, 1888-1956</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref8" level="series">
+         <c altrender="/repositories/12/archival_objects/1180069"
+            id="ref8"
+            level="series">
             <did>
                <unittitle>Inventory</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="Circa 1917-1955">
+               <unitdatestructured altrender="Circa 1917-1955"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1912">1912</fromdate>
                      <todate standarddate="1922">1922</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref10" level="file">
+            <c altrender="/repositories/12/archival_objects/1180070"
+               id="ref10"
+               level="file">
                <did>
                   <unittitle>I Photostats: folded sheets of which the first is marked 1818; a journal starting 1 Mar 1828; 2 separate sheets. (Possibly photostats of notes for Washington Irving's  <title render="italic">
                         <part>Sketchbook</part>
                      </title>.)</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130682 /locations/9"
                              containerid="39002112646345"
+                             encodinganalog="archive letter"
                              id="aspace_ref10_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref10_c2" localtype="folder" parent="aspace_ref10_c1">1</container>
                </did>
             </c>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1180071"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>II Report on lecture series given at the University of Mexico</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1947 December">
+                  <unitdatestructured altrender="1947 December" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1947">1947</fromdate>
                         <todate standarddate="1947">1947</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130682 /locations/9"
                              containerid="39002112646345"
+                             encodinganalog="archive letter"
                              id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">2</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1180072"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>III Student paper on Hawthorne's <title render="italic">
                         <part>The Scarlet Letter</part>
                      </title>, 1928; ALS copy of Milt Gross' parody of "The Raven" in hand of E. W. Lewis, Y'28; Notes on English 57, 5 Feb 1947-1928 May 1947, taken by Robert B. Graves, Y'47Mar.</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130682 /locations/9"
                              containerid="39002112646345"
+                             encodinganalog="archive letter"
                              id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">3</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1180073"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>IV Bibliography of STW's published works, 1917-Apr 1944.</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130682 /locations/9"
                              containerid="39002112646345"
+                             encodinganalog="archive letter"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">4</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1180074"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>V A Collection of Published Melville Letters, prepared by English 378, University of Chicago, Summer Quarter</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1949">
+                  <unitdatestructured altrender="1949" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1949">1949</fromdate>
                         <todate standarddate="1949">1949</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130682 /locations/9"
                              containerid="39002112646345"
+                             encodinganalog="archive letter"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">5</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1180075"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>VI Papers and tests relating to English 36 and English 52</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1924 November 10-1930 November 3">
+                  <unitdatestructured altrender="1924 November 10-1930 November 3"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1924">1924</fromdate>
                         <todate standarddate="1930">1930</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130682 /locations/9"
                              containerid="39002112646345"
+                             encodinganalog="archive letter"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">6</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1180076"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>VII Examinations in English 56, 57, and 157, 24 Mar 1950 - 28 Oct 1955; Bibliography, Nathaniel Hawthorne, undated; Henry James Revisions, undated</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130682 /locations/9"
                              containerid="39002112646345"
+                             encodinganalog="archive letter"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">7</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1180077"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>VIII Fragmentary notes for English 39</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1928 January 11-1941 April 30">
+                  <unitdatestructured altrender="1928 January 11-1941 April 30"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1928">1928</fromdate>
                         <todate standarddate="1941">1941</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130682 /locations/9"
                              containerid="39002112646345"
+                             encodinganalog="archive letter"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">8-9</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1180078"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>IX Fragmentary notes for English 57</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1943 January 20-1955 September 26">
+                  <unitdatestructured altrender="1943 January 20-1955 September 26"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1943">1943</fromdate>
                         <todate standarddate="1955">1955</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/130683 /locations/9"
                              containerid="39002112646352"
+                             encodinganalog="archive half letter"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1A</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">1-2</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1180079"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>X Typescripts of book reviews</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive half letter"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/130683 /locations/9"
                              containerid="39002112646352"
+                             encodinganalog="archive half letter"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1A</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">3</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1180080"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>XI "Honours" list of authors by assignment week, 1 Oct 1923 - 22 May 1924 List of anthologies, undated</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/130683 /locations/9"
                              containerid="39002112646352"
+                             encodinganalog="archive half letter"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1A</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">4</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1180081"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>XII TLS to STW from Frank MacShane</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1954 December 11">
+                  <unitdatestructured altrender="1954 December 11"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1954">1954</fromdate>
                         <todate standarddate="1954">1954</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/130683 /locations/9"
                              containerid="39002112646352"
+                             encodinganalog="archive half letter"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1A</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">5</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1180082"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>XIII Notes for various outside lectures</unittitle>
-                  <unitdatestructured unitdatetype="inclusive"
-                                      altrender="1924 January 23-1949 April 23, undated">
+                  <unitdatestructured altrender="1924 January 23-1949 April 23, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1924">1924</fromdate>
                         <todate standarddate="1949">1949</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130684 /locations/9"
                              containerid="39002112646360"
+                             encodinganalog="archive letter"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1B</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">1-50</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1180083"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>XV 2 marking books (one unused)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1954 October 11-1955 January 10">
+                  <unitdatestructured altrender="1954 October 11-1955 January 10"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1954">1954</fromdate>
                         <todate standarddate="1955">1955</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130685 /locations/9"
                              containerid="39002112646378"
+                             encodinganalog="archive letter"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">1</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1180084"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>XVI 1 box, with role of microfilm of photostats of STW's articles for a book</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130685 /locations/9"
                              containerid="39002112646378"
+                             encodinganalog="archive letter"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">2</container>
                </did>
             </c>
-            <c id="ref217" level="file">
+            <c altrender="/repositories/12/archival_objects/1180085"
+               id="ref217"
+               level="file">
                <did>
                   <unittitle>XVII Lectures in England and Germany</unittitle>
                </did>
-               <c id="ref131" level="file">
+               <c altrender="/repositories/12/archival_objects/1180086"
+                  id="ref131"
+                  level="file">
                   <did>
                      <unittitle>"The Poetry of Edgar Allan Poe", London</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1936 April 16">
+                     <unitdatestructured altrender="1936 April 16" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1936">1936</fromdate>
                            <todate standarddate="1936">1936</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref131_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref131_c2" localtype="folder" parent="aspace_ref131_c1">3</container>
                   </did>
                </c>
-               <c id="ref132" level="file">
+               <c altrender="/repositories/12/archival_objects/1180087"
+                  id="ref132"
+                  level="file">
                   <did>
                      <unittitle>"Washington Irving and Germany", Halle, 4 May, Berlin 15 May</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1936 May">
+                     <unitdatestructured altrender="1936 May" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1936">1936</fromdate>
                            <todate standarddate="1936">1936</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref132_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref132_c2" localtype="folder" parent="aspace_ref132_c1">3</container>
                   </did>
                </c>
-               <c id="ref133" level="file">
+               <c altrender="/repositories/12/archival_objects/1180088"
+                  id="ref133"
+                  level="file">
                   <did>
                      <unittitle>"New Light on Washington Irving", Berlin</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1936 May 8">
+                     <unitdatestructured altrender="1936 May 8" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1936">1936</fromdate>
                            <todate standarddate="1936">1936</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref133_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref133_c2" localtype="folder" parent="aspace_ref133_c1">3</container>
                   </did>
                </c>
-               <c id="ref134" level="file">
+               <c altrender="/repositories/12/archival_objects/1180089"
+                  id="ref134"
+                  level="file">
                   <did>
                      <unittitle>The American Struggle for Intellectual Independence, Munich, 29 Apr, Hamburg, 11 May, Berlin, 15 May</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1936">
+                     <unitdatestructured altrender="1936" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1936">1936</fromdate>
                            <todate standarddate="1936">1936</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref134_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
@@ -468,95 +558,135 @@
                   </did>
                </c>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1180090"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>XVIII Richard Alsop; Y'1798h: photostats of his correspondence, and correspondence concerning his life</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1926 October 18-1927 June 9">
+                  <unitdatestructured altrender="1926 October 18-1927 June 9"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1926">1926</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130685 /locations/9"
                              containerid="39002112646378"
+                             encodinganalog="archive letter"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">4</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1180091"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>XIX Brainard, John G. C.,Y'1815, notes, bibliographies, and copies of his correspondence.</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130685 /locations/9"
                              containerid="39002112646378"
+                             encodinganalog="archive letter"
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">5</container>
                </did>
             </c>
-            <c id="ref218" level="file">
+            <c altrender="/repositories/12/archival_objects/1180092"
+               id="ref218"
+               level="file">
                <did>
                   <unittitle>XX Lectures</unittitle>
                </did>
-               <c id="ref135" level="file">
+               <c altrender="/repositories/12/archival_objects/1180093"
+                  id="ref135"
+                  level="file">
                   <did>
                      <unittitle>"The Literature of the Frontier"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref135_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref135_c2" localtype="folder" parent="aspace_ref135_c1">6</container>
                   </did>
                </c>
-               <c id="ref136" level="file">
+               <c altrender="/repositories/12/archival_objects/1180094"
+                  id="ref136"
+                  level="file">
                   <did>
                      <unittitle>"The Sketch Book"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1943 November 23, 1944 November 21">
+                     <unitdatestructured altrender="1943 November 23, 1944 November 21"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1943">1943</fromdate>
                            <todate standarddate="1944">1944</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref136_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref136_c2" localtype="folder" parent="aspace_ref136_c1">6</container>
                   </did>
                </c>
-               <c id="ref137" level="file">
+               <c altrender="/repositories/12/archival_objects/1180095"
+                  id="ref137"
+                  level="file">
                   <did>
                      <unittitle>"The Spanish Background of American Literature"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1954 November 22">
+                     <unitdatestructured altrender="1954 November 22"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1954">1954</fromdate>
                            <todate standarddate="1954">1954</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref137_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref137_c2" localtype="folder" parent="aspace_ref137_c1">6</container>
                   </did>
                </c>
-               <c id="ref138" level="file">
+               <c altrender="/repositories/12/archival_objects/1180096"
+                  id="ref138"
+                  level="file">
                   <did>
                      <unittitle>"Macauley"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1931 January 7">
+                     <unitdatestructured altrender="1931 January 7"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1931">1931</fromdate>
                            <todate standarddate="1931">1931</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref138_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
@@ -564,180 +694,255 @@
                   </did>
                </c>
             </c>
-            <c id="ref219" level="file">
+            <c altrender="/repositories/12/archival_objects/1180097"
+               id="ref219"
+               level="file">
                <did>
                   <unittitle>XXI Folder labeled "Commencement Lectures - STW"</unittitle>
                </did>
-               <c id="ref140" level="file">
+               <c altrender="/repositories/12/archival_objects/1180098"
+                  id="ref140"
+                  level="file">
                   <did>
                      <unittitle>"Individualism", Oslo, Norway</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref140_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref140_c2" localtype="folder" parent="aspace_ref140_c1">7</container>
                   </did>
                </c>
-               <c id="ref141" level="file">
+               <c altrender="/repositories/12/archival_objects/1180099"
+                  id="ref141"
+                  level="file">
                   <did>
                      <unittitle>"Phi Beta Kappa"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref141_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref141_c2" localtype="folder" parent="aspace_ref141_c1">7</container>
                   </did>
                </c>
-               <c id="ref142" level="file">
+               <c altrender="/repositories/12/archival_objects/1180100"
+                  id="ref142"
+                  level="file">
                   <did>
                      <unittitle>"Courage", Taft School</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1935 January 20">
+                     <unitdatestructured altrender="1935 January 20"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1935">1935</fromdate>
                            <todate standarddate="1935">1935</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref142_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref142_c2" localtype="folder" parent="aspace_ref142_c1">7</container>
                   </did>
                </c>
-               <c id="ref143" level="file">
+               <c altrender="/repositories/12/archival_objects/1180101"
+                  id="ref143"
+                  level="file">
                   <did>
                      <unittitle>"Conquest of Fear", Taft School</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1937 September 20">
+                     <unitdatestructured altrender="1937 September 20"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1937">1937</fromdate>
                            <todate standarddate="1937">1937</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref143_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref143_c2" localtype="folder" parent="aspace_ref143_c1">7</container>
                   </did>
                </c>
-               <c id="ref144" level="file">
+               <c altrender="/repositories/12/archival_objects/1180102"
+                  id="ref144"
+                  level="file">
                   <did>
                      <unittitle>"On Yale's Endowment Fund"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref144_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref144_c2" localtype="folder" parent="aspace_ref144_c1">7</container>
                   </did>
                </c>
-               <c id="ref145" level="file">
+               <c altrender="/repositories/12/archival_objects/1180103"
+                  id="ref145"
+                  level="file">
                   <did>
                      <unittitle>"The Good and Great for Company": Our Literary Heritage</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref145_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref145_c2" localtype="folder" parent="aspace_ref145_c1">7</container>
                   </did>
                </c>
-               <c id="ref146" level="file">
+               <c altrender="/repositories/12/archival_objects/1180104"
+                  id="ref146"
+                  level="file">
                   <did>
                      <unittitle>"His Father's Saying"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref146_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref146_c2" localtype="folder" parent="aspace_ref146_c1">7</container>
                   </did>
                </c>
-               <c id="ref147" level="file">
+               <c altrender="/repositories/12/archival_objects/1180105"
+                  id="ref147"
+                  level="file">
                   <did>
                      <unittitle>"Educated", Milwaukee Country Day School, [illegible]</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1926 June 10">
+                     <unitdatestructured altrender="1926 June 10" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1926">1926</fromdate>
                            <todate standarddate="1926">1926</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref147_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref147_c2" localtype="folder" parent="aspace_ref147_c1">7</container>
                   </did>
                </c>
-               <c id="ref148" level="file">
+               <c altrender="/repositories/12/archival_objects/1180106"
+                  id="ref148"
+                  level="file">
                   <did>
                      <unittitle>15 pages of typed ms, on European judgements of American literature</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref148_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref148_c2" localtype="folder" parent="aspace_ref148_c1">7</container>
                   </did>
                </c>
-               <c id="ref149" level="file">
+               <c altrender="/repositories/12/archival_objects/1180107"
+                  id="ref149"
+                  level="file">
                   <did>
                      <unittitle>"Old Tragedies and New Books", North Carolina College for Women</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref149_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref149_c2" localtype="folder" parent="aspace_ref149_c1">7</container>
                   </did>
                </c>
-               <c id="ref150" level="file">
+               <c altrender="/repositories/12/archival_objects/1180108"
+                  id="ref150"
+                  level="file">
                   <did>
                      <unittitle>"The Undergraduate and the Classroom"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref150_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref150_c2" localtype="folder" parent="aspace_ref150_c1">7</container>
                   </did>
                </c>
-               <c id="ref151" level="file">
+               <c altrender="/repositories/12/archival_objects/1180109"
+                  id="ref151"
+                  level="file">
                   <did>
                      <unittitle>at Hotchkiss School</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1930 June 15">
+                     <unitdatestructured altrender="1930 June 15" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1930">1930</fromdate>
                            <todate standarddate="1930">1930</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref151_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref151_c2" localtype="folder" parent="aspace_ref151_c1">7</container>
                   </did>
                </c>
-               <c id="ref152" level="file">
+               <c altrender="/repositories/12/archival_objects/1180110"
+                  id="ref152"
+                  level="file">
                   <did>
                      <unittitle>to Sigma Xi</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref152_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
@@ -745,112 +950,162 @@
                   </did>
                </c>
             </c>
-            <c id="ref220" level="file">
+            <c altrender="/repositories/12/archival_objects/1180111"
+               id="ref220"
+               level="file">
                <did>
                   <unittitle>XXII Learned Articles</unittitle>
                </did>
-               <c id="ref153" level="file">
+               <c altrender="/repositories/12/archival_objects/1180112"
+                  id="ref153"
+                  level="file">
                   <did>
                      <unittitle>"The Last Plays of Richard Cumberland, 1785-1813"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref153_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref153_c2" localtype="folder" parent="aspace_ref153_c1">8</container>
                   </did>
                </c>
-               <c id="ref154" level="file">
+               <c altrender="/repositories/12/archival_objects/1180113"
+                  id="ref154"
+                  level="file">
                   <did>
                      <unittitle>"Hard Gem-Like Flame"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref154_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref154_c2" localtype="folder" parent="aspace_ref154_c1">8</container>
                   </did>
                </c>
-               <c id="ref155" level="file">
+               <c altrender="/repositories/12/archival_objects/1180114"
+                  id="ref155"
+                  level="file">
                   <did>
                      <unittitle>Introduction to a volume on Irving</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref155_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref155_c2" localtype="folder" parent="aspace_ref155_c1">8</container>
                   </did>
                </c>
-               <c id="ref156" level="file">
+               <c altrender="/repositories/12/archival_objects/1180115"
+                  id="ref156"
+                  level="file">
                   <did>
                      <unittitle>"Stevenson as a Critic"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref156_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref156_c2" localtype="folder" parent="aspace_ref156_c1">8</container>
                   </did>
                </c>
-               <c id="ref157" level="file">
+               <c altrender="/repositories/12/archival_objects/1180116"
+                  id="ref157"
+                  level="file">
                   <did>
                      <unittitle>"The literary Criticism of William [illegible] Caldwell Roscoe"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref157_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref157_c2" localtype="folder" parent="aspace_ref157_c1">8</container>
                   </did>
                </c>
-               <c id="ref158" level="file">
+               <c altrender="/repositories/12/archival_objects/1180117"
+                  id="ref158"
+                  level="file">
                   <did>
                      <unittitle>"Empedocles on Etna"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref158_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref158_c2" localtype="folder" parent="aspace_ref158_c1">8</container>
                   </did>
                </c>
-               <c id="ref159" level="file">
+               <c altrender="/repositories/12/archival_objects/1180118"
+                  id="ref159"
+                  level="file">
                   <did>
                      <unittitle>"J. S. Mill as a Critic of Literature"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref159_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref159_c2" localtype="folder" parent="aspace_ref159_c1">8</container>
                   </did>
                </c>
-               <c id="ref160" level="file">
+               <c altrender="/repositories/12/archival_objects/1180119"
+                  id="ref160"
+                  level="file">
                   <did>
                      <unittitle>"Yeast: A Victorian Curiosity"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref160_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref160_c2" localtype="folder" parent="aspace_ref160_c1">8</container>
                   </did>
                </c>
-               <c id="ref161" level="file">
+               <c altrender="/repositories/12/archival_objects/1180120"
+                  id="ref161"
+                  level="file">
                   <did>
                      <unittitle>4 pages [illegible] ms., untitled</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130685 /locations/9"
                                 containerid="39002112646378"
+                                encodinganalog="archive letter"
                                 id="aspace_ref161_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
@@ -858,76 +1113,96 @@
                   </did>
                </c>
             </c>
-            <c id="ref221" level="file">
+            <c altrender="/repositories/12/archival_objects/1180121"
+               id="ref221"
+               level="file">
                <did>
                   <unittitle>XXIII Manuscripts</unittitle>
                </did>
-               <c id="ref162" level="file">
+               <c altrender="/repositories/12/archival_objects/1180122"
+                  id="ref162"
+                  level="file">
                   <did>
                      <unittitle>Thoreau</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref162_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref162_c2" localtype="folder" parent="aspace_ref162_c1">1</container>
                   </did>
                </c>
-               <c id="ref163" level="file">
+               <c altrender="/repositories/12/archival_objects/1180123"
+                  id="ref163"
+                  level="file">
                   <did>
                      <unittitle>Whitman</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref163_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref163_c2" localtype="folder" parent="aspace_ref163_c1">1</container>
                   </did>
                </c>
-               <c id="ref164" level="file">
+               <c altrender="/repositories/12/archival_objects/1180124"
+                  id="ref164"
+                  level="file">
                   <did>
                      <unittitle>Emerson</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref164_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref164_c2" localtype="folder" parent="aspace_ref164_c1">2</container>
                   </did>
                </c>
-               <c id="ref165" level="file">
+               <c altrender="/repositories/12/archival_objects/1180125"
+                  id="ref165"
+                  level="file">
                   <did>
                      <unittitle>Hawthorne</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref165_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref165_c2" localtype="folder" parent="aspace_ref165_c1">3</container>
                   </did>
                </c>
-               <c id="ref166" level="file">
+               <c altrender="/repositories/12/archival_objects/1180126"
+                  id="ref166"
+                  level="file">
                   <did>
                      <unittitle>Hawthorne's First Novel</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref166_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref166_c2" localtype="folder" parent="aspace_ref166_c1">3</container>
                   </did>
                </c>
-               <c id="ref167" level="file">
+               <c altrender="/repositories/12/archival_objects/1180127"
+                  id="ref167"
+                  level="file">
                   <did>
                      <unittitle>pp. 3, 5 ff on Cooper and Irving</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref167_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
@@ -935,122 +1210,169 @@
                   </did>
                </c>
             </c>
-            <c id="ref222" level="file">
+            <c altrender="/repositories/12/archival_objects/1180128"
+               id="ref222"
+               level="file">
                <did>
                   <unittitle>XXIV Manuscripts</unittitle>
                </did>
-               <c id="ref168" level="file">
+               <c altrender="/repositories/12/archival_objects/1180129"
+                  id="ref168"
+                  level="file">
                   <did>
                      <unittitle>Paper on the Spanish background of American literature</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref168_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref168_c2" localtype="folder" parent="aspace_ref168_c1">4</container>
                   </did>
                </c>
-               <c id="ref169" level="file">
+               <c altrender="/repositories/12/archival_objects/1180130"
+                  id="ref169"
+                  level="file">
                   <did>
                      <unittitle>Preface to book on American literature for Europeans</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1953 August 1">
+                     <unitdatestructured altrender="1953 August 1" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1953">1953</fromdate>
                            <todate standarddate="1953">1953</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref169_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref169_c2" localtype="folder" parent="aspace_ref169_c1">4</container>
                   </did>
                </c>
-               <c id="ref170" level="file">
+               <c altrender="/repositories/12/archival_objects/1180131"
+                  id="ref170"
+                  level="file">
                   <did>
                      <unittitle>Paper on fishing in Cape Cod ponds</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref170_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref170_c2" localtype="folder" parent="aspace_ref170_c1">4</container>
                   </did>
                </c>
-               <c id="ref171" level="file">
+               <c altrender="/repositories/12/archival_objects/1180132"
+                  id="ref171"
+                  level="file">
                   <did>
                      <unittitle>"In Defense of the Literary Pilgrim"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref171_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref171_c2" localtype="folder" parent="aspace_ref171_c1">4</container>
                   </did>
                </c>
-               <c id="ref172" level="file">
+               <c altrender="/repositories/12/archival_objects/1180133"
+                  id="ref172"
+                  level="file">
                   <did>
                      <unittitle>"Matches"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref172_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref172_c2" localtype="folder" parent="aspace_ref172_c1">4</container>
                   </did>
                </c>
-               <c id="ref173" level="file">
+               <c altrender="/repositories/12/archival_objects/1180134"
+                  id="ref173"
+                  level="file">
                   <did>
                      <unittitle>"Absent from Vermont" (poem)</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref173_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref173_c2" localtype="folder" parent="aspace_ref173_c1">4</container>
                   </did>
                </c>
-               <c id="ref174" level="file">
+               <c altrender="/repositories/12/archival_objects/1180135"
+                  id="ref174"
+                  level="file">
                   <did>
                      <unittitle>"Apologia and Riposte" (poem)</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1944 March 8">
+                     <unitdatestructured altrender="1944 March 8" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1944">1944</fromdate>
                            <todate standarddate="1944">1944</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref174_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref174_c2" localtype="folder" parent="aspace_ref174_c1">4</container>
                   </did>
                </c>
-               <c id="ref175" level="file">
+               <c altrender="/repositories/12/archival_objects/1180136"
+                  id="ref175"
+                  level="file">
                   <did>
                      <unittitle>"Coming Events"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref175_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref175_c2" localtype="folder" parent="aspace_ref175_c1">4</container>
                   </did>
                </c>
-               <c id="ref176" level="file">
+               <c altrender="/repositories/12/archival_objects/1180137"
+                  id="ref176"
+                  level="file">
                   <did>
                      <unittitle>"Irving, Washington"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref176_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
@@ -1061,96 +1383,126 @@
                      <p>Probably Ms. of article for Encyclopedia Americana.</p>
                   </odd>
                </c>
-               <c id="ref178" level="file">
+               <c altrender="/repositories/12/archival_objects/1180138"
+                  id="ref178"
+                  level="file">
                   <did>
                      <unittitle>STW's edition of Thomas Danforth's "Journal of My Visit to
 Virginia"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref178_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref178_c2" localtype="folder" parent="aspace_ref178_c1">4</container>
                   </did>
                </c>
-               <c id="ref179" level="file">
+               <c altrender="/repositories/12/archival_objects/1180139"
+                  id="ref179"
+                  level="file">
                   <did>
                      <unittitle>"American Scholars and American Literature"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref179_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref179_c2" localtype="folder" parent="aspace_ref179_c1">5</container>
                   </did>
                </c>
-               <c id="ref180" level="file">
+               <c altrender="/repositories/12/archival_objects/1180140"
+                  id="ref180"
+                  level="file">
                   <did>
                      <unittitle>"On Re-reading Herman Melville" (2 copies)</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref180_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref180_c2" localtype="folder" parent="aspace_ref180_c1">5</container>
                   </did>
                </c>
-               <c id="ref181" level="file">
+               <c altrender="/repositories/12/archival_objects/1180141"
+                  id="ref181"
+                  level="file">
                   <did>
                      <unittitle>Paper on Edward Arlington Robinson</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref181_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref181_c2" localtype="folder" parent="aspace_ref181_c1">5</container>
                   </did>
                </c>
-               <c id="ref182" level="file">
+               <c altrender="/repositories/12/archival_objects/1180142"
+                  id="ref182"
+                  level="file">
                   <did>
                      <unittitle>Paper on development of American literature</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref182_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref182_c2" localtype="folder" parent="aspace_ref182_c1">5</container>
                   </did>
                </c>
-               <c id="ref183" level="file">
+               <c altrender="/repositories/12/archival_objects/1180143"
+                  id="ref183"
+                  level="file">
                   <did>
                      <unittitle>pp. 2-12 of paper on Washington Irving</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref183_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref183_c2" localtype="folder" parent="aspace_ref183_c1">5</container>
                   </did>
                </c>
-               <c id="ref184" level="file">
+               <c altrender="/repositories/12/archival_objects/1180144"
+                  id="ref184"
+                  level="file">
                   <did>
                      <unittitle>6 handwritten pages on Sweden</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref184_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                      <container id="aspace_ref184_c2" localtype="folder" parent="aspace_ref184_c1">5</container>
                   </did>
                </c>
-               <c id="ref223" level="item">
+               <c altrender="/repositories/12/archival_objects/1180145"
+                  id="ref223"
+                  level="item">
                   <did>
                      <unittitle>"A Parody on the Gothic Romance"</unittitle>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130686 /locations/9"
                                 containerid="39002112646386"
+                                encodinganalog="archive letter"
                                 id="aspace_ref223_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
@@ -1158,12 +1510,15 @@ Virginia"</unittitle>
                   </did>
                </c>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1180146"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>I Ralph Waldo Emerson</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/130688 /locations/9"
                              containerid="39002075003708"
+                             encodinganalog="archive letter"
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -1174,68 +1529,87 @@ Virginia"</unittitle>
                   <p>One envelope containing 16 packets of notes.</p>
                </odd>
             </c>
-            <c id="ref60" level="file">
+            <c altrender="/repositories/12/archival_objects/1180147"
+               id="ref60"
+               level="file">
                <did>
                   <unittitle>II Thomas G. Wildman</unittitle>
                </did>
-               <c id="ref34" level="file">
+               <c altrender="/repositories/12/archival_objects/1180148"
+                  id="ref34"
+                  level="file">
                   <did>
                      <unittitle>44 typed copies of his correspondence</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1859 April 15-1865 July 24">
+                     <unitdatestructured altrender="1859 April 15-1865 July 24"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1859">1859</fromdate>
                            <todate standarddate="1865">1865</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref34_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">2</container>
                   </did>
                </c>
-               <c id="ref59" level="file">
+               <c altrender="/repositories/12/archival_objects/1180149"
+                  id="ref59"
+                  level="file">
                   <did>
                      <unittitle>Additional typed copies of his correspondence with notes</unittitle>
-                     <unitdatestructured unitdatetype="inclusive"
-                                         altrender="1858 August 11-1881 January 12, undated">
+                     <unitdatestructured altrender="1858 August 11-1881 January 12, undated"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1858">1858</fromdate>
                            <todate standarddate="1881">1881</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref59_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref59_c2" localtype="folder" parent="aspace_ref59_c1">3</container>
                   </did>
                </c>
-               <c id="ref61" level="file">
+               <c altrender="/repositories/12/archival_objects/1180150"
+                  id="ref61"
+                  level="file">
                   <did>
                      <unittitle>Notes on correspondence</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref61_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref61_c2" localtype="folder" parent="aspace_ref61_c1">4</container>
                   </did>
                </c>
-               <c id="ref62" level="file">
+               <c altrender="/repositories/12/archival_objects/1180151"
+                  id="ref62"
+                  level="file">
                   <did>
                      <unittitle>Correspondence and memos concerning publishing of Wildman letters</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1945-1947, 1969">
+                     <unitdatestructured altrender="1945-1947, 1969"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1945">1945</fromdate>
                            <todate standarddate="1969">1969</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref62_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -1243,16 +1617,24 @@ Virginia"</unittitle>
                   </did>
                </c>
             </c>
-            <c id="ref75" level="file">
+            <c altrender="/repositories/12/archival_objects/1180152"
+               id="ref75"
+               level="file">
                <did>
                   <unittitle>III Envelopes containing notes on:</unittitle>
                </did>
-               <c id="ref63" level="file">
+               <c altrender="/repositories/12/archival_objects/1180153"
+                  id="ref63"
+                  level="file">
                   <did>
                      <unittitle>"Gentlemen of the U.S. Military Academy"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref63_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -1263,12 +1645,15 @@ Virginia"</unittitle>
                      <p>Apparently a lecture on S. Benet.</p>
                   </odd>
                </c>
-               <c id="ref65" level="file">
+               <c altrender="/repositories/12/archival_objects/1180154"
+                  id="ref65"
+                  level="file">
                   <did>
                      <unittitle>Aldis Collection</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref65_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -1279,17 +1664,22 @@ Virginia"</unittitle>
                      <p>American bellelettresistic literature.</p>
                   </odd>
                </c>
-               <c id="ref67" level="file">
+               <c altrender="/repositories/12/archival_objects/1180155"
+                  id="ref67"
+                  level="file">
                   <did>
                      <unittitle>American literature of the Civil War</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1926 February 17">
+                     <unitdatestructured altrender="1926 February 17"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1926">1926</fromdate>
                            <todate standarddate="1926">1926</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref67_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -1300,48 +1690,60 @@ Virginia"</unittitle>
                      <p>No class number provided.</p>
                   </odd>
                </c>
-               <c id="ref69" level="file">
+               <c altrender="/repositories/12/archival_objects/1180156"
+                  id="ref69"
+                  level="file">
                   <did>
                      <unittitle>Bibliography: general</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref69_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref69_c2" localtype="folder" parent="aspace_ref69_c1">7</container>
                   </did>
                </c>
-               <c id="ref70" level="file">
+               <c altrender="/repositories/12/archival_objects/1180157"
+                  id="ref70"
+                  level="file">
                   <did>
                      <unittitle>Books to look up. By author</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref70_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref70_c2" localtype="folder" parent="aspace_ref70_c1">8</container>
                   </did>
                </c>
-               <c id="ref71" level="file">
+               <c altrender="/repositories/12/archival_objects/1180158"
+                  id="ref71"
+                  level="file">
                   <did>
                      <unittitle>Brown, C. B.</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref71_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref71_c2" localtype="folder" parent="aspace_ref71_c1">8</container>
                   </did>
                </c>
-               <c id="ref72" level="file">
+               <c altrender="/repositories/12/archival_objects/1180159"
+                  id="ref72"
+                  level="file">
                   <did>
                      <unittitle>Bryant</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref72_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -1352,29 +1754,37 @@ Virginia"</unittitle>
                      <p>3 packets of miscellaneous notes.</p>
                   </odd>
                </c>
-               <c id="ref74" level="file">
+               <c altrender="/repositories/12/archival_objects/1180160"
+                  id="ref74"
+                  level="file">
                   <did>
                      <unittitle>Cather, Willa: The Personality of Willa Cather</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref74_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref74_c2" localtype="folder" parent="aspace_ref74_c1">8</container>
                   </did>
                </c>
-               <c id="ref35" level="file">
+               <c altrender="/repositories/12/archival_objects/1180161"
+                  id="ref35"
+                  level="file">
                   <did>
                      <unittitle>Contemporary American literature</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1926 May 24-26">
+                     <unitdatestructured altrender="1926 May 24-26"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1926-05-24">1926-05-24</fromdate>
-                           <todate standarddate="1926-05-26">1926-05-26</todate>
+                           <fromdate standarddate="1926-05-24">1926 May 24</fromdate>
+                           <todate standarddate="1926-05-26">1926 May 26</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref35_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -1385,12 +1795,15 @@ Virginia"</unittitle>
                      <p>2 packets of notes (revised).</p>
                   </odd>
                </c>
-               <c id="ref77" level="file">
+               <c altrender="/repositories/12/archival_objects/1180162"
+                  id="ref77"
+                  level="file">
                   <did>
                      <unittitle>Contemporary fiction</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref77_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -1401,12 +1814,15 @@ Virginia"</unittitle>
                      <p>Fragmentary notes, by themselves.</p>
                   </odd>
                </c>
-               <c id="ref79" level="file">
+               <c altrender="/repositories/12/archival_objects/1180163"
+                  id="ref79"
+                  level="file">
                   <did>
                      <unittitle>Cooper</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref79_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -1417,53 +1833,67 @@ Virginia"</unittitle>
                      <p>2 packets of notes.</p>
                   </odd>
                </c>
-               <c id="ref81" level="file">
+               <c altrender="/repositories/12/archival_objects/1180164"
+                  id="ref81"
+                  level="file">
                   <did>
                      <unittitle>Dickinson, Emily</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref81_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref81_c2" localtype="folder" parent="aspace_ref81_c1">9</container>
                   </did>
                </c>
-               <c id="ref82" level="file">
+               <c altrender="/repositories/12/archival_objects/1180165"
+                  id="ref82"
+                  level="file">
                   <did>
                      <unittitle>Dreiser VI: Dreiser and the Cult of Naturalism</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref82_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref82_c2" localtype="folder" parent="aspace_ref82_c1">10</container>
                   </did>
                </c>
-               <c id="ref83" level="file">
+               <c altrender="/repositories/12/archival_objects/1180166"
+                  id="ref83"
+                  level="file">
                   <did>
                      <unittitle>Early colonial literature: bibliography</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref83_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref83_c2" localtype="folder" parent="aspace_ref83_c1">10</container>
                   </did>
                </c>
-               <c id="ref84" level="file">
+               <c altrender="/repositories/12/archival_objects/1180167"
+                  id="ref84"
+                  level="file">
                   <did>
                      <unittitle>Edwards, Jonathan</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1923 October 9, undated">
+                     <unitdatestructured altrender="1923 October 9, undated"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1923">1923</fromdate>
                            <todate standarddate="1923">1923</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref84_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -1474,12 +1904,15 @@ Virginia"</unittitle>
                      <p>3 packets of notes, one of which is dated - Honors.</p>
                   </odd>
                </c>
-               <c id="ref86" level="file">
+               <c altrender="/repositories/12/archival_objects/1180168"
+                  id="ref86"
+                  level="file">
                   <did>
                      <unittitle>Edwards and Mather</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref86_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -1490,12 +1923,15 @@ Virginia"</unittitle>
                      <p>Notes, clipped together, and perhaps used together.</p>
                   </odd>
                </c>
-               <c id="ref88" level="file">
+               <c altrender="/repositories/12/archival_objects/1180169"
+                  id="ref88"
+                  level="file">
                   <did>
                      <unittitle>Faulkner</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref88_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -1506,24 +1942,30 @@ Virginia"</unittitle>
                      <p>Notes on books about him.</p>
                   </odd>
                </c>
-               <c id="ref90" level="file">
+               <c altrender="/repositories/12/archival_objects/1180170"
+                  id="ref90"
+                  level="file">
                   <did>
                      <unittitle>Franklin, Benjamin</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref90_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref90_c2" localtype="folder" parent="aspace_ref90_c1">11</container>
                   </did>
                </c>
-               <c id="ref91" level="file">
+               <c altrender="/repositories/12/archival_objects/1180171"
+                  id="ref91"
+                  level="file">
                   <did>
                      <unittitle>Frost, Robert</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref91_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -1534,71 +1976,93 @@ Virginia"</unittitle>
                      <p>One set marked "English 56. Modern American Poetry 2. Frost."  No year indicated.</p>
                   </odd>
                </c>
-               <c id="ref93" level="file">
+               <c altrender="/repositories/12/archival_objects/1180172"
+                  id="ref93"
+                  level="file">
                   <did>
                      <unittitle>Harte</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130688 /locations/9"
                                 containerid="39002075003708"
+                                encodinganalog="archive letter"
                                 id="aspace_ref93_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref93_c2" localtype="folder" parent="aspace_ref93_c1">11</container>
                   </did>
                </c>
-               <c id="ref94" level="file">
+               <c altrender="/repositories/12/archival_objects/1180173"
+                  id="ref94"
+                  level="file">
                   <did>
                      <unittitle>Hawthorne</unittitle>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref94_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
                      <container id="aspace_ref94_c2" localtype="folder" parent="aspace_ref94_c1">1</container>
                   </did>
                </c>
-               <c id="ref95" level="file">
+               <c altrender="/repositories/12/archival_objects/1180174"
+                  id="ref95"
+                  level="file">
                   <did>
                      <unittitle>Holmes</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref95_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
                      <container id="aspace_ref95_c2" localtype="folder" parent="aspace_ref95_c1">2</container>
                   </did>
                </c>
-               <c id="ref96" level="file">
+               <c altrender="/repositories/12/archival_objects/1180175"
+                  id="ref96"
+                  level="file">
                   <did>
                      <unittitle>Howells</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref96_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
                      <container id="aspace_ref96_c2" localtype="folder" parent="aspace_ref96_c1">2</container>
                   </did>
                </c>
-               <c id="ref98" level="file">
+               <c altrender="/repositories/12/archival_objects/1180176"
+                  id="ref98"
+                  level="file">
                   <did>
                      <unittitle>Irving, Washington</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref98_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
                      <container id="aspace_ref98_c2" localtype="folder" parent="aspace_ref98_c1">2</container>
                   </did>
                </c>
-               <c id="ref99" level="file">
+               <c altrender="/repositories/12/archival_objects/1180177"
+                  id="ref99"
+                  level="file">
                   <did>
                      <unittitle>James, Henry</unittitle>
-                     <unitdate unitdatetype="inclusive">1926 May, undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdatestructured altrender="1926 May, undated"
+                                         label="creation"
+                                         unitdatetype="inclusive">
+                        <datesingle standarddate="1926-05">1926 May, undated</datesingle>
+                     </unitdatestructured>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref99_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
@@ -1609,43 +2073,54 @@ Virginia"</unittitle>
                      <p>Many packets of miscellaneous notes; only one set is dated, but with no indication for what class.</p>
                   </odd>
                </c>
-               <c id="ref101" level="file">
+               <c altrender="/repositories/12/archival_objects/1180178"
+                  id="ref101"
+                  level="file">
                   <did>
                      <unittitle>James, Henry: <title render="italic">
                            <part>The Tragic Muse</part>
                         </title> (read August 1938)</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref101_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
                      <container id="aspace_ref101_c2" localtype="folder" parent="aspace_ref101_c1">3</container>
                   </did>
                </c>
-               <c id="ref102" level="file">
+               <c altrender="/repositories/12/archival_objects/1180179"
+                  id="ref102"
+                  level="file">
                   <did>
                      <unittitle>Knickerbocker poets</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref102_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
                      <container id="aspace_ref102_c2" localtype="folder" parent="aspace_ref102_c1">3</container>
                   </did>
                </c>
-               <c id="ref103" level="file">
+               <c altrender="/repositories/12/archival_objects/1180180"
+                  id="ref103"
+                  level="file">
                   <did>
                      <unittitle>Lanier</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1925 April 20, undated">
+                     <unitdatestructured altrender="1925 April 20, undated"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1925">1925</fromdate>
                            <todate standarddate="1925">1925</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref103_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
@@ -1656,24 +2131,30 @@ Virginia"</unittitle>
                      <p>Contains bibliography, notes for April 20, 1925 (without any indication for which class), and 2 packets of miscellaneous notes.</p>
                   </odd>
                </c>
-               <c id="ref105" level="file">
+               <c altrender="/repositories/12/archival_objects/1180181"
+                  id="ref105"
+                  level="file">
                   <did>
                      <unittitle>Lindsay</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref105_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
                      <container id="aspace_ref105_c2" localtype="folder" parent="aspace_ref105_c1">3</container>
                   </did>
                </c>
-               <c id="ref106" level="file">
+               <c altrender="/repositories/12/archival_objects/1180182"
+                  id="ref106"
+                  level="file">
                   <did>
                      <unittitle>Longfellow</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref106_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
@@ -1684,12 +2165,15 @@ Virginia"</unittitle>
                      <p>I packet of lecture notes and 4 mimeographed pages ( 3 of poems; 1 of 7 paragraphs)</p>
                   </odd>
                </c>
-               <c id="ref108" level="file">
+               <c altrender="/repositories/12/archival_objects/1180183"
+                  id="ref108"
+                  level="file">
                   <did>
                      <unittitle>Lowell</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref108_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
@@ -1700,28 +2184,36 @@ Virginia"</unittitle>
                      <p>3 packets of notes.</p>
                   </odd>
                </c>
-               <c id="ref110" level="file">
+               <c altrender="/repositories/12/archival_objects/1180184"
+                  id="ref110"
+                  level="file">
                   <did>
                      <unittitle>Melville</unittitle>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref110_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
                      <container id="aspace_ref110_c2" localtype="folder" parent="aspace_ref110_c1">4</container>
                   </did>
                </c>
-               <c id="ref111" level="file">
+               <c altrender="/repositories/12/archival_objects/1180185"
+                  id="ref111"
+                  level="file">
                   <did>
                      <unittitle>O'Henry</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1926 May 10, 1933 April 26">
+                     <unitdatestructured altrender="1926 May 10, 1933 April 26"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1926">1926</fromdate>
                            <todate standarddate="1933">1933</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref111_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
@@ -1732,12 +2224,15 @@ Virginia"</unittitle>
                      <p>Revised for 1926 and partially revised for 1933, with no indication of class.</p>
                   </odd>
                </c>
-               <c id="ref113" level="file">
+               <c altrender="/repositories/12/archival_objects/1180186"
+                  id="ref113"
+                  level="file">
                   <did>
                      <unittitle>Paine, Thomas</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref113_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
@@ -1748,77 +2243,98 @@ Virginia"</unittitle>
                      <p>Possible bibliography and some notes.</p>
                   </odd>
                </c>
-               <c id="ref115" level="file">
+               <c altrender="/repositories/12/archival_objects/1180187"
+                  id="ref115"
+                  level="file">
                   <did>
                      <unittitle>Parkman (Los Angeles)</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1924 July 25">
+                     <unitdatestructured altrender="1924 July 25" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1924">1924</fromdate>
                            <todate standarddate="1924">1924</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref115_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
                      <container id="aspace_ref115_c2" localtype="folder" parent="aspace_ref115_c1">5</container>
                   </did>
                </c>
-               <c id="ref116" level="file">
+               <c altrender="/repositories/12/archival_objects/1180188"
+                  id="ref116"
+                  level="file">
                   <did>
                      <unittitle>Poe</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref116_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
                      <container id="aspace_ref116_c2" localtype="folder" parent="aspace_ref116_c1">5</container>
                   </did>
                </c>
-               <c id="ref117" level="file">
+               <c altrender="/repositories/12/archival_objects/1180189"
+                  id="ref117"
+                  level="file">
                   <did>
                      <unittitle>Poetry, 18th century</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref117_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
                      <container id="aspace_ref117_c2" localtype="folder" parent="aspace_ref117_c1">5</container>
                   </did>
                </c>
-               <c id="ref118" level="file">
+               <c altrender="/repositories/12/archival_objects/1180190"
+                  id="ref118"
+                  level="file">
                   <did>
                      <unittitle>"Poetry" notes</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref118_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
                      <container id="aspace_ref118_c2" localtype="folder" parent="aspace_ref118_c1">6</container>
                   </did>
                </c>
-               <c id="ref119" level="file">
+               <c altrender="/repositories/12/archival_objects/1180191"
+                  id="ref119"
+                  level="file">
                   <did>
                      <unittitle>Plotinus</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref119_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
                      <container id="aspace_ref119_c2" localtype="folder" parent="aspace_ref119_c1">6</container>
                   </did>
                </c>
-               <c id="ref120" level="file">
+               <c altrender="/repositories/12/archival_objects/1180192"
+                  id="ref120"
+                  level="file">
                   <did>
                      <unittitle>Steinbeck</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref120_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
@@ -1829,39 +2345,48 @@ Virginia"</unittitle>
                      <p>Fragmentary notes.</p>
                   </odd>
                </c>
-               <c id="ref122" level="file">
+               <c altrender="/repositories/12/archival_objects/1180193"
+                  id="ref122"
+                  level="file">
                   <did>
                      <unittitle>Stowe, Harriet B.: <title render="italic">
                            <part>Uncle Tom's Cabin</part>
                         </title>
                      </unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref122_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
                      <container id="aspace_ref122_c2" localtype="folder" parent="aspace_ref122_c1">6</container>
                   </did>
                </c>
-               <c id="ref123" level="file">
+               <c altrender="/repositories/12/archival_objects/1180194"
+                  id="ref123"
+                  level="file">
                   <did>
                      <unittitle>Thoreau</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref123_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
                      <container id="aspace_ref123_c2" localtype="folder" parent="aspace_ref123_c1">6</container>
                   </did>
                </c>
-               <c id="ref124" level="file">
+               <c altrender="/repositories/12/archival_objects/1180195"
+                  id="ref124"
+                  level="file">
                   <did>
                      <unittitle>Wharton, Edith</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref124_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
@@ -1872,29 +2397,40 @@ Virginia"</unittitle>
                      <p>Miscellaneous notes.</p>
                   </odd>
                </c>
-               <c id="ref126" level="file">
+               <c altrender="/repositories/12/archival_objects/1180196"
+                  id="ref126"
+                  level="file">
                   <did>
                      <unittitle>"What Is an American?"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref126_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
                      <container id="aspace_ref126_c2" localtype="folder" parent="aspace_ref126_c1">7</container>
                   </did>
                </c>
-               <c id="ref127" level="file">
+               <c altrender="/repositories/12/archival_objects/1180197"
+                  id="ref127"
+                  level="file">
                   <did>
                      <unittitle>Whitman</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1949 January 3, undated">
+                     <unitdatestructured altrender="1949 January 3, undated"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1949">1949</fromdate>
                            <todate standarddate="1949">1949</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref127_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
@@ -1905,12 +2441,15 @@ Virginia"</unittitle>
                      <p>Miscellaneous notes and "discards" from 1949.</p>
                   </odd>
                </c>
-               <c id="ref129" level="file">
+               <c altrender="/repositories/12/archival_objects/1180198"
+                  id="ref129"
+                  level="file">
                   <did>
                      <unittitle>Whittier</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/130689 /locations/9"
                                 containerid="39002075003716"
+                                encodinganalog="archive letter"
                                 id="aspace_ref129_c1"
                                 label="Mixed Materials"
                                 localtype="box">3A</container>
@@ -1918,34 +2457,42 @@ Virginia"</unittitle>
                   </did>
                </c>
             </c>
-            <c id="ref130" level="file">
+            <c altrender="/repositories/12/archival_objects/1180199"
+               id="ref130"
+               level="file">
                <did>
                   <unittitle>Letters to George P. Clarke</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1947-1955">
+                  <unitdatestructured altrender="1947-1955" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1947">1947</fromdate>
                         <todate standarddate="1955">1955</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130689 /locations/9"
                              containerid="39002075003716"
+                             encodinganalog="archive letter"
                              id="aspace_ref130_c1"
                              label="Mixed Materials"
                              localtype="box">3A</container>
                   <container id="aspace_ref130_c2" localtype="folder" parent="aspace_ref130_c1">8</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1180200"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>Notes for English 56, not complete</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1941 October 29-1955 January 12">
+                  <unitdatestructured altrender="1941 October 29-1955 January 12"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1941">1941</fromdate>
                         <todate standarddate="1955">1955</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130690 /locations/9"
                              containerid="39002042314444"
+                             encodinganalog="Paige 15"
                              id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
@@ -1955,17 +2502,22 @@ Virginia"</unittitle>
                   <p>Full list in box.</p>
                </odd>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1180201"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>Notes for English 56, not complete</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1955 September 16-November 25">
+                  <unitdatestructured altrender="1955 September 16-November 25"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
-                        <fromdate standarddate="1955-09-16">1955-09-16</fromdate>
-                        <todate standarddate="1955-11-25">1955-11-25</todate>
+                        <fromdate standarddate="1955-09-16">1955 September 16</fromdate>
+                        <todate standarddate="1955-11-25">1955 November 25</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130690 /locations/9"
                              containerid="39002042314444"
+                             encodinganalog="Paige 15"
                              id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
@@ -1975,17 +2527,22 @@ Virginia"</unittitle>
                   <p>Full list with notes in box.</p>
                </odd>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1180202"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>Notes for English 156, not complete</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1944 May 16-1955 November 14">
+                  <unitdatestructured altrender="1944 May 16-1955 November 14"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1944">1944</fromdate>
                         <todate standarddate="1955">1955</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130690 /locations/9"
                              containerid="39002042314444"
+                             encodinganalog="Paige 15"
                              id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
@@ -1995,35 +2552,47 @@ Virginia"</unittitle>
                   <p>Full list with notes in box.</p>
                </odd>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1180203"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>Note for English 36: Hawthorne</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1931 February 10">
+                  <unitdatestructured altrender="1931 February 10"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1931">1931</fromdate>
                         <todate standarddate="1931">1931</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130690 /locations/9"
                              containerid="39002042314444"
+                             encodinganalog="Paige 15"
                              id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                </did>
             </c>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1180204"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>Notes for English 157, incomplete</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130690 /locations/9"
                              containerid="39002042314444"
+                             encodinganalog="Paige 15"
                              id="aspace_ref40_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                </did>
-               <c id="ref189" level="file">
+               <c altrender="/repositories/12/archival_objects/1180205"
+                  id="ref189"
+                  level="file">
                   <did>
                      <unittitle>Poe</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1941 May 13, 1953 May 12">
+                     <unitdatestructured altrender="1941 May 13, 1953 May 12"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1941">1941</fromdate>
                            <todate standarddate="1953">1953</todate>
@@ -2031,10 +2600,14 @@ Virginia"</unittitle>
                      </unitdatestructured>
                   </did>
                </c>
-               <c id="ref190" level="file">
+               <c altrender="/repositories/12/archival_objects/1180206"
+                  id="ref190"
+                  level="file">
                   <did>
                      <unittitle>Emerson</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1954 October 19">
+                     <unitdatestructured altrender="1954 October 19"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1954">1954</fromdate>
                            <todate standarddate="1954">1954</todate>
@@ -2042,10 +2615,14 @@ Virginia"</unittitle>
                      </unitdatestructured>
                   </did>
                </c>
-               <c id="ref191" level="file">
+               <c altrender="/repositories/12/archival_objects/1180207"
+                  id="ref191"
+                  level="file">
                   <did>
                      <unittitle>Melville</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1954 November 30">
+                     <unitdatestructured altrender="1954 November 30"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1954">1954</fromdate>
                            <todate standarddate="1954">1954</todate>
@@ -2053,18 +2630,23 @@ Virginia"</unittitle>
                      </unitdatestructured>
                   </did>
                </c>
-               <c id="ref192" level="file">
+               <c altrender="/repositories/12/archival_objects/1180208"
+                  id="ref192"
+                  level="file">
                   <did>
                      <unittitle>Whitman</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
                   </did>
                </c>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1180209"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>Assorted notes, class not given, 17 Jul 1924 - 9 Feb 1945</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130690 /locations/9"
                              containerid="39002042314444"
+                             encodinganalog="Paige 15"
                              id="aspace_ref41_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
@@ -2074,19 +2656,26 @@ Virginia"</unittitle>
                   <p>Full list with notes in box.</p>
                </odd>
             </c>
-            <c id="ref42" level="file">
+            <c altrender="/repositories/12/archival_objects/1180210"
+               id="ref42"
+               level="file">
                <did>
                   <unittitle>Notes for unidentified classes</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130690 /locations/9"
                              containerid="39002042314444"
+                             encodinganalog="Paige 15"
                              id="aspace_ref42_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                </did>
-               <c id="ref194" level="file">
+               <c altrender="/repositories/12/archival_objects/1180211"
+                  id="ref194"
+                  level="file">
                   <did>
                      <unittitle>Holmes</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1924 July 22, 1926 February 22">
+                     <unitdatestructured altrender="1924 July 22, 1926 February 22"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1924">1924</fromdate>
                            <todate standarddate="1926">1926</todate>
@@ -2094,10 +2683,12 @@ Virginia"</unittitle>
                      </unitdatestructured>
                   </did>
                </c>
-               <c id="ref195" level="file">
+               <c altrender="/repositories/12/archival_objects/1180212"
+                  id="ref195"
+                  level="file">
                   <did>
                      <unittitle>authors by assignment weeks, Sep 16-Jan 17 (no year)</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
                   </did>
                </c>
             </c>

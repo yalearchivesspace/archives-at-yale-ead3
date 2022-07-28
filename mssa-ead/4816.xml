@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,7 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0231">mssa.ms.0231</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0231">mssa.ms.0231</recordid>
       <otherrecordid localtype="BIB">752833</otherrecordid>
       <filedesc>
          <titlestmt>
@@ -38,7 +39,7 @@
                <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
             </controlnote>
             <controlnote localtype="digital">
-               <p>This collection contains <num localtype="objects" altrender="5">5</num> published digital objects.</p>
+               <p>This collection contains <num localtype="objects" altrender="1">1</num> published digital object. And that object are comprised of <num localtype="files" altrender="3">3</num> digital files.</p>
             </controlnote>
          </notestmt>
       </filedesc>
@@ -71,10 +72,10 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2022-02-18T08:21:30+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T07:35:45+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.7.1.yale.20200820</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Friday February 18, 2022 at 08:21</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 07:35</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -124,7 +125,8 @@
       </accessrestrict>
       <userestrict id="aspace_59a122c808fa2056f099d06fa6a0994e">
          <head>Conditions Governing Use</head>
-         <p>Copyright has been transferred to Yale University for unpublished materials authored or otherwise produced by the creator(s) of this collection. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
+         <p>Copyright for unpublished materials authored or otherwise produced by Henry Killam Murphy has been transferred to Yale University. These materials may be used for non-commercial purposes without seeking permission from Yale University as the copyright holder. For other uses of these materials, please contact mssa.assist@yale.edu.</p>
+         <p>Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <prefercite id="aspace_885f1f5bb09d2fad23f5bba7b91121a3">
          <head>Preferred Citation</head>
@@ -343,6 +345,32 @@
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref68_c2" localtype="folder" parent="aspace_ref68_c1">14-17</container>
+                     <daoset altrender="/repositories/12/digital_objects/180892">
+                        <dao actuate="onrequest"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/manifests/10013870"
+                             identifier="oid:10013870"
+                             linktitle="3 images"
+                             linkrole="text-json"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/iiif/2/32278120/full/!150,150/0/default.jpg"
+                             identifier="oid:10013870"
+                             linktitle="Henry Killam Murphy with his wife, Rosalie Smith Exum (?)."
+                             linkrole="image-thumbnail"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/catalog/10013870"
+                             identifier="oid:10013870"
+                             linktitle="Henry Killam Murphy with his wife, Rosalie Smith Exum (?)."
+                             linkrole="text-html"
+                             show="new"/>
+                        <descriptivenote>
+                           <p>Photographs</p>
+                        </descriptivenote>
+                     </daoset>
                   </did>
                </c>
                <c altrender="/repositories/12/archival_objects/1954904"
@@ -1751,8 +1779,18 @@
                      level="file">
                      <did>
                         <unittitle>Watercolors</unittitle>
-                        <container localtype="folder" id="d5e2">106</container>
-                        <container localtype="folder" id="d5e4">108</container>
+                        <container altrender="/repositories/12/top_containers/187081 /locations/312"
+                                   containerid="39002112724951"
+                                   encodinganalog="folder (32d 40w)"
+                                   id="aspace_241f7551c077ea6dc46d0daa162fac47_c1"
+                                   label="Mixed Materials"
+                                   localtype="folder">106</container>
+                        <container altrender="/repositories/12/top_containers/187083 /locations/249"
+                                   containerid="39002112722906"
+                                   encodinganalog="folder (32d 40w)"
+                                   id="aspace_241f7551c077ea6dc46d0daa162fac47_c2"
+                                   label="Mixed Materials"
+                                   localtype="folder">108</container>
                      </did>
                   </c>
                </c>
@@ -2539,8 +2577,18 @@
                      level="file">
                      <did>
                         <unittitle>Drawings</unittitle>
-                        <container localtype="box" id="d6e2">3</container>
-                        <container localtype="folder" id="d6e5">108</container>
+                        <container altrender="/repositories/12/top_containers/187183 /locations/9"
+                                   containerid="39002112721882"
+                                   encodinganalog="Paige 15"
+                                   id="aspace_4f25423b672a4e25334e79e9fa0fb302_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">3</container>
+                        <container altrender="/repositories/12/top_containers/187083 /locations/249"
+                                   containerid="39002112722906"
+                                   encodinganalog="folder (32d 40w)"
+                                   id="aspace_4f25423b672a4e25334e79e9fa0fb302_c2"
+                                   label="Mixed Materials"
+                                   localtype="folder">108</container>
                      </did>
                   </c>
                   <c altrender="/repositories/12/archival_objects/2955950"
@@ -2655,8 +2703,18 @@
                      level="file">
                      <did>
                         <unittitle>Drawings</unittitle>
-                        <container localtype="box" id="d7e2">3</container>
-                        <container localtype="folder" id="d7e5">90</container>
+                        <container altrender="/repositories/12/top_containers/187183 /locations/9"
+                                   containerid="39002112721882"
+                                   encodinganalog="Paige 15"
+                                   id="aspace_451e3fb11f669a421316b5fa96b43bd7_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">3</container>
+                        <container altrender="/repositories/12/top_containers/187097 /locations/3073"
+                                   containerid="39002112722757"
+                                   encodinganalog="folder (32d 40w)"
+                                   id="aspace_451e3fb11f669a421316b5fa96b43bd7_c2"
+                                   label="Mixed Materials"
+                                   localtype="folder">90</container>
                      </did>
                   </c>
                   <c altrender="/repositories/12/archival_objects/2955956"
@@ -2841,8 +2899,18 @@
                      level="file">
                      <did>
                         <unittitle>Drawings</unittitle>
-                        <container localtype="box" id="d8e2">3</container>
-                        <container localtype="folder" id="d8e5">113</container>
+                        <container altrender="/repositories/12/top_containers/187183 /locations/9"
+                                   containerid="39002112721882"
+                                   encodinganalog="Paige 15"
+                                   id="aspace_6ed838b5a0450d5a5bac621527cef227_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">3</container>
+                        <container altrender="/repositories/12/top_containers/301426 /locations/2731"
+                                   containerid="39002109690397"
+                                   encodinganalog="Folder (36d 48w)"
+                                   id="aspace_6ed838b5a0450d5a5bac621527cef227_c2"
+                                   label="Mixed Materials"
+                                   localtype="folder">113</container>
                      </did>
                   </c>
                   <c altrender="/repositories/12/archival_objects/2955965"
@@ -2977,8 +3045,18 @@
                      level="file">
                      <did>
                         <unittitle>Drawings</unittitle>
-                        <container localtype="box" id="d9e2">3</container>
-                        <container localtype="folder" id="d9e5">101</container>
+                        <container altrender="/repositories/12/top_containers/187183 /locations/9"
+                                   containerid="39002112721882"
+                                   encodinganalog="Paige 15"
+                                   id="aspace_972da8616299d797962e65b103b1b090_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">3</container>
+                        <container altrender="/repositories/12/top_containers/187155 /locations/3075"
+                                   containerid="39002112722864"
+                                   encodinganalog="folder (32d 40w)"
+                                   id="aspace_972da8616299d797962e65b103b1b090_c2"
+                                   label="Mixed Materials"
+                                   localtype="folder">101</container>
                      </did>
                   </c>
                   <c altrender="/repositories/12/archival_objects/2955971"
@@ -3377,8 +3455,24 @@
                      level="file">
                      <did>
                         <unittitle>Drawings</unittitle>
-                        <container localtype="box" id="d10e2">4</container>
-                        <container localtype="folder" id="d10e7">34–35</container>
+                        <container altrender="/repositories/12/top_containers/187178 /locations/9"
+                                   containerid="39002112721890"
+                                   encodinganalog="Paige 15"
+                                   id="aspace_876ec7ddbdc1783df8a8c0123e24a5c2_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">4</container>
+                        <container altrender="/repositories/12/top_containers/187133 /locations/3062"
+                                   containerid="39002112722195"
+                                   encodinganalog="folder (32d 40w)"
+                                   id="aspace_876ec7ddbdc1783df8a8c0123e24a5c2_c2"
+                                   label="Mixed Materials"
+                                   localtype="folder">34</container>
+                        <container altrender="/repositories/12/top_containers/187134 /locations/3062"
+                                   containerid="39002112722203"
+                                   encodinganalog="folder (32d 40w)"
+                                   id="aspace_876ec7ddbdc1783df8a8c0123e24a5c2_c3"
+                                   label="Mixed Materials"
+                                   localtype="folder">35</container>
                      </did>
                   </c>
                   <c altrender="/repositories/12/archival_objects/2955988"
@@ -4019,9 +4113,24 @@
                      level="file">
                      <did>
                         <unittitle>Drawings</unittitle>
-                        <container localtype="box" id="d11e2">4</container>
-                        <container localtype="box" id="d11e4">104</container>
-                        <container localtype="folder" id="d11e7">29</container>
+                        <container altrender="/repositories/12/top_containers/187178 /locations/9"
+                                   containerid="39002112721890"
+                                   encodinganalog="Paige 15"
+                                   id="aspace_2662dfb52c3eb8dcdc4b8b39674ebcc2_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">4</container>
+                        <container altrender="/repositories/12/top_containers/187170 /locations/3061"
+                                   containerid="39002112722146"
+                                   encodinganalog="folder (32d 40w)"
+                                   id="aspace_2662dfb52c3eb8dcdc4b8b39674ebcc2_c2"
+                                   label="Mixed Materials"
+                                   localtype="folder">29</container>
+                        <container altrender="/repositories/12/top_containers/187076 /locations/9"
+                                   containerid="39002112592093"
+                                   encodinganalog="flat box (25d 2h 29w)"
+                                   id="aspace_2662dfb52c3eb8dcdc4b8b39674ebcc2_c3"
+                                   label="Mixed Materials"
+                                   localtype="box">104</container>
                      </did>
                   </c>
                   <c altrender="/repositories/12/archival_objects/2956015"
@@ -4871,8 +4980,18 @@
                      level="file">
                      <did>
                         <unittitle>Drawings</unittitle>
-                        <container localtype="box" id="d12e2">4</container>
-                        <container localtype="folder" id="d12e5">99</container>
+                        <container altrender="/repositories/12/top_containers/187178 /locations/9"
+                                   containerid="39002112721890"
+                                   encodinganalog="Paige 15"
+                                   id="aspace_21a5b6a6282f40fde2c370415aa1dc71_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">4</container>
+                        <container altrender="/repositories/12/top_containers/187092 /locations/3075"
+                                   containerid="39002112722849"
+                                   encodinganalog="folder (32d 40w)"
+                                   id="aspace_21a5b6a6282f40fde2c370415aa1dc71_c2"
+                                   label="Mixed Materials"
+                                   localtype="folder">99</container>
                      </did>
                   </c>
                   <c altrender="/repositories/12/archival_objects/2956054"
@@ -5260,8 +5379,18 @@
                      level="file">
                      <did>
                         <unittitle>Drawings</unittitle>
-                        <container localtype="box" id="d13e2">4</container>
-                        <container localtype="folder" id="d13e5">18</container>
+                        <container altrender="/repositories/12/top_containers/187178 /locations/9"
+                                   containerid="39002112721890"
+                                   encodinganalog="Paige 15"
+                                   id="aspace_de0db550404294bad48f9888f707ebd9_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">4</container>
+                        <container altrender="/repositories/12/top_containers/187166 /locations/3058"
+                                   containerid="39002112722039"
+                                   encodinganalog="folder (32d 40w)"
+                                   id="aspace_de0db550404294bad48f9888f707ebd9_c2"
+                                   label="Mixed Materials"
+                                   localtype="folder">18</container>
                      </did>
                   </c>
                   <c altrender="/repositories/12/archival_objects/2956069"
@@ -5717,8 +5846,18 @@
                      level="file">
                      <did>
                         <unittitle>Drawings</unittitle>
-                        <container localtype="box" id="d14e2">4</container>
-                        <container localtype="folder" id="d14e5">69</container>
+                        <container altrender="/repositories/12/top_containers/187178 /locations/9"
+                                   containerid="39002112721890"
+                                   encodinganalog="Paige 15"
+                                   id="aspace_161423034fe7204e9e896b739edcc5e6_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">4</container>
+                        <container altrender="/repositories/12/top_containers/187111 /locations/3069"
+                                   containerid="39002112722542"
+                                   encodinganalog="folder (32d 40w)"
+                                   id="aspace_161423034fe7204e9e896b739edcc5e6_c2"
+                                   label="Mixed Materials"
+                                   localtype="folder">69</container>
                      </did>
                   </c>
                </c>
@@ -5857,8 +5996,18 @@
                      level="file">
                      <did>
                         <unittitle>Drawings</unittitle>
-                        <container localtype="box" id="d15e2">4</container>
-                        <container localtype="box" id="d15e4">104C</container>
+                        <container altrender="/repositories/12/top_containers/187178 /locations/9"
+                                   containerid="39002112721890"
+                                   encodinganalog="Paige 15"
+                                   id="aspace_a12f983ad935209d653b83e3dd1428a7_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">4</container>
+                        <container altrender="/repositories/12/top_containers/187079 /locations/9"
+                                   containerid="39002112592127"
+                                   encodinganalog="flat box (12d 1h 22w)"
+                                   id="aspace_a12f983ad935209d653b83e3dd1428a7_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">104C</container>
                      </did>
                   </c>
                   <c altrender="/repositories/12/archival_objects/2956095"
@@ -5866,9 +6015,24 @@
                      level="file">
                      <did>
                         <unittitle>Photographs</unittitle>
-                        <container localtype="box" id="d16e2">4</container>
-                        <container localtype="box" id="d16e4">104</container>
-                        <container localtype="box" id="d16e6">104B</container>
+                        <container altrender="/repositories/12/top_containers/187178 /locations/9"
+                                   containerid="39002112721890"
+                                   encodinganalog="Paige 15"
+                                   id="aspace_580cf8bef111ec64ce5fb0a423ec216d_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">4</container>
+                        <container altrender="/repositories/12/top_containers/187076 /locations/9"
+                                   containerid="39002112592093"
+                                   encodinganalog="flat box (25d 2h 29w)"
+                                   id="aspace_580cf8bef111ec64ce5fb0a423ec216d_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">104</container>
+                        <container altrender="/repositories/12/top_containers/187077 /locations/9"
+                                   containerid="39002112592119"
+                                   encodinganalog="flat box (25d 2h 29w)"
+                                   id="aspace_580cf8bef111ec64ce5fb0a423ec216d_c3"
+                                   label="Mixed Materials"
+                                   localtype="box">104B</container>
                      </did>
                   </c>
                </c>

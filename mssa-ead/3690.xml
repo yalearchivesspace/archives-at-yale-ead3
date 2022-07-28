@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,7 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.1533">mssa.ms.1533</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.1533">mssa.ms.1533</recordid>
       <otherrecordid localtype="BIB">1078808</otherrecordid>
       <filedesc>
          <titlestmt>
@@ -59,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -68,10 +69,10 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-09-02T09:18:52+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T10:02:28+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.7.1.yale.20200820</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday September  2, 2020 at 09:18</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 10:02</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -102,35 +103,34 @@
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_472a183e7074bc96c26b63f922bfa080">The collection consists of printed material, photographs, and textiles relating to the history of Mozambique and current political, economic, and social conditions.</abstract>
-    
       </did>
       <acqinfo id="aspace_feaa1fa58108fec9f6cba56429304d3b">
          <head>Immediate Source of Acquisition</head>
-         <p>Transferred from the African Collection Curator.</p>  
+         <p>Transferred from the African Collection Curator.</p>
       </acqinfo>
       <userestrict id="aspace_f89d3d8275dac0ffaa1b530b97c5285e">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <prefercite id="aspace_18084888e13166de61b164226156d239">
          <head>Preferred Citation</head>
-         <p>Mozambique Collection (MS 1533). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Mozambique Collection (MS 1533). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <relatedmaterial id="aspace_63945f31b6b4a90789607e63c7fbcc7e">
          <head>Associated Materials</head>
-         <p>African Collection, MS 605; Pamphlet Collection, MS 1351; African Postcard Collection, MS 1575. Manuscripts and Archives, Yale University Library.</p>  
+         <p>African Collection, MS 605; Pamphlet Collection, MS 1351; African Postcard Collection, MS 1575. Manuscripts and Archives, Yale University Library.</p>
       </relatedmaterial>
       <scopecontent id="aspace_b8206c8f094e6ead7ad7036f27cf7146">
          <head>Scope and Contents</head>
-         <p>The collection consists of printed material, photographs, and textiles relating to the history of Mozambique and current political, economic, and social conditions.</p>  
+         <p>The collection consists of printed material, photographs, and textiles relating to the history of Mozambique and current political, economic, and social conditions.</p>
       </scopecontent>
       <arrangement id="aspace_9d91318fb157defa7557283cfde6689c">
          <head>Arrangement</head>
-         <p>The material in the original accession is arranged chronologically, with photographs last. Additions to the collection may vary in arrangement.</p>  
+         <p>The material in the original accession is arranged chronologically, with photographs last. Additions to the collection may vary in arrangement.</p>
       </arrangement>
       <accessrestrict id="aspace_2af9407942189f2dcc6302d957c1cd33">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <controlaccess>
          <subject source="local">
@@ -1418,7 +1418,11 @@
             <did>
                <unittitle>Additional Material</unittitle>
                <unitid>Accession 2005-M-100</unitid>
-               <unitdate label="creation" unitdatetype="inclusive">2002 and undated</unitdate>
+               <unitdatestructured altrender="2002 and undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
+                  <datesingle standarddate="2002">2002 and undated</datesingle>
+               </unitdatestructured>
             </did>
             <scopecontent id="aspace_fe21fc579acb23f5a697c51997e7b85c">
                <head>Scope and Contents</head>

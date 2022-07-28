@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0986">mssa.ms.0986</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0986">mssa.ms.0986</recordid>
+      <otherrecordid localtype="BIB">614665</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Joseph Jeremiah Lawrence Papers
@@ -32,6 +34,11 @@
             <date>October 1982</date>
             <num>MS 986</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T10:01:36+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:20:48+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 10:01</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>November 2008</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:20</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4324" level="collection">
       <did>
          <unittitle>Joseph Jeremiah Lawrence papers</unittitle>
          <unitid>MS 986</unitid>
@@ -90,7 +93,7 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(4 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1833-1902">
+         <unitdatestructured altrender="1833-1902" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1833">1833</fromdate>
                <todate standarddate="1902">1902</todate>
@@ -99,113 +102,126 @@
          <abstract id="aspace_654f6982d75110600d339b60dbe8c629">Chiefly ships' logs and accounts for nine ships on which Lawrence was master between 1842 and 1865. These were engaged in the trans-Atlantic and South American trade, and the log book for the ship <title render="italic">
                <part>Hindoo</part>
             </title> also contains passenger lists with place of birth and occupation for passengers from England to the United States. Also in the papers are family account books and financial papers (1868-1902).</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Lawrence, Joseph Jeremiah, -1871?</part>
+               <part localtype="agent_person">Lawrence, Joseph Jeremiah, -1871?</part>
             </persname>
          </origination>
-    
       </did>
       <prefercite id="aspace_1bbdc58b4edda4664440b38a631b085b">
          <head>Preferred Citation</head>
-         <p>Joseph Jeremiah Lawrence Papers (MS 986). Manuscripts and Archives, Yale University.</p>  
+         <p>Joseph Jeremiah Lawrence Papers (MS 986). Manuscripts and Archives, Yale University.</p>
       </prefercite>
       <scopecontent id="aspace_b974e3f963edfdcecb639f3e97e7829c">
          <head>Scope and Contents</head>
-         <p>The Joseph Jeremiah Lawrence Papers consist entirely of bound volumes of ships' logs and accounts. There are abstract logs and journals for seven ships on which Lawrence served between 1845 and 1863, as well as a log book kept during 1865-1866. The financial papers include account books for six ships, a business day book and a ledger for stocks and bonds, and a family cash book. The volumes are arranged chronologically.</p>  
+         <p>The Joseph Jeremiah Lawrence Papers consist entirely of bound volumes of ships' logs and accounts. There are abstract logs and journals for seven ships on which Lawrence served between 1845 and 1863, as well as a log book kept during 1865-1866. The financial papers include account books for six ships, a business day book and a ledger for stocks and bonds, and a family cash book. The volumes are arranged chronologically.</p>
       </scopecontent>
       <accessrestrict id="aspace_d1a49e9ae8dda4c42f7b20af28f274d3">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <bioghist id="aspace_54115e4d8906538c37148e1c158ce7e9">
          <head>Biographical / Historical</head>
-         <p>Joseph J. Lawrence was master of various vessels sailing between New York and Liverpool and other English ports.</p>  
+         <p>Joseph J. Lawrence was master of various vessels sailing between New York and Liverpool and other English ports.</p>
       </bioghist>
       <userestrict id="aspace_7248f13245989163f1dcb064ebd24070">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject source="local">
-            <part>Shipping -- Connecticut -- New London</part>
+            <part localtype="topical">Shipping</part>
+            <part localtype="geographic">Connecticut</part>
+            <part localtype="geographic">New London</part>
          </subject>
          <geogname source="local">
-            <part>New London (Conn.) -- Commerce</part>
+            <part localtype="geographic">New London (Conn.)</part>
+            <part localtype="topical">Commerce</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140040"
                    source="lcsh">
-            <part>United States -- Emigration and immigration</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">Emigration and immigration</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300202545" source="aat">
-            <part>Logs (records)</part>
+            <part localtype="genre_form">Logs (records)</part>
          </genreform>
          <genreform identifier="http://vocab.getty.edu/aat/300027352" source="aat">
-            <part>Ships' papers</part>
+            <part localtype="genre_form">Ships' papers</part>
          </genreform>
          <occupation source="local">
-            <part>Shipmasters</part>
+            <part localtype="occupation">Shipmasters</part>
          </occupation>
          <persname source="local">
-            <part>Lawrence, Joseph Jeremiah, -1871?</part>
+            <part localtype="agent_person">Lawrence, Joseph Jeremiah, -1871?</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n98103037" source="naf">
-            <part>America (Ship)</part>
+            <part localtype="agent_corporate_entity">America (Ship)</part>
          </corpname>
          <corpname source="local">
-            <part>Atlantic (Ship)</part>
+            <part localtype="agent_corporate_entity">Atlantic (Ship)</part>
          </corpname>
          <corpname source="local">
-            <part>Columbus (Ship)</part>
+            <part localtype="agent_corporate_entity">Columbus (Ship)</part>
          </corpname>
          <corpname source="local">
-            <part>Cornelia (Ship)</part>
+            <part localtype="agent_corporate_entity">Cornelia (Ship)</part>
          </corpname>
          <corpname source="local">
-            <part>Eagle (Ship)</part>
+            <part localtype="agent_corporate_entity">Eagle (Ship)</part>
          </corpname>
          <corpname source="local">
-            <part>Hindoo (Ship)</part>
+            <part localtype="agent_corporate_entity">Hindoo (Ship)</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n99014634"
                    rules="aacr"
                    source="naf">
-            <part>Isaac Hicks (Ship)</part>
+            <part localtype="agent_corporate_entity">Isaac Hicks (Ship)</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n99014643"
                    rules="aacr"
                    source="naf">
-            <part>Webster (Ship)</part>
+            <part localtype="agent_corporate_entity">Webster (Ship)</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref7" level="file">
+         <c altrender="/repositories/12/archival_objects/1354813"
+            id="ref7"
+            level="file">
             <did>
                <unittitle>Log book</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1865-1866">
+               <unitdatestructured altrender="1865-1866" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1865">1865</fromdate>
                      <todate standarddate="1866">1866</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151788 /locations/9"
                           containerid="39002042273988"
+                          encodinganalog="archive half legal"
                           id="aspace_ref7_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref7_c2" localtype="folder" parent="aspace_ref7_c1">1</container>
             </did>
          </c>
-         <c id="ref8" level="file">
+         <c altrender="/repositories/12/archival_objects/1354814"
+            id="ref8"
+            level="file">
             <did>
                <unittitle>Abstract logs and journals</unittitle>
             </did>
-            <c id="ref9" level="file">
+            <c altrender="/repositories/12/archival_objects/1354815"
+               id="ref9"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Cornelia</part>
                      </title> [journal only]</unittitle>
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
                </did>
                <odd id="aspace_29be39c49af048d00a2838c174b87ecb">
                   <head>General note</head>
@@ -213,20 +229,26 @@
                   </p>
                </odd>
             </c>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1354816"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Hindoo</part>
                      </title> (with passenger lists)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1845-1863">
+                  <unitdatestructured altrender="1845-1863" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1845">1845</fromdate>
                         <todate standarddate="1863">1863</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151788 /locations/9"
                              containerid="39002042273988"
+                             encodinganalog="archive half legal"
                              id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -238,28 +260,36 @@
                   </p>
                </odd>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1354817"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Hindoo</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1845-1846">
+                  <unitdatestructured altrender="1845-1846" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1845">1845</fromdate>
                         <todate standarddate="1846">1846</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151788 /locations/9"
                              containerid="39002042273988"
+                             encodinganalog="archive half legal"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">3</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1354818"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
@@ -270,84 +300,99 @@
                         <part>America</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1848-1851">
+                  <unitdatestructured altrender="1848-1851" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1848">1848</fromdate>
                         <todate standarddate="1851">1851</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151789 /locations/9"
                              containerid="39002042273996"
+                             encodinganalog="archive legal"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">4</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1354819"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Webster</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1854-1857">
+                  <unitdatestructured altrender="1854-1857" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1854">1854</fromdate>
                         <todate standarddate="1857">1857</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151789 /locations/9"
                              containerid="39002042273996"
+                             encodinganalog="archive legal"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">4</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1354820"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Webster</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1857-1860">
+                  <unitdatestructured altrender="1857-1860" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1857">1857</fromdate>
                         <todate standarddate="1860">1860</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151789 /locations/9"
                              containerid="39002042273996"
+                             encodinganalog="archive legal"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">5</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1354821"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Webster</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1857-1860">
+                  <unitdatestructured altrender="1857-1860" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1857">1857</fromdate>
                         <todate standarddate="1860">1860</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151789 /locations/9"
                              containerid="39002042273996"
+                             encodinganalog="archive legal"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">6</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1354822"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
@@ -356,28 +401,31 @@
                         <part>Eagle</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1860-1863">
+                  <unitdatestructured altrender="1860-1863" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1860">1860</fromdate>
                         <todate standarddate="1863">1863</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151790 /locations/9"
                              containerid="39002042274002"
+                             encodinganalog="archive legal"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">7</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1354823"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Webster</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1861-1863">
+                  <unitdatestructured altrender="1861-1863" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1861">1861</fromdate>
                         <todate standarddate="1863">1863</todate>
@@ -392,28 +440,35 @@
                </odd>
             </c>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1354824"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>Accounts</unittitle>
             </did>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1354825"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Day book and journal</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1833-1836">
+                  <unitdatestructured altrender="1833-1836" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1833">1833</fromdate>
                         <todate standarddate="1836">1836</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151790 /locations/9"
                              containerid="39002042274002"
+                             encodinganalog="archive legal"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">8</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1354826"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
@@ -430,48 +485,58 @@
                         <part>Webster</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1842-1863">
+                  <unitdatestructured altrender="1842-1863" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1842">1842</fromdate>
                         <todate standarddate="1863">1863</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151790 /locations/9"
                              containerid="39002042274002"
+                             encodinganalog="archive legal"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">9</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1354827"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Ledger for stock and bond transactions</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1868-1902">
+                  <unitdatestructured altrender="1868-1902" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1868">1868</fromdate>
                         <todate standarddate="1902">1902</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151790 /locations/9"
                              containerid="39002042274002"
+                             encodinganalog="archive legal"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">10</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1354828"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Cash book for family expenses</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1882-1893">
+                  <unitdatestructured altrender="1882-1893" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1882">1882</fromdate>
                         <todate standarddate="1893">1893</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151790 /locations/9"
                              containerid="39002042274002"
+                             encodinganalog="archive legal"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -479,17 +544,22 @@
                </did>
             </c>
          </c>
-         <c id="ref26" level="file">
+         <c altrender="/repositories/12/archival_objects/1354829"
+            id="ref26"
+            level="file">
             <did>
                <unittitle>Oversize</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1844-1845, 1861-1862">
+               <unitdatestructured altrender="1844-1845, 1861-1862"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1833">1833</fromdate>
                      <todate standarddate="1902">1902</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="legacy black"
+               <container altrender="/repositories/12/top_containers/151791 /locations/9"
                           containerid="39002042274010"
+                          encodinganalog="legacy black"
                           id="aspace_ref26_c1"
                           label="Mixed Materials"
                           localtype="box">4</container>

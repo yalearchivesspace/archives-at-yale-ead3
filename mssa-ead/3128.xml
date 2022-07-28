@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0731">mssa.ms.0731</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0731">mssa.ms.0731</recordid>
+      <otherrecordid localtype="BIB">614169</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Harold Lamport Autograph Collection
@@ -32,6 +34,11 @@
             <date>February 1983</date>
             <num>MS 731</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:56:20+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:56:57+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:56</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:56</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3128" level="collection">
       <did>
          <unittitle>Harold Lamport autograph collection</unittitle>
          <unitid>MS 731</unitid>
@@ -83,49 +93,50 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 folio)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1585-1940">
+         <unitdatestructured altrender="1585-1940" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1585">1585</fromdate>
                <todate standarddate="1940">1940</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_79c6b11ae4babc5f9191a62142f39d15">A collection of approximately eighty autograph letters and documents, primarily by European and American political, diplomatic and military figures of the seventeenth through the nineteenth centuries. Notable among them are Napoléon I, Andrew Jackson, Giuseppe Garibaldi, William Gladstone, and Lajos Kossuth.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n2018187598"
                       relator="col"
                       source="naf">
-               <part>Lamport, Harold, 1908-1975</part>
+               <part localtype="agent_person">Lamport, Harold, 1908-1975</part>
             </persname>
          </origination>
-    
       </did>
       <prefercite id="aspace_17698eed590095bf1b538d7b360a8775">
          <head>Preferred Citation</head>
-         <p>Harold Lamport Autograph Collection (MS 731). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Harold Lamport Autograph Collection (MS 731). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <acqinfo id="aspace_c3fbcedfcfb289353c4148885a09eda9">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Harold Lamport and Mrs. H. L. Friedman, 1961.</p>  
+         <p>Gift of Harold Lamport and Mrs. H. L. Friedman, 1961.</p>
       </acqinfo>
       <scopecontent id="aspace_be33d54024756097b3a7cc3a327d4135">
          <head>Scope and Contents</head>
-         <p>This autograph collection consists of approximately eighty letters and documents signed primarily by European and American political, diplomatic, and military figures of the seventeenth through nineteenth centuries, including Giuseppe Garibaldi, William Gladstone, Andrew Jackson, Lajos Kossuth, and Napoléon I. The items are arranged in alphabetical order by author. The collection was given to Yale University in 1961 by Harold Lamport and Mrs. H. L. Friedman.</p>  
+         <p>This autograph collection consists of approximately eighty letters and documents signed primarily by European and American political, diplomatic, and military figures of the seventeenth through nineteenth centuries, including Giuseppe Garibaldi, William Gladstone, Andrew Jackson, Lajos Kossuth, and Napoléon I. The items are arranged in alphabetical order by author. The collection was given to Yale University in 1961 by Harold Lamport and Mrs. H. L. Friedman.</p>
       </scopecontent>
       <accessrestrict id="aspace_837f13f7fc1de063e7e7486ab2ca2922">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_7ba168cb92c27fc728726466a6cd965e">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown, though much of the material in this collection is likely in the public domain. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown, though much of the material in this collection is likely in the public domain. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <genreform source="local">
-            <part>Autographs</part>
+            <part localtype="genre_form">Autographs</part>
          </genreform>
       </controlaccess>
       <dsc>
-         <c id="ref8" level="series">
+         <c altrender="/repositories/12/archival_objects/1192124"
+            id="ref8"
+            level="series">
             <did>
                <unittitle>Inventory</unittitle>
                <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
@@ -133,463 +144,598 @@
                   <unittype>Linear Feet</unittype>
                </physdescstructured>
                <physdesc localtype="container_summary">(1 box)</physdesc>
-               <unitdate unitdatetype="inclusive">1585-1940, undated</unitdate>
+               <unitdatestructured altrender="1585-1940, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
+                  <daterange>
+                     <fromdate standarddate="1585">1585</fromdate>
+                     <todate standarddate="1940">1940</todate>
+                  </daterange>
+               </unitdatestructured>
             </did>
-            <c id="ref10" level="file">
+            <c altrender="/repositories/12/archival_objects/1192125"
+               id="ref10"
+               level="file">
                <did>
                   <unittitle>Abercromby, Sir Ralph, 1734-1801: order for payment to Lt.-Col. Maitland</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1799 August 1">
+                  <unitdatestructured altrender="1799 August 1" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1799-08-01">1799 August 1</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref10_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref10_c2" localtype="folder" parent="aspace_ref10_c1">1</container>
                </did>
             </c>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1192126"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Abrantes, [Andoche Junot, duc de, 1771-1813?]: ANS to master of ceremonies at Lisbon</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">2</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1192127"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Adams, John Quincy, 1767-1848: signed poem addressed to H. Silliman Root</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1839 February 7">
+                  <unitdatestructured altrender="1839 February 7"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1839-02-07">1839 February 7</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">3</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1192128"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Agassiz, Louis, 1807-1873: signed ms notes of contribution to <title render="italic">
                         <part>The Natural History of the United States</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1861 December 8">
+                  <unitdatestructured altrender="1861 December 8"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1861-12-08">1861 December 8</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">4</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1192129"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Aguesseau, _______: ALS to unidentified</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1898 February 21">
+                  <unitdatestructured altrender="1898 February 21"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1898-02-21">1898 February 21</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">5</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1192130"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Aubert-Dubayet, Jean-Baptiste-Annibal, 1759-1797; order to the Armée des Côtes de Cherbourg; with engraved portrait</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1795 September 28">
+                  <unitdatestructured altrender="1795 September 28"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1795-09-28">1795 September 28</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">6</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1192131"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Bache, Richard, 1737-1811: ALS to Gurden Saltenstall</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1776 March 28">
+                  <unitdatestructured altrender="1776 March 28" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1776-03-28">1776 March 28</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">7</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1192132"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Bancroft, Major Ebenezer: orders to Capt. Reuben Butterfield</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1779 April 10">
+                  <unitdatestructured altrender="1779 April 10" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1779-04-10">1779 April 10</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">8</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1192133"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>[Bazaine, François-Achille, 1811-1888?]: orders to troops in Mexico</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1864 March 6">
+                  <unitdatestructured altrender="1864 March 6" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1864-03-06">1864 March 6</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">9</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1192134"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Beale &amp; Cooper: LS to Samuel Storke</unittitle>
-                  <unitdate unitdatetype="inclusive">1734/1735 February 19, 28</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">1734/1735 February 19, 28</unitdate>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">10</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1192135"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Beauharnais, Eugène, prince d'Eichstätt, 1781-1824: ANS; with engraved portrait</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">11</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1192136"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Belle-Isle, Charles Louis Auguste Fouquet, duc de, 1684-1761: LS</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1744 June 25">
+                  <unitdatestructured altrender="1744 June 25" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1744-06-25">1744 June 25</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">12</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1192137"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Berthier, Louis Alexandre, 1752/1753-1815: LS to Napoléon I, emperor of the French, with annotations by Napoléon</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1812 September 7">
+                  <unitdatestructured altrender="1812 September 7"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1812-09-07">1812 September 7</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">13</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1192138"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>Biron, Armand Louis de Gontaut, duc de Lauzun, 1747-1793: LS to unidentified</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">14</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1192139"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Bonaparte, Jérôme Napoléon, 1805-1870.: LS to unnamed general; with printed caricature from <title render="italic">
                         <part>Figaro</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1874 December 19">
+                  <unitdatestructured altrender="1874 December 19"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1874-12-19">1874 December 19</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">15</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1192140"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Brinkley, Frank, 1841-1912: ALS to Mr. Millet</unittitle>
-                  <unitdate unitdatetype="inclusive">[189?] April 17</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">[189?] April 17</unitdate>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">16</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1192141"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Buchanan, James, 1791-1868: LS to George P. Morris</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1858 February 8">
+                  <unitdatestructured altrender="1858 February 8"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1858-02-08">1858 February 8</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">17</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1192142"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>Burbeck, Henry, 1754-1848: ALS to Thomas Cushing; with printed portrait</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1803 July 3">
+                  <unitdatestructured altrender="1803 July 3" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1803-07-03">1803 July 3</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">18</container>
                </did>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1192143"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>Burr, Aaron, 1756-1836: bank order, printed form signed</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1788 May 27">
+                  <unitdatestructured altrender="1788 May 27" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1788-05-27">1788 May 27</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">19</container>
                </did>
             </c>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/1192144"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>Burrall, Jonathan: ALS to Daniel Delozier</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1792 May 22">
+                  <unitdatestructured altrender="1792 May 22" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1792-05-22">1792 May 22</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">20</container>
                </did>
             </c>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1192145"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Carleton, Henry Boyle, d. 1725: MS order to Charles Montague to pay Alexander Stanhope</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1700 July 17">
+                  <unitdatestructured altrender="1700 July 17" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1700-07-17">1700 July 17</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">21</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1192146"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Castries, Armand Charles Augustin, 1756-1842: ANS to unidentified</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">22</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1192147"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>Chase, Salmon Portland, 1803-1873: LS to John Hickman; ALS to Mr. Johnson</unittitle>
-                  <unitdate unitdatetype="inclusive">1863 January 22, 1866 April 2</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">1863 January 22, 1866 April 2</unitdate>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">23</container>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1192148"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>Christie, Gabriel: order to George Ross to pay Thomas Bullock</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1769 October 11">
+                  <unitdatestructured altrender="1769 October 11"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1769-10-11">1769 October 11</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">24</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1192149"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>Clay, Henry, 1777-1852: LS recommending Waldemard Mentelle</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1817 February 3">
+                  <unitdatestructured altrender="1817 February 3"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1817-02-03">1817 February 3</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">25</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1192150"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Cleveland, Grover, 1837-1908: ALS to James B. Richardson; with engraved portrait</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1889 June 19">
+                  <unitdatestructured altrender="1889 June 19" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1889-06-19">1889 June 19</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">26</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1192151"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>Colbert, Jean Baptiste, 1619-1683: letter in the hand of a secretary and printed letter to Cardinal Mazarin; with engraved portrait</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1669 May 25">
+                  <unitdatestructured altrender="1669 May 25" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1669-05-25">1669 May 25</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">27</container>
                </did>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1192152"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>Colepeper, Thomas, 1637-1708: DS</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1683 April 16">
+                  <unitdatestructured altrender="1683 April 16" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1683-04-16">1683 April 16</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">28</container>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1192153"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>Cone, William Russell, 1810-1890: ALS to the Republican Committee of Hartford, Ct.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1873 April 5">
+                  <unitdatestructured altrender="1873 April 5" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1873-04-05">1873 April 5</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">29</container>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1192154"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>Crillon-Mahon, Louis de Berton des Balbes de Quiers, duc de, 1718-1796: LS to Kuhlt, Grelet, et comp.e</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1789 September 10">
+                  <unitdatestructured altrender="1789 September 10"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1789-09-10">1789 September 10</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">30</container>
                </did>
             </c>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1192155"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>Cuyler, Theodore Ledyard, 1822-1909: ALS to unidentified</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1860 October 18">
+                  <unitdatestructured altrender="1860 October 18"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1860-10-18">1860 October 18</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref40_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">31</container>
                </did>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1192156"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>Davenport, John, 1752-1830: ALS to unidentified</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1801 January 3">
+                  <unitdatestructured altrender="1801 January 3"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1801-01-03">1801 January 3</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref41_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">32</container>
                </did>
             </c>
-            <c id="ref42" level="file">
+            <c altrender="/repositories/12/archival_objects/1192157"
+               id="ref42"
+               level="file">
                <did>
                   <unittitle>Dearborn, Henry, 1751-1829: ALS to Erastus Granger</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1804 May 16">
+                  <unitdatestructured altrender="1804 May 16" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1804-05-16">1804 May 16</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref42_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">33</container>
                </did>
             </c>
-            <c id="ref43" level="file">
+            <c altrender="/repositories/12/archival_objects/1192158"
+               id="ref43"
+               level="file">
                <did>
                   <unittitle>Delacrois, Ch.</unittitle>
                </did>
@@ -599,19 +745,24 @@
                   </p>
                </odd>
             </c>
-            <c id="ref44" level="file">
+            <c altrender="/repositories/12/archival_objects/1192159"
+               id="ref44"
+               level="file">
                <did>
                   <unittitle>DeLancey, Oliver, 1718-1785: orders to DeLancey's 3rd Batallion; with additional note from Col. Arch. Hamilton</unittitle>
-                  <unitdate unitdatetype="inclusive">1779 July 10, 14</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">1779 July 10, 14</unitdate>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref44_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">34</container>
                </did>
             </c>
-            <c id="ref45" level="file">
+            <c altrender="/repositories/12/archival_objects/1192160"
+               id="ref45"
+               level="file">
                <did>
                   <unittitle>de Sandos Rollin, Alphonse</unittitle>
                </did>
@@ -621,61 +772,81 @@
                   </p>
                </odd>
             </c>
-            <c id="ref46" level="file">
+            <c altrender="/repositories/12/archival_objects/1192161"
+               id="ref46"
+               level="file">
                <did>
                   <unittitle>Dorchester, Sir Guy Carleton, 1st baron, 1724-1808: LS to Alex Adair; LS to Executive Officers of His Majesty's Ordnance</unittitle>
-                  <unitdate unitdatetype="inclusive">1790 June 1, 1791 January 13</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">1790 June 1, 1791 January 13</unitdate>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref46_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref46_c2" localtype="folder" parent="aspace_ref46_c1">35</container>
                </did>
             </c>
-            <c id="ref47" level="file">
+            <c altrender="/repositories/12/archival_objects/1192162"
+               id="ref47"
+               level="file">
                <did>
                   <unittitle>Eugène, prince of Savoie-Carignan, 1663-1736: LS to unidentified</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1721 October 31">
+                  <unitdatestructured altrender="1721 October 31"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1721-10-31">1721 October 31</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref47_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref47_c2" localtype="folder" parent="aspace_ref47_c1">36</container>
                </did>
             </c>
-            <c id="ref48" level="file">
+            <c altrender="/repositories/12/archival_objects/1192163"
+               id="ref48"
+               level="file">
                <did>
                   <unittitle>Fairfax, Thomas Fairfax, 1692-1782: deed for land granted to George Mason</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1767 September 5">
+                  <unitdatestructured altrender="1767 September 5"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1767-09-05">1767 September 5</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref48_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref48_c2" localtype="folder" parent="aspace_ref48_c1">37</container>
                </did>
             </c>
-            <c id="ref49" level="file">
+            <c altrender="/repositories/12/archival_objects/1192164"
+               id="ref49"
+               level="file">
                <did>
                   <unittitle>Finley, James E. B.: ALS to Mason F. Cogswell</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1783 December 13">
+                  <unitdatestructured altrender="1783 December 13"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1783-12-13">1783 December 13</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref49_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref49_c2" localtype="folder" parent="aspace_ref49_c1">38</container>
                </did>
             </c>
-            <c id="ref50" level="file">
+            <c altrender="/repositories/12/archival_objects/1192165"
+               id="ref50"
+               level="file">
                <did>
                   <unittitle>Fox, H.</unittitle>
                </did>
@@ -685,199 +856,260 @@
                   </p>
                </odd>
             </c>
-            <c id="ref51" level="file">
+            <c altrender="/repositories/12/archival_objects/1192166"
+               id="ref51"
+               level="file">
                <did>
                   <unittitle>France. Conseil du roi: "Rolle des sommes que Le Roy lu son Conseil veut et ordonne payees..."</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1789 January 31">
+                  <unitdatestructured altrender="1789 January 31"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1789-01-31">1789 January 31</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref51_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref51_c2" localtype="folder" parent="aspace_ref51_c1">39</container>
                </did>
             </c>
-            <c id="ref52" level="file">
+            <c altrender="/repositories/12/archival_objects/1192167"
+               id="ref52"
+               level="file">
                <did>
                   <unittitle>France. Ministère des affaires etrangères: letter to M. Mercier, ministère de 1'Empereur à Washington</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1863 January 9">
+                  <unitdatestructured altrender="1863 January 9"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1863-01-09">1863 January 9</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref52_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref52_c2" localtype="folder" parent="aspace_ref52_c1">40</container>
                </did>
             </c>
-            <c id="ref53" level="file">
+            <c altrender="/repositories/12/archival_objects/1192168"
+               id="ref53"
+               level="file">
                <did>
                   <unittitle>Fürstenberg, Ferdinand von, bp. of Paderborn, 1626-1683: LS to Johann Christoph, provost at Ellwangen</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1663 January 2">
+                  <unitdatestructured altrender="1663 January 2"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1663-01-02">1663 January 2</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref53_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref53_c2" localtype="folder" parent="aspace_ref53_c1">41</container>
                </did>
             </c>
-            <c id="ref54" level="file">
+            <c altrender="/repositories/12/archival_objects/1192169"
+               id="ref54"
+               level="file">
                <did>
                   <unittitle>Gambetta, Léon Michel, 1838-1882: LS to the "Cassier du Ministère de l'Intérieur"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1870 December 31">
+                  <unitdatestructured altrender="1870 December 31"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1870-12-31">1870 December 31</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref54_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref54_c2" localtype="folder" parent="aspace_ref54_c1">42</container>
                </did>
             </c>
-            <c id="ref55" level="file">
+            <c altrender="/repositories/12/archival_objects/1192170"
+               id="ref55"
+               level="file">
                <did>
                   <unittitle>Garibaldi, Giuseppe, 1807-1882: ANS to "Caro Croce"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1872 June 1">
+                  <unitdatestructured altrender="1872 June 1" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1872-06-01">1872 June 1</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref55_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref55_c2" localtype="folder" parent="aspace_ref55_c1">43</container>
                </did>
             </c>
-            <c id="ref56" level="file">
+            <c altrender="/repositories/12/archival_objects/1192171"
+               id="ref56"
+               level="file">
                <did>
                   <unittitle>Gladstone, William Ewart, 1809-1898: ALS to Mrs. Ottley</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1872 April 24">
+                  <unitdatestructured altrender="1872 April 24" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1872-04-24">1872 April 24</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref56_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref56_c2" localtype="folder" parent="aspace_ref56_c1">44</container>
                </did>
             </c>
-            <c id="ref57" level="file">
+            <c altrender="/repositories/12/archival_objects/1192172"
+               id="ref57"
+               level="file">
                <did>
                   <unittitle>Gloninger, John: ALS to John C. Nicholson, and "Supplementary Return of the exempts of the 1st Brigade, 6th Division of Pennsylvania Militia"</unittitle>
-                  <unitdate unitdatetype="inclusive">1787 Aug, 1802 June 15</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">1787 Aug, 1802 June 15</unitdate>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref57_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref57_c2" localtype="folder" parent="aspace_ref57_c1">45</container>
                </did>
             </c>
-            <c id="ref58" level="file">
+            <c altrender="/repositories/12/archival_objects/1192173"
+               id="ref58"
+               level="file">
                <did>
                   <unittitle>Goddard, Charles: ALS to Mason F. Cogswell</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1814 August 15">
+                  <unitdatestructured altrender="1814 August 15"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1814-08-15">1814 August 15</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref58_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref58_c2" localtype="folder" parent="aspace_ref58_c1">46</container>
                </did>
             </c>
-            <c id="ref59" level="file">
+            <c altrender="/repositories/12/archival_objects/1192174"
+               id="ref59"
+               level="file">
                <did>
                   <unittitle>[Great Britain. Army?]: orders for greeting the king</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref59_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref59_c2" localtype="folder" parent="aspace_ref59_c1">47</container>
                </did>
             </c>
-            <c id="ref60" level="file">
+            <c altrender="/repositories/12/archival_objects/1192175"
+               id="ref60"
+               level="file">
                <did>
                   <unittitle>Great Britain. Customs: bond issued to Edward Wright, master of the "Prince Eugene", by customs officers in London</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1735 July 5">
+                  <unitdatestructured altrender="1735 July 5" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1735-07-05">1735 July 5</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref60_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref60_c2" localtype="folder" parent="aspace_ref60_c1">48</container>
                </did>
             </c>
-            <c id="ref61" level="file">
+            <c altrender="/repositories/12/archival_objects/1192176"
+               id="ref61"
+               level="file">
                <did>
                   <unittitle>Great Britain. Sovereigns: order to Thomas Winnington, Sir William Yonge and Others, signed "By His Majesty's Command: H. Pelham, H. Fox, G. Lyttleton"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1745 September 17">
+                  <unitdatestructured altrender="1745 September 17"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1745-09-17">1745 September 17</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref61_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref61_c2" localtype="folder" parent="aspace_ref61_c1">49</container>
                </did>
             </c>
-            <c id="ref62" level="file">
+            <c altrender="/repositories/12/archival_objects/1192177"
+               id="ref62"
+               level="file">
                <did>
                   <unittitle>Grouchy, Emmanuel, marquis de, 1766-1847: LS to Lt.-Gen. Comte Pajor; with engraved portrait</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1835 February 16.">
+                  <unitdatestructured altrender="1835 February 16."
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1835-02-16">1835 February 16.</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref62_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref62_c2" localtype="folder" parent="aspace_ref62_c1">50</container>
                </did>
             </c>
-            <c id="ref63" level="file">
+            <c altrender="/repositories/12/archival_objects/1192178"
+               id="ref63"
+               level="file">
                <did>
                   <unittitle>Guizot, François Pierre Guillaume, 1787-1874: NS to unidentified</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1872 July 6">
+                  <unitdatestructured altrender="1872 July 6" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1872-07-06">1872 July 6</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref63_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref63_c2" localtype="folder" parent="aspace_ref63_c1">51</container>
                </did>
             </c>
-            <c id="ref64" level="file">
+            <c altrender="/repositories/12/archival_objects/1192179"
+               id="ref64"
+               level="file">
                <did>
                   <unittitle>Halifax, George Montague, earl of, d. 1739: subscription for shares in the stock of the Governor and Company of Merchants of Great Britain Trading to the South Seas, printed form signed</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1720 July 13">
+                  <unitdatestructured altrender="1720 July 13" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1720-07-13">1720 July 13</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref64_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref64_c2" localtype="folder" parent="aspace_ref64_c1">52</container>
                </did>
             </c>
-            <c id="ref65" level="file">
+            <c altrender="/repositories/12/archival_objects/1192180"
+               id="ref65"
+               level="file">
                <did>
                   <unittitle>Hamilton, Arch.</unittitle>
                </did>
@@ -887,127 +1119,166 @@
                   </p>
                </odd>
             </c>
-            <c id="ref66" level="file">
+            <c altrender="/repositories/12/archival_objects/1192181"
+               id="ref66"
+               level="file">
                <did>
                   <unittitle>Handfield, William: LS to William Adair</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1759 October 29">
+                  <unitdatestructured altrender="1759 October 29"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1759-10-29">1759 October 29</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref66_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref66_c2" localtype="folder" parent="aspace_ref66_c1">53</container>
                </did>
             </c>
-            <c id="ref67" level="file">
+            <c altrender="/repositories/12/archival_objects/1192182"
+               id="ref67"
+               level="file">
                <did>
                   <unittitle>Harlan, James, 1820-1899: LS to Abraham Lincoln</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1865 November 1">
+                  <unitdatestructured altrender="1865 November 1"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1865-11-01">1865 November 1</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref67_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref67_c2" localtype="folder" parent="aspace_ref67_c1">54</container>
                </did>
             </c>
-            <c id="ref68" level="file">
+            <c altrender="/repositories/12/archival_objects/1192183"
+               id="ref68"
+               level="file">
                <did>
                   <unittitle>Hawes, Benjamin: order addressed to Capt. Adams</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1778 June 18">
+                  <unitdatestructured altrender="1778 June 18" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1778-06-18">1778 June 18</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref68_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref68_c2" localtype="folder" parent="aspace_ref68_c1">55</container>
                </did>
             </c>
-            <c id="ref69" level="file">
+            <c altrender="/repositories/12/archival_objects/1192184"
+               id="ref69"
+               level="file">
                <did>
                   <unittitle>Henri III, king of France, 1551-1589: LS to Seigneur Hipolito; with engraved portrait</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1585 May 28">
+                  <unitdatestructured altrender="1585 May 28" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1585-05-28">1585 May 28</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref69_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref69_c2" localtype="folder" parent="aspace_ref69_c1">56</container>
                </did>
             </c>
-            <c id="ref70" level="file">
+            <c altrender="/repositories/12/archival_objects/1192185"
+               id="ref70"
+               level="file">
                <did>
                   <unittitle>Hooper, William, 1742-1790: AMS titled "Fellow Citizens"</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref70_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref70_c2" localtype="folder" parent="aspace_ref70_c1">57</container>
                </did>
             </c>
-            <c id="ref71" level="file">
+            <c altrender="/repositories/12/archival_objects/1192186"
+               id="ref71"
+               level="file">
                <did>
                   <unittitle>Hopson, Peregrine Thomas: "Extract from a Council of War held in the Garrison of Louisbourg, copy in the hand of E. Bradshaw, secy. to the governor,"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1748 August 27">
+                  <unitdatestructured altrender="1748 August 27"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1748-08-27">1748 August 27</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref71_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref71_c2" localtype="folder" parent="aspace_ref71_c1">58</container>
                </did>
             </c>
-            <c id="ref72" level="file">
+            <c altrender="/repositories/12/archival_objects/1192187"
+               id="ref72"
+               level="file">
                <did>
                   <unittitle>Hue, François, 1757-1819: LS</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1810 April 10">
+                  <unitdatestructured altrender="1810 April 10" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1810-04-10">1810 April 10</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref72_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref72_c2" localtype="folder" parent="aspace_ref72_c1">59</container>
                </did>
             </c>
-            <c id="ref73" level="file">
+            <c altrender="/repositories/12/archival_objects/1192188"
+               id="ref73"
+               level="file">
                <did>
                   <unittitle>Huxley, Thomas Henry, 1825-1895: 2 ALS to Mrs. White</unittitle>
-                  <unitdate unitdatetype="inclusive">1876 April 9, 1882 November 7</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">1876 April 9, 1882 November 7</unitdate>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref73_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref73_c2" localtype="folder" parent="aspace_ref73_c1">60</container>
                </did>
             </c>
-            <c id="ref74" level="file">
+            <c altrender="/repositories/12/archival_objects/1192189"
+               id="ref74"
+               level="file">
                <did>
                   <unittitle>Jackson, Andrew, 1767-1845: promissory note to Jenkin Whiteside, also signed by James Jackson; 2 pages of ALS to Gen. Richard K. Call</unittitle>
-                  <unitdate unitdatetype="inclusive">1820 March 21, undated</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdatestructured altrender="1820 March 21, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <datesingle standarddate="1820-03-21">1820 March 21, undated</datesingle>
+                  </unitdatestructured>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref74_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref74_c2" localtype="folder" parent="aspace_ref74_c1">61</container>
                </did>
             </c>
-            <c id="ref75" level="file">
+            <c altrender="/repositories/12/archival_objects/1192190"
+               id="ref75"
+               level="file">
                <did>
                   <unittitle>Jackson, James</unittitle>
                </did>
@@ -1017,59 +1288,75 @@
                   </p>
                </odd>
             </c>
-            <c id="ref76" level="file">
+            <c altrender="/repositories/12/archival_objects/1192191"
+               id="ref76"
+               level="file">
                <did>
                   <unittitle>Kissam, Elizabeth: ALS to Major Kissam</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref76_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref76_c2" localtype="folder" parent="aspace_ref76_c1">62</container>
                </did>
             </c>
-            <c id="ref77" level="file">
+            <c altrender="/repositories/12/archival_objects/1192192"
+               id="ref77"
+               level="file">
                <did>
                   <unittitle>Kossuth, Lajos, 1802-1894: autograph and printed portrait</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref77_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref77_c2" localtype="folder" parent="aspace_ref77_c1">63</container>
                </did>
             </c>
-            <c id="ref78" level="file">
+            <c altrender="/repositories/12/archival_objects/1192193"
+               id="ref78"
+               level="file">
                <did>
                   <unittitle>London. Trinity House: receipt for duty paid to Edward Wright, master of the "Prince Eugene"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1735 July 8">
+                  <unitdatestructured altrender="1735 July 8" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1735-07-08">1735 July 8</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref78_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref78_c2" localtype="folder" parent="aspace_ref78_c1">64</container>
                </did>
             </c>
-            <c id="ref79" level="file">
+            <c altrender="/repositories/12/archival_objects/1192194"
+               id="ref79"
+               level="file">
                <did>
                   <unittitle>Lossing, Benson John, 1813-1891: ALS to G. P. Morris</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1855 February 22">
+                  <unitdatestructured altrender="1855 February 22"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1855-02-22">1855 February 22</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref79_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref79_c2" localtype="folder" parent="aspace_ref79_c1">65</container>
                </did>
             </c>
-            <c id="ref80" level="file">
+            <c altrender="/repositories/12/archival_objects/1192195"
+               id="ref80"
+               level="file">
                <did>
                   <unittitle>Lyttleton, G.</unittitle>
                </did>
@@ -1079,21 +1366,28 @@
                   </p>
                </odd>
             </c>
-            <c id="ref81" level="file">
+            <c altrender="/repositories/12/archival_objects/1192196"
+               id="ref81"
+               level="file">
                <did>
                   <unittitle>Monroe, James, 1799-1870: ALS to Daniel Webster</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1841 February 24">
+                  <unitdatestructured altrender="1841 February 24"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1841-02-24">1841 February 24</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref81_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref81_c2" localtype="folder" parent="aspace_ref81_c1">66</container>
                </did>
             </c>
-            <c id="ref82" level="file">
+            <c altrender="/repositories/12/archival_objects/1192197"
+               id="ref82"
+               level="file">
                <did>
                   <unittitle>Napoléon I, emperor of the French, 1769-1821</unittitle>
                </did>
@@ -1103,21 +1397,28 @@
                   </p>
                </odd>
             </c>
-            <c id="ref83" level="file">
+            <c altrender="/repositories/12/archival_objects/1192198"
+               id="ref83"
+               level="file">
                <did>
                   <unittitle>O'Brien, Richard, 1758-1824: ALS to Consul Eaton, Algiers</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1800 December 15">
+                  <unitdatestructured altrender="1800 December 15"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1800-12-15">1800 December 15</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref83_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref83_c2" localtype="folder" parent="aspace_ref83_c1">67</container>
                </did>
             </c>
-            <c id="ref84" level="file">
+            <c altrender="/repositories/12/archival_objects/1192199"
+               id="ref84"
+               level="file">
                <did>
                   <unittitle>Pelham, H.</unittitle>
                </did>
@@ -1127,125 +1428,158 @@
                   </p>
                </odd>
             </c>
-            <c id="ref85" level="file">
+            <c altrender="/repositories/12/archival_objects/1192200"
+               id="ref85"
+               level="file">
                <did>
                   <unittitle>Phillimore, Mrs. Lion Fitzpatrick: ALS to Mr. Matersen</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1940 July 13">
+                  <unitdatestructured altrender="1940 July 13" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1940-07-13">1940 July 13</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref85_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref85_c2" localtype="folder" parent="aspace_ref85_c1">68</container>
                </did>
             </c>
-            <c id="ref86" level="file">
+            <c altrender="/repositories/12/archival_objects/1192201"
+               id="ref86"
+               level="file">
                <did>
                   <unittitle>Prussia. Legation. France: passport issued to Conrad Engelhert Velsner, signed De Sandos Rollin and Ch. Delacrois</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1796 July 9">
+                  <unitdatestructured altrender="1796 July 9" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1796-07-09">1796 July 9</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref86_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref86_c2" localtype="folder" parent="aspace_ref86_c1">69</container>
                </did>
             </c>
-            <c id="ref87" level="file">
+            <c altrender="/repositories/12/archival_objects/1192202"
+               id="ref87"
+               level="file">
                <did>
                   <unittitle>Richards, W.: ALS to Lt.-Gen. Johnston</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1779 December 18">
+                  <unitdatestructured altrender="1779 December 18"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1779-12-18">1779 December 18</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref87_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref87_c2" localtype="folder" parent="aspace_ref87_c1">70</container>
                </did>
             </c>
-            <c id="ref88" level="file">
+            <c altrender="/repositories/12/archival_objects/1192203"
+               id="ref88"
+               level="file">
                <did>
                   <unittitle>St. Vincent, John Jervis, earl of, 1735-1823: autograph and engraved portrait</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref88_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref88_c2" localtype="folder" parent="aspace_ref88_c1">71</container>
                </did>
             </c>
-            <c id="ref89" level="file">
+            <c altrender="/repositories/12/archival_objects/1192204"
+               id="ref89"
+               level="file">
                <did>
                   <unittitle>Sandwich, John Montague, 4th earl of, 1718-1792: LS to unidentified</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1781 January 17">
+                  <unitdatestructured altrender="1781 January 17"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1781-01-17">1781 January 17</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref89_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref89_c2" localtype="folder" parent="aspace_ref89_c1">72</container>
                </did>
             </c>
-            <c id="ref90" level="file">
+            <c altrender="/repositories/12/archival_objects/1192205"
+               id="ref90"
+               level="file">
                <did>
                   <unittitle>Spencer, George John Spencer, 2nd earl of, 1758-1834: letter to Henry, Duke of Newcastle</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1782 May 17">
+                  <unitdatestructured altrender="1782 May 17" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1782-05-17">1782 May 17</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref90_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref90_c2" localtype="folder" parent="aspace_ref90_c1">73</container>
                </did>
             </c>
-            <c id="ref91" level="file">
+            <c altrender="/repositories/12/archival_objects/1192206"
+               id="ref91"
+               level="file">
                <did>
                   <unittitle>Tarente, Etienne Jacques Joseph Macdonald, duc de, 1765-1840: letter of recommendation</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1820">
+                  <unitdatestructured altrender="1820" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1820">1820</fromdate>
                         <todate standarddate="1820">1820</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref91_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref91_c2" localtype="folder" parent="aspace_ref91_c1">74</container>
                </did>
             </c>
-            <c id="ref92" level="file">
+            <c altrender="/repositories/12/archival_objects/1192207"
+               id="ref92"
+               level="file">
                <did>
                   <unittitle>Tenney, Edward Payson, 1835-:ALS to Mrs. Deming</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1878 October 8">
+                  <unitdatestructured altrender="1878 October 8"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1878-10-08">1878 October 8</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref92_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref92_c2" localtype="folder" parent="aspace_ref92_c1">75</container>
                </did>
             </c>
-            <c id="ref93" level="file">
+            <c altrender="/repositories/12/archival_objects/1192208"
+               id="ref93"
+               level="file">
                <did>
                   <unittitle>Tryon, William, 1725-1788: official order, "Signals by Day and Night for Long Island and King's Bridge"</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132849 /locations/9"
                              containerid="39002042263443"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref93_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>

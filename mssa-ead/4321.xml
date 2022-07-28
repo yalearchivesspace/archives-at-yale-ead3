@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0980">mssa.ms.0980</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0980">mssa.ms.0980</recordid>
+      <otherrecordid localtype="BIB">613662</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Thomas Ewart Marston Papers
@@ -32,6 +34,11 @@
             <date>December 1983</date>
             <num>MS 980</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-06-24T07:00:18+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:20:26+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday June 24, 2020 at 07:00</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:20</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4321" level="collection">
       <did>
          <unittitle>Thomas Ewart Marston papers</unittitle>
          <unitid>MS 980</unitid>
@@ -82,115 +92,128 @@
             <quantity>0.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1936-1937">
+         <unitdatestructured altrender="1936-1937" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1936">1936</fromdate>
                <todate standarddate="1937">1937</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_74d427ce808bffe43547ed98cc9678d4">Notes taken by Thomas Marston between 1936 and 1937 from documents in the British Public Records Office, the India Office, and the British Museum relating to Aden, Abyssinia, and Arabia from 1800 to 1878.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n95048844"
                       rules="aacr"
                       source="naf">
-               <part>Marston, Thomas E.</part>
+               <part localtype="agent_person">Marston, Thomas E.</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_250bc694ddfa05be3ce75e4a596f19c4">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Thomas Ewart Marston, 1948.</p>  
+         <p>Gift of Thomas Ewart Marston, 1948.</p>
       </acqinfo>
       <accessrestrict id="aspace_c097683753d31e41ef9936a3c0459eac">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_92860a67168a99a216366edf5d596f4c">
          <head>Preferred Citation</head>
-         <p>Thomas Ewart Marston Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Thomas Ewart Marston Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <bioghist id="aspace_72ed4c038a4bd3530aa187431abf4686">
          <head>Biographical / Historical</head>
-         <p>Thomas Ewart Marston was born on November 7, 1904, in Chicago, Illinois. He was educated at Yale (B.A. 1927) and Harvard (Ph.D. 1939), taught history, and was curator of classics in the Yale University Library. His books include Britain's Imperial Role in the Red Sea Area, 1800-1878, and The Vinland Map and the Tartar Relation. He died on February 25, 1984.</p>  
+         <p>Thomas Ewart Marston was born on November 7, 1904, in Chicago, Illinois. He was educated at Yale (B.A. 1927) and Harvard (Ph.D. 1939), taught history, and was curator of classics in the Yale University Library. His books include Britain's Imperial Role in the Red Sea Area, 1800-1878, and The Vinland Map and the Tartar Relation. He died on February 25, 1984.</p>
       </bioghist>
       <scopecontent id="aspace_896586317285f852c9fe35e5ba7bdebe">
          <head>Scope and Contents</head>
-         <p>Notes taken by Thomas Marston between 1936 and 1937 from documents in the British Public Records Office, the India Office, and the British Museum relating to Aden, Abyssinia, and Arabia from 1800 to 1878.</p>  
+         <p>Notes taken by Thomas Marston between 1936 and 1937 from documents in the British Public Records Office, the India Office, and the British Museum relating to Aden, Abyssinia, and Arabia from 1800 to 1878.</p>
       </scopecontent>
       <userestrict id="aspace_d7e5f31a88724b490e156d28e9282837">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85061230"
                   source="lcsh">
-            <part>History -- Study and teaching</part>
+            <part localtype="topical">History</part>
+            <part localtype="topical">Study and teaching</part>
          </subject>
          <geogname source="local">
-            <part>Middle East -- History -- Study and teaching</part>
+            <part localtype="geographic">Middle East</part>
+            <part localtype="topical">History</part>
+            <part localtype="topical">Study and teaching</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85090501"
                    source="lcsh">
-            <part>Middle East</part>
+            <part localtype="geographic">Middle East</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/n95048844"
                    rules="aacr"
                    source="naf">
-            <part>Marston, Thomas E.</part>
+            <part localtype="agent_person">Marston, Thomas E.</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1354781"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Notes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1936-1937">
+               <unitdatestructured altrender="1936-1937" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1936">1936</fromdate>
                      <todate standarddate="1937">1937</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="card box (6d 4h 12w)"
+               <container altrender="/repositories/12/top_containers/151780 /locations/9"
                           containerid="39002042274135"
+                          encodinganalog="card box (6d 4h 12w)"
                           id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1354782"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Notes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1936-1937">
+               <unitdatestructured altrender="1936-1937" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1936">1936</fromdate>
                      <todate standarddate="1937">1937</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="card box (6d 4h 12w)"
+               <container altrender="/repositories/12/top_containers/151781 /locations/9"
                           containerid="39002042274143"
+                          encodinganalog="card box (6d 4h 12w)"
                           id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1354783"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Notes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1936-1937">
+               <unitdatestructured altrender="1936-1937" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1936">1936</fromdate>
                      <todate standarddate="1937">1937</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="card box (6d 4h 12w)"
+               <container altrender="/repositories/12/top_containers/151782 /locations/9"
                           containerid="39002042274150"
+                          encodinganalog="card box (6d 4h 12w)"
                           id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>

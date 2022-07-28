@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0928">mssa.ms.0928</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0928">mssa.ms.0928</recordid>
+      <otherrecordid localtype="BIB">614370</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Frederick Dwight Papers
@@ -32,6 +34,11 @@
             <date>June 1983</date>
             <num>MS 928</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:35:09+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:16:17+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:35</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:16</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4299" level="collection">
       <did>
          <unittitle>Frederick Dwight papers</unittitle>
          <unitid>MS 928</unitid>
@@ -82,36 +92,35 @@
             <quantity>0.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1923-1958">
+         <unitdatestructured altrender="1923-1958" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1923">1923</fromdate>
                <todate standarddate="1958">1958</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_58dd2c8115bbad3e005ac388491ed2a0">A three-volume collection of anecdotes illustrative of American manners and morals in the 1920s and 1930s. Included also are anecdotes about the Yale College classmates (Class of 1894) of Frederick Dwight.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/nr2002018914"
                       source="naf">
-               <part>Dwight, Frederick, 1873-</part>
+               <part localtype="agent_person">Dwight, Frederick, 1873-</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_89f0a9cdbe80f792d35eecff028c2fe2">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Frederick Dwight, 1942.</p>  
+         <p>Gift of Frederick Dwight, 1942.</p>
       </acqinfo>
       <accessrestrict id="aspace_ccb0a09032c2e191e65136136a6f0330">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_459cd5c50f8fbe8849814765fd58674d">
          <head>Preferred Citation</head>
-         <p>Frederick Dwight Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Frederick Dwight Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_f035f54fd1ffae2406c677fae1e91005">
          <head>Scope and Contents</head>
-         <p>These papers consist of an amusing three-volume collection of anecdotes illustrative of American manners and morals in the 1920s and 1930s. Culled by Frederick Dwight from his own experiences and from stories he heard in New York society and on his travels to the Caribbean (1924), South America (1929-1930), Mexico (1931), and the West Indies (1932), the anecdotes reveal Dwight's interest in the customs of the countries he visited, in people who had visited or lived in Russia, and in the effects of the Depression on people he met. Dwight also recorded anecdotes about his Yale College class, and any other topic, ranging from the humorous to the pathetic, that struck his fancy.</p>  
+         <p>These papers consist of an amusing three-volume collection of anecdotes illustrative of American manners and morals in the 1920s and 1930s. Culled by Frederick Dwight from his own experiences and from stories he heard in New York society and on his travels to the Caribbean (1924), South America (1929-1930), Mexico (1931), and the West Indies (1932), the anecdotes reveal Dwight's interest in the customs of the countries he visited, in people who had visited or lived in Russia, and in the effects of the Depression on people he met. Dwight also recorded anecdotes about his Yale College class, and any other topic, ranging from the humorous to the pathetic, that struck his fancy.</p>
       </scopecontent>
       <bioghist id="aspace_070b61e4b825932f3344c29a09f0d554">
          <head>Biographical / Historical</head>
@@ -119,55 +128,67 @@
          <p>Of their children four died in infancy and three are Yale graduates: Henry R. Dwight, '93, Amos T. Dwight, '00 S., and the present scribe, who was prepared for Yale at the Brooklyn Polytechnic Institute and Brooklyn Latin School. In college he won a second Berkeley Premium, an oration appointment Junior and Senior years, and was a member of DKE. Upon graduation he entered the Columbia Law School in New York City, and was admitted to the New York Bar in March of that year. From September, 1897, to February, 1899, he was connected with the firm of Simpson, Thacher and Barnum, of New York, leaving to become trust officer of the Manhattan Trust Company, where he remained until February, 1904, when he resigned and took a trip abroad. In January, 1905, he formed a partnership for the general practice of law with William G. Low, Jr., Yale '97, under the name of Dwight and Low. Upon his partner's leaving the law in 1907 he formed a partnership with Edward C. Moen, Harvard '91, Henry B. Barnes, Yale '93, later becoming associated with it. This firm dissolved in October, 1920, by the death of Mr. Moen and since then he has practiced by himself. In politics he is an independent Democrat with Republican leanings, if that means anything. He was a Congregationalist, and a member of the University, Grolier, Down Town, Yale, and DKE clubs of New York City, the Elihu and Graduates clubs of New Haven, and of the Mayflower, Colonial Wars, St. Nicholas, and Historical societies of New York, as well as of the Bar Association. He was a member of the committee on legislation of the Citizens' Union of New York, president of the Brooklyn Guild Association, has engaged in settlement work, was treasurer of Home Garden of New York City, was for ten years secretary of the Society of Colonial Wars in New York, and a lieutenant governor, and treasurer and secretary of the Onteora Club, a summer community. He was successively secretary and president of the Yale Association of Class Secretaries, and for some years a director of the Yale Publishing Association, publishing the <emph render="italic">Alumni Weekly</emph> and <emph render="italic">Yale Review</emph>. In October, 1900, he joined Company K, Seventh Regiment, National Guard of New York, and was discharged April, 1909, being then Post Quartermaster Sergeant on the non-commissioned staff. During the World War, from November 1, 1917, to May, 1919, he was connected with the War Trade Board, New York City office, being assigned for a period to Washington and also to the Postal Censorship in New York, very interesting work. He  published a number of brief articles in legal and other periodicals, besides a pamphlet history of the Seventh Regiment (1908), and a "Hand Book for Class Secretaries," in 1910.</p>
          <p>He was married at Onteora, New York, September 19, 1911, to Miss Elizabeth King Wakeman, daughter of the late Jesup and Elizabeth (Dutton) Wakeman of New York City, and Southport, Connecticut. Mrs. Dwight died July 29, 1921. He was married a second time, August 5, 1922, to Mrs. Mary Elizabeth Davis Monod of New York City, widow of George Monod of Paris.</p>
          <p>He died on December 18, 1958.</p>
-         <p>(Taken from <emph render="italic">Quarter Century Record of the Class of 1894</emph>, Yale College, pp. 153-156).</p>  
+         <p>(Taken from <emph render="italic">Quarter Century Record of the Class of 1894</emph>, Yale College, pp. 153-156).</p>
       </bioghist>
       <userestrict id="aspace_427a15c55e26274598fe11a4903b1da6">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject source="local">
-            <part>Anecdotes -- United States</part>
+            <part localtype="topical">Anecdotes</part>
+            <part localtype="geographic">United States</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85147124"
                   source="lcsh">
-            <part>Wit and humor</part>
+            <part localtype="topical">Wit and humor</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140538"
                    source="lcsh">
-            <part>United States -- Social life and customs -- 20th Century -- Anecdotes</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">Social life and customs</part>
+            <part localtype="temporal">20th Century</part>
+            <part localtype="genre_form">Anecdotes</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh88000473"
                    source="lcsh">
-            <part>United States -- Social life and customs -- 20th Century -- Humor</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">Social life and customs</part>
+            <part localtype="temporal">20th Century</part>
+            <part localtype="genre_form">Humor</part>
          </geogname>
          <persname identifier="http://id.loc.gov/authorities/names/nr2002018914"
                    source="naf">
-            <part>Dwight, Frederick, 1873-</part>
+            <part localtype="agent_person">Dwight, Frederick, 1873-</part>
          </persname>
          <corpname source="local">
-            <part>Yale College (1887- ). Class of 1894</part>
+            <part localtype="agent_corporate_entity">Yale College (1887- ). Class of 1894</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1354553"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Books of anecdotes [three volumes]</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1923-1938">
+               <unitdatestructured altrender="1923-1938" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1923">1923</fromdate>
                      <todate standarddate="1938">1938</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151679 /locations/9"
                           containerid="39002042281718"
-                          id="d1e265"
+                          encodinganalog="archive letter"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e267" localtype="folder" parent="d1e265">1 - 3</container>
+               <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1 - 3</container>
             </did>
          </c>
       </dsc>

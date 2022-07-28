@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0594">mssa.ms.0594</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0594">mssa.ms.0594</recordid>
+      <otherrecordid localtype="BIB">614099</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Edward Augustine Sherman Papers
@@ -32,6 +34,11 @@
             <date>September 1981</date>
             <num>MS 594</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T09:55:07+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:36:40+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 09:55</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:36</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4219" level="collection">
       <did>
          <unittitle>Edward Augustine Sherman papers</unittitle>
          <unitid>MS 594</unitid>
@@ -83,145 +93,165 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1915-1922">
+         <unitdatestructured altrender="1915-1922" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1915">1915</fromdate>
                <todate standarddate="1922">1922</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_ff4a793af4bd571cb678a181cf5e8779">Typed manuscripts; diaries of 3 trips to Alaska, illustrated with photographs; memorandum on Alaska re: forestry and agriculture.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n2002080284"
                       rules="aacr"
                       source="naf">
-               <part>Sherman, Edward Augustine, 1871-1940</part>
+               <part localtype="agent_person">Sherman, Edward Augustine, 1871-1940</part>
             </persname>
          </origination>
-    
       </did>
       <accessrestrict id="aspace_9e80add5f1d986a7cccc186ca30034b3">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_8ca62190814da84e17c9c74b11989b30">
          <head>Preferred Citation</head>
-         <p>Edward Augustine Sherman Papers (MS 594). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Edward Augustine Sherman Papers (MS 594). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_da8b24a454404d86fad8a562df40a5e6">
          <head>Scope and Contents</head>
          <p>The Edward A. Sherman papers record the travels of Edward Sherman in Alaska in 1915, 1921, and 1922. Sherman, who worked for the forest service of the U. S. Department of Agriculture, became assistant forester in charge of lands in 1914, and in 1915 traveled to Alaska as representative of the Agriculture Department in company with Forester Henry S. Graves, later dean of the Yale School of Forestry. He made his second and third visits (1921 and 1922) in his capacity as chairman of the Interdepartmental Alaska Board.</p>
-         <p>The papers consist of Sherman's detailed typescript journals of these three trips, copiously illustrated with photographs, and of two memoranda Sherman wrote describing his findings. The memoranda and much of the journals discuss Alaskan agriculture, forestry, and industry, as well as potential development of natural resources and hydro-electric power, but the journals also reflect Sherman's sensitivity to the beauty of the countryside and his interest in both the native and the white population.</p>  
+         <p>The papers consist of Sherman's detailed typescript journals of these three trips, copiously illustrated with photographs, and of two memoranda Sherman wrote describing his findings. The memoranda and much of the journals discuss Alaskan agriculture, forestry, and industry, as well as potential development of natural resources and hydro-electric power, but the journals also reflect Sherman's sensitivity to the beauty of the countryside and his interest in both the native and the white population.</p>
       </scopecontent>
       <bioghist id="aspace_3349efb6f37eafb732c491b0ea85eec3">
          <head>Biographical / Historical</head>
-         <p>Edward A. Sherman (1871-1940): in 1903 appointed supervisor of Bitter Root Forest Reserve; in 1905 entered Forest Service, Department of Agriculture; in 1907, became supervisor of Hell Gate, Lolo, and Big Hole Reserves; forest supervisor, Sequoia National Forest, 1908-1910; assistant forester in charge of lands, Washington, D. C., 1915-1920; associate chief forester, 1920-1935; assistant chief and advisor, 1935- ; admitted to Utah Bar, 1915; formulated land classification system for national forests.</p>  
+         <p>Edward A. Sherman (1871-1940): in 1903 appointed supervisor of Bitter Root Forest Reserve; in 1905 entered Forest Service, Department of Agriculture; in 1907, became supervisor of Hell Gate, Lolo, and Big Hole Reserves; forest supervisor, Sequoia National Forest, 1908-1910; assistant forester in charge of lands, Washington, D. C., 1915-1920; associate chief forester, 1920-1935; assistant chief and advisor, 1935- ; admitted to Utah Bar, 1915; formulated land classification system for national forests.</p>
       </bioghist>
       <userestrict id="aspace_ae0e1c909879fbf63338b427b02f13f9">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85031255"
                   source="lcsh">
-            <part>Conservation of natural resources</part>
+            <part localtype="topical">Conservation of natural resources</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85044203"
                   source="lcsh">
-            <part>Environmental protection</part>
+            <part localtype="topical">Environmental protection</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85050707"
                   source="lcsh">
-            <part>Forests and forestry</part>
+            <part localtype="topical">Forests and forestry</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85003144"
                    source="lcsh">
-            <part>Alaska -- Description and travel</part>
+            <part localtype="geographic">Alaska</part>
+            <part localtype="topical">Description and travel</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n80126293"
                    source="lcsh">
-            <part>New York (State)</part>
+            <part localtype="geographic">New York (State)</part>
          </geogname>
          <occupation source="local">
-            <part>Foresters</part>
+            <part localtype="occupation">Foresters</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/n2002080284"
                    rules="aacr"
                    source="naf">
-            <part>Sherman, Edward Augustine, 1871-1940</part>
+            <part localtype="agent_person">Sherman, Edward Augustine, 1871-1940</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref9" level="file">
+         <c altrender="/repositories/12/archival_objects/1353626"
+            id="ref9"
+            level="file">
             <did>
                <unittitle>Alaskan Journal:</unittitle>
             </did>
-            <c id="ref10" level="file">
+            <c altrender="/repositories/12/archival_objects/1353627"
+               id="ref10"
+               level="file">
                <did>
                   <unittitle>First trip</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1915 July-September">
+                  <unitdatestructured altrender="1915 July-September"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1915">1915</fromdate>
                         <todate standarddate="1922">1922</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151477 /locations/9"
                              containerid="39002042290214"
-                             id="d1e250"
+                             encodinganalog="archive letter"
+                             id="aspace_ref10_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e252" localtype="folder" parent="d1e250">1 - 3</container>
+                  <container id="aspace_ref10_c2" localtype="folder" parent="aspace_ref10_c1">1 - 3</container>
                </did>
             </c>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1353628"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Second trip</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1921 July-August">
+                  <unitdatestructured altrender="1921 July-August"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1915">1915</fromdate>
                         <todate standarddate="1922">1922</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151477 /locations/9"
                              containerid="39002042290214"
-                             id="d1e268"
+                             encodinganalog="archive letter"
+                             id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e270" localtype="folder" parent="d1e268">4 - 5</container>
+                  <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">4 - 5</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1353629"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Third trip</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1922 July-August">
+                  <unitdatestructured altrender="1922 July-August"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1915">1915</fromdate>
                         <todate standarddate="1922">1922</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151477 /locations/9"
                              containerid="39002042290214"
-                             id="d1e286"
+                             encodinganalog="archive letter"
+                             id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e288" localtype="folder" parent="d1e286">6 - 7</container>
+                  <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">6 - 7</container>
                </did>
             </c>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1353630"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Memoranda on Alaska</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1921, 1922">
+               <unitdatestructured altrender="1921, 1922" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1915">1915</fromdate>
                      <todate standarddate="1922">1922</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151477 /locations/9"
                           containerid="39002042290214"
-                          id="d1e304"
+                          encodinganalog="archive letter"
+                          id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e306" localtype="folder" parent="d1e304">8</container>
+               <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">8</container>
             </did>
          </c>
       </dsc>

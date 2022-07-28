@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0933">mssa.ms.0933</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0933">mssa.ms.0933</recordid>
+      <otherrecordid localtype="BIB">614382</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Preliminary Guide to the Royal S. Kellogg Papers
@@ -32,6 +34,11 @@
             <date>June 1983</date>
             <num>MS 933</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:35:19+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:16:30+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:35</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:16</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4302" level="collection">
       <did>
          <unittitle>Royal Shaw Kellogg papers</unittitle>
          <unitid>MS 933</unitid>
@@ -82,35 +92,34 @@
             <quantity>1</quantity>
             <unittype>Linear Foot</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1933-1966">
+         <unitdatestructured altrender="1933-1966" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1933">1933</fromdate>
                <todate standarddate="1966">1966</todate>
             </daterange>
          </unitdatestructured>
-         <unitdatestructured unitdatetype="bulk">
+         <unitdatestructured label="creation" unitdatetype="bulk">
             <daterange>
                <fromdate standarddate="1948">1948</fromdate>
                <todate standarddate="1949">1949</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_f007ca3a91b6a741821a4cfd88767760">Chiefly correspondence between Royal Shaw Kellogg and other foresters and paper company officials and printed relating to forestry. Also included are research files, correspondence and other papers connected with Kellogg's book, Newsprint Paper in North America, published in 1949.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/no2001060931"
                       rules="aacr"
                       source="naf">
-               <part>Kellogg, Royal S.</part>
+               <part localtype="agent_person">Kellogg, Royal S.</part>
             </persname>
          </origination>
-    
       </did>
       <accessrestrict id="aspace_d9ed430e359f0e573b6dca19190553ab">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_aef68c01e37f5d4b55f833ad64692f74">
          <head>Preferred Citation</head>
-         <p>Royal Shaw Kellogg Papers (MS 933). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Royal Shaw Kellogg Papers (MS 933). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_3725084dbd621db8eaad2877a3b98a1e">
          <head>Scope and Contents</head>
@@ -119,153 +128,178 @@
                <part>Newsprint Paper in North America</part>
             </title>, published in 1949, and other publications on newsprint paper; papers and correspondence with the Yale Forestry School about a memorial for B. Frank Heintzleman; and a folder of miscellaneous printed matter and other papers.</p>
          <p>This collection is only partially processed. The correspondence and other papers have been roughly sorted, but within folders materials are in random order.</p>
-         <p>The provenance of these papers is unknown.</p>  
+         <p>The provenance of these papers is unknown.</p>
       </scopecontent>
       <bioghist id="aspace_722cf2e18a4f829b95e4c154816fe420">
          <head>Biographical / Historical</head>
-         <p>Royal Shaw Kellogg was born in Cato, New York, on October 19, 1874. He graduated from Kansas State Agricultural College in 1896, receiving an M.S. degree in 1899. Between 1901 and 1910, he worked for the United States Department of Agriculture in the Forest Service. He then worked as director of the American Paper and Pulp Association, before moving to the Newsprint Service Bureau as a spokesman for foresters in the United States. He retired from this position in 1950 and died on February 12, 1965.</p>  
+         <p>Royal Shaw Kellogg was born in Cato, New York, on October 19, 1874. He graduated from Kansas State Agricultural College in 1896, receiving an M.S. degree in 1899. Between 1901 and 1910, he worked for the United States Department of Agriculture in the Forest Service. He then worked as director of the American Paper and Pulp Association, before moving to the Newsprint Service Bureau as a spokesman for foresters in the United States. He retired from this position in 1950 and died on February 12, 1965.</p>
       </bioghist>
       <userestrict id="aspace_bd53c8f2fbcf1af48f6a9f33b4b14943">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85031255"
                   source="lcsh">
-            <part>Conservation of natural resources</part>
+            <part localtype="topical">Conservation of natural resources</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85044203"
                   source="lcsh">
-            <part>Environmental protection</part>
+            <part localtype="topical">Environmental protection</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85050707"
                   source="lcsh">
-            <part>Forests and forestry</part>
+            <part localtype="topical">Forests and forestry</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85091637"
                   source="lcsh">
-            <part>Newsprint</part>
+            <part localtype="topical">Newsprint</part>
          </subject>
          <occupation source="local">
-            <part>Foresters</part>
+            <part localtype="occupation">Foresters</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/no2001060931"
                    rules="aacr"
                    source="naf">
-            <part>Kellogg, Royal S.</part>
+            <part localtype="agent_person">Kellogg, Royal S.</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref9" level="file">
+         <c altrender="/repositories/12/archival_objects/1354588"
+            id="ref9"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
             </did>
-            <c id="ref10" level="file">
+            <c altrender="/repositories/12/archival_objects/1354589"
+               id="ref10"
+               level="file">
                <did>
                   <unittitle>1933-1934, 1948-1958</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151692 /locations/9"
                              containerid="39002042281726"
-                             id="d1e253"
+                             encodinganalog="archive letter"
+                             id="aspace_ref10_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e255" localtype="folder" parent="d1e253">1 - 8</container>
+                  <container id="aspace_ref10_c2" localtype="folder" parent="aspace_ref10_c1">1 - 8</container>
                </did>
             </c>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1354590"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>1959-1960</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151693 /locations/9"
                              containerid="39002042281734"
-                             id="d1e263"
+                             encodinganalog="archive letter"
+                             id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
-                  <container id="d1e265" localtype="folder" parent="d1e263">9 - 10</container>
+                  <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">9 - 10</container>
                </did>
             </c>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1354591"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Letters of condolence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1966">
+               <unitdatestructured altrender="1966" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1966">1966</fromdate>
                      <todate standarddate="1966">1966</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151693 /locations/9"
                           containerid="39002042281734"
-                          id="d1e281"
+                          encodinganalog="archive letter"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
-               <container id="d1e283" localtype="folder" parent="d1e281">11 - 12</container>
+               <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">11 - 12</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1354592"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Newsprint Service Bureau: mimeographed and printed leaflets</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1948-1949">
+               <unitdatestructured altrender="1948-1949" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1948">1948</fromdate>
                      <todate standarddate="1949">1949</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151693 /locations/9"
                           containerid="39002042281734"
-                          id="d1e299"
+                          encodinganalog="archive letter"
+                          id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
-               <container id="d1e301" localtype="folder" parent="d1e299">13</container>
+               <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">13</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1354593"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Publications on newsprint papers: correspondence, printed matter, and miscellaneous papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1938-1960">
+               <unitdatestructured altrender="1938-1960" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1938">1938</fromdate>
                      <todate standarddate="1960">1960</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151693 /locations/9"
                           containerid="39002042281734"
-                          id="d1e317"
+                          encodinganalog="archive letter"
+                          id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
-               <container id="d1e319" localtype="folder" parent="d1e317">14</container>
+               <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">14</container>
             </did>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1354594"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Letters, clippings, and photograph relating to memorial to B. Frank Heintzleman</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1965-1966">
+               <unitdatestructured altrender="1965-1966" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1965">1965</fromdate>
                      <todate standarddate="1966">1966</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151693 /locations/9"
                           containerid="39002042281734"
-                          id="d1e335"
+                          encodinganalog="archive letter"
+                          id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
-               <container id="d1e337" localtype="folder" parent="d1e335">15</container>
+               <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">15</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1354595"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Miscellaneous</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1943-1966, undated">
+               <unitdatestructured altrender="1943-1966, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1948">1948</fromdate>
                      <todate standarddate="1949">1949</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151693 /locations/9"
                           containerid="39002042281734"
-                          id="d1e353"
+                          encodinganalog="archive letter"
+                          id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
-               <container id="d1e355" localtype="folder" parent="d1e353">15</container>
+               <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">15</container>
             </did>
          </c>
       </dsc>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0920">mssa.ms.0920</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0920">mssa.ms.0920</recordid>
+      <otherrecordid localtype="BIB">614323</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Richard Hans Douai Boerker Papers
@@ -32,6 +34,11 @@
             <date>June 1983</date>
             <num>MS 920</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:35:03+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:16:03+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:35</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:16</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4294" level="collection">
       <did>
          <unittitle>Richard H. D. Boerker papers</unittitle>
          <unitid>MS 920</unitid>
@@ -82,97 +92,102 @@
             <quantity>0.25</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1910-1962">
+         <unitdatestructured altrender="1910-1962" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1910">1910</fromdate>
                <todate standarddate="1962">1962</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_3730fd66d5c89cd95073e6251b39429b">Correspondence and printed matter relating to Richard Hans Douai Boerker's studies at the Universities of Michigan and Nebraska, his work with various government agencies and his books and articles. Many of the letters are acknowledgments of the receipts of his books from prominent foresters, botanists, ecologists and other scientists (1911-1950).</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n94048218" source="naf">
-               <part>Boerker, Richard H. D. (Richard Hans Douai), 1887-</part>
+               <part localtype="agent_person">Boerker, Richard H. D. (Richard Hans Douai), 1887-</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_53dd7be16269e9c1e3e1976f62606c0a">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Richard H. D. Boerker, 1966.</p>  
+         <p>Gift of Richard H. D. Boerker, 1966.</p>
       </acqinfo>
       <accessrestrict id="aspace_9a678f03c429b4f2faac957369a57cde">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_ebab5448526648d303592ab3d54e51d6">
          <head>Preferred Citation</head>
-         <p>Richard H. D. Boerker Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Richard H. D. Boerker Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_1f677df68ff7e1d9fe52cc52292df3fd">
          <head>Scope and Contents</head>
-         <p>The papers of Richard Hans Douai Boerker consist of letters from prominent foresters, botanists, ecologists, and other scientists, and of a small amount of printed matter, including announcements for books by Boerker and others, newspaper clippings, programs, certificates, and other memorabilia. The correspondence, which is arranged chronologically, contains letters pertaining to forestry jobs held by Boerker, including letters of recommendation and letters from a variety of federal and state officials; pertaining to his study at the University of Michigan and the University of Nebraska; and pertaining to his writings on forestry. Many of the latter letters are acknowledgments of receipt of copies of his books and other publications from professionals, forestry societies, libraries, and universities in America and Europe. One of these, dated November 29, 1918, comes from Theodore Roosevelt.</p>  
+         <p>The papers of Richard Hans Douai Boerker consist of letters from prominent foresters, botanists, ecologists, and other scientists, and of a small amount of printed matter, including announcements for books by Boerker and others, newspaper clippings, programs, certificates, and other memorabilia. The correspondence, which is arranged chronologically, contains letters pertaining to forestry jobs held by Boerker, including letters of recommendation and letters from a variety of federal and state officials; pertaining to his study at the University of Michigan and the University of Nebraska; and pertaining to his writings on forestry. Many of the latter letters are acknowledgments of receipt of copies of his books and other publications from professionals, forestry societies, libraries, and universities in America and Europe. One of these, dated November 29, 1918, comes from Theodore Roosevelt.</p>
       </scopecontent>
       <bioghist id="aspace_486e0728c9037e4301011e59b031f92f">
          <head>Biographical / Historical</head>
-         <p>Richard Hans Douai Boerker was born in Brooklyn, New York, on October 19, 1887. He graduated from Dartmouth College in 1910 with an A.B. and the following year received an M.S. in forestry from the University of Michigan. In 1916, he received a Ph.D. from the University of Nebraska. Between 1910 and 1917, he worked for the Department of Agriculture, Forest Service. In 1921, he began teaching biology at Kingston, New York, High School. He was married to Irene Frances Bostwick.</p>  
+         <p>Richard Hans Douai Boerker was born in Brooklyn, New York, on October 19, 1887. He graduated from Dartmouth College in 1910 with an A.B. and the following year received an M.S. in forestry from the University of Michigan. In 1916, he received a Ph.D. from the University of Nebraska. Between 1910 and 1917, he worked for the Department of Agriculture, Forest Service. In 1921, he began teaching biology at Kingston, New York, High School. He was married to Irene Frances Bostwick.</p>
       </bioghist>
       <userestrict id="aspace_c8ff9599cf039f921ff7d1586ec93c5d">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85031255"
                   source="lcsh">
-            <part>Conservation of natural resources</part>
+            <part localtype="topical">Conservation of natural resources</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85044203"
                   source="lcsh">
-            <part>Environmental protection</part>
+            <part localtype="topical">Environmental protection</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85050707"
                   source="lcsh">
-            <part>Forests and forestry</part>
+            <part localtype="topical">Forests and forestry</part>
          </subject>
          <occupation source="local">
-            <part>Foresters</part>
+            <part localtype="occupation">Foresters</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/n94048218" source="naf">
-            <part>Boerker, Richard H. D. (Richard Hans Douai), 1887-</part>
+            <part localtype="agent_person">Boerker, Richard H. D. (Richard Hans Douai), 1887-</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1354528"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1910-1962">
+               <unitdatestructured altrender="1910-1962" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1910">1910</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151673 /locations/9"
                           containerid="39002042624784"
-                          id="d1e235"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e237" localtype="folder" parent="d1e235">1 - 4</container>
+               <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1 - 4</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1354529"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Printed matter</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1914-1951">
+               <unitdatestructured altrender="1914-1951" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1914">1914</fromdate>
                      <todate standarddate="1951">1951</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151673 /locations/9"
                           containerid="39002042624784"
-                          id="d1e253"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e255" localtype="folder" parent="d1e253">5</container>
+               <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">5</container>
             </did>
          </c>
       </dsc>

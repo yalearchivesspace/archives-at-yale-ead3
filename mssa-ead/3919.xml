@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0693">mssa.ms.0693</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0693">mssa.ms.0693</recordid>
+      <otherrecordid localtype="BIB">614499</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the George Frederick Gundelfinger Papers
@@ -32,6 +34,11 @@
             <date>December 1982</date>
             <num>MS 693</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T08:59:21+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:51:48+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 08:59</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>June 2016</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:51</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3919" level="collection">
       <did>
          <unittitle>George Frederick Gundelfinger papers</unittitle>
          <unitid>MS 693</unitid>
@@ -90,408 +93,486 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(13 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1891-1969">
+         <unitdatestructured altrender="1891-1969" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1891">1891</fromdate>
                <todate standarddate="1969">1969</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_149a0f43f6297b115dd3f22828f47759">The papers consist of correspondence, publications of The New Fraternity, and other books, pamphlets, and unpublished writings of George Frederick Gundelfinger who made a lifetime crusade of sending his publications and moral admonitions to Yale University. Yale's suit against him in 1939 for sending obscenity through the mail is documented by trial transcripts. Also in the papers are photographs, newspaper clippings, printed matter, and books on mathematics. There is also an edited diary describing a family tour of Europe in 1908.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/no2005072555"
                       rules="aacr"
                       source="naf">
-               <part>Gundelfinger, George Frederick, 1883-1974</part>
+               <part localtype="agent_person">Gundelfinger, George Frederick, 1883-1974</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_2f4e368e8ced56f16526eb2a38e8828b">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of George Gundelfinger, 1973. Transfer from Hall of Graduate Studies, 2004. Gift of Elizabeth Gundelfinger, 2016.</p>  
+         <p>Gift of George Gundelfinger, 1973. Transfer from Hall of Graduate Studies, 2004. Gift of Elizabeth Gundelfinger, 2016.</p>
       </acqinfo>
       <accessrestrict id="aspace_65b773b4f128eb36dab64491e5baa81f">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_e8ee22e24754345a7eb047319480e7d5">
          <head>Preferred Citation</head>
-         <p>George Frederick Gundelfinger Papers (MS 693). Manuscripts and Archives, Yale University Library.</p>  
+         <p>George Frederick Gundelfinger Papers (MS 693). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_0aff70f6116e79a9accc4d7ebcf8d764">
          <head>Scope and Contents</head>
          <p>The papers of George Frederick Gundelfinger contain correspondence, newspaper clippings, publications of The New Fraternity, and other books, pamphlets, and unpublished writings by Gundelfinger. The transcripts of his trial are also included, as are diplomas, sheet music for compositions by Gundelfinger, paintings by him, photographs, printing plates and layouts for publications, and writings by others, mostly on mathematics. The papers are completely unprocessed and disorganized, and contain numerous duplicates of many of the publications.
 There is also an addition which contains an edited diary describing a family tour of Europe in 1908.</p>
          <p>The following pages contain a box list of the collection and a more detailed list of printed items in the papers; this list is not comprehensive.</p>
-         <p>These papers were donated to Yale University in 1973 by George Frederick Gundelfinger. Further correspondence and other papers can be found in the Yale Archives, RU 50.</p>  
+         <p>These papers were donated to Yale University in 1973 by George Frederick Gundelfinger. Further correspondence and other papers can be found in the Yale Archives, RU 50.</p>
       </scopecontent>
       <bioghist id="aspace_72449a7eaab4a766221d339c287b5caf">
          <head>Biographical / Historical</head>
-         <p>George Frederick Gundelfinger, a teacher of mathematics and a writer, was born in Pittsburgh, Pennsylvania, in 1884. He earned a B.S. from Sheffield Scientific School, Yale University in 1906 and a Ph.D. in math in 1909. He taught math at Yale from 1909 to 1913, and he also taught at the University of Pittsburgh and at Carnegie Institute of Technology. He wrote and printed the Interquadrangular, an independent Yale paper, and founded the brotherhood, "The New Fraternity." Upon retiring from teaching, Gundelfinger began a lifetime of moral crusading by sending his publications and admonitions to the students of Yale University.</p>  
+         <p>George Frederick Gundelfinger, a teacher of mathematics and a writer, was born in Pittsburgh, Pennsylvania, in 1884. He earned a B.S. from Sheffield Scientific School, Yale University in 1906 and a Ph.D. in math in 1909. He taught math at Yale from 1909 to 1913, and he also taught at the University of Pittsburgh and at Carnegie Institute of Technology. He wrote and printed the Interquadrangular, an independent Yale paper, and founded the brotherhood, "The New Fraternity." Upon retiring from teaching, Gundelfinger began a lifetime of moral crusading by sending his publications and admonitions to the students of Yale University.</p>
       </bioghist>
       <userestrict id="aspace_67a4890f3f4fd4d0c54d9d70679020da">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85040669"
                   source="lcsh">
-            <part>Eccentrics and eccentricities</part>
+            <part localtype="topical">Eccentrics and eccentricities</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85082139"
                   source="lcsh">
-            <part>Mathematics</part>
+            <part localtype="topical">Mathematics</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85093744"
                   source="lcsh">
-            <part>Obscenity (Law)</part>
+            <part localtype="topical">Obscenity (Law)</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85106983"
                   source="lcsh">
-            <part>Prisoners' writings</part>
+            <part localtype="topical">Prisoners' writings</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/no2005072555"
                    rules="aacr"
                    source="naf">
-            <part>Gundelfinger, George Frederick, 1883-1974</part>
+            <part localtype="agent_person">Gundelfinger, George Frederick, 1883-1974</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- History</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">History</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="aspace_1c2aef2e7cc041d351ddf79089fd0741" level="series">
+         <c altrender="/repositories/12/archival_objects/2993759"
+            id="aspace_1c2aef2e7cc041d351ddf79089fd0741"
+            level="series">
             <did>
                <unittitle>Original accession</unittitle>
             </did>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1257157"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Correspondence, writings, newspaper clippings (completely unsorted)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[ca. 1906-1960s]">
+                  <unitdatestructured altrender="[ca. 1906-1960s]"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1901">1901</fromdate>
                         <todate standarddate="1911">1911</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143084 /locations/9"
                              containerid="39002042264458"
+                             encodinganalog="Paige 15"
                              id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1257158"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Correspondence, writings, newspaper clippings (completely unsorted)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[ca. 1906-1960s]">
+                  <unitdatestructured altrender="[ca. 1906-1960s]"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1901">1901</fromdate>
                         <todate standarddate="1911">1911</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143085 /locations/9"
                              containerid="39002042264466"
+                             encodinganalog="Paige 15"
                              id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1257159"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Letters to officials, entitled "Back o' Bars"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1940s-1950s]">
+                  <unitdatestructured altrender="[1940s-1950s]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1940">1940</fromdate>
                         <todate standarddate="1959">1959</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143085 /locations/9"
                              containerid="39002042264466"
+                             encodinganalog="Paige 15"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1257160"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>"Prison Penned Paragraphs"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1940s-1950s]">
+                  <unitdatestructured altrender="[1940s-1950s]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1940">1940</fromdate>
                         <todate standarddate="1959">1959</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/143085 /locations/9"
                              containerid="39002042264466"
+                             encodinganalog="Paige 15"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1257161"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Pamphlets addressed to Judge Wallace S. Courley</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1950s]">
+                  <unitdatestructured altrender="[1950s]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1950">1950</fromdate>
                         <todate standarddate="1959">1959</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143086 /locations/9"
                              containerid="39002042264474"
+                             encodinganalog="Paige 15"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1257162"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Trial transcripts</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1940s]">
+                  <unitdatestructured altrender="[1940s]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1940">1940</fromdate>
                         <todate standarddate="1949">1949</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143086 /locations/9"
                              containerid="39002042264474"
+                             encodinganalog="Paige 15"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1257163"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Musical manuscripts</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1891">1891</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143086 /locations/9"
                              containerid="39002042264474"
+                             encodinganalog="Paige 15"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1257164"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Three scrapbooks of pamphlets and leaflets with printing costs</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1916-1927, 1928-1939, 1939-1966">
+                  <unitdatestructured altrender="1916-1927, 1928-1939, 1939-1966"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1891">1891</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143087 /locations/9"
                              containerid="39002042264482"
+                             encodinganalog="Paige 15"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1257165"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Daybook</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1944-1952">
+                  <unitdatestructured altrender="1944-1952" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1944">1944</fromdate>
                         <todate standarddate="1952">1952</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143087 /locations/9"
                              containerid="39002042264482"
+                             encodinganalog="Paige 15"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1257166"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Pamphlets and leaflets</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1940s-1960s]">
+                  <unitdatestructured altrender="[1940s-1960s]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1940">1940</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143088 /locations/9"
                              containerid="39002042264490"
+                             encodinganalog="Paige 15"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1257167"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Printing plates</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1891">1891</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143089 /locations/9"
                              containerid="39002042264508"
+                             encodinganalog="Paige 15"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1257168"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Printing plates and layouts</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1891">1891</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143090 /locations/9"
                              containerid="39002042264516"
+                             encodinganalog="Paige 15"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1257169"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>Notebook with clippings</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1891">1891</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143091 /locations/9"
                              containerid="39002042264524"
+                             encodinganalog="Paige 15"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1257170"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Card files on mathematics</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1891">1891</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143091 /locations/9"
                              containerid="39002042264524"
+                             encodinganalog="Paige 15"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1257171"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Photographs</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1891">1891</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143091 /locations/9"
                              containerid="39002042264524"
+                             encodinganalog="Paige 15"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1257172"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Newspaper clippings</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1940s-1960s]">
+                  <unitdatestructured altrender="[1940s-1960s]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1940">1940</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143091 /locations/9"
                              containerid="39002042264524"
+                             encodinganalog="Paige 15"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1257173"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>Books by G. F. Gundelfinger</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1911-1960">
+                  <unitdatestructured altrender="1911-1960" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1911">1911</fromdate>
                         <todate standarddate="1960">1960</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143092 /locations/9"
                              containerid="39002042264532"
+                             encodinganalog="Paige 15"
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                </did>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1257174"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>Books by others, largely mathematical</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1891-1939">
+                  <unitdatestructured altrender="1891-1939" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1891">1891</fromdate>
                         <todate standarddate="1939">1939</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143093 /locations/9"
                              containerid="39002042264540"
+                             encodinganalog="Paige 15"
                              id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                </did>
             </c>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/1257175"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>Diplomas, photographs, paintings, printed matter</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1899-1952, undated">
+                  <unitdatestructured altrender="1899-1952, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1891">1891</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="folder (24d 30w)"
+                  <container altrender="/repositories/12/top_containers/143094 /locations/9"
                              containerid="39002042610361"
+                             encodinganalog="folder (24d 30w)"
                              id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="folder">11</container>
                </did>
             </c>
          </c>
-         <c id="ref111" level="series">
+         <c altrender="/repositories/12/archival_objects/1257176"
+            id="ref111"
+            level="series">
             <did>
                <unittitle>Additional Material</unittitle>
                <unitid>Accession 2005-M-024</unitid>
             </did>
-            <c id="ref112" level="file">
+            <c altrender="/repositories/12/archival_objects/1257177"
+               id="ref112"
+               level="file">
                <did>
                   <unittitle>Collage of sketches relating to The New Fraternity</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1939?]">
+                  <unitdatestructured altrender="[1939?]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1939">1939</fromdate>
                         <todate standarddate="1939">1939</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="folder (32d 40w)"
+                  <container altrender="/repositories/12/top_containers/143095 /locations/247"
                              containerid="39002063474093"
+                             encodinganalog="folder (32d 40w)"
                              id="aspace_ref112_c1"
                              label="Mixed Materials"
                              localtype="folder">1</container>
                </did>
             </c>
          </c>
-         <c id="ref30" level="series">
+         <c altrender="/repositories/12/archival_objects/1257178"
+            id="ref30"
+            level="series">
             <did>
                <unittitle>List of Printed Items in the George Frederick Gundelfinger Papers</unittitle>
             </did>
@@ -499,425 +580,596 @@ There is also an addition which contains an edited diary describing a family tou
                <head>Scope and Contents</head>
                <p>(*) Number in parentheses relates to bibliography printed in <emph render="italic">The Storm of Protest</emph>, 1944.</p>
             </scopecontent>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1257179"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Yale's New Fraternity versus Roman Catholic Fascism (63)*</unittitle>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1257180"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>Storm of Protest (85)*</unittitle>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1257181"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>Gundelfinger's reply to Gorokhoff's Question, 4 pp., 8.5 x 5.5"</unittitle>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1257182"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>The Interquadrangular - Yale's Ultimate Social System, 14 pp., 8.5 x 5.5"</unittitle>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1257183"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Interquadrangular, volumes I-XVII</unittitle>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1257184"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>The New Fraternity: Yale's Anniversary 250th: (1916 Pub.), stamped, Emerson-Conduct of Life, Novel "New Frat." (5)*</unittitle>
                </did>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1257185"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>The New Fraternity: Yale's Anniversary 250th, not stamped (5)*</unittitle>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1257186"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>The New Fraternity: Yale's Anniversary -Fly Leaves, stamped in black for page 263.</unittitle>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1257187"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>The New Fraternity: Parry Profile, Harkness Tower, place in book pages 262-263</unittitle>
                </did>
             </c>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1257188"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>Interquadrangular -three incomplete sets, numbers 1-225, (226-250?), 252-260.</unittitle>
                </did>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1257189"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>Interquadrangular volumes 9-12</unittitle>
                </did>
-               <c id="ref42" level="file">
+               <c altrender="/repositories/12/archival_objects/1257190"
+                  id="ref42"
+                  level="file">
                   <did>
                      <unittitle>Interquadrangular number XVIISignatures 8.5 x 5.5" pp. 1025-1088</unittitle>
                   </did>
                </c>
-               <c id="ref43" level="file">
+               <c altrender="/repositories/12/archival_objects/1257191"
+                  id="ref43"
+                  level="file">
                   <did>
                      <unittitle>Interquadrangular XVI 8.5 x 5.5"pp. 789-804</unittitle>
                   </did>
                </c>
-               <c id="ref44" level="file">
+               <c altrender="/repositories/12/archival_objects/1257192"
+                  id="ref44"
+                  level="file">
                   <did>
                      <unittitle>Interquadrangular XVI signatures 8.5 x 5.5"pp. 789-804, 853-868, 885-900, 901-916</unittitle>
                   </did>
                </c>
-               <c id="ref45" level="file">
+               <c altrender="/repositories/12/archival_objects/1257193"
+                  id="ref45"
+                  level="file">
                   <did>
                      <unittitle>Interquadrangular (Cigam-start)485-756, 805-836</unittitle>
                   </did>
                </c>
             </c>
-            <c id="ref46" level="file">
+            <c altrender="/repositories/12/archival_objects/1257194"
+               id="ref46"
+               level="file">
                <did>
                   <unittitle>The New Fraternity, 1916, light blue cover and dust jacket (5)*</unittitle>
                </did>
             </c>
-            <c id="ref47" level="file">
+            <c altrender="/repositories/12/archival_objects/1257195"
+               id="ref47"
+               level="file">
                <did>
                   <unittitle>Ten Years at Yale (3)*</unittitle>
                </did>
             </c>
-            <c id="ref48" level="file">
+            <c altrender="/repositories/12/archival_objects/1257196"
+               id="ref48"
+               level="file">
                <did>
                   <unittitle>Essays of Elihu, 1923 (13)*</unittitle>
                </did>
             </c>
-            <c id="ref49" level="file">
+            <c altrender="/repositories/12/archival_objects/1257197"
+               id="ref49"
+               level="file">
                <did>
                   <unittitle>Three Books, 23 pp.</unittitle>
                </did>
             </c>
-            <c id="ref50" level="file">
+            <c altrender="/repositories/12/archival_objects/1257198"
+               id="ref50"
+               level="file">
                <did>
                   <unittitle>My Dismissal (12)*</unittitle>
                </did>
             </c>
-            <c id="ref51" level="file">
+            <c altrender="/repositories/12/archival_objects/1257199"
+               id="ref51"
+               level="file">
                <did>
                   <unittitle>Glimmerclass (47)*</unittitle>
                </did>
             </c>
-            <c id="ref52" level="file">
+            <c altrender="/repositories/12/archival_objects/1257200"
+               id="ref52"
+               level="file">
                <did>
                   <unittitle>The Man of the New Fraternity, reprint of Yale News - That Fellow Gundelfinger is to be reprinted on blank side from Yale News, 12 x 16", 1 sheet</unittitle>
                </did>
             </c>
-            <c id="ref53" level="file">
+            <c altrender="/repositories/12/archival_objects/1257201"
+               id="ref53"
+               level="file">
                <did>
                   <unittitle>Spooks on Parade (49)*</unittitle>
                </did>
             </c>
-            <c id="ref54" level="file">
+            <c altrender="/repositories/12/archival_objects/1257202"
+               id="ref54"
+               level="file">
                <did>
                   <unittitle>Lady Nic (60)*</unittitle>
                </did>
             </c>
-            <c id="ref55" level="file">
+            <c altrender="/repositories/12/archival_objects/1257203"
+               id="ref55"
+               level="file">
                <did>
                   <unittitle>To Have Loved and Lost (62)*</unittitle>
                </did>
             </c>
-            <c id="ref56" level="file">
+            <c altrender="/repositories/12/archival_objects/1257204"
+               id="ref56"
+               level="file">
                <did>
                   <unittitle>The Green Invasion (59)*</unittitle>
                </did>
             </c>
-            <c id="ref57" level="file">
+            <c altrender="/repositories/12/archival_objects/1257205"
+               id="ref57"
+               level="file">
                <did>
                   <unittitle>Cigam (45)*</unittitle>
                </did>
             </c>
-            <c id="ref58" level="file">
+            <c altrender="/repositories/12/archival_objects/1257206"
+               id="ref58"
+               level="file">
                <did>
                   <unittitle>Roosevelt Speedocity (50)*</unittitle>
                </did>
             </c>
-            <c id="ref59" level="file">
+            <c altrender="/repositories/12/archival_objects/1257207"
+               id="ref59"
+               level="file">
                <did>
                   <unittitle>War as a Means for Abolishing War, 4 pp., 8.5 x 5.5"</unittitle>
                </did>
             </c>
-            <c id="ref60" level="file">
+            <c altrender="/repositories/12/archival_objects/1257208"
+               id="ref60"
+               level="file">
                <did>
                   <unittitle>Jackson "Justice" at Nuerenberg, 4 pp., 5 x 8" (82?)*</unittitle>
                </did>
             </c>
-            <c id="ref61" level="file">
+            <c altrender="/repositories/12/archival_objects/1257209"
+               id="ref61"
+               level="file">
                <did>
                   <unittitle>James Rowland to the Dark Tower (66)*</unittitle>
                </did>
             </c>
-            <c id="ref62" level="file">
+            <c altrender="/repositories/12/archival_objects/1257210"
+               id="ref62"
+               level="file">
                <did>
                   <unittitle>The Blue Light (57)*</unittitle>
                </did>
             </c>
-            <c id="ref63" level="file">
+            <c altrender="/repositories/12/archival_objects/1257211"
+               id="ref63"
+               level="file">
                <did>
                   <unittitle>Yale's New Fraternity versus Roman Catholic Fascism (63)*</unittitle>
                </did>
             </c>
-            <c id="ref64" level="file">
+            <c altrender="/repositories/12/archival_objects/1257212"
+               id="ref64"
+               level="file">
                <did>
                   <unittitle>Ace</unittitle>
                </did>
             </c>
-            <c id="ref65" level="file">
+            <c altrender="/repositories/12/archival_objects/1257213"
+               id="ref65"
+               level="file">
                <did>
                   <unittitle>The Decay of Bulldogism, 16 pp., 8.5 x 5.5"</unittitle>
                </did>
             </c>
-            <c id="ref66" level="file">
+            <c altrender="/repositories/12/archival_objects/1257214"
+               id="ref66"
+               level="file">
                <did>
                   <unittitle>The Decay of Bulldogism, 4threprint, 16 pp., 8.5 x 5.5"</unittitle>
                </did>
             </c>
-            <c id="ref67" level="file">
+            <c altrender="/repositories/12/archival_objects/1257215"
+               id="ref67"
+               level="file">
                <did>
                   <unittitle>Grid Diamond Riot, pamphlet, 8.5 x 5.5"</unittitle>
                </did>
             </c>
-            <c id="ref68" level="file">
+            <c altrender="/repositories/12/archival_objects/1257216"
+               id="ref68"
+               level="file">
                <did>
                   <unittitle>Leader in Elegy (5)*</unittitle>
                </did>
             </c>
-            <c id="ref69" level="file">
+            <c altrender="/repositories/12/archival_objects/1257217"
+               id="ref69"
+               level="file">
                <did>
                   <unittitle>Frat Fate (38)*</unittitle>
                </did>
             </c>
-            <c id="ref70" level="file">
+            <c altrender="/repositories/12/archival_objects/1257218"
+               id="ref70"
+               level="file">
                <did>
                   <unittitle>Why I am Opposed to College Fraternities (24)*</unittitle>
                </did>
             </c>
-            <c id="ref71" level="file">
+            <c altrender="/repositories/12/archival_objects/1257219"
+               id="ref71"
+               level="file">
                <did>
                   <unittitle>Yale New Fraternity in Self-Defense, 11 pp., 8.5 x 5.5" (80)*</unittitle>
                </did>
             </c>
-            <c id="ref72" level="file">
+            <c altrender="/repositories/12/archival_objects/1257220"
+               id="ref72"
+               level="file">
                <did>
                   <unittitle>College -Student Drinking (22)*</unittitle>
                </did>
             </c>
-            <c id="ref73" level="file">
+            <c altrender="/repositories/12/archival_objects/1257221"
+               id="ref73"
+               level="file">
                <did>
                   <unittitle>Lest We Forget (16)*</unittitle>
                </did>
             </c>
-            <c id="ref74" level="file">
+            <c altrender="/repositories/12/archival_objects/1257222"
+               id="ref74"
+               level="file">
                <did>
                   <unittitle>Alcohol, Tobacco and Sex (20)*</unittitle>
                </did>
             </c>
-            <c id="ref75" level="file">
+            <c altrender="/repositories/12/archival_objects/1257223"
+               id="ref75"
+               level="file">
                <did>
                   <unittitle>The Freedom of Shes (26)*</unittitle>
                </did>
             </c>
-            <c id="ref76" level="file">
+            <c altrender="/repositories/12/archival_objects/1257224"
+               id="ref76"
+               level="file">
                <did>
                   <unittitle>Prince Albert's Velvet Tuxedo (7)*</unittitle>
                </did>
             </c>
-            <c id="ref77" level="file">
+            <c altrender="/repositories/12/archival_objects/1257225"
+               id="ref77"
+               level="file">
                <did>
                   <unittitle>Yale Critic "Humorist" says Yale News of Gundelfinger, 4 pp.</unittitle>
                </did>
             </c>
-            <c id="ref78" level="file">
+            <c altrender="/repositories/12/archival_objects/1257226"
+               id="ref78"
+               level="file">
                <did>
                   <unittitle>1939 Yale -An Angel Plays the Lyre (44)*</unittitle>
                </did>
             </c>
-            <c id="ref79" level="file">
+            <c altrender="/repositories/12/archival_objects/1257227"
+               id="ref79"
+               level="file">
                <did>
                   <unittitle>Hadley and Public Opinion (21)*</unittitle>
                </did>
             </c>
-            <c id="ref80" level="file">
+            <c altrender="/repositories/12/archival_objects/1257228"
+               id="ref80"
+               level="file">
                <did>
                   <unittitle>An Original Interpretation of Sexual Phenomena (9)*</unittitle>
                </did>
             </c>
-            <c id="ref81" level="file">
+            <c altrender="/repositories/12/archival_objects/1257229"
+               id="ref81"
+               level="file">
                <did>
                   <unittitle>The Disrespect for Scholarship, The Decline of Teaching, The Failure to Educate (37)*</unittitle>
                </did>
             </c>
-            <c id="ref82" level="file">
+            <c altrender="/repositories/12/archival_objects/1257230"
+               id="ref82"
+               level="file">
                <did>
                   <unittitle>Jes Tulef (35)*</unittitle>
                </did>
             </c>
-            <c id="ref83" level="file">
+            <c altrender="/repositories/12/archival_objects/1257231"
+               id="ref83"
+               level="file">
                <did>
                   <unittitle>The Ghost at Oyster Bay (31)*</unittitle>
                </did>
             </c>
-            <c id="ref84" level="file">
+            <c altrender="/repositories/12/archival_objects/1257232"
+               id="ref84"
+               level="file">
                <did>
                   <unittitle>Inter-Q As a Column, 4 pp., 8.5 x 5.5"</unittitle>
                </did>
             </c>
-            <c id="ref85" level="file">
+            <c altrender="/repositories/12/archival_objects/1257233"
+               id="ref85"
+               level="file">
                <did>
                   <unittitle>A Needless (?) Introduction to Seymour's Yale (72)*</unittitle>
                </did>
             </c>
-            <c id="ref86" level="file">
+            <c altrender="/repositories/12/archival_objects/1257234"
+               id="ref86"
+               level="file">
                <did>
                   <unittitle>The Storm of Protest That Will Never Come (85)*</unittitle>
                </did>
             </c>
-            <c id="ref87" level="file">
+            <c altrender="/repositories/12/archival_objects/1257235"
+               id="ref87"
+               level="file">
                <did>
                   <unittitle>Concerning Yale's Next President (52)*</unittitle>
                </did>
             </c>
-            <c id="ref88" level="file">
+            <c altrender="/repositories/12/archival_objects/1257236"
+               id="ref88"
+               level="file">
                <did>
                   <unittitle>The "Oxford-Cambridge" of America (34)*</unittitle>
                </did>
             </c>
-            <c id="ref89" level="file">
+            <c altrender="/repositories/12/archival_objects/1257237"
+               id="ref89"
+               level="file">
                <did>
                   <unittitle>Crucifixion by Surgery (74)*</unittitle>
                </did>
             </c>
-            <c id="ref90" level="file">
+            <c altrender="/repositories/12/archival_objects/1257238"
+               id="ref90"
+               level="file">
                <did>
                   <unittitle>Why the Freshman (67)*</unittitle>
                </did>
             </c>
-            <c id="ref91" level="file">
+            <c altrender="/repositories/12/archival_objects/1257239"
+               id="ref91"
+               level="file">
                <did>
                   <unittitle>The End of an Era, 7 pp. 8.5 x 5.5"</unittitle>
                </did>
             </c>
-            <c id="ref92" level="file">
+            <c altrender="/repositories/12/archival_objects/1257240"
+               id="ref92"
+               level="file">
                <did>
                   <unittitle>Graduate Degeneration - Alumni "Renascent" (34)*</unittitle>
                </did>
             </c>
-            <c id="ref93" level="file">
+            <c altrender="/repositories/12/archival_objects/1257241"
+               id="ref93"
+               level="file">
                <did>
                   <unittitle>Yale's Ultimate Social System (28)*</unittitle>
                </did>
             </c>
-            <c id="ref94" level="file">
+            <c altrender="/repositories/12/archival_objects/1257242"
+               id="ref94"
+               level="file">
                <did>
                   <unittitle>Vaterland and Alma Mater, 17 pp., 8.5 x 5.5"</unittitle>
                </did>
             </c>
-            <c id="ref95" level="file">
+            <c altrender="/repositories/12/archival_objects/1257243"
+               id="ref95"
+               level="file">
                <did>
                   <unittitle>"A" As an Art, pamphlet, 8.5 x 5.5"</unittitle>
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
                </did>
             </c>
-            <c id="ref96" level="file">
+            <c altrender="/repositories/12/archival_objects/1257244"
+               id="ref96"
+               level="file">
                <did>
                   <unittitle>End of Era, flier, 1 p., 10 x 15.5"</unittitle>
                </did>
             </c>
-            <c id="ref97" level="file">
+            <c altrender="/repositories/12/archival_objects/1257245"
+               id="ref97"
+               level="file">
                <did>
                   <unittitle>The Great Reliever (42)*</unittitle>
                </did>
             </c>
-            <c id="ref98" level="file">
+            <c altrender="/repositories/12/archival_objects/1257246"
+               id="ref98"
+               level="file">
                <did>
                   <unittitle>The Decay of Bulldogism (29)*</unittitle>
                </did>
             </c>
-            <c id="ref99" level="file">
+            <c altrender="/repositories/12/archival_objects/1257247"
+               id="ref99"
+               level="file">
                <did>
                   <unittitle>Yale's New Fraternity versus Roman Catholic Fascism (63)*</unittitle>
                </did>
             </c>
-            <c id="ref100" level="file">
+            <c altrender="/repositories/12/archival_objects/1257248"
+               id="ref100"
+               level="file">
                <did>
                   <unittitle>Ten Years at Yale (3)*</unittitle>
                </did>
             </c>
-            <c id="ref101" level="file">
+            <c altrender="/repositories/12/archival_objects/1257249"
+               id="ref101"
+               level="file">
                <did>
                   <unittitle>Wonderful Glorious Spring, sheet music</unittitle>
                </did>
             </c>
-            <c id="ref102" level="file">
+            <c altrender="/repositories/12/archival_objects/1257250"
+               id="ref102"
+               level="file">
                <did>
                   <unittitle>I Think of You, sheet music</unittitle>
                </did>
             </c>
-            <c id="ref103" level="file">
+            <c altrender="/repositories/12/archival_objects/1257251"
+               id="ref103"
+               level="file">
                <did>
                   <unittitle>Adventures of Jack, sheet music</unittitle>
                </did>
             </c>
-            <c id="ref104" level="file">
+            <c altrender="/repositories/12/archival_objects/1257252"
+               id="ref104"
+               level="file">
                <did>
                   <unittitle>Lonely, sheet music</unittitle>
                </did>
             </c>
-            <c id="ref105" level="file">
+            <c altrender="/repositories/12/archival_objects/1257253"
+               id="ref105"
+               level="file">
                <did>
                   <unittitle>All the World is in Love, sheet music</unittitle>
                </did>
             </c>
-            <c id="ref106" level="file">
+            <c altrender="/repositories/12/archival_objects/1257254"
+               id="ref106"
+               level="file">
                <did>
                   <unittitle>When Jerry Plays the Flute, sheet music</unittitle>
                </did>
             </c>
-            <c id="ref107" level="file">
+            <c altrender="/repositories/12/archival_objects/1257255"
+               id="ref107"
+               level="file">
                <did>
                   <unittitle>I Love to be Loved by a Baby, sheet music</unittitle>
                </did>
             </c>
-            <c id="ref108" level="file">
+            <c altrender="/repositories/12/archival_objects/1257256"
+               id="ref108"
+               level="file">
                <did>
                   <unittitle>Etching and Half Tones</unittitle>
                </did>
             </c>
-            <c id="ref109" level="file">
+            <c altrender="/repositories/12/archival_objects/1257257"
+               id="ref109"
+               level="file">
                <did>
                   <unittitle>GFG Theatric, 152 pp.</unittitle>
                </did>
             </c>
          </c>
-         <c id="aspace_170e7fc4f95acfed29dfe59871f32f0b" level="series">
+         <c altrender="/repositories/12/archival_objects/2224093"
+            id="aspace_170e7fc4f95acfed29dfe59871f32f0b"
+            level="series">
             <did>
                <unittitle>Additional Material</unittitle>
                <unitid>Accession 2016-M-078</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1908">
+               <unitdatestructured altrender="1908" label="creation" unitdatetype="inclusive">
                   <datesingle standarddate="1908">1908</datesingle>
                </unitdatestructured>
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
             </did>
-            <c id="aspace_c3687655ab277a5e6bcf1a81db338d8d" level="file">
+            <c altrender="/repositories/12/archival_objects/2224100"
+               id="aspace_c3687655ab277a5e6bcf1a81db338d8d"
+               level="file">
                <did>
                   <unittitle>
                      <title>
                         <part>Doing Europe in 1908: Four Diaries in One</part>
                      </title>, by Bertha C., Norma M., Hilda A., and George F.  Gundelfinger, edited and illustrated by George F. Gundelfinger</unittitle>
                </did>
-               <c id="aspace_5e9ba348e38b539a5270f2f62ee63a82" level="item">
+               <c altrender="/repositories/12/archival_objects/2224102"
+                  id="aspace_5e9ba348e38b539a5270f2f62ee63a82"
+                  level="item">
                   <did>
                      <unittitle>Manuscript copy, bound</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1908">
+                     <unitdatestructured altrender="1908" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1908">1908</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/236918 /locations/9"
                                 containerid="39002112688388"
+                                encodinganalog="archive half letter"
                                 id="aspace_5e9ba348e38b539a5270f2f62ee63a82_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -926,12 +1178,15 @@ There is also an addition which contains an edited diary describing a family tou
                                 parent="aspace_5e9ba348e38b539a5270f2f62ee63a82_c1">1</container>
                   </did>
                </c>
-               <c id="aspace_e1d85d1c54ec5a3f67addd692a8151f1" level="item">
+               <c altrender="/repositories/12/archival_objects/2224104"
+                  id="aspace_e1d85d1c54ec5a3f67addd692a8151f1"
+                  level="item">
                   <did>
                      <unittitle>Photocopy, bound</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive half letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/236918 /locations/9"
                                 containerid="39002112688388"
+                                encodinganalog="archive half letter"
                                 id="aspace_e1d85d1c54ec5a3f67addd692a8151f1_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>

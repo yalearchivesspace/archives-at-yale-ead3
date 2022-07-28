@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0918">mssa.ms.0918</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0918">mssa.ms.0918</recordid>
+      <otherrecordid localtype="BIB">614322</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Harvey Harris Bloom Papers
@@ -32,6 +34,11 @@
             <date>June 1983</date>
             <num>MS 918</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:45:25+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:15:58+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:45</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:15</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4292" level="collection">
       <did>
          <unittitle>Harvey Harris Bloom papers</unittitle>
          <unitid>MS 918</unitid>
@@ -82,115 +92,129 @@
             <quantity>0.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1819-1862">
+         <unitdatestructured altrender="1819-1862" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1819">1819</fromdate>
                <todate standarddate="1862">1862</todate>
             </daterange>
          </unitdatestructured>
-         <unitdatestructured unitdatetype="bulk">
+         <unitdatestructured label="creation" unitdatetype="bulk">
             <daterange>
                <fromdate standarddate="1853">1853</fromdate>
                <todate standarddate="1862">1862</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_04fccddf4f1900d896666515535de428">A journal, short essays and notes, and fourteen letters written by Harvey Harris Bloom to members of his family and friends. The letters describe his life while he was teaching at an academy in Millington, New Jersey and his student years at Yale College (1859-1861) before he enlisted in the Union army. Bloom's journal as well as his writings are largely devoted to religious meditations, but also included are stories, poems, and disputes written while at Yale College.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/nr99000757"
                       rules="aacr"
                       source="naf">
-               <part>Bloom, Harvey Harris, 1838-1864</part>
+               <part localtype="agent_person">Bloom, Harvey Harris, 1838-1864</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_4f0d5be388e8967a252ff51955ae53d7">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Mrs. W. F. Low, 1958.</p>  
+         <p>Gift of Mrs. W. F. Low, 1958.</p>
       </acqinfo>
       <accessrestrict id="aspace_e35985fa5f7d8beb9ffdb2436517400a">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_5a1e24c6f4ed28317af70a71dcf9b954">
          <head>Preferred Citation</head>
-         <p>Harvey Harris Bloom Papers (MS 918). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Harvey Harris Bloom Papers (MS 918). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_296be61b3aebbf6e187f995079962367">
          <head>Scope and Contents</head>
          <p>The papers of Harvey Harris Bloom consist of a journal, short writings, and a few letters. Included are fourteen letters written by Bloom to his brother John and three others to relatives and friends, between 1857 and 1862, while he was teaching at an academy in Millington, New Jersey, and then attending Yale College. The letters contain news of family and friends and describe social events, and contain advice to his brother about school and thoughts on God and nature. One letter to John (1860 Nov 7) concerns Lincoln's election; one to a cousin (1861 Apr 22) describes a massive Union rally in New York City.</p>
          <p>The first volume of Bloom's journal covers the period August-December, 1853, while he was at school, and contains meditations on life, education, and friendship, as well as notes on Bloom's activities. The other volume relates in some detail his first journey to Millington in December of 1855 and his return in January of 1857 via Monmouth, New Jersey. Entries for the intervening period consist of brief essays on such subjects as human mortality.</p>
-         <p>Short writings by Bloom make up the balance of the collection. These include disputations and essays on topics of current politics, education, and so forth, some written while Bloom was at Yale; meditations on faith and religion, including a declaration of his intent to consecrate himself to the service of God; several short gothic stories, poetry, and a few other items. Also in the collection is a deed of Levi and Mary Talmage to Mrs. Jabez Goodell for land in Parma, New York, dating 1819.</p>  
+         <p>Short writings by Bloom make up the balance of the collection. These include disputations and essays on topics of current politics, education, and so forth, some written while Bloom was at Yale; meditations on faith and religion, including a declaration of his intent to consecrate himself to the service of God; several short gothic stories, poetry, and a few other items. Also in the collection is a deed of Levi and Mary Talmage to Mrs. Jabez Goodell for land in Parma, New York, dating 1819.</p>
       </scopecontent>
       <bioghist id="aspace_c431deaa228eb855aab0600c67c6b1e8">
          <head>Biographical / Historical</head>
-         <p>Harvey Harris Bloom was born in North Norwich, New York, on August 23, 1838. He entered Yale College with the class of 1862, but left during his junior year in order to fight for the Union Army in the Civil War. Unable to maintain a soldier's life, he returned to Yale and graduated in 1863. Already in poor health, though, Bloom died of consumption on March 18, 1864.</p>  
+         <p>Harvey Harris Bloom was born in North Norwich, New York, on August 23, 1838. He entered Yale College with the class of 1862, but left during his junior year in order to fight for the Union Army in the Civil War. Unable to maintain a soldier's life, he returned to Yale and graduated in 1863. Already in poor health, though, Bloom died of consumption on March 18, 1864.</p>
       </bioghist>
       <userestrict id="aspace_a265ebb27d8f19036abae3081680fe85">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject source="local">
-            <part>Religion -- 19th century</part>
+            <part localtype="topical">Religion</part>
+            <part localtype="temporal">19th century</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140205"
                    source="lcsh">
-            <part>United States -- History -- Civil War, 1861-1865</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Civil War, 1861-1865</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027112" source="aat">
-            <part>Diaries</part>
+            <part localtype="genre_form">Diaries</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/nr99000757"
                    rules="aacr"
                    source="naf">
-            <part>Bloom, Harvey Harris, 1838-1864</part>
+            <part localtype="agent_person">Bloom, Harvey Harris, 1838-1864</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n2003077338"
                    source="naf">
-            <part>Yale College (1718-1887). Class of 1863</part>
+            <part localtype="agent_corporate_entity">Yale College (1718-1887). Class of 1863</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1354496"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
             </did>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1354497"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Letters to John C. Bloom</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1858-1862">
+                  <unitdatestructured altrender="1858-1862" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1858">1858</fromdate>
                         <todate standarddate="1862">1862</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151671 /locations/9"
                              containerid="39002042652306"
+                             encodinganalog="archive legal"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">1</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1354498"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Letters to others</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1857, 1861, 1862">
+                  <unitdatestructured altrender="1857, 1861, 1862"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1853">1853</fromdate>
                         <todate standarddate="1862">1862</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151671 /locations/9"
                              containerid="39002042652306"
+                             encodinganalog="archive legal"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -198,39 +222,56 @@
                </did>
             </c>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1354499"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Journal</unittitle>
             </did>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1354500"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>"Thoughts and Sketches, Vol. 1st"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1853 August-December">
+                  <unitdatestructured altrender="1853 August-December"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1853">1853</fromdate>
                         <todate standarddate="1862">1862</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151671 /locations/9"
                              containerid="39002042652306"
+                             encodinganalog="archive legal"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">3</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1354501"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>"Journal Continued"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive"
-                                      altrender="1855 December-1856 May, 1857 January">
+                  <unitdatestructured altrender="1855 December-1856 May, 1857 January"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1853">1853</fromdate>
                         <todate standarddate="1862">1862</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151671 /locations/9"
                              containerid="39002042652306"
+                             encodinganalog="archive legal"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -238,123 +279,153 @@
                </did>
             </c>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1354502"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>Writings</unittitle>
             </did>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1354503"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Disputations</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1857, 1862, undated">
+                  <unitdatestructured altrender="1857, 1862, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1853">1853</fromdate>
                         <todate standarddate="1862">1862</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151671 /locations/9"
                              containerid="39002042652306"
+                             encodinganalog="archive legal"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">5</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1354504"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Essays</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1858, undated">
+                  <unitdatestructured altrender="1858, undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1853">1853</fromdate>
                         <todate standarddate="1862">1862</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151671 /locations/9"
                              containerid="39002042652306"
+                             encodinganalog="archive legal"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">6</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1354505"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Religious writings</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1856-1857">
+                  <unitdatestructured altrender="1856-1857" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1856">1856</fromdate>
                         <todate standarddate="1857">1857</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151671 /locations/9"
                              containerid="39002042652306"
+                             encodinganalog="archive legal"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">7</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1354506"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Short stories</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1853, 1862, undated">
+                  <unitdatestructured altrender="1853, 1862, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1853">1853</fromdate>
                         <todate standarddate="1862">1862</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151671 /locations/9"
                              containerid="39002042652306"
+                             encodinganalog="archive legal"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">8</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1354507"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>Poetry</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1853">1853</fromdate>
                         <todate standarddate="1862">1862</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151671 /locations/9"
                              containerid="39002042652306"
+                             encodinganalog="archive legal"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">9</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1354508"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Fragments</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1853">1853</fromdate>
                         <todate standarddate="1862">1862</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151671 /locations/9"
                              containerid="39002042652306"
+                             encodinganalog="archive legal"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">10</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1354509"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>"Rules for Life"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1856">
+                  <unitdatestructured altrender="1856" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1856">1856</fromdate>
                         <todate standarddate="1856">1856</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151671 /locations/9"
                              containerid="39002042652306"
+                             encodinganalog="archive legal"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -362,34 +433,45 @@
                </did>
             </c>
          </c>
-         <c id="ref26" level="file">
+         <c altrender="/repositories/12/archival_objects/1354510"
+            id="ref26"
+            level="file">
             <did>
                <unittitle>"List of Rolls, Returns, &amp; Reports required of the Co. Commanders"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1853">1853</fromdate>
                      <todate standarddate="1862">1862</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151671 /locations/9"
                           containerid="39002042652306"
+                          encodinganalog="archive legal"
                           id="aspace_ref26_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">11</container>
             </did>
          </c>
-         <c id="ref27" level="file">
+         <c altrender="/repositories/12/archival_objects/1354511"
+            id="ref27"
+            level="file">
             <did>
                <unittitle>Deed of Levi and Mary Talmage to Mrs. Jabez Goodell</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1819 January 11">
+               <unitdatestructured altrender="1819 January 11"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1853">1853</fromdate>
                      <todate standarddate="1862">1862</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151671 /locations/9"
                           containerid="39002042652306"
+                          encodinganalog="archive legal"
                           id="aspace_ref27_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0618">mssa.ms.0618</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0618">mssa.ms.0618</recordid>
+      <otherrecordid localtype="BIB">613843</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Whitney Arms Company Papers
@@ -32,6 +34,11 @@
             <date>January 1980</date>
             <num>MS 618</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T09:56:27+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:38:47+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 09:56</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:38</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4227" level="collection">
       <did>
          <unittitle>Whitney Arms Company papers</unittitle>
          <unitid>MS 618</unitid>
@@ -82,185 +92,218 @@
             <quantity>1.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1862-1886">
+         <unitdatestructured altrender="1862-1886" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1862">1862</fromdate>
                <todate standarddate="1886">1886</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_df6f28dbd1b08276333aff2b61a29f47">Correspondence, financial papers, and miscellanea of the Whitney Arms Company of New Haven, Connecticut.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname source="local">
-               <part>Whitney Arms Company</part>
+               <part localtype="agent_corporate_entity">Whitney Arms Company</part>
             </corpname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_9b6541afc8742e39be737d2138c3295b">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of the New Haven Water Company, 1947.</p>  
+         <p>Gift of the New Haven Water Company, 1947.</p>
       </acqinfo>
       <accessrestrict id="aspace_f87816376cdefdca07dd24b59b7636fb">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_097434f8993f23b8ac730ffc2072e49c">
          <head>Preferred Citation</head>
-         <p>Whitney Arms Company Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Whitney Arms Company Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <bioghist id="aspace_715149323eee1f7ce7e718ce06df2b99">
          <head>Biographical / Historical</head>
-         <p>The Whitney Arms Company was established in New Haven by Eli Whitney, who sought to create a more accurate musket, that would still be durable enough for use by soldiers. He located the plant on both sides of the Mill River. Though founded in 1798, operations were still small at the time of Whitney's death in 1825. The factory was eventually handed down to Whitney's son, Eli Whitney, Jr., who ran the company for much of the nineteenth century. In 1888, the Whitney Arms Company was sold to the Winchester Repeating Arms Company.</p>  
+         <p>The Whitney Arms Company was established in New Haven by Eli Whitney, who sought to create a more accurate musket, that would still be durable enough for use by soldiers. He located the plant on both sides of the Mill River. Though founded in 1798, operations were still small at the time of Whitney's death in 1825. The factory was eventually handed down to Whitney's son, Eli Whitney, Jr., who ran the company for much of the nineteenth century. In 1888, the Whitney Arms Company was sold to the Winchester Repeating Arms Company.</p>
       </bioghist>
       <scopecontent id="aspace_899d6cb0a58a282bb8a06ae3526d2862">
          <head>Scope and Contents</head>
-         <p>Correspondence, financial papers, and miscellanea of the Whitney Arms Company of New Haven, Connecticut.</p>  
+         <p>Correspondence, financial papers, and miscellanea of the Whitney Arms Company of New Haven, Connecticut.</p>
       </scopecontent>
       <userestrict id="aspace_2750a86ab2a0a1382e0106cc80cf54f2">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85018260"
                   source="lcsh">
-            <part>Business</part>
+            <part localtype="topical">Business</part>
          </subject>
          <subject source="local">
-            <part>Firearms, American</part>
+            <part localtype="topical">Firearms, American</part>
          </subject>
          <subject source="local">
-            <part>Manufactures -- Connecticut -- New Haven</part>
+            <part localtype="topical">Manufactures</part>
+            <part localtype="geographic">Connecticut</part>
+            <part localtype="geographic">New Haven</part>
          </subject>
          <corpname source="local">
-            <part>Whitney Arms Company</part>
+            <part localtype="agent_corporate_entity">Whitney Arms Company</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1353737"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Letterbooks (indexed)</unittitle>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1353738"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>1862 Jun 20-1863 Feb 4</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151493 /locations/9"
                              containerid="39002042262791"
-                             id="d1e227"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1353739"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>1863 Feb 4-1863 Aug 7</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151494 /locations/9"
                              containerid="39002042262809"
-                             id="d1e235"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1353740"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>1878 Sep 24-1879 Jan 27</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151495 /locations/9"
                              containerid="39002042262817"
-                             id="d1e243"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1353741"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>1882 May 12-1882 Nov 6</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151496 /locations/9"
                              containerid="39002042262825"
-                             id="d1e251"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1353742"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>1883 Mar 5-1883 Sep 10</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151497 /locations/9"
                              containerid="39002042262833"
-                             id="d1e259"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1353743"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>1885 Mar 19-1885 Aug 28</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151498 /locations/9"
                              containerid="39002042262841"
-                             id="d1e267"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                </did>
             </c>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1353744"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1882-1884">
+               <unitdatestructured altrender="1882-1884" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1882">1882</fromdate>
                      <todate standarddate="1884">1884</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151499 /locations/9"
                           containerid="39002042262858"
-                          id="d1e283"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref18_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
             </did>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1353745"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>Checkbook stubs</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1886">
+               <unitdatestructured altrender="1886" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1886">1886</fromdate>
                      <todate standarddate="1886">1886</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151499 /locations/9"
                           containerid="39002042262858"
-                          id="d1e299"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
             </did>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1353746"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>Three indexes to missing letterbooks</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1862">1862</fromdate>
                      <todate standarddate="1886">1886</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151499 /locations/9"
                           containerid="39002042262858"
-                          id="d1e315"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref20_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
             </did>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1353747"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>Miscellaneous financial papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1862">1862</fromdate>
                      <todate standarddate="1886">1886</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151499 /locations/9"
                           containerid="39002042262858"
-                          id="d1e331"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
             </did>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0782">mssa.ms.0782</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0782">mssa.ms.0782</recordid>
+      <otherrecordid localtype="BIB">614184</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Cecil Herbert Driver Papers
@@ -32,6 +34,11 @@
             <date>September 1982</date>
             <num>MS 782</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:47:33+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:04:39+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:47</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>July 1998</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:04</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3137" level="collection">
       <did>
          <unittitle>Cecil Herbert Driver papers</unittitle>
          <unitid>MS 782</unitid>
@@ -89,7 +92,7 @@
             <quantity>3</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1807-1948">
+         <unitdatestructured altrender="1807-1948" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1807">1807</fromdate>
                <todate standarddate="1948">1948</todate>
@@ -98,20 +101,19 @@
          <abstract id="aspace_c0d7465019d314df36c4f33a1dd3dce5">Correspondence, research materials, clippings, photographs, and reviews of Driver's biography, <title render="italic">
                <part>Tory Radical: The Life of Richard Oastler</part>
             </title>, published in 1946. Most significant in the papers is a series of eight letters written in 1832 by Oastler to Thomas Daniels, the secretary of the Manchester Short-Time Committee, a letter from Oastler's wife, Mary, and another from Michael Thomas Sadler, the author of the Ten-Hour Bill, to Oastler. Driver's correspondents include Roland H. Bainton, Lewis P. Curtis, Edgar Johnson, Broadus Mitchell, Clinton L. Rossiter, and Hume Wrong.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Driver, Cecil Herbert, 1900-1958</part>
+               <part localtype="agent_person">Driver, Cecil Herbert, 1900-1958</part>
             </persname>
          </origination>
-    
       </did>
       <prefercite id="aspace_5f5f57ae9629ef38cc08659f113990de">
          <head>Preferred Citation</head>
-         <p>Cecil Herbert Driver Papers (MS 782). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Cecil Herbert Driver Papers (MS 782). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <acqinfo id="aspace_d17ede0abf25739dbb01f319f48226c3">
          <head>Immediate Source of Acquisition</head>
-         <p>Transferred from the Department of Political Science, 1960 and gift of Mrs. Charles M. Lyman, 1976.</p>  
+         <p>Transferred from the Department of Political Science, 1960 and gift of Mrs. Charles M. Lyman, 1976.</p>
       </acqinfo>
       <scopecontent id="aspace_54f8d4aca5594a28d79e3af386b42b53">
          <head>Scope and Contents</head>
@@ -124,513 +126,595 @@
                <part>Tory Radical</part>
             </title>, which pertain largely to Richard Oastler, political activist and organizer in the 1830s of the Ten-Hour Movement, a campaign of workingmen for legislation limiting child labor to ten hours per day. Among Driver's research materials are photographs, printed matter about Oastler, and photostatic copies of several letters from Oastler, of posters and handbills, and of other miscellaneous printed items. Of particular interest are ten original letters (folder 15) addressed to Thomas Daniels, the secretary of the Manchester Short-Time Committee and later chairman of the Central Operatives Committee, two organizations devoted to the Ten-Hour Movement. Eight of the letters are from 0astler, who writes to encourage Daniels' efforts and to plan activities and publicity. The ninth letter is from Oastler's wife, Mary, and the last is from Michael Thomas Sadler, the author of the Ten-Hour Bill, who writes concerning a petition by the people of Manchester to the electors of Leeds. The final items in the collection are the dustjacket of <title render="italic">
                <part>Tory Radical</part>
-            </title>, a copy of Driver's agreement with Oxford University Press, and clippings and reviews of the book.</p>  
+            </title>, a copy of Driver's agreement with Oxford University Press, and clippings and reviews of the book.</p>
       </scopecontent>
       <accessrestrict id="aspace_da6e80f0a6516a4b7fe7acefb08c68e5">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_bb609f4d729b431f89df1931efe6a609">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown, though much of the material in this collection is likely in the public domain. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown, though much of the material in this collection is likely in the public domain. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject source="local">
-            <part>Laboring and laboring classes -- Great Britain</part>
+            <part localtype="topical">Laboring and laboring classes</part>
+            <part localtype="geographic">Great Britain</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85100849"
                   source="lcsh">
-            <part>Philosophy</part>
+            <part localtype="topical">Philosophy</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85045631"
                    source="lcsh">
-            <part>Europe</part>
+            <part localtype="geographic">Europe</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85009793"
                   source="lcsh">
-            <part>Authors</part>
+            <part localtype="topical">Authors</part>
          </subject>
          <occupation source="local">
-            <part>Political scientists</part>
+            <part localtype="occupation">Political scientists</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/n50020872" source="naf">
-            <part>Bainton, Roland H. (Roland Herbert), 1894-1984</part>
+            <part localtype="agent_person">Bainton, Roland H. (Roland Herbert), 1894-1984</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/nr98018509"
                    rules="aacr"
                    source="naf">
-            <part>Curtis, Lewis Perry, 1900-1976</part>
+            <part localtype="agent_person">Curtis, Lewis Perry, 1900-1976</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50027717" source="naf">
-            <part>Curtis, L. Perry, Jr., 1932-</part>
+            <part localtype="agent_person">Curtis, L. Perry, Jr., 1932-</part>
          </persname>
          <persname source="local">
-            <part>Driver, Cecil Herbert, 1900-1958</part>
+            <part localtype="agent_person">Driver, Cecil Herbert, 1900-1958</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no2006083484"
                    rules="aacr"
                    source="naf">
-            <part>Johnson, Edgar Nathaniel, 1901-1969</part>
+            <part localtype="agent_person">Johnson, Edgar Nathaniel, 1901-1969</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50033628"
                    rules="aacr"
                    source="naf">
-            <part>Mitchell, Broadus, 1892-1988</part>
+            <part localtype="agent_person">Mitchell, Broadus, 1892-1988</part>
          </persname>
          <persname source="local">
-            <part>Oastler, Mary</part>
+            <part localtype="agent_person">Oastler, Mary</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n88132604" source="naf">
-            <part>Oastler, Richard, 1789-1861</part>
+            <part localtype="agent_person">Oastler, Richard, 1789-1861</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50049724"
                    rules="aacr"
                    source="naf">
-            <part>Rossiter, Clinton, 1917-1970</part>
+            <part localtype="agent_person">Rossiter, Clinton, 1917-1970</part>
          </persname>
          <persname source="local">
-            <part>Sadler, Michael Thomas Carey, 1916-1942</part>
+            <part localtype="agent_person">Sadler, Michael Thomas Carey, 1916-1942</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no2010151599"
                    rules="aacr"
                    source="naf">
-            <part>Wrong, Humphrey Hume, 1894-1954</part>
+            <part localtype="agent_person">Wrong, Humphrey Hume, 1894-1954</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref8" level="series">
+         <c altrender="/repositories/12/archival_objects/1193157"
+            id="ref8"
+            level="series">
             <did>
                <unittitle>Inventory</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1807-1842, 1929-1948">
+               <unitdatestructured altrender="1807-1842, 1929-1948"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1807">1807</fromdate>
                      <todate standarddate="1948">1948</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref10" level="file">
+            <c altrender="/repositories/12/archival_objects/1193158"
+               id="ref10"
+               level="file">
                <did>
                   <unittitle>Letters</unittitle>
                </did>
-               <c id="ref11" level="file">
+               <c altrender="/repositories/12/archival_objects/1193159"
+                  id="ref11"
+                  level="file">
                   <did>
                      <unittitle>Bainton, Roland H.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947">
+                     <unitdatestructured altrender="1947" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1947">1947</fromdate>
                            <todate standarddate="1947">1947</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref11_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1</container>
                   </did>
                </c>
-               <c id="ref12" level="file">
+               <c altrender="/repositories/12/archival_objects/1193160"
+                  id="ref12"
+                  level="file">
                   <did>
                      <unittitle>Bateson, Frederick Wilse</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1933">
+                     <unitdatestructured altrender="1933" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1933">1933</fromdate>
                            <todate standarddate="1933">1933</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref12_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
                   </did>
                </c>
-               <c id="ref13" level="file">
+               <c altrender="/repositories/12/archival_objects/1193161"
+                  id="ref13"
+                  level="file">
                   <did>
                      <unittitle>Bell, Herbert F.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947">
+                     <unitdatestructured altrender="1947" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1947">1947</fromdate>
                            <todate standarddate="1947">1947</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref13_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">1</container>
                   </did>
                </c>
-               <c id="ref14" level="file">
+               <c altrender="/repositories/12/archival_objects/1193162"
+                  id="ref14"
+                  level="file">
                   <did>
                      <unittitle>Clark, Charles E.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947">
+                     <unitdatestructured altrender="1947" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1947">1947</fromdate>
                            <todate standarddate="1947">1947</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref14_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">2</container>
                   </did>
                </c>
-               <c id="ref15" level="file">
+               <c altrender="/repositories/12/archival_objects/1193163"
+                  id="ref15"
+                  level="file">
                   <did>
                      <unittitle>Cotton, R.C.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1933">
+                     <unitdatestructured altrender="1933" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1933">1933</fromdate>
                            <todate standarddate="1933">1933</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref15_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">2</container>
                   </did>
                </c>
-               <c id="ref16" level="file">
+               <c altrender="/repositories/12/archival_objects/1193164"
+                  id="ref16"
+                  level="file">
                   <did>
                      <unittitle>Curtis, Lewis P.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947">
+                     <unitdatestructured altrender="1947" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1947">1947</fromdate>
                            <todate standarddate="1947">1947</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref16_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">2</container>
                   </did>
                </c>
-               <c id="ref17" level="file">
+               <c altrender="/repositories/12/archival_objects/1193165"
+                  id="ref17"
+                  level="file">
                   <did>
                      <unittitle>Evans, Matthew</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1948">
+                     <unitdatestructured altrender="1948" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1948">1948</fromdate>
                            <todate standarddate="1948">1948</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">3</container>
                   </did>
                </c>
-               <c id="ref18" level="file">
+               <c altrender="/repositories/12/archival_objects/1193166"
+                  id="ref18"
+                  level="file">
                   <did>
                      <unittitle>Finer, Herman</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947">
+                     <unitdatestructured altrender="1947" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1947">1947</fromdate>
                            <todate standarddate="1947">1947</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref18_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">3</container>
                   </did>
                </c>
-               <c id="ref19" level="file">
+               <c altrender="/repositories/12/archival_objects/1193167"
+                  id="ref19"
+                  level="file">
                   <did>
                      <unittitle>Greenway, John</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1948">
+                     <unitdatestructured altrender="1948" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1948">1948</fromdate>
                            <todate standarddate="1948">1948</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref19_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">3</container>
                   </did>
                </c>
-               <c id="ref20" level="file">
+               <c altrender="/repositories/12/archival_objects/1193168"
+                  id="ref20"
+                  level="file">
                   <did>
                      <unittitle>Halliday, W.R.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1933">
+                     <unitdatestructured altrender="1933" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1933">1933</fromdate>
                            <todate standarddate="1933">1933</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref20_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">4</container>
                   </did>
                </c>
-               <c id="ref21" level="file">
+               <c altrender="/repositories/12/archival_objects/1193169"
+                  id="ref21"
+                  level="file">
                   <did>
                      <unittitle>Hammond, John Lawrence Le Breton</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1929">
+                     <unitdatestructured altrender="1929" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1929">1929</fromdate>
                            <todate standarddate="1929">1929</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref21_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">4</container>
                   </did>
                </c>
-               <c id="ref22" level="file">
+               <c altrender="/repositories/12/archival_objects/1193170"
+                  id="ref22"
+                  level="file">
                   <did>
                      <unittitle>Hodgskin, T. Ellett</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1932-1933">
+                     <unitdatestructured altrender="1932-1933" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1932">1932</fromdate>
                            <todate standarddate="1933">1933</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref22_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">4</container>
                   </did>
                </c>
-               <c id="ref23" level="file">
+               <c altrender="/repositories/12/archival_objects/1193171"
+                  id="ref23"
+                  level="file">
                   <did>
                      <unittitle>Johnson, Edgar</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1948">
+                     <unitdatestructured altrender="1948" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1948">1948</fromdate>
                            <todate standarddate="1948">1948</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref23_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">5</container>
                   </did>
                </c>
-               <c id="ref24" level="file">
+               <c altrender="/repositories/12/archival_objects/1193172"
+                  id="ref24"
+                  level="file">
                   <did>
                      <unittitle>Kelsen, Hans</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947">
+                     <unitdatestructured altrender="1947" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1947">1947</fromdate>
                            <todate standarddate="1947">1947</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref24_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">5</container>
                   </did>
                </c>
-               <c id="ref25" level="file">
+               <c altrender="/repositories/12/archival_objects/1193173"
+                  id="ref25"
+                  level="file">
                   <did>
                      <unittitle>Macmurray, John</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1936">
+                     <unitdatestructured altrender="1936" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1936">1936</fromdate>
                            <todate standarddate="1936">1936</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref25_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">5</container>
                   </did>
                </c>
-               <c id="ref26" level="file">
+               <c altrender="/repositories/12/archival_objects/1193174"
+                  id="ref26"
+                  level="file">
                   <did>
                      <unittitle>Mitchell, Broadus</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947">
+                     <unitdatestructured altrender="1947" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1947">1947</fromdate>
                            <todate standarddate="1947">1947</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref26_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">5</container>
                   </did>
                </c>
-               <c id="ref27" level="file">
+               <c altrender="/repositories/12/archival_objects/1193175"
+                  id="ref27"
+                  level="file">
                   <did>
                      <unittitle>Niebuhr, H. Richard</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947">
+                     <unitdatestructured altrender="1947" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1947">1947</fromdate>
                            <todate standarddate="1947">1947</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref27_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">6</container>
                   </did>
                </c>
-               <c id="ref28" level="file">
+               <c altrender="/repositories/12/archival_objects/1193176"
+                  id="ref28"
+                  level="file">
                   <did>
                      <unittitle>Oxford University Press</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1948">
+                     <unitdatestructured altrender="1948" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1948">1948</fromdate>
                            <todate standarddate="1948">1948</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref28_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">6</container>
                   </did>
                </c>
-               <c id="ref29" level="file">
+               <c altrender="/repositories/12/archival_objects/1193177"
+                  id="ref29"
+                  level="file">
                   <did>
                      <unittitle>Read, Herbert</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1946">
+                     <unitdatestructured altrender="1946" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1946">1946</fromdate>
                            <todate standarddate="1946">1946</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref29_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">6</container>
                   </did>
                </c>
-               <c id="ref30" level="file">
+               <c altrender="/repositories/12/archival_objects/1193178"
+                  id="ref30"
+                  level="file">
                   <did>
                      <unittitle>Rossiter, Clinton L.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1949">
+                     <unitdatestructured altrender="1949" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1949">1949</fromdate>
                            <todate standarddate="1949">1949</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref30_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">6</container>
                   </did>
                </c>
-               <c id="ref31" level="file">
+               <c altrender="/repositories/12/archival_objects/1193179"
+                  id="ref31"
+                  level="file">
                   <did>
                      <unittitle>Smailes, Thomas, mayor of Huddersfield</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947">
+                     <unitdatestructured altrender="1947" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1947">1947</fromdate>
                            <todate standarddate="1947">1947</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref31_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">7</container>
                   </did>
                </c>
-               <c id="ref32" level="file">
+               <c altrender="/repositories/12/archival_objects/1193180"
+                  id="ref32"
+                  level="file">
                   <did>
                      <unittitle>Viner, Jacob</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947">
+                     <unitdatestructured altrender="1947" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1947">1947</fromdate>
                            <todate standarddate="1947">1947</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref32_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">7</container>
                   </did>
                </c>
-               <c id="ref33" level="file">
+               <c altrender="/repositories/12/archival_objects/1193181"
+                  id="ref33"
+                  level="file">
                   <did>
                      <unittitle>Wallas, May Graham</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1932">
+                     <unitdatestructured altrender="1932" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1932">1932</fromdate>
                            <todate standarddate="1932">1932</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref33_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">7</container>
                   </did>
                </c>
-               <c id="ref34" level="file">
+               <c altrender="/repositories/12/archival_objects/1193182"
+                  id="ref34"
+                  level="file">
                   <did>
                      <unittitle>Wrong, Hume</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1931">
+                     <unitdatestructured altrender="1931" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1931">1931</fromdate>
                            <todate standarddate="1931">1931</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref34_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">7</container>
                   </did>
                </c>
-               <c id="ref35" level="file">
+               <c altrender="/repositories/12/archival_objects/1193183"
+                  id="ref35"
+                  level="file">
                   <did>
                      <unittitle>Unidentified</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947">
+                     <unitdatestructured altrender="1947" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1947">1947</fromdate>
                            <todate standarddate="1947">1947</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref35_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -638,99 +722,128 @@
                   </did>
                </c>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1193184"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>"Notebook on Karl Marx"</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132951 /locations/9"
                              containerid="39002042273970"
+                             encodinganalog="archive letter"
                              id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">9</container>
                </did>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1193185"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>Notebook on concepts and theories of the nature of the universe</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132951 /locations/9"
                              containerid="39002042273970"
+                             encodinganalog="archive letter"
                              id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">10</container>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1193186"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>Leopold Boissier: "Droit Constitutionnel Comparé"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1948">
+                  <unitdatestructured altrender="1948" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1948">1948</fromdate>
                         <todate standarddate="1948">1948</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/132951 /locations/9"
                              containerid="39002042273970"
+                             encodinganalog="archive letter"
                              id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">11</container>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1193187"
+               id="ref39"
+               level="file">
                <did>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132951 /locations/9"
                              containerid="39002042273970"
+                             encodinganalog="archive letter"
                              id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">11</container>
                </did>
             </c>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1193188"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>Oastler biography</unittitle>
                </did>
-               <c id="ref41" level="file">
+               <c altrender="/repositories/12/archival_objects/1193189"
+                  id="ref41"
+                  level="file">
                   <did>
                      <unittitle>Notebooks</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref41_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">12</container>
                   </did>
                </c>
-               <c id="ref42" level="file">
+               <c altrender="/repositories/12/archival_objects/1193190"
+                  id="ref42"
+                  level="file">
                   <did>
                      <unittitle>Photographs</unittitle>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref42_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">13</container>
                   </did>
-                  <c id="ref81" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193191"
+                     id="ref81"
+                     level="file">
                      <did>
                         <unittitle>Richard Oastler, the Factory King in his study at Fixby Hall,
 Huddersfield</unittitle>
                      </did>
                   </c>
-                  <c id="ref82" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193192"
+                     id="ref82"
+                     level="file">
                      <did>
                         <unittitle>Richard Oastler at the age of forty-eight</unittitle>
                      </did>
                   </c>
-                  <c id="ref83" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193193"
+                     id="ref83"
+                     level="file">
                      <did>
                         <unittitle>Oastler in his prison cell (3)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1842">
+                        <unitdatestructured altrender="1842" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1842">1842</fromdate>
                               <todate standarddate="1842">1842</todate>
@@ -738,57 +851,77 @@ Huddersfield</unittitle>
                         </unitdatestructured>
                      </did>
                   </c>
-                  <c id="ref84" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193194"
+                     id="ref84"
+                     level="file">
                      <did>
                         <unittitle>Oastler in old age, from a photograph taken shortly before his death (3)</unittitle>
                      </did>
                   </c>
-                  <c id="ref85" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193195"
+                     id="ref85"
+                     level="file">
                      <did>
                         <unittitle>Statue of Richard Oastler now in Rawson Square, Bradford. Unveiled by Lord Shaftesbury, 1869. The reproduction is taken from the <title render="italic">
                               <part>Illustrated London News</part>
                            </title> which erroneously locates the statue at Halifax (3)</unittitle>
                      </did>
                   </c>
-                  <c id="ref86" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193196"
+                     id="ref86"
+                     level="file">
                      <did>
                         <unittitle>Another view of the above statue</unittitle>
                      </did>
                   </c>
-                  <c id="ref87" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193197"
+                     id="ref87"
+                     level="file">
                      <did>
                         <unittitle>Fixby Hall, near Huddersfield as it was during Oastler's stewardship</unittitle>
                      </did>
                   </c>
-                  <c id="ref88" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193198"
+                     id="ref88"
+                     level="file">
                      <did>
                         <unittitle>G.S. Bull (2)</unittitle>
                      </did>
                   </c>
-                  <c id="ref89" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193199"
+                     id="ref89"
+                     level="file">
                      <did>
                         <unittitle>Thomas Thornhill (2)</unittitle>
                      </did>
                   </c>
-                  <c id="ref90" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193200"
+                     id="ref90"
+                     level="file">
                      <did>
                         <unittitle>Joseph Raynor Stephens</unittitle>
                      </did>
                   </c>
-                  <c id="ref91" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193201"
+                     id="ref91"
+                     level="file">
                      <did>
                         <unittitle>Henry Hetherington, leader of the agitation against taxes on newspaper, and editor of "The Poor Man's Guardian" (2)</unittitle>
                      </did>
                   </c>
-                  <c id="ref92" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193202"
+                     id="ref92"
+                     level="file">
                      <did>
                         <unittitle>Feargus O'Connor (2)</unittitle>
                      </did>
                   </c>
-                  <c id="ref93" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193203"
+                     id="ref93"
+                     level="file">
                      <did>
                         <unittitle>The Oastler National Testimonial Medal (front and back)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1838">
+                        <unitdatestructured altrender="1838" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1838">1838</fromdate>
                               <todate standarddate="1838">1838</todate>
@@ -796,25 +929,33 @@ Huddersfield</unittitle>
                         </unitdatestructured>
                      </did>
                   </c>
-                  <c id="ref94" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193204"
+                     id="ref94"
+                     level="file">
                      <did>
                         <unittitle>Memorial to Richard Oastler (2)</unittitle>
                      </did>
                   </c>
-                  <c id="ref95" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193205"
+                     id="ref95"
+                     level="file">
                      <did>
                         <unittitle>Busfield Ferrand</unittitle>
                      </did>
                   </c>
-                  <c id="ref96" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193206"
+                     id="ref96"
+                     level="file">
                      <did>
                         <unittitle>Michael T. Sadler</unittitle>
                      </did>
                   </c>
-                  <c id="ref97" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193207"
+                     id="ref97"
+                     level="file">
                      <did>
                         <unittitle>Richard Oastler</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1831">
+                        <unitdatestructured altrender="1831" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1831">1831</fromdate>
                               <todate standarddate="1831">1831</todate>
@@ -823,20 +964,25 @@ Huddersfield</unittitle>
                      </did>
                   </c>
                </c>
-               <c id="ref43" level="file">
+               <c altrender="/repositories/12/archival_objects/1193208"
+                  id="ref43"
+                  level="file">
                   <did>
                      <unittitle>Correspondence</unittitle>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref43_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref43_c2" localtype="folder" parent="aspace_ref43_c1">14</container>
                   </did>
-                  <c id="ref98" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193209"
+                     id="ref98"
+                     level="file">
                      <did>
                         <unittitle>ALS, Richard Oastler to Lord Viscount Milton (photostat), 3 pages</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1807 July 15">
+                        <unitdatestructured altrender="1807 July 15" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1807">1807</fromdate>
                               <todate standarddate="1807">1807</todate>
@@ -844,10 +990,12 @@ Huddersfield</unittitle>
                         </unitdatestructured>
                      </did>
                   </c>
-                  <c id="ref99" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193210"
+                     id="ref99"
+                     level="file">
                      <did>
                         <unittitle>ALS, Richard Oastler to Lord Viscount Milton (photostat), 4 pages</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1807 July 18">
+                        <unitdatestructured altrender="1807 July 18" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1807">1807</fromdate>
                               <todate standarddate="1807">1807</todate>
@@ -856,20 +1004,25 @@ Huddersfield</unittitle>
                      </did>
                   </c>
                </c>
-               <c id="ref44" level="file">
+               <c altrender="/repositories/12/archival_objects/1193211"
+                  id="ref44"
+                  level="file">
                   <did>
                      <unittitle>Correspondence</unittitle>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref44_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">15</container>
                   </did>
-                  <c id="ref100" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193212"
+                     id="ref100"
+                     level="file">
                      <did>
                         <unittitle>ALS, Richard Oastler to Thomas Daniels, 3 pages</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832 March 14">
+                        <unitdatestructured altrender="1832 March 14" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1832">1832</todate>
@@ -877,10 +1030,12 @@ Huddersfield</unittitle>
                         </unitdatestructured>
                      </did>
                   </c>
-                  <c id="ref101" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193213"
+                     id="ref101"
+                     level="file">
                      <did>
                         <unittitle>ALS, Richard Oastler to Thomas Daniels, 3 pages, address on verso</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832 August 1">
+                        <unitdatestructured altrender="1832 August 1" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1832">1832</todate>
@@ -888,10 +1043,14 @@ Huddersfield</unittitle>
                         </unitdatestructured>
                      </did>
                   </c>
-                  <c id="ref102" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193214"
+                     id="ref102"
+                     level="file">
                      <did>
                         <unittitle>ALS, Richard Oastler to Thomas Daniels, 3 pages, address on verso</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832 August 23">
+                        <unitdatestructured altrender="1832 August 23"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1832">1832</todate>
@@ -899,10 +1058,14 @@ Huddersfield</unittitle>
                         </unitdatestructured>
                      </did>
                   </c>
-                  <c id="ref103" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193215"
+                     id="ref103"
+                     level="file">
                      <did>
                         <unittitle>ALS, Mary Oastler to Thomas Daniels, 1 page, address on verso</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832 September 1">
+                        <unitdatestructured altrender="1832 September 1"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1832">1832</todate>
@@ -910,10 +1073,14 @@ Huddersfield</unittitle>
                         </unitdatestructured>
                      </did>
                   </c>
-                  <c id="ref104" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193216"
+                     id="ref104"
+                     level="file">
                      <did>
                         <unittitle>ALS, Richard Oastler to Thomas Daniels, 4 pages, address on last page</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832 September 2">
+                        <unitdatestructured altrender="1832 September 2"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1832">1832</todate>
@@ -921,10 +1088,14 @@ Huddersfield</unittitle>
                         </unitdatestructured>
                      </did>
                   </c>
-                  <c id="ref105" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193217"
+                     id="ref105"
+                     level="file">
                      <did>
                         <unittitle>ALS, Richard Oastler to Thomas Daniels, 4 pages, address on last page</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832 September 17">
+                        <unitdatestructured altrender="1832 September 17"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1832">1832</todate>
@@ -932,10 +1103,14 @@ Huddersfield</unittitle>
                         </unitdatestructured>
                      </did>
                   </c>
-                  <c id="ref106" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193218"
+                     id="ref106"
+                     level="file">
                      <did>
                         <unittitle>ALS, Richard Oastler to Thomas Daniels, 1 page, address on verso</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832 September 24">
+                        <unitdatestructured altrender="1832 September 24"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1832">1832</todate>
@@ -943,10 +1118,14 @@ Huddersfield</unittitle>
                         </unitdatestructured>
                      </did>
                   </c>
-                  <c id="ref107" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193219"
+                     id="ref107"
+                     level="file">
                      <did>
                         <unittitle>ALS, Richard Oastler to Thomas Daniels, 2 pages, address on verso</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832 October 2 ">
+                        <unitdatestructured altrender="1832 October 2 "
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1832">1832</todate>
@@ -954,10 +1133,14 @@ Huddersfield</unittitle>
                         </unitdatestructured>
                      </did>
                   </c>
-                  <c id="ref108" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193220"
+                     id="ref108"
+                     level="file">
                      <did>
                         <unittitle>ALS, Richard Oastler to Thomas Daniels, 2 pages, address on verso</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832 November 29">
+                        <unitdatestructured altrender="1832 November 29"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1832">1832</todate>
@@ -965,10 +1148,14 @@ Huddersfield</unittitle>
                         </unitdatestructured>
                      </did>
                   </c>
-                  <c id="ref109" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193221"
+                     id="ref109"
+                     level="file">
                      <did>
                         <unittitle>ALS, Michael Thomas Sadler to Thomas Daniels, 2 pages, address on verso</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender=" 1832 November 30">
+                        <unitdatestructured altrender=" 1832 November 30"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1832">1832</todate>
@@ -977,20 +1164,25 @@ Huddersfield</unittitle>
                      </did>
                   </c>
                </c>
-               <c id="ref45" level="file">
+               <c altrender="/repositories/12/archival_objects/1193222"
+                  id="ref45"
+                  level="file">
                   <did>
                      <unittitle>Reproductions of sketches</unittitle>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                 containerid="39002042273970"
+                                encodinganalog="archive letter"
                                 id="aspace_ref45_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref45_c2" localtype="folder" parent="aspace_ref45_c1">16</container>
                   </did>
-                  <c id="ref110" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193223"
+                     id="ref110"
+                     level="file">
                      <did>
                         <unittitle>The Cloth Hall, the White Hart Inn &amp; Market Street</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="Circa 1800">
+                        <unitdatestructured altrender="Circa 1800" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1795">1795</fromdate>
                               <todate standarddate="1805">1805</todate>
@@ -998,10 +1190,12 @@ Huddersfield</unittitle>
                         </unitdatestructured>
                      </did>
                   </c>
-                  <c id="ref111" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193224"
+                     id="ref111"
+                     level="file">
                      <did>
                         <unittitle>Old Market Place &amp; the George Inn, Huddersfield</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="Circa 1800">
+                        <unitdatestructured altrender="Circa 1800" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1795">1795</fromdate>
                               <todate standarddate="1805">1805</todate>
@@ -1009,34 +1203,43 @@ Huddersfield</unittitle>
                         </unitdatestructured>
                      </did>
                   </c>
-                  <c id="ref112" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193225"
+                     id="ref112"
+                     level="file">
                      <did>
                         <unittitle>Mr. Ferrand</unittitle>
-                        <unitdate unitdatetype="inclusive">Undated</unitdate>
+                        <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
                      </did>
                   </c>
-                  <c id="ref113" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193226"
+                     id="ref113"
+                     level="file">
                      <did>
                         <unittitle>Michael Thomas Sadler, author of "The Law of Population"</unittitle>
-                        <unitdate unitdatetype="inclusive">Undated</unitdate>
+                        <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
                      </did>
                   </c>
                </c>
-               <c id="ref46" level="file">
+               <c altrender="/repositories/12/archival_objects/1193227"
+                  id="ref46"
+                  level="file">
                   <did>
                      <unittitle>Posters &amp; handbills (positive photostats)</unittitle>
                   </did>
-                  <c id="ref47" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193228"
+                     id="ref47"
+                     level="file">
                      <did>
                         <unittitle>The Pilgrimage to York  (2)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832">
+                        <unitdatestructured altrender="1832" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1832">1832</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref47_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
@@ -1047,17 +1250,20 @@ Huddersfield</unittitle>
                         <p>The poster put out by Oastler to announce the County Meeting of April 24, 1832. This was distributed throughout the Riding.</p>
                      </scopecontent>
                   </c>
-                  <c id="ref48" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193229"
+                     id="ref48"
+                     level="file">
                      <did>
                         <unittitle>The Pilgrimage to York (2)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832 April 17">
+                        <unitdatestructured altrender="1832 April 17" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1832">1832</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref48_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
@@ -1068,17 +1274,20 @@ Huddersfield</unittitle>
                         <p>A poster put out by the Huddersfield Short Time Committee to explain the plans for their area. Similar posters were put out by the other local committees.</p>
                      </scopecontent>
                   </c>
-                  <c id="ref49" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193230"
+                     id="ref49"
+                     level="file">
                      <did>
                         <unittitle>The Leeds Electoral Contest: October to December (2)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832">
+                        <unitdatestructured altrender="1832" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1832">1832</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref49_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
@@ -1089,17 +1298,20 @@ Huddersfield</unittitle>
                         <p>One of the many appeals on behalf of Michael Sadler sent sent to Leeds by the operatives of other manufacturing districts.</p>
                      </odd>
                   </c>
-                  <c id="ref50" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193231"
+                     id="ref50"
+                     level="file">
                      <did>
                         <unittitle>Propaganda by the Millowners (2)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1833 March 22">
+                        <unitdatestructured altrender="1833 March 22" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1833">1833</fromdate>
                               <todate standarddate="1833">1833</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref50_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
@@ -1112,17 +1324,20 @@ Huddersfield</unittitle>
                            </title>had been published ten weeks earlier.</p>
                      </odd>
                   </c>
-                  <c id="ref51" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193232"
+                     id="ref51"
+                     level="file">
                      <did>
                         <unittitle>Reply to the Millowners (2)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1833 April 5">
+                        <unitdatestructured altrender="1833 April 5" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1833">1833</fromdate>
                               <todate standarddate="1833">1833</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref51_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
@@ -1133,17 +1348,20 @@ Huddersfield</unittitle>
                         <p>A poster put out by the Lancashire Central Short Time Committee in reply to the one reproduced above. Similar posters were distributed by the Yorkshire Central Committee, as well as pamphlets developing the same arguments.</p>
                      </odd>
                   </c>
-                  <c id="ref52" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193233"
+                     id="ref52"
+                     level="file">
                      <did>
                         <unittitle>General Summons - To the West Riding meeting on Wibsey Low Moor, July 1  (2)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1833">
+                        <unitdatestructured altrender="1833" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1833">1833</fromdate>
                               <todate standarddate="1833">1833</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref52_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
@@ -1154,17 +1372,20 @@ Huddersfield</unittitle>
                         <p>Put out by the Huddersfield Short Time Committee.</p>
                      </odd>
                   </c>
-                  <c id="ref53" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193234"
+                     id="ref53"
+                     level="file">
                      <did>
                         <unittitle>Directions for the West Riding Demonstration of July 1  (2)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1833">
+                        <unitdatestructured altrender="1833" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1833">1833</fromdate>
                               <todate standarddate="1833">1833</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref53_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
@@ -1175,17 +1396,20 @@ Huddersfield</unittitle>
                         <p>Put out by the Central Committee, Bradford.</p>
                      </odd>
                   </c>
-                  <c id="ref54" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193235"
+                     id="ref54"
+                     level="file">
                      <did>
                         <unittitle>The Protest Against the Royal Commission (2)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1833 June 5">
+                        <unitdatestructured altrender="1833 June 5" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1833">1833</fromdate>
                               <todate standarddate="1833">1833</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref54_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
@@ -1196,17 +1420,20 @@ Huddersfield</unittitle>
                         <p>One of the many posters put out by the West Riding Central Short Time Committee calling for a meeting of protest against the Royal Commission. Similar posters were used by the local Committees at Leeds, Huddersield, Dewsbury &amp; elsewhere.</p>
                      </odd>
                   </c>
-                  <c id="ref55" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193236"
+                     id="ref55"
+                     level="file">
                      <did>
                         <unittitle>Protest Against the Royal Commission (2)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1833 June 15">
+                        <unitdatestructured altrender="1833 June 15" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1833">1833</fromdate>
                               <todate standarddate="1833">1833</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref55_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
@@ -1217,68 +1444,84 @@ Huddersfield</unittitle>
                         <p>Another poster distributed throughout the West Riding by the local Short Time Committees.</p>
                      </odd>
                   </c>
-                  <c id="ref56" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193237"
+                     id="ref56"
+                     level="file">
                      <did>
                         <unittitle>Mr. Oastler's Farewell to Fixby Hall</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1833 August 11">
+                        <unitdatestructured altrender="1833 August 11"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1833">1833</fromdate>
                               <todate standarddate="1833">1833</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref56_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref56_c2" localtype="folder" parent="aspace_ref56_c1">17</container>
                      </did>
                   </c>
-                  <c id="ref57" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193238"
+                     id="ref57"
+                     level="file">
                      <did>
                         <unittitle>Richard Oastler's reply to the "Factory Masters" in Cragg Dale (2)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1833">
+                        <unitdatestructured altrender="1833" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1833">1833</fromdate>
                               <todate standarddate="1833">1833</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref57_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref57_c2" localtype="folder" parent="aspace_ref57_c1">17</container>
                      </did>
                   </c>
-                  <c id="ref58" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193239"
+                     id="ref58"
+                     level="file">
                      <did>
                         <unittitle>Poster announcing the appearance of Richard Oastler &amp; G.S. Bull (2)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1833 August 22">
+                        <unitdatestructured altrender="1833 August 22"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1833">1833</fromdate>
                               <todate standarddate="1833">1833</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref58_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref58_c2" localtype="folder" parent="aspace_ref58_c1">17</container>
                      </did>
                   </c>
-                  <c id="ref59" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193240"
+                     id="ref59"
+                     level="file">
                      <did>
                         <unittitle>Reply to R. Oastler by the "Factory Masters" in Cragg-Valley (2)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1833 July 22">
+                        <unitdatestructured altrender="1833 July 22" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1833">1833</fromdate>
                               <todate standarddate="1833">1833</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref59_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
@@ -1286,106 +1529,130 @@ Huddersfield</unittitle>
                      </did>
                   </c>
                </c>
-               <c id="ref60" level="file">
+               <c altrender="/repositories/12/archival_objects/1193241"
+                  id="ref60"
+                  level="file">
                   <did>
                      <unittitle>Reprints</unittitle>
                   </did>
-                  <c id="ref61" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193242"
+                     id="ref61"
+                     level="file">
                      <did>
                         <unittitle>
                            <title render="italic">
                               <part>Report of the Proceedings of the Public Meeting on the Ten Hours Act, on the 25th of July, 1849</part>
                            </title>
                         </unittitle>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref61_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref61_c2" localtype="folder" parent="aspace_ref61_c1">18</container>
                      </did>
                   </c>
-                  <c id="ref62" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193243"
+                     id="ref62"
+                     level="file">
                      <did>
                         <unittitle>Clippings pertaining to Richard Oastler</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1837 May 1">
+                        <unitdatestructured altrender="1837 May 1" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1837">1837</fromdate>
                               <todate standarddate="1837">1837</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref62_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref62_c2" localtype="folder" parent="aspace_ref62_c1">19</container>
                      </did>
                   </c>
-                  <c id="ref63" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193244"
+                     id="ref63"
+                     level="file">
                      <did>
                         <unittitle>Biographical Sketch of Richard Oastler from the<title render="italic">
                               <part>Illustrated London News</part>
                            </title>
                         </unittitle>
-                        <unitdate unitdatetype="inclusive">Undated</unitdate>
-                        <container altrender="archive letter"
+                        <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref63_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref63_c2" localtype="folder" parent="aspace_ref63_c1">20</container>
                      </did>
                   </c>
-                  <c id="ref64" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193245"
+                     id="ref64"
+                     level="file">
                      <did>
                         <unittitle>Dustjacket for <title render="italic">
                               <part>Tory Radical: The Life of Richard Oastler</part>
                            </title> by Cecil Driver</unittitle>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref64_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref64_c2" localtype="folder" parent="aspace_ref64_c1">21</container>
                      </did>
                   </c>
-                  <c id="ref65" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193246"
+                     id="ref65"
+                     level="file">
                      <did>
                         <unittitle>Agreement between Cecil Driver and Oxford University Press, New York, Inc. for the publication of <title render="italic">
                               <part>Tory Radical: The Life of Richard Oastler</part>
                            </title>
                         </unittitle>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref65_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref65_c2" localtype="folder" parent="aspace_ref65_c1">21</container>
                      </did>
                   </c>
-                  <c id="ref66" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193247"
+                     id="ref66"
+                     level="file">
                      <did>
                         <unittitle>Clippings &amp; reviews of <title render="italic">
                               <part>Tory Radical: The Life of Richard
 Oastler</part>
                            </title>
                         </unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1947 January-Aug, 1948 February">
+                        <unitdatestructured altrender="1947 January-Aug, 1948 February"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1947">1947</fromdate>
                               <todate standarddate="1948">1948</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive letter"
+                        <container altrender="/repositories/12/top_containers/132951 /locations/9"
                                    containerid="39002042273970"
+                                   encodinganalog="archive letter"
                                    id="aspace_ref66_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref66_c2" localtype="folder" parent="aspace_ref66_c1">22</container>
                      </did>
                   </c>
-                  <c id="ref67" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193248"
+                     id="ref67"
+                     level="file">
                      <did>
                         <unittitle>Correspondence about <title render="italic">
                               <part>Tory Radical</part>
@@ -1398,129 +1665,173 @@ Oastler</part>
                         </p>
                      </odd>
                   </c>
-                  <c id="ref68" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193249"
+                     id="ref68"
+                     level="file">
                      <did>
                         <unittitle>Posters &amp; handbills (one positive &amp; one negative photostat of each)</unittitle>
-                        <container containerid="39002042624768"
+                        <container altrender="/repositories/12/top_containers/132952 /locations/9"
+                                   containerid="39002042624768"
                                    id="aspace_ref68_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
                      </did>
-                     <c id="ref124" level="file">
+                     <c altrender="/repositories/12/archival_objects/1193250"
+                        id="ref124"
+                        level="file">
                         <did>
                            <unittitle>The Pilgrimage to York</unittitle>
                         </did>
                      </c>
-                     <c id="ref125" level="file">
+                     <c altrender="/repositories/12/archival_objects/1193251"
+                        id="ref125"
+                        level="file">
                         <did>
                            <unittitle>The Pilgrimage to York</unittitle>
                         </did>
                      </c>
-                     <c id="ref126" level="file">
+                     <c altrender="/repositories/12/archival_objects/1193252"
+                        id="ref126"
+                        level="file">
                         <did>
                            <unittitle>The Leeds Electoral Contest</unittitle>
                         </did>
                      </c>
-                     <c id="ref127" level="file">
+                     <c altrender="/repositories/12/archival_objects/1193253"
+                        id="ref127"
+                        level="file">
                         <did>
                            <unittitle>Propaganda by the Millowners</unittitle>
                         </did>
                      </c>
-                     <c id="ref128" level="file">
+                     <c altrender="/repositories/12/archival_objects/1193254"
+                        id="ref128"
+                        level="file">
                         <did>
                            <unittitle>Reply to the Millowners</unittitle>
                         </did>
                      </c>
-                     <c id="ref129" level="file">
+                     <c altrender="/repositories/12/archival_objects/1193255"
+                        id="ref129"
+                        level="file">
                         <did>
                            <unittitle>General Summons</unittitle>
                         </did>
                      </c>
-                     <c id="ref130" level="file">
+                     <c altrender="/repositories/12/archival_objects/1193256"
+                        id="ref130"
+                        level="file">
                         <did>
                            <unittitle>Directions for the West Riding Demonstration</unittitle>
                         </did>
                      </c>
-                     <c id="ref131" level="file">
+                     <c altrender="/repositories/12/archival_objects/1193257"
+                        id="ref131"
+                        level="file">
                         <did>
                            <unittitle>The Protest Against the Royal Commission</unittitle>
                         </did>
                      </c>
-                     <c id="ref132" level="file">
+                     <c altrender="/repositories/12/archival_objects/1193258"
+                        id="ref132"
+                        level="file">
                         <did>
                            <unittitle>Protest Against the Royal Commission</unittitle>
                         </did>
                      </c>
-                     <c id="ref133" level="file">
+                     <c altrender="/repositories/12/archival_objects/1193259"
+                        id="ref133"
+                        level="file">
                         <did>
                            <unittitle>Protest Against the Defeat of the Ten Hours Clause</unittitle>
                         </did>
                      </c>
-                     <c id="ref134" level="file">
+                     <c altrender="/repositories/12/archival_objects/1193260"
+                        id="ref134"
+                        level="file">
                         <did>
                            <unittitle>Richard Oastler's reply to the "Factory Masters"</unittitle>
                         </did>
                      </c>
-                     <c id="ref135" level="file">
+                     <c altrender="/repositories/12/archival_objects/1193261"
+                        id="ref135"
+                        level="file">
                         <did>
                            <unittitle>Poster announcing the appearance of Richard Oastler &amp; G.S. Bull</unittitle>
                         </did>
                      </c>
-                     <c id="ref136" level="file">
+                     <c altrender="/repositories/12/archival_objects/1193262"
+                        id="ref136"
+                        level="file">
                         <did>
                            <unittitle>Reply to R. Oastler by the "Factory Masters" (2 positives &amp; 1 negative photostat)</unittitle>
                         </did>
                      </c>
                   </c>
                </c>
-               <c id="ref71" level="file">
+               <c altrender="/repositories/12/archival_objects/1193263"
+                  id="ref71"
+                  level="file">
                   <did>
                      <unittitle>Miscellaneous photostats</unittitle>
                   </did>
-                  <c id="ref72" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193264"
+                     id="ref72"
+                     level="file">
                      <did>
                         <unittitle>Portrait of the Late Richard Oastler, from "The Illustrated News of the World" (1 positive &amp; 2 negatives)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1861 October 19">
+                        <unitdatestructured altrender="1861 October 19"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1861">1861</fromdate>
                               <todate standarddate="1861">1861</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container containerid="39002042624768"
+                        <container altrender="/repositories/12/top_containers/132952 /locations/9"
+                                   containerid="39002042624768"
                                    id="aspace_ref72_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
                      </did>
                   </c>
-                  <c id="ref73" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193265"
+                     id="ref73"
+                     level="file">
                      <did>
                         <unittitle>Instructions to the Short Time Committees, Manchester (1 negative)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1833 April 24">
+                        <unitdatestructured altrender="1833 April 24" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1833">1833</fromdate>
                               <todate standarddate="1833">1833</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container containerid="39002042624768"
+                        <container altrender="/repositories/12/top_containers/132952 /locations/9"
+                                   containerid="39002042624768"
                                    id="aspace_ref73_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
                      </did>
                   </c>
-                  <c id="ref74" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193266"
+                     id="ref74"
+                     level="file">
                      <did>
                         <unittitle>Memorandum of 22 questions dealing with factory working conditions (1 negative) 3 pages</unittitle>
-                        <unitdate unitdatetype="inclusive">Undated</unitdate>
-                        <container containerid="39002042624768"
+                        <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                        <container altrender="/repositories/12/top_containers/132952 /locations/9"
+                                   containerid="39002042624768"
                                    id="aspace_ref74_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
                      </did>
                   </c>
-                  <c id="ref75" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193267"
+                     id="ref75"
+                     level="file">
                      <did>
                         <unittitle>Representation of Leeds [from the "Leeds Intelligencer" (1 negative) 2 pages</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832 jun 21">
+                        <unitdatestructured altrender="1832 jun 21" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1832">1832</todate>
@@ -1528,16 +1839,19 @@ Oastler</part>
                         </unitdatestructured>
                      </did>
                   </c>
-                  <c id="ref76" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193268"
+                     id="ref76"
+                     level="file">
                      <did>
                         <unittitle>Richard Oastler's participation in the proceedings at Leeds (1 negative) 6 pages</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832 June 15">
+                        <unitdatestructured altrender="1832 June 15" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1832">1832</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container containerid="39002042624768"
+                        <container altrender="/repositories/12/top_containers/132952 /locations/9"
+                                   containerid="39002042624768"
                                    id="aspace_ref76_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>

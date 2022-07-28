@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0437">mssa.ms.0437</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0437">mssa.ms.0437</recordid>
+      <otherrecordid localtype="BIB">614008</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Walter Keeler Scofield Papers
@@ -32,6 +34,14 @@
             <date>February 1980</date>
             <num>MS 437</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+            <controlnote localtype="digital">
+               <p>This collection contains <num localtype="objects" altrender="1">1</num> published digital object. And that object are comprised of <num localtype="files" altrender="1">1</num> digital files.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +49,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +63,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +72,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-03-31T07:07:07+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:06:15+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday March 31, 2020 at 07:07</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>March 1983</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:06</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2962" level="collection">
       <did>
          <unittitle>Walter Keeler Scofield papers</unittitle>
          <unitid>MS 437</unitid>
@@ -89,31 +95,30 @@
             <quantity>1</quantity>
             <unittype>Linear Foot</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1859-1910">
+         <unitdatestructured altrender="1859-1910" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1859">1859</fromdate>
                <todate standarddate="1910">1910</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_11a541fad644fa623fa06fc32bb9db82">Correspondence, diaries, journals, scrapbooks, photographs and miscellanea relating to Walter Keeler Scofield's career as naval surgeon during the Civil War and his later voyages to Europe, Asia, Africa, South America, and the West Indies.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Scofield, Walter Keeler, 1839-1910</part>
+               <part localtype="agent_person">Scofield, Walter Keeler, 1839-1910</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_f76492474cc8c90f9fc401affd70b4bf">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Edward C. Scofield, 1953-1962 and transferred from the Historical Medical Library, Yale University, 1983.</p>  
+         <p>Gift of Edward C. Scofield, 1953-1962 and transferred from the Historical Medical Library, Yale University, 1983.</p>
       </acqinfo>
       <accessrestrict id="aspace_81abe54e29b6e454b02eb4b039f4eb2f">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_b5ff12aefc3b2f3bea61ba3d31ba95e5">
          <head>Preferred Citation</head>
-         <p>Walter Keeler Scofield Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Walter Keeler Scofield Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_981dad0fc82cc37424f9a6f3ddb6bd97">
          <head>Scope and Contents</head>
@@ -124,139 +129,167 @@
          <p>Aside from a few notes on medical lectures, and miscellaneous papers relating to his family, the remainder of Scofield's papers are journals, logs, scrapbooks, and books of drawings and photographs from his cruises. Included are journals of a cruise to the West Indies and then to Europe on a good-will mission to Russia, 1866-1867, and a scrapbook of clippings, letters, and memorabilia pasted into a Russian copy of <emph render="italic">Moscow: A Detailed Historical and</emph>
             <emph render="italic">Archaeological</emph>
             <emph render="italic">Description of the City</emph>, by I. M. Snegirevii (1865); a log kept aboard the U.S.S. "Lackawanna" during a cruise to China and Japan in 1872-1875 and a sketch book from the same voyage; and a photograph album of famous people and places in Europe.</p>
-         <p>These papers were donated to Yale University by Edward A. Scofield between 1953-1962. The diaries and medical memorandum books were transferred to Manuscripts and Archives from the Historical Medical Library in 1983.</p>  
+         <p>These papers were donated to Yale University by Edward A. Scofield between 1953-1962. The diaries and medical memorandum books were transferred to Manuscripts and Archives from the Historical Medical Library in 1983.</p>
       </scopecontent>
       <bioghist id="aspace_0a806000bd3bf81e1d8700af58041abb">
          <head>Biographical / Historical</head>
-         <p>Graduated from Columbia in 1861; commissioned into the Navy in 1862, and served during the Civil War as a physician and surgeon; after the war was on the staff of the naval hospital in Norfolk, Va.; was stationed in China, Japan, South America, Africa, and Europe; in 1895 transferred to headquarters in Philadelphia and served there until his retirement.</p>  
+         <p>Graduated from Columbia in 1861; commissioned into the Navy in 1862, and served during the Civil War as a physician and surgeon; after the war was on the staff of the naval hospital in Norfolk, Va.; was stationed in China, Japan, South America, Africa, and Europe; in 1895 transferred to headquarters in Philadelphia and served there until his retirement.</p>
       </bioghist>
       <userestrict id="aspace_9a57baf359b7246e2d4bfca126a0c337">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85007241"
                   source="lcsh">
-            <part>Armed Forces</part>
+            <part localtype="topical">Armed Forces</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85083064"
                   source="lcsh">
-            <part>Medicine</part>
+            <part localtype="topical">Medicine</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85121579"
                   source="lcsh">
-            <part>Shipping</part>
+            <part localtype="topical">Shipping</part>
          </subject>
          <subject source="local">
-            <part>Travelers -- United States</part>
+            <part localtype="topical">Travelers</part>
+            <part localtype="geographic">United States</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85144443"
                   source="lcsh">
-            <part>Voyages and travels</part>
+            <part localtype="topical">Voyages and travels</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85008606"
                    source="lcsh">
-            <part>Asia</part>
+            <part localtype="geographic">Asia</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85045661"
                    source="lcsh">
-            <part>Europe -- Description and travel</part>
+            <part localtype="geographic">Europe</part>
+            <part localtype="topical">Description and travel</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85056605"
                    source="lcsh">
-            <part>Great Britain</part>
+            <part localtype="geographic">Great Britain</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n80126312"
                    source="lcsh">
-            <part>Soviet Union</part>
+            <part localtype="geographic">Soviet Union</part>
          </geogname>
          <geogname source="local">
-            <part>United States -- History -- Civil War, 1861-1865 -- Medical and sanitary affairs</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Civil War, 1861-1865</part>
+            <part localtype="topical">Medical and sanitary affairs</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140251"
                    source="lcsh">
-            <part>United States -- History -- Civil War, 1861-1865 -- Naval operations</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Civil War, 1861-1865</part>
+            <part localtype="topical">Naval operations</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140261"
                    source="lcsh">
-            <part>United States -- History -- Civil War, 1861-1865 -- Personal narratives</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Civil War, 1861-1865</part>
+            <part localtype="genre_form">Personal narratives</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027112" source="aat">
-            <part>Diaries</part>
+            <part localtype="genre_form">Diaries</part>
          </genreform>
          <genreform identifier="http://vocab.getty.edu/aat/300046300" source="aat">
-            <part>Photographs</part>
+            <part localtype="genre_form">Photographs</part>
          </genreform>
          <genreform source="local">
-            <part>Scrapbooks</part>
+            <part localtype="genre_form">Scrapbooks</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85101610"
                   source="lcsh">
-            <part>Physicians</part>
+            <part localtype="topical">Physicians</part>
          </subject>
          <persname source="local">
-            <part>Scofield, Walter Keeler, 1839-1910</part>
+            <part localtype="agent_person">Scofield, Walter Keeler, 1839-1910</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n86025598"
                    rules="aacr"
                    source="naf">
-            <part>Lackawanna (Ship)</part>
+            <part localtype="agent_corporate_entity">Lackawanna (Ship)</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="series">
+         <c altrender="/repositories/12/archival_objects/1173241"
+            id="ref10"
+            level="series">
             <did>
                <unittitle>Inventory, 1859-1910</unittitle>
             </did>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1173242"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Correspondence</unittitle>
                </did>
-               <c id="ref12" level="file">
+               <c altrender="/repositories/12/archival_objects/1173243"
+                  id="ref12"
+                  level="file">
                   <did>
                      <unittitle>W.K.S. to his parents, brother, and sister</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1861-1866">
+                     <unitdatestructured altrender="1861-1866" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1861">1861</fromdate>
                            <todate standarddate="1866">1866</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130334 /locations/9"
                                 containerid="39002042255068"
+                                encodinganalog="archive legal"
                                 id="aspace_ref12_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1 - 7</container>
                   </did>
                </c>
-               <c id="ref13" level="file">
+               <c altrender="/repositories/12/archival_objects/1173244"
+                  id="ref13"
+                  level="file">
                   <did>
                      <unittitle>W.K.S. to his wife and children</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1877, 1887-1894">
+                     <unitdatestructured altrender="1877, 1887-1894"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1859">1859</fromdate>
                            <todate standarddate="1910">1910</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130334 /locations/9"
                                 containerid="39002042255068"
+                                encodinganalog="archive legal"
                                 id="aspace_ref13_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">8 - 11</container>
                   </did>
                </c>
-               <c id="ref14" level="file">
+               <c altrender="/repositories/12/archival_objects/1173245"
+                  id="ref14"
+                  level="file">
                   <did>
                      <unittitle>Other family members to one another</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1862-1877, undated">
+                     <unitdatestructured altrender="1862-1877, undated"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1859">1859</fromdate>
                            <todate standarddate="1910">1910</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/130334 /locations/9"
                                 containerid="39002042255068"
+                                encodinganalog="archive legal"
                                 id="aspace_ref14_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -264,221 +297,294 @@
                   </did>
                </c>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1173246"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Military papers</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1861-1910">
+                  <unitdatestructured altrender="1861-1910" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1861">1861</fromdate>
                         <todate standarddate="1910">1910</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130334 /locations/9"
                              containerid="39002042255068"
+                             encodinganalog="archive legal"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">13 - 20</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1173247"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Notes [on medical school?]</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1859">
+                  <unitdatestructured altrender="1859" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1859">1859</fromdate>
                         <todate standarddate="1859">1859</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130334 /locations/9"
                              containerid="39002042255068"
+                             encodinganalog="archive legal"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">21</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1173248"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Miscellaneous papers</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1861, undated">
+                  <unitdatestructured altrender="1861, undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1859">1859</fromdate>
                         <todate standarddate="1910">1910</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130334 /locations/9"
                              containerid="39002042255068"
+                             encodinganalog="archive legal"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">22</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1173249"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Journals of cruises</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1866-1867">
+                  <unitdatestructured altrender="1866-1867" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1866">1866</fromdate>
                         <todate standarddate="1867">1867</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/130334 /locations/9"
                              containerid="39002042255068"
+                             encodinganalog="archive legal"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">23</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1173250"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Miscellaneous notebooks</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1866-1868, undated">
+                  <unitdatestructured altrender="1866-1868, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1859">1859</fromdate>
                         <todate standarddate="1910">1910</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130335 /locations/9"
                              containerid="39002042255076"
+                             encodinganalog="archive letter"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">24</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1173251"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Scrapbook of Russian mission and other events</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1866-1870">
+                  <unitdatestructured altrender="1866-1870" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1866">1866</fromdate>
                         <todate standarddate="1870">1870</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130335 /locations/9"
                              containerid="39002042255076"
+                             encodinganalog="archive letter"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">25</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1173252"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Log kept on board the U.S.S. Lackawanna on trip to China and Japan</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1872-1875">
+                  <unitdatestructured altrender="1872-1875" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1872">1872</fromdate>
                         <todate standarddate="1875">1875</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130335 /locations/9"
                              containerid="39002042255076"
+                             encodinganalog="archive letter"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">26</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1173253"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Sketch book of trip to China and Japan</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1872-1875?]">
+                  <unitdatestructured altrender="[1872-1875?]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1872">1872</fromdate>
                         <todate standarddate="1875">1875</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130335 /locations/9"
                              containerid="39002042255076"
+                             encodinganalog="archive letter"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">27</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1173254"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>Photograph album containing personal and purchased photographs of famous people and places in Europe</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1859">1859</fromdate>
                         <todate standarddate="1910">1910</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130335 /locations/9"
                              containerid="39002042255076"
+                             encodinganalog="archive letter"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">28</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1173255"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Photographs of W.K.S.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[ca. 1861-1865]">
+                  <unitdatestructured altrender="[ca. 1861-1865]"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1856">1856</fromdate>
                         <todate standarddate="1866">1866</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130335 /locations/9"
                              containerid="39002042255076"
+                             encodinganalog="archive letter"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">29</container>
+                  <daoset altrender="/repositories/12/digital_objects/181520">
+                     <dao actuate="onrequest"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10015894"
+                          identifier="oid:10015894"
+                          linktitle="1 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/32280065/full/!150,150/0/default.jpg"
+                          identifier="oid:10015894"
+                          linktitle="Walter K. Scofield."
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10015894"
+                          identifier="oid:10015894"
+                          linktitle="Walter K. Scofield."
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Photographs of W.K.S.</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1173256"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Obituary and funeral articles</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1910">
+                  <unitdatestructured altrender="1910" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1910">1910</fromdate>
                         <todate standarddate="1910">1910</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/130335 /locations/9"
                              containerid="39002042255076"
+                             encodinganalog="archive letter"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">30</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1173257"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Diary</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1861 November-1864 April">
+                  <unitdatestructured altrender="1861 November-1864 April"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1859">1859</fromdate>
                         <todate standarddate="1910">1910</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="flip top (11d 9h 3w)"
+                  <container altrender="/repositories/12/top_containers/130336 /locations/9"
                              containerid="39002042255084"
+                             encodinganalog="flip top (11d 9h 3w)"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">31 - 42</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1173258"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>Medical memorandum books</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1863 October-1864 May">
+                  <unitdatestructured altrender="1863 October-1864 May"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1859">1859</fromdate>
                         <todate standarddate="1910">1910</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="flip top (11d 9h 3w)"
+                  <container altrender="/repositories/12/top_containers/130336 /locations/9"
                              containerid="39002042255084"
+                             encodinganalog="flip top (11d 9h 3w)"
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0916">mssa.ms.0916</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0916">mssa.ms.0916</recordid>
+      <otherrecordid localtype="BIB">614366</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Blackstone Family Papers
@@ -32,6 +34,11 @@
             <date>June 1983</date>
             <num>MS 916</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:34:57+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:15:50+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:34</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:15</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4291" level="collection">
       <did>
          <unittitle>Blackstone family papers</unittitle>
          <unitid>MS 916</unitid>
@@ -82,293 +92,344 @@
             <quantity>0.25</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1705-1844">
+         <unitdatestructured altrender="1705-1844" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1705">1705</fromdate>
                <todate standarddate="1844">1844</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_d84bc22129fa7428f8f4cfdc5f91e6cf">Chiefly deeds, estate papers and financial records of the Blackstone family of Branford, Connecticut. Included also are two farm account books for the years 1772-1839 and that of David Welles, Jr. for the years 1773-1786. Among the Branford papers is a Grand Jury presentment against two men for disloyal acts during the Revolution.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <famname identifier="http://id.loc.gov/authorities/subjects/sh89002328"
                      source="lcsh">
-               <part>Blackstone family</part>
+               <part localtype="agent_family">Blackstone family</part>
             </famname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_30a94e6e313659305bc54fd3e0fd2c71">
          <head>Immediate Source of Acquisition</head>
-         <p>Purchased from Mrs. Hope Collins, 1953.</p>  
+         <p>Purchased from Mrs. Hope Collins, 1953.</p>
       </acqinfo>
       <accessrestrict id="aspace_d5d2ba082437809377cd360852b0ac35">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_fe9c0bbf14c82cd2fe327fb34ceb4449">
          <head>Preferred Citation</head>
-         <p>Blackstone Family Papers (MS 916). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Blackstone Family Papers (MS 916). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_fac45ec579c3ae16d3ebc50abc40a4f8">
          <head>Scope and Contents</head>
          <p>Legal and financial papers pertaining largely to the Blackstone family and the town of Branford, Connecticut, make up this small collection.</p>
          <p>Members of the Blackstone family represented here are John Blackstone, Sr. (died 1818), his wife, Hannah Harrison (died 1815), and son John, Jr., and Stephen Blackstone (died 1807), brother of John, Sr., and his wife, Ann. Papers include a farm account book with receipts and other loose papers laid in, a deed, and estate papers. Papers pertaining to the town of Branford include deeds, receipts, and estate papers; a Grand Jury presentment summoning two men to answer the charge that they concealed "knowledge of a Number of Persons endeavoring to Joine the Enemies of this, &amp; the rest of the United States," signed by Gideon Bartholomew (1782); an assessors' list of polls and estates; a certificate appointing surveyors of highways; and letters pertaining to the appointment of William Russell to the town's Democratic Confidential Committee.</p>
-         <p>The final item in the collection is a farm account book with notes and other loose papers laid in, belonging to David Welles, Jr. (1750-1816), of Shelbourne, Massachusetts. It is unclear whether Welles was connected to the Blackstone family.</p>  
+         <p>The final item in the collection is a farm account book with notes and other loose papers laid in, belonging to David Welles, Jr. (1750-1816), of Shelbourne, Massachusetts. It is unclear whether Welles was connected to the Blackstone family.</p>
       </scopecontent>
       <userestrict id="aspace_eb68d69ffffc31abea3abbd4072687e7">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85002417"
                   source="lcsh">
-            <part>Agriculture -- Accounting</part>
+            <part localtype="topical">Agriculture</part>
+            <part localtype="topical">Accounting</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/n82023629"
                    source="lcsh">
-            <part>Branford (Conn.)</part>
+            <part localtype="geographic">Branford (Conn.)</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n79074102"
                    source="lcsh">
-            <part>Connecticut</part>
+            <part localtype="geographic">Connecticut</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140131"
                    source="lcsh">
-            <part>United States -- History -- Colonial period, ca. 1600-1775</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Colonial period, ca. 1600-1775</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140139"
                    source="lcsh">
-            <part>United States -- History -- Revolution, 1775-1783</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Revolution, 1775-1783</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027249" source="aat">
-            <part>Deeds</part>
+            <part localtype="genre_form">Deeds</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047270"
                   source="lcsh">
-            <part>Farmers</part>
+            <part localtype="topical">Farmers</part>
          </subject>
          <persname rules="aacr" source="local">
-            <part>Blackstone, Hannah, d. 1815</part>
+            <part localtype="agent_person">Blackstone, Hannah, d. 1815</part>
          </persname>
          <persname source="local">
-            <part>Blackstone, John, d. 1818</part>
+            <part localtype="agent_person">Blackstone, John, d. 1818</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no00060625"
                    rules="aacr"
                    source="naf">
-            <part>Blackstone, John</part>
+            <part localtype="agent_person">Blackstone, John</part>
          </persname>
          <persname source="local">
-            <part>Blackstone, Stephen, d. 1807</part>
+            <part localtype="agent_person">Blackstone, Stephen, d. 1807</part>
          </persname>
          <persname source="local">
-            <part>Welles, David, 1750-1816</part>
+            <part localtype="agent_person">Welles, David, 1750-1816</part>
          </persname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh89002328"
                   source="lcsh">
-            <part>Blackstone family</part>
+            <part localtype="agent_family">Blackstone family</part>
          </famname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="file">
+         <c altrender="/repositories/12/archival_objects/1354481"
+            id="ref10"
+            level="file">
             <did>
                <unittitle>Blackstone family</unittitle>
             </did>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1354482"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>John Blackstone, Jr.: farm account book</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1772-1839">
+                  <unitdatestructured altrender="1772-1839" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1772">1772</fromdate>
                         <todate standarddate="1839">1839</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151670 /locations/9"
                              containerid="39002042652298"
-                             id="d1e292"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e294" localtype="folder" parent="d1e292">1</container>
+                  <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1354483"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Stephen Blackstone</unittitle>
                </did>
-               <c id="ref13" level="file">
+               <c altrender="/repositories/12/archival_objects/1354484"
+                  id="ref13"
+                  level="file">
                   <did>
                      <unittitle>Deed with Ann Blackstone to John Blackstone</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1801 June 26">
+                     <unitdatestructured altrender="1801 June 26" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1705">1705</fromdate>
                            <todate standarddate="1844">1844</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/151670 /locations/9"
                                 containerid="39002042652298"
-                                id="d1e316"
+                                encodinganalog="archive half legal"
+                                id="aspace_ref13_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e318" localtype="folder" parent="d1e316">2</container>
+                     <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2</container>
                   </did>
                </c>
-               <c id="ref14" level="file">
+               <c altrender="/repositories/12/archival_objects/1354485"
+                  id="ref14"
+                  level="file">
                   <did>
                      <unittitle>Estate papers</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="[1807]">
+                     <unitdatestructured altrender="[1807]" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1807">1807</fromdate>
                            <todate standarddate="1807">1807</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/151670 /locations/9"
                                 containerid="39002042652298"
-                                id="d1e334"
+                                encodinganalog="archive half legal"
+                                id="aspace_ref14_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e336" localtype="folder" parent="d1e334">2</container>
+                     <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">2</container>
                   </did>
                </c>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1354486"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Hannah (Harrison) Blackstone: estate papers</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1815]">
+                  <unitdatestructured altrender="[1815]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1815">1815</fromdate>
                         <todate standarddate="1815">1815</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151670 /locations/9"
                              containerid="39002042652298"
-                             id="d1e352"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e354" localtype="folder" parent="d1e352">3</container>
+                  <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">3</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1354487"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>John Blackstone, Sr.: estate papers</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1818]">
+                  <unitdatestructured altrender="[1818]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1818">1818</fromdate>
                         <todate standarddate="1818">1818</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151670 /locations/9"
                              containerid="39002042652298"
-                             id="d1e370"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e372" localtype="folder" parent="d1e370">4</container>
+                  <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">4</container>
                </did>
             </c>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1354488"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Branford, Connecticut</unittitle>
             </did>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1354489"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Deeds, estate papers, and receipts</unittitle>
-                  <unitdate unitdatetype="inclusive">1705/6-1837</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">1705/6-1837</unitdate>
+                  <container altrender="/repositories/12/top_containers/151670 /locations/9"
                              containerid="39002042652298"
-                             id="d1e388"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e390" localtype="folder" parent="d1e388">5</container>
+                  <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">5</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1354490"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Grand jury presentment to Elias Pond and Abraham Rogers</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1782 November 6">
+                  <unitdatestructured altrender="1782 November 6"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1705">1705</fromdate>
                         <todate standarddate="1844">1844</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151670 /locations/9"
                              containerid="39002042652298"
-                             id="d1e406"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e408" localtype="folder" parent="d1e406">6</container>
+                  <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">6</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1354491"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Assessors' list of quantity and valuation of polls and different kinds of estate</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1814 August 20">
+                  <unitdatestructured altrender="1814 August 20"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1705">1705</fromdate>
                         <todate standarddate="1844">1844</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151670 /locations/9"
                              containerid="39002042652298"
-                             id="d1e424"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e426" localtype="folder" parent="d1e424">7</container>
+                  <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">7</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1354492"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Certificate of appointment of surveyors of highways</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1837 November 15">
+                  <unitdatestructured altrender="1837 November 15"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1705">1705</fromdate>
                         <todate standarddate="1844">1844</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151670 /locations/9"
                              containerid="39002042652298"
-                             id="d1e442"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e444" localtype="folder" parent="d1e442">8</container>
+                  <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">8</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1354493"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>William Russell: letters related to his appointment to the Democratic Confidential Town Committee for Branford</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1844 January-February">
+                  <unitdatestructured altrender="1844 January-February"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1705">1705</fromdate>
                         <todate standarddate="1844">1844</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151670 /locations/9"
                              containerid="39002042652298"
-                             id="d1e460"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e462" localtype="folder" parent="d1e460">9</container>
+                  <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">9</container>
                </did>
             </c>
          </c>
-         <c id="ref23" level="file">
+         <c altrender="/repositories/12/archival_objects/1354494"
+            id="ref23"
+            level="file">
             <did>
                <unittitle>David Welles, Jr.: farm account book and notes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1773-1786">
+               <unitdatestructured altrender="1773-1786" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1773">1773</fromdate>
                      <todate standarddate="1786">1786</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151670 /locations/9"
                           containerid="39002042652298"
-                          id="d1e478"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref23_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e480" localtype="folder" parent="d1e478">10</container>
+               <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">10</container>
             </did>
          </c>
       </dsc>

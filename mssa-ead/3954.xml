@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0902">mssa.ms.0902</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0902">mssa.ms.0902</recordid>
+      <otherrecordid localtype="BIB">614359</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Preliminary Guide to the George Alfred Baitsell Papers
@@ -32,6 +34,11 @@
             <date>May 1979</date>
             <num>MS 902</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T08:58:08+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:14:59+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 08:58</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:14</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3954" level="collection">
       <did>
          <unittitle>George Alfred Baitsell papers</unittitle>
          <unitid>MS 902</unitid>
@@ -82,38 +92,37 @@
             <quantity>1</quantity>
             <unittype>Linear Foot</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1917-1927">
+         <unitdatestructured altrender="1917-1927" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1917">1917</fromdate>
                <todate standarddate="1927">1927</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_beebdcf692d04257b7901dc7b51f8964">Correspondence, experimental records, and miscellaneous papers related to George Baitsell (1885-1971) and his professional activities. Nearly one third of the papers consists of research material including laboratory data, reports, and recommendations based on a study of poisonous gases conducted for the U.S. Army Chemical Warfare Service, 1917-1919. His research on tuberculosis, for which he received a grant in 1925 is also documented here.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/nr95006959"
                       rules="aacr"
                       source="naf">
-               <part>Baitsell, George Alfred, 1885-1971</part>
+               <part localtype="agent_person">Baitsell, George Alfred, 1885-1971</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_da42e67abafed2a3261d55eb2f018a86">
          <head>Immediate Source of Acquisition</head>
-         <p>Transferred from Yale University Kline Science Library, 1973-1977.</p>  
+         <p>Transferred from Yale University Kline Science Library, 1973-1977.</p>
       </acqinfo>
       <accessrestrict id="aspace_313bd04c26a63b404eacb972a1fd588c">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_36cd6c31c14c15985d4f560021296210">
          <head>Preferred Citation</head>
-         <p>George Alfred Baitsell Papers (MS 902). Manuscripts and Archives, Yale University Library.</p>  
+         <p>George Alfred Baitsell Papers (MS 902). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_81ffedc3a4dfba79a5fdceb5eba9edda">
          <head>Scope and Contents</head>
          <p>The George A. Baitsell papers consist of one linear foot of correspondence, experimental records, and miscellaneous papers related to Baitsell's professional activities between 1917 and 1927. General correspondence is organized alphabetically in three sequences in Boxes 1 and 2. Box 3 contains papers related to research projects supported by the U.S. Army Chemical Warfare Service (1917-1919) and the National Tuberculosis Association (1924-1925). The military research was to study the effect of poisonous gases on laboratory dogs. The research on tuberculosis was to study "the origin of scar tissue and their relation to cellular function and healing."</p>
-         <p>The George A. Baitsell papers were transferred to Manuscripts and Archives from Kline Science Library between 1973 and 1977.</p>  
+         <p>The George A. Baitsell papers were transferred to Manuscripts and Archives from Kline Science Library between 1973 and 1977.</p>
       </scopecontent>
       <bioghist id="aspace_96d8799d96dee37f5a5c402617e74a15">
          <head>Biographical / Historical</head>
@@ -133,477 +142,593 @@
          <p>His teaching career at Yale, which ended in 1951, spanned 41 years. He received his M.A. and Ph.D. degrees from Yale in 1909 and 1914 respectively.</p>
          <p>[<title render="italic">
                <part>Yale Alumni Magazine</part>
-            </title>, Nov 1972, p. 42]</p>  
+            </title>, Nov 1972, p. 42]</p>
       </bioghist>
       <userestrict id="aspace_e0c9f15c2656259274456f2976b65bbb">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85022958"
                   source="lcsh">
-            <part>Chemical warfare</part>
+            <part localtype="topical">Chemical warfare</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85053398"
                   source="lcsh">
-            <part>Gases, Asphyxiating and poisonous -- War use</part>
+            <part localtype="topical">Gases, Asphyxiating and poisonous</part>
+            <part localtype="topical">War use</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85083153"
                   source="lcsh">
-            <part>Medicine, Military</part>
+            <part localtype="topical">Medicine, Military</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85118553"
                   source="lcsh">
-            <part>Science</part>
+            <part localtype="topical">Science</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85148236"
                   source="lcsh">
-            <part>World War, 1914-1918</part>
+            <part localtype="topical">World War, 1914-1918</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85138431"
                   source="lcsh">
-            <part>Tuberculosis -- Research</part>
+            <part localtype="topical">Tuberculosis</part>
+            <part localtype="topical">Research</part>
          </subject>
          <occupation source="local">
-            <part>Biologists</part>
+            <part localtype="occupation">Biologists</part>
          </occupation>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/nr95006959"
                    rules="aacr"
                    source="naf">
-            <part>Baitsell, George Alfred, 1885-1971</part>
+            <part localtype="agent_person">Baitsell, George Alfred, 1885-1971</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n88008089" source="naf">
-            <part>United States. Army. Chemical Corps</part>
+            <part localtype="agent_corporate_entity">United States. Army. Chemical Corps</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/no2018082337"
                    source="naf">
-            <part>Yale University. Biology Department</part>
+            <part localtype="agent_corporate_entity">Yale University. Biology Department</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1258397"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Correspondence: A-Z</unittitle>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1258398"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>1917-1922</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143264 /locations/9"
                              containerid="39002042521766"
+                             encodinganalog="archive letter"
                              id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1258399"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>1923-1926</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143264 /locations/9"
                              containerid="39002042521766"
+                             encodinganalog="archive letter"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1258400"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>1926-1927</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/143265 /locations/9"
                              containerid="39002042521774"
+                             encodinganalog="archive half letter"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1258401"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Miscellaneous papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1917">1917</fromdate>
                      <todate standarddate="1927">1927</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/143265 /locations/9"
                           containerid="39002042521774"
+                          encodinganalog="archive half letter"
                           id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1258402"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Papers related to research for the U.S. Army Chemical Warfare Service</unittitle>
             </did>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1258403"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1918 September 12-December 17">
+                  <unitdatestructured altrender="1918 September 12-December 17"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1258404"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Department of the Interior: "Laws and Regulations Governing Leaves of Absence"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1910 February 1">
+                  <unitdatestructured altrender="1910 February 1"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1258405"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Miscellaneous papers</unittitle>
                </did>
-               <c id="ref20" level="file">
+               <c altrender="/repositories/12/archival_objects/1258406"
+                  id="ref20"
+                  level="file">
                   <did>
                      <unittitle>1917 Oct 6, n.d.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143266 /locations/9"
                                 containerid="39002042521782"
+                                encodinganalog="archive legal"
                                 id="aspace_ref20_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
                </c>
-               <c id="ref21" level="file">
+               <c altrender="/repositories/12/archival_objects/1258407"
+                  id="ref21"
+                  level="file">
                   <did>
                      <unittitle>1917 Dec 3, n.d.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143266 /locations/9"
                                 containerid="39002042521782"
+                                encodinganalog="archive legal"
                                 id="aspace_ref21_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
                </c>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1258408"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Handwritten observations</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1917 October-1918 March">
+                  <unitdatestructured altrender="1917 October-1918 March"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1258409"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>List of dogs used in experiments, test results, disposition</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1918 August-November">
+                  <unitdatestructured altrender="1918 August-November"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1258410"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Reports to Lt. Col. Frank P. Underhill</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1918 October 5-Nov1">
+                  <unitdatestructured altrender="1918 October 5-Nov1"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1258411"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Resumé of toxicity and treatment of dogs gassed with chlorpicrin</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1918">
+                  <unitdatestructured altrender="1918" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1918">1918</fromdate>
                         <todate standarddate="1918">1918</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1258412"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Treatments for gassing, test results, and data</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1918]">
+                  <unitdatestructured altrender="[1918]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1918">1918</fromdate>
                         <todate standarddate="1918">1918</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1258413"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>Test results and data</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1918]">
+                  <unitdatestructured altrender="[1918]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1918">1918</fromdate>
                         <todate standarddate="1918">1918</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1258414"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>Outline</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1919 January 28">
+                  <unitdatestructured altrender="1919 January 28"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/1258415"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>"A Study with Dark Field Illumination of the Plasma of Normal and of Chlorine-gassed Dogs"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1258416"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>"Modified Treatment for Phosgene Poisoning in Dogs"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1258417"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>"The Effect of Phosgene Poisoning upon the Pulse, Respiration and Temperature of Dogs"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1258418"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>List of personnel [New Haven laboratory]</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1258419"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>Outlines of data</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1258420"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>Notes on test results</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1258421"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Notes and graphs of test results</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1258422"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>Chlorpicrin test data</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1258423"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>Graphs of test results</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1258424"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>Outline of plasma studies</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
          </c>
-         <c id="ref39" level="file">
+         <c altrender="/repositories/12/archival_objects/1258425"
+            id="ref39"
+            level="file">
             <did>
                <unittitle>Papers related to research grant awarded by the National Tuberculosis Association</unittitle>
             </did>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1258426"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>Correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1924-1925">
+                  <unitdatestructured altrender="1924-1925" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1924">1924</fromdate>
                         <todate standarddate="1925">1925</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref40_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1258427"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>Requests for payment from the National Tuberculosis Association research fund</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1925-1927, undated">
+                  <unitdatestructured altrender="1925-1927, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1927">1927</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143266 /locations/9"
                              containerid="39002042521782"
+                             encodinganalog="archive legal"
                              id="aspace_ref41_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>

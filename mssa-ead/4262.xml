@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0837">mssa.ms.0837</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0837">mssa.ms.0837</recordid>
+      <otherrecordid localtype="BIB">613907</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Charles Augustus Russell Papers
@@ -32,6 +34,11 @@
             <date>October 1981</date>
             <num>MS 837</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:29:25+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:09:51+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:29</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:09</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4262" level="collection">
       <did>
          <unittitle>Charles Augustus Russell papers</unittitle>
          <unitid>MS 837</unitid>
@@ -82,309 +92,361 @@
             <quantity>1.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1928-1954">
+         <unitdatestructured altrender="1928-1954" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1928">1928</fromdate>
                <todate standarddate="1954">1954</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_2274eb26804e8ec189018766c7211c7e">Correspondence, memoranda, reports and miscellanea of Charles A. Russell. Professional material from public welfare, education, and international cultural cooperative organizations including the Edward W. Hazen Foundation are present.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Russell, Charles Augustus, 1886-1962</part>
+               <part localtype="agent_person">Russell, Charles Augustus, 1886-1962</part>
             </persname>
          </origination>
-    
       </did>
       <accessrestrict id="aspace_9b47da5e7cd53b2df4df9dcad00da673">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_ec51e4e0afaa48bb1b3eb6b09a45888e">
          <head>Preferred Citation</head>
-         <p>Charles Augustus Russell Papers (MS 837). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Charles Augustus Russell Papers (MS 837). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_97c07e48a44377aae8d7dcb297ed828b">
          <head>Scope and Contents</head>
          <p>Correspondence, memoranda, reports, and other printed matter from a number of philanthropic and public service organizations in which Charles Augustus Russell was active constitute these papers. The correspondence deals only with business matters of the various organizations; there are no family or personal letters. Materials other than correspondence, including memoranda written by or to Russell, are filed under the organization concerned.</p>
-         <p>From 1929 to 1949 Russell was president and treasurer of the Edward W. Hazen Foundation, an organization dedicated to promoting the public welfare, especially with regard to young people, education, religion in higher education, and international cultural cooperation. Papers of the Foundation from this period include legal and financial papers, statements of purpose, reports and memoranda. While chairman of the board in 1951, Russell worked with Gerhard W. Ditz on an investigation of employer-employee relations in the coal-mining industry; papers from this project include memoranda, proposals, questionnaires, and Ditz's notes and travel documents. There is also an earlier report on coal mining by Russell (1949). During the same period Russell was a member of the National Social Welfare Assembly and chairman of its National Budget Committee. Memoranda, reports, newsletters, budgets, and other related materials of this organization for coordinating and helping fund national and local social welfare agencies make up about half of the collection. There are, in addition, a few items from several other organizations with which Russell was connected, a small amount of biographical material, and miscellaneous papers not visibly related to the various organizations.</p>  
+         <p>From 1929 to 1949 Russell was president and treasurer of the Edward W. Hazen Foundation, an organization dedicated to promoting the public welfare, especially with regard to young people, education, religion in higher education, and international cultural cooperation. Papers of the Foundation from this period include legal and financial papers, statements of purpose, reports and memoranda. While chairman of the board in 1951, Russell worked with Gerhard W. Ditz on an investigation of employer-employee relations in the coal-mining industry; papers from this project include memoranda, proposals, questionnaires, and Ditz's notes and travel documents. There is also an earlier report on coal mining by Russell (1949). During the same period Russell was a member of the National Social Welfare Assembly and chairman of its National Budget Committee. Memoranda, reports, newsletters, budgets, and other related materials of this organization for coordinating and helping fund national and local social welfare agencies make up about half of the collection. There are, in addition, a few items from several other organizations with which Russell was connected, a small amount of biographical material, and miscellaneous papers not visibly related to the various organizations.</p>
       </scopecontent>
       <bioghist id="aspace_49699034b517fba0e7a7c549d84c1511">
          <head>Biographical / Historical</head>
-         <p>Charles Augustus Russell was born in Essex, Connecticut on March 20, 1886. He was educated at Wesleyan University, where he received a B.A. in 1905. He was admitted to the New York bar in 1907 and practiced law in Connecticut between 1910 and 1914. He then served as attorney for the Connecticut Public Utilities Commission, a position he held until 1917. Between 1929 and 1949, he was president and treasurer of the Edward Hazen Foundation. Russell was active in many philanthropic and public service organizations. He died in 1962.</p>  
+         <p>Charles Augustus Russell was born in Essex, Connecticut on March 20, 1886. He was educated at Wesleyan University, where he received a B.A. in 1905. He was admitted to the New York bar in 1907 and practiced law in Connecticut between 1910 and 1914. He then served as attorney for the Connecticut Public Utilities Commission, a position he held until 1917. Between 1929 and 1949, he was president and treasurer of the Edward Hazen Foundation. Russell was active in many philanthropic and public service organizations. He died in 1962.</p>
       </bioghist>
       <userestrict id="aspace_a59a795c39f6745e3d41b63e4844c108">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85023396"
                   source="lcsh">
-            <part>Child welfare</part>
+            <part localtype="topical">Child welfare</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85027364"
                   source="lcsh">
-            <part>Coal mines and mining</part>
+            <part localtype="topical">Coal mines and mining</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85067385"
                   source="lcsh">
-            <part>International cooperation</part>
+            <part localtype="topical">International cooperation</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85108846"
                   source="lcsh">
-            <part>Public welfare</part>
+            <part localtype="topical">Public welfare</part>
          </subject>
          <persname source="local">
-            <part>Russell, Charles Augustus, 1886-1962</part>
+            <part localtype="agent_person">Russell, Charles Augustus, 1886-1962</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n83030958" source="naf">
-            <part>American Social Hygiene Association</part>
+            <part localtype="agent_corporate_entity">American Social Hygiene Association</part>
          </corpname>
          <corpname rules="aacr" source="local">
-            <part>Edward W. Hazen Foundation, Inc., New Haven (Conn.)</part>
+            <part localtype="agent_corporate_entity">Edward W. Hazen Foundation, Inc., New Haven (Conn.)</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n50000474" source="naf">
-            <part>National Recreation Association</part>
+            <part localtype="agent_corporate_entity">National Recreation Association</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n50056825" source="naf">
-            <part>National Social Welfare Assembly</part>
+            <part localtype="agent_corporate_entity">National Social Welfare Assembly</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/no2010080659"
                    rules="aacr"
                    source="naf">
-            <part>United Defense Fund</part>
+            <part localtype="agent_corporate_entity">United Defense Fund</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref9" level="file">
+         <c altrender="/repositories/12/archival_objects/1354189"
+            id="ref9"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1930-1954, undated">
+               <unitdatestructured altrender="1930-1954, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1928">1928</fromdate>
                      <todate standarddate="1954">1954</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151606 /locations/9"
                           containerid="39002042266768"
-                          id="d1e259"
+                          encodinganalog="archive legal"
+                          id="aspace_ref9_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e261" localtype="folder" parent="d1e259">1 - 8</container>
+               <container id="aspace_ref9_c2" localtype="folder" parent="aspace_ref9_c1">1 - 8</container>
             </did>
          </c>
-         <c id="ref10" level="file">
+         <c altrender="/repositories/12/archival_objects/1354190"
+            id="ref10"
+            level="file">
             <did>
                <unittitle>American Social Hygiene Association</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1952">
+               <unitdatestructured altrender="1952" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1952">1952</fromdate>
                      <todate standarddate="1952">1952</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151606 /locations/9"
                           containerid="39002042266768"
-                          id="d1e277"
+                          encodinganalog="archive legal"
+                          id="aspace_ref10_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e279" localtype="folder" parent="d1e277">9</container>
+               <container id="aspace_ref10_c2" localtype="folder" parent="aspace_ref10_c1">9</container>
             </did>
          </c>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1354191"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Edward W. Hazen Foundation</unittitle>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1354192"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>General</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1928-1945, undated">
+                  <unitdatestructured altrender="1928-1945, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1928">1928</fromdate>
                         <todate standarddate="1954">1954</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151606 /locations/9"
                              containerid="39002042266768"
-                             id="d1e301"
+                             encodinganalog="archive legal"
+                             id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e303" localtype="folder" parent="d1e301">10 - 14</container>
+                  <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">10 - 14</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1354193"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Coal miner project</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1949-1951">
+                  <unitdatestructured altrender="1949-1951" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1949">1949</fromdate>
                         <todate standarddate="1951">1951</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151606 /locations/9"
                              containerid="39002042266768"
-                             id="d1e319"
+                             encodinganalog="archive legal"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e321" localtype="folder" parent="d1e319">15 - 21</container>
+                  <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">15 - 21</container>
                </did>
             </c>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1354194"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>National Social Welfare Assembly: general</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1946-1953">
+               <unitdatestructured altrender="1946-1953" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1946">1946</fromdate>
                      <todate standarddate="1953">1953</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151607 /locations/9"
                           containerid="39002042266776"
-                          id="d1e337"
+                          encodinganalog="archive legal"
+                          id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
-               <container id="d1e339" localtype="folder" parent="d1e337">22 - 36</container>
+               <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">22 - 36</container>
             </did>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1354195"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>National Budget Committee</unittitle>
             </did>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1354196"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>General</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1946-1953">
+                  <unitdatestructured altrender="1946-1953" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1946">1946</fromdate>
                         <todate standarddate="1953">1953</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151607 /locations/9"
                              containerid="39002042266776"
-                             id="d1e361"
+                             encodinganalog="archive legal"
+                             id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
-                  <container id="d1e363" localtype="folder" parent="d1e361">37 - 42</container>
+                  <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">37 - 42</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1354197"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Panel #1</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1952 March 24-25">
+                  <unitdatestructured altrender="1952 March 24-25"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1928">1928</fromdate>
                         <todate standarddate="1954">1954</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151608 /locations/9"
                              containerid="39002042266784"
-                             id="d1e379"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
-                  <container id="d1e381" localtype="folder" parent="d1e379">43 - 44</container>
+                  <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">43 - 44</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1354198"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Panel #7</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1953 March 25-27">
+                  <unitdatestructured altrender="1953 March 25-27"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1928">1928</fromdate>
                         <todate standarddate="1954">1954</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151608 /locations/9"
                              containerid="39002042266784"
-                             id="d1e397"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
-                  <container id="d1e399" localtype="folder" parent="d1e397">45 - 47</container>
+                  <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">45 - 47</container>
                </did>
             </c>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1354199"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>National Recreation Association</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1951-1952">
+               <unitdatestructured altrender="1951-1952" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1951">1951</fromdate>
                      <todate standarddate="1952">1952</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151608 /locations/9"
                           containerid="39002042266784"
-                          id="d1e415"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
-               <container id="d1e417" localtype="folder" parent="d1e415">48</container>
+               <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">48</container>
             </did>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1354200"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>United Community Defense Services Program</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1952">
+               <unitdatestructured altrender="1952" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1952">1952</fromdate>
                      <todate standarddate="1952">1952</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151608 /locations/9"
                           containerid="39002042266784"
-                          id="d1e433"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref20_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
-               <container id="d1e435" localtype="folder" parent="d1e433">49</container>
+               <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">49</container>
             </did>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1354201"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>United Defense Fund</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1952">
+               <unitdatestructured altrender="1952" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1952">1952</fromdate>
                      <todate standarddate="1952">1952</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151608 /locations/9"
                           containerid="39002042266784"
-                          id="d1e451"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
-               <container id="d1e453" localtype="folder" parent="d1e451">50 - 51</container>
+               <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">50 - 51</container>
             </did>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1354202"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>Biographical materials</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1934, undated">
+               <unitdatestructured altrender="1934, undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1928">1928</fromdate>
                      <todate standarddate="1954">1954</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151608 /locations/9"
                           containerid="39002042266784"
-                          id="d1e469"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref22_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
-               <container id="d1e471" localtype="folder" parent="d1e469">52</container>
+               <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">52</container>
             </did>
          </c>
-         <c id="ref23" level="file">
+         <c altrender="/repositories/12/archival_objects/1354203"
+            id="ref23"
+            level="file">
             <did>
                <unittitle>Miscellaneous</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1936-1941, undated">
+               <unitdatestructured altrender="1936-1941, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1928">1928</fromdate>
                      <todate standarddate="1954">1954</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151608 /locations/9"
                           containerid="39002042266784"
-                          id="d1e487"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref23_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
-               <container id="d1e489" localtype="folder" parent="d1e487">53</container>
+               <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">53</container>
             </did>
          </c>
       </dsc>

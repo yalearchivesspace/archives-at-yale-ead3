@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0606">mssa.ms.0606</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0606">mssa.ms.0606</recordid>
+      <otherrecordid localtype="BIB">614040</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Ekaterina Konstantinovna Breshko-Breshkovskaia Papers
@@ -32,6 +34,11 @@
             <date>August 1971</date>
             <num>MS 606</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T09:55:45+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:37:50+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 09:55</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:37</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4224" level="collection">
       <did>
          <unittitle>Ekaterina Breshko-Breshkovskaia papers</unittitle>
          <unitid>MS 606</unitid>
@@ -82,350 +92,421 @@
             <quantity>0.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1911-1931">
+         <unitdatestructured altrender="1911-1931" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1911">1911</fromdate>
                <todate standarddate="1931">1931</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_a8aa9093bf92c48f6c7dab04a95f5f7d">Manuscripts, articles, and printed material by and about Ekaterina K. Breshko-Breshkovskaia. Items are in Russian and are largely undated.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/nr92020765"
                       source="naf">
-               <part>Breshko-Breshkovskai͡a, Ekaterina Konstantinovna, 1844-1934</part>
+               <part localtype="agent_person">Breshko-Breshkovskai͡a, Ekaterina Konstantinovna, 1844-1934</part>
             </persname>
          </origination>
-    
       </did>
       <accessrestrict id="aspace_855563506066ffde99027cc79a62d986">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_bdefe3b1f63bd869ba048ba707c165ef">
          <head>Preferred Citation</head>
-         <p>Ekaterina Breshko-Breshkovskaia Papers (MS 606). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Ekaterina Breshko-Breshkovskaia Papers (MS 606). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_74938aefd9ec34e69852e6dcf041f524">
          <head>Scope and Contents</head>
-         <p>The papers contain Catherine Breshkovsky's manuscript "How I went Among the People;" various handwritten manuscripts about herself and about the people she encountered and part of her reminiscences. There are also two articles in manuscript form written by E. E. Lazarev in 1931 and M. M. Rosenbaum in 1917 about Catherine Breshkovsky and also miscellaneous articles from magazines and newspapers about her life.</p>  
+         <p>The papers contain Catherine Breshkovsky's manuscript "How I went Among the People;" various handwritten manuscripts about herself and about the people she encountered and part of her reminiscences. There are also two articles in manuscript form written by E. E. Lazarev in 1931 and M. M. Rosenbaum in 1917 about Catherine Breshkovsky and also miscellaneous articles from magazines and newspapers about her life.</p>
       </scopecontent>
       <bioghist id="aspace_9d17106ab70fac740e6b4001647de8af">
          <head>Biographical / Historical</head>
          <p>Ekaterina Konstantinovna Breshko-Breshkovskaia, 1844-1934</p>
          <p>"The Little Grandmother of the Russian Revolution"</p>
          <p>Catherine Breshkovsky, as she was known in the United States, was one of the early revolutionary workers. She was the first woman to be sent to the mines for a political offense and spent most of her life either in prison or in exile. (From 1871-1917 she spent 14 years in prison camps; 13 years in penal servitude in Siberia; 10 years in conspiratory work; 6 years under strict surveillance by the police; 2 years in exile out of the country and only 8 months, in 1917, of freedom in her work in Russia.)</p>
-         <p>Throughout her life she exerted great energy in her unrelenting struggle to bring democracy to the people of her country. She showed extreme patriotism and her love for the Russian people was unbounded. Her confidence in the final outcome of the struggle for freedom, in which she was engaged, was unshakable. Her absolute unselfishness and her constant thoughtfulness for the welfare and happiness of others was one of her greatest assets. She never complained of the injustice and hardship which she personally endured, but alwaysstroveto help others and never lost hope or failed in courage.</p>  
+         <p>Throughout her life she exerted great energy in her unrelenting struggle to bring democracy to the people of her country. She showed extreme patriotism and her love for the Russian people was unbounded. Her confidence in the final outcome of the struggle for freedom, in which she was engaged, was unshakable. Her absolute unselfishness and her constant thoughtfulness for the welfare and happiness of others was one of her greatest assets. She never complained of the injustice and hardship which she personally endured, but alwaysstroveto help others and never lost hope or failed in courage.</p>
       </bioghist>
       <userestrict id="aspace_6db8960562c1ff4c9a4426ef9fee0ff6">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject source="local">
-            <part>Women revolutionaries -- Soviet Union</part>
+            <part localtype="topical">Women revolutionaries</part>
+            <part localtype="geographic">Soviet Union</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85147274"
                   source="lcsh">
-            <part>Women</part>
+            <part localtype="topical">Women</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85045631"
                    source="lcsh">
-            <part>Europe</part>
+            <part localtype="geographic">Europe</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85125808"
                    source="lcsh">
-            <part>Soviet Union -- History -- Revolution, 1917-1921</part>
+            <part localtype="geographic">Soviet Union</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Revolution, 1917-1921</part>
          </geogname>
          <persname identifier="http://id.loc.gov/authorities/names/nr92020765"
                    source="naf">
-            <part>Breshko-Breshkovskai͡a, Ekaterina Konstantinovna, 1844-1934</part>
+            <part localtype="agent_person">Breshko-Breshkovskai͡a, Ekaterina Konstantinovna, 1844-1934</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="file">
+         <c altrender="/repositories/12/archival_objects/1353666"
+            id="ref10"
+            level="file">
             <did>
                <unittitle>"How I went Among the People" [typed manuscript]</unittitle>
             </did>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1353667"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Pages 1-100</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151483 /locations/9"
                              containerid="39002042585266"
-                             id="d1e230"
+                             encodinganalog="archive letter"
+                             id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e232" localtype="folder" parent="d1e230">1</container>
+                  <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1353668"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Pages 101-200</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151483 /locations/9"
                              containerid="39002042585266"
-                             id="d1e240"
+                             encodinganalog="archive letter"
+                             id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e242" localtype="folder" parent="d1e240">2</container>
+                  <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">2</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1353669"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Pages 201-300</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151483 /locations/9"
                              containerid="39002042585266"
-                             id="d1e250"
+                             encodinganalog="archive letter"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e252" localtype="folder" parent="d1e250">3</container>
+                  <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">3</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1353670"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Pages 301-400</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151483 /locations/9"
                              containerid="39002042585266"
-                             id="d1e260"
+                             encodinganalog="archive letter"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e262" localtype="folder" parent="d1e260">4</container>
+                  <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">4</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1353671"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Pages 401-476</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151483 /locations/9"
                              containerid="39002042585266"
-                             id="d1e270"
+                             encodinganalog="archive letter"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e272" localtype="folder" parent="d1e270">5</container>
+                  <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">5</container>
                </did>
             </c>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1353672"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Various handwritten manuscripts about herself and about the people she encountered, some dated, 18 pp.</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151483 /locations/9"
                           containerid="39002042585266"
-                          id="d1e280"
+                          encodinganalog="archive letter"
+                          id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e282" localtype="folder" parent="d1e280">6</container>
+               <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">6</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1353673"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Cajnyj Listok [Tea Leaf], outline, 3 pp.</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151483 /locations/9"
                           containerid="39002042585266"
-                          id="d1e290"
+                          encodinganalog="archive letter"
+                          id="aspace_ref17_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e292" localtype="folder" parent="d1e290">7</container>
+               <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">7</container>
             </did>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1353674"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>"Grandmother," E. K. Breshko-Breshkovskaia about herself, 9 pp.</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151483 /locations/9"
                           containerid="39002042585266"
-                          id="d1e300"
+                          encodinganalog="archive letter"
+                          id="aspace_ref18_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e302" localtype="folder" parent="d1e300">7</container>
+               <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">7</container>
             </did>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1353675"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>Numerous other untitled manuscripts concerning her life and people she encountered, some dated, 23 pp.</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151483 /locations/9"
                           containerid="39002042585266"
-                          id="d1e310"
+                          encodinganalog="archive letter"
+                          id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e312" localtype="folder" parent="d1e310">7</container>
+               <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">7</container>
             </did>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1353676"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>Articles written about E. K. Breshko-Breshkovskaia</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151483 /locations/9"
                           containerid="39002042585266"
-                          id="d1e320"
+                          encodinganalog="archive letter"
+                          id="aspace_ref20_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e322" localtype="folder" parent="d1e320">8</container>
+               <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">8</container>
             </did>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1353677"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>"Rasskaz." E. E. Lazarev, short story, 2 pp.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1931 May 27">
+                  <unitdatestructured altrender="1931 May 27" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1911">1911</fromdate>
                         <todate standarddate="1931">1931</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151483 /locations/9"
                              containerid="39002042585266"
-                             id="d1e338"
+                             encodinganalog="archive letter"
+                             id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e340" localtype="folder" parent="d1e338">8</container>
+                  <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">8</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1353678"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>S Babuskoj [With Grandmother]. M. M. Rosenbaum, 11 pp.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1917">
+                  <unitdatestructured altrender="1917" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1917">1917</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151483 /locations/9"
                              containerid="39002042585266"
-                             id="d1e356"
+                             encodinganalog="archive letter"
+                             id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e358" localtype="folder" parent="d1e356">8</container>
+                  <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">8</container>
                </did>
             </c>
          </c>
-         <c id="ref23" level="file">
+         <c altrender="/repositories/12/archival_objects/1353679"
+            id="ref23"
+            level="file">
             <did>
                <unittitle>Pamphlet in memory of the 80 th birthday of E. K. Breshko-Breshkovskaia. Outline of her life, 1844-1929, Paris.</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151483 /locations/9"
                           containerid="39002042585266"
-                          id="d1e366"
+                          encodinganalog="archive letter"
+                          id="aspace_ref23_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e368" localtype="folder" parent="d1e366">9</container>
+               <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">9</container>
             </did>
          </c>
-         <c id="ref24" level="file">
+         <c altrender="/repositories/12/archival_objects/1353680"
+            id="ref24"
+            level="file">
             <did>
                <unittitle>"Traits from the Life of E. K. Breshko-Breshkovskaia." Evgenij Kolosov. <title render="italic">
                      <part>Ezmesjacnij Zurnal</part>
                   </title>, no. 5-6, pp. 216-227.</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1911">1911</fromdate>
                      <todate standarddate="1931">1931</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151483 /locations/9"
                           containerid="39002042585266"
-                          id="d1e388"
+                          encodinganalog="archive letter"
+                          id="aspace_ref24_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e390" localtype="folder" parent="d1e388">9</container>
+               <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">9</container>
             </did>
          </c>
-         <c id="ref25" level="file">
+         <c altrender="/repositories/12/archival_objects/1353681"
+            id="ref25"
+            level="file">
             <did>
                <unittitle>"Obvinitel'nij Akt." [Accusatory Act] Supplement to Znameni Trud No. 30, 12 pp.</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1911">1911</fromdate>
                      <todate standarddate="1931">1931</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151483 /locations/9"
                           containerid="39002042585266"
-                          id="d1e406"
+                          encodinganalog="archive letter"
+                          id="aspace_ref25_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e408" localtype="folder" parent="d1e406">9</container>
+               <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">9</container>
             </did>
          </c>
-         <c id="ref26" level="file">
+         <c altrender="/repositories/12/archival_objects/1353682"
+            id="ref26"
+            level="file">
             <did>
                <unittitle>"Vesti o Babuske." [News about "Grandmother"]. Za Narod [For the People], no. 43, 16 pp.</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1911 October">
+               <unitdatestructured altrender="1911 October" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1911">1911</fromdate>
                      <todate standarddate="1931">1931</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151483 /locations/9"
                           containerid="39002042585266"
-                          id="d1e424"
+                          encodinganalog="archive letter"
+                          id="aspace_ref26_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e426" localtype="folder" parent="d1e424">9</container>
+               <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">9</container>
             </did>
          </c>
-         <c id="ref27" level="file">
+         <c altrender="/repositories/12/archival_objects/1353683"
+            id="ref27"
+            level="file">
             <did>
                <unittitle>"Vosmidesjatiletije E. K. Bresko-Breskovskoj." [80 th Birthday of Breshko-Breshkovskaia]. Dni[Days], no. 370.</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1924 January 26">
+               <unitdatestructured altrender="1924 January 26"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1911">1911</fromdate>
                      <todate standarddate="1931">1931</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151483 /locations/9"
                           containerid="39002042585266"
-                          id="d1e442"
+                          encodinganalog="archive letter"
+                          id="aspace_ref27_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e444" localtype="folder" parent="d1e442">9</container>
+               <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">9</container>
             </did>
          </c>
-         <c id="ref28" level="file">
+         <c altrender="/repositories/12/archival_objects/1353684"
+            id="ref28"
+            level="file">
             <did>
                <unittitle>Extract from Memoirs. Dni [Days], Berlin, 5 pp.</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1924 January 20">
+               <unitdatestructured altrender="1924 January 20"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1911">1911</fromdate>
                      <todate standarddate="1931">1931</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151483 /locations/9"
                           containerid="39002042585266"
-                          id="d1e461"
+                          encodinganalog="archive letter"
+                          id="aspace_ref28_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e463" localtype="folder" parent="d1e461">10</container>
+               <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">10</container>
             </did>
          </c>
-         <c id="ref29" level="file">
+         <c altrender="/repositories/12/archival_objects/1353685"
+            id="ref29"
+            level="file">
             <did>
                <unittitle>From My Reminiscences: How I met the Grand Revolution. 12 pp.</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151483 /locations/9"
                           containerid="39002042585266"
-                          id="d1e471"
+                          encodinganalog="archive letter"
+                          id="aspace_ref29_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e473" localtype="folder" parent="d1e471">10</container>
+               <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">10</container>
             </did>
          </c>
-         <c id="ref30" level="file">
+         <c altrender="/repositories/12/archival_objects/1353686"
+            id="ref30"
+            level="file">
             <did>
                <unittitle>Manuscript dictated by "Grandmother" to A. P. Toporkov. 58 pp.</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1918">
+               <unitdatestructured altrender="1918" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1918">1918</fromdate>
                      <todate standarddate="1918">1918</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151483 /locations/9"
                           containerid="39002042585266"
-                          id="d1e489"
+                          encodinganalog="archive letter"
+                          id="aspace_ref30_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e491" localtype="folder" parent="d1e489">10</container>
+               <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">10</container>
             </did>
          </c>
-         <c id="ref31" level="file">
+         <c altrender="/repositories/12/archival_objects/1353687"
+            id="ref31"
+            level="file">
             <did>
                <unittitle>My Stay in Russia from 1896-1903. 10 pp.</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/151483 /locations/9"
                           containerid="39002042585266"
-                          id="d1e499"
+                          encodinganalog="archive letter"
+                          id="aspace_ref31_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e501" localtype="folder" parent="d1e499">10</container>
+               <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">10</container>
             </did>
          </c>
       </dsc>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0723">mssa.ms.0723</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0723">mssa.ms.0723</recordid>
+      <otherrecordid localtype="BIB">614298</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Erwin Ramsdell Goodenough Papers
@@ -32,6 +34,11 @@
             <date>February 1983</date>
             <num>MS 723</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:07:50+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:55:23+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:07</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>October 2012</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:55</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3926" level="collection">
       <did>
          <unittitle>Erwin Ramsdell Goodenough papers</unittitle>
          <unitid>MS 723</unitid>
@@ -82,13 +85,18 @@
                <part>Manuscripts and Archives</part>
             </corpname>
          </repository>
-    
+         <langmaterial>
+            <language langcode="eng">English</language>
+            <descriptivenote>
+               <p>Materials in English and Greek.</p>
+            </descriptivenote>
+         </langmaterial>
          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
             <quantity>25.75</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(38 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1896-1969">
+         <unitdatestructured altrender="1896-1969" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1896">1896</fromdate>
                <todate standarddate="1969">1969</todate>
@@ -99,31 +107,28 @@
             </title> (published 1953-1965), as well as materials relating to <title render="italic">
                <part>The Politics of Philo Judaeus: Practice and Theory</part>
             </title>.</abstract>
-         <langmaterial id="aspace_46cdd884b085ea487620827ee1673350">
-            <language>Materials in English and Greek.</language>
-         </langmaterial>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n50035046" source="naf">
-               <part>Goodenough, Erwin Ramsdell, 1893-1965</part>
+               <part localtype="agent_person">Goodenough, Erwin Ramsdell, 1893-1965</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_7305ee6b7a60743017abb005e6424c5a">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Erwin Ramsdell Goodenough, 1961; Cynthia G. Goodenough, 1975, 1978, 1995; Thomas Kraabel, 2003, and John D. Gordan, III, 2010, 2012; Semitic Museum, Harvard University, 2012.</p>  
+         <p>Gift of Erwin Ramsdell Goodenough, 1961; Cynthia G. Goodenough, 1975, 1978, 1995; Thomas Kraabel, 2003, and John D. Gordan, III, 2010, 2012; Semitic Museum, Harvard University, 2012.</p>
       </acqinfo>
       <userestrict id="aspace_585ad95aeb9b5b940c91d2b8c7c18543">
          <head>Conditions Governing Use</head>
-         <p>Copyright has been transferred to Yale University for unpublished materials authored or otherwise produced by the creator(s) of this collection. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright for unpublished materials authored or otherwise produced by Erwin Ramsdell Goodenough has been transferred to Yale University. These materials may be used for non-commercial purposes without seeking permission from Yale University as the copyright holder. For other uses of these materials, please contact mssa.assist@yale.edu.</p>
+         <p>Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <prefercite id="aspace_12f92347000ef550ddb4191ba1eaee35">
          <head>Preferred Citation</head>
-         <p>Erwin Ramsdell Goodenough Papers (MS 723). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Erwin Ramsdell Goodenough Papers (MS 723). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <bioghist id="aspace_1401fe8e850c89d8ea0eaed7bebf5f3c">
          <head>Biographical / Historical</head>
-         <p>Erwin R. Goodenough, educator, received a B.A. degree from Hamilton College in 1915. He was a student at Drew Theological Seminary from 1915 to 1916, and received his S.T.B. from Garrett Biblical Institute in 1917. Goodenough studied at Harvard for three years until 1920, and received a D.Phil. degree from Oxford University in 1923. He was an instructor of history at Yale, 1923-1926; assistant professor, 1926-1931; associate professor, 1931-1934; professor of history of religion, 1934-1959; the John A. Hoober professor of religion, 1959-1962; and professor emeritus, 1962-1965.</p>  
+         <p>Erwin R. Goodenough, educator, received a B.A. degree from Hamilton College in 1915. He was a student at Drew Theological Seminary from 1915 to 1916, and received his S.T.B. from Garrett Biblical Institute in 1917. Goodenough studied at Harvard for three years until 1920, and received a D.Phil. degree from Oxford University in 1923. He was an instructor of history at Yale, 1923-1926; assistant professor, 1926-1931; associate professor, 1931-1934; professor of history of religion, 1934-1959; the John A. Hoober professor of religion, 1959-1962; and professor emeritus, 1962-1965.</p>
       </bioghist>
       <scopecontent id="aspace_bfc7517f66a7cd5b0ec31b1507b4ce75">
          <head>Scope and Contents</head>
@@ -131,245 +136,319 @@
                <part>Jewish Symbols in the Greco-Roman Period</part>
             </title> (published 1953-1965), as well as materials relating to <title render="italic">
                <part>The Politics of Philo Judaeus: Practice and Theory</part>
-            </title>.</p>  
+            </title>.</p>
       </scopecontent>
       <accessrestrict id="aspace_881dc9746d7fd1804d913dd2de062e1f">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85070403"
                   source="lcsh">
-            <part>Jews -- History -- 168 B.C.-135 A.D</part>
+            <part localtype="topical">Jews</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">168 B.C.-135 A.D</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85070849"
                   source="lcsh">
-            <part>Judaism -- History -- Post-exilic period, 586 B.C.-210 A.D</part>
+            <part localtype="topical">Judaism</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Post-exilic period, 586 B.C.-210 A.D</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85026944"
                   source="lcsh">
-            <part>Clergy</part>
+            <part localtype="topical">Clergy</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85061091"
                   source="lcsh">
-            <part>Historians</part>
+            <part localtype="topical">Historians</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/n50035046" source="naf">
-            <part>Goodenough, Erwin Ramsdell, 1893-1965</part>
+            <part localtype="agent_person">Goodenough, Erwin Ramsdell, 1893-1965</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/no93012254"
                    source="naf">
-            <part>Yale University. Department of History</part>
+            <part localtype="agent_corporate_entity">Yale University. Department of History</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/no2007123193"
                    source="naf">
-            <part>Yale University. Department of Religious Studies</part>
+            <part localtype="agent_corporate_entity">Yale University. Department of Religious Studies</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="aspace_a358f6a83b3aa07dddc71926a5285f5e" level="series">
+         <c altrender="/repositories/12/archival_objects/2993760"
+            id="aspace_a358f6a83b3aa07dddc71926a5285f5e"
+            level="series">
             <did>
                <unittitle>Original accession</unittitle>
             </did>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1257466"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>1961 Accession</unittitle>
                </did>
-               <c id="ref12" level="file">
+               <c altrender="/repositories/12/archival_objects/1257467"
+                  id="ref12"
+                  level="file">
                   <did>
                      <unittitle>
                         <emph render="italic">Jewish Symbols in the Greco-Roman Period</emph> [manuscript]</unittitle>
-                     <container altrender="archive letter"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143119 /locations/9"
                                 containerid="39002075000027"
+                                encodinganalog="archive letter"
                                 id="aspace_ref12_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                   </did>
                </c>
-               <c id="ref13" level="file">
+               <c altrender="/repositories/12/archival_objects/1257468"
+                  id="ref13"
+                  level="file">
                   <did>
                      <unittitle>
                         <emph render="italic">Jewish Symbols in the Greco-Roman Period</emph> [manuscript]</unittitle>
-                     <container altrender="legacy black"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143120 /locations/9"
                                 containerid="39002042363870"
+                                encodinganalog="legacy black"
                                 id="aspace_ref13_c1"
                                 label="Mixed Materials"
                                 localtype="box">1A</container>
                   </did>
                </c>
-               <c id="ref14" level="file">
+               <c altrender="/repositories/12/archival_objects/1257469"
+                  id="ref14"
+                  level="file">
                   <did>
                      <unittitle>Manuscripts and writings</unittitle>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/143121 /locations/9"
                                 containerid="39002042363888"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref14_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                   </did>
                </c>
-               <c id="ref15" level="file">
+               <c altrender="/repositories/12/archival_objects/1257470"
+                  id="ref15"
+                  level="file">
                   <did>
                      <unittitle>Short manuscripts and lectures</unittitle>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/143122 /locations/9"
                                 containerid="39002042363896"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref15_c1"
                                 label="Mixed Materials"
                                 localtype="box">2A</container>
                   </did>
                </c>
-               <c id="ref16" level="file">
+               <c altrender="/repositories/12/archival_objects/1257471"
+                  id="ref16"
+                  level="file">
                   <did>
                      <unittitle>Short manuscripts and lectures</unittitle>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/143123 /locations/9"
                                 containerid="39002042363904"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref16_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
                </c>
-               <c id="ref17" level="file">
+               <c altrender="/repositories/12/archival_objects/1257472"
+                  id="ref17"
+                  level="file">
                   <did>
                      <unittitle>Short manuscripts and lectures</unittitle>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/143124 /locations/9"
                                 containerid="39002042363912"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                   </did>
                </c>
-               <c id="ref18" level="file">
+               <c altrender="/repositories/12/archival_objects/1257473"
+                  id="ref18"
+                  level="file">
                   <did>
                      <unittitle>Short manuscripts and lectures</unittitle>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/143125 /locations/9"
                                 containerid="39002042363920"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref18_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                   </did>
                </c>
-               <c id="ref19" level="file">
+               <c altrender="/repositories/12/archival_objects/1257474"
+                  id="ref19"
+                  level="file">
                   <did>
                      <unittitle>Manuscripts and notes for <emph render="italic">Jewish Symbols in the Greco-Roman Period</emph>
                      </unittitle>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/143126 /locations/9"
                                 containerid="39002042363938"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref19_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                   </did>
                </c>
-               <c id="ref20" level="file">
+               <c altrender="/repositories/12/archival_objects/1257475"
+                  id="ref20"
+                  level="file">
                   <did>
                      <unittitle>Manuscripts and notes for <emph render="italic">Jewish Symbols in the Greco-Roman Period</emph>
                      </unittitle>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/143127 /locations/9"
                                 containerid="39002042363946"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref20_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                   </did>
                </c>
-               <c id="ref21" level="file">
+               <c altrender="/repositories/12/archival_objects/1257476"
+                  id="ref21"
+                  level="file">
                   <did>
                      <unittitle>Manuscripts and notes for <emph render="italic">Jewish Symbols in the Greco-Roman Period</emph>
                      </unittitle>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/143128 /locations/9"
                                 containerid="39002042363953"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref21_c1"
                                 label="Mixed Materials"
                                 localtype="box">7A</container>
                   </did>
                </c>
-               <c id="ref22" level="file">
+               <c altrender="/repositories/12/archival_objects/1257477"
+                  id="ref22"
+                  level="file">
                   <did>
                      <unittitle>Manuscripts and notes for <emph render="italic">Jewish Symbols in the Greco-Roman Period</emph>, volumes 4-7</unittitle>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/143129 /locations/9"
                                 containerid="39002042363961"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref22_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">1-8</container>
                   </did>
                </c>
-               <c id="ref23" level="file">
+               <c altrender="/repositories/12/archival_objects/1257478"
+                  id="ref23"
+                  level="file">
                   <did>
                      <unittitle>Correspondence, 1930s-1960s</unittitle>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/143130 /locations/9"
                                 containerid="39002042363979"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref23_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                   </did>
                </c>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1257479"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>1974 &amp; 1978 Accessions</unittitle>
                </did>
-               <c id="ref25" level="file">
+               <c altrender="/repositories/12/archival_objects/1257480"
+                  id="ref25"
+                  level="file">
                   <did>
                      <unittitle>Correspondence, 1951-1969</unittitle>
                   </did>
-                  <c id="ref26" level="file">
+                  <c altrender="/repositories/12/archival_objects/1257481"
+                     id="ref26"
+                     level="file">
                      <did>
                         <unittitle>A-B</unittitle>
-                        <container altrender="Paige 15"
+                        <container altrender="/repositories/12/top_containers/143131 /locations/9"
                                    containerid="39002042363987"
+                                   encodinganalog="Paige 15"
                                    id="aspace_ref26_c1"
                                    label="Mixed Materials"
                                    localtype="box">10</container>
                      </did>
                   </c>
-                  <c id="ref27" level="file">
+                  <c altrender="/repositories/12/archival_objects/1257482"
+                     id="ref27"
+                     level="file">
                      <did>
                         <unittitle>C-P</unittitle>
-                        <container altrender="Paige 15"
+                        <container altrender="/repositories/12/top_containers/143132 /locations/9"
                                    containerid="39002042363995"
+                                   encodinganalog="Paige 15"
                                    id="aspace_ref27_c1"
                                    label="Mixed Materials"
                                    localtype="box">11</container>
                      </did>
                   </c>
-                  <c id="ref28" level="file">
+                  <c altrender="/repositories/12/archival_objects/1257483"
+                     id="ref28"
+                     level="file">
                      <did>
                         <unittitle>Q-Z</unittitle>
-                        <container altrender="Paige 15"
+                        <container altrender="/repositories/12/top_containers/143133 /locations/9"
                                    containerid="39002042364001"
+                                   encodinganalog="Paige 15"
                                    id="aspace_ref28_c1"
                                    label="Mixed Materials"
                                    localtype="box">12</container>
                      </did>
                   </c>
                </c>
-               <c id="ref29" level="file">
+               <c altrender="/repositories/12/archival_objects/1257484"
+                  id="ref29"
+                  level="file">
                   <did>
                      <unittitle>Miscellaneous papers, including chapters of book on <emph render="italic">Jewish Symbols in the Greco-Roman Period</emph>
                      </unittitle>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/143134 /locations/9"
                                 containerid="39002042364019"
+                                encodinganalog="Paige 15"
                                 id="aspace_ref29_c1"
                                 label="Mixed Materials"
                                 localtype="box">13</container>
                   </did>
                </c>
-               <c id="ref30" level="file">
+               <c altrender="/repositories/12/archival_objects/1257485"
+                  id="ref30"
+                  level="file">
                   <did>
                      <unittitle>Legal, financial and personal papers</unittitle>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/143135 /locations/9"
                                 containerid="39002042364027"
+                                encodinganalog="archive letter"
                                 id="aspace_ref30_c1"
                                 label="Mixed Materials"
                                 localtype="box">14</container>
                   </did>
                </c>
-               <c id="ref31" level="file">
+               <c altrender="/repositories/12/archival_objects/1257486"
+                  id="ref31"
+                  level="file">
                   <did>
                      <unittitle>Legal, financial and personal papers</unittitle>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/143136 /locations/9"
                                 containerid="39002042364035"
+                                encodinganalog="archive letter"
                                 id="aspace_ref31_c1"
                                 label="Mixed Materials"
                                 localtype="box">15</container>
@@ -377,383 +456,497 @@
                </c>
             </c>
          </c>
-         <c id="ref32" level="series">
+         <c altrender="/repositories/12/archival_objects/1257487"
+            id="ref32"
+            level="series">
             <did>
                <unittitle>Additional Material</unittitle>
                <unitid>Accession 1995-M-215</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1959-1966">
+               <unitdatestructured altrender="1959-1966" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1959">1959</fromdate>
                      <todate standarddate="1966">1966</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1257488"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Religious Perspective</part>
                      </title> [Harper &amp; Brothers, Publishers]</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1959-1963">
+                  <unitdatestructured altrender="1959-1963" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1959">1959</fromdate>
                         <todate standarddate="1963">1963</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143137 /locations/9"
                              containerid="39002042364043"
+                             encodinganalog="archive legal"
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">1</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1257489"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>Reviews of books written by Goodenough</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1965-1966, undated">
+                  <unitdatestructured altrender="1965-1966, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1896">1896</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143137 /locations/9"
                              containerid="39002042364043"
+                             encodinganalog="archive legal"
                              id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">2</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1257490"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Speeches/lectures [mostly arrangements materials]</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1959-1964">
+                  <unitdatestructured altrender="1959-1964" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1959">1959</fromdate>
                         <todate standarddate="1964">1964</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143137 /locations/9"
                              containerid="39002042364043"
+                             encodinganalog="archive legal"
                              id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">3 - 4</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1257491"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>Writings</unittitle>
                </did>
-               <c id="ref37" level="file">
+               <c altrender="/repositories/12/archival_objects/1257492"
+                  id="ref37"
+                  level="file">
                   <did>
                      <unittitle>"Agnostic Religion": Introduction</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1896">1896</fromdate>
                            <todate standarddate="1969">1969</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143137 /locations/9"
                                 containerid="39002042364043"
+                                encodinganalog="archive legal"
                                 id="aspace_ref37_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">5</container>
                   </did>
                </c>
-               <c id="ref38" level="file">
+               <c altrender="/repositories/12/archival_objects/1257493"
+                  id="ref38"
+                  level="file">
                   <did>
                      <unittitle>Autobiography [notes]</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1896">1896</fromdate>
                            <todate standarddate="1969">1969</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143137 /locations/9"
                                 containerid="39002042364043"
+                                encodinganalog="archive legal"
                                 id="aspace_ref38_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">6</container>
                   </did>
                </c>
-               <c id="ref39" level="file">
+               <c altrender="/repositories/12/archival_objects/1257494"
+                  id="ref39"
+                  level="file">
                   <did>
                      <unittitle>"The Bible as Product of The Ancient World"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1896">1896</fromdate>
                            <todate standarddate="1969">1969</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143137 /locations/9"
                                 containerid="39002042364043"
+                                encodinganalog="archive legal"
                                 id="aspace_ref39_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">7</container>
                   </did>
                </c>
-               <c id="ref40" level="file">
+               <c altrender="/repositories/12/archival_objects/1257495"
+                  id="ref40"
+                  level="file">
                   <did>
                      <unittitle>Chapter drafts</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1896">1896</fromdate>
                            <todate standarddate="1969">1969</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143137 /locations/9"
                                 containerid="39002042364043"
+                                encodinganalog="archive legal"
                                 id="aspace_ref40_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">8 - 13</container>
                   </did>
                </c>
-               <c id="ref41" level="file">
+               <c altrender="/repositories/12/archival_objects/1257496"
+                  id="ref41"
+                  level="file">
                   <did>
                      <unittitle>"An Early Christian Bread Stamp" [includes correspondence about the article]</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1963-1964">
+                     <unitdatestructured altrender="1963-1964" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1963">1963</fromdate>
                            <todate standarddate="1964">1964</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143137 /locations/9"
                                 containerid="39002042364043"
+                                encodinganalog="archive legal"
                                 id="aspace_ref41_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">14</container>
                   </did>
                </c>
-               <c id="ref42" level="file">
+               <c altrender="/repositories/12/archival_objects/1257497"
+                  id="ref42"
+                  level="file">
                   <did>
                      <unittitle>
                         <title render="italic">
                            <part>Encyclopaedia Judaica</part>
                         </title>
                      </unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1896">1896</fromdate>
                            <todate standarddate="1969">1969</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143137 /locations/9"
                                 containerid="39002042364043"
+                                encodinganalog="archive legal"
                                 id="aspace_ref42_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">15</container>
                   </did>
                </c>
-               <c id="ref43" level="file">
+               <c altrender="/repositories/12/archival_objects/1257498"
+                  id="ref43"
+                  level="file">
                   <did>
                      <unittitle>"Evolutionary Ethics"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1964">
+                     <unitdatestructured altrender="1964" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1964">1964</fromdate>
                            <todate standarddate="1964">1964</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042364050"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143138 /locations/9"
+                                containerid="39002042364050"
                                 id="aspace_ref43_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref43_c2" localtype="folder" parent="aspace_ref43_c1">16</container>
                   </did>
                </c>
-               <c id="ref44" level="file">
+               <c altrender="/repositories/12/archival_objects/1257499"
+                  id="ref44"
+                  level="file">
                   <did>
                      <unittitle>"Galatians"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1896">1896</fromdate>
                            <todate standarddate="1969">1969</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042364050"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143138 /locations/9"
+                                containerid="39002042364050"
                                 id="aspace_ref44_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">17</container>
                   </did>
                </c>
-               <c id="ref45" level="file">
+               <c altrender="/repositories/12/archival_objects/1257500"
+                  id="ref45"
+                  level="file">
                   <did>
                      <unittitle>"Greek Garments on Jewish Heroes in the Dura Synagogue [Lown Institute lecture]</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1896">1896</fromdate>
                            <todate standarddate="1969">1969</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042364050"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143138 /locations/9"
+                                containerid="39002042364050"
                                 id="aspace_ref45_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref45_c2" localtype="folder" parent="aspace_ref45_c1">18</container>
                   </did>
                </c>
-               <c id="ref46" level="file">
+               <c altrender="/repositories/12/archival_objects/1257501"
+                  id="ref46"
+                  level="file">
                   <did>
                      <unittitle>"Judaism of the Dura Synagogue"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1961">
+                     <unitdatestructured altrender="1961" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1961">1961</fromdate>
                            <todate standarddate="1961">1961</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042364050"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143138 /locations/9"
+                                containerid="39002042364050"
                                 id="aspace_ref46_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref46_c2" localtype="folder" parent="aspace_ref46_c1">19</container>
                   </did>
                </c>
-               <c id="ref47" level="file">
+               <c altrender="/repositories/12/archival_objects/1257502"
+                  id="ref47"
+                  level="file">
                   <did>
                      <unittitle>"The Nature of Love in Plato and Freud"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1896">1896</fromdate>
                            <todate standarddate="1969">1969</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042364050"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143138 /locations/9"
+                                containerid="39002042364050"
                                 id="aspace_ref47_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref47_c2" localtype="folder" parent="aspace_ref47_c1">20</container>
                   </did>
                </c>
-               <c id="ref48" level="file">
+               <c altrender="/repositories/12/archival_objects/1257503"
+                  id="ref48"
+                  level="file">
                   <did>
                      <unittitle>"The Perspective of Acts" [for Schubert Festschrift]</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1963, undated">
+                     <unitdatestructured altrender="1963, undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1896">1896</fromdate>
                            <todate standarddate="1969">1969</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042364050"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143138 /locations/9"
+                                containerid="39002042364050"
                                 id="aspace_ref48_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref48_c2" localtype="folder" parent="aspace_ref48_c1">21</container>
                   </did>
                </c>
-               <c id="ref49" level="file">
+               <c altrender="/repositories/12/archival_objects/1257504"
+                  id="ref49"
+                  level="file">
                   <did>
                      <unittitle>"Socrates of History and the Socratic Tradition"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1896">1896</fromdate>
                            <todate standarddate="1969">1969</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042364050"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143138 /locations/9"
+                                containerid="39002042364050"
                                 id="aspace_ref49_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref49_c2" localtype="folder" parent="aspace_ref49_c1">22</container>
                   </did>
                </c>
-               <c id="ref50" level="file">
+               <c altrender="/repositories/12/archival_objects/1257505"
+                  id="ref50"
+                  level="file">
                   <did>
                      <unittitle>"The State of Israel"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1959">
+                     <unitdatestructured altrender="1959" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1959">1959</fromdate>
                            <todate standarddate="1959">1959</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042364050"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143138 /locations/9"
+                                containerid="39002042364050"
                                 id="aspace_ref50_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref50_c2" localtype="folder" parent="aspace_ref50_c1">23</container>
                   </did>
                </c>
-               <c id="ref51" level="file">
+               <c altrender="/repositories/12/archival_objects/1257506"
+                  id="ref51"
+                  level="file">
                   <did>
                      <unittitle>"Symbols of the Future: the Question Mark"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1896">1896</fromdate>
                            <todate standarddate="1969">1969</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042364050"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143138 /locations/9"
+                                containerid="39002042364050"
                                 id="aspace_ref51_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref51_c2" localtype="folder" parent="aspace_ref51_c1">24</container>
                   </did>
                </c>
-               <c id="ref52" level="file">
+               <c altrender="/repositories/12/archival_objects/1257507"
+                  id="ref52"
+                  level="file">
                   <did>
                      <unittitle>"Types of Religious Experiences"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1896">1896</fromdate>
                            <todate standarddate="1969">1969</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042364050"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/143138 /locations/9"
+                                containerid="39002042364050"
                                 id="aspace_ref52_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref52_c2" localtype="folder" parent="aspace_ref52_c1">25 - 27</container>
                   </did>
                </c>
-               <c id="ref53" level="file">
+               <c altrender="/repositories/12/archival_objects/1257508"
+                  id="ref53"
+                  level="file">
                   <did>
                      <unittitle>Unidentified</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1896">1896</fromdate>
                            <todate standarddate="1969">1969</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042364050"
+                     <container altrender="/repositories/12/top_containers/143138 /locations/9"
+                                containerid="39002042364050"
                                 id="aspace_ref53_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref53_c2" localtype="folder" parent="aspace_ref53_c1">28 - 29</container>
                   </did>
                </c>
-               <c id="ref54" level="file">
+               <c altrender="/repositories/12/archival_objects/1257509"
+                  id="ref54"
+                  level="file">
                   <did>
                      <unittitle>Unpublished</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                     <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1896">1896</fromdate>
                            <todate standarddate="1969">1969</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042364050"
+                     <container altrender="/repositories/12/top_containers/143138 /locations/9"
+                                containerid="39002042364050"
                                 id="aspace_ref54_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref54_c2" localtype="folder" parent="aspace_ref54_c1">30</container>
                   </did>
                </c>
-               <c id="ref57" level="item">
+               <c altrender="/repositories/12/archival_objects/1257510"
+                  id="ref57"
+                  level="item">
                   <did>
                      <unittitle>Photocopy of handwritten will</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1962-1963">
+                     <unitdatestructured altrender="1962-1963" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1962">1962</fromdate>
                            <todate standarddate="1963">1963</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042364050"
+                     <container altrender="/repositories/12/top_containers/143138 /locations/9"
+                                containerid="39002042364050"
                                 id="aspace_ref57_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
@@ -762,36 +955,45 @@
                </c>
             </c>
          </c>
-         <c id="ref55" level="series">
+         <c altrender="/repositories/12/archival_objects/1257511"
+            id="ref55"
+            level="series">
             <did>
                <unittitle>Additional Material</unittitle>
                <unitid>Accession 2003-M-078</unitid>
             </did>
-            <c id="ref56" level="file">
+            <c altrender="/repositories/12/archival_objects/1257512"
+               id="ref56"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Philo of Alexandria</part>
                      </title> [seven volumes; work text of Goodenough]</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1896-1930">
+                  <unitdatestructured altrender="1896-1930" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1896">1896</fromdate>
                         <todate standarddate="1930">1930</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143139 /locations/9"
                              containerid="39002051889856"
+                             encodinganalog="archive legal"
                              id="aspace_ref56_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
          </c>
-         <c id="ref58" level="series">
+         <c altrender="/repositories/12/archival_objects/1257513"
+            id="ref58"
+            level="series">
             <did>
                <unittitle>Additional Material</unittitle>
                <unitid>Accession 2011-M-015</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="Circa 1928-1939">
+               <unitdatestructured altrender="Circa 1928-1939"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1928">1928</fromdate>
                      <todate standarddate="1939">1939</todate>
@@ -811,136 +1013,161 @@
                      <part>Philo</part>
                   </title>. Volume I is included in accession 2013-M-019. Volumes II-V, VIII-X contain book by book bibliographical information with occasional photographs of a page; volumes III and V also have some correspondence concerning acquisition of information interspersed. Volume VII consists of correspondence with Dr. Foakes-Jackson, a collaborator who withdrew from the project, and some bibliographical essays (one of which appears twice in other volumes). Volume VI contains the corrected page proofs and Volume XI is the typescript of the book. Volume XII contains post-publication correspondence, primarily addressed to Howard Goodhart,  concerning things such as reviews, book distribution, and appreciation.</p>
             </scopecontent>
-            <c id="ref59" level="file">
+            <c altrender="/repositories/12/archival_objects/1257514"
+               id="ref59"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Philo</part>
                      </title>, volumes II-IV</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1935">
+                  <unitdatestructured altrender="Circa 1935" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1935">1935</fromdate>
                         <todate standarddate="1935">1935</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143140 /locations/9"
                              containerid="39002104800058"
+                             encodinganalog="archive letter"
                              id="aspace_ref59_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref59_c2" localtype="folder" parent="aspace_ref59_c1">1-3</container>
                </did>
             </c>
-            <c id="ref60" level="file">
+            <c altrender="/repositories/12/archival_objects/1257515"
+               id="ref60"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Philo</part>
                      </title>, volumes V-VI</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1935-1937">
+                  <unitdatestructured altrender="1935-1937" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1935">1935</fromdate>
                         <todate standarddate="1937">1937</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143141 /locations/9"
                              containerid="39002104800066"
+                             encodinganalog="archive letter"
                              id="aspace_ref60_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref60_c2" localtype="folder" parent="aspace_ref60_c1">1-2</container>
                </did>
             </c>
-            <c id="ref61" level="file">
+            <c altrender="/repositories/12/archival_objects/1257516"
+               id="ref61"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Philo</part>
                      </title>, volumes VII-VIII</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1935-1938">
+                  <unitdatestructured altrender="Circa 1935-1938"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1935">1935</fromdate>
                         <todate standarddate="1938">1938</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143142 /locations/9"
                              containerid="39002104800074"
+                             encodinganalog="archive letter"
                              id="aspace_ref61_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref61_c2" localtype="folder" parent="aspace_ref61_c1">1-2</container>
                </did>
             </c>
-            <c id="ref62" level="file">
+            <c altrender="/repositories/12/archival_objects/1257517"
+               id="ref62"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Philo</part>
                      </title>, volumes IX-X</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1938">
+                  <unitdatestructured altrender="1938" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1938">1938</fromdate>
                         <todate standarddate="1938">1938</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143143 /locations/9"
                              containerid="39002104800082"
+                             encodinganalog="archive letter"
                              id="aspace_ref62_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref62_c2" localtype="folder" parent="aspace_ref62_c1">1-2</container>
                </did>
             </c>
-            <c id="ref63" level="file">
+            <c altrender="/repositories/12/archival_objects/1257518"
+               id="ref63"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Philo</part>
                      </title>, volumes XI-XII</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1939">
+                  <unitdatestructured altrender="1939" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1939">1939</fromdate>
                         <todate standarddate="1939">1939</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143144 /locations/9"
                              containerid="39002104800090"
+                             encodinganalog="archive letter"
                              id="aspace_ref63_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref63_c2" localtype="folder" parent="aspace_ref63_c1">1-2</container>
                </did>
             </c>
-            <c id="ref65" level="file">
+            <c altrender="/repositories/12/archival_objects/1257519"
+               id="ref65"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>The Jurisprudence of the Jewish Courts in Egypt at the Time of the Early Roman Empire as Described by Philo Judaeus</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1928">
+                  <unitdatestructured altrender="Circa 1928" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1928">1928</fromdate>
                         <todate standarddate="1928">1928</todate>
                      </daterange>
                   </unitdatestructured>
                </did>
-               <c id="ref64" level="file">
+               <c altrender="/repositories/12/archival_objects/1257520"
+                  id="ref64"
+                  level="file">
                   <did>
                      <unittitle>Original manuscript</unittitle>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/143145 /locations/9"
                                 containerid="39002104800108"
+                                encodinganalog="archive letter"
                                 id="aspace_ref64_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref64_c2" localtype="folder" parent="aspace_ref64_c1">1</container>
                   </did>
                </c>
-               <c id="ref66" level="file">
+               <c altrender="/repositories/12/archival_objects/1257521"
+                  id="ref66"
+                  level="file">
                   <did>
                      <unittitle>Typescript</unittitle>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/143145 /locations/9"
                                 containerid="39002104800108"
+                                encodinganalog="archive letter"
                                 id="aspace_ref66_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
@@ -949,7 +1176,9 @@
                </c>
             </c>
          </c>
-         <c id="ref68" level="series">
+         <c altrender="/repositories/12/archival_objects/1257522"
+            id="ref68"
+            level="series">
             <did>
                <unittitle>Additional Material</unittitle>
                <unitid>Accession 2012-M-047</unitid>
@@ -958,113 +1187,146 @@
                <head>Scope and Contents</head>
                <p>This accession consists of nine boxes of brief, general lecture notes hand-written on 3x5 index cards.  Topics include: church and state, philosophy, psychology of religion, Justin Martyr and the Reformation.  Box 10 consists of one folder of correspondence (two letters and a postcard), one folder of negatives and three folders of photographs with notes.</p>
             </scopecontent>
-            <c id="ref69" level="file">
+            <c altrender="/repositories/12/archival_objects/1257523"
+               id="ref69"
+               level="file">
                <did>
                   <unittitle>Lectures</unittitle>
                </did>
-               <c id="ref70" level="file">
+               <c altrender="/repositories/12/archival_objects/1257524"
+                  id="ref70"
+                  level="file">
                   <did>
                      <unittitle>General</unittitle>
                   </did>
-                  <c id="ref71" level="file">
+                  <c altrender="/repositories/12/archival_objects/1257525"
+                     id="ref71"
+                     level="file">
                      <did>
                         <unittitle>C</unittitle>
-                        <unitdate unitdatetype="inclusive">Undated</unitdate>
-                        <container altrender="card box (6d 4h 12w)"
+                        <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                        <container altrender="/repositories/12/top_containers/143146 /locations/9"
                                    containerid="39002112734844"
+                                   encodinganalog="card box (6d 4h 12w)"
                                    id="aspace_ref71_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                      </did>
                   </c>
-                  <c id="ref72" level="file">
+                  <c altrender="/repositories/12/archival_objects/1257526"
+                     id="ref72"
+                     level="file">
                      <did>
                         <unittitle>C-G</unittitle>
-                        <unitdate unitdatetype="inclusive">Undated</unitdate>
-                        <container altrender="card box (6d 4h 12w)"
+                        <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                        <container altrender="/repositories/12/top_containers/143147 /locations/9"
                                    containerid="39002112734836"
+                                   encodinganalog="card box (6d 4h 12w)"
                                    id="aspace_ref72_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
                      </did>
                   </c>
-                  <c id="ref73" level="file">
+                  <c altrender="/repositories/12/archival_objects/1257527"
+                     id="ref73"
+                     level="file">
                      <did>
                         <unittitle>G-P</unittitle>
-                        <unitdate unitdatetype="inclusive">Undated</unitdate>
-                        <container altrender="card box (6d 4h 12w)"
+                        <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                        <container altrender="/repositories/12/top_containers/143148 /locations/9"
                                    containerid="39002112734620"
+                                   encodinganalog="card box (6d 4h 12w)"
                                    id="aspace_ref73_c1"
                                    label="Mixed Materials"
                                    localtype="box">3</container>
                      </did>
                   </c>
-                  <c id="ref74" level="file">
+                  <c altrender="/repositories/12/archival_objects/1257528"
+                     id="ref74"
+                     level="file">
                      <did>
                         <unittitle>P [philosophy]</unittitle>
-                        <unitdate unitdatetype="inclusive">Undated</unitdate>
-                        <container altrender="card box (6d 4h 12w)"
+                        <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                        <container altrender="/repositories/12/top_containers/143149 /locations/9"
                                    containerid="39002112734638"
+                                   encodinganalog="card box (6d 4h 12w)"
                                    id="aspace_ref74_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref75" level="file">
+                  <c altrender="/repositories/12/archival_objects/1257529"
+                     id="ref75"
+                     level="file">
                      <did>
                         <unittitle>P [psychology of religion]</unittitle>
-                        <unitdate unitdatetype="inclusive">Undated</unitdate>
-                        <container altrender="card box (6d 4h 12w)"
+                        <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                        <container altrender="/repositories/12/top_containers/143150 /locations/9"
                                    containerid="39002112734646"
+                                   encodinganalog="card box (6d 4h 12w)"
                                    id="aspace_ref75_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
-                  <c id="ref76" level="file">
+                  <c altrender="/repositories/12/archival_objects/1257530"
+                     id="ref76"
+                     level="file">
                      <did>
                         <unittitle>P-Q</unittitle>
-                        <unitdate unitdatetype="inclusive">Undated</unitdate>
-                        <container altrender="card box (6d 4h 12w)"
+                        <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                        <container altrender="/repositories/12/top_containers/143151 /locations/9"
                                    containerid="39002112734653"
+                                   encodinganalog="card box (6d 4h 12w)"
                                    id="aspace_ref76_c1"
                                    label="Mixed Materials"
                                    localtype="box">6</container>
                      </did>
                   </c>
                </c>
-               <c id="ref77" level="file">
+               <c altrender="/repositories/12/archival_objects/1257531"
+                  id="ref77"
+                  level="file">
                   <did>
                      <unittitle>Topical</unittitle>
                   </did>
-                  <c id="ref78" level="file">
+                  <c altrender="/repositories/12/archival_objects/1257532"
+                     id="ref78"
+                     level="file">
                      <did>
                         <unittitle>Justin Martyr</unittitle>
-                        <unitdate unitdatetype="inclusive">Undated</unitdate>
-                        <container altrender="card box (6d 4h 12w)"
+                        <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                        <container altrender="/repositories/12/top_containers/143152 /locations/9"
                                    containerid="39002112734661"
+                                   encodinganalog="card box (6d 4h 12w)"
                                    id="aspace_ref78_c1"
                                    label="Mixed Materials"
                                    localtype="box">7</container>
                      </did>
                   </c>
-                  <c id="ref79" level="file">
+                  <c altrender="/repositories/12/archival_objects/1257533"
+                     id="ref79"
+                     level="file">
                      <did>
                         <unittitle>Justin Martyr</unittitle>
-                        <unitdate unitdatetype="inclusive">Undated</unitdate>
-                        <container altrender="card box (6d 4h 12w)"
+                        <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                        <container altrender="/repositories/12/top_containers/143153 /locations/9"
                                    containerid="39002112734679"
+                                   encodinganalog="card box (6d 4h 12w)"
                                    id="aspace_ref79_c1"
                                    label="Mixed Materials"
                                    localtype="box">8</container>
                      </did>
                   </c>
-                  <c id="ref80" level="file">
+                  <c altrender="/repositories/12/archival_objects/1257534"
+                     id="ref80"
+                     level="file">
                      <did>
                         <unittitle>Reformation </unittitle>
-                        <unitdate unitdatetype="inclusive">Undated</unitdate>
-                        <container altrender="card box (6d 4h 12w)"
+                        <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                        <container altrender="/repositories/12/top_containers/143154 /locations/9"
                                    containerid="39002112734687"
+                                   encodinganalog="card box (6d 4h 12w)"
                                    id="aspace_ref80_c1"
                                    label="Mixed Materials"
                                    localtype="box">9</container>
@@ -1072,41 +1334,50 @@
                   </c>
                </c>
             </c>
-            <c id="ref81" level="file">
+            <c altrender="/repositories/12/archival_objects/1257535"
+               id="ref81"
+               level="file">
                <did>
                   <unittitle>Correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1945-1962">
+                  <unitdatestructured altrender="1945-1962" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1945">1945</fromdate>
                         <todate standarddate="1962">1962</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143155 /locations/9"
                              containerid="39002112734695"
+                             encodinganalog="archive letter"
                              id="aspace_ref81_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref81_c2" localtype="folder" parent="aspace_ref81_c1">1</container>
                </did>
             </c>
-            <c id="ref83" level="file">
+            <c altrender="/repositories/12/archival_objects/1257536"
+               id="ref83"
+               level="file">
                <did>
                   <unittitle>Negatives</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/143155 /locations/9"
                              containerid="39002112734695"
+                             encodinganalog="archive letter"
                              id="aspace_ref83_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref83_c2" localtype="folder" parent="aspace_ref83_c1">2</container>
                </did>
             </c>
-            <c id="ref84" level="file">
+            <c altrender="/repositories/12/archival_objects/1257537"
+               id="ref84"
+               level="file">
                <did>
                   <unittitle>Photographs</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/143155 /locations/9"
                              containerid="39002112734695"
+                             encodinganalog="archive letter"
                              id="aspace_ref84_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
@@ -1114,18 +1385,23 @@
                </did>
             </c>
          </c>
-         <c id="ref87" level="series">
+         <c altrender="/repositories/12/archival_objects/1257538"
+            id="ref87"
+            level="series">
             <did>
                <unittitle>Additional Material</unittitle>
                <unitid>Accession 2013-M-019</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1935">
+               <unitdatestructured altrender="1935" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1935">1935</fromdate>
                      <todate standarddate="1935">1935</todate>
                   </daterange>
                </unitdatestructured>
-               <langmaterial id="aspace_4289a408e3cde2ffcde5d869141acf9c">
-                  <language>Materials in English and Greek.</language>
+               <langmaterial>
+                  <language/>
+                  <descriptivenote>
+                     <p>Materials in English and Greek.</p>
+                  </descriptivenote>
                </langmaterial>
             </did>
             <scopecontent id="aspace_90278d5d23c5f50a700d8e727ad693b9">
@@ -1138,20 +1414,23 @@
                      <part>Philo</part>
                   </title> form part of the materials included in accession 2011-M-015. Volume I consists of a typewritten bibliography of manuscripts, books, and articles related to the work of the Philo Judaeus. Many entries in the bibliography include detailed physical descriptions of individual works. The volume also includes an alphabetized index. Handwritten notes in Greek appear throughout the volume.</p>
             </scopecontent>
-            <c id="ref89" level="file">
+            <c altrender="/repositories/12/archival_objects/1257539"
+               id="ref89"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Philo</part>
                      </title>, volume I</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1935">
+                  <unitdatestructured altrender="1935" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1935">1935</fromdate>
                         <todate standarddate="1935">1935</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/143156 /locations/9"
                              containerid="39002104592945"
+                             encodinganalog="Paige 15"
                              id="aspace_ref89_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>

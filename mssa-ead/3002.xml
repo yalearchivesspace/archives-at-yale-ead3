@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0653">mssa.ms.0653</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0653">mssa.ms.0653</recordid>
+      <otherrecordid localtype="BIB">614431</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Preliminary Guide to the Kent Tenney Healy Papers
@@ -32,6 +34,11 @@
             <date>June 1980</date>
             <num>MS 653</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:03:40+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:45:10+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:03</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:45</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3002" level="collection">
       <did>
          <unittitle>Kent Tenney Healy papers</unittitle>
          <unitid>MS 653</unitid>
@@ -83,173 +93,199 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(26 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1918-1969">
+         <unitdatestructured altrender="1918-1969" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1918">1918</fromdate>
                <todate standarddate="1969">1969</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_08e88fb60b3ae73b6ce860ff7f354370">The papers consist of correspondence, subject files, teaching materials, minutes, reports, and memoranda relating to various Yale University committees and departments with which Kent Healy was connected. As a specialist in transportation he was a member of a number of government committees, among them the National Resources Planning Board, the New England Council Transportation Committee, and the New Haven Traffic Commission. His subject files contain extensive printed and mimeographed material on railroads.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname rules="aacr" source="local">
-               <part>Healy, Kent Tenney, 1902-</part>
+               <part localtype="agent_person">Healy, Kent Tenney, 1902-</part>
             </persname>
          </origination>
-    
       </did>
       <accessrestrict id="aspace_6e57faad3442f8f0453d01c43a6a643f">
          <head>Conditions Governing Access</head>
          <p>The majority of the materials are open for research. As established by <ref actuate="onrequest"
                  href="http://web.library.yale.edu/mssa/collections/research-use-of-yale-university-archives"
-                 show="new">Yale Corporation regulations.</ref>, student records in box 22 are restricted until 2041; grade books in box 24 are restricted until 2024.</p>  
+                 show="new">Yale Corporation regulations.</ref>, student records in box 22 are restricted until 2041; grade books in box 24 are restricted until 2024.</p>
       </accessrestrict>
       <prefercite id="aspace_d7b99fb1106282b3c38260b701782b45">
          <head>Preferred Citation</head>
-         <p>Kent Tenney Healy Papers (MS 653). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Kent Tenney Healy Papers (MS 653). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <acqinfo id="aspace_a243b755e26557cde7d28ae71cb441de">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Kent T. Healy, 1970-1973.</p>  
+         <p>Gift of Kent T. Healy, 1970-1973.</p>
       </acqinfo>
       <relatedmaterial id="aspace_76c72847eddb8b0f50863493781fa145">
          <head>Related Materials</head>
-         <p>See also the Historical Picture Collection (MS 713), Series III, A 148, 1-11, for eleven undated lantern slides re: Italian railroads and highways which were removed from the Kent T. Healy Papers.</p>  
+         <p>See also the Historical Picture Collection (MS 713), Series III, A 148, 1-11, for eleven undated lantern slides re: Italian railroads and highways which were removed from the Kent T. Healy Papers.</p>
       </relatedmaterial>
       <scopecontent id="aspace_b0e6d3d627543cd97ba56c32e4843b7b">
          <head>Scope and Contents</head>
-         <p>The Kent T. Healy Papers cover the period of time that Kent T. Healy was a member of the Committee on Transportation of the Economics department at Yale. The first five boxes of the papers contain Professor Healy's correspondence mostly with his colleagues in the academic and business worlds. Most of the correspondence falls within the time span of the 1930's and 1940's. Also included in the collection are typed manuscripts and notes for Professor Healy's papers on various aspects of transportation, as well as student papers. Professor Healy's main transportation concern was with railroads, and boxes 12 and 13 contain information files on various national and foreign railroads. Boxes 15-17 contain folders from the Committee on Transportation, and the rest of the collection is taken up with reports from various organizations, mimeographed papers of Professor Healy's, and printed material such as books, pamphlets, and newspaper clippings.</p>  
+         <p>The Kent T. Healy Papers cover the period of time that Kent T. Healy was a member of the Committee on Transportation of the Economics department at Yale. The first five boxes of the papers contain Professor Healy's correspondence mostly with his colleagues in the academic and business worlds. Most of the correspondence falls within the time span of the 1930's and 1940's. Also included in the collection are typed manuscripts and notes for Professor Healy's papers on various aspects of transportation, as well as student papers. Professor Healy's main transportation concern was with railroads, and boxes 12 and 13 contain information files on various national and foreign railroads. Boxes 15-17 contain folders from the Committee on Transportation, and the rest of the collection is taken up with reports from various organizations, mimeographed papers of Professor Healy's, and printed material such as books, pamphlets, and newspaper clippings.</p>
       </scopecontent>
       <bioghist id="aspace_0efad0e3186c3d1c2a4a5ed71678b8c4">
          <head>Biographical / Historical</head>
-         <p>Kent T. Healy was born in Chicago on February 2, 1902. He received his B.A. from Harvard in 1921, and his B.S. in Electrical Engineering from M.I.T. in 1923. Healey was an assistant professor of transportation at Yale from 1928-1937, an assistant professor of political economy from 1937-1938, an assistant professor of economics from 1938-1940, an associate professor from 1940-1945, and the Thomas DeWitt Cuyler Professor of Transportation from 1945-1970.</p>  
+         <p>Kent T. Healy was born in Chicago on February 2, 1902. He received his B.A. from Harvard in 1921, and his B.S. in Electrical Engineering from M.I.T. in 1923. Healey was an assistant professor of transportation at Yale from 1928-1937, an assistant professor of political economy from 1937-1938, an assistant professor of economics from 1938-1940, an associate professor from 1940-1945, and the Thomas DeWitt Cuyler Professor of Transportation from 1945-1970.</p>
       </bioghist>
       <userestrict id="aspace_535188395dbc7d00883542363da734f7">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85040850"
                   source="lcsh">
-            <part>Economics</part>
+            <part localtype="topical">Economics</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85110904"
                   source="lcsh">
-            <part>Railroads</part>
+            <part localtype="topical">Railroads</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85137027"
                   source="lcsh">
-            <part>Transportation</part>
+            <part localtype="topical">Transportation</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <persname rules="aacr" source="local">
-            <part>Healy, Kent Tenney, 1902-</part>
+            <part localtype="agent_person">Healy, Kent Tenney, 1902-</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n81017891" source="naf">
-            <part>Yale University. Department of Economics</part>
+            <part localtype="agent_corporate_entity">Yale University. Department of Economics</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="series">
+         <c altrender="/repositories/12/archival_objects/1180547"
+            id="ref10"
+            level="series">
             <did>
                <unittitle>Inventory</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1918-1969">
+               <unitdatestructured altrender="1918-1969" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1918">1918</fromdate>
                      <todate standarddate="1969">1969</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1180548"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Personal correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1934-1953">
+                  <unitdatestructured altrender="1934-1953" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1934">1934</fromdate>
                         <todate standarddate="1953">1953</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130738 /locations/9"
                              containerid="39002042522376"
-                             id="d1e277"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1180549"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Personal correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1953-1968">
+                  <unitdatestructured altrender="1953-1968" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1953">1953</fromdate>
                         <todate standarddate="1968">1968</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130739 /locations/9"
                              containerid="39002042522384"
-                             id="d1e293"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1180550"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Miscellaneous correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1933-1963">
+                  <unitdatestructured altrender="Circa 1933-1963"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1928">1928</fromdate>
                         <todate standarddate="1963">1963</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130739 /locations/9"
                              containerid="39002042522384"
-                             id="d1e309"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1180551"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Correspondence: individual folders, M-W</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1930-1935">
+                  <unitdatestructured altrender="Circa 1930-1935"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1925">1925</fromdate>
                         <todate standarddate="1935">1935</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130740 /locations/9"
                              containerid="39002042522392"
-                             id="d1e325"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1180552"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Yale departments and committees: correspondence, memoranda, reports</unittitle>
                </did>
-               <c id="ref17" level="file">
+               <c altrender="/repositories/12/archival_objects/1180553"
+                  id="ref17"
+                  level="file">
                   <did>
                      <unittitle>Bureau of Highway Traffic</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1942-1945">
+                     <unitdatestructured altrender="1942-1945" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1942">1942</fromdate>
                            <todate standarddate="1945">1945</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130740 /locations/9"
                                 containerid="39002042522392"
-                                id="d1e347"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
                </c>
-               <c id="ref18" level="file">
+               <c altrender="/repositories/12/archival_objects/1180554"
+                  id="ref18"
+                  level="file">
                   <did>
                      <unittitle>Committee on Transportation</unittitle>
                   </did>
@@ -257,614 +293,768 @@
                      <head>General</head>
                      <p>See also <ref actuate="onrequest" show="replace" target="ref61">Box 26</ref>.</p>
                   </odd>
-                  <c id="ref63" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180555"
+                     id="ref63"
+                     level="file">
                      <did>
                         <unittitle>Correspondence</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1926-1944">
+                        <unitdatestructured altrender="1926-1944" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1926">1926</fromdate>
                               <todate standarddate="1944">1944</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="Paige 15"
+                        <container altrender="/repositories/12/top_containers/130740 /locations/9"
                                    containerid="39002042522392"
-                                   id="d1e377"
+                                   encodinganalog="Paige 15"
+                                   id="aspace_ref63_c1"
                                    label="Mixed Materials"
                                    localtype="box">3</container>
                      </did>
                   </c>
-                  <c id="ref64" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180556"
+                     id="ref64"
+                     level="file">
                      <did>
                         <unittitle>Correspondence</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1944-1959">
+                        <unitdatestructured altrender="1944-1959" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1944">1944</fromdate>
                               <todate standarddate="1959">1959</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="Paige 15"
+                        <container altrender="/repositories/12/top_containers/130741 /locations/9"
                                    containerid="39002042522400"
-                                   id="d1e393"
+                                   encodinganalog="Paige 15"
+                                   id="aspace_ref64_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref65" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180557"
+                     id="ref65"
+                     level="file">
                      <did>
                         <unittitle>Correspondence</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1959-1968">
+                        <unitdatestructured altrender="1959-1968" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1959">1959</fromdate>
                               <todate standarddate="1968">1968</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="Paige 15"
+                        <container altrender="/repositories/12/top_containers/130742 /locations/9"
                                    containerid="39002042522418"
-                                   id="d1e409"
+                                   encodinganalog="Paige 15"
+                                   id="aspace_ref65_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
-                  <c id="ref66" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180558"
+                     id="ref66"
+                     level="file">
                      <did>
                         <unittitle>Minutes</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1924-1960">
+                        <unitdatestructured altrender="1924-1960" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1924">1924</fromdate>
                               <todate standarddate="1960">1960</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="Paige 15"
+                        <container altrender="/repositories/12/top_containers/130742 /locations/9"
                                    containerid="39002042522418"
-                                   id="d1e425"
+                                   encodinganalog="Paige 15"
+                                   id="aspace_ref66_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
-                  <c id="ref67" level="file">
+                  <c altrender="/repositories/12/archival_objects/1180559"
+                     id="ref67"
+                     level="file">
                      <did>
                         <unittitle>Expenses</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1954-1960">
+                        <unitdatestructured altrender="1954-1960" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1954">1954</fromdate>
                               <todate standarddate="1960">1960</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="Paige 15"
+                        <container altrender="/repositories/12/top_containers/130742 /locations/9"
                                    containerid="39002042522418"
-                                   id="d1e441"
+                                   encodinganalog="Paige 15"
+                                   id="aspace_ref67_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
                </c>
-               <c id="ref19" level="file">
+               <c altrender="/repositories/12/archival_objects/1180560"
+                  id="ref19"
+                  level="file">
                   <did>
                      <unittitle>Correspondence re: Thomas DeWitt Cuyler Chair of Transportation</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1922-1932">
+                     <unitdatestructured altrender="1922-1932" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1922">1922</fromdate>
                            <todate standarddate="1932">1932</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130742 /locations/9"
                                 containerid="39002042522418"
-                                id="d1e457"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref19_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                   </did>
                </c>
-               <c id="ref20" level="file">
+               <c altrender="/repositories/12/archival_objects/1180561"
+                  id="ref20"
+                  level="file">
                   <did>
                      <unittitle>Economic History Program</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1962-1967">
+                     <unitdatestructured altrender="1962-1967" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1962">1962</fromdate>
                            <todate standarddate="1967">1967</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130742 /locations/9"
                                 containerid="39002042522418"
-                                id="d1e473"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref20_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                   </did>
                </c>
-               <c id="ref21" level="file">
+               <c altrender="/repositories/12/archival_objects/1180562"
+                  id="ref21"
+                  level="file">
                   <did>
                      <unittitle>Economic Department</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1952-1956">
+                     <unitdatestructured altrender="1952-1956" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1952">1952</fromdate>
                            <todate standarddate="1956">1956</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130742 /locations/9"
                                 containerid="39002042522418"
-                                id="d1e489"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref21_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                   </did>
                </c>
-               <c id="ref22" level="file">
+               <c altrender="/repositories/12/archival_objects/1180563"
+                  id="ref22"
+                  level="file">
                   <did>
                      <unittitle>Executive Committee of the Faculty of Arts and Sciences</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1958">
+                     <unitdatestructured altrender="1958" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1958">1958</fromdate>
                            <todate standarddate="1958">1958</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130742 /locations/9"
                                 containerid="39002042522418"
-                                id="d1e505"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref22_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                   </did>
                </c>
-               <c id="ref23" level="file">
+               <c altrender="/repositories/12/archival_objects/1180564"
+                  id="ref23"
+                  level="file">
                   <did>
                      <unittitle>Executive Committee of the Social Sciences</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1948-1951, 1955-1956">
+                     <unitdatestructured altrender="1948-1951, 1955-1956"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1948">1948</fromdate>
                            <todate standarddate="1956">1956</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130742 /locations/9"
                                 containerid="39002042522418"
-                                id="d1e521"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref23_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                   </did>
                </c>
-               <c id="ref24" level="file">
+               <c altrender="/repositories/12/archival_objects/1180565"
+                  id="ref24"
+                  level="file">
                   <did>
                      <unittitle>National Policy Committee: correspondence, expenses</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947-1952">
+                     <unitdatestructured altrender="1947-1952" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1947">1947</fromdate>
                            <todate standarddate="1952">1952</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130743 /locations/9"
                                 containerid="39002042522426"
-                                id="d1e537"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref24_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                   </did>
                </c>
-               <c id="ref25" level="file">
+               <c altrender="/repositories/12/archival_objects/1180566"
+                  id="ref25"
+                  level="file">
                   <did>
                      <unittitle>Social Studies Department</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1955-1964">
+                     <unitdatestructured altrender="1955-1964" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1955">1955</fromdate>
                            <todate standarddate="1964">1964</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130743 /locations/9"
                                 containerid="39002042522426"
-                                id="d1e553"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref25_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                   </did>
                </c>
-               <c id="ref26" level="file">
+               <c altrender="/repositories/12/archival_objects/1180567"
+                  id="ref26"
+                  level="file">
                   <did>
                      <unittitle>Statistics Committee</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1946-1958">
+                     <unitdatestructured altrender="1946-1958" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1946">1946</fromdate>
                            <todate standarddate="1958">1958</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130743 /locations/9"
                                 containerid="39002042522426"
-                                id="d1e569"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref26_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                   </did>
                </c>
-               <c id="ref27" level="file">
+               <c altrender="/repositories/12/archival_objects/1180568"
+                  id="ref27"
+                  level="file">
                   <did>
                      <unittitle>Survey Committee on Planning Studies</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1955-1956">
+                     <unitdatestructured altrender="1955-1956" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1955">1955</fromdate>
                            <todate standarddate="1956">1956</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130743 /locations/9"
                                 containerid="39002042522426"
-                                id="d1e586"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref27_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                   </did>
                </c>
-               <c id="ref28" level="file">
+               <c altrender="/repositories/12/archival_objects/1180569"
+                  id="ref28"
+                  level="file">
                   <did>
                      <unittitle>Tenure Appointments Committee in the Sciences</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1953-1963">
+                     <unitdatestructured altrender="1953-1963" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1953">1953</fromdate>
                            <todate standarddate="1963">1963</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130743 /locations/9"
                                 containerid="39002042522426"
-                                id="d1e602"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref28_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                   </did>
                </c>
             </c>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1180570"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Non-Yale committees: correspondence, memoranda, reports</unittitle>
                </did>
-               <c id="ref31" level="file">
+               <c altrender="/repositories/12/archival_objects/1180571"
+                  id="ref31"
+                  level="file">
                   <did>
                      <unittitle>New England Council Transportation Committee</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1953-1955">
+                     <unitdatestructured altrender="1953-1955" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1953">1953</fromdate>
                            <todate standarddate="1955">1955</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130743 /locations/9"
                                 containerid="39002042522426"
-                                id="d1e624"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref31_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                   </did>
                </c>
-               <c id="ref32" level="file">
+               <c altrender="/repositories/12/archival_objects/1180572"
+                  id="ref32"
+                  level="file">
                   <did>
                      <unittitle>New Haven Traffic Commission</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1945-1950">
+                     <unitdatestructured altrender="1945-1950" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1945">1945</fromdate>
                            <todate standarddate="1950">1950</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130743 /locations/9"
                                 containerid="39002042522426"
-                                id="d1e640"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref32_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                   </did>
                </c>
-               <c id="ref33" level="file">
+               <c altrender="/repositories/12/archival_objects/1180573"
+                  id="ref33"
+                  level="file">
                   <did>
                      <unittitle>Transportation Council for the Department of Commerce</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1953-1954">
+                     <unitdatestructured altrender="1953-1954" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1953">1953</fromdate>
                            <todate standarddate="1954">1954</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130743 /locations/9"
                                 containerid="39002042522426"
-                                id="d1e656"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref33_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                   </did>
                </c>
-               <c id="ref34" level="file">
+               <c altrender="/repositories/12/archival_objects/1180574"
+                  id="ref34"
+                  level="file">
                   <did>
                      <unittitle>National Resources Planning Board</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1940-1941">
+                     <unitdatestructured altrender="1940-1941" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1940">1940</fromdate>
                            <todate standarddate="1941">1941</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130744 /locations/9"
                                 containerid="39002042522434"
-                                id="d1e672"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref34_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                   </did>
                </c>
-               <c id="ref35" level="file">
+               <c altrender="/repositories/12/archival_objects/1180575"
+                  id="ref35"
+                  level="file">
                   <did>
                      <unittitle>New York State office of Transportation</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1959-1960">
+                     <unitdatestructured altrender="1959-1960" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1959">1959</fromdate>
                            <todate standarddate="1960">1960</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130744 /locations/9"
                                 containerid="39002042522434"
-                                id="d1e688"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref35_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                   </did>
                </c>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1180576"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>Subject files (with little organization)</unittitle>
                </did>
-               <c id="ref38" level="file">
+               <c altrender="/repositories/12/archival_objects/1180577"
+                  id="ref38"
+                  level="file">
                   <did>
                      <unittitle>Transportation, especially of coal and oil; Bituminous Coal Division, Dept. of the Interior (BCD); and Lend -Lease Administration: correspondence, MSS, notes</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="Circa 1928-1959">
+                     <unitdatestructured altrender="Circa 1928-1959"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1923">1923</fromdate>
                            <todate standarddate="1933">1933</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130745 /locations/9"
                                 containerid="39002042522442"
-                                id="d1e710"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref38_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                   </did>
                </c>
-               <c id="ref39" level="file">
+               <c altrender="/repositories/12/archival_objects/1180578"
+                  id="ref39"
+                  level="file">
                   <did>
                      <unittitle>Transportation, mostly railroads: MSS, notes, some student papers</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="Circa 1933-1956">
+                     <unitdatestructured altrender="Circa 1933-1956"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1928">1928</fromdate>
                            <todate standarddate="1956">1956</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130746 /locations/9"
                                 containerid="39002042522459"
-                                id="d1e726"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref39_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                   </did>
                </c>
-               <c id="ref40" level="file">
+               <c altrender="/repositories/12/archival_objects/1180579"
+                  id="ref40"
+                  level="file">
                   <did>
                      <unittitle>Transportation, mostly railroads: MSS, notes, some student papers</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="Circa 1933-1956">
+                     <unitdatestructured altrender="Circa 1933-1956"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1928">1928</fromdate>
                            <todate standarddate="1956">1956</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130747 /locations/9"
                                 containerid="39002042522467"
-                                id="d1e742"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref40_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                   </did>
                </c>
-               <c id="ref41" level="file">
+               <c altrender="/repositories/12/archival_objects/1180580"
+                  id="ref41"
+                  level="file">
                   <did>
                      <unittitle>Railroads: correspondence, printed matter</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="Circa 1930-1961">
+                     <unitdatestructured altrender="Circa 1930-1961"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1925">1925</fromdate>
                            <todate standarddate="1961">1961</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130747 /locations/9"
                                 containerid="39002042522467"
-                                id="d1e758"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref41_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                   </did>
                </c>
-               <c id="ref42" level="file">
+               <c altrender="/repositories/12/archival_objects/1180581"
+                  id="ref42"
+                  level="file">
                   <did>
                      <unittitle>Railroads: correspondence, printed matter</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="Circa 1930-1961">
+                     <unitdatestructured altrender="Circa 1930-1961"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1925">1925</fromdate>
                            <todate standarddate="1961">1961</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130748 /locations/9"
                                 containerid="39002042522475"
-                                id="d1e774"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref42_c1"
                                 label="Mixed Materials"
                                 localtype="box">11</container>
                   </did>
                </c>
-               <c id="ref43" level="file">
+               <c altrender="/repositories/12/archival_objects/1180582"
+                  id="ref43"
+                  level="file">
                   <did>
                      <unittitle>Mostly railroads and BCD: reports, printed matter</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="Circa 1922-1963">
+                     <unitdatestructured altrender="Circa 1922-1963"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1917">1917</fromdate>
                            <todate standarddate="1963">1963</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130748 /locations/9"
                                 containerid="39002042522475"
-                                id="d1e790"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref43_c1"
                                 label="Mixed Materials"
                                 localtype="box">11</container>
                   </did>
                </c>
-               <c id="ref44" level="file">
+               <c altrender="/repositories/12/archival_objects/1180583"
+                  id="ref44"
+                  level="file">
                   <did>
                      <unittitle>Mostly railroads and BCD: reports, printed matter</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="circa 1922-1963">
+                     <unitdatestructured altrender="circa 1922-1963"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1917">1917</fromdate>
                            <todate standarddate="1963">1963</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130749 /locations/9"
                                 containerid="39002042522483"
-                                id="d1e806"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref44_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
                   </did>
                </c>
-               <c id="ref45" level="file">
+               <c altrender="/repositories/12/archival_objects/1180584"
+                  id="ref45"
+                  level="file">
                   <did>
                      <unittitle>Mostly railroads and BCD: reports, printed matter</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="circa 1922-1963">
+                     <unitdatestructured altrender="circa 1922-1963"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1917">1917</fromdate>
                            <todate standarddate="1963">1963</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130750 /locations/9"
                                 containerid="39002042522491"
-                                id="d1e822"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref45_c1"
                                 label="Mixed Materials"
                                 localtype="box">13</container>
                   </did>
                </c>
-               <c id="ref46" level="file">
+               <c altrender="/repositories/12/archival_objects/1180585"
+                  id="ref46"
+                  level="file">
                   <did>
                      <unittitle>Mostly railroads and BCD: reports, printed matter</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="Circa 1922-1963">
+                     <unitdatestructured altrender="Circa 1922-1963"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1917">1917</fromdate>
                            <todate standarddate="1963">1963</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130751 /locations/9"
                                 containerid="39002042522509"
-                                id="d1e838"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref46_c1"
                                 label="Mixed Materials"
                                 localtype="box">14</container>
                   </did>
                </c>
-               <c id="ref47" level="file">
+               <c altrender="/repositories/12/archival_objects/1180586"
+                  id="ref47"
+                  level="file">
                   <did>
                      <unittitle>Mostly railroads: mimeographed material (including course hand-outs), printed matter, some MSS and correspondence</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="Circa 1918-1962">
+                     <unitdatestructured altrender="Circa 1918-1962"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1913">1913</fromdate>
                            <todate standarddate="1962">1962</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130752 /locations/9"
                                 containerid="39002042522517"
-                                id="d1e854"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref47_c1"
                                 label="Mixed Materials"
                                 localtype="box">15</container>
                   </did>
                </c>
-               <c id="ref48" level="file">
+               <c altrender="/repositories/12/archival_objects/1180587"
+                  id="ref48"
+                  level="file">
                   <did>
                      <unittitle>Mostly railroads: mimeographed material (including course hand-outs), printed matter, some MSS and correspondence</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="Circa 1918-1962">
+                     <unitdatestructured altrender="Circa 1918-1962"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1913">1913</fromdate>
                            <todate standarddate="1962">1962</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130753 /locations/9"
                                 containerid="39002042522525"
-                                id="d1e871"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref48_c1"
                                 label="Mixed Materials"
                                 localtype="box">16</container>
                   </did>
                </c>
-               <c id="ref49" level="file">
+               <c altrender="/repositories/12/archival_objects/1180588"
+                  id="ref49"
+                  level="file">
                   <did>
                      <unittitle>Mostly railroads: mimeographed material (including course hand-outs), printed matter, some MSS and correspondence</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="Circa 1918-1962">
+                     <unitdatestructured altrender="Circa 1918-1962"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1913">1913</fromdate>
                            <todate standarddate="1962">1962</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130754 /locations/9"
                                 containerid="39002042522533"
-                                id="d1e887"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref49_c1"
                                 label="Mixed Materials"
                                 localtype="box">17</container>
                   </did>
                </c>
             </c>
-            <c id="ref50" level="file">
+            <c altrender="/repositories/12/archival_objects/1180589"
+               id="ref50"
+               level="file">
                <did>
                   <unittitle>Papers concerning the application of the Chicago, Burlington &amp; Quincy Railroad Company before the Interstate Commerce Commission: correspondence, MSS, printed matter</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1941-1950">
+                  <unitdatestructured altrender="Circa 1941-1950"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1936">1936</fromdate>
                         <todate standarddate="1950">1950</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130755 /locations/9"
                              containerid="39002042522541"
-                             id="d1e903"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref50_c1"
                              label="Mixed Materials"
                              localtype="box">18</container>
                </did>
             </c>
-            <c id="ref51" level="file">
+            <c altrender="/repositories/12/archival_objects/1180590"
+               id="ref51"
+               level="file">
                <did>
                   <unittitle>Papers of students</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1932-1969">
+                  <unitdatestructured altrender="Circa 1932-1969"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1927">1927</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130756 /locations/9"
                              containerid="39002042522558"
-                             id="d1e919"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref51_c1"
                              label="Mixed Materials"
                              localtype="box">19</container>
                </did>
             </c>
-            <c id="ref52" level="file">
+            <c altrender="/repositories/12/archival_objects/1180591"
+               id="ref52"
+               level="file">
                <did>
                   <unittitle>Papers of students</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1932-1969">
+                  <unitdatestructured altrender="Circa 1932-1969"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1927">1927</fromdate>
                         <todate standarddate="1969">1969</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130757 /locations/9"
                              containerid="39002042522566"
-                             id="d1e935"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref52_c1"
                              label="Mixed Materials"
                              localtype="box">20</container>
                </did>
             </c>
-            <c id="ref53" level="file">
+            <c altrender="/repositories/12/archival_objects/1180592"
+               id="ref53"
+               level="file">
                <did>
                   <unittitle>Printed theses, reports, miscellaneous</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1925, 1946-1947">
+                  <unitdatestructured altrender="1925, 1946-1947"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1925">1925</fromdate>
                         <todate standarddate="1947">1947</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130758 /locations/9"
                              containerid="39002042522574"
-                             id="d1e952"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref53_c1"
                              label="Mixed Materials"
                              localtype="box">21</container>
                </did>
             </c>
-            <c id="ref54" level="file">
+            <c altrender="/repositories/12/archival_objects/1180593"
+               id="ref54"
+               level="file">
                <did>
                   <unittitle>Student confidential</unittitle>
                </did>
-               <c id="ref55" level="file">
+               <c altrender="/repositories/12/archival_objects/1180594"
+                  id="ref55"
+                  level="file">
                   <did>
                      <unittitle>Letters of recommendation, correspondence with students, papers concerning fellowships</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="Circa 1928-1965">
+                     <unitdatestructured altrender="Circa 1928-1965"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1923">1923</fromdate>
                            <todate standarddate="1965">1965</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130759 /locations/9"
                                 containerid="39002042522582"
-                                id="d1e974"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref55_c1"
                                 label="Mixed Materials"
                                 localtype="box">22</container>
                   </did>
-                  <accessrestrict id="aspace_0ff7e42f8cbde506445adea1f18e4e25">
+                  <accessrestrict id="aspace_0ff7e42f8cbde506445adea1f18e4e25"
+                                  localtype="RestrictedCurApprSpecColl">
                      <head>Conditions Governing Access</head>
                      <p>Student files are restricted until January 1, 2041 as established by <ref actuate="onrequest"
                              href="http://web.library.yale.edu/mssa/collections/research-use-of-yale-university-archives"
@@ -872,38 +1062,47 @@
                      </p>
                   </accessrestrict>
                </c>
-               <c id="ref57" level="file">
+               <c altrender="/repositories/12/archival_objects/1180595"
+                  id="ref57"
+                  level="file">
                   <did>
                      <unittitle>Strathcona Interview Trips: correspondence</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1929-1934">
+                     <unitdatestructured altrender="1929-1934" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1929">1929</fromdate>
                            <todate standarddate="1934">1934</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130760 /locations/9"
                                 containerid="39002042522590"
-                                id="d1e997"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref57_c1"
                                 label="Mixed Materials"
                                 localtype="box">23</container>
                   </did>
                </c>
-               <c id="ref58" level="file">
+               <c altrender="/repositories/12/archival_objects/1180596"
+                  id="ref58"
+                  level="file">
                   <did>
                      <unittitle>Grade books</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="Circa 1936-1948">
+                     <unitdatestructured altrender="Circa 1936-1948"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1931">1931</fromdate>
                            <todate standarddate="1948">1948</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="Paige 15"
+                     <container altrender="/repositories/12/top_containers/130761 /locations/9"
                                 containerid="39002042522608"
-                                id="d1e1013"
+                                encodinganalog="Paige 15"
+                                id="aspace_ref58_c1"
                                 label="Mixed Materials"
                                 localtype="box">24</container>
                   </did>
-                  <accessrestrict id="aspace_a74770528a2fe1723b35bb1ce8a617ed">
+                  <accessrestrict id="aspace_a74770528a2fe1723b35bb1ce8a617ed"
+                                  localtype="RestrictedCurApprSpecColl">
                      <head>Conditions Governing Access</head>
                      <p>Grade books are closed until January 1, 2024 as established by <ref actuate="onrequest"
                              href="http://web.library.yale.edu/mssa/collections/research-use-of-yale-university-archives"
@@ -912,34 +1111,40 @@
                   </accessrestrict>
                </c>
             </c>
-            <c id="ref60" level="file">
+            <c altrender="/repositories/12/archival_objects/1180597"
+               id="ref60"
+               level="file">
                <did>
                   <unittitle>New England Steamship Company: notes and charts</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1935-1936">
+                  <unitdatestructured altrender="1935-1936" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1935">1935</fromdate>
                         <todate standarddate="1936">1936</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130762 /locations/9"
                              containerid="39002042522616"
-                             id="d1e1036"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref60_c1"
                              label="Mixed Materials"
                              localtype="box">25</container>
                </did>
             </c>
-            <c id="ref61" level="file">
+            <c altrender="/repositories/12/archival_objects/1180598"
+               id="ref61"
+               level="file">
                <did>
                   <unittitle>Miscellaneous Yale papers (oversize), mostly concerning Committee on Transportation</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1926-1929">
+                  <unitdatestructured altrender="1926-1929" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1926">1926</fromdate>
                         <todate standarddate="1929">1929</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/130763 /locations/9"
                              containerid="39002042522624"
-                             id="d1e1052"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref61_c1"
                              label="Mixed Materials"
                              localtype="box">26</container>
                </did>

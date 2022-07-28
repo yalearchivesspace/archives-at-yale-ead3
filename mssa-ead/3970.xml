@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0966">mssa.ms.0966</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0966">mssa.ms.0966</recordid>
+      <otherrecordid localtype="BIB">614649</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Henry Crosby Emery Papers
@@ -32,6 +34,11 @@
             <date>July 1986</date>
             <num>MS 966</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:38:34+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:19:47+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:38</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:19</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3970" level="collection">
       <did>
          <unittitle>Henry Crosby Emery papers</unittitle>
          <unitid>MS 966</unitid>
@@ -83,110 +93,118 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(4 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1887-1912">
+         <unitdatestructured altrender="1887-1912" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1887">1887</fromdate>
                <todate standarddate="1912">1912</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_f6d11bcfe30bd73006512947151e1bc2">The papers center on two aspects of Emery's activities: his teaching career at Yale and his service as chairman of the U.S. Tariff Board (1909-1913). Papers relating to the Board include correspondence, reports, statistics, and cloth samples collected in connection with the board's investigation of the carpet, wool, and cotton manufacturing industries, ca.1911-1912. Principal correspondents are members of the board, among them Alvin H. Sanders, James B. Reynolds, L. M. Spier, N. I. Stone, R. B. Horrow, and Charles A. Veditz.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/no96020236"
                       rules="aacr"
                       source="naf">
-               <part>Emery, Henry Crosby, 1872-1924</part>
+               <part localtype="agent_person">Emery, Henry Crosby, 1872-1924</part>
             </persname>
          </origination>
-    
       </did>
       <prefercite id="aspace_f9e55ac8ea4e8ffa0f67892de077e257">
          <head>Preferred Citation</head>
-         <p>Henry Crosby Emery Papers (MS 966). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Henry Crosby Emery Papers (MS 966). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <acqinfo id="aspace_e0b9a44519f29114aceacdac5ea20e43">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Mrs. H. C. Emery, 1924.</p>  
+         <p>Gift of Mrs. H. C. Emery, 1924.</p>
       </acqinfo>
       <bioghist id="aspace_2904e89c33eb4cd9af22eba6973adb55">
          <head>Biographical / Historical</head>
-         <p>Henry Crosby Emery: economist; B.A., Bowdoin, 1892; M.A., Harvard, 1893; Ph.D., Columbia, 1896; professor at Bowdoin, 1896-1900; professor of political economy at Yale, 1900-1915; president of U.S. Tariff Board, 1909-1913; worked for Guaranty Trust Co., 1917-1924.</p>  
+         <p>Henry Crosby Emery: economist; B.A., Bowdoin, 1892; M.A., Harvard, 1893; Ph.D., Columbia, 1896; professor at Bowdoin, 1896-1900; professor of political economy at Yale, 1900-1915; president of U.S. Tariff Board, 1909-1913; worked for Guaranty Trust Co., 1917-1924.</p>
       </bioghist>
       <scopecontent id="aspace_34a88f572f76aa4de8ecdb1f0c8450ed">
          <head>Scope and Contents</head>
-         <p>The papers center on two aspects of Emery's activities: his teaching career at Yale and his service as chairman of the U.S. Tariff Board (1909-1913). Papers relating to the Board include correspondence, reports, statistics, and cloth samples collected in connection with the board's investigation of the carpet, wool, and cotton manufacturing industries, ca.1911-1912. Principal correspondents are members of the board, among them Alvin H. Sanders, James B. Reynolds, L. M. Spier, N. I. Stone, R. B. Horrow, and Charles A. Veditz.</p>  
+         <p>The papers center on two aspects of Emery's activities: his teaching career at Yale and his service as chairman of the U.S. Tariff Board (1909-1913). Papers relating to the Board include correspondence, reports, statistics, and cloth samples collected in connection with the board's investigation of the carpet, wool, and cotton manufacturing industries, ca.1911-1912. Principal correspondents are members of the board, among them Alvin H. Sanders, James B. Reynolds, L. M. Spier, N. I. Stone, R. B. Horrow, and Charles A. Veditz.</p>
       </scopecontent>
       <arrangement id="aspace_0982244b01cd1b49b14fe3f79b9d0f00">
          <head>Arrangement</head>
-         <p>Arranged in two series: I. Correspondence. II. Topical Files.</p>  
+         <p>Arranged in two series: I. Correspondence. II. Topical Files.</p>
       </arrangement>
       <accessrestrict id="aspace_1459196a7f2673118ce062e067bd2fff">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_a2d9e6917d98fff7a6bb3ed62151a075">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85040850"
                   source="lcsh">
-            <part>Economics</part>
+            <part localtype="topical">Economics</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85040878"
                   source="lcsh">
-            <part>Economists</part>
+            <part localtype="topical">Economists</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/no96020236"
                    rules="aacr"
                    source="naf">
-            <part>Emery, Henry Crosby, 1872-1924</part>
+            <part localtype="agent_person">Emery, Henry Crosby, 1872-1924</part>
          </persname>
          <persname source="local">
-            <part>Horrow, R. B.</part>
+            <part localtype="agent_person">Horrow, R. B.</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Reynolds, James Burton, 1870-</part>
+            <part localtype="agent_person">Reynolds, James Burton, 1870-</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Sanders, Alvin Howard</part>
+            <part localtype="agent_person">Sanders, Alvin Howard</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50021190"
                    rules="aacr"
                    source="naf">
-            <part>Spier, Leslie, 1893-1961</part>
+            <part localtype="agent_person">Spier, Leslie, 1893-1961</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no97012826"
                    source="naf">
-            <part>Stone, N. I. (Nahum Isaac), 1873-1966</part>
+            <part localtype="agent_person">Stone, N. I. (Nahum Isaac), 1873-1966</part>
          </persname>
          <persname source="local">
-            <part>Verditz, Charles William Augustus, 1872-1926</part>
+            <part localtype="agent_person">Verditz, Charles William Augustus, 1872-1926</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n79036924" source="naf">
-            <part>United States International Trade Commission</part>
+            <part localtype="agent_corporate_entity">United States International Trade Commission</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Curricula</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Curricula</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref9" level="series">
+         <c altrender="/repositories/12/archival_objects/1258884"
+            id="ref9"
+            level="series">
             <did>
                <unittitle>Correspondence</unittitle>
                <unitid>Series I</unitid>
             </did>
-            <c id="ref10" level="file">
+            <c altrender="/repositories/12/archival_objects/1258885"
+               id="ref10"
+               level="file">
                <did>
                   <unittitle>1909-1912</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143331 /locations/9"
                              containerid="39002042326174"
+                             encodinganalog="archive legal"
                              id="aspace_ref10_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -194,98 +212,123 @@
                </did>
             </c>
          </c>
-         <c id="ref11" level="series">
+         <c altrender="/repositories/12/archival_objects/1258886"
+            id="ref11"
+            level="series">
             <did>
                <unittitle>Topical Files</unittitle>
                <unitid>Series II</unitid>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1258887"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Board meetings</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1911">
+                  <unitdatestructured altrender="1911" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1911">1911</fromdate>
                         <todate standarddate="1911">1911</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/143332 /locations/9"
                              containerid="39002042326182"
+                             encodinganalog="archive half legal"
                              id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">11-12</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1258888"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Cane sugar in Louisiana</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1911">
+                  <unitdatestructured altrender="1911" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1911">1911</fromdate>
                         <todate standarddate="1911">1911</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/143332 /locations/9"
                              containerid="39002042326182"
+                             encodinganalog="archive half legal"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">13</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1258889"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Carpets</unittitle>
                </did>
-               <c id="ref15" level="file">
+               <c altrender="/repositories/12/archival_objects/1258890"
+                  id="ref15"
+                  level="file">
                   <did>
                      <unittitle>General</unittitle>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/143332 /locations/9"
                                 containerid="39002042326182"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref15_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">14</container>
                   </did>
                </c>
-               <c id="ref16" level="file">
+               <c altrender="/repositories/12/archival_objects/1258891"
+                  id="ref16"
+                  level="file">
                   <did>
                      <unittitle>655-XA - 655-XG</unittitle>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/143332 /locations/9"
                                 containerid="39002042326182"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref16_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">15-21</container>
                   </did>
                </c>
-               <c id="ref17" level="file">
+               <c altrender="/repositories/12/archival_objects/1258892"
+                  id="ref17"
+                  level="file">
                   <did>
                      <unittitle>655-XH - 655-XZ;</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143333 /locations/9"
                                 containerid="39002042326190"
+                                encodinganalog="archive legal"
                                 id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">22-37</container>
                   </did>
                </c>
-               <c id="ref18" level="file">
+               <c altrender="/repositories/12/archival_objects/1258893"
+                  id="ref18"
+                  level="file">
                   <did>
                      <unittitle>655-2Y</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143333 /locations/9"
                                 containerid="39002042326190"
+                                encodinganalog="archive legal"
                                 id="aspace_ref18_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">38</container>
                   </did>
                </c>
-               <c id="ref19" level="file">
+               <c altrender="/repositories/12/archival_objects/1258894"
+                  id="ref19"
+                  level="file">
                   <did>
                      <unittitle>Mills: Wage scales</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143333 /locations/9"
                                 containerid="39002042326190"
+                                encodinganalog="archive legal"
                                 id="aspace_ref19_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -293,165 +336,206 @@
                   </did>
                </c>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1258895"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Congressional bills</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1907-1912">
+                  <unitdatestructured altrender="1907-1912" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1907">1907</fromdate>
                         <todate standarddate="1912">1912</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143333 /locations/9"
                              containerid="39002042326190"
+                             encodinganalog="archive legal"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">41</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1258896"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Cost data</unittitle>
                </did>
-               <c id="ref22" level="file">
+               <c altrender="/repositories/12/archival_objects/1258897"
+                  id="ref22"
+                  level="file">
                   <did>
                      <unittitle>England</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1909-1911">
+                     <unitdatestructured altrender="1909-1911" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1909">1909</fromdate>
                            <todate standarddate="1911">1911</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143333 /locations/9"
                                 containerid="39002042326190"
+                                encodinganalog="archive legal"
                                 id="aspace_ref22_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">42</container>
                   </did>
                </c>
-               <c id="ref23" level="file">
+               <c altrender="/repositories/12/archival_objects/1258898"
+                  id="ref23"
+                  level="file">
                   <did>
                      <unittitle>Equipment</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143333 /locations/9"
                                 containerid="39002042326190"
+                                encodinganalog="archive legal"
                                 id="aspace_ref23_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">43</container>
                   </did>
                </c>
-               <c id="ref24" level="file">
+               <c altrender="/repositories/12/archival_objects/1258899"
+                  id="ref24"
+                  level="file">
                   <did>
                      <unittitle>Foreign</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143334 /locations/9"
                                 containerid="39002042326125"
+                                encodinganalog="archive legal"
                                 id="aspace_ref24_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">44</container>
                   </did>
                </c>
-               <c id="ref25" level="file">
+               <c altrender="/repositories/12/archival_objects/1258900"
+                  id="ref25"
+                  level="file">
                   <did>
                      <unittitle>General expenses</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143334 /locations/9"
                                 containerid="39002042326125"
+                                encodinganalog="archive legal"
                                 id="aspace_ref25_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">45</container>
                   </did>
                </c>
-               <c id="ref26" level="file">
+               <c altrender="/repositories/12/archival_objects/1258901"
+                  id="ref26"
+                  level="file">
                   <did>
                      <unittitle>Ore prices</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1895-1910">
+                     <unitdatestructured altrender="1895-1910" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1895">1895</fromdate>
                            <todate standarddate="1910">1910</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143334 /locations/9"
                                 containerid="39002042326125"
+                                encodinganalog="archive legal"
                                 id="aspace_ref26_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">46</container>
                   </did>
                </c>
-               <c id="ref27" level="file">
+               <c altrender="/repositories/12/archival_objects/1258902"
+                  id="ref27"
+                  level="file">
                   <did>
                      <unittitle>Samples</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143334 /locations/9"
                                 containerid="39002042326125"
+                                encodinganalog="archive legal"
                                 id="aspace_ref27_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">47</container>
                   </did>
                </c>
-               <c id="ref28" level="file">
+               <c altrender="/repositories/12/archival_objects/1258903"
+                  id="ref28"
+                  level="file">
                   <did>
                      <unittitle>Top making</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143334 /locations/9"
                                 containerid="39002042326125"
+                                encodinganalog="archive legal"
                                 id="aspace_ref28_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">48</container>
                   </did>
                </c>
-               <c id="ref29" level="file">
+               <c altrender="/repositories/12/archival_objects/1258904"
+                  id="ref29"
+                  level="file">
                   <did>
                      <unittitle>Woolen-yarn making</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143334 /locations/9"
                                 containerid="39002042326125"
+                                encodinganalog="archive legal"
                                 id="aspace_ref29_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">49</container>
                   </did>
                </c>
-               <c id="ref30" level="file">
+               <c altrender="/repositories/12/archival_objects/1258905"
+                  id="ref30"
+                  level="file">
                   <did>
                      <unittitle>Worsted yarn spinning</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143334 /locations/9"
                                 containerid="39002042326125"
+                                encodinganalog="archive legal"
                                 id="aspace_ref30_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">50</container>
                   </did>
                </c>
-               <c id="ref31" level="file">
+               <c altrender="/repositories/12/archival_objects/1258906"
+                  id="ref31"
+                  level="file">
                   <did>
                      <unittitle>Yarn</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143334 /locations/9"
                                 containerid="39002042326125"
+                                encodinganalog="archive legal"
                                 id="aspace_ref31_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">51</container>
                   </did>
                </c>
-               <c id="ref32" level="file">
+               <c altrender="/repositories/12/archival_objects/1258907"
+                  id="ref32"
+                  level="file">
                   <did>
                      <unittitle>Miscellaneous</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143334 /locations/9"
                                 containerid="39002042326125"
+                                encodinganalog="archive legal"
                                 id="aspace_ref32_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">52-54</container>
                   </did>
                </c>
-               <c id="ref33" level="file">
+               <c altrender="/repositories/12/archival_objects/1258908"
+                  id="ref33"
+                  level="file">
                   <did>
                      <unittitle>Miscellaneous</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143335 /locations/9"
                                 containerid="39002042326133"
+                                encodinganalog="archive legal"
                                 id="aspace_ref33_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
@@ -459,43 +543,54 @@
                   </did>
                </c>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1258909"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>Cotton</unittitle>
                </did>
-               <c id="ref35" level="file">
+               <c altrender="/repositories/12/archival_objects/1258910"
+                  id="ref35"
+                  level="file">
                   <did>
                      <unittitle>Industry</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143335 /locations/9"
                                 containerid="39002042326133"
+                                encodinganalog="archive legal"
                                 id="aspace_ref35_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">58</container>
                   </did>
                </c>
-               <c id="ref36" level="file">
+               <c altrender="/repositories/12/archival_objects/1258911"
+                  id="ref36"
+                  level="file">
                   <did>
                      <unittitle>Investments and earnings</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143335 /locations/9"
                                 containerid="39002042326133"
+                                encodinganalog="archive legal"
                                 id="aspace_ref36_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">59</container>
                   </did>
                </c>
-               <c id="ref37" level="file">
+               <c altrender="/repositories/12/archival_objects/1258912"
+                  id="ref37"
+                  level="file">
                   <did>
                      <unittitle>Textiles</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1911">
+                     <unitdatestructured altrender="1911" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1911">1911</fromdate>
                            <todate standarddate="1911">1911</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143335 /locations/9"
                                 containerid="39002042326133"
+                                encodinganalog="archive legal"
                                 id="aspace_ref37_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
@@ -503,115 +598,150 @@
                   </did>
                </c>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1258913"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Economic Investigation</part>
                      </title>, by H. C. Emery</unittitle>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/143335 /locations/9"
                              containerid="39002042326133"
+                             encodinganalog="archive legal"
                              id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">61</container>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1258914"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>"Economics"</unittitle>
-                  <unitdate unitdatetype="inclusive">1904 October - March 1906</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">1904 October - March 1906</unitdate>
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/143336 /locations/9"
                              containerid="39002042326141"
+                             encodinganalog="archive legal"
                              id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">62-73</container>
                </did>
             </c>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1258915"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>"Economics"</unittitle>
-                  <unitdate unitdatetype="inclusive">1906 April - May 1909</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">1906 April - May 1909</unitdate>
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/143337 /locations/9"
                              containerid="39002042326158"
+                             encodinganalog="archive legal"
                              id="aspace_ref40_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">74-76</container>
                </did>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1258916"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>Embroidery industry</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143337 /locations/9"
                              containerid="39002042326158"
+                             encodinganalog="archive legal"
                              id="aspace_ref41_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">77</container>
                </did>
             </c>
-            <c id="ref42" level="file">
+            <c altrender="/repositories/12/archival_objects/1258917"
+               id="ref42"
+               level="file">
                <did>
                   <unittitle>Employee list and wages</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143337 /locations/9"
                              containerid="39002042326158"
+                             encodinganalog="archive legal"
                              id="aspace_ref42_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">78</container>
                </did>
             </c>
-            <c id="ref43" level="file">
+            <c altrender="/repositories/12/archival_objects/1258918"
+               id="ref43"
+               level="file">
                <did>
                   <unittitle>Hearings</unittitle>
                </did>
-               <c id="ref44" level="file">
+               <c altrender="/repositories/12/archival_objects/1258919"
+                  id="ref44"
+                  level="file">
                   <did>
                      <unittitle>Boots and shoes</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1912">
+                     <unitdatestructured altrender="1912" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1912">1912</fromdate>
                            <todate standarddate="1912">1912</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143337 /locations/9"
                                 containerid="39002042326158"
+                                encodinganalog="archive legal"
                                 id="aspace_ref44_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">79</container>
                   </did>
                </c>
-               <c id="ref45" level="file">
+               <c altrender="/repositories/12/archival_objects/1258920"
+                  id="ref45"
+                  level="file">
                   <did>
                      <unittitle>National Tanners Association</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1912">
+                     <unitdatestructured altrender="1912" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1912">1912</fromdate>
                            <todate standarddate="1912">1912</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143337 /locations/9"
                                 containerid="39002042326158"
+                                encodinganalog="archive legal"
                                 id="aspace_ref45_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref45_c2" localtype="folder" parent="aspace_ref45_c1">80</container>
                   </did>
                </c>
-               <c id="ref46" level="file">
+               <c altrender="/repositories/12/archival_objects/1258921"
+                  id="ref46"
+                  level="file">
                   <did>
                      <unittitle>Saddles and harness</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1912">
+                     <unitdatestructured altrender="1912" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1912">1912</fromdate>
                            <todate standarddate="1912">1912</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143337 /locations/9"
                                 containerid="39002042326158"
+                                encodinganalog="archive legal"
                                 id="aspace_ref46_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
@@ -619,217 +749,264 @@
                   </did>
                </c>
             </c>
-            <c id="ref47" level="file">
+            <c altrender="/repositories/12/archival_objects/1258922"
+               id="ref47"
+               level="file">
                <did>
                   <unittitle>Interview of Mr. Stewart and Mr. Hinsberg</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1911">
+                  <unitdatestructured altrender="1911" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1911">1911</fromdate>
                         <todate standarddate="1911">1911</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143337 /locations/9"
                              containerid="39002042326158"
+                             encodinganalog="archive legal"
                              id="aspace_ref47_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref47_c2" localtype="folder" parent="aspace_ref47_c1">81</container>
                </did>
             </c>
-            <c id="ref48" level="file">
+            <c altrender="/repositories/12/archival_objects/1258923"
+               id="ref48"
+               level="file">
                <did>
                   <unittitle>Jackson documents</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1909">
+                  <unitdatestructured altrender="1909" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1909">1909</fromdate>
                         <todate standarddate="1909">1909</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143337 /locations/9"
                              containerid="39002042326158"
+                             encodinganalog="archive legal"
                              id="aspace_ref48_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref48_c2" localtype="folder" parent="aspace_ref48_c1">82</container>
                </did>
             </c>
-            <c id="ref49" level="file">
+            <c altrender="/repositories/12/archival_objects/1258924"
+               id="ref49"
+               level="file">
                <did>
                   <unittitle>Leathers, upper</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143337 /locations/9"
                              containerid="39002042326158"
+                             encodinganalog="archive legal"
                              id="aspace_ref49_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref49_c2" localtype="folder" parent="aspace_ref49_c1">83</container>
                </did>
             </c>
-            <c id="ref50" level="file">
+            <c altrender="/repositories/12/archival_objects/1258925"
+               id="ref50"
+               level="file">
                <did>
                   <unittitle>Paper</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143337 /locations/9"
                              containerid="39002042326158"
+                             encodinganalog="archive legal"
                              id="aspace_ref50_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref50_c2" localtype="folder" parent="aspace_ref50_c1">84</container>
                </did>
             </c>
-            <c id="ref51" level="file">
+            <c altrender="/repositories/12/archival_objects/1258926"
+               id="ref51"
+               level="file">
                <did>
                   <unittitle>Passport</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1910">
+                  <unitdatestructured altrender="1910" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1910">1910</fromdate>
                         <todate standarddate="1910">1910</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143337 /locations/9"
                              containerid="39002042326158"
+                             encodinganalog="archive legal"
                              id="aspace_ref51_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref51_c2" localtype="folder" parent="aspace_ref51_c1">85</container>
                </did>
             </c>
-            <c id="ref52" level="file">
+            <c altrender="/repositories/12/archival_objects/1258927"
+               id="ref52"
+               level="file">
                <did>
                   <unittitle>Priang</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143337 /locations/9"
                              containerid="39002042326158"
+                             encodinganalog="archive legal"
                              id="aspace_ref52_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref52_c2" localtype="folder" parent="aspace_ref52_c1">86</container>
                </did>
             </c>
-            <c id="ref53" level="file">
+            <c altrender="/repositories/12/archival_objects/1258928"
+               id="ref53"
+               level="file">
                <did>
                   <unittitle>Printed material</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143337 /locations/9"
                              containerid="39002042326158"
+                             encodinganalog="archive legal"
                              id="aspace_ref53_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref53_c2" localtype="folder" parent="aspace_ref53_c1">87</container>
                </did>
             </c>
-            <c id="ref54" level="file">
+            <c altrender="/repositories/12/archival_objects/1258929"
+               id="ref54"
+               level="file">
                <did>
                   <unittitle>Report to the Secretary of the Treasury</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143338 /locations/9"
                              containerid="39002042326166"
+                             encodinganalog="archive legal"
                              id="aspace_ref54_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref54_c2" localtype="folder" parent="aspace_ref54_c1">88</container>
                </did>
             </c>
-            <c id="ref55" level="file">
+            <c altrender="/repositories/12/archival_objects/1258930"
+               id="ref55"
+               level="file">
                <did>
                   <unittitle>Schedule "C"</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143338 /locations/9"
                              containerid="39002042326166"
+                             encodinganalog="archive legal"
                              id="aspace_ref55_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref55_c2" localtype="folder" parent="aspace_ref55_c1">89-90</container>
                </did>
             </c>
-            <c id="ref56" level="file">
+            <c altrender="/repositories/12/archival_objects/1258931"
+               id="ref56"
+               level="file">
                <did>
                   <unittitle>Soap</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143338 /locations/9"
                              containerid="39002042326166"
+                             encodinganalog="archive legal"
                              id="aspace_ref56_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref56_c2" localtype="folder" parent="aspace_ref56_c1">91</container>
                </did>
             </c>
-            <c id="ref57" level="file">
+            <c altrender="/repositories/12/archival_objects/1258932"
+               id="ref57"
+               level="file">
                <did>
                   <unittitle>Statements</unittitle>
                </did>
-               <c id="ref58" level="file">
+               <c altrender="/repositories/12/archival_objects/1258933"
+                  id="ref58"
+                  level="file">
                   <did>
                      <unittitle>Bahnsen, C. and E. Meyer</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1911">
+                     <unitdatestructured altrender="1911" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1911">1911</fromdate>
                            <todate standarddate="1911">1911</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143338 /locations/9"
                                 containerid="39002042326166"
+                                encodinganalog="archive legal"
                                 id="aspace_ref58_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref58_c2" localtype="folder" parent="aspace_ref58_c1">92</container>
                   </did>
                </c>
-               <c id="ref59" level="file">
+               <c altrender="/repositories/12/archival_objects/1258934"
+                  id="ref59"
+                  level="file">
                   <did>
                      <unittitle>Ferguson, H.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1911">
+                     <unitdatestructured altrender="1911" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1911">1911</fromdate>
                            <todate standarddate="1911">1911</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143338 /locations/9"
                                 containerid="39002042326166"
+                                encodinganalog="archive legal"
                                 id="aspace_ref59_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref59_c2" localtype="folder" parent="aspace_ref59_c1">93</container>
                   </did>
                </c>
-               <c id="ref60" level="file">
+               <c altrender="/repositories/12/archival_objects/1258935"
+                  id="ref60"
+                  level="file">
                   <did>
                      <unittitle>MacLea, R.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1911">
+                     <unitdatestructured altrender="1911" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1911">1911</fromdate>
                            <todate standarddate="1911">1911</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143338 /locations/9"
                                 containerid="39002042326166"
+                                encodinganalog="archive legal"
                                 id="aspace_ref60_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref60_c2" localtype="folder" parent="aspace_ref60_c1">94</container>
                   </did>
                </c>
-               <c id="ref61" level="file">
+               <c altrender="/repositories/12/archival_objects/1258936"
+                  id="ref61"
+                  level="file">
                   <did>
                      <unittitle>Power, T.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1911">
+                     <unitdatestructured altrender="1911" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1911">1911</fromdate>
                            <todate standarddate="1911">1911</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143338 /locations/9"
                                 containerid="39002042326166"
+                                encodinganalog="archive legal"
                                 id="aspace_ref61_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref61_c2" localtype="folder" parent="aspace_ref61_c1">95</container>
                   </did>
                </c>
-               <c id="ref62" level="file">
+               <c altrender="/repositories/12/archival_objects/1258937"
+                  id="ref62"
+                  level="file">
                   <did>
                      <unittitle>Sears, E.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1911">
+                     <unitdatestructured altrender="1911" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1911">1911</fromdate>
                            <todate standarddate="1911">1911</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/143338 /locations/9"
                                 containerid="39002042326166"
+                                encodinganalog="archive legal"
                                 id="aspace_ref62_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
@@ -837,56 +1014,68 @@
                   </did>
                </c>
             </c>
-            <c id="ref63" level="file">
+            <c altrender="/repositories/12/archival_objects/1258938"
+               id="ref63"
+               level="file">
                <did>
                   <unittitle>Statements and bills</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1912">
+                  <unitdatestructured altrender="1912" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1912">1912</fromdate>
                         <todate standarddate="1912">1912</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143338 /locations/9"
                              containerid="39002042326166"
+                             encodinganalog="archive legal"
                              id="aspace_ref63_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref63_c2" localtype="folder" parent="aspace_ref63_c1">97</container>
                </did>
             </c>
-            <c id="ref64" level="file">
+            <c altrender="/repositories/12/archival_objects/1258939"
+               id="ref64"
+               level="file">
                <did>
                   <unittitle>Tariff Board reports</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143338 /locations/9"
                              containerid="39002042326166"
+                             encodinganalog="archive legal"
                              id="aspace_ref64_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref64_c2" localtype="folder" parent="aspace_ref64_c1">98</container>
                </did>
             </c>
-            <c id="ref65" level="file">
+            <c altrender="/repositories/12/archival_objects/1258940"
+               id="ref65"
+               level="file">
                <did>
                   <unittitle>U.S.- Denmark trade</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1887-1911">
+                  <unitdatestructured altrender="1887-1911" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1887">1887</fromdate>
                         <todate standarddate="1911">1911</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143338 /locations/9"
                              containerid="39002042326166"
+                             encodinganalog="archive legal"
                              id="aspace_ref65_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref65_c2" localtype="folder" parent="aspace_ref65_c1">99</container>
                </did>
             </c>
-            <c id="ref66" level="file">
+            <c altrender="/repositories/12/archival_objects/1258941"
+               id="ref66"
+               level="file">
                <did>
                   <unittitle>Wool</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143338 /locations/9"
                              containerid="39002042326166"
+                             encodinganalog="archive legal"
                              id="aspace_ref66_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>

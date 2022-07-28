@@ -1057,7 +1057,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0508.xml](2977.xml) | mssa.ms.0508 | MS 508 | Roger Wellington Tubby papers | 
  [mssa.ms.0520.xml](2978.xml) | mssa.ms.0520 | MS 520 | George Vernadsky papers | 
  [mssa.ms.0524.xml](2979.xml) | mssa.ms.0524 | MS 524 | Donald Crossley Vining papers | 
- [mssa.ru.0254.xml](2980.xml) | mssa.ru.0254 | RU 254 | Branford College, Yale University, student records for the Classes of 1958-2013 maintained by the dean | 
+ [mssa.ru.0254.xml](2980.xml) | mssa.ru.0254 | RU 254 | Branford College, Yale University, student records maintained by the dean | 
  [mssa.ms.0525.xml](2981.xml) | mssa.ms.0525 | MS 525 | Wadsworth family papers | 
  [mssa.ms.0528.xml](2982.xml) | mssa.ms.0528 | MS 528 | Alexander Maclaren Witherspoon papers | 
  [mssa.ms.0535.xml](2983.xml) | mssa.ms.0535 | MS 535 | Paul Moritz Warburg papers | 
@@ -2593,7 +2593,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1818.xml](4528.xml) | mssa.ms.1818 | MS 1818 | South Africa Now collection | 
  [mssa.ms.1862.xml](4529.xml) | mssa.ms.1862 | MS 1862 | David Benjamin Mixner papers | 
  [mssa.ru.0133.xml](4530.xml) | mssa.ru.0133 | RU 133 | Jonathan Edwards College, Yale University, student records | 
- [mssa.ru.0223.xml](4531.xml) | mssa.ru.0223 | RU 223 | Davenport College, Yale University, student records for the Classes of 1964-2007 maintained by the dean | 
+ [mssa.ru.0223.xml](4531.xml) | mssa.ru.0223 | RU 223 | Davenport College, Yale University, student records maintained by the dean | 
  [mssa.ru.0717.xml](4532.xml) | mssa.ru.0717 | RU 717 | University Career Services, Yale University, records | 
  [mssa.ru.0728.xml](4533.xml) | mssa.ru.0728 | RU 728 | Yale School of Drama records | 
  [mssa.ru.0011.xml](4535.xml) | mssa.ru.0011 | RU 11 | Kingman Brewster, Jr., president of Yale University, records | 
@@ -2919,4 +2919,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1179.xml](12210.xml) | mssa.ru.1179 | RU 1179 | McDougal Graduate Student Center, Yale University, records | 
  [mssa.ms.2110.xml](12223.xml) | mssa.ms.2110 | MS 2110 | National Institute of Social Sciences records | 
  [mssa.ru.1181.xml](12471.xml) | mssa.ru.1181 | RU 1181 | Latinx student life at Yale records | 
+ [mssa.ms.2127.xml](12472.xml) | mssa.ms.2127 | MS 2127 | James C. Hatch papers | 
+ [mssa.ms.2128.xml](12784.xml) | mssa.ms.2128 | MS 2128 | Christopher Ogden Papers | 
+ [mssa.ms.2094.xml](12819.xml) | mssa.ms.2094 | MS 2094 | Henry Dutton family papers | 
+ [mssa.ms.2131.xml](12833.xml) | mssa.ms.2131 | MS.2131 | Edward V. Knight Papers | 
 

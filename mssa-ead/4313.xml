@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0962">mssa.ms.0962</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0962">mssa.ms.0962</recordid>
+      <otherrecordid localtype="BIB">613830</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Downes Family Papers
@@ -32,6 +34,11 @@
             <date>July 1983</date>
             <num>MS 962</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:37:52+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:19:31+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:37</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:19</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4313" level="collection">
       <did>
          <unittitle>Downes family papers</unittitle>
          <unitid>MS 962</unitid>
@@ -82,125 +92,135 @@
             <quantity>0.25</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1874-1903">
+         <unitdatestructured altrender="1874-1903" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1874">1874</fromdate>
                <todate standarddate="1903">1903</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_a06f9d35a53beed726e0bbace1208662">Family and business correspondence of the Downes family of New York and of the Clark family.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <famname rules="aacr" source="local">
-               <part>Downes family</part>
+               <part localtype="agent_family">Downes family</part>
             </famname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_c36ac9d75b3f59c2a2e3fa626aea6f94">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Timothy A. Clark and Mrs. Earl E. McIntosh, 1966.</p>  
+         <p>Gift of Timothy A. Clark and Mrs. Earl E. McIntosh, 1966.</p>
       </acqinfo>
       <accessrestrict id="aspace_b762f06198faf827a20730f1e00a1c59">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_8386eb00323bad72555cbcae9fd9f75e">
          <head>Preferred Citation</head>
-         <p>Downes Family Papers (MS 962). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Downes Family Papers (MS 962). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_c3eea908bc53eea1e0098fe0b7334d5c">
          <head>Scope and Contents</head>
          <p>This collection is made up of approximately seventy-five family letters and other papers, 1875-1903. The bulk of the correspondence pertains to Anson T. and Eliza Downes of New York City and Yonkers, New York, their daughter, Bazena Treat (Downes) Merriman, and their son, Stancliff B. Downes, and was written for the most part during summer trips to upstate New York. While a few letters deal with business and financial matters, most discuss family news and events.</p>
-         <p>Also in the collection are several business letters and papers and a few family letters of the Clark family and other unrelated individuals. The connection between the Downes family and the Clarks is unclear. Finally, the collection includes an unidentified photograph and miscellaneous printed items.</p>  
+         <p>Also in the collection are several business letters and papers and a few family letters of the Clark family and other unrelated individuals. The connection between the Downes family and the Clarks is unclear. Finally, the collection includes an unidentified photograph and miscellaneous printed items.</p>
       </scopecontent>
       <bioghist id="aspace_a1906c3e481fe1ef5a3481015c181c20">
          <head>Biographical / Historical</head>
-         <p>Stancliff Bazen Downes was born in New York City on December 5, 1859. He was educated at the Columbia University School of Mines, from which he graduated in 1882. He became a civil engineer in New York City and prepared a set of tax maps for parts of that city. He died from a combination of illnesses in New York City, on April 21, 1895, thirteen years before his father, Anson Treat Downes, who lived until July 22, 1908.</p>  
+         <p>Stancliff Bazen Downes was born in New York City on December 5, 1859. He was educated at the Columbia University School of Mines, from which he graduated in 1882. He became a civil engineer in New York City and prepared a set of tax maps for parts of that city. He died from a combination of illnesses in New York City, on April 21, 1895, thirteen years before his father, Anson Treat Downes, who lived until July 22, 1908.</p>
       </bioghist>
       <userestrict id="aspace_d3a6c03b639448f3bc5b78667b68fdce">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/n79007751"
                    source="lcsh">
-            <part>New York (N.Y.)</part>
+            <part localtype="geographic">New York (N.Y.)</part>
          </geogname>
          <persname rules="aacr" source="local">
-            <part>Downes, Anson T.</part>
+            <part localtype="agent_person">Downes, Anson T.</part>
          </persname>
          <persname source="local">
-            <part>Downes, Eliza</part>
+            <part localtype="agent_person">Downes, Eliza</part>
          </persname>
          <persname source="local">
-            <part>Downes, Stancliff B.</part>
+            <part localtype="agent_person">Downes, Stancliff B.</part>
          </persname>
          <persname source="local">
-            <part>Merriman, Bazena Treat Downes</part>
+            <part localtype="agent_person">Merriman, Bazena Treat Downes</part>
          </persname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85026672"
                   source="lcsh">
-            <part>Clark family</part>
+            <part localtype="agent_family">Clark family</part>
          </famname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85039231"
                   source="lcsh">
-            <part>Downs family</part>
+            <part localtype="agent_family">Downs family</part>
          </famname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1354703"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Downes family</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1874-1896, undated">
+               <unitdatestructured altrender="1874-1896, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1874">1874</fromdate>
                      <todate standarddate="1903">1903</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151734 /locations/9"
                           containerid="39002042652397"
-                          id="d1e256"
+                          encodinganalog="archive half letter"
+                          id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e258" localtype="folder" parent="d1e256">1 - 3</container>
+               <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1 - 3</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1354704"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Clark family and others</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1881-1885">
+               <unitdatestructured altrender="1881-1885" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1881">1881</fromdate>
                      <todate standarddate="1885">1885</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151734 /locations/9"
                           containerid="39002042652397"
-                          id="d1e274"
+                          encodinganalog="archive half letter"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e276" localtype="folder" parent="d1e274">4</container>
+               <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">4</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1354705"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Photograph and printed matter</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1903, undated">
+               <unitdatestructured altrender="1903, undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1874">1874</fromdate>
                      <todate standarddate="1903">1903</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151734 /locations/9"
                           containerid="39002042652397"
-                          id="d1e292"
+                          encodinganalog="archive half letter"
+                          id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e294" localtype="folder" parent="d1e292">5</container>
+               <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">5</container>
             </did>
          </c>
       </dsc>

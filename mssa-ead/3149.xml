@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0833">mssa.ms.0833</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0833">mssa.ms.0833</recordid>
+      <otherrecordid localtype="BIB">614445</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Robert Chapman Bates Papers
@@ -32,6 +34,11 @@
             <date>September 1985</date>
             <num>MS 833</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:49:59+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:09:40+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:49</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:09</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3149" level="collection">
       <did>
          <unittitle>Robert Chapman Bates papers</unittitle>
          <unitid>MS 833</unitid>
@@ -83,37 +93,36 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(21 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1908-1943">
+         <unitdatestructured altrender="1908-1943" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1908">1908</fromdate>
                <todate standarddate="1943">1943</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_6cf2c7de758f80b452005de8d23fc05f">Correspondence, diaries, notebooks, school papers, photographs, and memorabilia. The major part of the papers is made up of family correspondence (1908-1942) most of which consists of letters from Bates to his family written from boarding school and during his travels abroad. Also included are thirteen notebooks compiled while he was a graduate student in early French and Italian literature at Yale University.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n94091866"
                       rules="aacr"
                       source="naf">
-               <part>Bates, Robert Chapman, 1901-1942</part>
+               <part localtype="agent_person">Bates, Robert Chapman, 1901-1942</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_dd559d08d8efcb7ce3a44456ff3786c2">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Colonel and Mrs. William G. Bates, 1943, and C. B. Hogan, 1954.</p>  
+         <p>Gift of Colonel and Mrs. William G. Bates, 1943, and C. B. Hogan, 1954.</p>
       </acqinfo>
       <accessrestrict id="aspace_d54751f53d1c3e8a98f2d6646490184e">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_c76a5ecb7b1262b223cd7b49ab54ff36">
          <head>Preferred Citation</head>
-         <p>Robert Chapman Bates Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Robert Chapman Bates Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <arrangement id="aspace_676bda3aeb343af8c30d34cb51050a66">
          <head>Arrangement</head>
-         <p>Arranged in three series: I. Family Correspondence. II. General Correspondence. III. Personal Papers.</p>  
+         <p>Arranged in three series: I. Family Correspondence. II. General Correspondence. III. Personal Papers.</p>
       </arrangement>
       <bioghist id="aspace_a8cd8cea15397a2cb337a949cfe01a66">
          <head>Biographical / Historical</head>
@@ -141,171 +150,213 @@
          <p>(Yale College Class of 1802, Biographical Sketches, page 473)</p>
          <p>* * * * *</p>
          <p>ROBERT CHAPMAN BATES, 1901-1942</p>
-         <p>Robert Chapman Bates, assistant professor of French in Yale University, was born on 27 July 1901 in New York City, son of William Graves and Amy Rowan (Scott) Bates. He attended Choate School, Philips Andover Academy, and Yale College (B.A., 1923). After graduation he worked with the Guaranty Trust Company, New York City, from 1923 to 1925. He registered in the Yale Graduate School, Department of Romance Languages, in 1925 and received the Ph.D. in 1930. He was instructor in French from 1930 to 1937, assistant professor from 1937 to 1942, and fellow of Jonathan Edwards College from 1933 to 1942. He edited <emph render="italic">Le conte dou barril</emph> (1932) and <emph render="italic">L'hystore Job</emph> (1937), two medieval French poems. Bates died at forty-one on 1 December 1942 of chronic pulmonary insufficiency. For more information see <emph render="italic">Yale University Obituary Record, 1942-1943,</emph>pp. 129-130.</p>  
+         <p>Robert Chapman Bates, assistant professor of French in Yale University, was born on 27 July 1901 in New York City, son of William Graves and Amy Rowan (Scott) Bates. He attended Choate School, Philips Andover Academy, and Yale College (B.A., 1923). After graduation he worked with the Guaranty Trust Company, New York City, from 1923 to 1925. He registered in the Yale Graduate School, Department of Romance Languages, in 1925 and received the Ph.D. in 1930. He was instructor in French from 1930 to 1937, assistant professor from 1937 to 1942, and fellow of Jonathan Edwards College from 1933 to 1942. He edited <emph render="italic">Le conte dou barril</emph> (1932) and <emph render="italic">L'hystore Job</emph> (1937), two medieval French poems. Bates died at forty-one on 1 December 1942 of chronic pulmonary insufficiency. For more information see <emph render="italic">Yale University Obituary Record, 1942-1943,</emph>pp. 129-130.</p>
       </bioghist>
       <scopecontent id="aspace_9fd16f8010e7721b0d68eb078f4a1261">
          <head>Scope and Contents</head>
-         <p>Correspondence, diaries, notebooks, school papers, photographs, and memorabilia. The major part of the papers is made up of family correspondence (1908-1942) most of which consists of letters from Bates to his family written from boarding school and during his travels abroad. Also included are thirteen notebooks compiled while he was a graduate student in early French and Italian literature at Yale University.</p>  
+         <p>Correspondence, diaries, notebooks, school papers, photographs, and memorabilia. The major part of the papers is made up of family correspondence (1908-1942) most of which consists of letters from Bates to his family written from boarding school and during his travels abroad. Also included are thirteen notebooks compiled while he was a graduate student in early French and Italian literature at Yale University.</p>
       </scopecontent>
       <userestrict id="aspace_7d35380c6f9532e4fa817bfb929b18bf">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh95000772"
                   source="lcsh">
-            <part>Boarding schools -- United States</part>
+            <part localtype="topical">Boarding schools</part>
+            <part localtype="geographic">United States</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85077519"
                   source="lcsh">
-            <part>Literature -- History and criticism</part>
+            <part localtype="topical">Literature</part>
+            <part localtype="topical">History and criticism</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85045661"
                    source="lcsh">
-            <part>Europe -- Description and travel</part>
+            <part localtype="geographic">Europe</part>
+            <part localtype="topical">Description and travel</part>
          </geogname>
          <persname identifier="http://id.loc.gov/authorities/names/n94091866"
                    rules="aacr"
                    source="naf">
-            <part>Bates, Robert Chapman, 1901-1942</part>
+            <part localtype="agent_person">Bates, Robert Chapman, 1901-1942</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n83182839"
                    rules="aacr"
                    source="naf">
-            <part>Choate School</part>
+            <part localtype="agent_corporate_entity">Choate School</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n79058957" source="naf">
-            <part>Phillips Academy</part>
+            <part localtype="agent_corporate_entity">Phillips Academy</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
          <corpname source="local">
-            <part>Yale University. Dept. of French</part>
+            <part localtype="agent_corporate_entity">Yale University. Dept. of French</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="series">
+         <c altrender="/repositories/12/archival_objects/1194355"
+            id="ref11"
+            level="series">
             <did>
                <unittitle>Family Correspondence</unittitle>
                <unitid>Series I</unitid>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1194356"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Family Correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1896-1918 October">
+                  <unitdatestructured altrender="1896-1918 October"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1908">1908</fromdate>
                         <todate standarddate="1943">1943</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133114 /locations/9"
                              containerid="39002042266818"
+                             encodinganalog="archive legal"
                              id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1 - 7</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1194357"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Family Correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1918 November-1921 June">
+                  <unitdatestructured altrender="1918 November-1921 June"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1908">1908</fromdate>
                         <todate standarddate="1943">1943</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133115 /locations/9"
                              containerid="39002042266826"
+                             encodinganalog="archive legal"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">8 - 14</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1194358"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Family Correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1921 October-1925">
+                  <unitdatestructured altrender="1921 October-1925"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1908">1908</fromdate>
                         <todate standarddate="1943">1943</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133116 /locations/9"
                              containerid="39002042266834"
+                             encodinganalog="archive legal"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">15 - 21</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1194359"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Family Correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1925 September-1928 September">
+                  <unitdatestructured altrender="1925 September-1928 September"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1908">1908</fromdate>
                         <todate standarddate="1943">1943</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133117 /locations/9"
                              containerid="39002042266842"
+                             encodinganalog="archive legal"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">22 - 29</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1194360"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Family Correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1928 August-1932">
+                  <unitdatestructured altrender="1928 August-1932"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1908">1908</fromdate>
                         <todate standarddate="1943">1943</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133118 /locations/9"
                              containerid="39002042266859"
+                             encodinganalog="archive legal"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">30 - 36</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1194361"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Family Correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1933-1937 December">
+                  <unitdatestructured altrender="1933-1937 December"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1908">1908</fromdate>
                         <todate standarddate="1943">1943</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133119 /locations/9"
                              containerid="39002042266867"
+                             encodinganalog="archive legal"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">37 - 42</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1194362"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Family Correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1938-1942">
+                  <unitdatestructured altrender="1938-1942" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1938">1938</fromdate>
                         <todate standarddate="1942">1942</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133120 /locations/9"
                              containerid="39002042266875"
+                             encodinganalog="archive legal"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
@@ -313,543 +364,646 @@
                </did>
             </c>
          </c>
-         <c id="ref19" level="series">
+         <c altrender="/repositories/12/archival_objects/1194363"
+            id="ref19"
+            level="series">
             <did>
                <unittitle>GENERAL CORRESPONDENCE</unittitle>
                <unitid>Series II</unitid>
             </did>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1194364"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>A-Z</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133121 /locations/9"
                              containerid="39002042266883"
+                             encodinganalog="archive legal"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">1 - 3</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1194365"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Allison, J.M.S.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1935-1940">
+                  <unitdatestructured altrender="1935-1940" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1935">1935</fromdate>
                         <todate standarddate="1940">1940</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133121 /locations/9"
                              containerid="39002042266883"
+                             encodinganalog="archive legal"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">4</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1194366"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Beedan, Joseph</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1922-1934">
+                  <unitdatestructured altrender="1922-1934" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1922">1922</fromdate>
                         <todate standarddate="1934">1934</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133121 /locations/9"
                              containerid="39002042266883"
+                             encodinganalog="archive legal"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">5</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1194367"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>Buck, Allan</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1933-1939">
+                  <unitdatestructured altrender="1933-1939" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1933">1933</fromdate>
                         <todate standarddate="1939">1939</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133121 /locations/9"
                              containerid="39002042266883"
+                             encodinganalog="archive legal"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">6 - 8</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1194368"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Cannon, Beeckman</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1932-1942, undated">
+                  <unitdatestructured altrender="1932-1942, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1908">1908</fromdate>
                         <todate standarddate="1943">1943</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133121 /locations/9"
                              containerid="39002042266883"
+                             encodinganalog="archive legal"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">9 - 10</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1194369"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Childs, W.C.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1935-1942">
+                  <unitdatestructured altrender="1935-1942" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1935">1935</fromdate>
                         <todate standarddate="1942">1942</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133121 /locations/9"
                              containerid="39002042266883"
+                             encodinganalog="archive legal"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">11</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1194370"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Converse, Allan D.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1932-1937">
+                  <unitdatestructured altrender="1932-1937" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1932">1932</fromdate>
                         <todate standarddate="1937">1937</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133121 /locations/9"
                              containerid="39002042266883"
+                             encodinganalog="archive legal"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">12</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1194371"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>Dilsworth, J.R.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1936-1939">
+                  <unitdatestructured altrender="1936-1939" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1936">1936</fromdate>
                         <todate standarddate="1939">1939</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133121 /locations/9"
                              containerid="39002042266883"
+                             encodinganalog="archive legal"
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">13</container>
                </did>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1194372"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>Foord, Archibald S.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1934-1935">
+                  <unitdatestructured altrender="1934-1935" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1934">1934</fromdate>
                         <todate standarddate="1935">1935</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133121 /locations/9"
                              containerid="39002042266883"
+                             encodinganalog="archive legal"
                              id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">14</container>
                </did>
             </c>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/1194373"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>Furniss, J.P. and W.T.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1927-1942">
+                  <unitdatestructured altrender="1927-1942" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1927">1927</fromdate>
                         <todate standarddate="1942">1942</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133121 /locations/9"
                              containerid="39002042266883"
+                             encodinganalog="archive legal"
                              id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                   <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">15</container>
                </did>
             </c>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1194374"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Gillespie, R.M.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1925-1963">
+                  <unitdatestructured altrender="1925-1963" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1925">1925</fromdate>
                         <todate standarddate="1963">1963</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133122 /locations/9"
                              containerid="39002042266891"
+                             encodinganalog="archive legal"
                              id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                   <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">16 - 19</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1194375"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Hartman, Herbert</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1923-1937">
+                  <unitdatestructured altrender="1923-1937" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1923">1923</fromdate>
                         <todate standarddate="1937">1937</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133122 /locations/9"
                              containerid="39002042266891"
+                             encodinganalog="archive legal"
                              id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                   <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">20</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1194376"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>Hogan, C.B.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1928-1940">
+                  <unitdatestructured altrender="1928-1940" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1928">1928</fromdate>
                         <todate standarddate="1940">1940</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133122 /locations/9"
                              containerid="39002042266891"
+                             encodinganalog="archive legal"
                              id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                   <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">21 - 23</container>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1194377"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>Jackson, J.H.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1935-1936">
+                  <unitdatestructured altrender="1935-1936" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1935">1935</fromdate>
                         <todate standarddate="1936">1936</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133122 /locations/9"
                              containerid="39002042266891"
+                             encodinganalog="archive legal"
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                   <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">24</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1194378"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>Kenway, Bud</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1936">
+                  <unitdatestructured altrender="1936" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1936">1936</fromdate>
                         <todate standarddate="1936">1936</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133122 /locations/9"
                              containerid="39002042266891"
+                             encodinganalog="archive legal"
                              id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                   <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">25</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1194379"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Leais proio</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1935">
+                  <unitdatestructured altrender="1935" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1935">1935</fromdate>
                         <todate standarddate="1935">1935</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133122 /locations/9"
                              containerid="39002042266891"
+                             encodinganalog="archive legal"
                              id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                   <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">26</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1194380"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>Locraft, T.M.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1927-1941">
+                  <unitdatestructured altrender="1927-1941" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1927">1927</fromdate>
                         <todate standarddate="1941">1941</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133122 /locations/9"
                              containerid="39002042266891"
+                             encodinganalog="archive legal"
                              id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                   <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">27</container>
                </did>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1194381"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>Miller, Hunt</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1933-1935">
+                  <unitdatestructured altrender="1933-1935" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1933">1933</fromdate>
                         <todate standarddate="1935">1935</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133122 /locations/9"
                              containerid="39002042266891"
+                             encodinganalog="archive legal"
                              id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                   <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">28 - 29</container>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1194382"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>Negley, Albert S.B.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1934-1935">
+                  <unitdatestructured altrender="1934-1935" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1934">1934</fromdate>
                         <todate standarddate="1935">1935</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133122 /locations/9"
                              containerid="39002042266891"
+                             encodinganalog="archive legal"
                              id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                   <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">30</container>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1194383"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>Olmstead, A.W.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1942">
+                  <unitdatestructured altrender="1942" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1942">1942</fromdate>
                         <todate standarddate="1942">1942</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133122 /locations/9"
                              containerid="39002042266891"
+                             encodinganalog="archive legal"
                              id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                   <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">31</container>
                </did>
             </c>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1194384"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>Parkev, Tom</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1937">
+                  <unitdatestructured altrender="1937" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1937">1937</fromdate>
                         <todate standarddate="1937">1937</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133122 /locations/9"
                              containerid="39002042266891"
+                             encodinganalog="archive legal"
                              id="aspace_ref40_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                   <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">32</container>
                </did>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1194385"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>Peterson, F.A.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1935-1942">
+                  <unitdatestructured altrender="1935-1942" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1935">1935</fromdate>
                         <todate standarddate="1942">1942</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133123 /locations/9"
                              containerid="39002042266909"
+                             encodinganalog="archive legal"
                              id="aspace_ref41_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">33 - 34</container>
                </did>
             </c>
-            <c id="ref42" level="file">
+            <c altrender="/repositories/12/archival_objects/1194386"
+               id="ref42"
+               level="file">
                <did>
                   <unittitle>Pope, G.D.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1933-1942">
+                  <unitdatestructured altrender="1933-1942" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1933">1933</fromdate>
                         <todate standarddate="1942">1942</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133123 /locations/9"
                              containerid="39002042266909"
+                             encodinganalog="archive legal"
                              id="aspace_ref42_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">35 - 36</container>
                </did>
             </c>
-            <c id="ref43" level="file">
+            <c altrender="/repositories/12/archival_objects/1194387"
+               id="ref43"
+               level="file">
                <did>
                   <unittitle>'S'</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1932-1935">
+                  <unitdatestructured altrender="1932-1935" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1932">1932</fromdate>
                         <todate standarddate="1935">1935</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/133123 /locations/9"
                              containerid="39002042266909"
+                             encodinganalog="archive legal"
                              id="aspace_ref43_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref43_c2" localtype="folder" parent="aspace_ref43_c1">37</container>
                </did>
             </c>
-            <c id="ref44" level="file">
+            <c altrender="/repositories/12/archival_objects/1194388"
+               id="ref44"
+               level="file">
                <did>
                   <unittitle>Sneidthacher, Augustus B.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1882">
+                  <unitdatestructured altrender="1882" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1882">1882</fromdate>
                         <todate standarddate="1882">1882</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133123 /locations/9"
                              containerid="39002042266909"
+                             encodinganalog="archive legal"
                              id="aspace_ref44_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">38</container>
                </did>
             </c>
-            <c id="ref45" level="file">
+            <c altrender="/repositories/12/archival_objects/1194389"
+               id="ref45"
+               level="file">
                <did>
                   <unittitle>Tinker, Chauncey B.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1921-1941">
+                  <unitdatestructured altrender="1921-1941" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1921">1921</fromdate>
                         <todate standarddate="1941">1941</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133123 /locations/9"
                              containerid="39002042266909"
+                             encodinganalog="archive legal"
                              id="aspace_ref45_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref45_c2" localtype="folder" parent="aspace_ref45_c1">39</container>
                </did>
             </c>
-            <c id="ref46" level="file">
+            <c altrender="/repositories/12/archival_objects/1194390"
+               id="ref46"
+               level="file">
                <did>
                   <unittitle>Wallace, Hugh C.</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1928-1941">
+                  <unitdatestructured altrender="1928-1941" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1928">1928</fromdate>
                         <todate standarddate="1941">1941</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133123 /locations/9"
                              containerid="39002042266909"
+                             encodinganalog="archive legal"
                              id="aspace_ref46_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref46_c2" localtype="folder" parent="aspace_ref46_c1">40</container>
                </did>
             </c>
-            <c id="ref47" level="file">
+            <c altrender="/repositories/12/archival_objects/1194391"
+               id="ref47"
+               level="file">
                <did>
                   <unittitle>White, R.M. II</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1938">
+                  <unitdatestructured altrender="1938" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1938">1938</fromdate>
                         <todate standarddate="1938">1938</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133123 /locations/9"
                              containerid="39002042266909"
+                             encodinganalog="archive legal"
                              id="aspace_ref47_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref47_c2" localtype="folder" parent="aspace_ref47_c1">41</container>
                </did>
             </c>
-            <c id="ref48" level="file">
+            <c altrender="/repositories/12/archival_objects/1194392"
+               id="ref48"
+               level="file">
                <did>
                   <unittitle>Yale College</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1930-1942">
+                  <unitdatestructured altrender="1930-1942" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1930">1930</fromdate>
                         <todate standarddate="1942">1942</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133123 /locations/9"
                              containerid="39002042266909"
+                             encodinganalog="archive legal"
                              id="aspace_ref48_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref48_c2" localtype="folder" parent="aspace_ref48_c1">42</container>
                </did>
             </c>
-            <c id="ref49" level="file">
+            <c altrender="/repositories/12/archival_objects/1194393"
+               id="ref49"
+               level="file">
                <did>
                   <unittitle>Unidentified</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1922-1942">
+                  <unitdatestructured altrender="1922-1942" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1922">1922</fromdate>
                         <todate standarddate="1942">1942</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133123 /locations/9"
                              containerid="39002042266909"
+                             encodinganalog="archive legal"
                              id="aspace_ref49_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref49_c2" localtype="folder" parent="aspace_ref49_c1">43 - 44</container>
                </did>
             </c>
-            <c id="ref50" level="file">
+            <c altrender="/repositories/12/archival_objects/1194394"
+               id="ref50"
+               level="file">
                <did>
                   <unittitle>RCB to miscellaneous</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1936-1943">
+                  <unitdatestructured altrender="1936-1943" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1936">1936</fromdate>
                         <todate standarddate="1943">1943</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133123 /locations/9"
                              containerid="39002042266909"
+                             encodinganalog="archive legal"
                              id="aspace_ref50_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref50_c2" localtype="folder" parent="aspace_ref50_c1">45</container>
                </did>
             </c>
-            <c id="ref51" level="file">
+            <c altrender="/repositories/12/archival_objects/1194395"
+               id="ref51"
+               level="file">
                <did>
                   <unittitle>Miscellaneous to Mrs. Bates</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1919-1943">
+                  <unitdatestructured altrender="1919-1943" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1919">1919</fromdate>
                         <todate standarddate="1943">1943</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133123 /locations/9"
                              containerid="39002042266909"
+                             encodinganalog="archive legal"
                              id="aspace_ref51_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
@@ -857,159 +1011,199 @@
                </did>
             </c>
          </c>
-         <c id="ref52" level="series">
+         <c altrender="/repositories/12/archival_objects/1194396"
+            id="ref52"
+            level="series">
             <did>
                <unittitle>PERSONAL PAPERS</unittitle>
                <unitid>Series III</unitid>
             </did>
-            <c id="ref53" level="file">
+            <c altrender="/repositories/12/archival_objects/1194397"
+               id="ref53"
+               level="file">
                <did>
                   <unittitle>Bible</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133124 /locations/9"
                              containerid="39002042266917"
+                             encodinganalog="archive legal"
                              id="aspace_ref53_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>
                   <container id="aspace_ref53_c2" localtype="folder" parent="aspace_ref53_c1">1</container>
                </did>
             </c>
-            <c id="ref54" level="file">
+            <c altrender="/repositories/12/archival_objects/1194398"
+               id="ref54"
+               level="file">
                <did>
                   <unittitle>Diaries</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133124 /locations/9"
                              containerid="39002042266917"
+                             encodinganalog="archive legal"
                              id="aspace_ref54_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>
                   <container id="aspace_ref54_c2" localtype="folder" parent="aspace_ref54_c1">2</container>
                </did>
             </c>
-            <c id="ref55" level="file">
+            <c altrender="/repositories/12/archival_objects/1194399"
+               id="ref55"
+               level="file">
                <did>
                   <unittitle>Manuscript</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133124 /locations/9"
                              containerid="39002042266917"
+                             encodinganalog="archive legal"
                              id="aspace_ref55_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>
                   <container id="aspace_ref55_c2" localtype="folder" parent="aspace_ref55_c1">3</container>
                </did>
             </c>
-            <c id="ref56" level="file">
+            <c altrender="/repositories/12/archival_objects/1194400"
+               id="ref56"
+               level="file">
                <did>
                   <unittitle>Memorabilia</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133124 /locations/9"
                              containerid="39002042266917"
+                             encodinganalog="archive legal"
                              id="aspace_ref56_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>
                   <container id="aspace_ref56_c2" localtype="folder" parent="aspace_ref56_c1">4</container>
                </did>
             </c>
-            <c id="ref57" level="file">
+            <c altrender="/repositories/12/archival_objects/1194401"
+               id="ref57"
+               level="file">
                <did>
                   <unittitle>Photographs</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133124 /locations/9"
                              containerid="39002042266917"
+                             encodinganalog="archive legal"
                              id="aspace_ref57_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>
                   <container id="aspace_ref57_c2" localtype="folder" parent="aspace_ref57_c1">5 - 6</container>
                </did>
             </c>
-            <c id="ref58" level="file">
+            <c altrender="/repositories/12/archival_objects/1194402"
+               id="ref58"
+               level="file">
                <did>
                   <unittitle>Student papers</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133124 /locations/9"
                              containerid="39002042266917"
+                             encodinganalog="archive legal"
                              id="aspace_ref58_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>
                   <container id="aspace_ref58_c2" localtype="folder" parent="aspace_ref58_c1">7</container>
                </did>
             </c>
-            <c id="ref59" level="file">
+            <c altrender="/repositories/12/archival_objects/1194403"
+               id="ref59"
+               level="file">
                <did>
                   <unittitle>Tributes</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/133124 /locations/9"
                              containerid="39002042266917"
+                             encodinganalog="archive legal"
                              id="aspace_ref59_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>
                   <container id="aspace_ref59_c2" localtype="folder" parent="aspace_ref59_c1">8</container>
                </did>
             </c>
-            <c id="ref60" level="file">
+            <c altrender="/repositories/12/archival_objects/1194404"
+               id="ref60"
+               level="file">
                <did>
                   <unittitle>Yale University</unittitle>
                </did>
-               <c id="ref61" level="file">
+               <c altrender="/repositories/12/archival_objects/1194405"
+                  id="ref61"
+                  level="file">
                   <did>
                      <unittitle>Exams</unittitle>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/133125 /locations/9"
                                 containerid="39002042266925"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref61_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
                      <container id="aspace_ref61_c2" localtype="folder" parent="aspace_ref61_c1">9</container>
                   </did>
                </c>
-               <c id="ref62" level="file">
+               <c altrender="/repositories/12/archival_objects/1194406"
+                  id="ref62"
+                  level="file">
                   <did>
                      <unittitle>General papers</unittitle>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/133125 /locations/9"
                                 containerid="39002042266925"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref62_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
                      <container id="aspace_ref62_c2" localtype="folder" parent="aspace_ref62_c1">10 - 12</container>
                   </did>
                </c>
-               <c id="ref63" level="file">
+               <c altrender="/repositories/12/archival_objects/1194407"
+                  id="ref63"
+                  level="file">
                   <did>
                      <unittitle>Graduate school notebooks</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1925-1927">
+                     <unitdatestructured altrender="1925-1927" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1925">1925</fromdate>
                            <todate standarddate="1927">1927</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133126 /locations/9"
                                 containerid="39002042266933"
+                                encodinganalog="archive letter"
                                 id="aspace_ref63_c1"
                                 label="Mixed Materials"
                                 localtype="box">13</container>
                      <container id="aspace_ref63_c2" localtype="folder" parent="aspace_ref63_c1">13</container>
                   </did>
                </c>
-               <c id="ref64" level="file">
+               <c altrender="/repositories/12/archival_objects/1194408"
+                  id="ref64"
+                  level="file">
                   <did>
                      <unittitle>Graduate school notebooks</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1926-1928">
+                     <unitdatestructured altrender="1926-1928" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1926">1926</fromdate>
                            <todate standarddate="1928">1928</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133127 /locations/9"
                                 containerid="39002042266941"
+                                encodinganalog="archive letter"
                                 id="aspace_ref64_c1"
                                 label="Mixed Materials"
                                 localtype="box">14</container>
                      <container id="aspace_ref64_c2" localtype="folder" parent="aspace_ref64_c1">14</container>
                   </did>
                </c>
-               <c id="ref65" level="file">
+               <c altrender="/repositories/12/archival_objects/1194409"
+                  id="ref65"
+                  level="file">
                   <did>
                      <unittitle>Graduate school notebooks</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1927-1928">
+                     <unitdatestructured altrender="1927-1928" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1927">1927</fromdate>
                            <todate standarddate="1928">1928</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133128 /locations/9"
                                 containerid="39002042266958"
+                                encodinganalog="archive letter"
                                 id="aspace_ref65_c1"
                                 label="Mixed Materials"
                                 localtype="box">15</container>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0517">mssa.ms.0517</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0517">mssa.ms.0517</recordid>
+      <otherrecordid localtype="BIB">614177</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the United States Railroad Securities Commission Papers
@@ -32,6 +34,11 @@
             <date>January 1980</date>
             <num>MS 517</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:34:54+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:20:13+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:34</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:20</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4211" level="collection">
       <did>
          <unittitle>United States Railroad Securities Commission papers</unittitle>
          <unitid>MS 517</unitid>
@@ -83,222 +93,257 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(4 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1890-1914">
+         <unitdatestructured altrender="1890-1914" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1890">1890</fromdate>
                <todate standarddate="1914">1914</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_abce0505724174780a67a71f1ff5c7a0">Correspondence, testimony, legal briefs, published reports and studies, and other papers used by William E.S. Griswold, secretary of the Railroad Securities Commission, for an investigation of the railroads' issuance of stocks and bonds, 1910-1911. Includes "Proceedings of the investigation" (3 vols.). Correspondents include Louis D. Brandeis, Charles G. Dawes, Stuyvesant Fish, James Jerome Hill, Walker Downer Hines, Robert Scott Lovett, Samuel Rea, Jacob Henry Schiff, Paul Moritz Warburg, and George Woodward Wickersham.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname identifier="http://id.loc.gov/authorities/names/n2012056855"
                       rules="aacr"
                       source="naf">
-               <part>United States. Railroad Securities Commission</part>
+               <part localtype="agent_corporate_entity">United States. Railroad Securities Commission</part>
             </corpname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_c7f646342d362ed3478af6a9c9f35706">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of William Edward Schenck Griswold, 1920 and William E. S. Griswold, Jr., 1967.</p>  
+         <p>Gift of William Edward Schenck Griswold, 1920 and William E. S. Griswold, Jr., 1967.</p>
       </acqinfo>
       <accessrestrict id="aspace_635d44d6ab10e8594d314c61ec1b9a29">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_df7fa4232db9d4ad37f5e0075ba3da13">
          <head>Preferred Citation</head>
-         <p>United State Railroad Securities Commission Papers (MS 517). Manuscripts and Archives, Yale University Library.</p>  
+         <p>United State Railroad Securities Commission Papers (MS 517). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_a3612db265cda0f9946a86a797f5cae5">
          <head>Scope and Contents</head>
          <p>The U.S. Railroad Securities Commission Papers extend from 1890 to 1914, although the bulk of the material falls within the two years, 1910 and 1911.</p>
          <p>The collection deals with the investigation, in 1910, of questions pertaining to the issuance of stocks and bonds by railroad corporations. Included in the material is the correspondence of the Commision, assorted documents collected for its use, and the bound testimony of its public hearings.</p>
-         <p>The collection consists of 4 containers, holding approximately 2000 items, and three bound volumes.</p>  
+         <p>The collection consists of 4 containers, holding approximately 2000 items, and three bound volumes.</p>
       </scopecontent>
       <otherfindaid id="aspace_d9b2ebbdae3d8a257d376217fdeec244">
          <head>Other Finding Aids</head>
-         <p>Additional information not yet available in the online version of the finding aid exists in the repository. Contact Manuscripts and Archives for assistance.</p>  
+         <p>Additional information not yet available in the online version of the finding aid exists in the repository. Contact Manuscripts and Archives for assistance.</p>
       </otherfindaid>
       <userestrict id="aspace_f22771af5c2336e930160654bc9b6837">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85018260"
                   source="lcsh">
-            <part>Business</part>
+            <part localtype="topical">Business</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85065851"
                   source="lcsh">
-            <part>Industrial development bonds</part>
+            <part localtype="topical">Industrial development bonds</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85110970"
                   source="lcsh">
-            <part>Railroads -- Finance</part>
+            <part localtype="topical">Railroads</part>
+            <part localtype="topical">Finance</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85133835"
                   source="lcsh">
-            <part>Tender offers (Securities)</part>
+            <part localtype="topical">Tender offers (Securities)</part>
          </subject>
          <persname rules="aacr" source="local">
-            <part>Griswold, William Edward Schenck, 1872-1964</part>
+            <part localtype="agent_person">Griswold, William Edward Schenck, 1872-1964</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n85185634" source="naf">
-            <part>Schiff, Jacob H. (Jacob Henry), 1847-1920</part>
+            <part localtype="agent_person">Schiff, Jacob H. (Jacob Henry), 1847-1920</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n86045056"
                    rules="aacr"
                    source="naf">
-            <part>Warburg, Paul M. (Paul Moritz), 1868-1932</part>
+            <part localtype="agent_person">Warburg, Paul M. (Paul Moritz), 1868-1932</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n88030093"
                    rules="aacr"
                    source="naf">
-            <part>Wickersham, George W. (George Woodward), 1858-1936</part>
+            <part localtype="agent_person">Wickersham, George W. (George Woodward), 1858-1936</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n2012056855"
                    rules="aacr"
                    source="naf">
-            <part>United States. Railroad Securities Commission</part>
+            <part localtype="agent_corporate_entity">United States. Railroad Securities Commission</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1353435"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1910 March 14-1911 March 1">
+               <unitdatestructured altrender="1910 March 14-1911 March 1"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1910">1910</fromdate>
                      <todate standarddate="1911">1911</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151463 /locations/9"
                           containerid="39002042264557"
+                          encodinganalog="Paige 15"
                           id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1353436"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1911 March 2-1914 December">
+               <unitdatestructured altrender="1911 March 2-1914 December"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1911">1911</fromdate>
                      <todate standarddate="1914">1914</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151464 /locations/9"
                           containerid="39002042264565"
+                          encodinganalog="Paige 15"
                           id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1353437"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>Proceedings of Investigation</part>
                   </title> (3 volumes)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1910-1911">
+               <unitdatestructured altrender="1910-1911" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1910">1910</fromdate>
                      <todate standarddate="1911">1911</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151464 /locations/9"
                           containerid="39002042264565"
+                          encodinganalog="Paige 15"
                           id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1353438"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>U.S. Congress, Acts and Bills regarding Railroads</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1890-1910">
+               <unitdatestructured altrender="1890-1910" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1890">1890</fromdate>
                      <todate standarddate="1910">1910</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151465 /locations/9"
                           containerid="39002042264573"
+                          encodinganalog="Paige 15"
                           id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1353439"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Investigations of Interstate Commerce Commission regarding Railroads</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1890-1910">
+               <unitdatestructured altrender="1890-1910" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1890">1890</fromdate>
                      <todate standarddate="1910">1910</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151465 /locations/9"
                           containerid="39002042264573"
+                          encodinganalog="Paige 15"
                           id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1353440"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Bibliographical Information used by Commision</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151465 /locations/9"
                           containerid="39002042264573"
+                          encodinganalog="Paige 15"
                           id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1353441"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
             </did>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1353442"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Letters to Railroad Securities Commission</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1911">
+                  <unitdatestructured altrender="1911" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1911">1911</fromdate>
                         <todate standarddate="1911">1911</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151465 /locations/9"
                              containerid="39002042264573"
+                             encodinganalog="Paige 15"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1353443"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Bound volume of letters</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1910 February 25-1911 October 17">
+                  <unitdatestructured altrender="1910 February 25-1911 October 17"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1910">1910</fromdate>
                         <todate standarddate="1911">1911</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151465 /locations/9"
                              containerid="39002042264573"
+                             encodinganalog="Paige 15"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1353444"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Some published reports bound with letters </unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151465 /locations/9"
                              containerid="39002042264573"
+                             encodinganalog="Paige 15"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -309,96 +354,130 @@
                </odd>
             </c>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1353445"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>Manuscripts</unittitle>
             </did>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1353446"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>"Constitutional and Statutory Provisions of the several states and territories and of Canada in regard to Securities of Railroad Corporations". Typed MS., bound.</unittitle>
-                  <container altrender="Paige 15"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151465 /locations/9"
                              containerid="39002042264573"
+                             encodinganalog="Paige 15"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1353447"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>U.S. Railroad Securities Commission. Information concerning preferred stock of leading railroads". Typed MS (34 pp.)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1911">
+                  <unitdatestructured altrender="1911" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1911">1911</fromdate>
                         <todate standarddate="1911">1911</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151465 /locations/9"
                              containerid="39002042264573"
+                             encodinganalog="Paige 15"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1353448"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>"Listing of State, P[ublic] S[ervice] Commissions and Capitalization". Holograph and Typed MS., bound (15 pp.)</unittitle>
-                  <container altrender="Paige 15"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151465 /locations/9"
                              containerid="39002042264573"
+                             encodinganalog="Paige 15"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1353449"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>"Compilation of court cases, citing abstracts of court decisions, extracts and statements of people used by Securities Commission". Typed MS (157 pp.)</unittitle>
-                  <container altrender="Paige 15"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151465 /locations/9"
                              containerid="39002042264573"
+                             encodinganalog="Paige 15"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
          </c>
-         <c id="ref26" level="file">
+         <c altrender="/repositories/12/archival_objects/1353450"
+            id="ref26"
+            level="file">
             <did>
                <unittitle>Published material</unittitle>
             </did>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1353451"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Reference to State Laws in regard to Securities of Railroad Corporations</part>
                      </title>. Annotated working copy (52 pp.) [2 copies]</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1911">
+                  <unitdatestructured altrender="1911" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1911">1911</fromdate>
                         <todate standarddate="1911">1911</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151465 /locations/9"
                              containerid="39002042264573"
+                             encodinganalog="Paige 15"
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
          </c>
-         <c id="ref28" level="file">
+         <c altrender="/repositories/12/archival_objects/1353452"
+            id="ref28"
+            level="file">
             <did>
                <unittitle>Printed Material regarding State Railroad Laws</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151466 /locations/9"
                           containerid="39002042264581"
+                          encodinganalog="Paige 15"
                           id="aspace_ref28_c1"
                           label="Mixed Materials"
                           localtype="box">4</container>
             </did>
          </c>
-         <c id="ref29" level="file">
+         <c altrender="/repositories/12/archival_objects/1353453"
+            id="ref29"
+            level="file">
             <did>
                <unittitle>Speeches and Writings re Railroad Capitalization and Federal Regulation.</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151466 /locations/9"
                           containerid="39002042264581"
+                          encodinganalog="Paige 15"
                           id="aspace_ref29_c1"
                           label="Mixed Materials"
                           localtype="box">4</container>
@@ -408,27 +487,33 @@
                <p>Index available in repository. Contact MSSA for assistance.</p>
             </odd>
          </c>
-         <c id="ref30" level="file">
+         <c altrender="/repositories/12/archival_objects/1353454"
+            id="ref30"
+            level="file">
             <did>
                <unittitle>Miscellaneous Data used by Commission</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1905-1910">
+               <unitdatestructured altrender="1905-1910" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1905">1905</fromdate>
                      <todate standarddate="1910">1910</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151466 /locations/9"
                           containerid="39002042264581"
+                          encodinganalog="Paige 15"
                           id="aspace_ref30_c1"
                           label="Mixed Materials"
                           localtype="box">4</container>
             </did>
          </c>
-         <c id="ref31" level="file">
+         <c altrender="/repositories/12/archival_objects/1353455"
+            id="ref31"
+            level="file">
             <did>
                <unittitle>Miscellaneous Charts regarding Railroad Revenues and Securities</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151466 /locations/9"
                           containerid="39002042264581"
+                          encodinganalog="Paige 15"
                           id="aspace_ref31_c1"
                           label="Mixed Materials"
                           localtype="box">4</container>

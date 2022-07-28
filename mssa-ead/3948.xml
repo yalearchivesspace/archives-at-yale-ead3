@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0864">mssa.ms.0864</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0864">mssa.ms.0864</recordid>
+      <otherrecordid localtype="BIB">614287</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Curtis Family Papers
@@ -32,6 +34,11 @@
             <date>November 1982</date>
             <num>MS 864</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-07-22T07:00:39+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:12:36+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday July 22, 2020 at 07:00</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:12</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3948" level="collection">
       <did>
          <unittitle>Curtis family papers</unittitle>
          <unitid>MS 864</unitid>
@@ -82,205 +92,224 @@
             <quantity>0.75</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1695-1912">
+         <unitdatestructured altrender="1695-1912" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1695">1695</fromdate>
                <todate standarddate="1912">1912</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_a9587b0243087c5400b65146823d323d">Correspondence, deeds, account books, diaries and miscellaneous papers of the Curtis family of Connecticut and allied families Adams, Hallam, Poole and Pygan. In the correspondence is a Benedict Arnold letter (1768), drafts of letters by Jonathan Trumbull (1774), and a number of letters relating to military activities during the American Revolution. The papers of Benjamin Trumbull included here contain letters from Samuel A. Peters and William Winthrop, as well as notes probably collected for his history of Connecticut. Also an account by Elizabeth Adams Poole of her visit in 1782 to her husband in New York who was being held prisoner by the British. The deeds (1743-1837) chiefly record land transfers in New Haven County, Connecticut. Included also is the will of Alexander Pygan (1700), the inventory of the estate of Benjamin Curtis, and autographs collected by George M. Curtis.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <famname identifier="http://id.loc.gov/authorities/subjects/sh85034903"
                      source="lcsh">
-               <part>Curtis family</part>
+               <part localtype="agent_family">Curtis family</part>
             </famname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_c84066c28cf36054c401ffcb94bb74a0">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Mrs. William B. Church, 1948 and separated from the Lewis Perry Curtis Papers, 1982.</p>  
+         <p>Gift of Mrs. William B. Church, 1948 and separated from the Lewis Perry Curtis Papers, 1982.</p>
       </acqinfo>
       <accessrestrict id="aspace_cd4d4c3a272b3e38845fe158a5f543bd">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_cc99fb595e8d0bc71034b9767435d289">
          <head>Preferred Citation</head>
-         <p>Curtis Family Papers (MS 864). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Curtis Family Papers (MS 864). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_6b76b3478d2c70f402436f6adb42bb38">
          <head>Scope and Contents</head>
          <p>The Curtis family papers are contained in two boxes (18 folders) and span the dates 1695-1912. The largest amount of material concerns the Curtis and allied families of Adams, Hallam, Poole, and Pygan. Additional material of an autograph nature was collected by George H. Curtis (1857-) and the collection also includes several letters to George M. Curtis in 1905-1906, most concerning the hundredth anniversary of the incorporation of Meriden. The Curtis family papers weredonatedto Yale University in 1948 by Mrs. William B. Church, formerly Agnes M. Curtis, the daughter of George M. Curtis.</p>
          <p>Correspondence and other papers, arranged chronologically, folders 1-4, contain items of autograph and historical value. The collection includes, for example, two documents signed by Andrew Belcher (1648-1717) and two by his son Jonathan Belcher (1681-1757), governor of Massachusetts. It also contains the August 1700 will of Alexander Pygan of New London, the inventory and distribution of the estate of Benjamin Curtis (1703-1754), of Wallingford, a 1759 list of Wallingford men who received arms from James Wadsworth (1730-1817), a 1768 Benedict Arnold letter, and six letters, five of them drafts, of Governor Jonathan Trumbull (1710-1785). The five Trumbull drafts, all dated December 1774, discuss his financial problems, western lands, Samuel Peters, and family matters. Among the other important items are a February 1776 letter from Thomas Seymour (1735-1829) and others to General Charles Lee concerning activities of a group of some twenty volunteers and a November 1776 letter from Dr. Phillip Turner asking for the discharge of seventy-five named invalids from the American army.</p>
          <p>Perhaps the most interesting items relate to the Reverend Benjamin Trumbull (1735-1820). The Curtis family papers include a 1790 letter to Samuel Peters concerning Episcopal ordination, an 1806 letter from William Winthrop discussing Trumbull's history of Connecticut, and Trumbull's notes on Connecticut history and copies of letters on Anglicanism, undoubtedly intended for his history of Connecticut. Among the other items of interest are an 1819 commission signed by Governor Oliver Wolcott (1760-1833), an 1862 letter from Robert A. Hallam concerning Episcopal history, genealogical notes on the Adams and Christopher families of New London, and a variety of autograph items. The collection has autograph letters and documents signed by Lyman Abbott, Charles W. Fairbanks, Edward A. Freeman, Ebenezer Huntington, Samuel Farmar Jarvis, William Travers Jerome, William Ledyard, Thomas R. Lounsbury, Edward Bulwer Lytton (1803-1873), General George G. Meade, Orville H. Platt, Christopher R. P. Rodgers, and Daniel Webster.</p>
-         <p>The collection also includes two diaries written by Elizabeth Adams Poole (1752-1845), one from 1782 concerning an exchange of prisoners; a series of Curtis family Wallingford-Meriden deeds, of at least two Benjamin Curtises, Elisha Curtis, Amasa Curtis, and Asahel Curtis (1786-); diaries of William Adams (1650-1685) of Dedham, Massachusetts and Eliphelet Adams (1677-1753) of New London; and account books of Joseph Allen, Thomas Berry (1670-1728), Thomas Berry (1734-1812), Thomas Hubbard (1788-1871), and Asahel Curtis.</p>  
+         <p>The collection also includes two diaries written by Elizabeth Adams Poole (1752-1845), one from 1782 concerning an exchange of prisoners; a series of Curtis family Wallingford-Meriden deeds, of at least two Benjamin Curtises, Elisha Curtis, Amasa Curtis, and Asahel Curtis (1786-); diaries of William Adams (1650-1685) of Dedham, Massachusetts and Eliphelet Adams (1677-1753) of New London; and account books of Joseph Allen, Thomas Berry (1670-1728), Thomas Berry (1734-1812), Thomas Hubbard (1788-1871), and Asahel Curtis.</p>
       </scopecontent>
       <userestrict id="aspace_c526db10122943a510cfb0bcd8b98a63">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85002415"
                   source="lcsh">
-            <part>Agriculture</part>
+            <part localtype="topical">Agriculture</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85018260"
                   source="lcsh">
-            <part>Business</part>
+            <part localtype="topical">Business</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85053768"
                   source="lcsh">
-            <part>General stores</part>
+            <part localtype="topical">General stores</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075119"
                   source="lcsh">
-            <part>Law</part>
+            <part localtype="topical">Law</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85031160"
                    source="lcsh">
-            <part>Connecticut -- History</part>
+            <part localtype="geographic">Connecticut</part>
+            <part localtype="topical">History</part>
          </geogname>
          <geogname source="local">
-            <part>Newport (R.I.) -- Commerce</part>
+            <part localtype="geographic">Newport (R.I.)</part>
+            <part localtype="topical">Commerce</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140131"
                    source="lcsh">
-            <part>United States -- History -- Colonial period, ca. 1600-1775</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Colonial period, ca. 1600-1775</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140139"
                    source="lcsh">
-            <part>United States -- History -- Revolution, 1775-1783</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Revolution, 1775-1783</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027483" source="aat">
-            <part>Account books</part>
+            <part localtype="genre_form">Account books</part>
          </genreform>
          <genreform source="local">
-            <part>Autographs</part>
+            <part localtype="genre_form">Autographs</part>
          </genreform>
          <genreform identifier="http://vocab.getty.edu/aat/300027249" source="aat">
-            <part>Deeds</part>
+            <part localtype="genre_form">Deeds</part>
          </genreform>
          <genreform identifier="http://vocab.getty.edu/aat/300027112" source="aat">
-            <part>Diaries</part>
+            <part localtype="genre_form">Diaries</part>
          </genreform>
          <persname identifier="http://id.loc.gov/authorities/names/n82218702"
                    rules="aacr"
                    source="naf">
-            <part>Adams, Eliphalet, 1677-1753</part>
+            <part localtype="agent_person">Adams, Eliphalet, 1677-1753</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n83170969"
                    rules="aacr"
                    source="naf">
-            <part>Adams, William, 1650-1685</part>
+            <part localtype="agent_person">Adams, William, 1650-1685</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n79055972" source="naf">
-            <part>Arnold, Benedict, 1741-1801</part>
+            <part localtype="agent_person">Arnold, Benedict, 1741-1801</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Berry, Thomas, 1670-1728</part>
+            <part localtype="agent_person">Berry, Thomas, 1670-1728</part>
          </persname>
          <persname source="local">
-            <part>Berry, Thomas, 1734-1812</part>
+            <part localtype="agent_person">Berry, Thomas, 1734-1812</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Curtis, Asahel</part>
+            <part localtype="agent_person">Curtis, Asahel</part>
          </persname>
          <persname source="local">
-            <part>Curtis, George Munson, 1857-</part>
+            <part localtype="agent_person">Curtis, George Munson, 1857-</part>
          </persname>
          <persname source="local">
-            <part>Hubbard, Thomas, 1788-1871</part>
+            <part localtype="agent_person">Hubbard, Thomas, 1788-1871</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50012134"
                    rules="aacr"
                    source="naf">
-            <part>Peters, Samuel, 1735-1826</part>
+            <part localtype="agent_person">Peters, Samuel, 1735-1826</part>
          </persname>
          <persname source="local">
-            <part>Poole, Elizabeth Adams, 1752-1845</part>
+            <part localtype="agent_person">Poole, Elizabeth Adams, 1752-1845</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Pygan, Alexander, d. 1701</part>
+            <part localtype="agent_person">Pygan, Alexander, d. 1701</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n85351589"
                    rules="aacr"
                    source="naf">
-            <part>Trumbull, Benjamin, 1735-1820</part>
+            <part localtype="agent_person">Trumbull, Benjamin, 1735-1820</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n83146798" source="naf">
-            <part>Trumbull, Jonathan, 1710-1785</part>
+            <part localtype="agent_person">Trumbull, Jonathan, 1710-1785</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Winthrop, William, d. 1825</part>
+            <part localtype="agent_person">Winthrop, William, d. 1825</part>
          </persname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85000788"
                   source="lcsh">
-            <part>Adams family</part>
+            <part localtype="agent_family">Adams family</part>
          </famname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85034903"
                   source="lcsh">
-            <part>Curtis family</part>
+            <part localtype="agent_family">Curtis family</part>
          </famname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85058460"
                   source="lcsh">
-            <part>Hallam family</part>
+            <part localtype="agent_family">Hallam family</part>
          </famname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85104831"
                   source="lcsh">
-            <part>Poole family</part>
+            <part localtype="agent_family">Poole family</part>
          </famname>
          <famname source="local">
-            <part>Pygan family</part>
+            <part localtype="agent_family">Pygan family</part>
          </famname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="file">
+         <c altrender="/repositories/12/archival_objects/1258267"
+            id="ref10"
+            level="file">
             <did>
                <unittitle>Correspondence and other papers</unittitle>
             </did>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1258268"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>1695-1768</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143249 /locations/9"
                              containerid="39002042277138"
+                             encodinganalog="archive legal"
                              id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1258269"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>1774-1806</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143249 /locations/9"
                              containerid="39002042277138"
+                             encodinganalog="archive legal"
                              id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">2</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1258270"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>1807-1859</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143249 /locations/9"
                              containerid="39002042277138"
+                             encodinganalog="archive legal"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">3</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1258271"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>1862-1906, n.d.</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143249 /locations/9"
                              containerid="39002042277138"
+                             encodinganalog="archive legal"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -288,104 +317,134 @@
                </did>
             </c>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1258272"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Poole, Elizabeth Adams: diaries</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1782, 1825-1831">
+               <unitdatestructured altrender="1782, 1825-1831"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1695">1695</fromdate>
                      <todate standarddate="1912">1912</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143249 /locations/9"
                           containerid="39002042277138"
+                          encodinganalog="archive legal"
                           id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">5</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1258273"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Trumbull, Benjamin: writings</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1775-1786, undated">
+               <unitdatestructured altrender="1775-1786, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1695">1695</fromdate>
                      <todate standarddate="1912">1912</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143249 /locations/9"
                           containerid="39002042277138"
+                          encodinganalog="archive legal"
                           id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">6</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1258274"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Deeds</unittitle>
             </did>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1258275"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>1743-1779</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143249 /locations/9"
                              containerid="39002042277138"
+                             encodinganalog="archive legal"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">7</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1258276"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>1780-1799</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143249 /locations/9"
                              containerid="39002042277138"
+                             encodinganalog="archive legal"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">8</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1258277"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>1800-1807</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143249 /locations/9"
                              containerid="39002042277138"
+                             encodinganalog="archive legal"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">9</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1258278"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>1808-1817</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143249 /locations/9"
                              containerid="39002042277138"
+                             encodinganalog="archive legal"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">10</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1258279"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>1818-1824</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143249 /locations/9"
                              containerid="39002042277138"
+                             encodinganalog="archive legal"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">11</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1258280"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>1825-1837</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143249 /locations/9"
                              containerid="39002042277138"
+                             encodinganalog="archive legal"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -393,136 +452,160 @@
                </did>
             </c>
          </c>
-         <c id="ref24" level="file">
+         <c altrender="/repositories/12/archival_objects/1258281"
+            id="ref24"
+            level="file">
             <did>
                <unittitle>Account book: Adams, William; Adams, Eliphalet; court dockets 1793-1796; cash accounts 1799</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1675-1799">
+               <unitdatestructured altrender="1675-1799" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1675">1675</fromdate>
                      <todate standarddate="1799">1799</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143249 /locations/9"
                           containerid="39002042277138"
+                          encodinganalog="archive legal"
                           id="aspace_ref24_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">13</container>
             </did>
          </c>
-         <c id="ref25" level="file">
+         <c altrender="/repositories/12/archival_objects/1258282"
+            id="ref25"
+            level="file">
             <did>
                <unittitle>Account book: Allen, Joseph; Atwater, Jane Hubbard; Russell, Daniel; genealogy deaths</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1745-1869">
+               <unitdatestructured altrender="1745-1869" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1745">1745</fromdate>
                      <todate standarddate="1869">1869</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143249 /locations/9"
                           containerid="39002042277138"
+                          encodinganalog="archive legal"
                           id="aspace_ref25_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">13</container>
             </did>
          </c>
-         <c id="ref26" level="file">
+         <c altrender="/repositories/12/archival_objects/1258283"
+            id="ref26"
+            level="file">
             <did>
                <unittitle>Account book: Berry, Thomas (1670-1728)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1711-1728">
+               <unitdatestructured altrender="1711-1728" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1711">1711</fromdate>
                      <todate standarddate="1728">1728</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143249 /locations/9"
                           containerid="39002042277138"
+                          encodinganalog="archive legal"
                           id="aspace_ref26_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">14</container>
             </did>
          </c>
-         <c id="ref27" level="file">
+         <c altrender="/repositories/12/archival_objects/1258284"
+            id="ref27"
+            level="file">
             <did>
                <unittitle>Account book: Berry, Thomas (1734-1812)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1764-1800">
+               <unitdatestructured altrender="1764-1800" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1764">1764</fromdate>
                      <todate standarddate="1800">1800</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143249 /locations/9"
                           containerid="39002042277138"
+                          encodinganalog="archive legal"
                           id="aspace_ref27_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">14</container>
             </did>
          </c>
-         <c id="ref28" level="file">
+         <c altrender="/repositories/12/archival_objects/1258285"
+            id="ref28"
+            level="file">
             <did>
                <unittitle>Account book: Hubbard, Thomas</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1811-1854">
+               <unitdatestructured altrender="1811-1854" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1811">1811</fromdate>
                      <todate standarddate="1854">1854</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143249 /locations/9"
                           containerid="39002042277138"
+                          encodinganalog="archive legal"
                           id="aspace_ref28_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">15</container>
             </did>
          </c>
-         <c id="ref29" level="file">
+         <c altrender="/repositories/12/archival_objects/1258286"
+            id="ref29"
+            level="file">
             <did>
                <unittitle>Account books: unidentified</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1838-1839">
+               <unitdatestructured altrender="1838-1839" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1838">1838</fromdate>
                      <todate standarddate="1839">1839</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143249 /locations/9"
                           containerid="39002042277138"
+                          encodinganalog="archive legal"
                           id="aspace_ref29_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">16</container>
             </did>
          </c>
-         <c id="ref30" level="file">
+         <c altrender="/repositories/12/archival_objects/1258287"
+            id="ref30"
+            level="file">
             <did>
                <unittitle>Account book: Curtis, Asahel</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1836-1841">
+               <unitdatestructured altrender="1836-1841" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1836">1836</fromdate>
                      <todate standarddate="1841">1841</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="legacy black"
+               <container altrender="/repositories/12/top_containers/143250 /locations/9"
                           containerid="39002042277146"
+                          encodinganalog="legacy black"
                           id="aspace_ref30_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">17</container>
             </did>
          </c>
-         <c id="ref31" level="file">
+         <c altrender="/repositories/12/archival_objects/1258288"
+            id="ref31"
+            level="file">
             <did>
                <unittitle>Library accessions book</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1905-1912">
+               <unitdatestructured altrender="1905-1912" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1905">1905</fromdate>
                      <todate standarddate="1912">1912</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="legacy black"
+               <container altrender="/repositories/12/top_containers/143250 /locations/9"
                           containerid="39002042277146"
+                          encodinganalog="legacy black"
                           id="aspace_ref31_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>

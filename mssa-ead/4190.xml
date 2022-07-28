@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0405">mssa.ms.0405</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0405">mssa.ms.0405</recordid>
+      <otherrecordid localtype="BIB">613990</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Truman Smith Reports Collection
@@ -32,6 +34,11 @@
             <date>August 1981</date>
             <num>MS 405</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:43:40+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:04:05+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:43</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:04</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4190" level="collection">
       <did>
          <unittitle>Truman Smith papers</unittitle>
          <unitid>MS 405</unitid>
@@ -83,47 +93,46 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box, 2 v.)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1824-1956">
+         <unitdatestructured altrender="1824-1956" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1924">1924</fromdate>
                <todate standarddate="1956">1956</todate>
             </daterange>
          </unitdatestructured>
-         <unitdatestructured unitdatetype="bulk">
+         <unitdatestructured label="creation" unitdatetype="bulk">
             <daterange>
                <fromdate standarddate="1954">1954</fromdate>
                <todate standarddate="1956">1956</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_8c575f84ad108fa41bf982f68e62d1b9">Two reports by Truman Smith prepared during his army service. One on Hitler and the National Socialists in Munich in November 1922 and the other on "Air intelligence activities... with special reference to the services of Colonel Charles A. Lindbergh."</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/no2004063817"
                       source="naf">
-               <part>Smith, Truman, 1893-1970</part>
+               <part localtype="agent_person">Smith, Truman, 1893-1970</part>
             </persname>
          </origination>
-    
       </did>
       <altformavail id="aspace_e81edaa76b93c5f833ef1d71f414b925">
          <head>Existence and Location of Copies</head>
-         <p>"Air Intelligence Activities" is available on microfilm (170 frames on 1 reel, 35mm.) from Manuscripts and Archives, Yale University Library, at cost. Order no. HM12.</p>  
+         <p>"Air Intelligence Activities" is available on microfilm (170 frames on 1 reel, 35mm.) from Manuscripts and Archives, Yale University Library, at cost. Order no. HM12.</p>
       </altformavail>
       <acqinfo id="aspace_58a0a4ec2542c649a8d9c6973d99e176">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Truman Smith in 1957 and 1961.</p>  
+         <p>Gift of Truman Smith in 1957 and 1961.</p>
       </acqinfo>
       <accessrestrict id="aspace_2ca00c91fafca98f79f1f52cb30ffccd">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.Patrons must use HM 12 instead of the original "Air Intelligence Activities" report.</p>  
+         <p>The materials are open for research.Patrons must use HM 12 instead of the original "Air Intelligence Activities" report.</p>
       </accessrestrict>
       <prefercite id="aspace_9604d52415a89b93cad7076b71addf5f">
          <head>Preferred Citation</head>
-         <p>Truman Smith Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Truman Smith Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_b691a0a01054323825a183788d18d8be">
          <head>Scope and Contents</head>
          <p>These volumes were given to Yale University by Truman Smith in 1957 and 1961.</p>
-         <p>The Truman Smith Papers are located in the Hoover War Library, Stanford University.</p>  
+         <p>The Truman Smith Papers are located in the Hoover War Library, Stanford University.</p>
       </scopecontent>
       <bioghist id="aspace_9ff05922397d9f988cc5fe15d1d5aeaf">
          <head>Biographical / Historical</head>
@@ -132,73 +141,95 @@
          <p>Smith served on the Mexican border in 1916 as a lieutenant in the New York National Guard, and then was commissioned in 1916 as a 2nd lieutenant in the U.S. Army, from which he retired in 1946, having attained the rank of colonel. During World War I he served as company and battalion commander in the 4th Infantry of the 3rd Division, participating in the Marne Defense battles and the Meuse Argonne offensive. For the latter he received the Silver Star for gallantry in action and was promoted to major for the capture by his battalion of the Bois de Poret. Smith later took part in the occupation of Germany from December 1918 to June 20, acting as political officer in the office of civil government.</p>
          <p>From 1920 to 1924 Smith served as assistant military attache in Germany, and from 1935-1939 as military attache. Though retired in 1941 because of physical disability, Smith continued in active service from 1941-1946 as German specialist in the Intelligence Division of the General Staff. For his work in Germany and in the Intelligence Division he was awarded the Distinguished Service Medal in 1949.</p>
          <p>In 1946 and 1947, Smith served as a military advisor on the National Defense Committee (Eberstadt Committee) of the Hoover Commission, and afterwards as military aide to the governor of Connecticut. He translated, edited, and wrote the preface for <emph render="italic">Invasion, 1944: Rommel and the Normandy Campaign</emph>, by Lieutenant General Hans Speidel, Rommel's chief of staff.</p>
-         <p>Smith died in Fairfield, Connecticut, on October 3, 1970.</p>  
+         <p>Smith died in Fairfield, Connecticut, on October 3, 1970.</p>
       </bioghist>
       <userestrict id="aspace_584189c76d2099e2e671875cfd7ad819">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85090131"
                   source="lcsh">
-            <part>National socialism</part>
+            <part localtype="topical">National socialism</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85045631"
                    source="lcsh">
-            <part>Europe</part>
+            <part localtype="geographic">Europe</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85054589"
                    source="lcsh">
-            <part>Germany -- History -- 1918-1933</part>
+            <part localtype="geographic">Germany</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">1918-1933</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85054594"
                    source="lcsh">
-            <part>Germany -- History -- 1933-1945</part>
+            <part localtype="geographic">Germany</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">1933-1945</part>
          </geogname>
          <occupation source="local">
-            <part>Soldiers</part>
+            <part localtype="occupation">Soldiers</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/n79046200" source="naf">
-            <part>Hitler, Adolf, 1889-1945</part>
+            <part localtype="agent_person">Hitler, Adolf, 1889-1945</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n79100565" source="naf">
-            <part>Lindbergh, Charles A. (Charles Augustus), 1902-1974</part>
+            <part localtype="agent_person">Lindbergh, Charles A. (Charles Augustus), 1902-1974</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no2004063817"
                    source="naf">
-            <part>Smith, Truman, 1893-1970</part>
+            <part localtype="agent_person">Smith, Truman, 1893-1970</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1353119"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>"Hitler and the National Socialists: Notebook and Report of Captain Truman Smith, Infantry, U.S. Army, Assistant Military Attaché, Berlin, Germany, Describing a Visit to Munich from November 15 to November 22, 1922" (notebook and typed transcript)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="Post 1924">
+               <unitdatestructured altrender="Post 1924" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1954">1954</fromdate>
                      <todate standarddate="1956">1956</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151382 /locations/9"
                           containerid="39002042581042"
+                          encodinganalog="archive half legal"
                           id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1353120"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Air Intelligence Activities, Office of the Military Attaché, American Embassy, Berlin, Germany, August 1935 - April 1939, with Special Reference to the Services of Colonel Charles A. Lindbergh, Air Corps (Res.) (typescript)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1954-1956">
+               <unitdatestructured altrender="1954-1956" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1954">1954</fromdate>
                      <todate standarddate="1956">1956</todate>
                   </daterange>
                </unitdatestructured>
-               <container localtype="box" id="d2e2">1</container>
-               <container localtype="reel" id="d2e5">1U</container>
+               <container altrender="/repositories/12/top_containers/151382 /locations/9"
+                          containerid="39002042581042"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref14_c1"
+                          label="Mixed Materials"
+                          localtype="box">1</container>
+               <container altrender="/repositories/12/top_containers/203313 /locations/2975"
+                          containerid="39002075042433"
+                          encodinganalog="microfilm box"
+                          id="aspace_ref14_c2"
+                          label="Mixed Materials"
+                          localtype="reel">1U</container>
             </did>
-            <accessrestrict id="aspace_13fd27d175bf22617dac574502bac1e3">
+            <accessrestrict id="aspace_13fd27d175bf22617dac574502bac1e3" localtype="UseSurrogate">
                <head>Conditions Governing Access</head>
                <p>This material has been microfilmed. Patrons must use HM 12 instead of the originals.</p>
             </accessrestrict>

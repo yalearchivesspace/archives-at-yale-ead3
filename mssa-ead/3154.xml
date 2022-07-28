@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0866">mssa.ms.0866</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0866">mssa.ms.0866</recordid>
+      <otherrecordid localtype="BIB">613825</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Alexander William Evans Papers
@@ -32,6 +34,11 @@
             <date>December 1981</date>
             <num>MS 866</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-03-14T08:15:36+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:12:46+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday March 14, 2020 at 08:15</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:12</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3154" level="collection">
       <did>
          <unittitle>Alexander William Evans papers</unittitle>
          <unitid>MS 866</unitid>
@@ -83,77 +93,81 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(4 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1931-1959">
+         <unitdatestructured altrender="1931-1959" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1931">1931</fromdate>
                <todate standarddate="1959">1959</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_05a7f670d451a63e08dfe54b4d283eb9">The papers contain correspondence covering Evans' tenure as curator and curator emeritus of the Eaton Herbarium and other botanical collections and primarily concern collecting and identifying species of lichens, mosses, liverworts and other plants.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/no96010491"
                       rules="aacr"
                       source="naf">
-               <part>Evans, Alexander W. (Alexander William), 1868-1959</part>
+               <part localtype="agent_person">Evans, Alexander W. (Alexander William), 1868-1959</part>
             </persname>
          </origination>
-    
       </did>
       <prefercite id="aspace_4415cb26f5e0ebf07b503675b3a9a44a">
          <head>Preferred Citation</head>
-         <p>Alexander William Evans Papers (MS 866). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Alexander William Evans Papers (MS 866). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <acqinfo id="aspace_675238449986b67eca4e55d7fe0ef87d">
          <head>Immediate Source of Acquisition</head>
-         <p>Transferred from Kline Science Library, Yale University, in 1977.</p>  
+         <p>Transferred from Kline Science Library, Yale University, in 1977.</p>
       </acqinfo>
       <arrangement id="aspace_06c8c4375fee9f442b91c0b3b5fd5720">
          <head>Arrangement</head>
-         <p>Correspondence is arranged chronologically.</p>  
+         <p>Correspondence is arranged chronologically.</p>
       </arrangement>
       <scopecontent id="aspace_77ffc5f8b3e5efdc545f9d2ab093682f">
          <head>Scope and Contents</head>
-         <p>These papers consist of correspondence of Alexander William Evans, professor of botany at Yale University from 1901 to 1959 and chairman of the Department of Botany from 1920 to 1927. The correspondence, which is arranged chronologically, dates from Evans' tenure (1928-1959) as curator and curator emeritus of the Eaton Herbarium and other botanical collections, and concerns primarily the collection and identification of various species of lichens, mosses, liverworts, and other plants. Evans correspondents include botanists from America, Europe, India, Japan, and elsewhere.</p>  
+         <p>These papers consist of correspondence of Alexander William Evans, professor of botany at Yale University from 1901 to 1959 and chairman of the Department of Botany from 1920 to 1927. The correspondence, which is arranged chronologically, dates from Evans' tenure (1928-1959) as curator and curator emeritus of the Eaton Herbarium and other botanical collections, and concerns primarily the collection and identification of various species of lichens, mosses, liverworts, and other plants. Evans correspondents include botanists from America, Europe, India, Japan, and elsewhere.</p>
       </scopecontent>
       <bioghist id="aspace_22bfea5dab78cf3edeb95479ed2e69ad">
          <head>Biographical / Historical</head>
-         <p>Ph.B., Yale, 1890, M.D., 1892, Ph.D., 1899, asst. prof. of botany, Yale, 1901-1906; prof. of botany, 1906-1959.</p>  
+         <p>Ph.B., Yale, 1890, M.D., 1892, Ph.D., 1899, asst. prof. of botany, Yale, 1901-1906; prof. of botany, 1906-1959.</p>
       </bioghist>
       <accessrestrict id="aspace_eb30612ecf351f800fe7d1336c349133">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_bc2a42fd2aa5808309c281427c1c69ad">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85015976"
                   source="lcsh">
-            <part>Botany</part>
+            <part localtype="topical">Botany</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85015982"
                   source="lcsh">
-            <part>Plants -- Classification</part>
+            <part localtype="topical">Plants</part>
+            <part localtype="genre_form">Classification</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85118553"
                   source="lcsh">
-            <part>Science</part>
+            <part localtype="topical">Science</part>
          </subject>
          <occupation source="local">
-            <part>Botanists</part>
+            <part localtype="occupation">Botanists</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/no96010491"
                    rules="aacr"
                    source="naf">
-            <part>Evans, Alexander W. (Alexander William), 1868-1959</part>
+            <part localtype="agent_person">Evans, Alexander W. (Alexander William), 1868-1959</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="series">
+         <c altrender="/repositories/12/archival_objects/1195492"
+            id="ref10"
+            level="series">
             <did>
                <unittitle>Inventory</unittitle>
                <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
@@ -161,1426 +175,1824 @@
                   <unittype>Linear Feet</unittype>
                </physdescstructured>
                <physdesc localtype="container_summary">4 boxes</physdesc>
-               <unitdatestructured unitdatetype="inclusive" altrender="1931-1959">
+               <unitdatestructured altrender="1931-1959" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1931">1931</fromdate>
                      <todate standarddate="1959">1959</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1195493"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Correpondence</unittitle>
                </did>
-               <c id="ref13" level="file">
+               <c altrender="/repositories/12/archival_objects/1195494"
+                  id="ref13"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1931-1944">
+                     <unitdatestructured altrender="1931-1944" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1931">1931</fromdate>
                            <todate standarddate="1944">1944</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e279"
+                                encodinganalog="archive letter"
+                                id="aspace_ref13_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e281" localtype="folder" parent="d1e279">1</container>
+                     <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">1</container>
                   </did>
                </c>
-               <c id="ref14" level="file">
+               <c altrender="/repositories/12/archival_objects/1195495"
+                  id="ref14"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1945 January-February">
+                     <unitdatestructured altrender="1945 January-February"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1945-01">1945-01</fromdate>
-                           <todate standarddate="1945-02">1945-02</todate>
+                           <fromdate standarddate="1945-01">1945 January</fromdate>
+                           <todate standarddate="1945-02">1945 February</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e295"
+                                encodinganalog="archive letter"
+                                id="aspace_ref14_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e297" localtype="folder" parent="d1e295">2</container>
+                     <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">2</container>
                   </did>
                </c>
-               <c id="ref15" level="file">
+               <c altrender="/repositories/12/archival_objects/1195496"
+                  id="ref15"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1945 March-May">
+                     <unitdatestructured altrender="1945 March-May"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1945-03">1945-03</fromdate>
-                           <todate standarddate="1945-05">1945-05</todate>
+                           <fromdate standarddate="1945-03">1945 March</fromdate>
+                           <todate standarddate="1945-05">1945 May</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e311"
+                                encodinganalog="archive letter"
+                                id="aspace_ref15_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e313" localtype="folder" parent="d1e311">3</container>
+                     <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">3</container>
                   </did>
                </c>
-               <c id="ref16" level="file">
+               <c altrender="/repositories/12/archival_objects/1195497"
+                  id="ref16"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1945 June-August">
+                     <unitdatestructured altrender="1945 June-August"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1945-06">1945-06</fromdate>
-                           <todate standarddate="1945-08">1945-08</todate>
+                           <fromdate standarddate="1945-06">1945 June</fromdate>
+                           <todate standarddate="1945-08">1945 August</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e327"
+                                encodinganalog="archive letter"
+                                id="aspace_ref16_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e329" localtype="folder" parent="d1e327">4</container>
+                     <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">4</container>
                   </did>
                </c>
-               <c id="ref17" level="file">
+               <c altrender="/repositories/12/archival_objects/1195498"
+                  id="ref17"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1945 September">
+                     <unitdatestructured altrender="1945 September"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1945-09">1945 September</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e340"
+                                encodinganalog="archive letter"
+                                id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e342" localtype="folder" parent="d1e340">5</container>
+                     <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">5</container>
                   </did>
                </c>
-               <c id="ref18" level="file">
+               <c altrender="/repositories/12/archival_objects/1195499"
+                  id="ref18"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1945 October">
+                     <unitdatestructured altrender="1945 October" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1945-10">1945 October</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e353"
+                                encodinganalog="archive letter"
+                                id="aspace_ref18_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e355" localtype="folder" parent="d1e353">6</container>
+                     <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">6</container>
                   </did>
                </c>
-               <c id="ref19" level="file">
+               <c altrender="/repositories/12/archival_objects/1195500"
+                  id="ref19"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1945 November">
+                     <unitdatestructured altrender="1945 November" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1945-11">1945 November</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e366"
+                                encodinganalog="archive letter"
+                                id="aspace_ref19_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e368" localtype="folder" parent="d1e366">7</container>
+                     <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">7</container>
                   </did>
                </c>
-               <c id="ref20" level="file">
+               <c altrender="/repositories/12/archival_objects/1195501"
+                  id="ref20"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1945 December">
+                     <unitdatestructured altrender="1945 December" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1945-12">1945 December</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e379"
+                                encodinganalog="archive letter"
+                                id="aspace_ref20_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e381" localtype="folder" parent="d1e379">8</container>
+                     <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">8</container>
                   </did>
                </c>
-               <c id="ref21" level="file">
+               <c altrender="/repositories/12/archival_objects/1195502"
+                  id="ref21"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1946 January-February">
+                     <unitdatestructured altrender="1946 January-February"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1946-01">1946-01</fromdate>
-                           <todate standarddate="1946-02">1946-02</todate>
+                           <fromdate standarddate="1946-01">1946 January</fromdate>
+                           <todate standarddate="1946-02">1946 February</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e395"
+                                encodinganalog="archive letter"
+                                id="aspace_ref21_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e397" localtype="folder" parent="d1e395">9</container>
+                     <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">9</container>
                   </did>
                </c>
-               <c id="ref22" level="file">
+               <c altrender="/repositories/12/archival_objects/1195503"
+                  id="ref22"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1946 March-April">
+                     <unitdatestructured altrender="1946 March-April"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1946-03">1946-03</fromdate>
-                           <todate standarddate="1946-04">1946-04</todate>
+                           <fromdate standarddate="1946-03">1946 March</fromdate>
+                           <todate standarddate="1946-04">1946 April</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e411"
+                                encodinganalog="archive letter"
+                                id="aspace_ref22_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e413" localtype="folder" parent="d1e411">10</container>
+                     <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">10</container>
                   </did>
                </c>
-               <c id="ref23" level="file">
+               <c altrender="/repositories/12/archival_objects/1195504"
+                  id="ref23"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1946 May-July">
+                     <unitdatestructured altrender="1946 May-July" label="creation" unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1946-05">1946-05</fromdate>
-                           <todate standarddate="1946-07">1946-07</todate>
+                           <fromdate standarddate="1946-05">1946 May</fromdate>
+                           <todate standarddate="1946-07">1946 July</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e428"
+                                encodinganalog="archive letter"
+                                id="aspace_ref23_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e430" localtype="folder" parent="d1e428">11</container>
+                     <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">11</container>
                   </did>
                </c>
-               <c id="ref24" level="file">
+               <c altrender="/repositories/12/archival_objects/1195505"
+                  id="ref24"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1946 August-October">
+                     <unitdatestructured altrender="1946 August-October"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1946-08">1946-08</fromdate>
-                           <todate standarddate="1946-10">1946-10</todate>
+                           <fromdate standarddate="1946-08">1946 August</fromdate>
+                           <todate standarddate="1946-10">1946 October</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e444"
+                                encodinganalog="archive letter"
+                                id="aspace_ref24_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e446" localtype="folder" parent="d1e444">12</container>
+                     <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">12</container>
                   </did>
                </c>
-               <c id="ref25" level="file">
+               <c altrender="/repositories/12/archival_objects/1195506"
+                  id="ref25"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1946 November-December">
+                     <unitdatestructured altrender="1946 November-December"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1946-11">1946-11</fromdate>
-                           <todate standarddate="1946-12">1946-12</todate>
+                           <fromdate standarddate="1946-11">1946 November</fromdate>
+                           <todate standarddate="1946-12">1946 December</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e460"
+                                encodinganalog="archive letter"
+                                id="aspace_ref25_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e462" localtype="folder" parent="d1e460">13</container>
+                     <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">13</container>
                   </did>
                </c>
-               <c id="ref26" level="file">
+               <c altrender="/repositories/12/archival_objects/1195507"
+                  id="ref26"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947 January-February">
+                     <unitdatestructured altrender="1947 January-February"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1947-01">1947-01</fromdate>
-                           <todate standarddate="1947-02">1947-02</todate>
+                           <fromdate standarddate="1947-01">1947 January</fromdate>
+                           <todate standarddate="1947-02">1947 February</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e476"
+                                encodinganalog="archive letter"
+                                id="aspace_ref26_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e478" localtype="folder" parent="d1e476">14</container>
+                     <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">14</container>
                   </did>
                </c>
-               <c id="ref27" level="file">
+               <c altrender="/repositories/12/archival_objects/1195508"
+                  id="ref27"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947 March-April">
+                     <unitdatestructured altrender="1947 March-April"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1947-03">1947-03</fromdate>
-                           <todate standarddate="1947-04">1947-04</todate>
+                           <fromdate standarddate="1947-03">1947 March</fromdate>
+                           <todate standarddate="1947-04">1947 April</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e492"
+                                encodinganalog="archive letter"
+                                id="aspace_ref27_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e494" localtype="folder" parent="d1e492">15</container>
+                     <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">15</container>
                   </did>
                </c>
-               <c id="ref28" level="file">
+               <c altrender="/repositories/12/archival_objects/1195509"
+                  id="ref28"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947 May-June">
+                     <unitdatestructured altrender="1947 May-June" label="creation" unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1947-05">1947-05</fromdate>
-                           <todate standarddate="1947-06">1947-06</todate>
+                           <fromdate standarddate="1947-05">1947 May</fromdate>
+                           <todate standarddate="1947-06">1947 June</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e508"
+                                encodinganalog="archive letter"
+                                id="aspace_ref28_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e510" localtype="folder" parent="d1e508">16</container>
+                     <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">16</container>
                   </did>
                </c>
-               <c id="ref29" level="file">
+               <c altrender="/repositories/12/archival_objects/1195510"
+                  id="ref29"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947 July-September">
+                     <unitdatestructured altrender="1947 July-September"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1947-07">1947-07</fromdate>
-                           <todate standarddate="1947-09">1947-09</todate>
+                           <fromdate standarddate="1947-07">1947 July</fromdate>
+                           <todate standarddate="1947-09">1947 September</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e524"
+                                encodinganalog="archive letter"
+                                id="aspace_ref29_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e526" localtype="folder" parent="d1e524">17</container>
+                     <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">17</container>
                   </did>
                </c>
-               <c id="ref30" level="file">
+               <c altrender="/repositories/12/archival_objects/1195511"
+                  id="ref30"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947 October">
+                     <unitdatestructured altrender="1947 October" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1947-10">1947 October</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e537"
+                                encodinganalog="archive letter"
+                                id="aspace_ref30_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e539" localtype="folder" parent="d1e537">18</container>
+                     <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">18</container>
                   </did>
                </c>
-               <c id="ref31" level="file">
+               <c altrender="/repositories/12/archival_objects/1195512"
+                  id="ref31"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947 November">
+                     <unitdatestructured altrender="1947 November" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1947-11">1947 November</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e550"
+                                encodinganalog="archive letter"
+                                id="aspace_ref31_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e552" localtype="folder" parent="d1e550">19</container>
+                     <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">19</container>
                   </did>
                </c>
-               <c id="ref32" level="file">
+               <c altrender="/repositories/12/archival_objects/1195513"
+                  id="ref32"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1947 December">
+                     <unitdatestructured altrender="1947 December" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1947-12">1947 December</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e563"
+                                encodinganalog="archive letter"
+                                id="aspace_ref32_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e565" localtype="folder" parent="d1e563">20</container>
+                     <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">20</container>
                   </did>
                </c>
-               <c id="ref33" level="file">
+               <c altrender="/repositories/12/archival_objects/1195514"
+                  id="ref33"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1948 January-February">
+                     <unitdatestructured altrender="1948 January-February"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1948-01">1948-01</fromdate>
-                           <todate standarddate="1948-02">1948-02</todate>
+                           <fromdate standarddate="1948-01">1948 January</fromdate>
+                           <todate standarddate="1948-02">1948 February</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e579"
+                                encodinganalog="archive letter"
+                                id="aspace_ref33_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e581" localtype="folder" parent="d1e579">21</container>
+                     <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">21</container>
                   </did>
                </c>
-               <c id="ref34" level="file">
+               <c altrender="/repositories/12/archival_objects/1195515"
+                  id="ref34"
+                  level="file">
                   <did>
-                     <unitdate unitdatetype="inclusive">1948 March April</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">1948 March April</unitdate>
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e590"
+                                encodinganalog="archive letter"
+                                id="aspace_ref34_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e592" localtype="folder" parent="d1e590">22</container>
+                     <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">22</container>
                   </did>
                </c>
-               <c id="ref35" level="file">
+               <c altrender="/repositories/12/archival_objects/1195516"
+                  id="ref35"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1948 May">
+                     <unitdatestructured altrender="1948 May" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1948-05">1948 May</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e603"
+                                encodinganalog="archive letter"
+                                id="aspace_ref35_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e605" localtype="folder" parent="d1e603">23</container>
+                     <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">23</container>
                   </did>
                </c>
-               <c id="ref36" level="file">
+               <c altrender="/repositories/12/archival_objects/1195517"
+                  id="ref36"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1948 June-August">
+                     <unitdatestructured altrender="1948 June-August"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1948-06">1948-06</fromdate>
-                           <todate standarddate="1948-08">1948-08</todate>
+                           <fromdate standarddate="1948-06">1948 June</fromdate>
+                           <todate standarddate="1948-08">1948 August</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e619"
+                                encodinganalog="archive letter"
+                                id="aspace_ref36_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e621" localtype="folder" parent="d1e619">24</container>
+                     <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">24</container>
                   </did>
                </c>
-               <c id="ref37" level="file">
+               <c altrender="/repositories/12/archival_objects/1195518"
+                  id="ref37"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1948 September-October">
+                     <unitdatestructured altrender="1948 September-October"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1948-09">1948-09</fromdate>
-                           <todate standarddate="1948-10">1948-10</todate>
+                           <fromdate standarddate="1948-09">1948 September</fromdate>
+                           <todate standarddate="1948-10">1948 October</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e635"
+                                encodinganalog="archive letter"
+                                id="aspace_ref37_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e637" localtype="folder" parent="d1e635">25</container>
+                     <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">25</container>
                   </did>
                </c>
-               <c id="ref38" level="file">
+               <c altrender="/repositories/12/archival_objects/1195519"
+                  id="ref38"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1948 November">
+                     <unitdatestructured altrender="1948 November" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1948-11">1948 November</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e648"
+                                encodinganalog="archive letter"
+                                id="aspace_ref38_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e650" localtype="folder" parent="d1e648">26</container>
+                     <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">26</container>
                   </did>
                </c>
-               <c id="ref39" level="file">
+               <c altrender="/repositories/12/archival_objects/1195520"
+                  id="ref39"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1948 December">
+                     <unitdatestructured altrender="1948 December" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1948-12">1948 December</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133336 /locations/9"
                                 containerid="39002042316266"
-                                id="d1e661"
+                                encodinganalog="archive letter"
+                                id="aspace_ref39_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e663" localtype="folder" parent="d1e661">27</container>
+                     <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">27</container>
                   </did>
                </c>
-               <c id="ref40" level="file">
+               <c altrender="/repositories/12/archival_objects/1195521"
+                  id="ref40"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1949 January">
+                     <unitdatestructured altrender="1949 January" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1949-01">1949 January</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e674"
+                                encodinganalog="archive letter"
+                                id="aspace_ref40_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e676" localtype="folder" parent="d1e674">28</container>
+                     <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">28</container>
                   </did>
                </c>
-               <c id="ref41" level="file">
+               <c altrender="/repositories/12/archival_objects/1195522"
+                  id="ref41"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1949 February">
+                     <unitdatestructured altrender="1949 February" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1949-02">1949 February</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e687"
+                                encodinganalog="archive letter"
+                                id="aspace_ref41_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e689" localtype="folder" parent="d1e687">29</container>
+                     <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">29</container>
                   </did>
                </c>
-               <c id="ref42" level="file">
+               <c altrender="/repositories/12/archival_objects/1195523"
+                  id="ref42"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1949 March-April">
+                     <unitdatestructured altrender="1949 March-April"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1949-03">1949-03</fromdate>
-                           <todate standarddate="1949-04">1949-04</todate>
+                           <fromdate standarddate="1949-03">1949 March</fromdate>
+                           <todate standarddate="1949-04">1949 April</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e703"
+                                encodinganalog="archive letter"
+                                id="aspace_ref42_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e705" localtype="folder" parent="d1e703">30</container>
+                     <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">30</container>
                   </did>
                </c>
-               <c id="ref43" level="file">
+               <c altrender="/repositories/12/archival_objects/1195524"
+                  id="ref43"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1949 May-June">
+                     <unitdatestructured altrender="1949 May-June" label="creation" unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1949-05">1949-05</fromdate>
-                           <todate standarddate="1949-06">1949-06</todate>
+                           <fromdate standarddate="1949-05">1949 May</fromdate>
+                           <todate standarddate="1949-06">1949 June</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e719"
+                                encodinganalog="archive letter"
+                                id="aspace_ref43_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e721" localtype="folder" parent="d1e719">31</container>
+                     <container id="aspace_ref43_c2" localtype="folder" parent="aspace_ref43_c1">31</container>
                   </did>
                </c>
-               <c id="ref44" level="file">
+               <c altrender="/repositories/12/archival_objects/1195525"
+                  id="ref44"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1949 July-September">
+                     <unitdatestructured altrender="1949 July-September"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1949-07">1949-07</fromdate>
-                           <todate standarddate="1949-09">1949-09</todate>
+                           <fromdate standarddate="1949-07">1949 July</fromdate>
+                           <todate standarddate="1949-09">1949 September</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e735"
+                                encodinganalog="archive letter"
+                                id="aspace_ref44_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e737" localtype="folder" parent="d1e735">32</container>
+                     <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">32</container>
                   </did>
                </c>
-               <c id="ref45" level="file">
+               <c altrender="/repositories/12/archival_objects/1195526"
+                  id="ref45"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1949 October-December">
+                     <unitdatestructured altrender="1949 October-December"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1949-10">1949-10</fromdate>
-                           <todate standarddate="1949-12">1949-12</todate>
+                           <fromdate standarddate="1949-10">1949 October</fromdate>
+                           <todate standarddate="1949-12">1949 December</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e752"
+                                encodinganalog="archive letter"
+                                id="aspace_ref45_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e754" localtype="folder" parent="d1e752">33</container>
+                     <container id="aspace_ref45_c2" localtype="folder" parent="aspace_ref45_c1">33</container>
                   </did>
                </c>
-               <c id="ref46" level="file">
+               <c altrender="/repositories/12/archival_objects/1195527"
+                  id="ref46"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1950 January">
+                     <unitdatestructured altrender="1950 January" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1950-01">1950 January</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e765"
+                                encodinganalog="archive letter"
+                                id="aspace_ref46_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e767" localtype="folder" parent="d1e765">34</container>
+                     <container id="aspace_ref46_c2" localtype="folder" parent="aspace_ref46_c1">34</container>
                   </did>
                </c>
-               <c id="ref47" level="file">
+               <c altrender="/repositories/12/archival_objects/1195528"
+                  id="ref47"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1950 February">
+                     <unitdatestructured altrender="1950 February" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1950-02">1950 February</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e778"
+                                encodinganalog="archive letter"
+                                id="aspace_ref47_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e780" localtype="folder" parent="d1e778">35</container>
+                     <container id="aspace_ref47_c2" localtype="folder" parent="aspace_ref47_c1">35</container>
                   </did>
                </c>
-               <c id="ref48" level="file">
+               <c altrender="/repositories/12/archival_objects/1195529"
+                  id="ref48"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1950 March">
+                     <unitdatestructured altrender="1950 March" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1950-03">1950 March</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e791"
+                                encodinganalog="archive letter"
+                                id="aspace_ref48_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e793" localtype="folder" parent="d1e791">36</container>
+                     <container id="aspace_ref48_c2" localtype="folder" parent="aspace_ref48_c1">36</container>
                   </did>
                </c>
-               <c id="ref49" level="file">
+               <c altrender="/repositories/12/archival_objects/1195530"
+                  id="ref49"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1950 April">
+                     <unitdatestructured altrender="1950 April" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1950-04">1950 April</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e804"
+                                encodinganalog="archive letter"
+                                id="aspace_ref49_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e806" localtype="folder" parent="d1e804">37</container>
+                     <container id="aspace_ref49_c2" localtype="folder" parent="aspace_ref49_c1">37</container>
                   </did>
                </c>
-               <c id="ref50" level="file">
+               <c altrender="/repositories/12/archival_objects/1195531"
+                  id="ref50"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1950 May">
+                     <unitdatestructured altrender="1950 May" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1950-05">1950 May</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e817"
+                                encodinganalog="archive letter"
+                                id="aspace_ref50_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e819" localtype="folder" parent="d1e817">38</container>
+                     <container id="aspace_ref50_c2" localtype="folder" parent="aspace_ref50_c1">38</container>
                   </did>
                </c>
-               <c id="ref51" level="file">
+               <c altrender="/repositories/12/archival_objects/1195532"
+                  id="ref51"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1950 June">
+                     <unitdatestructured altrender="1950 June" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1950-06">1950 June</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e830"
+                                encodinganalog="archive letter"
+                                id="aspace_ref51_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e832" localtype="folder" parent="d1e830">39</container>
+                     <container id="aspace_ref51_c2" localtype="folder" parent="aspace_ref51_c1">39</container>
                   </did>
                </c>
-               <c id="ref52" level="file">
+               <c altrender="/repositories/12/archival_objects/1195533"
+                  id="ref52"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1950 July-August">
+                     <unitdatestructured altrender="1950 July-August"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1950-07">1950-07</fromdate>
-                           <todate standarddate="1950-08">1950-08</todate>
+                           <fromdate standarddate="1950-07">1950 July</fromdate>
+                           <todate standarddate="1950-08">1950 August</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e846"
+                                encodinganalog="archive letter"
+                                id="aspace_ref52_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e848" localtype="folder" parent="d1e846">40</container>
+                     <container id="aspace_ref52_c2" localtype="folder" parent="aspace_ref52_c1">40</container>
                   </did>
                </c>
-               <c id="ref53" level="file">
+               <c altrender="/repositories/12/archival_objects/1195534"
+                  id="ref53"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1950 September">
+                     <unitdatestructured altrender="1950 September"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1950-09">1950 September</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e859"
+                                encodinganalog="archive letter"
+                                id="aspace_ref53_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e861" localtype="folder" parent="d1e859">41</container>
+                     <container id="aspace_ref53_c2" localtype="folder" parent="aspace_ref53_c1">41</container>
                   </did>
                </c>
-               <c id="ref54" level="file">
+               <c altrender="/repositories/12/archival_objects/1195535"
+                  id="ref54"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1950 October">
+                     <unitdatestructured altrender="1950 October" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1950-10">1950 October</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e872"
+                                encodinganalog="archive letter"
+                                id="aspace_ref54_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e874" localtype="folder" parent="d1e872">42</container>
+                     <container id="aspace_ref54_c2" localtype="folder" parent="aspace_ref54_c1">42</container>
                   </did>
                </c>
-               <c id="ref55" level="file">
+               <c altrender="/repositories/12/archival_objects/1195536"
+                  id="ref55"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1950 November">
+                     <unitdatestructured altrender="1950 November" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1950-11">1950 November</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e885"
+                                encodinganalog="archive letter"
+                                id="aspace_ref55_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e887" localtype="folder" parent="d1e885">43</container>
+                     <container id="aspace_ref55_c2" localtype="folder" parent="aspace_ref55_c1">43</container>
                   </did>
                </c>
-               <c id="ref56" level="file">
+               <c altrender="/repositories/12/archival_objects/1195537"
+                  id="ref56"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1950 December">
+                     <unitdatestructured altrender="1950 December" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1950-12">1950 December</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e899"
+                                encodinganalog="archive letter"
+                                id="aspace_ref56_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e901" localtype="folder" parent="d1e899">44</container>
+                     <container id="aspace_ref56_c2" localtype="folder" parent="aspace_ref56_c1">44</container>
                   </did>
                </c>
-               <c id="ref57" level="file">
+               <c altrender="/repositories/12/archival_objects/1195538"
+                  id="ref57"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1951 January">
+                     <unitdatestructured altrender="1951 January" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1951-01">1951 January</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e912"
+                                encodinganalog="archive letter"
+                                id="aspace_ref57_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e914" localtype="folder" parent="d1e912">45</container>
+                     <container id="aspace_ref57_c2" localtype="folder" parent="aspace_ref57_c1">45</container>
                   </did>
                </c>
-               <c id="ref58" level="file">
+               <c altrender="/repositories/12/archival_objects/1195539"
+                  id="ref58"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1951 February">
+                     <unitdatestructured altrender="1951 February" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1951-02">1951 February</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e925"
+                                encodinganalog="archive letter"
+                                id="aspace_ref58_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e927" localtype="folder" parent="d1e925">46</container>
+                     <container id="aspace_ref58_c2" localtype="folder" parent="aspace_ref58_c1">46</container>
                   </did>
                </c>
-               <c id="ref59" level="file">
+               <c altrender="/repositories/12/archival_objects/1195540"
+                  id="ref59"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1951 March-April">
+                     <unitdatestructured altrender="1951 March-April"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1951-03">1951-03</fromdate>
-                           <todate standarddate="1951-04">1951-04</todate>
+                           <fromdate standarddate="1951-03">1951 March</fromdate>
+                           <todate standarddate="1951-04">1951 April</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e941"
+                                encodinganalog="archive letter"
+                                id="aspace_ref59_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e943" localtype="folder" parent="d1e941">47</container>
+                     <container id="aspace_ref59_c2" localtype="folder" parent="aspace_ref59_c1">47</container>
                   </did>
                </c>
-               <c id="ref60" level="file">
+               <c altrender="/repositories/12/archival_objects/1195541"
+                  id="ref60"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1951 May-June">
+                     <unitdatestructured altrender="1951 May-June" label="creation" unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1951-05">1951-05</fromdate>
-                           <todate standarddate="1951-06">1951-06</todate>
+                           <fromdate standarddate="1951-05">1951 May</fromdate>
+                           <todate standarddate="1951-06">1951 June</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e957"
+                                encodinganalog="archive letter"
+                                id="aspace_ref60_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e959" localtype="folder" parent="d1e957">48</container>
+                     <container id="aspace_ref60_c2" localtype="folder" parent="aspace_ref60_c1">48</container>
                   </did>
                </c>
-               <c id="ref61" level="file">
+               <c altrender="/repositories/12/archival_objects/1195542"
+                  id="ref61"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1951 July-September">
+                     <unitdatestructured altrender="1951 July-September"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1951-07">1951-07</fromdate>
-                           <todate standarddate="1951-09">1951-09</todate>
+                           <fromdate standarddate="1951-07">1951 July</fromdate>
+                           <todate standarddate="1951-09">1951 September</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e973"
+                                encodinganalog="archive letter"
+                                id="aspace_ref61_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e975" localtype="folder" parent="d1e973">49</container>
+                     <container id="aspace_ref61_c2" localtype="folder" parent="aspace_ref61_c1">49</container>
                   </did>
                </c>
-               <c id="ref62" level="file">
+               <c altrender="/repositories/12/archival_objects/1195543"
+                  id="ref62"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1951 October">
+                     <unitdatestructured altrender="1951 October" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1951-10">1951 October</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e986"
+                                encodinganalog="archive letter"
+                                id="aspace_ref62_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e988" localtype="folder" parent="d1e986">50</container>
+                     <container id="aspace_ref62_c2" localtype="folder" parent="aspace_ref62_c1">50</container>
                   </did>
                </c>
-               <c id="ref63" level="file">
+               <c altrender="/repositories/12/archival_objects/1195544"
+                  id="ref63"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1951 November">
+                     <unitdatestructured altrender="1951 November" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1951-11">1951 November</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e999"
+                                encodinganalog="archive letter"
+                                id="aspace_ref63_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e1001" localtype="folder" parent="d1e999">51</container>
+                     <container id="aspace_ref63_c2" localtype="folder" parent="aspace_ref63_c1">51</container>
                   </did>
                </c>
-               <c id="ref64" level="file">
+               <c altrender="/repositories/12/archival_objects/1195545"
+                  id="ref64"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1951 December">
+                     <unitdatestructured altrender="1951 December" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1951-12">1951 December</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133337 /locations/9"
                                 containerid="39002042316274"
-                                id="d1e1012"
+                                encodinganalog="archive letter"
+                                id="aspace_ref64_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
-                     <container id="d1e1014" localtype="folder" parent="d1e1012">52</container>
+                     <container id="aspace_ref64_c2" localtype="folder" parent="aspace_ref64_c1">52</container>
                   </did>
                </c>
-               <c id="ref65" level="file">
+               <c altrender="/repositories/12/archival_objects/1195546"
+                  id="ref65"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1952 January">
+                     <unitdatestructured altrender="1952 January" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1952-01">1952 January</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1025"
+                                encodinganalog="archive letter"
+                                id="aspace_ref65_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1027" localtype="folder" parent="d1e1025">53</container>
+                     <container id="aspace_ref65_c2" localtype="folder" parent="aspace_ref65_c1">53</container>
                   </did>
                </c>
-               <c id="ref66" level="file">
+               <c altrender="/repositories/12/archival_objects/1195547"
+                  id="ref66"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1952 February-March">
+                     <unitdatestructured altrender="1952 February-March"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1952-02">1952-02</fromdate>
-                           <todate standarddate="1952-03">1952-03</todate>
+                           <fromdate standarddate="1952-02">1952 February</fromdate>
+                           <todate standarddate="1952-03">1952 March</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1041"
+                                encodinganalog="archive letter"
+                                id="aspace_ref66_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1043" localtype="folder" parent="d1e1041">54</container>
+                     <container id="aspace_ref66_c2" localtype="folder" parent="aspace_ref66_c1">54</container>
                   </did>
                </c>
-               <c id="ref67" level="file">
+               <c altrender="/repositories/12/archival_objects/1195548"
+                  id="ref67"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1952 April-May">
+                     <unitdatestructured altrender="1952 April-May"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1952-04">1952-04</fromdate>
-                           <todate standarddate="1952-05">1952-05</todate>
+                           <fromdate standarddate="1952-04">1952 April</fromdate>
+                           <todate standarddate="1952-05">1952 May</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1058"
+                                encodinganalog="archive letter"
+                                id="aspace_ref67_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1060" localtype="folder" parent="d1e1058">55</container>
+                     <container id="aspace_ref67_c2" localtype="folder" parent="aspace_ref67_c1">55</container>
                   </did>
                </c>
-               <c id="ref68" level="file">
+               <c altrender="/repositories/12/archival_objects/1195549"
+                  id="ref68"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1952 June-July">
+                     <unitdatestructured altrender="1952 June-July"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1952-06">1952-06</fromdate>
-                           <todate standarddate="1952-07">1952-07</todate>
+                           <fromdate standarddate="1952-06">1952 June</fromdate>
+                           <todate standarddate="1952-07">1952 July</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1074"
+                                encodinganalog="archive letter"
+                                id="aspace_ref68_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1076" localtype="folder" parent="d1e1074">56</container>
+                     <container id="aspace_ref68_c2" localtype="folder" parent="aspace_ref68_c1">56</container>
                   </did>
                </c>
-               <c id="ref69" level="file">
+               <c altrender="/repositories/12/archival_objects/1195550"
+                  id="ref69"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1952 August">
+                     <unitdatestructured altrender="1952 August" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1952-08">1952 August</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1087"
+                                encodinganalog="archive letter"
+                                id="aspace_ref69_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1089" localtype="folder" parent="d1e1087">57</container>
+                     <container id="aspace_ref69_c2" localtype="folder" parent="aspace_ref69_c1">57</container>
                   </did>
                </c>
-               <c id="ref70" level="file">
+               <c altrender="/repositories/12/archival_objects/1195551"
+                  id="ref70"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1952 September">
+                     <unitdatestructured altrender="1952 September"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1952-09">1952 September</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1100"
+                                encodinganalog="archive letter"
+                                id="aspace_ref70_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1102" localtype="folder" parent="d1e1100">58</container>
+                     <container id="aspace_ref70_c2" localtype="folder" parent="aspace_ref70_c1">58</container>
                   </did>
                </c>
-               <c id="ref71" level="file">
+               <c altrender="/repositories/12/archival_objects/1195552"
+                  id="ref71"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1952 October">
+                     <unitdatestructured altrender="1952 October" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1952-10">1952 October</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1113"
+                                encodinganalog="archive letter"
+                                id="aspace_ref71_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1115" localtype="folder" parent="d1e1113">59</container>
+                     <container id="aspace_ref71_c2" localtype="folder" parent="aspace_ref71_c1">59</container>
                   </did>
                </c>
-               <c id="ref72" level="file">
+               <c altrender="/repositories/12/archival_objects/1195553"
+                  id="ref72"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1952 November-December">
+                     <unitdatestructured altrender="1952 November-December"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1952-11">1952-11</fromdate>
-                           <todate standarddate="1952-12">1952-12</todate>
+                           <fromdate standarddate="1952-11">1952 November</fromdate>
+                           <todate standarddate="1952-12">1952 December</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1129"
+                                encodinganalog="archive letter"
+                                id="aspace_ref72_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1131" localtype="folder" parent="d1e1129">60</container>
+                     <container id="aspace_ref72_c2" localtype="folder" parent="aspace_ref72_c1">60</container>
                   </did>
                </c>
-               <c id="ref73" level="file">
+               <c altrender="/repositories/12/archival_objects/1195554"
+                  id="ref73"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1953 January-February">
+                     <unitdatestructured altrender="1953 January-February"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1953-01">1953-01</fromdate>
-                           <todate standarddate="1953-02">1953-02</todate>
+                           <fromdate standarddate="1953-01">1953 January</fromdate>
+                           <todate standarddate="1953-02">1953 February</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1145"
+                                encodinganalog="archive letter"
+                                id="aspace_ref73_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1147" localtype="folder" parent="d1e1145">61</container>
+                     <container id="aspace_ref73_c2" localtype="folder" parent="aspace_ref73_c1">61</container>
                   </did>
                </c>
-               <c id="ref74" level="file">
+               <c altrender="/repositories/12/archival_objects/1195555"
+                  id="ref74"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1953 March-May">
+                     <unitdatestructured altrender="1953 March-May"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1953-03">1953-03</fromdate>
-                           <todate standarddate="1953-05">1953-05</todate>
+                           <fromdate standarddate="1953-03">1953 March</fromdate>
+                           <todate standarddate="1953-05">1953 May</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1161"
+                                encodinganalog="archive letter"
+                                id="aspace_ref74_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1163" localtype="folder" parent="d1e1161">62</container>
+                     <container id="aspace_ref74_c2" localtype="folder" parent="aspace_ref74_c1">62</container>
                   </did>
                </c>
-               <c id="ref75" level="file">
+               <c altrender="/repositories/12/archival_objects/1195556"
+                  id="ref75"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1953 June-July">
+                     <unitdatestructured altrender="1953 June-July"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1953-06">1953-06</fromdate>
-                           <todate standarddate="1953-07">1953-07</todate>
+                           <fromdate standarddate="1953-06">1953 June</fromdate>
+                           <todate standarddate="1953-07">1953 July</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1177"
+                                encodinganalog="archive letter"
+                                id="aspace_ref75_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1179" localtype="folder" parent="d1e1177">63</container>
+                     <container id="aspace_ref75_c2" localtype="folder" parent="aspace_ref75_c1">63</container>
                   </did>
                </c>
-               <c id="ref76" level="file">
+               <c altrender="/repositories/12/archival_objects/1195557"
+                  id="ref76"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1953 August-September">
+                     <unitdatestructured altrender="1953 August-September"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1953-08">1953-08</fromdate>
-                           <todate standarddate="1953-09">1953-09</todate>
+                           <fromdate standarddate="1953-08">1953 August</fromdate>
+                           <todate standarddate="1953-09">1953 September</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1193"
+                                encodinganalog="archive letter"
+                                id="aspace_ref76_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1195" localtype="folder" parent="d1e1193">64</container>
+                     <container id="aspace_ref76_c2" localtype="folder" parent="aspace_ref76_c1">64</container>
                   </did>
                </c>
-               <c id="ref77" level="file">
+               <c altrender="/repositories/12/archival_objects/1195558"
+                  id="ref77"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1953 October-December">
+                     <unitdatestructured altrender="1953 October-December"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1953-10">1953-10</fromdate>
-                           <todate standarddate="1953-12">1953-12</todate>
+                           <fromdate standarddate="1953-10">1953 October</fromdate>
+                           <todate standarddate="1953-12">1953 December</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1209"
+                                encodinganalog="archive letter"
+                                id="aspace_ref77_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1211" localtype="folder" parent="d1e1209">65</container>
+                     <container id="aspace_ref77_c2" localtype="folder" parent="aspace_ref77_c1">65</container>
                   </did>
                </c>
-               <c id="ref78" level="file">
+               <c altrender="/repositories/12/archival_objects/1195559"
+                  id="ref78"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1954 January-February">
+                     <unitdatestructured altrender="1954 January-February"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1954-01">1954-01</fromdate>
-                           <todate standarddate="1954-02">1954-02</todate>
+                           <fromdate standarddate="1954-01">1954 January</fromdate>
+                           <todate standarddate="1954-02">1954 February</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1226"
+                                encodinganalog="archive letter"
+                                id="aspace_ref78_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1228" localtype="folder" parent="d1e1226">66</container>
+                     <container id="aspace_ref78_c2" localtype="folder" parent="aspace_ref78_c1">66</container>
                   </did>
                </c>
-               <c id="ref79" level="file">
+               <c altrender="/repositories/12/archival_objects/1195560"
+                  id="ref79"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1954 March">
+                     <unitdatestructured altrender="1954 March" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1954-03">1954 March</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1239"
+                                encodinganalog="archive letter"
+                                id="aspace_ref79_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1241" localtype="folder" parent="d1e1239">67</container>
+                     <container id="aspace_ref79_c2" localtype="folder" parent="aspace_ref79_c1">67</container>
                   </did>
                </c>
-               <c id="ref80" level="file">
+               <c altrender="/repositories/12/archival_objects/1195561"
+                  id="ref80"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1954 April-May">
+                     <unitdatestructured altrender="1954 April-May"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1954-04">1954-04</fromdate>
-                           <todate standarddate="1954-05">1954-05</todate>
+                           <fromdate standarddate="1954-04">1954 April</fromdate>
+                           <todate standarddate="1954-05">1954 May</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1255"
+                                encodinganalog="archive letter"
+                                id="aspace_ref80_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1257" localtype="folder" parent="d1e1255">68</container>
+                     <container id="aspace_ref80_c2" localtype="folder" parent="aspace_ref80_c1">68</container>
                   </did>
                </c>
-               <c id="ref81" level="file">
+               <c altrender="/repositories/12/archival_objects/1195562"
+                  id="ref81"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1954 June-July">
+                     <unitdatestructured altrender="1954 June-July"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1954-06">1954-06</fromdate>
-                           <todate standarddate="1954-07">1954-07</todate>
+                           <fromdate standarddate="1954-06">1954 June</fromdate>
+                           <todate standarddate="1954-07">1954 July</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1271"
+                                encodinganalog="archive letter"
+                                id="aspace_ref81_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1273" localtype="folder" parent="d1e1271">69</container>
+                     <container id="aspace_ref81_c2" localtype="folder" parent="aspace_ref81_c1">69</container>
                   </did>
                </c>
-               <c id="ref82" level="file">
+               <c altrender="/repositories/12/archival_objects/1195563"
+                  id="ref82"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1954 August-October">
+                     <unitdatestructured altrender="1954 August-October"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1954-08">1954-08</fromdate>
-                           <todate standarddate="1954-10">1954-10</todate>
+                           <fromdate standarddate="1954-08">1954 August</fromdate>
+                           <todate standarddate="1954-10">1954 October</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1287"
+                                encodinganalog="archive letter"
+                                id="aspace_ref82_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1289" localtype="folder" parent="d1e1287">70</container>
+                     <container id="aspace_ref82_c2" localtype="folder" parent="aspace_ref82_c1">70</container>
                   </did>
                </c>
-               <c id="ref83" level="file">
+               <c altrender="/repositories/12/archival_objects/1195564"
+                  id="ref83"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1954 November">
+                     <unitdatestructured altrender="1954 November" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1954-11">1954 November</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1300"
+                                encodinganalog="archive letter"
+                                id="aspace_ref83_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1302" localtype="folder" parent="d1e1300">71</container>
+                     <container id="aspace_ref83_c2" localtype="folder" parent="aspace_ref83_c1">71</container>
                   </did>
                </c>
-               <c id="ref84" level="file">
+               <c altrender="/repositories/12/archival_objects/1195565"
+                  id="ref84"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1954 December">
+                     <unitdatestructured altrender="1954 December" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1954-12">1954 December</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1313"
+                                encodinganalog="archive letter"
+                                id="aspace_ref84_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1315" localtype="folder" parent="d1e1313">72</container>
+                     <container id="aspace_ref84_c2" localtype="folder" parent="aspace_ref84_c1">72</container>
                   </did>
                </c>
-               <c id="ref85" level="file">
+               <c altrender="/repositories/12/archival_objects/1195566"
+                  id="ref85"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1955 January">
+                     <unitdatestructured altrender="1955 January" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1955-01">1955 January</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1326"
+                                encodinganalog="archive letter"
+                                id="aspace_ref85_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1328" localtype="folder" parent="d1e1326">73</container>
+                     <container id="aspace_ref85_c2" localtype="folder" parent="aspace_ref85_c1">73</container>
                   </did>
                </c>
-               <c id="ref86" level="file">
+               <c altrender="/repositories/12/archival_objects/1195567"
+                  id="ref86"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1955 February">
+                     <unitdatestructured altrender="1955 February" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1955-02">1955 February</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1339"
+                                encodinganalog="archive letter"
+                                id="aspace_ref86_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1341" localtype="folder" parent="d1e1339">74</container>
+                     <container id="aspace_ref86_c2" localtype="folder" parent="aspace_ref86_c1">74</container>
                   </did>
                </c>
-               <c id="ref87" level="file">
+               <c altrender="/repositories/12/archival_objects/1195568"
+                  id="ref87"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1955 March">
+                     <unitdatestructured altrender="1955 March" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1955-03">1955 March</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1352"
+                                encodinganalog="archive letter"
+                                id="aspace_ref87_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1354" localtype="folder" parent="d1e1352">75</container>
+                     <container id="aspace_ref87_c2" localtype="folder" parent="aspace_ref87_c1">75</container>
                   </did>
                </c>
-               <c id="ref88" level="file">
+               <c altrender="/repositories/12/archival_objects/1195569"
+                  id="ref88"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1955 April">
+                     <unitdatestructured altrender="1955 April" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1955-04">1955 April</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1365"
+                                encodinganalog="archive letter"
+                                id="aspace_ref88_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1367" localtype="folder" parent="d1e1365">76</container>
+                     <container id="aspace_ref88_c2" localtype="folder" parent="aspace_ref88_c1">76</container>
                   </did>
                </c>
-               <c id="ref89" level="file">
+               <c altrender="/repositories/12/archival_objects/1195570"
+                  id="ref89"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1955 May-June">
+                     <unitdatestructured altrender="1955 May-June" label="creation" unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1955-05">1955-05</fromdate>
-                           <todate standarddate="1955-06">1955-06</todate>
+                           <fromdate standarddate="1955-05">1955 May</fromdate>
+                           <todate standarddate="1955-06">1955 June</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1382"
+                                encodinganalog="archive letter"
+                                id="aspace_ref89_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1384" localtype="folder" parent="d1e1382">77</container>
+                     <container id="aspace_ref89_c2" localtype="folder" parent="aspace_ref89_c1">77</container>
                   </did>
                </c>
-               <c id="ref90" level="file">
+               <c altrender="/repositories/12/archival_objects/1195571"
+                  id="ref90"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1955 July-September">
+                     <unitdatestructured altrender="1955 July-September"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1955-07">1955-07</fromdate>
-                           <todate standarddate="1955-09">1955-09</todate>
+                           <fromdate standarddate="1955-07">1955 July</fromdate>
+                           <todate standarddate="1955-09">1955 September</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1398"
+                                encodinganalog="archive letter"
+                                id="aspace_ref90_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1400" localtype="folder" parent="d1e1398">78</container>
+                     <container id="aspace_ref90_c2" localtype="folder" parent="aspace_ref90_c1">78</container>
                   </did>
                </c>
-               <c id="ref91" level="file">
+               <c altrender="/repositories/12/archival_objects/1195572"
+                  id="ref91"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1955 October-November">
+                     <unitdatestructured altrender="1955 October-November"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1955-10">1955-10</fromdate>
-                           <todate standarddate="1955-11">1955-11</todate>
+                           <fromdate standarddate="1955-10">1955 October</fromdate>
+                           <todate standarddate="1955-11">1955 November</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1414"
+                                encodinganalog="archive letter"
+                                id="aspace_ref91_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1416" localtype="folder" parent="d1e1414">79</container>
+                     <container id="aspace_ref91_c2" localtype="folder" parent="aspace_ref91_c1">79</container>
                   </did>
                </c>
-               <c id="ref92" level="file">
+               <c altrender="/repositories/12/archival_objects/1195573"
+                  id="ref92"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1955 December">
+                     <unitdatestructured altrender="1955 December" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1955-12">1955 December</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/133338 /locations/9"
                                 containerid="39002042316282"
-                                id="d1e1427"
+                                encodinganalog="archive letter"
+                                id="aspace_ref92_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
-                     <container id="d1e1429" localtype="folder" parent="d1e1427">80</container>
+                     <container id="aspace_ref92_c2" localtype="folder" parent="aspace_ref92_c1">80</container>
                   </did>
                </c>
-               <c id="ref93" level="file">
+               <c altrender="/repositories/12/archival_objects/1195574"
+                  id="ref93"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1956 January-February">
+                     <unitdatestructured altrender="1956 January-February"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1956-01">1956-01</fromdate>
-                           <todate standarddate="1956-02">1956-02</todate>
+                           <fromdate standarddate="1956-01">1956 January</fromdate>
+                           <todate standarddate="1956-02">1956 February</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1443"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref93_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1445" localtype="folder" parent="d1e1443">81</container>
+                     <container id="aspace_ref93_c2" localtype="folder" parent="aspace_ref93_c1">81</container>
                   </did>
                </c>
-               <c id="ref94" level="file">
+               <c altrender="/repositories/12/archival_objects/1195575"
+                  id="ref94"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1956 March-April">
+                     <unitdatestructured altrender="1956 March-April"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1956-03">1956-03</fromdate>
-                           <todate standarddate="1956-04">1956-04</todate>
+                           <fromdate standarddate="1956-03">1956 March</fromdate>
+                           <todate standarddate="1956-04">1956 April</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1459"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref94_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1461" localtype="folder" parent="d1e1459">82</container>
+                     <container id="aspace_ref94_c2" localtype="folder" parent="aspace_ref94_c1">82</container>
                   </did>
                </c>
-               <c id="ref95" level="file">
+               <c altrender="/repositories/12/archival_objects/1195576"
+                  id="ref95"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1956 May">
+                     <unitdatestructured altrender="1956 May" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1956-05">1956 May</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1472"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref95_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1474" localtype="folder" parent="d1e1472">83</container>
+                     <container id="aspace_ref95_c2" localtype="folder" parent="aspace_ref95_c1">83</container>
                   </did>
                </c>
-               <c id="ref96" level="file">
+               <c altrender="/repositories/12/archival_objects/1195577"
+                  id="ref96"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1956 June-July">
+                     <unitdatestructured altrender="1956 June-July"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1956-06">1956-06</fromdate>
-                           <todate standarddate="1956-07">1956-07</todate>
+                           <fromdate standarddate="1956-06">1956 June</fromdate>
+                           <todate standarddate="1956-07">1956 July</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1488"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref96_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1490" localtype="folder" parent="d1e1488">84</container>
+                     <container id="aspace_ref96_c2" localtype="folder" parent="aspace_ref96_c1">84</container>
                   </did>
                </c>
-               <c id="ref97" level="file">
+               <c altrender="/repositories/12/archival_objects/1195578"
+                  id="ref97"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1956 August-September">
+                     <unitdatestructured altrender="1956 August-September"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1956-08">1956-08</fromdate>
-                           <todate standarddate="1956-09">1956-09</todate>
+                           <fromdate standarddate="1956-08">1956 August</fromdate>
+                           <todate standarddate="1956-09">1956 September</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1504"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref97_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1506" localtype="folder" parent="d1e1504">85</container>
+                     <container id="aspace_ref97_c2" localtype="folder" parent="aspace_ref97_c1">85</container>
                   </did>
                </c>
-               <c id="ref98" level="file">
+               <c altrender="/repositories/12/archival_objects/1195579"
+                  id="ref98"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1956 October">
+                     <unitdatestructured altrender="1956 October" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1956-10">1956 October</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1517"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref98_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1519" localtype="folder" parent="d1e1517">86</container>
+                     <container id="aspace_ref98_c2" localtype="folder" parent="aspace_ref98_c1">86</container>
                   </did>
                </c>
-               <c id="ref99" level="file">
+               <c altrender="/repositories/12/archival_objects/1195580"
+                  id="ref99"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1956 November-December">
+                     <unitdatestructured altrender="1956 November-December"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1956-11">1956-11</fromdate>
-                           <todate standarddate="1956-12">1956-12</todate>
+                           <fromdate standarddate="1956-11">1956 November</fromdate>
+                           <todate standarddate="1956-12">1956 December</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1533"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref99_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1535" localtype="folder" parent="d1e1533">87</container>
+                     <container id="aspace_ref99_c2" localtype="folder" parent="aspace_ref99_c1">87</container>
                   </did>
                </c>
-               <c id="ref100" level="file">
+               <c altrender="/repositories/12/archival_objects/1195581"
+                  id="ref100"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1957 January">
+                     <unitdatestructured altrender="1957 January" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1957-01">1957 January</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1547"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref100_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1549" localtype="folder" parent="d1e1547">88</container>
+                     <container id="aspace_ref100_c2" localtype="folder" parent="aspace_ref100_c1">88</container>
                   </did>
                </c>
-               <c id="ref101" level="file">
+               <c altrender="/repositories/12/archival_objects/1195582"
+                  id="ref101"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1957 February-March">
+                     <unitdatestructured altrender="1957 February-March"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1957-02">1957-02</fromdate>
-                           <todate standarddate="1957-03">1957-03</todate>
+                           <fromdate standarddate="1957-02">1957 February</fromdate>
+                           <todate standarddate="1957-03">1957 March</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1563"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref101_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1565" localtype="folder" parent="d1e1563">89</container>
+                     <container id="aspace_ref101_c2" localtype="folder" parent="aspace_ref101_c1">89</container>
                   </did>
                </c>
-               <c id="ref102" level="file">
+               <c altrender="/repositories/12/archival_objects/1195583"
+                  id="ref102"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1957 April-May">
+                     <unitdatestructured altrender="1957 April-May"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1957-04">1957-04</fromdate>
-                           <todate standarddate="1957-05">1957-05</todate>
+                           <fromdate standarddate="1957-04">1957 April</fromdate>
+                           <todate standarddate="1957-05">1957 May</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1579"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref102_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1581" localtype="folder" parent="d1e1579">90</container>
+                     <container id="aspace_ref102_c2" localtype="folder" parent="aspace_ref102_c1">90</container>
                   </did>
                </c>
-               <c id="ref103" level="file">
+               <c altrender="/repositories/12/archival_objects/1195584"
+                  id="ref103"
+                  level="file">
                   <did>
-                     <unitdate unitdatetype="inclusive">1957 June August</unitdate>
-                     <container altrender="archive half letter"
+                     <unitdate label="creation" unitdatetype="inclusive">1957 June August</unitdate>
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1589"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref103_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1591" localtype="folder" parent="d1e1589">91</container>
+                     <container id="aspace_ref103_c2" localtype="folder" parent="aspace_ref103_c1">91</container>
                   </did>
                </c>
-               <c id="ref104" level="file">
+               <c altrender="/repositories/12/archival_objects/1195585"
+                  id="ref104"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1957 September-October">
+                     <unitdatestructured altrender="1957 September-October"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1957-09">1957-09</fromdate>
-                           <todate standarddate="1957-10">1957-10</todate>
+                           <fromdate standarddate="1957-09">1957 September</fromdate>
+                           <todate standarddate="1957-10">1957 October</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1605"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref104_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1607" localtype="folder" parent="d1e1605">92</container>
+                     <container id="aspace_ref104_c2" localtype="folder" parent="aspace_ref104_c1">92</container>
                   </did>
                </c>
-               <c id="ref105" level="file">
+               <c altrender="/repositories/12/archival_objects/1195586"
+                  id="ref105"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1957 November-December">
+                     <unitdatestructured altrender="1957 November-December"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1957-11">1957-11</fromdate>
-                           <todate standarddate="1957-12">1957-12</todate>
+                           <fromdate standarddate="1957-11">1957 November</fromdate>
+                           <todate standarddate="1957-12">1957 December</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1621"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref105_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1623" localtype="folder" parent="d1e1621">93</container>
+                     <container id="aspace_ref105_c2" localtype="folder" parent="aspace_ref105_c1">93</container>
                   </did>
                </c>
-               <c id="ref106" level="file">
+               <c altrender="/repositories/12/archival_objects/1195587"
+                  id="ref106"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1958 January-April">
+                     <unitdatestructured altrender="1958 January-April"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1958-01">1958-01</fromdate>
-                           <todate standarddate="1958-04">1958-04</todate>
+                           <fromdate standarddate="1958-01">1958 January</fromdate>
+                           <todate standarddate="1958-04">1958 April</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1637"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref106_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1639" localtype="folder" parent="d1e1637">94</container>
+                     <container id="aspace_ref106_c2" localtype="folder" parent="aspace_ref106_c1">94</container>
                   </did>
                </c>
-               <c id="ref107" level="file">
+               <c altrender="/repositories/12/archival_objects/1195588"
+                  id="ref107"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1958 May-December">
+                     <unitdatestructured altrender="1958 May-December"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1958-05">1958-05</fromdate>
-                           <todate standarddate="1958-12">1958-12</todate>
+                           <fromdate standarddate="1958-05">1958 May</fromdate>
+                           <todate standarddate="1958-12">1958 December</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1653"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref107_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1655" localtype="folder" parent="d1e1653">95</container>
+                     <container id="aspace_ref107_c2" localtype="folder" parent="aspace_ref107_c1">95</container>
                   </did>
                </c>
-               <c id="ref108" level="file">
+               <c altrender="/repositories/12/archival_objects/1195589"
+                  id="ref108"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1959 January-June">
+                     <unitdatestructured altrender="1959 January-June"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1959-01">1959-01</fromdate>
-                           <todate standarddate="1959-06">1959-06</todate>
+                           <fromdate standarddate="1959-01">1959 January</fromdate>
+                           <todate standarddate="1959-06">1959 June</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half letter"
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1669"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref108_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1671" localtype="folder" parent="d1e1669">96</container>
+                     <container id="aspace_ref108_c2" localtype="folder" parent="aspace_ref108_c1">96</container>
                   </did>
                </c>
-               <c id="ref109" level="file">
+               <c altrender="/repositories/12/archival_objects/1195590"
+                  id="ref109"
+                  level="file">
                   <did>
-                     <unitdate unitdatetype="inclusive">1959 July-Oct, undated</unitdate>
-                     <container altrender="archive half letter"
+                     <unitdatestructured altrender="1959 July-Oct, undated"
+                                         label="creation"
+                                         unitdatetype="inclusive">
+                        <daterange>
+                           <fromdate standarddate="1959-07">1959 July</fromdate>
+                           <todate standarddate="1959-10">1959 October</todate>
+                        </daterange>
+                     </unitdatestructured>
+                     <container altrender="/repositories/12/top_containers/133339 /locations/9"
                                 containerid="39002042316290"
-                                id="d1e1679"
+                                encodinganalog="archive half letter"
+                                id="aspace_ref109_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
-                     <container id="d1e1681" localtype="folder" parent="d1e1679">97</container>
+                     <container id="aspace_ref109_c2" localtype="folder" parent="aspace_ref109_c1">97</container>
                   </did>
                </c>
             </c>

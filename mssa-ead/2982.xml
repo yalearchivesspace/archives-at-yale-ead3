@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0528">mssa.ms.0528</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0528">mssa.ms.0528</recordid>
+      <otherrecordid localtype="BIB">614126</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Preliminary Guide to the Alexander Maclaren Witherspoon Papers
@@ -32,6 +34,11 @@
             <date>June 1980</date>
             <num>MS 528</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:33:44+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:21:01+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:33</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:21</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2982" level="collection">
       <did>
          <unittitle>Alexander Maclaren Witherspoon papers</unittitle>
          <unitid>MS 528</unitid>
@@ -82,34 +92,33 @@
             <quantity>31</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1916-1964">
+         <unitdatestructured altrender="1916-1964" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1916">1916</fromdate>
                <todate standarddate="1964">1964</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_3af2696d34d99f9811d87c020461f981">Lectures, notes, subject files, exams, and correspondence from Witherspoon's teaching career at Yale University. Also included are correspondence and manuscripts of Albert Hampton Barclay.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n83210933" source="naf">
-               <part>Witherspoon, Alexander M. (Alexander Maclaren), 1894-1964</part>
+               <part localtype="agent_person">Witherspoon, Alexander M. (Alexander Maclaren), 1894-1964</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_875d05ba495be9add6103923ca164825">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Charles A. Walker, 1969.</p>  
+         <p>Gift of Charles A. Walker, 1969.</p>
       </acqinfo>
       <accessrestrict id="aspace_320d3e45ab8a38b06acbd16a156007c8">
          <head>Conditions Governing Access</head>
          <p>Gradebooks in Box 31 are restricted until January 1, 2024 as established by <ref actuate="onrequest"
                  href="http://web.library.yale.edu/mssa/collections/research-use-of-yale-university-archives"
                  show="new">Yale Corporation regulations.</ref>
-         </p>  
+         </p>
       </accessrestrict>
       <prefercite id="aspace_e1cc464247342cfbec0b764fdc35fcd6">
          <head>Preferred Citation</head>
-         <p>Alexander Maclaren Witherspoon Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Alexander Maclaren Witherspoon Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <bioghist id="aspace_85b3bdd070f9376eac26341b181b920c">
          <head>Biographical / Historical</head>
@@ -133,761 +142,1031 @@
          <p>
             <title render="italic">
                <part>History of the Class of 1918 Yale College, Forty Years On</part>
-            </title>. Vol. II (1954), pp. 371-372.</p>  
+            </title>. Vol. II (1954), pp. 371-372.</p>
       </bioghist>
       <scopecontent id="aspace_9930022392dffd3f054e3fdd3094434c">
          <head>Scope and Contents</head>
-         <p>Lectures, notes, subject files, exams, and correspondence from Witherspoon's teaching career at Yale University. Also included are correspondence and manuscripts of Albert Hampton Barclay.</p>  
+         <p>Lectures, notes, subject files, exams, and correspondence from Witherspoon's teaching career at Yale University. Also included are correspondence and manuscripts of Albert Hampton Barclay.</p>
       </scopecontent>
       <userestrict id="aspace_f3761361435ab5ae03413c84e3568abf">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85043894"
                   source="lcsh">
-            <part>English literature -- Study and teaching</part>
+            <part localtype="topical">English literature</part>
+            <part localtype="topical">Study and teaching</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85077519"
                   source="lcsh">
-            <part>Literature -- History and criticism</part>
+            <part localtype="topical">Literature</part>
+            <part localtype="topical">History and criticism</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140139"
                    source="lcsh">
-            <part>United States -- History -- Revolution, 1775-1783</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Revolution, 1775-1783</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <persname rules="aacr" source="local">
-            <part>Barclay, Albert Hampton, 1869-1951</part>
+            <part localtype="agent_person">Barclay, Albert Hampton, 1869-1951</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n83210933" source="naf">
-            <part>Witherspoon, Alexander M. (Alexander Maclaren), 1894-1964</part>
+            <part localtype="agent_person">Witherspoon, Alexander M. (Alexander Maclaren), 1894-1964</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1179739"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Lectures: notes, typescripts, student papers, course materials, printed matter.</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1934-1948">
+               <unitdatestructured altrender="1934-1948" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1934">1934</fromdate>
                      <todate standarddate="1948">1948</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130599 /locations/9"
                           containerid="39002042520347"
+                          encodinganalog="Paige 15"
                           id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1179740"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Bible class: notes, printed matter</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1934-1943, 1961-1962">
+               <unitdatestructured altrender="1934-1943, 1961-1962"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1916">1916</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130599 /locations/9"
                           containerid="39002042520347"
+                          encodinganalog="Paige 15"
                           id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1179741"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>The College Survey of English Literature</part>
                   </title>: volumes, with AMW's annotations, notes, and printed matter. One volume in Box 4</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1942-1948">
+               <unitdatestructured altrender="1942-1948" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1942">1942</fromdate>
                      <todate standarddate="1948">1948</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130599 /locations/9"
                           containerid="39002042520347"
+                          encodinganalog="Paige 15"
                           id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
             </did>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1179742"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Miscellaneous: typescripts, printed matter, some correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1947-1950">
+               <unitdatestructured altrender="1947-1950" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1947">1947</fromdate>
                      <todate standarddate="1950">1950</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130600 /locations/9"
                           containerid="39002042520354"
+                          encodinganalog="Paige 15"
                           id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1179743"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>"Collateral notes" (hereafter CN): lecture and research materials on various writers and subjects: notes, printed matter, some typescripts and student papers. Materials are sorted into manila envelopes, but envelopes are not in any order</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1930-1959">
+               <unitdatestructured altrender="1930-1959" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1930">1930</fromdate>
                      <todate standarddate="1959">1959</todate>
                   </daterange>
                </unitdatestructured>
-               <container localtype="box" id="d2e6">3–5</container>
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/130601 /locations/9"
+                          containerid="39002042520370"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref16_c1"
+                          label="Mixed Materials"
+                          localtype="box">4</container>
+               <container altrender="/repositories/12/top_containers/130602 /locations/9"
+                          containerid="39002042520362"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref16_c2"
+                          label="Mixed Materials"
+                          localtype="box">3</container>
+               <container altrender="/repositories/12/top_containers/130603 /locations/9"
+                          containerid="39002042520388"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref16_c3"
+                          label="Mixed Materials"
+                          localtype="box">5</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1179744"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>CN on Milton</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1916-1919">
+               <unitdatestructured altrender="1916-1919" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1916">1916</fromdate>
                      <todate standarddate="1919">1919</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130604 /locations/9"
                           containerid="39002042520396"
+                          encodinganalog="Paige 15"
                           id="aspace_ref17_c1"
                           label="Mixed Materials"
                           localtype="box">6</container>
             </did>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1179745"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>CN on Thomas Browne</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1955-1959">
+               <unitdatestructured altrender="1955-1959" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1955">1955</fromdate>
                      <todate standarddate="1959">1959</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130604 /locations/9"
                           containerid="39002042520396"
+                          encodinganalog="Paige 15"
                           id="aspace_ref18_c1"
                           label="Mixed Materials"
                           localtype="box">6</container>
             </did>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1179746"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>CN, including drawings by a student</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130605 /locations/9"
                           containerid="39002042520404"
+                          encodinganalog="Paige 15"
                           id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">7</container>
             </did>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1179747"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>Note cards</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1916">1916</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container localtype="box" id="d3e4">7–8</container>
+               <container altrender="/repositories/12/top_containers/130605 /locations/9"
+                          containerid="39002042520404"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref20_c1"
+                          label="Mixed Materials"
+                          localtype="box">7</container>
+               <container altrender="/repositories/12/top_containers/130606 /locations/9"
+                          containerid="39002042520412"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref20_c2"
+                          label="Mixed Materials"
+                          localtype="box">8</container>
             </did>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1179748"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>Comprehensive Study Group: stencils</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1916">1916</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130606 /locations/9"
                           containerid="39002042520412"
+                          encodinganalog="Paige 15"
                           id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">8</container>
             </did>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1179749"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>Departmental papers</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130606 /locations/9"
                           containerid="39002042520412"
+                          encodinganalog="Paige 15"
                           id="aspace_ref22_c1"
                           label="Mixed Materials"
                           localtype="box">8</container>
             </did>
          </c>
-         <c id="ref23" level="file">
+         <c altrender="/repositories/12/archival_objects/1179750"
+            id="ref23"
+            level="file">
             <did>
                <unittitle>Exams, course hand-outs, miscellaneous</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1938-1963">
+               <unitdatestructured altrender="1938-1963" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1938">1938</fromdate>
                      <todate standarddate="1963">1963</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130606 /locations/9"
                           containerid="39002042520412"
+                          encodinganalog="Paige 15"
                           id="aspace_ref23_c1"
                           label="Mixed Materials"
                           localtype="box">8</container>
             </did>
          </c>
-         <c id="ref24" level="file">
+         <c altrender="/repositories/12/archival_objects/1179751"
+            id="ref24"
+            level="file">
             <did>
                <unittitle>Exams (suggested questions), miscellaneous</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1945-1959">
+               <unitdatestructured altrender="1945-1959" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1945">1945</fromdate>
                      <todate standarddate="1959">1959</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130607 /locations/9"
                           containerid="39002042520420"
+                          encodinganalog="Paige 15"
                           id="aspace_ref24_c1"
                           label="Mixed Materials"
                           localtype="box">9</container>
             </did>
          </c>
-         <c id="ref25" level="file">
+         <c altrender="/repositories/12/archival_objects/1179752"
+            id="ref25"
+            level="file">
             <did>
                <unittitle>Correspondence, some re: <title render="italic">
                      <part>Complete Prose Works of John Milton</part>
                   </title>
                </unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1948-1963">
+               <unitdatestructured altrender="1948-1963" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1948">1948</fromdate>
                      <todate standarddate="1963">1963</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130607 /locations/9"
                           containerid="39002042520420"
+                          encodinganalog="Paige 15"
                           id="aspace_ref25_c1"
                           label="Mixed Materials"
                           localtype="box">9</container>
             </did>
          </c>
-         <c id="ref26" level="file">
+         <c altrender="/repositories/12/archival_objects/1179753"
+            id="ref26"
+            level="file">
             <did>
                <unittitle>CN</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130608 /locations/9"
                           containerid="39002042520438"
+                          encodinganalog="Paige 15"
                           id="aspace_ref26_c1"
                           label="Mixed Materials"
                           localtype="box">10</container>
             </did>
          </c>
-         <c id="ref27" level="file">
+         <c altrender="/repositories/12/archival_objects/1179754"
+            id="ref27"
+            level="file">
             <did>
                <unittitle>Exams</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1953-1960">
+               <unitdatestructured altrender="1953-1960" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1953">1953</fromdate>
                      <todate standarddate="1960">1960</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130608 /locations/9"
                           containerid="39002042520438"
+                          encodinganalog="Paige 15"
                           id="aspace_ref27_c1"
                           label="Mixed Materials"
                           localtype="box">10</container>
             </did>
          </c>
-         <c id="ref28" level="file">
+         <c altrender="/repositories/12/archival_objects/1179755"
+            id="ref28"
+            level="file">
             <did>
                <unittitle>Note cards</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1916">1916</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130608 /locations/9"
                           containerid="39002042520438"
+                          encodinganalog="Paige 15"
                           id="aspace_ref28_c1"
                           label="Mixed Materials"
                           localtype="box">10</container>
             </did>
          </c>
-         <c id="ref29" level="file">
+         <c altrender="/repositories/12/archival_objects/1179756"
+            id="ref29"
+            level="file">
             <did>
                <unittitle>CN (Dryden and others), including stencils</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130609 /locations/9"
                           containerid="39002042520446"
+                          encodinganalog="Paige 15"
                           id="aspace_ref29_c1"
                           label="Mixed Materials"
                           localtype="box">11</container>
             </did>
          </c>
-         <c id="ref30" level="file">
+         <c altrender="/repositories/12/archival_objects/1179757"
+            id="ref30"
+            level="file">
             <did>
                <unittitle>Albert Hampton Barclay: correspondence, MSS, printed matter</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1916-1938">
+               <unitdatestructured altrender="1916-1938" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1916">1916</fromdate>
                      <todate standarddate="1938">1938</todate>
                   </daterange>
                </unitdatestructured>
-               <container localtype="box" id="d4e4">12–13</container>
+               <container altrender="/repositories/12/top_containers/130610 /locations/9"
+                          containerid="39002042520461"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref30_c1"
+                          label="Mixed Materials"
+                          localtype="box">13</container>
+               <container altrender="/repositories/12/top_containers/130611 /locations/9"
+                          containerid="39002042520453"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref30_c2"
+                          label="Mixed Materials"
+                          localtype="box">12</container>
             </did>
          </c>
-         <c id="ref31" level="file">
+         <c altrender="/repositories/12/archival_objects/1179758"
+            id="ref31"
+            level="file">
             <did>
                <unittitle>CN</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130610 /locations/9"
                           containerid="39002042520461"
+                          encodinganalog="Paige 15"
                           id="aspace_ref31_c1"
                           label="Mixed Materials"
                           localtype="box">13</container>
             </did>
          </c>
-         <c id="ref32" level="file">
+         <c altrender="/repositories/12/archival_objects/1179759"
+            id="ref32"
+            level="file">
             <did>
                <unittitle>Photographs (framed)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1944, undated">
+               <unitdatestructured altrender="1944, undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1916">1916</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130610 /locations/9"
                           containerid="39002042520461"
+                          encodinganalog="Paige 15"
                           id="aspace_ref32_c1"
                           label="Mixed Materials"
                           localtype="box">13</container>
             </did>
          </c>
-         <c id="ref33" level="file">
+         <c altrender="/repositories/12/archival_objects/1179760"
+            id="ref33"
+            level="file">
             <did>
                <unittitle>Glass ball containing metal dog</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1916">1916</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130610 /locations/9"
                           containerid="39002042520461"
+                          encodinganalog="Paige 15"
                           id="aspace_ref33_c1"
                           label="Mixed Materials"
                           localtype="box">13</container>
             </did>
          </c>
-         <c id="ref34" level="file">
+         <c altrender="/repositories/12/archival_objects/1179761"
+            id="ref34"
+            level="file">
             <did>
                <unittitle>CN</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130612 /locations/9"
                           containerid="39002042520479"
+                          encodinganalog="Paige 15"
                           id="aspace_ref34_c1"
                           label="Mixed Materials"
                           localtype="box">14</container>
             </did>
          </c>
-         <c id="ref35" level="file">
+         <c altrender="/repositories/12/archival_objects/1179762"
+            id="ref35"
+            level="file">
             <did>
                <unittitle>CN on Milton</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130613 /locations/9"
                           containerid="39002042520487"
+                          encodinganalog="Paige 15"
                           id="aspace_ref35_c1"
                           label="Mixed Materials"
                           localtype="box">15</container>
             </did>
          </c>
-         <c id="ref36" level="file">
+         <c altrender="/repositories/12/archival_objects/1179763"
+            id="ref36"
+            level="file">
             <did>
                <unittitle>Printed map</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1931">
+               <unitdatestructured altrender="1931" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1931">1931</fromdate>
                      <todate standarddate="1931">1931</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130613 /locations/9"
                           containerid="39002042520487"
+                          encodinganalog="Paige 15"
                           id="aspace_ref36_c1"
                           label="Mixed Materials"
                           localtype="box">15</container>
             </did>
          </c>
-         <c id="ref37" level="file">
+         <c altrender="/repositories/12/archival_objects/1179764"
+            id="ref37"
+            level="file">
             <did>
                <unittitle>CN</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130614 /locations/9"
                           containerid="39002042520495"
+                          encodinganalog="Paige 15"
                           id="aspace_ref37_c1"
                           label="Mixed Materials"
                           localtype="box">16</container>
             </did>
          </c>
-         <c id="ref38" level="file">
+         <c altrender="/repositories/12/archival_objects/1179765"
+            id="ref38"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1926-1929">
+               <unitdatestructured altrender="1926-1929" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1926">1926</fromdate>
                      <todate standarddate="1929">1929</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130614 /locations/9"
                           containerid="39002042520495"
+                          encodinganalog="Paige 15"
                           id="aspace_ref38_c1"
                           label="Mixed Materials"
                           localtype="box">16</container>
             </did>
          </c>
-         <c id="ref39" level="file">
+         <c altrender="/repositories/12/archival_objects/1179766"
+            id="ref39"
+            level="file">
             <did>
                <unittitle>Scrapbook of clippings, mostly weather records</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1938-1958">
+               <unitdatestructured altrender="1938-1958" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1938">1938</fromdate>
                      <todate standarddate="1958">1958</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130614 /locations/9"
                           containerid="39002042520495"
+                          encodinganalog="Paige 15"
                           id="aspace_ref39_c1"
                           label="Mixed Materials"
                           localtype="box">16</container>
             </did>
          </c>
-         <c id="ref40" level="file">
+         <c altrender="/repositories/12/archival_objects/1179767"
+            id="ref40"
+            level="file">
             <did>
                <unittitle>CN</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130615 /locations/9"
                           containerid="39002042520503"
+                          encodinganalog="Paige 15"
                           id="aspace_ref40_c1"
                           label="Mixed Materials"
                           localtype="box">17</container>
             </did>
          </c>
-         <c id="ref41" level="file">
+         <c altrender="/repositories/12/archival_objects/1179768"
+            id="ref41"
+            level="file">
             <did>
                <unittitle>Exams</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1958-1961">
+               <unitdatestructured altrender="1958-1961" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1958">1958</fromdate>
                      <todate standarddate="1961">1961</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130615 /locations/9"
                           containerid="39002042520503"
+                          encodinganalog="Paige 15"
                           id="aspace_ref41_c1"
                           label="Mixed Materials"
                           localtype="box">17</container>
             </did>
          </c>
-         <c id="ref42" level="file">
+         <c altrender="/repositories/12/archival_objects/1179769"
+            id="ref42"
+            level="file">
             <did>
                <unittitle>Milton Fund: correspondence and financial statements</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1952-1963">
+               <unitdatestructured altrender="1952-1963" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1952">1952</fromdate>
                      <todate standarddate="1963">1963</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130615 /locations/9"
                           containerid="39002042520503"
+                          encodinganalog="Paige 15"
                           id="aspace_ref42_c1"
                           label="Mixed Materials"
                           localtype="box">17</container>
             </did>
          </c>
-         <c id="ref43" level="file">
+         <c altrender="/repositories/12/archival_objects/1179770"
+            id="ref43"
+            level="file">
             <did>
                <unittitle>Scrapbook of clippings on Milton</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1928-1937">
+               <unitdatestructured altrender="1928-1937" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1928">1928</fromdate>
                      <todate standarddate="1937">1937</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130615 /locations/9"
                           containerid="39002042520503"
+                          encodinganalog="Paige 15"
                           id="aspace_ref43_c1"
                           label="Mixed Materials"
                           localtype="box">17</container>
             </did>
          </c>
-         <c id="ref44" level="file">
+         <c altrender="/repositories/12/archival_objects/1179771"
+            id="ref44"
+            level="file">
             <did>
                <unittitle>Exams: Freshman English</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1917-1940">
+               <unitdatestructured altrender="1917-1940" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1917">1917</fromdate>
                      <todate standarddate="1940">1940</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130616 /locations/9"
                           containerid="39002042520511"
+                          encodinganalog="Paige 15"
                           id="aspace_ref44_c1"
                           label="Mixed Materials"
                           localtype="box">18</container>
             </did>
          </c>
-         <c id="ref45" level="file">
+         <c altrender="/repositories/12/archival_objects/1179772"
+            id="ref45"
+            level="file">
             <did>
                <unittitle>CN, especially on Milton and Shakespeare</unittitle>
-               <container localtype="box" id="d5e4">18–19</container>
+               <container altrender="/repositories/12/top_containers/130617 /locations/9"
+                          containerid="39002042520529"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref45_c1"
+                          label="Mixed Materials"
+                          localtype="box">19</container>
+               <container altrender="/repositories/12/top_containers/130616 /locations/9"
+                          containerid="39002042520511"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref45_c2"
+                          label="Mixed Materials"
+                          localtype="box">18</container>
             </did>
          </c>
-         <c id="ref46" level="file">
+         <c altrender="/repositories/12/archival_objects/1179773"
+            id="ref46"
+            level="file">
             <did>
                <unittitle>CN</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130618 /locations/9"
                           containerid="39002042520537"
+                          encodinganalog="Paige 15"
                           id="aspace_ref46_c1"
                           label="Mixed Materials"
                           localtype="box">20</container>
             </did>
          </c>
-         <c id="ref47" level="file">
+         <c altrender="/repositories/12/archival_objects/1179774"
+            id="ref47"
+            level="file">
             <did>
                <unittitle>Exams</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1918-1935">
+               <unitdatestructured altrender="1918-1935" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1918">1918</fromdate>
                      <todate standarddate="1935">1935</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130618 /locations/9"
                           containerid="39002042520537"
+                          encodinganalog="Paige 15"
                           id="aspace_ref47_c1"
                           label="Mixed Materials"
                           localtype="box">20</container>
             </did>
          </c>
-         <c id="ref48" level="file">
+         <c altrender="/repositories/12/archival_objects/1179775"
+            id="ref48"
+            level="file">
             <did>
                <unittitle>
                   <title render="italic">
                      <part>The College Survey of English Literature</part>
                   </title>: critical correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1942-1948">
+               <unitdatestructured altrender="1942-1948" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1942">1942</fromdate>
                      <todate standarddate="1948">1948</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130618 /locations/9"
                           containerid="39002042520537"
+                          encodinganalog="Paige 15"
                           id="aspace_ref48_c1"
                           label="Mixed Materials"
                           localtype="box">20</container>
             </did>
          </c>
-         <c id="ref49" level="file">
+         <c altrender="/repositories/12/archival_objects/1179776"
+            id="ref49"
+            level="file">
             <did>
                <unittitle>CN</unittitle>
-               <container localtype="box" id="d6e10">21–25</container>
+               <container altrender="/repositories/12/top_containers/130619 /locations/9"
+                          containerid="39002042520545"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref49_c1"
+                          label="Mixed Materials"
+                          localtype="box">21</container>
+               <container altrender="/repositories/12/top_containers/130620 /locations/9"
+                          containerid="39002042520586"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref49_c2"
+                          label="Mixed Materials"
+                          localtype="box">25</container>
+               <container altrender="/repositories/12/top_containers/130621 /locations/9"
+                          containerid="39002042520578"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref49_c3"
+                          label="Mixed Materials"
+                          localtype="box">24</container>
+               <container altrender="/repositories/12/top_containers/130622 /locations/9"
+                          containerid="39002042520560"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref49_c4"
+                          label="Mixed Materials"
+                          localtype="box">23</container>
+               <container altrender="/repositories/12/top_containers/130623 /locations/9"
+                          containerid="39002042520552"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref49_c5"
+                          label="Mixed Materials"
+                          localtype="box">22</container>
             </did>
          </c>
-         <c id="ref50" level="file">
+         <c altrender="/repositories/12/archival_objects/1179777"
+            id="ref50"
+            level="file">
             <did>
                <unittitle>Stencils</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1916">1916</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130620 /locations/9"
                           containerid="39002042520586"
+                          encodinganalog="Paige 15"
                           id="aspace_ref50_c1"
                           label="Mixed Materials"
                           localtype="box">25</container>
             </did>
          </c>
-         <c id="ref51" level="file">
+         <c altrender="/repositories/12/archival_objects/1179778"
+            id="ref51"
+            level="file">
             <did>
                <unittitle>Photographs</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1916">1916</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130620 /locations/9"
                           containerid="39002042520586"
+                          encodinganalog="Paige 15"
                           id="aspace_ref51_c1"
                           label="Mixed Materials"
                           localtype="box">25</container>
             </did>
          </c>
-         <c id="ref52" level="file">
+         <c altrender="/repositories/12/archival_objects/1179779"
+            id="ref52"
+            level="file">
             <did>
                <unittitle>Notebooks kept by AMW as a student</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1916">1916</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130624 /locations/9"
                           containerid="39002042520594"
+                          encodinganalog="Paige 15"
                           id="aspace_ref52_c1"
                           label="Mixed Materials"
                           localtype="box">26</container>
             </did>
          </c>
-         <c id="ref53" level="file">
+         <c altrender="/repositories/12/archival_objects/1179780"
+            id="ref53"
+            level="file">
             <did>
                <unittitle>Textbooks</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130624 /locations/9"
                           containerid="39002042520594"
+                          encodinganalog="Paige 15"
                           id="aspace_ref53_c1"
                           label="Mixed Materials"
                           localtype="box">26</container>
             </did>
          </c>
-         <c id="ref54" level="file">
+         <c altrender="/repositories/12/archival_objects/1179781"
+            id="ref54"
+            level="file">
             <did>
                <unittitle>Stencils</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1916">1916</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130624 /locations/9"
                           containerid="39002042520594"
+                          encodinganalog="Paige 15"
                           id="aspace_ref54_c1"
                           label="Mixed Materials"
                           localtype="box">26</container>
             </did>
          </c>
-         <c id="ref55" level="file">
+         <c altrender="/repositories/12/archival_objects/1179782"
+            id="ref55"
+            level="file">
             <did>
                <unittitle>Printed matter</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130624 /locations/9"
                           containerid="39002042520594"
+                          encodinganalog="Paige 15"
                           id="aspace_ref55_c1"
                           label="Mixed Materials"
                           localtype="box">26</container>
             </did>
          </c>
-         <c id="ref56" level="file">
+         <c altrender="/repositories/12/archival_objects/1179783"
+            id="ref56"
+            level="file">
             <did>
                <unittitle>Exam booklets (blank, or used as notebooks)</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1957-1961">
+               <unitdatestructured altrender="1957-1961" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1957">1957</fromdate>
                      <todate standarddate="1961">1961</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130625 /locations/9"
                           containerid="39002042520602"
+                          encodinganalog="Paige 15"
                           id="aspace_ref56_c1"
                           label="Mixed Materials"
                           localtype="box">27</container>
             </did>
          </c>
-         <c id="ref57" level="file">
+         <c altrender="/repositories/12/archival_objects/1179784"
+            id="ref57"
+            level="file">
             <did>
                <unittitle>Stencils</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1916">1916</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130625 /locations/9"
                           containerid="39002042520602"
+                          encodinganalog="Paige 15"
                           id="aspace_ref57_c1"
                           label="Mixed Materials"
                           localtype="box">27</container>
             </did>
          </c>
-         <c id="ref58" level="file">
+         <c altrender="/repositories/12/archival_objects/1179785"
+            id="ref58"
+            level="file">
             <did>
                <unittitle>Financial records</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1963-1964">
+               <unitdatestructured altrender="1963-1964" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1963">1963</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130625 /locations/9"
                           containerid="39002042520602"
+                          encodinganalog="Paige 15"
                           id="aspace_ref58_c1"
                           label="Mixed Materials"
                           localtype="box">27</container>
             </did>
          </c>
-         <c id="ref59" level="file">
+         <c altrender="/repositories/12/archival_objects/1179786"
+            id="ref59"
+            level="file">
             <did>
                <unittitle>Death announcements and materials re: memorial service</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1964">
+               <unitdatestructured altrender="1964" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1964">1964</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130625 /locations/9"
                           containerid="39002042520602"
+                          encodinganalog="Paige 15"
                           id="aspace_ref59_c1"
                           label="Mixed Materials"
                           localtype="box">27</container>
             </did>
          </c>
-         <c id="ref60" level="file">
+         <c altrender="/repositories/12/archival_objects/1179787"
+            id="ref60"
+            level="file">
             <did>
                <unittitle>CN</unittitle>
-               <container localtype="box" id="d7e6">27–29</container>
+               <container altrender="/repositories/12/top_containers/130626 /locations/9"
+                          containerid="39002042520610"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref60_c1"
+                          label="Mixed Materials"
+                          localtype="box">28</container>
+               <container altrender="/repositories/12/top_containers/130627 /locations/9"
+                          containerid="39002042520628"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref60_c2"
+                          label="Mixed Materials"
+                          localtype="box">29</container>
+               <container altrender="/repositories/12/top_containers/130625 /locations/9"
+                          containerid="39002042520602"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref60_c3"
+                          label="Mixed Materials"
+                          localtype="box">27</container>
             </did>
          </c>
-         <c id="ref61" level="file">
+         <c altrender="/repositories/12/archival_objects/1179788"
+            id="ref61"
+            level="file">
             <did>
                <unittitle>Note cards</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1916">1916</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130627 /locations/9"
                           containerid="39002042520628"
+                          encodinganalog="Paige 15"
                           id="aspace_ref61_c1"
                           label="Mixed Materials"
                           localtype="box">29</container>
             </did>
          </c>
-         <c id="ref62" level="file">
+         <c altrender="/repositories/12/archival_objects/1179789"
+            id="ref62"
+            level="file">
             <did>
                <unittitle>CN</unittitle>
-               <container localtype="box" id="d8e4">30–31</container>
+               <container altrender="/repositories/12/top_containers/130628 /locations/9"
+                          containerid="39002042520644"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref62_c1"
+                          label="Mixed Materials"
+                          localtype="box">31</container>
+               <container altrender="/repositories/12/top_containers/130629 /locations/9"
+                          containerid="39002042520636"
+                          encodinganalog="Paige 15"
+                          id="aspace_ref62_c2"
+                          label="Mixed Materials"
+                          localtype="box">30</container>
             </did>
          </c>
-         <c id="ref63" level="file">
+         <c altrender="/repositories/12/archival_objects/1179790"
+            id="ref63"
+            level="file">
             <did>
                <unittitle>Grade books</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1939-1942, 1949">
+               <unitdatestructured altrender="1939-1942, 1949"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1916">1916</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/130628 /locations/9"
                           containerid="39002042520644"
+                          encodinganalog="Paige 15"
                           id="aspace_ref63_c1"
                           label="Mixed Materials"
                           localtype="box">31</container>
             </did>
-            <accessrestrict id="aspace_713fc2567db68ec96ac2519befaa59f2">
+            <accessrestrict id="aspace_713fc2567db68ec96ac2519befaa59f2"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Grade books are closed until January 1, 2024 as established by <ref actuate="onrequest"
                        href="http://web.library.yale.edu/mssa/collections/research-use-of-yale-university-archives"

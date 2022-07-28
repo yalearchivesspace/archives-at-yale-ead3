@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0783">mssa.ms.0783</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0783">mssa.ms.0783</recordid>
+      <otherrecordid localtype="BIB">614418</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the William Jackson Papers
@@ -32,6 +34,11 @@
             <date>April 1977</date>
             <num>MS 783</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:53:20+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:04:42+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:53</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:04</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3138" level="collection">
       <did>
          <unittitle>William Jackson papers</unittitle>
          <unitid>MS 783</unitid>
@@ -83,49 +93,48 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box, 1 folio)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1782-1828">
+         <unitdatestructured altrender="1782-1828" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1782">1782</fromdate>
                <todate standarddate="1828">1828</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_72f70bba5197b6c481ad5515f272c297">The papers consist of correspondence, memoranda, and miscellaneous items of William Jackson, a major in the American Revolution and later an active political figure. Most of the items in the papers are letters received by Jackson between 1782 and 1828. Also included are memoranda relating to payments for surviving officers of the Continental Army and an account of the surrender of Lord Cornwallis. Among the correspondents are John Quincy Adams, Alexander Garden, Joseph Hopkinson, Ebenezer Huntington, Benjamin Lincoln, Charles Pinckney, John Sergeant and George Washington.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n85121887"
                       rules="aacr"
                       source="naf">
-               <part>Jackson, William, 1759-1828</part>
+               <part localtype="agent_person">Jackson, William, 1759-1828</part>
             </persname>
          </origination>
-    
       </did>
-      <accessrestrict id="aspace_29195562c9a949c0a82f572e35e6bf44">
+      <accessrestrict id="aspace_29195562c9a949c0a82f572e35e6bf44" localtype="UseSurrogate">
          <head>Conditions Governing Access</head>
-         <p>The entire collection is available on microfilm. Patrons must use HM 210 instead of the originals.</p>  
+         <p>The entire collection is available on microfilm. Patrons must use HM 210 instead of the originals.</p>
       </accessrestrict>
       <prefercite id="aspace_cf5ae3b130ec48b49b02490a3189027a">
          <head>Preferred Citation</head>
-         <p>William Jackson Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>William Jackson Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <acqinfo id="aspace_d77d6852526c9acfd151ee55cfc690a1">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Henry Kirschenbaum to Beinecke Rare Book Library; transferred to Manuscripts and Archives, 1976.</p>  
+         <p>Gift of Henry Kirschenbaum to Beinecke Rare Book Library; transferred to Manuscripts and Archives, 1976.</p>
       </acqinfo>
       <altformavail id="aspace_01dd882357cf5c9b8460d1192bdad453">
          <head>Existence and Location of Copies</head>
          <p>Entire collectionis also available on microfilm (407 frames on 1 reel, 35 mm.) from Manuscripts and Archives, Yale University Library, at cost. <num>Order no. HM210.</num>
-         </p>  
+         </p>
       </altformavail>
       <arrangement id="aspace_140e579fb4fc862acae676d085ac82f0">
          <head>Arrangement</head>
-         <p>Arranged in three series: I. Incoming Correspondence. II. Manuscripts in the Hand of William Jackson. III. Miscellaneous and Printed Items.</p>  
+         <p>Arranged in three series: I. Incoming Correspondence. II. Manuscripts in the Hand of William Jackson. III. Miscellaneous and Printed Items.</p>
       </arrangement>
       <scopecontent id="aspace_0c7ac1750cfdf417c6f976b243f43873">
          <head>Scope and Contents</head>
          <p>The William Jackson Papers consist of approximately 120 items, the majority of which are letters received by Jackson during the years 1782 to 1828. Jackson corresponded with a large number of eminent men, among them George Washington, Thomas Jefferson, John Quincy Adams, William Henry Harrison, Henry Knox, and Charles Pinckney. However, most of the correspondence is routine in nature, e.g., cover letters, acknowledgements, and thank-you notes. Many of the letters, especially those written in 1818 and 1819, relate to efforts by Jackson and the Society of the Cincinnati to obtain the promised half pay of the surviving officers of the Continental Army. The bulk of this correspondence consists of letters acknowledging the receipt of memorials on behalf of the surviving officers and notes from sympathetic congressmen deploring the failure of Congress to act speedily on the matter.</p>
          <p>The only material in the papers relating to Jackson's role as secretary to the Constitutional Convention is a letter from John Quincy Adams dated October 16, 1818, in which Adams asked Jackson if he had any material relating to the Constitutional Convention in his possession. Jackson responded that when he left Philadelphia in 1787 he turned over any relevant materials to Washington.</p>
          <p>Other material of note includes several letters from the First Marquess of Landsdown (William Petty) commenting on Anglo-American relations and expressing his admiration of George Washington, a manuscript in Jackson's hand of a memorial to Congress on behalf of the surviving officers of the Continental Army, and an account, also in Jackson's hand, of Col. John Lauren's version of the surrender of Cornwallis at Yorktown.</p>
-         <p>The William Jackson Papers were given to Yale University Library by Henry Kirschenbaum, Purchase, New York, 1976 June 3.</p>  
+         <p>The William Jackson Papers were given to Yale University Library by Henry Kirschenbaum, Purchase, New York, 1976 June 3.</p>
       </scopecontent>
       <bioghist id="aspace_83b82f5cad169e36cc82ca4d77c6e61f">
          <head>Biographical / Historical</head>
@@ -135,64 +144,70 @@
          <p>Among his other notable activities Jackson was secretary of the Society of the Cincinnati from 1800 to 1828 and in this capacity was appointed by the surviving officers of the Continental Army to obtain for them an equitable adjustment of their promised half pay.</p>
          <p>Jackson died in Philadelphia on December 18, 1828. For further information on his career see the <title render="italic">
                <part>Dictionary of American Biography</part>
-            </title>.</p>  
+            </title>.</p>
       </bioghist>
       <userestrict id="aspace_f38dc786fc320e46a754cb96c7279042">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140139"
                    source="lcsh">
-            <part>United States -- History -- Revolution, 1775-1783</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Revolution, 1775-1783</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140410"
                    source="lcsh">
-            <part>United States -- Politics and government</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">Politics and government</part>
          </geogname>
          <geogname source="local">
-            <part>Yorktown (Va.) -- Siege, 1781</part>
+            <part localtype="geographic">Yorktown (Va.)</part>
+            <part localtype="topical">Siege, 1781</part>
          </geogname>
          <occupation source="local">
-            <part>Politicians</part>
+            <part localtype="occupation">Politicians</part>
          </occupation>
          <occupation source="local">
-            <part>Soldiers</part>
+            <part localtype="occupation">Soldiers</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/n79140988" source="naf">
-            <part>Adams, John Quincy, 1767-1848</part>
+            <part localtype="agent_person">Adams, John Quincy, 1767-1848</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n85345431" source="naf">
-            <part>Harrison, William Henry, 1773-1841</part>
+            <part localtype="agent_person">Harrison, William Henry, 1773-1841</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n85121887"
                    rules="aacr"
                    source="naf">
-            <part>Jackson, William, 1759-1828</part>
+            <part localtype="agent_person">Jackson, William, 1759-1828</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n79089957" source="naf">
-            <part>Jefferson, Thomas, 1743-1826</part>
+            <part localtype="agent_person">Jefferson, Thomas, 1743-1826</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50042395" source="naf">
-            <part>Knox, Henry, 1750-1806</part>
+            <part localtype="agent_person">Knox, Henry, 1750-1806</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n87912182" source="naf">
-            <part>Lansdowne, William Petty, Marquis of, 1737-1805</part>
+            <part localtype="agent_person">Lansdowne, William Petty, Marquis of, 1737-1805</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n85174191" source="naf">
-            <part>Pinckney, Charles, 1757-1824</part>
+            <part localtype="agent_person">Pinckney, Charles, 1757-1824</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n86140996" source="naf">
-            <part>Washington, George, 1732-1799</part>
+            <part localtype="agent_person">Washington, George, 1732-1799</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n50075547"
                    rules="aacr"
                    source="naf">
-            <part>Society of the Cincinnati</part>
+            <part localtype="agent_corporate_entity">Society of the Cincinnati</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref16" level="series">
+         <c altrender="/repositories/12/archival_objects/1193269"
+            id="ref16"
+            level="series">
             <did>
                <unittitle>INCOMING CORRESPONDENCE</unittitle>
                <unitid>Series I</unitid>
@@ -200,7 +215,7 @@
                   <quantity>0.5</quantity>
                   <unittype>Linear Feet</unittype>
                </physdescstructured>
-               <unitdatestructured unitdatetype="inclusive" altrender="1782-1828">
+               <unitdatestructured altrender="1782-1828" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1782">1782</fromdate>
                      <todate standarddate="1828">1828</todate>
@@ -211,18 +226,22 @@
                <head>Scope and Contents</head>
                <p>Incoming correspondence is arranged alphabetically by name of correspondent. Letters of a particular correspondent are organized chronologically.</p>
             </scopecontent>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1193270"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Adams, John Quincy (1767-1848)</unittitle>
-                  <unitdate unitdatetype="inclusive">16 October 1818 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">16 October 1818 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">1</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref18_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
@@ -232,664 +251,820 @@
                   <p>With copies of two letters from Jackson to Adams: 19 and 21 October 1818</p>
                </odd>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1193271"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Beck, Paul, Jr.</unittitle>
-                  <unitdate unitdatetype="inclusive">20 May 1812 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">20 May 1812 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">2</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref19_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1193272"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Biddle, Clement (1740-1814)</unittitle>
-                  <unitdate unitdatetype="inclusive">17 November 1818 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">17 November 1818 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">3</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref20_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1193273"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Biddle, James (1783-1848)</unittitle>
-                  <unitdate unitdatetype="inclusive">20 July 1813 (2p.), 29 August 1817 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">20 July 1813 (2p.), 29 August 1817 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">4</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref21_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1193274"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Bingham, William (1752-1804)</unittitle>
-                  <unitdate unitdatetype="inclusive">4 September 1789 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">4 September 1789 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">5</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref22_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1193275"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>Blake, W.</unittitle>
-                  <unitdate unitdatetype="inclusive">7 March 1786 (1p.), 3 June 1786 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">7 March 1786 (1p.), 3 June 1786 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">6</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref23_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1193276"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Bloomfield, Joseph (1753-1823)</unittitle>
-                  <unitdate unitdatetype="inclusive">4 February 1818 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">4 February 1818 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">7</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref24_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1193277"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Burrows, W. W.</unittitle>
-                  <unitdate unitdatetype="inclusive">23 February 1800 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">23 February 1800 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">8</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref25_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1193278"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Carrington, Edward</unittitle>
-                  <unitdate unitdatetype="inclusive">10 October 1782 (3p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">10 October 1782 (3p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">9</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref26_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1193279"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>Clarkson, Matthew (1758-1825)</unittitle>
-                  <unitdate unitdatetype="inclusive">24 January 1785 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">24 January 1785 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">10</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref27_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1193280"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>Colquhoun, Patrick (1745-1820)</unittitle>
-                  <unitdate unitdatetype="inclusive">30 January 1784 (2p.), 1 March 1784 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">30 January 1784 (2p.), 1 March 1784 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">11</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref28_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/1193281"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>Corbin, Francis</unittitle>
-                  <unitdate unitdatetype="inclusive">3 January 1815 (3p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">3 January 1815 (3p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">12</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref29_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1193282"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Cushman, Joshua (1761-1834)</unittitle>
-                  <unitdate unitdatetype="inclusive">15 April 1820 (3p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">15 April 1820 (3p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">13</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref30_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1193283"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Custis, George Washington Parke (1781-1857)</unittitle>
-                  <unitdate unitdatetype="inclusive">No date, Sunday (1p.), No year, October 15 (3p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">No date, Sunday (1p.), No year, October 15 (3p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">14</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref31_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1193284"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>Davis, S. B.</unittitle>
-                  <unitdate unitdatetype="inclusive">23 May 1815 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">23 May 1815 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">15</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref32_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1193285"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>Eustis, William (1753-1825)</unittitle>
-                  <unitdate unitdatetype="inclusive">14 August 1819 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">14 August 1819 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">16</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref33_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1193286"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>Finley, S. B. R.</unittitle>
-                  <unitdate unitdatetype="inclusive">4 November 1828 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">4 November 1828 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">17</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref34_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1193287"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Forrest, Thomas</unittitle>
-                  <unitdate unitdatetype="inclusive">17 April 1820 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">17 April 1820 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">18</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref35_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1193288"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>Forsyth, John (1780-1841)</unittitle>
-                  <unitdate unitdatetype="inclusive">28 January 1818 (3p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">28 January 1818 (3p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">19</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref36_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1193289"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>Fuller, Timothy</unittitle>
-                  <unitdate unitdatetype="inclusive">25 April 1820 (3p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">25 April 1820 (3p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">20</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref37_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1193290"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>Garden, Alexander (1757-1829)</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated (4p.), 2 June 1818 (3p.), 12 June 1818 (2p.), 4 August 1818 (2p.), 6 August 1818 (2p.), 18 October 1819 (3p.), 1 May 1821 (3p.), 2 December 1825 (2p.), 19 October 1827 (2p.), 13 October 1828 (1p.).</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated (4p.), 2 June 1818 (3p.), 12 June 1818 (2p.), 4 August 1818 (2p.), 6 August 1818 (2p.), 18 October 1819 (3p.), 1 May 1821 (3p.), 2 December 1825 (2p.), 19 October 1827 (2p.), 13 October 1828 (1p.).</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">21</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref38_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1193291"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>Gibbon, James</unittitle>
-                  <unitdate unitdatetype="inclusive">20 August 1819 (3p.), 16 December 1819 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">20 August 1819 (3p.), 16 December 1819 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">22</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref39_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1193292"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>Goldsborough, Robert Henry (1780-1836)</unittitle>
-                  <unitdate unitdatetype="inclusive">19 April 1818 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">19 April 1818 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref40_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">23</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref40_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1193293"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>Harper, Robert Goodloe (1765-1825)</unittitle>
-                  <unitdate unitdatetype="inclusive">14 March 1824 (2p.), 5 November 1824 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">14 March 1824 (2p.), 5 November 1824 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref41_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">24</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref41_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref42" level="file">
+            <c altrender="/repositories/12/archival_objects/1193294"
+               id="ref42"
+               level="file">
                <did>
                   <unittitle>Harrison, William Henry (1773-1841)</unittitle>
-                  <unitdate unitdatetype="inclusive">2 March 1819 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">2 March 1819 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref42_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">25</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref42_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref43" level="file">
+            <c altrender="/repositories/12/archival_objects/1193295"
+               id="ref43"
+               level="file">
                <did>
                   <unittitle>Hamphill, Joseph (1770-1842)</unittitle>
-                  <unitdate unitdatetype="inclusive">17 April 1820 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">17 April 1820 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref43_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref43_c2" localtype="folder" parent="aspace_ref43_c1">26</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref43_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref44" level="file">
+            <c altrender="/repositories/12/archival_objects/1193296"
+               id="ref44"
+               level="file">
                <did>
                   <unittitle>Henderson [Francis?]</unittitle>
-                  <unitdate unitdatetype="inclusive">16 February 1827 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">16 February 1827 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref44_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">27</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref44_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref45" level="file">
+            <c altrender="/repositories/12/archival_objects/1193297"
+               id="ref45"
+               level="file">
                <did>
                   <unittitle>Hopkinson, Joseph</unittitle>
-                  <unitdate unitdatetype="inclusive">14 July 1817 (2p.), 15 March 1818 (3p.), 1 March 1819 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">14 July 1817 (2p.), 15 March 1818 (3p.), 1 March 1819 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref45_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref45_c2" localtype="folder" parent="aspace_ref45_c1">28</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref45_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref46" level="file">
+            <c altrender="/repositories/12/archival_objects/1193298"
+               id="ref46"
+               level="file">
                <did>
                   <unittitle>Howard, John E.</unittitle>
-                  <unitdate unitdatetype="inclusive">14 August 1817 (1p.), 4 August 1818 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">14 August 1817 (1p.), 4 August 1818 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref46_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref46_c2" localtype="folder" parent="aspace_ref46_c1">29</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref46_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref47" level="file">
+            <c altrender="/repositories/12/archival_objects/1193299"
+               id="ref47"
+               level="file">
                <did>
                   <unittitle>Huntington, Ebenezer (1754-1834)</unittitle>
-                  <unitdate unitdatetype="inclusive">2 March 1819 (2p.), 16 August 1819 (2p.), 17 November 1819 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">2 March 1819 (2p.), 16 August 1819 (2p.), 17 November 1819 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref47_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref47_c2" localtype="folder" parent="aspace_ref47_c1">30</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref47_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref48" level="file">
+            <c altrender="/repositories/12/archival_objects/1193300"
+               id="ref48"
+               level="file">
                <did>
                   <unittitle>Hyrne, Edmund Massingberd (1748-1783)</unittitle>
-                  <unitdate unitdatetype="inclusive">1 December 1783 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">1 December 1783 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref48_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref48_c2" localtype="folder" parent="aspace_ref48_c1">31</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref48_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref49" level="file">
+            <c altrender="/repositories/12/archival_objects/1193301"
+               id="ref49"
+               level="file">
                <did>
                   <unittitle>Jefferson, Thomas (1743-1826)</unittitle>
-                  <unitdate unitdatetype="inclusive">1 March 1800 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">1 March 1800 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref49_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref49_c2" localtype="folder" parent="aspace_ref49_c1">32</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref49_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref50" level="file">
+            <c altrender="/repositories/12/archival_objects/1193302"
+               id="ref50"
+               level="file">
                <did>
                   <unittitle>Johnson, Richard Mentor (1781-1850)</unittitle>
-                  <unitdate unitdatetype="inclusive">2 March 1819 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">2 March 1819 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref50_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref50_c2" localtype="folder" parent="aspace_ref50_c1">33</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref50_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref51" level="file">
+            <c altrender="/repositories/12/archival_objects/1193303"
+               id="ref51"
+               level="file">
                <did>
                   <unittitle>King, Rufus (1755-1827)</unittitle>
-                  <unitdate unitdatetype="inclusive">3 March 1819 (1p.), 29 November 1820 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">3 March 1819 (1p.), 29 November 1820 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref51_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref51_c2" localtype="folder" parent="aspace_ref51_c1">34</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref51_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref52" level="file">
+            <c altrender="/repositories/12/archival_objects/1193304"
+               id="ref52"
+               level="file">
                <did>
                   <unittitle>Knox, Henry (1750-1806)</unittitle>
-                  <unitdate unitdatetype="inclusive">11 December 1793 (5p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">11 December 1793 (5p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref52_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref52_c2" localtype="folder" parent="aspace_ref52_c1">35</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref52_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref53" level="file">
+            <c altrender="/repositories/12/archival_objects/1193305"
+               id="ref53"
+               level="file">
                <did>
                   <unittitle>Lansdowne, William Petty, 1st marquess of (1737-1805)</unittitle>
-                  <unitdate unitdatetype="inclusive">5 October 1793 (1p.), 31 July 1795 (2p.), 19 April 1796 (2p.), 5 March 1797 (4p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">5 October 1793 (1p.), 31 July 1795 (2p.), 19 April 1796 (2p.), 5 March 1797 (4p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref53_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref53_c2" localtype="folder" parent="aspace_ref53_c1">36</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref53_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref54" level="file">
+            <c altrender="/repositories/12/archival_objects/1193306"
+               id="ref54"
+               level="file">
                <did>
                   <unittitle>Latimer, George (1750-1825)</unittitle>
-                  <unitdate unitdatetype="inclusive">6 April 1804 (1p.), 21 January 1819 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">6 April 1804 (1p.), 21 January 1819 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref54_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref54_c2" localtype="folder" parent="aspace_ref54_c1">37</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref54_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref55" level="file">
+            <c altrender="/repositories/12/archival_objects/1193307"
+               id="ref55"
+               level="file">
                <did>
                   <unittitle>Laurens, Henry, Jr.</unittitle>
-                  <unitdate unitdatetype="inclusive">1 May 1792 (3p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">1 May 1792 (3p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref55_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref55_c2" localtype="folder" parent="aspace_ref55_c1">38</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref55_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref56" level="file">
+            <c altrender="/repositories/12/archival_objects/1193308"
+               id="ref56"
+               level="file">
                <did>
                   <unittitle>Levy, Moses</unittitle>
-                  <unitdate unitdatetype="inclusive">27 August 1818 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">27 August 1818 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref56_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref56_c2" localtype="folder" parent="aspace_ref56_c1">39</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref56_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref57" level="file">
+            <c altrender="/repositories/12/archival_objects/1193309"
+               id="ref57"
+               level="file">
                <did>
                   <unittitle>Lincoln, Benjamin (1733-1810)</unittitle>
-                  <unitdate unitdatetype="inclusive">7 December 1799 (2p.), 10 August 1784 (2p.), 30 October 1783 (2p.), 26 March 1800 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">7 December 1799 (2p.), 10 August 1784 (2p.), 30 October 1783 (2p.), 26 March 1800 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref57_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref57_c2" localtype="folder" parent="aspace_ref57_c1">40</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref57_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
@@ -899,272 +1074,336 @@
                   <p>(Plus a copy made by Jackson)</p>
                </odd>
             </c>
-            <c id="ref58" level="file">
+            <c altrender="/repositories/12/archival_objects/1193310"
+               id="ref58"
+               level="file">
                <did>
                   <unittitle>Livingston, Edward (1764-1836)</unittitle>
-                  <unitdate unitdatetype="inclusive">22 December 1785 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">22 December 1785 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref58_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref58_c2" localtype="folder" parent="aspace_ref58_c1">41</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref58_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref59" level="file">
+            <c altrender="/repositories/12/archival_objects/1193311"
+               id="ref59"
+               level="file">
                <did>
                   <unittitle>Lyman, Daniel</unittitle>
-                  <unitdate unitdatetype="inclusive">2 August 1818 (2p.), 5 September 1819 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">2 August 1818 (2p.), 5 September 1819 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref59_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref59_c2" localtype="folder" parent="aspace_ref59_c1">42</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref59_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref60" level="file">
+            <c altrender="/repositories/12/archival_objects/1193312"
+               id="ref60"
+               level="file">
                <did>
                   <unittitle>Meigs, (Henry 1783-1861?)</unittitle>
-                  <unitdate unitdatetype="inclusive">2 May 1820 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">2 May 1820 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref60_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref60_c2" localtype="folder" parent="aspace_ref60_c1">43</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref60_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref61" level="file">
+            <c altrender="/repositories/12/archival_objects/1193313"
+               id="ref61"
+               level="file">
                <did>
                   <unittitle>Mercer, Charles Fenton (1778-1858)</unittitle>
-                  <unitdate unitdatetype="inclusive">2 March 1819 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">2 March 1819 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref61_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref61_c2" localtype="folder" parent="aspace_ref61_c1">44</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref61_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref62" level="file">
+            <c altrender="/repositories/12/archival_objects/1193314"
+               id="ref62"
+               level="file">
                <did>
                   <unittitle>Monroe, J. J.</unittitle>
-                  <unitdate unitdatetype="inclusive">11 December 1818 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">11 December 1818 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref62_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref62_c2" localtype="folder" parent="aspace_ref62_c1">45</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref62_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref63" level="file">
+            <c altrender="/repositories/12/archival_objects/1193315"
+               id="ref63"
+               level="file">
                <did>
                   <unittitle>Noailles, Emanuel Marie Louis, marquis de (1743-1822)</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref63_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref63_c2" localtype="folder" parent="aspace_ref63_c1">46</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref63_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref64" level="file">
+            <c altrender="/repositories/12/archival_objects/1193316"
+               id="ref64"
+               level="file">
                <did>
                   <unittitle>Pinckney, Charles (1757-1824)</unittitle>
-                  <unitdate unitdatetype="inclusive">15 April 1820 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">15 April 1820 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref64_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref64_c2" localtype="folder" parent="aspace_ref64_c1">47</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref64_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref65" level="file">
+            <c altrender="/repositories/12/archival_objects/1193317"
+               id="ref65"
+               level="file">
                <did>
                   <unittitle>Pinckney, Charles Cotesworth (1746-1825)</unittitle>
-                  <unitdate unitdatetype="inclusive">No year September 24 (2p.), 15 May 1800 (2p.), 5 September 1812 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">No year September 24 (2p.), 15 May 1800 (2p.), 5 September 1812 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref65_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref65_c2" localtype="folder" parent="aspace_ref65_c1">48</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref65_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref66" level="file">
+            <c altrender="/repositories/12/archival_objects/1193318"
+               id="ref66"
+               level="file">
                <did>
                   <unittitle>Pinckney, Thomas (1750-1828)</unittitle>
-                  <unitdate unitdatetype="inclusive">23 September 1800 (1p.), 1 August 1817 (1p.), 17 September 1827 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">23 September 1800 (1p.), 1 August 1817 (1p.), 17 September 1827 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref66_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref66_c2" localtype="folder" parent="aspace_ref66_c1">49</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref66_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref67" level="file">
+            <c altrender="/repositories/12/archival_objects/1193319"
+               id="ref67"
+               level="file">
                <did>
                   <unittitle>Platt, Richard</unittitle>
-                  <unitdate unitdatetype="inclusive">14 November 1817 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">14 November 1817 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref67_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref67_c2" localtype="folder" parent="aspace_ref67_c1">50</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref67_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
-               <c id="ref68" level="file">
+               <c altrender="/repositories/12/archival_objects/1193320"
+                  id="ref68"
+                  level="file">
                   <did>
                      <unittitle>Enclosing two printed documents relating to the Society of the Cincinnati.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132953 /locations/9"
                                 containerid="39002042294539"
+                                encodinganalog="archive legal"
                                 id="aspace_ref68_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref68_c2" localtype="folder" parent="aspace_ref68_c1">50</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                                 containerid="39002075122490"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref68_c3"
                                 label="Mixed Materials"
                                 localtype="reel">1U</container>
                   </did>
                </c>
             </c>
-            <c id="ref69" level="file">
+            <c altrender="/repositories/12/archival_objects/1193321"
+               id="ref69"
+               level="file">
                <did>
                   <unittitle>Rawle, William (1759-1836)</unittitle>
-                  <unitdate unitdatetype="inclusive">24 August 1818 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">24 August 1818 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref69_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref69_c2" localtype="folder" parent="aspace_ref69_c1">51</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref69_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref70" level="file">
+            <c altrender="/repositories/12/archival_objects/1193322"
+               id="ref70"
+               level="file">
                <did>
                   <unittitle>Reed, Philip (1760-1829)</unittitle>
-                  <unitdate unitdatetype="inclusive">3 March 1819 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">3 March 1819 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref70_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref70_c2" localtype="folder" parent="aspace_ref70_c1">52</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref70_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref71" level="file">
+            <c altrender="/repositories/12/archival_objects/1193323"
+               id="ref71"
+               level="file">
                <did>
                   <unittitle>Rutledge, John, Jr. (1739-1800)</unittitle>
-                  <unitdate unitdatetype="inclusive">28 July 1786 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">28 July 1786 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref71_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref71_c2" localtype="folder" parent="aspace_ref71_c1">53</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref71_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref72" level="file">
+            <c altrender="/repositories/12/archival_objects/1193324"
+               id="ref72"
+               level="file">
                <did>
                   <unittitle>Scott, Winfield (1786-1866)</unittitle>
-                  <unitdate unitdatetype="inclusive">8 July 1815 (3p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">8 July 1815 (3p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref72_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref72_c2" localtype="folder" parent="aspace_ref72_c1">54</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref72_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref73" level="file">
+            <c altrender="/repositories/12/archival_objects/1193325"
+               id="ref73"
+               level="file">
                <did>
                   <unittitle>Sergeant, John (1779-1852)</unittitle>
-                  <unitdate unitdatetype="inclusive">10 December 1817 (1p.), 4 March 1819 (1p.), 18 May 1828 (2p.).</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">10 December 1817 (1p.), 4 March 1819 (1p.), 18 May 1828 (2p.).</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref73_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref73_c2" localtype="folder" parent="aspace_ref73_c1">55</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref73_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
@@ -1174,35 +1413,43 @@
                   <p>10 December 1817 contains draft of Jackson's reply. (2p.)</p>
                </odd>
             </c>
-            <c id="ref74" level="file">
+            <c altrender="/repositories/12/archival_objects/1193326"
+               id="ref74"
+               level="file">
                <did>
                   <unittitle>Shippen, Thomas Lee</unittitle>
-                  <unitdate unitdatetype="inclusive">19 August 1786 (3p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">19 August 1786 (3p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref74_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref74_c2" localtype="folder" parent="aspace_ref74_c1">56</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref74_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref75" level="file">
+            <c altrender="/repositories/12/archival_objects/1193327"
+               id="ref75"
+               level="file">
                <did>
                   <unittitle>Tilghman, William (1756-1827)</unittitle>
-                  <unitdate unitdatetype="inclusive">5 August 1819 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">5 August 1819 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref75_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref75_c2" localtype="folder" parent="aspace_ref75_c1">57</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref75_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
@@ -1212,150 +1459,190 @@
                   <p>Signed also by John B. Gibson &amp; Thomas Duncan</p>
                </odd>
             </c>
-            <c id="ref76" level="file">
+            <c altrender="/repositories/12/archival_objects/1193328"
+               id="ref76"
+               level="file">
                <did>
                   <unittitle>Varick, Richard (1753-1831)</unittitle>
-                  <unitdate unitdatetype="inclusive">14 July 1818 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">14 July 1818 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref76_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref76_c2" localtype="folder" parent="aspace_ref76_c1">58</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref76_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref77" level="file">
+            <c altrender="/repositories/12/archival_objects/1193329"
+               id="ref77"
+               level="file">
                <did>
                   <unittitle>Washington, George (1732-1799)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref77_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref77_c2" localtype="folder" parent="aspace_ref77_c1">59</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref77_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
-               <c id="ref78" level="file">
+               <c altrender="/repositories/12/archival_objects/1193330"
+                  id="ref78"
+                  level="file">
                   <did>
                      <unittitle>Copies of two letters to Jackson (the copies made by Jackson)</unittitle>
-                     <unitdate unitdatetype="inclusive">1 November 1783 (1p.), 26 December 1791 (2p.)</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">1 November 1783 (1p.), 26 December 1791 (2p.)</unitdate>
+                     <container altrender="/repositories/12/top_containers/132953 /locations/9"
                                 containerid="39002042294539"
+                                encodinganalog="archive legal"
                                 id="aspace_ref78_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref78_c2" localtype="folder" parent="aspace_ref78_c1">59</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                                 containerid="39002075122490"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref78_c3"
                                 label="Mixed Materials"
                                 localtype="reel">1U</container>
                   </did>
                </c>
             </c>
-            <c id="ref79" level="file">
+            <c altrender="/repositories/12/archival_objects/1193331"
+               id="ref79"
+               level="file">
                <did>
                   <unittitle>Williams, Otho Holland (1749-1794)</unittitle>
-                  <unitdate unitdatetype="inclusive">22 September 1783 (3p.), 16 February 1786 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">22 September 1783 (3p.), 16 February 1786 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref79_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref79_c2" localtype="folder" parent="aspace_ref79_c1">60</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref79_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref80" level="file">
+            <c altrender="/repositories/12/archival_objects/1193332"
+               id="ref80"
+               level="file">
                <did>
                   <unittitle>Willing, Thomas</unittitle>
-                  <unitdate unitdatetype="inclusive">[1800?] (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">[1800?] (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref80_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref80_c2" localtype="folder" parent="aspace_ref80_c1">61</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref80_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
-               <c id="ref81" level="file">
+               <c altrender="/repositories/12/archival_objects/1193333"
+                  id="ref81"
+                  level="file">
                   <did>
                      <unittitle>Also a writ, signed by Willing and summoning several citizens of Philadelphia to appear before him and testify against 3 highway robbers. 12 April 1771.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132953 /locations/9"
                                 containerid="39002042294539"
+                                encodinganalog="archive legal"
                                 id="aspace_ref81_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref81_c2" localtype="folder" parent="aspace_ref81_c1">62</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                                 containerid="39002075122490"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref81_c3"
                                 label="Mixed Materials"
                                 localtype="reel">1U</container>
                   </did>
                </c>
             </c>
-            <c id="ref82" level="file">
+            <c altrender="/repositories/12/archival_objects/1193334"
+               id="ref82"
+               level="file">
                <did>
                   <unittitle>Wycombe, Lord</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="29 September 1793">
+                  <unitdatestructured altrender="29 September 1793"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1793-09-29">29 September 1793</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref82_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref82_c2" localtype="folder" parent="aspace_ref82_c1">62</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref82_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
          </c>
-         <c id="ref88" level="series">
+         <c altrender="/repositories/12/archival_objects/1193335"
+            id="ref88"
+            level="series">
             <did>
                <unittitle>MANUSCRIPTS IN THE HAND OF WILLIAM JACKSON</unittitle>
                <unitid>Series II</unitid>
-               <unitdate unitdatetype="inclusive">1818, undated</unitdate>
+               <unitdatestructured altrender="1818, undated" label="creation" unitdatetype="inclusive">
+                  <datesingle standarddate="1818">1818, undated</datesingle>
+               </unitdatestructured>
             </did>
-            <c id="ref89" level="file">
+            <c altrender="/repositories/12/archival_objects/1193336"
+               id="ref89"
+               level="file">
                <did>
                   <unittitle>Letter to Ebenezer Huntington</unittitle>
-                  <unitdate unitdatetype="inclusive">30 June 1818 (1p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">30 June 1818 (1p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref89_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref89_c2" localtype="folder" parent="aspace_ref89_c1">63</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref89_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref90" level="file">
+            <c altrender="/repositories/12/archival_objects/1193337"
+               id="ref90"
+               level="file">
                <did>
                   <unittitle>Other drafts of letters by Jackson</unittitle>
                </did>
@@ -1367,115 +1654,162 @@
                   </p>
                </odd>
             </c>
-            <c id="ref92" level="file">
+            <c altrender="/repositories/12/archival_objects/1193338"
+               id="ref92"
+               level="file">
                <did>
                   <unittitle>Excerpts from the Journals of Congress outlining the resolutions of Congress relating to the half pay for officers of the Revolutionary Army</unittitle>
-                  <unitdate unitdatetype="inclusive">1818 (3p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">1818 (3p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref92_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref92_c2" localtype="folder" parent="aspace_ref92_c1">64</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref92_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref93" level="file">
+            <c altrender="/repositories/12/archival_objects/1193339"
+               id="ref93"
+               level="file">
                <did>
                   <unittitle>"To Major General La Fayette. The address of the citizens of Philadelphia in their collective capacity,"</unittitle>
-                  <unitdate unitdatetype="inclusive">(1824?) (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">(1824?) (2p.)</unitdate>
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref93_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref93_c2" localtype="folder" parent="aspace_ref93_c1">65</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref93_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref94" level="file">
+            <c altrender="/repositories/12/archival_objects/1193340"
+               id="ref94"
+               level="file">
                <did>
                   <unittitle>Account, with corrections, of Col. Laurens's account of the surrender of Lord Cornwallis</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref94_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref94_c2" localtype="folder" parent="aspace_ref94_c1">66</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref94_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref95" level="file">
+            <c altrender="/repositories/12/archival_objects/1193341"
+               id="ref95"
+               level="file">
                <did>
                   <unittitle>Memorial to Congress on behalf of the surviving officers of the Revolutionary Army</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated (2p.)</unitdate>
-                  <container localtype="box" id="d2e2">2</container>
-                  <container localtype="reel" id="d2e5">1U</container>
+                  <unitdate label="creation" unitdatetype="inclusive">Undated (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132954 /locations/2821"
+                             containerid="39002042609090"
+                             id="aspace_ref95_c1"
+                             label="Mixed Materials"
+                             localtype="box">2</container>
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
+                             containerid="39002075122490"
+                             encodinganalog="microfilm box"
+                             id="aspace_ref95_c2"
+                             label="Mixed Materials"
+                             localtype="reel">1U</container>
                </did>
             </c>
          </c>
-         <c id="ref96" level="series">
+         <c altrender="/repositories/12/archival_objects/1193342"
+            id="ref96"
+            level="series">
             <did>
                <unittitle>MISCELLANEOUS AND PRINTED ITEMS</unittitle>
                <unitid>Series III</unitid>
-               <unitdate unitdatetype="inclusive">1782-1824, undated</unitdate>
+               <unitdatestructured altrender="1782-1824, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
+                  <daterange>
+                     <fromdate standarddate="1782">1782</fromdate>
+                     <todate standarddate="1824">1824</todate>
+                  </daterange>
+               </unitdatestructured>
             </did>
-            <c id="ref97" level="file">
+            <c altrender="/repositories/12/archival_objects/1193343"
+               id="ref97"
+               level="file">
                <did>
                   <unittitle>Bradford, Gamaliel</unittitle>
-                  <unitdate unitdatetype="inclusive">10 September 1818 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">10 September 1818 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref97_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref97_c2" localtype="folder" parent="aspace_ref97_c1">67</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref97_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
-               <c id="ref98" level="file">
+               <c altrender="/repositories/12/archival_objects/1193344"
+                  id="ref98"
+                  level="file">
                   <did>
                      <unittitle>Letter to Horace Binney</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132953 /locations/9"
                                 containerid="39002042294539"
+                                encodinganalog="archive legal"
                                 id="aspace_ref98_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref98_c2" localtype="folder" parent="aspace_ref98_c1">67</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                                 containerid="39002075122490"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref98_c3"
                                 label="Mixed Materials"
                                 localtype="reel">1U</container>
                   </did>
-                  <c id="ref99" level="file">
+                  <c altrender="/repositories/12/archival_objects/1193345"
+                     id="ref99"
+                     level="file">
                      <did>
                         <unittitle>With a copy of Major Jackson's reply to Bradford</unittitle>
-                        <unitdate unitdatetype="inclusive">15 September 1818 (1p.)</unitdate>
-                        <container altrender="archive legal"
+                        <unitdate label="creation" unitdatetype="inclusive">15 September 1818 (1p.)</unitdate>
+                        <container altrender="/repositories/12/top_containers/132953 /locations/9"
                                    containerid="39002042294539"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref99_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref99_c2" localtype="folder" parent="aspace_ref99_c1">67</container>
-                        <container altrender="microfilm box"
+                        <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                                    containerid="39002075122490"
+                                   encodinganalog="microfilm box"
                                    id="aspace_ref99_c3"
                                    label="Mixed Materials"
                                    localtype="reel">1U</container>
@@ -1483,155 +1817,193 @@
                   </c>
                </c>
             </c>
-            <c id="ref100" level="file">
+            <c altrender="/repositories/12/archival_objects/1193346"
+               id="ref100"
+               level="file">
                <did>
                   <unittitle>Carroll, Charles, of Carrollton (1737-1832): Letter to Charles Carroll, Jr.</unittitle>
-                  <unitdate unitdatetype="inclusive">7 January 1805 (3p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">7 January 1805 (3p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref100_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref100_c2" localtype="folder" parent="aspace_ref100_c1">68</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref100_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref101" level="file">
+            <c altrender="/repositories/12/archival_objects/1193347"
+               id="ref101"
+               level="file">
                <did>
                   <unittitle>Davis, John: Bill to William Jackson</unittitle>
-                  <unitdate unitdatetype="inclusive">1819 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">1819 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref101_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref101_c2" localtype="folder" parent="aspace_ref101_c1">69</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref101_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref102" level="file">
+            <c altrender="/repositories/12/archival_objects/1193348"
+               id="ref102"
+               level="file">
                <did>
                   <unittitle>Harper, Robert Goodloe (1765-1825): Letter to President James Monroe</unittitle>
-                  <unitdate unitdatetype="inclusive">5 November 1824 (2p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">5 November 1824 (2p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref102_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref102_c2" localtype="folder" parent="aspace_ref102_c1">70</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref102_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref103" level="file">
+            <c altrender="/repositories/12/archival_objects/1193349"
+               id="ref103"
+               level="file">
                <did>
                   <unittitle>Mifflin, Thomas (1744-1800): Letter to President John Adams</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated [July 4?]</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated [July 4?]</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref103_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref103_c2" localtype="folder" parent="aspace_ref103_c1">71</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref103_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref104" level="file">
+            <c altrender="/repositories/12/archival_objects/1193350"
+               id="ref104"
+               level="file">
                <did>
                   <unittitle>Parker, Isaac (1768-1830): Letter to William Eustis Signed also by Charles Jackson and Samuel Putnam</unittitle>
-                  <unitdate unitdatetype="inclusive">16 November 1819 (4p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">16 November 1819 (4p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref104_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref104_c2" localtype="folder" parent="aspace_ref104_c1">72</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref104_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref105" level="file">
+            <c altrender="/repositories/12/archival_objects/1193351"
+               id="ref105"
+               level="file">
                <did>
                   <unittitle>Society of the Cincinnati: Proceedings of the New Jersey Society relative to the half-pay of the surviving officers of the Revolutionary Army and adopting the resolutions of the Pennsylvania Society of the Cincinnati</unittitle>
-                  <unitdate unitdatetype="inclusive">4 July 1818 (4p.)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">4 July 1818 (4p.)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref105_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref105_c2" localtype="folder" parent="aspace_ref105_c1">73</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref105_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref106" level="file">
+            <c altrender="/repositories/12/archival_objects/1193352"
+               id="ref106"
+               level="file">
                <did>
                   <unittitle>Goldsborough, Robert Henry, 1780-1836: In the Senate. Speech of Mr. Golds-borough upon the bill to provide for the surviving officers and soldiers of the revolutionary army [1818?] (Broadside)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref106_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref106_c2" localtype="folder" parent="aspace_ref106_c1">74</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref106_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref107" level="file">
+            <c altrender="/repositories/12/archival_objects/1193353"
+               id="ref107"
+               level="file">
                <did>
                   <unittitle>Jackson, William: Memorial to Congress on behalf of the surviving officers of the revolutionary army</unittitle>
-                  <unitdate unitdatetype="inclusive">[December 1819] (Pamphlet)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">[December 1819] (Pamphlet)</unitdate>
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref107_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref107_c2" localtype="folder" parent="aspace_ref107_c1">75</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref107_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref108" level="file">
+            <c altrender="/repositories/12/archival_objects/1193354"
+               id="ref108"
+               level="file">
                <did>
                   <unittitle>Marriage license form, filled in, for Henry Ferguson and Mary Potts</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="10 January 1782">
+                  <unitdatestructured altrender="10 January 1782"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1782-01-10">10 January 1782</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132953 /locations/9"
                              containerid="39002042294539"
+                             encodinganalog="archive legal"
                              id="aspace_ref108_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref108_c2" localtype="folder" parent="aspace_ref108_c1">76</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/206676 /locations/2998"
                              containerid="39002075122490"
+                             encodinganalog="microfilm box"
                              id="aspace_ref108_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>

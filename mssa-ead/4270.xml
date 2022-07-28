@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0868">mssa.ms.0868</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0868">mssa.ms.0868</recordid>
+      <otherrecordid localtype="BIB">614288</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Joel Foote Bingham Papers
@@ -32,6 +34,11 @@
             <date>December 1981</date>
             <num>MS 868</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:53:13+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:12:52+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:53</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:12</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4270" level="collection">
       <did>
          <unittitle>Joel Foote Bingham papers</unittitle>
          <unitid>MS 868</unitid>
@@ -82,119 +92,132 @@
             <quantity>0.25</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1855-1886">
+         <unitdatestructured altrender="1855-1886" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1855">1855</fromdate>
                <todate standarddate="1886">1886</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_05078072ffee707309a37bfe19f0bdc0">Three manuscript volumes of poetry, including "The Swedish lovers, a tale of the prairies," in one volume,and two notebooks of original poems and translations.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/nr91006656"
                       rules="aacr"
                       source="naf">
-               <part>Bingham, Joel Foote, 1827-1914</part>
+               <part localtype="agent_person">Bingham, Joel Foote, 1827-1914</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_1e78e0036578dd7330670c7194a10272">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of H. H. C. Bingham in 1950.</p>  
+         <p>Gift of H. H. C. Bingham in 1950.</p>
       </acqinfo>
       <accessrestrict id="aspace_69df0a67ccc735c80ec73114503b5cfa">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_2b44595017748863ea4c753bfee99099">
          <head>Preferred Citation</head>
-         <p>Joel Foote Bingham Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Joel Foote Bingham Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_8f8b734f9bf948b895e8b8289f3b8a7b">
          <head>Scope and Contents</head>
          <p>The Joel Foote Bingham Papers consists of three manuscript volumes of poetry dating between 1855 and 1886. Included are a volume entitled "The Swedish Lovers, A Tale of the Prairies" and two notebooks containing original poems and translations.</p>
-         <p>These volumes were a gift of H. H. C. Bingham to Yale University in 1950.</p>  
+         <p>These volumes were a gift of H. H. C. Bingham to Yale University in 1950.</p>
       </scopecontent>
       <bioghist id="aspace_92ad1aeee427b7f364cb6a315c4ed606">
          <head>Biographical / Historical</head>
-         <p>Joel Foote Bingham; from 1852-1858, proprietor and principal of a boys' preparatory school in New York; in 1860 became a pastor in Buffalo, New York; in 1867 moved to First Parish Church, Augusta, Maine; in 1871 entered ministry of the Episcopal Church and served at St. John's Church, Portsmouth, N.H., St. John's Church, Waterbury, Ct., and St. James' Church, New London, Ct.; author and lecturer.</p>  
+         <p>Joel Foote Bingham; from 1852-1858, proprietor and principal of a boys' preparatory school in New York; in 1860 became a pastor in Buffalo, New York; in 1867 moved to First Parish Church, Augusta, Maine; in 1871 entered ministry of the Episcopal Church and served at St. John's Church, Portsmouth, N.H., St. John's Church, Waterbury, Ct., and St. James' Church, New London, Ct.; author and lecturer.</p>
       </bioghist>
       <userestrict id="aspace_efc9c60ba25b78d4746e68586167571c">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85077519"
                   source="lcsh">
-            <part>Literature -- History and criticism</part>
+            <part localtype="topical">Literature</part>
+            <part localtype="topical">History and criticism</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85103704"
                   source="lcsh">
-            <part>Poetry</part>
+            <part localtype="topical">Poetry</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85131120"
                   source="lcsh">
-            <part>Swedes -- United States</part>
+            <part localtype="topical">Swedes</part>
+            <part localtype="geographic">United States</part>
          </subject>
          <genreform identifier="http://vocab.getty.edu/aat/300055931" source="aat">
-            <part>Poetry</part>
+            <part localtype="genre_form">Poetry</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85009793"
                   source="lcsh">
-            <part>Authors</part>
+            <part localtype="topical">Authors</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/nr91006656"
                    rules="aacr"
                    source="naf">
-            <part>Bingham, Joel Foote, 1827-1914</part>
+            <part localtype="agent_person">Bingham, Joel Foote, 1827-1914</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1354309"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>"The Swedish Lovers, A Tale of the Prairies"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1878 March">
+               <unitdatestructured altrender="1878 March" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1855">1855</fromdate>
                      <todate standarddate="1886">1886</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151637 /locations/9"
                           containerid="39002042277120"
+                          encodinganalog="archive half letter"
                           id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1354310"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Notebook of poetry</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1855-1875">
+               <unitdatestructured altrender="1855-1875" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1855">1855</fromdate>
                      <todate standarddate="1875">1875</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151637 /locations/9"
                           containerid="39002042277120"
+                          encodinganalog="archive half letter"
                           id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">2</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1354311"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Notebook of poetry</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1875-1886">
+               <unitdatestructured altrender="1875-1886" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1875">1875</fromdate>
                      <todate standarddate="1886">1886</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151637 /locations/9"
                           containerid="39002042277120"
+                          encodinganalog="archive half letter"
                           id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>

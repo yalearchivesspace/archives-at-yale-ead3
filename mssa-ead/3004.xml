@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0672">mssa.ms.0672</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0672">mssa.ms.0672</recordid>
+      <otherrecordid localtype="BIB">614154</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the James Boyer Collection
@@ -32,6 +34,11 @@
             <date>March 1973</date>
             <num>MS 672</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:08:34+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:49:03+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:08</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:49</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3004" level="collection">
       <did>
          <unittitle>James Boyer collection</unittitle>
          <unitid>MS 672</unitid>
@@ -82,614 +92,772 @@
             <quantity>3</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1773-1841">
+         <unitdatestructured altrender="1773-1841" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1773">1773</fromdate>
                <todate standarddate="1841">1841</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_4405d264fa7bf505b290778051123c46">A collection of photostatic copies of letters (1779-1784) written to James Boyer, artilleryman and commissary officer, during the Revolutionary War. Correspondents include his brother, Peter Boyer, Samuel Hodgdon (1745-1824), Richard Frothingham (1748-1819), Ebenezer Stevens (1713-1798) and Henry Knox (1750-1806). Also included are photostatic copies of miscellaneous documents and papers "found in the Boston Post Office" relating to the Revolution.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Boyer, James</part>
+               <part localtype="agent_person">Boyer, James</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_d5ee852aa891ad5c86e79e442f3ebe35">
          <head>Immediate Source of Acquisition</head>
-         <p>Transferred from Beinecke Rare Book Library, 1973.</p>  
+         <p>Transferred from Beinecke Rare Book Library, 1973.</p>
       </acqinfo>
       <accessrestrict id="aspace_b78767a6a3e436fd76f84915bca682bd">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_6bf4a5bf3cfbb204a9c6dadcee34c0cf">
          <head>Preferred Citation</head>
-         <p>James Boyer Collection. Manuscripts and Archives, Yale University Library.</p>  
+         <p>James Boyer Collection. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_43587292f091ca99dd6b608e4a68c288">
          <head>Scope and Contents</head>
-         <p>The James Boyer collection consists of photostatic copies of letters (1779-1784) written to James Boyer during the Revolutionary War. James Boyer served in an artillery component under Ebenezer Stevens; he also served in a commissary office until the end of the war. Correspondents include Peter Boyer, his brother, a member of the Committee of Correspondence, Safety, and Inspection in Boston, Samuel Hodgdon (1745-1824), Richard Frothingham (1748-1819), and Ebenezer Stevens (1713-1798). Also included in this collection are photostatic copies of miscellaneous documents and papers relating to the Revolution which, in 1929, were described by the donor, Maj. Preston Brown, as being "found in the Boston Post Office."</p>  
+         <p>The James Boyer collection consists of photostatic copies of letters (1779-1784) written to James Boyer during the Revolutionary War. James Boyer served in an artillery component under Ebenezer Stevens; he also served in a commissary office until the end of the war. Correspondents include Peter Boyer, his brother, a member of the Committee of Correspondence, Safety, and Inspection in Boston, Samuel Hodgdon (1745-1824), Richard Frothingham (1748-1819), and Ebenezer Stevens (1713-1798). Also included in this collection are photostatic copies of miscellaneous documents and papers relating to the Revolution which, in 1929, were described by the donor, Maj. Preston Brown, as being "found in the Boston Post Office."</p>
       </scopecontent>
       <userestrict id="aspace_b42da50cfaf4585c5398715adeda3d1d">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85081931"
                    source="lcsh">
-            <part>Massachusetts -- History -- Revolution, 1775-1783</part>
+            <part localtype="geographic">Massachusetts</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Revolution, 1775-1783</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140139"
                    source="lcsh">
-            <part>United States -- History -- Revolution, 1775-1783</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Revolution, 1775-1783</part>
          </geogname>
          <persname source="local">
-            <part>Boyer, James</part>
+            <part localtype="agent_person">Boyer, James</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="file">
+         <c altrender="/repositories/12/archival_objects/1180642"
+            id="ref10"
+            level="file">
             <did>
                <unittitle>[Papers found in the Boston Post Office]</unittitle>
             </did>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1180643"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Passport issued by Col. Suttelough, Q. M. Gen. To Luke Johnson</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1778 February 15">
+                  <unitdatestructured altrender="1778 February 15"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e220"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1180644"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Isaac Barron's statement of service in the American Revolution and plea for a pension, witnessed by John Davis</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1818 April 14">
+                  <unitdatestructured altrender="1818 April 14" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e236"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1180645"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Certificate of Service in the Revolutionary War for Isaac Barron, signed by John Davis; Boston</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1818 September">
+                  <unitdatestructured altrender="1818 September"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e252"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1180646"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Notification of appointment of Issaac Barne to the Wheel Wright company, signed by Luther Kennicut</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1777 March 4">
+                  <unitdatestructured altrender="1777 March 4" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e268"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1180647"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Orders to Lieut. Barns from Col. Wm. Shepard; Springfield [at bottom is a note identifying Barns as Barrows]</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1781 August 25">
+                  <unitdatestructured altrender="1781 August 25"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e284"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1180648"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Appointment of Issaac Barrons to 2d lieutenancy, signed by John Hancock</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1781 August 15">
+                  <unitdatestructured altrender="1781 August 15"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e300"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1180649"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Certificate of service in the Revolutionary War for Thomas Haney, signed by John Haney; Boston [with note by Haney making a plea for a pension]</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1818 July">
+                  <unitdatestructured altrender="1818 July" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e316"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1180650"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Statement of service in the Revolutionary War by Thomas Haney; Boston</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1818 March 18">
+                  <unitdatestructured altrender="1818 March 18" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e332"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1180651"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>A return of Capt. Abijah Childs' company in the 25th Regiment</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1776 February 16">
+                  <unitdatestructured altrender="1776 February 16"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e348"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1180652"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Appointment of Simon Edgel to captaincy; signed by Perez Morton and 15 others</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1776 December 10">
+                  <unitdatestructured altrender="1776 December 10"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e364"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1180653"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Appointment of Simeon Edgell to captaincy; signed by John Avery and 15 others</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1773 July 10">
+                  <unitdatestructured altrender="1773 July 10" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e381"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1180654"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Appointment of Benjamin Edghill to captaincy; signed by John Avery and 15 others</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1778 July 7">
+                  <unitdatestructured altrender="1778 July 7" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e397"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1180655"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>Appointment of Daniel Gallushee to lieutenancy by Congress; signed by John Hancock</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1775 May 19">
+                  <unitdatestructured altrender="1775 May 19" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e413"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1180656"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Appointment of Richard Frothingham to office of Principle Field Commissary, signed by Richard Peters</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1781 June 1">
+                  <unitdatestructured altrender="1781 June 1" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e429"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1180657"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Certificate of continuance on Pension Roll to Caesar Glover, signed by I. L. Edwards</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1820 October 20">
+                  <unitdatestructured altrender="1820 October 20"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e445"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1180658"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Circular letter ordering the return of census figures from the District Court of the United States at Boston, signed by M. Van Buren</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1830 June 4">
+                  <unitdatestructured altrender="1830 June 4" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e461"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1180659"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>Acknowledgment of the receipt of copyright lists from the Clerk of the District Court of the United States at Boston, signed by Daniel Webster</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1841 April 13">
+                  <unitdatestructured altrender="1841 April 13" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607185"
-                             id="d1e477"
+                  <container altrender="/repositories/12/top_containers/130765 /locations/9"
+                             containerid="39002042607185"
+                             id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
          </c>
-         <c id="ref28" level="file">
+         <c altrender="/repositories/12/archival_objects/1180660"
+            id="ref28"
+            level="file">
             <did>
                <unittitle>[Originals formerly in the possession of Mr. McKay of Meadville, PA]</unittitle>
             </did>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/1180661"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>Warrant from Sam Hodgdon to James Boyer; Philadelphia</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1780 August 8">
+                  <unitdatestructured altrender="1780 August 8" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e499"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1180662"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Letter from Sam Hodgdon to James Boyer; Philadelphia</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1784 August 21">
+                  <unitdatestructured altrender="1784 August 21"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e515"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1180663"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Letter from Sam Hodgdon to James Boyer; Chester</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1779 July 18">
+                  <unitdatestructured altrender="1779 July 18" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e531"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1180664"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>Copy of letter from B. Lincoln to Samuel Hodgdon</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1782 January 1">
+                  <unitdatestructured altrender="1782 January 1"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e547"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1180665"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>Letter from Peter Boyer to James Boyer; Boston</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1780 September 15">
+                  <unitdatestructured altrender="1780 September 15"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e563"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1180666"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>Citation to James Boyer to appear at court-marial of Gen. St. Clair; White Plains</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1778 August 4">
+                  <unitdatestructured altrender="1778 August 4" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e579"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1180667"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Letter from Peter Boyer to James Boyer; Boston</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1779 October 26">
+                  <unitdatestructured altrender="1779 October 26"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e595"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1180668"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>Letter from Richard Frothingham to James boyer; Tappon</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1780 August 20">
+                  <unitdatestructured altrender="1780 August 20"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e611"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1180669"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>Letter from Alexander Hodgdon to James Boyer; Boston</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1779 February 20">
+                  <unitdatestructured altrender="1779 February 20"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e627"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1180670"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>Letter from Brig. Gen. Knox to James Boyer; camp in New Jersey</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1780 October 30">
+                  <unitdatestructured altrender="1780 October 30"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e643"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1180671"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>Instructions from Sam Hodgdon to James Boyer; Philadelphia</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1780 October 26">
+                  <unitdatestructured altrender="1780 October 26"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e660"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1180672"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>Appointment by EbenrStevens of James Boyer to office of Deputy Commissary General</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1778 April 24">
+                  <unitdatestructured altrender="1778 April 24" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e676"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref40_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1180673"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>Letter from Richard Frothingham to James Boyer</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1780 June 5">
+                  <unitdatestructured altrender="1780 June 5" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e692"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref41_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref42" level="file">
+            <c altrender="/repositories/12/archival_objects/1180674"
+               id="ref42"
+               level="file">
                <did>
                   <unittitle>Letter from Sam Hodgdon to James Boyer; Philadelphia</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1781 October 14">
+                  <unitdatestructured altrender="1781 October 14"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e708"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref42_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref43" level="file">
+            <c altrender="/repositories/12/archival_objects/1180675"
+               id="ref43"
+               level="file">
                <did>
                   <unittitle>Letter from Sam Hodgdon to James Boyer; Boston</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1779 March 10">
+                  <unitdatestructured altrender="1779 March 10" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e724"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref43_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref44" level="file">
+            <c altrender="/repositories/12/archival_objects/1180676"
+               id="ref44"
+               level="file">
                <did>
                   <unittitle>Letter from Peter Boyer to James Boyer; Boston</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1779 August 24">
+                  <unitdatestructured altrender="1779 August 24"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e740"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref44_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref45" level="file">
+            <c altrender="/repositories/12/archival_objects/1180677"
+               id="ref45"
+               level="file">
                <did>
                   <unittitle>Letter from Peter Boyer to James Boyer; Boston [with copy of Treasurer's note appended]</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1780 July 6">
+                  <unitdatestructured altrender="1780 July 6" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e756"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref45_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref46" level="file">
+            <c altrender="/repositories/12/archival_objects/1180678"
+               id="ref46"
+               level="file">
                <did>
                   <unittitle>Letter from Nathaniel Parvin to Thomas Jones; Burlington</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1781 December 10">
+                  <unitdatestructured altrender="1781 December 10"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e772"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref46_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref47" level="file">
+            <c altrender="/repositories/12/archival_objects/1180679"
+               id="ref47"
+               level="file">
                <did>
                   <unittitle>Letter from T. Jones to James Boyer; camp near Williamsburg</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1781 September 13">
+                  <unitdatestructured altrender="1781 September 13"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e788"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref47_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref48" level="file">
+            <c altrender="/repositories/12/archival_objects/1180680"
+               id="ref48"
+               level="file">
                <did>
                   <unittitle>Letter from Richard Frothingham to James Boyer; Artillery Park [contains remarks by an eye witness on the execution of Major André]</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1780 October 3">
+                  <unitdatestructured altrender="1780 October 3"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1773">1773</fromdate>
                         <todate standarddate="1841">1841</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042607193"
-                             id="d1e804"
+                  <container altrender="/repositories/12/top_containers/130766 /locations/9"
+                             containerid="39002042607193"
+                             id="aspace_ref48_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>

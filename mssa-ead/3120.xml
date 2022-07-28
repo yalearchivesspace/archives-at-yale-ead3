@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0659">mssa.ms.0659</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0659">mssa.ms.0659</recordid>
+      <otherrecordid localtype="BIB">614460</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Thomas Wells Farnam Papers
@@ -32,6 +34,11 @@
             <date>April 1973</date>
             <num>MS 659</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:41:26+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:46:08+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:41</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:46</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3120" level="collection">
       <did>
          <unittitle>Thomas Wells Farnam papers</unittitle>
          <unitid>MS 659</unitid>
@@ -83,37 +93,38 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(5 boxes, 1 folio)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1918-1919, 1944-1945">
+         <unitdatestructured altrender="1918-1919, 1944-1945"
+                             label="creation"
+                             unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1918">1918</fromdate>
                <todate standarddate="1945">1945</todate>
             </daterange>
          </unitdatestructured>
-         <unitdatestructured unitdatetype="bulk">
+         <unitdatestructured label="creation" unitdatetype="bulk">
             <daterange>
                <fromdate standarddate="1918">1918</fromdate>
                <todate standarddate="1919">1919</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_049f0853c2b2fc2971a1137b5ef1da74">Correspondence, cablegrams, reports, notes, and other papers of Thomas W. Farnam, financier and administrator. These papers relate to Farnam's service in Serbia, 1918-1919, as American Red Cross Commissioner in charge of relief and hospitals following World War I.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Farnam, Thomas Wells, 1877-1943</part>
+               <part localtype="agent_person">Farnam, Thomas Wells, 1877-1943</part>
             </persname>
          </origination>
-    
       </did>
       <prefercite id="aspace_a48c5ea7cb0016775809cfb2a1008d79">
          <head>Preferred Citation</head>
-         <p>Thomas Wells Farnam Papers (MS 659). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Thomas Wells Farnam Papers (MS 659). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <arrangement id="aspace_f0deab647dccefccd79da9fa08d1179d">
          <head>Arrangement</head>
-         <p>Arranged in five series: I. General Correspondence. II. Cables. III. Progress and Other Operational Reports. IV. Miscellaneous Operational and Administrative Memoranda and Notes. V. Personal and Memorabilia.</p>  
+         <p>Arranged in five series: I. General Correspondence. II. Cables. III. Progress and Other Operational Reports. IV. Miscellaneous Operational and Administrative Memoranda and Notes. V. Personal and Memorabilia.</p>
       </arrangement>
       <bioghist id="aspace_91590fb82111c2b24b25a7ec169901e6">
          <head>Biographical / Historical</head>
-         <p>Thomas Wells Farnam was born in Litchfield, Connecticut. He attended Milton and Hotchkiss and received his B. A. from Yale in 1899. Between 1901 and 1917 he was involved in various banking and investment enterprises in New Haven. Immediately following the American declaration of war against Germany Farnam was appointed Associate Director (he subsequently became Director) of the American Red Cross Supply Service in Washington, D. C. From October 1917 to September 1918 he served as Assistant United States Food Administrator for the state of Connecticut. Farnam was then appointed American Red Cross Commissioner to Serbia in charge of relief and hospitals, carrying the assimilated rank of Lieutenant Colonel: he was posted to Belgrade where he remained through the middle of 1919. After the signing of the treaty of Versailles Farnam returned to New Haven, and he devoted the remaining years of his life to Yale University administrative affairs. He served, in turn, as Alumni Fellow of the Yale Corporation (1919-1922), Acting Secretary of the university (1920-1923), Associate Treasurer, and Comptroller (1921-1943). He died in 1943.</p>  
+         <p>Thomas Wells Farnam was born in Litchfield, Connecticut. He attended Milton and Hotchkiss and received his B. A. from Yale in 1899. Between 1901 and 1917 he was involved in various banking and investment enterprises in New Haven. Immediately following the American declaration of war against Germany Farnam was appointed Associate Director (he subsequently became Director) of the American Red Cross Supply Service in Washington, D. C. From October 1917 to September 1918 he served as Assistant United States Food Administrator for the state of Connecticut. Farnam was then appointed American Red Cross Commissioner to Serbia in charge of relief and hospitals, carrying the assimilated rank of Lieutenant Colonel: he was posted to Belgrade where he remained through the middle of 1919. After the signing of the treaty of Versailles Farnam returned to New Haven, and he devoted the remaining years of his life to Yale University administrative affairs. He served, in turn, as Alumni Fellow of the Yale Corporation (1919-1922), Acting Secretary of the university (1920-1923), Associate Treasurer, and Comptroller (1921-1943). He died in 1943.</p>
       </bioghist>
       <scopecontent id="aspace_076db5e1c77ef2aca0b0f4f8119976d3">
          <head>Scope and Contents</head>
@@ -122,75 +133,80 @@
          <p>(II) Cablegrams. (1 box) Copies of official cables from Washington, Paris, and Rome.</p>
          <p>(III) Progress (and other operational) Reports. (1 box) Copies of progress reports from various Yugoslav regions by members of the American Mission, and drafts of the "Final Report" of June 1919.</p>
          <p>(IV) Miscellaneous Operational and Administrative Memoranda and Notes. (1 box) [arranged alphabetically by topical subdivisions]</p>
-         <p>(V) Personal and Memorabilia. (1 box and 1 oversize portfolio) Farnam's "Diary", covering the period January - June 1919; copies of correspondence of Harry W. Frantz and Cornelia Reese concerning Thomas W. Farnam, 1944-1945;  miscellaneous photographs taken in Serbia; and citations, warrants and diplomas.</p>  
+         <p>(V) Personal and Memorabilia. (1 box and 1 oversize portfolio) Farnam's "Diary", covering the period January - June 1919; copies of correspondence of Harry W. Frantz and Cornelia Reese concerning Thomas W. Farnam, 1944-1945;  miscellaneous photographs taken in Serbia; and citations, warrants and diplomas.</p>
       </scopecontent>
       <accessrestrict id="aspace_733c84c3c48443744aa235b4c315c3ad">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_e8fc08e9e72a5eec9b4433dafd339f29">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85148236"
                   source="lcsh">
-            <part>World War, 1914-1918</part>
+            <part localtype="topical">World War, 1914-1918</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/n85195919"
                    source="lcsh">
-            <part>Serbia</part>
+            <part localtype="geographic">Serbia</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140058"
                    source="lcsh">
-            <part>United States -- Foreign relations</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">Foreign relations</part>
          </geogname>
          <occupation source="local">
-            <part>Health services administrators</part>
+            <part localtype="occupation">Health services administrators</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/no2002052266"
                    source="naf">
-            <part>Anderson, Henry W. (Henry Watkins), 1870-</part>
+            <part localtype="agent_person">Anderson, Henry W. (Henry Watkins), 1870-</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n97066143"
                    rules="aacr"
                    source="naf">
-            <part>Dodge, Henry Percival, 1870-1936</part>
+            <part localtype="agent_person">Dodge, Henry Percival, 1870-1936</part>
          </persname>
          <persname source="local">
-            <part>Farnam, Thomas Wells, 1877-1943</part>
+            <part localtype="agent_person">Farnam, Thomas Wells, 1877-1943</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n89657991"
                    rules="aacr"
                    source="naf">
-            <part>Farrand, Livingston, 1867-1939</part>
+            <part localtype="agent_person">Farrand, Livingston, 1867-1939</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Hoffman, Marvina, 1887-1966</part>
+            <part localtype="agent_person">Hoffman, Marvina, 1887-1966</part>
          </persname>
          <persname source="local">
-            <part>Scoville, Herbert, 1877-1937</part>
+            <part localtype="agent_person">Scoville, Herbert, 1877-1937</part>
          </persname>
          <persname source="local">
-            <part>Treadwell, George Curtis, 1872-1932</part>
+            <part localtype="agent_person">Treadwell, George Curtis, 1872-1932</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no2011120695"
                    source="naf">
-            <part>Wells, H. Gideon (Harry Gideon), 1875-1943</part>
+            <part localtype="agent_person">Wells, H. Gideon (Harry Gideon), 1875-1943</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n79096723" source="naf">
-            <part>American National Red Cross</part>
+            <part localtype="agent_corporate_entity">American National Red Cross</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Officals and employees</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Officals and employees</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="series">
+         <c altrender="/repositories/12/archival_objects/1191329"
+            id="ref12"
+            level="series">
             <did>
                <unittitle>General correspondence</unittitle>
                <unitid>Series I</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1918-1919">
+               <unitdatestructured altrender="1918-1919" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1918">1918</fromdate>
                      <todate standarddate="1919">1919</todate>
@@ -201,1030 +217,1310 @@
                <head>Scope and Contents</head>
                <p>The number of items are contained in parentheses before the unitdate.</p>
             </scopecontent>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1191330"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Agriculture, Acting Serbian Minister of (3)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">1</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1191331"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Anderson, Henry W. (3)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1919 March">
+                  <unitdatestructured altrender="1919 March" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1919">1919</fromdate>
                         <todate standarddate="1919">1919</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">2</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1191332"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Anderson, Henry W. (19)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1919 April-June">
+                  <unitdatestructured altrender="1919 April-June"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1919">1919</fromdate>
                         <todate standarddate="1919">1919</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">3</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1191333"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Anderson, Henry W. (48)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1918 December-1919 February">
+                  <unitdatestructured altrender="1918 December-1919 February"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1918">1918</fromdate>
                         <todate standarddate="1919">1919</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">4</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1191334"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Armstrong, H. F. (3)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">5</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1191335"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Aupperle, D. W. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">6</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1191336"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Aupperle, H. V. (11)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">7</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1191337"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Bakewell, C. M. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">8</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1191338"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Barry, Stella (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">9</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1191339"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Bender, L. R. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">10</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1191340"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>Bicknell, E. P. (5)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">11</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1191341"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Borissavljevitch, Colonel (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">12</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1191342"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Boscovic, Colonel (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">13</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1191343"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Boudimirovitch, Jivoin (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">14</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1191344"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>Bradford, Alice (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">15</container>
                </did>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1191345"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>Bradner, M. R. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">16</container>
                </did>
             </c>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/1191346"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>Burr, G. H. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">17</container>
                </did>
             </c>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1191347"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Capps, Edward (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">18</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/1191348"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Carey, J. P. (36)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">19</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1191349"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>Colby, F. T. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">20</container>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1191350"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>Conner, C. H. (3)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">21</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1191351"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>Corey, Herbert (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">22</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1191352"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Corcoran, Joan M. (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">23</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1191353"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>Curtis, F. H. (4)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">24</container>
                </did>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1191354"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>Davison, Henry (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">25</container>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1191355"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>Denison, R. C. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">26</container>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1191356"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>Dodge, Geoffrey (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">27</container>
                </did>
             </c>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1191357"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>Dodge, H. Percival (7)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref40_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">28</container>
                </did>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1191358"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>Doornbos, G. T. (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref41_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">29</container>
                </did>
             </c>
-            <c id="ref42" level="file">
+            <c altrender="/repositories/12/archival_objects/1191359"
+               id="ref42"
+               level="file">
                <did>
                   <unittitle>Duncan, R. F. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref42_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">30</container>
                </did>
             </c>
-            <c id="ref43" level="file">
+            <c altrender="/repositories/12/archival_objects/1191360"
+               id="ref43"
+               level="file">
                <did>
                   <unittitle>Edwards, G. H. (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref43_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref43_c2" localtype="folder" parent="aspace_ref43_c1">31</container>
                </did>
             </c>
-            <c id="ref44" level="file">
+            <c altrender="/repositories/12/archival_objects/1191361"
+               id="ref44"
+               level="file">
                <did>
                   <unittitle>Emerson, F. L. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref44_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">32</container>
                </did>
             </c>
-            <c id="ref45" level="file">
+            <c altrender="/repositories/12/archival_objects/1191362"
+               id="ref45"
+               level="file">
                <did>
                   <unittitle>Farnam, H. W. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref45_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref45_c2" localtype="folder" parent="aspace_ref45_c1">33</container>
                </did>
             </c>
-            <c id="ref46" level="file">
+            <c altrender="/repositories/12/archival_objects/1191363"
+               id="ref46"
+               level="file">
                <did>
                   <unittitle>Farrand, Livingston (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref46_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref46_c2" localtype="folder" parent="aspace_ref46_c1">34</container>
                </did>
             </c>
-            <c id="ref47" level="file">
+            <c altrender="/repositories/12/archival_objects/1191364"
+               id="ref47"
+               level="file">
                <did>
                   <unittitle>Fortescue, C. G. (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref47_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref47_c2" localtype="folder" parent="aspace_ref47_c1">35</container>
                </did>
             </c>
-            <c id="ref48" level="file">
+            <c altrender="/repositories/12/archival_objects/1191365"
+               id="ref48"
+               level="file">
                <did>
                   <unittitle>Frantz, Harry (8)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref48_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref48_c2" localtype="folder" parent="aspace_ref48_c1">36</container>
                </did>
             </c>
-            <c id="ref49" level="file">
+            <c altrender="/repositories/12/archival_objects/1191366"
+               id="ref49"
+               level="file">
                <did>
                   <unittitle>Frothingham, J. W. (5)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref49_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref49_c2" localtype="folder" parent="aspace_ref49_c1">37</container>
                </did>
             </c>
-            <c id="ref50" level="file">
+            <c altrender="/repositories/12/archival_objects/1191367"
+               id="ref50"
+               level="file">
                <did>
                   <unittitle>Gibson, H. D. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref50_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref50_c2" localtype="folder" parent="aspace_ref50_c1">38</container>
                </did>
             </c>
-            <c id="ref51" level="file">
+            <c altrender="/repositories/12/archival_objects/1191368"
+               id="ref51"
+               level="file">
                <did>
                   <unittitle>Grouitch, Darinka (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref51_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref51_c2" localtype="folder" parent="aspace_ref51_c1">39</container>
                </did>
             </c>
-            <c id="ref52" level="file">
+            <c altrender="/repositories/12/archival_objects/1191369"
+               id="ref52"
+               level="file">
                <did>
                   <unittitle>Hamlen, J. R. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref52_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref52_c2" localtype="folder" parent="aspace_ref52_c1">39A</container>
                </did>
             </c>
-            <c id="ref53" level="file">
+            <c altrender="/repositories/12/archival_objects/1191370"
+               id="ref53"
+               level="file">
                <did>
                   <unittitle>Hargis, L. D. (5)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref53_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref53_c2" localtype="folder" parent="aspace_ref53_c1">40</container>
                </did>
             </c>
-            <c id="ref54" level="file">
+            <c altrender="/repositories/12/archival_objects/1191371"
+               id="ref54"
+               level="file">
                <did>
                   <unittitle>Hay, H. S. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref54_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref54_c2" localtype="folder" parent="aspace_ref54_c1">41</container>
                </did>
             </c>
-            <c id="ref55" level="file">
+            <c altrender="/repositories/12/archival_objects/1191372"
+               id="ref55"
+               level="file">
                <did>
                   <unittitle>Hoffman, Malvina (3)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref55_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref55_c2" localtype="folder" parent="aspace_ref55_c1">42</container>
                </did>
             </c>
-            <c id="ref56" level="file">
+            <c altrender="/repositories/12/archival_objects/1191373"
+               id="ref56"
+               level="file">
                <did>
                   <unittitle>Hunter, E. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref56_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref56_c2" localtype="folder" parent="aspace_ref56_c1">43</container>
                </did>
             </c>
-            <c id="ref57" level="file">
+            <c altrender="/repositories/12/archival_objects/1191374"
+               id="ref57"
+               level="file">
                <did>
                   <unittitle>Jager, John (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref57_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref57_c2" localtype="folder" parent="aspace_ref57_c1">44</container>
                </did>
             </c>
-            <c id="ref58" level="file">
+            <c altrender="/repositories/12/archival_objects/1191375"
+               id="ref58"
+               level="file">
                <did>
                   <unittitle>James, C. L. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref58_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref58_c2" localtype="folder" parent="aspace_ref58_c1">45</container>
                </did>
             </c>
-            <c id="ref59" level="file">
+            <c altrender="/repositories/12/archival_objects/1191376"
+               id="ref59"
+               level="file">
                <did>
                   <unittitle>Johnston, Beatrice (3)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref59_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref59_c2" localtype="folder" parent="aspace_ref59_c1">46</container>
                </did>
             </c>
-            <c id="ref60" level="file">
+            <c altrender="/repositories/12/archival_objects/1191377"
+               id="ref60"
+               level="file">
                <did>
                   <unittitle>Jovanovich, N. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref60_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref60_c2" localtype="folder" parent="aspace_ref60_c1">47</container>
                </did>
             </c>
-            <c id="ref61" level="file">
+            <c altrender="/repositories/12/archival_objects/1191378"
+               id="ref61"
+               level="file">
                <did>
                   <unittitle>Korac, M. (3)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref61_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref61_c2" localtype="folder" parent="aspace_ref61_c1">48</container>
                </did>
             </c>
-            <c id="ref62" level="file">
+            <c altrender="/repositories/12/archival_objects/1191379"
+               id="ref62"
+               level="file">
                <did>
                   <unittitle>Koroshetz (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref62_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref62_c2" localtype="folder" parent="aspace_ref62_c1">49</container>
                </did>
             </c>
-            <c id="ref63" level="file">
+            <c altrender="/repositories/12/archival_objects/1191380"
+               id="ref63"
+               level="file">
                <did>
                   <unittitle>Kovesty (?), D. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref63_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref63_c2" localtype="folder" parent="aspace_ref63_c1">50</container>
                </did>
             </c>
-            <c id="ref64" level="file">
+            <c altrender="/repositories/12/archival_objects/1191381"
+               id="ref64"
+               level="file">
                <did>
                   <unittitle>Lewis, Clara (5)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref64_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref64_c2" localtype="folder" parent="aspace_ref64_c1">51</container>
                </did>
             </c>
-            <c id="ref65" level="file">
+            <c altrender="/repositories/12/archival_objects/1191382"
+               id="ref65"
+               level="file">
                <did>
                   <unittitle>Lieneman, J. E. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref65_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref65_c2" localtype="folder" parent="aspace_ref65_c1">52</container>
                </did>
             </c>
-            <c id="ref66" level="file">
+            <c altrender="/repositories/12/archival_objects/1191383"
+               id="ref66"
+               level="file">
                <did>
                   <unittitle>McAlevy, George W. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref66_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref66_c2" localtype="folder" parent="aspace_ref66_c1">53</container>
                </did>
             </c>
-            <c id="ref67" level="file">
+            <c altrender="/repositories/12/archival_objects/1191384"
+               id="ref67"
+               level="file">
                <did>
                   <unittitle>McCarthy, D. J. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref67_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref67_c2" localtype="folder" parent="aspace_ref67_c1">54</container>
                </did>
             </c>
-            <c id="ref68" level="file">
+            <c altrender="/repositories/12/archival_objects/1191385"
+               id="ref68"
+               level="file">
                <did>
                   <unittitle>Martini, Iride (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref68_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref68_c2" localtype="folder" parent="aspace_ref68_c1">55</container>
                </did>
             </c>
-            <c id="ref69" level="file">
+            <c altrender="/repositories/12/archival_objects/1191386"
+               id="ref69"
+               level="file">
                <did>
                   <unittitle>Milutinóvic, Bor. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref69_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref69_c2" localtype="folder" parent="aspace_ref69_c1">56</container>
                </did>
             </c>
-            <c id="ref70" level="file">
+            <c altrender="/repositories/12/archival_objects/1191387"
+               id="ref70"
+               level="file">
                <did>
                   <unittitle>Morgan, Harjes and Company (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref70_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref70_c2" localtype="folder" parent="aspace_ref70_c1">57</container>
                </did>
             </c>
-            <c id="ref71" level="file">
+            <c altrender="/repositories/12/archival_objects/1191388"
+               id="ref71"
+               level="file">
                <did>
                   <unittitle>Olds, Robert E. (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref71_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref71_c2" localtype="folder" parent="aspace_ref71_c1">58</container>
                </did>
             </c>
-            <c id="ref72" level="file">
+            <c altrender="/repositories/12/archival_objects/1191389"
+               id="ref72"
+               level="file">
                <did>
                   <unittitle>O'Neill, M. A. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref72_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref72_c2" localtype="folder" parent="aspace_ref72_c1">59</container>
                </did>
             </c>
-            <c id="ref73" level="file">
+            <c altrender="/repositories/12/archival_objects/1191390"
+               id="ref73"
+               level="file">
                <did>
                   <unittitle>Orr, Gertrude (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref73_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref73_c2" localtype="folder" parent="aspace_ref73_c1">60</container>
                </did>
             </c>
-            <c id="ref74" level="file">
+            <c altrender="/repositories/12/archival_objects/1191391"
+               id="ref74"
+               level="file">
                <did>
                   <unittitle>Owsley, J. E. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref74_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref74_c2" localtype="folder" parent="aspace_ref74_c1">61</container>
                </did>
             </c>
-            <c id="ref75" level="file">
+            <c altrender="/repositories/12/archival_objects/1191392"
+               id="ref75"
+               level="file">
                <did>
                   <unittitle>Perkins, R. H. (4)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref75_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref75_c2" localtype="folder" parent="aspace_ref75_c1">62</container>
                </did>
             </c>
-            <c id="ref76" level="file">
+            <c altrender="/repositories/12/archival_objects/1191393"
+               id="ref76"
+               level="file">
                <did>
                   <unittitle>Persons, R. F. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref76_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref76_c2" localtype="folder" parent="aspace_ref76_c1">63</container>
                </did>
             </c>
-            <c id="ref77" level="file">
+            <c altrender="/repositories/12/archival_objects/1191394"
+               id="ref77"
+               level="file">
                <did>
                   <unittitle>Plunkett, E. A. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref77_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref77_c2" localtype="folder" parent="aspace_ref77_c1">64</container>
                </did>
             </c>
-            <c id="ref78" level="file">
+            <c altrender="/repositories/12/archival_objects/1191395"
+               id="ref78"
+               level="file">
                <did>
                   <unittitle>Pribicevic, Milan (6)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref78_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref78_c2" localtype="folder" parent="aspace_ref78_c1">65</container>
                </did>
             </c>
-            <c id="ref79" level="file">
+            <c altrender="/repositories/12/archival_objects/1191396"
+               id="ref79"
+               level="file">
                <did>
                   <unittitle>Prince, Morton (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref79_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref79_c2" localtype="folder" parent="aspace_ref79_c1">66</container>
                </did>
             </c>
-            <c id="ref80" level="file">
+            <c altrender="/repositories/12/archival_objects/1191397"
+               id="ref80"
+               level="file">
                <did>
                   <unittitle>Puranovic, W. L. (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref80_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref80_c2" localtype="folder" parent="aspace_ref80_c1">67</container>
                </did>
             </c>
-            <c id="ref81" level="file">
+            <c altrender="/repositories/12/archival_objects/1191398"
+               id="ref81"
+               level="file">
                <did>
                   <unittitle>Rachitch, M. (4)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref81_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref81_c2" localtype="folder" parent="aspace_ref81_c1">68</container>
                </did>
             </c>
-            <c id="ref82" level="file">
+            <c altrender="/repositories/12/archival_objects/1191399"
+               id="ref82"
+               level="file">
                <did>
                   <unittitle>Ramsey, H. W. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref82_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref82_c2" localtype="folder" parent="aspace_ref82_c1">69</container>
                </did>
             </c>
-            <c id="ref83" level="file">
+            <c altrender="/repositories/12/archival_objects/1191400"
+               id="ref83"
+               level="file">
                <did>
                   <unittitle>de Reinach, H. de (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref83_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref83_c2" localtype="folder" parent="aspace_ref83_c1">70</container>
                </did>
             </c>
-            <c id="ref84" level="file">
+            <c altrender="/repositories/12/archival_objects/1191401"
+               id="ref84"
+               level="file">
                <did>
                   <unittitle>Ross, Donald (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref84_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref84_c2" localtype="folder" parent="aspace_ref84_c1">71</container>
                </did>
             </c>
-            <c id="ref85" level="file">
+            <c altrender="/repositories/12/archival_objects/1191402"
+               id="ref85"
+               level="file">
                <did>
                   <unittitle>Ryan, W. B. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref85_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref85_c2" localtype="folder" parent="aspace_ref85_c1">72</container>
                </did>
             </c>
-            <c id="ref86" level="file">
+            <c altrender="/repositories/12/archival_objects/1191403"
+               id="ref86"
+               level="file">
                <did>
                   <unittitle>Saxton, Stella (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref86_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref86_c2" localtype="folder" parent="aspace_ref86_c1">73</container>
                </did>
             </c>
-            <c id="ref87" level="file">
+            <c altrender="/repositories/12/archival_objects/1191404"
+               id="ref87"
+               level="file">
                <did>
                   <unittitle>Schell, E. A. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref87_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref87_c2" localtype="folder" parent="aspace_ref87_c1">74</container>
                </did>
             </c>
-            <c id="ref88" level="file">
+            <c altrender="/repositories/12/archival_objects/1191405"
+               id="ref88"
+               level="file">
                <did>
                   <unittitle>Scoville, Herbert (3)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref88_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref88_c2" localtype="folder" parent="aspace_ref88_c1">75</container>
                </did>
             </c>
-            <c id="ref89" level="file">
+            <c altrender="/repositories/12/archival_objects/1191406"
+               id="ref89"
+               level="file">
                <did>
                   <unittitle>Seidemann, H. P. (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref89_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref89_c2" localtype="folder" parent="aspace_ref89_c1">76</container>
                </did>
             </c>
-            <c id="ref90" level="file">
+            <c altrender="/repositories/12/archival_objects/1191407"
+               id="ref90"
+               level="file">
                <did>
                   <unittitle>Society for the Protection of Yugoslav Children (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref90_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref90_c2" localtype="folder" parent="aspace_ref90_c1">77</container>
                </did>
             </c>
-            <c id="ref91" level="file">
+            <c altrender="/repositories/12/archival_objects/1191408"
+               id="ref91"
+               level="file">
                <did>
                   <unittitle>Solarovitsch, Danisa (3)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref91_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref91_c2" localtype="folder" parent="aspace_ref91_c1">78</container>
                </did>
             </c>
-            <c id="ref92" level="file">
+            <c altrender="/repositories/12/archival_objects/1191409"
+               id="ref92"
+               level="file">
                <did>
                   <unittitle>Stoddard, Louis E. (6)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref92_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref92_c2" localtype="folder" parent="aspace_ref92_c1">79</container>
                </did>
             </c>
-            <c id="ref93" level="file">
+            <c altrender="/repositories/12/archival_objects/1191410"
+               id="ref93"
+               level="file">
                <did>
                   <unittitle>de Tarnowsky, George (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref93_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref93_c2" localtype="folder" parent="aspace_ref93_c1">80</container>
                </did>
             </c>
-            <c id="ref94" level="file">
+            <c altrender="/repositories/12/archival_objects/1191411"
+               id="ref94"
+               level="file">
                <did>
                   <unittitle>Thwaits, F. C. (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref94_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref94_c2" localtype="folder" parent="aspace_ref94_c1">81</container>
                </did>
             </c>
-            <c id="ref95" level="file">
+            <c altrender="/repositories/12/archival_objects/1191412"
+               id="ref95"
+               level="file">
                <did>
                   <unittitle>Tontzakovitch, Lepa (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref95_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref95_c2" localtype="folder" parent="aspace_ref95_c1">82</container>
                </did>
             </c>
-            <c id="ref96" level="file">
+            <c altrender="/repositories/12/archival_objects/1191413"
+               id="ref96"
+               level="file">
                <did>
                   <unittitle>Treadwell, Geo. C. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref96_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref96_c2" localtype="folder" parent="aspace_ref96_c1">83</container>
                </did>
             </c>
-            <c id="ref97" level="file">
+            <c altrender="/repositories/12/archival_objects/1191414"
+               id="ref97"
+               level="file">
                <did>
                   <unittitle>Trowbridge, E. C. T. (3)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref97_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref97_c2" localtype="folder" parent="aspace_ref97_c1">84</container>
                </did>
             </c>
-            <c id="ref98" level="file">
+            <c altrender="/repositories/12/archival_objects/1191415"
+               id="ref98"
+               level="file">
                <did>
                   <unittitle>Ullman, I. M. (2)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref98_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref98_c2" localtype="folder" parent="aspace_ref98_c1">85</container>
                </did>
             </c>
-            <c id="ref99" level="file">
+            <c altrender="/repositories/12/archival_objects/1191416"
+               id="ref99"
+               level="file">
                <did>
                   <unittitle>Wadsworth, Eliot (5)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref99_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref99_c2" localtype="folder" parent="aspace_ref99_c1">86</container>
                </did>
             </c>
-            <c id="ref100" level="file">
+            <c altrender="/repositories/12/archival_objects/1191417"
+               id="ref100"
+               level="file">
                <did>
                   <unittitle>Wells, H. G. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref100_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref100_c2" localtype="folder" parent="aspace_ref100_c1">87</container>
                </did>
             </c>
-            <c id="ref101" level="file">
+            <c altrender="/repositories/12/archival_objects/1191418"
+               id="ref101"
+               level="file">
                <did>
                   <unittitle>Wheeler, James E. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref101_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref101_c2" localtype="folder" parent="aspace_ref101_c1">87A</container>
                </did>
             </c>
-            <c id="ref102" level="file">
+            <c altrender="/repositories/12/archival_objects/1191419"
+               id="ref102"
+               level="file">
                <did>
                   <unittitle>Wilsey, Marietta (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref102_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref102_c2" localtype="folder" parent="aspace_ref102_c1">88</container>
                </did>
             </c>
-            <c id="ref103" level="file">
+            <c altrender="/repositories/12/archival_objects/1191420"
+               id="ref103"
+               level="file">
                <did>
                   <unittitle>Wishard, D. M. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref103_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref103_c2" localtype="folder" parent="aspace_ref103_c1">89</container>
                </did>
             </c>
-            <c id="ref104" level="file">
+            <c altrender="/repositories/12/archival_objects/1191421"
+               id="ref104"
+               level="file">
                <did>
                   <unittitle>Woodard, C. B. (1)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132762 /locations/9"
                              containerid="39002042352378"
+                             encodinganalog="archive legal"
                              id="aspace_ref104_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -1232,45 +1528,53 @@
                </did>
             </c>
          </c>
-         <c id="ref106" level="series">
+         <c altrender="/repositories/12/archival_objects/1191422"
+            id="ref106"
+            level="series">
             <did>
                <unittitle>Cables</unittitle>
                <unitid>Series II</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1918-1919">
+               <unitdatestructured altrender="1918-1919" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1918">1918</fromdate>
                      <todate standarddate="1919">1919</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref107" level="file">
+            <c altrender="/repositories/12/archival_objects/1191423"
+               id="ref107"
+               level="file">
                <did>
                   <unittitle>Washington and Paris</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1918">
+                  <unitdatestructured altrender="1918" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1918">1918</fromdate>
                         <todate standarddate="1918">1918</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132763 /locations/9"
                              containerid="39002042352386"
+                             encodinganalog="archive half legal"
                              id="aspace_ref107_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref107_c2" localtype="folder" parent="aspace_ref107_c1">1</container>
                </did>
             </c>
-            <c id="ref108" level="file">
+            <c altrender="/repositories/12/archival_objects/1191424"
+               id="ref108"
+               level="file">
                <did>
                   <unittitle>Rome and miscellaneous</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1918-1919">
+                  <unitdatestructured altrender="1918-1919" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1918">1918</fromdate>
                         <todate standarddate="1919">1919</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132763 /locations/9"
                              containerid="39002042352386"
+                             encodinganalog="archive half legal"
                              id="aspace_ref108_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
@@ -1278,123 +1582,160 @@
                </did>
             </c>
          </c>
-         <c id="ref109" level="series">
+         <c altrender="/repositories/12/archival_objects/1191425"
+            id="ref109"
+            level="series">
             <did>
                <unittitle>Progress (and other operational) reports</unittitle>
                <unitid>Series III</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="Circa 1919">
+               <unitdatestructured altrender="Circa 1919" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1918">1918</fromdate>
                      <todate standarddate="1919">1919</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref110" level="file">
+            <c altrender="/repositories/12/archival_objects/1191426"
+               id="ref110"
+               level="file">
                <did>
                   <unittitle>Preliminary memorandum on Serbia</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1919 January 22">
+                  <unitdatestructured altrender="1919 January 22"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1919">1919</fromdate>
                         <todate standarddate="1919">1919</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132764 /locations/9"
                              containerid="39002042352394"
+                             encodinganalog="archive half legal"
                              id="aspace_ref110_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref110_c2" localtype="folder" parent="aspace_ref110_c1">1</container>
                </did>
             </c>
-            <c id="ref111" level="file">
+            <c altrender="/repositories/12/archival_objects/1191427"
+               id="ref111"
+               level="file">
                <did>
                   <unittitle>Progress Reports (Captain Buck)</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132764 /locations/9"
                              containerid="39002042352394"
+                             encodinganalog="archive half legal"
                              id="aspace_ref111_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref111_c2" localtype="folder" parent="aspace_ref111_c1">2</container>
                </did>
             </c>
-            <c id="ref112" level="file">
+            <c altrender="/repositories/12/archival_objects/1191428"
+               id="ref112"
+               level="file">
                <did>
                   <unittitle>Progress Reports (Major Carey)</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132764 /locations/9"
                              containerid="39002042352394"
+                             encodinganalog="archive half legal"
                              id="aspace_ref112_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref112_c2" localtype="folder" parent="aspace_ref112_c1">3</container>
                </did>
             </c>
-            <c id="ref113" level="file">
+            <c altrender="/repositories/12/archival_objects/1191429"
+               id="ref113"
+               level="file">
                <did>
                   <unittitle>Progress Reports (Captain Edwards)</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132764 /locations/9"
                              containerid="39002042352394"
+                             encodinganalog="archive half legal"
                              id="aspace_ref113_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref113_c2" localtype="folder" parent="aspace_ref113_c1">4</container>
                </did>
             </c>
-            <c id="ref114" level="file">
+            <c altrender="/repositories/12/archival_objects/1191430"
+               id="ref114"
+               level="file">
                <did>
                   <unittitle>Progress Reports (Miscellaneous - Southern Serbia)</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132764 /locations/9"
                              containerid="39002042352394"
+                             encodinganalog="archive half legal"
                              id="aspace_ref114_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref114_c2" localtype="folder" parent="aspace_ref114_c1">5</container>
                </did>
             </c>
-            <c id="ref115" level="file">
+            <c altrender="/repositories/12/archival_objects/1191431"
+               id="ref115"
+               level="file">
                <did>
                   <unittitle>"Memorandum re: Work in Serbia"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1919 June">
+                  <unitdatestructured altrender="1919 June" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1919">1919</fromdate>
                         <todate standarddate="1919">1919</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132764 /locations/9"
                              containerid="39002042352394"
+                             encodinganalog="archive half legal"
                              id="aspace_ref115_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref115_c2" localtype="folder" parent="aspace_ref115_c1">6</container>
                </did>
             </c>
-            <c id="ref116" level="file">
+            <c altrender="/repositories/12/archival_objects/1191432"
+               id="ref116"
+               level="file">
                <did>
                   <unittitle>"Final Report": Outlines</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1919 June">
+                  <unitdatestructured altrender="1919 June" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1919">1919</fromdate>
                         <todate standarddate="1919">1919</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132764 /locations/9"
                              containerid="39002042352394"
+                             encodinganalog="archive half legal"
                              id="aspace_ref116_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref116_c2" localtype="folder" parent="aspace_ref116_c1">7</container>
                </did>
             </c>
-            <c id="ref117" level="file">
+            <c altrender="/repositories/12/archival_objects/1191433"
+               id="ref117"
+               level="file">
                <did>
                   <unittitle>"Final Report" [with map]</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1919 June 30">
+                  <unitdatestructured altrender="1919 June 30" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1919">1919</fromdate>
                         <todate standarddate="1919">1919</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/132764 /locations/9"
                              containerid="39002042352394"
+                             encodinganalog="archive half legal"
                              id="aspace_ref117_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -1402,187 +1743,237 @@
                </did>
             </c>
          </c>
-         <c id="ref118" level="series">
+         <c altrender="/repositories/12/archival_objects/1191434"
+            id="ref118"
+            level="series">
             <did>
                <unittitle>Miscellaneous operational and administrative memoranda and notes</unittitle>
                <unitid>Series IV</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="Circa 1918">
+               <unitdatestructured altrender="Circa 1918" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1918">1918</fromdate>
                      <todate standarddate="1919">1919</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref119" level="file">
+            <c altrender="/repositories/12/archival_objects/1191435"
+               id="ref119"
+               level="file">
                <did>
                   <unittitle>re: Children's Relief</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132765 /locations/9"
                              containerid="39002042352402"
+                             encodinganalog="archive half legal"
                              id="aspace_ref119_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref119_c2" localtype="folder" parent="aspace_ref119_c1">1</container>
                </did>
             </c>
-            <c id="ref120" level="file">
+            <c altrender="/repositories/12/archival_objects/1191436"
+               id="ref120"
+               level="file">
                <did>
                   <unittitle>re: Civil Relief</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132765 /locations/9"
                              containerid="39002042352402"
+                             encodinganalog="archive half legal"
                              id="aspace_ref120_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref120_c2" localtype="folder" parent="aspace_ref120_c1">2</container>
                </did>
             </c>
-            <c id="ref121" level="file">
+            <c altrender="/repositories/12/archival_objects/1191437"
+               id="ref121"
+               level="file">
                <did>
                   <unittitle>re: Community House, Belgrade</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132765 /locations/9"
                              containerid="39002042352402"
+                             encodinganalog="archive half legal"
                              id="aspace_ref121_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref121_c2" localtype="folder" parent="aspace_ref121_c1">3</container>
                </did>
             </c>
-            <c id="ref122" level="file">
+            <c altrender="/repositories/12/archival_objects/1191438"
+               id="ref122"
+               level="file">
                <did>
                   <unittitle>re: Cooperatives</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132765 /locations/9"
                              containerid="39002042352402"
+                             encodinganalog="archive half legal"
                              id="aspace_ref122_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref122_c2" localtype="folder" parent="aspace_ref122_c1">4</container>
                </did>
             </c>
-            <c id="ref123" level="file">
+            <c altrender="/repositories/12/archival_objects/1191439"
+               id="ref123"
+               level="file">
                <did>
                   <unittitle>re: Financial Accounts</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132765 /locations/9"
                              containerid="39002042352402"
+                             encodinganalog="archive half legal"
                              id="aspace_ref123_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref123_c2" localtype="folder" parent="aspace_ref123_c1">5</container>
                </did>
             </c>
-            <c id="ref124" level="file">
+            <c altrender="/repositories/12/archival_objects/1191440"
+               id="ref124"
+               level="file">
                <did>
                   <unittitle>re: Food Supplies</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132765 /locations/9"
                              containerid="39002042352402"
+                             encodinganalog="archive half legal"
                              id="aspace_ref124_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref124_c2" localtype="folder" parent="aspace_ref124_c1">6</container>
                </did>
             </c>
-            <c id="ref125" level="file">
+            <c altrender="/repositories/12/archival_objects/1191441"
+               id="ref125"
+               level="file">
                <did>
                   <unittitle>re: Honors Received by Mission</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132765 /locations/9"
                              containerid="39002042352402"
+                             encodinganalog="archive half legal"
                              id="aspace_ref125_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref125_c2" localtype="folder" parent="aspace_ref125_c1">7</container>
                </did>
             </c>
-            <c id="ref126" level="file">
+            <c altrender="/repositories/12/archival_objects/1191442"
+               id="ref126"
+               level="file">
                <did>
                   <unittitle>re: Inventories</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132765 /locations/9"
                              containerid="39002042352402"
+                             encodinganalog="archive half legal"
                              id="aspace_ref126_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref126_c2" localtype="folder" parent="aspace_ref126_c1">8</container>
                </did>
             </c>
-            <c id="ref127" level="file">
+            <c altrender="/repositories/12/archival_objects/1191443"
+               id="ref127"
+               level="file">
                <did>
                   <unittitle>re: Medical/Artificial Limb Department</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132765 /locations/9"
                              containerid="39002042352402"
+                             encodinganalog="archive half legal"
                              id="aspace_ref127_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref127_c2" localtype="folder" parent="aspace_ref127_c1">9</container>
                </did>
             </c>
-            <c id="ref128" level="file">
+            <c altrender="/repositories/12/archival_objects/1191444"
+               id="ref128"
+               level="file">
                <did>
                   <unittitle>re: Medical/Hospitals and Orphanages</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132765 /locations/9"
                              containerid="39002042352402"
+                             encodinganalog="archive half legal"
                              id="aspace_ref128_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref128_c2" localtype="folder" parent="aspace_ref128_c1">10</container>
                </did>
             </c>
-            <c id="ref129" level="file">
+            <c altrender="/repositories/12/archival_objects/1191445"
+               id="ref129"
+               level="file">
                <did>
                   <unittitle>re: Medical/Public Health Plan</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132765 /locations/9"
                              containerid="39002042352402"
+                             encodinganalog="archive half legal"
                              id="aspace_ref129_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref129_c2" localtype="folder" parent="aspace_ref129_c1">11</container>
                </did>
             </c>
-            <c id="ref130" level="file">
+            <c altrender="/repositories/12/archival_objects/1191446"
+               id="ref130"
+               level="file">
                <did>
                   <unittitle>re: Medical/Tuberculosis Program</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132765 /locations/9"
                              containerid="39002042352402"
+                             encodinganalog="archive half legal"
                              id="aspace_ref130_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref130_c2" localtype="folder" parent="aspace_ref130_c1">12</container>
                </did>
             </c>
-            <c id="ref131" level="file">
+            <c altrender="/repositories/12/archival_objects/1191447"
+               id="ref131"
+               level="file">
                <did>
                   <unittitle>re: Organizational and Personnel</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132765 /locations/9"
                              containerid="39002042352402"
+                             encodinganalog="archive half legal"
                              id="aspace_ref131_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref131_c2" localtype="folder" parent="aspace_ref131_c1">13</container>
                </did>
             </c>
-            <c id="ref132" level="file">
+            <c altrender="/repositories/12/archival_objects/1191448"
+               id="ref132"
+               level="file">
                <did>
                   <unittitle>re: Press Releases</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132765 /locations/9"
                              containerid="39002042352402"
+                             encodinganalog="archive half legal"
                              id="aspace_ref132_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref132_c2" localtype="folder" parent="aspace_ref132_c1">14</container>
                </did>
             </c>
-            <c id="ref133" level="file">
+            <c altrender="/repositories/12/archival_objects/1191449"
+               id="ref133"
+               level="file">
                <did>
                   <unittitle>re: Schools</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132765 /locations/9"
                              containerid="39002042352402"
+                             encodinganalog="archive half legal"
                              id="aspace_ref133_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref133_c2" localtype="folder" parent="aspace_ref133_c1">15</container>
                </did>
             </c>
-            <c id="ref134" level="file">
+            <c altrender="/repositories/12/archival_objects/1191450"
+               id="ref134"
+               level="file">
                <did>
                   <unittitle>re: Workrooms, Belgrade</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132765 /locations/9"
                              containerid="39002042352402"
+                             encodinganalog="archive half legal"
                              id="aspace_ref134_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
@@ -1590,47 +1981,63 @@
                </did>
             </c>
          </c>
-         <c id="ref135" level="series">
+         <c altrender="/repositories/12/archival_objects/1191451"
+            id="ref135"
+            level="series">
             <did>
                <unittitle>Personal and memoranda</unittitle>
                <unitid>Series V</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="Circa 1918-1945">
+               <unitdatestructured altrender="Circa 1918-1945"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1918">1918</fromdate>
                      <todate standarddate="1945">1945</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref144" level="file">
+            <c altrender="/repositories/12/archival_objects/1191452"
+               id="ref144"
+               level="file">
                <did>
                   <unittitle>Diary</unittitle>
                </did>
-               <c id="ref136" level="file">
+               <c altrender="/repositories/12/archival_objects/1191453"
+                  id="ref136"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1919 January-March">
+                     <unitdatestructured altrender="1919 January-March"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1919">1919</fromdate>
                            <todate standarddate="1919">1919</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/132766 /locations/9"
                                 containerid="39002042352410"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref136_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref136_c2" localtype="folder" parent="aspace_ref136_c1">1</container>
                   </did>
                </c>
-               <c id="ref137" level="file">
+               <c altrender="/repositories/12/archival_objects/1191454"
+                  id="ref137"
+                  level="file">
                   <did>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1919 April-June">
+                     <unitdatestructured altrender="1919 April-June"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1919">1919</fromdate>
                            <todate standarddate="1919">1919</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/132766 /locations/9"
                                 containerid="39002042352410"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref137_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
@@ -1638,39 +2045,49 @@
                   </did>
                </c>
             </c>
-            <c id="ref138" level="file">
+            <c altrender="/repositories/12/archival_objects/1191455"
+               id="ref138"
+               level="file">
                <did>
                   <unittitle>Photographs</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132766 /locations/9"
                              containerid="39002042352410"
+                             encodinganalog="archive half legal"
                              id="aspace_ref138_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref138_c2" localtype="folder" parent="aspace_ref138_c1">3</container>
                </did>
             </c>
-            <c id="ref139" level="file">
+            <c altrender="/repositories/12/archival_objects/1191456"
+               id="ref139"
+               level="file">
                <did>
                   <unittitle>Copies of correspondence of Harry W. Frantz and Cornelia Reese concerning Thomas W. Farnam</unittitle>
-                  <unitdatestructured unitdatetype="inclusive"
-                                      altrender="1944 September 15, 1945 January 27, February 5">
+                  <unitdatestructured altrender="1944 September 15, 1945 January 27, February 5"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1944">1944</fromdate>
                         <todate standarddate="1945">1945</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132766 /locations/9"
                              containerid="39002042352410"
+                             encodinganalog="archive half legal"
                              id="aspace_ref139_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref139_c2" localtype="folder" parent="aspace_ref139_c1">4</container>
                </did>
             </c>
-            <c id="ref140" level="file">
+            <c altrender="/repositories/12/archival_objects/1191457"
+               id="ref140"
+               level="file">
                <did>
                   <unittitle>Diplomas, warrants, and citations</unittitle>
-                  <container containerid="39002042607078"
+                  <container altrender="/repositories/12/top_containers/132767 /locations/9"
+                             containerid="39002042607078"
                              id="aspace_ref140_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>

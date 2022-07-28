@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0549">mssa.ms.0549</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0549">mssa.ms.0549</recordid>
+      <otherrecordid localtype="BIB">614226</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Winthrop-Weston Family Papers
@@ -32,6 +34,11 @@
             <date>September 1981</date>
             <num>MS 549</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T09:40:50+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:23:38+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 09:40</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:23</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4215" level="collection">
       <did>
          <unittitle>Winthrop-Weston family papers</unittitle>
          <unitid>MS 549</unitid>
@@ -82,37 +92,36 @@
             <quantity>0.25</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1845-1911">
+         <unitdatestructured altrender="1845-1911" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1845">1845</fromdate>
                <todate standarddate="1911">1911</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_11f30eec9b3b0a77265834b2d9dc5ecd">The papers primarily contain the family correspondence of William Woolsey Winthrop (1831-1899), his sister Sarah Chauncey Winthrop Weston, and their mother, Elizabeth Dwight Woolsey Winthrop. Several letters were written by William Winthrop from St. Anthony, Minnesota and others concern his Civil War military experiences.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <famname identifier="http://id.loc.gov/authorities/subjects/sh85147051"
                      source="lcsh">
-               <part>Winthrop family</part>
+               <part localtype="agent_family">Winthrop family</part>
             </famname>
          </origination>
-    
       </did>
       <altformavail id="aspace_1089d080552c5bcc6adc801e55c862dc">
          <head>Existence and Location of Copies</head>
-         <p>Entire collection is also available on microfilm (446 frames on 1 reel, 35mm.) from Manuscripts and Archives, Yale University Library, at cost. Order no. HM200. Additional information not yet available in the online version of the finding aid exists in the repository. Contact Manuscripts and Archives for assistance.</p>  
+         <p>Entire collection is also available on microfilm (446 frames on 1 reel, 35mm.) from Manuscripts and Archives, Yale University Library, at cost. Order no. HM200. Additional information not yet available in the online version of the finding aid exists in the repository. Contact Manuscripts and Archives for assistance.</p>
       </altformavail>
       <acqinfo id="aspace_c8e2294e4c9c4a07e4fd6ae0a030e6f4">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Mary S. Weston Dominick, 1938.</p>  
+         <p>Gift of Mary S. Weston Dominick, 1938.</p>
       </acqinfo>
       <prefercite id="aspace_0176ee229560f8d21fea03fca57f1416">
          <head>Preferred Citation</head>
-         <p>Winthrop-Weston Family Papers (MS 549). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Winthrop-Weston Family Papers (MS 549). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_96474b6dade31113ca868b03bdddb69b">
          <head>Scope and Contents</head>
          <p>This collection consists of correspondence and other papers of the Winthrop and Weston families, in particular of William Woolsey Winthrop, his sister Sarah Chauncey (Winthrop) Weston, and their mother, Elizabeth Dwight (Woolsey) Winthrop. A partial genealogical chart can be found in the repository.</p>
-         <p>Family correspondence, mostly letters from William and Sarah Winthrop to their mother, makes up the bulk of the papers. Of particular interest are William Winthrop's letters from St. Anthony, Minnesota, where he moved in 1857 to practice law, and from Virginia during his military service in the Civil War. Unfortunately, only a few letters from this period are contained in the papers. Other materials include several undated stories, poem, and other writings, for the most part by William Winthrop, and a few small sketches.</p>  
+         <p>Family correspondence, mostly letters from William and Sarah Winthrop to their mother, makes up the bulk of the papers. Of particular interest are William Winthrop's letters from St. Anthony, Minnesota, where he moved in 1857 to practice law, and from Virginia during his military service in the Civil War. Unfortunately, only a few letters from this period are contained in the papers. Other materials include several undated stories, poem, and other writings, for the most part by William Winthrop, and a few small sketches.</p>
       </scopecontent>
       <bioghist id="aspace_d556e705e6a93a1922c3145f0e8e59f6">
          <head>Biographical / Historical</head>
@@ -125,130 +134,150 @@
          <p>He married, in 1877, Miss Alice Worthington, who survives him.</p>
          <p>[From <title render="italic">
                <part>Yale Obituary Record</part>
-            </title>]</p>  
+            </title>]</p>
       </bioghist>
-      <accessrestrict id="aspace_456e130918336dbdcf097f8dc4274843">
+      <accessrestrict id="aspace_456e130918336dbdcf097f8dc4274843" localtype="UseSurrogate">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research. The entire collection is available on microfilm. Patrons must use HM 200 instead of the originals.</p>  
+         <p>The materials are open for research. The entire collection is available on microfilm. Patrons must use HM 200 instead of the originals.</p>
       </accessrestrict>
       <userestrict id="aspace_2efd58384b437d11828f6d13bc7a10c0">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown, though much of the material in this collection is likely in the public domain. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown, though much of the material in this collection is likely in the public domain. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85085759"
                    source="lcsh">
-            <part>Minnesota -- Description and travel</part>
+            <part localtype="geographic">Minnesota</part>
+            <part localtype="topical">Description and travel</part>
          </geogname>
          <geogname source="local">
-            <part>St. Anthony (Minn.) -- History</part>
+            <part localtype="geographic">St. Anthony (Minn.)</part>
+            <part localtype="topical">History</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140205"
                    source="lcsh">
-            <part>United States -- History -- Civil War, 1861-1865</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Civil War, 1861-1865</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075351"
                   source="lcsh">
-            <part>Lawyers</part>
+            <part localtype="topical">Lawyers</part>
          </subject>
          <occupation source="local">
-            <part>Soldiers</part>
+            <part localtype="occupation">Soldiers</part>
          </occupation>
          <persname source="local">
-            <part>Weston, Sarah Chauncey Winthrop</part>
+            <part localtype="agent_person">Weston, Sarah Chauncey Winthrop</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Winthrop, Elizabeth Dwight Woolsey</part>
+            <part localtype="agent_person">Winthrop, Elizabeth Dwight Woolsey</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n79059285"
                    rules="aacr"
                    source="naf">
-            <part>Winthrop, William, 1831-1899</part>
+            <part localtype="agent_person">Winthrop, William, 1831-1899</part>
          </persname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh88000838"
                   source="lcsh">
-            <part>Weston family</part>
+            <part localtype="agent_family">Weston family</part>
          </famname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85147051"
                   source="lcsh">
-            <part>Winthrop family</part>
+            <part localtype="agent_family">Winthrop family</part>
          </famname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85148085"
                   rules="aacr"
                   source="lcsh">
-            <part>Woolsey family</part>
+            <part localtype="agent_family">Woolsey family</part>
          </famname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1353495"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1845-1900, undated">
+               <unitdatestructured altrender="1845-1900, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1845">1845</fromdate>
                      <todate standarddate="1911">1911</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151471 /locations/9"
                           containerid="39002042265992"
-                          id="d1e316"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e318" localtype="folder" parent="d1e316">1 - 15</container>
-               <container altrender="microfilm box"
+               <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">1 - 15</container>
+               <container altrender="/repositories/12/top_containers/206685 /locations/2997"
                           containerid="39002075121542"
-                          id="d1e320"
+                          encodinganalog="microfilm box"
+                          id="aspace_ref13_c3"
                           label="Mixed Materials"
                           localtype="reel">1U</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1353496"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Miscellaneous writings</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1860, undated">
+               <unitdatestructured altrender="1860, undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1845">1845</fromdate>
                      <todate standarddate="1911">1911</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151471 /locations/9"
                           containerid="39002042265992"
-                          id="d1e338"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e340" localtype="folder" parent="d1e338">16</container>
-               <container altrender="microfilm box"
+               <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">16</container>
+               <container altrender="/repositories/12/top_containers/206685 /locations/2997"
                           containerid="39002075121542"
-                          id="d1e342"
+                          encodinganalog="microfilm box"
+                          id="aspace_ref14_c3"
                           label="Mixed Materials"
                           localtype="reel">1U</container>
             </did>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1353497"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Drawings; printed matter</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1911, undated">
+               <unitdatestructured altrender="1911, undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1845">1845</fromdate>
                      <todate standarddate="1911">1911</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151471 /locations/9"
                           containerid="39002042265992"
-                          id="d1e360"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e362" localtype="folder" parent="d1e360">17</container>
-               <container altrender="microfilm box"
+               <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">17</container>
+               <container altrender="/repositories/12/top_containers/206685 /locations/2997"
                           containerid="39002075121542"
-                          id="d1e364"
+                          encodinganalog="microfilm box"
+                          id="aspace_ref15_c3"
                           label="Mixed Materials"
                           localtype="reel">1U</container>
             </did>

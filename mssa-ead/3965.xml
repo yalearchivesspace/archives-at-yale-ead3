@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0948">mssa.ms.0948</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0948">mssa.ms.0948</recordid>
+      <otherrecordid localtype="BIB">614403</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the William A. Larned Papers
@@ -32,6 +34,11 @@
             <date>June 1983</date>
             <num>MS 948</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:35:46+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:17:18+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:35</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:17</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3965" level="collection">
       <did>
          <unittitle>William Augustus Larned papers</unittitle>
          <unitid>MS 948</unitid>
@@ -82,38 +92,37 @@
             <quantity>0.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1827-1861">
+         <unitdatestructured altrender="1827-1861" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1827">1827</fromdate>
                <todate standarddate="1861">1861</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_253e91e223021d82de686c8e6f4f0e23">The papers largely reflect William A. Larned's post as Professor of Rhetoric and English literature (1839-1862) at Yale College. Included are lecture notes, notebooks with freshman prize compositions, grade books, and a student resolution requesting that his portrait be painted (1847). In the small amount of correspondence are five letters from Larned to his aunt, Mrs. John Mason. One is from Salisbury, North Carolina where he taught, and the remainder are from Yale College on his teaching and religious ideas.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/nr93023534"
                       rules="aacr"
                       source="naf">
-               <part>Larned, William Augustus, 1806-1862</part>
+               <part localtype="agent_person">Larned, William Augustus, 1806-1862</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_db0acadb1fbab084697db80b818ce6a8">
          <head>Immediate Source of Acquisition</head>
-         <p>By gift and purchase, 1940-1959.</p>  
+         <p>By gift and purchase, 1940-1959.</p>
       </acqinfo>
       <accessrestrict id="aspace_5f43d8509f426a998121beed96742a7d">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_5be3acefc5661389895d788a2ee0929a">
          <head>Preferred Citation</head>
-         <p>William Augustus Larned Papers (MS 948). Manuscripts and Archives, Yale University Library.</p>  
+         <p>William Augustus Larned Papers (MS 948). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_1d9e440be8774c3a9c92ff2d11861e8b">
          <head>Scope and Contents</head>
          <p>These papers of William Augustus Larned largely concern his Yale career. There are seven letters from Larned in the collection: one to Hezekiah Howe concerning money owed him by Larned; five to Larned's aunt, Mrs. John Mason, about his school in Salisbury, North Carolina, his study and teaching at Yale, his religious faith and clerical duties; and one letter to Rev. Robinson informing him of his appointment to the examining committee for Yale examinations. The remainder of the collection consists of Yale teaching materials and student papers: lectures, essays, and notes on English and Greek language, literature, and history; notebooks on the theological lectures of Josiah W. Gibbs and other subjects; grade books; and a students' resolution of 1847 announcing their desire for a portrait of Larned.</p>
-         <p>These papers were acquired by Yale through a series of gifts and purchases from a variety of sources from the 1940s through the 1960s.</p>  
+         <p>These papers were acquired by Yale through a series of gifts and purchases from a variety of sources from the 1940s through the 1960s.</p>
       </scopecontent>
       <bioghist id="aspace_be9d48c442a864089c871f66ed7231d1">
          <head>Biographical / Historical</head>
@@ -131,298 +140,354 @@
             </title>, mostly reviews, are the productions of his pen, besides some books for his college classes. He married Miss Irene Battell, daughter of Joseph Battell, Esp., of Norfolk, Conn. They had no children.</p>
          <p>(Taken from <title render="italic">
                <part>A Biographical Sketch of the Class of 1826, Yale College</part>
-            </title>, 1866, pp. 53-57.)</p>  
+            </title>, 1866, pp. 53-57.)</p>
       </bioghist>
       <userestrict id="aspace_a1fd9108793cc0142d53078f4d246312">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85077519"
                   source="lcsh">
-            <part>Literature -- History and criticism</part>
+            <part localtype="topical">Literature</part>
+            <part localtype="topical">History and criticism</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85112742"
                   source="lcsh">
-            <part>Religious thought -- 19th century</part>
+            <part localtype="topical">Religious thought</part>
+            <part localtype="temporal">19th century</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/n50051176"
                    source="lcsh">
-            <part>Salisbury (N.C.)</part>
+            <part localtype="geographic">Salisbury (N.C.)</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85026944"
                   source="lcsh">
-            <part>Clergy</part>
+            <part localtype="topical">Clergy</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/nr93023534"
                    rules="aacr"
                    source="naf">
-            <part>Larned, William Augustus, 1806-1862</part>
+            <part localtype="agent_person">Larned, William Augustus, 1806-1862</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/no2007123190"
                    source="naf">
-            <part>Yale University. Department of English</part>
+            <part localtype="agent_corporate_entity">Yale University. Department of English</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1258756"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Letters</unittitle>
             </did>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1258757"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>ALS to Hezekiah Howe</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1834 July 1">
+                  <unitdatestructured altrender="1834 July 1" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1827">1827</fromdate>
                         <todate standarddate="1861">1861</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143292 /locations/9"
                              containerid="39002042281742"
-                             id="d1e291"
+                             encodinganalog="archive legal"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e293" localtype="folder" parent="d1e291">1</container>
+                  <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">1</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1258758"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>5 ALS to Mrs. John Mason</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1827-1838">
+                  <unitdatestructured altrender="1827-1838" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1827">1827</fromdate>
                         <todate standarddate="1838">1838</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143292 /locations/9"
                              containerid="39002042281742"
-                             id="d1e309"
+                             encodinganalog="archive legal"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e311" localtype="folder" parent="d1e309">1</container>
+                  <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">1</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1258759"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>ALS to Rev. Robinson</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1844 March 24">
+                  <unitdatestructured altrender="1844 March 24" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1827">1827</fromdate>
                         <todate standarddate="1861">1861</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143292 /locations/9"
                              containerid="39002042281742"
-                             id="d1e327"
+                             encodinganalog="archive legal"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e329" localtype="folder" parent="d1e327">1</container>
+                  <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">1</container>
                </did>
             </c>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1258760"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Lectures and essays on Greek history and literature</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1827">1827</fromdate>
                      <todate standarddate="1861">1861</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143292 /locations/9"
                           containerid="39002042281742"
-                          id="d1e345"
+                          encodinganalog="archive legal"
+                          id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e347" localtype="folder" parent="d1e345">2</container>
+               <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">2</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1258761"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Lectures on language</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1827">1827</fromdate>
                      <todate standarddate="1861">1861</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143292 /locations/9"
                           containerid="39002042281742"
-                          id="d1e363"
+                          encodinganalog="archive legal"
+                          id="aspace_ref17_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e365" localtype="folder" parent="d1e363">3</container>
+               <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">3</container>
             </did>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1258762"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>Notes</unittitle>
             </did>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1258763"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>English language and literature</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1827">1827</fromdate>
                         <todate standarddate="1861">1861</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143292 /locations/9"
                              containerid="39002042281742"
-                             id="d1e387"
+                             encodinganalog="archive legal"
+                             id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e389" localtype="folder" parent="d1e387">4</container>
+                  <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">4</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1258764"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Greek history and literature</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1827">1827</fromdate>
                         <todate standarddate="1861">1861</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143292 /locations/9"
                              containerid="39002042281742"
-                             id="d1e405"
+                             encodinganalog="archive legal"
+                             id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e407" localtype="folder" parent="d1e405">5</container>
+                  <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">5</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1258765"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Literature and language</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1827">1827</fromdate>
                         <todate standarddate="1861">1861</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143292 /locations/9"
                              containerid="39002042281742"
-                             id="d1e423"
+                             encodinganalog="archive legal"
+                             id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e425" localtype="folder" parent="d1e423">6</container>
+                  <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">6</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1258766"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Miscellaneous</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1840, 1842, 1850, undated">
+                  <unitdatestructured altrender="1840, 1842, 1850, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1827">1827</fromdate>
                         <todate standarddate="1861">1861</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143292 /locations/9"
                              containerid="39002042281742"
-                             id="d1e441"
+                             encodinganalog="archive legal"
+                             id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e443" localtype="folder" parent="d1e441">7</container>
+                  <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">7</container>
                </did>
             </c>
          </c>
-         <c id="ref23" level="file">
+         <c altrender="/repositories/12/archival_objects/1258767"
+            id="ref23"
+            level="file">
             <did>
                <unittitle>Notebooks</unittitle>
             </did>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1258768"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Lectures of Josiah W. Gibbs</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1834">
+                  <unitdatestructured altrender="1834" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1834">1834</fromdate>
                         <todate standarddate="1834">1834</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143292 /locations/9"
                              containerid="39002042281742"
-                             id="d1e465"
+                             encodinganalog="archive legal"
+                             id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e467" localtype="folder" parent="d1e465">8</container>
+                  <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">8</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1258769"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Freshman prize compositions</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1847-1861">
+                  <unitdatestructured altrender="1847-1861" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1847">1847</fromdate>
                         <todate standarddate="1861">1861</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143292 /locations/9"
                              containerid="39002042281742"
-                             id="d1e483"
+                             encodinganalog="archive legal"
+                             id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e485" localtype="folder" parent="d1e483">8</container>
+                  <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">8</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1258770"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Chronology</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1827">1827</fromdate>
                         <todate standarddate="1861">1861</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143292 /locations/9"
                              containerid="39002042281742"
-                             id="d1e501"
+                             encodinganalog="archive legal"
+                             id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e503" localtype="folder" parent="d1e501">8</container>
+                  <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">8</container>
                </did>
             </c>
          </c>
-         <c id="ref27" level="file">
+         <c altrender="/repositories/12/archival_objects/1258771"
+            id="ref27"
+            level="file">
             <did>
                <unittitle>Grade books</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1839-1840, undated">
+               <unitdatestructured altrender="1839-1840, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1827">1827</fromdate>
                      <todate standarddate="1861">1861</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143292 /locations/9"
                           containerid="39002042281742"
-                          id="d1e519"
+                          encodinganalog="archive legal"
+                          id="aspace_ref27_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e521" localtype="folder" parent="d1e519">9</container>
+               <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">9</container>
             </did>
          </c>
-         <c id="ref28" level="file">
+         <c altrender="/repositories/12/archival_objects/1258772"
+            id="ref28"
+            level="file">
             <did>
                <unittitle>Student resolution</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1847">
+               <unitdatestructured altrender="1847" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1847">1847</fromdate>
                      <todate standarddate="1847">1847</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/143292 /locations/9"
                           containerid="39002042281742"
-                          id="d1e537"
+                          encodinganalog="archive legal"
+                          id="aspace_ref28_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e539" localtype="folder" parent="d1e537">9</container>
+               <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">9</container>
             </did>
          </c>
       </dsc>

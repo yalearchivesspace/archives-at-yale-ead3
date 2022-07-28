@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0899">mssa.ms.0899</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0899">mssa.ms.0899</recordid>
+      <otherrecordid localtype="BIB">614356</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the George Daniel Butler Collection
@@ -32,6 +34,14 @@
             <date>March 1982</date>
             <num>MS 899</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+            <controlnote localtype="digital">
+               <p>This collection contains <num localtype="objects" altrender="1">1</num> published digital object. And that object are comprised of <num localtype="files" altrender="1">1</num> digital files.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +49,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +63,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +72,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-03-13T07:39:01+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:14:51+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Friday March 13, 2020 at 07:39</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>June 2002</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:14</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4281" level="collection">
       <did>
          <unittitle>George Daniel Butler collection</unittitle>
          <unitid>MS 899</unitid>
@@ -89,33 +95,32 @@
             <quantity>0.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1917-1919">
+         <unitdatestructured altrender="1917-1919" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1917">1917</fromdate>
                <todate standarddate="1919">1919</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_81a269ed0ba33b34ae9eaacb6e1e7a74">Approximately 600 photographs collected by George Daniel Butler, depicting the Yale section of the U.S. Ambulance Service with the French army, June 22, 1917-April 23, 1919. Also included are postcards of cities and historic sites in France.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n86840350"
                       rules="aacr"
                       source="naf">
-               <part>Butler, George D. (George Daniel), 1893-1985</part>
+               <part localtype="agent_person">Butler, George D. (George Daniel), 1893-1985</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_c6019d7377800ee83e3d03804239a7ac">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of George D. Butler in 1979. Gift of George D. Butler, Jr., 2002.</p>  
+         <p>Gift of George D. Butler in 1979. Gift of George D. Butler, Jr., 2002.</p>
       </acqinfo>
       <accessrestrict id="aspace_6df3e94230f1d4ac1a41508fbd2e5edf">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_9680a806e133863f529e27eaf4b142a1">
          <head>Preferred Citation</head>
-         <p>George Daniel Butler Collection. Manuscripts and Archives, Yale University Library.</p>  
+         <p>George Daniel Butler Collection. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <bioghist id="aspace_833b6fc96b764a5c79cb2a357de6ba8e">
          <head>Biographical / Historical</head>
@@ -123,77 +128,115 @@
          <p>For several years he was a member and chairman of the Board of Adjustment, Playground Committee and Recreation Commission (1947-62) in Leonia, N.J.; also president, Home School Association and other agencies. He received a Special Citation from the American Recreation Society and Honorary Life Memberships in the Recreation and Park Associations of New York and New Jersey. In November, 1966, the renowned Bob Kiphuth, (now deceased) who was then Honorary President of the Council for National Co-operation in Aquatics, awarded But a Certificate of Recognition "for outstanding service and contribution in the field of aquatics", at Purdue University.</p>
          <p>George wrote many pamphlets, booklets and magazine articles and several books, among them, "Introduction to Community Recreation", "Playgrounds-their Administration and Operation", "Recreation Areas-their Design and Equipment", "Municipal Recreation Administration", "Pioneers in Public Recreation", "Country Parks", "Recreation Activities for Adults". For some time he was editor of the "Recreation and Park Yearbook". A lecturer, he has participated in workshops at several universities, chaired many national committees on recreation subjects and has taken part in local recreation surveys. He was Recreation Consultant in the planning of the town of Kitimat in British Columbia.</p>
          <p>He was a member of the Leonia Presbyterian Church where he taught Sunday School and was a member and treasurer of the Session. He belongs to the Church of the Palms and the Yale and Ivy League Clubs in Sarasota. He retired in December 1962. In retirement his hobbies were flower gardening, photography, vacationing in Friendship, Maine, swimming in the Gulf of Mexico and "hiking on the most beautiful beaches in the U.S.A."</p>
-         <p>On September 6, 1921, he married Rebecca Preble Jones, with whom he had two children. He died in May 1985.</p>  
+         <p>On September 6, 1921, he married Rebecca Preble Jones, with whom he had two children. He died in May 1985.</p>
       </bioghist>
       <scopecontent id="aspace_b843c58013c9e89df25aa40a59b00f59">
          <head>Scope and Contents</head>
-         <p>Approximately 600 photographs collected by George Daniel Butler, depicting the Yale section of the U.S. Ambulance Service with the French army, June 22, 1917-April 23, 1919. Also included are postcards of cities and historic sites in France.</p>  
+         <p>Approximately 600 photographs collected by George Daniel Butler, depicting the Yale section of the U.S. Ambulance Service with the French army, June 22, 1917-April 23, 1919. Also included are postcards of cities and historic sites in France.</p>
       </scopecontent>
       <userestrict id="aspace_fd33239020122b8493c651d76d61e7b2">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85148236"
                   source="lcsh">
-            <part>World War, 1914-1918</part>
+            <part localtype="topical">World War, 1914-1918</part>
          </subject>
          <genreform identifier="http://vocab.getty.edu/aat/300046300" source="aat">
-            <part>Photographs</part>
+            <part localtype="genre_form">Photographs</part>
          </genreform>
          <corpname identifier="http://id.loc.gov/authorities/subjects/sh85140602"
                    rules="aacr"
                    source="lcsh">
-            <part>United States. Army ( Ambulances)</part>
+            <part localtype="agent_corporate_entity">United States. Army (Ambulances)</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n83228543"
                    rules="aacr"
                    source="naf">
-            <part>American Field Service</part>
+            <part localtype="agent_corporate_entity">American Field Service</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- History</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">History</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="aspace_eba2d53e72bbc1bf634e397a64904191" level="series">
+         <c altrender="/repositories/12/archival_objects/2993776"
+            id="aspace_eba2d53e72bbc1bf634e397a64904191"
+            level="series">
             <did>
                <unittitle>Original accession</unittitle>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1354426"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Album of approximately 600 photographs</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1917-1919">
+                  <unitdatestructured altrender="1917-1919" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1919">1919</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151657 /locations/9"
                              containerid="39002042277815"
-                             id="d1e255"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
+                  <daoset altrender="/repositories/12/digital_objects/180979">
+                     <dao actuate="onrequest"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10014182"
+                          identifier="oid:10014182"
+                          linktitle="1 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/32278195/full/!150,150/0/default.jpg"
+                          identifier="oid:10014182"
+                          linktitle="Les Ruines,&#34; Ypres."
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10014182"
+                          identifier="oid:10014182"
+                          linktitle="Les Ruines,&#34; Ypres."
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Album of approximately 600 photographs</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
          </c>
-         <c id="ref14" level="series">
+         <c altrender="/repositories/12/archival_objects/1354427"
+            id="ref14"
+            level="series">
             <did>
                <unittitle>Additional Material</unittitle>
                <unitid>Accession 2002-M-097</unitid>
             </did>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1354428"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Album containing postcards of French cities and historic sites [some evidence of World War I destruction; includes small amount of postcards depicting England, Belgium, Germany, and Wales]</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1917-1919">
+                  <unitdatestructured altrender="1917-1919" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1919">1919</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/151658 /locations/9"
                              containerid="39002051916063"
-                             id="d1e279"
+                             encodinganalog="flat box (12d 3h 15w)"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>

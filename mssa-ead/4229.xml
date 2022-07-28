@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0633">mssa.ms.0633</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0633">mssa.ms.0633</recordid>
+      <otherrecordid localtype="BIB">614149</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Pierce Family Papers
@@ -32,6 +34,11 @@
             <date>November 1982</date>
             <num>MS 633</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T08:58:59+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:42:35+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 08:58</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:42</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4229" level="collection">
       <did>
          <unittitle>Pierce family papers</unittitle>
          <unitid>MS 633</unitid>
@@ -83,37 +93,36 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1898-1961">
+         <unitdatestructured altrender="1898-1961" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1898">1898</fromdate>
                <todate standarddate="1961">1961</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_fb1d11b0e0df81b5394e51c38eb7185c">The two principal figures in these papers are David French Pierce, a Congregational minister of Southbury, Conn. and his daughter, Anna Harriet Pierce. Included are manuscripts by David F. Pierce, recounting his visions. The papers of Anna H. Pierce, who was an artist, contain her reminiscences as an art student as well as programs of exhibitions and photographs of her paintings. Also included are memoirs of another daughter, Mary Elizabeth, of her life on a New England farm together with family photographs and other papers.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <famname identifier="http://id.loc.gov/authorities/subjects/sh85102049"
                      source="lcsh">
-               <part>Pierce family</part>
+               <part localtype="agent_family">Pierce family</part>
             </famname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_424c603f3cdc84be7d17c320e5e4625c">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Shelton B. Hicock, 1971.</p>  
+         <p>Gift of Shelton B. Hicock, 1971.</p>
       </acqinfo>
       <accessrestrict id="aspace_bc6fb35919bcafac950e9112995ed5da">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_1e4972040bda381d1094b50cc9a9102b">
          <head>Preferred Citation</head>
-         <p>Pierce Family Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Pierce Family Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_4a54017751d09336ae6f53cfa806ab51">
          <head>Scope and Contents</head>
          <p>This collection contains writings and other papers by and about David French Pierce (1840-1905) of Southbury, Connecticut, and his children. Papers pertaining to David F. Pierce include manuscript descriptions of visions seen by him and poems written by him. Papers pertaining to his daughter Anna Harriet Pierce (Yale B.F.A. 1916) include a typescript copy of "Reminiscences of an Art Student," newspaper clippings describing her paintings, programs of exhibitions of her works, and photographs and other reproductions of her paintings. Anna's sister Mary Elizabeth Pierce (d. 1934; Yale M.A. 1927) is represented by the manuscript "Memories of Life on a New England Farm"; their brother, Frederick E. Pierce, is represented by an obituary notice and a eulogy. The remaining items in the collection are two letters, photographs, and an essay all relating to the Pierce homestead in Southbury, and ten photographs of family members.</p>
-         <p>These papers were donated to Yale University in 1971 by Shelton B. Hicock.</p>  
+         <p>These papers were donated to Yale University in 1971 by Shelton B. Hicock.</p>
       </scopecontent>
       <bioghist id="aspace_5400033dd3df946e16609cc4f8340879">
          <head>Biographical / Historical</head>
@@ -125,124 +134,142 @@
          <p>Married June 25, 1910, in West Haven, Conn., Delma Louise, daughter of Rev. Norman Jairus Squires (B.A. Wesleyan 1871; B.D. Methodist General Biblical Institute) and Mary Matilda (Minor) Squires. Children: David Frederick, Dartmouth '35; and Mary Eleanor, Wellesley '37. Mrs. Pierce died August 20, 1929.</p>
          <p>Took his own life. Buried in Center Cemetery, South Britain. Survived by children and a sister, Miss Anna H. Pierce (B.F.A. 1916). His sister, Miss Mary E. Pierce (M.A. 1927), died October 7, 1934.</p>
          <p>From <emph render="italic">Yale University Obituary Record.</emph>
-         </p>  
+         </p>
       </bioghist>
       <userestrict id="aspace_9f70c27027cf6a8945f151f7e3ebecf4">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85143882"
                   source="lcsh">
-            <part>Visions</part>
+            <part localtype="topical">Visions</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85147447"
                   source="lcsh">
-            <part>Women artists</part>
+            <part localtype="topical">Women artists</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/n79074102"
                    source="lcsh">
-            <part>Connecticut</part>
+            <part localtype="geographic">Connecticut</part>
          </geogname>
          <geogname source="local">
-            <part>Southbury (Conn.) -- History</part>
+            <part localtype="geographic">Southbury (Conn.)</part>
+            <part localtype="topical">History</part>
          </geogname>
          <genreform identifier="http://id.loc.gov/authorities/genreForms/gf2014026047"
                     source="lcgft">
-            <part>Autobiographies</part>
+            <part localtype="genre_form">Autobiographies</part>
          </genreform>
          <occupation source="local">
-            <part>Artists</part>
+            <part localtype="occupation">Artists</part>
          </occupation>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85026944"
                   source="lcsh">
-            <part>Clergy</part>
+            <part localtype="topical">Clergy</part>
          </subject>
          <persname source="local">
-            <part>Pierce, Anna Harriet, d. 1973</part>
+            <part localtype="agent_person">Pierce, Anna Harriet, d. 1973</part>
          </persname>
          <persname source="local">
-            <part>Pierce, David French, 1840-1905</part>
+            <part localtype="agent_person">Pierce, David French, 1840-1905</part>
          </persname>
          <persname source="local">
-            <part>Pierce, Mary Elizabeth, d. 1934</part>
+            <part localtype="agent_person">Pierce, Mary Elizabeth, d. 1934</part>
          </persname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85102049"
                   source="lcsh">
-            <part>Pierce family</part>
+            <part localtype="agent_family">Pierce family</part>
          </famname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1353758"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Anna Harriet Pierce</unittitle>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1353759"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>"Reminiscences of an Art Student," TM</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1898">1898</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151502 /locations/9"
                              containerid="39002042256918"
+                             encodinganalog="archive half letter"
                              id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1353760"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Newspaper clippings</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1926-1958">
+                  <unitdatestructured altrender="1926-1958" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1926">1926</fromdate>
                         <todate standarddate="1958">1958</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151502 /locations/9"
                              containerid="39002042256918"
+                             encodinganalog="archive half letter"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1353761"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Programs of art exhibitions</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1958-1961">
+                  <unitdatestructured altrender="1958-1961" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1958">1958</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151502 /locations/9"
                              containerid="39002042256918"
+                             encodinganalog="archive half letter"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">2</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1353762"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Photographs and reproductions of paintings</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1957, undated">
+                  <unitdatestructured altrender="1957, undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1898">1898</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151502 /locations/9"
                              containerid="39002042256918"
+                             encodinganalog="archive half letter"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -250,72 +277,95 @@
                </did>
             </c>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1353763"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>David French Pierce</unittitle>
             </did>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1353764"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>"A Vision," MS</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1898">1898</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151502 /locations/9"
                              containerid="39002042256918"
+                             encodinganalog="archive half letter"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">4</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1353765"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>"A Waking Vision," MS</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1898">1898</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151502 /locations/9"
                              containerid="39002042256918"
+                             encodinganalog="archive half letter"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">4</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1353766"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>"World-wide Events Which Were Foretold by the Reverend David F. Pierce..." MS</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1946 April 5">
+                  <unitdatestructured altrender="1946 April 5" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1898">1898</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151502 /locations/9"
                              containerid="39002042256918"
+                             encodinganalog="archive half letter"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">4</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1353767"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Poems</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1898, undated">
+                  <unitdatestructured altrender="1898, undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1898">1898</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151502 /locations/9"
                              containerid="39002042256918"
+                             encodinganalog="archive half letter"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -323,72 +373,90 @@
                </did>
             </c>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1353768"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>Frederick Erastus Pierce: Obituary notice and eulogy</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1935">
+               <unitdatestructured altrender="1935" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1935">1935</fromdate>
                      <todate standarddate="1935">1935</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151502 /locations/9"
                           containerid="39002042256918"
+                          encodinganalog="archive half letter"
                           id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">5</container>
             </did>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1353769"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>Mary Elizabeth Pierce: "Memories of Life on a New England Farm," MS</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1898">1898</fromdate>
                      <todate standarddate="1961">1961</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151502 /locations/9"
                           containerid="39002042256918"
+                          encodinganalog="archive half letter"
                           id="aspace_ref22_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">6</container>
             </did>
          </c>
-         <c id="ref23" level="file">
+         <c altrender="/repositories/12/archival_objects/1353770"
+            id="ref23"
+            level="file">
             <did>
                <unittitle>Pierce family</unittitle>
             </did>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1353771"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Correspondence, photographs, and writings describing the Pierce homestead</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1952, 1961, undated">
+                  <unitdatestructured altrender="1952, 1961, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1898">1898</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151502 /locations/9"
                              containerid="39002042256918"
+                             encodinganalog="archive half letter"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">7</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1353772"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Photographs of family members</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1898-1916, undated">
+                  <unitdatestructured altrender="1898-1916, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1898">1898</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151502 /locations/9"
                              containerid="39002042256918"
+                             encodinganalog="archive half letter"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>

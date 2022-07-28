@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0963">mssa.ms.0963</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0963">mssa.ms.0963</recordid>
+      <otherrecordid localtype="BIB">614428</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Asa Fish Papers
@@ -32,6 +34,11 @@
             <date>September 1982</date>
             <num>MS 963</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T07:12:35+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:19:34+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 07:12</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:19</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4314" level="collection">
       <did>
          <unittitle>Asa Fish papers</unittitle>
          <unitid>MS 963</unitid>
@@ -82,297 +92,362 @@
             <quantity>0.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1810-1855">
+         <unitdatestructured altrender="1810-1855" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1810">1810</fromdate>
                <todate standarddate="1855">1855</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_aa02d5a3af7fcd8cc738e928e5430ced">Letters from family, friends, and business associates of Asa Fish chiefly relating to ocean going trade, whaling, and sealing around the Cape of Good Hope and marine insurance. Also some material on politics in Connecticut.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n98078008"
                       rules="aacr"
                       source="naf">
-               <part>Fish, Asa, 1790-1861</part>
+               <part localtype="agent_person">Fish, Asa, 1790-1861</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_bc10fd19a08fd194a6d78e8b1a59ac4c">
          <head>Immediate Source of Acquisition</head>
-         <p>Purchased, 1956.</p>  
+         <p>Purchased, 1956.</p>
       </acqinfo>
       <accessrestrict id="aspace_113e13d9ffc60515042449b71199a25a">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_83374a6d2eeb52a4cf4c6524ae6ce151">
          <head>Preferred Citation</head>
-         <p>Asa Fish Papers (MS 963). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Asa Fish Papers (MS 963). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_20910d69f1021cc2e1414cd3b3d03df2">
          <head>Scope and Contents</head>
-         <p>The Asa Fish Papers consist of letters, printed notices, and commercial papers that Fish received from relatives, friends, and associates in business and public life. The letters touch on all his interests but are mainly concerned with ocean-going trade (mainly between American ports), marine insurance, whaling and sealing around the Cape of Good Hope, banking in New London County, minor business of the probate court, and Republican-Whig politics in Connecticut. The coverage is fragmentary.</p>  
+         <p>The Asa Fish Papers consist of letters, printed notices, and commercial papers that Fish received from relatives, friends, and associates in business and public life. The letters touch on all his interests but are mainly concerned with ocean-going trade (mainly between American ports), marine insurance, whaling and sealing around the Cape of Good Hope, banking in New London County, minor business of the probate court, and Republican-Whig politics in Connecticut. The coverage is fragmentary.</p>
       </scopecontent>
       <bioghist id="aspace_a1dc510e9a1054ec32474cbd9e60662d">
          <head>Biographical / Historical</head>
-         <p>Asa Fish was born in Stonington, Connecticut, on July 17, 1790. He was the son of Sands Fish and Bridget Gallup. He was a merchant, insurance agent, bank and railroad director, selectman, probate judge, state legislator, and political and civic leader of Stonington. He was married to Prudence Brown Dean on September 30, 1818. Fish died in Mystic, Connecticut, on April 20, 1861.</p>  
+         <p>Asa Fish was born in Stonington, Connecticut, on July 17, 1790. He was the son of Sands Fish and Bridget Gallup. He was a merchant, insurance agent, bank and railroad director, selectman, probate judge, state legislator, and political and civic leader of Stonington. He was married to Prudence Brown Dean on September 30, 1818. Fish died in Mystic, Connecticut, on April 20, 1861.</p>
       </bioghist>
       <userestrict id="aspace_cbffe64be0eacca3fc7ddf98eaa3c031">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85018260"
                   source="lcsh">
-            <part>Business</part>
+            <part localtype="topical">Business</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85119310"
                   source="lcsh">
-            <part>Sealing</part>
+            <part localtype="topical">Sealing</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85121579"
                   source="lcsh">
-            <part>Shipping</part>
+            <part localtype="topical">Shipping</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85146357"
                   source="lcsh">
-            <part>Whaling</part>
+            <part localtype="topical">Whaling</part>
          </subject>
          <geogname source="local">
-            <part>Connecticut -- Commerce</part>
+            <part localtype="geographic">Connecticut</part>
+            <part localtype="topical">Commerce</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85031171"
                    source="lcsh">
-            <part>Connecticut -- Politics and government -- 1775-1865</part>
+            <part localtype="geographic">Connecticut</part>
+            <part localtype="topical">Politics and government</part>
+            <part localtype="temporal">1775-1865</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n81125924"
                    source="lcsh">
-            <part>Stonington (Conn.)</part>
+            <part localtype="geographic">Stonington (Conn.)</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140410"
                    source="lcsh">
-            <part>United States -- Politics and government</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">Politics and government</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85083783"
                   source="lcsh">
-            <part>Merchants</part>
+            <part localtype="topical">Merchants</part>
          </subject>
          <occupation source="local">
-            <part>Politicians</part>
+            <part localtype="occupation">Politicians</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/n98078008"
                    rules="aacr"
                    source="naf">
-            <part>Fish, Asa, 1790-1861</part>
+            <part localtype="agent_person">Fish, Asa, 1790-1861</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Fish, James Deane, b. 1819</part>
+            <part localtype="agent_person">Fish, James Deane, b. 1819</part>
          </persname>
          <persname source="local">
-            <part>Fish, Silas, b. 1825</part>
+            <part localtype="agent_person">Fish, Silas, b. 1825</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Perkins, Thomas Clap, 1798-1870</part>
+            <part localtype="agent_person">Perkins, Thomas Clap, 1798-1870</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1354707"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1354708"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>1810-1823</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1354709"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>1824-1828</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1354710"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>1829-1830</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">3</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1354711"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>1831-1833</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">4</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1354712"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>1834-1838</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">5</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1354713"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>1839-1843</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">6</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1354714"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>1844-1847</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">7</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1354715"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>1848</unittitle>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">8</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1354716"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>1849 Feb-Aug</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">9</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1354717"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>1849 Sep-Dec</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">10</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1354718"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>1850 Jan-Mar</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">11</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1354719"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>1850 Apr-Jun</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">12</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1354720"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>1850 Jul-Aug</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">13</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1354721"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>1850 Sep-Dec</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">14</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1354722"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>1851 Jan-Feb</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">15</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1354723"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>1851 Mar-May</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">16</container>
                </did>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1354724"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>1855</unittitle>
-                  <container altrender="archive legal"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">16</container>
                </did>
             </c>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/1354725"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>n.d.</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151735 /locations/9"
                              containerid="39002042281502"
+                             encodinganalog="archive legal"
                              id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0068">mssa.ms.0068</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0068">mssa.ms.0068</recordid>
+      <otherrecordid localtype="BIB">613720</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Hugh Aiken Bayne Papers
@@ -32,6 +34,11 @@
             <date>October 1981</date>
             <num>MS 68</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-03-31T07:06:46+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T07:10:27+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday March 31, 2020 at 07:06</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 07:10</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2917" level="collection">
       <did>
          <unittitle>Hugh Aiken Bayne papers</unittitle>
          <unitid>MS 68</unitid>
@@ -83,679 +93,944 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(7 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1870-1943">
+         <unitdatestructured altrender="1870-1943" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1870">1870</fromdate>
                <todate standarddate="1943">1943</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_170509a6cedb4b324300afe907aadac0">The papers are primarily printed and typescript documents relating to Hugh Bayne's service on international arbitration commissions, some with his marginalia and accompanying notes. His decisions as arbiter include his interpretations of disarmament clauses of the Versailles Treaty (1923) and his opinion on the claims of the Standard Oil Company (1926) and on the claim of Belgium to the treasure of the Order of the Golden Fleece. The remainder of the papers is made up of three volumes of his memoirs, (1870-1943) with photographs, clippings and correspondence pasted in, and the contents of three scrapbooks kept by Bayne while a student at Yale College (1888-1892).</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n95046201"
                       rules="aacr"
                       source="naf">
-               <part>Bayne, Hugh Aiken, 1870-1954</part>
+               <part localtype="agent_person">Bayne, Hugh Aiken, 1870-1954</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_e7b24ce3453758e08288f20641f38af7">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Hugh A. Bayne and his estate, 1928-1941, 1956.</p>  
+         <p>Gift of Hugh A. Bayne and his estate, 1928-1941, 1956.</p>
       </acqinfo>
-      <accessrestrict id="aspace_6ea3e7a3499d6355fd8a681ebfe5022c">
+      <accessrestrict id="aspace_6ea3e7a3499d6355fd8a681ebfe5022c" localtype="UseSurrogate">
          <head>Conditions Governing Access</head>
-         <p>The entire collection is available on microfilm. Patrons must use HM 81 instead of the originals.</p>  
+         <p>The entire collection is available on microfilm. Patrons must use HM 81 instead of the originals.</p>
       </accessrestrict>
       <prefercite id="aspace_3f147fa9920977e7420a86514c747912">
          <head>Preferred Citation</head>
-         <p>Hugh Aiken Bayne Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Hugh Aiken Bayne Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_1117e6a919a6318dc550ef56c565cf6e">
          <head>Scope and Contents</head>
          <p>The Hugh A. Bayne Papers consist of three types of material. Boxes 1 and 2 contain printed and typescript documents concerning Bayne's service on international arbitration commissions. Boxes 3 and 4 contain volumes of typescript memoirs with photographs, clippings, and correspondence pasted in. Three scrapbooks, originally catalogued as YYez. 892ba, were added to the papers in June, 1981. The scrapbooks, mainly from Bayne's undergraduate days at Yale, contain newspaper clippings, correspondence, photographs, and memorabilia. These scrapbooks were dismantled for microfilming and when filming was completed the clippings and other deteriorating paper were discarded. The remaining materials are in boxes 5-7, arranged by type.</p>
          <p>All of the papers are available on microfilm (MICROFILM HM 81). The materials in boxes 3 and 4 are now restricted, in order to protect them; readers wishing to consult them must use the film.</p>
-         <p>The papers were given to Yale University Library by Hugh A. Bayne and his estate between 1928-41 and in 1956.</p>  
+         <p>The papers were given to Yale University Library by Hugh A. Bayne and his estate between 1928-41 and in 1956.</p>
       </scopecontent>
       <bioghist id="aspace_ff138792d97b45715eddf52f0b1344af">
          <head>Biographical / Historical</head>
-         <p>Hugh Bayne was admitted to the bar in 1894. He practiced law in New Orleans from 1894-1898, and in New York City from 1898-1919. Bayne was a member of the legal services unit of the Reparations Commission under the Treaties of Versailles and St. Germain, 1919-1928.</p>  
+         <p>Hugh Bayne was admitted to the bar in 1894. He practiced law in New Orleans from 1894-1898, and in New York City from 1898-1919. Bayne was a member of the legal services unit of the Reparations Commission under the Treaties of Versailles and St. Germain, 1919-1928.</p>
       </bioghist>
       <userestrict id="aspace_c4496ff768755dd61b7df2e9ce873978">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <title identifier="http://id.loc.gov/authorities/names/n83033789"
                 source="lcsh">
-            <part>Treaty of Peace Between the Allied and Associated Powers and Austria (1919 September 10)</part>
+            <part localtype="uniform_title">Treaty of Peace Between the Allied and Associated Powers and Austria (1919 September 10)</part>
          </title>
          <title identifier="http://id.loc.gov/authorities/names/n82001802"
                 source="lcsh">
-            <part>Treaty of Versailles (1919 June 28)</part>
+            <part localtype="uniform_title">Treaty of Versailles (1919 June 28)</part>
          </title>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075119"
                   source="lcsh">
-            <part>Law</part>
+            <part localtype="topical">Law</part>
          </subject>
          <subject source="local">
-            <part>World War, 1914-1918 -- Prisoners and prisons</part>
+            <part localtype="topical">World War, 1914-1918</part>
+            <part localtype="topical">Prisoners and prisons</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85045631"
                    source="lcsh">
-            <part>Europe</part>
+            <part localtype="geographic">Europe</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85125633"
                    source="lcsh">
-            <part>Southern States</part>
+            <part localtype="geographic">Southern States</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140058"
                    source="lcsh">
-            <part>United States -- Foreign relations</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">Foreign relations</part>
          </geogname>
          <genreform identifier="http://id.loc.gov/authorities/genreForms/gf2014026047"
                     source="lcgft">
-            <part>Autobiographies</part>
+            <part localtype="genre_form">Autobiographies</part>
          </genreform>
          <genreform identifier="http://vocab.getty.edu/aat/300027112" source="aat">
-            <part>Diaries</part>
+            <part localtype="genre_form">Diaries</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075351"
                   source="lcsh">
-            <part>Lawyers</part>
+            <part localtype="topical">Lawyers</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/n95046201"
                    rules="aacr"
                    source="naf">
-            <part>Bayne, Hugh Aiken, 1870-1954</part>
+            <part localtype="agent_person">Bayne, Hugh Aiken, 1870-1954</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n79055561" source="naf">
-            <part>Rubens, Peter Paul, 1577-1640</part>
+            <part localtype="agent_person">Rubens, Peter Paul, 1577-1640</part>
          </persname>
          <corpname rules="aacr" source="local">
-            <part>Austria. Staatsamt für Inneres und Unterricht</part>
+            <part localtype="agent_corporate_entity">Austria. Staatsamt für Inneres und Unterricht</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n82132670" source="naf">
-            <part>Belgium. Ministère des sciences et des arts</part>
+            <part localtype="agent_corporate_entity">Belgium. Ministère des sciences et des arts</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n82120497"
                    rules="aacr"
                    source="naf">
-            <part>Order of the Golden Fleece</part>
+            <part localtype="agent_corporate_entity">Order of the Golden Fleece</part>
          </corpname>
          <corpname rules="aacr" source="local">
-            <part>Yale College (1887- ). Class of 1892</part>
+            <part localtype="agent_corporate_entity">Yale College (1887- ). Class of 1892</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1171634"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Documents concerning international arbitration commissions</unittitle>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1171635"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Volume: (Part I): Decision of Hugh A. Bayne, arbiter of two questions submitted by the council of ambassadors</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1922-1923">
+                  <unitdatestructured altrender="1922-1923" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1922">1922</fromdate>
                         <todate standarddate="1923">1923</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container localtype="box" id="d2e2">1</container>
-                  <container localtype="reel" id="d2e5">1U</container>
+                  <container altrender="/repositories/12/top_containers/129937 /locations/9"
+                             containerid="39002042528290"
+                             encodinganalog="archive legal"
+                             id="aspace_ref12_c1"
+                             label="Mixed Materials"
+                             localtype="box">1</container>
+                  <container altrender="/repositories/12/top_containers/204333 /locations/2981"
+                             containerid="39002075048661"
+                             encodinganalog="microfilm box"
+                             id="aspace_ref12_c2"
+                             label="Mixed Materials"
+                             localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1171636"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Volume: (Part II): Standard Oil Company tankers arbitration between the United States and the reparation commission</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1926">
+                  <unitdatestructured altrender="1926" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1926">1926</fromdate>
                         <todate standarddate="1926">1926</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container localtype="box" id="d3e2">1</container>
-                  <container localtype="reel" id="d3e5">1U</container>
+                  <container altrender="/repositories/12/top_containers/129937 /locations/9"
+                             containerid="39002042528290"
+                             encodinganalog="archive legal"
+                             id="aspace_ref13_c1"
+                             label="Mixed Materials"
+                             localtype="box">1</container>
+                  <container altrender="/repositories/12/top_containers/204333 /locations/2981"
+                             containerid="39002075048661"
+                             encodinganalog="microfilm box"
+                             id="aspace_ref13_c2"
+                             label="Mixed Materials"
+                             localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1171637"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Volume: (Part III): S. S. Eduardo Musil arbitration between France and Italy</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1922-1923">
+                  <unitdatestructured altrender="1922-1923" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1922">1922</fromdate>
                         <todate standarddate="1923">1923</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container localtype="box" id="d4e2">1</container>
-                  <container localtype="reel" id="d4e5">1U</container>
+                  <container altrender="/repositories/12/top_containers/129937 /locations/9"
+                             containerid="39002042528290"
+                             encodinganalog="archive legal"
+                             id="aspace_ref14_c1"
+                             label="Mixed Materials"
+                             localtype="box">1</container>
+                  <container altrender="/repositories/12/top_containers/204333 /locations/2981"
+                             containerid="39002075048661"
+                             encodinganalog="microfilm box"
+                             id="aspace_ref14_c2"
+                             label="Mixed Materials"
+                             localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1171638"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Volume: Agreement between the United States and Germany concerning prisoners of war</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1918, 1922">
+                  <unitdatestructured altrender="1918, 1922" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1870">1870</fromdate>
                         <todate standarddate="1943">1943</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container localtype="box" id="d5e2">1</container>
-                  <container localtype="reel" id="d5e5">1U</container>
+                  <container altrender="/repositories/12/top_containers/129937 /locations/9"
+                             containerid="39002042528290"
+                             encodinganalog="archive legal"
+                             id="aspace_ref15_c1"
+                             label="Mixed Materials"
+                             localtype="box">1</container>
+                  <container altrender="/repositories/12/top_containers/204333 /locations/2981"
+                             containerid="39002075048661"
+                             encodinganalog="microfilm box"
+                             id="aspace_ref15_c2"
+                             label="Mixed Materials"
+                             localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1171639"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Volume: Claim of Belgium to the treasure of the Order of the Golden Fleece: report of the committee of three jurists</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1907, 1914, 1921-1922, 1940">
+                  <unitdatestructured altrender="1907, 1914, 1921-1922, 1940"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1870">1870</fromdate>
                         <todate standarddate="1943">1943</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container localtype="box" id="d6e2">1</container>
-                  <container localtype="reel" id="d6e5">1U</container>
+                  <container altrender="/repositories/12/top_containers/129937 /locations/9"
+                             containerid="39002042528290"
+                             encodinganalog="archive legal"
+                             id="aspace_ref16_c1"
+                             label="Mixed Materials"
+                             localtype="box">1</container>
+                  <container altrender="/repositories/12/top_containers/204333 /locations/2981"
+                             containerid="39002075048661"
+                             encodinganalog="microfilm box"
+                             id="aspace_ref16_c2"
+                             label="Mixed Materials"
+                             localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1171640"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Volume: Three international arbitrations</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1922-1923, 1926">
+                  <unitdatestructured altrender="1922-1923, 1926"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1870">1870</fromdate>
                         <todate standarddate="1943">1943</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container localtype="box" id="d7e2">2</container>
-                  <container localtype="reel" id="d7e5">1U</container>
+                  <container altrender="/repositories/12/top_containers/129938 /locations/9"
+                             containerid="39002042528308"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref17_c1"
+                             label="Mixed Materials"
+                             localtype="box">2</container>
+                  <container altrender="/repositories/12/top_containers/204333 /locations/2981"
+                             containerid="39002075048661"
+                             encodinganalog="microfilm box"
+                             id="aspace_ref17_c2"
+                             label="Mixed Materials"
+                             localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1171641"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Volume: Claim of Belgium to the Triptych of St. Ildephonse: report of the committee of three jurists</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1921">
+                  <unitdatestructured altrender="1921" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1921">1921</fromdate>
                         <todate standarddate="1921">1921</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container localtype="box" id="d8e2">2</container>
-                  <container localtype="reel" id="d8e5">1U</container>
+                  <container altrender="/repositories/12/top_containers/129938 /locations/9"
+                             containerid="39002042528308"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref18_c1"
+                             label="Mixed Materials"
+                             localtype="box">2</container>
+                  <container altrender="/repositories/12/top_containers/204333 /locations/2981"
+                             containerid="39002075048661"
+                             encodinganalog="microfilm box"
+                             id="aspace_ref18_c2"
+                             label="Mixed Materials"
+                             localtype="reel">1U</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1171642"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Folder: Typescript of "When Francis Scott Key was an ambassador," by Hugh A. Payne</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1936">
+                  <unitdatestructured altrender="1936" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1936">1936</fromdate>
                         <todate standarddate="1936">1936</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container localtype="box" id="d9e2">2</container>
-                  <container localtype="reel" id="d9e5">1U</container>
+                  <container altrender="/repositories/12/top_containers/129938 /locations/9"
+                             containerid="39002042528308"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref19_c1"
+                             label="Mixed Materials"
+                             localtype="box">2</container>
+                  <container altrender="/repositories/12/top_containers/204333 /locations/2981"
+                             containerid="39002075048661"
+                             encodinganalog="microfilm box"
+                             id="aspace_ref19_c2"
+                             label="Mixed Materials"
+                             localtype="reel">1U</container>
                </did>
             </c>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1171643"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>Memoirs</unittitle>
             </did>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1171644"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Volume I, Part 1 (p.1-236): Index-Ancestors-Life in New Orleans</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1870-1898">
+                  <unitdatestructured altrender="1870-1898" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1870">1870</fromdate>
                         <todate standarddate="1898">1898</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container localtype="box" id="d10e2">3</container>
-                  <container localtype="reel" id="d10e5">2U</container>
+                  <container altrender="/repositories/12/top_containers/129939 /locations/9"
+                             containerid="39002042528316"
+                             encodinganalog="archive legal"
+                             id="aspace_ref21_c1"
+                             label="Mixed Materials"
+                             localtype="box">3</container>
+                  <container altrender="/repositories/12/top_containers/204332 /locations/2981"
+                             containerid="39002075048679"
+                             encodinganalog="microfilm box"
+                             id="aspace_ref21_c2"
+                             label="Mixed Materials"
+                             localtype="reel">2U</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1171645"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Volume I, Part 2 (p. 237-473): Life at Yale-Life in New York-Emily-Miscellaneous</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1888-1892, 1898-1917">
+                  <unitdatestructured altrender="1888-1892, 1898-1917"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1870">1870</fromdate>
                         <todate standarddate="1943">1943</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container localtype="box" id="d11e2">3</container>
-                  <container localtype="reel" id="d11e5">2U</container>
+                  <container altrender="/repositories/12/top_containers/129939 /locations/9"
+                             containerid="39002042528316"
+                             encodinganalog="archive legal"
+                             id="aspace_ref22_c1"
+                             label="Mixed Materials"
+                             localtype="box">3</container>
+                  <container altrender="/repositories/12/top_containers/204332 /locations/2981"
+                             containerid="39002075048679"
+                             encodinganalog="microfilm box"
+                             id="aspace_ref22_c2"
+                             label="Mixed Materials"
+                             localtype="reel">2U</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1171646"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>Volume II: The War-Life in Paris-Home Again</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1917-1919, 1919-1928, 1928">
+                  <unitdatestructured altrender="1917-1919, 1919-1928, 1928"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1870">1870</fromdate>
                         <todate standarddate="1943">1943</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container localtype="box" id="d12e2">4</container>
-                  <container localtype="reel" id="d12e5">2U</container>
+                  <container altrender="/repositories/12/top_containers/129940 /locations/9"
+                             containerid="39002042528324"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref23_c1"
+                             label="Mixed Materials"
+                             localtype="box">4</container>
+                  <container altrender="/repositories/12/top_containers/204332 /locations/2981"
+                             containerid="39002075048679"
+                             encodinganalog="microfilm box"
+                             id="aspace_ref23_c2"
+                             label="Mixed Materials"
+                             localtype="reel">2U</container>
                </did>
             </c>
          </c>
-         <c id="ref24" level="file">
+         <c altrender="/repositories/12/archival_objects/1171647"
+            id="ref24"
+            level="file">
             <did>
                <unittitle>Papers removed from Bayne's Yale scrapbooks</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1888-1892, 1911-1940, undated">
+               <unitdatestructured altrender="1888-1892, 1911-1940, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1870">1870</fromdate>
                      <todate standarddate="1943">1943</todate>
                   </daterange>
                </unitdatestructured>
-               <container localtype="box" id="d13e2">4</container>
-               <container localtype="reel" id="d13e5">2U</container>
+               <container altrender="/repositories/12/top_containers/129940 /locations/9"
+                          containerid="39002042528324"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref24_c1"
+                          label="Mixed Materials"
+                          localtype="box">4</container>
+               <container altrender="/repositories/12/top_containers/204332 /locations/2981"
+                          containerid="39002075048679"
+                          encodinganalog="microfilm box"
+                          id="aspace_ref24_c2"
+                          label="Mixed Materials"
+                          localtype="reel">2U</container>
             </did>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1171648"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Correspondence</unittitle>
                </did>
-               <c id="ref26" level="file">
+               <c altrender="/repositories/12/archival_objects/1171649"
+                  id="ref26"
+                  level="file">
                   <did>
                      <unittitle>1889-1892</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129941 /locations/9"
                                 containerid="39002042528332"
+                                encodinganalog="archive legal"
                                 id="aspace_ref26_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">1</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref26_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref27" level="file">
+               <c altrender="/repositories/12/archival_objects/1171650"
+                  id="ref27"
+                  level="file">
                   <did>
                      <unittitle>1896, 1932, 1940, n.d.</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129941 /locations/9"
                                 containerid="39002042528332"
+                                encodinganalog="archive legal"
                                 id="aspace_ref27_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">2</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref27_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1171651"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>Memorabilia, miscellaneous</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/129941 /locations/9"
                              containerid="39002042528332"
+                             encodinganalog="archive legal"
                              id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">3</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                              containerid="39002075048687"
+                             encodinganalog="microfilm box"
                              id="aspace_ref28_c3"
                              label="Mixed Materials"
                              localtype="reel">3U</container>
                </did>
             </c>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/1171652"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>Yale memorabilia</unittitle>
                </did>
-               <c id="ref30" level="file">
+               <c altrender="/repositories/12/archival_objects/1171653"
+                  id="ref30"
+                  level="file">
                   <did>
                      <unittitle>Academic, miscellaneous</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129941 /locations/9"
                                 containerid="39002042528332"
+                                encodinganalog="archive legal"
                                 id="aspace_ref30_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">4</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref30_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref31" level="file">
+               <c altrender="/repositories/12/archival_objects/1171654"
+                  id="ref31"
+                  level="file">
                   <did>
                      <unittitle>Activities, miscellaneous</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129941 /locations/9"
                                 containerid="39002042528332"
+                                encodinganalog="archive legal"
                                 id="aspace_ref31_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">5</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref31_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref32" level="file">
+               <c altrender="/repositories/12/archival_objects/1171655"
+                  id="ref32"
+                  level="file">
                   <did>
                      <unittitle>Athletic</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129941 /locations/9"
                                 containerid="39002042528332"
+                                encodinganalog="archive legal"
                                 id="aspace_ref32_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">6 - 8</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref32_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref33" level="file">
+               <c altrender="/repositories/12/archival_objects/1171656"
+                  id="ref33"
+                  level="file">
                   <did>
                      <unittitle>Exams</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129941 /locations/9"
                                 containerid="39002042528332"
+                                encodinganalog="archive legal"
                                 id="aspace_ref33_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">9</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref33_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref34" level="file">
+               <c altrender="/repositories/12/archival_objects/1171657"
+                  id="ref34"
+                  level="file">
                   <did>
                      <unittitle>Financial records</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129941 /locations/9"
                                 containerid="39002042528332"
+                                encodinganalog="archive legal"
                                 id="aspace_ref34_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">10</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref34_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref35" level="file">
+               <c altrender="/repositories/12/archival_objects/1171658"
+                  id="ref35"
+                  level="file">
                   <did>
                      <unittitle>Hé Boulé fraternity</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129941 /locations/9"
                                 containerid="39002042528332"
+                                encodinganalog="archive legal"
                                 id="aspace_ref35_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">11</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref35_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref36" level="file">
+               <c altrender="/repositories/12/archival_objects/1171659"
+                  id="ref36"
+                  level="file">
                   <did>
                      <unittitle>Invitations, Yale functions</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129941 /locations/9"
                                 containerid="39002042528332"
+                                encodinganalog="archive legal"
                                 id="aspace_ref36_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">12</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref36_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref37" level="file">
+               <c altrender="/repositories/12/archival_objects/1171660"
+                  id="ref37"
+                  level="file">
                   <did>
                      <unittitle>Invitations, miscellaneous</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129941 /locations/9"
                                 containerid="39002042528332"
+                                encodinganalog="archive legal"
                                 id="aspace_ref37_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">13</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref37_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref38" level="file">
+               <c altrender="/repositories/12/archival_objects/1171661"
+                  id="ref38"
+                  level="file">
                   <did>
                      <unittitle>KOA fraternity</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129941 /locations/9"
                                 containerid="39002042528332"
+                                encodinganalog="archive legal"
                                 id="aspace_ref38_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">14</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref38_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref39" level="file">
+               <c altrender="/repositories/12/archival_objects/1171662"
+                  id="ref39"
+                  level="file">
                   <did>
                      <unittitle>Post-graduation</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="(1911-1912, 1922)">
+                     <unitdatestructured altrender="(1911-1912, 1922)"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1870">1870</fromdate>
                            <todate standarddate="1943">1943</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129941 /locations/9"
                                 containerid="39002042528332"
+                                encodinganalog="archive legal"
                                 id="aspace_ref39_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">15</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref39_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref40" level="file">
+               <c altrender="/repositories/12/archival_objects/1171663"
+                  id="ref40"
+                  level="file">
                   <did>
                      <unittitle>Programs-banquets</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129942 /locations/9"
                                 containerid="39002042528340"
+                                encodinganalog="archive legal"
                                 id="aspace_ref40_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">16 - 17</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref40_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref41" level="file">
+               <c altrender="/repositories/12/archival_objects/1171664"
+                  id="ref41"
+                  level="file">
                   <did>
                      <unittitle>Programs and committee cards-dances</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129942 /locations/9"
                                 containerid="39002042528340"
+                                encodinganalog="archive legal"
                                 id="aspace_ref41_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">18</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref41_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref42" level="file">
+               <c altrender="/repositories/12/archival_objects/1171665"
+                  id="ref42"
+                  level="file">
                   <did>
                      <unittitle>Programs and ticket stubs-drama</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129942 /locations/9"
                                 containerid="39002042528340"
+                                encodinganalog="archive legal"
                                 id="aspace_ref42_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">19</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref42_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref43" level="file">
+               <c altrender="/repositories/12/archival_objects/1171666"
+                  id="ref43"
+                  level="file">
                   <did>
                      <unittitle>Programs-music</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129942 /locations/9"
                                 containerid="39002042528340"
+                                encodinganalog="archive legal"
                                 id="aspace_ref43_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref43_c2" localtype="folder" parent="aspace_ref43_c1">20</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref43_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref44" level="file">
+               <c altrender="/repositories/12/archival_objects/1171667"
+                  id="ref44"
+                  level="file">
                   <did>
                      <unittitle>Programs-Yale Glee and Banjo Club</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129942 /locations/9"
                                 containerid="39002042528340"
+                                encodinganalog="archive legal"
                                 id="aspace_ref44_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">21</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref44_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref45" level="file">
+               <c altrender="/repositories/12/archival_objects/1171668"
+                  id="ref45"
+                  level="file">
                   <did>
                      <unittitle>Publications, Yale</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129942 /locations/9"
                                 containerid="39002042528340"
+                                encodinganalog="archive legal"
                                 id="aspace_ref45_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref45_c2" localtype="folder" parent="aspace_ref45_c1">22</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref45_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref46" level="file">
+               <c altrender="/repositories/12/archival_objects/1171669"
+                  id="ref46"
+                  level="file">
                   <did>
                      <unittitle>Miscellaneous</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129942 /locations/9"
                                 containerid="39002042528340"
+                                encodinganalog="archive legal"
                                 id="aspace_ref46_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref46_c2" localtype="folder" parent="aspace_ref46_c1">23</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref46_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
             </c>
-            <c id="ref47" level="file">
+            <c altrender="/repositories/12/archival_objects/1171670"
+               id="ref47"
+               level="file">
                <did>
                   <unittitle>Photographs</unittitle>
                </did>
-               <c id="ref48" level="file">
+               <c altrender="/repositories/12/archival_objects/1171671"
+                  id="ref48"
+                  level="file">
                   <did>
                      <unittitle>Hugh A. Bayne</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/129942 /locations/9"
                                 containerid="39002042528340"
+                                encodinganalog="archive legal"
                                 id="aspace_ref48_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref48_c2" localtype="folder" parent="aspace_ref48_c1">24</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref48_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref49" level="file">
+               <c altrender="/repositories/12/archival_objects/1171672"
+                  id="ref49"
+                  level="file">
                   <did>
                      <unittitle>Yale campus, Yale football</unittitle>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/129943 /locations/9"
                                 containerid="39002042528357"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref49_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref49_c2" localtype="folder" parent="aspace_ref49_c1">25</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref49_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
-               <c id="ref50" level="file">
+               <c altrender="/repositories/12/archival_objects/1171673"
+                  id="ref50"
+                  level="file">
                   <did>
                      <unittitle>Skull and Bones, miscellaneous</unittitle>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/129943 /locations/9"
                                 containerid="39002042528357"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref50_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref50_c2" localtype="folder" parent="aspace_ref50_c1">26</container>
-                     <container altrender="microfilm box"
+                     <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                                 containerid="39002075048687"
+                                encodinganalog="microfilm box"
                                 id="aspace_ref50_c3"
                                 label="Mixed Materials"
                                 localtype="reel">3U</container>
                   </did>
                </c>
             </c>
-            <c id="ref51" level="file">
+            <c altrender="/repositories/12/archival_objects/1171674"
+               id="ref51"
+               level="file">
                <did>
                   <unittitle>Writings by Hugh A. Bayne</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/129943 /locations/9"
                              containerid="39002042528357"
+                             encodinganalog="archive half legal"
                              id="aspace_ref51_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                   <container id="aspace_ref51_c2" localtype="folder" parent="aspace_ref51_c1">27</container>
-                  <container altrender="microfilm box"
+                  <container altrender="/repositories/12/top_containers/204335 /locations/2981"
                              containerid="39002075048687"
+                             encodinganalog="microfilm box"
                              id="aspace_ref51_c3"
                              label="Mixed Materials"
                              localtype="reel">3U</container>

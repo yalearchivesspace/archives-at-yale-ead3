@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0907">mssa.ms.0907</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0907">mssa.ms.0907</recordid>
+      <otherrecordid localtype="BIB">614361</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the William Beebe Papers
@@ -32,6 +34,11 @@
             <date>June 1983</date>
             <num>MS 907</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:28:19+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:15:13+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:28</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:15</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4286" level="collection">
       <did>
          <unittitle>William Beebe papers</unittitle>
          <unitid>MS 907</unitid>
@@ -82,39 +92,38 @@
             <quantity>0.25</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1901-1917">
+         <unitdatestructured altrender="1901-1917" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1901">1901</fromdate>
                <todate standarddate="1917">1917</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_5ce303d73113b84e6ffcd4c65e7816e0">The papers of William Beebe consist of three manuscripts: "Celestial Mechanics" (1901-1902), and two lectures given by Beebe in 1917. One is on John Milton and the other on the organization of Yale University</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n2011021318"
                       rules="aacr"
                       source="naf">
-               <part>Beebe, William, 1851-1917</part>
+               <part localtype="agent_person">Beebe, William, 1851-1917</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_ec6959e05636051cb22ed9da91fbb01d">
          <head>Immediate Source of Acquisition</head>
-         <p>Gifts of Yale Mathematics Department, 1955 and Mrs. Jasper Y. Brinton.</p>  
+         <p>Gifts of Yale Mathematics Department, 1955 and Mrs. Jasper Y. Brinton.</p>
       </acqinfo>
       <accessrestrict id="aspace_4808357d7294a0c9636c3d4722d1cbdd">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_f4d31852d70044a84cb809947776637c">
          <head>Preferred Citation</head>
-         <p>William Beebe Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>William Beebe Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_3c8a23fb7f2eed58aba28896dfa8a4a2">
          <head>Scope and Contents</head>
          <p>Three writings by the mathematician and astronomer William Beebe make up this collection. The first is a manuscript volume entitled "Celestial Mechanics," written in 1901-02, and dealing with the effects of gravitation on the motion of planets and other bodies. The volume was given to Manuscripts and Archives by the Yale Mathematics Department in 1955.</p>
          <p>The other two items are lectures given by Beebe before the Colby Club at Yale University in 1917, the first on John Milton and the other on the organization of Yale University. These two items were donated to Yale by Mrs. Jasper Y. Brinton.</p>
-         <p>Papers concerning a memorial to William Beebe may be found in the Yale University Archives, YRG 6-Q.</p>  
+         <p>Papers concerning a memorial to William Beebe may be found in the Yale University Archives, YRG 6-Q.</p>
       </scopecontent>
       <bioghist id="aspace_2ef7994d631524a17a053c321f176f32">
          <head>Biographical / Historical</head>
@@ -131,89 +140,108 @@
          <p>He was married June 22, 1880, in Wilmington, Del., to Elizabeth, daughter of Col. George Lea Febiger, U. S. A., and Caroline (Smith) Febiger. They had one son, Philip Schuyler, 2d, a non-graduate member of the Sheffield Class of 1905, who died May 20, 1908. Professor Beebe, who was the last of his name and family, was survived by his wife.</p>
          <p>(Taken from <title render="italic">
                <part>Yale Obituary Record</part>
-            </title>, 1915-20, pp. 341-342).</p>  
+            </title>, 1915-20, pp. 341-342).</p>
       </bioghist>
       <userestrict id="aspace_83ba2967e31343c75263a5a0afae6ae7">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85118553"
                   source="lcsh">
-            <part>Science</part>
+            <part localtype="topical">Science</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85008992"
                   source="lcsh">
-            <part>Astronomers</part>
+            <part localtype="topical">Astronomers</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <occupation source="local">
-            <part>Mathematicians</part>
+            <part localtype="occupation">Mathematicians</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/n2011021318"
                    rules="aacr"
                    source="naf">
-            <part>Beebe, William, 1851-1917</part>
+            <part localtype="agent_person">Beebe, William, 1851-1917</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Administration</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Administration</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
          <corpname source="local">
-            <part>Yale University. Dept. of Mathematics</part>
+            <part localtype="agent_corporate_entity">Yale University. Dept. of Mathematics</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1354452"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>"Celestial Mechanics"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1901-1902">
+               <unitdatestructured altrender="1901-1902" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1901">1901</fromdate>
                      <todate standarddate="1902">1902</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151665 /locations/9"
                           containerid="39002042652256"
+                          encodinganalog="archive half letter"
                           id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1354453"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>"An Astronomical Poet"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1917">
+               <unitdatestructured altrender="1917" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1917">1917</fromdate>
                      <todate standarddate="1917">1917</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/151665 /locations/9"
                           containerid="39002042652256"
+                          encodinganalog="archive half letter"
                           id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1354454"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Address on the organization of Yale University</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[ca. 1917]">
+               <unitdatestructured altrender="[ca. 1917]" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1912">1912</fromdate>
                      <todate standarddate="1922">1922</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151665 /locations/9"
                           containerid="39002042652256"
+                          encodinganalog="archive half letter"
                           id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>

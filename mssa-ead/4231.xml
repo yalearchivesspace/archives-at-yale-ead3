@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0642">mssa.ms.0642</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0642">mssa.ms.0642</recordid>
+      <otherrecordid localtype="BIB">614393</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the John Gamble Kirkwood Papers
@@ -32,6 +34,11 @@
             <date>October 1972</date>
             <num>MS 642</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-06-01T07:00:38+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:43:04+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Monday June  1, 2020 at 07:00</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:43</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4231" level="collection">
       <did>
          <unittitle>John Gamble Kirkwood papers</unittitle>
          <unitid>MS 642</unitid>
@@ -82,266 +92,307 @@
             <quantity>9</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1947-1961">
+         <unitdatestructured altrender="1947-1961" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1947">1947</fromdate>
                <todate standarddate="1961">1961</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_61cfc18d3fcdac9e1da75fdaf76c390b">Correspondence, lectures, and printed material compiled by John Gamble Kirkwood during his tenure at Yale University. The lectures are on statistical mechanics and thermodynamics. Half of the papers are made up of offprints of articles in chemistry by others.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n50048595" source="naf">
-               <part>Kirkwood, John G., 1907-1959</part>
+               <part localtype="agent_person">Kirkwood, John G., 1907-1959</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_b7592430f129e35d403ac571a83e9d49">
          <head>Immediate Source of Acquisition</head>
-         <p>Transferred from the Chemistry Department, Yale University, 1972.</p>  
+         <p>Transferred from the Chemistry Department, Yale University, 1972.</p>
       </acqinfo>
       <accessrestrict id="aspace_b61890d83958d56ce5abe48fe59e100e">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_6142f5314ca9afa8fc581fd1651b24ab">
          <head>Preferred Citation</head>
-         <p>John Gamble Kirkwood Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>John Gamble Kirkwood Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <bioghist id="aspace_3010b4ff45abfb25c3bc56fa7bb8301f">
          <head>Biographical / Historical</head>
-         <p>John Gamble Kirkwood: chemist; student at the California Institute of Technology, 1923-1925; S.B., University of Chicago, 1926; Ph.D., M.I.T., 1929; research fellow, Harvard, 1929-1930; international research fellow, Leipzig and Munich, 1931-1932; research associate, M.I.T., 1930-1931, 1932-1934; assistant professor of chemistry, Cornell, 1934-1937; associate professor, University of Chicago, 1937-1938; Todd professor of chemistry, Cornell, 1938-1947; Sterling professor of Chemistry, Yale, 1956-1959.</p>  
+         <p>John Gamble Kirkwood: chemist; student at the California Institute of Technology, 1923-1925; S.B., University of Chicago, 1926; Ph.D., M.I.T., 1929; research fellow, Harvard, 1929-1930; international research fellow, Leipzig and Munich, 1931-1932; research associate, M.I.T., 1930-1931, 1932-1934; assistant professor of chemistry, Cornell, 1934-1937; associate professor, University of Chicago, 1937-1938; Todd professor of chemistry, Cornell, 1938-1947; Sterling professor of Chemistry, Yale, 1956-1959.</p>
       </bioghist>
       <scopecontent id="aspace_a16be063cbf75b4bf95f7f71ad1687ad">
          <head>Scope and Contents</head>
-         <p>Correspondence, lectures, and printed material compiled by John Gamble Kirkwood during his tenure at Yale University. The lectures are on statistical mechanics and thermodynamics. Half of the papers are made up of offprints of articles in chemistry by others.</p>  
+         <p>Correspondence, lectures, and printed material compiled by John Gamble Kirkwood during his tenure at Yale University. The lectures are on statistical mechanics and thermodynamics. Half of the papers are made up of offprints of articles in chemistry by others.</p>
       </scopecontent>
       <userestrict id="aspace_c2e29b81bcf0f13a7dd4970006ece3ab">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85118553"
                   source="lcsh">
-            <part>Science</part>
+            <part localtype="topical">Science</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85127571"
                   source="lcsh">
-            <part>Statistical mechanics</part>
+            <part localtype="topical">Statistical mechanics</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85134783"
                   source="lcsh">
-            <part>Thermodynamics</part>
+            <part localtype="topical">Thermodynamics</part>
          </subject>
          <occupation source="local">
-            <part>Chemists</part>
+            <part localtype="occupation">Chemists</part>
          </occupation>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/n50048595" source="naf">
-            <part>Kirkwood, John G., 1907-1959</part>
+            <part localtype="agent_person">Kirkwood, John G., 1907-1959</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/no2018091108"
                    source="naf">
-            <part>Yale University. Department of Chemistry</part>
+            <part localtype="agent_corporate_entity">Yale University. Department of Chemistry</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1353782"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1353783"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>A-C</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1951-1961">
+                  <unitdatestructured altrender="1951-1961" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1951">1951</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151504 /locations/9"
                              containerid="39002042568718"
+                             encodinganalog="Paige 15"
                              id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1353784"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>D-N</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1951-1961">
+                  <unitdatestructured altrender="1951-1961" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1951">1951</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151505 /locations/9"
                              containerid="39002042568726"
+                             encodinganalog="Paige 15"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1353785"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>O-Z</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1951-1961">
+                  <unitdatestructured altrender="1951-1961" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1951">1951</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151506 /locations/9"
                              containerid="39002042568734"
+                             encodinganalog="Paige 15"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1353786"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Kirkwood, John G. lectures</unittitle>
             </did>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1353787"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Selected Topics in Statistical Mechanics (2 vols.)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1947">
+                  <unitdatestructured altrender="1947" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1947">1947</fromdate>
                         <todate standarddate="1947">1947</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151506 /locations/9"
                              containerid="39002042568734"
+                             encodinganalog="Paige 15"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1353788"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Thermodynamics (2 vols.)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1947-1961">
+                  <unitdatestructured altrender="1947-1961" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1947">1947</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151506 /locations/9"
                              containerid="39002042568734"
+                             encodinganalog="Paige 15"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1353789"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Thermodynamics (9 vols.)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1947-1961">
+                  <unitdatestructured altrender="1947-1961" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1947">1947</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151507 /locations/9"
                              containerid="39002042568742"
+                             encodinganalog="Paige 15"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                </did>
             </c>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1353790"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>Printed Material</unittitle>
-               <container altrender="Paige 15"
+               <container altrender="/repositories/12/top_containers/151507 /locations/9"
                           containerid="39002042568742"
+                          encodinganalog="Paige 15"
                           id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">4</container>
             </did>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1353791"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>A-F</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1947">1947</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151508 /locations/9"
                              containerid="39002042568759"
+                             encodinganalog="Paige 15"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1353792"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>G-K</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1947">1947</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151509 /locations/9"
                              containerid="39002042568767"
+                             encodinganalog="Paige 15"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1353793"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>K-M</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1947">1947</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151510 /locations/9"
                              containerid="39002042568775"
+                             encodinganalog="Paige 15"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1353794"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>N-R</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1947">1947</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151511 /locations/9"
                              containerid="39002042568783"
+                             encodinganalog="Paige 15"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1353795"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Miscellaneous, unsorted</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1947">1947</fromdate>
                         <todate standarddate="1961">1961</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151512 /locations/9"
                              containerid="39002042568791"
+                             encodinganalog="Paige 15"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>

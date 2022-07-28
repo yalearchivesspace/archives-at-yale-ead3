@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0037">mssa.ms.0037</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0037">mssa.ms.0037</recordid>
+      <otherrecordid localtype="BIB">613752</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Rudolph John Anderson Papers
@@ -32,6 +34,11 @@
             <date>December 1976</date>
             <num>MS 37</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:03:37+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T07:06:15+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:03</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>May 1998</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 07:06</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2914" level="collection">
       <did>
          <unittitle>Rudolph John Anderson papers</unittitle>
          <unitid>MS 37</unitid>
@@ -90,7 +93,7 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box, 1 folio)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1917-1962">
+         <unitdatestructured altrender="1917-1962" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1917">1917</fromdate>
                <todate standarddate="1962">1962</todate>
@@ -99,26 +102,25 @@
          <abstract id="aspace_f2c40e057230c54d161d1f4eb45aa570">Writings and memorabilia of Rudolph John Anderson, professor of chemistry at Yale University, 1927-1948. The papers contain autobiographical memoirs, essays on the history of chemistry by Anderson and drafts of his book, <title render="italic">
                <part>The Chemistry of Lipoids...</part>
             </title>, published in 1938.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/no2009203184"
                       rules="aacr"
                       source="naf">
-               <part>Anderson, Rudolph J. (Rudolph John), 1879-1961</part>
+               <part localtype="agent_person">Anderson, Rudolph J. (Rudolph John), 1879-1961</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_5489d3cbdc1d4f923b5a7503be0acee9">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Mrs. Rudolph J. Anderson in 1968, and of the Yale University Chemistry Department in 1955.</p>  
+         <p>Gift of Mrs. Rudolph J. Anderson in 1968, and of the Yale University Chemistry Department in 1955.</p>
       </acqinfo>
       <accessrestrict id="aspace_4d7df172f0f871ebffc3ed35f118c27d">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_990d8f4857a975336b9dc6cc69afbdf4">
          <head>Preferred Citation</head>
-         <p>Rudolph John Anderson Papers (MS 37). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Rudolph John Anderson Papers (MS 37). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <bioghist id="aspace_68feab40014dbea497a3a4dee736540f">
          <head>Biographical / Historical</head>
@@ -145,429 +147,510 @@
             </title> was dedicated to Professor Anderson, and a handsomely bound copy is to be found in the collection. As well as his magazine connections, Anderson held memberships in several learned societies: the American Association for the Advancement of Science, the American Chemical Society, the American Society of Biologists, and the Society of Experimental Biology and Medicine. He was also Vice President of the American Society of Biological Chemists, 1939-1940, and later President, 1941-1943.</p>
          <p>Anderson served as a Captain in the Sanitary Corps of the United States Army, 1917-1919, and was then promoted to Major in the Army Reserve, in which he continued to serve for many years.</p>
          <p>Rudolph John Anderson married Clara Tillinghast on June 3, 1920. He died on April 16, 1961.</p>
-         <p>For biographical details of a more personal nature please see box 1, folder 2, of the collection which contains a typescript of an autobiographical sketch entitled, "Adventures in the Education of Rudolph Anderson."</p>  
+         <p>For biographical details of a more personal nature please see box 1, folder 2, of the collection which contains a typescript of an autobiographical sketch entitled, "Adventures in the Education of Rudolph Anderson."</p>
       </bioghist>
       <scopecontent id="aspace_2b3e2c628cc3b888068945e8526cdbd5">
          <head>Scope and Contents</head>
          <p>Writings and memorabilia of Rudolph John Anderson, professor of chemistry at Yale University, 1927-1948. The papers contain autobiographical memoirs, essays on the history of chemistry by Anderson and drafts of his book, <title render="italic">
                <part>The Chemistry of Lipoids...</part>
-            </title>, published in 1938.</p>  
+            </title>, published in 1938.</p>
       </scopecontent>
       <userestrict id="aspace_d978ea7dcd850f9d2df525b395b31746">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85022997"
                   source="lcsh">
-            <part>Chemistry -- History</part>
+            <part localtype="topical">Chemistry</part>
+            <part localtype="topical">History</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85077296"
                   source="lcsh">
-            <part>Lipids</part>
+            <part localtype="topical">Lipids</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85118553"
                   source="lcsh">
-            <part>Science</part>
+            <part localtype="topical">Science</part>
          </subject>
          <occupation source="local">
-            <part>Chemists</part>
+            <part localtype="occupation">Chemists</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/no2009203184"
                    rules="aacr"
                    source="naf">
-            <part>Anderson, Rudolph J. (Rudolph John), 1879-1961</part>
+            <part localtype="agent_person">Anderson, Rudolph J. (Rudolph John), 1879-1961</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/no2018091108"
                    source="naf">
-            <part>Yale University. Department of Chemistry</part>
+            <part localtype="agent_corporate_entity">Yale University. Department of Chemistry</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="series">
+         <c altrender="/repositories/12/archival_objects/1171572"
+            id="ref11"
+            level="series">
             <did>
                <unittitle>Inventory</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1917-1962">
+               <unitdatestructured altrender="1917-1962" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1917">1917</fromdate>
                      <todate standarddate="1962">1962</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1171573"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Commissions in United Sates Army and United States Army Reserve</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1917-1929">
+                  <unitdatestructured altrender="1917-1929" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1929">1929</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/129932 /locations/9"
                              containerid="39002042583865"
+                             encodinganalog="archive letter"
                              id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1171574"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>"Adventures in the Education of Rudolph Anderson, 1943," autobiographical sketch and notes</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/129932 /locations/9"
                              containerid="39002042583865"
+                             encodinganalog="archive letter"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1171575"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Citation from Jane Coffin Childs Memorial Fund for Medical Research to Rudolph J. Anderson on his retirement from the Board of Scientific Advisors</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1952 June 6">
+                  <unitdatestructured altrender="1952 June 6" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/129932 /locations/9"
                              containerid="39002042583865"
+                             encodinganalog="archive letter"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">3</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1171576"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Journal of Biological Chemistry</part>
                      </title>, a history</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1953">
+                  <unitdatestructured altrender="1953" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1953">1953</fromdate>
                         <todate standarddate="1953">1953</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/129932 /locations/9"
                              containerid="39002042583865"
+                             encodinganalog="archive letter"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">4</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1171577"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Appointment and acceptance of Honorary Membership on Board of Scientific Advisors, Jane Coffin Childs Memorial Fund for Medical Research</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1957 February 27-1957 March 15">
+                  <unitdatestructured altrender="1957 February 27-1957 March 15"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/129932 /locations/9"
                              containerid="39002042583865"
+                             encodinganalog="archive letter"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">5</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1171578"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>Journal of Biological Chemistry</part>
                      </title>, dedicated to Rudolph J. Anderson</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1958 December">
+                  <unitdatestructured altrender="1958 December" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/129932 /locations/9"
                              containerid="39002042583865"
+                             encodinganalog="archive letter"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">6</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1171579"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Anderson, Rudolph John. "An Account of the Life and Work of Joseph Priestly"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/129932 /locations/9"
                              containerid="39002042583865"
+                             encodinganalog="archive letter"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">7</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1171580"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Anderson, Rudolph John. <title render="italic">
                         <part>The Life of Berzelius</part>
                      </title>
                   </unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/129932 /locations/9"
                              containerid="39002042583865"
+                             encodinganalog="archive letter"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">8</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1171581"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Anderson, Rudolph John. "The Scientific Congress in Scandinavia"</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/129932 /locations/9"
                              containerid="39002042583865"
+                             encodinganalog="archive letter"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">9</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1171582"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Edsall, John T., editor. <title render="italic">
                         <part>Journal of Biological Chemistry</part>
                      </title> report to American Society of Biological Chemists</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1961 April 11">
+                  <unitdatestructured altrender="1961 April 11" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/129932 /locations/9"
                              containerid="39002042583865"
+                             encodinganalog="archive letter"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">10</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1171583"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Edsall, John T. Letter of consolation to Mrs. Rudolph John Anderson</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1961 April 13">
+                  <unitdatestructured altrender="1961 April 13" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/129932 /locations/9"
                              containerid="39002042583865"
+                             encodinganalog="archive letter"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">11</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1171584"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>Vickery, Hubert Bradford, <title render="italic">
                         <part>Rudolph John Anderson</part>
                      </title>, A Biographical Memoir, National Academy of Sciences</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1962">
+                  <unitdatestructured altrender="1962" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1962">1962</fromdate>
                         <todate standarddate="1962">1962</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/129932 /locations/9"
                              containerid="39002042583865"
+                             encodinganalog="archive letter"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">12</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1171585"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>The Chemistry of Lipoids of the Tubercle Bacteria and Certain Other Microorganisms</part>
                      </title>, by Rudolph J. Anderson.</unittitle>
                </did>
-               <c id="ref25" level="file">
+               <c altrender="/repositories/12/archival_objects/1171586"
+                  id="ref25"
+                  level="file">
                   <did>
                      <unittitle>Introduction, notes, mss.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="[pre 1955]">
+                     <unitdatestructured altrender="[pre 1955]" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1917">1917</fromdate>
                            <todate standarddate="1962">1962</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/129932 /locations/9"
                                 containerid="39002042583865"
+                                encodinganalog="archive letter"
                                 id="aspace_ref25_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">13</container>
                   </did>
                </c>
-               <c id="ref26" level="file">
+               <c altrender="/repositories/12/archival_objects/1171587"
+                  id="ref26"
+                  level="file">
                   <did>
                      <unittitle>Methods, Properties and Composition of Acid-fast Bacterial Phosphatides, mss.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="[pre 1955]">
+                     <unitdatestructured altrender="[pre 1955]" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1917">1917</fromdate>
                            <todate standarddate="1962">1962</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/129932 /locations/9"
                                 containerid="39002042583865"
+                                encodinganalog="archive letter"
                                 id="aspace_ref26_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">14</container>
                   </did>
                </c>
-               <c id="ref27" level="file">
+               <c altrender="/repositories/12/archival_objects/1171588"
+                  id="ref27"
+                  level="file">
                   <did>
                      <unittitle>The Acetone-soluble Fats of the Acid-fast Bacteria, mss.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="[pre 1955]">
+                     <unitdatestructured altrender="[pre 1955]" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1917">1917</fromdate>
                            <todate standarddate="1962">1962</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/129932 /locations/9"
                                 containerid="39002042583865"
+                                encodinganalog="archive letter"
                                 id="aspace_ref27_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">15</container>
                   </did>
                </c>
-               <c id="ref28" level="file">
+               <c altrender="/repositories/12/archival_objects/1171589"
+                  id="ref28"
+                  level="file">
                   <did>
                      <unittitle>Acid-fast Bactrial Waxes, mss.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="[pre 1955]">
+                     <unitdatestructured altrender="[pre 1955]" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1917">1917</fromdate>
                            <todate standarddate="1962">1962</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/129932 /locations/9"
                                 containerid="39002042583865"
+                                encodinganalog="archive letter"
                                 id="aspace_ref28_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">16</container>
                   </did>
                </c>
-               <c id="ref29" level="file">
+               <c altrender="/repositories/12/archival_objects/1171590"
+                  id="ref29"
+                  level="file">
                   <did>
                      <unittitle>Higher Alcohols in Acid-fast Bacteria, Pigments in Tubercle Bacilli, mss.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="[pre 1955]">
+                     <unitdatestructured altrender="[pre 1955]" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1917">1917</fromdate>
                            <todate standarddate="1962">1962</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/129932 /locations/9"
                                 containerid="39002042583865"
+                                encodinganalog="archive letter"
                                 id="aspace_ref29_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">17</container>
                   </did>
                </c>
-               <c id="ref30" level="file">
+               <c altrender="/repositories/12/archival_objects/1171591"
+                  id="ref30"
+                  level="file">
                   <did>
                      <unittitle>Firmly Bound Lipoids of Tubercle Bacilli, mss.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="[pre 1955]">
+                     <unitdatestructured altrender="[pre 1955]" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1917">1917</fromdate>
                            <todate standarddate="1962">1962</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/129932 /locations/9"
                                 containerid="39002042583865"
+                                encodinganalog="archive letter"
                                 id="aspace_ref30_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">18</container>
                   </did>
                </c>
-               <c id="ref31" level="file">
+               <c altrender="/repositories/12/archival_objects/1171592"
+                  id="ref31"
+                  level="file">
                   <did>
                      <unittitle>Are Sterols Metabolic Products of Acid-fast Bacteria?, The Lipoids of the Phytomonas Tumefaciens, mss.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="[pre 1955]">
+                     <unitdatestructured altrender="[pre 1955]" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1917">1917</fromdate>
                            <todate standarddate="1962">1962</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/129932 /locations/9"
                                 containerid="39002042583865"
+                                encodinganalog="archive letter"
                                 id="aspace_ref31_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">19</container>
                   </did>
                </c>
-               <c id="ref32" level="file">
+               <c altrender="/repositories/12/archival_objects/1171593"
+                  id="ref32"
+                  level="file">
                   <did>
                      <unittitle>The Lipoids of Lactobacillus Acidophilus, The Lipoids of Yeast, mss.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="[pre 1955]">
+                     <unitdatestructured altrender="[pre 1955]" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1917">1917</fromdate>
                            <todate standarddate="1962">1962</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/129932 /locations/9"
                                 containerid="39002042583865"
+                                encodinganalog="archive letter"
                                 id="aspace_ref32_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">20</container>
                   </did>
                </c>
-               <c id="ref33" level="file">
+               <c altrender="/repositories/12/archival_objects/1171594"
+                  id="ref33"
+                  level="file">
                   <did>
                      <unittitle>Bibliography, mss.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="[pre 1955]">
+                     <unitdatestructured altrender="[pre 1955]" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1917">1917</fromdate>
                            <todate standarddate="1962">1962</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/129932 /locations/9"
                                 containerid="39002042583865"
+                                encodinganalog="archive letter"
                                 id="aspace_ref33_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -575,41 +658,49 @@
                   </did>
                </c>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1171595"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
                         <part>The Chemistry of Lipoids of the Tubercle Bacteria and Certain Other Microorganisms</part>
                      </title>, by Rudolph J. Anderson</unittitle>
                </did>
-               <c id="ref35" level="file">
+               <c altrender="/repositories/12/archival_objects/1171596"
+                  id="ref35"
+                  level="file">
                   <did>
                      <unittitle>Typescript, pp. 1 -75</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="[pre 1955]">
+                     <unitdatestructured altrender="[pre 1955]" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1917">1917</fromdate>
                            <todate standarddate="1962">1962</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/129932 /locations/9"
                                 containerid="39002042583865"
+                                encodinganalog="archive letter"
                                 id="aspace_ref35_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">22</container>
                   </did>
                </c>
-               <c id="ref36" level="file">
+               <c altrender="/repositories/12/archival_objects/1171597"
+                  id="ref36"
+                  level="file">
                   <did>
                      <unittitle>Typescript, pp. 76 -147</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="[pre 1955]">
+                     <unitdatestructured altrender="[pre 1955]" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1917">1917</fromdate>
                            <todate standarddate="1962">1962</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/129932 /locations/9"
                                 containerid="39002042583865"
+                                encodinganalog="archive letter"
                                 id="aspace_ref36_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -617,25 +708,32 @@
                   </did>
                </c>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1171598"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>Certificate of membership in the Loyal Order of the Boar, Carlisle, Pennsylvania</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1929 July 18">
+                  <unitdatestructured altrender="1929 July 18" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042602871"
+                  <container altrender="/repositories/12/top_containers/129933 /locations/9"
+                             containerid="39002042602871"
                              id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1171599"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>Photograph of a meeting of the Jane Coffin Childs Fund</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1941 September 12">
+                  <unitdatestructured altrender="1941 September 12"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
@@ -643,10 +741,14 @@
                   </unitdatestructured>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1171600"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>Appointment as Captain in the Sanitary Corp, United States Army</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1917 November 8">
+                  <unitdatestructured altrender="1917 November 8"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
@@ -654,10 +756,12 @@
                   </unitdatestructured>
                </did>
             </c>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1171601"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>Certificate of membership in the Yale Chapter of the Society of Sigma Xi</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1929 March 26">
+                  <unitdatestructured altrender="1929 March 26" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
@@ -665,10 +769,14 @@
                   </unitdatestructured>
                </did>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1171602"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>Certificate as Registered Pharmacist from the Board of the State of Louisiana, New Orleans, Louisiana</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1901 November 9">
+                  <unitdatestructured altrender="1901 November 9"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
@@ -676,10 +784,12 @@
                   </unitdatestructured>
                </did>
             </c>
-            <c id="ref42" level="file">
+            <c altrender="/repositories/12/archival_objects/1171603"
+               id="ref42"
+               level="file">
                <did>
                   <unittitle>Certificate of membership in the Louisiana State Pharmaceutical Association, New Orleans, Louisiana</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="undated">
+                  <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
@@ -687,10 +797,12 @@
                   </unitdatestructured>
                </did>
             </c>
-            <c id="ref43" level="file">
+            <c altrender="/repositories/12/archival_objects/1171604"
+               id="ref43"
+               level="file">
                <did>
                   <unittitle>Certificate of membership in The National Academy of Sciences of the United States of America</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1946 April 24">
+                  <unitdatestructured altrender="1946 April 24" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
@@ -698,10 +810,12 @@
                   </unitdatestructured>
                </did>
             </c>
-            <c id="ref44" level="file">
+            <c altrender="/repositories/12/archival_objects/1171605"
+               id="ref44"
+               level="file">
                <did>
                   <unittitle>Degree of Graduate in Pharmacy, New Orleans College of Pharmacy</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1902 May 14">
+                  <unitdatestructured altrender="1902 May 14" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
@@ -709,10 +823,12 @@
                   </unitdatestructured>
                </did>
             </c>
-            <c id="ref45" level="file">
+            <c altrender="/repositories/12/archival_objects/1171606"
+               id="ref45"
+               level="file">
                <did>
                   <unittitle>Bachelor of Science Degree, Tulane University of Louisiana, New Orleans</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1906 May 31">
+                  <unitdatestructured altrender="1906 May 31" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
@@ -720,10 +836,12 @@
                   </unitdatestructured>
                </did>
             </c>
-            <c id="ref46" level="file">
+            <c altrender="/repositories/12/archival_objects/1171607"
+               id="ref46"
+               level="file">
                <did>
                   <unittitle>Degree of Doctor of Philosophy, Cornell University, Ithaca, New York</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1919 June 23">
+                  <unitdatestructured altrender="1919 June 23" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>
@@ -731,10 +849,12 @@
                   </unitdatestructured>
                </did>
             </c>
-            <c id="ref47" level="file">
+            <c altrender="/repositories/12/archival_objects/1171608"
+               id="ref47"
+               level="file">
                <did>
                   <unittitle>Honorary Degree of Doctor of Medicine, University of Lund, Sweden (2 copies)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1947 May 31">
+                  <unitdatestructured altrender="1947 May 31" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1962">1962</todate>

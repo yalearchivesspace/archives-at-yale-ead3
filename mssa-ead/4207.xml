@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0507">mssa.ms.0507</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0507">mssa.ms.0507</recordid>
+      <otherrecordid localtype="BIB">614070</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the James Hammond Trumbull Papers
@@ -32,6 +34,11 @@
             <date>November 1980</date>
             <num>MS 507</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T09:38:51+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:19:53+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 09:38</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:19</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4207" level="collection">
       <did>
          <unittitle>James Hammond Trumbull papers</unittitle>
          <unitid>MS 507</unitid>
@@ -82,200 +92,233 @@
             <quantity>1.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1649-1897">
+         <unitdatestructured altrender="1649-1897" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1649">1649</fromdate>
                <todate standarddate="1897">1897</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_5c9e88c8d95340be3d25aa7addc15bd6">The papers consist of correspondence, writings, notes and other papers pertaining to Connecticut and New England history and American Indians.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n87853656" source="naf">
-               <part>Trumbull, J. Hammond (James Hammond), 1821-1897</part>
+               <part localtype="agent_person">Trumbull, J. Hammond (James Hammond), 1821-1897</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_d608b720bb47296bd0d4ad4bb9367860">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Anne E. Trumbull, 1943.</p>  
+         <p>Gift of Anne E. Trumbull, 1943.</p>
       </acqinfo>
       <accessrestrict id="aspace_f4ecbe4f4a97cc1cc76c8172fc79cc69">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_139498a3e87790b2e2327882c50d5696">
          <head>Preferred Citation</head>
-         <p>James Hammond Trumbull Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>James Hammond Trumbull Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_88392b21f02e6f36dea26926a7bf1a50">
          <head>Scope and Contents</head>
          <p>The papers of James Hammond Trumbull consist of correspondence, writings, notes, and other papers dealing with New England history and American indians. The bulk of the correspondence, which is arranged chronologically, from the 1840s on is that of James Hammond Trumbull, and is made up of letters exchanged with scholars and other individuals concerned with the history of New England, especially Connecticut, and the history and languages of American Indians, especially Indian placenames. Other letters deal with Trumbull's association with Yale College, as alumnus and lecturer, and with his activities as a member of the American Philological Society and other learned societies. Also included are several letters of Trumbull's father, Gurdon Trumbull, concerned with New England history. A letterbook for the years 1847-1855 with an index contains further incoming letters. Correspondents include Spencer F. Baird, Simeon E. Baldwin, Elihu Burritt, Samuel Church, Franklin B. Dexter, Theodore Dwight, Timothy Dwight, Daniel Cady Eaton, Charles W. Eliot, Asa Gray, Albert S. Gatschet, James Hadley, Edward E. Hale, Edward Claudius Herrick, Thomas Wentworth Higginson, James H. Linsley, Thomas R. Lounsbury, Noah Porter, Archibald H. Sayce, Benjamin Silliman, and William Dwight Whitney, among others.</p>
          <p>Also filed in the correspondence are a number of early letters and other papers (several are copies, others originals) of the 1640s through the 1820s, relating to the early history of Connecticut and New England, which appear to have been collected by Trumbull. A sample of these items includes letters of the Newbery and Clarke families of Windsor from the 1640s and 1650s; a copy of a letter from Roger Wolcott to President Clap containing an outline history of New England, 1759; a copy of a 1707 letter of John Winston announcing the election of Governor Gurdon Saltonstall, with a list of lots in New London on the verso; a letter of 1766 from Joseph Fish to Nathaniel Whitaker about Indian schools, and another from 1779 about the burning of Fairfield, Connecticut; and a letter of 1803 from Leonard Chester to Elisha Babcock concerning Connecticut laws against immoral books.</p>
          <p>The remaining papers in this collection include several manuscripts, notebooks and notecards by Trumbull on Indian languages and place names, along with other topics; two memoranda of receipts belonging to John Trumbull; and newspaper clippings and other printed matter concerning the Puritan-Quaker controversy and other elements of New England history.</p>
-         <p>These papers were the gift to Yale University of Anne E. Trumbull in 1943. Several items have been added since by later donors.</p>  
+         <p>These papers were the gift to Yale University of Anne E. Trumbull in 1943. Several items have been added since by later donors.</p>
       </scopecontent>
       <bioghist id="aspace_b46c66f2c6bd63bd329f8fc3bda8b9ce">
          <head>Biographical / Historical</head>
-         <p>Historian, philologist, bibliographer; studied at Yale, 1838-1840; assisted James Harvey Linsley in cataloguing wildlife of Connecticut; assistant secretary of state in Connecticut, 1847, 1858; served as state librarian and registrar of state of Connecticut, 1861-1866; served as librarian of the Watkinson Library of Reference at Hartford, 1868-1890, librarian emeritus, 1890-1897; author of many books.</p>  
+         <p>Historian, philologist, bibliographer; studied at Yale, 1838-1840; assisted James Harvey Linsley in cataloguing wildlife of Connecticut; assistant secretary of state in Connecticut, 1847, 1858; served as state librarian and registrar of state of Connecticut, 1861-1866; served as librarian of the Watkinson Library of Reference at Hartford, 1868-1890, librarian emeritus, 1890-1897; author of many books.</p>
       </bioghist>
       <userestrict id="aspace_22052066477fd7b111e6f315563d7bc0">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85065312"
                   source="lcsh">
-            <part>Indians of North America -- Languages</part>
+            <part localtype="topical">Indians of North America</part>
+            <part localtype="topical">Languages</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85100821"
                   source="lcsh">
-            <part>Philology</part>
+            <part localtype="topical">Philology</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85031160"
                    source="lcsh">
-            <part>Connecticut -- History</part>
+            <part localtype="geographic">Connecticut</part>
+            <part localtype="topical">History</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85140131"
                    source="lcsh">
-            <part>United States -- History -- Colonial period, ca. 1600-1775</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Colonial period, ca. 1600-1775</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85061091"
                   source="lcsh">
-            <part>Historians</part>
+            <part localtype="topical">Historians</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85076491"
                   source="lcsh">
-            <part>Librarians</part>
+            <part localtype="topical">Librarians</part>
          </subject>
          <occupation source="local">
-            <part>Philologists</part>
+            <part localtype="occupation">Philologists</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/n96062457" source="naf">
-            <part>Trumbull, Gurdon, 1841-1903</part>
+            <part localtype="agent_person">Trumbull, Gurdon, 1841-1903</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n87853656" source="naf">
-            <part>Trumbull, J. Hammond (James Hammond), 1821-1897</part>
+            <part localtype="agent_person">Trumbull, J. Hammond (James Hammond), 1821-1897</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1353381"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1353382"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>1649-1883 Jul</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/151442 /locations/9"
                              containerid="39002042255464"
-                             id="d1e264"
+                             encodinganalog="archive legal"
+                             id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1353383"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>1883 Aug-1897, n.d.</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/151443 /locations/9"
                              containerid="39002042255472"
-                             id="d1e272"
+                             encodinganalog="archive half legal"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1353384"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Letterbook</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1847-1855">
+               <unitdatestructured altrender="1847-1855" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1847">1847</fromdate>
                      <todate standarddate="1855">1855</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151443 /locations/9"
                           containerid="39002042255472"
-                          id="d1e288"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
             </did>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1353385"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Writings</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1649">1649</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151444 /locations/9"
                           containerid="39002042255480"
-                          id="d1e304"
+                          encodinganalog="archive legal"
+                          id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1353386"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Notebooks</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1649">1649</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151444 /locations/9"
                           containerid="39002042255480"
-                          id="d1e320"
+                          encodinganalog="archive legal"
+                          id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1353387"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Bills and receipts</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[1749-1752?], 1775">
+               <unitdatestructured altrender="[1749-1752?], 1775"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1649">1649</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151444 /locations/9"
                           containerid="39002042255480"
-                          id="d1e336"
+                          encodinganalog="archive legal"
+                          id="aspace_ref17_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1353388"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>Printed matter</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1848-1884, undated">
+               <unitdatestructured altrender="1848-1884, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1649">1649</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151444 /locations/9"
                           containerid="39002042255480"
-                          id="d1e352"
+                          encodinganalog="archive legal"
+                          id="aspace_ref18_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
             </did>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1353389"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>Note cards re: Indian names</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1649">1649</fromdate>
                      <todate standarddate="1897">1897</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="flip top (7d 10h 4w)"
+               <container altrender="/repositories/12/top_containers/151445 /locations/9"
                           containerid="39002042255498"
-                          id="d1e368"
+                          encodinganalog="flip top (7d 10h 4w)"
+                          id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">4</container>
             </did>

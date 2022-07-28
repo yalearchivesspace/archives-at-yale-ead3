@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0598">mssa.ms.0598</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0598">mssa.ms.0598</recordid>
+      <otherrecordid localtype="BIB">614101</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Eugene Clarence Gardner Papers
@@ -32,6 +34,11 @@
             <date>September 1981</date>
             <num>MS 598</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T09:55:11+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:36:53+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 09:55</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>July 2012</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:36</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4223" level="collection">
       <did>
          <unittitle>Eugene Clarence Gardner papers</unittitle>
          <unitid>MS 598</unitid>
@@ -90,161 +93,185 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1870-1929">
+         <unitdatestructured altrender="1870-1929" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1870">1870</fromdate>
                <todate standarddate="1929">1929</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_e8259b279f7d758b34cd5a089b2da487">Correspondence, 1883-1926, manuscripts, clippings, and photographs re: Chinese students brought to America by E. C. Gardner.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/no97039955"
                       rules="aacr"
                       source="naf">
-               <part>Gardner, E. C. (Eugene Clarence), 1836-1915</part>
+               <part localtype="agent_person">Gardner, E. C. (Eugene Clarence), 1836-1915</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_b2b8c7cb22363282d4b392ee07743f2c">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Mrs. Myron R. Williams, 1970.</p>  
+         <p>Gift of Mrs. Myron R. Williams, 1970.</p>
       </acqinfo>
-      <accessrestrict id="aspace_e290ee73ddf08d6e2b64f4edf7553498">
+      <accessrestrict id="aspace_e290ee73ddf08d6e2b64f4edf7553498" localtype="UseSurrogate">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.The entire collection is available on microfilm. Patrons must use HM 282 instead of the originals.</p>  
+         <p>The materials are open for research.The entire collection is available on microfilm. Patrons must use HM 282 instead of the originals.</p>
       </accessrestrict>
       <prefercite id="aspace_5bb7766a7c0f3b12a137ce4491f84d20">
          <head>Preferred Citation</head>
-         <p>Eugene Clarence Gardner Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Eugene Clarence Gardner Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_e33b8a9689e7648f04e4754c233ac5d6">
          <head>Scope and Contents</head>
          <p>The Eugene C. Gardner Papers concern Chinese students who were sent to the United States to be educated and who lived in the home of Eugene Gardner in the 1870's. Most of the materials related to T'ang Shao-yi, first premier of the Chinese republic in 1912, and Liang Ju-hao, Chinese foreign minister.</p>
-         <p>The papers include a small amount of correspondence from China (1881-1926), a fragment from Gardner's autobiography describing some of the Chinese students, other printed and typescript material and newspaper clippings about China, T'ang Shao-yi, Liang Ju-hao, and their families.</p>  
+         <p>The papers include a small amount of correspondence from China (1881-1926), a fragment from Gardner's autobiography describing some of the Chinese students, other printed and typescript material and newspaper clippings about China, T'ang Shao-yi, Liang Ju-hao, and their families.</p>
       </scopecontent>
       <bioghist id="aspace_09307f5681d1774838395ea8a96d98ab">
          <head>Biographical / Historical</head>
-         <p>Architect; principal of an academy in Tallmadge, Ohio, 1858-1862; practiced architecture in Northampton, Mass., 1863-1868, and in Springfield, Mass., 1868-.</p>  
+         <p>Architect; principal of an academy in Tallmadge, Ohio, 1858-1862; practiced architecture in Northampton, Mass., 1863-1868, and in Springfield, Mass., 1868-.</p>
       </bioghist>
       <altformavail id="aspace_c2f43b58bfa25fbd0a8600851258846a">
          <head>Existence and Location of Copies</head>
-         <p>Entire collection is also available on microfilm (149 frames on 1 reel, 35mm.) from Manuscripts and Archives, Yale University Library, at cost. Order no. HM282.</p>  
+         <p>Entire collection is also available on microfilm (149 frames on 1 reel, 35mm.) from Manuscripts and Archives, Yale University Library, at cost. Order no. HM282.</p>
       </altformavail>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85024238"
                   source="lcsh">
-            <part>Chinese -- United States</part>
+            <part localtype="topical">Chinese</part>
+            <part localtype="geographic">United States</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85040989"
                   source="lcsh">
-            <part>Education</part>
+            <part localtype="topical">Education</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85008606"
                    source="lcsh">
-            <part>Asia</part>
+            <part localtype="geographic">Asia</part>
          </geogname>
          <persname identifier="http://id.loc.gov/authorities/names/no97039955"
                    rules="aacr"
                    source="naf">
-            <part>Gardner, E. C. (Eugene Clarence), 1836-1915</part>
+            <part localtype="agent_person">Gardner, E. C. (Eugene Clarence), 1836-1915</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Liang, Ju-hao</part>
+            <part localtype="agent_person">Liang, Ju-hao</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/nr91002966"
                    source="naf">
-            <part>Tang, Shaoyi, 1860-1938</part>
+            <part localtype="agent_person">Tang, Shaoyi, 1860-1938</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n81146562" source="naf">
-            <part>Yung, Wing, 1828-1912</part>
+            <part localtype="agent_person">Yung, Wing, 1828-1912</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1353661"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1881-1926, undated">
+               <unitdatestructured altrender="1881-1926, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1870">1870</fromdate>
                      <todate standarddate="1929">1929</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151482 /locations/9"
                           containerid="39002042256900"
-                          id="d1e263"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e265" localtype="folder" parent="d1e263">1 - 2</container>
-               <container altrender="microfilm box"
+               <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1 - 2</container>
+               <container altrender="/repositories/12/top_containers/212012 /locations/4318"
                           containerid="39002112737789"
-                          id="d1e267"
+                          encodinganalog="microfilm box"
+                          id="aspace_ref11_c3"
                           label="Mixed Materials"
                           localtype="reel">1 U</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1353662"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Typescript and printed material concerning China</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1908-1913, undated">
+               <unitdatestructured altrender="1908-1913, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1870">1870</fromdate>
                      <todate standarddate="1929">1929</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151482 /locations/9"
                           containerid="39002042256900"
-                          id="d1e285"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e287" localtype="folder" parent="d1e285">3</container>
-               <container altrender="microfilm box"
+               <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">3</container>
+               <container altrender="/repositories/12/top_containers/212012 /locations/4318"
                           containerid="39002112737789"
-                          id="d1e289"
+                          encodinganalog="microfilm box"
+                          id="aspace_ref12_c3"
                           label="Mixed Materials"
                           localtype="reel">1 U</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1353663"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Newspaper clippings</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1906-1929, undated">
+               <unitdatestructured altrender="1906-1929, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1870">1870</fromdate>
                      <todate standarddate="1929">1929</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151482 /locations/9"
                           containerid="39002042256900"
-                          id="d1e307"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e309" localtype="folder" parent="d1e307">4</container>
-               <container altrender="microfilm box"
+               <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">4</container>
+               <container altrender="/repositories/12/top_containers/212012 /locations/4318"
                           containerid="39002112737789"
-                          id="d1e311"
+                          encodinganalog="microfilm box"
+                          id="aspace_ref13_c3"
                           label="Mixed Materials"
                           localtype="reel">1 U</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1353664"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Photographs</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="[ca. 1870]-1922, undated">
+               <unitdatestructured altrender="[ca. 1870]-1922, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1865">1865</fromdate>
                      <todate standarddate="1875">1875</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151482 /locations/9"
                           containerid="39002042256900"
-                          id="d1e329"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e331" localtype="folder" parent="d1e329">5</container>
-               <container altrender="microfilm box"
+               <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">5</container>
+               <container altrender="/repositories/12/top_containers/212012 /locations/4318"
                           containerid="39002112737789"
-                          id="d1e333"
+                          encodinganalog="microfilm box"
+                          id="aspace_ref14_c3"
                           label="Mixed Materials"
                           localtype="reel">1 U</container>
             </did>

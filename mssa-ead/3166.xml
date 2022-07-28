@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0957">mssa.ms.0957</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0957">mssa.ms.0957</recordid>
+      <otherrecordid localtype="BIB">614427</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Stuart Wells Jackson Collection
@@ -32,6 +34,11 @@
             <date>October 1982</date>
             <num>MS 957</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T08:57:34+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:18:17+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 08:57</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:18</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3166" level="collection">
       <did>
          <unittitle>Stuart Wells Jackson collection</unittitle>
          <unitid>MS 957</unitid>
@@ -83,35 +93,34 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(2 boxes, 1 folio)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1771-1949">
+         <unitdatestructured altrender="1771-1949" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1771">1771</fromdate>
                <todate standarddate="1949">1949</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_f79e29f577bcec25304a24bd22d20e8f">The major part of these papers consists of a collection of facsimilies of letters, documents, and memorabilia by and about Abraham Lincoln collected by Stuart Wells Jackson (1875-1957). Several items are original, among them holograph poems on Lincoln by William Cullen Bryant and Edwin Markham. There is also a small amount of Jackson's personal correspondence from 1902-1949.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/nr97041170"
                       relator="col"
                       source="naf">
-               <part>Jackson, Stuart W. (Stuart Wells), 1875-</part>
+               <part localtype="agent_person">Jackson, Stuart W. (Stuart Wells), 1875-</part>
             </persname>
          </origination>
-    
       </did>
       <prefercite id="aspace_d76bdb17a6dc8a26533d4cf64c6980e1">
          <head>Preferred Citation</head>
-         <p>Stuart Wells Jackson Collection (MS 957). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Stuart Wells Jackson Collection (MS 957). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <acqinfo id="aspace_fbd94a28fed36133c661b210b209b710">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Stuart W. Jackson in the 1940s.</p>  
+         <p>Gift of Stuart W. Jackson in the 1940s.</p>
       </acqinfo>
       <scopecontent id="aspace_02bc68d0737d548507b81b5331f12575">
          <head>Scope and Contents</head>
          <p>The Stuart Wells Jackson Collection consists of correspondence and other papers pertaining to Abraham Lincoln which were collected by Stuart W. Jackson. These include facsimiles of Lincoln correspondence, a deed signed by William Lincoln (1820 Feb 22), memorabilia, correspondence and writings about Lincoln, the 1861 diary of Joseph J. Williams, and other related items. These materials are arranged alphabetically by author and are listed in detail on the following page. There is, in addition, some personal correspondence of Stuart W. Jackson concerning his collection and research on Lincoln; these letters are also arranged alphabetically. While most of these letters were enclosed with writings which were sent to Jackson, and are generally routine, several are substantive. The letter from George P. Hambrecht (1924 May 6) encloses two short essays by Hambrecht, and the letter from Samuel B. Harding (1911 Oct 13) encloses typed copies of two Lincoln letters.</p>
          <p>Finally, the collection contains several miscellaneous items, including membership certificates from three Lincoln societies and a photograph of Walt Whitman in 1890.</p>
-         <p>These papers were donated to Yale University by Stuart W. Jackson in the 1940s.</p>  
+         <p>These papers were donated to Yale University by Stuart W. Jackson in the 1940s.</p>
       </scopecontent>
       <bioghist id="aspace_35622c2064446c59658305e2b05d795b">
          <head>Biographical / Historical</head>
@@ -128,40 +137,42 @@
          <p>From <title render="italic">
                <part>Forty Years After: Class of 1898.</part>
             </title>
-         </p>  
+         </p>
       </bioghist>
       <accessrestrict id="aspace_282ce0bfa00a3117b24fb890ada93f90">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_a2f550239aa311c533766d5887cb6c44">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown, though much of the material in this collection is likely in the public domain. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown, though much of the material in this collection is likely in the public domain. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <genreform identifier="http://vocab.getty.edu/aat/300027112" source="aat">
-            <part>Diaries</part>
+            <part localtype="genre_form">Diaries</part>
          </genreform>
          <persname identifier="http://id.loc.gov/authorities/names/n80050495" source="naf">
-            <part>Bryant, William Cullen, 1794-1878</part>
+            <part localtype="agent_person">Bryant, William Cullen, 1794-1878</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/nr97041170"
                    relator="col"
                    source="naf">
-            <part>Jackson, Stuart W. (Stuart Wells), 1875-</part>
+            <part localtype="agent_person">Jackson, Stuart W. (Stuart Wells), 1875-</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n79006779" source="naf">
-            <part>Lincoln, Abraham, 1809-1865</part>
+            <part localtype="agent_person">Lincoln, Abraham, 1809-1865</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50041824" source="naf">
-            <part>Markham, Edwin, 1852-1940</part>
+            <part localtype="agent_person">Markham, Edwin, 1852-1940</part>
          </persname>
       </controlaccess>
       <dsc>
-         <c id="ref9" level="series">
+         <c altrender="/repositories/12/archival_objects/1196626"
+            id="ref9"
+            level="series">
             <did>
                <unittitle>Inventory</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1771-1949">
+               <unitdatestructured altrender="1771-1949" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1771">1771</fromdate>
                      <todate standarddate="1949">1949</todate>
@@ -169,374 +180,490 @@
                </unitdatestructured>
                <physdesc id="aspace_ade544f95d1da4c5f8effc673558a956">.75 linear feet (2 boxes)</physdesc>
             </did>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1196627"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Collected papers</unittitle>
                </did>
-               <c id="ref12" level="file">
+               <c altrender="/repositories/12/archival_objects/1196628"
+                  id="ref12"
+                  level="file">
                   <did>
                      <unittitle>Badger, M[ilton, 1800-1873?]: ALS to Rev. Joshua Leavitt</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1857 October 30">
+                     <unitdatestructured altrender="1857 October 30"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1857-10-30">1857 October 30</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref12_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
                   </did>
                </c>
-               <c id="ref13" level="file">
+               <c altrender="/repositories/12/archival_objects/1196629"
+                  id="ref13"
+                  level="file">
                   <did>
                      <unittitle>Bryant, William Cullen: AMS of poem, "Abraham Lincoln"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1865 April">
+                     <unitdatestructured altrender="1865 April" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1865-04">1865 April</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref13_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2</container>
                   </did>
                </c>
-               <c id="ref14" level="file">
+               <c altrender="/repositories/12/archival_objects/1196630"
+                  id="ref14"
+                  level="file">
                   <did>
                      <unittitle>Conant, Alban Joseph: statement re his portrait of Lincoln</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1911 March 15">
+                     <unitdatestructured altrender="1911 March 15" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1911-03-15">1911 March 15</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref14_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">3</container>
                   </did>
                </c>
-               <c id="ref15" level="file">
+               <c altrender="/repositories/12/archival_objects/1196631"
+                  id="ref15"
+                  level="file">
                   <did>
                      <unittitle>Douglas, Benjamin: ALS (copy by BD) to Abraham Lincoln</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1860 December 26">
+                     <unitdatestructured altrender="1860 December 26"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1860-12-26">1860 December 26</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref15_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">4</container>
                   </did>
                </c>
-               <c id="ref16" level="file">
+               <c altrender="/repositories/12/archival_objects/1196632"
+                  id="ref16"
+                  level="file">
                   <did>
                      <unittitle>Duer, William: ALS (photostatic copy) to Francis Lightfoot Lee</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1788 February 14">
+                     <unitdatestructured altrender="1788 February 14"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1788-02-14">1788 February 14</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref16_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">5</container>
                   </did>
                </c>
-               <c id="ref17" level="file">
+               <c altrender="/repositories/12/archival_objects/1196633"
+                  id="ref17"
+                  level="file">
                   <did>
                      <unittitle>Gordon, James: ALS to Mildred L. Rutherford, with pamphlet by Mildred L. Rutherford</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1894 August 11">
+                     <unitdatestructured altrender="1894 August 11"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1894-08-11">1894 August 11</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">6</container>
                   </did>
                </c>
-               <c id="ref18" level="file">
+               <c altrender="/repositories/12/archival_objects/1196634"
+                  id="ref18"
+                  level="file">
                   <did>
                      <unittitle>Lafayette, Marie, marquis de: ALS (photostatic copy) to John Adams</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1786 February 26">
+                     <unitdatestructured altrender="1786 February 26"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1786-02-26">1786 February 26</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref18_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">7</container>
                   </did>
                </c>
-               <c id="ref19" level="file">
+               <c altrender="/repositories/12/archival_objects/1196635"
+                  id="ref19"
+                  level="file">
                   <did>
                      <unittitle>Lincoln Abraham</unittitle>
                   </did>
-                  <c id="ref20" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196636"
+                     id="ref20"
+                     level="file">
                      <did>
                         <unittitle>ALS (facsimile) to Grace Bedell</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1860 October 19">
+                        <unitdatestructured altrender="1860 October 19"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <datesingle standarddate="1860-10-19">1860 October 19</datesingle>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref20_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">8</container>
                      </did>
                   </c>
-                  <c id="ref21" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196637"
+                     id="ref21"
+                     level="file">
                      <did>
                         <unittitle>AL (facsimile) to Benjamin F. Butler, signed by Edwin M. Stanton</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="[1864 January 18]">
+                        <unitdatestructured altrender="[1864 January 18]"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <datesingle standarddate="1864-01-18">[1864 January 18]</datesingle>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref21_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">9</container>
                      </did>
                   </c>
-                  <c id="ref22" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196638"
+                     id="ref22"
+                     level="file">
                      <did>
                         <unittitle>ALS (facsimile) to William M. Dickson</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1865 February 27">
+                        <unitdatestructured altrender="1865 February 27"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <datesingle standarddate="1865-02-27">1865 February 27</datesingle>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref22_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">10</container>
                      </did>
                   </c>
-                  <c id="ref23" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196639"
+                     id="ref23"
+                     level="file">
                      <did>
                         <unittitle>ALS (forgery) to Ninian W. Edwards</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1845 December 12">
+                        <unitdatestructured altrender="1845 December 12"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <datesingle standarddate="1845-12-12">1845 December 12</datesingle>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref23_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">11</container>
                      </did>
                   </c>
-                  <c id="ref24" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196640"
+                     id="ref24"
+                     level="file">
                      <did>
                         <unittitle>ALS (facsimile) to the parents of Ephraim E. Ellsworth, with photographs and memorabilia</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1861 May 25">
+                        <unitdatestructured altrender="1861 May 25" label="creation" unitdatetype="inclusive">
                            <datesingle standarddate="1861-05-25">1861 May 25</datesingle>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref24_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">12</container>
                      </did>
                   </c>
-                  <c id="ref25" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196641"
+                     id="ref25"
+                     level="file">
                      <did>
                         <unittitle>ALS (facsimile) to John J. Hardin</unittitle>
-                        <unitdate unitdatetype="inclusive">1844 December 17, 1846 May 29</unitdate>
-                        <container altrender="archive legal"
+                        <unitdate label="creation" unitdatetype="inclusive">1844 December 17, 1846 May 29</unitdate>
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref25_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">13-14</container>
                      </did>
                   </c>
-                  <c id="ref26" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196642"
+                     id="ref26"
+                     level="file">
                      <did>
                         <unittitle>ALS (facsimile) to Samuel Haycroft</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1860 May 28">
+                        <unitdatestructured altrender="1860 May 28" label="creation" unitdatetype="inclusive">
                            <datesingle standarddate="1860-05-28">1860 May 28</datesingle>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref26_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">15</container>
                      </did>
                   </c>
-                  <c id="ref27" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196643"
+                     id="ref27"
+                     level="file">
                      <did>
                         <unittitle>ALS (facsimile) to Philip Kearny</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1861 October 2">
+                        <unitdatestructured altrender="1861 October 2"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <datesingle standarddate="1861-10-02">1861 October 2</datesingle>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref27_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">16</container>
                      </did>
                   </c>
-                  <c id="ref28" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196644"
+                     id="ref28"
+                     level="file">
                      <did>
                         <unittitle>ALS (facsimile) to Richard P. Morgan</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1856 February 13">
+                        <unitdatestructured altrender="1856 February 13"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <datesingle standarddate="1856-02-13">1856 February 13</datesingle>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref28_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">17</container>
                      </did>
                   </c>
-                  <c id="ref29" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196645"
+                     id="ref29"
+                     level="file">
                      <did>
                         <unittitle>ALS (facsimile) to George D. Ramsay</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1861 October 17">
+                        <unitdatestructured altrender="1861 October 17"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <datesingle standarddate="1861-10-17">1861 October 17</datesingle>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref29_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">18</container>
                      </did>
                   </c>
-                  <c id="ref30" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196646"
+                     id="ref30"
+                     level="file">
                      <did>
                         <unittitle>ALS (photostatic copy) to Joshua F. Speed, with typed copy of letter of Speed to Lincoln</unittitle>
-                        <unitdate unitdatetype="inclusive">1860 May 19, 22</unitdate>
-                        <container altrender="archive legal"
+                        <unitdate label="creation" unitdatetype="inclusive">1860 May 19, 22</unitdate>
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref30_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">19</container>
                      </did>
                   </c>
-                  <c id="ref31" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196647"
+                     id="ref31"
+                     level="file">
                      <did>
                         <unittitle>ALS (photostatic copy) to Edwin M. Stanton</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1862 September 2">
+                        <unitdatestructured altrender="1862 September 2"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <datesingle standarddate="1862-09-02">1862 September 2</datesingle>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref31_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">20</container>
                      </did>
                   </c>
-                  <c id="ref32" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196648"
+                     id="ref32"
+                     level="file">
                      <did>
                         <unittitle>ALS (photostatic copy) [probably to Rev. Robert Pott and associates] concerning the work of the Methodist Episcopal Church in the Civil War</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1864 May 18">
+                        <unitdatestructured altrender="1864 May 18" label="creation" unitdatetype="inclusive">
                            <datesingle standarddate="1864-05-18">1864 May 18</datesingle>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref32_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">21</container>
                      </did>
                   </c>
-                  <c id="ref33" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196649"
+                     id="ref33"
+                     level="file">
                      <did>
                         <unittitle>ALS (photographic negative and electrostatic copy) to whom it may concern</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1861 October 4">
+                        <unitdatestructured altrender="1861 October 4"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <datesingle standarddate="1861-10-04">1861 October 4</datesingle>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref33_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">22</container>
                      </did>
                   </c>
-                  <c id="ref34" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196650"
+                     id="ref34"
+                     level="file">
                      <did>
                         <unittitle>DS in the hand of Lincoln, signed Stuart and Lincoln</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1839">
+                        <unitdatestructured altrender="1839" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1839">1839</fromdate>
                               <todate standarddate="1839">1839</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref34_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">23</container>
                      </did>
                   </c>
-                  <c id="ref35" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196651"
+                     id="ref35"
+                     level="file">
                      <did>
                         <unittitle>List of depositions of court cases in Sangamon County</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="[1846?]">
+                        <unitdatestructured altrender="[1846?]" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1846">1846</fromdate>
                               <todate standarddate="1846">1846</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref35_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">24</container>
                      </did>
                   </c>
-                  <c id="ref36" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196652"
+                     id="ref36"
+                     level="file">
                      <did>
                         <unittitle>Pocket notebook (facsimile) for the campaign of 1858</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1858 October 18">
+                        <unitdatestructured altrender="1858 October 18"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <datesingle standarddate="1858-10-18">1858 October 18</datesingle>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref36_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">25</container>
                      </did>
                   </c>
-                  <c id="ref37" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196653"
+                     id="ref37"
+                     level="file">
                      <did>
                         <unittitle>Emancipation Proclamation (facsimile)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1862 September 22">
+                        <unitdatestructured altrender="1862 September 22"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <datesingle standarddate="1862-09-22">1862 September 22</datesingle>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref37_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">26</container>
                      </did>
                   </c>
-                  <c id="ref38" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196654"
+                     id="ref38"
+                     level="file">
                      <did>
                         <unittitle>Gettysburg Address (photostatic copy)</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1863 November 19">
+                        <unitdatestructured altrender="1863 November 19"
+                                            label="creation"
+                                            unitdatetype="inclusive">
                            <datesingle standarddate="1863-11-19">1863 November 19</datesingle>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref38_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
@@ -544,198 +671,248 @@
                      </did>
                   </c>
                </c>
-               <c id="ref39" level="file">
+               <c altrender="/repositories/12/archival_objects/1196655"
+                  id="ref39"
+                  level="file">
                   <did>
                      <unittitle>Lincoln, William: deed relating to land in Granville, Ohio</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1820 February 22">
+                     <unitdatestructured altrender="1820 February 22"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1820-02-22">1820 February 22</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref39_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">28</container>
                   </did>
                </c>
-               <c id="ref40" level="file">
+               <c altrender="/repositories/12/archival_objects/1196656"
+                  id="ref40"
+                  level="file">
                   <did>
                      <unittitle>Lincoln Memorial: dedication booklet autographed by Warren G. Harding, William H. Taft, Daniel Chester French, James Guerin, and Robert R. Moton</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1923">
+                     <unitdatestructured altrender="1923" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1923">1923</fromdate>
                            <todate standarddate="1923">1923</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref40_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">29</container>
                   </did>
                </c>
-               <c id="ref41" level="file">
+               <c altrender="/repositories/12/archival_objects/1196657"
+                  id="ref41"
+                  level="file">
                   <did>
                      <unittitle>Markham, Edwin: AMS of poem, "Lincoln the Man of People"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1927 December">
+                     <unitdatestructured altrender="1927 December" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1927-12">1927 December</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref41_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">30</container>
                   </did>
                </c>
-               <c id="ref42" level="file">
+               <c altrender="/repositories/12/archival_objects/1196658"
+                  id="ref42"
+                  level="file">
                   <did>
                      <unittitle>New York (State) Legislature: petition by members of the Legislature for appointment of Chauncey Shaffer as U.S. District Attorney, endorsed by Lincoln</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="[1860-1861?]">
+                     <unitdatestructured altrender="[1860-1861?]" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1860">1860</fromdate>
                            <todate standarddate="1861">1861</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref42_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">31</container>
                   </did>
                </c>
-               <c id="ref43" level="file">
+               <c altrender="/repositories/12/archival_objects/1196659"
+                  id="ref43"
+                  level="file">
                   <did>
                      <unittitle>Pickering, William: ALS (photostatic copy) to Issac N. Arnold, with ALS (photostatic copy) from Lincoln to a friend</unittitle>
-                     <unitdate unitdatetype="inclusive">1864 February 23, 1866</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">1864 February 23, 1866</unitdate>
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref43_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref43_c2" localtype="folder" parent="aspace_ref43_c1">32</container>
                   </did>
                </c>
-               <c id="ref44" level="file">
+               <c altrender="/repositories/12/archival_objects/1196660"
+                  id="ref44"
+                  level="file">
                   <did>
                      <unittitle>Rhinelander, Walton: 4 ALS to his sister Till</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1861 May-June">
+                     <unitdatestructured altrender="1861 May-June" label="creation" unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1861-05">1861-05</fromdate>
-                           <todate standarddate="1861-06">1861-06</todate>
+                           <fromdate standarddate="1861-05">1861 May</fromdate>
+                           <todate standarddate="1861-06">1861 June</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref44_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">33</container>
                   </did>
                </c>
-               <c id="ref45" level="file">
+               <c altrender="/repositories/12/archival_objects/1196661"
+                  id="ref45"
+                  level="file">
                   <did>
                      <unittitle>Ropes, John Codman: ALS to H.B. Dawson</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1877 August 24">
+                     <unitdatestructured altrender="1877 August 24"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1877-08-24">1877 August 24</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref45_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref45_c2" localtype="folder" parent="aspace_ref45_c1">34</container>
                   </did>
                </c>
-               <c id="ref46" level="file">
+               <c altrender="/repositories/12/archival_objects/1196662"
+                  id="ref46"
+                  level="file">
                   <did>
                      <unittitle>Schurz, Carl: autograph</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1897 February 5">
+                     <unitdatestructured altrender="1897 February 5"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1897-02-05">1897 February 5</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref46_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref46_c2" localtype="folder" parent="aspace_ref46_c1">35</container>
                   </did>
                </c>
-               <c id="ref47" level="file">
+               <c altrender="/repositories/12/archival_objects/1196663"
+                  id="ref47"
+                  level="file">
                   <did>
                      <unittitle>Sours, A.L.: ANS to [C.?] H. Hart</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1867 February 25">
+                     <unitdatestructured altrender="1867 February 25"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1867-02-25">1867 February 25</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref47_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref47_c2" localtype="folder" parent="aspace_ref47_c1">36</container>
                   </did>
                </c>
-               <c id="ref48" level="file">
+               <c altrender="/repositories/12/archival_objects/1196664"
+                  id="ref48"
+                  level="file">
                   <did>
                      <unittitle>Williams, Joseph J.: diary</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1861">
+                     <unitdatestructured altrender="1861" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1861">1861</fromdate>
                            <todate standarddate="1861">1861</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref48_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref48_c2" localtype="folder" parent="aspace_ref48_c1">37</container>
                   </did>
                </c>
-               <c id="ref49" level="file">
+               <c altrender="/repositories/12/archival_objects/1196665"
+                  id="ref49"
+                  level="file">
                   <did>
                      <unittitle>Wills, David: affidavit relating to Lincoln's, composition of the Gettysburg Address</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref49_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref49_c2" localtype="folder" parent="aspace_ref49_c1">38</container>
                   </did>
                </c>
-               <c id="ref50" level="file">
+               <c altrender="/repositories/12/archival_objects/1196666"
+                  id="ref50"
+                  level="file">
                   <did>
                      <unittitle>Miscellaneous clippings and writings about Lincoln</unittitle>
-                     <unitdate unitdatetype="inclusive">1909, 1917, undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">1909, 1917, undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref50_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref50_c2" localtype="folder" parent="aspace_ref50_c1">38A</container>
                   </did>
                </c>
-               <c id="ref51" level="file">
+               <c altrender="/repositories/12/archival_objects/1196667"
+                  id="ref51"
+                  level="file">
                   <did>
                      <unittitle>Political ribbons</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref51_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref51_c2" localtype="folder" parent="aspace_ref51_c1">39</container>
                   </did>
                </c>
-               <c id="ref52" level="file">
+               <c altrender="/repositories/12/archival_objects/1196668"
+                  id="ref52"
+                  level="file">
                   <did>
                      <unittitle>Printed likenesses of Lincoln</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                 containerid="39002042596495"
+                                encodinganalog="archive legal"
                                 id="aspace_ref52_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -743,36 +920,46 @@
                   </did>
                </c>
             </c>
-            <c id="ref53" level="file">
+            <c altrender="/repositories/12/archival_objects/1196669"
+               id="ref53"
+               level="file">
                <did>
                   <unittitle>Personal papers</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1902-1949">
+                  <unitdatestructured altrender="1902-1949" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1902">1902</fromdate>
                         <todate standarddate="1949">1949</todate>
                      </daterange>
                   </unitdatestructured>
                </did>
-               <c id="ref54" level="file">
+               <c altrender="/repositories/12/archival_objects/1196670"
+                  id="ref54"
+                  level="file">
                   <did>
                      <unittitle>Correpondence</unittitle>
                   </did>
-                  <c id="ref55" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196671"
+                     id="ref55"
+                     level="file">
                      <did>
                         <unittitle>A-B</unittitle>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/133450 /locations/9"
                                    containerid="39002042596495"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref55_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                         <container id="aspace_ref55_c2" localtype="folder" parent="aspace_ref55_c1">41</container>
                      </did>
                   </c>
-                  <c id="ref56" level="file">
+                  <c altrender="/repositories/12/archival_objects/1196672"
+                     id="ref56"
+                     level="file">
                      <did>
                         <unittitle>C-Y</unittitle>
-                        <container altrender="archive half legal"
+                        <container altrender="/repositories/12/top_containers/133451 /locations/9"
                                    containerid="39002042596503"
+                                   encodinganalog="archive half legal"
                                    id="aspace_ref56_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
@@ -780,11 +967,14 @@
                      </did>
                   </c>
                </c>
-               <c id="ref57" level="file">
+               <c altrender="/repositories/12/archival_objects/1196673"
+                  id="ref57"
+                  level="file">
                   <did>
                      <unittitle>Miscellaneous papers</unittitle>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/133451 /locations/9"
                                 containerid="39002042596503"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref57_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
@@ -792,44 +982,60 @@
                   </did>
                </c>
             </c>
-            <c id="ref58" level="file">
+            <c altrender="/repositories/12/archival_objects/1196674"
+               id="ref58"
+               level="file">
                <did>
                   <unittitle>Indenture, signed by William Alexander, Earl of Stirling, John Reid, et al. (photostatic copy)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1771 April 27">
+                  <unitdatestructured altrender="1771 April 27" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1771-04-27">1771 April 27</datesingle>
                   </unitdatestructured>
-                  <container containerid="39002042609108"
+                  <container altrender="/repositories/12/top_containers/133452 /locations/2821"
+                             containerid="39002042609108"
                              id="aspace_ref58_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref59" level="file">
+            <c altrender="/repositories/12/archival_objects/1196675"
+               id="ref59"
+               level="file">
                <did>
                   <unittitle>"A Resolution submitting to the legislature of the several states a proposition to amend the Constitution of the United States" (facsimile)</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1864 December 5">
+                  <unitdatestructured altrender="1864 December 5"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1864-12-05">1864 December 5</datesingle>
                   </unitdatestructured>
-                  <container containerid="39002042609108"
+                  <langmaterial>
+                     <language langcode="eng">English</language>
+                  </langmaterial>
+                  <container altrender="/repositories/12/top_containers/133452 /locations/2821"
+                             containerid="39002042609108"
                              id="aspace_ref59_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref60" level="file">
+            <c altrender="/repositories/12/archival_objects/1196676"
+               id="ref60"
+               level="file">
                <did>
                   <unittitle>Portrait of Lincoln</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container containerid="39002042609108"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/133452 /locations/2821"
+                             containerid="39002042609108"
                              id="aspace_ref60_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref61" level="file">
+            <c altrender="/repositories/12/archival_objects/1196677"
+               id="ref61"
+               level="file">
                <did>
                   <unittitle>Portrait of David Wills</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
                </did>
             </c>
          </c>

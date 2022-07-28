@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0491">mssa.ms.0491</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0491">mssa.ms.0491</recordid>
+      <otherrecordid localtype="BIB">614047</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Malcolm Rutherford Thorpe Papers
@@ -32,6 +34,11 @@
             <date>June 1985</date>
             <num>MS 491</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:34:56+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:16:22+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:34</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:16</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3087" level="collection">
       <did>
          <unittitle>Malcolm Rutherford Thorpe papers</unittitle>
          <unitid>MS 491</unitid>
@@ -83,32 +93,31 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(9 boxes, 1 folio)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1913-1952">
+         <unitdatestructured altrender="1913-1952" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1913">1913</fromdate>
                <todate standarddate="1952">1952</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_faae1206a274d2062551195c291ec817">Correspondence, reports, manuscripts and research material relating to Thorpe's geological surveys in Utah, to his work on vertebrate paleontology, to his directorship of the Peabody Museum of Natural History at Yale University, and to his work for the H. Emerson Tuttle Memorial Fund.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/no98123534"
                       source="naf">
-               <part>Thorpe, Malcolm Rutherford, 1891-1957</part>
+               <part localtype="agent_person">Thorpe, Malcolm Rutherford, 1891-1957</part>
             </persname>
          </origination>
-    
       </did>
       <prefercite id="aspace_06d2cb08bdbe1732d38fbe0479de55ef">
          <head>Preferred Citation</head>
-         <p>Malcolm Rutherford Thorpe Papers (MS 491). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Malcolm Rutherford Thorpe Papers (MS 491). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <acqinfo id="aspace_4620392d8b85d8a9c57b839d7df9ce8b">
          <head>Immediate Source of Acquisition</head>
-         <p>Portion of papers gift of Malcolm Thrope in 1943.</p>  
+         <p>Portion of papers gift of Malcolm Thrope in 1943.</p>
       </acqinfo>
       <arrangement id="aspace_ff37f75f50788ffb43ec545b0328e8bb">
          <head>Arrangement</head>
-         <p>Arranged in two series: I. Correspondence. II. Topical Files.</p>  
+         <p>Arranged in two series: I. Correspondence. II. Topical Files.</p>
       </arrangement>
       <bioghist id="aspace_eb4497f8ae5e378525a5d0758f754aa3">
          <head>Biographical / Historical</head>
@@ -120,7 +129,7 @@
             </title>, published by the Yale University Press in 1924, and is the author of "The Osteology of Eporcodon Socialis Marsh" and "The Marycoidodantidae, An Extinct Group of Ruminant Mammals," both of which appeared in publications of Peabody Museum. He also contributed the sections on the Abajo Mountains to <title render="italic">
                <part>The San Juan Country</part>
             </title>, by Herbert E. Gregory. The U.S. Department of the Interior published a paper of his in 1939, and he has had some fifty other scientific articles published, as well as many reviews of scientific publications.</p>
-         <p>He belonged to the Connecticut Academy of Arts and Sciences, the Academy of National Sciences (Philadelphia), the Society of Vertebrate Paleontology, the Society of Mammalogists, the Geologic Society of America, the American Geographic Society, the Geochemical Society, and the American Association for the Advancement of Science, as well as to Phi Beta Kappa and Sigma Xi. He also belonged to the Graduates Club in New Haven.</p>  
+         <p>He belonged to the Connecticut Academy of Arts and Sciences, the Academy of National Sciences (Philadelphia), the Society of Vertebrate Paleontology, the Society of Mammalogists, the Geologic Society of America, the American Geographic Society, the Geochemical Society, and the American Association for the Advancement of Science, as well as to Phi Beta Kappa and Sigma Xi. He also belonged to the Graduates Club in New Haven.</p>
       </bioghist>
       <scopecontent id="aspace_008a3416436aa4fa18a394dc4827cb17">
          <head>Scope and Contents</head>
@@ -128,148 +137,155 @@
          <p>I. Correspondence, 1913-1952
 II. Topical Files, 1923-1945</p>
          <p>SERIES I, CORRESPONDENCE, 1913-1952, includes personal and professional correspondence with such correspondents as the U.S. Department of the Interior, Edmund Hovey Otis, and Ernest Howe.</p>
-         <p>SERIES II, TOPICAL FILES, 1923-1945, contains such material as a cataloge of Thorpe's personal library, descriptions of many specimens, his Ph.D. dissertation, and several manuscripts on topics of professional interest. Other materials include notes arranged under the topic "Memoirs of the Peabody Museum," chapters from Organic Adaption to Environment (1924), papers relating to the Emerson Tuttle Memorial Committee, and files for Yale University matters.</p>  
+         <p>SERIES II, TOPICAL FILES, 1923-1945, contains such material as a cataloge of Thorpe's personal library, descriptions of many specimens, his Ph.D. dissertation, and several manuscripts on topics of professional interest. Other materials include notes arranged under the topic "Memoirs of the Peabody Museum," chapters from Organic Adaption to Environment (1924), papers relating to the Emerson Tuttle Memorial Committee, and files for Yale University matters.</p>
       </scopecontent>
       <accessrestrict id="aspace_d583b78cc0d975ef36ad2f390975c20f">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_b03488ccd92fc545ed9385ebdb40a525">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject source="local">
-            <part>Geology -- Utah -- Surveys</part>
+            <part localtype="topical">Geology</part>
+            <part localtype="geographic">Utah</part>
+            <part localtype="genre_form">Surveys</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85097123"
                   source="lcsh">
-            <part>Paleontology</part>
+            <part localtype="topical">Paleontology</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85118553"
                   source="lcsh">
-            <part>Science</part>
+            <part localtype="topical">Science</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85142906"
                   source="lcsh">
-            <part>Vertebrates, Fossil</part>
+            <part localtype="topical">Vertebrates, Fossil</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85141591"
                    source="lcsh">
-            <part>Utah -- Description and travel</part>
+            <part localtype="geographic">Utah</part>
+            <part localtype="topical">Description and travel</part>
          </geogname>
          <persname identifier="http://id.loc.gov/authorities/names/no2005110415"
                    rules="aacr"
                    source="naf">
-            <part>Bateman, Alan M. (Alan Mara), 1889-1971</part>
+            <part localtype="agent_person">Bateman, Alan M. (Alan Mara), 1889-1971</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n80045096"
                    rules="aacr"
                    source="naf">
-            <part>Bowman, Isaiah, 1878-1950</part>
+            <part localtype="agent_person">Bowman, Isaiah, 1878-1950</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n84803389"
                    rules="aacr"
                    source="naf">
-            <part>Dana, Edward Salisbury, 1849-1935</part>
+            <part localtype="agent_person">Dana, Edward Salisbury, 1849-1935</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Day, George Parmly, 1876-1959</part>
+            <part localtype="agent_person">Day, George Parmly, 1876-1959</part>
          </persname>
          <persname source="local">
-            <part>Doneghy, Mary Craddock</part>
+            <part localtype="agent_person">Doneghy, Mary Craddock</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/nr2004011484"
                    rules="aacr"
                    source="naf">
-            <part>Eaton, George Francis, 1872-1949</part>
+            <part localtype="agent_person">Eaton, George Francis, 1872-1949</part>
          </persname>
          <persname source="local">
-            <part>Fields, Curtis P.</part>
+            <part localtype="agent_person">Fields, Curtis P.</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n93057536"
                    rules="aacr"
                    source="naf">
-            <part>Gregory, Herbert E. (Herbert Ernest), 1869-1952</part>
+            <part localtype="agent_person">Gregory, Herbert E. (Herbert Ernest), 1869-1952</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/nr2005008948"
                    rules="aacr"
                    source="naf">
-            <part>Hovey, Edmund Otis, 1862-1924</part>
+            <part localtype="agent_person">Hovey, Edmund Otis, 1862-1924</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no98128587"
                    rules="aacr"
                    source="naf">
-            <part>Howe, Ernest, 1875-1932</part>
+            <part localtype="agent_person">Howe, Ernest, 1875-1932</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n99035549" source="naf">
-            <part>Lohmann, Carl A. (Carl Albert), 1887-</part>
+            <part localtype="agent_person">Lohmann, Carl A. (Carl Albert), 1887-</part>
          </persname>
          <persname source="local">
-            <part>Merriman, John Campbell, 1869-1945</part>
+            <part localtype="agent_person">Merriman, John Campbell, 1869-1945</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no99001726"
                    source="naf">
-            <part>Palmer, Harold S. (Harold Schjoth), 1890-</part>
+            <part localtype="agent_person">Palmer, Harold S. (Harold Schjoth), 1890-</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50016851"
                    rules="aacr"
                    source="naf">
-            <part>Pierson, George Wilson, 1904-1993</part>
+            <part localtype="agent_person">Pierson, George Wilson, 1904-1993</part>
          </persname>
          <persname source="local">
-            <part>Pilgrim, Guy Ellcock, 1875-</part>
+            <part localtype="agent_person">Pilgrim, Guy Ellcock, 1875-</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n84803387"
                    rules="aacr"
                    source="naf">
-            <part>Schuchert, Charles, 1858-1942</part>
+            <part localtype="agent_person">Schuchert, Charles, 1858-1942</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n79133759" source="naf">
-            <part>Scott, William Berryman, 1858-1947</part>
+            <part localtype="agent_person">Scott, William Berryman, 1858-1947</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n87147604"
                    rules="aacr"
                    source="naf">
-            <part>Stock, Chester, 1892-1950</part>
+            <part localtype="agent_person">Stock, Chester, 1892-1950</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/no98123534"
                    source="naf">
-            <part>Thorpe, Malcolm Rutherford, 1891-1957</part>
+            <part localtype="agent_person">Thorpe, Malcolm Rutherford, 1891-1957</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/nr94028848"
                    rules="aacr"
                    source="naf">
-            <part>Tittle, Walter, 1883-1966</part>
+            <part localtype="agent_person">Tittle, Walter, 1883-1966</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n2007026253"
                    rules="aacr"
                    source="naf">
-            <part>Tuttle, H. E. (Henry Emerson), 1890-1946</part>
+            <part localtype="agent_person">Tuttle, H. E. (Henry Emerson), 1890-1946</part>
          </persname>
          <persname source="local">
-            <part>Weber, Rudolph, d. 1933</part>
+            <part localtype="agent_person">Weber, Rudolph, d. 1933</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n79062874" source="naf">
-            <part>Wilder, Thornton, 1897-1975</part>
+            <part localtype="agent_person">Wilder, Thornton, 1897-1975</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n87825978"
                    rules="aacr"
                    source="naf">
-            <part>Woodward, Arthur Smith, 1864-1944</part>
+            <part localtype="agent_person">Woodward, Arthur Smith, 1864-1944</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n79110184" source="naf">
-            <part>Peabody Museum of Natural History</part>
+            <part localtype="agent_corporate_entity">Peabody Museum of Natural History</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
          <corpname rules="aacr" source="local">
-            <part>Yale University. H. Emerson Tuttle Memorial Fund</part>
+            <part localtype="agent_corporate_entity">Yale University. H. Emerson Tuttle Memorial Fund</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref13" level="series">
+         <c altrender="/repositories/12/archival_objects/1188217"
+            id="ref13"
+            level="series">
             <did>
                <unittitle>Correspondence</unittitle>
                <unitid>Series I</unitid>
@@ -278,7 +294,7 @@ II. Topical Files, 1923-1945</p>
                   <unittype>Linear Feet</unittype>
                </physdescstructured>
                <physdesc localtype="container_summary">(1 box)</physdesc>
-               <unitdatestructured unitdatetype="inclusive" altrender="1913-1952">
+               <unitdatestructured altrender="1913-1952" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1913">1913</fromdate>
                      <todate standarddate="1952">1952</todate>
@@ -289,166 +305,208 @@ II. Topical Files, 1923-1945</p>
                <head>Scope and Contents</head>
                <p>This series contains files arranged in alphabetical order by name of correspondent.</p>
             </scopecontent>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1188218"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>A-Br</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132370 /locations/9"
                              containerid="39002042320862"
+                             encodinganalog="archive legal"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">1</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1188219"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Br-Da</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132370 /locations/9"
                              containerid="39002042320862"
+                             encodinganalog="archive legal"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">2</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1188220"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Da-Em</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132370 /locations/9"
                              containerid="39002042320862"
+                             encodinganalog="archive legal"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">3</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1188221"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Department of the Interior</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1914-1915">
+                  <unitdatestructured altrender="1914-1915" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1914">1914</fromdate>
                         <todate standarddate="1915">1915</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132370 /locations/9"
                              containerid="39002042320862"
+                             encodinganalog="archive legal"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">4</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1188222"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Department of the Interior</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1916-1930">
+                  <unitdatestructured altrender="1916-1930" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1916">1916</fromdate>
                         <todate standarddate="1930">1930</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132370 /locations/9"
                              containerid="39002042320862"
+                             encodinganalog="archive legal"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">5</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1188223"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>F-He</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132370 /locations/9"
                              containerid="39002042320862"
+                             encodinganalog="archive legal"
                              id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">6</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1188224"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>He-L</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132370 /locations/9"
                              containerid="39002042320862"
+                             encodinganalog="archive legal"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">7</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1188225"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Hovey, Edmund Otis</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132370 /locations/9"
                              containerid="39002042320862"
+                             encodinganalog="archive legal"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">8</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1188226"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>Howe, Ernest</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132370 /locations/9"
                              containerid="39002042320862"
+                             encodinganalog="archive legal"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">9</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1188227"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>M-O</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132370 /locations/9"
                              containerid="39002042320862"
+                             encodinganalog="archive legal"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">10</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1188228"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>P-R</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132370 /locations/9"
                              containerid="39002042320862"
+                             encodinganalog="archive legal"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">11</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1188229"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Sa-Sm</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132370 /locations/9"
                              containerid="39002042320862"
+                             encodinganalog="archive legal"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">12</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1188230"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>Sm-We</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132370 /locations/9"
                              containerid="39002042320862"
+                             encodinganalog="archive legal"
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">13</container>
                </did>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1188231"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>We-Wr</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132370 /locations/9"
                              containerid="39002042320862"
+                             encodinganalog="archive legal"
                              id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -456,11 +514,13 @@ II. Topical Files, 1923-1945</p>
                </did>
             </c>
          </c>
-         <c id="ref30" level="series">
+         <c altrender="/repositories/12/archival_objects/1188232"
+            id="ref30"
+            level="series">
             <did>
                <unittitle>Topical files</unittitle>
                <unitid>Series II</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1923-1945">
+               <unitdatestructured altrender="1923-1945" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1923">1923</fromdate>
                      <todate standarddate="1945">1945</todate>
@@ -471,255 +531,364 @@ II. Topical Files, 1923-1945</p>
                <head>Scope and Contents</head>
                <p>This series contains files arranged in alphabetical order by topic.</p>
             </scopecontent>
-            <c id="ref133" level="file">
+            <c altrender="/repositories/12/archival_objects/1188233"
+               id="ref133"
+               level="file">
                <did>
                   <unittitle>Bristol Public School diploma</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1909 June 25">
+                  <unitdatestructured altrender="1909 June 25" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1909">1909</fromdate>
                         <todate standarddate="1909">1909</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042606872"
+                  <container altrender="/repositories/12/top_containers/132371 /locations/2822"
+                             containerid="39002042606872"
                              id="aspace_ref133_c1"
                              label="Mixed Materials"
                              localtype="box">12</container>
                   <container id="aspace_ref133_c2" localtype="folder" parent="aspace_ref133_c1">51</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1188234"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>Catalogue of Personal Library: Volume 1</unittitle>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/132372 /locations/9"
                              containerid="39002042320870"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">15</container>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1188235"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>Catalogue of Personal Library; Volume 2</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132373 /locations/9"
                              containerid="39002042320888"
+                             encodinganalog="archive half legal"
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">16</container>
                </did>
             </c>
-            <c id="ref134" level="file">
+            <c altrender="/repositories/12/archival_objects/1188236"
+               id="ref134"
+               level="file">
                <did>
                   <unittitle>Council of the American Geographical Society certificate of membership</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1917 January 23">
+                  <unitdatestructured altrender="1917 January 23"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1917">1917</fromdate>
                         <todate standarddate="1917">1917</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002042606872"
+                  <container altrender="/repositories/12/top_containers/132371 /locations/2822"
+                             containerid="39002042606872"
                              id="aspace_ref134_c1"
                              label="Mixed Materials"
                              localtype="box">12</container>
                   <container id="aspace_ref134_c2" localtype="folder" parent="aspace_ref134_c1">51</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1188237"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>Davenport College Directory</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1943-1944">
+                  <unitdatestructured altrender="1943-1944" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1943">1943</fromdate>
                         <todate standarddate="1944">1944</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132374 /locations/9"
                              containerid="39002042320896"
+                             encodinganalog="archive legal"
                              id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                   <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">17</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1188238"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Descriptions of Specimens</unittitle>
                </did>
-               <c id="ref36" level="file">
+               <c altrender="/repositories/12/archival_objects/1188239"
+                  id="ref36"
+                  level="file">
                   <did>
                      <unittitle>"Cyclopidius"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132374 /locations/9"
                                 containerid="39002042320896"
+                                encodinganalog="archive legal"
                                 id="aspace_ref36_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref36_c2" localtype="folder" parent="aspace_ref36_c1">18</container>
                   </did>
                </c>
-               <c id="ref37" level="file">
+               <c altrender="/repositories/12/archival_objects/1188240"
+                  id="ref37"
+                  level="file">
                   <did>
                      <unittitle>"Desmatochoerus"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132374 /locations/9"
                                 containerid="39002042320896"
+                                encodinganalog="archive legal"
                                 id="aspace_ref37_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref37_c2" localtype="folder" parent="aspace_ref37_c1">19</container>
                   </did>
                </c>
-               <c id="ref38" level="file">
+               <c altrender="/repositories/12/archival_objects/1188241"
+                  id="ref38"
+                  level="file">
                   <did>
                      <unittitle>"Geological Horizons"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132374 /locations/9"
                                 containerid="39002042320896"
+                                encodinganalog="archive legal"
                                 id="aspace_ref38_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">20</container>
                   </did>
                </c>
-               <c id="ref39" level="file">
+               <c altrender="/repositories/12/archival_objects/1188242"
+                  id="ref39"
+                  level="file">
                   <did>
                      <unittitle>"Leptauchenia"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132374 /locations/9"
                                 containerid="39002042320896"
+                                encodinganalog="archive legal"
                                 id="aspace_ref39_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">21</container>
                   </did>
                </c>
-               <c id="ref40" level="file">
+               <c altrender="/repositories/12/archival_objects/1188243"
+                  id="ref40"
+                  level="file">
                   <did>
                      <unittitle>"Merychyus"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132374 /locations/9"
                                 containerid="39002042320896"
+                                encodinganalog="archive legal"
                                 id="aspace_ref40_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">22</container>
                   </did>
                </c>
-               <c id="ref41" level="file">
+               <c altrender="/repositories/12/archival_objects/1188244"
+                  id="ref41"
+                  level="file">
                   <did>
                      <unittitle>"Merycochoerus"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132374 /locations/9"
                                 containerid="39002042320896"
+                                encodinganalog="archive legal"
                                 id="aspace_ref41_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">23</container>
                   </did>
                </c>
-               <c id="ref42" level="file">
+               <c altrender="/repositories/12/archival_objects/1188245"
+                  id="ref42"
+                  level="file">
                   <did>
                      <unittitle>"Merycoides"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132374 /locations/9"
                                 containerid="39002042320896"
+                                encodinganalog="archive legal"
                                 id="aspace_ref42_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">24</container>
                   </did>
                </c>
-               <c id="ref43" level="file">
+               <c altrender="/repositories/12/archival_objects/1188246"
+                  id="ref43"
+                  level="file">
                   <did>
                      <unittitle>"Metoreodon"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132374 /locations/9"
                                 containerid="39002042320896"
+                                encodinganalog="archive legal"
                                 id="aspace_ref43_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref43_c2" localtype="folder" parent="aspace_ref43_c1">25</container>
                   </did>
                </c>
-               <c id="ref44" level="file">
+               <c altrender="/repositories/12/archival_objects/1188247"
+                  id="ref44"
+                  level="file">
                   <did>
                      <unittitle>"Oreodontoides"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132374 /locations/9"
                                 containerid="39002042320896"
+                                encodinganalog="archive legal"
                                 id="aspace_ref44_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref44_c2" localtype="folder" parent="aspace_ref44_c1">26</container>
                   </did>
                </c>
-               <c id="ref45" level="file">
+               <c altrender="/repositories/12/archival_objects/1188248"
+                  id="ref45"
+                  level="file">
                   <did>
                      <unittitle>"Paroreodon"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132374 /locations/9"
                                 containerid="39002042320896"
+                                encodinganalog="archive legal"
                                 id="aspace_ref45_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref45_c2" localtype="folder" parent="aspace_ref45_c1">27</container>
                   </did>
                </c>
-               <c id="ref46" level="file">
+               <c altrender="/repositories/12/archival_objects/1188249"
+                  id="ref46"
+                  level="file">
                   <did>
                      <unittitle>"Phenacocelus"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132374 /locations/9"
                                 containerid="39002042320896"
+                                encodinganalog="archive legal"
                                 id="aspace_ref46_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref46_c2" localtype="folder" parent="aspace_ref46_c1">28</container>
                   </did>
                </c>
-               <c id="ref47" level="file">
+               <c altrender="/repositories/12/archival_objects/1188250"
+                  id="ref47"
+                  level="file">
                   <did>
                      <unittitle>"Poatrephes"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132374 /locations/9"
                                 containerid="39002042320896"
+                                encodinganalog="archive legal"
                                 id="aspace_ref47_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref47_c2" localtype="folder" parent="aspace_ref47_c1">29</container>
                   </did>
                </c>
-               <c id="ref48" level="file">
+               <c altrender="/repositories/12/archival_objects/1188251"
+                  id="ref48"
+                  level="file">
                   <did>
                      <unittitle>"Promerycochoerus"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132374 /locations/9"
                                 containerid="39002042320896"
+                                encodinganalog="archive legal"
                                 id="aspace_ref48_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref48_c2" localtype="folder" parent="aspace_ref48_c1">30</container>
                   </did>
                </c>
-               <c id="ref49" level="file">
+               <c altrender="/repositories/12/archival_objects/1188252"
+                  id="ref49"
+                  level="file">
                   <did>
                      <unittitle>"Pronomotherium"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132374 /locations/9"
                                 containerid="39002042320896"
+                                encodinganalog="archive legal"
                                 id="aspace_ref49_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref49_c2" localtype="folder" parent="aspace_ref49_c1">31</container>
                   </did>
                </c>
-               <c id="ref50" level="file">
+               <c altrender="/repositories/12/archival_objects/1188253"
+                  id="ref50"
+                  level="file">
                   <did>
                      <unittitle>"Tichololeptus"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132374 /locations/9"
                                 containerid="39002042320896"
+                                encodinganalog="archive legal"
                                 id="aspace_ref50_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
@@ -727,411 +896,593 @@ II. Topical Files, 1923-1945</p>
                   </did>
                </c>
             </c>
-            <c id="ref51" level="file">
+            <c altrender="/repositories/12/archival_objects/1188254"
+               id="ref51"
+               level="file">
                <did>
                   <unittitle>Dissertation (Ph.D.)</unittitle>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/132375 /locations/9"
                              containerid="39002042320904"
+                             encodinganalog="archive legal"
                              id="aspace_ref51_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                   <container id="aspace_ref51_c2" localtype="folder" parent="aspace_ref51_c1">33-38</container>
                </did>
             </c>
-            <c id="ref52" level="file">
+            <c altrender="/repositories/12/archival_objects/1188255"
+               id="ref52"
+               level="file">
                <did>
                   <unittitle>Lecture notes</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132376 /locations/9"
                              containerid="39002042320912"
+                             encodinganalog="archive half legal"
                              id="aspace_ref52_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref52_c2" localtype="folder" parent="aspace_ref52_c1">39-40</container>
                </did>
             </c>
-            <c id="ref53" level="file">
+            <c altrender="/repositories/12/archival_objects/1188256"
+               id="ref53"
+               level="file">
                <did>
                   <unittitle>Lists</unittitle>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132376 /locations/9"
                              containerid="39002042320912"
+                             encodinganalog="archive half legal"
                              id="aspace_ref53_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                   <container id="aspace_ref53_c2" localtype="folder" parent="aspace_ref53_c1">41</container>
                </did>
             </c>
-            <c id="ref54" level="file">
+            <c altrender="/repositories/12/archival_objects/1188257"
+               id="ref54"
+               level="file">
                <did>
                   <unittitle>Manuscripts</unittitle>
                </did>
-               <c id="ref55" level="file">
+               <c altrender="/repositories/12/archival_objects/1188258"
+                  id="ref55"
+                  level="file">
                   <did>
                      <unittitle>"Environment and Racial Character" by Huntington, E.</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1923">
+                     <unitdatestructured altrender="1923" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1923">1923</fromdate>
                            <todate standarddate="1923">1923</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref55_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref55_c2" localtype="folder" parent="aspace_ref55_c1">42</container>
                   </did>
                </c>
-               <c id="ref56" level="file">
+               <c altrender="/repositories/12/archival_objects/1188259"
+                  id="ref56"
+                  level="file">
                   <did>
                      <unittitle>"North Branford Fossils"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1929">
+                     <unitdatestructured altrender="1929" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1929">1929</fromdate>
                            <todate standarddate="1929">1929</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref56_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref56_c2" localtype="folder" parent="aspace_ref56_c1">43</container>
                   </did>
                </c>
-               <c id="ref57" level="file">
+               <c altrender="/repositories/12/archival_objects/1188260"
+                  id="ref57"
+                  level="file">
                   <did>
                      <unittitle>"A Remarkable Woodchuck Skull"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1929">
+                     <unitdatestructured altrender="1929" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1929">1929</fromdate>
                            <todate standarddate="1929">1929</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref57_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref57_c2" localtype="folder" parent="aspace_ref57_c1">44</container>
                   </did>
                </c>
-               <c id="ref58" level="file">
+               <c altrender="/repositories/12/archival_objects/1188261"
+                  id="ref58"
+                  level="file">
                   <did>
                      <unittitle>"Story about <title render="italic">
                            <part>Portheus molossus</part>
                         </title>"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1934">
+                     <unitdatestructured altrender="1934" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1934">1934</fromdate>
                            <todate standarddate="1934">1934</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref58_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref58_c2" localtype="folder" parent="aspace_ref58_c1">45</container>
                   </did>
                </c>
-               <c id="ref59" level="file">
+               <c altrender="/repositories/12/archival_objects/1188262"
+                  id="ref59"
+                  level="file">
                   <did>
                      <unittitle>"Additional Notes on Oreodontoides oregonensis Thorpe"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref59_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref59_c2" localtype="folder" parent="aspace_ref59_c1">46</container>
                   </did>
                </c>
-               <c id="ref60" level="file">
+               <c altrender="/repositories/12/archival_objects/1188263"
+                  id="ref60"
+                  level="file">
                   <did>
                      <unittitle>"Araeocyon, a Probable Old World Migrant"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref60_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref60_c2" localtype="folder" parent="aspace_ref60_c1">47</container>
                   </did>
                </c>
-               <c id="ref61" level="file">
+               <c altrender="/repositories/12/archival_objects/1188264"
+                  id="ref61"
+                  level="file">
                   <did>
                      <unittitle>"The Generic Distinctions between Merycochoerus Leidy and Promerycochoerus Douglass"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref61_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref61_c2" localtype="folder" parent="aspace_ref61_c1">48</container>
                   </did>
                </c>
-               <c id="ref62" level="file">
+               <c altrender="/repositories/12/archival_objects/1188265"
+                  id="ref62"
+                  level="file">
                   <did>
                      <unittitle>"How to Macerate Skeleton"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref62_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref62_c2" localtype="folder" parent="aspace_ref62_c1">49</container>
                   </did>
                </c>
-               <c id="ref63" level="file">
+               <c altrender="/repositories/12/archival_objects/1188266"
+                  id="ref63"
+                  level="file">
                   <did>
                      <unittitle>"The Hyoid Apparatus of Merycoidodon"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref63_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref63_c2" localtype="folder" parent="aspace_ref63_c1">50</container>
                   </did>
                </c>
-               <c id="ref64" level="file">
+               <c altrender="/repositories/12/archival_objects/1188267"
+                  id="ref64"
+                  level="file">
                   <did>
                      <unittitle>"John Day Eporeodons, with Descriptions..."</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref64_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref64_c2" localtype="folder" parent="aspace_ref64_c1">51</container>
                   </did>
                </c>
-               <c id="ref65" level="file">
+               <c altrender="/repositories/12/archival_objects/1188268"
+                  id="ref65"
+                  level="file">
                   <did>
                      <unittitle>"Leptauchenia Leidy and Cyclopidius (Pithecistestes) Cope...</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref65_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref65_c2" localtype="folder" parent="aspace_ref65_c1">52</container>
                   </did>
                </c>
-               <c id="ref66" level="file">
+               <c altrender="/repositories/12/archival_objects/1188269"
+                  id="ref66"
+                  level="file">
                   <did>
                      <unittitle>"A New Genus of Oligocene Hyaenodontidae"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref66_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref66_c2" localtype="folder" parent="aspace_ref66_c1">53</container>
                   </did>
                </c>
-               <c id="ref67" level="file">
+               <c altrender="/repositories/12/archival_objects/1188270"
+                  id="ref67"
+                  level="file">
                   <did>
                      <unittitle>"New Reconstructions at the Peabody Museum"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref67_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref67_c2" localtype="folder" parent="aspace_ref67_c1">54</container>
                   </did>
                </c>
-               <c id="ref68" level="file">
+               <c altrender="/repositories/12/archival_objects/1188271"
+                  id="ref68"
+                  level="file">
                   <did>
                      <unittitle>"A New Species of Extinct Peccary from Oregon"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref68_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref68_c2" localtype="folder" parent="aspace_ref68_c1">55</container>
                   </did>
                </c>
-               <c id="ref69" level="file">
+               <c altrender="/repositories/12/archival_objects/1188272"
+                  id="ref69"
+                  level="file">
                   <did>
                      <unittitle>"New Species of Uinta Carnivora"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref69_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref69_c2" localtype="folder" parent="aspace_ref69_c1">56</container>
                   </did>
                </c>
-               <c id="ref70" level="file">
+               <c altrender="/repositories/12/archival_objects/1188273"
+                  id="ref70"
+                  level="file">
                   <did>
                      <unittitle>"Notes on the Bridger (Eocene) Carnivora"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref70_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref70_c2" localtype="folder" parent="aspace_ref70_c1">57</container>
                   </did>
                </c>
-               <c id="ref71" level="file">
+               <c altrender="/repositories/12/archival_objects/1188274"
+                  id="ref71"
+                  level="file">
                   <did>
                      <unittitle>"On Measurements for the Oligocene Felidae"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref71_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref71_c2" localtype="folder" parent="aspace_ref71_c1">58</container>
                   </did>
                </c>
-               <c id="ref72" level="file">
+               <c altrender="/repositories/12/archival_objects/1188275"
+                  id="ref72"
+                  level="file">
                   <did>
                      <unittitle>"Oregon Tertiary Canidae..."</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref72_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref72_c2" localtype="folder" parent="aspace_ref72_c1">59</container>
                   </did>
                </c>
-               <c id="ref73" level="file">
+               <c altrender="/repositories/12/archival_objects/1188276"
+                  id="ref73"
+                  level="file">
                   <did>
                      <unittitle>"The Osteology of <title render="italic">
                            <part>Eporedon socialis Marsh</part>
                         </title>"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref73_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref73_c2" localtype="folder" parent="aspace_ref73_c1">60</container>
                   </did>
                </c>
-               <c id="ref74" level="file">
+               <c altrender="/repositories/12/archival_objects/1188277"
+                  id="ref74"
+                  level="file">
                   <did>
                      <unittitle>"The Primitive, and Carnivorelike Characters of the Merycoidodontidal"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref74_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref74_c2" localtype="folder" parent="aspace_ref74_c1">61</container>
                   </did>
                </c>
-               <c id="ref75" level="file">
+               <c altrender="/repositories/12/archival_objects/1188278"
+                  id="ref75"
+                  level="file">
                   <did>
                      <unittitle>"Restoration of Eporedus socialis Marsh"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref75_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref75_c2" localtype="folder" parent="aspace_ref75_c1">62</container>
                   </did>
                </c>
-               <c id="ref76" level="file">
+               <c altrender="/repositories/12/archival_objects/1188279"
+                  id="ref76"
+                  level="file">
                   <did>
                      <unittitle>"The Skeleton of <title render="italic">
                            <part>Brontosaurus excelsus</part>
                         </title> Marsh"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref76_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref76_c2" localtype="folder" parent="aspace_ref76_c1">63</container>
                   </did>
                </c>
-               <c id="ref77" level="file">
+               <c altrender="/repositories/12/archival_objects/1188280"
+                  id="ref77"
+                  level="file">
                   <did>
                      <unittitle>"Some Tertiary Carnivora in the Marsh Collection"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref77_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref77_c2" localtype="folder" parent="aspace_ref77_c1">64</container>
                   </did>
                </c>
-               <c id="ref78" level="file">
+               <c altrender="/repositories/12/archival_objects/1188281"
+                  id="ref78"
+                  level="file">
                   <did>
                      <unittitle>"Structural Features of the Abajo Mountains"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref78_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref78_c2" localtype="folder" parent="aspace_ref78_c1">65</container>
                   </did>
                </c>
-               <c id="ref79" level="file">
+               <c altrender="/repositories/12/archival_objects/1188282"
+                  id="ref79"
+                  level="file">
                   <did>
                      <unittitle>"Two New Forms of Agriochoerus"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref79_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref79_c2" localtype="folder" parent="aspace_ref79_c1">66</container>
                   </did>
                </c>
-               <c id="ref80" level="file">
+               <c altrender="/repositories/12/archival_objects/1188283"
+                  id="ref80"
+                  level="file">
                   <did>
                      <unittitle>"Two New Fossil Carnivora"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref80_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref80_c2" localtype="folder" parent="aspace_ref80_c1">67</container>
                   </did>
                </c>
-               <c id="ref81" level="file">
+               <c altrender="/repositories/12/archival_objects/1188284"
+                  id="ref81"
+                  level="file">
                   <did>
                      <unittitle>"White River (Oligocene) Eporeodus"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref81_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref81_c2" localtype="folder" parent="aspace_ref81_c1">68</container>
                   </did>
                </c>
-               <c id="ref82" level="file">
+               <c altrender="/repositories/12/archival_objects/1188285"
+                  id="ref82"
+                  level="file">
                   <did>
                      <unittitle>"Wyoming Eocene Fishes"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref82_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                      <container id="aspace_ref82_c2" localtype="folder" parent="aspace_ref82_c1">69</container>
                   </did>
                </c>
-               <c id="ref83" level="file">
+               <c altrender="/repositories/12/archival_objects/1188286"
+                  id="ref83"
+                  level="file">
                   <did>
                      <unittitle>Miscellanea</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132377 /locations/9"
                                 containerid="39002042320920"
+                                encodinganalog="archive legal"
                                 id="aspace_ref83_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
@@ -1139,309 +1490,461 @@ II. Topical Files, 1923-1945</p>
                   </did>
                </c>
             </c>
-            <c id="ref85" level="file">
+            <c altrender="/repositories/12/archival_objects/1188287"
+               id="ref85"
+               level="file">
                <did>
                   <unittitle>Memoirs of the Peabody Museum</unittitle>
                </did>
-               <c id="ref86" level="file">
+               <c altrender="/repositories/12/archival_objects/1188288"
+                  id="ref86"
+                  level="file">
                   <did>
                      <unittitle>"Merycoidodentidae"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1936">
+                     <unitdatestructured altrender="1936" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1936">1936</fromdate>
                            <todate standarddate="1936">1936</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132378 /locations/9"
                                 containerid="39002042320938"
+                                encodinganalog="archive legal"
                                 id="aspace_ref86_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref86_c2" localtype="folder" parent="aspace_ref86_c1">72</container>
                   </did>
                </c>
-               <c id="ref87" level="file">
+               <c altrender="/repositories/12/archival_objects/1188289"
+                  id="ref87"
+                  level="file">
                   <did>
                      <unittitle>"Bathygenys"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132378 /locations/9"
                                 containerid="39002042320938"
+                                encodinganalog="archive legal"
                                 id="aspace_ref87_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref87_c2" localtype="folder" parent="aspace_ref87_c1">73</container>
                   </did>
                </c>
-               <c id="ref88" level="file">
+               <c altrender="/repositories/12/archival_objects/1188290"
+                  id="ref88"
+                  level="file">
                   <did>
                      <unittitle>"Chelonocephalus"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132378 /locations/9"
                                 containerid="39002042320938"
+                                encodinganalog="archive legal"
                                 id="aspace_ref88_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref88_c2" localtype="folder" parent="aspace_ref88_c1">74</container>
                   </did>
                </c>
-               <c id="ref89" level="file">
+               <c altrender="/repositories/12/archival_objects/1188291"
+                  id="ref89"
+                  level="file">
                   <did>
                      <unittitle>"Cyclopidius"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132378 /locations/9"
                                 containerid="39002042320938"
+                                encodinganalog="archive legal"
                                 id="aspace_ref89_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref89_c2" localtype="folder" parent="aspace_ref89_c1">75</container>
                   </did>
                </c>
-               <c id="ref90" level="file">
+               <c altrender="/repositories/12/archival_objects/1188292"
+                  id="ref90"
+                  level="file">
                   <did>
                      <unittitle>"Eporeodon"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132378 /locations/9"
                                 containerid="39002042320938"
+                                encodinganalog="archive legal"
                                 id="aspace_ref90_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref90_c2" localtype="folder" parent="aspace_ref90_c1">76</container>
                   </did>
                </c>
-               <c id="ref91" level="file">
+               <c altrender="/repositories/12/archival_objects/1188293"
+                  id="ref91"
+                  level="file">
                   <did>
                      <unittitle>"Eucrotophus"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132378 /locations/9"
                                 containerid="39002042320938"
+                                encodinganalog="archive legal"
                                 id="aspace_ref91_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref91_c2" localtype="folder" parent="aspace_ref91_c1">77</container>
                   </did>
                </c>
-               <c id="ref92" level="file">
+               <c altrender="/repositories/12/archival_objects/1188294"
+                  id="ref92"
+                  level="file">
                   <did>
                      <unittitle>"Geographical Distribution"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132378 /locations/9"
                                 containerid="39002042320938"
+                                encodinganalog="archive legal"
                                 id="aspace_ref92_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref92_c2" localtype="folder" parent="aspace_ref92_c1">78</container>
                   </did>
                </c>
-               <c id="ref93" level="file">
+               <c altrender="/repositories/12/archival_objects/1188295"
+                  id="ref93"
+                  level="file">
                   <did>
                      <unittitle>"Hymeryx"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132378 /locations/9"
                                 containerid="39002042320938"
+                                encodinganalog="archive legal"
                                 id="aspace_ref93_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref93_c2" localtype="folder" parent="aspace_ref93_c1">79</container>
                   </did>
                </c>
-               <c id="ref94" level="file">
+               <c altrender="/repositories/12/archival_objects/1188296"
+                  id="ref94"
+                  level="file">
                   <did>
                      <unittitle>"Leptauchenia"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132378 /locations/9"
                                 containerid="39002042320938"
+                                encodinganalog="archive legal"
                                 id="aspace_ref94_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref94_c2" localtype="folder" parent="aspace_ref94_c1">80</container>
                   </did>
                </c>
-               <c id="ref95" level="file">
+               <c altrender="/repositories/12/archival_objects/1188297"
+                  id="ref95"
+                  level="file">
                   <did>
                      <unittitle>"Limnenetes"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132378 /locations/9"
                                 containerid="39002042320938"
+                                encodinganalog="archive legal"
                                 id="aspace_ref95_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref95_c2" localtype="folder" parent="aspace_ref95_c1">81</container>
                   </did>
                </c>
-               <c id="ref96" level="file">
+               <c altrender="/repositories/12/archival_objects/1188298"
+                  id="ref96"
+                  level="file">
                   <did>
                      <unittitle>"Merychyus"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132378 /locations/9"
                                 containerid="39002042320938"
+                                encodinganalog="archive legal"
                                 id="aspace_ref96_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref96_c2" localtype="folder" parent="aspace_ref96_c1">82</container>
                   </did>
                </c>
-               <c id="ref97" level="file">
+               <c altrender="/repositories/12/archival_objects/1188299"
+                  id="ref97"
+                  level="file">
                   <did>
                      <unittitle>"Merycochoerus"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132378 /locations/9"
                                 containerid="39002042320938"
+                                encodinganalog="archive legal"
                                 id="aspace_ref97_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref97_c2" localtype="folder" parent="aspace_ref97_c1">83</container>
                   </did>
                </c>
-               <c id="ref98" level="file">
+               <c altrender="/repositories/12/archival_objects/1188300"
+                  id="ref98"
+                  level="file">
                   <did>
                      <unittitle>"Merycoides"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132378 /locations/9"
                                 containerid="39002042320938"
+                                encodinganalog="archive legal"
                                 id="aspace_ref98_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref98_c2" localtype="folder" parent="aspace_ref98_c1">84</container>
                   </did>
                </c>
-               <c id="ref99" level="file">
+               <c altrender="/repositories/12/archival_objects/1188301"
+                  id="ref99"
+                  level="file">
                   <did>
                      <unittitle>"Merycoidodon"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132378 /locations/9"
                                 containerid="39002042320938"
+                                encodinganalog="archive legal"
                                 id="aspace_ref99_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref99_c2" localtype="folder" parent="aspace_ref99_c1">85-86</container>
                   </did>
                </c>
-               <c id="ref100" level="file">
+               <c altrender="/repositories/12/archival_objects/1188302"
+                  id="ref100"
+                  level="file">
                   <did>
                      <unittitle>"Mesoreodon"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132378 /locations/9"
                                 containerid="39002042320938"
+                                encodinganalog="archive legal"
                                 id="aspace_ref100_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                      <container id="aspace_ref100_c2" localtype="folder" parent="aspace_ref100_c1">87</container>
                   </did>
                </c>
-               <c id="ref101" level="file">
+               <c altrender="/repositories/12/archival_objects/1188303"
+                  id="ref101"
+                  level="file">
                   <did>
                      <unittitle>"Metoreodon"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132379 /locations/9"
                                 containerid="39002042320946"
+                                encodinganalog="archive legal"
                                 id="aspace_ref101_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref101_c2" localtype="folder" parent="aspace_ref101_c1">88</container>
                   </did>
                </c>
-               <c id="ref102" level="file">
+               <c altrender="/repositories/12/archival_objects/1188304"
+                  id="ref102"
+                  level="file">
                   <did>
                      <unittitle>"Oreodontoides"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132379 /locations/9"
                                 containerid="39002042320946"
+                                encodinganalog="archive legal"
                                 id="aspace_ref102_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref102_c2" localtype="folder" parent="aspace_ref102_c1">89</container>
                   </did>
                </c>
-               <c id="ref103" level="file">
+               <c altrender="/repositories/12/archival_objects/1188305"
+                  id="ref103"
+                  level="file">
                   <did>
                      <unittitle>"Oreonetes"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132379 /locations/9"
                                 containerid="39002042320946"
+                                encodinganalog="archive legal"
                                 id="aspace_ref103_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref103_c2" localtype="folder" parent="aspace_ref103_c1">90</container>
                   </did>
                </c>
-               <c id="ref104" level="file">
+               <c altrender="/repositories/12/archival_objects/1188306"
+                  id="ref104"
+                  level="file">
                   <did>
                      <unittitle>"Paroreodon"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132379 /locations/9"
                                 containerid="39002042320946"
+                                encodinganalog="archive legal"
                                 id="aspace_ref104_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref104_c2" localtype="folder" parent="aspace_ref104_c1">91</container>
                   </did>
                </c>
-               <c id="ref105" level="file">
+               <c altrender="/repositories/12/archival_objects/1188307"
+                  id="ref105"
+                  level="file">
                   <did>
                      <unittitle>"Phenacocoelus"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132379 /locations/9"
                                 containerid="39002042320946"
+                                encodinganalog="archive legal"
                                 id="aspace_ref105_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref105_c2" localtype="folder" parent="aspace_ref105_c1">92</container>
                   </did>
                </c>
-               <c id="ref106" level="file">
+               <c altrender="/repositories/12/archival_objects/1188308"
+                  id="ref106"
+                  level="file">
                   <did>
                      <unittitle>"Plates"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132379 /locations/9"
                                 containerid="39002042320946"
+                                encodinganalog="archive legal"
                                 id="aspace_ref106_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref106_c2" localtype="folder" parent="aspace_ref106_c1">93</container>
                   </did>
                </c>
-               <c id="ref107" level="file">
+               <c altrender="/repositories/12/archival_objects/1188309"
+                  id="ref107"
+                  level="file">
                   <did>
                      <unittitle>"Poatrephes"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132379 /locations/9"
                                 containerid="39002042320946"
+                                encodinganalog="archive legal"
                                 id="aspace_ref107_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref107_c2" localtype="folder" parent="aspace_ref107_c1">94</container>
                   </did>
                </c>
-               <c id="ref108" level="file">
+               <c altrender="/repositories/12/archival_objects/1188310"
+                  id="ref108"
+                  level="file">
                   <did>
                      <unittitle>"Promerycochoerus"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132379 /locations/9"
                                 containerid="39002042320946"
+                                encodinganalog="archive legal"
                                 id="aspace_ref108_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref108_c2" localtype="folder" parent="aspace_ref108_c1">95-96</container>
                   </did>
                </c>
-               <c id="ref109" level="file">
+               <c altrender="/repositories/12/archival_objects/1188311"
+                  id="ref109"
+                  level="file">
                   <did>
                      <unittitle>"Protoreodon"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132379 /locations/9"
                                 containerid="39002042320946"
+                                encodinganalog="archive legal"
                                 id="aspace_ref109_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                      <container id="aspace_ref109_c2" localtype="folder" parent="aspace_ref109_c1">97</container>
                   </did>
                </c>
-               <c id="ref110" level="file">
+               <c altrender="/repositories/12/archival_objects/1188312"
+                  id="ref110"
+                  level="file">
                   <did>
                      <unittitle>"Ticholeptus"</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132379 /locations/9"
                                 containerid="39002042320946"
+                                encodinganalog="archive legal"
                                 id="aspace_ref110_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
@@ -1449,120 +1952,179 @@ II. Topical Files, 1923-1945</p>
                   </did>
                </c>
             </c>
-            <c id="ref111" level="file">
+            <c altrender="/repositories/12/archival_objects/1188313"
+               id="ref111"
+               level="file">
                <did>
                   <unittitle>Notes and Outline</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132379 /locations/9"
                              containerid="39002042320946"
+                             encodinganalog="archive legal"
                              id="aspace_ref111_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                   <container id="aspace_ref111_c2" localtype="folder" parent="aspace_ref111_c1">99</container>
                </did>
             </c>
-            <c id="ref112" level="file">
+            <c altrender="/repositories/12/archival_objects/1188314"
+               id="ref112"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1924">
+                  <unitdatestructured altrender="1924" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1924">1924</fromdate>
                         <todate standarddate="1924">1924</todate>
                      </daterange>
                   </unitdatestructured>
                </did>
-               <c id="ref113" level="file">
+               <c altrender="/repositories/12/archival_objects/1188315"
+                  id="ref113"
+                  level="file">
                   <did>
                      <unittitle>"Contents, Illustrations, Introduction"</unittitle>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132380 /locations/9"
                                 containerid="39002042320953"
+                                encodinganalog="archive legal"
                                 id="aspace_ref113_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                      <container id="aspace_ref113_c2" localtype="folder" parent="aspace_ref113_c1">100</container>
                   </did>
                </c>
-               <c id="ref114" level="file">
+               <c altrender="/repositories/12/archival_objects/1188316"
+                  id="ref114"
+                  level="file">
                   <did>
                      <unittitle>"Chapter 1"</unittitle>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132380 /locations/9"
                                 containerid="39002042320953"
+                                encodinganalog="archive legal"
                                 id="aspace_ref114_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                      <container id="aspace_ref114_c2" localtype="folder" parent="aspace_ref114_c1">101</container>
                   </did>
                </c>
-               <c id="ref115" level="file">
+               <c altrender="/repositories/12/archival_objects/1188317"
+                  id="ref115"
+                  level="file">
                   <did>
                      <unittitle>"Chapter 2"</unittitle>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132380 /locations/9"
                                 containerid="39002042320953"
+                                encodinganalog="archive legal"
                                 id="aspace_ref115_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                      <container id="aspace_ref115_c2" localtype="folder" parent="aspace_ref115_c1">102</container>
                   </did>
                </c>
-               <c id="ref116" level="file">
+               <c altrender="/repositories/12/archival_objects/1188318"
+                  id="ref116"
+                  level="file">
                   <did>
                      <unittitle>"Chapter 3"</unittitle>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132380 /locations/9"
                                 containerid="39002042320953"
+                                encodinganalog="archive legal"
                                 id="aspace_ref116_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                      <container id="aspace_ref116_c2" localtype="folder" parent="aspace_ref116_c1">103</container>
                   </did>
                </c>
-               <c id="ref117" level="file">
+               <c altrender="/repositories/12/archival_objects/1188319"
+                  id="ref117"
+                  level="file">
                   <did>
                      <unittitle>"Chapter 4"</unittitle>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132380 /locations/9"
                                 containerid="39002042320953"
+                                encodinganalog="archive legal"
                                 id="aspace_ref117_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                      <container id="aspace_ref117_c2" localtype="folder" parent="aspace_ref117_c1">104</container>
                   </did>
                </c>
-               <c id="ref118" level="file">
+               <c altrender="/repositories/12/archival_objects/1188320"
+                  id="ref118"
+                  level="file">
                   <did>
                      <unittitle>"Chapter 5"</unittitle>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132380 /locations/9"
                                 containerid="39002042320953"
+                                encodinganalog="archive legal"
                                 id="aspace_ref118_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                      <container id="aspace_ref118_c2" localtype="folder" parent="aspace_ref118_c1">105</container>
                   </did>
                </c>
-               <c id="ref119" level="file">
+               <c altrender="/repositories/12/archival_objects/1188321"
+                  id="ref119"
+                  level="file">
                   <did>
                      <unittitle>"Chapter 6"</unittitle>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132380 /locations/9"
                                 containerid="39002042320953"
+                                encodinganalog="archive legal"
                                 id="aspace_ref119_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                      <container id="aspace_ref119_c2" localtype="folder" parent="aspace_ref119_c1">106</container>
                   </did>
                </c>
-               <c id="ref120" level="file">
+               <c altrender="/repositories/12/archival_objects/1188322"
+                  id="ref120"
+                  level="file">
                   <did>
                      <unittitle>"Chapter 7"</unittitle>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132380 /locations/9"
                                 containerid="39002042320953"
+                                encodinganalog="archive legal"
                                 id="aspace_ref120_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                      <container id="aspace_ref120_c2" localtype="folder" parent="aspace_ref120_c1">107</container>
                   </did>
                </c>
-               <c id="ref121" level="file">
+               <c altrender="/repositories/12/archival_objects/1188323"
+                  id="ref121"
+                  level="file">
                   <did>
                      <unittitle>"Chapter 8"</unittitle>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132380 /locations/9"
                                 containerid="39002042320953"
+                                encodinganalog="archive legal"
                                 id="aspace_ref121_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
@@ -1570,63 +2132,78 @@ II. Topical Files, 1923-1945</p>
                   </did>
                </c>
             </c>
-            <c id="ref122" level="file">
+            <c altrender="/repositories/12/archival_objects/1188324"
+               id="ref122"
+               level="file">
                <did>
                   <unittitle>Paleontological Charts</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132380 /locations/9"
                              containerid="39002042320953"
+                             encodinganalog="archive legal"
                              id="aspace_ref122_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref122_c2" localtype="folder" parent="aspace_ref122_c1">109</container>
                </did>
             </c>
-            <c id="ref123" level="file">
+            <c altrender="/repositories/12/archival_objects/1188325"
+               id="ref123"
+               level="file">
                <did>
                   <unittitle>Personal and Financial Papers</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132380 /locations/9"
                              containerid="39002042320953"
+                             encodinganalog="archive legal"
                              id="aspace_ref123_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref123_c2" localtype="folder" parent="aspace_ref123_c1">110</container>
                </did>
             </c>
-            <c id="ref124" level="file">
+            <c altrender="/repositories/12/archival_objects/1188326"
+               id="ref124"
+               level="file">
                <did>
                   <unittitle>Resumé</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132380 /locations/9"
                              containerid="39002042320953"
+                             encodinganalog="archive legal"
                              id="aspace_ref124_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref124_c2" localtype="folder" parent="aspace_ref124_c1">111</container>
                </did>
             </c>
-            <c id="ref125" level="file">
+            <c altrender="/repositories/12/archival_objects/1188327"
+               id="ref125"
+               level="file">
                <did>
                   <unittitle>Sigma Xi Society</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132380 /locations/9"
                              containerid="39002042320953"
+                             encodinganalog="archive legal"
                              id="aspace_ref125_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref125_c2" localtype="folder" parent="aspace_ref125_c1">112</container>
                </did>
-               <c id="ref135" level="file">
+               <c altrender="/repositories/12/archival_objects/1188328"
+                  id="ref135"
+                  level="file">
                   <did>
                      <unittitle>Oversize</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1920 March 4">
+                     <unitdatestructured altrender="1920 March 4" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1920">1920</fromdate>
                            <todate standarddate="1920">1920</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042606872"
+                     <container altrender="/repositories/12/top_containers/132371 /locations/2822"
+                                containerid="39002042606872"
                                 id="aspace_ref135_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
@@ -1634,82 +2211,100 @@ II. Topical Files, 1923-1945</p>
                   </did>
                </c>
             </c>
-            <c id="ref126" level="file">
+            <c altrender="/repositories/12/archival_objects/1188329"
+               id="ref126"
+               level="file">
                <did>
                   <unittitle>Society of Vertebrate Paleontology</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132380 /locations/9"
                              containerid="39002042320953"
+                             encodinganalog="archive legal"
                              id="aspace_ref126_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref126_c2" localtype="folder" parent="aspace_ref126_c1">113</container>
                </did>
             </c>
-            <c id="ref127" level="file">
+            <c altrender="/repositories/12/archival_objects/1188330"
+               id="ref127"
+               level="file">
                <did>
                   <unittitle>Student Papers</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132380 /locations/9"
                              containerid="39002042320953"
+                             encodinganalog="archive legal"
                              id="aspace_ref127_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                   <container id="aspace_ref127_c2" localtype="folder" parent="aspace_ref127_c1">114</container>
                </did>
             </c>
-            <c id="ref128" level="file">
+            <c altrender="/repositories/12/archival_objects/1188331"
+               id="ref128"
+               level="file">
                <did>
                   <unittitle>H. Emerson Tuttle Papers</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132381 /locations/9"
                              containerid="39002042320961"
+                             encodinganalog="archive half legal"
                              id="aspace_ref128_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>
                   <container id="aspace_ref128_c2" localtype="folder" parent="aspace_ref128_c1">115-116</container>
                </did>
             </c>
-            <c id="ref129" level="file">
+            <c altrender="/repositories/12/archival_objects/1188332"
+               id="ref129"
+               level="file">
                <did>
                   <unittitle>Yale University Commencement</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1934-1936">
+                  <unitdatestructured altrender="1934-1936" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1934">1934</fromdate>
                         <todate standarddate="1936">1936</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132381 /locations/9"
                              containerid="39002042320961"
+                             encodinganalog="archive half legal"
                              id="aspace_ref129_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>
                   <container id="aspace_ref129_c2" localtype="folder" parent="aspace_ref129_c1">117</container>
                </did>
             </c>
-            <c id="ref130" level="file">
+            <c altrender="/repositories/12/archival_objects/1188333"
+               id="ref130"
+               level="file">
                <did>
                   <unittitle>Yale University Faculty List</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1944-1945">
+                  <unitdatestructured altrender="1944-1945" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1944">1944</fromdate>
                         <todate standarddate="1945">1945</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/132381 /locations/9"
                              containerid="39002042320961"
+                             encodinganalog="archive half legal"
                              id="aspace_ref130_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>
                   <container id="aspace_ref130_c2" localtype="folder" parent="aspace_ref130_c1">118</container>
                </did>
             </c>
-            <c id="ref131" level="file">
+            <c altrender="/repositories/12/archival_objects/1188334"
+               id="ref131"
+               level="file">
                <did>
                   <unittitle>Yale University Paleontological Club</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132381 /locations/9"
                              containerid="39002042320961"
+                             encodinganalog="archive half legal"
                              id="aspace_ref131_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>

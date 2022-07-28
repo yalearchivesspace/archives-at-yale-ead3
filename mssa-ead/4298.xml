@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0925">mssa.ms.0925</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0925">mssa.ms.0925</recordid>
+      <otherrecordid localtype="BIB">614369</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the British East India Company Records
@@ -32,6 +34,11 @@
             <date>June 1983</date>
             <num>MS 925</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:35:08+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:16:15+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:35</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:16</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4298" level="collection">
       <did>
          <unittitle>British East India Company records</unittitle>
          <unitid>MS 925</unitid>
@@ -82,142 +92,158 @@
             <quantity>0.25</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1821-1853">
+         <unitdatestructured altrender="1821-1853" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1821">1821</fromdate>
                <todate standarddate="1853">1853</todate>
             </daterange>
          </unitdatestructured>
-         <unitdatestructured unitdatetype="bulk">
+         <unitdatestructured label="creation" unitdatetype="bulk">
             <daterange>
                <fromdate standarddate="1821">1821</fromdate>
                <todate standarddate="1839">1839</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_b6baf26eec7f78bad9cf8f38d596512f">Reports of agents of the East India Company in Mahi Kantha in Gujarat (western India) and dispatches from East India officials in Bombay sent to London. The reports provide a history of the Mahi Kantha before 1821 and describe political events there through 1839. The documents are all copies.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname rules="aacr" source="local">
-               <part>British East India Company</part>
+               <part localtype="agent_corporate_entity">British East India Company</part>
             </corpname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_cf366c2efa4c534f0840c0592d4b781a">
          <head>Immediate Source of Acquisition</head>
-         <p>Purchased, 1949.</p>  
+         <p>Purchased, 1949.</p>
       </acqinfo>
-      <accessrestrict id="aspace_d8f100f9ed72cb6c644f06973543ac90">
+      <accessrestrict id="aspace_d8f100f9ed72cb6c644f06973543ac90" localtype="UseSurrogate">
          <head>Conditions Governing Access</head>
-         <p>The entire collection is available on microfilm. Patrons must use HM 264 instead of the originals.</p>  
+         <p>The entire collection is available on microfilm. Patrons must use HM 264 instead of the originals.</p>
       </accessrestrict>
       <prefercite id="aspace_57b6d65fe8627c0234b509ab72f7fcc0">
          <head>Preferred Citation</head>
-         <p>British East India Company Records. Manuscripts and Archives, Yale University Library.</p>  
+         <p>British East India Company Records. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_b9e94c3df9e65fa427e0801969e697ae">
          <head>Scope and Contents</head>
          <p>The two volumes which constitute this small collection pertain to the activities of the British East India Company in the Mahi Kantha, a fiscal and military district now making up part of the state of Gujarat in western India. The first volume contains copies of reports (1821-1827) made to company officials in Baroda and Bombay from local agents, while the other volume contains copies of despatches (1826-1839) sent from Bombay to the Court of Directors of the East India Company in London. There is also one loose despatch from 1863. Taken together, these papers provide a history of the Mahi Kantha before 1821 and detail political and military events there through 1839.</p>
-         <p>These papers were purchased for Yale University in 1949. They were formerly known as the Bombay Presidency Papers.</p>  
+         <p>These papers were purchased for Yale University in 1949. They were formerly known as the Bombay Presidency Papers.</p>
       </scopecontent>
       <bioghist id="aspace_1ce1b6aff28108b23d095d4de6dc9a15">
          <head>Biographical / Historical</head>
-         <p>The British East India Company was founded around 1600 in order to control British trade, especially in spices, from India, China, and neighboring regions. Initially, the company held a monopoly on such activities and both exploited and expanded British colonial power, by acting as an agent to the Crown from the early eighteenth century to the mid nineteenth century.</p>  
+         <p>The British East India Company was founded around 1600 in order to control British trade, especially in spices, from India, China, and neighboring regions. Initially, the company held a monopoly on such activities and both exploited and expanded British colonial power, by acting as an agent to the Crown from the early eighteenth century to the mid nineteenth century.</p>
       </bioghist>
       <userestrict id="aspace_f58470c148d8da6c369d77137b894d5e">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85008606"
                    source="lcsh">
-            <part>Asia</part>
+            <part localtype="geographic">Asia</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85056632"
                    source="lcsh">
-            <part>Great Britain -- Colonies</part>
+            <part localtype="geographic">Great Britain</part>
+            <part localtype="topical">Colonies</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh2008115302"
                    source="lcsh">
-            <part>Gujarat (India) -- History</part>
+            <part localtype="geographic">Gujarat (India)</part>
+            <part localtype="topical">History</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh2008115298"
                    source="lcsh">
-            <part>Gujarat (India) -- Politics and government</part>
+            <part localtype="geographic">Gujarat (India)</part>
+            <part localtype="topical">Politics and government</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85064915"
                    source="lcsh">
-            <part>India -- History -- British occupation, 1765-1947</part>
+            <part localtype="geographic">India</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">British occupation, 1765-1947</part>
          </geogname>
          <corpname rules="aacr" source="local">
-            <part>British East India Company</part>
+            <part localtype="agent_corporate_entity">British East India Company</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n79118917" source="naf">
-            <part>East India Company</part>
+            <part localtype="agent_corporate_entity">East India Company</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1354549"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Reports</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1821-1827">
+               <unitdatestructured altrender="1821-1827" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1821">1821</fromdate>
                      <todate standarddate="1827">1827</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151678 /locations/9"
                           containerid="39002042652348"
-                          id="d1e264"
+                          encodinganalog="archive half letter"
+                          id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e266" localtype="folder" parent="d1e264">1</container>
-               <container altrender="microfilm box"
+               <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1</container>
+               <container altrender="/repositories/12/top_containers/209281 /locations/4312"
                           containerid="39002075129289"
-                          id="d1e268"
+                          encodinganalog="microfilm box"
+                          id="aspace_ref11_c3"
                           label="Mixed Materials"
                           localtype="reel">1U</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1354550"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Despatches</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1826-1839">
+               <unitdatestructured altrender="1826-1839" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1826">1826</fromdate>
                      <todate standarddate="1839">1839</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151678 /locations/9"
                           containerid="39002042652348"
-                          id="d1e286"
+                          encodinganalog="archive half letter"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e288" localtype="folder" parent="d1e286">2</container>
-               <container altrender="microfilm box"
+               <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">2</container>
+               <container altrender="/repositories/12/top_containers/209281 /locations/4312"
                           containerid="39002075129289"
-                          id="d1e290"
+                          encodinganalog="microfilm box"
+                          id="aspace_ref12_c3"
                           label="Mixed Materials"
                           localtype="reel">1U</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1354551"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Despatch No. 57</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1853">
+               <unitdatestructured altrender="1853" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1853">1853</fromdate>
                      <todate standarddate="1853">1853</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/151678 /locations/9"
                           containerid="39002042652348"
-                          id="d1e308"
+                          encodinganalog="archive half letter"
+                          id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e310" localtype="folder" parent="d1e308">3</container>
-               <container altrender="microfilm box"
+               <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">3</container>
+               <container altrender="/repositories/12/top_containers/209281 /locations/4312"
                           containerid="39002075129289"
-                          id="d1e312"
+                          encodinganalog="microfilm box"
+                          id="aspace_ref13_c3"
                           label="Mixed Materials"
                           localtype="reel">1U</container>
             </did>

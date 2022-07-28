@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0799">mssa.ms.0799</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0799">mssa.ms.0799</recordid>
+      <otherrecordid localtype="BIB">614185</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Clarence Whittlesey Mendell Papers
@@ -32,6 +34,11 @@
             <date>June 1976</date>
             <num>MS 799</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T08:25:52+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:06:38+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 08:25</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:06</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3937" level="collection">
       <did>
          <unittitle>Clarence Whittlesey Mendell papers</unittitle>
          <unitid>MS 799</unitid>
@@ -82,174 +92,205 @@
             <quantity>1</quantity>
             <unittype>Linear Foot</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1926-1930">
+         <unitdatestructured altrender="1926-1930" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1926">1926</fromdate>
                <todate standarddate="1930">1930</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_1506cd245d2d19067e47a1ddbf1c43a1">Translations and notes on the texts of Latin and Greek classics; essays on classical authors, and a few pieces of correspondence and poetry. Included are some poems and letters in connection with Mikhail Rostovtsev's sixtieth birthday.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n85237420" source="naf">
-               <part>Mendell, Clarence W. (Clarence Whittlesey), 1883-1970</part>
+               <part localtype="agent_person">Mendell, Clarence W. (Clarence Whittlesey), 1883-1970</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_b773176f0248325ab19710e0db91b83c">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Mrs. Clarence Mendell, 1971, and Lewis S. Welch, 1941.</p>  
+         <p>Gift of Mrs. Clarence Mendell, 1971, and Lewis S. Welch, 1941.</p>
       </acqinfo>
       <accessrestrict id="aspace_39d2457f80ecfd597d2290649a7fa084">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_202dd30fcf3d023973b28c0953212544">
          <head>Preferred Citation</head>
-         <p>Clarence Whittlesey Mendell Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Clarence Whittlesey Mendell Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <bioghist id="aspace_e8263a52ad8ba93aecfd68baa9a63638">
          <head>Biographical / Historical</head>
-         <p>Clarence W. Mendell was professor of Latin and Greek from 1911-1952 at Yale University, and was professor emeritus from 1952-1963.</p>  
+         <p>Clarence W. Mendell was professor of Latin and Greek from 1911-1952 at Yale University, and was professor emeritus from 1952-1963.</p>
       </bioghist>
       <scopecontent id="aspace_50adefa9f7281eba7e111a3c3b7a37af">
          <head>Scope and Contents</head>
-         <p>Translations and notes on the texts of Latin and Greek classics; essays on classical authors, and a few pieces of correspondence and poetry. Included are some poems and letters in connection with Mikhail Rostovtsev's sixtieth birthday.</p>  
+         <p>Translations and notes on the texts of Latin and Greek classics; essays on classical authors, and a few pieces of correspondence and poetry. Included are some poems and letters in connection with Mikhail Rostovtsev's sixtieth birthday.</p>
       </scopecontent>
       <userestrict id="aspace_65d486c2288815b2fe24676c9fcd4ac9">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85026700"
                   source="lcsh">
-            <part>Classical education</part>
+            <part localtype="topical">Classical education</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85057171"
                   source="lcsh">
-            <part>Greek literature</part>
+            <part localtype="topical">Greek literature</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85074966"
                   source="lcsh">
-            <part>Latin literature</part>
+            <part localtype="topical">Latin literature</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/n85237420" source="naf">
-            <part>Mendell, Clarence W. (Clarence Whittlesey), 1883-1970</part>
+            <part localtype="agent_person">Mendell, Clarence W. (Clarence Whittlesey), 1883-1970</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Rostovzeff, Michael Ivanovitch, 1870-1952</part>
+            <part localtype="agent_person">Rostovzeff, Michael Ivanovitch, 1870-1952</part>
          </persname>
          <persname source="local">
-            <part>Welch, Lewis Sheldon, 1867-1940</part>
+            <part localtype="agent_person">Welch, Lewis Sheldon, 1867-1940</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1257845"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>TLS to Lewis S. Welch</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1926 September 13">
+               <unitdatestructured altrender="1926 September 13"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1926">1926</fromdate>
                      <todate standarddate="1930">1930</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/143192 /locations/9"
                           containerid="39002042284746"
+                          encodinganalog="archive half letter"
                           id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1257846"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Correspondence and poetry relating to the 60thbirthday of Mikhail Rostovtsev</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1930 October 28">
+               <unitdatestructured altrender="1930 October 28"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1926">1926</fromdate>
                      <todate standarddate="1930">1930</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/143192 /locations/9"
                           containerid="39002042284746"
+                          encodinganalog="archive half letter"
                           id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">2</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1257847"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>TMS, Two poems, attributed to C. W. Mendell: "Tiberius at Capri," and "When Yale's last entry..."</unittitle>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/143192 /locations/9"
                           containerid="39002042284746"
+                          encodinganalog="archive half letter"
                           id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">3</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1257848"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>TMS, Miscellaneous essays on classical subjects</unittitle>
             </did>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1257849"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Friends of Martial (2 copies)</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/143192 /locations/9"
                              containerid="39002042284746"
+                             encodinganalog="archive half letter"
                              id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">4</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1257850"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>The mirror of life (2 copies)</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/143192 /locations/9"
                              containerid="39002042284746"
+                             encodinganalog="archive half letter"
                              id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">4</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1257851"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Symbolic terms for wealth and poverty (2 copies)</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/143192 /locations/9"
                              containerid="39002042284746"
+                             encodinganalog="archive half letter"
                              id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">4</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1257852"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Transmission of the <emph render="italic">Acricola</emph>
                   </unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/143192 /locations/9"
                              containerid="39002042284746"
+                             encodinganalog="archive half letter"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">4</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1257853"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Note on the mss of the minor works of Taciturs</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/143192 /locations/9"
                              containerid="39002042284746"
+                             encodinganalog="archive half letter"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
@@ -257,184 +298,240 @@
                </did>
             </c>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1257854"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>AMS, translation of Horace, <emph render="italic">Epistles</emph> I.6-II.2 and <emph render="italic">The Art of Poetry</emph>, pp. 13-84</unittitle>
-               <container altrender="archive half letter"
+               <container altrender="/repositories/12/top_containers/143192 /locations/9"
                           containerid="39002042284746"
+                          encodinganalog="archive half letter"
                           id="aspace_ref20_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">5</container>
             </did>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1257855"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>TMS, Calpurnius. <emph render="italic">Lycidas</emph>. (A fragment) Translation</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/143193 /locations/9"
                           containerid="39002042284753"
+                          encodinganalog="archive letter"
                           id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">6</container>
             </did>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1257856"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>TMS, <emph render="italic">The works of Horace</emph> done into English verse...Odes</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/143193 /locations/9"
                           containerid="39002042284753"
+                          encodinganalog="archive letter"
                           id="aspace_ref22_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">7</container>
             </did>
          </c>
-         <c id="ref23" level="file">
+         <c altrender="/repositories/12/archival_objects/1257857"
+            id="ref23"
+            level="file">
             <did>
                <unittitle>-- --. Epodes. Satires</unittitle>
-               <container altrender="archive letter"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/143193 /locations/9"
                           containerid="39002042284753"
+                          encodinganalog="archive letter"
                           id="aspace_ref23_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">8</container>
             </did>
          </c>
-         <c id="ref24" level="file">
+         <c altrender="/repositories/12/archival_objects/1257858"
+            id="ref24"
+            level="file">
             <did>
                <unittitle>-- --. Carmen saeculare. Two essays on Horace.</unittitle>
-               <container altrender="archive letter"
+               <langmaterial>
+                  <language langcode="eng">English</language>
+               </langmaterial>
+               <container altrender="/repositories/12/top_containers/143193 /locations/9"
                           containerid="39002042284753"
+                          encodinganalog="archive letter"
                           id="aspace_ref24_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">9</container>
             </did>
          </c>
-         <c id="ref25" level="file">
+         <c altrender="/repositories/12/archival_objects/1257859"
+            id="ref25"
+            level="file">
             <did>
                <unittitle>Juvenal, Satires I, IV. Translation</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/143193 /locations/9"
                           containerid="39002042284753"
+                          encodinganalog="archive letter"
                           id="aspace_ref25_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">10</container>
             </did>
          </c>
-         <c id="ref26" level="file">
+         <c altrender="/repositories/12/archival_objects/1257860"
+            id="ref26"
+            level="file">
             <did>
                <unittitle>TMS, Phaedrus. <emph render="italic">Selections</emph>. Translation</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/143193 /locations/9"
                           containerid="39002042284753"
+                          encodinganalog="archive letter"
                           id="aspace_ref26_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">11</container>
             </did>
          </c>
-         <c id="ref27" level="file">
+         <c altrender="/repositories/12/archival_objects/1257861"
+            id="ref27"
+            level="file">
             <did>
                <unittitle>TMS, Seneca. <emph render="italic">The madness of Hercules</emph>. Translation</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/143193 /locations/9"
                           containerid="39002042284753"
+                          encodinganalog="archive letter"
                           id="aspace_ref27_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">12</container>
             </did>
          </c>
-         <c id="ref28" level="file">
+         <c altrender="/repositories/12/archival_objects/1257862"
+            id="ref28"
+            level="file">
             <did>
                <unittitle>Seneca the Younger. <emph render="italic">The Medea</emph>. Translation.</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/143193 /locations/9"
                           containerid="39002042284753"
+                          encodinganalog="archive letter"
                           id="aspace_ref28_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">12</container>
             </did>
          </c>
-         <c id="ref29" level="file">
+         <c altrender="/repositories/12/archival_objects/1257863"
+            id="ref29"
+            level="file">
             <did>
                <unittitle>TMS, Tacitus. <emph render="italic">Histories</emph>. Translation. Introduction, books I, II.</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/143193 /locations/9"
                           containerid="39002042284753"
+                          encodinganalog="archive letter"
                           id="aspace_ref29_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">13</container>
             </did>
          </c>
-         <c id="ref30" level="file">
+         <c altrender="/repositories/12/archival_objects/1257864"
+            id="ref30"
+            level="file">
             <did>
                <unittitle>TMS, Tacitus. <emph render="italic">Histories</emph>. Books III-V. Notes</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/143193 /locations/9"
                           containerid="39002042284753"
+                          encodinganalog="archive letter"
                           id="aspace_ref30_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">14</container>
             </did>
          </c>
-         <c id="ref31" level="file">
+         <c altrender="/repositories/12/archival_objects/1257865"
+            id="ref31"
+            level="file">
             <did>
                <unittitle>TMS, Virgil. <emph render="italic">Aeneid</emph>. Book IX. Text. Translation. Notes. (2 copies)</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/143193 /locations/9"
                           containerid="39002042284753"
+                          encodinganalog="archive letter"
                           id="aspace_ref31_c1"
                           label="Mixed Materials"
                           localtype="box">2</container>
                <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">15</container>
             </did>
          </c>
-         <c id="ref32" level="file">
+         <c altrender="/repositories/12/archival_objects/1257866"
+            id="ref32"
+            level="file">
             <did>
                <unittitle>TMS, Greek tragedy. The Theban Cycle. Translation</unittitle>
             </did>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1257867"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>I. Sophocles. <emph render="italic">Oedipus the King</emph>
                   </unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143194 /locations/9"
                              containerid="39002042284761"
+                             encodinganalog="archive letter"
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">16</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1257868"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>II. -- --. <emph render="italic">Oedipus at Colonus</emph>
                   </unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143194 /locations/9"
                              containerid="39002042284761"
+                             encodinganalog="archive letter"
                              id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">17</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1257869"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>III. Aeschylus. <emph render="italic">Seven against Thebes</emph>
                   </unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143194 /locations/9"
                              containerid="39002042284761"
+                             encodinganalog="archive letter"
                              id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">18</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1257870"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>IV. Sophocles. <emph render="italic">The Antigone</emph>
                   </unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143194 /locations/9"
                              containerid="39002042284761"
+                             encodinganalog="archive letter"
                              id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -442,64 +539,81 @@
                </did>
             </c>
          </c>
-         <c id="ref37" level="file">
+         <c altrender="/repositories/12/archival_objects/1257871"
+            id="ref37"
+            level="file">
             <did>
                <unittitle>TMS, The Argive Cycle. Translation</unittitle>
             </did>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/1257872"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>I. Euripedes. <emph render="italic">Iphigenia at Aulis</emph>
                   </unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143194 /locations/9"
                              containerid="39002042284761"
+                             encodinganalog="archive letter"
                              id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref38_c2" localtype="folder" parent="aspace_ref38_c1">20</container>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/1257873"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>II. Aeschylus. <emph render="italic">Agamemnon</emph>
                   </unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143194 /locations/9"
                              containerid="39002042284761"
+                             encodinganalog="archive letter"
                              id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref39_c2" localtype="folder" parent="aspace_ref39_c1">20</container>
                </did>
             </c>
-            <c id="ref40" level="file">
+            <c altrender="/repositories/12/archival_objects/1257874"
+               id="ref40"
+               level="file">
                <did>
                   <unittitle>III. -- --. <emph render="italic">The Libation Bearers</emph>
                   </unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143194 /locations/9"
                              containerid="39002042284761"
+                             encodinganalog="archive letter"
                              id="aspace_ref40_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref40_c2" localtype="folder" parent="aspace_ref40_c1">20</container>
                </did>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/1257875"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>IV. Aeschylus. <emph render="italic">The Eumenides</emph>
                   </unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143194 /locations/9"
                              containerid="39002042284761"
+                             encodinganalog="archive letter"
                              id="aspace_ref41_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                   <container id="aspace_ref41_c2" localtype="folder" parent="aspace_ref41_c1">21</container>
                </did>
             </c>
-            <c id="ref42" level="file">
+            <c altrender="/repositories/12/archival_objects/1257876"
+               id="ref42"
+               level="file">
                <did>
                   <unittitle>V. Euripedes. <emph render="italic">Iphigenia among the Taurians</emph>
                   </unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143194 /locations/9"
                              containerid="39002042284761"
+                             encodinganalog="archive letter"
                              id="aspace_ref42_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -507,11 +621,14 @@
                </did>
             </c>
          </c>
-         <c id="ref43" level="file">
+         <c altrender="/repositories/12/archival_objects/1257877"
+            id="ref43"
+            level="file">
             <did>
                <unittitle>TMS (carbon), Aeschylus. <emph render="italic">Prometheus bound</emph>. Translation. 33 leaves, bound, with dedication: To Spencer Whedon. Signed: Clarence W. Mendell.</unittitle>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/143194 /locations/9"
                           containerid="39002042284761"
+                          encodinganalog="archive letter"
                           id="aspace_ref43_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>

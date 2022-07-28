@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0551">mssa.ms.0551</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0551">mssa.ms.0551</recordid>
+      <otherrecordid localtype="BIB">614210</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Henry White Papers
@@ -32,6 +34,11 @@
             <date>June 1980</date>
             <num>MS 551</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-20T09:40:46+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:23:54+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday August 20, 2020 at 09:40</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:23</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3098" level="collection">
       <did>
          <unittitle>Henry White papers</unittitle>
          <unitid>MS 551</unitid>
@@ -83,38 +93,37 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(16 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1745-1886">
+         <unitdatestructured altrender="1745-1886" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1745">1745</fromdate>
                <todate standarddate="1886">1886</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_3896651dc54a78b212e69e43dd9089c7">Chiefly correspondence and legal papers of the law firm founded in New Haven by Henry White's father, Dyer White, in 1785. Henry White joined the firm in 1828. Records of 113 individuals, firms, and estates whose business the firm handled make up the business section of the papers. Also included are a small amount of Dyer White's family correspondence (1784-1836) and college lecture notes, account books related to church activities (1822-1837), and other miscellaneous papers of Henry White.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n92054775"
                       rules="aacr"
                       source="naf">
-               <part>White, Henry, 1803-1880</part>
+               <part localtype="agent_person">White, Henry, 1803-1880</part>
             </persname>
          </origination>
-    
       </did>
       <accessrestrict id="aspace_d19ba2a7f1d744ca719d1bd32623fec5">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_1d851640f59522ae6e4192e389b96330">
          <head>Preferred Citation</head>
-         <p>Henry White Papers (MS 551). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Henry White Papers (MS 551). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <acqinfo id="aspace_2ccb22d76c212b06641e45a2391b01cb">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Roger S. White, the White law office, and Mr. Sanborn, 1913-1925.</p>  
+         <p>Gift of Roger S. White, the White law office, and Mr. Sanborn, 1913-1925.</p>
       </acqinfo>
       <scopecontent id="aspace_db61d0ce275e1d1ca8ff960601d8f296">
          <head>Scope and Contents</head>
          <p>The Henry White Papers, 1745-1886, consist of 6.5 linear feet of business, legal, and personal papers from the offices of Henry White, lawyer of New Haven. This firm, founded in 1785 by his father, Judge Dyer White (1762-1841), became White Brothers in 1880, when Henry White died, leaving the business to his sons. The papers are mainly those of individuals, firms, and estates whose business the firm handled. Also included are some papers of Dyer White as New Haven officeholder, some personal letters, and several lectures delivered by Henry White at Yale College and before the Mechanics' Society and the Young Men's Institute.</p>
-         <p>The Henry White Papers came to the Library from Roger S. White, from the White law offices, and from a Mr. Sanborn between 1913 and 1925.</p>  
+         <p>The Henry White Papers came to the Library from Roger S. White, from the White law offices, and from a Mr. Sanborn between 1913 and 1925.</p>
       </scopecontent>
       <bioghist id="aspace_a77404c42254fefe0d3dd86f6ae222c2">
          <head>Biographical / Historical</head>
@@ -135,59 +144,65 @@ his father.</p>
             <title render="italic">
                <part>Obituary Record of Graduates of Yale University, 1880-1890.</part>
             </title>
-         </p>  
+         </p>
       </bioghist>
       <userestrict id="aspace_05a38d01aec9bb3734aaed6d595dd4c6">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075119"
                   source="lcsh">
-            <part>Law</part>
+            <part localtype="topical">Law</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85091315"
                    source="lcsh">
-            <part>New Haven (Conn.) -- History</part>
+            <part localtype="geographic">New Haven (Conn.)</part>
+            <part localtype="topical">History</part>
          </geogname>
          <geogname source="local">
-            <part>New Haven (Conn.) -- Religion</part>
+            <part localtype="geographic">New Haven (Conn.)</part>
+            <part localtype="topical">Religion</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027483" source="aat">
-            <part>Account books</part>
+            <part localtype="genre_form">Account books</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075351"
                   source="lcsh">
-            <part>Lawyers</part>
+            <part localtype="topical">Lawyers</part>
          </subject>
          <persname identifier="http://id.loc.gov/authorities/names/n2009162391"
                    rules="aacr"
                    source="naf">
-            <part>White, Dyer, 1762-1841</part>
+            <part localtype="agent_person">White, Dyer, 1762-1841</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n92054775"
                    rules="aacr"
                    source="naf">
-            <part>White, Henry, 1803-1880</part>
+            <part localtype="agent_person">White, Henry, 1803-1880</part>
          </persname>
          <persname source="local">
-            <part>White, Sally</part>
+            <part localtype="agent_person">White, Sally</part>
          </persname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85146475"
                   rules="aacr"
                   source="lcsh">
-            <part>White family</part>
+            <part localtype="agent_family">White family</part>
          </famname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="series">
+         <c altrender="/repositories/12/archival_objects/1189044"
+            id="ref10"
+            level="series">
             <did>
                <unittitle>Inventory</unittitle>
                <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
@@ -195,2191 +210,2635 @@ his father.</p>
                   <unittype>Linear Feet</unittype>
                </physdescstructured>
                <physdesc localtype="container_summary">16 boxes</physdesc>
-               <unitdatestructured unitdatetype="inclusive" altrender="1745-1886">
+               <unitdatestructured altrender="1745-1886" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1745">1745</fromdate>
                      <todate standarddate="1886">1886</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1189045"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Correspondence and other papers relating to legal practice</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1799-1880">
+                  <unitdatestructured altrender="1799-1880" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1799">1799</fromdate>
                         <todate standarddate="1880">1880</todate>
                      </daterange>
                   </unitdatestructured>
                </did>
-               <c id="ref13" level="file">
+               <c altrender="/repositories/12/archival_objects/1189046"
+                  id="ref13"
+                  level="file">
                   <did>
                      <unittitle>Atwater - Bostwick</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132488 /locations/9"
                                 containerid="39002042262890"
+                                encodinganalog="archive legal"
                                 id="aspace_ref13_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                   </did>
-                  <c id="ref14" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189047"
+                     id="ref14"
+                     level="file">
                      <did>
                         <unittitle>Atwater, Jeremiah</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1853-1871">
+                        <unitdatestructured altrender="1853-1871" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1853">1853</fromdate>
                               <todate standarddate="1871">1871</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132488 /locations/9"
                                    containerid="39002042262890"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref14_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                      </did>
                   </c>
-                  <c id="ref15" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189048"
+                     id="ref15"
+                     level="file">
                      <did>
                         <unittitle>Atwood, Charles</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1839-1840">
+                        <unitdatestructured altrender="1839-1840" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1839">1839</fromdate>
                               <todate standarddate="1840">1840</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132488 /locations/9"
                                    containerid="39002042262890"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref15_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                      </did>
                   </c>
-                  <c id="ref16" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189049"
+                     id="ref16"
+                     level="file">
                      <did>
                         <unittitle>Augur, Hezekiah</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1834-1856">
+                        <unitdatestructured altrender="1834-1856" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1834">1834</fromdate>
                               <todate standarddate="1856">1856</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132488 /locations/9"
                                    containerid="39002042262890"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref16_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                      </did>
                   </c>
-                  <c id="ref17" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189050"
+                     id="ref17"
+                     level="file">
                      <did>
                         <unittitle>Augustus, Scipio</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1817-1854">
+                        <unitdatestructured altrender="1817-1854" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1817">1817</fromdate>
                               <todate standarddate="1854">1854</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132488 /locations/9"
                                    containerid="39002042262890"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref17_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                      </did>
                   </c>
-                  <c id="ref18" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189051"
+                     id="ref18"
+                     level="file">
                      <did>
                         <unittitle>Bacon, Asa</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1847-1874">
+                        <unitdatestructured altrender="1847-1874" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1847">1847</fromdate>
                               <todate standarddate="1874">1874</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132488 /locations/9"
                                    containerid="39002042262890"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref18_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                      </did>
                   </c>
-                  <c id="ref19" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189052"
+                     id="ref19"
+                     level="file">
                      <did>
                         <unittitle>Bacon, Frederick A.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1860-1869">
+                        <unitdatestructured altrender="1860-1869" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1860">1860</fromdate>
                               <todate standarddate="1869">1869</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132488 /locations/9"
                                    containerid="39002042262890"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref19_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                      </did>
                   </c>
-                  <c id="ref20" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189053"
+                     id="ref20"
+                     level="file">
                      <did>
                         <unittitle>Baldwin, Martha N.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1861-1874">
+                        <unitdatestructured altrender="1861-1874" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1861">1861</fromdate>
                               <todate standarddate="1874">1874</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132488 /locations/9"
                                    containerid="39002042262890"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref20_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                      </did>
                   </c>
-                  <c id="ref21" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189054"
+                     id="ref21"
+                     level="file">
                      <did>
                         <unittitle>Barber, George C.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832-">
+                        <unitdatestructured altrender="1832-" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132488 /locations/9"
                                    containerid="39002042262890"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref21_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                      </did>
                   </c>
-                  <c id="ref22" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189055"
+                     id="ref22"
+                     level="file">
                      <did>
                         <unittitle>Barker, Charles S.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1863-1865">
+                        <unitdatestructured altrender="1863-1865" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1863">1863</fromdate>
                               <todate standarddate="1865">1865</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132488 /locations/9"
                                    containerid="39002042262890"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref22_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                      </did>
                   </c>
-                  <c id="ref23" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189056"
+                     id="ref23"
+                     level="file">
                      <did>
                         <unittitle>Bassett, John G.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1833-1867">
+                        <unitdatestructured altrender="1833-1867" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1833">1833</fromdate>
                               <todate standarddate="1867">1867</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132488 /locations/9"
                                    containerid="39002042262890"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref23_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                      </did>
                   </c>
-                  <c id="ref24" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189057"
+                     id="ref24"
+                     level="file">
                      <did>
                         <unittitle>Beers, Timothy P.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1858-1864">
+                        <unitdatestructured altrender="1858-1864" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1858">1858</fromdate>
                               <todate standarddate="1864">1864</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132488 /locations/9"
                                    containerid="39002042262890"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref24_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                      </did>
                   </c>
-                  <c id="ref25" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189058"
+                     id="ref25"
+                     level="file">
                      <did>
                         <unittitle>Benson, Wm. E. &amp; Jennie</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1868-1873">
+                        <unitdatestructured altrender="1868-1873" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1868">1868</fromdate>
                               <todate standarddate="1873">1873</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132488 /locations/9"
                                    containerid="39002042262890"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref25_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                      </did>
                   </c>
-                  <c id="ref26" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189059"
+                     id="ref26"
+                     level="file">
                      <did>
                         <unittitle>Bostwick, Wm.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1839-1868">
+                        <unitdatestructured altrender="1839-1868" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1839">1839</fromdate>
                               <todate standarddate="1868">1868</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132488 /locations/9"
                                    containerid="39002042262890"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref26_c1"
                                    label="Mixed Materials"
                                    localtype="box">1</container>
                      </did>
                   </c>
                </c>
-               <c id="ref27" level="file">
+               <c altrender="/repositories/12/archival_objects/1189060"
+                  id="ref27"
+                  level="file">
                   <did>
                      <unittitle>Bostwick (cont'd) - Collins</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132489 /locations/9"
                                 containerid="39002042262908"
+                                encodinganalog="archive legal"
                                 id="aspace_ref27_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                   </did>
-                  <c id="ref28" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189061"
+                     id="ref28"
+                     level="file">
                      <did>
                         <unittitle>Bostwick, Wm.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1839-1868">
+                        <unitdatestructured altrender="1839-1868" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1839">1839</fromdate>
                               <todate standarddate="1868">1868</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132489 /locations/9"
                                    containerid="39002042262908"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref28_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
                      </did>
                   </c>
-                  <c id="ref29" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189062"
+                     id="ref29"
+                     level="file">
                      <did>
                         <unittitle>Bradley, Abraham</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1835-1845">
+                        <unitdatestructured altrender="1835-1845" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1835">1835</fromdate>
                               <todate standarddate="1845">1845</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132489 /locations/9"
                                    containerid="39002042262908"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref29_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
                      </did>
                   </c>
-                  <c id="ref30" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189063"
+                     id="ref30"
+                     level="file">
                      <did>
                         <unittitle>Bradley, John</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1827-1868">
+                        <unitdatestructured altrender="1827-1868" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1827">1827</fromdate>
                               <todate standarddate="1868">1868</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132489 /locations/9"
                                    containerid="39002042262908"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref30_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
                      </did>
                   </c>
-                  <c id="ref31" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189064"
+                     id="ref31"
+                     level="file">
                      <did>
                         <unittitle>Brown, Mercy</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1802-1846">
+                        <unitdatestructured altrender="1802-1846" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1802">1802</fromdate>
                               <todate standarddate="1846">1846</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132489 /locations/9"
                                    containerid="39002042262908"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref31_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
                      </did>
                   </c>
-                  <c id="ref32" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189065"
+                     id="ref32"
+                     level="file">
                      <did>
                         <unittitle>Bulkly, Henry D.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1863">
+                        <unitdatestructured altrender="1863" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1863">1863</fromdate>
                               <todate standarddate="1863">1863</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132489 /locations/9"
                                    containerid="39002042262908"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref32_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
                      </did>
                   </c>
-                  <c id="ref33" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189066"
+                     id="ref33"
+                     level="file">
                      <did>
                         <unittitle>Burrows, Silas E. &amp; John R.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1860-1873">
+                        <unitdatestructured altrender="1860-1873" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1860">1860</fromdate>
                               <todate standarddate="1873">1873</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132489 /locations/9"
                                    containerid="39002042262908"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref33_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
                      </did>
                   </c>
-                  <c id="ref34" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189067"
+                     id="ref34"
+                     level="file">
                      <did>
                         <unittitle>Butler, Sarah V. H.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1854-1880">
+                        <unitdatestructured altrender="1854-1880" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1854">1854</fromdate>
                               <todate standarddate="1880">1880</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132489 /locations/9"
                                    containerid="39002042262908"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref34_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
                      </did>
                   </c>
-                  <c id="ref35" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189068"
+                     id="ref35"
+                     level="file">
                      <did>
                         <unittitle>Collins, David C. &amp; Clarissa E.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1841-1879">
+                        <unitdatestructured altrender="1841-1879" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1841">1841</fromdate>
                               <todate standarddate="1879">1879</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132489 /locations/9"
                                    containerid="39002042262908"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref35_c1"
                                    label="Mixed Materials"
                                    localtype="box">2</container>
                      </did>
                   </c>
                </c>
-               <c id="ref36" level="file">
+               <c altrender="/repositories/12/archival_objects/1189069"
+                  id="ref36"
+                  level="file">
                   <did>
                      <unittitle>Cooke - Dexter</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132490 /locations/9"
                                 containerid="39002042262916"
+                                encodinganalog="archive legal"
                                 id="aspace_ref36_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
-                  <c id="ref37" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189070"
+                     id="ref37"
+                     level="file">
                      <did>
                         <unittitle>Cooke, John</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1825-1879">
+                        <unitdatestructured altrender="1825-1879" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1825">1825</fromdate>
                               <todate standarddate="1879">1879</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132490 /locations/9"
                                    containerid="39002042262916"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref37_c1"
                                    label="Mixed Materials"
                                    localtype="box">3</container>
                      </did>
                   </c>
-                  <c id="ref38" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189071"
+                     id="ref38"
+                     level="file">
                      <did>
                         <unittitle>Daggett Family</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1787-1876">
+                        <unitdatestructured altrender="1787-1876" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1787">1787</fromdate>
                               <todate standarddate="1876">1876</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132490 /locations/9"
                                    containerid="39002042262916"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref38_c1"
                                    label="Mixed Materials"
                                    localtype="box">3</container>
                      </did>
                   </c>
-                  <c id="ref39" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189072"
+                     id="ref39"
+                     level="file">
                      <did>
                         <unittitle>Daggett, Oliver E.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1850-1867">
+                        <unitdatestructured altrender="1850-1867" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1850">1850</fromdate>
                               <todate standarddate="1867">1867</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132490 /locations/9"
                                    containerid="39002042262916"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref39_c1"
                                    label="Mixed Materials"
                                    localtype="box">3</container>
                      </did>
                   </c>
-                  <c id="ref40" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189073"
+                     id="ref40"
+                     level="file">
                      <did>
                         <unittitle>Darling Family</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1796-1872">
+                        <unitdatestructured altrender="1796-1872" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1796">1796</fromdate>
                               <todate standarddate="1872">1872</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132490 /locations/9"
                                    containerid="39002042262916"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref40_c1"
                                    label="Mixed Materials"
                                    localtype="box">3</container>
                      </did>
                   </c>
-                  <c id="ref41" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189074"
+                     id="ref41"
+                     level="file">
                      <did>
                         <unittitle>Dexter, Normand</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1826-1837">
+                        <unitdatestructured altrender="1826-1837" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1826">1826</fromdate>
                               <todate standarddate="1837">1837</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132490 /locations/9"
                                    containerid="39002042262916"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref41_c1"
                                    label="Mixed Materials"
                                    localtype="box">3</container>
                      </did>
                   </c>
                </c>
-               <c id="ref42" level="file">
+               <c altrender="/repositories/12/archival_objects/1189075"
+                  id="ref42"
+                  level="file">
                   <did>
                      <unittitle>Dickerman - Hallock</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                 containerid="39002042262924"
+                                encodinganalog="archive legal"
                                 id="aspace_ref42_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                   </did>
-                  <c id="ref43" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189076"
+                     id="ref43"
+                     level="file">
                      <did>
                         <unittitle>Dickerman, James P.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1855-1879">
+                        <unitdatestructured altrender="1855-1879" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1855">1855</fromdate>
                               <todate standarddate="1879">1879</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                    containerid="39002042262924"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref43_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref44" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189077"
+                     id="ref44"
+                     level="file">
                      <did>
                         <unittitle>Dutcher, L. L.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1848-1859">
+                        <unitdatestructured altrender="1848-1859" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1848">1848</fromdate>
                               <todate standarddate="1859">1859</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                    containerid="39002042262924"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref44_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref45" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189078"
+                     id="ref45"
+                     level="file">
                      <did>
                         <unittitle>Dwight, Timothy</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1826-1829">
+                        <unitdatestructured altrender="1826-1829" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1826">1826</fromdate>
                               <todate standarddate="1829">1829</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                    containerid="39002042262924"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref45_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref46" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189079"
+                     id="ref46"
+                     level="file">
                      <did>
                         <unittitle>Eagle Bank</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1826-1835">
+                        <unitdatestructured altrender="1826-1835" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1826">1826</fromdate>
                               <todate standarddate="1835">1835</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                    containerid="39002042262924"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref46_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref47" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189080"
+                     id="ref47"
+                     level="file">
                      <did>
                         <unittitle>Elliot, Wm. H.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1861-1870">
+                        <unitdatestructured altrender="1861-1870" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1861">1861</fromdate>
                               <todate standarddate="1870">1870</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                    containerid="39002042262924"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref47_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref48" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189081"
+                     id="ref48"
+                     level="file">
                      <did>
                         <unittitle>Elliot, Wm. H., Jr.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1853">
+                        <unitdatestructured altrender="1853" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1853">1853</fromdate>
                               <todate standarddate="1853">1853</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                    containerid="39002042262924"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref48_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref49" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189082"
+                     id="ref49"
+                     level="file">
                      <did>
                         <unittitle>Ellsworth, Henry L.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1859-1870">
+                        <unitdatestructured altrender="1859-1870" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1859">1859</fromdate>
                               <todate standarddate="1870">1870</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                    containerid="39002042262924"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref49_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref50" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189083"
+                     id="ref50"
+                     level="file">
                      <did>
                         <unittitle>Forbes, Wm. J.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1839-1866">
+                        <unitdatestructured altrender="1839-1866" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1839">1839</fromdate>
                               <todate standarddate="1866">1866</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                    containerid="39002042262924"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref50_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref51" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189084"
+                     id="ref51"
+                     level="file">
                      <did>
                         <unittitle>Goodrich, James W.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1850-1871">
+                        <unitdatestructured altrender="1850-1871" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1850">1850</fromdate>
                               <todate standarddate="1871">1871</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                    containerid="39002042262924"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref51_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref52" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189085"
+                     id="ref52"
+                     level="file">
                      <did>
                         <unittitle>Goodyear, Nelson</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1851">
+                        <unitdatestructured altrender="1851" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1851">1851</fromdate>
                               <todate standarddate="1851">1851</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                    containerid="39002042262924"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref52_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref53" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189086"
+                     id="ref53"
+                     level="file">
                      <did>
                         <unittitle>Greene, David</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1822-1843">
+                        <unitdatestructured altrender="1822-1843" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1822">1822</fromdate>
                               <todate standarddate="1843">1843</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                    containerid="39002042262924"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref53_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref54" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189087"
+                     id="ref54"
+                     level="file">
                      <did>
                         <unittitle>Greene, Mary A.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1864-1875">
+                        <unitdatestructured altrender="1864-1875" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1864">1864</fromdate>
                               <todate standarddate="1875">1875</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                    containerid="39002042262924"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref54_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref55" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189088"
+                     id="ref55"
+                     level="file">
                      <did>
                         <unittitle>Griswold, Leverett</unittitle>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                    containerid="39002042262924"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref55_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref56" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189089"
+                     id="ref56"
+                     level="file">
                      <did>
                         <unittitle>Hallock, Gerard</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1837-1864">
+                        <unitdatestructured altrender="1837-1864" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1837">1837</fromdate>
                               <todate standarddate="1864">1864</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                    containerid="39002042262924"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref56_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref57" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189090"
+                     id="ref57"
+                     level="file">
                      <did>
                         <unittitle>Hallock, Jeremiah H.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1848-1852">
+                        <unitdatestructured altrender="1848-1852" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1848">1848</fromdate>
                               <todate standarddate="1852">1852</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                    containerid="39002042262924"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref57_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
-                  <c id="ref58" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189091"
+                     id="ref58"
+                     level="file">
                      <did>
                         <unittitle>Hallock, Wm. A.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1835-1844">
+                        <unitdatestructured altrender="1835-1844" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1835">1835</fromdate>
                               <todate standarddate="1844">1844</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132491 /locations/9"
                                    containerid="39002042262924"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref58_c1"
                                    label="Mixed Materials"
                                    localtype="box">4</container>
                      </did>
                   </c>
                </c>
-               <c id="ref59" level="file">
+               <c altrender="/repositories/12/archival_objects/1189092"
+                  id="ref59"
+                  level="file">
                   <did>
                      <unittitle>Herrick - Hughes</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132492 /locations/9"
                                 containerid="39002042262932"
+                                encodinganalog="archive legal"
                                 id="aspace_ref59_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                   </did>
-                  <c id="ref60" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189093"
+                     id="ref60"
+                     level="file">
                      <did>
                         <unittitle>Herrick, Eunice T.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1866-1868">
+                        <unitdatestructured altrender="1866-1868" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1866">1866</fromdate>
                               <todate standarddate="1868">1868</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132492 /locations/9"
                                    containerid="39002042262932"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref60_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
-                  <c id="ref61" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189094"
+                     id="ref61"
+                     level="file">
                      <did>
                         <unittitle>Hillhouse, Mary L.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1845-1878">
+                        <unitdatestructured altrender="1845-1878" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1845">1845</fromdate>
                               <todate standarddate="1878">1878</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132492 /locations/9"
                                    containerid="39002042262932"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref61_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
-                  <c id="ref62" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189095"
+                     id="ref62"
+                     level="file">
                      <did>
                         <unittitle>Hitchcock, Samuel J.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1835-1863">
+                        <unitdatestructured altrender="1835-1863" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1835">1835</fromdate>
                               <todate standarddate="1863">1863</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132492 /locations/9"
                                    containerid="39002042262932"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref62_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
-                  <c id="ref63" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189096"
+                     id="ref63"
+                     level="file">
                      <did>
                         <unittitle>Holcombe, Hiram</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1829-1844">
+                        <unitdatestructured altrender="1829-1844" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1829">1829</fromdate>
                               <todate standarddate="1844">1844</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132492 /locations/9"
                                    containerid="39002042262932"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref63_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
-                  <c id="ref64" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189097"
+                     id="ref64"
+                     level="file">
                      <did>
                         <unittitle>Hoppin, J. M.</unittitle>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132492 /locations/9"
                                    containerid="39002042262932"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref64_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
-                  <c id="ref65" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189098"
+                     id="ref65"
+                     level="file">
                      <did>
                         <unittitle>Horton, Mary D.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1859-1878">
+                        <unitdatestructured altrender="1859-1878" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1859">1859</fromdate>
                               <todate standarddate="1878">1878</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132492 /locations/9"
                                    containerid="39002042262932"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref65_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
-                  <c id="ref66" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189099"
+                     id="ref66"
+                     level="file">
                      <did>
                         <unittitle>Hotchkiss, Samuel R.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1836-1881">
+                        <unitdatestructured altrender="1836-1881" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1836">1836</fromdate>
                               <todate standarddate="1881">1881</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132492 /locations/9"
                                    containerid="39002042262932"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref66_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
-                  <c id="ref67" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189100"
+                     id="ref67"
+                     level="file">
                      <did>
                         <unittitle>Howe, Hezekiah</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1799-1851">
+                        <unitdatestructured altrender="1799-1851" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1799">1799</fromdate>
                               <todate standarddate="1851">1851</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132492 /locations/9"
                                    containerid="39002042262932"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref67_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
-                  <c id="ref68" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189101"
+                     id="ref68"
+                     level="file">
                      <did>
                         <unittitle>Howe Street Church</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1858">
+                        <unitdatestructured altrender="1858" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1858">1858</fromdate>
                               <todate standarddate="1858">1858</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132492 /locations/9"
                                    containerid="39002042262932"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref68_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
-                  <c id="ref69" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189102"
+                     id="ref69"
+                     level="file">
                      <did>
                         <unittitle>Hoyt, W. W.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1852-1859">
+                        <unitdatestructured altrender="1852-1859" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1852">1852</fromdate>
                               <todate standarddate="1859">1859</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132492 /locations/9"
                                    containerid="39002042262932"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref69_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
-                  <c id="ref70" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189103"
+                     id="ref70"
+                     level="file">
                      <did>
                         <unittitle>Hubbard, James M.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1861-1878">
+                        <unitdatestructured altrender="1861-1878" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1861">1861</fromdate>
                               <todate standarddate="1878">1878</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132492 /locations/9"
                                    containerid="39002042262932"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref70_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
-                  <c id="ref71" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189104"
+                     id="ref71"
+                     level="file">
                      <did>
                         <unittitle>Hubbell, H. W. &amp; Jane M.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1848-1862">
+                        <unitdatestructured altrender="1848-1862" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1848">1848</fromdate>
                               <todate standarddate="1862">1862</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132492 /locations/9"
                                    containerid="39002042262932"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref71_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
-                  <c id="ref72" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189105"
+                     id="ref72"
+                     level="file">
                      <did>
                         <unittitle>Hughes, Samuel, Estate</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1845-1875">
+                        <unitdatestructured altrender="1845-1875" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1845">1845</fromdate>
                               <todate standarddate="1875">1875</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132492 /locations/9"
                                    containerid="39002042262932"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref72_c1"
                                    label="Mixed Materials"
                                    localtype="box">5</container>
                      </did>
                   </c>
                </c>
-               <c id="ref73" level="file">
+               <c altrender="/repositories/12/archival_objects/1189106"
+                  id="ref73"
+                  level="file">
                   <did>
                      <unittitle>Hughes (cont'd) - Leffingwell</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132493 /locations/9"
                                 containerid="39002042262940"
+                                encodinganalog="archive legal"
                                 id="aspace_ref73_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                   </did>
-                  <c id="ref74" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189107"
+                     id="ref74"
+                     level="file">
                      <did>
                         <unittitle>Hughes, Samuel, Estate</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1845-1875">
+                        <unitdatestructured altrender="1845-1875" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1845">1845</fromdate>
                               <todate standarddate="1875">1875</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132493 /locations/9"
                                    containerid="39002042262940"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref74_c1"
                                    label="Mixed Materials"
                                    localtype="box">6</container>
                      </did>
                   </c>
-                  <c id="ref75" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189108"
+                     id="ref75"
+                     level="file">
                      <did>
                         <unittitle>Ives, Eli</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1839-1864">
+                        <unitdatestructured altrender="1839-1864" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1839">1839</fromdate>
                               <todate standarddate="1864">1864</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132493 /locations/9"
                                    containerid="39002042262940"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref75_c1"
                                    label="Mixed Materials"
                                    localtype="box">6</container>
                      </did>
                   </c>
-                  <c id="ref76" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189109"
+                     id="ref76"
+                     level="file">
                      <did>
                         <unittitle>Jenkins, Joseph and Wealthy Ann</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1839-1862">
+                        <unitdatestructured altrender="1839-1862" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1839">1839</fromdate>
                               <todate standarddate="1862">1862</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132493 /locations/9"
                                    containerid="39002042262940"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref76_c1"
                                    label="Mixed Materials"
                                    localtype="box">6</container>
                      </did>
                   </c>
-                  <c id="ref77" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189110"
+                     id="ref77"
+                     level="file">
                      <did>
                         <unittitle>Jewett, Stephen</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1865-1879">
+                        <unitdatestructured altrender="1865-1879" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1865">1865</fromdate>
                               <todate standarddate="1879">1879</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132493 /locations/9"
                                    containerid="39002042262940"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref77_c1"
                                    label="Mixed Materials"
                                    localtype="box">6</container>
                      </did>
                   </c>
-                  <c id="ref78" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189111"
+                     id="ref78"
+                     level="file">
                      <did>
                         <unittitle>Jones, Betsey</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1849-1873">
+                        <unitdatestructured altrender="1849-1873" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1849">1849</fromdate>
                               <todate standarddate="1873">1873</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132493 /locations/9"
                                    containerid="39002042262940"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref78_c1"
                                    label="Mixed Materials"
                                    localtype="box">6</container>
                      </did>
                   </c>
-                  <c id="ref79" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189112"
+                     id="ref79"
+                     level="file">
                      <did>
                         <unittitle>Kansas Relief Com.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1861">
+                        <unitdatestructured altrender="1861" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1861">1861</fromdate>
                               <todate standarddate="1861">1861</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132493 /locations/9"
                                    containerid="39002042262940"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref79_c1"
                                    label="Mixed Materials"
                                    localtype="box">6</container>
                      </did>
                   </c>
-                  <c id="ref80" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189113"
+                     id="ref80"
+                     level="file">
                      <did>
                         <unittitle>Ketcham, Lucy D.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1858-1879">
+                        <unitdatestructured altrender="1858-1879" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1858">1858</fromdate>
                               <todate standarddate="1879">1879</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132493 /locations/9"
                                    containerid="39002042262940"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref80_c1"
                                    label="Mixed Materials"
                                    localtype="box">6</container>
                      </did>
                   </c>
-                  <c id="ref81" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189114"
+                     id="ref81"
+                     level="file">
                      <did>
                         <unittitle>Leffingwell Family</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1797-1875">
+                        <unitdatestructured altrender="1797-1875" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1797">1797</fromdate>
                               <todate standarddate="1875">1875</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132493 /locations/9"
                                    containerid="39002042262940"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref81_c1"
                                    label="Mixed Materials"
                                    localtype="box">6</container>
                      </did>
                   </c>
                </c>
-               <c id="ref82" level="file">
+               <c altrender="/repositories/12/archival_objects/1189115"
+                  id="ref82"
+                  level="file">
                   <did>
                      <unittitle>Lockwood - Percival</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132494 /locations/9"
                                 containerid="39002042262957"
+                                encodinganalog="archive legal"
                                 id="aspace_ref82_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                   </did>
-                  <c id="ref83" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189116"
+                     id="ref83"
+                     level="file">
                      <did>
                         <unittitle>Lockwood, Le Grand</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1857-1870">
+                        <unitdatestructured altrender="1857-1870" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1857">1857</fromdate>
                               <todate standarddate="1870">1870</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132494 /locations/9"
                                    containerid="39002042262957"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref83_c1"
                                    label="Mixed Materials"
                                    localtype="box">7</container>
                      </did>
                   </c>
-                  <c id="ref84" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189117"
+                     id="ref84"
+                     level="file">
                      <did>
                         <unittitle>Merriman, Betsey</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1822-1860">
+                        <unitdatestructured altrender="1822-1860" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1822">1822</fromdate>
                               <todate standarddate="1860">1860</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132494 /locations/9"
                                    containerid="39002042262957"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref84_c1"
                                    label="Mixed Materials"
                                    localtype="box">7</container>
                      </did>
                   </c>
-                  <c id="ref85" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189118"
+                     id="ref85"
+                     level="file">
                      <did>
                         <unittitle>Mix, Silas</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1849-1853">
+                        <unitdatestructured altrender="1849-1853" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1849">1849</fromdate>
                               <todate standarddate="1853">1853</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132494 /locations/9"
                                    containerid="39002042262957"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref85_c1"
                                    label="Mixed Materials"
                                    localtype="box">7</container>
                      </did>
                   </c>
-                  <c id="ref86" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189119"
+                     id="ref86"
+                     level="file">
                      <did>
                         <unittitle>Mix, William</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1866-1869">
+                        <unitdatestructured altrender="1866-1869" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1866">1866</fromdate>
                               <todate standarddate="1869">1869</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132494 /locations/9"
                                    containerid="39002042262957"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref86_c1"
                                    label="Mixed Materials"
                                    localtype="box">7</container>
                      </did>
                   </c>
-                  <c id="ref87" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189120"
+                     id="ref87"
+                     level="file">
                      <did>
                         <unittitle>New Englander</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1847-1852">
+                        <unitdatestructured altrender="1847-1852" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1847">1847</fromdate>
                               <todate standarddate="1852">1852</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132494 /locations/9"
                                    containerid="39002042262957"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref87_c1"
                                    label="Mixed Materials"
                                    localtype="box">7</container>
                      </did>
                   </c>
-                  <c id="ref88" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189121"
+                     id="ref88"
+                     level="file">
                      <did>
                         <unittitle>New Haven Almshouse</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1852-1874">
+                        <unitdatestructured altrender="1852-1874" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1852">1852</fromdate>
                               <todate standarddate="1874">1874</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132494 /locations/9"
                                    containerid="39002042262957"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref88_c1"
                                    label="Mixed Materials"
                                    localtype="box">7</container>
                      </did>
                   </c>
-                  <c id="ref89" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189122"
+                     id="ref89"
+                     level="file">
                      <did>
                         <unittitle>New Haven Book Club</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1848-1874">
+                        <unitdatestructured altrender="1848-1874" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1848">1848</fromdate>
                               <todate standarddate="1874">1874</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132494 /locations/9"
                                    containerid="39002042262957"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref89_c1"
                                    label="Mixed Materials"
                                    localtype="box">7</container>
                      </did>
                   </c>
-                  <c id="ref90" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189123"
+                     id="ref90"
+                     level="file">
                      <did>
                         <unittitle>Norton, Dudley</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1858-1860">
+                        <unitdatestructured altrender="1858-1860" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1858">1858</fromdate>
                               <todate standarddate="1860">1860</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132494 /locations/9"
                                    containerid="39002042262957"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref90_c1"
                                    label="Mixed Materials"
                                    localtype="box">7</container>
                      </did>
                   </c>
-                  <c id="ref91" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189124"
+                     id="ref91"
+                     level="file">
                      <did>
                         <unittitle>Ogden, Mary C.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1802-1844">
+                        <unitdatestructured altrender="1802-1844" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1802">1802</fromdate>
                               <todate standarddate="1844">1844</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132494 /locations/9"
                                    containerid="39002042262957"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref91_c1"
                                    label="Mixed Materials"
                                    localtype="box">7</container>
                      </did>
                   </c>
-                  <c id="ref92" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189125"
+                     id="ref92"
+                     level="file">
                      <did>
                         <unittitle>Olmstead, Henry</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1863">
+                        <unitdatestructured altrender="1863" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1863">1863</fromdate>
                               <todate standarddate="1863">1863</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132494 /locations/9"
                                    containerid="39002042262957"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref92_c1"
                                    label="Mixed Materials"
                                    localtype="box">7</container>
                      </did>
                   </c>
-                  <c id="ref93" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189126"
+                     id="ref93"
+                     level="file">
                      <did>
                         <unittitle>Paddock, Dr.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1855-1856">
+                        <unitdatestructured altrender="1855-1856" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1855">1855</fromdate>
                               <todate standarddate="1856">1856</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132494 /locations/9"
                                    containerid="39002042262957"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref93_c1"
                                    label="Mixed Materials"
                                    localtype="box">7</container>
                      </did>
                   </c>
-                  <c id="ref94" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189127"
+                     id="ref94"
+                     level="file">
                      <did>
                         <unittitle>Parsons, Samuel</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1857-1869">
+                        <unitdatestructured altrender="1857-1869" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1857">1857</fromdate>
                               <todate standarddate="1869">1869</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132494 /locations/9"
                                    containerid="39002042262957"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref94_c1"
                                    label="Mixed Materials"
                                    localtype="box">7</container>
                      </did>
                   </c>
-                  <c id="ref95" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189128"
+                     id="ref95"
+                     level="file">
                      <did>
                         <unittitle>Peck, Mary</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1859-1865">
+                        <unitdatestructured altrender="1859-1865" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1859">1859</fromdate>
                               <todate standarddate="1865">1865</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132494 /locations/9"
                                    containerid="39002042262957"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref95_c1"
                                    label="Mixed Materials"
                                    localtype="box">7</container>
                      </did>
                   </c>
-                  <c id="ref96" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189129"
+                     id="ref96"
+                     level="file">
                      <did>
                         <unittitle>Peck &amp; Stafford</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1846-1851">
+                        <unitdatestructured altrender="1846-1851" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1846">1846</fromdate>
                               <todate standarddate="1851">1851</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132494 /locations/9"
                                    containerid="39002042262957"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref96_c1"
                                    label="Mixed Materials"
                                    localtype="box">7</container>
                      </did>
                   </c>
-                  <c id="ref97" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189130"
+                     id="ref97"
+                     level="file">
                      <did>
                         <unittitle>Percival, James G.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1835-1857">
+                        <unitdatestructured altrender="1835-1857" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1835">1835</fromdate>
                               <todate standarddate="1857">1857</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132494 /locations/9"
                                    containerid="39002042262957"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref97_c1"
                                    label="Mixed Materials"
                                    localtype="box">7</container>
                      </did>
                   </c>
                </c>
-               <c id="ref98" level="file">
+               <c altrender="/repositories/12/archival_objects/1189131"
+                  id="ref98"
+                  level="file">
                   <did>
                      <unittitle>Phelps - Sherman</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132495 /locations/9"
                                 containerid="39002042262965"
+                                encodinganalog="archive legal"
                                 id="aspace_ref98_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                   </did>
-                  <c id="ref99" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189132"
+                     id="ref99"
+                     level="file">
                      <did>
                         <unittitle>Phelps, Anson G.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1846-1864">
+                        <unitdatestructured altrender="1846-1864" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1846">1846</fromdate>
                               <todate standarddate="1864">1864</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132495 /locations/9"
                                    containerid="39002042262965"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref99_c1"
                                    label="Mixed Materials"
                                    localtype="box">8</container>
                      </did>
                   </c>
-                  <c id="ref100" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189133"
+                     id="ref100"
+                     level="file">
                      <did>
                         <unittitle>Pomeroy, Elizabeth</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832-1859">
+                        <unitdatestructured altrender="1832-1859" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1859">1859</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132495 /locations/9"
                                    containerid="39002042262965"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref100_c1"
                                    label="Mixed Materials"
                                    localtype="box">8</container>
                      </did>
                   </c>
-                  <c id="ref101" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189134"
+                     id="ref101"
+                     level="file">
                      <did>
                         <unittitle>Ray, Anna</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1830-1833">
+                        <unitdatestructured altrender="1830-1833" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1830">1830</fromdate>
                               <todate standarddate="1833">1833</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132495 /locations/9"
                                    containerid="39002042262965"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref101_c1"
                                    label="Mixed Materials"
                                    localtype="box">8</container>
                      </did>
                   </c>
-                  <c id="ref102" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189135"
+                     id="ref102"
+                     level="file">
                      <did>
                         <unittitle>Rianhart, William E.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1848-1867">
+                        <unitdatestructured altrender="1848-1867" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1848">1848</fromdate>
                               <todate standarddate="1867">1867</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132495 /locations/9"
                                    containerid="39002042262965"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref102_c1"
                                    label="Mixed Materials"
                                    localtype="box">8</container>
                      </did>
                   </c>
-                  <c id="ref103" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189136"
+                     id="ref103"
+                     level="file">
                      <did>
                         <unittitle>Root, Joel</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1821-1853">
+                        <unitdatestructured altrender="1821-1853" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1821">1821</fromdate>
                               <todate standarddate="1853">1853</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132495 /locations/9"
                                    containerid="39002042262965"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref103_c1"
                                    label="Mixed Materials"
                                    localtype="box">8</container>
                      </did>
                   </c>
-                  <c id="ref104" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189137"
+                     id="ref104"
+                     level="file">
                      <did>
                         <unittitle>Sage, Oliver</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1832-1836">
+                        <unitdatestructured altrender="1832-1836" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1832">1832</fromdate>
                               <todate standarddate="1836">1836</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132495 /locations/9"
                                    containerid="39002042262965"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref104_c1"
                                    label="Mixed Materials"
                                    localtype="box">8</container>
                      </did>
                   </c>
-                  <c id="ref105" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189138"
+                     id="ref105"
+                     level="file">
                      <did>
                         <unittitle>Salisbury, Edward E.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1847-1874">
+                        <unitdatestructured altrender="1847-1874" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1847">1847</fromdate>
                               <todate standarddate="1874">1874</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132495 /locations/9"
                                    containerid="39002042262965"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref105_c1"
                                    label="Mixed Materials"
                                    localtype="box">8</container>
                      </did>
                   </c>
-                  <c id="ref106" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189139"
+                     id="ref106"
+                     level="file">
                      <did>
                         <unittitle>Seeley, Ebenezer</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1837-1842">
+                        <unitdatestructured altrender="1837-1842" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1837">1837</fromdate>
                               <todate standarddate="1842">1842</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132495 /locations/9"
                                    containerid="39002042262965"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref106_c1"
                                    label="Mixed Materials"
                                    localtype="box">8</container>
                      </did>
                   </c>
-                  <c id="ref107" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189140"
+                     id="ref107"
+                     level="file">
                      <did>
                         <unittitle>Sheffield, Joseph B.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1849-1855">
+                        <unitdatestructured altrender="1849-1855" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1849">1849</fromdate>
                               <todate standarddate="1855">1855</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132495 /locations/9"
                                    containerid="39002042262965"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref107_c1"
                                    label="Mixed Materials"
                                    localtype="box">8</container>
                      </did>
                   </c>
-                  <c id="ref108" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189141"
+                     id="ref108"
+                     level="file">
                      <did>
                         <unittitle>Sheffield, William</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1842-1847">
+                        <unitdatestructured altrender="1842-1847" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1842">1842</fromdate>
                               <todate standarddate="1847">1847</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132495 /locations/9"
                                    containerid="39002042262965"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref108_c1"
                                    label="Mixed Materials"
                                    localtype="box">8</container>
                      </did>
                   </c>
-                  <c id="ref109" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189142"
+                     id="ref109"
+                     level="file">
                      <did>
                         <unittitle>Sherman, Thaddeus</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1858-1878">
+                        <unitdatestructured altrender="1858-1878" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1858">1858</fromdate>
                               <todate standarddate="1878">1878</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132495 /locations/9"
                                    containerid="39002042262965"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref109_c1"
                                    label="Mixed Materials"
                                    localtype="box">8</container>
                      </did>
                   </c>
                </c>
-               <c id="ref110" level="file">
+               <c altrender="/repositories/12/archival_objects/1189143"
+                  id="ref110"
+                  level="file">
                   <did>
                      <unittitle>Skinner - Wales</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132496 /locations/9"
                                 containerid="39002042262973"
+                                encodinganalog="archive legal"
                                 id="aspace_ref110_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                   </did>
-                  <c id="ref111" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189144"
+                     id="ref111"
+                     level="file">
                      <did>
                         <unittitle>Skinner, John</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1803-1880">
+                        <unitdatestructured altrender="1803-1880" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1803">1803</fromdate>
                               <todate standarddate="1880">1880</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132496 /locations/9"
                                    containerid="39002042262973"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref111_c1"
                                    label="Mixed Materials"
                                    localtype="box">9</container>
                      </did>
                   </c>
-                  <c id="ref112" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189145"
+                     id="ref112"
+                     level="file">
                      <did>
                         <unittitle>Spencer Estates</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1839-1857">
+                        <unitdatestructured altrender="1839-1857" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1839">1839</fromdate>
                               <todate standarddate="1857">1857</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132496 /locations/9"
                                    containerid="39002042262973"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref112_c1"
                                    label="Mixed Materials"
                                    localtype="box">9</container>
                      </did>
                   </c>
-                  <c id="ref113" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189146"
+                     id="ref113"
+                     level="file">
                      <did>
                         <unittitle>Spencer, Horatio N. &amp; I. S.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1853-1857">
+                        <unitdatestructured altrender="1853-1857" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1853">1853</fromdate>
                               <todate standarddate="1857">1857</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132496 /locations/9"
                                    containerid="39002042262973"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref113_c1"
                                    label="Mixed Materials"
                                    localtype="box">9</container>
                      </did>
                   </c>
-                  <c id="ref114" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189147"
+                     id="ref114"
+                     level="file">
                      <did>
                         <unittitle>Stone, Sidney M.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1843-1853">
+                        <unitdatestructured altrender="1843-1853" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1843">1843</fromdate>
                               <todate standarddate="1853">1853</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132496 /locations/9"
                                    containerid="39002042262973"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref114_c1"
                                    label="Mixed Materials"
                                    localtype="box">9</container>
                      </did>
                   </c>
-                  <c id="ref115" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189148"
+                     id="ref115"
+                     level="file">
                      <did>
                         <unittitle>Street, Augustus R.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1867-1875">
+                        <unitdatestructured altrender="1867-1875" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1867">1867</fromdate>
                               <todate standarddate="1875">1875</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132496 /locations/9"
                                    containerid="39002042262973"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref115_c1"
                                    label="Mixed Materials"
                                    localtype="box">9</container>
                      </did>
                   </c>
-                  <c id="ref116" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189149"
+                     id="ref116"
+                     level="file">
                      <did>
                         <unittitle>Tomlinson, Charles</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1852-1873">
+                        <unitdatestructured altrender="1852-1873" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1852">1852</fromdate>
                               <todate standarddate="1873">1873</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132496 /locations/9"
                                    containerid="39002042262973"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref116_c1"
                                    label="Mixed Materials"
                                    localtype="box">9</container>
                      </did>
                   </c>
-                  <c id="ref117" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189150"
+                     id="ref117"
+                     level="file">
                      <did>
                         <unittitle>Townsend, Anna</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1848-1859">
+                        <unitdatestructured altrender="1848-1859" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1848">1848</fromdate>
                               <todate standarddate="1859">1859</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132496 /locations/9"
                                    containerid="39002042262973"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref117_c1"
                                    label="Mixed Materials"
                                    localtype="box">9</container>
                      </did>
                   </c>
-                  <c id="ref118" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189151"
+                     id="ref118"
+                     level="file">
                      <did>
                         <unittitle>Tyler, Edward R.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1848-1850">
+                        <unitdatestructured altrender="1848-1850" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1848">1848</fromdate>
                               <todate standarddate="1850">1850</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132496 /locations/9"
                                    containerid="39002042262973"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref118_c1"
                                    label="Mixed Materials"
                                    localtype="box">9</container>
                      </did>
                   </c>
-                  <c id="ref119" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189152"
+                     id="ref119"
+                     level="file">
                      <did>
                         <unittitle>Upson, Henry</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1853-1879">
+                        <unitdatestructured altrender="1853-1879" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1853">1853</fromdate>
                               <todate standarddate="1879">1879</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132496 /locations/9"
                                    containerid="39002042262973"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref119_c1"
                                    label="Mixed Materials"
                                    localtype="box">9</container>
                      </did>
                   </c>
-                  <c id="ref120" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189153"
+                     id="ref120"
+                     level="file">
                      <did>
                         <unittitle>Wadsworth, Mary</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1859-1862">
+                        <unitdatestructured altrender="1859-1862" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1859">1859</fromdate>
                               <todate standarddate="1862">1862</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132496 /locations/9"
                                    containerid="39002042262973"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref120_c1"
                                    label="Mixed Materials"
                                    localtype="box">9</container>
                      </did>
                   </c>
-                  <c id="ref121" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189154"
+                     id="ref121"
+                     level="file">
                      <did>
                         <unittitle>Wales, John H.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1818-1821">
+                        <unitdatestructured altrender="1818-1821" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1818">1818</fromdate>
                               <todate standarddate="1821">1821</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132496 /locations/9"
                                    containerid="39002042262973"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref121_c1"
                                    label="Mixed Materials"
                                    localtype="box">9</container>
                      </did>
                   </c>
                </c>
-               <c id="ref122" level="file">
+               <c altrender="/repositories/12/archival_objects/1189155"
+                  id="ref122"
+                  level="file">
                   <did>
                      <unittitle>Webster - Wetmore family</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132497 /locations/9"
                                 containerid="39002042262981"
+                                encodinganalog="archive legal"
                                 id="aspace_ref122_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                   </did>
-                  <c id="ref123" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189156"
+                     id="ref123"
+                     level="file">
                      <did>
                         <unittitle>Webster, Louisa</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1873-1876">
+                        <unitdatestructured altrender="1873-1876" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1873">1873</fromdate>
                               <todate standarddate="1876">1876</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132497 /locations/9"
                                    containerid="39002042262981"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref123_c1"
                                    label="Mixed Materials"
                                    localtype="box">10</container>
                      </did>
                   </c>
-                  <c id="ref124" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189157"
+                     id="ref124"
+                     level="file">
                      <did>
                         <unittitle>Webster, Noah</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1843-1876">
+                        <unitdatestructured altrender="1843-1876" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1843">1843</fromdate>
                               <todate standarddate="1876">1876</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132497 /locations/9"
                                    containerid="39002042262981"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref124_c1"
                                    label="Mixed Materials"
                                    localtype="box">10</container>
                      </did>
                   </c>
-                  <c id="ref125" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189158"
+                     id="ref125"
+                     level="file">
                      <did>
                         <unittitle>Western College Soc.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1852-1878">
+                        <unitdatestructured altrender="1852-1878" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1852">1852</fromdate>
                               <todate standarddate="1878">1878</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132497 /locations/9"
                                    containerid="39002042262981"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref125_c1"
                                    label="Mixed Materials"
                                    localtype="box">10</container>
                      </did>
                   </c>
-                  <c id="ref126" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189159"
+                     id="ref126"
+                     level="file">
                      <did>
                         <unittitle>Wetmore Family</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1823-1877">
+                        <unitdatestructured altrender="1823-1877" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1823">1823</fromdate>
                               <todate standarddate="1877">1877</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132497 /locations/9"
                                    containerid="39002042262981"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref126_c1"
                                    label="Mixed Materials"
                                    localtype="box">10</container>
                      </did>
                   </c>
                </c>
-               <c id="ref127" level="file">
+               <c altrender="/repositories/12/archival_objects/1189160"
+                  id="ref127"
+                  level="file">
                   <did>
                      <unittitle>White - Yale, Misc. (1745-1846)</unittitle>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132498 /locations/9"
                                 containerid="39002042262999"
+                                encodinganalog="archive legal"
                                 id="aspace_ref127_c1"
                                 label="Mixed Materials"
                                 localtype="box">11</container>
                   </did>
-                  <c id="ref128" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189161"
+                     id="ref128"
+                     level="file">
                      <did>
                         <unittitle>White, Eunice</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1830-1869">
+                        <unitdatestructured altrender="1830-1869" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1830">1830</fromdate>
                               <todate standarddate="1869">1869</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132498 /locations/9"
                                    containerid="39002042262999"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref128_c1"
                                    label="Mixed Materials"
                                    localtype="box">11</container>
                      </did>
                   </c>
-                  <c id="ref129" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189162"
+                     id="ref129"
+                     level="file">
                      <did>
                         <unittitle>Whitney, Eli</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1863-1865">
+                        <unitdatestructured altrender="1863-1865" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1863">1863</fromdate>
                               <todate standarddate="1865">1865</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132498 /locations/9"
                                    containerid="39002042262999"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref129_c1"
                                    label="Mixed Materials"
                                    localtype="box">11</container>
                      </did>
                   </c>
-                  <c id="ref130" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189163"
+                     id="ref130"
+                     level="file">
                      <did>
                         <unittitle>Wickham, Joseph D.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1859-1878">
+                        <unitdatestructured altrender="1859-1878" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1859">1859</fromdate>
                               <todate standarddate="1878">1878</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132498 /locations/9"
                                    containerid="39002042262999"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref130_c1"
                                    label="Mixed Materials"
                                    localtype="box">11</container>
                      </did>
                   </c>
-                  <c id="ref131" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189164"
+                     id="ref131"
+                     level="file">
                      <did>
                         <unittitle>Wight, O. W.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1854-1862">
+                        <unitdatestructured altrender="1854-1862" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1854">1854</fromdate>
                               <todate standarddate="1862">1862</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132498 /locations/9"
                                    containerid="39002042262999"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref131_c1"
                                    label="Mixed Materials"
                                    localtype="box">11</container>
                      </did>
                   </c>
-                  <c id="ref132" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189165"
+                     id="ref132"
+                     level="file">
                      <did>
                         <unittitle>Williams, Cyrus</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1844-1869">
+                        <unitdatestructured altrender="1844-1869" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1844">1844</fromdate>
                               <todate standarddate="1869">1869</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132498 /locations/9"
                                    containerid="39002042262999"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref132_c1"
                                    label="Mixed Materials"
                                    localtype="box">11</container>
                      </did>
                   </c>
-                  <c id="ref133" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189166"
+                     id="ref133"
+                     level="file">
                      <did>
                         <unittitle>Winship, James</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1868-1875">
+                        <unitdatestructured altrender="1868-1875" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1868">1868</fromdate>
                               <todate standarddate="1875">1875</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132498 /locations/9"
                                    containerid="39002042262999"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref133_c1"
                                    label="Mixed Materials"
                                    localtype="box">11</container>
                      </did>
                   </c>
-                  <c id="ref134" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189167"
+                     id="ref134"
+                     level="file">
                      <did>
                         <unittitle>Wise, Sally</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1849-1861">
+                        <unitdatestructured altrender="1849-1861" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1849">1849</fromdate>
                               <todate standarddate="1861">1861</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132498 /locations/9"
                                    containerid="39002042262999"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref134_c1"
                                    label="Mixed Materials"
                                    localtype="box">11</container>
                      </did>
                   </c>
-                  <c id="ref135" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189168"
+                     id="ref135"
+                     level="file">
                      <did>
                         <unittitle>Woolsey, T. D.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1873">
+                        <unitdatestructured altrender="1873" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1873">1873</fromdate>
                               <todate standarddate="1873">1873</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132498 /locations/9"
                                    containerid="39002042262999"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref135_c1"
                                    label="Mixed Materials"
                                    localtype="box">11</container>
                      </did>
                   </c>
-                  <c id="ref136" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189169"
+                     id="ref136"
+                     level="file">
                      <did>
                         <unittitle>Wooster, Joseph L.</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1775-1796">
+                        <unitdatestructured altrender="1775-1796" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1775">1775</fromdate>
                               <todate standarddate="1796">1796</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132498 /locations/9"
                                    containerid="39002042262999"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref136_c1"
                                    label="Mixed Materials"
                                    localtype="box">11</container>
                      </did>
                   </c>
-                  <c id="ref137" level="file">
+                  <c altrender="/repositories/12/archival_objects/1189170"
+                     id="ref137"
+                     level="file">
                      <did>
                         <unittitle>Yale</unittitle>
-                        <unitdatestructured unitdatetype="inclusive" altrender="1821-1864">
+                        <unitdatestructured altrender="1821-1864" label="creation" unitdatetype="inclusive">
                            <daterange>
                               <fromdate standarddate="1821">1821</fromdate>
                               <todate standarddate="1864">1864</todate>
                            </daterange>
                         </unitdatestructured>
-                        <container altrender="archive legal"
+                        <container altrender="/repositories/12/top_containers/132498 /locations/9"
                                    containerid="39002042262999"
+                                   encodinganalog="archive legal"
                                    id="aspace_ref137_c1"
                                    label="Mixed Materials"
                                    localtype="box">11</container>
                      </did>
                   </c>
                </c>
-               <c id="ref138" level="file">
+               <c altrender="/repositories/12/archival_objects/1189171"
+                  id="ref138"
+                  level="file">
                   <did>
                      <unittitle>Miscellaneous</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1745-1846">
+                     <unitdatestructured altrender="1745-1846" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1745">1745</fromdate>
                            <todate standarddate="1846">1846</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132498 /locations/9"
                                 containerid="39002042262999"
+                                encodinganalog="archive legal"
                                 id="aspace_ref138_c1"
                                 label="Mixed Materials"
                                 localtype="box">11</container>
                   </did>
                </c>
-               <c id="ref139" level="file">
+               <c altrender="/repositories/12/archival_objects/1189172"
+                  id="ref139"
+                  level="file">
                   <did>
                      <unittitle>Miscellaneous</unittitle>
-                     <unitdate unitdatetype="inclusive">1847-1880, undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdatestructured altrender="1847-1880, undated"
+                                         label="creation"
+                                         unitdatetype="inclusive">
+                        <daterange>
+                           <fromdate standarddate="1847">1847</fromdate>
+                           <todate standarddate="1880">1880</todate>
+                        </daterange>
+                     </unitdatestructured>
+                     <container altrender="/repositories/12/top_containers/132499 /locations/9"
                                 containerid="39002042263005"
+                                encodinganalog="archive legal"
                                 id="aspace_ref139_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
                   </did>
                </c>
             </c>
-            <c id="ref140" level="file">
+            <c altrender="/repositories/12/archival_objects/1189173"
+               id="ref140"
+               level="file">
                <did>
                   <unittitle>Family correspondence</unittitle>
                </did>
-               <c id="ref141" level="file">
+               <c altrender="/repositories/12/archival_objects/1189174"
+                  id="ref141"
+                  level="file">
                   <did>
                      <unittitle>Incoming and outgoing letters of Dyer White</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1784-1813">
+                     <unitdatestructured altrender="1784-1813" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1784">1784</fromdate>
                            <todate standarddate="1813">1813</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132499 /locations/9"
                                 containerid="39002042263005"
+                                encodinganalog="archive legal"
                                 id="aspace_ref141_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
                   </did>
                </c>
-               <c id="ref142" level="file">
+               <c altrender="/repositories/12/archival_objects/1189175"
+                  id="ref142"
+                  level="file">
                   <did>
                      <unittitle>Sally White to Dyer White</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1793-1836">
+                     <unitdatestructured altrender="1793-1836" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1793">1793</fromdate>
                            <todate standarddate="1836">1836</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132499 /locations/9"
                                 containerid="39002042263005"
+                                encodinganalog="archive legal"
                                 id="aspace_ref142_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
                   </did>
                </c>
             </c>
-            <c id="ref143" level="file">
+            <c altrender="/repositories/12/archival_objects/1189176"
+               id="ref143"
+               level="file">
                <did>
                   <unittitle>White family genealogy</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132499 /locations/9"
                              containerid="39002042263005"
+                             encodinganalog="archive legal"
                              id="aspace_ref143_c1"
                              label="Mixed Materials"
                              localtype="box">12</container>
                </did>
             </c>
-            <c id="ref144" level="file">
+            <c altrender="/repositories/12/archival_objects/1189177"
+               id="ref144"
+               level="file">
                <did>
                   <unittitle>Notebooks</unittitle>
                </did>
-               <c id="ref145" level="file">
+               <c altrender="/repositories/12/archival_objects/1189178"
+                  id="ref145"
+                  level="file">
                   <did>
                      <unittitle>"Explanation of the Bible...,"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1810">
+                     <unitdatestructured altrender="1810" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1810">1810</fromdate>
                            <todate standarddate="1810">1810</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132500 /locations/9"
                                 containerid="39002042263013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref145_c1"
                                 label="Mixed Materials"
                                 localtype="box">13</container>
                   </did>
                </c>
-               <c id="ref146" level="file">
+               <c altrender="/repositories/12/archival_objects/1189179"
+                  id="ref146"
+                  level="file">
                   <did>
                      <unittitle>Mathematics exercise book</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1810">
+                     <unitdatestructured altrender="1810" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1810">1810</fromdate>
                            <todate standarddate="1810">1810</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132500 /locations/9"
                                 containerid="39002042263013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref146_c1"
                                 label="Mixed Materials"
                                 localtype="box">13</container>
                   </did>
                </c>
-               <c id="ref147" level="file">
+               <c altrender="/repositories/12/archival_objects/1189180"
+                  id="ref147"
+                  level="file">
                   <did>
                      <unittitle>"Extracts of Sermons from various Authors,"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1815">
+                     <unitdatestructured altrender="1815" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1815">1815</fromdate>
                            <todate standarddate="1815">1815</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <langmaterial>
+                        <language langcode="eng">English</language>
+                     </langmaterial>
+                     <container altrender="/repositories/12/top_containers/132500 /locations/9"
                                 containerid="39002042263013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref147_c1"
                                 label="Mixed Materials"
                                 localtype="box">13</container>
                   </did>
                </c>
-               <c id="ref148" level="file">
+               <c altrender="/repositories/12/archival_objects/1189181"
+                  id="ref148"
+                  level="file">
                   <did>
                      <unittitle>Account book of the Female Auxiliary Bible Society of New Haven and Vicinity</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1822-1825">
+                     <unitdatestructured altrender="1822-1825" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1822">1822</fromdate>
                            <todate standarddate="1825">1825</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132500 /locations/9"
                                 containerid="39002042263013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref148_c1"
                                 label="Mixed Materials"
                                 localtype="box">13</container>
                   </did>
                </c>
-               <c id="ref149" level="file">
+               <c altrender="/repositories/12/archival_objects/1189182"
+                  id="ref149"
+                  level="file">
                   <did>
                      <unittitle>Account book of church subscriptions</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1837">
+                     <unitdatestructured altrender="1837" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1837">1837</fromdate>
                            <todate standarddate="1837">1837</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132500 /locations/9"
                                 containerid="39002042263013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref149_c1"
                                 label="Mixed Materials"
                                 localtype="box">13</container>
                   </did>
                </c>
-               <c id="ref150" level="file">
+               <c altrender="/repositories/12/archival_objects/1189183"
+                  id="ref150"
+                  level="file">
                   <did>
                      <unittitle>Names and locations of soldiers buried in Grove Street cemetery</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1886">
+                     <unitdatestructured altrender="1886" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1886">1886</fromdate>
                            <todate standarddate="1886">1886</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132500 /locations/9"
                                 containerid="39002042263013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref150_c1"
                                 label="Mixed Materials"
                                 localtype="box">13</container>
                   </did>
                </c>
             </c>
-            <c id="ref151" level="file">
+            <c altrender="/repositories/12/archival_objects/1189184"
+               id="ref151"
+               level="file">
                <did>
                   <unittitle>Lecture notes</unittitle>
                </did>
-               <c id="ref152" level="file">
+               <c altrender="/repositories/12/archival_objects/1189185"
+                  id="ref152"
+                  level="file">
                   <did>
                      <unittitle>Natural history lectures for the Young Men's Institute</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1831-1833">
+                     <unitdatestructured altrender="1831-1833" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1831">1831</fromdate>
                            <todate standarddate="1833">1833</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive legal"
+                     <container altrender="/repositories/12/top_containers/132500 /locations/9"
                                 containerid="39002042263013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref152_c1"
                                 label="Mixed Materials"
                                 localtype="box">13</container>
                   </did>
                </c>
-               <c id="ref153" level="file">
+               <c altrender="/repositories/12/archival_objects/1189186"
+                  id="ref153"
+                  level="file">
                   <did>
                      <unittitle>College lectures on various subjects</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="archive legal"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/132500 /locations/9"
                                 containerid="39002042263013"
+                                encodinganalog="archive legal"
                                 id="aspace_ref153_c1"
                                 label="Mixed Materials"
                                 localtype="box">13</container>
                   </did>
                </c>
             </c>
-            <c id="ref154" level="file">
+            <c altrender="/repositories/12/archival_objects/1189187"
+               id="ref154"
+               level="file">
                <did>
                   <unittitle>Classified extracts from early New Haven records, with notes</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
-                  <container altrender="archive half legal"
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/132501 /locations/9"
                              containerid="39002042263021"
+                             encodinganalog="archive half legal"
                              id="aspace_ref154_c1"
                              label="Mixed Materials"
                              localtype="box">14</container>
                </did>
             </c>
-            <c id="ref155" level="file">
+            <c altrender="/repositories/12/archival_objects/1189188"
+               id="ref155"
+               level="file">
                <did>
                   <unittitle>Collection of slips possibly used to prepare New Haven land records</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1844?]">
+                  <unitdatestructured altrender="[1844?]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1844">1844</fromdate>
                         <todate standarddate="1844">1844</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="legacy black"
+                  <container altrender="/repositories/12/top_containers/132502 /locations/9"
                              containerid="39002042263039"
+                             encodinganalog="legacy black"
                              id="aspace_ref155_c1"
                              label="Mixed Materials"
                              localtype="box">15</container>
                </did>
             </c>
-            <c id="ref156" level="file">
+            <c altrender="/repositories/12/archival_objects/1189189"
+               id="ref156"
+               level="file">
                <did>
                   <unittitle>Collection of slips possibly used to prepare New Haven land records</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="[1844?]">
+                  <unitdatestructured altrender="[1844?]" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1844">1844</fromdate>
                         <todate standarddate="1844">1844</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="legacy black"
+                  <container altrender="/repositories/12/top_containers/132503 /locations/9"
                              containerid="39002042263047"
+                             encodinganalog="legacy black"
                              id="aspace_ref156_c1"
                              label="Mixed Materials"
                              localtype="box">16</container>

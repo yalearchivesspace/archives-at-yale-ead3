@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0681">mssa.ms.0681</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0681">mssa.ms.0681</recordid>
+      <otherrecordid localtype="BIB">614518</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Preliminary Guide to the Fred John Beck Papers
@@ -32,6 +34,11 @@
             <date>July 1971</date>
             <num>MS 681</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:08:45+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:49:28+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:08</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:49</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4240" level="collection">
       <did>
          <unittitle>Fred John Beck papers</unittitle>
          <unitid>MS 681</unitid>
@@ -83,75 +93,80 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(17 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1928-1971">
+         <unitdatestructured altrender="1928-1971" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1928">1928</fromdate>
                <todate standarddate="1971">1971</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_d83e3daf48f9756fafd1e38b41308e11">The papers consist of departmental files, course notes, problems, examinations, student papers, correspondence, and student grade books, all relating to Fred Beck's teaching career at Yale University. In addition there is a small amount of material on his teaching elsewhere (ca. 1940-1945), texts of public lectures, grant materials, and miscellaneous writings.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname rules="aacr" source="local">
-               <part>Beck, Fred John</part>
+               <part localtype="agent_person">Beck, Fred John</part>
             </persname>
          </origination>
-    
       </did>
       <accessrestrict id="aspace_e0c38e899bc3be453e0e80212cc15129">
          <head>Conditions Governing Access</head>
          <p>Student grades contained in Box 9 are restricted until January 1, 2046 as established by <ref actuate="onrequest"
                  href="http://web.library.yale.edu/mssa/collections/research-use-of-yale-university-archives"
                  show="new">Yale Corporation regulations.</ref>
-         </p>  
+         </p>
       </accessrestrict>
       <prefercite id="aspace_81899b78e07bf49330be95a4bfaa35ce">
          <head>Preferred Citation</head>
-         <p>Fred John Beck Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Fred John Beck Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <arrangement id="aspace_f976e43f0624e422ee1e73110207a00b">
          <head>Arrangement</head>
-         <p>Arranged in six series: I. Departmental Files. II. Subject Files. III. Student Papers and Student Correspondence. IV. Student Grade Books and Other Materials Relating to Grades. V. Course Notes. VI. Problems and Exams.</p>  
+         <p>Arranged in six series: I. Departmental Files. II. Subject Files. III. Student Papers and Student Correspondence. IV. Student Grade Books and Other Materials Relating to Grades. V. Course Notes. VI. Problems and Exams.</p>
       </arrangement>
       <scopecontent id="aspace_29ea750094376d985764931a20785253">
          <head>Scope and Contents</head>
-         <p>The Fred Beck Papers (17 boxes) have thus far been divided only into very general series; there has been no attempt made to arrange the material within each series. The only exceptions to this are the COURSE/NOTES and the PROBLEMS and EXAMS series, which have been arranged very roughly by course numbers. For related papers see also YRGs [23, 31, and 14].</p>  
+         <p>The Fred Beck Papers (17 boxes) have thus far been divided only into very general series; there has been no attempt made to arrange the material within each series. The only exceptions to this are the COURSE/NOTES and the PROBLEMS and EXAMS series, which have been arranged very roughly by course numbers. For related papers see also YRGs [23, 31, and 14].</p>
       </scopecontent>
       <bioghist id="aspace_886e153c3663545cd106c104b639c9df">
          <head>Biographical / Historical</head>
-         <p>Fred John Beck (1904-\): E.E., Polytechnic Institute of Brooklyn, 1925; Ph.D., Yale University, 1932; instructor, Electrical Engineering, Yale University, 1928-1936, assistant professor, 1936-1942, associate professor, 1942-1953, professor, 1953-1963, professor of Engineering and Applied Science, 1963-.</p>  
+         <p>Fred John Beck (1904-\): E.E., Polytechnic Institute of Brooklyn, 1925; Ph.D., Yale University, 1932; instructor, Electrical Engineering, Yale University, 1928-1936, assistant professor, 1936-1942, associate professor, 1942-1953, professor, 1953-1963, professor of Engineering and Applied Science, 1963-.</p>
       </bioghist>
       <userestrict id="aspace_a33d8f5399f1992076f5c0c6fed1ced6">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85043176"
                   source="lcsh">
-            <part>Engineering</part>
+            <part localtype="topical">Engineering</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <occupation source="local">
-            <part>Engineers</part>
+            <part localtype="occupation">Engineers</part>
          </occupation>
          <persname rules="aacr" source="local">
-            <part>Beck, Fred John</part>
+            <part localtype="agent_person">Beck, Fred John</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
          <corpname source="local">
-            <part>Yale University. Dept. of Electrical Engineering</part>
+            <part localtype="agent_corporate_entity">Yale University. Dept. of Electrical Engineering</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="series">
+         <c altrender="/repositories/12/archival_objects/1353893"
+            id="ref10"
+            level="series">
             <did>
                <unittitle>Department Files</unittitle>
                <unitid>Series I</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="Circa 1950s-1971">
+               <unitdatestructured altrender="Circa 1950s-1971"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1950">1950</fromdate>
                      <todate standarddate="1971">1971</todate>
@@ -162,60 +177,79 @@
                <head>Scope and Contents</head>
                <p>This series contains minutes of various departmental and university committee meetings, and inner- and inter-departmental memos, form letters, and bulletins. Most of this material falls between 1965 and 1971, but some dates back to the 1950s. Also included in this series are: correspondence in reference to Sigma Chi, a science honorary fraternity; correspondence about departmental matters in general; the upkeep of the physical plant at the Engineering School; material about the Honeywell award; bursary material; Yale Studies for Returning Servicemen; miscellaneous topics similar to those listed above.</p>
             </scopecontent>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/1353894"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Departmental Files</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1950s-1971">
+                  <unitdatestructured altrender="Circa 1950s-1971"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1945">1945</fromdate>
                         <todate standarddate="1955">1955</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151548 /locations/9"
                              containerid="39002042522053"
-                             id="d1e268"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1353895"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Departmental Files</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1950s-1971">
+                  <unitdatestructured altrender="Circa 1950s-1971"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1945">1945</fromdate>
                         <todate standarddate="1955">1955</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151549 /locations/9"
                              containerid="39002042522046"
-                             id="d1e284"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1353896"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Departmental Files</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1950s-1971">
+                  <unitdatestructured altrender="Circa 1950s-1971"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1945">1945</fromdate>
                         <todate standarddate="1955">1955</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151550 /locations/9"
                              containerid="39002042522061"
-                             id="d1e300"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
          </c>
-         <c id="ref15" level="series">
+         <c altrender="/repositories/12/archival_objects/1353897"
+            id="ref15"
+            level="series">
             <did>
                <unittitle>Subject Files</unittitle>
                <unitid>Series II</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="Circa 1940s-1950s">
+               <unitdatestructured altrender="Circa 1940s-1950s"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1940">1940</fromdate>
                      <todate standarddate="1959">1959</todate>
@@ -226,56 +260,73 @@
                <head>Scope and Contents</head>
                <p>Included in this series are: notes for course Beck taught elsewhere (New Haven YMCA Junior College, ca. 1940-1945), honorary and public lectures by Beck; writings by Beck and others, material on the American Institute of Electrical Engineers; various grants and consulting jobs by Beck; topics of general interest to Beck. This material, unlike Series I, primarily seems to be from the 1940s and 1950s.</p>
             </scopecontent>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1353898"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Subject Files</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1940s-1950s">
+                  <unitdatestructured altrender="Circa 1940s-1950s"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1935">1935</fromdate>
                         <todate standarddate="1945">1945</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151551 /locations/9"
                              containerid="39002042522079"
-                             id="d1e337"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1353899"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Subject Files</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1940s-1950s">
+                  <unitdatestructured altrender="Circa 1940s-1950s"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1935">1935</fromdate>
                         <todate standarddate="1945">1945</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151552 /locations/9"
                              containerid="39002042522087"
-                             id="d1e353"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">5</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1353900"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Subject Files</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1940s-1950s">
+                  <unitdatestructured altrender="Circa 1940s-1950s"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1935">1935</fromdate>
                         <todate standarddate="1945">1945</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151553 /locations/9"
                              containerid="39002042522095"
-                             id="d1e369"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                </did>
             </c>
          </c>
-         <c id="ref20" level="series">
+         <c altrender="/repositories/12/archival_objects/1353901"
+            id="ref20"
+            level="series">
             <did>
                <unittitle>Student Papers and Student Correspondence</unittitle>
                <unitid>Series III</unitid>
@@ -284,32 +335,42 @@
                <head>Scope and Contents</head>
                <p>This series, for the most part, consists of laboratory report books, copies of senior projects and Ph.D. dissertations. There also are some miscellaneous papers for various classes, published papers by former students, letters from several students discussing their dissertation progress, and ideas and problems that they are facing.</p>
             </scopecontent>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1353902"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Student Papers and Student Correspondence</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151554 /locations/9"
                              containerid="39002042522103"
-                             id="d1e390"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">7</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1353903"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Student Papers and Student Correspondence</unittitle>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/151555 /locations/9"
                              containerid="39002042522111"
-                             id="d1e398"
+                             encodinganalog="archive letter"
+                             id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">8</container>
                </did>
             </c>
          </c>
-         <c id="ref24" level="series">
+         <c altrender="/repositories/12/archival_objects/1353904"
+            id="ref24"
+            level="series">
             <did>
                <unittitle>Student Grade Books and Material Relating to Grades</unittitle>
                <unitid>Series IV</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="Circa 1928-1970">
+               <unitdatestructured altrender="Circa 1928-1970"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1928">1928</fromdate>
                      <todate standarddate="1970">1970</todate>
@@ -320,31 +381,39 @@
                <head>Scope and Contents</head>
                <p>This series consists of approximately 90 grade books from [1928-1929]-1970. Books which have no dates in them have been kept in the same order as Professor Beck had them. There are also 11 folders of grade lists and other materials related to grades. This includes a folder describing Ph.D dissertation requirements, as well as sample syllabi.</p>
             </scopecontent>
-            <accessrestrict id="aspace_d57459aec4613656c57cf72772582fb4">
+            <accessrestrict id="aspace_d57459aec4613656c57cf72772582fb4"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Student grades are restricted until January 1, 2046 as established by <ref actuate="onrequest"
                        href="http://web.library.yale.edu/mssa/collections/research-use-of-yale-university-archives"
                        show="new">Yale Corporation regulations.</ref>
                </p>
             </accessrestrict>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1353905"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Student Grade Books and Material Relating to Grades</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="Circa 1928-1970">
+                  <unitdatestructured altrender="Circa 1928-1970"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1923">1923</fromdate>
                         <todate standarddate="1933">1933</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151556 /locations/9"
                              containerid="39002042522129"
-                             id="d1e442"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                </did>
             </c>
          </c>
-         <c id="ref27" level="series">
+         <c altrender="/repositories/12/archival_objects/1353906"
+            id="ref27"
+            level="series">
             <did>
                <unittitle>Course Notes</unittitle>
                <unitid>Series V</unitid>
@@ -353,38 +422,49 @@
                <head>Scope and Contents</head>
                <p>This series contains course and lecture notes, as well as problem sheets, for courses Beck taught at Yale. This material has been grouped by couse number. Box 12 contains miscellaneous course material.</p>
             </scopecontent>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1353907"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>Course Notes</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151557 /locations/9"
                              containerid="39002042522137"
-                             id="d1e463"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                </did>
             </c>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/1353908"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>Course Notes</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151558 /locations/9"
                              containerid="39002042522145"
-                             id="d1e471"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">11</container>
                </did>
             </c>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/1353909"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Course Notes</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151559 /locations/9"
                              containerid="39002042522152"
-                             id="d1e479"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">12</container>
                </did>
             </c>
          </c>
-         <c id="ref32" level="series">
+         <c altrender="/repositories/12/archival_objects/1353910"
+            id="ref32"
+            level="series">
             <did>
                <unittitle>Problems and Exams</unittitle>
                <unitid>Series VI</unitid>
@@ -393,52 +473,67 @@
                <head>Scope and Contents</head>
                <p>This series consists of mimeographed copies of engineering problems used in classes and examinations for the various courses. The material is arranged by course number.</p>
             </scopecontent>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1353911"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>EE30 and EE40</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151560 /locations/9"
                              containerid="39002042522160"
-                             id="d1e500"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">13</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/1353912"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>EE103, EE21, EE114</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151561 /locations/9"
                              containerid="39002042522178"
-                             id="d1e508"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">14</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/1353913"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>EE H2, EE116, EE140, EE200, EE201, EE240, EE250</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/151562 /locations/9"
                              containerid="39002042522186"
-                             id="d1e516"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">15</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/1353914"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>EE1, EE23, EE31, EE35 (also miscellaneous and unidentified)</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151563 /locations/9"
                              containerid="39002042522194"
-                             id="d1e524"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">16</container>
                </did>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/1353915"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>Problem books (loose leaf) for various courses</unittitle>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/151564 /locations/9"
                              containerid="39002042522202"
-                             id="d1e532"
+                             encodinganalog="Paige 15"
+                             id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">17</container>
                </did>

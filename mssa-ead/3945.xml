@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0851">mssa.ms.0851</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0851">mssa.ms.0851</recordid>
+      <otherrecordid localtype="BIB">613806</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Noyes Family Papers
@@ -32,6 +34,11 @@
             <date>November 1981</date>
             <num>MS 851</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:30:35+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T09:11:09+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:30</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 09:11</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3945" level="collection">
       <did>
          <unittitle>Noyes family papers</unittitle>
          <unitid>MS 851</unitid>
@@ -82,37 +92,36 @@
             <quantity>1.5</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1851-1922">
+         <unitdatestructured altrender="1851-1922" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1851">1851</fromdate>
                <todate standarddate="1922">1922</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_71ce6c0e44c93cd4d174e326b7e87b11">Correspondence, printed matter, and memorabilia of Atherton Noyes (1862-1938) and his brother Edward Parish Noyes (1857-1913). Material concerns the undergraduate years of his brothers at Yale, classes of 1880 and 1885, Atherton Noyes' life in Colorado, and his trip to Europe in 1894-1895.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <famname identifier="http://id.loc.gov/authorities/subjects/sh85092914"
                      source="lcsh">
-               <part>Noyes family</part>
+               <part localtype="agent_family">Noyes family</part>
             </famname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_ab177dd14e38e62db2b9bf3927534628">
          <head>Immediate Source of Acquisition</head>
-         <p>Purchase and gift from Leroy E. Wilson, 1976.</p>  
+         <p>Purchase and gift from Leroy E. Wilson, 1976.</p>
       </acqinfo>
       <accessrestrict id="aspace_94625b9518c5f002d15fafc8fd948864">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_a9eff63819b282943111bdf414c7b962">
          <head>Preferred Citation</head>
-         <p>Noyes Family Papers (MS 851). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Noyes Family Papers (MS 851). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_780b93cbd23589b1745a075b78f54157">
          <head>Scope and Contents</head>
          <p>The Noyes Family Papers consist of correspondence, memorabilia, and printed matter relating to Atherton and Edward Parish Noyes and their families. The bulk of the papers is made up of letters written by the brothers to each other and to other family members and friends. Included is correspondence from their years at Yale University (Edward was a member of the class of 1880, Atherton of the class of 1885) and their later lives; in particular there are numerous letters from Atherton describing his life in Colorado from 1887 on, and his visit to Europe in 1894-1895. As well as correspondence, the papers contain a good deal of Yale memorabilia and some other printed matter, and several photographs of Atherton.</p>
-         <p>The papers of the two brothers have beenseparated, and their correspondence arranged chronologically. Letters between the two are filed under the author's name. These papers were acquired by Yale University by purchase and gift from LeRoy E. Wilson in 1976.</p>  
+         <p>The papers of the two brothers have beenseparated, and their correspondence arranged chronologically. Letters between the two are filed under the author's name. These papers were acquired by Yale University by purchase and gift from LeRoy E. Wilson in 1976.</p>
       </scopecontent>
       <bioghist id="aspace_b0e7109d6589afb233ff9524f22c359e">
          <head>Biographical / Historical</head>
@@ -139,247 +148,304 @@
          <p>He married, November 7, 1891, in Hastings, England, Jessie Porter Hill, daughter of Richard and Harriet (Winter) Hill, of Davenport, Ia. She died July 22, 1897, but two daughters and a son survived him. A brother (B.A. Yale 1885) is Assistant Professor of English in Colorado College.</p>
          <p>(Taken from <title render="italic">
                <part>Yale University Obituary Record</part>
-            </title>).</p>  
+            </title>).</p>
       </bioghist>
       <userestrict id="aspace_137b74a3d3de8a407dd1f562653e6eed">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown, though much of the material in this collection is likely in the public domain. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown, though much of the material in this collection is likely in the public domain. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <geogname source="local">
-            <part>Colorado -- Social life and customs</part>
+            <part localtype="geographic">Colorado</part>
+            <part localtype="topical">Social life and customs</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85045661"
                    source="lcsh">
-            <part>Europe -- Description and travel</part>
+            <part localtype="geographic">Europe</part>
+            <part localtype="topical">Description and travel</part>
          </geogname>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85018328"
                   source="lcsh">
-            <part>Businessmen</part>
+            <part localtype="topical">Businessmen</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041161"
                   source="lcsh">
-            <part>Educators</part>
+            <part localtype="topical">Educators</part>
          </subject>
          <persname source="local">
-            <part>Noyes, Atherton, 1862-1938</part>
+            <part localtype="agent_person">Noyes, Atherton, 1862-1938</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/nb2010030649"
                    rules="aacr"
                    source="naf">
-            <part>Noyes, Daniel</part>
+            <part localtype="agent_person">Noyes, Daniel</part>
          </persname>
          <persname rules="aacr" source="local">
-            <part>Noyes, Edward Parish, 1857-1913</part>
+            <part localtype="agent_person">Noyes, Edward Parish, 1857-1913</part>
          </persname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85092914"
                   source="lcsh">
-            <part>Noyes family</part>
+            <part localtype="agent_family">Noyes family</part>
          </famname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1258173"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Atherton Noyes</unittitle>
             </did>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1258174"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Outgoing correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1881-1922, undated">
+                  <unitdatestructured altrender="1881-1922, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1851">1851</fromdate>
                         <todate standarddate="1922">1922</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143221 /locations/9"
                              containerid="39002042277195"
-                             id="d1e321"
+                             encodinganalog="archive letter"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e323" localtype="folder" parent="d1e321">1 - 32</container>
+                  <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">1 - 32</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1258175"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Incoming correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1881-1884, undated">
+                  <unitdatestructured altrender="1881-1884, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1851">1851</fromdate>
                         <todate standarddate="1922">1922</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143222 /locations/9"
                              containerid="39002042277203"
-                             id="d1e339"
+                             encodinganalog="archive letter"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
-                  <container id="d1e341" localtype="folder" parent="d1e339">33</container>
+                  <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">33</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1258176"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Scrapbook of Yale memorabilia</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1881-1885">
+                  <unitdatestructured altrender="1881-1885" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1881">1881</fromdate>
                         <todate standarddate="1885">1885</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143222 /locations/9"
                              containerid="39002042277203"
-                             id="d1e357"
+                             encodinganalog="archive letter"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
-                  <container id="d1e359" localtype="folder" parent="d1e357">34</container>
+                  <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">34</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1258177"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Loose papers removed from scrapbook</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1881-1885">
+                  <unitdatestructured altrender="1881-1885" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1881">1881</fromdate>
                         <todate standarddate="1885">1885</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143222 /locations/9"
                              containerid="39002042277203"
-                             id="d1e375"
+                             encodinganalog="archive letter"
+                             id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
-                  <container id="d1e377" localtype="folder" parent="d1e375">35 - 36</container>
+                  <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">35 - 36</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1258178"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Photographs</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1880, undated">
+                  <unitdatestructured altrender="1880, undated" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1851">1851</fromdate>
                         <todate standarddate="1922">1922</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143222 /locations/9"
                              containerid="39002042277203"
-                             id="d1e393"
+                             encodinganalog="archive letter"
+                             id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
-                  <container id="d1e395" localtype="folder" parent="d1e393">37</container>
+                  <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">37</container>
                </did>
             </c>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1258179"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>Edward Parish Noyes</unittitle>
             </did>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1258180"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Outgoing correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1875-1913, undated">
+                  <unitdatestructured altrender="1875-1913, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1851">1851</fromdate>
                         <todate standarddate="1922">1922</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143223 /locations/9"
                              containerid="39002042277211"
-                             id="d1e417"
+                             encodinganalog="archive letter"
+                             id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
-                  <container id="d1e419" localtype="folder" parent="d1e417">38 - 60</container>
+                  <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">38 - 60</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1258181"
+               id="ref20"
+               level="file">
                <did>
                   <unittitle>Incoming correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1881-1887, undated">
+                  <unitdatestructured altrender="1881-1887, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1851">1851</fromdate>
                         <todate standarddate="1922">1922</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143223 /locations/9"
                              containerid="39002042277211"
-                             id="d1e435"
+                             encodinganalog="archive letter"
+                             id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
-                  <container id="d1e437" localtype="folder" parent="d1e435">61</container>
+                  <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">61</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1258182"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Yale memorabilia</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1878-1890, undated">
+                  <unitdatestructured altrender="1878-1890, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1851">1851</fromdate>
                         <todate standarddate="1922">1922</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/143223 /locations/9"
                              containerid="39002042277211"
-                             id="d1e453"
+                             encodinganalog="archive letter"
+                             id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
-                  <container id="d1e455" localtype="folder" parent="d1e453">62</container>
+                  <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">62</container>
                </did>
             </c>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1258183"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>Correspondence of other family members</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1851-1906, undated">
+               <unitdatestructured altrender="1851-1906, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1851">1851</fromdate>
                      <todate standarddate="1922">1922</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/143223 /locations/9"
                           containerid="39002042277211"
-                          id="d1e471"
+                          encodinganalog="archive letter"
+                          id="aspace_ref22_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
-               <container id="d1e473" localtype="folder" parent="d1e471">63</container>
+               <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">63</container>
             </did>
          </c>
-         <c id="ref23" level="file">
+         <c altrender="/repositories/12/archival_objects/1258184"
+            id="ref23"
+            level="file">
             <did>
                <unittitle>Yale printed matter</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1876-1886, undated">
+               <unitdatestructured altrender="1876-1886, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1851">1851</fromdate>
                      <todate standarddate="1922">1922</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/143223 /locations/9"
                           containerid="39002042277211"
-                          id="d1e489"
+                          encodinganalog="archive letter"
+                          id="aspace_ref23_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
-               <container id="d1e491" localtype="folder" parent="d1e489">64</container>
+               <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">64</container>
             </did>
          </c>
-         <c id="ref24" level="file">
+         <c altrender="/repositories/12/archival_objects/1258185"
+            id="ref24"
+            level="file">
             <did>
                <unittitle>Other printed matter</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1888-1920, undated">
+               <unitdatestructured altrender="1888-1920, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1851">1851</fromdate>
                      <todate standarddate="1922">1922</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive letter"
+               <container altrender="/repositories/12/top_containers/143223 /locations/9"
                           containerid="39002042277211"
-                          id="d1e507"
+                          encodinganalog="archive letter"
+                          id="aspace_ref24_c1"
                           label="Mixed Materials"
                           localtype="box">3</container>
-               <container id="d1e509" localtype="folder" parent="d1e507">65</container>
+               <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">65</container>
             </did>
          </c>
       </dsc>

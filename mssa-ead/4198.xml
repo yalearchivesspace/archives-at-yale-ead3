@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0451">mssa.ms.0451</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0451">mssa.ms.0451</recordid>
+      <otherrecordid localtype="BIB">989896</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Hartley Simpson Papers
@@ -32,6 +34,11 @@
             <date>October 1990</date>
             <num>MS 451</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T09:28:15+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:08:44+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 09:28</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:08</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4198" level="collection">
       <did>
          <unittitle>Hartley Simpson papers</unittitle>
          <unitid>MS 451</unitid>
@@ -83,263 +93,316 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1939-1964">
+         <unitdatestructured altrender="1939-1964" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1939">1939</fromdate>
                <todate standarddate="1964">1964</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_d458738280a83e1f6eb0e6c61db8196e">The papers consist of correspondence, research notes on graduate education, and essays.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Simpson, Hartley, 1900-1967</part>
+               <part localtype="agent_person">Simpson, Hartley, 1900-1967</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_b1f81a3ed60781207bca79dbf52524e5">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Elizabeth Read Foster, 1990.</p>  
+         <p>Gift of Elizabeth Read Foster, 1990.</p>
       </acqinfo>
       <accessrestrict id="aspace_d858b9fbd3abc729e1c87c54ab25f77b">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_236acc5c13a6c9bd42b39745a281f299">
          <head>Preferred Citation</head>
-         <p>Hartley Simpson Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Hartley Simpson Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_ebf1b2d960b210398d569cab6cb93274">
          <head>Scope and Contents</head>
          <p>The Hartley Simpson Papers consist of correspendence, research notes on graduate education, and essays which Hartley Simpson intended for a "Sketch-Book." The essays do not necessarily pertain to historical topics.</p>
-         <p>The papers were received from Elizabeth Read Foster in 1990.</p>  
+         <p>The papers were received from Elizabeth Read Foster in 1990.</p>
       </scopecontent>
       <bioghist id="aspace_9056624df4eaa5f98a9fe2d298632592">
          <head>Biographical / Historical</head>
-         <p>Hartley Simpson was born in Tilton, New Hampshire in 1900. He received his B.A. degree from Bowdoin College in 1922 and was a student at Cornell University from 1923-1926. Simpson was an assistant professor of history at the University of Pittsburgh from 1926-1929. He spent the remainder of his career at Yale University and held the positions of research assistant in history (1930-1942), research associate (1942-1946), and associate professor (1947-1967). Simpson was also assistant dean of the Graduate School (1942-1947), associate dean (1947-1956), and dean (1956-1961). He died on October 4, 1967.</p>  
+         <p>Hartley Simpson was born in Tilton, New Hampshire in 1900. He received his B.A. degree from Bowdoin College in 1922 and was a student at Cornell University from 1923-1926. Simpson was an assistant professor of history at the University of Pittsburgh from 1926-1929. He spent the remainder of his career at Yale University and held the positions of research assistant in history (1930-1942), research associate (1942-1946), and associate professor (1947-1967). Simpson was also assistant dean of the Graduate School (1942-1947), associate dean (1947-1956), and dean (1956-1961). He died on October 4, 1967.</p>
       </bioghist>
       <userestrict id="aspace_1f7d0bd9c35ebdfdc936dfad41fcc8f8">
          <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85141124"
                   source="lcsh">
-            <part>Universities and colleges -- Graduate work</part>
+            <part localtype="topical">Universities and colleges</part>
+            <part localtype="topical">Graduate work</part>
          </subject>
          <persname source="local">
-            <part>Simpson, Hartley, 1900-1967</part>
+            <part localtype="agent_person">Simpson, Hartley, 1900-1967</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Graduate work</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Graduate work</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n79043369"
                    rules="aacr"
                    source="naf">
-            <part>Yale University. Graduate School</part>
+            <part localtype="agent_corporate_entity">Yale University. Graduate School</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/1353242"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive"
-                                   altrender="1948 December 7, 1959 March 31, 1960-1963">
+               <unitdatestructured altrender="1948 December 7, 1959 March 31, 1960-1963"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151417 /locations/9"
                           containerid="39002038215027"
-                          id="d1e234"
+                          encodinganalog="archive legal"
+                          id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e236" localtype="folder" parent="d1e234">1</container>
+               <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1</container>
             </did>
          </c>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1353243"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>Essays for "Sketch Book"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="December 1961 - December 1962">
+               <unitdatestructured altrender="December 1961 - December 1962"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151417 /locations/9"
                           containerid="39002038215027"
-                          id="d1e252"
+                          encodinganalog="archive legal"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e254" localtype="folder" parent="d1e252">2</container>
+               <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">2</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1353244"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Essays for "Sketch Book"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="January 1963 - March 1963">
+               <unitdatestructured altrender="January 1963 - March 1963"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151417 /locations/9"
                           containerid="39002038215027"
-                          id="d1e270"
+                          encodinganalog="archive legal"
+                          id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e272" localtype="folder" parent="d1e270">3</container>
+               <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">3</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1353245"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Essays for "Sketch Book"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="May 1964">
+               <unitdatestructured altrender="May 1964" label="creation" unitdatetype="inclusive">
                   <datesingle standarddate="1964-05">May 1964</datesingle>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151417 /locations/9"
                           containerid="39002038215027"
-                          id="d1e285"
+                          encodinganalog="archive legal"
+                          id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e287" localtype="folder" parent="d1e285">4</container>
+               <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">4</container>
             </did>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1353246"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>Essays for "Sketch Book"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151417 /locations/9"
                           containerid="39002038215027"
-                          id="d1e303"
+                          encodinganalog="archive legal"
+                          id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e305" localtype="folder" parent="d1e303">5</container>
+               <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">5</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1353247"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Essays labelled "Case Book"</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151417 /locations/9"
                           containerid="39002038215027"
-                          id="d1e321"
+                          encodinganalog="archive legal"
+                          id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e323" localtype="folder" parent="d1e321">6</container>
+               <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">6</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1353248"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Unsorted essays</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1961, 1964,undated">
+               <unitdatestructured altrender="1961, 1964,undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151417 /locations/9"
                           containerid="39002038215027"
-                          id="d1e339"
+                          encodinganalog="archive legal"
+                          id="aspace_ref17_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e341" localtype="folder" parent="d1e339">7 - 8</container>
+               <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">7 - 8</container>
             </did>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1353249"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>Writings pertaining to graduate schools</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1956, 1962,undated">
+               <unitdatestructured altrender="1956, 1962,undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151417 /locations/9"
                           containerid="39002038215027"
-                          id="d1e357"
+                          encodinganalog="archive legal"
+                          id="aspace_ref18_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e359" localtype="folder" parent="d1e357">9 - 10</container>
+               <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">9 - 10</container>
             </did>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1353250"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>Yale graduate school information</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1940 - 1960, undated">
+               <unitdatestructured altrender="1940 - 1960, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151417 /locations/9"
                           containerid="39002038215027"
-                          id="d1e375"
+                          encodinganalog="archive legal"
+                          id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e377" localtype="folder" parent="d1e375">11</container>
+               <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">11</container>
             </did>
          </c>
-         <c id="ref20" level="file">
+         <c altrender="/repositories/12/archival_objects/1353251"
+            id="ref20"
+            level="file">
             <did>
                <unittitle>Research notes pertaining to education and graduate schools</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="undated">
+               <unitdatestructured altrender="undated" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151417 /locations/9"
                           containerid="39002038215027"
-                          id="d1e393"
+                          encodinganalog="archive legal"
+                          id="aspace_ref20_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e395" localtype="folder" parent="d1e393">12</container>
+               <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">12</container>
             </did>
          </c>
-         <c id="ref21" level="file">
+         <c altrender="/repositories/12/archival_objects/1353252"
+            id="ref21"
+            level="file">
             <did>
                <unittitle>Printed material and news clippings</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1949 - 1963, undated">
+               <unitdatestructured altrender="1949 - 1963, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151417 /locations/9"
                           containerid="39002038215027"
-                          id="d1e411"
+                          encodinganalog="archive legal"
+                          id="aspace_ref21_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e413" localtype="folder" parent="d1e411">13</container>
+               <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">13</container>
             </did>
          </c>
-         <c id="ref22" level="file">
+         <c altrender="/repositories/12/archival_objects/1353253"
+            id="ref22"
+            level="file">
             <did>
                <unittitle>Material sent to Hartley Simpson from George Frederick Gundelfinger</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1939 - 1963, undated">
+               <unitdatestructured altrender="1939 - 1963, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1939">1939</fromdate>
                      <todate standarddate="1964">1964</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/151417 /locations/9"
                           containerid="39002038215027"
-                          id="d1e430"
+                          encodinganalog="archive legal"
+                          id="aspace_ref22_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e432" localtype="folder" parent="d1e430">14</container>
+               <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">14</container>
             </did>
          </c>
       </dsc>

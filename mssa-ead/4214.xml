@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0536">mssa.ms.0536</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0536">mssa.ms.0536</recordid>
+      <otherrecordid localtype="BIB">614119</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Selden Warner Papers
@@ -32,6 +34,11 @@
             <date>September 1981</date>
             <num>MS 536</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T09:39:49+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:21:28+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 09:39</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:21</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4214" level="collection">
       <did>
          <unittitle>Selden Warner papers</unittitle>
          <unitid>MS 536</unitid>
@@ -83,171 +93,195 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1780-1839">
+         <unitdatestructured altrender="1780-1839" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1780">1780</fromdate>
                <todate standarddate="1839">1839</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_931da76f2b2e4babbc503789d827c910">Correspondence and family legal and financial papers. The bulk of the papers relate to the activities of family members in the shad fishing industry near Lyme, Connecticut.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Warner, Selden, d. 1834</part>
+               <part localtype="agent_person">Warner, Selden, d. 1834</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_0a0131bd13fa4813a17996640c38cb05">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Henry Selden Johnston in 1945.</p>  
+         <p>Gift of Henry Selden Johnston in 1945.</p>
       </acqinfo>
       <accessrestrict id="aspace_9e37e87ed91290482c6777511f178a7d">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_bd0aa87e569460e47c133c7541020ed4">
          <head>Preferred Citation</head>
-         <p>Selden Warner Papers. Manuscripts and Archives, Yale University Library.</p>  
+         <p>Selden Warner Papers. Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_dbf72d4e489638989c53714a77809727">
          <head>Scope and Contents</head>
          <p>Correspondence and other papers (1798-1839) of Selden Warner and various members of his family make up the Selden Warner Papers. Both family correspondence and a few business letters, one written by Jeremiah Day, are included, as are legal and financial papers such as indentures and documents relating to the estates of Elizabeth and Jonathan Warner. Over half of the collection consists of accounts and other papers relating to the shad fishing industry near Lyme, Connecticut, in which Selden Warner and his sons were active.</p>
-         <p>These papers were given to Yale University by Henry Selden Johnston in 1945.</p>  
+         <p>These papers were given to Yale University by Henry Selden Johnston in 1945.</p>
       </scopecontent>
       <bioghist id="aspace_80d8f827c6a5c6c7cefe841852476ae7">
          <head>Biographical / Historical</head>
          <p>Selden Warner was a son of Jonathan Warner, of Hadlyme Parish, in Lyme, Connecticut, and grandson of Andrew Warner. His mother was Elizabeth, daughter of Joseph Selden, Junior, of Haddam.</p>
          <p>He became a physician in Hadlyme, and married in 1788 his second cousin Dorothy, youngest daughter of Colonel Samuel and Elizabeth (Ely) Selden, of Lyme, who died in 1825, at the age of 57.</p>
          <p>He died in Hadlyme, from paralysis, on March 1, 1843, aged 82 years. His children were seven sons and two daughters. One son was graduated at Yale in 1817, who followed his father's profession; and a granddaughter married Chief Justice Morrison R. Waite (Yale 1837).</p>
-         <p>From <emph render="italic">Biographical Sketches of the Graduates of Yale College</emph> by Franklin B. Dexter.</p>  
+         <p>From <emph render="italic">Biographical Sketches of the Graduates of Yale College</emph> by Franklin B. Dexter.</p>
       </bioghist>
       <userestrict id="aspace_d7bb7001020a6d38f6db368d38761258">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85018260"
                   source="lcsh">
-            <part>Business</part>
+            <part localtype="topical">Business</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <subject source="local">
-            <part>Shad fishing -- Connecticut</part>
+            <part localtype="topical">Shad fishing</part>
+            <part localtype="geographic">Connecticut</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85121579"
                   source="lcsh">
-            <part>Shipping</part>
+            <part localtype="topical">Shipping</part>
          </subject>
          <geogname source="local">
-            <part>Connecticut -- Commerce</part>
+            <part localtype="geographic">Connecticut</part>
+            <part localtype="topical">Commerce</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/names/n80065748"
                    source="lcsh">
-            <part>Lyme (Conn.)</part>
+            <part localtype="geographic">Lyme (Conn.)</part>
          </geogname>
          <occupation source="local">
-            <part>Fishermen</part>
+            <part localtype="occupation">Fishermen</part>
          </occupation>
          <persname source="local">
-            <part>Warner, Selden, d. 1834</part>
+            <part localtype="agent_person">Warner, Selden, d. 1834</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="file">
+         <c altrender="/repositories/12/archival_objects/1353486"
+            id="ref12"
+            level="file">
             <did>
                <unittitle>J. T. Warner: correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1831">
+               <unitdatestructured altrender="1831" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1831">1831</fromdate>
                      <todate standarddate="1831">1831</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151470 /locations/9"
                           containerid="39002042269457"
-                          id="d1e274"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref12_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e276" localtype="folder" parent="d1e274">1</container>
+               <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/1353487"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Richard Warner: correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1819">
+               <unitdatestructured altrender="1819" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1819">1819</fromdate>
                      <todate standarddate="1819">1819</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151470 /locations/9"
                           containerid="39002042269457"
-                          id="d1e292"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e294" localtype="folder" parent="d1e292">2</container>
+               <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/1353488"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Selden Warner: correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1812-1838">
+               <unitdatestructured altrender="1812-1838" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1812">1812</fromdate>
                      <todate standarddate="1838">1838</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151470 /locations/9"
                           containerid="39002042269457"
-                          id="d1e310"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e312" localtype="folder" parent="d1e310">3 - 4</container>
+               <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">3 - 4</container>
             </did>
          </c>
-         <c id="ref15" level="file">
+         <c altrender="/repositories/12/archival_objects/1353489"
+            id="ref15"
+            level="file">
             <did>
                <unittitle>William H. Warner: correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1824">
+               <unitdatestructured altrender="1824" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1824">1824</fromdate>
                      <todate standarddate="1824">1824</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151470 /locations/9"
                           containerid="39002042269457"
-                          id="d1e328"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref15_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e330" localtype="folder" parent="d1e328">5</container>
+               <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">5</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/1353490"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Legal and financial papers</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1797-1827, undated">
+               <unitdatestructured altrender="1797-1827, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1780">1780</fromdate>
                      <todate standarddate="1839">1839</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151470 /locations/9"
                           containerid="39002042269457"
-                          id="d1e346"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e348" localtype="folder" parent="d1e346">6 - 7</container>
+               <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">6 - 7</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/1353491"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Receipts</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1805-1838, undated">
+               <unitdatestructured altrender="1805-1838, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1780">1780</fromdate>
                      <todate standarddate="1839">1839</todate>
@@ -255,38 +289,46 @@
                </unitdatestructured>
             </did>
          </c>
-         <c id="ref18" level="file">
+         <c altrender="/repositories/12/archival_objects/1353492"
+            id="ref18"
+            level="file">
             <did>
                <unittitle>Shad fishing accounts</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1780-1839, undated">
+               <unitdatestructured altrender="1780-1839, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1780">1780</fromdate>
                      <todate standarddate="1839">1839</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151470 /locations/9"
                           containerid="39002042269457"
-                          id="d1e378"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref18_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e380" localtype="folder" parent="d1e378">8 - 13</container>
+               <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">8 - 13</container>
             </did>
          </c>
-         <c id="ref19" level="file">
+         <c altrender="/repositories/12/archival_objects/1353493"
+            id="ref19"
+            level="file">
             <did>
                <unittitle>Records of grass sales</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1836-1839">
+               <unitdatestructured altrender="1836-1839" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1836">1836</fromdate>
                      <todate standarddate="1839">1839</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive half legal"
+               <container altrender="/repositories/12/top_containers/151470 /locations/9"
                           containerid="39002042269457"
-                          id="d1e396"
+                          encodinganalog="archive half legal"
+                          id="aspace_ref19_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
-               <container id="d1e398" localtype="folder" parent="d1e396">14</container>
+               <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">14</container>
             </did>
          </c>
       </dsc>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0679">mssa.ms.0679</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0679">mssa.ms.0679</recordid>
+      <otherrecordid localtype="BIB">614215</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Clark Family Papers
@@ -32,6 +34,14 @@
             <date>April 1979</date>
             <num>MS 679</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+            <controlnote localtype="digital">
+               <p>This collection contains <num localtype="objects" altrender="1">1</num> published digital object. And that object are comprised of <num localtype="files" altrender="1">1</num> digital files.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +49,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +63,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +72,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-22T10:08:42+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:49:22+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 22, 2020 at 10:08</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:49</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4238" level="collection">
       <did>
          <unittitle>Clark family papers</unittitle>
          <unitid>MS 679</unitid>
@@ -83,101 +96,132 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1673-1918">
+         <unitdatestructured altrender="1673-1918" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1673">1673</fromdate>
                <todate standarddate="1918">1918</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_aff07a401f424356b6155a1933d40168">Scrapbook containing correspondence, legal and financial records, genealogies and newspaper clippings of the Clark family of Saybrook, Connecticut and Darien, New York. The principal figure in the scrapbook is Orlando E. Clark, lawyer, politician and University Regent of Wisconsin, among whose correspondents is Robert M. La Follette. Of special interest among the Connecticut papers is an order from Governor Gurdon Saltonstall to Major John Clark (1718) to suppress the disturbances at Saybrook protesting the removal of Yale College to New Haven.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <famname identifier="http://id.loc.gov/authorities/subjects/sh85026672"
                      source="lcsh">
-               <part>Clark family</part>
+               <part localtype="agent_family">Clark family</part>
             </famname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_d47fee88f5eef0bbce256cf25539c588">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Ballard Clark and Ruth M. Keeney in 1967.</p>  
+         <p>Gift of Ballard Clark and Ruth M. Keeney in 1967.</p>
       </acqinfo>
       <accessrestrict id="aspace_df3ff3776d64aef140d37318a4af9df6">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_39d84e9f0fa22808c3b16d7a57c8e776">
          <head>Preferred Citation</head>
-         <p>Clark Family Papers (MS 679). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Clark Family Papers (MS 679). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <scopecontent id="aspace_065a475f61110d9b0d9a5c6f216f6a95">
          <head>Scope and Contents</head>
          <p>The Clark Family Papers, 1673-1918, consist mainly of these kinds of material: deeds, surveys, commissions, and judicial records, 1673-1872, related to the Clark family of Saybrook, Ct. (1673-1810), and Darien, N.Y. (1815-72), and other inhabitants of those towns; genealogical notes, transcriptions, and correspondence, 1884-1918, related to the ancestry of Orlando Elmer Clark (1850-1919), who traced his descent from John Clark of Saybrook, Ct., Thomas Carter of Woburn, Mass., Nehemiah Wheeler of Acton, Mass., and John Drury of Boston, and of his wife, Leda A. (Ballard) Clark (1854-); personal papers of Orlando E. Clark, a lawyer, politician, and University Regent of Wisconsin; Clark, Wheeler, Drury, and Ballard family letters, 1807-54; and newspaper clippings related to genealogy and local history. The papers are mounted in a scrapbook, with the majority of non-genealogical items in rough chronological order.</p>
          <p>A few items have an interest independent of their connection with the Clark family: a letter, 1725 May 26, from Joseph Talcott (1669-1724) (p. 130); an order of Governor Gurdon Saltonstall (1666-1724) to Major John Clark (1655-1736), 1718 Dec 4, to suppress the disturbances at Saybrook protesting the removal of Yale College to New Haven (p. 203); a Democratic broadside, [1841-44], denouncing Daniel Webster's extravagance as Secretary of State; and three letters, 1901-16, by Robert M. La Follette (1855-1925) to Orlando E. Clark (pp.418-19).</p>
-         <p>The Clark Family Papers were given to Yale University Library by Ballard Clark and Ruth M. Keeney in 1967.</p>  
+         <p>The Clark Family Papers were given to Yale University Library by Ballard Clark and Ruth M. Keeney in 1967.</p>
       </scopecontent>
       <userestrict id="aspace_1db7a43fcfe903b520523fd478dfc7d9">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047009"
                   source="lcsh">
-            <part>Families</part>
+            <part localtype="topical">Families</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/names/no2013086779"
                    source="lcsh">
-            <part>Darien (N.Y. : Town)</part>
+            <part localtype="geographic">Darien (N.Y. : Town)</part>
          </geogname>
          <geogname source="local">
-            <part>Saybrook (Conn.)</part>
+            <part localtype="geographic">Saybrook (Conn.)</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85147099"
                    source="lcsh">
-            <part>Wisconsin -- Politics and government</part>
+            <part localtype="geographic">Wisconsin</part>
+            <part localtype="topical">Politics and government</part>
          </geogname>
          <genreform identifier="http://vocab.getty.edu/aat/300027249" source="aat">
-            <part>Deeds</part>
+            <part localtype="genre_form">Deeds</part>
          </genreform>
          <genreform identifier="http://vocab.getty.edu/aat/300026690" source="aat">
-            <part>Albums (Books)</part>
+            <part localtype="genre_form">Albums (Books)</part>
          </genreform>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85075351"
                   source="lcsh">
-            <part>Lawyers</part>
+            <part localtype="topical">Lawyers</part>
          </subject>
          <occupation source="local">
-            <part>Politicians</part>
+            <part localtype="occupation">Politicians</part>
          </occupation>
          <persname rules="aacr" source="local">
-            <part>Clark, Orlando E., d. 1919</part>
+            <part localtype="agent_person">Clark, Orlando E., d. 1919</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50041743" source="naf">
-            <part>La Follette, Robert M. (Robert Marion), 1855-1925</part>
+            <part localtype="agent_person">La Follette, Robert M. (Robert Marion), 1855-1925</part>
          </persname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85026672"
                   source="lcsh">
-            <part>Clark family</part>
+            <part localtype="agent_family">Clark family</part>
          </famname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- History</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">History</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="file">
+         <c altrender="/repositories/12/archival_objects/1353878"
+            id="ref10"
+            level="file">
             <did>
                <unittitle>Scrapbook of deeds, receipts, correspondence, newspaper clippings, etc.</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1653-1918">
+               <unitdatestructured altrender="1653-1918" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1653">1653</fromdate>
                      <todate standarddate="1918">1918</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="legacy black"
+               <container altrender="/repositories/12/top_containers/151544 /locations/9"
                           containerid="39002042596461"
-                          id="d1e277"
+                          encodinganalog="legacy black"
+                          id="aspace_ref10_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
+               <daoset altrender="/repositories/12/digital_objects/180479">
+                  <dao actuate="onrequest"
+                       daotype="unknown"
+                       href="https://collections.library.yale.edu/manifests/10012277"
+                       identifier="oid:10012277"
+                       linktitle="1 images"
+                       linkrole="text-json"
+                       show="embed"/>
+                  <dao actuate="onrequest"
+                       daotype="unknown"
+                       href="https://collections.library.yale.edu/iiif/2/32300502/full/!150,150/0/default.jpg"
+                       identifier="oid:10012277"
+                       linktitle="An order from Gurdon Saltonstall, Governor of the Connecticut Colony from 1707 to 1724, to Major John Clark of Saybrook, Major of the County of New London."
+                       linkrole="image-thumbnail"
+                       show="embed"/>
+                  <dao actuate="onrequest"
+                       daotype="unknown"
+                       href="https://collections.library.yale.edu/catalog/10012277"
+                       identifier="oid:10012277"
+                       linktitle="An order from Gurdon Saltonstall, Governor of the Connecticut Colony from 1707 to 1724, to Major John Clark of Saybrook, Major of the County of New London."
+                       linkrole="text-html"
+                       show="new"/>
+                  <descriptivenote>
+                     <p>Scrapbook of deeds, receipts, correspondence, newspaper clippings, etc.</p>
+                  </descriptivenote>
+               </daoset>
             </did>
          </c>
       </dsc>

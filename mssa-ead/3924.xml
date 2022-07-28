@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0705">mssa.ms.0705</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0705">mssa.ms.0705</recordid>
+      <otherrecordid localtype="BIB">614297</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Abraham L. Sands Papers
@@ -32,6 +34,11 @@
             <date>February 1974</date>
             <num>MS 705</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>Finding aid created in accordance with Manuscripts and Archives Processing Manual</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-02-12T08:26:51+00:00</eventdatetime>
+            <eventdatetime>2022-07-28T08:53:03+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday February 12, 2020 at 08:26</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 28, 2022 at 08:53</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/3924" level="collection">
       <did>
          <unittitle>Abraham L. Sands papers</unittitle>
          <unitid>MS 705</unitid>
@@ -83,33 +93,32 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box, 1 folio)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1808-1830">
+         <unitdatestructured altrender="1808-1830" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1808">1808</fromdate>
                <todate standarddate="1830">1830</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_f0d32cdc76d391eb825992c9217d31b0">Correspondence, orders, requisitions, legal papers, invoices, and inventories of Abraham L. Sands, Army officer. The papers relate primarily to the routine details of Army life in Florida and the Southeastern U.S. from 1818-1825. Correspondents include John C. Calhoun, Richard K. Call, Henry Dearborn, and James Wilkinson. There is also a small amount of material relating to the Sands and Beekman families.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/n99043977"
                       rules="aacr"
                       source="naf">
-               <part>Sands, Abraham L., 1781-1840</part>
+               <part localtype="agent_person">Sands, Abraham L., 1781-1840</part>
             </persname>
          </origination>
-    
       </did>
       <prefercite id="aspace_d62a79a0dadff9cdbe71b1ec81df1368">
          <head>Preferred Citation</head>
-         <p>Abraham L. Sands Papers (MS 705). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Abraham L. Sands Papers (MS 705). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <acqinfo id="aspace_ec4755d71c0738382f21e33aa3584f02">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Charles and Lindley Eberstadt, 1971.</p>  
+         <p>Gift of Charles and Lindley Eberstadt, 1971.</p>
       </acqinfo>
       <arrangement id="aspace_236253f2b2dddccc984693d33e53ed62">
          <head>Arrangement</head>
-         <p>Arranged in two series: I. Letters, Orders, and Legal Papers. II. Inventories, Invoices, and Requisitions.</p>  
+         <p>Arranged in two series: I. Letters, Orders, and Legal Papers. II. Inventories, Invoices, and Requisitions.</p>
       </arrangement>
       <scopecontent id="aspace_a3e293568099b3b8c51e028fa62b922e">
          <head>Scope and Contents</head>
@@ -125,80 +134,90 @@
          <p>The Papers have been divided into two series: LETTERS, ORDERS, AND LEGAL PAPERS and INVENTORIES, INVOICES, AND REQUISITIONS. Both series are arranged chronologically. In both series the bulk of the material is from the years 1818 to 1823.</p>
          <p>The first series contains material relating to both Sands' personal life and to his military career. This includes correspondence and papers dealing with his movements from post to post in Alabama, Louisiana, and Florida. This series also contains correspondence and papers relating to Sands' efforts to recover some money stolen by three army deserters in 1818. There are also correspondence and legal papers relating to Sands' inheritance from an aunt who was a member of the wealthy Beekman family. Much of the correspondence and orders, however, deal with the routine of army life—obtaining provisions, shelter, and so on.</p>
          <p>The second series, INVENTORIES, INVOICES, AND REQUISITIONS, contains more material concerned with this routine. This series includes inventories of supplies, records of the distribution and return of equipment and uniforms, requisitions for provisions, and bills for various goods and services.</p>
-         <p>There are several correspondents of note in the first series of the Sands Papers. There are two items signed by John Caldwell Calhoun (1818 Oct 2 and 1821 Jul 28). There are also items from Richard Keith Call (1825 Feb 26), Henry Dearborn (1808 Jun 15), and James Wilkinson (1812 Sep 6).</p>  
+         <p>There are several correspondents of note in the first series of the Sands Papers. There are two items signed by John Caldwell Calhoun (1818 Oct 2 and 1821 Jul 28). There are also items from Richard Keith Call (1825 Feb 26), Henry Dearborn (1808 Jun 15), and James Wilkinson (1812 Sep 6).</p>
       </scopecontent>
       <bioghist id="aspace_668f68afc9acad643a04951a4a5c0e39">
          <head>Biographical / Historical</head>
-         <p>Abraham L. Sands: graduated from West Point, 1809; served in the U.S. Army, 1809-1823, resigning with rank of Captain.</p>  
+         <p>Abraham L. Sands: graduated from West Point, 1809; served in the U.S. Army, 1809-1823, resigning with rank of Captain.</p>
       </bioghist>
       <accessrestrict id="aspace_ca58a01db931da9ee3c86e8cd19f6549">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_365be255693874da1009f1fe901225ab">
          <head>Conditions Governing Use</head>
-         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Unpublished materials authored or otherwise produced by the creator(s) of this collection are in the public domain. There are no restrictions on use. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85007241"
                   source="lcsh">
-            <part>Armed Forces</part>
+            <part localtype="topical">Armed Forces</part>
          </subject>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85049234"
                    source="lcsh">
-            <part>Florida -- History -- 1821-1865</part>
+            <part localtype="geographic">Florida</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">1821-1865</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85049231"
                    source="lcsh">
-            <part>Florida -- History -- Spanish colony, 1784-1821</part>
+            <part localtype="geographic">Florida</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">Spanish colony, 1784-1821</part>
          </geogname>
          <geogname identifier="http://id.loc.gov/authorities/subjects/sh85125646"
                    source="lcsh">
-            <part>Southern States -- History -- 1775-1865</part>
+            <part localtype="geographic">Southern States</part>
+            <part localtype="topical">History</part>
+            <part localtype="temporal">1775-1865</part>
          </geogname>
          <occupation source="local">
-            <part>Soldiers</part>
+            <part localtype="occupation">Soldiers</part>
          </occupation>
          <persname identifier="http://id.loc.gov/authorities/names/n79137102" source="naf">
-            <part>Calhoun, John C. (John Caldwell), 1782-1850</part>
+            <part localtype="agent_person">Calhoun, John C. (John Caldwell), 1782-1850</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/nr90001792"
                    rules="aacr"
                    source="naf">
-            <part>Call, R. K. (Richard Keith), 1791-1862</part>
+            <part localtype="agent_person">Call, R. K. (Richard Keith), 1791-1862</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n79055568"
                    rules="aacr"
                    source="naf">
-            <part>Dearborn, Henry, 1751-1829</part>
+            <part localtype="agent_person">Dearborn, Henry, 1751-1829</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n99043977"
                    rules="aacr"
                    source="naf">
-            <part>Sands, Abraham L., 1781-1840</part>
+            <part localtype="agent_person">Sands, Abraham L., 1781-1840</part>
          </persname>
          <persname identifier="http://id.loc.gov/authorities/names/n50018037" source="naf">
-            <part>Wilkinson, James, 1757-1825</part>
+            <part localtype="agent_person">Wilkinson, James, 1757-1825</part>
          </persname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh95003951"
                   source="lcsh">
-            <part>Beekman family</part>
+            <part localtype="agent_family">Beekman family</part>
          </famname>
          <famname identifier="http://id.loc.gov/authorities/subjects/sh85117244"
                   source="lcsh">
-            <part>Sands family</part>
+            <part localtype="agent_family">Sands family</part>
          </famname>
          <corpname identifier="http://id.loc.gov/authorities/subjects/sh85140665"
                    source="lcsh">
-            <part>United States. Army ( Military life)</part>
+            <part localtype="agent_corporate_entity">United States. Army (Military life)</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="series">
+         <c altrender="/repositories/12/archival_objects/1257389"
+            id="ref10"
+            level="series">
             <did>
                <unittitle>Letters, Orders, and Legal Papers</unittitle>
                <unitid>Series I</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1808-1830, undated">
+               <unitdatestructured altrender="1808-1830, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1808">1808</fromdate>
                      <todate standarddate="1830">1830</todate>
@@ -210,279 +229,334 @@
                <p>The letters, orders, and legal papers are arranged chronologically.</p>
                <p>The number of items are contained in parentheses after the date.</p>
             </scopecontent>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/1257390"
+               id="ref12"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1808 (1)">
+                  <unitdatestructured altrender="1808 (1)" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1808">1808</fromdate>
                         <todate standarddate="1808">1808</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e346"
+                             encodinganalog="archive legal"
+                             id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e348" localtype="folder" parent="d1e346">1</container>
+                  <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/1257391"
+               id="ref13"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1812 (1)">
+                  <unitdatestructured altrender="1812 (1)" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1812">1812</fromdate>
                         <todate standarddate="1812">1812</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e362"
+                             encodinganalog="archive legal"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e364" localtype="folder" parent="d1e362">2</container>
+                  <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/1257392"
+               id="ref14"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1813 (1)">
+                  <unitdatestructured altrender="1813 (1)" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1813">1813</fromdate>
                         <todate standarddate="1813">1813</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e378"
+                             encodinganalog="archive legal"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e380" localtype="folder" parent="d1e378">3</container>
+                  <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">3</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/1257393"
+               id="ref15"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1815 (5)">
+                  <unitdatestructured altrender="1815 (5)" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1815">1815</fromdate>
                         <todate standarddate="1815">1815</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e394"
+                             encodinganalog="archive legal"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e396" localtype="folder" parent="d1e394">4</container>
+                  <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">4</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/1257394"
+               id="ref16"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1816 (2)">
+                  <unitdatestructured altrender="1816 (2)" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1816">1816</fromdate>
                         <todate standarddate="1816">1816</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e410"
+                             encodinganalog="archive legal"
+                             id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e412" localtype="folder" parent="d1e410">5</container>
+                  <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">5</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/1257395"
+               id="ref17"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1818 (14)">
+                  <unitdatestructured altrender="1818 (14)" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1818">1818</fromdate>
                         <todate standarddate="1818">1818</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e426"
+                             encodinganalog="archive legal"
+                             id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e428" localtype="folder" parent="d1e426">6</container>
+                  <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">6</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/1257396"
+               id="ref18"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1819 (11)">
+                  <unitdatestructured altrender="1819 (11)" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1819">1819</fromdate>
                         <todate standarddate="1819">1819</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e442"
+                             encodinganalog="archive legal"
+                             id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e444" localtype="folder" parent="d1e442">7</container>
+                  <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">7</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/1257397"
+               id="ref19"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1820 (4)">
+                  <unitdatestructured altrender="1820 (4)" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1820">1820</fromdate>
                         <todate standarddate="1820">1820</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e458"
+                             encodinganalog="archive legal"
+                             id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e460" localtype="folder" parent="d1e458">8</container>
+                  <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">8</container>
                </did>
             </c>
-            <c id="ref20" level="file">
+            <c altrender="/repositories/12/archival_objects/1257398"
+               id="ref20"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1821 (35)">
+                  <unitdatestructured altrender="1821 (35)" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1821">1821</fromdate>
                         <todate standarddate="1821">1821</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e474"
+                             encodinganalog="archive legal"
+                             id="aspace_ref20_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e476" localtype="folder" parent="d1e474">9</container>
+                  <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">9</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/1257399"
+               id="ref21"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1822 (24)">
+                  <unitdatestructured altrender="1822 (24)" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1822">1822</fromdate>
                         <todate standarddate="1822">1822</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e491"
+                             encodinganalog="archive legal"
+                             id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e493" localtype="folder" parent="d1e491">10</container>
+                  <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">10</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/1257400"
+               id="ref22"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1823 (14)">
+                  <unitdatestructured altrender="1823 (14)" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1823">1823</fromdate>
                         <todate standarddate="1823">1823</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e507"
+                             encodinganalog="archive legal"
+                             id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e509" localtype="folder" parent="d1e507">11</container>
+                  <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">11</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/1257401"
+               id="ref23"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1824 (6)">
+                  <unitdatestructured altrender="1824 (6)" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1824">1824</fromdate>
                         <todate standarddate="1824">1824</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e523"
+                             encodinganalog="archive legal"
+                             id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e525" localtype="folder" parent="d1e523">12</container>
+                  <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">12</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/1257402"
+               id="ref24"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1825 (4)">
+                  <unitdatestructured altrender="1825 (4)" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1825">1825</fromdate>
                         <todate standarddate="1825">1825</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e539"
+                             encodinganalog="archive legal"
+                             id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e541" localtype="folder" parent="d1e539">13</container>
+                  <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">13</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/1257403"
+               id="ref25"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1826 (3)">
+                  <unitdatestructured altrender="1826 (3)" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1826">1826</fromdate>
                         <todate standarddate="1826">1826</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e555"
+                             encodinganalog="archive legal"
+                             id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e557" localtype="folder" parent="d1e555">14</container>
+                  <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">14</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/1257404"
+               id="ref26"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1828 (2)">
+                  <unitdatestructured altrender="1828 (2)" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1828">1828</fromdate>
                         <todate standarddate="1828">1828</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e571"
+                             encodinganalog="archive legal"
+                             id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e573" localtype="folder" parent="d1e571">15</container>
+                  <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">15</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/1257405"
+               id="ref27"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1830 (1)">
+                  <unitdatestructured altrender="1830 (1)" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1830">1830</fromdate>
                         <todate standarddate="1830">1830</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e587"
+                             encodinganalog="archive legal"
+                             id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e589" localtype="folder" parent="d1e587">16</container>
+                  <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">16</container>
                </did>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/1257406"
+               id="ref28"
+               level="file">
                <did>
-                  <unitdate unitdatetype="inclusive">Undated (3)</unitdate>
-                  <container altrender="archive legal"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated (3)</unitdate>
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e597"
+                             encodinganalog="archive legal"
+                             id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e599" localtype="folder" parent="d1e597">17</container>
+                  <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">17</container>
                </did>
             </c>
          </c>
-         <c id="ref30" level="series">
+         <c altrender="/repositories/12/archival_objects/1257407"
+            id="ref30"
+            level="series">
             <did>
                <unittitle>Inventories, Invoices, and Requisitions</unittitle>
                <unitid>Series II</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1815-1823, undated">
+               <unitdatestructured altrender="1815-1823, undated"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1815">1815</fromdate>
                      <todate standarddate="1823">1823</todate>
@@ -493,112 +567,139 @@
                <head>Scope and Contents</head>
                <p>The inventories, invoices, and requisitions are arranged chronologically.</p>
             </scopecontent>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/1257408"
+               id="ref32"
+               level="file">
                <did>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1815-1823, undated">
+                  <unitdatestructured altrender="1815-1823, undated"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1815">1815</fromdate>
                         <todate standarddate="1823">1823</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/143105 /locations/9"
                              containerid="39002042273491"
-                             id="d1e634"
+                             encodinganalog="archive legal"
+                             id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e636" localtype="folder" parent="d1e634">18-26</container>
+                  <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">18-26</container>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/1257409"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>Oversize</unittitle>
                </did>
-               <c id="ref34" level="file">
+               <c altrender="/repositories/12/archival_objects/1257410"
+                  id="ref34"
+                  level="file">
                   <did>
                      <unittitle>Financial account listing</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1817">
+                     <unitdatestructured altrender="1817" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1817">1817</fromdate>
                            <todate standarddate="1817">1817</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042607201"
-                                id="d1e658"
+                     <container altrender="/repositories/12/top_containers/143106 /locations/9"
+                                containerid="39002042607201"
+                                id="aspace_ref34_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                   </did>
                </c>
-               <c id="ref35" level="file">
+               <c altrender="/repositories/12/archival_objects/1257411"
+                  id="ref35"
+                  level="file">
                   <did>
                      <unittitle>Recruiting account</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1817">
+                     <unitdatestructured altrender="1817" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1817">1817</fromdate>
                            <todate standarddate="1817">1817</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042607201"
-                                id="d1e674"
+                     <container altrender="/repositories/12/top_containers/143106 /locations/9"
+                                containerid="39002042607201"
+                                id="aspace_ref35_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                   </did>
                </c>
-               <c id="ref36" level="file">
+               <c altrender="/repositories/12/archival_objects/1257412"
+                  id="ref36"
+                  level="file">
                   <did>
                      <unittitle>Soldier list including ranks</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1817">
+                     <unitdatestructured altrender="1817" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1817">1817</fromdate>
                            <todate standarddate="1817">1817</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042607201"
-                                id="d1e690"
+                     <container altrender="/repositories/12/top_containers/143106 /locations/9"
+                                containerid="39002042607201"
+                                id="aspace_ref36_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                   </did>
                </c>
-               <c id="ref37" level="file">
+               <c altrender="/repositories/12/archival_objects/1257413"
+                  id="ref37"
+                  level="file">
                   <did>
                      <unittitle>Abstracts (9) of distribution and return of equipment and uniforms</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1817, 1821">
+                     <unitdatestructured altrender="1817, 1821" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1817">1817</fromdate>
                            <todate standarddate="1821">1821</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042607201"
-                                id="d1e706"
+                     <container altrender="/repositories/12/top_containers/143106 /locations/9"
+                                containerid="39002042607201"
+                                id="aspace_ref37_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                   </did>
                </c>
-               <c id="ref38" level="file">
+               <c altrender="/repositories/12/archival_objects/1257414"
+                  id="ref38"
+                  level="file">
                   <did>
                      <unittitle>Requisitions for provisions (3)</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="Circa 1817-1821">
+                     <unitdatestructured altrender="Circa 1817-1821"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1812">1812</fromdate>
                            <todate standarddate="1821">1821</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042607201"
-                                id="d1e722"
+                     <container altrender="/repositories/12/top_containers/143106 /locations/9"
+                                containerid="39002042607201"
+                                id="aspace_ref38_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                   </did>
                </c>
-               <c id="ref39" level="file">
+               <c altrender="/repositories/12/archival_objects/1257415"
+                  id="ref39"
+                  level="file">
                   <did>
                      <unittitle>Certificate to Captain Sands</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1820">
+                     <unitdatestructured altrender="1820" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1820">1820</fromdate>
                            <todate standarddate="1820">1820</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container containerid="39002042607201"
-                                id="d1e738"
+                     <container altrender="/repositories/12/top_containers/143106 /locations/9"
+                                containerid="39002042607201"
+                                id="aspace_ref39_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                   </did>
