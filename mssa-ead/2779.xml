@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,7 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.0164">mssa.ru.0164</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.0164">mssa.ru.0164</recordid>
       <otherrecordid localtype="BIB">614271</otherrecordid>
       <filedesc>
          <titlestmt>
@@ -38,7 +39,7 @@
                <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
             </controlnote>
             <controlnote localtype="digital">
-               <p>This collection contains <num localtype="objects" altrender="2">2</num> published digital objects.</p>
+               <p>This collection contains <num localtype="objects" altrender="2">2</num> published digital objects. And those objects are comprised of <num localtype="files" altrender="2">2</num> digital files.</p>
             </controlnote>
          </notestmt>
       </filedesc>
@@ -71,10 +72,10 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2022-03-22T07:01:07+00:00</eventdatetime>
+            <eventdatetime>2022-07-29T10:02:58+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.7.1.yale.20200820</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday March 22, 2022 at 07:01</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Friday July 29, 2022 at 10:02</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -179,7 +180,18 @@
                      <todate standarddate="1984">1984</todate>
                   </daterange>
                </unitdatestructured>
-               <container localtype="box" id="d5e4">1–2</container>
+               <container altrender="/repositories/12/top_containers/104699 /locations/9"
+                          containerid="39002052009629"
+                          encodinganalog="archive letter"
+                          id="aspace_ref1463_c1"
+                          label="Mixed Materials"
+                          localtype="box">2</container>
+               <container altrender="/repositories/12/top_containers/104700 /locations/9"
+                          containerid="39002052009637"
+                          encodinganalog="archive letter"
+                          id="aspace_ref1463_c2"
+                          label="Mixed Materials"
+                          localtype="box">1</container>
             </did>
             <accessrestrict id="aspace_234d6239129bfac936e84b7b6184118c"
                             localtype="RestrictedSpecColl">
@@ -7284,6 +7296,32 @@
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref448_c2" localtype="folder" parent="aspace_ref448_c1">3</container>
+                  <daoset altrender="/repositories/12/digital_objects/182689">
+                     <dao actuate="onrequest"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10019874"
+                          identifier="oid:10019874"
+                          linktitle="1 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/32294531/full/!150,150/0/default.jpg"
+                          identifier="oid:10019874"
+                          linktitle="Letter from Daniel Turner to Thomas Clap."
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10019874"
+                          identifier="oid:10019874"
+                          linktitle="Letter from Daniel Turner to Thomas Clap."
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>ALS D. Turner to Thomas Clap</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/12/archival_objects/882496"
@@ -7560,6 +7598,32 @@
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref463_c2" localtype="folder" parent="aspace_ref463_c1">18</container>
+                  <daoset altrender="/repositories/12/digital_objects/182687">
+                     <dao actuate="onrequest"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10019875"
+                          identifier="oid:10019875"
+                          linktitle="1 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/32275847/full/!150,150/0/default.jpg"
+                          identifier="oid:10019875"
+                          linktitle="First page of The Connecticut Gazette dated Oct. 18,1755."
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10019875"
+                          identifier="oid:10019875"
+                          linktitle="First page of The Connecticut Gazette dated Oct. 18,1755."
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>The Connecticut Gazette</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/12/archival_objects/882511"

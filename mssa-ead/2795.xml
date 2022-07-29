@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,7 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.0274">mssa.ru.0274</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.0274">mssa.ru.0274</recordid>
       <otherrecordid localtype="BIB">616693</otherrecordid>
       <filedesc>
          <titlestmt>
@@ -38,7 +39,7 @@
                <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
             </controlnote>
             <controlnote localtype="digital">
-               <p>This collection contains <num localtype="objects" altrender="4">4</num> published digital objects.</p>
+               <p>This collection contains <num localtype="objects" altrender="2">2</num> published digital objects. And those objects are comprised of <num localtype="files" altrender="4">4</num> digital files.</p>
             </controlnote>
          </notestmt>
       </filedesc>
@@ -71,10 +72,10 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2022-02-18T08:04:52+00:00</eventdatetime>
+            <eventdatetime>2022-07-29T10:30:55+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.7.1.yale.20200820</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Friday February 18, 2022 at 08:04</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Friday July 29, 2022 at 10:30</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -91,14 +92,14 @@
             <language langcode="eng">English</language>
          </langmaterial>
          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
-            <quantity>67.75</quantity>
+            <quantity>78.25</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <physdesc localtype="container_summary">(176 boxes)</physdesc>
-         <unitdatestructured altrender="1848-1979" label="creation" unitdatetype="inclusive">
+         <physdesc localtype="container_summary">(188 boxes)</physdesc>
+         <unitdatestructured altrender="1848-2010" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1848">1848</fromdate>
-               <todate standarddate="1979">1979</todate>
+               <todate standarddate="2010">2010</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_0b1601a6048f1727cac51a66ee87817f">The records consist of correspondence, observation books, memoranda, and research notes documenting the activities and operations of the Yale Department of Astronomy. Included are subject files maintained by the directors of the Yale Observatory.</abstract>
@@ -149,9 +150,10 @@
          <head>General note</head>
          <p>Forms part of Yale Record Group 14-B (YRG 14-B), Records of academic departments and programs of the Yale Faculty of Arts and Sciences.</p>
       </odd>
-      <accessrestrict id="aspace_90ac3497d3d045959e9a55601a42b5f9">
+      <accessrestrict id="aspace_90ac3497d3d045959e9a55601a42b5f9"
+                      localtype="RestrictedSpecColl">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>
+         <p>The materials are partially restricted.  See Collection Contents for details.</p>
       </accessrestrict>
       <prefercite id="aspace_b3c1bb69e64f74d6ba8218900100501b">
          <head>Preferred Citation</head>
@@ -1566,6 +1568,32 @@
                                    label="Mixed Materials"
                                    localtype="box">9</container>
                         <container id="aspace_ref97_c2" localtype="folder" parent="aspace_ref97_c1">95</container>
+                        <daoset altrender="/repositories/12/digital_objects/182538">
+                           <dao actuate="onrequest"
+                                daotype="unknown"
+                                href="https://collections.library.yale.edu/manifests/10019135"
+                                identifier="oid:10019135"
+                                linktitle="2 images"
+                                linkrole="text-json"
+                                show="embed"/>
+                           <dao actuate="onrequest"
+                                daotype="unknown"
+                                href="https://collections.library.yale.edu/iiif/2/32276728/full/!150,150/0/default.jpg"
+                                identifier="oid:10019135"
+                                linktitle="Map from Professor Newton’s manuscript on the Weston meteorite."
+                                linkrole="image-thumbnail"
+                                show="embed"/>
+                           <dao actuate="onrequest"
+                                daotype="unknown"
+                                href="https://collections.library.yale.edu/catalog/10019135"
+                                identifier="oid:10019135"
+                                linktitle="Map from Professor Newton’s manuscript on the Weston meteorite."
+                                linkrole="text-html"
+                                show="new"/>
+                           <descriptivenote>
+                              <p>[77] Meteor path determination introduction</p>
+                           </descriptivenote>
+                        </daoset>
                      </did>
                   </c>
                   <c altrender="/repositories/12/archival_objects/905076"
@@ -1668,6 +1696,32 @@
                                    label="Mixed Materials"
                                    localtype="box">11</container>
                         <container id="aspace_ref103_c2" localtype="folder" parent="aspace_ref103_c1">101</container>
+                        <daoset altrender="/repositories/12/digital_objects/182537">
+                           <dao actuate="onrequest"
+                                daotype="unknown"
+                                href="https://collections.library.yale.edu/manifests/10019134"
+                                identifier="oid:10019134"
+                                linktitle="2 images"
+                                linkrole="text-json"
+                                show="embed"/>
+                           <dao actuate="onrequest"
+                                daotype="unknown"
+                                href="https://collections.library.yale.edu/iiif/2/32288322/full/!150,150/0/default.jpg"
+                                identifier="oid:10019134"
+                                linktitle="Demonstration of second question on triangles."
+                                linkrole="image-thumbnail"
+                                show="embed"/>
+                           <dao actuate="onrequest"
+                                daotype="unknown"
+                                href="https://collections.library.yale.edu/catalog/10019134"
+                                identifier="oid:10019134"
+                                linktitle="Demonstration of second question on triangles."
+                                linkrole="text-html"
+                                show="new"/>
+                           <descriptivenote>
+                              <p>[83] 1807 Dec 14 Misc. Disc. and Comp. undated</p>
+                           </descriptivenote>
+                        </daoset>
                      </did>
                   </c>
                   <c altrender="/repositories/12/archival_objects/905082"

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.0108">mssa.ru.0108</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.0108">mssa.ru.0108</recordid>
+      <otherrecordid localtype="BIB">4320188</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the School of Management, Yale University, Student Records
@@ -31,6 +33,11 @@
             <date>February 2007</date>
             <num>RU 108</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -38,8 +45,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -49,7 +59,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -58,21 +68,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-05-14T08:04:31+00:00</eventdatetime>
+            <eventdatetime>2022-07-29T09:45:12+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday May 14, 2020 at 08:04</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>August 2013</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Friday July 29, 2022 at 09:45</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/4542" level="collection">
       <did>
          <unittitle>School of Management, Yale University, student records</unittitle>
          <unitid>RU 108</unitid>
@@ -89,200 +92,238 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(151 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1975-2013">
+         <unitdatestructured altrender="1975-2013" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1975">1975</fromdate>
                <todate standarddate="2013">2013</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_3135e9104e12cddc5e4fd48f2c904f37">The records consist of student files maintained by the Yale School of Management (known as the School of Organization and Management prior to 1995).</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname identifier="http://id.loc.gov/authorities/names/no97026322"
                       source="naf">
-               <part>Yale University. School of Management</part>
+               <part localtype="agent_corporate_entity">Yale University. School of Management</part>
             </corpname>
          </origination>
-    
       </did>
       <odd id="aspace_acab6c14b5f8a41df42e24dd46cfcd1d">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 30-F (YRG 30-F), Student records of the Yale School of Management.</p>  
+         <p>Forms part of Yale Record Group 30-F (YRG 30-F), Student records of the Yale School of Management.</p>
       </odd>
       <acqinfo id="aspace_f27f82868bbced2024edd91b71a238a2">
          <head>Immediate Source of Acquisition</head>
-         <p>The records were transferred from the School of Management, 1991-2013.</p>  
+         <p>The records were transferred from the School of Management, 1991-2013.</p>
       </acqinfo>
       <accessrestrict id="aspace_7eb27be4b223dd50a2c5be678870005c">
          <head>Conditions Governing Access</head>
          <p>The records are restricted. See inventory for details.</p>
-         <p>Some records in this finding aid have been redacted, as they include student names, donor names, and other restricted data. These records will not appear in the published finding aid.</p>  
+         <p>Some records in this finding aid have been redacted, as they include student names, donor names, and other restricted data. These records will not appear in the published finding aid.</p>
       </accessrestrict>
       <prefercite id="aspace_cbc987b0621ad23f37a4b3158c98055a">
          <head>Preferred Citation</head>
-         <p>School of Management, Yale University, Student Records for the Classes of 1978-2008 (RU 108). Manuscripts and Archives, Yale University Library.</p>  
+         <p>School of Management, Yale University, Student Records for the Classes of 1978-2008 (RU 108). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <arrangement id="aspace_7d9a8da2012abf055c5c3101f1d8f333">
          <head>Arrangement</head>
-         <p>The records are arranged by accession.</p>  
+         <p>The records are arranged by accession.</p>
       </arrangement>
       <scopecontent id="aspace_b7566d3e5f46cdeb54ef88561caad282">
          <head>Scope and Contents</head>
-         <p>The records consist of student files maintained by the Yale School of Management (known as the School of Organization and Management prior to 1995).</p>  
+         <p>The records consist of student files maintained by the Yale School of Management (known as the School of Organization and Management prior to 1995).</p>
       </scopecontent>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85018321"
                   source="lcsh">
-            <part>Business students</part>
+            <part localtype="topical">Business students</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85028356"
                   source="lcsh">
-            <part>College students</part>
+            <part localtype="topical">College students</part>
          </subject>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/no97026322"
                    source="naf">
-            <part>Yale University. School of Management</part>
+            <part localtype="agent_corporate_entity">Yale University. School of Management</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n83170583"
                    rules="aacr"
                    source="naf">
-            <part>Yale University. School of Organization and Management</part>
+            <part localtype="agent_corporate_entity">Yale University. School of Organization and Management</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref9" level="series">
+         <c altrender="/repositories/12/archival_objects/1628575"
+            id="ref9"
+            level="series">
             <did>
                <unittitle>Student records for the Classes of 1978-1986</unittitle>
                <unitid>Accession 1992-A-002</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1976-1986">
+               <unitdatestructured altrender="1976-1986" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1976">1976</fromdate>
                      <todate standarddate="1986">1986</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_064f478a1aac3b4856180c36ee8f599f">
+            <accessrestrict id="aspace_064f478a1aac3b4856180c36ee8f599f"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2062</p>
             </accessrestrict>
-            <c id="ref10" level="file">
+            <c altrender="/repositories/12/archival_objects/1628576"
+               id="ref10"
+               level="file">
                <did>
                   <unittitle>Class of 1978</unittitle>
                </did>
             </c>
-            <c id="ref60" level="file">
+            <c altrender="/repositories/12/archival_objects/1628626"
+               id="ref60"
+               level="file">
                <did>
                   <unittitle>Class of 1979</unittitle>
                </did>
             </c>
-            <c id="ref149" level="file">
+            <c altrender="/repositories/12/archival_objects/1628715"
+               id="ref149"
+               level="file">
                <did>
                   <unittitle>Class of 1980</unittitle>
                </did>
             </c>
-            <c id="ref273" level="file">
+            <c altrender="/repositories/12/archival_objects/1628839"
+               id="ref273"
+               level="file">
                <did>
                   <unittitle>Class of 1981</unittitle>
                </did>
             </c>
-            <c id="ref344" level="file">
+            <c altrender="/repositories/12/archival_objects/1628937"
+               id="ref344"
+               level="file">
                <did>
                   <unittitle>Class of 1982</unittitle>
                </did>
             </c>
-            <c id="ref480" level="file">
+            <c altrender="/repositories/12/archival_objects/1629073"
+               id="ref480"
+               level="file">
                <did>
                   <unittitle>Class of 1983</unittitle>
                </did>
             </c>
-            <c id="ref627" level="file">
+            <c altrender="/repositories/12/archival_objects/1629220"
+               id="ref627"
+               level="file">
                <did>
                   <unittitle>Class of 1984</unittitle>
                </did>
             </c>
-            <c id="ref784" level="file">
+            <c altrender="/repositories/12/archival_objects/1629377"
+               id="ref784"
+               level="file">
                <did>
                   <unittitle>Class of 1985</unittitle>
                </did>
             </c>
-            <c id="ref920" level="file">
+            <c altrender="/repositories/12/archival_objects/1629513"
+               id="ref920"
+               level="file">
                <did>
                   <unittitle>Class of 1986</unittitle>
                </did>
             </c>
          </c>
-         <c id="ref1107" level="series">
+         <c altrender="/repositories/12/archival_objects/1629699"
+            id="ref1107"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 1987</unittitle>
                <unitid>Accession 1993-A-013</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1985-1987">
+               <unitdatestructured altrender="1985-1987" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1985">1985</fromdate>
                      <todate standarddate="1987">1987</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_536fe5cc6d00f23c07561202ea15f583">
+            <accessrestrict id="aspace_536fe5cc6d00f23c07561202ea15f583"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2063</p>
             </accessrestrict>
          </c>
-         <c id="ref1297" level="series">
+         <c altrender="/repositories/12/archival_objects/1629888"
+            id="ref1297"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 1988</unittitle>
                <unitid>Accession 1994-A-059</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1986-1988">
+               <unitdatestructured altrender="1986-1988" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1986">1986</fromdate>
                      <todate standarddate="1988">1988</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_147d0b5a572e796b4760c81ddc09caab">
+            <accessrestrict id="aspace_147d0b5a572e796b4760c81ddc09caab"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2064</p>
             </accessrestrict>
-            <c id="ref1471" level="file">
+            <c altrender="/repositories/12/archival_objects/1630062"
+               id="ref1471"
+               level="file">
                <did>
                   <unittitle>Withdrew</unittitle>
                </did>
             </c>
          </c>
-         <c id="ref1487" level="series">
+         <c altrender="/repositories/12/archival_objects/1630077"
+            id="ref1487"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 1989</unittitle>
                <unitid>Accession 1994-A-118</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1987-1989">
+               <unitdatestructured altrender="1987-1989" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1987">1987</fromdate>
                      <todate standarddate="1989">1989</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_ede2dd9168a15f341c6aebe1462358df">
+            <accessrestrict id="aspace_ede2dd9168a15f341c6aebe1462358df"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2065</p>
             </accessrestrict>
-            <c id="ref1677" level="file">
+            <c altrender="/repositories/12/archival_objects/1630267"
+               id="ref1677"
+               level="file">
                <did>
                   <unittitle>Withdrew</unittitle>
                </did>
             </c>
          </c>
-         <c id="ref1683" level="series">
+         <c altrender="/repositories/12/archival_objects/1630272"
+            id="ref1683"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 1990</unittitle>
                <unitid>Accession 1995-A-043</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1988-1990">
+               <unitdatestructured altrender="1988-1990" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1988">1988</fromdate>
                      <todate standarddate="1990">1990</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_1377f6519d5bb4316e51540645f30511">
+            <accessrestrict id="aspace_1377f6519d5bb4316e51540645f30511"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2066</p>
             </accessrestrict>
@@ -290,10 +331,12 @@
                <head>Scope and Contents</head>
                <p>Arranged alphabetically by last name.</p>
             </scopecontent>
-            <c id="ref1850" level="file">
+            <c altrender="/repositories/12/archival_objects/1630439"
+               id="ref1850"
+               level="file">
                <did>
                   <unittitle>WITHDREW</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1988-1990">
+                  <unitdatestructured altrender="1988-1990" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1988">1988</fromdate>
                         <todate standarddate="1990">1990</todate>
@@ -302,55 +345,66 @@
                </did>
             </c>
          </c>
-         <c id="ref1862" level="series">
+         <c altrender="/repositories/12/archival_objects/1630449"
+            id="ref1862"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 1991</unittitle>
                <unitid>Accession 1996-A-062</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1989-1991">
+               <unitdatestructured altrender="1989-1991" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1989">1989</fromdate>
                      <todate standarddate="1991">1991</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_1a3d9e508685bd9fd2cea271bd1ca387">
+            <accessrestrict id="aspace_1a3d9e508685bd9fd2cea271bd1ca387"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2067</p>
             </accessrestrict>
-            <c id="ref2065" level="file">
+            <c altrender="/repositories/12/archival_objects/1630652"
+               id="ref2065"
+               level="file">
                <did>
                   <unittitle>Withdrew</unittitle>
                </did>
             </c>
          </c>
-         <c id="ref2073" level="series">
+         <c altrender="/repositories/12/archival_objects/1630659"
+            id="ref2073"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 1992</unittitle>
                <unitid>Accession 1998-A-012</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1990-1992">
+               <unitdatestructured altrender="1990-1992" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1990">1990</fromdate>
                      <todate standarddate="1992">1992</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_52dd9a7795fc55166fdb66b586086253">
+            <accessrestrict id="aspace_52dd9a7795fc55166fdb66b586086253"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2068</p>
             </accessrestrict>
          </c>
-         <c id="ref2286" level="series">
+         <c altrender="/repositories/12/archival_objects/1630871"
+            id="ref2286"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 1993</unittitle>
                <unitid>Accession 1998-A-106</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1991-1993">
+               <unitdatestructured altrender="1991-1993" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1991">1991</fromdate>
                      <todate standarddate="1993">1993</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_b215ea661514f183ce3f2da27e301bac">
+            <accessrestrict id="aspace_b215ea661514f183ce3f2da27e301bac"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2069</p>
             </accessrestrict>
@@ -358,10 +412,12 @@
                <head>Scope and Contents</head>
                <p>Arranged alphabetically by last name.</p>
             </scopecontent>
-            <c id="ref2488" level="file">
+            <c altrender="/repositories/12/archival_objects/1631073"
+               id="ref2488"
+               level="file">
                <did>
                   <unittitle>WITHDREW</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1991-1993">
+                  <unitdatestructured altrender="1991-1993" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1991">1991</fromdate>
                         <todate standarddate="1993">1993</todate>
@@ -370,18 +426,21 @@
                </did>
             </c>
          </c>
-         <c id="ref2503" level="series">
+         <c altrender="/repositories/12/archival_objects/1631086"
+            id="ref2503"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 1994</unittitle>
                <unitid>Accession 1999-A-090</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1992-1994">
+               <unitdatestructured altrender="1992-1994" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1992">1992</fromdate>
                      <todate standarddate="1994">1994</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_b911c33393acb26f3758c16b6b860c8a">
+            <accessrestrict id="aspace_b911c33393acb26f3758c16b6b860c8a"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2070</p>
             </accessrestrict>
@@ -389,24 +448,29 @@
                <head>Scope and Contents</head>
                <p>Arranged alphabetically by last name.</p>
             </scopecontent>
-            <c id="ref2699" level="file">
+            <c altrender="/repositories/12/archival_objects/1631282"
+               id="ref2699"
+               level="file">
                <did>
                   <unittitle>WITHDREW</unittitle>
                </did>
             </c>
          </c>
-         <c id="ref2715" level="series">
+         <c altrender="/repositories/12/archival_objects/1631296"
+            id="ref2715"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 1995</unittitle>
                <unitid>Accession 2001-A-024</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1993-1995">
+               <unitdatestructured altrender="1993-1995" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1993">1993</fromdate>
                      <todate standarddate="1995">1995</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_ca8c54eb9dd8d45e8d64e29f4feab346">
+            <accessrestrict id="aspace_ca8c54eb9dd8d45e8d64e29f4feab346"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2071</p>
             </accessrestrict>
@@ -414,29 +478,36 @@
                <head>Scope and Contents</head>
                <p>Arranged alphabetically by last name.</p>
             </scopecontent>
-            <c id="ref2926" level="file">
+            <c altrender="/repositories/12/archival_objects/1631507"
+               id="ref2926"
+               level="file">
                <did>
                   <unittitle>WITHDREW</unittitle>
                </did>
             </c>
-            <c id="ref2935" level="file">
+            <c altrender="/repositories/12/archival_objects/1631516"
+               id="ref2935"
+               level="file">
                <did>
                   <unittitle>DECEASED</unittitle>
                </did>
             </c>
          </c>
-         <c id="ref2939" level="series">
+         <c altrender="/repositories/12/archival_objects/1631518"
+            id="ref2939"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 1996</unittitle>
                <unitid>Accession 2001-A-134</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1994-1996">
+               <unitdatestructured altrender="1994-1996" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1994">1994</fromdate>
                      <todate standarddate="1996">1996</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_b7b5cae8ed32ba2dca7ba0fc70f959f1">
+            <accessrestrict id="aspace_b7b5cae8ed32ba2dca7ba0fc70f959f1"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2072</p>
             </accessrestrict>
@@ -444,24 +515,29 @@
                <head>Scope and Contents</head>
                <p>Arranged alphabetically by last name.</p>
             </scopecontent>
-            <c id="ref3152" level="file">
+            <c altrender="/repositories/12/archival_objects/1631731"
+               id="ref3152"
+               level="file">
                <did>
                   <unittitle>Withdrew</unittitle>
                </did>
             </c>
          </c>
-         <c id="ref3157" level="series">
+         <c altrender="/repositories/12/archival_objects/1631734"
+            id="ref3157"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 1997</unittitle>
                <unitid>Accession 2003-A-005</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1995-1997">
+               <unitdatestructured altrender="1995-1997" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1995">1995</fromdate>
                      <todate standarddate="1997">1997</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_ad31e0980d714c4dd9545951b221ef64">
+            <accessrestrict id="aspace_ad31e0980d714c4dd9545951b221ef64"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2073</p>
             </accessrestrict>
@@ -469,24 +545,29 @@
                <head>Scope and Contents</head>
                <p>Arranged alphabetically by last name.</p>
             </scopecontent>
-            <c id="ref3377" level="file">
+            <c altrender="/repositories/12/archival_objects/1631954"
+               id="ref3377"
+               level="file">
                <did>
                   <unittitle>WITHDRAWN</unittitle>
                </did>
             </c>
          </c>
-         <c id="ref3385" level="series">
+         <c altrender="/repositories/12/archival_objects/1631960"
+            id="ref3385"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 1998</unittitle>
                <unitid>Accession 2004-A-071</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1996-1998">
+               <unitdatestructured altrender="1996-1998" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1996">1996</fromdate>
                      <todate standarddate="1998">1998</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_5d6f5634a0d57bc6db4d2102c556e69d">
+            <accessrestrict id="aspace_5d6f5634a0d57bc6db4d2102c556e69d"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2074</p>
             </accessrestrict>
@@ -494,29 +575,36 @@
                <head>Scope and Contents</head>
                <p>Arranged alphabetically by last name.</p>
             </scopecontent>
-            <c id="ref3613" level="file">
+            <c altrender="/repositories/12/archival_objects/1632188"
+               id="ref3613"
+               level="file">
                <did>
                   <unittitle>WITHDREW</unittitle>
                </did>
             </c>
-            <c id="ref3618" level="file">
+            <c altrender="/repositories/12/archival_objects/1632193"
+               id="ref3618"
+               level="file">
                <did>
                   <unittitle>DECEASED</unittitle>
                </did>
             </c>
          </c>
-         <c id="ref3622" level="series">
+         <c altrender="/repositories/12/archival_objects/1632195"
+            id="ref3622"
+            level="series">
             <did>
                <unittitle>Student admission records</unittitle>
                <unitid>Accession 2004-A-078</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1993-2002">
+               <unitdatestructured altrender="1993-2002" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1993">1993</fromdate>
                      <todate standarddate="2002">2002</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_cbbce9bb89b78c45a3bd4d0e55ee8047">
+            <accessrestrict id="aspace_cbbce9bb89b78c45a3bd4d0e55ee8047"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2077</p>
             </accessrestrict>
@@ -524,69 +612,92 @@
                <head>Scope and Contents</head>
                <p>Arranged alphabetically by last name.</p>
             </scopecontent>
-            <c id="ref3623" level="file">
+            <c altrender="/repositories/12/archival_objects/1632196"
+               id="ref3623"
+               level="file">
                <did>
                   <unittitle>Class of 1993</unittitle>
                </did>
             </c>
-            <c id="ref3834" level="file">
+            <c altrender="/repositories/12/archival_objects/1632407"
+               id="ref3834"
+               level="file">
                <did>
                   <unittitle>Class of 1994</unittitle>
                </did>
             </c>
-            <c id="ref4035" level="file">
+            <c altrender="/repositories/12/archival_objects/1632608"
+               id="ref4035"
+               level="file">
                <did>
                   <unittitle>Class of 1995</unittitle>
                </did>
             </c>
-            <c id="ref4259" level="file">
+            <c altrender="/repositories/12/archival_objects/1632832"
+               id="ref4259"
+               level="file">
                <did>
                   <unittitle>Class of 1996</unittitle>
                </did>
             </c>
-            <c id="ref4477" level="file">
+            <c altrender="/repositories/12/archival_objects/1633050"
+               id="ref4477"
+               level="file">
                <did>
                   <unittitle>Class of 1997</unittitle>
                </did>
             </c>
-            <c id="ref4701" level="file">
+            <c altrender="/repositories/12/archival_objects/1633274"
+               id="ref4701"
+               level="file">
                <did>
                   <unittitle>Class of 1998</unittitle>
                </did>
             </c>
-            <c id="ref4929" level="file">
+            <c altrender="/repositories/12/archival_objects/1633502"
+               id="ref4929"
+               level="file">
                <did>
                   <unittitle>Class of 1999</unittitle>
                </did>
             </c>
-            <c id="ref5147" level="file">
+            <c altrender="/repositories/12/archival_objects/1633720"
+               id="ref5147"
+               level="file">
                <did>
                   <unittitle>Class of 2000</unittitle>
                </did>
             </c>
-            <c id="ref5362" level="file">
+            <c altrender="/repositories/12/archival_objects/1633935"
+               id="ref5362"
+               level="file">
                <did>
                   <unittitle>Class of 2001</unittitle>
                </did>
             </c>
-            <c id="ref5586" level="file">
+            <c altrender="/repositories/12/archival_objects/1634159"
+               id="ref5586"
+               level="file">
                <did>
                   <unittitle>Class of 2002</unittitle>
                </did>
             </c>
          </c>
-         <c id="ref5807" level="series">
+         <c altrender="/repositories/12/archival_objects/1634378"
+            id="ref5807"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 1999</unittitle>
                <unitid>Accession 2005-A-135</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1997-1999">
+               <unitdatestructured altrender="1997-1999" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1997">1997</fromdate>
                      <todate standarddate="1999">1999</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_b352130189c58d97938049a6eb6d0d25">
+            <accessrestrict id="aspace_b352130189c58d97938049a6eb6d0d25"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2075</p>
             </accessrestrict>
@@ -595,18 +706,21 @@
                <p>Arranged alphabetically by last name.</p>
             </scopecontent>
          </c>
-         <c id="ref5983" level="series">
+         <c altrender="/repositories/12/archival_objects/1634552"
+            id="ref5983"
+            level="series">
             <did>
                <unittitle>Student records for the Classes of 2000-2001</unittitle>
                <unitid>Accession 2007-A-149</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1998-2001">
+               <unitdatestructured altrender="1998-2001" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1998">1998</fromdate>
                      <todate standarddate="2001">2001</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_ba2eaf0bdd9ea7027adc54f888b6d2c9">
+            <accessrestrict id="aspace_ba2eaf0bdd9ea7027adc54f888b6d2c9"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2077</p>
             </accessrestrict>
@@ -614,84 +728,107 @@
                <head>Scope and Contents</head>
                <p>Arranged alphabetically by last name.</p>
             </scopecontent>
-            <c id="ref5984" level="file">
+            <c altrender="/repositories/12/archival_objects/1634553"
+               id="ref5984"
+               level="file">
                <did>
                   <unittitle>Class of 2000</unittitle>
                </did>
-               <c id="ref6184" level="file">
+               <c altrender="/repositories/12/archival_objects/1634753"
+                  id="ref6184"
+                  level="file">
                   <did>
                      <unittitle>Withdrew:</unittitle>
                   </did>
                </c>
             </c>
-            <c id="ref6195" level="file">
+            <c altrender="/repositories/12/archival_objects/1634764"
+               id="ref6195"
+               level="file">
                <did>
                   <unittitle>Class of 2001</unittitle>
                </did>
-               <c id="ref6421" level="file">
+               <c altrender="/repositories/12/archival_objects/1634990"
+                  id="ref6421"
+                  level="file">
                   <did>
                      <unittitle>Withdrawns:</unittitle>
                   </did>
                </c>
             </c>
          </c>
-         <c id="ref6427" level="series">
+         <c altrender="/repositories/12/archival_objects/1634994"
+            id="ref6427"
+            level="series">
             <did>
                <unittitle>Student records for the Classes of 2003-2005</unittitle>
                <unitid>Accession 2007-A-062</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="2001-2005">
+               <unitdatestructured altrender="2001-2005" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="2001">2001</fromdate>
                      <todate standarddate="2005">2005</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_d4b06cbad0056f8f0a55f81ebd1297fd">
+            <accessrestrict id="aspace_d4b06cbad0056f8f0a55f81ebd1297fd"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2081</p>
             </accessrestrict>
-            <c id="ref6428" level="file">
+            <c altrender="/repositories/12/archival_objects/1634995"
+               id="ref6428"
+               level="file">
                <did>
                   <unittitle>Class of 2003</unittitle>
                </did>
             </c>
-            <c id="ref6663" level="file">
+            <c altrender="/repositories/12/archival_objects/1635230"
+               id="ref6663"
+               level="file">
                <did>
                   <unittitle>Class of 2004</unittitle>
                </did>
             </c>
-            <c id="ref6903" level="file">
+            <c altrender="/repositories/12/archival_objects/1635470"
+               id="ref6903"
+               level="file">
                <did>
                   <unittitle>Class of 2005</unittitle>
                </did>
             </c>
          </c>
-         <c id="ref7142" level="series">
+         <c altrender="/repositories/12/archival_objects/1635708"
+            id="ref7142"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 2006</unittitle>
                <unitid>Accession 2008-A-003</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="2004-2006">
+               <unitdatestructured altrender="2004-2006" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="2004">2004</fromdate>
                      <todate standarddate="2006">2006</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_ce2818882aeb56af8f19ed55541de147">
+            <accessrestrict id="aspace_ce2818882aeb56af8f19ed55541de147"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2082</p>
             </accessrestrict>
-            <c id="ref7358" level="file">
+            <c altrender="/repositories/12/archival_objects/1635924"
+               id="ref7358"
+               level="file">
                <did>
                   <unittitle>Enrollment forms</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="2004-2006">
+                  <unitdatestructured altrender="2004-2006" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="2004">2004</fromdate>
                         <todate standarddate="2006">2006</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/172972 /locations/9"
                              containerid="39002075317694"
+                             encodinganalog="Paige 15"
                              id="aspace_ref7358_c1"
                              label="Mixed Materials"
                              localtype="box">4</container>
@@ -701,110 +838,137 @@
                </did>
             </c>
          </c>
-         <c id="ref7360" level="series">
+         <c altrender="/repositories/12/archival_objects/1635925"
+            id="ref7360"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 2002</unittitle>
                <unitid>Accession 2008-A-100</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="2000-2002">
+               <unitdatestructured altrender="2000-2002" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="2000">2000</fromdate>
                      <todate standarddate="2002">2002</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_8179693757c0dcb3399aa55e9184947d">
+            <accessrestrict id="aspace_8179693757c0dcb3399aa55e9184947d"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2078</p>
             </accessrestrict>
-            <c id="ref7557" level="file">
+            <c altrender="/repositories/12/archival_objects/1636122"
+               id="ref7557"
+               level="file">
                <did>
                   <unittitle>Withdrawns</unittitle>
                </did>
             </c>
          </c>
-         <c id="ref7565" level="series">
+         <c altrender="/repositories/12/archival_objects/1636129"
+            id="ref7565"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 2003</unittitle>
                <unitid>Accession 2009-A-028</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="2001-2003">
+               <unitdatestructured altrender="2001-2003" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="2001">2001</fromdate>
                      <todate standarddate="2003">2003</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_b9277e8a236cb077f92767c84ba8f683">
+            <accessrestrict id="aspace_b9277e8a236cb077f92767c84ba8f683"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>These records are restricted until 2079.</p>
             </accessrestrict>
-            <c id="ref7796" level="file">
+            <c altrender="/repositories/12/archival_objects/1636360"
+               id="ref7796"
+               level="file">
                <did>
                   <unittitle>WITHDRAWN:</unittitle>
                </did>
             </c>
          </c>
-         <c id="ref7803" level="series">
+         <c altrender="/repositories/12/archival_objects/1636367"
+            id="ref7803"
+            level="series">
             <did>
                <unittitle>Student admission records for the Class of 2007</unittitle>
                <unitid>Accession 2009-A-032</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="2005">
+               <unitdatestructured altrender="2005" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="2005">2005</fromdate>
                      <todate standarddate="2005">2005</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_360bafc176af907b06b5abd8198e9131">
+            <accessrestrict id="aspace_360bafc176af907b06b5abd8198e9131"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until January 1, 2083.</p>
             </accessrestrict>
          </c>
-         <c id="ref8010" level="series">
+         <c altrender="/repositories/12/archival_objects/1636574"
+            id="ref8010"
+            level="series">
             <did>
                <unittitle>Student admission records for the Class of 2008</unittitle>
                <unitid>Accession 2010-A-014</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="2006">
+               <unitdatestructured altrender="2006" label="creation" unitdatetype="inclusive">
                   <datesingle standarddate="2006">2006</datesingle>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_c5869c63ea8a916105dcc67d3856d749">
+            <accessrestrict id="aspace_c5869c63ea8a916105dcc67d3856d749"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2082</p>
             </accessrestrict>
          </c>
-         <c id="ref8220" level="series">
+         <c altrender="/repositories/12/archival_objects/1636783"
+            id="ref8220"
+            level="series">
             <did>
                <unittitle>Student records for the Classes of 2004-2005</unittitle>
                <unitid>Accession 2011-A-018</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="2002-2005">
+               <unitdatestructured altrender="2002-2005" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="2002">2002</fromdate>
                      <todate standarddate="2005">2005</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_89cd5bcdf243a23cb02cd6ac71f74eb8">
+            <accessrestrict id="aspace_89cd5bcdf243a23cb02cd6ac71f74eb8"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2081</p>
             </accessrestrict>
-            <c id="ref8222" level="file">
+            <c altrender="/repositories/12/archival_objects/1636784"
+               id="ref8222"
+               level="file">
                <did>
                   <unittitle>Class of 2004</unittitle>
                </did>
-               <c id="ref8448" level="file">
+               <c altrender="/repositories/12/archival_objects/1637010"
+                  id="ref8448"
+                  level="file">
                   <did>
                      <unittitle>WITHDRAWN</unittitle>
                   </did>
                </c>
             </c>
-            <c id="ref8455" level="file">
+            <c altrender="/repositories/12/archival_objects/1637017"
+               id="ref8455"
+               level="file">
                <did>
                   <unittitle>Class of 2005</unittitle>
                </did>
-               <c id="ref8691" level="file">
+               <c altrender="/repositories/12/archival_objects/1637253"
+                  id="ref8691"
+                  level="file">
                   <did>
                      <unittitle>Withdrawals</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="2003-2005">
+                     <unitdatestructured altrender="2003-2005" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="2003">2003</fromdate>
                            <todate standarddate="2005">2005</todate>
@@ -814,158 +978,211 @@
                </c>
             </c>
          </c>
-         <c id="ref8727" level="series">
+         <c altrender="/repositories/12/archival_objects/1637262"
+            id="ref8727"
+            level="series">
             <did>
                <unittitle>Student records for the Classes of 2006-2007</unittitle>
                <unitid>Accession 2012-A-093</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="2005-2012">
+               <unitdatestructured altrender="2005-2012" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="2005">2005</fromdate>
                      <todate standarddate="2012">2012</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_6c17eef011b61296b5ae214425624b66">
+            <accessrestrict id="aspace_6c17eef011b61296b5ae214425624b66"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2087</p>
             </accessrestrict>
-            <c id="ref9166" level="file">
+            <c altrender="/repositories/12/archival_objects/1637263"
+               id="ref9166"
+               level="file">
                <did>
                   <unittitle>Class of 2006</unittitle>
                </did>
-               <c id="ref8944" level="file">
+               <c altrender="/repositories/12/archival_objects/1637479"
+                  id="ref8944"
+                  level="file">
                   <did>
                      <unittitle>New Orleans Universities (1 or 2 semesters only)</unittitle>
                   </did>
                </c>
-               <c id="ref8949" level="file">
+               <c altrender="/repositories/12/archival_objects/1637484"
+                  id="ref8949"
+                  level="file">
                   <did>
                      <unittitle>Withdrawals</unittitle>
                   </did>
                </c>
             </c>
-            <c id="ref9167" level="file">
+            <c altrender="/repositories/12/archival_objects/1637490"
+               id="ref9167"
+               level="file">
                <did>
                   <unittitle>Class of 2007</unittitle>
                </did>
-               <c id="ref9160" level="file">
+               <c altrender="/repositories/12/archival_objects/1637696"
+                  id="ref9160"
+                  level="file">
                   <did>
                      <unittitle>Withdrew/Expelled</unittitle>
                   </did>
                </c>
             </c>
          </c>
-         <c id="ref9571" level="series">
+         <c altrender="/repositories/12/archival_objects/1637702"
+            id="ref9571"
+            level="series">
             <did>
                <unittitle>Student records for the Classes of 2008 and 2009</unittitle>
                <unitid>Accession 2013-A-075</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="2008-2009">
+               <unitdatestructured altrender="2008-2009" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="2008">2008</fromdate>
                      <todate standarddate="2009">2009</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_2ce2b744c02435a3169f37cddf6184bd">
+            <accessrestrict id="aspace_2ce2b744c02435a3169f37cddf6184bd"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until January 1, 2084</p>
             </accessrestrict>
-            <c id="ref9969" level="file">
+            <c altrender="/repositories/12/archival_objects/1637703"
+               id="ref9969"
+               level="file">
                <did>
                   <unittitle>Class of 2008</unittitle>
                </did>
-               <c id="ref9970" level="file">
+               <c altrender="/repositories/12/archival_objects/1637908"
+                  id="ref9970"
+                  level="file">
                   <did>
                      <unittitle>Expelled</unittitle>
                   </did>
                </c>
-               <c id="ref9971" level="file">
+               <c altrender="/repositories/12/archival_objects/1637910"
+                  id="ref9971"
+                  level="file">
                   <did>
                      <unittitle>Withdrawn</unittitle>
                   </did>
                </c>
             </c>
-            <c id="ref9972" level="file">
+            <c altrender="/repositories/12/archival_objects/1637914"
+               id="ref9972"
+               level="file">
                <did>
                   <unittitle>Class of 2009</unittitle>
                </did>
-               <c id="ref9974" level="file">
+               <c altrender="/repositories/12/archival_objects/1638088"
+                  id="ref9974"
+                  level="file">
                   <did>
                      <unittitle>Exchange program</unittitle>
                   </did>
                </c>
-               <c id="ref9973" level="file">
+               <c altrender="/repositories/12/archival_objects/1638100"
+                  id="ref9973"
+                  level="file">
                   <did>
                      <unittitle>Withdrawn</unittitle>
                   </did>
                </c>
             </c>
          </c>
-         <c id="ref9975" level="series">
+         <c altrender="/repositories/12/archival_objects/1638103"
+            id="ref9975"
+            level="series">
             <did>
                <unittitle>Student records for the Classes of 2010-2013</unittitle>
                <unitid>Accession 2014-A-018</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="2007-2013">
+               <unitdatestructured altrender="2007-2013" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="2007">2007</fromdate>
                      <todate standarddate="2013">2013</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_698e1e8d331c6ba6b133e78ec3d8e27c">
+            <accessrestrict id="aspace_698e1e8d331c6ba6b133e78ec3d8e27c"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until January 1, 2088</p>
             </accessrestrict>
-            <c id="ref9977" level="file">
+            <c altrender="/repositories/12/archival_objects/1638104"
+               id="ref9977"
+               level="file">
                <did>
                   <unittitle>Class of 2010</unittitle>
                </did>
-               <c id="ref10168" level="file">
+               <c altrender="/repositories/12/archival_objects/1638295"
+                  id="ref10168"
+                  level="file">
                   <did>
                      <unittitle>Exchange Students</unittitle>
                   </did>
                </c>
-               <c id="ref10182" level="file">
+               <c altrender="/repositories/12/archival_objects/1638309"
+                  id="ref10182"
+                  level="file">
                   <did>
                      <unittitle>Withdrawn</unittitle>
                   </did>
                </c>
             </c>
-            <c id="ref10187" level="file">
+            <c altrender="/repositories/12/archival_objects/1638314"
+               id="ref10187"
+               level="file">
                <did>
                   <unittitle>Class of 2011</unittitle>
                </did>
-               <c id="ref10404" level="file">
+               <c altrender="/repositories/12/archival_objects/1638531"
+                  id="ref10404"
+                  level="file">
                   <did>
                      <unittitle>Exchange Students</unittitle>
                   </did>
                </c>
-               <c id="ref10423" level="file">
+               <c altrender="/repositories/12/archival_objects/1638550"
+                  id="ref10423"
+                  level="file">
                   <did>
                      <unittitle>Withdrawn</unittitle>
                   </did>
                </c>
             </c>
-            <c id="ref10425" level="file">
+            <c altrender="/repositories/12/archival_objects/1638552"
+               id="ref10425"
+               level="file">
                <did>
                   <unittitle>Class of 2012</unittitle>
                </did>
-               <c id="ref10654" level="file">
+               <c altrender="/repositories/12/archival_objects/1638781"
+                  id="ref10654"
+                  level="file">
                   <did>
                      <unittitle>Exchange Students</unittitle>
                   </did>
                </c>
-               <c id="ref10669" level="file">
+               <c altrender="/repositories/12/archival_objects/1638796"
+                  id="ref10669"
+                  level="file">
                   <did>
                      <unittitle>Expelled</unittitle>
                   </did>
                </c>
             </c>
-            <c id="ref10671" level="file">
+            <c altrender="/repositories/12/archival_objects/1638798"
+               id="ref10671"
+               level="file">
                <did>
                   <unittitle>Class of 2013</unittitle>
                </did>
-               <c id="ref10900" level="file">
+               <c altrender="/repositories/12/archival_objects/1639027"
+                  id="ref10900"
+                  level="file">
                   <did>
                      <unittitle>Exchange Students</unittitle>
                   </did>
