@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1022">mssa.ru.1022</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1022">mssa.ru.1022</recordid>
+      <otherrecordid localtype="BIB">7760485</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Detroit Photographic Company Photographs of Yale University Buildings
@@ -32,6 +34,11 @@
             <date>December 2006</date>
             <num>RU 1022</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-23T11:38:12+00:00</eventdatetime>
+            <eventdatetime>2022-07-30T07:42:15+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday January 23, 2020 at 11:38</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>October 2008</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday July 30, 2022 at 07:42</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2328" level="collection">
       <did>
          <unittitle>Detroit Photographic Company photographs of Yale University buildings</unittitle>
          <unitid>RU 1022</unitid>
@@ -90,135 +93,153 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 envelope)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="circa 1901">
+         <unitdatestructured altrender="circa 1901" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1901">1901</fromdate>
                <todate standarddate="1901">1901</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_e74029f66233e2eac9b863b1952e494b">The materials consist of photographic prints (photochromes) produced by the Detroit Photographic Co. of various Yale buildings.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname identifier="http://id.loc.gov/authorities/names/n88079917" source="naf">
-               <part>Detroit Photographic Co</part>
+               <part localtype="agent_corporate_entity">Detroit Photographic Co</part>
             </corpname>
          </origination>
-    
       </did>
       <odd id="aspace_757d4700f2cb527d6fec6c386d84d30f">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 46-A (YRG 46-A), Records and materials broadly documenting Yale buildings, facilities, and grounds.</p>  
+         <p>Forms part of Yale Record Group 46-A (YRG 46-A), Records and materials broadly documenting Yale buildings, facilities, and grounds.</p>
       </odd>
       <acqinfo id="aspace_90a7d068233d4a0d70292ee565f0c4c9">
          <head>Immediate Source of Acquisition</head>
-         <p>The materials were a gift of Justin Isreal, 2006</p>  
+         <p>The materials were a gift of Justin Isreal, 2006</p>
       </acqinfo>
       <userestrict id="aspace_d95b2da820d0b6ed1f016a0d9149517a">
          <head>Conditions Governing Use</head>
-         <p>Copyright has not been transferred to Yale University.</p>  
+         <p>Copyright has not been transferred to Yale University.</p>
       </userestrict>
       <prefercite id="aspace_654aa6ea30aa142aa2f8bd47e2e646b7">
          <head>Preferred Citation</head>
-         <p>Detroit Photographic Company Photographs of Yale University Buildings (RU 1022). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Detroit Photographic Company Photographs of Yale University Buildings (RU 1022). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <arrangement id="aspace_b558785ae7be42a7956bd263dbe36bd2">
          <head>Arrangement</head>
-         <p>The materials are arranged alphabetically by building name.</p>  
+         <p>The materials are arranged alphabetically by building name.</p>
       </arrangement>
       <scopecontent id="aspace_3904e4666d1451e6d59367566269594b">
          <head>Scope and Contents</head>
-         <p>The materials consist of photographic prints (photochromes) produced by the Detroit Photographic Co. of varous Yale buildings.</p>  
+         <p>The materials consist of photographic prints (photochromes) produced by the Detroit Photographic Co. of varous Yale buildings.</p>
       </scopecontent>
       <controlaccess>
          <genreform identifier="http://vocab.getty.edu/aat/300266377" source="aat">
-            <part>Crystoleums (photographs)</part>
+            <part localtype="genre_form">Crystoleums (photographs)</part>
          </genreform>
          <corpname identifier="http://id.loc.gov/authorities/names/n88079917" source="naf">
-            <part>Detroit Photographic Co</part>
+            <part localtype="agent_corporate_entity">Detroit Photographic Co</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Buildings</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Buildings</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref9" level="series">
+         <c altrender="/repositories/12/archival_objects/787735"
+            id="ref9"
+            level="series">
             <did>
                <unittitle>Photographs</unittitle>
                <unitid>Accession 2007-A-104</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="circa 1901">
+               <unitdatestructured altrender="circa 1901" label="creation" unitdatetype="inclusive">
                   <datesingle standarddate="1901">circa 1901</datesingle>
                </unitdatestructured>
             </did>
-            <c id="ref10" level="file">
+            <c altrender="/repositories/12/archival_objects/787736"
+               id="ref10"
+               level="file">
                <did>
                   <unittitle>Old Library</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="circa 1901">
+                  <unitdatestructured altrender="circa 1901" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1896">1896</fromdate>
                         <todate standarddate="1906">1906</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002063445788"
-                             id="d1e247"
+                  <container altrender="/repositories/12/top_containers/91742 /locations/9"
+                             containerid="39002063445788"
+                             id="aspace_ref10_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/787737"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>Osborn Hall</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="circa 1901">
+                  <unitdatestructured altrender="circa 1901" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1896">1896</fromdate>
                         <todate standarddate="1906">1906</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002063445788"
-                             id="d1e263"
+                  <container altrender="/repositories/12/top_containers/91742 /locations/9"
+                             containerid="39002063445788"
+                             id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/787738"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Phelps Hall &amp; Gateway</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="circa 1901">
+                  <unitdatestructured altrender="circa 1901" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1896">1896</fromdate>
                         <todate standarddate="1906">1906</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002063445788"
-                             id="d1e279"
+                  <container altrender="/repositories/12/top_containers/91742 /locations/9"
+                             containerid="39002063445788"
+                             id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/787739"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Phelps Hall &amp; Gateway</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="circa 1901">
+                  <unitdatestructured altrender="circa 1901" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1896">1896</fromdate>
                         <todate standarddate="1906">1906</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002063445788"
-                             id="d1e295"
+                  <container altrender="/repositories/12/top_containers/91742 /locations/9"
+                             containerid="39002063445788"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/787740"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Vanderbilt Hall</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="circa 1901">
+                  <unitdatestructured altrender="circa 1901" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1896">1896</fromdate>
                         <todate standarddate="1906">1906</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002063445788"
-                             id="d1e311"
+                  <container altrender="/repositories/12/top_containers/91742 /locations/9"
+                             containerid="39002063445788"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>

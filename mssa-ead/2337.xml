@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1039">mssa.ru.1039</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1039">mssa.ru.1039</recordid>
+      <otherrecordid localtype="BIB">8946069</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Black Tie Society, Yale University, Records
@@ -32,6 +34,11 @@
             <date>August 2009</date>
             <num>RU 1039</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-23T11:39:07+00:00</eventdatetime>
+            <eventdatetime>2022-07-30T07:42:48+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday January 23, 2020 at 11:39</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday July 30, 2022 at 07:42</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2337" level="collection">
       <did>
          <unittitle>Black Tie Society, Yale University, records</unittitle>
          <unitid>RU 1039</unitid>
@@ -83,81 +93,87 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 folder)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1984">
+         <unitdatestructured altrender="1984" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1984">1984</fromdate>
                <todate standarddate="1984">1984</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_d4584e53f843536dee04a9cd1e9b2325">The materials consist of a directory, newsletter, and correspondence.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname rules="aacr" source="local">
-               <part>Yale University. Black Tie Society</part>
+               <part localtype="agent_corporate_entity">Yale University. Black Tie Society</part>
             </corpname>
          </origination>
-    
       </did>
       <odd id="aspace_e9f9887df81d6212eb15d52d14879ac2">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 37 (YRG 37), Records of associations, institutes, centers, and organizations affiliated with Yale University.</p>  
+         <p>Forms part of Yale Record Group 37 (YRG 37), Records of associations, institutes, centers, and organizations affiliated with Yale University.</p>
       </odd>
       <acqinfo id="aspace_8e53c3a75fa5c4cf4afea28e559e51e4">
          <head>Immediate Source of Acquisition</head>
-         <p>The materials were received as part of MS 1945, accession 2009-M-079.</p>  
+         <p>The materials were received as part of MS 1945, accession 2009-M-079.</p>
       </acqinfo>
       <accessrestrict id="aspace_b1122d725a9def4943f786627416d96b">
          <head>Conditions Governing Access</head>
-         <p>Access to the records is restricted. See Collection Contents for details.</p>  
+         <p>Access to the records is restricted. See Collection Contents for details.</p>
       </accessrestrict>
       <userestrict id="aspace_b9799e6b1c4977a2ef03ef3b87032a95">
          <head>Conditions Governing Use</head>
-         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <prefercite id="aspace_d6e6c916f54fe88e224829f8bae76c46">
          <head>Preferred Citation</head>
-         <p>Black Tie Society, Yale University, Records (RU 1039). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Black Tie Society, Yale University, Records (RU 1039). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <processinfo id="aspace_87b7e7a74bb66be1ef51ce619b957cde">
          <head>Processing Information</head>
-         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>  
+         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>
       </processinfo>
       <bioghist id="aspace_41004e6cba6c252d36867bfe6d798879">
          <head>Biographical / Historical</head>
-         <p>Organized by the African American house (now Afro-American Cultural Center) in the 1970s, the Black Tie Society was a program that promoted interaction between African American Studies faculty and students at Yale.</p>  
+         <p>Organized by the African American house (now Afro-American Cultural Center) in the 1970s, the Black Tie Society was a program that promoted interaction between African American Studies faculty and students at Yale.</p>
       </bioghist>
       <scopecontent id="aspace_8fb02548d1fc4ea70f61e01525efb4d0">
          <head>Scope and Contents</head>
-         <p>The materials consist of a directory, newsletter, and correspondence.</p>  
+         <p>The materials consist of a directory, newsletter, and correspondence.</p>
       </scopecontent>
       <arrangement id="aspace_07b224884a14191b83f0cfcc55156bbf">
          <head>Arrangement</head>
-         <p>The records are arranged by type of material.</p>  
+         <p>The records are arranged by type of material.</p>
       </arrangement>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85001821"
                   source="lcsh">
-            <part>African American college students</part>
+            <part localtype="topical">African American college students</part>
          </subject>
          <subject source="local">
-            <part>African Americans -- 20th Century</part>
+            <part localtype="topical">African Americans</part>
+            <part localtype="temporal">20th Century</part>
          </subject>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/no98120680"
                    rules="aacr"
                    source="naf">
-            <part>Yale University. Afro-American Cultural Center</part>
+            <part localtype="agent_corporate_entity">Yale University. Afro-American Cultural Center</part>
          </corpname>
          <corpname rules="aacr" source="local">
-            <part>Yale University. Black Tie Society</part>
+            <part localtype="agent_corporate_entity">Yale University. Black Tie Society</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="series">
+         <c altrender="/repositories/12/archival_objects/787791"
+            id="ref12"
+            level="series">
             <did>
                <unittitle>Black Tie Society records</unittitle>
                <unitid>Accession 2010-A-017</unitid>
@@ -165,46 +181,56 @@
                   <quantity>0.02</quantity>
                   <unittype>Linear Feet</unittype>
                </physdescstructured>
-               <unitdatestructured unitdatetype="inclusive" altrender="1984">
+               <unitdatestructured altrender="1984" label="creation" unitdatetype="inclusive">
                   <datesingle standarddate="1984">1984</datesingle>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_9f9284a95090a8a735be17c4bd707c0c">
+            <accessrestrict id="aspace_9f9284a95090a8a735be17c4bd707c0c"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2020.</p>
             </accessrestrict>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/787792"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Directory</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1984">
+                  <unitdatestructured altrender="1984" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1984">1984</datesingle>
                   </unitdatestructured>
-                  <container containerid="39002074960130"
-                             id="d1e293"
+                  <container altrender="/repositories/12/top_containers/91752 /locations/9"
+                             containerid="39002074960130"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/787793"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Newsletter</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1984">
+                  <unitdatestructured altrender="1984" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1984">1984</datesingle>
                   </unitdatestructured>
-                  <container containerid="39002074960130"
-                             id="d1e306"
+                  <container altrender="/repositories/12/top_containers/91752 /locations/9"
+                             containerid="39002074960130"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/787794"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>Correspondence maintained by Nina Saint</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1984">
+                  <unitdatestructured altrender="1984" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1984">1984</datesingle>
                   </unitdatestructured>
-                  <container containerid="39002074960130"
-                             id="d1e319"
+                  <container altrender="/repositories/12/top_containers/91752 /locations/9"
+                             containerid="39002074960130"
+                             id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>

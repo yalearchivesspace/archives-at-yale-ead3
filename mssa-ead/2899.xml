@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1049">mssa.ru.1049</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1049">mssa.ru.1049</recordid>
+      <otherrecordid localtype="BIB">7870579</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the School of Architecture, Yale University, Student Records
@@ -32,6 +34,11 @@
             <date>May 2007</date>
             <num>RU 1049</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-05-14T07:49:44+00:00</eventdatetime>
+            <eventdatetime>2022-07-30T07:43:07+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday May 14, 2020 at 07:49</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>February 2017</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday July 30, 2022 at 07:43</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2899" level="collection">
       <did>
          <unittitle>School of Architecture, Yale University, student records</unittitle>
          <unitid>RU 1049</unitid>
@@ -90,87 +93,91 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(76 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1916-2007">
+         <unitdatestructured altrender="1916-2007" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1916">1916</fromdate>
                <todate standarddate="2007">2007</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_1e8db81df76f32e85d7b8fdee94ab31f">The records consist of student records maintained by the Yale School of Architecture.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname identifier="http://id.loc.gov/authorities/names/n85810380"
                       rules="aacr"
                       source="naf">
-               <part>Yale University. School of Architecture</part>
+               <part localtype="agent_corporate_entity">Yale University. School of Architecture</part>
             </corpname>
          </origination>
-    
       </did>
       <odd id="aspace_652b25864f3f7632c82af667bf8fcb8b">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 19-F (YRG 19-F), Student records of the Yale School of Architecture.</p>  
+         <p>Forms part of Yale Record Group 19-F (YRG 19-F), Student records of the Yale School of Architecture.</p>
       </odd>
       <acqinfo id="aspace_5d79e21fb6a3ac1c73c5ede5079df9af">
          <head>Immediate Source of Acquisition</head>
-         <p>The records were transferred from the School of Architecture, 2007-2009, 2014, 2016.</p>  
+         <p>The records were transferred from the School of Architecture, 2007-2009, 2014, 2016.</p>
       </acqinfo>
       <accessrestrict id="aspace_4bdd56f75e4ec0b4d303970a3faa5252">
          <head>Conditions Governing Access</head>
          <p>Access to the records is restricted. See Collection Contents for details.</p>
-         <p>Some records in this finding aid have been redacted, as they include student names, donor names, and other restricted data. These records will not appear in the published finding aid.</p>  
+         <p>Some records in this finding aid have been redacted, as they include student names, donor names, and other restricted data. These records will not appear in the published finding aid.</p>
       </accessrestrict>
       <prefercite id="aspace_364a2463205dbccc8d123e11e54a52fe">
          <head>Preferred Citation</head>
-         <p>School of Architecture, Yale University, Student Records (RU 1049). Manuscripts and Archives, Yale University Library.</p>  
+         <p>School of Architecture, Yale University, Student Records (RU 1049). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <arrangement id="aspace_b37176f717a5901fbdd03c749457e2b1">
          <head>Arrangement</head>
-         <p>The records are arranged by accession.</p>  
+         <p>The records are arranged by accession.</p>
       </arrangement>
       <scopecontent id="aspace_349e42c0b14d63b516db2fcebccf7ded">
          <head>Scope and Contents</head>
-         <p>The records consist of student records maintained by the Yale School of Architecture.</p>  
+         <p>The records consist of student records maintained by the Yale School of Architecture.</p>
       </scopecontent>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85028356"
                   source="lcsh">
-            <part>College students</part>
+            <part localtype="topical">College students</part>
          </subject>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/nr95000705"
                    rules="aacr"
                    source="naf">
-            <part>Yale University. School of Architecture and Design</part>
+            <part localtype="agent_corporate_entity">Yale University. School of Architecture and Design</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n85810380"
                    rules="aacr"
                    source="naf">
-            <part>Yale University. School of Architecture</part>
+            <part localtype="agent_corporate_entity">Yale University. School of Architecture</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/nr94003410"
                    rules="aacr"
                    source="naf">
-            <part>Yale University. School of Art and Architecture</part>
+            <part localtype="agent_corporate_entity">Yale University. School of Art and Architecture</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n82104281" source="naf">
-            <part>Yale University. School of Fine Arts</part>
+            <part localtype="agent_corporate_entity">Yale University. School of Fine Arts</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref9" level="series">
+         <c altrender="/repositories/12/archival_objects/1093047"
+            id="ref9"
+            level="series">
             <did>
                <unittitle>Student records</unittitle>
                <unitid>Accession 2007-A-199</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1916-2007">
+               <unitdatestructured altrender="1916-2007" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1916">1916</fromdate>
                      <todate standarddate="2007">2007</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_ab03957aeb1824ef5edea9f0fc0228d8">
+            <accessrestrict id="aspace_ab03957aeb1824ef5edea9f0fc0228d8"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Access to this accession is restricted until 1 January 2083 by Yale University policy. Contact Public Services for information on requesting access to restricted university records.</p>
             </accessrestrict>
@@ -179,32 +186,38 @@
                <p>Arranged alphabetically by last name.</p>
             </scopecontent>
          </c>
-         <c id="ref3694" level="series">
+         <c altrender="/repositories/12/archival_objects/1096730"
+            id="ref3694"
+            level="series">
             <did>
                <unittitle>Student records</unittitle>
                <unitid>Accession 2008-A-193</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="2003">
+               <unitdatestructured altrender="2003" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="2003">2003</fromdate>
                      <todate standarddate="2003">2003</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_3a90c8629121ba2908012006b68380df">
+            <accessrestrict id="aspace_3a90c8629121ba2908012006b68380df"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Access to this accession is restricted until 1 January 2079 by Yale University policy. Contact Public Services for information on requesting access to restricted university records.</p>
             </accessrestrict>
-            <c id="ref3755" level="file">
+            <c altrender="/repositories/12/archival_objects/1096791"
+               id="ref3755"
+               level="file">
                <did>
                   <unittitle>Official transcripts</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="2003">
+                  <unitdatestructured altrender="2003" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="2003">2003</fromdate>
                         <todate standarddate="2003">2003</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/127761 /locations/9"
                              containerid="39002075241217"
+                             encodinganalog="Paige 15"
                              id="aspace_ref3755_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -213,17 +226,20 @@
                              parent="aspace_ref3755_c1">111</container>
                </did>
             </c>
-            <c id="ref3756" level="file">
+            <c altrender="/repositories/12/archival_objects/1096792"
+               id="ref3756"
+               level="file">
                <did>
                   <unittitle>Internal transcripts for 2003 graduates</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="2003">
+                  <unitdatestructured altrender="2003" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="2003">2003</fromdate>
                         <todate standarddate="2003">2003</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="Paige 15"
+                  <container altrender="/repositories/12/top_containers/127761 /locations/9"
                              containerid="39002075241217"
+                             encodinganalog="Paige 15"
                              id="aspace_ref3756_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
@@ -233,15 +249,18 @@
                </did>
             </c>
          </c>
-         <c id="ref3758" level="series">
+         <c altrender="/repositories/12/archival_objects/1096793"
+            id="ref3758"
+            level="series">
             <did>
                <unittitle>C30-a student exams</unittitle>
                <unitid>Accession 2010-A-051</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1981">
+               <unitdatestructured altrender="1981" label="creation" unitdatetype="inclusive">
                   <datesingle standarddate="1981">1981</datesingle>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_beea62df0202a071c16cbf2e741bd516">
+            <accessrestrict id="aspace_beea62df0202a071c16cbf2e741bd516"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Access to this accession is restricted until 1 January 2057 by Yale University policy. Contact Public Services for information on requesting access to restricted university records.</p>
             </accessrestrict>
@@ -253,48 +272,57 @@
                <head>Arrangement</head>
                <p>Arranged alphabetically by student name.</p>
             </arrangement>
-            <c id="ref3759" level="file">
+            <c altrender="/repositories/12/archival_objects/1096794"
+               id="ref3759"
+               level="file">
                <did>
                   <unittitle>C30-a student exams</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1981">
+                  <unitdatestructured altrender="1981" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1981">1981</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/127762 /locations/9"
                              containerid="39002075251885"
+                             encodinganalog="archive half letter"
                              id="aspace_ref3759_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
          </c>
-         <c id="ref3764" level="series">
+         <c altrender="/repositories/12/archival_objects/1096795"
+            id="ref3764"
+            level="series">
             <did>
                <unittitle>Student records for the Class of 2006</unittitle>
                <unitid>Accession 2015-A-004</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="2002-2006">
+               <unitdatestructured altrender="2002-2006" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="2002">2002</fromdate>
                      <todate standarddate="2006">2006</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_4f1637da2f3d9678b93712de6936f75e">
+            <accessrestrict id="aspace_4f1637da2f3d9678b93712de6936f75e"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Access to this accession is restricted until 1 January 2081 by Yale University policy. Contact Public Services for information on requesting access to restricted university records.</p>
             </accessrestrict>
          </c>
-         <c id="aspace_5225762bedb251ef3af7e5b567b1e061" level="series">
+         <c altrender="/repositories/12/archival_objects/2360416"
+            id="aspace_5225762bedb251ef3af7e5b567b1e061"
+            level="series">
             <did>
                <unittitle>Student records of current and former faculty</unittitle>
                <unitid>Accession 2017-A-048</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1947-1999">
+               <unitdatestructured altrender="1947-1999" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1947">1947</fromdate>
                      <todate standarddate="1999">1999</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_7261c3148a0bc0ee31d10677a84de9f4">
+            <accessrestrict id="aspace_7261c3148a0bc0ee31d10677a84de9f4"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Access to this accession is restricted until 1 January 2075 by Yale University policy. Contact Public Services for information on requesting access to restricted university records.</p>
             </accessrestrict>

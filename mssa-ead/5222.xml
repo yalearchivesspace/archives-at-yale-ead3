@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1121">mssa.ru.1121</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1121">mssa.ru.1121</recordid>
+      <otherrecordid localtype="BIB">11123676</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to A Brief History of Bladderball [Research Materials and Essay] by Sarah Hammond
@@ -32,6 +34,11 @@
             <date>November 2012</date>
             <num>RU 1121</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-08-14T09:38:38+00:00</eventdatetime>
+            <eventdatetime>2022-07-30T07:50:47+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Friday August 14, 2020 at 09:38</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday July 30, 2022 at 07:50</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/5222" level="collection">
       <did>
          <unittitle>A Brief History of Bladderball [research materials and essay] by Sarah Hammond</unittitle>
          <unitid>RU 1121</unitid>
@@ -75,298 +85,345 @@
                <part>Manuscripts and Archives</part>
             </corpname>
          </repository>
-    
+         <langmaterial>
+            <language langcode="eng">English</language>
+            <descriptivenote>
+               <p>Materials are in English.</p>
+            </descriptivenote>
+         </langmaterial>
          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
             <quantity>2</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(3 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive">
+         <unitdatestructured label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1879">1879</fromdate>
                <todate standarddate="2009">2009</todate>
             </daterange>
          </unitdatestructured>
-         <langmaterial id="aspace_356569d686f472e631a59cbf3f3f9597">
-            <language>Materials are in English.</language>
-         </langmaterial>
-         <abstract id="aspace_dfc0072a02959e197391ac83c51dca50">The materials consist of research notes, copies of articles, correspondence, outlines, drafts, and other materials compiled by Sarah Hammond (Yale College, 1999) for her senior essay titled, "A Brief History of Bladderball." </abstract>
-         <origination label="creator">
+         <abstract id="aspace_dfc0072a02959e197391ac83c51dca50">The materials consist of research notes, copies of articles, correspondence, outlines, drafts, and other materials compiled by Sarah Hammond (Yale College, 1999) for her senior essay titled, "A Brief History of Bladderball."</abstract>
+         <origination label="Creator">
             <persname identifier="http://id.loc.gov/authorities/names/no2017024029"
                       source="naf">
-               <part>Hammond, Sarah Ruth, 1977-2011</part>
+               <part localtype="agent_person">Hammond, Sarah Ruth, 1977-2011</part>
             </persname>
          </origination>
-    
       </did>
       <bioghist id="aspace_aa7bfc62e2c3936c9d5c8cdcf8d2b75d">
          <head>Biographical / Historical</head>
-         <p>Sarah Ruth Hammond (1977-2011) was born and raised in Oberlin, Ohio. She received her BA degree in 1999, and her PhD in History of American Religion in 2010, both from Yale University. As a Yale undergraduate, Hammond wrote her senior essay on the history of Bladderball, a game traditionally played by Yale students between 1954 and 1982, after which it was banned by the university's administration due to the raucous and sometimes disruptive nature of the game. Hammond received numerous awards as both an undergraduate and graduate student, including the Andrew F. Mellon Fellowship in Humanistic Studies; the Richard J. Franke Interdisciplinary Fellowship; and a Lake Doctoral Dissertation Fellowship from the Lake Institute on Faith and Giving at the Center on Philanthropy at Indiana University. She also worked for several years at the Yale Center for Interdisciplinary Research on AIDS. At the time of her death, Sarah Hammond was a visiting professor at the College of William and Mary.</p>  
+         <p>Sarah Ruth Hammond (1977-2011) was born and raised in Oberlin, Ohio. She received her BA degree in 1999, and her PhD in History of American Religion in 2010, both from Yale University. As a Yale undergraduate, Hammond wrote her senior essay on the history of Bladderball, a game traditionally played by Yale students between 1954 and 1982, after which it was banned by the university's administration due to the raucous and sometimes disruptive nature of the game. Hammond received numerous awards as both an undergraduate and graduate student, including the Andrew F. Mellon Fellowship in Humanistic Studies; the Richard J. Franke Interdisciplinary Fellowship; and a Lake Doctoral Dissertation Fellowship from the Lake Institute on Faith and Giving at the Center on Philanthropy at Indiana University. She also worked for several years at the Yale Center for Interdisciplinary Research on AIDS. At the time of her death, Sarah Hammond was a visiting professor at the College of William and Mary.</p>
       </bioghist>
       <acqinfo id="aspace_bed639528cf2253eb1ba2f836f66f2d8">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of Mary and Steve Hammond, 2012.</p>  
+         <p>Gift of Mary and Steve Hammond, 2012.</p>
       </acqinfo>
       <arrangement id="aspace_3faf938b756edf63644aa472daf8007d">
          <head>Arrangement</head>
-         <p>Materials arranged as received.</p>  
+         <p>Materials arranged as received.</p>
       </arrangement>
       <accessrestrict id="aspace_ae5e7985c3a60f7ec5e2bb54378eb8c2">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_5c60eec5ae898e6a481f5264e43c38fd">
          <head>Preferred Citation</head>
-         <p>A Brief History of Bladderball [research materials and essay] by Sarah Hammond (RU 1121). Manuscripts and Archives, Yale University Library.</p>  
+         <p>A Brief History of Bladderball [research materials and essay] by Sarah Hammond (RU 1121). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <userestrict id="aspace_bc09d5132e9ee572710f9615f6bd5b95">
          <head>Conditions Governing Use</head>
-         <p>Copyright has been transferred to Yale University for unpublished materials authored or otherwise produced by the creator(s) of this collection. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright for unpublished materials authored or otherwise produced by Sarah Hammond has been transferred to Yale University. These materials may be used for non-commercial purposes without seeking permission from Yale University as the copyright holder. For other uses of these materials, please contact mssa.assist@yale.edu.</p>
+         <p>Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <odd id="aspace_1c2d427fc427200452520fd9f99d05a2">
          <head>General</head>
-         <p>Forms part of Yale Record Group 49 (YRG 49), Papers and projects on Yale.</p>  
+         <p>Forms part of Yale Record Group 49 (YRG 49), Papers and projects on Yale.</p>
       </odd>
       <scopecontent id="aspace_715601a84262c214f28684e0a69e5553">
          <head>Scope and Contents</head>
-         <p>The materials consist of research notes, copies of articles, correspondence, outlines, drafts, and other materials compiled by Sarah Hammond (Yale, 1999) for her senior essay titled, "A Brief History of Bladderball."</p>  
+         <p>The materials consist of research notes, copies of articles, correspondence, outlines, drafts, and other materials compiled by Sarah Hammond (Yale, 1999) for her senior essay titled, "A Brief History of Bladderball."</p>
       </scopecontent>
       <controlaccess>
          <persname identifier="http://id.loc.gov/authorities/names/no2017024029"
                    source="naf">
-            <part>Hammond, Sarah Ruth, 1977-2011</part>
+            <part localtype="agent_person">Hammond, Sarah Ruth, 1977-2011</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Student life</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Student life</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="file">
+         <c altrender="/repositories/12/archival_objects/2086309"
+            id="ref11"
+            level="file">
             <did>
                <unittitle>"A Brief History of Bladderball" essay</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1998">
+               <unitdatestructured altrender="1998" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1998">1998</fromdate>
                      <todate standarddate="1998">1998</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/221148 /locations/9"
                           containerid="39002112589081"
+                          encodinganalog="archive legal"
                           id="aspace_ref11_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1</container>
             </did>
          </c>
-         <c id="ref13" level="file">
+         <c altrender="/repositories/12/archival_objects/2086310"
+            id="ref13"
+            level="file">
             <did>
                <unittitle>Correspondence</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1998-2000">
+               <unitdatestructured altrender="1998-2000" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1998">1998</fromdate>
                      <todate standarddate="2000">2000</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/221148 /locations/9"
                           containerid="39002112589081"
+                          encodinganalog="archive legal"
                           id="aspace_ref13_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">2</container>
             </did>
          </c>
-         <c id="ref14" level="file">
+         <c altrender="/repositories/12/archival_objects/2086311"
+            id="ref14"
+            level="file">
             <did>
                <unittitle>Yale alumni phone interview notes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1999">
+               <unitdatestructured altrender="1999" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1999">1999</fromdate>
                      <todate standarddate="1999">1999</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/221148 /locations/9"
                           containerid="39002112589081"
+                          encodinganalog="archive legal"
                           id="aspace_ref14_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">3</container>
             </did>
          </c>
-         <c id="ref16" level="file">
+         <c altrender="/repositories/12/archival_objects/2086312"
+            id="ref16"
+            level="file">
             <did>
                <unittitle>Research notes</unittitle>
-               <unitdatestructured unitdatetype="inclusive" altrender="1999">
+               <unitdatestructured altrender="1999" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1999">1999</fromdate>
                      <todate standarddate="1999">1999</todate>
                   </daterange>
                </unitdatestructured>
-               <container altrender="archive legal"
+               <container altrender="/repositories/12/top_containers/221148 /locations/9"
                           containerid="39002112589081"
+                          encodinganalog="archive legal"
                           id="aspace_ref16_c1"
                           label="Mixed Materials"
                           localtype="box">1</container>
                <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">4</container>
             </did>
          </c>
-         <c id="ref17" level="file">
+         <c altrender="/repositories/12/archival_objects/2086313"
+            id="ref17"
+            level="file">
             <did>
                <unittitle>Research materials</unittitle>
             </did>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/2086314"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>General</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1999">
+                  <unitdatestructured altrender="1999" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1999">1999</fromdate>
                         <todate standarddate="1999">1999</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/221148 /locations/9"
                              containerid="39002112589081"
+                             encodinganalog="archive legal"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">5</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/2086315"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Alumni</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1999">
+                  <unitdatestructured altrender="1999" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1999">1999</fromdate>
                         <todate standarddate="1999">1999</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/221148 /locations/9"
                              containerid="39002112589081"
+                             encodinganalog="archive legal"
                              id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">6</container>
                </did>
             </c>
-            <c id="ref21" level="file">
+            <c altrender="/repositories/12/archival_objects/2086316"
+               id="ref21"
+               level="file">
                <did>
                   <unittitle>Bladderball</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1999-2009">
+                  <unitdatestructured altrender="1999-2009" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1999">1999</fromdate>
                         <todate standarddate="2009">2009</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/221148 /locations/9"
                              containerid="39002112589081"
+                             encodinganalog="archive legal"
                              id="aspace_ref21_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">7</container>
                </did>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/2086317"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>The college experience</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1998">
+                  <unitdatestructured altrender="1998" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1998">1998</fromdate>
                         <todate standarddate="1998">1998</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/221148 /locations/9"
                              containerid="39002112589081"
+                             encodinganalog="archive legal"
                              id="aspace_ref22_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref22_c2" localtype="folder" parent="aspace_ref22_c1">8</container>
                </did>
             </c>
-            <c id="ref42" level="file">
+            <c altrender="/repositories/12/archival_objects/2086318"
+               id="ref42"
+               level="file">
                <did>
                   <unittitle>College folklore</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1999">
+                  <unitdatestructured altrender="1999" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1999">1999</fromdate>
                         <todate standarddate="1999">1999</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive legal"
+                  <container altrender="/repositories/12/top_containers/221148 /locations/9"
                              containerid="39002112589081"
+                             encodinganalog="archive legal"
                              id="aspace_ref42_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref42_c2" localtype="folder" parent="aspace_ref42_c1">9</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/2086319"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>Fraternities</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1999">
+                  <unitdatestructured altrender="1999" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1999">1999</fromdate>
                         <todate standarddate="1999">1999</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/221149 /locations/9"
                              containerid="39002112589099"
+                             encodinganalog="archive half legal"
                              id="aspace_ref23_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">1</container>
                </did>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/2086320"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Halloween</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1997-1999">
+                  <unitdatestructured altrender="1997-1999" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1997">1997</fromdate>
                         <todate standarddate="1999">1999</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/221149 /locations/9"
                              containerid="39002112589099"
+                             encodinganalog="archive half legal"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">2</container>
                </did>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/2086321"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>Yale as a community</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1998-1999">
+                  <unitdatestructured altrender="1998-1999" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1998">1998</fromdate>
                         <todate standarddate="1999">1999</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/221149 /locations/9"
                              containerid="39002112589099"
+                             encodinganalog="archive half legal"
                              id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">3</container>
                </did>
             </c>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/2086322"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>Yale folklore and traditions</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1999">
+                  <unitdatestructured altrender="1999" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1999">1999</fromdate>
                         <todate standarddate="1999">1999</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half legal"
+                  <container altrender="/repositories/12/top_containers/221149 /locations/9"
                              containerid="39002112589099"
+                             encodinganalog="archive half legal"
                              id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                   <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">4</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/2086323"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>
                      <title render="italic">
@@ -374,88 +431,112 @@
                      </title>
                   </unittitle>
                </did>
-               <c id="ref26" level="file">
+               <c altrender="/repositories/12/archival_objects/2086324"
+                  id="ref26"
+                  level="file">
                   <did>
                      <unittitle>1952-1953</unittitle>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/221149 /locations/9"
                                 containerid="39002112589099"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref26_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">5</container>
                   </did>
                </c>
-               <c id="ref27" level="file">
+               <c altrender="/repositories/12/archival_objects/2086325"
+                  id="ref27"
+                  level="file">
                   <did>
                      <unittitle>1957-1960</unittitle>
-                     <container altrender="archive half legal"
+                     <container altrender="/repositories/12/top_containers/221149 /locations/9"
                                 containerid="39002112589099"
+                                encodinganalog="archive half legal"
                                 id="aspace_ref27_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">6</container>
                   </did>
                </c>
-               <c id="ref30" level="file">
+               <c altrender="/repositories/12/archival_objects/2086326"
+                  id="ref30"
+                  level="file">
                   <did>
                      <unittitle>1878-1890</unittitle>
-                     <container altrender="flat box (14d 3h 18w)"
+                     <container altrender="/repositories/12/top_containers/221150 /locations/9"
                                 containerid="39002112589107"
+                                encodinganalog="flat box (14d 3h 18w)"
                                 id="aspace_ref30_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">1</container>
                   </did>
                </c>
-               <c id="ref31" level="file">
+               <c altrender="/repositories/12/archival_objects/2086327"
+                  id="ref31"
+                  level="file">
                   <did>
                      <unittitle>1905</unittitle>
-                     <container altrender="flat box (14d 3h 18w)"
+                     <container altrender="/repositories/12/top_containers/221150 /locations/9"
                                 containerid="39002112589107"
+                                encodinganalog="flat box (14d 3h 18w)"
                                 id="aspace_ref31_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">2</container>
                   </did>
                </c>
-               <c id="ref32" level="file">
+               <c altrender="/repositories/12/archival_objects/2086328"
+                  id="ref32"
+                  level="file">
                   <did>
                      <unittitle>1915</unittitle>
-                     <container altrender="flat box (14d 3h 18w)"
+                     <container altrender="/repositories/12/top_containers/221150 /locations/9"
                                 containerid="39002112589107"
+                                encodinganalog="flat box (14d 3h 18w)"
                                 id="aspace_ref32_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">3</container>
                   </did>
                </c>
-               <c id="ref33" level="file">
+               <c altrender="/repositories/12/archival_objects/2086329"
+                  id="ref33"
+                  level="file">
                   <did>
                      <unittitle>1950s</unittitle>
-                     <container altrender="flat box (14d 3h 18w)"
+                     <container altrender="/repositories/12/top_containers/221150 /locations/9"
                                 containerid="39002112589107"
+                                encodinganalog="flat box (14d 3h 18w)"
                                 id="aspace_ref33_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">4</container>
                   </did>
                </c>
-               <c id="ref34" level="file">
+               <c altrender="/repositories/12/archival_objects/2086330"
+                  id="ref34"
+                  level="file">
                   <did>
                      <unittitle>1960s</unittitle>
-                     <container altrender="flat box (14d 3h 18w)"
+                     <container altrender="/repositories/12/top_containers/221150 /locations/9"
                                 containerid="39002112589107"
+                                encodinganalog="flat box (14d 3h 18w)"
                                 id="aspace_ref34_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">5</container>
                   </did>
                </c>
-               <c id="ref35" level="file">
+               <c altrender="/repositories/12/archival_objects/2086331"
+                  id="ref35"
+                  level="file">
                   <did>
                      <unittitle>1980s-1990s</unittitle>
-                     <container altrender="flat box (14d 3h 18w)"
+                     <container altrender="/repositories/12/top_containers/221150 /locations/9"
                                 containerid="39002112589107"
+                                encodinganalog="flat box (14d 3h 18w)"
                                 id="aspace_ref35_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -463,24 +544,29 @@
                   </did>
                </c>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/2086332"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>WYBC broadcasts of Bladderball</unittitle>
                </did>
-               <c id="ref37" level="item">
+               <c altrender="/repositories/12/archival_objects/2086333"
+                  id="ref37"
+                  level="item">
                   <did>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiocassette</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1967">
+                     <unitdatestructured altrender="1967" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1967">1967</fromdate>
                            <todate standarddate="1967">1967</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="audiocassette case"
+                     <container altrender="/repositories/12/top_containers/221151 /locations/9"
                                 containerid="39002112589115"
+                                encodinganalog="audiocassette case"
                                 id="aspace_ref37_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
@@ -490,20 +576,23 @@
                      <p>This seems to be the item mentioned in Kevin Devoe's letter dated January 18, 2000 in box 1, folder 3.</p>
                   </odd>
                </c>
-               <c id="ref38" level="item">
+               <c altrender="/repositories/12/archival_objects/2086334"
+                  id="ref38"
+                  level="item">
                   <did>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiocassette</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1968">
+                     <unitdatestructured altrender="1968" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1968">1968</fromdate>
                            <todate standarddate="1968">1968</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="audiocassette case"
+                     <container altrender="/repositories/12/top_containers/221152 /locations/9"
                                 containerid="39002112589123"
+                                encodinganalog="audiocassette case"
                                 id="aspace_ref38_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>

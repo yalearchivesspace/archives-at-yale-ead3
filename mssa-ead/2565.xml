@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1082">mssa.ru.1082</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1082">mssa.ru.1082</recordid>
+      <otherrecordid localtype="BIB">8201182</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Shades, Yale University, Records
@@ -32,6 +34,11 @@
             <date>June 2008</date>
             <num>RU 1082</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-04-11T07:38:59+00:00</eventdatetime>
+            <eventdatetime>2022-07-30T07:44:55+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday April 11, 2020 at 07:38</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday July 30, 2022 at 07:44</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2565" level="collection">
       <did>
          <unittitle>Shades, Yale University, records</unittitle>
          <unitid>RU 1082</unitid>
@@ -83,155 +93,177 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(30 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1991-2008">
+         <unitdatestructured altrender="1991-2008" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1991">1991</fromdate>
                <todate standarddate="2005">2005</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_307d6b0ed1818fe9c47d7099cde70228">The records consist of audio and videorecordings, a secretary's guide, and photographs of Shades.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname identifier="http://id.loc.gov/authorities/names/n91062950"
                       rules="aacr"
                       source="naf">
-               <part>Shades (Musical group)</part>
+               <part localtype="agent_corporate_entity">Shades (Musical group)</part>
             </corpname>
          </origination>
-    
       </did>
       <odd id="aspace_08c8800bcae9768a40d8fea190e61722">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 40 (YRG 40), Records of Yale clubs, societies, and organizations.</p>  
+         <p>Forms part of Yale Record Group 40 (YRG 40), Records of Yale clubs, societies, and organizations.</p>
       </odd>
       <acqinfo id="aspace_96871653fade5c98d541ed9159480e96">
          <head>Immediate Source of Acquisition</head>
-         <p>The records were transferred from Shades, 2008.</p>  
+         <p>The records were transferred from Shades, 2008.</p>
       </acqinfo>
       <accessrestrict id="aspace_fd8da37a0540bf8ad964b0819cbfc9a9">
          <head>Conditions Governing Access</head>
          <p>This materials are open for research.</p>
          <p>Original audiovisual materials, as well as preservation and duplicating masters, may not be played. Researchers must consult use copies, or if none exist must pay for a use copy, which is retained by the repository. Researchers wishing to obtain an additional copy for their personal use should consult Copying Services information on the Manuscripts and Archives web site.</p>
-         <p>Copies of commercially produced audiovisual materials contained in this collection cannot be made for researcher use outside of the repository.</p>  
+         <p>Copies of commercially produced audiovisual materials contained in this collection cannot be made for researcher use outside of the repository.</p>
       </accessrestrict>
       <userestrict id="aspace_7b4d02760e9ddfedb57a9d6ee0115c01">
          <head>Conditions Governing Use</head>
-         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <prefercite id="aspace_4576cfdcafac9816be598850242479e5">
          <head>Preferred Citation</head>
-         <p>Shades, Yale University, Records (RU 1082). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Shades, Yale University, Records (RU 1082). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <processinfo id="aspace_047e2ad73e3258b0e9f9d63188acf705">
          <head>Processing Information</head>
-         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>  
+         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>
       </processinfo>
       <bioghist id="aspace_64534223b3c189c40687d1417104c6d0">
          <head>Biographical / Historical</head>
-         <p>Shades was started in 1988 by Titilayo Ngwenya and a small group of other Yale freshmen at a pre-orientation program for students of color now known as Cultural Connections. Performances during the early years of Yale's youngest singing group took place at the Durfee's Convenience Store on Old Campus. The group's repertoire is rooted in music of the African Diaspora, a tradition that until the emergence of Shades had not established itself amongst Yale's a cappella community.</p>  
+         <p>Shades was started in 1988 by Titilayo Ngwenya and a small group of other Yale freshmen at a pre-orientation program for students of color now known as Cultural Connections. Performances during the early years of Yale's youngest singing group took place at the Durfee's Convenience Store on Old Campus. The group's repertoire is rooted in music of the African Diaspora, a tradition that until the emergence of Shades had not established itself amongst Yale's a cappella community.</p>
       </bioghist>
       <scopecontent id="aspace_3c97e0a1eced71f26b05fb1031217f1c">
          <head>Scope and Contents</head>
-         <p>The records consist of audio and videorecordings, a secretary's guide, and photographs of Shades.</p>  
+         <p>The records consist of audio and videorecordings, a secretary's guide, and photographs of Shades.</p>
       </scopecontent>
       <arrangement id="aspace_cf56025beec4ede20d9b951ff67581cf">
          <head>Arrangement</head>
-         <p>The records are arranged by accession.</p>  
+         <p>The records are arranged by accession.</p>
       </arrangement>
       <controlaccess>
          <subject source="local">
-            <part>College students -- Societies, etc.</part>
+            <part localtype="topical">College students</part>
+            <part localtype="topical">Societies, etc.</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh2001006505"
                   source="lcsh">
-            <part>Vocal groups</part>
+            <part localtype="topical">Vocal groups</part>
          </subject>
          <corpname identifier="http://id.loc.gov/authorities/names/n91062950"
                    rules="aacr"
                    source="naf">
-            <part>Shades (Musical group)</part>
+            <part localtype="agent_corporate_entity">Shades (Musical group)</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Songs and music</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="genre_form">Songs and music</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Societies, etc.</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Societies, etc.</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="series">
+         <c altrender="/repositories/12/archival_objects/802336"
+            id="ref12"
+            level="series">
             <did>
                <unittitle>Records</unittitle>
                <unitid>Accession 2008-A-181</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1991-2005">
+               <unitdatestructured altrender="1991-2005" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1991">1991</fromdate>
                      <todate standarddate="2005">2005</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/802337"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Letter to Ms. Sandra Holst thanking Shades from Spring 2005 Tour to Japan</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="2005">
+                  <unitdatestructured altrender="2005" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="2005">2005</datesingle>
                   </unitdatestructured>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/94406 /locations/9"
                              containerid="39002075313156"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">1</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/802338"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Photographs</unittitle>
                </did>
-               <c id="ref15" level="file">
+               <c altrender="/repositories/12/archival_objects/802339"
+                  id="ref15"
+                  level="file">
                   <did>
                      <unittitle>On Old Campus, circa early 2001-2002 school year</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="2001">
+                     <unitdatestructured altrender="2001" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="2001">2001</datesingle>
                      </unitdatestructured>
-                     <container altrender="flat box (12d 3h 15w)"
+                     <container altrender="/repositories/12/top_containers/94406 /locations/9"
                                 containerid="39002075313156"
+                                encodinganalog="flat box (12d 3h 15w)"
                                 id="aspace_ref15_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">2</container>
                   </did>
                </c>
-               <c id="ref16" level="file">
+               <c altrender="/repositories/12/archival_objects/802340"
+                  id="ref16"
+                  level="file">
                   <did>
                      <unittitle>On Tour in Puerto Rico and in performance at Yale</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="2002-2003">
+                     <unitdatestructured altrender="2002-2003" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="2002">2002</fromdate>
                            <todate standarddate="2003">2003</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (12d 3h 15w)"
+                     <container altrender="/repositories/12/top_containers/94406 /locations/9"
                                 containerid="39002075313156"
+                                encodinganalog="flat box (12d 3h 15w)"
                                 id="aspace_ref16_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">3</container>
                   </did>
                </c>
-               <c id="ref17" level="file">
+               <c altrender="/repositories/12/archival_objects/802341"
+                  id="ref17"
+                  level="file">
                   <did>
                      <unittitle>In Dance Studio Rehearsing "Kiss De Girl"</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="2003-2004">
+                     <unitdatestructured altrender="2003-2004" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="2003">2003</fromdate>
                            <todate standarddate="2004">2004</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (12d 3h 15w)"
+                     <container altrender="/repositories/12/top_containers/94406 /locations/9"
                                 containerid="39002075313156"
+                                encodinganalog="flat box (12d 3h 15w)"
                                 id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
@@ -239,492 +271,593 @@
                   </did>
                </c>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/802342"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Secretary Guide</unittitle>
-                  <container altrender="flat box (12d 3h 15w)"
+                  <container altrender="/repositories/12/top_containers/94406 /locations/9"
                              containerid="39002075313156"
+                             encodinganalog="flat box (12d 3h 15w)"
                              id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                   <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">5</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/802343"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>Audiorecordings</unittitle>
                </did>
-               <c id="ref20" level="file">
+               <c altrender="/repositories/12/archival_objects/802344"
+                  id="ref20"
+                  level="file">
                   <did>
                      <unittitle>"Shades...(period)," maser</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiocassette</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1991">
+                     <unitdatestructured altrender="1991" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1991">1991</fromdate>
                            <todate standarddate="1991">1991</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="audiocassette case"
+                     <container altrender="/repositories/12/top_containers/94407 /locations/9"
                                 containerid="39002075313164"
+                                encodinganalog="audiocassette case"
                                 id="aspace_ref20_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                   </did>
                </c>
-               <c id="ref22" level="file">
+               <c altrender="/repositories/12/archival_objects/802345"
+                  id="ref22"
+                  level="file">
                   <did>
                      <unittitle>Shades of Yale, production master</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiocassette</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1991">
+                     <unitdatestructured altrender="1991" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1991">1991</fromdate>
                            <todate standarddate="1991">1991</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="audiocassette case"
+                     <container altrender="/repositories/12/top_containers/94408 /locations/9"
                                 containerid="39002075313172"
+                                encodinganalog="audiocassette case"
                                 id="aspace_ref22_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
                </c>
-               <c id="ref23" level="file">
+               <c altrender="/repositories/12/archival_objects/802346"
+                  id="ref23"
+                  level="file">
                   <did>
                      <unittitle>"Shades Peace by Piece," production master</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiocassette</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1993">
+                     <unitdatestructured altrender="1993" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1993">1993</fromdate>
                            <todate standarddate="1993">1993</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="audiocassette case"
+                     <container altrender="/repositories/12/top_containers/94409 /locations/9"
                                 containerid="39002075313180"
+                                encodinganalog="audiocassette case"
                                 id="aspace_ref23_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                   </did>
                </c>
-               <c id="ref25" level="file">
+               <c altrender="/repositories/12/archival_objects/802347"
+                  id="ref25"
+                  level="file">
                   <did>
                      <unittitle>Shades of Yale, original master</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiocassette</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1993 September">
+                     <unitdatestructured altrender="1993 September"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1993-09">1993 September</datesingle>
                      </unitdatestructured>
-                     <container altrender="audiocassette case"
+                     <container altrender="/repositories/12/top_containers/94410 /locations/9"
                                 containerid="39002075313198"
+                                encodinganalog="audiocassette case"
                                 id="aspace_ref25_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                   </did>
                </c>
-               <c id="ref26" level="file">
+               <c altrender="/repositories/12/archival_objects/802348"
+                  id="ref26"
+                  level="file">
                   <did>
                      <unittitle>Shades Live, original master</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiocassette</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1993 April 17">
+                     <unitdatestructured altrender="1993 April 17" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1993-04-17">1993 April 17</datesingle>
                      </unitdatestructured>
-                     <container altrender="audiocassette case"
+                     <container altrender="/repositories/12/top_containers/94411 /locations/9"
                                 containerid="39002075313206"
+                                encodinganalog="audiocassette case"
                                 id="aspace_ref26_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                   </did>
                </c>
-               <c id="ref27" level="file">
+               <c altrender="/repositories/12/archival_objects/802349"
+                  id="ref27"
+                  level="file">
                   <did>
                      <unittitle>Shades of Yale, safety copy</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiocassette</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1993">
+                     <unitdatestructured altrender="1993" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1993">1993</fromdate>
                            <todate standarddate="1993">1993</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="audiocassette case"
+                     <container altrender="/repositories/12/top_containers/94412 /locations/9"
                                 containerid="39002075313214"
+                                encodinganalog="audiocassette case"
                                 id="aspace_ref27_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                   </did>
                </c>
-               <c id="ref28" level="file">
+               <c altrender="/repositories/12/archival_objects/802350"
+                  id="ref28"
+                  level="file">
                   <did>
                      <unittitle>Shades of Yale, production master</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiocassette</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1993">
+                     <unitdatestructured altrender="1993" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1993">1993</fromdate>
                            <todate standarddate="1993">1993</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="audiocassette case"
+                     <container altrender="/repositories/12/top_containers/94413 /locations/9"
                                 containerid="39002075313222"
+                                encodinganalog="audiocassette case"
                                 id="aspace_ref28_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                   </did>
                </c>
-               <c id="ref29" level="file">
+               <c altrender="/repositories/12/archival_objects/802351"
+                  id="ref29"
+                  level="file">
                   <did>
                      <unittitle>Shades Jam, original master</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiocassette</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1994">
+                     <unitdatestructured altrender="1994" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1994">1994</fromdate>
                            <todate standarddate="1994">1994</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="audiocassette case"
+                     <container altrender="/repositories/12/top_containers/94414 /locations/9"
                                 containerid="39002075313230"
+                                encodinganalog="audiocassette case"
                                 id="aspace_ref29_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
                   </did>
                </c>
-               <c id="ref30" level="file">
+               <c altrender="/repositories/12/archival_objects/802352"
+                  id="ref30"
+                  level="file">
                   <did>
                      <unittitle>"Shades of Yale," audiocassette (DAT)</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiocassette</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1996">
+                     <unitdatestructured altrender="1996" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1996">1996</fromdate>
                            <todate standarddate="1996">1996</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="audiocassette case"
+                     <container altrender="/repositories/12/top_containers/94415 /locations/9"
                                 containerid="39002075313248"
+                                encodinganalog="audiocassette case"
                                 id="aspace_ref30_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
                   </did>
                </c>
-               <c id="ref31" level="file">
+               <c altrender="/repositories/12/archival_objects/802353"
+                  id="ref31"
+                  level="file">
                   <did>
                      <unittitle>Shades of Yale, original master</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiocassette</unittype>
                      </physdescstructured>
-                     <container altrender="audiocassette case"
+                     <container altrender="/repositories/12/top_containers/94416 /locations/9"
                                 containerid="39002075313255"
+                                encodinganalog="audiocassette case"
                                 id="aspace_ref31_c1"
                                 label="Mixed Materials"
                                 localtype="box">11</container>
                   </did>
                </c>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/802354"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>Videorecordings</unittitle>
                </did>
-               <c id="ref33" level="file">
+               <c altrender="/repositories/12/archival_objects/802355"
+                  id="ref33"
+                  level="file">
                   <did>
                      <unittitle>Spring Jam</unittitle>
                   </did>
-                  <c id="ref34" level="file">
+                  <c altrender="/repositories/12/archival_objects/802356"
+                     id="ref34"
+                     level="file">
                      <did>
                         <unittitle>1995</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Videocassettes(DVCPRO)</unittype>
                         </physdescstructured>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94417 /locations/9"
                                    containerid="39002075313263"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref34_c1"
                                    label="Mixed Materials"
                                    localtype="box">12</container>
                      </did>
                   </c>
-                  <c id="ref36" level="file">
+                  <c altrender="/repositories/12/archival_objects/802357"
+                     id="ref36"
+                     level="file">
                      <did>
                         <unittitle>1995</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Videocassettes(DVCPRO)</unittype>
                         </physdescstructured>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94418 /locations/9"
                                    containerid="39002075313271"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref36_c1"
                                    label="Mixed Materials"
                                    localtype="box">13</container>
                      </did>
                   </c>
-                  <c id="ref38" level="file">
+                  <c altrender="/repositories/12/archival_objects/802358"
+                     id="ref38"
+                     level="file">
                      <did>
                         <unittitle>1997</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Videocassettes(DVCPRO)</unittype>
                         </physdescstructured>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94419 /locations/9"
                                    containerid="39002075313289"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref38_c1"
                                    label="Mixed Materials"
                                    localtype="box">14</container>
                      </did>
                   </c>
-                  <c id="ref40" level="file">
+                  <c altrender="/repositories/12/archival_objects/802359"
+                     id="ref40"
+                     level="file">
                      <did>
                         <unittitle>1997</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Videocassettes(DVCPRO)</unittype>
                         </physdescstructured>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94420 /locations/9"
                                    containerid="39002075313297"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref40_c1"
                                    label="Mixed Materials"
                                    localtype="box">15</container>
                      </did>
                   </c>
-                  <c id="ref42" level="file">
+                  <c altrender="/repositories/12/archival_objects/802360"
+                     id="ref42"
+                     level="file">
                      <did>
                         <unittitle>1998</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Videocassettes(DVCPRO)</unittype>
                         </physdescstructured>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94421 /locations/9"
                                    containerid="39002075313305"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref42_c1"
                                    label="Mixed Materials"
                                    localtype="box">16</container>
                      </did>
                   </c>
-                  <c id="ref44" level="file">
+                  <c altrender="/repositories/12/archival_objects/802361"
+                     id="ref44"
+                     level="file">
                      <did>
                         <unittitle>1998</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Videocassettes(DVCPRO)</unittype>
                         </physdescstructured>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94422 /locations/9"
                                    containerid="39002075313313"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref44_c1"
                                    label="Mixed Materials"
                                    localtype="box">17</container>
                      </did>
                   </c>
-                  <c id="ref46" level="file">
+                  <c altrender="/repositories/12/archival_objects/802362"
+                     id="ref46"
+                     level="file">
                      <did>
                         <unittitle>1999</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Videocassettes(DVCPRO)</unittype>
                         </physdescstructured>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94423 /locations/9"
                                    containerid="39002075313321"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref46_c1"
                                    label="Mixed Materials"
                                    localtype="box">18</container>
                      </did>
                   </c>
-                  <c id="ref48" level="file">
+                  <c altrender="/repositories/12/archival_objects/802363"
+                     id="ref48"
+                     level="file">
                      <did>
                         <unittitle>1999</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Videocassettes(DVCPRO)</unittype>
                         </physdescstructured>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94424 /locations/9"
                                    containerid="39002075313339"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref48_c1"
                                    label="Mixed Materials"
                                    localtype="box">19</container>
                      </did>
                   </c>
-                  <c id="ref50" level="file">
+                  <c altrender="/repositories/12/archival_objects/802364"
+                     id="ref50"
+                     level="file">
                      <did>
                         <unittitle>2000 Apr 15</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Videocassettes(DVCPRO)</unittype>
                         </physdescstructured>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94425 /locations/9"
                                    containerid="39002075313347"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref50_c1"
                                    label="Mixed Materials"
                                    localtype="box">20</container>
                      </did>
                   </c>
-                  <c id="ref52" level="file">
+                  <c altrender="/repositories/12/archival_objects/802365"
+                     id="ref52"
+                     level="file">
                      <did>
                         <unittitle>2000 Apr 15</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Videocassettes(DVCPRO)</unittype>
                         </physdescstructured>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94426 /locations/9"
                                    containerid="39002075313354"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref52_c1"
                                    label="Mixed Materials"
                                    localtype="box">21</container>
                      </did>
                   </c>
-                  <c id="ref54" level="file">
+                  <c altrender="/repositories/12/archival_objects/802366"
+                     id="ref54"
+                     level="file">
                      <did>
                         <unittitle>2001</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Videocassettes(DVCPRO)</unittype>
                         </physdescstructured>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94427 /locations/9"
                                    containerid="39002075313362"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref54_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
                      </did>
                   </c>
-                  <c id="ref56" level="file">
+                  <c altrender="/repositories/12/archival_objects/802367"
+                     id="ref56"
+                     level="file">
                      <did>
                         <unittitle>2001</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Videocassettes(DVCPRO)</unittype>
                         </physdescstructured>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94428 /locations/9"
                                    containerid="39002075313370"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref56_c1"
                                    label="Mixed Materials"
                                    localtype="box">23</container>
                      </did>
                   </c>
-                  <c id="ref58" level="file">
+                  <c altrender="/repositories/12/archival_objects/802368"
+                     id="ref58"
+                     level="file">
                      <did>
                         <unittitle>2003</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Videocassettes(DVCPRO)</unittype>
                         </physdescstructured>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94429 /locations/9"
                                    containerid="39002075313388"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref58_c1"
                                    label="Mixed Materials"
                                    localtype="box">24</container>
                      </did>
-                     <c id="ref60" level="file">
+                     <c altrender="/repositories/12/archival_objects/802369"
+                        id="ref60"
+                        level="file">
                         <did>
                            <unittitle>Use copy</unittitle>
                            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                               <quantity>1</quantity>
                               <unittype>Optical Disc (DVD)</unittype>
                            </physdescstructured>
-                           <container altrender="DVD case"
+                           <container altrender="/repositories/12/top_containers/94430 /locations/3653"
                                       containerid="39002075313404"
+                                      encodinganalog="DVD case"
                                       id="aspace_ref60_c1"
                                       label="Mixed Materials"
                                       localtype="box">24U</container>
                         </did>
                      </c>
                   </c>
-                  <c id="ref62" level="file">
+                  <c altrender="/repositories/12/archival_objects/802370"
+                     id="ref62"
+                     level="file">
                      <did>
                         <unittitle>2003</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Videocassettes(DVCPRO)</unittype>
                         </physdescstructured>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94431 /locations/9"
                                    containerid="39002075313396"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref62_c1"
                                    label="Mixed Materials"
                                    localtype="box">25</container>
                      </did>
-                     <c id="ref64" level="file">
+                     <c altrender="/repositories/12/archival_objects/802371"
+                        id="ref64"
+                        level="file">
                         <did>
                            <unittitle>Use copy</unittitle>
                            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                               <quantity>1</quantity>
                               <unittype>Optical Disc (DVD)</unittype>
                            </physdescstructured>
-                           <container altrender="DVD case"
+                           <container altrender="/repositories/12/top_containers/94430 /locations/3653"
                                       containerid="39002075313404"
+                                      encodinganalog="DVD case"
                                       id="aspace_ref64_c1"
                                       label="Mixed Materials"
                                       localtype="box">24U</container>
                         </did>
                      </c>
                   </c>
-                  <c id="ref66" level="file">
+                  <c altrender="/repositories/12/archival_objects/802372"
+                     id="ref66"
+                     level="file">
                      <did>
                         <unittitle>2004</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Videocassettes(DVCPRO)</unittype>
                         </physdescstructured>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94432 /locations/9"
                                    containerid="39002075313412"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref66_c1"
                                    label="Mixed Materials"
                                    localtype="box">26</container>
                      </did>
-                     <c id="ref68" level="file">
+                     <c altrender="/repositories/12/archival_objects/802373"
+                        id="ref68"
+                        level="file">
                         <did>
                            <unittitle>Use copy</unittitle>
                            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                               <quantity>1</quantity>
                               <unittype>Optical Disc (DVD)</unittype>
                            </physdescstructured>
-                           <container altrender="DVD case"
+                           <container altrender="/repositories/12/top_containers/94433 /locations/3653"
                                       containerid="39002075313438"
+                                      encodinganalog="DVD case"
                                       id="aspace_ref68_c1"
                                       label="Mixed Materials"
                                       localtype="box">26U</container>
                         </did>
                      </c>
                   </c>
-                  <c id="ref70" level="file">
+                  <c altrender="/repositories/12/archival_objects/802374"
+                     id="ref70"
+                     level="file">
                      <did>
                         <unittitle>2004</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Videocassettes(DVCPRO)</unittype>
                         </physdescstructured>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94434 /locations/9"
                                    containerid="39002075313420"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref70_c1"
                                    label="Mixed Materials"
                                    localtype="box">27</container>
                      </did>
-                     <c id="ref72" level="file">
+                     <c altrender="/repositories/12/archival_objects/802375"
+                        id="ref72"
+                        level="file">
                         <did>
                            <unittitle>Use copy</unittitle>
                            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                               <quantity>1</quantity>
                               <unittype>Optical Disc (DVD)</unittype>
                            </physdescstructured>
-                           <container altrender="DVD case"
+                           <container altrender="/repositories/12/top_containers/94433 /locations/3653"
                                       containerid="39002075313438"
+                                      encodinganalog="DVD case"
                                       id="aspace_ref72_c1"
                                       label="Mixed Materials"
                                       localtype="box">26U</container>
@@ -732,41 +865,49 @@
                      </c>
                   </c>
                </c>
-               <c id="ref74" level="file">
+               <c altrender="/repositories/12/archival_objects/802376"
+                  id="ref74"
+                  level="file">
                   <did>
                      <unittitle>Valentines Day Concert</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Videocassettes(DVCPRO)</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive" altrender="2003">
+                     <unitdatestructured altrender="2003" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="2003">2003</fromdate>
                            <todate standarddate="2003">2003</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="video VHS"
+                     <container altrender="/repositories/12/top_containers/94435 /locations/9"
                                 containerid="39002075313446"
+                                encodinganalog="video VHS"
                                 id="aspace_ref74_c1"
                                 label="Mixed Materials"
                                 localtype="box">28</container>
                   </did>
-                  <c id="ref76" level="file">
+                  <c altrender="/repositories/12/archival_objects/802377"
+                     id="ref76"
+                     level="file">
                      <did>
                         <unittitle>Use copy</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                            <quantity>1</quantity>
                            <unittype>Optical Disc (DVD)</unittype>
                         </physdescstructured>
-                        <container altrender="DVD case"
+                        <container altrender="/repositories/12/top_containers/94436 /locations/3653"
                                    containerid="39002075313453"
+                                   encodinganalog="DVD case"
                                    id="aspace_ref76_c1"
                                    label="Mixed Materials"
                                    localtype="box">28U</container>
                      </did>
                   </c>
                </c>
-               <c id="ref78" level="file">
+               <c altrender="/repositories/12/archival_objects/802378"
+                  id="ref78"
+                  level="file">
                   <did>
                      <unittitle>Charity concert</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
@@ -774,16 +915,19 @@
                         <unittype>Videocassette (VHS)</unittype>
                      </physdescstructured>
                      <physdesc localtype="container_summary">Commercially produced</physdesc>
-                     <unitdatestructured unitdatetype="inclusive" altrender="2005 March 13">
+                     <unitdatestructured altrender="2005 March 13" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="2005-03-13">2005 March 13</datesingle>
                      </unitdatestructured>
-                     <container altrender="video VHS"
+                     <container altrender="/repositories/12/top_containers/94437 /locations/9"
                                 containerid="39002057095268"
+                                encodinganalog="video VHS"
                                 id="aspace_ref78_c1"
                                 label="Mixed Materials"
                                 localtype="box">29</container>
                   </did>
-                  <c id="ref80" level="file">
+                  <c altrender="/repositories/12/archival_objects/802379"
+                     id="ref80"
+                     level="file">
                      <did>
                         <unittitle>Use copy</unittitle>
                         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
@@ -791,29 +935,33 @@
                            <unittype>Videocassette (VHS)</unittype>
                         </physdescstructured>
                         <physdesc localtype="container_summary">Commercially produced</physdesc>
-                        <container altrender="video VHS"
+                        <container altrender="/repositories/12/top_containers/94438 /locations/3653"
                                    containerid="39002057095276"
+                                   encodinganalog="video VHS"
                                    id="aspace_ref80_c1"
                                    label="Mixed Materials"
                                    localtype="box">29U</container>
                      </did>
                   </c>
                </c>
-               <c id="ref82" level="file">
+               <c altrender="/repositories/12/archival_objects/802380"
+                  id="ref82"
+                  level="file">
                   <did>
                      <unittitle>Boston performance</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Videocassette (VHS)</unittype>
                      </physdescstructured>
-                     <unitdatestructured unitdatetype="inclusive" altrender="2008">
+                     <unitdatestructured altrender="2008" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="2008">2008</fromdate>
                            <todate standarddate="2008">2008</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="video VHS"
+                     <container altrender="/repositories/12/top_containers/94439 /locations/9"
                                 containerid="39002057095284"
+                                encodinganalog="video VHS"
                                 id="aspace_ref82_c1"
                                 label="Mixed Materials"
                                 localtype="box">30</container>

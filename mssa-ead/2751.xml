@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1102">mssa.ru.1102</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1102">mssa.ru.1102</recordid>
+      <otherrecordid localtype="BIB">8785875</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Police Advisory Board, Yale University, Records
@@ -32,6 +34,11 @@
             <date>May 2009</date>
             <num>RU 1102</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-05-14T07:07:05+00:00</eventdatetime>
+            <eventdatetime>2022-07-30T07:45:21+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday May 14, 2020 at 07:07</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday July 30, 2022 at 07:45</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2751" level="collection">
       <did>
          <unittitle>Police Advisory Board, Yale University, records</unittitle>
          <unitid>RU 1102</unitid>
@@ -83,71 +93,75 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(9 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="circa 1964-1981">
+         <unitdatestructured altrender="circa 1964-1981"
+                             label="creation"
+                             unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1961">1961</fromdate>
                <todate standarddate="1981">1981</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_373f8c9ab76e5e25d5436bc0632fbf6a">The materials consist of correspondence, reports, agendas and meeting minutes of the Police Advisory Board.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname source="local">
-               <part>Yale University. Police Advisory Board</part>
+               <part localtype="agent_corporate_entity">Yale University. Police Advisory Board</part>
             </corpname>
          </origination>
-    
       </did>
       <odd id="aspace_f2756708e28714ffbb0643c6e04ee068">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 4-F (YRG 4-F), Records documenting Yale security.</p>  
+         <p>Forms part of Yale Record Group 4-F (YRG 4-F), Records documenting Yale security.</p>
       </odd>
       <acqinfo id="aspace_1dbfeb2d720e421e42748c058843ff65">
          <head>Immediate Source of Acquisition</head>
-         <p>The materials were transferred from the Office of the President, 1976; Office of of the Secretary, 1988.</p>  
+         <p>The materials were transferred from the Office of the President, 1976; Office of of the Secretary, 1988.</p>
       </acqinfo>
       <accessrestrict id="aspace_b5a723d89b50c416db52194d71f6d6ce">
          <head>Conditions Governing Access</head>
          <p>Access to the records is restricted. See Collection Contents for details.</p>
-         <p>Some records in this finding aid have been redacted, as they include student names, donor names, and other restricted data. These records will not appear in the published finding aid.</p>  
+         <p>Some records in this finding aid have been redacted, as they include student names, donor names, and other restricted data. These records will not appear in the published finding aid.</p>
       </accessrestrict>
       <userestrict id="aspace_f9634fe4462370aec97452105a0fc4d2">
          <head>Conditions Governing Use</head>
-         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <prefercite id="aspace_c9a1dfe15ba7431cad5cc0c03159d79c">
          <head>Preferred Citation</head>
-         <p>Police Advisory Board, Yale University, Records (RU 1102). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Police Advisory Board, Yale University, Records (RU 1102). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <processinfo id="aspace_012f41ff78d5318f302369c73736662b">
          <head>Processing Information</head>
-         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>  
+         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>
       </processinfo>
       <scopecontent id="aspace_42d23a9ac7a6802580926baf41fe7cfc">
          <head>Scope and Contents</head>
-         <p>The materials consist of correspondence, reports, agendas and meeting minutes of the Police Advisory Board.</p>  
+         <p>The materials consist of correspondence, reports, agendas and meeting minutes of the Police Advisory Board.</p>
       </scopecontent>
       <arrangement id="aspace_09cf2063b11fb2f019ece051bfe8e495">
          <head>Arrangement</head>
-         <p>The records are arranged by accession.</p>  
+         <p>The records are arranged by accession.</p>
       </arrangement>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85019263"
                   source="lcsh">
-            <part>Campus police</part>
+            <part localtype="topical">Campus police</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh97004093"
                   source="lcsh">
-            <part>Universities and colleges -- Security measures</part>
+            <part localtype="topical">Universities and colleges</part>
+            <part localtype="topical">Security measures</part>
          </subject>
          <corpname source="local">
-            <part>Yale University. Police Advisory Board</part>
+            <part localtype="agent_corporate_entity">Yale University. Police Advisory Board</part>
          </corpname>
          <corpname rules="aacr" source="local">
-            <part>Yale University. Police Dept</part>
+            <part localtype="agent_corporate_entity">Yale University. Police Dept</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="series">
+         <c altrender="/repositories/12/archival_objects/851668"
+            id="ref11"
+            level="series">
             <did>
                <unittitle>Campus Police history project records</unittitle>
                <unitid>Accession 1976-A-010</unitid>
@@ -155,14 +169,15 @@
                   <quantity>1.5</quantity>
                   <unittype>Linear Feet</unittype>
                </physdescstructured>
-               <unitdatestructured unitdatetype="inclusive" altrender="1964-1971">
+               <unitdatestructured altrender="1964-1971" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1964">1964</fromdate>
                      <todate standarddate="1971">1971</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_81aead0a930c9fbf8373e52ad0dc1d24">
+            <accessrestrict id="aspace_81aead0a930c9fbf8373e52ad0dc1d24"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2047.</p>
             </accessrestrict>
@@ -170,500 +185,599 @@
                <head>Scope and Contents</head>
                <p>The original inventory lists these records as "Campus Police History Project (JFF File)." JFF is probably Jonathan F. Fanton, Special Assistant to the President, who was a member of the Police Advisory Board. The records include crime reports, crime statistics, policies, correspondence, annual reports, arrests and incident reports concerning matters dealt with by the Police Advisory Board. Materials in these files are primarily addressed to Richard Carroll, Chair of Police Board, Henry Chauncey, Jr., Special Assistant to the President and Chair Police Board, and Jonathan Fanton.</p>
             </scopecontent>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/851669"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>General</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1967-1971">
+                  <unitdatestructured altrender="1967-1971" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1967">1967</fromdate>
                         <todate standarddate="1971">1971</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102046 /locations/9"
                              containerid="39002046522125"
+                             encodinganalog="archive letter"
                              id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/851670"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Annual reports</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1966-1970">
+                  <unitdatestructured altrender="1966-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1966">1966</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102046 /locations/9"
                              containerid="39002046522125"
+                             encodinganalog="archive letter"
                              id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/851671"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Arrest reports</unittitle>
                </did>
-               <c id="ref16" level="file">
+               <c altrender="/repositories/12/archival_objects/851672"
+                  id="ref16"
+                  level="file">
                   <did>
                      <unittitle>1970-1972</unittitle>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102046 /locations/9"
                                 containerid="39002046522125"
+                                encodinganalog="archive letter"
                                 id="aspace_ref16_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                   </did>
                </c>
             </c>
-            <c id="ref24" level="file">
+            <c altrender="/repositories/12/archival_objects/851678"
+               id="ref24"
+               level="file">
                <did>
                   <unittitle>Budget</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1968-1972">
+                  <unitdatestructured altrender="1968-1972" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1968">1968</fromdate>
                         <todate standarddate="1972">1972</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102047 /locations/9"
                              containerid="39002046522133"
+                             encodinganalog="archive letter"
                              id="aspace_ref24_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref25" level="file">
+            <c altrender="/repositories/12/archival_objects/851679"
+               id="ref25"
+               level="file">
                <did>
                   <unittitle>Campus police and the city</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969-1970">
+                  <unitdatestructured altrender="1969-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102047 /locations/9"
                              containerid="39002046522133"
+                             encodinganalog="archive letter"
                              id="aspace_ref25_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref26" level="file">
+            <c altrender="/repositories/12/archival_objects/851680"
+               id="ref26"
+               level="file">
                <did>
                   <unittitle>Chief, selection of</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969-1970">
+                  <unitdatestructured altrender="1969-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102047 /locations/9"
                              containerid="39002046522133"
+                             encodinganalog="archive letter"
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref27" level="file">
+            <c altrender="/repositories/12/archival_objects/851681"
+               id="ref27"
+               level="file">
                <did>
                   <unittitle>Commendation letters</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1970-1971">
+                  <unitdatestructured altrender="1970-1971" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1970">1970</fromdate>
                         <todate standarddate="1971">1971</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102047 /locations/9"
                              containerid="39002046522133"
+                             encodinganalog="archive letter"
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref28" level="file">
+            <c altrender="/repositories/12/archival_objects/851682"
+               id="ref28"
+               level="file">
                <did>
                   <unittitle>Duties and functions</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1970-1971">
+                  <unitdatestructured altrender="1970-1971" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1970">1970</fromdate>
                         <todate standarddate="1971">1971</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102047 /locations/9"
                              containerid="39002046522133"
+                             encodinganalog="archive letter"
                              id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref29" level="file">
+            <c altrender="/repositories/12/archival_objects/851683"
+               id="ref29"
+               level="file">
                <did>
                   <unittitle>Electronic devices</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969-1970">
+                  <unitdatestructured altrender="1969-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102047 /locations/9"
                              containerid="39002046522133"
+                             encodinganalog="archive letter"
                              id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/851684"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Evening transportation</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969-1970">
+                  <unitdatestructured altrender="1969-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102047 /locations/9"
                              containerid="39002046522133"
+                             encodinganalog="archive letter"
                              id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/851685"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Furniture inventory</unittitle>
-                  <unitdate unitdatetype="inclusive">Undated</unitdate>
-                  <container altrender="archive letter"
+                  <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                  <container altrender="/repositories/12/top_containers/102047 /locations/9"
                              containerid="39002046522133"
+                             encodinganalog="archive letter"
                              id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/851686"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>Governance Commission</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1970-1971">
+                  <unitdatestructured altrender="1970-1971" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1970">1970</fromdate>
                         <todate standarddate="1971">1971</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102047 /locations/9"
                              containerid="39002046522133"
+                             encodinganalog="archive letter"
                              id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/851687"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>Guards</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969-1970">
+                  <unitdatestructured altrender="1969-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102047 /locations/9"
                              containerid="39002046522133"
+                             encodinganalog="archive letter"
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/851688"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>Harvard trip</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969-1970">
+                  <unitdatestructured altrender="1969-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102047 /locations/9"
                              containerid="39002046522133"
+                             encodinganalog="archive letter"
                              id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref36" level="file">
+            <c altrender="/repositories/12/archival_objects/851690"
+               id="ref36"
+               level="file">
                <did>
                   <unittitle>Law School security</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969-1970">
+                  <unitdatestructured altrender="1969-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102047 /locations/9"
                              containerid="39002046522133"
+                             encodinganalog="archive letter"
                              id="aspace_ref36_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref37" level="file">
+            <c altrender="/repositories/12/archival_objects/851691"
+               id="ref37"
+               level="file">
                <did>
                   <unittitle>Legal status</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969-1970">
+                  <unitdatestructured altrender="1969-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102047 /locations/9"
                              containerid="39002046522133"
+                             encodinganalog="archive letter"
                              id="aspace_ref37_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref38" level="file">
+            <c altrender="/repositories/12/archival_objects/851692"
+               id="ref38"
+               level="file">
                <did>
                   <unittitle>Mace use</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1970-1971">
+                  <unitdatestructured altrender="1970-1971" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1970">1970</fromdate>
                         <todate standarddate="1971">1971</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102047 /locations/9"
                              containerid="39002046522133"
+                             encodinganalog="archive letter"
                              id="aspace_ref38_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref39" level="file">
+            <c altrender="/repositories/12/archival_objects/851693"
+               id="ref39"
+               level="file">
                <did>
                   <unittitle>Minority recruitment</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1967-1968">
+                  <unitdatestructured altrender="1967-1968" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1967">1967</fromdate>
                         <todate standarddate="1968">1968</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102047 /locations/9"
                              containerid="39002046522133"
+                             encodinganalog="archive letter"
                              id="aspace_ref39_c1"
                              label="Mixed Materials"
                              localtype="box">2</container>
                </did>
             </c>
-            <c id="ref41" level="file">
+            <c altrender="/repositories/12/archival_objects/851695"
+               id="ref41"
+               level="file">
                <did>
                   <unittitle>Personnel</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969-1971">
+                  <unitdatestructured altrender="1969-1971" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1971">1971</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102048 /locations/9"
                              containerid="39002046522141"
+                             encodinganalog="archive letter"
                              id="aspace_ref41_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref42" level="file">
+            <c altrender="/repositories/12/archival_objects/851696"
+               id="ref42"
+               level="file">
                <did>
                   <unittitle>Police Board</unittitle>
                </did>
-               <c id="ref43" level="file">
+               <c altrender="/repositories/12/archival_objects/851697"
+                  id="ref43"
+                  level="file">
                   <did>
                      <unittitle>General</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1964-1971">
+                     <unitdatestructured altrender="1964-1971" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1964">1964</fromdate>
                            <todate standarddate="1971">1971</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102048 /locations/9"
                                 containerid="39002046522141"
+                                encodinganalog="archive letter"
                                 id="aspace_ref43_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
                </c>
-               <c id="ref44" level="file">
+               <c altrender="/repositories/12/archival_objects/851698"
+                  id="ref44"
+                  level="file">
                   <did>
                      <unittitle>Minutes of meetings</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1969-1971">
+                     <unitdatestructured altrender="1969-1971" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1969">1969</fromdate>
                            <todate standarddate="1971">1971</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102048 /locations/9"
                                 containerid="39002046522141"
+                                encodinganalog="archive letter"
                                 id="aspace_ref44_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
                </c>
-               <c id="ref45" level="file">
+               <c altrender="/repositories/12/archival_objects/851699"
+                  id="ref45"
+                  level="file">
                   <did>
                      <unittitle>Student members</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1969-1970">
+                     <unitdatestructured altrender="1969-1970" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1969">1969</fromdate>
                            <todate standarddate="1970">1970</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102048 /locations/9"
                                 containerid="39002046522141"
+                                encodinganalog="archive letter"
                                 id="aspace_ref45_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
                </c>
             </c>
-            <c id="ref46" level="file">
+            <c altrender="/repositories/12/archival_objects/851700"
+               id="ref46"
+               level="file">
                <did>
                   <unittitle>Police chiefs in Connecticut</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1970-1971">
+                  <unitdatestructured altrender="1970-1971" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1970">1970</fromdate>
                         <todate standarddate="1971">1971</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102048 /locations/9"
                              containerid="39002046522141"
+                             encodinganalog="archive letter"
                              id="aspace_ref46_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref47" level="file">
+            <c altrender="/repositories/12/archival_objects/851701"
+               id="ref47"
+               level="file">
                <did>
                   <unittitle>Report on security at University of Wisconsin</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969-1970">
+                  <unitdatestructured altrender="1969-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102048 /locations/9"
                              containerid="39002046522141"
+                             encodinganalog="archive letter"
                              id="aspace_ref47_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref48" level="file">
+            <c altrender="/repositories/12/archival_objects/851702"
+               id="ref48"
+               level="file">
                <did>
                   <unittitle>Report on university locks</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969-1970">
+                  <unitdatestructured altrender="1969-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102048 /locations/9"
                              containerid="39002046522141"
+                             encodinganalog="archive letter"
                              id="aspace_ref48_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref49" level="file">
+            <c altrender="/repositories/12/archival_objects/851703"
+               id="ref49"
+               level="file">
                <did>
                   <unittitle>Security and college deans</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969-1970">
+                  <unitdatestructured altrender="1969-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102048 /locations/9"
                              containerid="39002046522141"
+                             encodinganalog="archive letter"
                              id="aspace_ref49_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref50" level="file">
+            <c altrender="/repositories/12/archival_objects/851704"
+               id="ref50"
+               level="file">
                <did>
                   <unittitle>Theft and arrest statistics</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1970-1971">
+                  <unitdatestructured altrender="1970-1971" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1970">1970</fromdate>
                         <todate standarddate="1971">1971</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102048 /locations/9"
                              containerid="39002046522141"
+                             encodinganalog="archive letter"
                              id="aspace_ref50_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref51" level="file">
+            <c altrender="/repositories/12/archival_objects/851705"
+               id="ref51"
+               level="file">
                <did>
                   <unittitle>Thefts from colleges, Old Campus, and annexes</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1970">
+                  <unitdatestructured altrender="1970" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1970">1970</datesingle>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102048 /locations/9"
                              containerid="39002046522141"
+                             encodinganalog="archive letter"
                              id="aspace_ref51_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref52" level="file">
+            <c altrender="/repositories/12/archival_objects/851706"
+               id="ref52"
+               level="file">
                <did>
                   <unittitle>Time of theft study</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969-1970">
+                  <unitdatestructured altrender="1969-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102048 /locations/9"
                              containerid="39002046522141"
+                             encodinganalog="archive letter"
                              id="aspace_ref52_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref53" level="file">
+            <c altrender="/repositories/12/archival_objects/851707"
+               id="ref53"
+               level="file">
                <did>
                   <unittitle>United Illuminating</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969-1970">
+                  <unitdatestructured altrender="1969-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1969">1969</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102048 /locations/9"
                              containerid="39002046522141"
+                             encodinganalog="archive letter"
                              id="aspace_ref53_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
-            <c id="ref54" level="file">
+            <c altrender="/repositories/12/archival_objects/851708"
+               id="ref54"
+               level="file">
                <did>
                   <unittitle>Yale-New Haven Hospital</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1963-1970">
+                  <unitdatestructured altrender="1963-1970" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1963">1963</fromdate>
                         <todate standarddate="1970">1970</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/102048 /locations/9"
                              containerid="39002046522141"
+                             encodinganalog="archive letter"
                              id="aspace_ref54_c1"
                              label="Mixed Materials"
                              localtype="box">3</container>
                </did>
             </c>
          </c>
-         <c id="ref57" level="series">
+         <c altrender="/repositories/12/archival_objects/851709"
+            id="ref57"
+            level="series">
             <did>
                <unittitle>Administrative records</unittitle>
                <unitid>Accession 1988-A-030</unitid>
@@ -671,14 +785,15 @@
                   <quantity>3</quantity>
                   <unittype>Linear Feet</unittype>
                </physdescstructured>
-               <unitdatestructured unitdatetype="inclusive" altrender="1968-1981">
+               <unitdatestructured altrender="1968-1981" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1968">1968</fromdate>
                      <todate standarddate="1981">1981</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_2660d2dc756e00324b9a3075dfe87632">
+            <accessrestrict id="aspace_2660d2dc756e00324b9a3075dfe87632"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2057.</p>
             </accessrestrict>
@@ -686,497 +801,641 @@
                <head>Scope and Contents</head>
                <p>The bulk of the records appear to those of Lawrence Noble, Associate Secretary, who was an ex-officio member of the Police Advisory Board from 1973 to1981. Also includes records of Jonathan Fanton, Special Assistant to the President, who was a member of the Police Advisory Board. The records consist of reports, correspondence, agendas and meeting minutes of the Police Advisory Board, crime stats, and budgets. Reports, crime states, and budget materials seem to have been sent directly to the Secretary.</p>
             </scopecontent>
-            <c id="ref59" level="file">
+            <c altrender="/repositories/12/archival_objects/851710"
+               id="ref59"
+               level="file">
                <did>
                   <unittitle>University Police</unittitle>
                </did>
-               <c id="ref60" level="file">
+               <c altrender="/repositories/12/archival_objects/851711"
+                  id="ref60"
+                  level="file">
                   <did>
                      <unittitle>Director of Security</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1980 February 29 - April 10">
+                     <unitdatestructured altrender="1980 February 29 - April 10"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1980-02-29">1980-02-29</fromdate>
-                           <todate standarddate="1980-04-10">1980-04-10</todate>
+                           <fromdate standarddate="1980-02-29">1980 February 29</fromdate>
+                           <todate standarddate="1980-04-10">1980 April 10</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102049 /locations/9"
                                 containerid="39002042804451"
+                                encodinganalog="archive letter"
                                 id="aspace_ref60_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref60_c2" localtype="folder" parent="aspace_ref60_c1">1</container>
                   </did>
                </c>
-               <c id="ref61" level="file">
+               <c altrender="/repositories/12/archival_objects/851712"
+                  id="ref61"
+                  level="file">
                   <did>
                      <unittitle>Keys</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1978 March 17 - 1979 March 6">
+                     <unitdatestructured altrender="1978 March 17 - 1979 March 6"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1978-03-17">1978-03-17</fromdate>
-                           <todate standarddate="1979-03-06">1979-03-06</todate>
+                           <fromdate standarddate="1978-03-17">1978 March 17</fromdate>
+                           <todate standarddate="1979-03-06">1979 March 6</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102049 /locations/9"
                                 containerid="39002042804451"
+                                encodinganalog="archive letter"
                                 id="aspace_ref61_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref61_c2" localtype="folder" parent="aspace_ref61_c1">2</container>
                   </did>
                </c>
-               <c id="ref62" level="file">
+               <c altrender="/repositories/12/archival_objects/851713"
+                  id="ref62"
+                  level="file">
                   <did>
                      <unittitle>Legal Fees</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1975 September 25 - November 14">
+                     <unitdatestructured altrender="1975 September 25 - November 14"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1975-09-25">1975-09-25</fromdate>
-                           <todate standarddate="1975-11-14">1975-11-14</todate>
+                           <fromdate standarddate="1975-09-25">1975 September 25</fromdate>
+                           <todate standarddate="1975-11-14">1975 November 14</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102049 /locations/9"
                                 containerid="39002042804451"
+                                encodinganalog="archive letter"
                                 id="aspace_ref62_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref62_c2" localtype="folder" parent="aspace_ref62_c1">3</container>
                   </did>
                </c>
-               <c id="ref63" level="file">
+               <c altrender="/repositories/12/archival_objects/851714"
+                  id="ref63"
+                  level="file">
                   <did>
                      <unittitle>Memoranda from the Chief</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1974 August 20 -1981 August 10">
+                     <unitdatestructured altrender="1974 August 20 -1981 August 10"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1974-08-20">1974-08-20</fromdate>
-                           <todate standarddate="1981-08-10">1981-08-10</todate>
+                           <fromdate standarddate="1974-08-20">1974 August 20</fromdate>
+                           <todate standarddate="1981-08-10">1981 August 10</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102049 /locations/9"
                                 containerid="39002042804451"
+                                encodinganalog="archive letter"
                                 id="aspace_ref63_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref63_c2" localtype="folder" parent="aspace_ref63_c1">4</container>
                   </did>
                </c>
-               <c id="ref64" level="file">
+               <c altrender="/repositories/12/archival_objects/851715"
+                  id="ref64"
+                  level="file">
                   <did>
                      <unittitle>Miscellaneous</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1973 June 18 - 1981 May 13">
+                     <unitdatestructured altrender="1973 June 18 - 1981 May 13"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1973-06-18">1973-06-18</fromdate>
-                           <todate standarddate="1981-05-13">1981-05-13</todate>
+                           <fromdate standarddate="1973-06-18">1973 June 18</fromdate>
+                           <todate standarddate="1981-05-13">1981 May 13</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102049 /locations/9"
                                 containerid="39002042804451"
+                                encodinganalog="archive letter"
                                 id="aspace_ref64_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref64_c2" localtype="folder" parent="aspace_ref64_c1">5</container>
                   </did>
                </c>
-               <c id="ref65" level="file">
+               <c altrender="/repositories/12/archival_objects/851716"
+                  id="ref65"
+                  level="file">
                   <did>
                      <unittitle>Names Resevoir</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1974 May 24 - 1975 April 22">
+                     <unitdatestructured altrender="1974 May 24 - 1975 April 22"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1974-05-24">1974-05-24</fromdate>
-                           <todate standarddate="1975-04-22">1975-04-22</todate>
+                           <fromdate standarddate="1974-05-24">1974 May 24</fromdate>
+                           <todate standarddate="1975-04-22">1975 April 22</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102049 /locations/9"
                                 containerid="39002042804451"
+                                encodinganalog="archive letter"
                                 id="aspace_ref65_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref65_c2" localtype="folder" parent="aspace_ref65_c1">6</container>
                   </did>
                </c>
-               <c id="ref66" level="file">
+               <c altrender="/repositories/12/archival_objects/851717"
+                  id="ref66"
+                  level="file">
                   <did>
                      <unittitle>Officer Training</unittitle>
-                     <unitdatestructured unitdatetype="inclusive"
-                                         altrender="1976 December 15 - 1980 September 18">
+                     <unitdatestructured altrender="1976 December 15 - 1980 September 18"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1976-12-15">1976-12-15</fromdate>
-                           <todate standarddate="1980-09-18">1980-09-18</todate>
+                           <fromdate standarddate="1976-12-15">1976 December 15</fromdate>
+                           <todate standarddate="1980-09-18">1980 September 18</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102049 /locations/9"
                                 containerid="39002042804451"
+                                encodinganalog="archive letter"
                                 id="aspace_ref66_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref66_c2" localtype="folder" parent="aspace_ref66_c1">7</container>
                   </did>
                </c>
-               <c id="ref67" level="file">
+               <c altrender="/repositories/12/archival_objects/851718"
+                  id="ref67"
+                  level="file">
                   <did>
                      <unittitle>Parking Lots</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1979 April 4 - May 22">
+                     <unitdatestructured altrender="1979 April 4 - May 22"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1979-04-04">1979-04-04</fromdate>
-                           <todate standarddate="1979-05-22">1979-05-22</todate>
+                           <fromdate standarddate="1979-04-04">1979 April 4</fromdate>
+                           <todate standarddate="1979-05-22">1979 May 22</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102049 /locations/9"
                                 containerid="39002042804451"
+                                encodinganalog="archive letter"
                                 id="aspace_ref67_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref67_c2" localtype="folder" parent="aspace_ref67_c1">8</container>
                   </did>
                </c>
-               <c id="ref68" level="file">
+               <c altrender="/repositories/12/archival_objects/851719"
+                  id="ref68"
+                  level="file">
                   <did>
                      <unittitle>Pending</unittitle>
-                     <unitdate unitdatetype="inclusive">1980 November 6 - 11</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">1980 November 6 - 11</unitdate>
+                     <container altrender="/repositories/12/top_containers/102049 /locations/9"
                                 containerid="39002042804451"
+                                encodinganalog="archive letter"
                                 id="aspace_ref68_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref68_c2" localtype="folder" parent="aspace_ref68_c1">9</container>
                   </did>
                </c>
-               <c id="ref69" level="file">
+               <c altrender="/repositories/12/archival_objects/851720"
+                  id="ref69"
+                  level="file">
                   <did>
                      <unittitle>Rating System</unittitle>
-                     <unitdate unitdatetype="inclusive">1977 February - May 10</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">1977 February - May 10</unitdate>
+                     <container altrender="/repositories/12/top_containers/102049 /locations/9"
                                 containerid="39002042804451"
+                                encodinganalog="archive letter"
                                 id="aspace_ref69_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref69_c2" localtype="folder" parent="aspace_ref69_c1">10</container>
                   </did>
                </c>
-               <c id="ref70" level="file">
+               <c altrender="/repositories/12/archival_objects/851721"
+                  id="ref70"
+                  level="file">
                   <did>
                      <unittitle>Recidivism</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1976 March 15-1981 June 18">
+                     <unitdatestructured altrender="1976 March 15-1981 June 18"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1976-03-15">1976-03-15</fromdate>
-                           <todate standarddate="1981-06-18">1981-06-18</todate>
+                           <fromdate standarddate="1976-03-15">1976 March 15</fromdate>
+                           <todate standarddate="1981-06-18">1981 June 18</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102049 /locations/9"
                                 containerid="39002042804451"
+                                encodinganalog="archive letter"
                                 id="aspace_ref70_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref70_c2" localtype="folder" parent="aspace_ref70_c1">11</container>
                   </did>
                </c>
-               <c id="ref71" level="file">
+               <c altrender="/repositories/12/archival_objects/851722"
+                  id="ref71"
+                  level="file">
                   <did>
                      <unittitle>Personnel</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1973 September 7-1981 March 31">
+                     <unitdatestructured altrender="1973 September 7-1981 March 31"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1973-09-07">1973-09-07</fromdate>
-                           <todate standarddate="1981-03-31">1981-03-31</todate>
+                           <fromdate standarddate="1973-09-07">1973 September 7</fromdate>
+                           <todate standarddate="1981-03-31">1981 March 31</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102049 /locations/9"
                                 containerid="39002042804451"
+                                encodinganalog="archive letter"
                                 id="aspace_ref71_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
                      <container id="aspace_ref71_c2" localtype="folder" parent="aspace_ref71_c1">12</container>
                   </did>
                </c>
-               <c id="ref72" level="file">
+               <c altrender="/repositories/12/archival_objects/851723"
+                  id="ref72"
+                  level="file">
                   <did>
                      <unittitle>Reports from the Chief (Current Year)</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1979 September 11 - 1981 August 19">
+                     <unitdatestructured altrender="1979 September 11 - 1981 August 19"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1979-09-11">1979-09-11</fromdate>
-                           <todate standarddate="1981-08-19">1981-08-19</todate>
+                           <fromdate standarddate="1979-09-11">1979 September 11</fromdate>
+                           <todate standarddate="1981-08-19">1981 August 19</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102050 /locations/9"
                                 containerid="39002042804469"
+                                encodinganalog="archive letter"
                                 id="aspace_ref72_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref72_c2" localtype="folder" parent="aspace_ref72_c1">13</container>
                   </did>
                </c>
-               <c id="ref73" level="file">
+               <c altrender="/repositories/12/archival_objects/851724"
+                  id="ref73"
+                  level="file">
                   <did>
                      <unittitle>Reports from the Chief (Prior Years)</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1973 June 22-1979 March 28">
+                     <unitdatestructured altrender="1973 June 22-1979 March 28"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1973-06-22">1973-06-22</fromdate>
-                           <todate standarddate="1979-03-28">1979-03-28</todate>
+                           <fromdate standarddate="1973-06-22">1973 June 22</fromdate>
+                           <todate standarddate="1979-03-28">1979 March 28</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102050 /locations/9"
                                 containerid="39002042804469"
+                                encodinganalog="archive letter"
                                 id="aspace_ref73_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref73_c2" localtype="folder" parent="aspace_ref73_c1">14</container>
                   </did>
                </c>
-               <c id="ref74" level="file">
+               <c altrender="/repositories/12/archival_objects/851725"
+                  id="ref74"
+                  level="file">
                   <did>
                      <unittitle>Retirement</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1979 October 11-1981 June 12">
+                     <unitdatestructured altrender="1979 October 11-1981 June 12"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1979-10-11">1979-10-11</fromdate>
-                           <todate standarddate="1981-06-12">1981-06-12</todate>
+                           <fromdate standarddate="1979-10-11">1979 October 11</fromdate>
+                           <todate standarddate="1981-06-12">1981 June 12</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102050 /locations/9"
                                 containerid="39002042804469"
+                                encodinganalog="archive letter"
                                 id="aspace_ref74_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref74_c2" localtype="folder" parent="aspace_ref74_c1">15</container>
                   </did>
                </c>
-               <c id="ref75" level="file">
+               <c altrender="/repositories/12/archival_objects/851726"
+                  id="ref75"
+                  level="file">
                   <did>
                      <unittitle>Security</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1974 January 31 - 1981 August 7">
+                     <unitdatestructured altrender="1974 January 31 - 1981 August 7"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1974-01-31">1974-01-31</fromdate>
-                           <todate standarddate="1981-08-07">1981-08-07</todate>
+                           <fromdate standarddate="1974-01-31">1974 January 31</fromdate>
+                           <todate standarddate="1981-08-07">1981 August 7</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102050 /locations/9"
                                 containerid="39002042804469"
+                                encodinganalog="archive letter"
                                 id="aspace_ref75_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref75_c2" localtype="folder" parent="aspace_ref75_c1">16</container>
                   </did>
                </c>
-               <c id="ref76" level="file">
+               <c altrender="/repositories/12/archival_objects/851727"
+                  id="ref76"
+                  level="file">
                   <did>
                      <unittitle>Security Brochure</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1981 April 30">
+                     <unitdatestructured altrender="1981 April 30" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1981-04-30">1981 April 30</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102050 /locations/9"
                                 containerid="39002042804469"
+                                encodinganalog="archive letter"
                                 id="aspace_ref76_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref76_c2" localtype="folder" parent="aspace_ref76_c1">17</container>
                   </did>
                </c>
-               <c id="ref77" level="file">
+               <c altrender="/repositories/12/archival_objects/851728"
+                  id="ref77"
+                  level="file">
                   <did>
                      <unittitle>Strike</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1974 April 23 - 1977 November 16">
+                     <unitdatestructured altrender="1974 April 23 - 1977 November 16"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1974-04-23">1974-04-23</fromdate>
-                           <todate standarddate="1977-11-16">1977-11-16</todate>
+                           <fromdate standarddate="1974-04-23">1974 April 23</fromdate>
+                           <todate standarddate="1977-11-16">1977 November 16</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102050 /locations/9"
                                 containerid="39002042804469"
+                                encodinganalog="archive letter"
                                 id="aspace_ref77_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref77_c2" localtype="folder" parent="aspace_ref77_c1">18</container>
                   </did>
                </c>
-               <c id="ref79" level="file">
+               <c altrender="/repositories/12/archival_objects/851730"
+                  id="ref79"
+                  level="file">
                   <did>
                      <unittitle>Tuition Assistance Plan</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1973 September 5 - 1974 January 16">
+                     <unitdatestructured altrender="1973 September 5 - 1974 January 16"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1973-09-05">1973-09-05</fromdate>
-                           <todate standarddate="1974-01-16">1974-01-16</todate>
+                           <fromdate standarddate="1973-09-05">1973 September 5</fromdate>
+                           <todate standarddate="1974-01-16">1974 January 16</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102050 /locations/9"
                                 containerid="39002042804469"
+                                encodinganalog="archive letter"
                                 id="aspace_ref79_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                      <container id="aspace_ref79_c2" localtype="folder" parent="aspace_ref79_c1">20</container>
                   </did>
                </c>
-               <c id="ref80" level="file">
+               <c altrender="/repositories/12/archival_objects/851731"
+                  id="ref80"
+                  level="file">
                   <did>
                      <unittitle>Uniforms</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1976 February 19">
+                     <unitdatestructured altrender="1976 February 19"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1976-02-19">1976 February 19</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102051 /locations/9"
                                 containerid="39002042804477"
+                                encodinganalog="archive letter"
                                 id="aspace_ref80_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref80_c2" localtype="folder" parent="aspace_ref80_c1">21</container>
                   </did>
                </c>
-               <c id="ref81" level="file">
+               <c altrender="/repositories/12/archival_objects/851732"
+                  id="ref81"
+                  level="file">
                   <did>
                      <unittitle>Yale Psychiatric Institute</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1974 February 21 - October 3">
+                     <unitdatestructured altrender="1974 February 21 - October 3"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1974-02-21">1974-02-21</fromdate>
-                           <todate standarddate="1974-10-03">1974-10-03</todate>
+                           <fromdate standarddate="1974-02-21">1974 February 21</fromdate>
+                           <todate standarddate="1974-10-03">1974 October 3</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102051 /locations/9"
                                 containerid="39002042804477"
+                                encodinganalog="archive letter"
                                 id="aspace_ref81_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref81_c2" localtype="folder" parent="aspace_ref81_c1">22</container>
                   </did>
                </c>
-               <c id="ref82" level="file">
+               <c altrender="/repositories/12/archival_objects/851733"
+                  id="ref82"
+                  level="file">
                   <did>
                      <unittitle>Youth Assistance Program</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1974 April 15 - December 20">
+                     <unitdatestructured altrender="1974 April 15 - December 20"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1974-04-15">1974-04-15</fromdate>
-                           <todate standarddate="1974-12-20">1974-12-20</todate>
+                           <fromdate standarddate="1974-04-15">1974 April 15</fromdate>
+                           <todate standarddate="1974-12-20">1974 December 20</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102051 /locations/9"
                                 containerid="39002042804477"
+                                encodinganalog="archive letter"
                                 id="aspace_ref82_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref82_c2" localtype="folder" parent="aspace_ref82_c1">23</container>
                   </did>
                </c>
-               <c id="ref83" level="file">
+               <c altrender="/repositories/12/archival_objects/851734"
+                  id="ref83"
+                  level="file">
                   <did>
                      <unittitle>Police Advisory Board, 1973-74</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1974 January 2">
+                     <unitdatestructured altrender="1974 January 2"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1974-01-02">1974 January 2</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102051 /locations/9"
                                 containerid="39002042804477"
+                                encodinganalog="archive letter"
                                 id="aspace_ref83_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref83_c2" localtype="folder" parent="aspace_ref83_c1">24</container>
                   </did>
                </c>
-               <c id="ref84" level="file">
+               <c altrender="/repositories/12/archival_objects/851735"
+                  id="ref84"
+                  level="file">
                   <did>
                      <unittitle>Miscellaneous, 1972-73</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1972 September 14 - 1973 March 27">
+                     <unitdatestructured altrender="1972 September 14 - 1973 March 27"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1972-09-14">1972-09-14</fromdate>
-                           <todate standarddate="1973-03-27">1973-03-27</todate>
+                           <fromdate standarddate="1972-09-14">1972 September 14</fromdate>
+                           <todate standarddate="1973-03-27">1973 March 27</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102051 /locations/9"
                                 containerid="39002042804477"
+                                encodinganalog="archive letter"
                                 id="aspace_ref84_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref84_c2" localtype="folder" parent="aspace_ref84_c1">25</container>
                   </did>
                </c>
-               <c id="ref85" level="file">
+               <c altrender="/repositories/12/archival_objects/851736"
+                  id="ref85"
+                  level="file">
                   <did>
                      <unittitle>Police Advisory Board, 1972-73</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1972 October 10 - 1973 May 4">
+                     <unitdatestructured altrender="1972 October 10 - 1973 May 4"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1972-10-10">1972-10-10</fromdate>
-                           <todate standarddate="1973-05-04">1973-05-04</todate>
+                           <fromdate standarddate="1972-10-10">1972 October 10</fromdate>
+                           <todate standarddate="1973-05-04">1973 May 4</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102051 /locations/9"
                                 containerid="39002042804477"
+                                encodinganalog="archive letter"
                                 id="aspace_ref85_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref85_c2" localtype="folder" parent="aspace_ref85_c1">26</container>
                   </did>
                </c>
-               <c id="ref86" level="file">
+               <c altrender="/repositories/12/archival_objects/851737"
+                  id="ref86"
+                  level="file">
                   <did>
                      <unittitle>Miscellaneous, 1971-72</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1971 June 2 - 1972 July 27">
+                     <unitdatestructured altrender="1971 June 2 - 1972 July 27"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1971-06-02">1971-06-02</fromdate>
-                           <todate standarddate="1972-07-27">1972-07-27</todate>
+                           <fromdate standarddate="1971-06-02">1971 June 2</fromdate>
+                           <todate standarddate="1972-07-27">1972 July 27</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102051 /locations/9"
                                 containerid="39002042804477"
+                                encodinganalog="archive letter"
                                 id="aspace_ref86_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref86_c2" localtype="folder" parent="aspace_ref86_c1">27</container>
                   </did>
                </c>
-               <c id="ref87" level="file">
+               <c altrender="/repositories/12/archival_objects/851738"
+                  id="ref87"
+                  level="file">
                   <did>
                      <unittitle>Police Advisory Board, 1971-72</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1971 July 22 - 1972 May 4">
+                     <unitdatestructured altrender="1971 July 22 - 1972 May 4"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1971-07-22">1971-07-22</fromdate>
-                           <todate standarddate="1972-05-04">1972-05-04</todate>
+                           <fromdate standarddate="1971-07-22">1971 July 22</fromdate>
+                           <todate standarddate="1972-05-04">1972 May 4</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102051 /locations/9"
                                 containerid="39002042804477"
+                                encodinganalog="archive letter"
                                 id="aspace_ref87_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref87_c2" localtype="folder" parent="aspace_ref87_c1">28</container>
                   </did>
                </c>
-               <c id="ref88" level="file">
+               <c altrender="/repositories/12/archival_objects/851739"
+                  id="ref88"
+                  level="file">
                   <did>
                      <unittitle>1970-1971</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1970 June 16-1970 December 17">
+                     <unitdatestructured altrender="1970 June 16-1970 December 17"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1970-06-16">1970-06-16</fromdate>
-                           <todate standarddate="1970-12-17">1970-12-17</todate>
+                           <fromdate standarddate="1970-06-16">1970 June 16</fromdate>
+                           <todate standarddate="1970-12-17">1970 December 17</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102051 /locations/9"
                                 containerid="39002042804477"
+                                encodinganalog="archive letter"
                                 id="aspace_ref88_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref88_c2" localtype="folder" parent="aspace_ref88_c1">29</container>
                   </did>
                </c>
-               <c id="ref89" level="file">
+               <c altrender="/repositories/12/archival_objects/851740"
+                  id="ref89"
+                  level="file">
                   <did>
                      <unittitle>Police Advisory Board, 1969-70</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1969 October 17 - 1971 April 19">
+                     <unitdatestructured altrender="1969 October 17 - 1971 April 19"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1969-10-17">1969-10-17</fromdate>
-                           <todate standarddate="1971-04-19">1971-04-19</todate>
+                           <fromdate standarddate="1969-10-17">1969 October 17</fromdate>
+                           <todate standarddate="1971-04-19">1971 April 19</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102051 /locations/9"
                                 containerid="39002042804477"
+                                encodinganalog="archive letter"
                                 id="aspace_ref89_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref89_c2" localtype="folder" parent="aspace_ref89_c1">30</container>
                   </did>
                </c>
-               <c id="ref90" level="file">
+               <c altrender="/repositories/12/archival_objects/851741"
+                  id="ref90"
+                  level="file">
                   <did>
                      <unittitle>City of New Haven Police Department</unittitle>
-                     <unitdatestructured unitdatetype="inclusive"
-                                         altrender="1969 November 3 - 1972 September 25">
+                     <unitdatestructured altrender="1969 November 3 - 1972 September 25"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1969-11-03">1969-11-03</fromdate>
-                           <todate standarddate="1972-09-25">1972-09-25</todate>
+                           <fromdate standarddate="1969-11-03">1969 November 3</fromdate>
+                           <todate standarddate="1972-09-25">1972 September 25</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102051 /locations/9"
                                 containerid="39002042804477"
+                                encodinganalog="archive letter"
                                 id="aspace_ref90_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
@@ -1184,169 +1443,219 @@
                   </did>
                </c>
             </c>
-            <c id="ref91" level="file">
+            <c altrender="/repositories/12/archival_objects/851742"
+               id="ref91"
+               level="file">
                <did>
                   <unittitle>Police Advisory Board</unittitle>
                </did>
-               <c id="ref92" level="file">
+               <c altrender="/repositories/12/archival_objects/851743"
+                  id="ref92"
+                  level="file">
                   <did>
                      <unittitle>Agenda and Minutes (Current Year)</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1979 November 21 - 1981 April 8">
+                     <unitdatestructured altrender="1979 November 21 - 1981 April 8"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1979-11-21">1979-11-21</fromdate>
-                           <todate standarddate="1981-04-08">1981-04-08</todate>
+                           <fromdate standarddate="1979-11-21">1979 November 21</fromdate>
+                           <todate standarddate="1981-04-08">1981 April 8</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102051 /locations/9"
                                 containerid="39002042804477"
+                                encodinganalog="archive letter"
                                 id="aspace_ref92_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref92_c2" localtype="folder" parent="aspace_ref92_c1">32</container>
                   </did>
                </c>
-               <c id="ref93" level="file">
+               <c altrender="/repositories/12/archival_objects/851744"
+                  id="ref93"
+                  level="file">
                   <did>
                      <unittitle>Agenda and Minutes (Prior Years)</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1973 June 1 - 1979 March 12">
+                     <unitdatestructured altrender="1973 June 1 - 1979 March 12"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1973-06-01">1973-06-01</fromdate>
-                           <todate standarddate="1979-03-12">1979-03-12</todate>
+                           <fromdate standarddate="1973-06-01">1973 June 1</fromdate>
+                           <todate standarddate="1979-03-12">1979 March 12</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102051 /locations/9"
                                 containerid="39002042804477"
+                                encodinganalog="archive letter"
                                 id="aspace_ref93_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref93_c2" localtype="folder" parent="aspace_ref93_c1">33</container>
                   </did>
                </c>
-               <c id="ref94" level="file">
+               <c altrender="/repositories/12/archival_objects/851745"
+                  id="ref94"
+                  level="file">
                   <did>
                      <unittitle>Ammunition</unittitle>
-                     <unitdate unitdatetype="inclusive">1975 Ju1 18 - 1977 February 25</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">1975 Ju1 18 - 1977 February 25</unitdate>
+                     <container altrender="/repositories/12/top_containers/102051 /locations/9"
                                 containerid="39002042804477"
+                                encodinganalog="archive letter"
                                 id="aspace_ref94_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                      <container id="aspace_ref94_c2" localtype="folder" parent="aspace_ref94_c1">34</container>
                   </did>
                </c>
-               <c id="ref95" level="file">
+               <c altrender="/repositories/12/archival_objects/851746"
+                  id="ref95"
+                  level="file">
                   <did>
                      <unittitle>Complaints</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1975 May 28 - 1980 August 18">
+                     <unitdatestructured altrender="1975 May 28 - 1980 August 18"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1975-05-28">1975-05-28</fromdate>
-                           <todate standarddate="1980-08-18">1980-08-18</todate>
+                           <fromdate standarddate="1975-05-28">1975 May 28</fromdate>
+                           <todate standarddate="1980-08-18">1980 August 18</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102052 /locations/9"
                                 containerid="39002042804485"
+                                encodinganalog="archive letter"
                                 id="aspace_ref95_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref95_c2" localtype="folder" parent="aspace_ref95_c1">35</container>
                   </did>
                </c>
-               <c id="ref96" level="file">
+               <c altrender="/repositories/12/archival_objects/851747"
+                  id="ref96"
+                  level="file">
                   <did>
                      <unittitle>Manual</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1974 January 1 - 1981 September 4">
+                     <unitdatestructured altrender="1974 January 1 - 1981 September 4"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1974-01-01">1974-01-01</fromdate>
-                           <todate standarddate="1981-09-04">1981-09-04</todate>
+                           <fromdate standarddate="1974-01-01">1974 January 1</fromdate>
+                           <todate standarddate="1981-09-04">1981 September 4</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102052 /locations/9"
                                 containerid="39002042804485"
+                                encodinganalog="archive letter"
                                 id="aspace_ref96_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref96_c2" localtype="folder" parent="aspace_ref96_c1">36 - 37</container>
                   </did>
                </c>
-               <c id="ref97" level="file">
+               <c altrender="/repositories/12/archival_objects/851748"
+                  id="ref97"
+                  level="file">
                   <did>
                      <unittitle>Membership (Current Year)</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1979 June 18-1981 June 11">
+                     <unitdatestructured altrender="1979 June 18-1981 June 11"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1979-06-18">1979-06-18</fromdate>
-                           <todate standarddate="1981-06-11">1981-06-11</todate>
+                           <fromdate standarddate="1979-06-18">1979 June 18</fromdate>
+                           <todate standarddate="1981-06-11">1981 June 11</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102052 /locations/9"
                                 containerid="39002042804485"
+                                encodinganalog="archive letter"
                                 id="aspace_ref97_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref97_c2" localtype="folder" parent="aspace_ref97_c1">38</container>
                   </did>
                </c>
-               <c id="ref98" level="file">
+               <c altrender="/repositories/12/archival_objects/851749"
+                  id="ref98"
+                  level="file">
                   <did>
                      <unittitle>Membership (Prior Years)</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1973 July 16-1978 December 12">
+                     <unitdatestructured altrender="1973 July 16-1978 December 12"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1973-07-16">1973-07-16</fromdate>
-                           <todate standarddate="1978-12-12">1978-12-12</todate>
+                           <fromdate standarddate="1973-07-16">1973 July 16</fromdate>
+                           <todate standarddate="1978-12-12">1978 December 12</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102052 /locations/9"
                                 containerid="39002042804485"
+                                encodinganalog="archive letter"
                                 id="aspace_ref98_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref98_c2" localtype="folder" parent="aspace_ref98_c1">39</container>
                   </did>
                </c>
-               <c id="ref99" level="file">
+               <c altrender="/repositories/12/archival_objects/851750"
+                  id="ref99"
+                  level="file">
                   <did>
                      <unittitle>Miscellaneous</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1973 October 17-1979 April 24">
+                     <unitdatestructured altrender="1973 October 17-1979 April 24"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1973-10-17">1973-10-17</fromdate>
-                           <todate standarddate="1979-04-24">1979-04-24</todate>
+                           <fromdate standarddate="1973-10-17">1973 October 17</fromdate>
+                           <todate standarddate="1979-04-24">1979 April 24</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102052 /locations/9"
                                 containerid="39002042804485"
+                                encodinganalog="archive letter"
                                 id="aspace_ref99_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref99_c2" localtype="folder" parent="aspace_ref99_c1">40</container>
                   </did>
                </c>
-               <c id="ref100" level="file">
+               <c altrender="/repositories/12/archival_objects/851751"
+                  id="ref100"
+                  level="file">
                   <did>
                      <unittitle>Pending</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1980 November 7-1981 June 6">
+                     <unitdatestructured altrender="1980 November 7-1981 June 6"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1980-11-07">1980-11-07</fromdate>
-                           <todate standarddate="1981-06-06">1981-06-06</todate>
+                           <fromdate standarddate="1980-11-07">1980 November 7</fromdate>
+                           <todate standarddate="1981-06-06">1981 June 6</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102052 /locations/9"
                                 containerid="39002042804485"
+                                encodinganalog="archive letter"
                                 id="aspace_ref100_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref100_c2" localtype="folder" parent="aspace_ref100_c1">41</container>
                   </did>
                </c>
-               <c id="ref101" level="file">
+               <c altrender="/repositories/12/archival_objects/851752"
+                  id="ref101"
+                  level="file">
                   <did>
                      <unittitle>Statement of Purpose</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1975 November 4-1976 March 30">
+                     <unitdatestructured altrender="1975 November 4-1976 March 30"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1975-11-04">1975-11-04</fromdate>
-                           <todate standarddate="1976-03-30">1976-03-30</todate>
+                           <fromdate standarddate="1975-11-04">1975 November 4</fromdate>
+                           <todate standarddate="1976-03-30">1976 March 30</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102052 /locations/9"
                                 containerid="39002042804485"
+                                encodinganalog="archive letter"
                                 id="aspace_ref101_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
@@ -1354,458 +1663,590 @@
                   </did>
                </c>
             </c>
-            <c id="ref102" level="file">
+            <c altrender="/repositories/12/archival_objects/851753"
+               id="ref102"
+               level="file">
                <did>
                   <unittitle>University Police</unittitle>
                </did>
-               <c id="ref103" level="file">
+               <c altrender="/repositories/12/archival_objects/851754"
+                  id="ref103"
+                  level="file">
                   <did>
                      <unittitle>Alarm Systems</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1980 June 17 - 1981 June 22">
+                     <unitdatestructured altrender="1980 June 17 - 1981 June 22"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1980-06-17">1980-06-17</fromdate>
-                           <todate standarddate="1981-06-22">1981-06-22</todate>
+                           <fromdate standarddate="1980-06-17">1980 June 17</fromdate>
+                           <todate standarddate="1981-06-22">1981 June 22</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102052 /locations/9"
                                 containerid="39002042804485"
+                                encodinganalog="archive letter"
                                 id="aspace_ref103_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                      <container id="aspace_ref103_c2" localtype="folder" parent="aspace_ref103_c1">43</container>
                   </did>
                </c>
-               <c id="ref104" level="file">
+               <c altrender="/repositories/12/archival_objects/851755"
+                  id="ref104"
+                  level="file">
                   <did>
                      <unittitle>Annual Reports</unittitle>
-                     <unitdate unitdatetype="inclusive">1979 JuI - 1981 June</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">1979 JuI - 1981 June</unitdate>
+                     <container altrender="/repositories/12/top_containers/102053 /locations/9"
                                 containerid="39002042804501"
+                                encodinganalog="archive letter"
                                 id="aspace_ref104_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref104_c2" localtype="folder" parent="aspace_ref104_c1">44</container>
                   </did>
                </c>
-               <c id="ref105" level="file">
+               <c altrender="/repositories/12/archival_objects/851756"
+                  id="ref105"
+                  level="file">
                   <did>
                      <unittitle>Automobile Leasing</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1978 May 17 - 1978 May 19">
+                     <unitdatestructured altrender="1978 May 17 - 1978 May 19"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1978-05-17">1978-05-17</fromdate>
-                           <todate standarddate="1978-05-19">1978-05-19</todate>
+                           <fromdate standarddate="1978-05-17">1978 May 17</fromdate>
+                           <todate standarddate="1978-05-19">1978 May 19</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102053 /locations/9"
                                 containerid="39002042804501"
+                                encodinganalog="archive letter"
                                 id="aspace_ref105_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref105_c2" localtype="folder" parent="aspace_ref105_c1">45</container>
                   </did>
                </c>
-               <c id="ref106" level="file">
+               <c altrender="/repositories/12/archival_objects/851757"
+                  id="ref106"
+                  level="file">
                   <did>
                      <unittitle>University Benefits</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1981 March 4">
+                     <unitdatestructured altrender="1981 March 4" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1981-03-04">1981 March 4</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102053 /locations/9"
                                 containerid="39002042804501"
+                                encodinganalog="archive letter"
                                 id="aspace_ref106_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref106_c2" localtype="folder" parent="aspace_ref106_c1">46</container>
                   </did>
                </c>
-               <c id="ref107" level="file">
+               <c altrender="/repositories/12/archival_objects/851758"
+                  id="ref107"
+                  level="file">
                   <did>
                      <unittitle>Budget Current</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1977 January 10 - 1981 May 21">
+                     <unitdatestructured altrender="1977 January 10 - 1981 May 21"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1977-01-10">1977-01-10</fromdate>
-                           <todate standarddate="1981-05-21">1981-05-21</todate>
+                           <fromdate standarddate="1977-01-10">1977 January 10</fromdate>
+                           <todate standarddate="1981-05-21">1981 May 21</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102053 /locations/9"
                                 containerid="39002042804501"
+                                encodinganalog="archive letter"
                                 id="aspace_ref107_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref107_c2" localtype="folder" parent="aspace_ref107_c1">47</container>
                   </did>
                </c>
-               <c id="ref108" level="file">
+               <c altrender="/repositories/12/archival_objects/851759"
+                  id="ref108"
+                  level="file">
                   <did>
                      <unittitle>Budget Old</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1973 June 14 - 1977 May 18">
+                     <unitdatestructured altrender="1973 June 14 - 1977 May 18"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1973-06-14">1973-06-14</fromdate>
-                           <todate standarddate="1977-05-18">1977-05-18</todate>
+                           <fromdate standarddate="1973-06-14">1973 June 14</fromdate>
+                           <todate standarddate="1977-05-18">1977 May 18</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102053 /locations/9"
                                 containerid="39002042804501"
+                                encodinganalog="archive letter"
                                 id="aspace_ref108_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref108_c2" localtype="folder" parent="aspace_ref108_c1">48</container>
                   </did>
                </c>
-               <c id="ref109" level="file">
+               <c altrender="/repositories/12/archival_objects/851760"
+                  id="ref109"
+                  level="file">
                   <did>
                      <unittitle>CARP</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1977 July 22 - 1979 February 5">
+                     <unitdatestructured altrender="1977 July 22 - 1979 February 5"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1977-07-22">1977-07-22</fromdate>
-                           <todate standarddate="1979-02-05">1979-02-05</todate>
+                           <fromdate standarddate="1977-07-22">1977 July 22</fromdate>
+                           <todate standarddate="1979-02-05">1979 February 5</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102053 /locations/9"
                                 containerid="39002042804501"
+                                encodinganalog="archive letter"
                                 id="aspace_ref109_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref109_c2" localtype="folder" parent="aspace_ref109_c1">49</container>
                   </did>
                </c>
-               <c id="ref110" level="file">
+               <c altrender="/repositories/12/archival_objects/851761"
+                  id="ref110"
+                  level="file">
                   <did>
                      <unittitle>Chief</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1975 February 19 - 1980 May 23">
+                     <unitdatestructured altrender="1975 February 19 - 1980 May 23"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1975-02-19">1975-02-19</fromdate>
-                           <todate standarddate="1980-05-23">1980-05-23</todate>
+                           <fromdate standarddate="1975-02-19">1975 February 19</fromdate>
+                           <todate standarddate="1980-05-23">1980 May 23</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102053 /locations/9"
                                 containerid="39002042804501"
+                                encodinganalog="archive letter"
                                 id="aspace_ref110_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref110_c2" localtype="folder" parent="aspace_ref110_c1">50</container>
                   </did>
                </c>
-               <c id="ref111" level="file">
+               <c altrender="/repositories/12/archival_objects/851762"
+                  id="ref111"
+                  level="file">
                   <did>
                      <unittitle>CIRRS</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1981 June 18">
+                     <unitdatestructured altrender="1981 June 18" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1981-06-18">1981 June 18</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102053 /locations/9"
                                 containerid="39002042804501"
+                                encodinganalog="archive letter"
                                 id="aspace_ref111_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref111_c2" localtype="folder" parent="aspace_ref111_c1">51</container>
                   </did>
                </c>
-               <c id="ref112" level="file">
+               <c altrender="/repositories/12/archival_objects/851763"
+                  id="ref112"
+                  level="file">
                   <did>
                      <unittitle>Civil Service Commission</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1973 October 8 - 1975 March 11">
+                     <unitdatestructured altrender="1973 October 8 - 1975 March 11"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1973-10-08">1973-10-08</fromdate>
-                           <todate standarddate="1975-03-11">1975-03-11</todate>
+                           <fromdate standarddate="1973-10-08">1973 October 8</fromdate>
+                           <todate standarddate="1975-03-11">1975 March 11</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102053 /locations/9"
                                 containerid="39002042804501"
+                                encodinganalog="archive letter"
                                 id="aspace_ref112_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref112_c2" localtype="folder" parent="aspace_ref112_c1">52</container>
                   </did>
                </c>
-               <c id="ref113" level="file">
+               <c altrender="/repositories/12/archival_objects/851764"
+                  id="ref113"
+                  level="file">
                   <did>
                      <unittitle>Commencement</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1981 April 20">
+                     <unitdatestructured altrender="1981 April 20" label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="1981-04-20">1981 April 20</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102053 /locations/9"
                                 containerid="39002042804501"
+                                encodinganalog="archive letter"
                                 id="aspace_ref113_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref113_c2" localtype="folder" parent="aspace_ref113_c1">53</container>
                   </did>
                </c>
-               <c id="ref114" level="file">
+               <c altrender="/repositories/12/archival_objects/851765"
+                  id="ref114"
+                  level="file">
                   <did>
                      <unittitle>Complaints</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1978 December 7 - 1981 June 24">
+                     <unitdatestructured altrender="1978 December 7 - 1981 June 24"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1978-12-07">1978-12-07</fromdate>
-                           <todate standarddate="1981-06-24">1981-06-24</todate>
+                           <fromdate standarddate="1978-12-07">1978 December 7</fromdate>
+                           <todate standarddate="1981-06-24">1981 June 24</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102053 /locations/9"
                                 containerid="39002042804501"
+                                encodinganalog="archive letter"
                                 id="aspace_ref114_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref114_c2" localtype="folder" parent="aspace_ref114_c1">54</container>
                   </did>
                </c>
-               <c id="ref115" level="file">
+               <c altrender="/repositories/12/archival_objects/851766"
+                  id="ref115"
+                  level="file">
                   <did>
                      <unittitle>Administration</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1973 June 23 - 1978 December 19">
+                     <unitdatestructured altrender="1973 June 23 - 1978 December 19"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1973-06-23">1973-06-23</fromdate>
-                           <todate standarddate="1978-12-19">1978-12-19</todate>
+                           <fromdate standarddate="1973-06-23">1973 June 23</fromdate>
+                           <todate standarddate="1978-12-19">1978 December 19</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102053 /locations/9"
                                 containerid="39002042804501"
+                                encodinganalog="archive letter"
                                 id="aspace_ref115_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref115_c2" localtype="folder" parent="aspace_ref115_c1">55</container>
                   </did>
                </c>
-               <c id="ref116" level="file">
+               <c altrender="/repositories/12/archival_objects/851767"
+                  id="ref116"
+                  level="file">
                   <did>
                      <unittitle>Alarm Systems</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1977 February 9 - 1980 July 9">
+                     <unitdatestructured altrender="1977 February 9 - 1980 July 9"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1977-02-09">1977-02-09</fromdate>
-                           <todate standarddate="1980-07-09">1980-07-09</todate>
+                           <fromdate standarddate="1977-02-09">1977 February 9</fromdate>
+                           <todate standarddate="1980-07-09">1980 July 9</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102053 /locations/9"
                                 containerid="39002042804501"
+                                encodinganalog="archive letter"
                                 id="aspace_ref116_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref116_c2" localtype="folder" parent="aspace_ref116_c1">56</container>
                   </did>
                </c>
-               <c id="ref117" level="file">
+               <c altrender="/repositories/12/archival_objects/851768"
+                  id="ref117"
+                  level="file">
                   <did>
                      <unittitle>Correspondence</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1973 August 20 - 1981 February 12">
+                     <unitdatestructured altrender="1973 August 20 - 1981 February 12"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1973-08-20">1973-08-20</fromdate>
-                           <todate standarddate="1981-02-12">1981-02-12</todate>
+                           <fromdate standarddate="1973-08-20">1973 August 20</fromdate>
+                           <todate standarddate="1981-02-12">1981 February 12</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102053 /locations/9"
                                 containerid="39002042804501"
+                                encodinganalog="archive letter"
                                 id="aspace_ref117_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref117_c2" localtype="folder" parent="aspace_ref117_c1">57</container>
                   </did>
                </c>
-               <c id="ref118" level="file">
+               <c altrender="/repositories/12/archival_objects/851769"
+                  id="ref118"
+                  level="file">
                   <did>
                      <unittitle>Crime Prevention</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1975 November 6 - 1981 August 31">
+                     <unitdatestructured altrender="1975 November 6 - 1981 August 31"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1975-11-06">1975-11-06</fromdate>
-                           <todate standarddate="1981-08-31">1981-08-31</todate>
+                           <fromdate standarddate="1975-11-06">1975 November 6</fromdate>
+                           <todate standarddate="1981-08-31">1981 August 31</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102053 /locations/9"
                                 containerid="39002042804501"
+                                encodinganalog="archive letter"
                                 id="aspace_ref118_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref118_c2" localtype="folder" parent="aspace_ref118_c1">58</container>
                   </did>
                </c>
-               <c id="ref119" level="file">
+               <c altrender="/repositories/12/archival_objects/851770"
+                  id="ref119"
+                  level="file">
                   <did>
                      <unittitle>Crime Reports</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1977 June 17 - 1980 January 25">
+                     <unitdatestructured altrender="1977 June 17 - 1980 January 25"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1977-06-17">1977-06-17</fromdate>
-                           <todate standarddate="1980-01-25">1980-01-25</todate>
+                           <fromdate standarddate="1977-06-17">1977 June 17</fromdate>
+                           <todate standarddate="1980-01-25">1980 January 25</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102053 /locations/9"
                                 containerid="39002042804501"
+                                encodinganalog="archive letter"
                                 id="aspace_ref119_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                      <container id="aspace_ref119_c2" localtype="folder" parent="aspace_ref119_c1">59</container>
                   </did>
                </c>
-               <c id="ref120" level="file">
+               <c altrender="/repositories/12/archival_objects/851771"
+                  id="ref120"
+                  level="file">
                   <did>
                      <unittitle>Crime Statistics</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1975 September 29 - 1981 July 9">
+                     <unitdatestructured altrender="1975 September 29 - 1981 July 9"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1975-09-29">1975-09-29</fromdate>
-                           <todate standarddate="1981-07-09">1981-07-09</todate>
+                           <fromdate standarddate="1975-09-29">1975 September 29</fromdate>
+                           <todate standarddate="1981-07-09">1981 July 9</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102054 /locations/9"
                                 containerid="39002042804493"
+                                encodinganalog="archive letter"
                                 id="aspace_ref120_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref120_c2" localtype="folder" parent="aspace_ref120_c1">60</container>
                   </did>
                </c>
-               <c id="ref122" level="file">
+               <c altrender="/repositories/12/archival_objects/851773"
+                  id="ref122"
+                  level="file">
                   <did>
                      <unittitle>Harassment</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1968 June 30 - 1969 November 18">
+                     <unitdatestructured altrender="1968 June 30 - 1969 November 18"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1968-06-30">1968-06-30</fromdate>
-                           <todate standarddate="1969-11-18">1969-11-18</todate>
+                           <fromdate standarddate="1968-06-30">1968 June 30</fromdate>
+                           <todate standarddate="1969-11-18">1969 November 18</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102054 /locations/9"
                                 containerid="39002042804493"
+                                encodinganalog="archive letter"
                                 id="aspace_ref122_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref122_c2" localtype="folder" parent="aspace_ref122_c1">62</container>
                   </did>
                </c>
-               <c id="ref123" level="file">
+               <c altrender="/repositories/12/archival_objects/851774"
+                  id="ref123"
+                  level="file">
                   <did>
                      <unittitle>Library Thefts</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1972 October 23 - 1973 May 17">
+                     <unitdatestructured altrender="1972 October 23 - 1973 May 17"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1972-10-23">1972-10-23</fromdate>
-                           <todate standarddate="1973-05-17">1973-05-17</todate>
+                           <fromdate standarddate="1972-10-23">1972 October 23</fromdate>
+                           <todate standarddate="1973-05-17">1973 May 17</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102054 /locations/9"
                                 containerid="39002042804493"
+                                encodinganalog="archive letter"
                                 id="aspace_ref123_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref123_c2" localtype="folder" parent="aspace_ref123_c1">63</container>
                   </did>
                </c>
-               <c id="ref124" level="file">
+               <c altrender="/repositories/12/archival_objects/851775"
+                  id="ref124"
+                  level="file">
                   <did>
                      <unittitle>Manual</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1972 May 4 - 1972 September 27">
+                     <unitdatestructured altrender="1972 May 4 - 1972 September 27"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1972-05-04">1972-05-04</fromdate>
-                           <todate standarddate="1972-09-27">1972-09-27</todate>
+                           <fromdate standarddate="1972-05-04">1972 May 4</fromdate>
+                           <todate standarddate="1972-09-27">1972 September 27</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102054 /locations/9"
                                 containerid="39002042804493"
+                                encodinganalog="archive letter"
                                 id="aspace_ref124_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref124_c2" localtype="folder" parent="aspace_ref124_c1">64</container>
                   </did>
                </c>
-               <c id="ref125" level="file">
+               <c altrender="/repositories/12/archival_objects/851776"
+                  id="ref125"
+                  level="file">
                   <did>
                      <unittitle>Officers-Promotions and Reports on Officers</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1971 August 27 - 1978 May 31">
+                     <unitdatestructured altrender="1971 August 27 - 1978 May 31"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1971-08-27">1971-08-27</fromdate>
-                           <todate standarddate="1978-05-31">1978-05-31</todate>
+                           <fromdate standarddate="1971-08-27">1971 August 27</fromdate>
+                           <todate standarddate="1978-05-31">1978 May 31</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102054 /locations/9"
                                 containerid="39002042804493"
+                                encodinganalog="archive letter"
                                 id="aspace_ref125_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref125_c2" localtype="folder" parent="aspace_ref125_c1">65</container>
                   </did>
                </c>
-               <c id="ref126" level="file">
+               <c altrender="/repositories/12/archival_objects/851777"
+                  id="ref126"
+                  level="file">
                   <did>
                      <unittitle>Retirement</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1971 August 3 - 1973 May 29">
+                     <unitdatestructured altrender="1971 August 3 - 1973 May 29"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1971-08-03">1971-08-03</fromdate>
-                           <todate standarddate="1973-05-29">1973-05-29</todate>
+                           <fromdate standarddate="1971-08-03">1971 August 3</fromdate>
+                           <todate standarddate="1973-05-29">1973 May 29</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102054 /locations/9"
                                 containerid="39002042804493"
+                                encodinganalog="archive letter"
                                 id="aspace_ref126_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref126_c2" localtype="folder" parent="aspace_ref126_c1">66</container>
                   </did>
                </c>
-               <c id="ref127" level="file">
+               <c altrender="/repositories/12/archival_objects/851778"
+                  id="ref127"
+                  level="file">
                   <did>
                      <unittitle>Suicides</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1973 February 20">
+                     <unitdatestructured altrender="1973 February 20"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <datesingle standarddate="1973-02-20">1973 February 20</datesingle>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102054 /locations/9"
                                 containerid="39002042804493"
+                                encodinganalog="archive letter"
                                 id="aspace_ref127_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref127_c2" localtype="folder" parent="aspace_ref127_c1">67</container>
                   </did>
                </c>
-               <c id="ref128" level="file">
+               <c altrender="/repositories/12/archival_objects/851779"
+                  id="ref128"
+                  level="file">
                   <did>
                      <unittitle>Use of Firearms</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1971 December 14 - 1972 January 5">
+                     <unitdatestructured altrender="1971 December 14 - 1972 January 5"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1971-12-14">1971-12-14</fromdate>
-                           <todate standarddate="1972-01-05">1972-01-05</todate>
+                           <fromdate standarddate="1971-12-14">1971 December 14</fromdate>
+                           <todate standarddate="1972-01-05">1972 January 5</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102054 /locations/9"
                                 containerid="39002042804493"
+                                encodinganalog="archive letter"
                                 id="aspace_ref128_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref128_c2" localtype="folder" parent="aspace_ref128_c1">68</container>
                   </did>
                </c>
-               <c id="ref129" level="file">
+               <c altrender="/repositories/12/archival_objects/851780"
+                  id="ref129"
+                  level="file">
                   <did>
                      <unittitle>Survey of Other Police Departments, in Other Universities</unittitle>
-                     <unitdate unitdatetype="inclusive">1970-1971 November 16</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">1970-1971 November 16</unitdate>
+                     <container altrender="/repositories/12/top_containers/102054 /locations/9"
                                 containerid="39002042804493"
+                                encodinganalog="archive letter"
                                 id="aspace_ref129_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref129_c2" localtype="folder" parent="aspace_ref129_c1">69</container>
                   </did>
                </c>
-               <c id="ref130" level="file">
+               <c altrender="/repositories/12/archival_objects/851781"
+                  id="ref130"
+                  level="file">
                   <did>
                      <unittitle>Student Patrol</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1971 September 2-8">
+                     <unitdatestructured altrender="1971 September 2-8"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1971-09-02">1971-09-02</fromdate>
-                           <todate standarddate="1971-09-08">1971-09-08</todate>
+                           <fromdate standarddate="1971-09-02">1971 September 2</fromdate>
+                           <todate standarddate="1971-09-08">1971 September 8</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102054 /locations/9"
                                 containerid="39002042804493"
+                                encodinganalog="archive letter"
                                 id="aspace_ref130_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>
                      <container id="aspace_ref130_c2" localtype="folder" parent="aspace_ref130_c1">70</container>
                   </did>
                </c>
-               <c id="ref131" level="file">
+               <c altrender="/repositories/12/archival_objects/851782"
+                  id="ref131"
+                  level="file">
                   <did>
                      <unittitle>Visits to and from Police Departments</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1971 August 16-26">
+                     <unitdatestructured altrender="1971 August 16-26"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
-                           <fromdate standarddate="1971-08-16">1971-08-16</fromdate>
-                           <todate standarddate="1971-08-26">1971-08-26</todate>
+                           <fromdate standarddate="1971-08-16">1971 August 16</fromdate>
+                           <todate standarddate="1971-08-26">1971 August 26</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/102054 /locations/9"
                                 containerid="39002042804493"
+                                encodinganalog="archive letter"
                                 id="aspace_ref131_c1"
                                 label="Mixed Materials"
                                 localtype="box">6</container>

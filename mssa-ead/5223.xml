@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1122">mssa.ru.1122</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1122">mssa.ru.1122</recordid>
+      <otherrecordid localtype="BIB">11157681</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to Education Studies, Yale College, Records
@@ -32,6 +34,11 @@
             <date>November 2012</date>
             <num>RU 1122</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-05-14T07:13:56+00:00</eventdatetime>
+            <eventdatetime>2022-07-30T07:50:48+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday May 14, 2020 at 07:13</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday July 30, 2022 at 07:50</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/5223" level="collection">
       <did>
          <unittitle>Education Studies, Yale College, records</unittitle>
          <unitid>RU 1122</unitid>
@@ -83,80 +93,85 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(5 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1988-2012">
+         <unitdatestructured altrender="1988-2012" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1988">1988</fromdate>
                <todate standarddate="2012">2012</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_83c8dbd3e6040d346766a61a087fe4ec">The records consist of student files documenting the Education Studies program at Yale College, formerly known as the Teacher Preparation and Placement Program.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname identifier="http://id.loc.gov/authorities/names/nr00007309"
                       source="naf">
-               <part>Yale College (1887- )</part>
+               <part localtype="agent_corporate_entity">Yale College (1887- )</part>
             </corpname>
          </origination>
-    
       </did>
       <arrangement id="aspace_abd1f1e198c427ead5bdd49bd4cd69a7">
          <head>Arrangement</head>
-         <p>The records are arranged by accession.</p>  
+         <p>The records are arranged by accession.</p>
       </arrangement>
       <processinfo id="aspace_8f5231da80bcbe85890b3672ac5a6e3e">
          <head>Processing Information</head>
-         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>  
+         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>
       </processinfo>
       <relatedmaterial id="aspace_f99ec95cd957598a3eab4f4657731fbb">
          <head>Related Materials</head>
-         <p>Teacher Preparation and Placement Program, Yale University, Records (RU 179).</p>  
+         <p>Teacher Preparation and Placement Program, Yale University, Records (RU 179).</p>
       </relatedmaterial>
       <scopecontent id="aspace_35cf8d0f9f013059d1c6c2288e238519">
          <head>Scope and Contents</head>
-         <p>The records consist of student files documenting the Education Studies program at Yale College, formerly known as the Teacher Preparation and Placement Program.</p>  
+         <p>The records consist of student files documenting the Education Studies program at Yale College, formerly known as the Teacher Preparation and Placement Program.</p>
       </scopecontent>
       <prefercite id="aspace_632d609334bb0e55a2a2d306d9eb0779">
          <head>Preferred Citation</head>
-         <p>Education Studies, Yale College, Records (RU 1122). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Education Studies, Yale College, Records (RU 1122). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <accessrestrict id="aspace_f14ad225816219f2f1f3bb52d0e831f6">
          <head>Conditions Governing Access</head>
          <p>Access to the materials is restricted.  See collection contents for details.</p>
-         <p>Some records in this finding aid have been redacted, as they include student names, donor names, and other restricted data. These records will not appear in the published finding aid.</p>  
+         <p>Some records in this finding aid have been redacted, as they include student names, donor names, and other restricted data. These records will not appear in the published finding aid.</p>
       </accessrestrict>
       <odd id="aspace_a4dd44e70400c3d6095469d4f14912de">
          <head>General</head>
-         <p>Forms part of Yale Record Group 9-E (YRG 9-E), Records documenting Yale College offices, programs, and projects.</p>  
+         <p>Forms part of Yale Record Group 9-E (YRG 9-E), Records documenting Yale College offices, programs, and projects.</p>
       </odd>
       <userestrict id="aspace_1b2d42f278028964da5264ce2fa5c54b">
          <head>Conditions Governing Use</head>
-         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85041021"
                   source="lcsh">
-            <part>Education -- Study and teaching</part>
+            <part localtype="topical">Education</part>
+            <part localtype="topical">Study and teaching</part>
          </subject>
          <corpname identifier="http://id.loc.gov/authorities/names/nr00007309"
                    source="naf">
-            <part>Yale College (1887- )</part>
+            <part localtype="agent_corporate_entity">Yale College (1887- )</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref10" level="series">
+         <c altrender="/repositories/12/archival_objects/2086335"
+            id="ref10"
+            level="series">
             <did>
                <unittitle>Student files</unittitle>
                <unitid>Accession 2013-A-036</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1988-2012">
+               <unitdatestructured altrender="1988-2012" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1988">1988</fromdate>
                      <todate standarddate="2012">2012</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_ef303679a3afb2fda3d674b8eaba9f08">
+            <accessrestrict id="aspace_ef303679a3afb2fda3d674b8eaba9f08"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until January 1, 2087.</p>
             </accessrestrict>

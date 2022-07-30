@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1085">mssa.ru.1085</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1085">mssa.ru.1085</recordid>
+      <otherrecordid localtype="BIB">8275758</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Berkeley College, Yale University, Paul Mellon Fellowship Correspondence
@@ -32,6 +34,11 @@
             <date>September 2008</date>
             <num>RU 1085</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-05-14T07:05:41+00:00</eventdatetime>
+            <eventdatetime>2022-07-30T07:44:58+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday May 14, 2020 at 07:05</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday July 30, 2022 at 07:44</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2567" level="collection">
       <did>
          <unittitle>Berkeley College, Yale University, Paul Mellon Fellowship correspondence</unittitle>
          <unitid>RU 1085</unitid>
@@ -83,98 +93,105 @@
             <unittype>Linear Foot</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1935-1977">
+         <unitdatestructured altrender="1935-1977" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1935">1935</fromdate>
                <todate standarddate="1977">1977</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_cbc42aebf8d530ef6b0f156d6445a02b">The material consists of correspondence concerning the Paul Mellon Fellowship maintained by the master of Berkeley College, Yale University.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname identifier="http://id.loc.gov/authorities/names/nr98041010"
                       rules="aacr"
                       source="naf">
-               <part>Berkeley College (Yale University)</part>
+               <part localtype="agent_corporate_entity">Berkeley College (Yale University)</part>
             </corpname>
          </origination>
-    
       </did>
       <odd id="aspace_7c5a83348864a69d2a8055fe6fec29da">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 13-C-2 (YRG 13-C-2), Records of the master of Berkeley College.</p>  
+         <p>Forms part of Yale Record Group 13-C-2 (YRG 13-C-2), Records of the master of Berkeley College.</p>
       </odd>
       <acqinfo id="aspace_80208e2bb04896215807ded589c83879">
          <head>Immediate Source of Acquisition</head>
-         <p>The materials were transferred from the master of Berkeley College, Yale University, 2008.</p>  
+         <p>The materials were transferred from the master of Berkeley College, Yale University, 2008.</p>
       </acqinfo>
       <accessrestrict id="aspace_90ef5b2517fcd7683455f1e23b0b04fb">
          <head>Conditions Governing Access</head>
          <p>Access to the materials is restricted. See Collection Contents for details.</p>
-         <p>Some records in this finding aid have been redacted, as they include student names, donor names, and other restricted data. These records will not appear in the published finding aid.</p>  
+         <p>Some records in this finding aid have been redacted, as they include student names, donor names, and other restricted data. These records will not appear in the published finding aid.</p>
       </accessrestrict>
       <userestrict id="aspace_542af2bc4c47fc292a6120428b00137a">
          <head>Conditions Governing Use</head>
-         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <prefercite id="aspace_410e6f9b42e68b7eaaec80936342680b">
          <head>Preferred Citation</head>
-         <p>Berkeley College, Yale University, Paul Mellon Fellowship Correspondence (RU 1085). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Berkeley College, Yale University, Paul Mellon Fellowship Correspondence (RU 1085). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <processinfo id="aspace_c527f474cd6377de09a7602d20c7b332">
          <head>Processing Information</head>
-         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>  
+         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>
       </processinfo>
       <bioghist id="aspace_9a2235ebdb03027901ec9b2f5591a825">
          <head>Biographical / Historical</head>
-         <p>The Paul Mellon Fellowship is offered to an unmarried member of the Senior Class in Yale College for study at Clare College, Cambridge, for the academic year.</p>  
+         <p>The Paul Mellon Fellowship is offered to an unmarried member of the Senior Class in Yale College for study at Clare College, Cambridge, for the academic year.</p>
       </bioghist>
       <scopecontent id="aspace_04a86b543e781da5ca0e468b877530c8">
          <head>Scope and Contents</head>
-         <p>The material consists of correspondence concerning the Paul Mellon Fellowship maintained by the master of Berkeley College, Yale University.</p>  
+         <p>The material consists of correspondence concerning the Paul Mellon Fellowship maintained by the master of Berkeley College, Yale University.</p>
       </scopecontent>
       <arrangement id="aspace_e6e382dffc4c0b74d461b5d600b0b10b">
          <head>Arrangement</head>
-         <p>The materials are arranged by correspondent.</p>  
+         <p>The materials are arranged by correspondent.</p>
       </arrangement>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85118243"
                   source="lcsh">
-            <part>Scholarships</part>
+            <part localtype="topical">Scholarships</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85141090"
                   source="lcsh">
-            <part>Universities and colleges -- Administration</part>
+            <part localtype="topical">Universities and colleges</part>
+            <part localtype="topical">Administration</part>
          </subject>
          <corpname identifier="http://id.loc.gov/authorities/names/nr98041010"
                    rules="aacr"
                    source="naf">
-            <part>Berkeley College (Yale University)</part>
+            <part localtype="agent_corporate_entity">Berkeley College (Yale University)</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n84208924"
                    rules="aacr"
                    source="naf">
-            <part>Clare College (University of Cambridge)</part>
+            <part localtype="agent_corporate_entity">Clare College (University of Cambridge)</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Administration</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Administration</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="series">
+         <c altrender="/repositories/12/archival_objects/802429"
+            id="ref12"
+            level="series">
             <did>
                <unittitle>Paul Mellon Fellowship correspondence</unittitle>
                <unitid>Accession 2009-A-023</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1935-1977">
+               <unitdatestructured altrender="1935-1977" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1935">1935</fromdate>
                      <todate standarddate="1977">1977</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_944ba528c2ff4ea74b9c85b3086fcf47">
+            <accessrestrict id="aspace_944ba528c2ff4ea74b9c85b3086fcf47"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until Jan 1, 2053.</p>
             </accessrestrict>

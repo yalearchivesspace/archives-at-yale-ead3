@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1027">mssa.ru.1027</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1027">mssa.ru.1027</recordid>
+      <otherrecordid localtype="BIB">7783787</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Samuel Rogers Andrew, Secretary of Yale College, Correspondence
@@ -32,6 +34,11 @@
             <date>January 2007</date>
             <num>RU 1027</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-23T11:38:42+00:00</eventdatetime>
+            <eventdatetime>2022-07-30T07:42:32+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday January 23, 2020 at 11:38</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>May 2008</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday July 30, 2022 at 07:42</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2331" level="collection">
       <did>
          <unittitle>Samuel Rogers Andrew, secretary of Yale College, correspondence</unittitle>
          <unitid>RU 1027</unitid>
@@ -90,82 +93,88 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 envelope)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1847-1854">
+         <unitdatestructured altrender="1847-1854" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1847">1847</fromdate>
                <todate standarddate="1854">1854</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_827a39148a955c858f091d7733c4b580">The records consist of correspondence maintained by Samuel Rogers Andrew, Yale Secretary, regarding honorary degree candidates and a request for admittance.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname identifier="http://id.loc.gov/authorities/names/n84089402" source="naf">
-               <part>Yale College (1718-1887)</part>
+               <part localtype="agent_corporate_entity">Yale College (1718-1887)</part>
             </corpname>
          </origination>
-         <origination label="creator">
+         <origination label="Creator">
             <persname rules="aacr" source="local">
-               <part>Andrew, Samuel Rogers, 1787-1858</part>
+               <part localtype="agent_person">Andrew, Samuel Rogers, 1787-1858</part>
             </persname>
          </origination>
-    
       </did>
       <odd id="aspace_521dbe995757b50045eaf698228d55c1">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 4-A (YRG 4-A), Records of the Yale secretary's office.</p>  
+         <p>Forms part of Yale Record Group 4-A (YRG 4-A), Records of the Yale secretary's office.</p>
       </odd>
       <prefercite id="aspace_c8a899598d43d70f68b5596b5084d8b6">
          <head>Preferred Citation</head>
-         <p>Samuel Rogers Andrew, Secretary of Yale College, Correspondence (RU 1027). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Samuel Rogers Andrew, Secretary of Yale College, Correspondence (RU 1027). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <arrangement id="aspace_67f7b0cb132e49771883bc7abfce5cbd">
          <head>Arrangement</head>
-         <p>The materials are arranged chronologically.</p>  
+         <p>The materials are arranged chronologically.</p>
       </arrangement>
       <scopecontent id="aspace_928a6b3acde5c1022e0f9f606f471274">
          <head>Scope and Contents</head>
-         <p>The records consist of correspondence maintained by Samuel Rogers Andrew, Yale Secretary, regarding honorary degree candidates and a request for admittance.</p>  
+         <p>The records consist of correspondence maintained by Samuel Rogers Andrew, Yale Secretary, regarding honorary degree candidates and a request for admittance.</p>
       </scopecontent>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85036481"
                   source="lcsh">
-            <part>Degrees, Academic</part>
+            <part localtype="topical">Degrees, Academic</part>
          </subject>
          <persname rules="aacr" source="local">
-            <part>Andrew, Samuel Rogers, 1787-1858</part>
+            <part localtype="agent_person">Andrew, Samuel Rogers, 1787-1858</part>
          </persname>
          <corpname identifier="http://id.loc.gov/authorities/names/n84089402" source="naf">
-            <part>Yale College (1718-1887)</part>
+            <part localtype="agent_corporate_entity">Yale College (1718-1887)</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Degrees</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Degrees</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref7" level="series">
+         <c altrender="/repositories/12/archival_objects/787751"
+            id="ref7"
+            level="series">
             <did>
                <unittitle>Correspondence</unittitle>
                <unitid>Accession 1979-A-011</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1847-1854">
+               <unitdatestructured altrender="1847-1854" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1847">1847</fromdate>
                      <todate standarddate="1854">1854</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref8" level="file">
+            <c altrender="/repositories/12/archival_objects/787752"
+               id="ref8"
+               level="file">
                <did>
                   <unittitle>Correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1847-1854">
+                  <unitdatestructured altrender="1847-1854" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1847">1847</fromdate>
                         <todate standarddate="1854">1854</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container containerid="39002063475546"
-                             id="d1e247"
+                  <container altrender="/repositories/12/top_containers/91745 /locations/9"
+                             containerid="39002063475546"
+                             id="aspace_ref8_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e249" localtype="folder" parent="d1e247">1-2</container>
+                  <container id="aspace_ref8_c2" localtype="folder" parent="aspace_ref8_c1">1-2</container>
                </did>
             </c>
          </c>

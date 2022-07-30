@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1080">mssa.ru.1080</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1080">mssa.ru.1080</recordid>
+      <otherrecordid localtype="BIB">8193625</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Calhoun College, Yale University, Fellows Records
@@ -32,6 +34,11 @@
             <date>May 2008</date>
             <num>RU 1080</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-23T11:42:52+00:00</eventdatetime>
+            <eventdatetime>2022-07-30T07:44:48+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday January 23, 2020 at 11:42</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>September 2008</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday July 30, 2022 at 07:44</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2356" level="collection">
       <did>
          <unittitle>Calhoun College, Yale University, fellows records</unittitle>
          <unitid>RU 1080</unitid>
@@ -90,137 +93,155 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1957-1974">
+         <unitdatestructured altrender="1957-1974" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1957">1957</fromdate>
                <todate standarddate="1974">1974</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_b7aca73ea5a3c83e9ce2edbe26613a1e">The records consist of Calhoun College fellows books, which include biographical and personal information about individual fellows.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname identifier="http://id.loc.gov/authorities/names/nr98040971"
                       rules="aacr"
                       source="naf">
-               <part>Calhoun College (Yale University)</part>
+               <part localtype="agent_corporate_entity">Calhoun College (Yale University)</part>
             </corpname>
          </origination>
-    
       </did>
       <odd id="aspace_83cf5abc2b1de543d70ff9bb4f9a8f5c">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 13-E-3 (YRG 13-E-3), Records of the fellows of Calhoun College.</p>  
+         <p>Forms part of Yale Record Group 13-E-3 (YRG 13-E-3), Records of the fellows of Calhoun College.</p>
       </odd>
       <acqinfo id="aspace_d2e95e1524568ead502d4f728db034d4">
          <head>Immediate Source of Acquisition</head>
-         <p>The records were transferred from Calhoun College, 2008.</p>  
+         <p>The records were transferred from Calhoun College, 2008.</p>
       </acqinfo>
       <accessrestrict id="aspace_fba739e7b8c4f2355e2ecb072cf1d7da">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_e14aecfde82bba7022ecb3118d55b233">
          <head>Conditions Governing Use</head>
-         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <prefercite id="aspace_c3876695570a2ca2ce566736c3a29e76">
          <head>Preferred Citation</head>
-         <p>Calhoun College, Yale University, Fellows Records (RU 1080). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Calhoun College, Yale University, Fellows Records (RU 1080). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <processinfo id="aspace_c5057ca8398b77f8ee13d8b0d14b38b2">
          <head>Processing Information</head>
-         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>  
+         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>
       </processinfo>
       <bioghist id="aspace_61af444dd8f034afe8482b8eac63c9e2">
          <head>Biographical / Historical</head>
-         <p>Fellows are appointed to the residential colleges by the Corporation upon recommendation of the Council of Masters. There are five basic categories of Fellows: Honorary Fellow, Fellow Emeritus, Fellow, Associate Fellow, and Guest Fellow. What the fellows do differs from college to college, but primarily consists of attending fellows meetings, student advising, and participation in social activities.</p>  
+         <p>Fellows are appointed to the residential colleges by the Corporation upon recommendation of the Council of Masters. There are five basic categories of Fellows: Honorary Fellow, Fellow Emeritus, Fellow, Associate Fellow, and Guest Fellow. What the fellows do differs from college to college, but primarily consists of attending fellows meetings, student advising, and participation in social activities.</p>
       </bioghist>
       <scopecontent id="aspace_c7c7f9847e88b47490f21469278a763f">
          <head>Scope and Contents</head>
-         <p>The records consist of Calhoun College fellows books, which include biographical and personal information about individual fellows.</p>  
+         <p>The records consist of Calhoun College fellows books, which include biographical and personal information about individual fellows.</p>
       </scopecontent>
       <arrangement id="aspace_d39074680c85a7dd581225395d42374b">
          <head>Arrangement</head>
-         <p>The records are arranged chronologically.</p>  
+         <p>The records are arranged chronologically.</p>
       </arrangement>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85047713"
                   source="lcsh">
-            <part>Fellowship</part>
+            <part localtype="topical">Fellowship</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85129271"
                   source="lcsh">
-            <part>Student housing</part>
+            <part localtype="topical">Student housing</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85141090"
                   source="lcsh">
-            <part>Universities and colleges -- Administration</part>
+            <part localtype="topical">Universities and colleges</part>
+            <part localtype="topical">Administration</part>
          </subject>
          <corpname identifier="http://id.loc.gov/authorities/names/nr98040971"
                    rules="aacr"
                    source="naf">
-            <part>Calhoun College (Yale University)</part>
+            <part localtype="agent_corporate_entity">Calhoun College (Yale University)</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Administration</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Administration</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Student housing</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Student housing</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="series">
+         <c altrender="/repositories/12/archival_objects/787928"
+            id="ref12"
+            level="series">
             <did>
                <unittitle>Calhoun College fellows books</unittitle>
                <unitid>Accession 2008-A-174</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1957-1974">
+               <unitdatestructured altrender="1957-1974" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1957">1957</fromdate>
                      <todate standarddate="1974">1974</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/787929"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>1957</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/91788 /locations/9"
                              containerid="39002075313925"
-                             id="d1e289"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e291" localtype="folder" parent="d1e289">1</container>
+                  <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">1</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/787930"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>1963</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/91788 /locations/9"
                              containerid="39002075313925"
-                             id="d1e299"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e301" localtype="folder" parent="d1e299">2</container>
+                  <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">2</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/787931"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>1968</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/91788 /locations/9"
                              containerid="39002075313925"
-                             id="d1e309"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e311" localtype="folder" parent="d1e309">3</container>
+                  <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">3</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/787932"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>1974</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/91788 /locations/9"
                              containerid="39002075313925"
-                             id="d1e319"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e321" localtype="folder" parent="d1e319">4</container>
+                  <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">4</container>
                </did>
             </c>
          </c>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1092">mssa.ru.1092</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1092">mssa.ru.1092</recordid>
+      <otherrecordid localtype="BIB">8430153</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Business Support Center, Office of the Provost, Yale University, Budget Records
@@ -32,6 +34,11 @@
             <date>November 2008</date>
             <num>RU 1092</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-05-14T07:05:45+00:00</eventdatetime>
+            <eventdatetime>2022-07-30T07:45:13+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday May 14, 2020 at 07:05</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday July 30, 2022 at 07:45</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2571" level="collection">
       <did>
          <unittitle>Business Support Center, Office of the Provost, Yale University, budget records</unittitle>
          <unitid>RU 1092</unitid>
@@ -83,74 +93,79 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(7 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="2000-2005">
+         <unitdatestructured altrender="2000-2005" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="2000">2000</fromdate>
                <todate standarddate="2005">2005</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_92e4b447f8d00183e2012e9e9645422c">The materials consist of budget records maintained by the Business Support Center, Office of the Provost.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname identifier="http://id.loc.gov/authorities/names/nr2006026926"
                       rules="aacr"
                       source="naf">
-               <part>Yale University. Office of the Provost</part>
+               <part localtype="agent_corporate_entity">Yale University. Office of the Provost</part>
             </corpname>
          </origination>
-    
       </did>
       <odd id="aspace_5dd9c6bd483d6a64997accae0076f1b6">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 3-D (YRG 3-D), Records documenting academic support functions at Yale University.</p>  
+         <p>Forms part of Yale Record Group 3-D (YRG 3-D), Records documenting academic support functions at Yale University.</p>
       </odd>
       <acqinfo id="aspace_4c4b0fb7a4a0ccb2da86c581654cd2d6">
          <head>Immediate Source of Acquisition</head>
-         <p>The materials were transferred from the Office of the Provost, 2008.</p>  
+         <p>The materials were transferred from the Office of the Provost, 2008.</p>
       </acqinfo>
       <accessrestrict id="aspace_21e4580177b3ef93225785bce3cccc5f">
          <head>Conditions Governing Access</head>
          <p>Access to the materials is restricted. See Collection Contents for details.</p>
-         <p>Some records in this finding aid have been redacted, as they include student names, donor names, and other restricted data. These records will not appear in the published finding aid.</p>  
+         <p>Some records in this finding aid have been redacted, as they include student names, donor names, and other restricted data. These records will not appear in the published finding aid.</p>
       </accessrestrict>
       <userestrict id="aspace_267f8d8b073a2c78acfe94c27a7ba760">
          <head>Conditions Governing Use</head>
-         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <prefercite id="aspace_4279dd12324d79dc1e9468b4a017514b">
          <head>Preferred Citation</head>
-         <p>Business Support Center, Office of the Provost, Yale University, Budget Records (RU 1092). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Business Support Center, Office of the Provost, Yale University, Budget Records (RU 1092). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <processinfo id="aspace_3949926283569641be7f56d41f93dbb7">
          <head>Processing Information</head>
-         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>  
+         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>
       </processinfo>
       <scopecontent id="aspace_287d4442357b45028f53128fb15f5add">
          <head>Scope and Contents</head>
-         <p>The materials consist of budget records maintained by the Business Support Center, Office of the Provost.</p>  
+         <p>The materials consist of budget records maintained by the Business Support Center, Office of the Provost.</p>
       </scopecontent>
       <arrangement id="aspace_3dba481fdc75abacaec2631871557673">
          <head>Arrangement</head>
-         <p>The materials are arranged chronologically.</p>  
+         <p>The materials are arranged chronologically.</p>
       </arrangement>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85141090"
                   source="lcsh">
-            <part>Universities and colleges -- Administration</part>
+            <part localtype="topical">Universities and colleges</part>
+            <part localtype="topical">Administration</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85141121"
                   source="lcsh">
-            <part>Universities and colleges -- Finance</part>
+            <part localtype="topical">Universities and colleges</part>
+            <part localtype="topical">Finance</part>
          </subject>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Administration</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Administration</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Finance</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Finance</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/nr2006026926"
                    rules="aacr"
                    source="naf">
-            <part>Yale University. Office of the Provost</part>
+            <part localtype="agent_corporate_entity">Yale University. Office of the Provost</part>
          </corpname>
       </controlaccess>
       <dsc/>

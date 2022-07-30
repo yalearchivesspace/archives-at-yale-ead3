@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1015">mssa.ru.1015</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1015">mssa.ru.1015</recordid>
+      <otherrecordid localtype="BIB">7689267</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the English Language Institute, Yale University, Records
@@ -32,6 +34,11 @@
             <date>September 2006</date>
             <num>RU 1015</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-23T11:37:41+00:00</eventdatetime>
+            <eventdatetime>2022-07-30T07:42:00+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday January 23, 2020 at 11:37</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>May 2008</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday July 30, 2022 at 07:42</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2325" level="collection">
       <did>
          <unittitle>English Language Institute, Yale University, records</unittitle>
          <unitid>RU 1015</unitid>
@@ -90,69 +93,75 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(1 box)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1999-2002">
+         <unitdatestructured altrender="1999-2002" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1999">1999</fromdate>
                <todate standarddate="2002">2002</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_e65f46651903e04b732c5f1ad5852a5d">The records consist of course syllabi of the English Language Institute at Yale.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname source="local">
-               <part>Yale University. English Language Institute</part>
+               <part localtype="agent_corporate_entity">Yale University. English Language Institute</part>
             </corpname>
          </origination>
-    
       </did>
       <odd id="aspace_9d23982a52df6f20fa430eda8bbebfab">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 15-B (YRG 15-B), Records of specific Yale summer and special programs.</p>  
+         <p>Forms part of Yale Record Group 15-B (YRG 15-B), Records of specific Yale summer and special programs.</p>
       </odd>
       <acqinfo id="aspace_75c478b33d05fc40c54d5d1a1a3c5670">
          <head>Immediate Source of Acquisition</head>
-         <p>The records were transferred from the English Language Institute, 2006.</p>  
+         <p>The records were transferred from the English Language Institute, 2006.</p>
       </acqinfo>
       <accessrestrict id="aspace_c843875e7c9934d0da0744a78b444779">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_d5643d1e5970bea56857bc34c3982f0f">
          <head>Preferred Citation</head>
-         <p>English Language Institute, Yale University, Records (RU 1015). Manuscripts and Archives, Yale University Library.</p>  
+         <p>English Language Institute, Yale University, Records (RU 1015). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <arrangement id="aspace_a54c6628a689fbd2b0fdd81d23da56eb">
          <head>Arrangement</head>
-         <p>The records are arranged chronologically.</p>  
+         <p>The records are arranged chronologically.</p>
       </arrangement>
       <scopecontent id="aspace_e324d021d4e46e5e34281c4de2455f9f">
          <head>Scope and Contents</head>
-         <p>The records consist of course syllabi of the English Language Institute at Yale.</p>  
+         <p>The records consist of course syllabi of the English Language Institute at Yale.</p>
       </scopecontent>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85043626"
                   source="lcsh">
-            <part>English language -- Outlines, syllabi, etc.</part>
+            <part localtype="topical">English language</part>
+            <part localtype="genre_form">Outlines, syllabi, etc.</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85043710"
                   source="lcsh">
-            <part>English language -- Study and teaching -- Foreign speakers</part>
+            <part localtype="topical">English language</part>
+            <part localtype="topical">Study and teaching</part>
+            <part localtype="topical">Foreign speakers</part>
          </subject>
          <genreform identifier="http://vocab.getty.edu/aat/300028026" source="aat">
-            <part>Syllabi</part>
+            <part localtype="genre_form">Syllabi</part>
          </genreform>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Curricula</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Curricula</part>
          </corpname>
          <corpname source="local">
-            <part>Yale University. English Language Institute</part>
+            <part localtype="agent_corporate_entity">Yale University. English Language Institute</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref9" level="series">
+         <c altrender="/repositories/12/archival_objects/787708"
+            id="ref9"
+            level="series">
             <did>
                <unittitle>Course syllabi</unittitle>
                <unitid>Accession 2007-A-056</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1999-2002">
+               <unitdatestructured altrender="1999-2002" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1999">1999</fromdate>
                      <todate standarddate="2002">2002</todate>
@@ -163,55 +172,64 @@
                <head>Conditions Governing Access</head>
                <p>The materials are open for research.</p>
             </accessrestrict>
-            <c id="ref10" level="file">
+            <c altrender="/repositories/12/archival_objects/787709"
+               id="ref10"
+               level="file">
                <did>
                   <unittitle>6-Week Intensive Summer courses</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1999-2000">
+                  <unitdatestructured altrender="1999-2000" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1999">1999</fromdate>
                         <todate standarddate="2000">2000</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/91739 /locations/9"
                              containerid="39002063445085"
-                             id="d1e267"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref10_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e269" localtype="folder" parent="d1e267">1</container>
+                  <container id="aspace_ref10_c2" localtype="folder" parent="aspace_ref10_c1">1</container>
                </did>
             </c>
-            <c id="ref11" level="file">
+            <c altrender="/repositories/12/archival_objects/787710"
+               id="ref11"
+               level="file">
                <did>
                   <unittitle>6-Week Intensive Summer courses</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="2001-2002">
+                  <unitdatestructured altrender="2001-2002" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="2001">2001</fromdate>
                         <todate standarddate="2002">2002</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/91739 /locations/9"
                              containerid="39002063445085"
-                             id="d1e285"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref11_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e287" localtype="folder" parent="d1e285">2</container>
+                  <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">2</container>
                </did>
             </c>
-            <c id="ref12" level="file">
+            <c altrender="/repositories/12/archival_objects/787711"
+               id="ref12"
+               level="file">
                <did>
                   <unittitle>Law Seminar</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="2001-2002">
+                  <unitdatestructured altrender="2001-2002" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="2001">2001</fromdate>
                         <todate standarddate="2002">2002</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/91739 /locations/9"
                              containerid="39002063445085"
-                             id="d1e303"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref12_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e305" localtype="folder" parent="d1e303">3</container>
+                  <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">3</container>
                </did>
             </c>
          </c>

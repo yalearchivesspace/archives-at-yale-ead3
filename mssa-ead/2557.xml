@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1040">mssa.ru.1040</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1040">mssa.ru.1040</recordid>
+      <otherrecordid localtype="BIB">9050498</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the School of Medicine, Yale University, Audio Recordings of Events and Programs
@@ -32,6 +34,11 @@
             <date>October 2009</date>
             <num>RU 1040</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-03-14T07:34:32+00:00</eventdatetime>
+            <eventdatetime>2022-07-30T07:42:49+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday March 14, 2020 at 07:34</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday July 30, 2022 at 07:42</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2557" level="collection">
       <did>
          <unittitle>School of Medicine, Yale University, audio recordings of events and programs</unittitle>
          <unitid>RU 1040</unitid>
@@ -83,78 +93,81 @@
             <unittype>Linear Foot</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(15 audiotapes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1964-1969">
+         <unitdatestructured altrender="1964-1969" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1964">1964</fromdate>
                <todate standarddate="1969">1969</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_2ffde3b24288d9239428f4a0107a4ad7">The materials consist of audio recordings of symposia, programs, and other events held at the School of Medicine.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname identifier="http://id.loc.gov/authorities/names/n82112082" source="naf">
-               <part>Yale University. School of Medicine</part>
+               <part localtype="agent_corporate_entity">Yale University. School of Medicine</part>
             </corpname>
          </origination>
-    
       </did>
       <odd id="aspace_3f729e536af0d69245e985dc16af4cb5">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 27-H (YRG 27-H), Audio-visual materials and memorabilia documenting the Yale School of Medicine.</p>  
+         <p>Forms part of Yale Record Group 27-H (YRG 27-H), Audio-visual materials and memorabilia documenting the Yale School of Medicine.</p>
       </odd>
       <acqinfo id="aspace_1495178c07e2a38c3f65f03333f60e7a">
          <head>Immediate Source of Acquisition</head>
-         <p>The materials were a gift of Arthur Ebbert, 1982.</p>  
+         <p>The materials were a gift of Arthur Ebbert, 1982.</p>
       </acqinfo>
       <accessrestrict id="aspace_0eb42517ed95f33dc0c42a5002c22205">
          <head>Conditions Governing Access</head>
          <p>The materials are open for research.</p>
-         <p>Original audiovisual materials, as well as preservation and duplicating masters, may not be played. Researchers must consult use copies, or if none exist must pay for a use copy, which is retained by the repository. Researchers wishing to obtain an additional copy for their personal use should consult Copying Services information on the Manuscripts and Archives web site.</p>  
+         <p>Original audiovisual materials, as well as preservation and duplicating masters, may not be played. Researchers must consult use copies, or if none exist must pay for a use copy, which is retained by the repository. Researchers wishing to obtain an additional copy for their personal use should consult Copying Services information on the Manuscripts and Archives web site.</p>
       </accessrestrict>
       <userestrict id="aspace_40c00783a1b12c2279a298e20e922e64">
          <head>Conditions Governing Use</head>
-         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <prefercite id="aspace_ed1e6e4bf1fa20c3c31aecdf3655d47d">
          <head>Preferred Citation</head>
-         <p>School of Medicine, Yale University, Audio Recordings of Events and Programs (RU 1040). Manuscripts and Archives, Yale University Library.</p>  
+         <p>School of Medicine, Yale University, Audio Recordings of Events and Programs (RU 1040). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <processinfo id="aspace_dfddd9743438e2a364ce1b647cd9c21c">
          <head>Processing Information</head>
-         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>  
+         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>
       </processinfo>
       <scopecontent id="aspace_3b4eaea4de596071ad18f48d6e79ddca">
          <head>Scope and Contents</head>
-         <p>The materials consist of audio recordings of symposia, programs, and other events held at the School of Medicine. Included are recordings of meetings of the Connecticut State Medical Society and Yale Medical Society, as well as Yale School of Medicine Alumni Day programs and the appointment of Fredrick Redlich as dean of the School of Medicine.</p>  
+         <p>The materials consist of audio recordings of symposia, programs, and other events held at the School of Medicine. Included are recordings of meetings of the Connecticut State Medical Society and Yale Medical Society, as well as Yale School of Medicine Alumni Day programs and the appointment of Fredrick Redlich as dean of the School of Medicine.</p>
       </scopecontent>
       <arrangement id="aspace_99e977488807087af9ce13ea47703387">
          <head>Arrangement</head>
-         <p>The records are arranged chronologically.</p>  
+         <p>The records are arranged chronologically.</p>
       </arrangement>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85031115"
                   source="lcsh">
-            <part>Congresses and conventions</part>
+            <part localtype="topical">Congresses and conventions</part>
          </subject>
          <genreform identifier="http://vocab.getty.edu/aat/300028653" source="aat">
-            <part>Audiotapes</part>
+            <part localtype="genre_form">Audiotapes</part>
          </genreform>
          <corpname identifier="http://id.loc.gov/authorities/names/n88126566" source="naf">
-            <part>Connecticut State Medical Society</part>
+            <part localtype="agent_corporate_entity">Connecticut State Medical Society</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Faculty</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Faculty</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n2008163995"
                    rules="aacr"
                    source="naf">
-            <part>Yale University. Alumni</part>
+            <part localtype="agent_corporate_entity">Yale University. Alumni</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n82112082" source="naf">
-            <part>Yale University. School of Medicine</part>
+            <part localtype="agent_corporate_entity">Yale University. School of Medicine</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref11" level="series">
+         <c altrender="/repositories/12/archival_objects/801799"
+            id="ref11"
+            level="series">
             <did>
                <unittitle>Audiorecordings</unittitle>
                <unitid>Accession 1982-A-065</unitid>
@@ -162,30 +175,36 @@
                   <quantity>1</quantity>
                   <unittype>Linear Foot</unittype>
                </physdescstructured>
-               <unitdatestructured unitdatetype="inclusive" altrender="1964-1969">
+               <unitdatestructured altrender="1964-1969" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1964">1964</fromdate>
                      <todate standarddate="1969">1969</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_4aebf5af9e08cb35aeffe690aa665d13">
+            <accessrestrict id="aspace_4aebf5af9e08cb35aeffe690aa665d13"
+                            localtype="RestrictedFragileSpecColl">
                <head>Conditions Governing Access</head>
                <p>Original audiovisual materials, as well as preservation and duplicating masters, may not be played. Researchers must consult use copies, or if none exist must pay for a use copy, which is retained by the repository. Researchers wishing to obtain an additional copy for their personal use should consult Copying Services information on the Manuscripts and Archives web site.</p>
             </accessrestrict>
-            <c id="ref13" level="item">
+            <c altrender="/repositories/12/archival_objects/801800"
+               id="ref13"
+               level="item">
                <did>
                   <unittitle>YALE MEDICAL SOCIETY -SYMPOSIUM, "Moral Issues in Clinical Research"</unittitle>
                   <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                      <quantity>1</quantity>
                      <unittype>Audiotape Reel</unittype>
                   </physdescstructured>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1964 January 14">
+                  <unitdatestructured altrender="1964 January 14"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1964-01-14">1964 January 14</datesingle>
                   </unitdatestructured>
-                  <container altrender="audiotape (7 inch)"
+                  <container altrender="/repositories/12/top_containers/94278 /locations/9"
                              containerid="39002075238585"
-                             id="d1e293"
+                             encodinganalog="audiotape (7 inch)"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
                </did>
@@ -194,23 +213,30 @@
                   <p>Dr. Paul Beeson; Dr. Philip Boucher; Prof. John Smith; Prof. Richard Donnelly (approx 80 minutes)</p>
                </scopecontent>
             </c>
-            <c id="ref16" level="item">
+            <c altrender="/repositories/12/archival_objects/801801"
+               id="ref16"
+               level="item">
                <did>
                   <unittitle>CONNECTICUT STATE MEDICAL SOCIETY</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1965 September 24">
+                  <unitdatestructured altrender="1965 September 24"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <datesingle standarddate="1965-09-24">1965 September 24</datesingle>
                   </unitdatestructured>
                </did>
-               <c id="ref17" level="item">
+               <c altrender="/repositories/12/archival_objects/801802"
+                  id="ref17"
+                  level="item">
                   <did>
                      <unittitle>Part 1</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiotape Reel</unittype>
                      </physdescstructured>
-                     <container altrender="audiotape (7 inch)"
+                     <container altrender="/repositories/12/top_containers/94279 /locations/9"
                                 containerid="39002075238593"
-                                id="d1e322"
+                                encodinganalog="audiotape (7 inch)"
+                                id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">2</container>
                   </did>
@@ -219,16 +245,19 @@
                      <p>Welcome and opening remarks; Dr. James R. Cullen, Bacterial Infections; Dr. Abraham I. Brande, Viral Infections Dr. Edwin D. Kilbourne</p>
                   </scopecontent>
                </c>
-               <c id="ref20" level="item">
+               <c altrender="/repositories/12/archival_objects/801803"
+                  id="ref20"
+                  level="item">
                   <did>
                      <unittitle>Part 2</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiotape Reel</unittype>
                      </physdescstructured>
-                     <container altrender="audiotape (7 inch)"
+                     <container altrender="/repositories/12/top_containers/94280 /locations/9"
                                 containerid="39002075238601"
-                                id="d1e340"
+                                encodinganalog="audiotape (7 inch)"
+                                id="aspace_ref20_c1"
                                 label="Mixed Materials"
                                 localtype="box">3</container>
                   </did>
@@ -237,16 +266,19 @@
                      <p>Panel Discussion: Drs. Atkins, Brande Andriole, D. Horstman; Clinical Pathological Conference: Drs. J.C. Leonard, Kuscher, Melnick; Discussant Dr. Jacob Fine</p>
                   </scopecontent>
                </c>
-               <c id="ref23" level="item">
+               <c altrender="/repositories/12/archival_objects/801804"
+                  id="ref23"
+                  level="item">
                   <did>
                      <unittitle>Part 3</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiotape Reel</unittype>
                      </physdescstructured>
-                     <container altrender="audiotape (7 inch)"
+                     <container altrender="/repositories/12/top_containers/94281 /locations/9"
                                 containerid="39002075238627"
-                                id="d1e358"
+                                encodinganalog="audiotape (7 inch)"
+                                id="aspace_ref23_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
                   </did>
@@ -255,16 +287,19 @@
                      <p>Cardio genic Shock/M.H. Luria; Shock due to Infection, Dr. J. Fine; Hemorrhagic and Traumatic Shock, R. Lillehei</p>
                   </scopecontent>
                </c>
-               <c id="ref26" level="item">
+               <c altrender="/repositories/12/archival_objects/801805"
+                  id="ref26"
+                  level="item">
                   <did>
                      <unittitle>Part 4</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiotape Reel</unittype>
                      </physdescstructured>
-                     <container altrender="audiotape (7 inch)"
+                     <container altrender="/repositories/12/top_containers/94282 /locations/9"
                                 containerid="39002075238619"
-                                id="d1e376"
+                                encodinganalog="audiotape (7 inch)"
+                                id="aspace_ref26_c1"
                                 label="Mixed Materials"
                                 localtype="box">4</container>
                   </did>
@@ -274,19 +309,22 @@
                   </scopecontent>
                </c>
             </c>
-            <c id="ref29" level="item">
+            <c altrender="/repositories/12/archival_objects/801806"
+               id="ref29"
+               level="item">
                <did>
                   <unittitle>REDLICH APPOINTMENT SPEECH</unittitle>
                   <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                      <quantity>1</quantity>
                      <unittype>Audiotape Reel</unittype>
                   </physdescstructured>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1967 March 14">
+                  <unitdatestructured altrender="1967 March 14" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1967-03-14">1967 March 14</datesingle>
                   </unitdatestructured>
-                  <container altrender="audiotape (5 inch)"
+                  <container altrender="/repositories/12/top_containers/94283 /locations/9"
                              containerid="39002075238635"
-                             id="d1e399"
+                             encodinganalog="audiotape (5 inch)"
+                             id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">6</container>
                </did>
@@ -295,27 +333,32 @@
                   <p>INFORMAL COMMENTS BY DR. REDLICH AT SPECIAL MEETING OF FACULTY AT WHICH KINGMAN BREWSTER ANNOUNCED HIS APPOINTMENT AS DEAN.</p>
                </scopecontent>
             </c>
-            <c id="ref32" level="item">
+            <c altrender="/repositories/12/archival_objects/801807"
+               id="ref32"
+               level="item">
                <did>
                   <unittitle>YALE SCHOOL OF MEDICINE, ALUMNI DAY PROGRAM</unittitle>
                   <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                      <quantity>1</quantity>
                      <unittype>Audiotape Reel</unittype>
                   </physdescstructured>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1968 June 8">
+                  <unitdatestructured altrender="1968 June 8" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1968-06-08">1968 June 8</datesingle>
                   </unitdatestructured>
                </did>
-               <c id="ref34" level="item">
+               <c altrender="/repositories/12/archival_objects/801808"
+                  id="ref34"
+                  level="item">
                   <did>
                      <unittitle>Part 1</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiotape Reel</unittype>
                      </physdescstructured>
-                     <container altrender="audiotape (7 inch)"
+                     <container altrender="/repositories/12/top_containers/94284 /locations/9"
                                 containerid="39002075238643"
-                                id="d1e433"
+                                encodinganalog="audiotape (7 inch)"
+                                id="aspace_ref34_c1"
                                 label="Mixed Materials"
                                 localtype="box">7</container>
                   </did>
@@ -324,16 +367,19 @@
                      <p>Dr. Benjamin Castleman, Dr. F.C. Redlich, Dr. Leona Baumgartner; Dr. Paul Talalay, "Drugs in Our Society"</p>
                   </scopecontent>
                </c>
-               <c id="ref37" level="item">
+               <c altrender="/repositories/12/archival_objects/801809"
+                  id="ref37"
+                  level="item">
                   <did>
                      <unittitle>Part 2</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiotape Reel</unittype>
                      </physdescstructured>
-                     <container altrender="audiotape (7 inch)"
+                     <container altrender="/repositories/12/top_containers/94285 /locations/9"
                                 containerid="39002075238650"
-                                id="d1e451"
+                                encodinganalog="audiotape (7 inch)"
+                                id="aspace_ref37_c1"
                                 label="Mixed Materials"
                                 localtype="box">8</container>
                   </did>
@@ -343,69 +389,83 @@
                   </scopecontent>
                </c>
             </c>
-            <c id="ref40" level="item">
+            <c altrender="/repositories/12/archival_objects/801810"
+               id="ref40"
+               level="item">
                <did>
                   <unittitle>Faculty meeting</unittitle>
                   <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                      <quantity>1</quantity>
                      <unittype>Audiotape Reel</unittype>
                   </physdescstructured>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969 June 5">
+                  <unitdatestructured altrender="1969 June 5" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1969-06-05">1969 June 5</datesingle>
                   </unitdatestructured>
-                  <container altrender="audiotape (7 inch)"
+                  <container altrender="/repositories/12/top_containers/94286 /locations/9"
                              containerid="39002075238668"
-                             id="d1e474"
+                             encodinganalog="audiotape (7 inch)"
+                             id="aspace_ref40_c1"
                              label="Mixed Materials"
                              localtype="box">9</container>
                </did>
             </c>
-            <c id="ref42" level="item">
+            <c altrender="/repositories/12/archival_objects/801811"
+               id="ref42"
+               level="item">
                <did>
                   <unittitle>Alumni Day program</unittitle>
                   <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                      <quantity>1</quantity>
                      <unittype>Audiotape Reel</unittype>
                   </physdescstructured>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1969">
+                  <unitdatestructured altrender="1969" label="creation" unitdatetype="inclusive">
                      <datesingle standarddate="1969">1969</datesingle>
                   </unitdatestructured>
-                  <container altrender="audiotape (7 inch)"
+                  <container altrender="/repositories/12/top_containers/94287 /locations/9"
                              containerid="39002075238676"
-                             id="d1e492"
+                             encodinganalog="audiotape (7 inch)"
+                             id="aspace_ref42_c1"
                              label="Mixed Materials"
                              localtype="box">10</container>
                </did>
             </c>
-            <c id="ref44" level="item">
+            <c altrender="/repositories/12/archival_objects/801812"
+               id="ref44"
+               level="item">
                <did>
                   <unittitle>Medical School Symposium</unittitle>
-                  <unitdate unitdatetype="inclusive">undated</unitdate>
+                  <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
                </did>
-               <c id="ref45" level="item">
+               <c altrender="/repositories/12/archival_objects/801813"
+                  id="ref45"
+                  level="item">
                   <did>
                      <unittitle>Part 1</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiotape Reel</unittype>
                      </physdescstructured>
-                     <container altrender="audiotape (7 inch)"
+                     <container altrender="/repositories/12/top_containers/94288 /locations/9"
                                 containerid="39002075238684"
-                                id="d1e513"
+                                encodinganalog="audiotape (7 inch)"
+                                id="aspace_ref45_c1"
                                 label="Mixed Materials"
                                 localtype="box">11</container>
                   </did>
                </c>
-               <c id="ref47" level="item">
+               <c altrender="/repositories/12/archival_objects/801814"
+                  id="ref47"
+                  level="item">
                   <did>
                      <unittitle>Part 2</unittitle>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
                         <unittype>Audiotape Reel</unittype>
                      </physdescstructured>
-                     <container altrender="audiotape (7 inch)"
+                     <container altrender="/repositories/12/top_containers/94289 /locations/9"
                                 containerid="39002075238692"
-                                id="d1e526"
+                                encodinganalog="audiotape (7 inch)"
+                                id="aspace_ref47_c1"
                                 label="Mixed Materials"
                                 localtype="box">12</container>
                   </did>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1101">mssa.ru.1101</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1101">mssa.ru.1101</recordid>
+      <otherrecordid localtype="BIB">8679166</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Party of the Right, Yale University, Records
@@ -32,6 +34,11 @@
             <date>April 2009</date>
             <num>RU 1101</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-01-23T11:43:51+00:00</eventdatetime>
+            <eventdatetime>2022-07-30T07:45:20+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday January 23, 2020 at 11:43</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>May 2012</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday July 30, 2022 at 07:45</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2360" level="collection">
       <did>
          <unittitle>Party of the Right, Yale University, records</unittitle>
          <unitid>RU 1101</unitid>
@@ -90,197 +93,232 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(2 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="circa 1955-2011">
+         <unitdatestructured altrender="circa 1955-2011"
+                             label="creation"
+                             unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1955">1955</fromdate>
                <todate standarddate="2011">2011</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_43e62ded2cf107bb45ba039473e3331d">The materials consist of party correspondence, minutes, articles, research papers, debate materials, and a whip list.
-There are also research papers, debate web sheets, party constitution, event ephemera, speeches, and news articles. </abstract>
-         <origination label="creator">
+There are also research papers, debate web sheets, party constitution, event ephemera, speeches, and news articles.</abstract>
+         <origination label="Creator">
             <corpname source="local">
-               <part>Yale University. Party of the Right</part>
+               <part localtype="agent_corporate_entity">Yale University. Party of the Right</part>
             </corpname>
          </origination>
-    
       </did>
       <odd id="aspace_a0d3d37cffc114431d3cacdf5f8ae62e">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 40 (YRG 40), Records of Yale clubs, societies, and organizations.</p>  
+         <p>Forms part of Yale Record Group 40 (YRG 40), Records of Yale clubs, societies, and organizations.</p>
       </odd>
       <acqinfo id="aspace_8c00bd5a5645655b29b2c9bd142c959a">
          <head>Immediate Source of Acquisition</head>
-         <p>The materials were transferred from the Party of the Right, 2004 and the Federalist Party, 2012.</p>  
+         <p>The materials were transferred from the Party of the Right, 2004 and the Federalist Party, 2012.</p>
       </acqinfo>
-      <accessrestrict id="aspace_06563d61d3db3e16dcd88d81c321d3ef">
+      <accessrestrict id="aspace_06563d61d3db3e16dcd88d81c321d3ef"
+                      localtype="RestrictedSpecColl">
          <head>Conditions Governing Access</head>
-         <p>Records of the Party of the Right is closed.  Researchers must secure in writing a statement from the sitting Chairman of the Party of the Right to access these materials.</p>  
+         <p>Records of the Party of the Right is closed.  Researchers must secure in writing a statement from the sitting Chairman of the Party of the Right to access these materials.</p>
       </accessrestrict>
       <userestrict id="aspace_da04a16733f5a10d66e49ee7a3ea937d">
          <head>Conditions Governing Use</head>
-         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <prefercite id="aspace_aaaf69d5f93b225fd3adbbc5da015d56">
          <head>Preferred Citation</head>
-         <p>Party of the Right, Yale University, Records (RU 1101). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Party of the Right, Yale University, Records (RU 1101). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <processinfo id="aspace_0c4123e0edfe878d9ecb5288fc17d537">
          <head>Processing Information</head>
-         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>  
+         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>
       </processinfo>
       <bioghist id="aspace_ad38d0ec2cc708e480c89f1ab28d941a">
          <head>Biographical / Historical</head>
          <p>One of the seven parties of the Yale Political Union, the Party of the Right was founded in 1953 by dissatisfied members of the original Conservative Party (later re-christened as the Independent Party) after that Party had endorsed Adlai Stevenson as "the conservative candidate for President." By the end of the 1950s many of the Party's enduring traditions had already been established, although it was not until the 1960s that the party really began to understand itself as "Conservatism reborn in Brotherhood." Due to a membership that included conservatives of every stripe, the Party found a dynamic tension between Libertarians and Traditionalists in the early 1970s that has been its hallmark for decades.</p>
-         <p>Membership in the Party of the Right is elective and lasts "for life at least." Despite this promise, certain members disaffected by the political process left to form both the Tory and Conservative Parties of the Yale Political Union in 1971 and 1996 respectively.</p>  
+         <p>Membership in the Party of the Right is elective and lasts "for life at least." Despite this promise, certain members disaffected by the political process left to form both the Tory and Conservative Parties of the Yale Political Union in 1971 and 1996 respectively.</p>
       </bioghist>
       <scopecontent id="aspace_6cb686569de999cce66bf10c5fe72c11">
          <head>Scope and Contents</head>
          <p>The materials consist of party correspondence, minutes, articles, research papers, debate materials, and a whip list.
-There are also research papers, debate web sheets, party constitution, event ephemera, speeches, and news articles.</p>  
+There are also research papers, debate web sheets, party constitution, event ephemera, speeches, and news articles.</p>
       </scopecontent>
       <relatedmaterial id="aspace_5d43736693cf50d09f57f4f987b433e0">
          <head>Related Materials Note</head>
-         <p>Yale Political Union Records (RU 248).  Manuscripts and Archives, Yale University Library.</p>  
+         <p>Yale Political Union Records (RU 248).  Manuscripts and Archives, Yale University Library.</p>
       </relatedmaterial>
       <arrangement id="aspace_809ecd4cea76f986d2ad9d94fae27c89">
          <head>Arrangement</head>
-         <p>The records are arranged by accession.</p>  
+         <p>The records are arranged by accession.</p>
       </arrangement>
       <controlaccess>
          <subject source="local">
-            <part>College students -- Societies, etc.</part>
+            <part localtype="topical">College students</part>
+            <part localtype="topical">Societies, etc.</part>
          </subject>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Societies, etc.</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Societies, etc.</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Students</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Students</part>
          </corpname>
          <corpname source="local">
-            <part>Yale University. Party of the Right</part>
+            <part localtype="agent_corporate_entity">Yale University. Party of the Right</part>
          </corpname>
          <corpname source="local">
-            <part>Yale University. Yale Political Union</part>
+            <part localtype="agent_corporate_entity">Yale University. Yale Political Union</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref12" level="series">
+         <c altrender="/repositories/12/archival_objects/787954"
+            id="ref12"
+            level="series">
             <did>
                <unittitle>Party of the Right records</unittitle>
                <unitid>Accession 2004-A-169</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="Circa 1955-2004">
+               <unitdatestructured altrender="Circa 1955-2004"
+                                   label="creation"
+                                   unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1955">1955</fromdate>
                      <todate standarddate="2004">2004</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <accessrestrict id="aspace_518cc4ea289e7de45a2a6a2780daac34">
+            <accessrestrict id="aspace_518cc4ea289e7de45a2a6a2780daac34"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until January 1, 2040.</p>
             </accessrestrict>
-            <c id="ref13" level="file">
+            <c altrender="/repositories/12/archival_objects/787955"
+               id="ref13"
+               level="file">
                <did>
                   <unittitle>Correspondence to P.H. Burr</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/91800 /locations/9"
                              containerid="39002052009975"
-                             id="d1e298"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref13_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e300" localtype="folder" parent="d1e298">1</container>
+                  <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">1</container>
                </did>
             </c>
-            <c id="ref14" level="file">
+            <c altrender="/repositories/12/archival_objects/787956"
+               id="ref14"
+               level="file">
                <did>
                   <unittitle>Whip list</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/91800 /locations/9"
                              containerid="39002052009975"
-                             id="d1e308"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref14_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e310" localtype="folder" parent="d1e308">2</container>
+                  <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">2</container>
                </did>
             </c>
-            <c id="ref15" level="file">
+            <c altrender="/repositories/12/archival_objects/787957"
+               id="ref15"
+               level="file">
                <did>
                   <unittitle>Magazine</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/91800 /locations/9"
                              containerid="39002052009975"
-                             id="d1e318"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref15_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e320" localtype="folder" parent="d1e318">3</container>
+                  <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">3</container>
                </did>
             </c>
-            <c id="ref16" level="file">
+            <c altrender="/repositories/12/archival_objects/787958"
+               id="ref16"
+               level="file">
                <did>
                   <unittitle>History</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1973">
+                  <unitdatestructured altrender="1973" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1973">1973</fromdate>
                         <todate standarddate="1973">1973</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/91800 /locations/9"
                              containerid="39002052009975"
-                             id="d1e336"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref16_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e338" localtype="folder" parent="d1e336">4</container>
+                  <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">4</container>
                </did>
             </c>
-            <c id="ref17" level="file">
+            <c altrender="/repositories/12/archival_objects/787959"
+               id="ref17"
+               level="file">
                <did>
                   <unittitle>Special Committee Minutes</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1976">
+                  <unitdatestructured altrender="1976" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1976">1976</fromdate>
                         <todate standarddate="1976">1976</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/91800 /locations/9"
                              containerid="39002052009975"
-                             id="d1e354"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref17_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e356" localtype="folder" parent="d1e354">5</container>
+                  <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">5</container>
                </did>
             </c>
-            <c id="ref18" level="file">
+            <c altrender="/repositories/12/archival_objects/787960"
+               id="ref18"
+               level="file">
                <did>
                   <unittitle>Calliopean Society</unittitle>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/91800 /locations/9"
                              containerid="39002052009975"
-                             id="d1e364"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref18_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e366" localtype="folder" parent="d1e364">6</container>
+                  <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">6</container>
                </did>
             </c>
-            <c id="ref19" level="file">
+            <c altrender="/repositories/12/archival_objects/787961"
+               id="ref19"
+               level="file">
                <did>
                   <unittitle>"The Conservative Answer To Pollution" by Frank S. Meyer &amp; John C. Meyer</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1966">
+                  <unitdatestructured altrender="1966" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1966">1966</fromdate>
                         <todate standarddate="1966">1966</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive half letter"
+                  <container altrender="/repositories/12/top_containers/91800 /locations/9"
                              containerid="39002052009975"
-                             id="d1e382"
+                             encodinganalog="archive half letter"
+                             id="aspace_ref19_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e384" localtype="folder" parent="d1e382">7</container>
+                  <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">7</container>
                </did>
             </c>
          </c>
-         <c id="ref22" level="series">
+         <c altrender="/repositories/12/archival_objects/787962"
+            id="ref22"
+            level="series">
             <did>
                <unittitle>Additional Material</unittitle>
                <unitid>Accession 2012-A-084</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1975-2011">
+               <unitdatestructured altrender="1975-2011" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1975">1975</fromdate>
                      <todate standarddate="2011">2011</todate>
@@ -291,230 +329,273 @@ There are also research papers, debate web sheets, party constitution, event eph
                <head>Scope and Contents</head>
                <p>Accession 2012-A-084 contains one box of organizational records of the Federalist Party which includes a copy of the party constitution and associated materials documenting its creation, event ephemera of various political  parties of the Yale Political Union, research papers, web sheets announcing debates and debate topics, meeting minutes, speeches, correspondence, and news articles.</p>
             </scopecontent>
-            <accessrestrict id="aspace_1c010ddc5b36c5979d5cc14edd7c27ed">
+            <accessrestrict id="aspace_1c010ddc5b36c5979d5cc14edd7c27ed"
+                            localtype="RestrictedCurApprSpecColl">
                <head>Conditions Governing Access</head>
                <p>Restricted until January 1, 2046.</p>
             </accessrestrict>
-            <c id="ref30" level="file">
+            <c altrender="/repositories/12/archival_objects/787963"
+               id="ref30"
+               level="file">
                <did>
                   <unittitle>Event ephemera - Yale Political Union parties</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="2010-2011">
+                  <unitdatestructured altrender="2010-2011" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="2010">2010</fromdate>
                         <todate standarddate="2011">2011</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/91801 /locations/9"
                              containerid="39002112735155"
-                             id="d1e426"
+                             encodinganalog="archive letter"
+                             id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e428" localtype="folder" parent="d1e426">1</container>
+                  <container id="aspace_ref30_c2" localtype="folder" parent="aspace_ref30_c1">1</container>
                </did>
             </c>
-            <c id="ref31" level="file">
+            <c altrender="/repositories/12/archival_objects/787964"
+               id="ref31"
+               level="file">
                <did>
                   <unittitle>Federalist Party Constitution - correspondence and meeting minutes</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="2010">
+                  <unitdatestructured altrender="2010" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="2010">2010</fromdate>
                         <todate standarddate="2010">2010</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/91801 /locations/9"
                              containerid="39002112735155"
-                             id="d1e444"
+                             encodinganalog="archive letter"
+                             id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e446" localtype="folder" parent="d1e444">2</container>
+                  <container id="aspace_ref31_c2" localtype="folder" parent="aspace_ref31_c1">2</container>
                </did>
             </c>
-            <c id="ref32" level="file">
+            <c altrender="/repositories/12/archival_objects/787965"
+               id="ref32"
+               level="file">
                <did>
                   <unittitle>News articles</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="2010-2011">
+                  <unitdatestructured altrender="2010-2011" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="2010">2010</fromdate>
                         <todate standarddate="2011">2011</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/91801 /locations/9"
                              containerid="39002112735155"
-                             id="d1e462"
+                             encodinganalog="archive letter"
+                             id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e464" localtype="folder" parent="d1e462">3</container>
+                  <container id="aspace_ref32_c2" localtype="folder" parent="aspace_ref32_c1">3</container>
                </did>
             </c>
-            <c id="ref23" level="file">
+            <c altrender="/repositories/12/archival_objects/787966"
+               id="ref23"
+               level="file">
                <did>
                   <unittitle>Research papers</unittitle>
                </did>
-               <c id="ref24" level="file">
+               <c altrender="/repositories/12/archival_objects/787967"
+                  id="ref24"
+                  level="file">
                   <did>
                      <unittitle>
                         <title render="italic">
                            <part>A History of the Party of the Right</part>
                         </title>  by Peter Haskell Burr and John Cornford Meyer</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="2003">
+                     <unitdatestructured altrender="2003" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="2003">2003</fromdate>
                            <todate standarddate="2003">2003</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/91801 /locations/9"
                                 containerid="39002112735155"
-                                id="d1e489"
+                                encodinganalog="archive letter"
+                                id="aspace_ref24_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e491" localtype="folder" parent="d1e489">4</container>
+                     <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">4</container>
                   </did>
                </c>
-               <c id="ref25" level="file">
+               <c altrender="/repositories/12/archival_objects/787968"
+                  id="ref25"
+                  level="file">
                   <did>
                      <unittitle>
                         <title render="italic">
                            <part>A History of the Tory Party at Yale University, 1973-1978</part>
                         </title> by W.A. Smith, Jr.</unittitle>
-                     <unitdate unitdatetype="inclusive">Undated</unitdate>
-                     <container altrender="archive letter"
+                     <unitdate label="creation" unitdatetype="inclusive">Undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/91801 /locations/9"
                                 containerid="39002112735155"
-                                id="d1e504"
+                                encodinganalog="archive letter"
+                                id="aspace_ref25_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e506" localtype="folder" parent="d1e504">5</container>
+                     <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">5</container>
                   </did>
                </c>
-               <c id="ref26" level="file">
+               <c altrender="/repositories/12/archival_objects/787969"
+                  id="ref26"
+                  level="file">
                   <did>
                      <unittitle>
                         <title render="italic">
                            <part>A History of the Tory Independent Party, 1969-1973</part>
                         </title> by Kevin McKeegan</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1975">
+                     <unitdatestructured altrender="1975" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1975">1975</fromdate>
                            <todate standarddate="1975">1975</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/91801 /locations/9"
                                 containerid="39002112735155"
-                                id="d1e525"
+                                encodinganalog="archive letter"
+                                id="aspace_ref26_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e527" localtype="folder" parent="d1e525">6</container>
+                     <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">6</container>
                   </did>
                </c>
-               <c id="ref27" level="file">
+               <c altrender="/repositories/12/archival_objects/787970"
+                  id="ref27"
+                  level="file">
                   <did>
                      <unittitle>
                         <title render="italic">
                            <part>Reflections of a Tory Legacy Part I: A Recounting of The Glory Days and War, Fall 1985-Fall 1990</part>
                         </title> by Joseph M. Ditkoff</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="2003">
+                     <unitdatestructured altrender="2003" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="2003">2003</fromdate>
                            <todate standarddate="2003">2003</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/91801 /locations/9"
                                 containerid="39002112735155"
-                                id="d1e546"
+                                encodinganalog="archive letter"
+                                id="aspace_ref27_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e548" localtype="folder" parent="d1e546">7</container>
+                     <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">7</container>
                   </did>
                </c>
-               <c id="ref28" level="file">
+               <c altrender="/repositories/12/archival_objects/787971"
+                  id="ref28"
+                  level="file">
                   <did>
                      <unittitle>
                         <title render="italic">
                            <part>The Tory Party: From Pre-History to Independence</part>
                         </title> by Thomas Edward Veal</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1986">
+                     <unitdatestructured altrender="1986" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1986">1986</fromdate>
                            <todate standarddate="1986">1986</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/91801 /locations/9"
                                 containerid="39002112735155"
-                                id="d1e567"
+                                encodinganalog="archive letter"
+                                id="aspace_ref28_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e569" localtype="folder" parent="d1e567">8</container>
+                     <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">8</container>
                   </did>
                </c>
-               <c id="ref29" level="file">
+               <c altrender="/repositories/12/archival_objects/787972"
+                  id="ref29"
+                  level="file">
                   <did>
                      <unittitle>
                         <title render="italic">
                            <part>The Unmaking of a Political Union President</part>
                         </title> by Robertson Morrow</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1987 September 21">
+                     <unitdatestructured altrender="1987 September 21"
+                                         label="creation"
+                                         unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1987">1987</fromdate>
                            <todate standarddate="1987">1987</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="archive letter"
+                     <container altrender="/repositories/12/top_containers/91801 /locations/9"
                                 containerid="39002112735155"
-                                id="d1e588"
+                                encodinganalog="archive letter"
+                                id="aspace_ref29_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e590" localtype="folder" parent="d1e588">9</container>
+                     <container id="aspace_ref29_c2" localtype="folder" parent="aspace_ref29_c1">9</container>
                   </did>
                </c>
             </c>
-            <c id="ref33" level="file">
+            <c altrender="/repositories/12/archival_objects/787973"
+               id="ref33"
+               level="file">
                <did>
                   <unittitle>Speeches and correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="2010-2011">
+                  <unitdatestructured altrender="2010-2011" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="2010">2010</fromdate>
                         <todate standarddate="2011">2011</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/91801 /locations/9"
                              containerid="39002112735155"
-                             id="d1e606"
+                             encodinganalog="archive letter"
+                             id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e608" localtype="folder" parent="d1e606">10</container>
+                  <container id="aspace_ref33_c2" localtype="folder" parent="aspace_ref33_c1">10</container>
                </did>
             </c>
-            <c id="ref34" level="file">
+            <c altrender="/repositories/12/archival_objects/787974"
+               id="ref34"
+               level="file">
                <did>
                   <unittitle>Tory Party/Federalist Party - Meeting minutes, debate caucus sheets, speeches and correspondence</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="1985, 2007-2010">
+                  <unitdatestructured altrender="1985, 2007-2010"
+                                      label="creation"
+                                      unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="1985">1985</fromdate>
                         <todate standarddate="2010">2010</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/91801 /locations/9"
                              containerid="39002112735155"
-                             id="d1e624"
+                             encodinganalog="archive letter"
+                             id="aspace_ref34_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e626" localtype="folder" parent="d1e624">11</container>
+                  <container id="aspace_ref34_c2" localtype="folder" parent="aspace_ref34_c1">11</container>
                </did>
             </c>
-            <c id="ref35" level="file">
+            <c altrender="/repositories/12/archival_objects/787975"
+               id="ref35"
+               level="file">
                <did>
                   <unittitle>Web sheets</unittitle>
-                  <unitdatestructured unitdatetype="inclusive" altrender="2010-2011">
+                  <unitdatestructured altrender="2010-2011" label="creation" unitdatetype="inclusive">
                      <daterange>
                         <fromdate standarddate="2010">2010</fromdate>
                         <todate standarddate="2011">2011</todate>
                      </daterange>
                   </unitdatestructured>
-                  <container altrender="archive letter"
+                  <container altrender="/repositories/12/top_containers/91801 /locations/9"
                              containerid="39002112735155"
-                             id="d1e642"
+                             encodinganalog="archive letter"
+                             id="aspace_ref35_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
-                  <container id="d1e644" localtype="folder" parent="d1e642">12</container>
+                  <container id="aspace_ref35_c2" localtype="folder" parent="aspace_ref35_c1">12</container>
                </did>
             </c>
          </c>

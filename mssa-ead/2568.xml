@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1088">mssa.ru.1088</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1088">mssa.ru.1088</recordid>
+      <otherrecordid localtype="BIB">8342673</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the School of Medicine, Yale University, Records of James D. Kenney as Associate Dean for Postgraduate and Continuing Medical Education
@@ -32,6 +34,11 @@
             <date>October 2008</date>
             <num>RU 1088</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,14 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-05-14T07:05:43+00:00</eventdatetime>
+            <eventdatetime>2022-07-30T07:45:09+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday May 14, 2020 at 07:05</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday July 30, 2022 at 07:45</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2568" level="collection">
       <did>
          <unittitle>School of Medicine, Yale University, records of James D. Kenney as associate dean for postgraduate and continuing medical education</unittitle>
          <unitid>RU 1088</unitid>
@@ -83,81 +93,86 @@
             <unittype>Linear Feet</unittype>
          </physdescstructured>
          <physdesc localtype="container_summary">(2 boxes)</physdesc>
-         <unitdatestructured unitdatetype="inclusive" altrender="1927-2000">
+         <unitdatestructured altrender="1927-2000" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1927">1927</fromdate>
                <todate standarddate="2000">2000</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_7ba7eb175a0dffc39f2618f5b26ed33f">The material consists of subject files, correspondence, and teaching materials of James D. Kenney, MD, documenting his dual career as physician and professor and associate dean at the Yale University School of Medicine.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <corpname identifier="http://id.loc.gov/authorities/names/n82112082" source="naf">
-               <part>Yale University. School of Medicine</part>
+               <part localtype="agent_corporate_entity">Yale University. School of Medicine</part>
             </corpname>
          </origination>
-    
       </did>
       <odd id="aspace_5bc948141a4c96839466afb0023ccfaa">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 27-B (YRG 27-B), Records of deputy, associate, and assistant deans of the Yale University School of Medicine.).</p>  
+         <p>Forms part of Yale Record Group 27-B (YRG 27-B), Records of deputy, associate, and assistant deans of the Yale University School of Medicine.).</p>
       </odd>
       <acqinfo id="aspace_6ffd6accfd8cd948b66bea7628deeda7">
          <head>Immediate Source of Acquisition</head>
-         <p>The materials were donated by Elise Kenney, 2008.</p>  
+         <p>The materials were donated by Elise Kenney, 2008.</p>
       </acqinfo>
       <accessrestrict id="aspace_eb4278368d19c514900507037643ec7b">
          <head>Conditions Governing Access</head>
          <p>Access to the materials is restricted. See Collection Contents for details.</p>
-         <p>Some records in this finding aid have been redacted, as they include student names, donor names, and other restricted data. These records will not appear in the published finding aid.</p>  
+         <p>Some records in this finding aid have been redacted, as they include student names, donor names, and other restricted data. These records will not appear in the published finding aid.</p>
       </accessrestrict>
       <userestrict id="aspace_67f65221e3fd7d1c85e518a612bf194e">
          <head>Conditions Governing Use</head>
-         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
+         <p>Copyright for materials authored or otherwise produced as official business of Yale University is retained by Yale University. Copyright status for other collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
       </userestrict>
       <prefercite id="aspace_0f136a656540d8d1763947cc9c613177">
          <head>Preferred Citation</head>
-         <p>School of Medicine, Yale University, Records of James D. Kenney as Associate Dean for Postgraduate and Continuing Medical Education (RU 1088). Manuscripts and Archives, Yale University Library.</p>  
+         <p>School of Medicine, Yale University, Records of James D. Kenney as Associate Dean for Postgraduate and Continuing Medical Education (RU 1088). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <processinfo id="aspace_30a89aa948465907b05715c59284734d">
          <head>Processing Information</head>
-         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>  
+         <p>Yale University records are arranged and described at the accession level by the creating office. The University Archives creates collection level descriptive records, but typically does no further arrangement and description at the accession level.</p>
       </processinfo>
       <bioghist id="aspace_98fc4109126fa0af8179c05e5c509548">
          <head>Biographical / Historical</head>
-         <p>James D. Kenney was attending physician, Yale New Haven Hospital, 1968-2007; president, medical staff, 1976-1977; attending physician, Hospital of St. Raphael, New Haven; associate dean for postgraduate and continuing medical education, Yale University School of Medicine, 1978-2001; clinical professor of medicine; and editor of The Medical Letter.</p>  
+         <p>James D. Kenney was attending physician, Yale New Haven Hospital, 1968-2007; president, medical staff, 1976-1977; attending physician, Hospital of St. Raphael, New Haven; associate dean for postgraduate and continuing medical education, Yale University School of Medicine, 1978-2001; clinical professor of medicine; and editor of The Medical Letter.</p>
       </bioghist>
       <scopecontent id="aspace_4dc14e67576f1f19f8c3bc23a3405453">
          <head>Scope and Contents</head>
-         <p>The material consists of subject files, correspondence, and teaching materials of James D. Kenney, MD, documenting his dual career as physician and professor and associate dean at the Yale University School of Medicine.</p>  
+         <p>The material consists of subject files, correspondence, and teaching materials of James D. Kenney, MD, documenting his dual career as physician and professor and associate dean at the Yale University School of Medicine.</p>
       </scopecontent>
       <arrangement id="aspace_85d27066b3ce2516a4e2c3251311ae41">
          <head>Arrangement</head>
-         <p>The materials are arranged by subject.</p>  
+         <p>The materials are arranged by subject.</p>
       </arrangement>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85082898"
                   source="lcsh">
-            <part>Medical colleges</part>
+            <part localtype="topical">Medical colleges</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85083104"
                   source="lcsh">
-            <part>Medicine -- Study and teaching</part>
+            <part localtype="topical">Medicine</part>
+            <part localtype="topical">Study and teaching</part>
          </subject>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85141090"
                   source="lcsh">
-            <part>Universities and colleges -- Administration</part>
+            <part localtype="topical">Universities and colleges</part>
+            <part localtype="topical">Administration</part>
          </subject>
          <persname rules="aacr" source="local">
-            <part>Kenney, James Duncan, 1929-2007</part>
+            <part localtype="agent_person">Kenney, James Duncan, 1929-2007</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Administration</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Administration</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Curricula</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Curricula</part>
          </corpname>
          <corpname identifier="http://id.loc.gov/authorities/names/n82112082" source="naf">
-            <part>Yale University. School of Medicine</part>
+            <part localtype="agent_corporate_entity">Yale University. School of Medicine</part>
          </corpname>
       </controlaccess>
       <dsc/>

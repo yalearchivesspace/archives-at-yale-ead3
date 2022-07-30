@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,8 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ru.1020">mssa.ru.1020</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ru.1020">mssa.ru.1020</recordid>
+      <otherrecordid localtype="BIB">7760194</otherrecordid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Edwin C. Taylor and Robert Galvin Drawings of Yale University Buildings
@@ -32,6 +34,11 @@
             <date>December 2006</date>
             <num>RU 1020</num>
          </publicationstmt>
+         <notestmt>
+            <controlnote>
+               <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+         </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency>
@@ -39,8 +46,11 @@
          <agencyname>Manuscripts and Archives</agencyname>
       </maintenanceagency>
       <languagedeclaration>
-         <language>Finding aid written in English.</language>
+         <language langcode="eng">English</language>
          <script scriptcode="Latn">Latin</script>
+         <descriptivenote>
+            <p>Finding aid written in English.</p>
+         </descriptivenote>
       </languagedeclaration>
       <conventiondeclaration>
          <abbr>dacs</abbr>
@@ -50,7 +60,7 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <localcontrol localtype="findaidstatus">
@@ -59,21 +69,14 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-03-06T08:00:25+00:00</eventdatetime>
+            <eventdatetime>2022-07-30T07:42:10+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.4.1.yale.20190822</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Friday March  6, 2020 at 08:00</eventdescription>
-         </maintenanceevent>
-         <maintenanceevent>
-            <eventtype value="revised"/>
-            <eventdatetime>May 2008</eventdatetime>
-            <agenttype value="unknown"/>
-            <agent/>
-            <eventdescription>Finding aid revision description not supplied.</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday July 30, 2022 at 07:42</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
-   <archdesc level="collection">
+   <archdesc altrender="/repositories/12/resources/2327" level="collection">
       <did>
          <unittitle>Edwin C. Taylor and Robert Galvin drawings of Yale University buildings</unittitle>
          <unitid>RU 1020</unitid>
@@ -89,367 +92,429 @@
             <quantity>1.75</quantity>
             <unittype>Linear Feet</unittype>
          </physdescstructured>
-         <unitdatestructured unitdatetype="inclusive" altrender="1930-1941">
+         <unitdatestructured altrender="1930-1941" label="creation" unitdatetype="inclusive">
             <daterange>
                <fromdate standarddate="1930">1930</fromdate>
                <todate standarddate="1941">1941</todate>
             </daterange>
          </unitdatestructured>
          <abstract id="aspace_b8b493556b1b7a3e5c4fb5c4d035c436">The materials consist of 18 original ink drawings by Edwin C. Taylor and Robert Galvin of Yale dinnerware designs depicting Yale buildings.</abstract>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Taylor, Edwin C.</part>
+               <part localtype="agent_person">Taylor, Edwin C.</part>
             </persname>
          </origination>
-         <origination label="creator">
+         <origination label="Creator">
             <persname source="local">
-               <part>Galvin, Robert, artist</part>
+               <part localtype="agent_person">Galvin, Robert, artist</part>
             </persname>
          </origination>
-    
       </did>
       <odd id="aspace_3638b0d50e05785c5f4c89ff95236a41">
          <head>General note</head>
-         <p>Forms part of Yale Record Group 46-A (YRG 46-A), Records and materials broadly documenting Yale buildings, facilities, and grounds.</p>  
+         <p>Forms part of Yale Record Group 46-A (YRG 46-A), Records and materials broadly documenting Yale buildings, facilities, and grounds.</p>
       </odd>
       <accessrestrict id="aspace_ea30dd65d74854d6799ea4c9b510e2cf">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <prefercite id="aspace_ee902599275b9e98e4d24c009fd43ccf">
          <head>Preferred Citation</head>
-         <p>Edwin C. Taylor and Robert Galvin Drawings of Yale University Buildings (RU 1020). Manuscripts and Archives, Yale University Library.</p>  
+         <p>Edwin C. Taylor and Robert Galvin Drawings of Yale University Buildings (RU 1020). Manuscripts and Archives, Yale University Library.</p>
       </prefercite>
       <arrangement id="aspace_84b36a44c765bcee529e3c09c988627a">
          <head>Arrangement</head>
-         <p>The records are arranged by artist.</p>  
+         <p>The records are arranged by artist.</p>
       </arrangement>
       <scopecontent id="aspace_dfdade651d7854cbdb52b28a2a69b79e">
          <head>Scope and Contents</head>
-         <p>The materials consist of 18 original ink drawings by Edwin C. Taylor and Robert Galvin of Yale dinnerware designs depicting Yale buildings.</p>  
+         <p>The materials consist of 18 original ink drawings by Edwin C. Taylor and Robert Galvin of Yale dinnerware designs depicting Yale buildings.</p>
       </scopecontent>
       <controlaccess>
          <subject source="local">
-            <part>Tableware -- Design</part>
+            <part localtype="topical">Tableware</part>
+            <part localtype="topical">Design</part>
          </subject>
          <genreform identifier="http://vocab.getty.edu/aat/300033973" source="aat">
-            <part>Drawings (visual works)</part>
+            <part localtype="genre_form">Drawings (visual works)</part>
          </genreform>
          <persname source="local">
-            <part>Galvin, Robert, artist</part>
+            <part localtype="agent_person">Galvin, Robert, artist</part>
          </persname>
          <persname source="local">
-            <part>Taylor, Edwin C.</part>
+            <part localtype="agent_person">Taylor, Edwin C.</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n79043367" source="naf">
-            <part>Yale University -- Buildings</part>
+         <corpname source="naf">
+            <part identifier="http://id.loc.gov/authorities/names/n79043367"
+                  localtype="agent_corporate_entity">Yale University</part>
+            <part localtype="topical">Buildings</part>
          </corpname>
       </controlaccess>
       <dsc>
-         <c id="ref8" level="series">
+         <c altrender="/repositories/12/archival_objects/787714"
+            id="ref8"
+            level="series">
             <did>
                <unittitle>Drawings</unittitle>
                <unitid>Series I</unitid>
-               <unitdatestructured unitdatetype="inclusive" altrender="1930-1941">
+               <unitdatestructured altrender="1930-1941" label="creation" unitdatetype="inclusive">
                   <daterange>
                      <fromdate standarddate="1930">1930</fromdate>
                      <todate standarddate="1941">1941</todate>
                   </daterange>
                </unitdatestructured>
             </did>
-            <c id="ref9" level="file">
+            <c altrender="/repositories/12/archival_objects/787715"
+               id="ref9"
+               level="file">
                <did>
                   <unittitle>Taylor, Edwin C.</unittitle>
                </did>
-               <c id="ref10" level="file">
+               <c altrender="/repositories/12/archival_objects/787716"
+                  id="ref10"
+                  level="file">
                   <did>
                      <unittitle>First Yale College</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1930">
+                     <unitdatestructured altrender="1930" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1930">1930</fromdate>
                            <todate standarddate="1930">1930</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e265"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref10_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e267" localtype="folder" parent="d1e265">1</container>
+                     <container id="aspace_ref10_c2" localtype="folder" parent="aspace_ref10_c1">1</container>
                   </did>
                </c>
-               <c id="ref11" level="file">
+               <c altrender="/repositories/12/archival_objects/787717"
+                  id="ref11"
+                  level="file">
                   <did>
                      <unittitle>Connecticut Hall</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1930">
+                     <unitdatestructured altrender="1930" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1930">1930</fromdate>
                            <todate standarddate="1930">1930</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e283"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref11_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e285" localtype="folder" parent="d1e283">1</container>
+                     <container id="aspace_ref11_c2" localtype="folder" parent="aspace_ref11_c1">1</container>
                   </did>
                </c>
-               <c id="ref12" level="file">
+               <c altrender="/repositories/12/archival_objects/787718"
+                  id="ref12"
+                  level="file">
                   <did>
                      <unittitle>The Old Chapel</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1931">
+                     <unitdatestructured altrender="1931" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1931">1931</fromdate>
                            <todate standarddate="1931">1931</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e301"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref12_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e303" localtype="folder" parent="d1e301">1</container>
+                     <container id="aspace_ref12_c2" localtype="folder" parent="aspace_ref12_c1">1</container>
                   </did>
                </c>
-               <c id="ref13" level="file">
+               <c altrender="/repositories/12/archival_objects/787719"
+                  id="ref13"
+                  level="file">
                   <did>
                      <unittitle>Old Library</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1931">
+                     <unitdatestructured altrender="1931" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1931">1931</fromdate>
                            <todate standarddate="1931">1931</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e319"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref13_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e321" localtype="folder" parent="d1e319">1</container>
+                     <container id="aspace_ref13_c2" localtype="folder" parent="aspace_ref13_c1">1</container>
                   </did>
                </c>
-               <c id="ref14" level="file">
+               <c altrender="/repositories/12/archival_objects/787720"
+                  id="ref14"
+                  level="file">
                   <did>
                      <unittitle>South Sheffield Hall</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1930">
+                     <unitdatestructured altrender="1930" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1930">1930</fromdate>
                            <todate standarddate="1930">1930</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e337"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref14_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e339" localtype="folder" parent="d1e337">1</container>
+                     <container id="aspace_ref14_c2" localtype="folder" parent="aspace_ref14_c1">1</container>
                   </did>
                </c>
-               <c id="ref15" level="file">
+               <c altrender="/repositories/12/archival_objects/787721"
+                  id="ref15"
+                  level="file">
                   <did>
                      <unittitle>Yale College Fence and Campus</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1931">
+                     <unitdatestructured altrender="1931" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1931">1931</fromdate>
                            <todate standarddate="1931">1931</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e355"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref15_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e357" localtype="folder" parent="d1e355">1</container>
+                     <container id="aspace_ref15_c2" localtype="folder" parent="aspace_ref15_c1">1</container>
                   </did>
                </c>
-               <c id="ref16" level="file">
+               <c altrender="/repositories/12/archival_objects/787722"
+                  id="ref16"
+                  level="file">
                   <did>
                      <unittitle>Wrexham Tower, Memorial Quadrangle</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1931">
+                     <unitdatestructured altrender="1931" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1931">1931</fromdate>
                            <todate standarddate="1931">1931</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e373"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref16_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e375" localtype="folder" parent="d1e373">1</container>
+                     <container id="aspace_ref16_c2" localtype="folder" parent="aspace_ref16_c1">1</container>
                   </did>
                </c>
-               <c id="ref17" level="file">
+               <c altrender="/repositories/12/archival_objects/787723"
+                  id="ref17"
+                  level="file">
                   <did>
                      <unittitle>Harkness Memorial Tower</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1930">
+                     <unitdatestructured altrender="1930" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1930">1930</fromdate>
                            <todate standarddate="1930">1930</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e391"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref17_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e393" localtype="folder" parent="d1e391">1</container>
+                     <container id="aspace_ref17_c2" localtype="folder" parent="aspace_ref17_c1">1</container>
                   </did>
                </c>
-               <c id="ref18" level="file">
+               <c altrender="/repositories/12/archival_objects/787724"
+                  id="ref18"
+                  level="file">
                   <did>
                      <unittitle>Sheffield-Vanderbilt Hall</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1931">
+                     <unitdatestructured altrender="1931" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1931">1931</fromdate>
                            <todate standarddate="1931">1931</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e409"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref18_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e411" localtype="folder" parent="d1e409">1</container>
+                     <container id="aspace_ref18_c2" localtype="folder" parent="aspace_ref18_c1">1</container>
                   </did>
                </c>
-               <c id="ref19" level="file">
+               <c altrender="/repositories/12/archival_objects/787725"
+                  id="ref19"
+                  level="file">
                   <did>
                      <unittitle>Walter Camp Memorial Gateway</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1931">
+                     <unitdatestructured altrender="1931" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1931">1931</fromdate>
                            <todate standarddate="1931">1931</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e427"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref19_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e429" localtype="folder" parent="d1e427">1</container>
+                     <container id="aspace_ref19_c2" localtype="folder" parent="aspace_ref19_c1">1</container>
                   </did>
                </c>
-               <c id="ref20" level="file">
+               <c altrender="/repositories/12/archival_objects/787726"
+                  id="ref20"
+                  level="file">
                   <did>
                      <unittitle>The Bridge of the School of the Fine Arts</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1931">
+                     <unitdatestructured altrender="1931" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1931">1931</fromdate>
                            <todate standarddate="1931">1931</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e446"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref20_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e448" localtype="folder" parent="d1e446">1</container>
+                     <container id="aspace_ref20_c2" localtype="folder" parent="aspace_ref20_c1">1</container>
                   </did>
                </c>
-               <c id="ref21" level="file">
+               <c altrender="/repositories/12/archival_objects/787727"
+                  id="ref21"
+                  level="file">
                   <did>
                      <unittitle>Entrance to Sterling Memorial Library</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1931">
+                     <unitdatestructured altrender="1931" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1931">1931</fromdate>
                            <todate standarddate="1931">1931</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e464"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref21_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e466" localtype="folder" parent="d1e464">1</container>
+                     <container id="aspace_ref21_c2" localtype="folder" parent="aspace_ref21_c1">1</container>
                   </did>
                </c>
             </c>
-            <c id="ref22" level="file">
+            <c altrender="/repositories/12/archival_objects/787728"
+               id="ref22"
+               level="file">
                <did>
                   <unittitle>Galvin, Robert</unittitle>
                </did>
-               <c id="ref23" level="file">
+               <c altrender="/repositories/12/archival_objects/787729"
+                  id="ref23"
+                  level="file">
                   <did>
                      <unittitle>[Divinity School?]</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1941">
+                     <unitdatestructured altrender="1941" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1941">1941</fromdate>
                            <todate standarddate="1941">1941</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e488"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref23_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e490" localtype="folder" parent="d1e488">2</container>
+                     <container id="aspace_ref23_c2" localtype="folder" parent="aspace_ref23_c1">2</container>
                   </did>
                </c>
-               <c id="ref24" level="file">
+               <c altrender="/repositories/12/archival_objects/787730"
+                  id="ref24"
+                  level="file">
                   <did>
                      <unittitle>Berkeley College</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e500"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref24_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e502" localtype="folder" parent="d1e500">2</container>
+                     <container id="aspace_ref24_c2" localtype="folder" parent="aspace_ref24_c1">2</container>
                   </did>
                </c>
-               <c id="ref25" level="file">
+               <c altrender="/repositories/12/archival_objects/787731"
+                  id="ref25"
+                  level="file">
                   <did>
                      <unittitle>Jonathan Edwards College</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e512"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref25_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e514" localtype="folder" parent="d1e512">2</container>
+                     <container id="aspace_ref25_c2" localtype="folder" parent="aspace_ref25_c1">2</container>
                   </did>
                </c>
-               <c id="ref26" level="file">
+               <c altrender="/repositories/12/archival_objects/787732"
+                  id="ref26"
+                  level="file">
                   <did>
                      <unittitle>Pierson College</unittitle>
-                     <unitdatestructured unitdatetype="inclusive" altrender="1940">
+                     <unitdatestructured altrender="1940" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1940">1940</fromdate>
                            <todate standarddate="1940">1940</todate>
                         </daterange>
                      </unitdatestructured>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e530"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref26_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e532" localtype="folder" parent="d1e530">2</container>
+                     <container id="aspace_ref26_c2" localtype="folder" parent="aspace_ref26_c1">2</container>
                   </did>
                </c>
-               <c id="ref27" level="file">
+               <c altrender="/repositories/12/archival_objects/787733"
+                  id="ref27"
+                  level="file">
                   <did>
                      <unittitle>Davenport College</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e542"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref27_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e544" localtype="folder" parent="d1e542">2</container>
+                     <container id="aspace_ref27_c2" localtype="folder" parent="aspace_ref27_c1">2</container>
                   </did>
                </c>
-               <c id="ref28" level="file">
+               <c altrender="/repositories/12/archival_objects/787734"
+                  id="ref28"
+                  level="file">
                   <did>
                      <unittitle>Timothy Dwight College</unittitle>
-                     <unitdate unitdatetype="inclusive">undated</unitdate>
-                     <container altrender="flat box (16d 1h 20w)"
+                     <unitdate label="creation" unitdatetype="inclusive">undated</unitdate>
+                     <container altrender="/repositories/12/top_containers/91741 /locations/9"
                                 containerid="39002063475561"
-                                id="d1e554"
+                                encodinganalog="flat box (16d 1h 20w)"
+                                id="aspace_ref28_c1"
                                 label="Mixed Materials"
                                 localtype="box">1</container>
-                     <container id="d1e556" localtype="folder" parent="d1e554">2</container>
+                     <container id="aspace_ref28_c2" localtype="folder" parent="aspace_ref28_c1">2</container>
                   </did>
                </c>
             </c>
