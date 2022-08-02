@@ -1752,4 +1752,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.harada.xml](12775.xml) | beinecke.harada | WA Photos 1336 | Photographs Related to the United States Military Intelligence Service and Japanese American Soldiers in the Philippines and Japan | 
  [beinecke.aheloiseabel.xml](12780.xml) | beinecke.aheloiseabel | WA MSS S-3943 | Annie Heloise Abel notebooks | 
  [beinecke.stephensbarge.xml](12782.xml) | beinecke.stephensbarge | YCAL MSS 1124 | Stephen Sbarge Papers | 
+ [beinecke.utahphotographs.xml](12836.xml) | beinecke.utahphotographs | WA Photos 359 | Cartes-de-visite photographs of individuals in Salt Lake City, Utah. | 
 
