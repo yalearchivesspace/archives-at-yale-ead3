@@ -2911,6 +2911,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1173.xml](11920.xml) | mssa.ru.1173 | RU 1173 | Environmental Action Group, Yale University, Records | 
  [mssa.ms.2120.xml](11951.xml) | mssa.ms.2120 | MS 2120 | Susan M. Watkins papers | 
  [mssa.ms.2119.xml](11952.xml) | mssa.ms.2119 | MS 2119 | Mary Dillman papers | 
+ [mssa.ru.1176.xml](11960.xml) | mssa.ru.1176 | RU 1176 | Gilbert Dean, Class of 1841, Yale College, notes and ephemera | 
  [mssa.ms.2121.xml](11961.xml) | mssa.ms.2121 | MS 2121 | Robert Lane and Dana Ward interview transcripts on political ideology | 
  [mssa.ms.2122.xml](12003.xml) | mssa.ms.2122 | MS 2122 | Carolyn Davidson Hill Diary and Family Papers | 
  [mssa.ms.2123.xml](12007.xml) | mssa.ms.2123 | MS 2123 | L. Paul Bremer III Papers | 
@@ -2922,7 +2923,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1180.xml](12366.xml) | mssa.ru.1180 | RU 1180 | Department of Philosophy, Yale University, records | 
  [mssa.ru.1181.xml](12471.xml) | mssa.ru.1181 | RU 1181 | Latinx student life at Yale records | 
  [mssa.ms.2127.xml](12472.xml) | mssa.ms.2127 | MS 2127 | James C. Hatch papers | 
- [mssa.ms.2128.xml](12784.xml) | mssa.ms.2128 | MS 2128 | Christopher Ogden Papers | 
  [mssa.ms.2094.xml](12819.xml) | mssa.ms.2094 | MS 2094 | Henry Dutton family papers | 
- [mssa.ms.2131.xml](12833.xml) | mssa.ms.2131 | MS.2131 | Edward V. Knight Papers | 
+ [mssa.ms.2135.xml](12861.xml) | mssa.ms.2135 | MS.2135 | D. Allan Bromley Papers | 
 
