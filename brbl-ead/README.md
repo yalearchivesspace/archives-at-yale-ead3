@@ -1643,6 +1643,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jstevenson.xml](11829.xml) | beinecke.jstevenson | GEN MSS 1693 | James Stevenson papers | 
  [beinecke.lopate.xml](11830.xml) | beinecke.lopate | YCAL MSS 1083 | Phillip Lopate papers | 
  [beinecke.rrobinson.xml](11831.xml) | beinecke.rrobinson | YCAL MSS 1304 | Roxana Robinson papers | 
+ [beinecke.myles.xml](11839.xml) | beinecke.myles | YCAL MSS 1466 | Eileen Myles papers | 
  [beinecke.hollo.xml](11847.xml) | beinecke.hollo | GEN MSS 1701 | Anselm Hollo papers | 
  [beinecke.sklar.xml](11850.xml) | beinecke.sklar | YCAL MSS 1446 | George Sklar and Miriam Blecher papers | 
  [beinecke.wodening.xml](11855.xml) | beinecke.wodening | YCAL MSS 1331 | Jane Wodening papers | 
@@ -1675,6 +1676,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.amontiel.xml](11950.xml) | beinecke.amontiel | WA MSS S-4392 | Anya Montiel collection of Native American HIV/AIDS awareness materials | 
  [beinecke.peoplespark.xml](11956.xml) | beinecke.peoplespark | WA MSS S-4353 | Ephemera concerning the People's Park protests | 
  [beinecke.woodson.xml](11958.xml) | beinecke.woodson | JWJ MSS 245 | Jacqueline Woodson papers | 
+ [beinencke.weinberger.xml](11964.xml) | beinencke.weinberger | YCAL MSS 1600 | Eliot Weinberger papers | 
  [beinecke.shackleton.xml](11972.xml) | beinecke.shackleton | OSB MSS 230 | Shackleton family papers | 
  [beinecke.dgnnoble.xml](11976.xml) | beinecke.dgnnoble | WA MSS S-4504 | David Grant Noble photographs and papers | 
  [beinecke.schuylerwolff.xml](11978.xml) | beinecke.schuylerwolff | YCGL MSS 17 | Steven Schuyler papers relating to Kurt Wolff and Hermann Broch | 
@@ -1742,6 +1744,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cprrstereographs.xml](12343.xml) | beinecke.cprrstereographs | WA Photos 1265 | Alfred A. Hart and Carleton E. Watkins Stereographs of the Central Pacific Railroad | 
  [beinecke.restau.xml](12347.xml) | beinecke.restau | YCAL MSS 1597 | Restau Press records and J. Mark Nunnelee papers | 
  [beinecke.lyonfamilybusiness.xml](12356.xml) | beinecke.lyonfamilybusiness | GEN MSS 1960 | Lyon Family Business Papers | 
+ [beinecke.landmarks.xml](12362.xml) | beinecke.landmarks | GEN MSS 2106 | Landmarks Foundation records | 
  [beinecke.willis.xml](12489.xml) | beinecke.willis | WA MSS S-4516 | John Willis photographs | 
  [beinecke.deloria1.xml](12492.xml) | beinecke.deloria1 | WA MSS S-4519 | Sacred Land Film Project, Vine Deloria interview | 
  [beinecke.newhavenmisc.xml](12617.xml) | beinecke.newhavenmisc | GEN MSS 1896 | New Haven Miscellany | 
