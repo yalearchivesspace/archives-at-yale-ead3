@@ -1632,6 +1632,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.victoriasw.xml](11793.xml) | beinecke.victoriasw | OSB MSS 222 | Victoria Sackville-West papers | 
  [beinecke.okeeffe.xml](11797.xml) | beinecke.okeeffe | YCAL MSS 1381 | Georgia O'Keeffe Writings and Other Papers | 
  [beinecke.mtlicenses.xml](11800.xml) | beinecke.mtlicenses | WA MSS S-4310 | Collection of licenses and tax receipts for businesses in Montana Territory | 
+ [beinecke.longway.xml](11801.xml) | beinecke.longway | YCAL MSS 1249 | <title>A Long Way from Home: The Untold Story of Baseball's Desegregation</title> digital archive | 
  [beinecke.douglass.xml](11807.xml) | beinecke.douglass | JWJ MSS 240 | Walter O. Evans collection of Frederick Douglass and Douglass Family papers | 
  [beinecke.dawson.xml](11810.xml) | beinecke.dawson | GEN MSS 1608 | Tom and Judy Dawson Collection of Playing Card Ephemera | 
  [beinecke.gavin.xml](11819.xml) | beinecke.gavin | GEN MSS 1724 | Father Carney Gavin legacy collection of Holy Land photographs | 
