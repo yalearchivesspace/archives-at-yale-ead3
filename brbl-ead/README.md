@@ -1757,4 +1757,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.aheloiseabel.xml](12780.xml) | beinecke.aheloiseabel | WA MSS S-3943 | Annie Heloise Abel notebooks | 
  [beinecke.stephensbarge.xml](12782.xml) | beinecke.stephensbarge | YCAL MSS 1124 | Stephen Sbarge Papers | 
  [beinecke.utahphotographs.xml](12836.xml) | beinecke.utahphotographs | WA Photos 359 | Cartes-de-visite photographs of individuals in Salt Lake City, Utah. | 
+ [beinecke.cbhausten.xml](12864.xml) | beinecke.cbhausten | GEN MSS 413 | Charles Beecher Hogan papers relating to Jane Austen | 
 
