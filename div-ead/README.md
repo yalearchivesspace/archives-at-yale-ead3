@@ -348,4 +348,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.309.xml](12310.xml) | divinity.309 | RG 309 | North Congregational Church (North Middleboro, Mass.) Records | 
  [divinity.312.xml](12334.xml) | divinity.312 | RG 312 | Herluf M. Jensen papers | 
  [divinity.324.xml](12855.xml) | divinity.324 | RG 324 | ABCFM Daguerreotypes Collection | 
+ [divinity.325.xml](12871.xml) | divinity.325 | RG 325 | Ingram Family Papers | 
+ [divinity.322.xml](12874.xml) | divinity.322 | RG 322 | Keith M. Jones papers | 
 
