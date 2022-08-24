@@ -1707,6 +1707,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.memmi.xml](12118.xml) | beinecke.memmi | GEN MSS 1818 | Albert Memmi papers | 
  [beinecke.matsukanealbums.xml](12125.xml) | beinecke.matsukanealbums | WA Photos 1276 | Harry Hideo Matsukane and Bernice Kazuko Nagai Matsukane photograph albums of California life | 
  [beinecke.ichiyasualbums.xml](12127.xml) | beinecke.ichiyasualbums | WA Photos 1271 | Makiko Ichiyasu photograph albums of California | 
+ [beinecke.phillipsjj.xml](12132.xml) | beinecke.phillipsjj | JWJ MSS 246 | J. J. Phillips correspondence with Peter B. Howard regarding publication of Nigga in the Woodpile | 
  [beinecke.ycalportrait.xml](12135.xml) | beinecke.ycalportrait | YCAL MSS 1345 | Yale Collection of American Literature portrait file | 
  [beinecke.whjacksonphotos.xml](12136.xml) | beinecke.whjacksonphotos | WA Photos Folio 215 | William Henry Jackson photographs of Arizona, Colorado, Idaho, New Mexico, Utah, and Mexico | 
  [beinecke.gray.xml](12140.xml) | beinecke.gray | GEN MSS 1734 | Bradford H. Gray collector's files | 
