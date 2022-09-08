@@ -1541,6 +1541,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.giddings.xml](11355.xml) | beinecke.giddings | GEN MSS 882 | Franklin Henry Giddings collection | 
  [beinecke.waphotosfolio185.xml](11356.xml) | beinecke.waphotosfolio185 | WA Photos Folio 185 | Photographs of Arizona, Nebraska, New Mexico, Pine Ridge Indian Reservation, and South Dakota | 
  [beinecke.bluepress.xml](11359.xml) | beinecke.bluepress | YCAL MSS 1235 | Blue Press records | 
+ [beinecke.boumanpurdy.xml](11360.xml) | beinecke.boumanpurdy | YCAL MSS 1510 | Jan Erik Bouman collection of James Purdy | 
  [beinecke.sasse.xml](11365.xml) | beinecke.sasse | WA MSS S-3469 | A. H. Sasse papers | 
  [beinecke.sjsedgwick.xml](11366.xml) | beinecke.sjsedgwick | WA MSS S-2360 | S. J. Sedgwick collection | 
  [beinecke.wesleybrown.xml](11373.xml) | beinecke.wesleybrown | JWJ MSS 229 | Wesley Brown papers | 
@@ -1636,6 +1637,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.douglass.xml](11807.xml) | beinecke.douglass | JWJ MSS 240 | Walter O. Evans collection of Frederick Douglass and Douglass Family papers | 
  [beinecke.dawson.xml](11810.xml) | beinecke.dawson | GEN MSS 1608 | Tom and Judy Dawson Collection of Playing Card Ephemera | 
  [beinecke.gavin.xml](11819.xml) | beinecke.gavin | GEN MSS 1724 | Father Carney Gavin legacy collection of Holy Land photographs | 
+ [beinecke.jdodd.xml](11821.xml) | beinecke.jdodd | YCAL MSS 1411 | Jonathan Dodd collection of Edward Albee, Stephen Sondheim, and Tennessee Williams | 
  [beinecke.everhardy.xml](11823.xml) | beinecke.everhardy | WA MSS S-4148 | Louise Everhardy papers | 
  [beinecke.disneyfamily.xml](11825.xml) | beinecke.disneyfamily | WA MSS S-4149 | Loren and Stanley Disney Family Papers | 
  [beinecke.robertadams.xml](11826.xml) | beinecke.robertadams | WA MSS S-4150 | Robert Adams papers | 
@@ -1645,6 +1647,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lopate.xml](11830.xml) | beinecke.lopate | YCAL MSS 1083 | Phillip Lopate papers | 
  [beinecke.rrobinson.xml](11831.xml) | beinecke.rrobinson | YCAL MSS 1304 | Roxana Robinson papers | 
  [beinecke.myles.xml](11839.xml) | beinecke.myles | YCAL MSS 1466 | Eileen Myles papers | 
+ [beinecke.gustafson .xml](11844.xml) | beinecke.gustafson  | GEN MSS 997 | R. Eric Gustafson papers | 
  [beinecke.hollo.xml](11847.xml) | beinecke.hollo | GEN MSS 1701 | Anselm Hollo papers | 
  [beinecke.sklar.xml](11850.xml) | beinecke.sklar | YCAL MSS 1446 | George Sklar and Miriam Blecher papers | 
  [beinecke.wodening.xml](11855.xml) | beinecke.wodening | YCAL MSS 1331 | Jane Wodening papers | 
@@ -1741,6 +1744,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jsdarling.xml](12300.xml) | beinecke.jsdarling | GEN MSS 1877 | Joseph and Samuel Darling Account Books and Daybooks | 
  [beinecke.sjhitchcock.xml](12301.xml) | beinecke.sjhitchcock | GEN MSS 1878 | Samuel J. Hitchcock Papers | 
  [beinecke.thompson.xml](12312.xml) | beinecke.thompson | WA MSS S-2404 | Lucy Thompson papers | 
+ [beinecke.hugoh.xml](12323.xml) | beinecke.hugoh | GEN MSS 1785 | Harold Hugo papers | 
  [beinecke.jacksonlafayette.xml](12330.xml) | beinecke.jacksonlafayette | GEN MSS 1458 | Stuart W. Jackson collection of Marquis de Lafayette manuscripts | 
  [beinecke.parksstudy.xml](12331.xml) | beinecke.parksstudy | JWJ MSS 363 | Study Sets of Photographs | 
  [beinecke.benjamintrumbull.xml](12336.xml) | beinecke.benjamintrumbull | GEN MSS 1894 | Benjamin Trumbull Papers | 
@@ -1761,4 +1765,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.eventrecordings.xml](12787.xml) | beinecke.eventrecordings | GEN MSS 2108 | Beinecke Rare Book and Manuscript Library event recordings | 
  [beinecke.utahphotographs.xml](12836.xml) | beinecke.utahphotographs | WA Photos 359 | Cartes-de-visite photographs of individuals in Salt Lake City, Utah. | 
  [beinecke.cbhausten.xml](12864.xml) | beinecke.cbhausten | GEN MSS 413 | Charles Beecher Hogan papers relating to Jane Austen | 
+ [beinecke.marymuranishialbums.xml](12876.xml) | beinecke.marymuranishialbums | WA Photos 1337 | Mary Shizuko Mitsueda Muranishi photograph albums related to Japanese American life | 
 
