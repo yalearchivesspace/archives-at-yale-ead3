@@ -1646,6 +1646,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jstevenson.xml](11829.xml) | beinecke.jstevenson | GEN MSS 1693 | James Stevenson papers | 
  [beinecke.lopate.xml](11830.xml) | beinecke.lopate | YCAL MSS 1083 | Phillip Lopate papers | 
  [beinecke.rrobinson.xml](11831.xml) | beinecke.rrobinson | YCAL MSS 1304 | Roxana Robinson papers | 
+ [beinecke.shapirod.xml](11837.xml) | beinecke.shapirod | YCAL MSS 1422 | David Shapiro papers | 
  [beinecke.myles.xml](11839.xml) | beinecke.myles | YCAL MSS 1466 | Eileen Myles papers | 
  [beinecke.gustafson .xml](11844.xml) | beinecke.gustafson  | GEN MSS 997 | R. Eric Gustafson papers | 
  [beinecke.hollo.xml](11847.xml) | beinecke.hollo | GEN MSS 1701 | Anselm Hollo papers | 
@@ -1724,6 +1725,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.willispineridgesd.xml](12194.xml) | beinecke.willispineridgesd | WA Photos Folio 219 | Photographs of Pine Ridge Indian Reservation and South Dakota | 
  [beinecke.taylorhenryc.xml](12196.xml) | beinecke.taylorhenryc | GEN MSS 1743 | Henry C. Taylor papers | 
  [beinecke.stieglitzcam.xml](12197.xml) | beinecke.stieglitzcam | YCAL MSS 1389 | Alfred Stieglitz collection of photogravures from <title>Camera work</title> | 
+ [beinecke.jbarney.xml](12211.xml) | beinecke.jbarney | WA MSS S-4483 | Jeanne C. Barney papers | 
  [beinecke.crite.xml](12220.xml) | beinecke.crite | JWJ MSS 357 | Allan Rohan Crite papers | 
  [beinecke.socaloilfields.xml](12224.xml) | beinecke.socaloilfields | WA Photos 1306 | Southern California oil fields aerial photographs | 
  [beinecke.wwlowshipslogs.xml](12225.xml) | beinecke.wwlowshipslogs | GEN MSS 1806 | William Whittemore Low ships’ logs | 
