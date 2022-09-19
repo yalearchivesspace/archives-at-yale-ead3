@@ -350,4 +350,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.324.xml](12855.xml) | divinity.324 | RG 324 | ABCFM Daguerreotypes Collection | 
  [divinity.325.xml](12871.xml) | divinity.325 | RG 325 | Ingram Family Papers | 
  [divinity.322.xml](12874.xml) | divinity.322 | RG 322 | Keith M. Jones papers | 
+ [divinity.327.xml](12889.xml) | divinity.327 | RG 327 | Association for College and University Religious Affairs Records | 
 
