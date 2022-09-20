@@ -1760,6 +1760,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.gimbeldickens.xml](12609.xml) | beinecke.gimbeldickens | GEN MSS 1998 | Manuscripts in the Richard Gimbel Collection of Charles Dickens | 
  [beinecke.newhavenmisc.xml](12617.xml) | beinecke.newhavenmisc | GEN MSS 1896 | New Haven Miscellany | 
  [beinecke.cwbradley.xml](12618.xml) | beinecke.cwbradley | GEN MSS 325 | Charles William Bradley Papers | 
+ [beinecke.jeremiahdayletters.xml](12748.xml) | beinecke.jeremiahdayletters | GEN MSS 1959 | Letters to Jeremiah Day | 
  [beinecke.jppeters.xml](12749.xml) | beinecke.jppeters | GEN MSS 1996 | John P. Peters Collection of Drawings and Plans of an Archeological Excavation at Nippur | 
  [beinecke.ewer.xml](12753.xml) | beinecke.ewer | WA MSS S-3098 | Gary W. Ewer notes for presentation on daguerreotypes by Robert H. Vance | 
  [beinecke.eden2.xml](12759.xml) | beinecke.eden2 | GEN MSS 1892 | Visual Poem Eden II and Related Material | 
