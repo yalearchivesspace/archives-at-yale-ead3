@@ -1764,6 +1764,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jppeters.xml](12749.xml) | beinecke.jppeters | GEN MSS 1996 | John P. Peters Collection of Drawings and Plans of an Archeological Excavation at Nippur | 
  [beinecke.ewer.xml](12753.xml) | beinecke.ewer | WA MSS S-3098 | Gary W. Ewer notes for presentation on daguerreotypes by Robert H. Vance | 
  [beinecke.eden2.xml](12759.xml) | beinecke.eden2 | GEN MSS 1892 | Visual Poem Eden II and Related Material | 
+ [beinecke.internationalimperialcourt.xml](12771.xml) | beinecke.internationalimperialcourt | GEN MSS 1840 | International Imperial Court System collection | 
  [beinecke.harada.xml](12775.xml) | beinecke.harada | WA Photos 1336 | Photographs Related to the United States Military Intelligence Service and Japanese American Soldiers in the Philippines and Japan | 
  [beinecke.aheloiseabel.xml](12780.xml) | beinecke.aheloiseabel | WA MSS S-3943 | Annie Heloise Abel notebooks | 
  [beinecke.stephensbarge.xml](12782.xml) | beinecke.stephensbarge | YCAL MSS 1124 | Stephen Sbarge Papers | 
