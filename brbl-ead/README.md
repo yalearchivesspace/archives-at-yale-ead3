@@ -1773,4 +1773,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.utahphotographs.xml](12836.xml) | beinecke.utahphotographs | WA Photos 359 | Cartes-de-visite photographs of individuals in Salt Lake City, Utah. | 
  [beinecke.cbhausten.xml](12864.xml) | beinecke.cbhausten | GEN MSS 413 | Charles Beecher Hogan papers relating to Jane Austen | 
  [beinecke.marymuranishialbums.xml](12876.xml) | beinecke.marymuranishialbums | WA Photos 1337 | Mary Shizuko Mitsueda Muranishi photograph albums related to Japanese American life | 
+ [beinecke.genetjean.xml](12887.xml) | beinecke.genetjean | GEN MSS 1739 | Collection of Jean Genet Drafts and Proofs | 
 
