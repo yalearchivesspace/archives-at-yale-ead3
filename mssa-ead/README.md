@@ -2523,7 +2523,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0771.xml](4456.xml) | mssa.ms.0771 | MS 771 | Elizabeth Page Harris papers | 
  [mssa.ms.0774.xml](4457.xml) | mssa.ms.0774 | MS 774 | Roe family papers | 
  [mssa.ms.0785.xml](4458.xml) | mssa.ms.0785 | MS 785 | Lorin Edgar Kerr papers | 
- [mssa.ru.0256.xml](4459.xml) | mssa.ru.0256 | RU 256 | Pierson College, Yale University, student records for the Classes of 1964-2014 maintained by the dean | 
+ [mssa.ru.0256.xml](4459.xml) | mssa.ru.0256 | RU 256 | Pierson College, Yale University, student records for the Classes of 1964-2017 maintained by the dean | 
  [mssa.ru.0285.xml](4460.xml) | mssa.ru.0285 | RU 285 | School of Medicine, Yale University, records of the dean | 
  [mssa.ru.0684.xml](4461.xml) | mssa.ru.0684 | RU 684 | Images of Yale individuals | 
  [mssa.ms.0160.xml](4462.xml) | mssa.ms.0160 | MS 160 | Harvey Williams Cushing Papers in the Yale University Library | 
