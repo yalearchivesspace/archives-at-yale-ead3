@@ -1774,4 +1774,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cbhausten.xml](12864.xml) | beinecke.cbhausten | GEN MSS 413 | Charles Beecher Hogan papers relating to Jane Austen | 
  [beinecke.marymuranishialbums.xml](12876.xml) | beinecke.marymuranishialbums | WA Photos 1337 | Mary Shizuko Mitsueda Muranishi photograph albums related to Japanese American life | 
  [beinecke.genetjean.xml](12887.xml) | beinecke.genetjean | GEN MSS 1739 | Collection of Jean Genet Drafts and Proofs | 
+ [beinecke.hislopshenstone.xml](12919.xml) | beinecke.hislopshenstone | OSB MSS 334 | Gordon Hislop Papers Relating to William Shenstone | 
 
