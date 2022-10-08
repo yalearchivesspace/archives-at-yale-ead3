@@ -1652,8 +1652,10 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hollo.xml](11847.xml) | beinecke.hollo | GEN MSS 1701 | Anselm Hollo papers | 
  [beinecke.sklar.xml](11850.xml) | beinecke.sklar | YCAL MSS 1446 | George Sklar and Miriam Blecher papers | 
  [beinecke.wodening.xml](11855.xml) | beinecke.wodening | YCAL MSS 1331 | Jane Wodening papers | 
+ [beinecke.oleary.xml](11856.xml) | beinecke.oleary | GEN MSS 1780 | Jean O'Leary papers | 
  [beinecke.katz.xml](11857.xml) | beinecke.katz | YCAL MSS 1409 | Leon Katz papers | 
  [beinecke.perenyi.xml](11858.xml) | beinecke.perenyi | GEN MSS 1771 | Eleanor Perényi papers | 
+ [beinecke.strub.xml](11862.xml) | beinecke.strub | GEN MSS 1781 | Sean Strub papers | 
  [beinecke.peranio.xml](11863.xml) | beinecke.peranio | YCAL MSS 1346 | Vincent Peranio Papers | 
  [beinecke.thurd.xml](11864.xml) | beinecke.thurd | GEN MSS 1703 | Thacher Hurd papers | 
  [beinecke.wiborg.xml](11869.xml) | beinecke.wiborg | YCAL MSS 1408 | Mary Hoyt Wiborg papers | 
