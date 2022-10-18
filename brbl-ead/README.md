@@ -1636,6 +1636,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.longway.xml](11801.xml) | beinecke.longway | YCAL MSS 1249 | <title>A Long Way from Home: The Untold Story of Baseball's Desegregation</title> digital archive | 
  [beinecke.douglass.xml](11807.xml) | beinecke.douglass | JWJ MSS 240 | Walter O. Evans collection of Frederick Douglass and Douglass Family papers | 
  [beinecke.dawson.xml](11810.xml) | beinecke.dawson | GEN MSS 1608 | Tom and Judy Dawson Collection of Playing Card Ephemera | 
+ [beinecke.hollinghurst.xml](11812.xml) | beinecke.hollinghurst | OSB MSS 321 | Alan Hollinghurst papers | 
  [beinecke.gavin.xml](11819.xml) | beinecke.gavin | GEN MSS 1724 | Father Carney Gavin legacy collection of Holy Land photographs | 
  [beinecke.jdodd.xml](11821.xml) | beinecke.jdodd | YCAL MSS 1411 | Jonathan Dodd collection of Edward Albee, Stephen Sondheim, and Tennessee Williams | 
  [beinecke.everhardy.xml](11823.xml) | beinecke.everhardy | WA MSS S-4148 | Louise Everhardy papers | 
@@ -1776,5 +1777,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.cbhausten.xml](12864.xml) | beinecke.cbhausten | GEN MSS 413 | Charles Beecher Hogan papers relating to Jane Austen | 
  [beinecke.marymuranishialbums.xml](12876.xml) | beinecke.marymuranishialbums | WA Photos 1337 | Mary Shizuko Mitsueda Muranishi photograph albums related to Japanese American life | 
  [beinecke.genetjean.xml](12887.xml) | beinecke.genetjean | GEN MSS 1739 | Collection of Jean Genet Drafts and Proofs | 
+ [beinecke.brownjoe.xml](12913.xml) | beinecke.brownjoe | JWJ MSS 376 | Joe C. Brown papers | 
  [beinecke.hislopshenstone.xml](12919.xml) | beinecke.hislopshenstone | OSB MSS 334 | Gordon Hislop Papers Relating to William Shenstone | 
 
