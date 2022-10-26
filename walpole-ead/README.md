@@ -21,4 +21,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [lwl.mss.039.xml](12354.xml) | lwl.mss.039 | LWL MSS 39 | W. S. Lewis Collection of George Selwyn Correspondence | 
  [lwl.mss.042.xml](12360.xml) | lwl.mss.042 | LWL MSS 42 | Lewis Walpole Library Collection of Prints after William Hogarth | 
  [lwl.mss.037.xml](12500.xml) | lwl.mss.037 | LWL MSS 37 | Sir Edward Walpole and Dorothy Clement Family Papers | 
+ [lwl.mss.38.xml](12802.xml) | lwl.mss.38 | LWL MSS 38 | W. S. Lewis Collection of George Townshend Correspondence | 
 
