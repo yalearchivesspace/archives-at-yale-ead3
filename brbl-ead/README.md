@@ -1779,4 +1779,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.genetjean.xml](12887.xml) | beinecke.genetjean | GEN MSS 1739 | Collection of Jean Genet Drafts and Proofs | 
  [beinecke.brownjoe.xml](12913.xml) | beinecke.brownjoe | JWJ MSS 376 | Joe C. Brown papers | 
  [beinecke.hislopshenstone.xml](12919.xml) | beinecke.hislopshenstone | OSB MSS 334 | Gordon Hislop Papers Relating to William Shenstone | 
+ [beinecke.columbusfamilycollection.xml](12946.xml) | beinecke.columbusfamilycollection | MS 431 | Christopher Columbus family collection | 
 
