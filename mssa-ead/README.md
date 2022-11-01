@@ -2859,6 +2859,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2079.xml](10660.xml) | mssa.ms.2079 | MS 2079 | María Pilar Fort Trigo diary | 
  [mssa.ms.2077.xml](10661.xml) | mssa.ms.2077 | MS 2077 | Argimiro Bosch letters | 
  [mssa.ms.2078.xml](10662.xml) | mssa.ms.2078 | MS 2078 | Lluís Baró Segimón correspondence | 
+ [mssa.ms.2010.xml](10664.xml) | mssa.ms.2010 | MS 2010 | Victor Christ-Janer papers | 
  [mssa.ms.2076.xml](10666.xml) | mssa.ms.2076 | MS 2076 | Patricia Marx interview with Thomas Wilfred | 
  [mssa.ru.1150.xml](10667.xml) | mssa.ru.1150 | RU 1150 | Department of Manuscripts and Archives, Fortunoff Video Archive for Holocaust Testimonies records | 
  [mssa.ms.2080.xml](10668.xml) | mssa.ms.2080 | MS 2080 | Joaquim Sancho papers | 
