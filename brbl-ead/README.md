@@ -1780,5 +1780,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jmosbornresearch.xml](12910.xml) | beinecke.jmosbornresearch | OSB MSS 333 | James Marshall Osborn Research Files | 
  [beinecke.brownjoe.xml](12913.xml) | beinecke.brownjoe | JWJ MSS 376 | Joe C. Brown papers | 
  [beinecke.hislopshenstone.xml](12919.xml) | beinecke.hislopshenstone | OSB MSS 334 | Gordon Hislop Papers Relating to William Shenstone | 
- [beinecke.columbusfamilycollection.xml](12946.xml) | beinecke.columbusfamilycollection | MS 431 | Christopher Columbus family collection | 
+ [beinecke.columbusfamilycollection.xml](12946.xml) | beinecke.columbusfamilycollection | Beinecke MS 431 | Christopher Columbus family collection | 
 
