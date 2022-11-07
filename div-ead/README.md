@@ -50,7 +50,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.013.xml](80.xml) | divinity.013 | RG 13 | Chinese Students' Christian Association in North America Records | 
  [divinity.130.xml](81.xml) | divinity.130 | RG 130 | Bright Family Papers | 
  [divinity.131.xml](82.xml) | divinity.131 | RG 131 | Henry Hallam Tweedy Papers | 
- [divinity.132.xml](83.xml) | divinity.132 | RG 132 | Shanghai American School Records: the Phoebe White Wentworth Collection of Shanghai American School History and Memorabilia | 
+ [divinity.132.xml](83.xml) | divinity.132 | RG 132 | Shanghai American School Records, including the Phoebe White Wentworth Collection of Shanghai American School History and Memorabilia | 
  [divinity.133.xml](84.xml) | divinity.133 | RG 133 | Helen Morton Papers | 
  [divinity.134.xml](85.xml) | divinity.134 | RG 134 | Christina M. Breman Papers | 
  [divinity.135.xml](86.xml) | divinity.135 | RG 135 | Marvin H. Pope Papers | 
@@ -351,4 +351,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.325.xml](12871.xml) | divinity.325 | RG 325 | Ingram Family Papers | 
  [divinity.322.xml](12874.xml) | divinity.322 | RG 322 | Keith M. Jones papers | 
  [divinity.327.xml](12889.xml) | divinity.327 | RG 327 | Association for College and University Religious Affairs Records | 
+ [divinity.328.xml](12952.xml) | divinity.328 | RG 328 | Hyla S. Watters Papers | 
 
