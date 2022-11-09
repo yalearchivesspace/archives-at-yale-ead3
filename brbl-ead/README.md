@@ -1264,7 +1264,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mencken.xml](1810.xml) | beinecke.mencken | YCAL MSS 794 | H. L. Mencken collection | 
  [beinecke.pyke.xml](1811.xml) | beinecke.pyke | YCAL MSS 798 | Set design drawings for the film Mourning Becomes Electra. | 
  [beinecke.groesbec.xml](1812.xml) | beinecke.groesbec | YCAL MSS 8 | Amy Groesbeck papers | 
- [beinecke.whitee.xml](1813.xml) | beinecke.whitee | YCAL MSS 808 | Edmund White Papers | 
+ [beinecke.whitee.xml](1813.xml) | beinecke.whitee | YCAL MSS 808 | Edmund White papers | 
  [beinecke.talma.xml](1814.xml) | beinecke.talma | YCAL MSS 811 | Louise Talma papers | 
  [beinecke.foster.xml](1815.xml) | beinecke.foster | YCAL MSS 812 | Thomas H. Foster and Catharine Osgood Foster papers | 
  [beinecke.malanga.xml](1816.xml) | beinecke.malanga | YCAL MSS 813 | Gerard Malanga Papers | 
