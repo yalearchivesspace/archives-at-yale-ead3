@@ -1748,6 +1748,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.dorsetdocuments.xml](12293.xml) | beinecke.dorsetdocuments | GEN MSS 1870 | Collection of Dorset, England legal documents | 
  [beinecke.jsdarling.xml](12300.xml) | beinecke.jsdarling | GEN MSS 1877 | Joseph and Samuel Darling Account Books and Daybooks | 
  [beinecke.sjhitchcock.xml](12301.xml) | beinecke.sjhitchcock | GEN MSS 1878 | Samuel J. Hitchcock Papers | 
+ [beinecke.matte.xml](12304.xml) | beinecke.matte | GEN MSS 2115 | Matte records | 
  [beinecke.thompson.xml](12312.xml) | beinecke.thompson | WA MSS S-2404 | Lucy Thompson papers | 
  [beinecke.hugoh.xml](12323.xml) | beinecke.hugoh | GEN MSS 1785 | Harold Hugo papers | 
  [beinecke.jacksonlafayette.xml](12330.xml) | beinecke.jacksonlafayette | GEN MSS 1458 | Stuart W. Jackson collection of Marquis de Lafayette manuscripts | 
