@@ -70,4 +70,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0081.xml](12473.xml) | ycba.mss.0081 | MSS 81 | Neale Albert archive | 
  [ycba.mss.0083.xml](12751.xml) | ycba.mss.0083 | MSS 83 | British transportation ephemera collection | 
  [ycba.mss.0085.xml](12766.xml) | ycba.mss.0085 | MSS 85 | Paul Oppé letters to Janet Camp Troxell | 
+ [ycba.mss.0086.xml](12973.xml) | ycba.mss.0086 | MSS 86 | Helen Haywood archive | 
+ [ycba.mss.0087.xml](12974.xml) | ycba.mss.0087 | MSS 87 | Tilson Family Archive | 
 
