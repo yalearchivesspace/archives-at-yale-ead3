@@ -2916,6 +2916,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2121.xml](11961.xml) | mssa.ms.2121 | MS 2121 | Robert Lane and Dana Ward interview transcripts on political ideology | 
  [mssa.ms.2122.xml](12003.xml) | mssa.ms.2122 | MS 2122 | Carolyn Davidson Hill Diary and Family Papers | 
  [mssa.ms.2123.xml](12007.xml) | mssa.ms.2123 | MS 2123 | L. Paul Bremer III Papers | 
+ [mssa.ru.1177.xml](12043.xml) | mssa.ru.1177 | RU 1177 | Robert Gifford, Associate Dean for Education and Student Affairs, School of Medicine, Yale University, records | 
  [mssa.ms.2088.xml](12060.xml) | mssa.ms.2088 | MS 2088 | George Bundy Smith papers | 
  [mssa.ms.2095.xml](12137.xml) | mssa.ms.2095 | MS 2095 | Joel Sanders Papers | 
  [mssa.ru.0410.xml](12190.xml) | mssa.ru.0410 | RU 410 | Arbovirus Research Unit, Department of Epidemiology and Public Health, Yale University, records | 
