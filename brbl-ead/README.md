@@ -1647,6 +1647,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jstevenson.xml](11829.xml) | beinecke.jstevenson | GEN MSS 1693 | James Stevenson papers | 
  [beinecke.lopate.xml](11830.xml) | beinecke.lopate | YCAL MSS 1083 | Phillip Lopate papers | 
  [beinecke.rrobinson.xml](11831.xml) | beinecke.rrobinson | YCAL MSS 1304 | Roxana Robinson papers | 
+ [beinecke.plante.xml](11836.xml) | beinecke.plante | OSB MSS 308 | David Plante papers | 
  [beinecke.shapirod.xml](11837.xml) | beinecke.shapirod | YCAL MSS 1422 | David Shapiro papers | 
  [beinecke.myles.xml](11839.xml) | beinecke.myles | YCAL MSS 1466 | Eileen Myles papers | 
  [beinecke.gustafson .xml](11844.xml) | beinecke.gustafson  | GEN MSS 997 | R. Eric Gustafson papers | 
