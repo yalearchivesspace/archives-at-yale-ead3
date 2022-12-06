@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,7 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/beinecke.ireland">beinecke.ireland</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/beinecke.ireland">beinecke.ireland</recordid>
       <otherrecordid localtype="BIB">4924867</otherrecordid>
       <filedesc>
          <titlestmt>
@@ -42,6 +43,9 @@
             <controlnote localtype="onsite">
                <p>Box: 68</p>
             </controlnote>
+            <controlnote localtype="digital">
+               <p>This collection contains <num localtype="objects" altrender="9">9</num> published digital objects. And those objects are comprised of <num localtype="files" altrender="500">500</num> digital files.</p>
+            </controlnote>
          </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
@@ -70,10 +74,10 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2021-03-03T04:07:54+00:00</eventdatetime>
+            <eventdatetime>2022-12-06T04:00:26+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.7.1.yale.20200820</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday March  3, 2021 at 04:07</eventdescription>
+            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday December  6, 2022 at 04:00</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -108,28 +112,27 @@
                <part localtype="agent_person">Ireland, Joseph Norton, 1817-1898</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_951373569dde57a3bfb018ff8f10194f">
          <head>Immediate Source of Acquisition</head>
-         <p>Gift of William Ireland Starr in memory of Susan Ireland Starr, 1945.</p>  
+         <p>Gift of William Ireland Starr in memory of Susan Ireland Starr, 1945.</p>
       </acqinfo>
       <accessrestrict id="aspace_21309ffef451b5c5f976576880d1528e">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_2cb1ad69d9c86effb7ca11ec08fa5af3">
          <head>Conditions Governing Use</head>
-         <p>The Joseph Norton Ireland Papers is the physical property of the Beinecke Rare Book and Manuscript Library, Yale University. Literary rights, including copyright, belong to the authors or their legal heirs and assigns. For further information, consult the appropriate curator.</p>  
+         <p>The Joseph Norton Ireland Papers is the physical property of the Beinecke Rare Book and Manuscript Library, Yale University. Literary rights, including copyright, belong to the authors or their legal heirs and assigns. For further information, consult the appropriate curator.</p>
       </userestrict>
       <prefercite id="aspace_3ba35e22e5258da7688f943aa6ab64d6">
          <head>Preferred Citation</head>
-         <p>Joseph Norton Ireland Papers. Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library.</p>  
+         <p>Joseph Norton Ireland Papers. Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library.</p>
       </prefercite>
       <processinfo id="aspace_c175b761c32aeab292b24bb9826a75f0">
          <head>Processing Information</head>
          <p>The collection received preliminary processing around the time of acquisition in 1945. Further organization, rehousing, and description were carried out in 2012.</p>
-         <p>Former call number: Za Ireland.</p>  
+         <p>Former call number: Za Ireland.</p>
       </processinfo>
       <bioghist id="aspace_da134fcd406df7a4ba5d14b48ea47e47">
          <head>Joseph Norton Ireland (1817-1898)</head>
@@ -142,17 +145,17 @@
             </title> (1888).</p>
          <p>Biographical information taken from the <title localtype="simple" render="italic">
                <part>Oxford Companion to American Theatre</part>
-            </title>.</p>  
+            </title>.</p>
       </bioghist>
       <scopecontent id="aspace_bbf7d571c0e0720e18f379ce65a323df">
          <head>Scope and Contents</head>
          <p>The Joseph Norton Ireland papers contains material relating to Ireland's research and writing on American theater and personal papers. Forty-nine volumes in the collection contain clippings, printed ephemera, such as playbills, autograph manuscript material, letters, and other material, as well as lists of theatrical performances and lists and profiles of stage performers. Also included are drafts, proofs, and an extra-illustrated version of Ireland's major publication, <title localtype="simple" render="italic">
                <part>Records of the New York Stage from 1750 to 1860</part>
-            </title>.</p>  
+            </title>.</p>
       </scopecontent>
       <arrangement id="aspace_db870c534b15cdb3453e6b3a76811ace">
          <head>Arrangement</head>
-         <p>Organized into three series: I. Bound Volumes, 1770-1885. II. Manuscripts, 1852-1880. III. Other Material, 1807-1902.</p>  
+         <p>Organized into three series: I. Bound Volumes, 1770-1885. II. Manuscripts, 1852-1880. III. Other Material, 1807-1902.</p>
       </arrangement>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh2010116232"
@@ -432,6 +435,35 @@
                              id="aspace_ref26_c1"
                              label="Mixed Materials"
                              localtype="box">13</container>
+                  <daoset altrender="/repositories/11/digital_objects/212998">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10034187"
+                          identifier="oid:10034187"
+                          linktitle="373 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/1452569/full/!150,150/0/default.jpg"
+                          identifier="oid:10034187"
+                          linktitle="[Front cover: Vol. 1]"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10034187"
+                          identifier="oid:10034187"
+                          linktitle="[Front cover: Vol. 1]"
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>"Memorials of Mrs. Duff Collected by Joseph N. Ireland," Vol. I</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/11/archival_objects/683588"
@@ -447,6 +479,35 @@
                              id="aspace_ref27_c1"
                              label="Mixed Materials"
                              localtype="box">14</container>
+                  <daoset altrender="/repositories/11/digital_objects/212990">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10034189"
+                          identifier="oid:10034189"
+                          linktitle="29 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/1385469/full/!150,150/0/default.jpg"
+                          identifier="oid:10034189"
+                          linktitle="p. [1]"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10034189"
+                          identifier="oid:10034189"
+                          linktitle="p. [1]"
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>"Memorials of Mrs. Duff Collected by Joseph N. Ireland," Vol. II</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/11/archival_objects/683589"
@@ -462,6 +523,35 @@
                              id="aspace_ref28_c1"
                              label="Mixed Materials"
                              localtype="box">15</container>
+                  <daoset altrender="/repositories/11/digital_objects/212991">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10267816"
+                          identifier="oid:10267816"
+                          linktitle="9 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/1464858/full/!150,150/0/default.jpg"
+                          identifier="oid:10267816"
+                          linktitle="p. 65"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10267816"
+                          identifier="oid:10267816"
+                          linktitle="p. 65"
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>"Memorials of Mrs. Duff Collected by Joseph N. Ireland," Vol. III</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/11/archival_objects/683590"
@@ -477,6 +567,35 @@
                              id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">16</container>
+                  <daoset altrender="/repositories/11/digital_objects/212993">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10267817"
+                          identifier="oid:10267817"
+                          linktitle="14 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/1464867/full/!150,150/0/default.jpg"
+                          identifier="oid:10267817"
+                          linktitle="p. 34"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10267817"
+                          identifier="oid:10267817"
+                          linktitle="p. 34"
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>"Memorials of Mrs. Duff Collected by Joseph N. Ireland," Vol. IV</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/11/archival_objects/683591"
@@ -495,6 +614,35 @@
                              id="aspace_ref30_c1"
                              label="Mixed Materials"
                              localtype="box">17</container>
+                  <daoset altrender="/repositories/11/digital_objects/212992">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10267804"
+                          identifier="oid:10267804"
+                          linktitle="14 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/1464738/full/!150,150/0/default.jpg"
+                          identifier="oid:10267804"
+                          linktitle="18 b"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10267804"
+                          identifier="oid:10267804"
+                          linktitle="18 b"
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Mrs. Duff, Part I</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/11/archival_objects/683592"
@@ -513,6 +661,35 @@
                              id="aspace_ref31_c1"
                              label="Mixed Materials"
                              localtype="box">18</container>
+                  <daoset altrender="/repositories/11/digital_objects/212996">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10268213"
+                          identifier="oid:10268213"
+                          linktitle="4 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/1464894/full/!150,150/0/default.jpg"
+                          identifier="oid:10268213"
+                          linktitle="57b"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10268213"
+                          identifier="oid:10268213"
+                          linktitle="57b"
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Mrs. Duff, Part II</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/11/archival_objects/683593"
@@ -531,6 +708,35 @@
                              id="aspace_ref32_c1"
                              label="Mixed Materials"
                              localtype="box">19</container>
+                  <daoset altrender="/repositories/11/digital_objects/212994">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10268214"
+                          identifier="oid:10268214"
+                          linktitle="5 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/1464898/full/!150,150/0/default.jpg"
+                          identifier="oid:10268214"
+                          linktitle="l. 1"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10268214"
+                          identifier="oid:10268214"
+                          linktitle="l. 1"
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Mrs. Duff, Part III</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/11/archival_objects/683594"
@@ -549,6 +755,35 @@
                              id="aspace_ref33_c1"
                              label="Mixed Materials"
                              localtype="box">20</container>
+                  <daoset altrender="/repositories/11/digital_objects/212997">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10268215"
+                          identifier="oid:10268215"
+                          linktitle="15 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/1464903/full/!150,150/0/default.jpg"
+                          identifier="oid:10268215"
+                          linktitle="[Portrait, recto]"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10268215"
+                          identifier="oid:10268215"
+                          linktitle="[Portrait, recto]"
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Mrs. Duff, Part IV</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/11/archival_objects/683595"
@@ -762,6 +997,35 @@
                              id="aspace_ref45_c1"
                              label="Mixed Materials"
                              localtype="box">32</container>
+                  <daoset altrender="/repositories/11/digital_objects/212995">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10115468"
+                          identifier="oid:10115468"
+                          linktitle="37 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/1408271/full/!150,150/0/default.jpg"
+                          identifier="oid:10115468"
+                          linktitle="[Front cover]"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10115468"
+                          identifier="oid:10115468"
+                          linktitle="[Front cover]"
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>[Playbills of the Theatre Royal]</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/11/archival_objects/683607"
