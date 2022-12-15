@@ -352,5 +352,4 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.322.xml](12874.xml) | divinity.322 | RG 322 | Keith M. Jones papers | 
  [divinity.327.xml](12889.xml) | divinity.327 | RG 327 | Association for College and University Religious Affairs Records | 
  [divinity.328.xml](12952.xml) | divinity.328 | RG 328 | Hyla S. Watters Papers | 
- [divinity.330.xml](12988.xml) | divinity.330 | RG 330 | William Johnson Everett Papers | 
 
