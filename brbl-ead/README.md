@@ -1783,4 +1783,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.brownjoe.xml](12913.xml) | beinecke.brownjoe | JWJ MSS 376 | Joe C. Brown papers | 
  [beinecke.hislopshenstone.xml](12919.xml) | beinecke.hislopshenstone | OSB MSS 334 | Gordon Hislop Papers Relating to William Shenstone | 
  [beinecke.columbusfamilycollection.xml](12946.xml) | beinecke.columbusfamilycollection | Beinecke MS 431 | Christopher Columbus family collection | 
+ [beinecke.pacificstudios.xml](12961.xml) | beinecke.pacificstudios | WA Photos 1340 | Guide to the Catalog of Photographic Prints of Backdrops for the Motion Picture Industry in California | 
+ [beinecke.osbornfamilyletters.xml](12980.xml) | beinecke.osbornfamilyletters | OSB MSS 436 | Marie-Louise Osborn Letters to Family | 
 
