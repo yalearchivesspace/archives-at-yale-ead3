@@ -1785,4 +1785,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.columbusfamilycollection.xml](12946.xml) | beinecke.columbusfamilycollection | Beinecke MS 431 | Christopher Columbus family collection | 
  [beinecke.pacificstudios.xml](12961.xml) | beinecke.pacificstudios | WA Photos 1340 | Guide to the Catalog of Photographic Prints of Backdrops for the Motion Picture Industry in California | 
  [beinecke.osbornfamilyletters.xml](12980.xml) | beinecke.osbornfamilyletters | OSB MSS 436 | Marie-Louise Osborn Letters to Family | 
+ [beinecke.haysbottles.xml](12985.xml) | beinecke.haysbottles | WA Photos 1341 | <title>Empty Bottle Photograms</title> and Related Material | 
 
