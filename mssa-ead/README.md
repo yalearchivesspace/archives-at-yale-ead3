@@ -973,7 +973,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0657.xml](2893.xml) | mssa.ru.0657 | RU 657 | Walter Freeman, Class of 1916, Yale College, photograph albums documenting life at Yale | 
  [mssa.ru.0222.xml](2894.xml) | mssa.ru.0222 | RU 222 | Trumbull College, Yale University, student records for the Classes of 1964-2012 maintained by the dean | 
  [mssa.ru.0821.xml](2895.xml) | mssa.ru.0821 | RU 821 | Office on the Education of Women, Yale University, records | 
- [mssa.ru.0172.xml](2896.xml) | mssa.ru.0172 | RU 172 | Saybrook College, Yale University, student records for the Classes of 1964-2010 maintained by the dean | 
+ [mssa.ru.0172.xml](2896.xml) | mssa.ru.0172 | RU 172 | Saybrook College, Yale University, student records for the Classes of 1964-2015 maintained by the dean | 
  [mssa.ru.0521.xml](2897.xml) | mssa.ru.0521 | RU 521 | Insurance Office, Yale University, records | 
  [mssa.ru.0232.xml](2898.xml) | mssa.ru.0232 | RU 232 | Yale-China Association records | 
  [mssa.ru.1049.xml](2899.xml) | mssa.ru.1049 | RU 1049 | School of Architecture, Yale University, student records | 
