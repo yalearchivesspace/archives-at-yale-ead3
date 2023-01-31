@@ -73,4 +73,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0086.xml](12839.xml) | med.ms.0086 | Ms Coll 86 | Michael L. Charney papers | 
  [med.ms.0087.xml](12845.xml) | med.ms.0087 | Ms Coll 87 | Gloria Robinson student papers | 
  [med.ms.0089.xml](12995.xml) | med.ms.0089 | Ms Coll 89 | Birth control and women's health ephemera | 
+ [13030.xml](13030.xml) |  | Ms Coll 72 | Bert Hansen collection of historical newspaper research | 
 
