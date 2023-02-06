@@ -1686,7 +1686,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.amontiel.xml](11950.xml) | beinecke.amontiel | WA MSS S-4392 | Anya Montiel collection of Native American HIV/AIDS awareness materials | 
  [beinecke.peoplespark.xml](11956.xml) | beinecke.peoplespark | WA MSS S-4353 | Ephemera concerning the People's Park protests | 
  [beinecke.woodson.xml](11958.xml) | beinecke.woodson | JWJ MSS 245 | Jacqueline Woodson papers | 
- [beinencke.weinberger.xml](11964.xml) | beinencke.weinberger | YCAL MSS 1600 | Eliot Weinberger papers | 
+ [beinecke.weinberger.xml](11964.xml) | beinecke.weinberger | YCAL MSS 1600 | Eliot Weinberger papers | 
  [beinecke.shackleton.xml](11972.xml) | beinecke.shackleton | OSB MSS 230 | Shackleton family papers | 
  [beinecke.dgnnoble.xml](11976.xml) | beinecke.dgnnoble | WA MSS S-4504 | David Grant Noble photographs and papers | 
  [beinecke.schuylerwolff.xml](11978.xml) | beinecke.schuylerwolff | YCGL MSS 17 | Steven Schuyler papers relating to Kurt Wolff and Hermann Broch | 
