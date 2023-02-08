@@ -74,4 +74,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0087.xml](12845.xml) | med.ms.0087 | Ms Coll 87 | Gloria Robinson student papers | 
  [med.ms.0089.xml](12995.xml) | med.ms.0089 | Ms Coll 89 | Birth control and women's health ephemera | 
  [13030.xml](13030.xml) |  | Ms Coll 72 | Bert Hansen collection of historical newspaper research | 
+ [med.pam.0013.xml](13036.xml) | med.pam.0013 | Pam Coll 13 | Harvey Cushing reprints and pamphlets | 
 
