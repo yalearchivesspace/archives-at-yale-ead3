@@ -59,6 +59,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0064.xml](11375.xml) | med.ms.0064 | Ms Coll 64 | Martha H. Roper Papers | 
  [med.ms.0067.xml](11447.xml) | med.ms.0067 | Ms Coll 67 | The Bert Hansen collection of medicine and public health in popular graphic art | 
  [med.ms.0023.xml](11586.xml) | med.ms.0023 | Ms Coll 23 | Harry Gideon Wells papers | 
+ [med.ms.0069.xml](11652.xml) | med.ms.0069 | Ms Coll 69 | "The Doctor" by Sir Luke Fildes collection | 
  [med.ms.0024.xml](11709.xml) | med.ms.0024 | Ms Coll 24 | Ronald H. Fishbein collection on the Nathan Smith family | 
  [med.pam.0001.xml](11745.xml) | med.pam.0001 | Pam Coll 1 | Medical college catalogs, introductory and valedictory addresses, and ephemera collection | 
  [med.pam.0011.xml](11782.xml) | med.pam.0011 | Pam Coll 11 | Yale Child Study Center reference collection | 
@@ -73,6 +74,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0086.xml](12839.xml) | med.ms.0086 | Ms Coll 86 | Michael L. Charney papers | 
  [med.ms.0087.xml](12845.xml) | med.ms.0087 | Ms Coll 87 | Gloria Robinson student papers | 
  [med.ms.0089.xml](12995.xml) | med.ms.0089 | Ms Coll 89 | Birth control and women's health ephemera | 
- [13030.xml](13030.xml) |  | Ms Coll 72 | Bert Hansen collection of historical newspaper research | 
+ [med.ms.0072.xml](13030.xml) | med.ms.0072 | Ms Coll 72 | Bert Hansen collection of historical newspaper research | 
  [med.pam.0013.xml](13036.xml) | med.pam.0013 | Pam Coll 13 | Harvey Cushing reprints and pamphlets | 
 
