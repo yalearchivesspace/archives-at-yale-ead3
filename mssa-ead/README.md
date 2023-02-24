@@ -2925,6 +2925,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1180.xml](12366.xml) | mssa.ru.1180 | RU 1180 | Department of Philosophy, Yale University, records | 
  [mssa.ru.1181.xml](12471.xml) | mssa.ru.1181 | RU 1181 | Latinx student life at Yale records | 
  [mssa.ms.2127.xml](12472.xml) | mssa.ms.2127 | MS 2127 | James C. Hatch papers | 
+ [mssa.ms.2129.xml](12804.xml) | mssa.ms.2129 | MS 2129 | Alan Trachtenberg Papers | 
  [mssa.ms.2094.xml](12819.xml) | mssa.ms.2094 | MS 2094 | Henry Dutton family papers | 
  [mssa.ms.2135.xml](12861.xml) | mssa.ms.2135 | MS.2135 | D. Allan Bromley Papers | 
 
