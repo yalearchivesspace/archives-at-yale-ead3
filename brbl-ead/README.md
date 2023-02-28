@@ -1788,6 +1788,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.pacificstudios.xml](12961.xml) | beinecke.pacificstudios | WA Photos 1340 | Guide to the Catalog of Photographic Prints of Backdrops for the Motion Picture Industry in California | 
  [beinecke.osbornfamilyletters.xml](12980.xml) | beinecke.osbornfamilyletters | OSB MSS 436 | Marie-Louise Osborn Letters to Family | 
  [beinecke.haysbottles.xml](12985.xml) | beinecke.haysbottles | WA Photos 1341 | <title>Empty Bottle Photograms</title> and Related Material | 
+ [beinecke.photomigrants.xml](12990.xml) | beinecke.photomigrants | WA Photos Folio 225 | Photographs of Migrant Agricultural Laborers in California | 
  [beinecke.felver.xml](13001.xml) | beinecke.felver | WA Photos 1342 | Chris Felver photographs | 
  [beinecke.rbleighton.xml](13041.xml) | beinecke.rbleighton | WA MSS S-4538 | Robert Henry Leighton Letters to the Leighton Family | 
  [beinecke.hhstevens.xml](13043.xml) | beinecke.hhstevens | WA MSS S-4539 | Helen Howard Stevens and Sarah Martha Robinson Stevens Letters | 
