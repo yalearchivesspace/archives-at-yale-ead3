@@ -1781,6 +1781,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.marymuranishialbums.xml](12876.xml) | beinecke.marymuranishialbums | WA Photos 1337 | Mary Shizuko Mitsueda Muranishi photograph albums related to Japanese American life | 
  [beinecke.genetjean.xml](12887.xml) | beinecke.genetjean | GEN MSS 1739 | Collection of Jean Genet Drafts and Proofs | 
  [beinecke.jmosbornresearch.xml](12910.xml) | beinecke.jmosbornresearch | OSB MSS 333 | James Marshall Osborn Research Files | 
+ [beinecke.schollhorn .xml](12911.xml) | beinecke.schollhorn  | WA MSS S-4527 | Drawings and Sketches of Oregon and Washington | 
  [beinecke.brownjoe.xml](12913.xml) | beinecke.brownjoe | JWJ MSS 376 | Joe C. Brown papers | 
  [beinecke.hislopshenstone.xml](12919.xml) | beinecke.hislopshenstone | OSB MSS 334 | Gordon Hislop Papers Relating to William Shenstone | 
  [beinecke.marthamcphee.xml](12928.xml) | beinecke.marthamcphee | YCAL MSS 1606 | Martha McPhee papers | 
@@ -1790,6 +1791,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.haysbottles.xml](12985.xml) | beinecke.haysbottles | WA Photos 1341 | <title>Empty Bottle Photograms</title> and Related Material | 
  [beinecke.photomigrants.xml](12990.xml) | beinecke.photomigrants | WA Photos Folio 225 | Photographs of Migrant Agricultural Laborers in California | 
  [beinecke.felver.xml](13001.xml) | beinecke.felver | WA Photos 1342 | Chris Felver photographs | 
+ [ead.beinecke.detroitcardoza.xml](13014.xml) | ead.beinecke.detroitcardoza | WA Photos 1344 | Photochroms of Sites in the United States and Mexico | 
  [beinecke.rbleighton.xml](13041.xml) | beinecke.rbleighton | WA MSS S-4538 | Robert Henry Leighton Letters to the Leighton Family | 
  [beinecke.hhstevens.xml](13043.xml) | beinecke.hhstevens | WA MSS S-4539 | Helen Howard Stevens and Sarah Martha Robinson Stevens Letters | 
 
