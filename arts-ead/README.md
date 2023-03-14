@@ -270,7 +270,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [vrc.2006.xml](10540.xml) | vrc.2006 | VRC 2006 | 19th-20th century North American Architecture Lantern Slide Collection | 
  [vrc.2000.xml](10541.xml) | vrc.2000 | VRC 2000 | Painting Lantern Slide Collection | 
  [vrc.1000.xml](10542.xml) | vrc.1000 | VRC 1000 | Architecture Slide Collection | 
- [vrc.1100.xml](10543.xml) | vrc.1100 | VRC.1100 | Painting Slide Collection | 
+ [vrc.1100.xml](10543.xml) | vrc.1100 | VRC 1100 | Painting Slide Collection | 
  [arts.aob.0060.xml](11314.xml) | arts.aob.0060 | AOB 60 | Polly Rubin collection of volvelles and slide rules | 
  [arts.aob.0020.xml](11919.xml) | arts.aob.0020 | AOB 20 | Clarence Pearson Hornung papers | 
  [arts.ms.0001.xml](11936.xml) | arts.ms.0001 | ALSC MS 1 | Lawrence Wolfson papers | 
