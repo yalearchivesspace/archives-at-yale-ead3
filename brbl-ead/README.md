@@ -1651,6 +1651,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.plante.xml](11836.xml) | beinecke.plante | OSB MSS 308 | David Plante papers | 
  [beinecke.shapirod.xml](11837.xml) | beinecke.shapirod | YCAL MSS 1422 | David Shapiro papers | 
  [beinecke.myles.xml](11839.xml) | beinecke.myles | YCAL MSS 1466 | Eileen Myles papers | 
+ [beinecke.bland.xml](11843.xml) | beinecke.bland | JWJ MSS 310 | Ed Bland papers | 
  [beinecke.gustafson .xml](11844.xml) | beinecke.gustafson  | GEN MSS 997 | R. Eric Gustafson papers | 
  [beinecke.hollo.xml](11847.xml) | beinecke.hollo | GEN MSS 1701 | Anselm Hollo papers | 
  [beinecke.sklar.xml](11850.xml) | beinecke.sklar | YCAL MSS 1446 | George Sklar and Miriam Blecher papers | 
