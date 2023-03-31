@@ -1798,4 +1798,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.baconfamilyletters.xml](13064.xml) | beinecke.baconfamilyletters | WA MSS S-4541 | Bacon family letters | 
  [beinecke.sfcleveland.xml](13079.xml) | beinecke.sfcleveland | WA MSS S-4542 | Samuel Francis Cleveland papers | 
  [beiencke.joshuaross.xml](13085.xml) | beiencke.joshuaross | WA MSS S-4543 | Joshua Ross papers | 
+ [beinecke.voynichprovenance.xml](13090.xml) | beinecke.voynichprovenance | Beinecke MS 408A | Wilfred M. Voynich and Ethel Voynich  provenance and research files on the Cipher (Voynich) manuscript | 
 
