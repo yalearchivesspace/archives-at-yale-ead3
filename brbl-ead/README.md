@@ -1506,6 +1506,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.robertolenbutler.xml](11049.xml) | beinecke.robertolenbutler | YCAL MSS 1146 | Robert Olen Butler papers | 
  [beinecke.blanch.xml](11052.xml) | beinecke.blanch | OSB MSS 202 | Lesley Blanch papers | 
  [beinecke.kotanyi.xml](11073.xml) | beinecke.kotanyi | GEN MSS 1499 | Attila Kotányi papers | 
+ [beinecke.aigner.xml](11074.xml) | beinecke.aigner | GEN MSS 1837 | Lucien Aigner photographs and papers | 
  [beinecke.spinelliarchive.xml](11076.xml) | beinecke.spinelliarchive | GEN MSS 109 | Spinelli Archive | 
  [beinecke.mycue.xml](11079.xml) | beinecke.mycue | GEN MSS 822 | Edward Mycue papers | 
  [beinecke.variety.xml](11080.xml) | beinecke.variety | YCAL MSS 1189 | Variety's Protected Material Department Submissions | 
