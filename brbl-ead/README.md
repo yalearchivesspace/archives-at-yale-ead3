@@ -1801,4 +1801,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.sfcleveland.xml](13079.xml) | beinecke.sfcleveland | WA MSS S-4542 | Samuel Francis Cleveland papers | 
  [beiencke.joshuaross.xml](13085.xml) | beiencke.joshuaross | WA MSS S-4543 | Joshua Ross papers | 
  [beinecke.voynichprovenance.xml](13090.xml) | beinecke.voynichprovenance | Beinecke MS 408A | Wilfred M. Voynich and Ethel Voynich  provenance and research files on the Cipher (Voynich) manuscript | 
+ [beinecke.bcallison.xml](13093.xml) | beinecke.bcallison | WA MSS S-4544 | Bill Callison collection of Peace and Freedom Party of California papers | 
 
