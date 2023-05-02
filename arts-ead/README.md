@@ -278,4 +278,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.bkp.0181.xml](12280.xml) | arts.bkp.0181 | BKP 181 | FISAE (Fédération Internationale des Sociétés d'Amateurs d'Exlibris) 2020 ex-libris design competition collection | 
  [arts.art.0036.xml](12303.xml) | arts.art.0036 | ART 36 | Artspace records | 
  [12798.xml](12798.xml) |  | VRC 1990a | Garvin City Planning Image Collection | 
+ [arts.dra.0050.xml](12858.xml) | arts.dra.0050 | DRA 50 | Norman Walsh Taylor papers | 
 
