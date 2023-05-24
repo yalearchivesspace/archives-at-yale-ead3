@@ -1733,6 +1733,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.willispineridgesd.xml](12194.xml) | beinecke.willispineridgesd | WA Photos Folio 219 | Photographs of Pine Ridge Indian Reservation and South Dakota | 
  [beinecke.taylorhenryc.xml](12196.xml) | beinecke.taylorhenryc | GEN MSS 1743 | Henry C. Taylor papers | 
  [beinecke.stieglitzcam.xml](12197.xml) | beinecke.stieglitzcam | YCAL MSS 1389 | Alfred Stieglitz collection of photogravures from <title>Camera work</title> | 
+ [beinecke.ozick.xml](12206.xml) | beinecke.ozick | YCAL MSS 1599 | Cynthia Ozick papers | 
  [beinecke.jbarney.xml](12211.xml) | beinecke.jbarney | WA MSS S-4483 | Jeanne C. Barney papers | 
  [beinecke.crite.xml](12220.xml) | beinecke.crite | JWJ MSS 357 | Allan Rohan Crite papers | 
  [beinecke.socaloilfields.xml](12224.xml) | beinecke.socaloilfields | WA Photos 1306 | Southern California oil fields aerial photographs | 
