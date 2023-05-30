@@ -42,7 +42,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.aob.0077.xml](356.xml) | arts.aob.0077 | AOB 77 | Collection of Nineteenth-Century Graphic Art | 
  [arts.aob.0008.xml](357.xml) | arts.aob.0008 | AOB 8 | Richard Minsky archive | 
  [arts.aob.0080.xml](358.xml) | arts.aob.0080 | AOB 80 | Collection of student printing | 
- [arts.aob.0082.xml](359.xml) | arts.aob.0082 | AOB 82 | Collection of Japanese prints | 
  [arts.aob.0089.xml](360.xml) | arts.aob.0089 | AOB 89 | Fritz Eichenberg papers | 
  [arts.aob.0009.xml](361.xml) | arts.aob.0009 | AOB 9 | Carl Purington Rollins papers | 
  [arts.aob.0090.xml](362.xml) | arts.aob.0090 | AOB 90 | Collection of printing production materials | 
