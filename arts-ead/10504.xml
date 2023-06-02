@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -17,11 +18,12 @@
             <author>Compiled by Helen Chillman</author>
          </titlestmt>
          <publicationstmt>
-            <publisher>Yale University Arts Library</publisher>
+            <publisher>Robert B. Haas Family Arts Library Special Collections</publisher>
             <address>
                <addressline>Arts Library Special Collections</addressline>
                <addressline>180 York Street </addressline>
                <addressline>New Haven, CT 06511</addressline>
+               <addressline localtype="telephone">203-432-1712</addressline>
                <addressline localtype="email">haasalsc@yale.edu</addressline>
                <addressline>
                   <ref href="https://web.library.yale.edu/arts/alsc"
@@ -36,12 +38,15 @@
             <controlnote>
                <p>This finding aid, which is compliant with the Yale EAD Best Practice Guidelines, Version 1.0., has a MARC record in Yale's ILS with the following bib number: <num localtype="Orbis-bib">8169624</num>.</p>
             </controlnote>
+            <controlnote localtype="offsite">
+               <p>Boxes: 1-15</p>
+            </controlnote>
          </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency countrycode="US">
          <agencycode>US-CtY-A</agencycode>
-         <agencyname>Yale University Arts Library</agencyname>
+         <agencyname>Robert B. Haas Family Arts Library Special Collections</agencyname>
       </maintenanceagency>
       <languagedeclaration>
          <language langcode="eng">English</language>
@@ -58,16 +63,16 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-09-01T23:10:38+00:00</eventdatetime>
+            <eventdatetime>2023-06-02T23:12:07+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.7.1.yale.20200820</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday September  1, 2020 at 23:10</eventdescription>
+            <agent>ArchivesSpace yale-rebased-v3.3.1</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Friday June  2, 2023 at 23:12</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -77,7 +82,7 @@
          <unitid>VRC 1600</unitid>
          <repository>
             <corpname>
-               <part>Yale University Arts Library</part>
+               <part>Robert B. Haas Family Arts Library Special Collections</part>
             </corpname>
          </repository>
          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
@@ -99,23 +104,23 @@
       </did>
       <accessrestrict id="aspace_arest">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_urest">
          <head>Conditions Governing Use</head>
-         <p>Copyright has not been transferred to Yale University. Further use of this material may be subject to the copyright laws of the United States (Title 17, United States Code) or to site license or other rights management terms or conditions.</p>  
+         <p>Copyright has not been transferred to Yale University. Further use of this material may be subject to the copyright laws of the United States (Title 17, United States Code) or to site license or other rights management terms or conditions.</p>
       </userestrict>
       <prefercite id="aspace_cite">
          <head>Preferred Citation</head>
-         <p>Pre-Columbian Arts Slide Collection, Arts Library, Yale University</p>  
+         <p>Pre-Columbian Arts Slide Collection, Arts Library, Yale University</p>
       </prefercite>
       <scopecontent id="aspace_sc">
          <head>Scope and Contents</head>
-         <p>Collection consists of color and black and white 35 mm slides of Pre-Columbian arts, including architecture, sculpture, textiles and illuminated manuscripts from Mexico, Central America, and the Andean region of South America.</p>  
+         <p>Collection consists of color and black and white 35 mm slides of Pre-Columbian arts, including architecture, sculpture, textiles and illuminated manuscripts from Mexico, Central America, and the Andean region of South America.</p>
       </scopecontent>
       <arrangement id="aspace_arr1">
          <head>Arrangement</head>
-         <p>Arranged by medium; sub-arranged by format or type; also by country, region, culture, and site name.</p>  
+         <p>Arranged by medium; sub-arranged by format or type; also by country, region, culture, and site name.</p>
       </arrangement>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85065140"
@@ -665,7 +670,16 @@
                level="subseries">
                <did>
                   <unittitle>Maya [Slide boxes 6-7]</unittitle>
-                  <container localtype="box" id="d2e4">1–2</container>
+                  <container altrender="/repositories/5/top_containers/296466 /locations/9"
+                             containerid="39002075115486"
+                             id="aspace_c02.d0e978_c1"
+                             label="Mixed Materials"
+                             localtype="box">1</container>
+                  <container altrender="/repositories/5/top_containers/296471 /locations/9"
+                             containerid="39002075115494"
+                             id="aspace_c02.d0e978_c2"
+                             label="Mixed Materials"
+                             localtype="box">2</container>
                </did>
                <c altrender="/repositories/5/archival_objects/2460306"
                   id="aspace_s2c02.d0e978b2.d0e998"
@@ -1366,7 +1380,16 @@
                         level="file">
                         <did>
                            <unittitle>Reviewing Stand [Slide boxes 12-13]</unittitle>
-                           <container localtype="box" id="d3e4">2–3</container>
+                           <container altrender="/repositories/5/top_containers/296471 /locations/9"
+                                      containerid="39002075115494"
+                                      id="aspace_s2c02.d0e978b2-3.d0e2158_c1"
+                                      label="Mixed Materials"
+                                      localtype="box">2</container>
+                           <container altrender="/repositories/5/top_containers/296476 /locations/9"
+                                      containerid="39002075115502"
+                                      id="aspace_s2c02.d0e978b2-3.d0e2158_c2"
+                                      label="Mixed Materials"
+                                      localtype="box">3</container>
                         </did>
                      </c>
                   </c>
@@ -2106,7 +2129,16 @@
                         level="file">
                         <did>
                            <unittitle>Temple I [Slide boxes 18-19]</unittitle>
-                           <container localtype="box" id="d4e4">3–4</container>
+                           <container altrender="/repositories/5/top_containers/296476 /locations/9"
+                                      containerid="39002075115502"
+                                      id="aspace_s2c02.d0e978b3-4.d0e3398_c1"
+                                      label="Mixed Materials"
+                                      localtype="box">3</container>
+                           <container altrender="/repositories/5/top_containers/296472 /locations/9"
+                                      containerid="39002075115510"
+                                      id="aspace_s2c02.d0e978b3-4.d0e3398_c2"
+                                      label="Mixed Materials"
+                                      localtype="box">4</container>
                         </did>
                      </c>
                      <c altrender="/repositories/5/archival_objects/2460865"
@@ -2763,7 +2795,16 @@
                      level="file">
                      <did>
                         <unittitle>Great Temple [Slide boxes 24-25]</unittitle>
-                        <container localtype="box" id="d5e4">4–5</container>
+                        <container altrender="/repositories/5/top_containers/296472 /locations/9"
+                                   containerid="39002075115510"
+                                   id="aspace_s2c02.d0e4258b4-5.d0e4498_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">4</container>
+                        <container altrender="/repositories/5/top_containers/296473 /locations/9"
+                                   containerid="39002075115528"
+                                   id="aspace_s2c02.d0e4258b4-5.d0e4498_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">5</container>
                      </did>
                   </c>
                </c>
@@ -3434,7 +3475,16 @@
                               level="file">
                               <did>
                                  <unittitle>Pyramid: Reliefs Panels [Slide boxes 30-31]</unittitle>
-                                 <container localtype="box" id="d6e4">5–6</container>
+                                 <container altrender="/repositories/5/top_containers/296473 /locations/9"
+                                            containerid="39002075115528"
+                                            id="aspace_s2c02.d0e5358b5-6.d0e5622_c1"
+                                            label="Mixed Materials"
+                                            localtype="box">5</container>
+                                 <container altrender="/repositories/5/top_containers/296467 /locations/9"
+                                            containerid="39002075115536"
+                                            id="aspace_s2c02.d0e5358b5-6.d0e5622_c2"
+                                            label="Mixed Materials"
+                                            localtype="box">6</container>
                               </did>
                            </c>
                         </c>
@@ -6179,7 +6229,16 @@
                            level="file">
                            <did>
                               <unittitle>Lintel 20-39 [Slide boxes 48-49]</unittitle>
-                              <container localtype="box" id="d7e4">8–9</container>
+                              <container altrender="/repositories/5/top_containers/296480 /locations/9"
+                                         containerid="39002075115551"
+                                         id="aspace_s3b8-9.d0e10190_c1"
+                                         label="Mixed Materials"
+                                         localtype="box">8</container>
+                              <container altrender="/repositories/5/top_containers/296477 /locations/9"
+                                         containerid="39002075115569"
+                                         id="aspace_s3b8-9.d0e10190_c2"
+                                         label="Mixed Materials"
+                                         localtype="box">9</container>
                            </did>
                         </c>
                         <c altrender="/repositories/5/archival_objects/2461114"
@@ -6991,7 +7050,16 @@
                            level="file">
                            <did>
                               <unittitle>Masks [Slide boxes 54-55]</unittitle>
-                              <container localtype="box" id="d8e4">9–10</container>
+                              <container altrender="/repositories/5/top_containers/296477 /locations/9"
+                                         containerid="39002075115569"
+                                         id="aspace_s3b9-10.d0e11550_c1"
+                                         label="Mixed Materials"
+                                         localtype="box">9</container>
+                              <container altrender="/repositories/5/top_containers/296478 /locations/9"
+                                         containerid="39002075115577"
+                                         id="aspace_s3b9-10.d0e11550_c2"
+                                         label="Mixed Materials"
+                                         localtype="box">10</container>
                            </did>
                         </c>
                      </c>
@@ -7840,7 +7908,16 @@
                         level="file">
                         <did>
                            <unittitle>Veracruz [Slide boxes 60-61]</unittitle>
-                           <container localtype="box" id="d9e4">10–11</container>
+                           <container altrender="/repositories/5/top_containers/296478 /locations/9"
+                                      containerid="39002075115577"
+                                      id="aspace_s3b10-11.d0e12970_c1"
+                                      label="Mixed Materials"
+                                      localtype="box">10</container>
+                           <container altrender="/repositories/5/top_containers/296468 /locations/9"
+                                      containerid="39002075115585"
+                                      id="aspace_s3b10-11.d0e12970_c2"
+                                      label="Mixed Materials"
+                                      localtype="box">11</container>
                         </did>
                      </c>
                   </c>
@@ -8666,7 +8743,16 @@
                   level="file">
                   <did>
                      <unittitle>Tikal [Slide boxes 66-67]</unittitle>
-                     <container localtype="box" id="d10e4">11–12</container>
+                     <container altrender="/repositories/5/top_containers/296468 /locations/9"
+                                containerid="39002075115585"
+                                id="aspace_s4b11-12.d0e14350_c1"
+                                label="Mixed Materials"
+                                localtype="box">11</container>
+                     <container altrender="/repositories/5/top_containers/296474 /locations/9"
+                                containerid="39002075115593"
+                                id="aspace_s4b11-12.d0e14350_c2"
+                                label="Mixed Materials"
+                                localtype="box">12</container>
                   </did>
                </c>
                <c altrender="/repositories/5/archival_objects/2460430"
@@ -10585,7 +10671,16 @@
                      level="file">
                      <did>
                         <unittitle>Miscellaneous [Slide boxes 78-79]</unittitle>
-                        <container localtype="box" id="d11e4">13–14</container>
+                        <container altrender="/repositories/5/top_containers/296469 /locations/9"
+                                   containerid="39002075115601"
+                                   id="aspace_s6b13-14.d0e17553_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">13</container>
+                        <container altrender="/repositories/5/top_containers/296470 /locations/9"
+                                   containerid="39002075115619"
+                                   id="aspace_s6b13-14.d0e17553_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">14</container>
                      </did>
                   </c>
                   <c altrender="/repositories/5/archival_objects/2460823"
@@ -11242,7 +11337,16 @@
                   level="file">
                   <did>
                      <unittitle>Paracas [Slide boxes 84-85]</unittitle>
-                     <container localtype="box" id="d12e4">14–15</container>
+                     <container altrender="/repositories/5/top_containers/296470 /locations/9"
+                                containerid="39002075115619"
+                                id="aspace_s12b14-15.d0e18653_c1"
+                                label="Mixed Materials"
+                                localtype="box">14</container>
+                     <container altrender="/repositories/5/top_containers/296475 /locations/9"
+                                containerid="39002075115627"
+                                id="aspace_s12b14-15.d0e18653_c2"
+                                label="Mixed Materials"
+                                localtype="box">15</container>
                   </did>
                </c>
                <c altrender="/repositories/5/archival_objects/2460514"

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -17,11 +18,12 @@
             <author>Compiled by Katherine Haskins</author>
          </titlestmt>
          <publicationstmt>
-            <publisher>Yale University Arts Library</publisher>
+            <publisher>Robert B. Haas Family Arts Library Special Collections</publisher>
             <address>
                <addressline>Arts Library Special Collections</addressline>
                <addressline>180 York Street </addressline>
                <addressline>New Haven, CT 06511</addressline>
+               <addressline localtype="telephone">203-432-1712</addressline>
                <addressline localtype="email">haasalsc@yale.edu</addressline>
                <addressline>
                   <ref href="https://web.library.yale.edu/arts/alsc"
@@ -36,12 +38,15 @@
             <controlnote>
                <p>This finding aid, which is compliant with the Yale EAD Best Practice Guidelines, Version 1.0., has a MARC record in Yale's ILS with the following bib number: <num localtype="Orbis-bib">8098194</num>.</p>
             </controlnote>
+            <controlnote localtype="offsite">
+               <p>Boxes: 1-91</p>
+            </controlnote>
          </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency countrycode="US">
          <agencycode>US-CtY-A</agencycode>
-         <agencyname>Yale University Arts Library</agencyname>
+         <agencyname>Robert B. Haas Family Arts Library Special Collections</agencyname>
       </maintenanceagency>
       <languagedeclaration>
          <language langcode="eng">English</language>
@@ -58,16 +63,16 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-09-01T23:15:24+00:00</eventdatetime>
+            <eventdatetime>2023-06-02T23:15:44+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.7.1.yale.20200820</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday September  1, 2020 at 23:15</eventdescription>
+            <agent>ArchivesSpace yale-rebased-v3.3.1</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Friday June  2, 2023 at 23:15</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -77,7 +82,7 @@
          <unitid>VRC 2200</unitid>
          <repository>
             <corpname>
-               <part>Yale University Arts Library</part>
+               <part>Robert B. Haas Family Arts Library Special Collections</part>
             </corpname>
          </repository>
          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
@@ -99,24 +104,24 @@
       </did>
       <accessrestrict id="aspace_arest">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_urest">
          <head>Conditions Governing Use</head>
-         <p>Copyright has not been transferred to Yale University. Further use of this material may be subject to the copyright laws of the United States (Title 17, United States Code) or to site license or other rights management terms or conditions.</p>  
+         <p>Copyright has not been transferred to Yale University. Further use of this material may be subject to the copyright laws of the United States (Title 17, United States Code) or to site license or other rights management terms or conditions.</p>
       </userestrict>
       <prefercite id="aspace_cite">
          <head>Preferred Citation</head>
-         <p>Applied and Decorative Arts Lantern Slide Collection, Arts Library, Yale University Library</p>  
+         <p>Applied and Decorative Arts Lantern Slide Collection, Arts Library, Yale University Library</p>
       </prefercite>
       <scopecontent id="aspace_sc">
          <head>Scope and Contents</head>
          <p>Collection consists of black and white glass lantern slides of American and European applied and decorative arts, including arms and armor, calligraphy, ceramics, commercial design, enamels, furniture, gems, glass, illuminated manuscripts, industrial design, intarsia, ivory, medals, metalwork, mosaics, musical instruments, numismatics, rugs, seals, stage design, tapestry, textiles, wallpaper, wood carving.</p>
-         <p>Classical Greek and Roman materials in all applicable media are located in the Department of Classics, Phelps Hall 402, Yale University, New Haven, Connecticut, 06520.</p>  
+         <p>Classical Greek and Roman materials in all applicable media are located in the Department of Classics, Phelps Hall 402, Yale University, New Haven, Connecticut, 06520.</p>
       </scopecontent>
       <arrangement id="aspace_arr1">
          <head>Arrangement</head>
-         <p>Arranged by medium. Principal sub-divisions by country and where known, artist name. Some sections preceded by materials arranged chronologically or by technique.</p>  
+         <p>Arranged by medium. Principal sub-divisions by country and where known, artist name. Some sections preceded by materials arranged chronologically or by technique.</p>
       </arrangement>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85036316"
@@ -222,7 +227,16 @@
                level="file">
                <did>
                   <unittitle>Britain</unittitle>
-                  <container localtype="box" id="d2e4">1–2</container>
+                  <container altrender="/repositories/5/top_containers/296481 /locations/9"
+                             containerid="39002063329164"
+                             id="aspace_s3b1-2.d0e257_c1"
+                             label="Mixed Materials"
+                             localtype="box">1</container>
+                  <container altrender="/repositories/5/top_containers/296482 /locations/9"
+                             containerid="39002063329172"
+                             id="aspace_s3b1-2.d0e257_c2"
+                             label="Mixed Materials"
+                             localtype="box">2</container>
                </did>
             </c>
             <c altrender="/repositories/5/archival_objects/2461216"
@@ -877,7 +891,16 @@
                   level="file">
                   <did>
                      <unittitle>17th century</unittitle>
-                     <container localtype="box" id="d3e4">7–8</container>
+                     <container altrender="/repositories/5/top_containers/296501 /locations/9"
+                                containerid="39002063329222"
+                                id="aspace_s7b7-8.d0e1357_c1"
+                                label="Mixed Materials"
+                                localtype="box">7</container>
+                     <container altrender="/repositories/5/top_containers/296530 /locations/9"
+                                containerid="39002063329230"
+                                id="aspace_s7b7-8.d0e1357_c2"
+                                label="Mixed Materials"
+                                localtype="box">8</container>
                   </did>
                </c>
                <c altrender="/repositories/5/archival_objects/2461440"
@@ -933,7 +956,16 @@
                   level="file">
                   <did>
                      <unittitle>Early Classic Revival</unittitle>
-                     <container localtype="box" id="d4e4">8–9</container>
+                     <container altrender="/repositories/5/top_containers/296530 /locations/9"
+                                containerid="39002063329230"
+                                id="aspace_s7b8-9.d0e1457_c1"
+                                label="Mixed Materials"
+                                localtype="box">8</container>
+                     <container altrender="/repositories/5/top_containers/296531 /locations/9"
+                                containerid="39002063329248"
+                                id="aspace_s7b8-9.d0e1457_c2"
+                                label="Mixed Materials"
+                                localtype="box">9</container>
                   </did>
                </c>
                <c altrender="/repositories/5/archival_objects/2461445"
@@ -965,7 +997,16 @@
                   level="file">
                   <did>
                      <unittitle>Late 19th century</unittitle>
-                     <container localtype="box" id="d5e4">9–10</container>
+                     <container altrender="/repositories/5/top_containers/296531 /locations/9"
+                                containerid="39002063329248"
+                                id="aspace_s7b9-10.d0e1517_c1"
+                                label="Mixed Materials"
+                                localtype="box">9</container>
+                     <container altrender="/repositories/5/top_containers/296502 /locations/9"
+                                containerid="39002063329255"
+                                id="aspace_s7b9-10.d0e1517_c2"
+                                label="Mixed Materials"
+                                localtype="box">10</container>
                   </did>
                   <c altrender="/repositories/5/archival_objects/2461792"
                      id="aspace_s7b10.d0e1537"
@@ -1369,7 +1410,16 @@
                   level="file">
                   <did>
                      <unittitle>19th century</unittitle>
-                     <container localtype="box" id="d6e4">12–13</container>
+                     <container altrender="/repositories/5/top_containers/296533 /locations/9"
+                                containerid="39002063329271"
+                                id="aspace_s7b12-13.d0e2197_c1"
+                                label="Mixed Materials"
+                                localtype="box">12</container>
+                     <container altrender="/repositories/5/top_containers/296503 /locations/9"
+                                containerid="39002063329289"
+                                id="aspace_s7b12-13.d0e2197_c2"
+                                label="Mixed Materials"
+                                localtype="box">13</container>
                   </did>
                   <c altrender="/repositories/5/archival_objects/2461810"
                      id="aspace_s7b13.d0e2217"
@@ -1604,7 +1654,16 @@
                      level="file">
                      <did>
                         <unittitle>Tables</unittitle>
-                        <container localtype="box" id="d7e4">14–15</container>
+                        <container altrender="/repositories/5/top_containers/296504 /locations/9"
+                                   containerid="39002063329297"
+                                   id="aspace_s7b14-15.d0e2597_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">14</container>
+                        <container altrender="/repositories/5/top_containers/296505 /locations/9"
+                                   containerid="39002063329305"
+                                   id="aspace_s7b14-15.d0e2597_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">15</container>
                      </did>
                   </c>
                </c>
@@ -1746,7 +1805,16 @@
                level="file">
                <did>
                   <unittitle>Spain</unittitle>
-                  <container localtype="box" id="d8e4">15–16</container>
+                  <container altrender="/repositories/5/top_containers/296505 /locations/9"
+                             containerid="39002063329305"
+                             id="aspace_s7b15-16.d0e2837_c1"
+                             label="Mixed Materials"
+                             localtype="box">15</container>
+                  <container altrender="/repositories/5/top_containers/296506 /locations/9"
+                             containerid="39002063329313"
+                             id="aspace_s7b15-16.d0e2837_c2"
+                             label="Mixed Materials"
+                             localtype="box">16</container>
                </did>
                <c altrender="/repositories/5/archival_objects/2461465"
                   id="aspace_s7b16.d0e2857"
@@ -2891,7 +2959,16 @@
                         level="file">
                         <did>
                            <unittitle>Tables</unittitle>
-                           <container localtype="box" id="d9e4">22–23</container>
+                           <container altrender="/repositories/5/top_containers/296538 /locations/9"
+                                      containerid="39002063329370"
+                                      id="aspace_s7b22-23.d0e4757_c1"
+                                      label="Mixed Materials"
+                                      localtype="box">22</container>
+                           <container altrender="/repositories/5/top_containers/296539 /locations/9"
+                                      containerid="39002063329388"
+                                      id="aspace_s7b22-23.d0e4757_c2"
+                                      label="Mixed Materials"
+                                      localtype="box">23</container>
                         </did>
                      </c>
                   </c>
@@ -3285,7 +3362,16 @@
                   level="file">
                   <did>
                      <unittitle>18th century</unittitle>
-                     <container localtype="box" id="d10e4">24–25</container>
+                     <container altrender="/repositories/5/top_containers/296485 /locations/9"
+                                containerid="39002063329396"
+                                id="aspace_s9b24-25.d0e5417_c1"
+                                label="Mixed Materials"
+                                localtype="box">24</container>
+                     <container altrender="/repositories/5/top_containers/296486 /locations/9"
+                                containerid="39002063329404"
+                                id="aspace_s9b24-25.d0e5417_c2"
+                                label="Mixed Materials"
+                                localtype="box">25</container>
                   </did>
                </c>
                <c altrender="/repositories/5/archival_objects/2461483"
@@ -4169,7 +4255,16 @@
                   level="file">
                   <did>
                      <unittitle>12th century (including works or collections in Cambridge, Edinburgh, London and New York)</unittitle>
-                     <container localtype="box" id="d11e4">30–31</container>
+                     <container altrender="/repositories/5/top_containers/296509 /locations/9"
+                                containerid="39002063329453"
+                                id="aspace_s10b30-31.d0e6897_c1"
+                                label="Mixed Materials"
+                                localtype="box">30</container>
+                     <container altrender="/repositories/5/top_containers/296542 /locations/9"
+                                containerid="39002063329461"
+                                id="aspace_s10b30-31.d0e6897_c2"
+                                label="Mixed Materials"
+                                localtype="box">31</container>
                   </did>
                   <c altrender="/repositories/5/archival_objects/2461902"
                      id="aspace_s10b31.d0e6917"
@@ -4237,7 +4332,16 @@
                   level="file">
                   <did>
                      <unittitle>13th century (including works or collections in Cambridge, Dublin, London, Munich, New York, Oxford, and Paris)</unittitle>
-                     <container localtype="box" id="d12e4">31–32</container>
+                     <container altrender="/repositories/5/top_containers/296542 /locations/9"
+                                containerid="39002063329461"
+                                id="aspace_s10b31-32.d0e7017_c1"
+                                label="Mixed Materials"
+                                localtype="box">31</container>
+                     <container altrender="/repositories/5/top_containers/296543 /locations/9"
+                                containerid="39002063329479"
+                                id="aspace_s10b31-32.d0e7017_c2"
+                                label="Mixed Materials"
+                                localtype="box">32</container>
                   </did>
                   <c altrender="/repositories/5/archival_objects/2461907"
                      id="aspace_s10b32.d0e7037"
@@ -4725,14 +4829,42 @@
                   level="file">
                   <did>
                      <unittitle>15th century (including works or collections in Aix-en-Provence, Arras, Baltimore, Brussels, Cleveland, Dresden, Lyons, Macau, New Haven, New York, Vienna, and Weingarten)</unittitle>
-                     <container localtype="box" id="d13e6">38–40</container>
+                     <container altrender="/repositories/5/top_containers/296547 /locations/9"
+                                containerid="39002063329537"
+                                id="aspace_s10b38-40.d0e7837_c1"
+                                label="Mixed Materials"
+                                localtype="box">38</container>
+                     <container altrender="/repositories/5/top_containers/296548 /locations/9"
+                                containerid="39002063329545"
+                                id="aspace_s10b38-40.d0e7837_c2"
+                                label="Mixed Materials"
+                                localtype="box">39</container>
+                     <container altrender="/repositories/5/top_containers/296549 /locations/9"
+                                containerid="39002063329552"
+                                id="aspace_s10b38-40.d0e7837_c3"
+                                label="Mixed Materials"
+                                localtype="box">40</container>
                   </did>
                   <c altrender="/repositories/5/archival_objects/2461935"
                      id="aspace_s10b38-40.d0e7857"
                      level="file">
                      <did>
                         <unittitle>Passion of Eustach Marcade</unittitle>
-                        <container localtype="box" id="d14e6">38–40</container>
+                        <container altrender="/repositories/5/top_containers/296547 /locations/9"
+                                   containerid="39002063329537"
+                                   id="aspace_s10b38-40.d0e7857_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">38</container>
+                        <container altrender="/repositories/5/top_containers/296548 /locations/9"
+                                   containerid="39002063329545"
+                                   id="aspace_s10b38-40.d0e7857_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">39</container>
+                        <container altrender="/repositories/5/top_containers/296549 /locations/9"
+                                   containerid="39002063329552"
+                                   id="aspace_s10b38-40.d0e7857_c3"
+                                   label="Mixed Materials"
+                                   localtype="box">40</container>
                      </did>
                   </c>
                   <c altrender="/repositories/5/archival_objects/2461936"
@@ -4740,7 +4872,21 @@
                      level="file">
                      <did>
                         <unittitle>Breviary of Philippe Lebon</unittitle>
-                        <container localtype="box" id="d15e6">38–40</container>
+                        <container altrender="/repositories/5/top_containers/296547 /locations/9"
+                                   containerid="39002063329537"
+                                   id="aspace_s10b38-40.d0e7877_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">38</container>
+                        <container altrender="/repositories/5/top_containers/296548 /locations/9"
+                                   containerid="39002063329545"
+                                   id="aspace_s10b38-40.d0e7877_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">39</container>
+                        <container altrender="/repositories/5/top_containers/296549 /locations/9"
+                                   containerid="39002063329552"
+                                   id="aspace_s10b38-40.d0e7877_c3"
+                                   label="Mixed Materials"
+                                   localtype="box">40</container>
                      </did>
                   </c>
                   <c altrender="/repositories/5/archival_objects/2461937"
@@ -4748,7 +4894,21 @@
                      level="file">
                      <did>
                         <unittitle>Mortififment of Rene d'Anjou</unittitle>
-                        <container localtype="box" id="d16e6">38–40</container>
+                        <container altrender="/repositories/5/top_containers/296547 /locations/9"
+                                   containerid="39002063329537"
+                                   id="aspace_s10b38-40.d0e7897_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">38</container>
+                        <container altrender="/repositories/5/top_containers/296548 /locations/9"
+                                   containerid="39002063329545"
+                                   id="aspace_s10b38-40.d0e7897_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">39</container>
+                        <container altrender="/repositories/5/top_containers/296549 /locations/9"
+                                   containerid="39002063329552"
+                                   id="aspace_s10b38-40.d0e7897_c3"
+                                   label="Mixed Materials"
+                                   localtype="box">40</container>
                      </did>
                   </c>
                   <c altrender="/repositories/5/archival_objects/2461938"
@@ -4756,7 +4916,21 @@
                      level="file">
                      <did>
                         <unittitle>Hours of Etienne Chevalier</unittitle>
-                        <container localtype="box" id="d17e6">38–40</container>
+                        <container altrender="/repositories/5/top_containers/296547 /locations/9"
+                                   containerid="39002063329537"
+                                   id="aspace_s10b38-40.d0e7917_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">38</container>
+                        <container altrender="/repositories/5/top_containers/296548 /locations/9"
+                                   containerid="39002063329545"
+                                   id="aspace_s10b38-40.d0e7917_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">39</container>
+                        <container altrender="/repositories/5/top_containers/296549 /locations/9"
+                                   containerid="39002063329552"
+                                   id="aspace_s10b38-40.d0e7917_c3"
+                                   label="Mixed Materials"
+                                   localtype="box">40</container>
                      </did>
                   </c>
                   <c altrender="/repositories/5/archival_objects/2461939"
@@ -4764,7 +4938,21 @@
                      level="file">
                      <did>
                         <unittitle>Tres Riches Heures du Duc de Berry</unittitle>
-                        <container localtype="box" id="d18e6">38–40</container>
+                        <container altrender="/repositories/5/top_containers/296547 /locations/9"
+                                   containerid="39002063329537"
+                                   id="aspace_s10b38-40.d0e7937_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">38</container>
+                        <container altrender="/repositories/5/top_containers/296548 /locations/9"
+                                   containerid="39002063329545"
+                                   id="aspace_s10b38-40.d0e7937_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">39</container>
+                        <container altrender="/repositories/5/top_containers/296549 /locations/9"
+                                   containerid="39002063329552"
+                                   id="aspace_s10b38-40.d0e7937_c3"
+                                   label="Mixed Materials"
+                                   localtype="box">40</container>
                      </did>
                   </c>
                   <c altrender="/repositories/5/archival_objects/2461940"
@@ -4772,7 +4960,21 @@
                      level="file">
                      <did>
                         <unittitle>Antiques Judaiques</unittitle>
-                        <container localtype="box" id="d19e6">38–40</container>
+                        <container altrender="/repositories/5/top_containers/296547 /locations/9"
+                                   containerid="39002063329537"
+                                   id="aspace_s10b38-40.d0e7957_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">38</container>
+                        <container altrender="/repositories/5/top_containers/296548 /locations/9"
+                                   containerid="39002063329545"
+                                   id="aspace_s10b38-40.d0e7957_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">39</container>
+                        <container altrender="/repositories/5/top_containers/296549 /locations/9"
+                                   containerid="39002063329552"
+                                   id="aspace_s10b38-40.d0e7957_c3"
+                                   label="Mixed Materials"
+                                   localtype="box">40</container>
                      </did>
                   </c>
                   <c altrender="/repositories/5/archival_objects/2461941"
@@ -4780,7 +4982,21 @@
                      level="file">
                      <did>
                         <unittitle>Bible Moralisee (BN Ms Fr. 166)</unittitle>
-                        <container localtype="box" id="d20e6">38–40</container>
+                        <container altrender="/repositories/5/top_containers/296547 /locations/9"
+                                   containerid="39002063329537"
+                                   id="aspace_s10b38-40.d0e7977_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">38</container>
+                        <container altrender="/repositories/5/top_containers/296548 /locations/9"
+                                   containerid="39002063329545"
+                                   id="aspace_s10b38-40.d0e7977_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">39</container>
+                        <container altrender="/repositories/5/top_containers/296549 /locations/9"
+                                   containerid="39002063329552"
+                                   id="aspace_s10b38-40.d0e7977_c3"
+                                   label="Mixed Materials"
+                                   localtype="box">40</container>
                      </did>
                   </c>
                   <c altrender="/repositories/5/archival_objects/2461942"
@@ -4788,7 +5004,21 @@
                      level="file">
                      <did>
                         <unittitle>BN Ms. Fr. 9199</unittitle>
-                        <container localtype="box" id="d21e6">38–40</container>
+                        <container altrender="/repositories/5/top_containers/296547 /locations/9"
+                                   containerid="39002063329537"
+                                   id="aspace_s10b38-40.d0e7997_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">38</container>
+                        <container altrender="/repositories/5/top_containers/296548 /locations/9"
+                                   containerid="39002063329545"
+                                   id="aspace_s10b38-40.d0e7997_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">39</container>
+                        <container altrender="/repositories/5/top_containers/296549 /locations/9"
+                                   containerid="39002063329552"
+                                   id="aspace_s10b38-40.d0e7997_c3"
+                                   label="Mixed Materials"
+                                   localtype="box">40</container>
                      </did>
                   </c>
                   <c altrender="/repositories/5/archival_objects/2461943"
@@ -4796,7 +5026,21 @@
                      level="file">
                      <did>
                         <unittitle>BN Ms. Lat. 6067</unittitle>
-                        <container localtype="box" id="d22e6">38–40</container>
+                        <container altrender="/repositories/5/top_containers/296547 /locations/9"
+                                   containerid="39002063329537"
+                                   id="aspace_s10b38-40.d0e8017_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">38</container>
+                        <container altrender="/repositories/5/top_containers/296548 /locations/9"
+                                   containerid="39002063329545"
+                                   id="aspace_s10b38-40.d0e8017_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">39</container>
+                        <container altrender="/repositories/5/top_containers/296549 /locations/9"
+                                   containerid="39002063329552"
+                                   id="aspace_s10b38-40.d0e8017_c3"
+                                   label="Mixed Materials"
+                                   localtype="box">40</container>
                      </did>
                   </c>
                   <c altrender="/repositories/5/archival_objects/2461944"
@@ -4804,7 +5048,21 @@
                      level="file">
                      <did>
                         <unittitle>Livre du Coeur (Rene d'Anjou)</unittitle>
-                        <container localtype="box" id="d23e6">38–40</container>
+                        <container altrender="/repositories/5/top_containers/296547 /locations/9"
+                                   containerid="39002063329537"
+                                   id="aspace_s10b38-40.d0e8037_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">38</container>
+                        <container altrender="/repositories/5/top_containers/296548 /locations/9"
+                                   containerid="39002063329545"
+                                   id="aspace_s10b38-40.d0e8037_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">39</container>
+                        <container altrender="/repositories/5/top_containers/296549 /locations/9"
+                                   containerid="39002063329552"
+                                   id="aspace_s10b38-40.d0e8037_c3"
+                                   label="Mixed Materials"
+                                   localtype="box">40</container>
                      </did>
                   </c>
                </c>
@@ -5089,7 +5347,16 @@
                   level="file">
                   <did>
                      <unittitle>13th century (including works or collections in Heidelberg, Munich, New York City, Stuttgart, Wiesbaden, Wolfenbuttel)</unittitle>
-                     <container localtype="box" id="d24e4">42–43</container>
+                     <container altrender="/repositories/5/top_containers/296550 /locations/9"
+                                containerid="39002063329578"
+                                id="aspace_s10b42-43.d0e8517_c1"
+                                label="Mixed Materials"
+                                localtype="box">42</container>
+                     <container altrender="/repositories/5/top_containers/296551 /locations/9"
+                                containerid="39002063329586"
+                                id="aspace_s10b42-43.d0e8517_c2"
+                                label="Mixed Materials"
+                                localtype="box">43</container>
                   </did>
                </c>
                <c altrender="/repositories/5/archival_objects/2461534"
@@ -5120,7 +5387,16 @@
                      level="file">
                      <did>
                         <unittitle>Biblia Pauperum</unittitle>
-                        <container localtype="box" id="d25e4">43–44</container>
+                        <container altrender="/repositories/5/top_containers/296551 /locations/9"
+                                   containerid="39002063329586"
+                                   id="aspace_s10b43-44.d0e8577_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">43</container>
+                        <container altrender="/repositories/5/top_containers/296513 /locations/9"
+                                   containerid="39002063329594"
+                                   id="aspace_s10b43-44.d0e8577_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">44</container>
                      </did>
                   </c>
                </c>
@@ -5224,7 +5500,16 @@
                      level="file">
                      <did>
                         <unittitle>Piccolomini Antiphonal</unittitle>
-                        <container localtype="box" id="d26e4">45–46</container>
+                        <container altrender="/repositories/5/top_containers/296552 /locations/9"
+                                   containerid="39002063329602"
+                                   id="aspace_s10b45-46.d0e8757_c1"
+                                   label="Mixed Materials"
+                                   localtype="box">45</container>
+                        <container altrender="/repositories/5/top_containers/296487 /locations/9"
+                                   containerid="39002063329610"
+                                   id="aspace_s10b45-46.d0e8757_c2"
+                                   label="Mixed Materials"
+                                   localtype="box">46</container>
                      </did>
                   </c>
                </c>
@@ -6661,7 +6946,16 @@
                   level="file">
                   <did>
                      <unittitle>Pisanello, Antonio Vittore, 1395-1455</unittitle>
-                     <container localtype="box" id="d27e4">53–54</container>
+                     <container altrender="/repositories/5/top_containers/296490 /locations/9"
+                                containerid="39002063329685"
+                                id="aspace_s15b53-54.d0e11157_c1"
+                                label="Mixed Materials"
+                                localtype="box">53</container>
+                     <container altrender="/repositories/5/top_containers/296518 /locations/9"
+                                containerid="39002063329743"
+                                id="aspace_s15b53-54.d0e11157_c2"
+                                label="Mixed Materials"
+                                localtype="box">54</container>
                   </did>
                   <c altrender="/repositories/5/archival_objects/2461968"
                      id="aspace_s15b54.d0e11177"
@@ -7413,7 +7707,16 @@
                   level="file">
                   <did>
                      <unittitle>Known artists, A-Z</unittitle>
-                     <container localtype="box" id="d28e4">58–59</container>
+                     <container altrender="/repositories/5/top_containers/296521 /locations/9"
+                                containerid="39002063329784"
+                                id="aspace_s16b58-59.d0e12417_c1"
+                                label="Mixed Materials"
+                                localtype="box">58</container>
+                     <container altrender="/repositories/5/top_containers/296522 /locations/9"
+                                containerid="39002063329792"
+                                id="aspace_s16b58-59.d0e12417_c2"
+                                label="Mixed Materials"
+                                localtype="box">59</container>
                   </did>
                   <c altrender="/repositories/5/archival_objects/2461976"
                      id="aspace_s16b59.d0e12437"
@@ -8370,7 +8673,16 @@
                level="file">
                <did>
                   <unittitle>Spain</unittitle>
-                  <container localtype="box" id="d29e4">64–65</container>
+                  <container altrender="/repositories/5/top_containers/296525 /locations/9"
+                             containerid="39002063329974"
+                             id="aspace_s16b64-65.d0e14017_c1"
+                             label="Mixed Materials"
+                             localtype="box">64</container>
+                  <container altrender="/repositories/5/top_containers/296526 /locations/9"
+                             containerid="39002063329982"
+                             id="aspace_s16b64-65.d0e14017_c2"
+                             label="Mixed Materials"
+                             localtype="box">65</container>
                </did>
                <c altrender="/repositories/5/archival_objects/2461674"
                   id="aspace_s16b65.d0e14037"
@@ -8806,7 +9118,16 @@
                            level="file">
                            <did>
                               <unittitle>Coney John</unittitle>
-                              <container localtype="box" id="d30e4">67–68</container>
+                              <container altrender="/repositories/5/top_containers/296565 /locations/9"
+                                         containerid="39002063330006"
+                                         id="aspace_s16b67-68.d0e14757_c1"
+                                         label="Mixed Materials"
+                                         localtype="box">67</container>
+                              <container altrender="/repositories/5/top_containers/296566 /locations/9"
+                                         containerid="39002075050014"
+                                         id="aspace_s16b67-68.d0e14757_c2"
+                                         label="Mixed Materials"
+                                         localtype="box">68</container>
                            </did>
                            <c altrender="/repositories/5/archival_objects/2462210"
                               id="aspace_s16b68.d0e14777"
@@ -9717,7 +10038,16 @@
                   level="file">
                   <did>
                      <unittitle>Monreale</unittitle>
-                     <container localtype="box" id="d31e4">75–76</container>
+                     <container altrender="/repositories/5/top_containers/296556 /locations/9"
+                                containerid="39002063329701"
+                                id="aspace_s17b75-76.d0e16277_c1"
+                                label="Mixed Materials"
+                                localtype="box">75</container>
+                     <container altrender="/repositories/5/top_containers/296557 /locations/9"
+                                containerid="39002063329719"
+                                id="aspace_s17b75-76.d0e16277_c2"
+                                label="Mixed Materials"
+                                localtype="box">76</container>
                   </did>
                </c>
                <c altrender="/repositories/5/archival_objects/2461710"

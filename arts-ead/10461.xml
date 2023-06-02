@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -17,11 +18,12 @@
             <author>Compiled by Katherine Haskins</author>
          </titlestmt>
          <publicationstmt>
-            <publisher>Yale University Arts Library</publisher>
+            <publisher>Robert B. Haas Family Arts Library Special Collections</publisher>
             <address>
                <addressline>Arts Library Special Collections</addressline>
                <addressline>180 York Street </addressline>
                <addressline>New Haven, CT 06511</addressline>
+               <addressline localtype="telephone">203-432-1712</addressline>
                <addressline localtype="email">haasalsc@yale.edu</addressline>
                <addressline>
                   <ref href="https://web.library.yale.edu/arts/alsc"
@@ -36,12 +38,15 @@
             <controlnote>
                <p>This finding aid, which is compliant with the Yale EAD Best Practice Guidelines, Version 1.0., has a MARC record in Yale's ILS with the following bib number: <num localtype="Orbis-bib">8082060</num>.</p>
             </controlnote>
+            <controlnote localtype="offsite">
+               <p>Boxes: 1-33</p>
+            </controlnote>
          </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency countrycode="US">
          <agencycode>US-CtY-A</agencycode>
-         <agencyname>Yale University Arts Library</agencyname>
+         <agencyname>Robert B. Haas Family Arts Library Special Collections</agencyname>
       </maintenanceagency>
       <languagedeclaration>
          <language langcode="eng">English</language>
@@ -58,16 +63,16 @@
          <abbr>CC0</abbr>
          <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
          <descriptivenote>
-            <p>CC0 1.0 Universal (CC0 1.0)</p>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
          </descriptivenote>
       </rightsdeclaration>
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2020-09-01T23:16:21+00:00</eventdatetime>
+            <eventdatetime>2023-06-02T23:16:28+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.7.1.yale.20200820</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday September  1, 2020 at 23:16</eventdescription>
+            <agent>ArchivesSpace yale-rebased-v3.3.1</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Friday June  2, 2023 at 23:16</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -77,7 +82,7 @@
          <unitid>VRC 2600</unitid>
          <repository>
             <corpname>
-               <part>Yale University Arts Library</part>
+               <part>Robert B. Haas Family Arts Library Special Collections</part>
             </corpname>
          </repository>
          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
@@ -99,23 +104,23 @@
       </did>
       <accessrestrict id="aspace_arest">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_urest">
          <head>Conditions Governing Use</head>
-         <p>Copyright has not been transferred to Yale University. Further use of this material may be subject to the copyright laws of the United States (Title 17, United States Code) or to site license or other rights management terms or conditions.</p>  
+         <p>Copyright has not been transferred to Yale University. Further use of this material may be subject to the copyright laws of the United States (Title 17, United States Code) or to site license or other rights management terms or conditions.</p>
       </userestrict>
       <prefercite id="aspace_cite">
          <head>Preferred Citation</head>
-         <p>Miscellaneous Categories Slide Collection, Arts Library, Yale University</p>  
+         <p>Miscellaneous Categories Slide Collection, Arts Library, Yale University</p>
       </prefercite>
       <scopecontent id="aspace_sc">
          <head>Scope and Contents</head>
-         <p>Collection consists of combined black and white glass lantern and black and white and color 35-mm slides. Topics include alchemy, anatomy, art movements and theory, cartoons and comics, children's drawings and book illustration, color, computer art, cosmology, fireworks, geometry and perspective, proportion and scale, graffiti, iconography, nature, portraits, principles of design, science, and modes of transportation. Also includes a section called Gumbo Mud, consisting of hitherto unidentified lantern slides.</p>  
+         <p>Collection consists of combined black and white glass lantern and black and white and color 35-mm slides. Topics include alchemy, anatomy, art movements and theory, cartoons and comics, children's drawings and book illustration, color, computer art, cosmology, fireworks, geometry and perspective, proportion and scale, graffiti, iconography, nature, portraits, principles of design, science, and modes of transportation. Also includes a section called Gumbo Mud, consisting of hitherto unidentified lantern slides.</p>
       </scopecontent>
       <arrangement id="aspace_arr1">
          <head>Arrangement</head>
-         <p>Arranged alphabetically by topic.</p>  
+         <p>Arranged alphabetically by topic.</p>
       </arrangement>
       <controlaccess>
          <genreform identifier="http://vocab.getty.edu/aat/300134977" source="aat">
@@ -148,7 +153,21 @@
                <unittitle>
                   <emph render="bold">Anatomy</emph>
                </unittitle>
-               <container localtype="box" id="d2e6">1–3</container>
+               <container altrender="/repositories/5/top_containers/295655 /locations/9"
+                          containerid="39002063328836"
+                          id="aspace_s2_c1"
+                          label="Mixed Materials"
+                          localtype="box">1</container>
+               <container altrender="/repositories/5/top_containers/295656 /locations/9"
+                          containerid="39002063328844"
+                          id="aspace_s2_c2"
+                          label="Mixed Materials"
+                          localtype="box">2</container>
+               <container altrender="/repositories/5/top_containers/295657 /locations/9"
+                          containerid="39002063328851"
+                          id="aspace_s2_c3"
+                          label="Mixed Materials"
+                          localtype="box">3</container>
             </did>
          </c>
          <c altrender="/repositories/5/archival_objects/2448328"
@@ -193,7 +212,16 @@
                level="file">
                <did>
                   <unittitle>Blanc, Charles</unittitle>
-                  <container localtype="box" id="d3e4">3–4</container>
+                  <container altrender="/repositories/5/top_containers/295657 /locations/9"
+                             containerid="39002063328851"
+                             id="aspace_s3b3-4.d0e227_c1"
+                             label="Mixed Materials"
+                             localtype="box">3</container>
+                  <container altrender="/repositories/5/top_containers/295673 /locations/9"
+                             containerid="39002063328869"
+                             id="aspace_s3b3-4.d0e227_c2"
+                             label="Mixed Materials"
+                             localtype="box">4</container>
                </did>
             </c>
             <c altrender="/repositories/5/archival_objects/2448365"
@@ -538,14 +566,32 @@
             level="series">
             <did>
                <unittitle>Cartoons and Comics</unittitle>
-               <container localtype="box" id="d4e4">8–9</container>
+               <container altrender="/repositories/5/top_containers/295658 /locations/9"
+                          containerid="39002063328901"
+                          id="aspace_s4_c1"
+                          label="Mixed Materials"
+                          localtype="box">8</container>
+               <container altrender="/repositories/5/top_containers/295659 /locations/9"
+                          containerid="39002063328919"
+                          id="aspace_s4_c2"
+                          label="Mixed Materials"
+                          localtype="box">9</container>
             </did>
             <c altrender="/repositories/5/archival_objects/2448393"
                id="aspace_s4b8-9.d0e887"
                level="file">
                <did>
                   <unittitle>Arno, Peter</unittitle>
-                  <container localtype="box" id="d5e4">8–9</container>
+                  <container altrender="/repositories/5/top_containers/295658 /locations/9"
+                             containerid="39002063328901"
+                             id="aspace_s4b8-9.d0e887_c1"
+                             label="Mixed Materials"
+                             localtype="box">8</container>
+                  <container altrender="/repositories/5/top_containers/295659 /locations/9"
+                             containerid="39002063328919"
+                             id="aspace_s4b8-9.d0e887_c2"
+                             label="Mixed Materials"
+                             localtype="box">9</container>
                </did>
             </c>
             <c altrender="/repositories/5/archival_objects/2448394"
@@ -553,7 +599,16 @@
                level="file">
                <did>
                   <unittitle>Addams, Charles</unittitle>
-                  <container localtype="box" id="d6e4">8–9</container>
+                  <container altrender="/repositories/5/top_containers/295658 /locations/9"
+                             containerid="39002063328901"
+                             id="aspace_s4b8-9.d0e909_c1"
+                             label="Mixed Materials"
+                             localtype="box">8</container>
+                  <container altrender="/repositories/5/top_containers/295659 /locations/9"
+                             containerid="39002063328919"
+                             id="aspace_s4b8-9.d0e909_c2"
+                             label="Mixed Materials"
+                             localtype="box">9</container>
                </did>
             </c>
             <c altrender="/repositories/5/archival_objects/2448395"
@@ -561,7 +616,16 @@
                level="file">
                <did>
                   <unittitle>Lutz, E.G. (Sketch artists sequence)</unittitle>
-                  <container localtype="box" id="d7e4">8–9</container>
+                  <container altrender="/repositories/5/top_containers/295658 /locations/9"
+                             containerid="39002063328901"
+                             id="aspace_s4b8-9.d0e931_c1"
+                             label="Mixed Materials"
+                             localtype="box">8</container>
+                  <container altrender="/repositories/5/top_containers/295659 /locations/9"
+                             containerid="39002063328919"
+                             id="aspace_s4b8-9.d0e931_c2"
+                             label="Mixed Materials"
+                             localtype="box">9</container>
                </did>
             </c>
             <c altrender="/repositories/5/archival_objects/2448396"
@@ -569,7 +633,16 @@
                level="file">
                <did>
                   <unittitle>Art, Related Cartoons</unittitle>
-                  <container localtype="box" id="d8e4">8–9</container>
+                  <container altrender="/repositories/5/top_containers/295658 /locations/9"
+                             containerid="39002063328901"
+                             id="aspace_s4b8-9.d0e953_c1"
+                             label="Mixed Materials"
+                             localtype="box">8</container>
+                  <container altrender="/repositories/5/top_containers/295659 /locations/9"
+                             containerid="39002063328919"
+                             id="aspace_s4b8-9.d0e953_c2"
+                             label="Mixed Materials"
+                             localtype="box">9</container>
                </did>
             </c>
             <c altrender="/repositories/5/archival_objects/2448397"
@@ -710,7 +783,16 @@
             level="series">
             <did>
                <unittitle>Children's Drawings</unittitle>
-               <container localtype="box" id="d9e4">9–10</container>
+               <container altrender="/repositories/5/top_containers/295659 /locations/9"
+                          containerid="39002063328919"
+                          id="aspace_s6_c1"
+                          label="Mixed Materials"
+                          localtype="box">9</container>
+               <container altrender="/repositories/5/top_containers/295660 /locations/9"
+                          containerid="39002063328927"
+                          id="aspace_s6_c2"
+                          label="Mixed Materials"
+                          localtype="box">10</container>
             </did>
          </c>
          <c altrender="/repositories/5/archival_objects/2448332"
@@ -908,7 +990,16 @@
                   level="file">
                   <did>
                      <unittitle>Gran Fury Graphics</unittitle>
-                     <container localtype="box" id="d10e4">12–13</container>
+                     <container altrender="/repositories/5/top_containers/295662 /locations/9"
+                                containerid="39002063328943"
+                                id="aspace_s16b12-13.d0e1591_c1"
+                                label="Mixed Materials"
+                                localtype="box">12</container>
+                     <container altrender="/repositories/5/top_containers/295677 /locations/9"
+                                containerid="39002063328950"
+                                id="aspace_s16b12-13.d0e1591_c2"
+                                label="Mixed Materials"
+                                localtype="box">13</container>
                   </did>
                </c>
                <c altrender="/repositories/5/archival_objects/2448468"
@@ -941,7 +1032,16 @@
                level="file">
                <did>
                   <unittitle>Bahaus</unittitle>
-                  <container localtype="box" id="d11e4">13–14</container>
+                  <container altrender="/repositories/5/top_containers/295677 /locations/9"
+                             containerid="39002063328950"
+                             id="aspace_s16b13-14.d0e1657_c1"
+                             label="Mixed Materials"
+                             localtype="box">13</container>
+                  <container altrender="/repositories/5/top_containers/295678 /locations/9"
+                             containerid="39002063328968"
+                             id="aspace_s16b13-14.d0e1657_c2"
+                             label="Mixed Materials"
+                             localtype="box">14</container>
                </did>
             </c>
             <c altrender="/repositories/5/archival_objects/2448415"
@@ -973,7 +1073,16 @@
                level="file">
                <did>
                   <unittitle>Dada</unittitle>
-                  <container localtype="box" id="d12e4">14–15</container>
+                  <container altrender="/repositories/5/top_containers/295678 /locations/9"
+                             containerid="39002063328968"
+                             id="aspace_s16b14-15.d0e1723_c1"
+                             label="Mixed Materials"
+                             localtype="box">14</container>
+                  <container altrender="/repositories/5/top_containers/295679 /locations/9"
+                             containerid="39002063328976"
+                             id="aspace_s16b14-15.d0e1723_c2"
+                             label="Mixed Materials"
+                             localtype="box">15</container>
                </did>
                <c altrender="/repositories/5/archival_objects/2448469"
                   id="aspace_s16b15.d0e1745"
@@ -1281,7 +1390,16 @@
                level="file">
                <did>
                   <unittitle>Insects</unittitle>
-                  <container localtype="box" id="d13e4">18–19</container>
+                  <container altrender="/repositories/5/top_containers/295663 /locations/9"
+                             containerid="39002063329008"
+                             id="aspace_s17b18-19.d0e2295_c1"
+                             label="Mixed Materials"
+                             localtype="box">18</container>
+                  <container altrender="/repositories/5/top_containers/295682 /locations/9"
+                             containerid="39002063329016"
+                             id="aspace_s17b18-19.d0e2295_c2"
+                             label="Mixed Materials"
+                             localtype="box">19</container>
                </did>
             </c>
             <c altrender="/repositories/5/archival_objects/2448438"
@@ -1373,7 +1491,16 @@
                level="file">
                <did>
                   <unittitle>Alberti</unittitle>
-                  <container localtype="box" id="d14e4">20–21</container>
+                  <container altrender="/repositories/5/top_containers/295664 /locations/9"
+                             containerid="39002063329024"
+                             id="aspace_s18b20-21.d0e2471_c1"
+                             label="Mixed Materials"
+                             localtype="box">20</container>
+                  <container altrender="/repositories/5/top_containers/295665 /locations/9"
+                             containerid="39002063329032"
+                             id="aspace_s18b20-21.d0e2471_c2"
+                             label="Mixed Materials"
+                             localtype="box">21</container>
                </did>
             </c>
             <c altrender="/repositories/5/archival_objects/2448443"
@@ -1537,7 +1664,16 @@
                level="file">
                <did>
                   <unittitle>A-B</unittitle>
-                  <container localtype="box" id="d15e4">22–23</container>
+                  <container altrender="/repositories/5/top_containers/295666 /locations/9"
+                             containerid="39002063329040"
+                             id="aspace_s28b22-23.d0e2779_c1"
+                             label="Mixed Materials"
+                             localtype="box">22</container>
+                  <container altrender="/repositories/5/top_containers/295683 /locations/9"
+                             containerid="39002063329057"
+                             id="aspace_s28b22-23.d0e2779_c2"
+                             label="Mixed Materials"
+                             localtype="box">23</container>
                </did>
                <c altrender="/repositories/5/archival_objects/2448476"
                   id="aspace_s28b23.d0e2801"
@@ -1881,7 +2017,26 @@
                level="file">
                <did>
                   <unittitle>Lands</unittitle>
-                  <container localtype="box" id="d16e8">28–31</container>
+                  <container altrender="/repositories/5/top_containers/295670 /locations/9"
+                             containerid="39002063329107"
+                             id="aspace_s35b28-31.d0e3417_c1"
+                             label="Mixed Materials"
+                             localtype="box">28</container>
+                  <container altrender="/repositories/5/top_containers/295685 /locations/9"
+                             containerid="39002063329115"
+                             id="aspace_s35b28-31.d0e3417_c2"
+                             label="Mixed Materials"
+                             localtype="box">29</container>
+                  <container altrender="/repositories/5/top_containers/295686 /locations/9"
+                             containerid="39002063329123"
+                             id="aspace_s35b28-31.d0e3417_c3"
+                             label="Mixed Materials"
+                             localtype="box">30</container>
+                  <container altrender="/repositories/5/top_containers/295687 /locations/9"
+                             containerid="39002063329131"
+                             id="aspace_s35b28-31.d0e3417_c4"
+                             label="Mixed Materials"
+                             localtype="box">31</container>
                </did>
                <c altrender="/repositories/5/archival_objects/2448482"
                   id="aspace_s35b29.d0e3439"
@@ -2093,7 +2248,16 @@
                level="file">
                <did>
                   <unittitle>Water</unittitle>
-                  <container localtype="box" id="d17e4">31–32</container>
+                  <container altrender="/repositories/5/top_containers/295687 /locations/9"
+                             containerid="39002063329131"
+                             id="aspace_s35b31-32.d0e3813_c1"
+                             label="Mixed Materials"
+                             localtype="box">31</container>
+                  <container altrender="/repositories/5/top_containers/295671 /locations/9"
+                             containerid="39002063329149"
+                             id="aspace_s35b31-32.d0e3813_c2"
+                             label="Mixed Materials"
+                             localtype="box">32</container>
                </did>
                <c altrender="/repositories/5/archival_objects/2448499"
                   id="aspace_s35b32.d0e3835"
@@ -2150,7 +2314,16 @@
             level="series">
             <did>
                <unittitle>"Gumbo Mud"</unittitle>
-               <container localtype="box" id="d18e4">32–33</container>
+               <container altrender="/repositories/5/top_containers/295671 /locations/9"
+                          containerid="39002063329149"
+                          id="aspace_s36_c1"
+                          label="Mixed Materials"
+                          localtype="box">32</container>
+               <container altrender="/repositories/5/top_containers/295672 /locations/9"
+                          containerid="39002063329156"
+                          id="aspace_s36_c2"
+                          label="Mixed Materials"
+                          localtype="box">33</container>
             </did>
             <c altrender="/repositories/5/archival_objects/2448464"
                id="aspace_s36b33.d0e3945"
