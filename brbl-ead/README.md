@@ -1666,6 +1666,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.thurd.xml](11864.xml) | beinecke.thurd | GEN MSS 1703 | Thacher Hurd papers | 
  [beinecke.wiborg.xml](11869.xml) | beinecke.wiborg | YCAL MSS 1408 | Mary Hoyt Wiborg papers | 
  [beinecke.mjamesslack.xml](11871.xml) | beinecke.mjamesslack | WA MSS S-4440 | M. James Slack papers | 
+ [beinecke.dickenson.xml](11874.xml) | beinecke.dickenson | JWJ MSS 319 | Vic Dickenson papers | 
  [beinecke.henning.xml](11876.xml) | beinecke.henning | YCAL MSS 1303 | Barbara Henning papers | 
  [beinecke.qualls.xml](11877.xml) | beinecke.qualls | YCAL MSS 364 | Larry Qualls photographs and papers | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
@@ -1794,6 +1795,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.osbornfamilyletters.xml](12980.xml) | beinecke.osbornfamilyletters | OSB MSS 436 | Marie-Louise Osborn Letters to Family | 
  [beinecke.haysbottles.xml](12985.xml) | beinecke.haysbottles | WA Photos 1341 | <title>Empty Bottle Photograms</title> and Related Material | 
  [beinecke.photomigrants.xml](12990.xml) | beinecke.photomigrants | WA Photos Folio 225 | Photographs of Migrant Agricultural Laborers in California | 
+ [beinecke.marblepollock.xml](12993.xml) | beinecke.marblepollock | YCAL MSS 1541 | Anna Marble-Pollock cat collection | 
  [beinecke.felver.xml](13001.xml) | beinecke.felver | WA Photos 1342 | Chris Felver photographs | 
  [ead.beinecke.detroitcardoza.xml](13014.xml) | ead.beinecke.detroitcardoza | WA Photos 1344 | Photochroms of Sites in the United States and Mexico | 
  [beinecke.rbleighton.xml](13041.xml) | beinecke.rbleighton | WA MSS S-4538 | Robert Henry Leighton Letters to the Leighton Family | 
