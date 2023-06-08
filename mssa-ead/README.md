@@ -964,7 +964,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0279.xml](2881.xml) | mssa.ru.0279 | RU 279 | Vice president for finance and administration, Yale University, records | 
  [mssa.ru.0460.xml](2882.xml) | mssa.ru.0460 | RU 460 | Yale School of Music records of the dean | 
  [mssa.ru.0686.xml](2883.xml) | mssa.ru.0686 | RU 686 | Office of Public Affairs, Yale University, photographs of individuals | 
- [mssa.ru.0161.xml](2884.xml) | mssa.ru.0161 | RU 161 | Ezra Stiles College, Yale University, student records for the Classes of 1963-2001 maintained by the dean | 
+ [mssa.ru.0161.xml](2884.xml) | mssa.ru.0161 | RU 161 | Ezra Stiles College, Yale University, student records for the Classes of 1963-2003 maintained by the dean | 
  [mssa.ru.0218.xml](2886.xml) | mssa.ru.0218 | RU 218 | Department of Germanic Languages, Yale University, records | 
  [mssa.ru.0690.xml](2887.xml) | mssa.ru.0690 | RU 690 | Yale events and activities photographs | 
  [mssa.ru.0957.xml](2889.xml) | mssa.ru.0957 | RU 957 | Afro-American Cultural Center at Yale records | 
@@ -2930,4 +2930,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2129.xml](12804.xml) | mssa.ms.2129 | MS 2129 | Alan Trachtenberg Papers | 
  [mssa.ms.2094.xml](12819.xml) | mssa.ms.2094 | MS 2094 | Henry Dutton family papers | 
  [mssa.ms.2135.xml](12861.xml) | mssa.ms.2135 | MS.2135 | D. Allan Bromley Papers | 
+ [13145.xml](13145.xml) |  | RU 1185 | "Yale Paleoecology and Seafloor Research" memoir by Donald C. Rhoads | 
 
