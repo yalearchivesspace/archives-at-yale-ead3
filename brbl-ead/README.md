@@ -1367,7 +1367,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.prescottsherman.xml](5471.xml) | beinecke.prescottsherman | GEN MSS 1792 | Prescott & Sherman Records | 
  [beinecke.tully.xml](5474.xml) | beinecke.tully | GEN MSS 1403 | William Tully Papers | 
  [beinecke.howeh.xml](5476.xml) | beinecke.howeh | GEN MSS 1365 | Hezekiah Howe Papers | 
- [beinecke.livingtheatre.xml](5485.xml) | beinecke.livingtheatre | YCAL MSS 1038 | Living Theatre Records | 
+ [beinecke.livingtheatre.xml](5485.xml) | beinecke.livingtheatre | YCAL MSS 1038 | Living Theatre records | 
  [beinecke.berssenbrugge.xml](5486.xml) | beinecke.berssenbrugge | YCAL MSS 1082 | Mei-mei Berssenbrugge papers | 
  [beinecke.lintoncook.xml](5488.xml) | beinecke.lintoncook | GEN MSS 1406 | Grace Linton Cook Papers about W. J. Linton | 
  [beinecke.gluck.xml](5489.xml) | beinecke.gluck | YCAL MSS 946 | Louise Glück papers | 
