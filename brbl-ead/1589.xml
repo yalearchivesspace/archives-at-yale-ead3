@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,7 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/beinecke.clapp">beinecke.clapp</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/beinecke.clapp">beinecke.clapp</recordid>
       <otherrecordid localtype="BIB">3752601</otherrecordid>
       <filedesc>
          <titlestmt>
@@ -22,6 +23,7 @@
             <address>
                <addressline>P. O. Box 208330</addressline>
                <addressline>New Haven, CT 06520-8330</addressline>
+               <addressline localtype="telephone">(203) 432-2977 </addressline>
                <addressline localtype="email">beinecke.library@yale.edu</addressline>
                <addressline>
                   <ref href="http://beinecke.library.yale.edu/"
@@ -41,6 +43,9 @@
             </controlnote>
             <controlnote localtype="onsite">
                <p>Boxes: 131-133</p>
+            </controlnote>
+            <controlnote localtype="digital">
+               <p>This collection contains <num localtype="objects" altrender="20">20</num> published digital objects. And those objects are comprised of <num localtype="files" altrender="504">504</num> digital files.</p>
             </controlnote>
          </notestmt>
       </filedesc>
@@ -70,10 +75,10 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2022-04-21T03:02:31+00:00</eventdatetime>
+            <eventdatetime>2023-06-16T03:01:59+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday April 21, 2022 at 03:02</eventdescription>
+            <agent>ArchivesSpace yale-rebased-v3.3.1</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Friday June 16, 2023 at 03:01</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -108,7 +113,7 @@
          </unitdatestructured>
          <abstract id="aspace_caa9acb648009302dce9c12acbd01864">The Frederick Mortimer Clapp Papers consists of personal and professional correspondence, writings, research material, lecture notes, subject files, diaries, and other papers documenting Clapp's activities as an art historian, educator, and poet as well as his personal and professional relationships. Writings include drafts and proofs for Clapp's various collections of verse and other works such as A History of the 17th Aero Squadron (1920) and The Frick Collection : Paintings : Summary Catalogue (1935). Amongst the extensive lecture notes and research material on various topics are some notes relating to Clapp's research on Pontormo and his work with The Frick Collection. Also found in the collection are the personal and family papers of Clapp's wife, Maud Ede Clapp, which consist of correspondence, diaries, writings and artwork.</abstract>
          <origination label="Creator">
-            <persname identifier="http://id.loc.gov/authorities/names/n87106042" source="naf">
+            <persname>
                <part localtype="agent_person">Clapp, Frederick Mortimer, 1879-1969</part>
             </persname>
          </origination>
@@ -209,7 +214,7 @@
          <occupation source="local">
             <part localtype="occupation">Teachers</part>
          </occupation>
-         <persname identifier="http://id.loc.gov/authorities/names/n87106042" source="naf">
+         <persname>
             <part localtype="agent_person">Clapp, Frederick Mortimer, 1879-1969</part>
          </persname>
          <persname source="local">
@@ -218,15 +223,13 @@
          <famname source="local">
             <part localtype="agent_family">Ede family</part>
          </famname>
-         <persname identifier="http://id.loc.gov/authorities/names/n85800632" source="naf">
+         <persname>
             <part localtype="agent_person">Pontormo, Jacopo da, 1494-1556</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n80044956" source="naf">
+         <corpname>
             <part localtype="agent_corporate_entity">Frick Collection</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/no2011041604"
-                   rules="aacr"
-                   source="naf">
+         <corpname rules="aacr">
             <part localtype="agent_corporate_entity">United States. Army. Air Service. Aero Squadron, 17th</part>
          </corpname>
       </controlaccess>
@@ -526,6 +529,35 @@
                              id="aspace_ref29_c1"
                              label="Mixed Materials"
                              localtype="box">1</container>
+                  <daoset altrender="/repositories/11/digital_objects/223203">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/17207994"
+                          identifier="oid:17207994"
+                          linktitle="114 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/17207998/full/!150,150/0/default.jpg"
+                          identifier="oid:17207994"
+                          linktitle="114 images"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/17207994"
+                          identifier="oid:17207994"
+                          linktitle="114 images"
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Berenson, Bernard and Mary</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/11/archival_objects/622654"
@@ -1862,6 +1894,35 @@
                              id="aspace_ref127_c1"
                              label="Mixed Materials"
                              localtype="box">20</container>
+                  <daoset altrender="/repositories/11/digital_objects/223195">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/17435956"
+                          identifier="oid:17435956"
+                          linktitle="51 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/17435957/full/!150,150/0/default.jpg"
+                          identifier="oid:17435956"
+                          linktitle="51 images"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/17435956"
+                          identifier="oid:17435956"
+                          linktitle="51 images"
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Ede, H. S. to Maud Ede Clapp and F. M. Clapp</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/11/archival_objects/622727"
@@ -1880,6 +1941,35 @@
                              id="aspace_ref129_c1"
                              label="Mixed Materials"
                              localtype="box">20</container>
+                  <daoset altrender="/repositories/11/digital_objects/223194">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/17207995"
+                          identifier="oid:17207995"
+                          linktitle="43 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/17208112/full/!150,150/0/default.jpg"
+                          identifier="oid:17207995"
+                          linktitle="43 images"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/17207995"
+                          identifier="oid:17207995"
+                          linktitle="43 images"
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Ede, Stanley and "Stig"</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/11/archival_objects/622728"
@@ -2220,6 +2310,35 @@
                              id="aspace_ref151_c1"
                              label="Mixed Materials"
                              localtype="box">22</container>
+                  <daoset altrender="/repositories/11/digital_objects/223200">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/16593895"
+                          identifier="oid:16593895"
+                          linktitle="1 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/16593905/full/!150,150/0/default.jpg"
+                          identifier="oid:16593895"
+                          linktitle="1 images"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/16593895"
+                          identifier="oid:16593895"
+                          linktitle="1 images"
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Frick, Helen Clay</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/11/archival_objects/622747"
@@ -3746,6 +3865,35 @@
                              id="aspace_ref256_c1"
                              label="Mixed Materials"
                              localtype="box">29</container>
+                  <daoset altrender="/repositories/11/digital_objects/223208">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/16593896"
+                          identifier="oid:16593896"
+                          linktitle="12 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/16593906/full/!150,150/0/default.jpg"
+                          identifier="oid:16593896"
+                          linktitle="12 images"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/16593896"
+                          identifier="oid:16593896"
+                          linktitle="12 images"
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>"Pittsburgh"</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/11/archival_objects/622833"
@@ -4141,6 +4289,35 @@
                              id="aspace_ref283_c1"
                              label="Mixed Materials"
                              localtype="box">31</container>
+                  <daoset altrender="/repositories/11/digital_objects/223206">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/16593897"
+                          identifier="oid:16593897"
+                          linktitle="2 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/16593918/full/!150,150/0/default.jpg"
+                          identifier="oid:16593897"
+                          linktitle="p. [1]"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/16593897"
+                          identifier="oid:16593897"
+                          linktitle="p. [1]"
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Sachs, Paul</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/11/archival_objects/622855"
@@ -6659,6 +6836,35 @@
                              id="aspace_ref478_c1"
                              label="Mixed Materials"
                              localtype="box">54</container>
+                  <daoset altrender="/repositories/11/digital_objects/223199">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/16593898"
+                          identifier="oid:16593898"
+                          linktitle="1 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/16593920/full/!150,150/0/default.jpg"
+                          identifier="oid:16593898"
+                          linktitle="1 images"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/16593898"
+                          identifier="oid:16593898"
+                          linktitle="1 images"
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Frick, Helen C.</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/11/archival_objects/622993"
@@ -8375,6 +8581,35 @@
                                 id="aspace_ref618_c1"
                                 label="Mixed Materials"
                                 localtype="box">69</container>
+                     <daoset altrender="/repositories/11/digital_objects/223205">
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/manifests/2055470"
+                             identifier="oid:2055470"
+                             linktitle="2 images"
+                             linkrole="text-json"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/iiif/2/1238173/full/!150,150/0/default.jpg"
+                             identifier="oid:2055470"
+                             linktitle="p. [1]"
+                             linkrole="image-thumbnail"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/catalog/2055470"
+                             identifier="oid:2055470"
+                             linktitle="p. [1]"
+                             linkrole="text-html"
+                             show="new"/>
+                        <descriptivenote>
+                           <p>"How to Make the Frick More Open to Public," holograph and typescript notes and research</p>
+                        </descriptivenote>
+                     </daoset>
                   </did>
                </c>
                <c altrender="/repositories/11/archival_objects/623083"
@@ -9773,6 +10008,35 @@
                                 id="aspace_ref754_c1"
                                 label="Mixed Materials"
                                 localtype="box">102</container>
+                     <daoset altrender="/repositories/11/digital_objects/223201">
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/manifests/16593899"
+                             identifier="oid:16593899"
+                             linktitle="7 images"
+                             linkrole="text-json"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/iiif/2/16593921/full/!150,150/0/default.jpg"
+                             identifier="oid:16593899"
+                             linktitle="[Front cover]"
+                             linkrole="image-thumbnail"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/catalog/16593899"
+                             identifier="oid:16593899"
+                             linktitle="[Front cover]"
+                             linkrole="text-html"
+                             show="new"/>
+                        <descriptivenote>
+                           <p>British Isles vacation diary</p>
+                        </descriptivenote>
+                     </daoset>
                   </did>
                </c>
                <c altrender="/repositories/11/archival_objects/623171"
@@ -10262,6 +10526,35 @@
                                 id="aspace_ref794_c1"
                                 label="Mixed Materials"
                                 localtype="box">108</container>
+                     <daoset altrender="/repositories/11/digital_objects/223197">
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/manifests/16593900"
+                             identifier="oid:16593900"
+                             linktitle="3 images"
+                             linkrole="text-json"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/iiif/2/16593928/full/!150,150/0/default.jpg"
+                             identifier="oid:16593900"
+                             linktitle="p. 4"
+                             linkrole="image-thumbnail"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/catalog/16593900"
+                             identifier="oid:16593900"
+                             linktitle="p. 4"
+                             linkrole="text-html"
+                             show="new"/>
+                        <descriptivenote>
+                           <p>Passports and other documents</p>
+                        </descriptivenote>
+                     </daoset>
                   </did>
                </c>
                <c altrender="/repositories/11/archival_objects/623202"
@@ -10766,6 +11059,35 @@
                                 id="aspace_ref834_c1"
                                 label="Mixed Materials"
                                 localtype="box">114</container>
+                     <daoset altrender="/repositories/11/digital_objects/223196">
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/manifests/16593901"
+                             identifier="oid:16593901"
+                             linktitle="2 images"
+                             linkrole="text-json"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/iiif/2/16593931/full/!150,150/0/default.jpg"
+                             identifier="oid:16593901"
+                             linktitle="recto"
+                             linkrole="image-thumbnail"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/catalog/16593901"
+                             identifier="oid:16593901"
+                             linktitle="recto"
+                             linkrole="text-html"
+                             show="new"/>
+                        <descriptivenote>
+                           <p>Frederick Mortimer Clapp as a child</p>
+                        </descriptivenote>
+                     </daoset>
                   </did>
                </c>
                <c altrender="/repositories/11/archival_objects/623237"
@@ -10782,6 +11104,35 @@
                                 id="aspace_ref835_c1"
                                 label="Mixed Materials"
                                 localtype="box">114</container>
+                     <daoset altrender="/repositories/11/digital_objects/223209">
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/manifests/2055448"
+                             identifier="oid:2055448"
+                             linktitle="3 images"
+                             linkrole="text-json"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/iiif/2/1238166/full/!150,150/0/default.jpg"
+                             identifier="oid:2055448"
+                             linktitle="recto"
+                             linkrole="image-thumbnail"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/catalog/2055448"
+                             identifier="oid:2055448"
+                             linktitle="recto"
+                             linkrole="text-html"
+                             show="new"/>
+                        <descriptivenote>
+                           <p>Portraits of Frederick Mortimer Clapp</p>
+                        </descriptivenote>
+                     </daoset>
                   </did>
                   <scopecontent id="aspace_5fcefeb64dbff2d2b164d3d53053e84a">
                      <head>Scope and Contents</head>
@@ -10827,6 +11178,35 @@
                                 id="aspace_ref839_c1"
                                 label="Mixed Materials"
                                 localtype="box">114</container>
+                     <daoset altrender="/repositories/11/digital_objects/223211">
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/manifests/2055454"
+                             identifier="oid:2055454"
+                             linktitle="2 images"
+                             linkrole="text-json"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/iiif/2/1238167/full/!150,150/0/default.jpg"
+                             identifier="oid:2055454"
+                             linktitle="recto"
+                             linkrole="image-thumbnail"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/catalog/2055454"
+                             identifier="oid:2055454"
+                             linktitle="recto"
+                             linkrole="text-html"
+                             show="new"/>
+                        <descriptivenote>
+                           <p>Print and Negative of Portrait of Frederick Mortimer Clapp by Maud Clapp</p>
+                        </descriptivenote>
+                     </daoset>
                   </did>
                </c>
                <c altrender="/repositories/11/archival_objects/623241"
@@ -10842,6 +11222,35 @@
                                 id="aspace_ref841_c1"
                                 label="Mixed Materials"
                                 localtype="box">114</container>
+                     <daoset altrender="/repositories/11/digital_objects/223202">
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/manifests/2055437"
+                             identifier="oid:2055437"
+                             linktitle="2 images"
+                             linkrole="text-json"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/iiif/2/1238163/full/!150,150/0/default.jpg"
+                             identifier="oid:2055437"
+                             linktitle="recto"
+                             linkrole="image-thumbnail"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/catalog/2055437"
+                             identifier="oid:2055437"
+                             linktitle="recto"
+                             linkrole="text-html"
+                             show="new"/>
+                        <descriptivenote>
+                           <p>Frederick Mortimer Clapp and Carl Parker</p>
+                        </descriptivenote>
+                     </daoset>
                   </did>
                </c>
                <c altrender="/repositories/11/archival_objects/623242"
@@ -10857,6 +11266,35 @@
                                 id="aspace_ref842_c1"
                                 label="Mixed Materials"
                                 localtype="box">114</container>
+                     <daoset altrender="/repositories/11/digital_objects/223193">
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/manifests/16593903"
+                             identifier="oid:16593903"
+                             linktitle="2 images"
+                             linkrole="text-json"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/iiif/2/16593935/full/!150,150/0/default.jpg"
+                             identifier="oid:16593903"
+                             linktitle="recto"
+                             linkrole="image-thumbnail"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/catalog/16593903"
+                             identifier="oid:16593903"
+                             linktitle="recto"
+                             linkrole="text-html"
+                             show="new"/>
+                        <descriptivenote>
+                           <p>Maud, Chancellor and FMC at Carnegie Pitt football game</p>
+                        </descriptivenote>
+                     </daoset>
                   </did>
                </c>
                <c altrender="/repositories/11/archival_objects/623243"
@@ -10893,6 +11331,35 @@
                                 id="aspace_ref845_c1"
                                 label="Mixed Materials"
                                 localtype="box">115</container>
+                     <daoset altrender="/repositories/11/digital_objects/223207">
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/manifests/2055469"
+                             identifier="oid:2055469"
+                             linktitle="2 images"
+                             linkrole="text-json"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/iiif/2/1238171/full/!150,150/0/default.jpg"
+                             identifier="oid:2055469"
+                             linktitle="recto"
+                             linkrole="image-thumbnail"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/catalog/2055469"
+                             identifier="oid:2055469"
+                             linktitle="recto"
+                             linkrole="text-html"
+                             show="new"/>
+                        <descriptivenote>
+                           <p>"Photos taken in Venice after 1st world war with some of Tim and Maud and of Constance Fletcher and H.D."</p>
+                        </descriptivenote>
+                     </daoset>
                   </did>
                </c>
                <c altrender="/repositories/11/archival_objects/623246"
@@ -10905,6 +11372,35 @@
                                 id="aspace_ref846_c1"
                                 label="Mixed Materials"
                                 localtype="box">115</container>
+                     <daoset altrender="/repositories/11/digital_objects/223198">
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/manifests/2055374"
+                             identifier="oid:2055374"
+                             linktitle="4 images"
+                             linkrole="text-json"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/iiif/2/1238159/full/!150,150/0/default.jpg"
+                             identifier="oid:2055374"
+                             linktitle="recto"
+                             linkrole="image-thumbnail"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/catalog/2055374"
+                             identifier="oid:2055374"
+                             linktitle="recto"
+                             linkrole="text-html"
+                             show="new"/>
+                        <descriptivenote>
+                           <p>"Various photos - some nice ones of us at Morristown"</p>
+                        </descriptivenote>
+                     </daoset>
                   </did>
                </c>
                <c altrender="/repositories/11/archival_objects/623247"
@@ -11306,6 +11802,35 @@
                                 id="aspace_ref885_c1"
                                 label="Mixed Materials"
                                 localtype="box">121</container>
+                     <daoset altrender="/repositories/11/digital_objects/223192">
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/manifests/16593904"
+                             identifier="oid:16593904"
+                             linktitle="2 images"
+                             linkrole="text-json"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/iiif/2/16593937/full/!150,150/0/default.jpg"
+                             identifier="oid:16593904"
+                             linktitle="recto"
+                             linkrole="image-thumbnail"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/catalog/16593904"
+                             identifier="oid:16593904"
+                             linktitle="recto"
+                             linkrole="text-html"
+                             show="new"/>
+                        <descriptivenote>
+                           <p>Diaries, 1929-1930 1929-1930</p>
+                        </descriptivenote>
+                     </daoset>
                   </did>
                </c>
                <c altrender="/repositories/11/archival_objects/623277"
@@ -11609,6 +12134,35 @@
                                    id="aspace_ref916_c1"
                                    label="Mixed Materials"
                                    localtype="box">126</container>
+                        <daoset altrender="/repositories/11/digital_objects/223210">
+                           <dao actuate="onrequest"
+                                audience="external"
+                                daotype="unknown"
+                                href="https://collections.library.yale.edu/manifests/17207996"
+                                identifier="oid:17207996"
+                                linktitle="144 images"
+                                linkrole="text-json"
+                                show="embed"/>
+                           <dao actuate="onrequest"
+                                audience="external"
+                                daotype="unknown"
+                                href="https://collections.library.yale.edu/iiif/2/17208155/full/!150,150/0/default.jpg"
+                                identifier="oid:17207996"
+                                linktitle="144 images"
+                                linkrole="image-thumbnail"
+                                show="embed"/>
+                           <dao actuate="onrequest"
+                                audience="external"
+                                daotype="unknown"
+                                href="https://collections.library.yale.edu/catalog/17207996"
+                                identifier="oid:17207996"
+                                linktitle="144 images"
+                                linkrole="text-html"
+                                show="new"/>
+                           <descriptivenote>
+                              <p>Diaries</p>
+                           </descriptivenote>
+                        </daoset>
                      </did>
                   </c>
                   <c altrender="/repositories/11/archival_objects/623300"
@@ -11624,6 +12178,35 @@
                                    id="aspace_ref918_c1"
                                    label="Mixed Materials"
                                    localtype="box">127</container>
+                        <daoset altrender="/repositories/11/digital_objects/223204">
+                           <dao actuate="onrequest"
+                                audience="external"
+                                daotype="unknown"
+                                href="https://collections.library.yale.edu/manifests/17207997"
+                                identifier="oid:17207997"
+                                linktitle="105 images"
+                                linkrole="text-json"
+                                show="embed"/>
+                           <dao actuate="onrequest"
+                                audience="external"
+                                daotype="unknown"
+                                href="https://collections.library.yale.edu/iiif/2/17208299/full/!150,150/0/default.jpg"
+                                identifier="oid:17207997"
+                                linktitle="105 images"
+                                linkrole="image-thumbnail"
+                                show="embed"/>
+                           <dao actuate="onrequest"
+                                audience="external"
+                                daotype="unknown"
+                                href="https://collections.library.yale.edu/catalog/17207997"
+                                identifier="oid:17207997"
+                                linktitle="105 images"
+                                linkrole="text-html"
+                                show="new"/>
+                           <descriptivenote>
+                              <p>Diaries</p>
+                           </descriptivenote>
+                        </daoset>
                      </did>
                   </c>
                   <c altrender="/repositories/11/archival_objects/623301"
