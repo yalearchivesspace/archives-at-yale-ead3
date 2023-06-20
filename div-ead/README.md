@@ -200,7 +200,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.039.xml](246.xml) | divinity.039 | RG 39 | Horace Bushnell Papers | 
  [divinity.004.xml](247.xml) | divinity.004 | RG 4 | Hartwell Family Papers | 
  [divinity.040.xml](248.xml) | divinity.040 | RG 40 | Henry Burt Wright Papers | 
- [divinity.041.xml](249.xml) | divinity.041 | RG 41 | Yale Divinity School STM Theses | 
+ [divinity.041.xml](249.xml) | divinity.041 | RG 41 | Yale Divinity School Theses | 
  [divinity.042.xml](250.xml) | divinity.042 | RG 42 | Student Volunteer Movement for Foreign Missions Records | 
  [divinity.042a.xml](251.xml) | divinity.042a | RG 42a | Student Volunteer Movement for Foreign Missions Records - Addendum A | 
  [divinity.043.xml](252.xml) | divinity.043 | RG 43 | Theological Discussion Group Papers | 
