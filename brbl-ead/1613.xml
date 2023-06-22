@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,7 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/beinecke.botsford">beinecke.botsford</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/beinecke.botsford">beinecke.botsford</recordid>
       <otherrecordid localtype="BIB">3750435</otherrecordid>
       <filedesc>
          <titlestmt>
@@ -22,6 +23,7 @@
             <address>
                <addressline>P. O. Box 208330</addressline>
                <addressline>New Haven, CT 06520-8330</addressline>
+               <addressline localtype="telephone">(203) 432-2977 </addressline>
                <addressline localtype="email">beinecke.library@yale.edu</addressline>
                <addressline>
                   <ref href="http://beinecke.library.yale.edu/"
@@ -38,6 +40,9 @@
             </controlnote>
             <controlnote localtype="offsite">
                <p>Boxes: 1-137</p>
+            </controlnote>
+            <controlnote localtype="digital">
+               <p>This collection contains <num localtype="objects" altrender="4">4</num> published digital objects. And those objects are comprised of <num localtype="files" altrender="528">528</num> digital files.</p>
             </controlnote>
          </notestmt>
       </filedesc>
@@ -70,10 +75,10 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2022-04-08T03:02:25+00:00</eventdatetime>
+            <eventdatetime>2023-06-22T04:20:21+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.7.1.yale.20211019</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Friday April  8, 2022 at 03:02</eventdescription>
+            <agent>ArchivesSpace yale-rebased-v3.3.1</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday June 22, 2023 at 04:20</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -102,9 +107,7 @@
          </unitdatestructured>
          <abstract id="aspace_531988e58ede79757222eb1bde7bf756">The Papers consist of correspondence, writings, and other papers that document the life and work of Keith Botsford from the beginning of his career to 1969. Correspondence is both professional and personal, and documents Botsford's writing and editing activity, as well as his involvement in International PEN and the Congress for Cultural Freedom. Writings include corrected typescript and autograph manuscript drafts, proofs and other related material, dating from 1940 to 1967.</abstract>
          <origination label="Creator">
-            <persname identifier="http://id.loc.gov/authorities/names/n82017600"
-                      rules="aacr"
-                      source="naf">
+            <persname rules="aacr">
                <part localtype="agent_person">Botsford, Keith, 1928-2018</part>
             </persname>
          </origination>
@@ -170,10 +173,10 @@
                   source="lcsh">
             <part localtype="topical">Translators</part>
          </subject>
-         <subject identifier="http://id.loc.gov/authorities/subjects/sh85009793"
-                  source="lcsh">
-            <part localtype="topical">Authors</part>
-         </subject>
+         <occupation identifier="http://id.loc.gov/authorities/subjects/sh85009793"
+                     source="lcsh">
+            <part localtype="occupation">Authors</part>
+         </occupation>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85040976"
                   source="lcsh">
             <part localtype="topical">Editors</part>
@@ -186,15 +189,13 @@
                   source="lcsh">
             <part localtype="topical">Translators</part>
          </subject>
-         <persname identifier="http://id.loc.gov/authorities/names/n82017600"
-                   rules="aacr"
-                   source="naf">
+         <persname rules="aacr">
             <part localtype="agent_person">Botsford, Keith, 1928-2018</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n50057660" source="naf">
+         <corpname>
             <part localtype="agent_corporate_entity">Congress for Cultural Freedom</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n50082474" source="naf">
+         <corpname>
             <part localtype="agent_corporate_entity">PEN (Organization)</part>
          </corpname>
       </controlaccess>
@@ -1295,6 +1296,27 @@
                                 id="aspace_ref92_c1"
                                 label="Mixed Materials"
                                 localtype="box">5</container>
+                     <daoset altrender="/repositories/11/digital_objects/186187">
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/images/placeholder_restricted.png"
+                             identifier="oid:32308894"
+                             linktitle="200 images"
+                             linkrole="image-thumbnail"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/catalog/32308894"
+                             identifier="oid:32308894"
+                             linktitle="200 images"
+                             linkrole="text-html"
+                             show="new"/>
+                        <descriptivenote>
+                           <p>Congress for Cultural Freedom</p>
+                        </descriptivenote>
+                     </daoset>
                   </did>
                </c>
                <c altrender="/repositories/11/archival_objects/647433"
@@ -2587,6 +2609,27 @@
                                 id="aspace_ref186_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
+                     <daoset altrender="/repositories/11/digital_objects/186189">
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/images/placeholder_restricted.png"
+                             identifier="oid:32309095"
+                             linktitle="157 images"
+                             linkrole="image-thumbnail"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/catalog/32309095"
+                             identifier="oid:32309095"
+                             linktitle="157 images"
+                             linkrole="text-html"
+                             show="new"/>
+                        <descriptivenote>
+                           <p>Josselson, M.</p>
+                        </descriptivenote>
+                     </daoset>
                   </did>
                </c>
                <c altrender="/repositories/11/archival_objects/647508"
@@ -2682,6 +2725,27 @@
                                 id="aspace_ref193_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
+                     <daoset altrender="/repositories/11/digital_objects/186183">
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/images/placeholder_restricted.png"
+                             identifier="oid:32309253"
+                             linktitle="64 images"
+                             linkrole="image-thumbnail"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/catalog/32309253"
+                             identifier="oid:32309253"
+                             linktitle="64 images"
+                             linkrole="text-html"
+                             show="new"/>
+                        <descriptivenote>
+                           <p>Kats, Ivan</p>
+                        </descriptivenote>
+                     </daoset>
                   </did>
                </c>
                <c altrender="/repositories/11/archival_objects/647513"
@@ -2979,6 +3043,27 @@
                                 id="aspace_ref215_c1"
                                 label="Mixed Materials"
                                 localtype="box">10</container>
+                     <daoset altrender="/repositories/11/digital_objects/186188">
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/images/placeholder_restricted.png"
+                             identifier="oid:32309396"
+                             linktitle="107 images"
+                             linkrole="image-thumbnail"
+                             show="embed"/>
+                        <dao actuate="onrequest"
+                             audience="external"
+                             daotype="unknown"
+                             href="https://collections.library.yale.edu/catalog/32309396"
+                             identifier="oid:32309396"
+                             linktitle="107 images"
+                             linkrole="text-html"
+                             show="new"/>
+                        <descriptivenote>
+                           <p>Lowell, Robert and Elizabeth</p>
+                        </descriptivenote>
+                     </daoset>
                   </did>
                </c>
                <c altrender="/repositories/11/archival_objects/647530"
