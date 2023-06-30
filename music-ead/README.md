@@ -139,6 +139,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0104.xml](11368.xml) | music.mss.0104 | MSS 104 | Richard C. Burns archive of Overtone Records, Inc. | 
  [music.mss.0105.xml](11371.xml) | music.mss.0105 | MSS 105 | Arthur and Luce Klein Spoken Arts records | 
  [music.mss.151.xml](11377.xml) | music.mss.151 | MSS 151 | Historical Sound Recordings Collection | 
+ [music.mss.0153.xml](11624.xml) | music.mss.0153 | MSS 153 | American Musical Theater Collection | 
  [music.mss.0156.xml](12164.xml) | music.mss.0156 | MSS 156 | Anthony Braxton Recordings Collection | 
  [music.mss.154.xml](12174.xml) | music.mss.154 | MSS 154 | Fredric R. Mann papers | 
  [music.mss.159.xml](12616.xml) | music.mss.159 | MSS 159 | Ronald Roseman Collection | 
