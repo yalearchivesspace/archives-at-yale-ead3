@@ -343,7 +343,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.318.xml](12120.xml) | divinity.318 | RG 318 | Jeanette Hyland papers | 
  [divinity.321.xml](12171.xml) | divinity.321 | RG 321 | Tract and Graphic Novel Collection | 
  [divinity.315.xml](12173.xml) | divinity.315 | RG 315 | Church Postcard Collection | 
- [divinity.307.xml](12180.xml) | divinity.307 | RG 307 | Andover Association Records | 
  [divinity.320.xml](12192.xml) | divinity.320 | RG 320 | Yale Divinity School Women's Center Records | 
  [divinity.309.xml](12310.xml) | divinity.309 | RG 309 | North Congregational Church (North Middleboro, Mass.) Records | 
  [divinity.312.xml](12334.xml) | divinity.312 | RG 312 | Herluf M. Jensen papers | 
