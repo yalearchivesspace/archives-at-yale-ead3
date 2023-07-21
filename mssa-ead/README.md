@@ -2784,7 +2784,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1134.xml](5252.xml) | mssa.ru.1134 | RU 1134 | Motion picture film documenting men's crew races at the 1956 Summer Olympics | 
  [mssa.ms.2011.xml](5253.xml) | mssa.ms.2011 | MS 2011 | Ramsay MacMullen papers | 
  [mssa.ru.1135.xml](5254.xml) | mssa.ru.1135 | RU 1135 | Russell Trust Association records | 
- [mssa.ru.1136.xml](5255.xml) | mssa.ru.1136 | RU 1136 | Brian Kiss photographs of stained glass in the Sterling Memorial Library Nave, Yale University | 
+ [mssa.ru.1136.xml](5255.xml) | mssa.ru.1136 | RU 1136 | Brian Kiss photographs of stained glass in Sterling Memorial Library, Yale University | 
  [mssa.ru.1129.xml](5256.xml) | mssa.ru.1129 | RU 1129 | Office of the Secretary, Yale University, video footage of the inauguration of Peter Salovey | 
  [mssa.ms.2009.xml](5258.xml) | mssa.ms.2009 | MS 2009 | Walter J. P. Curley papers | 
  [mssa.ru.1138.xml](5259.xml) | mssa.ru.1138 | RU 1138 | Peter Salovey, president of Yale University, inauguration records | 
