@@ -1792,6 +1792,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.marthamcphee.xml](12928.xml) | beinecke.marthamcphee | YCAL MSS 1606 | Martha McPhee papers | 
  [beinecke.columbusfamilycollection.xml](12946.xml) | beinecke.columbusfamilycollection | Beinecke MS 431 | Christopher Columbus family collection | 
  [beinecke.pacificstudios.xml](12961.xml) | beinecke.pacificstudios | WA Photos 1340 | Guide to the Catalog of Photographic Prints of Backdrops for the Motion Picture Industry in California | 
+ [beinecke.rosina.xml](12972.xml) | beinecke.rosina | YCAL MSS 796 | Arnold Rosin papers | 
  [beinecke.osbornfamilyletters.xml](12980.xml) | beinecke.osbornfamilyletters | OSB MSS 436 | Marie-Louise Osborn Letters to Family | 
  [beinecke.haysbottles.xml](12985.xml) | beinecke.haysbottles | WA Photos 1341 | <title>Empty Bottle Photograms</title> and Related Material | 
  [beinecke.photomigrants.xml](12990.xml) | beinecke.photomigrants | WA Photos Folio 225 | Photographs of Migrant Agricultural Laborers in California | 
