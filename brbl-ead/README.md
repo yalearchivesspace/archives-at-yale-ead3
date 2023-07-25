@@ -1639,6 +1639,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.douglass.xml](11807.xml) | beinecke.douglass | JWJ MSS 240 | Walter O. Evans collection of Frederick Douglass and Douglass Family papers | 
  [beinecke.dawson.xml](11810.xml) | beinecke.dawson | GEN MSS 1608 | Tom and Judy Dawson Collection of Playing Card Ephemera | 
  [beinecke.hollinghurst.xml](11812.xml) | beinecke.hollinghurst | OSB MSS 321 | Alan Hollinghurst papers | 
+ [beinecke.feinman.xml](11813.xml) | beinecke.feinman | YCAL MSS 1524 | Alvin Feinman papers | 
  [beinecke.gavin.xml](11819.xml) | beinecke.gavin | GEN MSS 1724 | Father Carney Gavin legacy collection of Holy Land photographs | 
  [beinecke.jdodd.xml](11821.xml) | beinecke.jdodd | YCAL MSS 1411 | Jonathan Dodd collection of Edward Albee, Stephen Sondheim, and Tennessee Williams | 
  [beinecke.everhardy.xml](11823.xml) | beinecke.everhardy | WA MSS S-4148 | Louise Everhardy papers | 
