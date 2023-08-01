@@ -343,7 +343,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0820.xml](2239.xml) | mssa.ru.0820 | RU 820 | Timothy Dwight College, Yale University, records of the master | 
  [mssa.ru.0822.xml](2240.xml) | mssa.ru.0822 | RU 822 | American Studies Program, Yale University, time capsule prepared by the students of the course "Public Memory and Material Culture in America" | 
  [mssa.ru.0823.xml](2241.xml) | mssa.ru.0823 | RU 823 | Kempton D. Baldridge diary documenting his service in the Persian Gulf War | 
- [mssa.ru.0824.xml](2242.xml) | mssa.ru.0824 | RU 824 | International Security Studies, Yale University, annual report | 
+ [mssa.ru.0824.xml](2242.xml) | mssa.ru.0824 | RU 824 | International Security Studies, Yale University, records | 
  [mssa.ru.0825.xml](2243.xml) | mssa.ru.0825 | RU 825 | Timothy Dwight College, Yale University, memorabilia | 
  [mssa.ru.0826.xml](2244.xml) | mssa.ru.0826 | RU 826 | Office of Development and Alumni Affairs, Yale University, "...and for Yale" development campaign printed materials and memorabilia | 
  [mssa.ru.0829.xml](2245.xml) | mssa.ru.0829 | RU 829 | Class of 1917, Yale College, reunion motion pictures | 
