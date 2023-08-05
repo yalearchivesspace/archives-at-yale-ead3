@@ -1640,6 +1640,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.dawson.xml](11810.xml) | beinecke.dawson | GEN MSS 1608 | Tom and Judy Dawson Collection of Playing Card Ephemera | 
  [beinecke.hollinghurst.xml](11812.xml) | beinecke.hollinghurst | OSB MSS 321 | Alan Hollinghurst papers | 
  [beinecke.feinman.xml](11813.xml) | beinecke.feinman | YCAL MSS 1524 | Alvin Feinman papers | 
+ [beinecke.britishpunk.xml](11816.xml) | beinecke.britishpunk | GEN MSS 2084 | British punk archive | 
  [beinecke.gavin.xml](11819.xml) | beinecke.gavin | GEN MSS 1724 | Father Carney Gavin legacy collection of Holy Land photographs | 
  [beinecke.jdodd.xml](11821.xml) | beinecke.jdodd | YCAL MSS 1411 | Jonathan Dodd collection of Edward Albee, Stephen Sondheim, and Tennessee Williams | 
  [beinecke.everhardy.xml](11823.xml) | beinecke.everhardy | WA MSS S-4148 | Louise Everhardy papers | 
@@ -1776,6 +1777,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jppeters.xml](12749.xml) | beinecke.jppeters | GEN MSS 1996 | John P. Peters Collection of Drawings and Plans of an Archeological Excavation at Nippur | 
  [beinecke.ewer.xml](12753.xml) | beinecke.ewer | WA MSS S-3098 | Gary W. Ewer notes for presentation on daguerreotypes by Robert H. Vance | 
  [beinecke.eden2.xml](12759.xml) | beinecke.eden2 | GEN MSS 1892 | Visual Poem Eden II and Related Material | 
+ [beinecke.pirelli.xml](12767.xml) | beinecke.pirelli | GEN MSS 2062 | Pirelli strike fliers and newspapers | 
  [beinecke.internationalimperialcourt.xml](12771.xml) | beinecke.internationalimperialcourt | GEN MSS 1840 | International Imperial Court System collection | 
  [beinecke.harada.xml](12775.xml) | beinecke.harada | WA Photos 1336 | Photographs Related to the United States Military Intelligence Service and Japanese American Soldiers in the Philippines and Japan | 
  [beinecke.aheloiseabel.xml](12780.xml) | beinecke.aheloiseabel | WA MSS S-3943 | Annie Heloise Abel notebooks | 
