@@ -2879,6 +2879,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2091.xml](11229.xml) | mssa.ms.2091 | MS 2091 | Arthur Bostwick Van Buskirk World War I Diaries | 
  [mssa.ms.2092.xml](11232.xml) | mssa.ms.2092 | MS 2092 | John Lewis Gaddis Papers | 
  [mssa.ru.1158.xml](11234.xml) | mssa.ru.1158 | RU 1158 | Yale Egyptological Institute in Egypt, Yale University, records | 
+ [mssa.ms.2087.xml](11241.xml) | mssa.ms.2087 | MS 2087 | Alvin Novick papers | 
  [mssa.ms.2090.xml](11251.xml) | mssa.ms.2090 | MS 2090 | Richard D. Weigle papers | 
  [mssa.ms.2089.xml](11275.xml) | mssa.ms.2089 | MS 2089 | Greenwood Plantation and Greenwood Seed Company records | 
  [mssa.ms.2102.xml](11305.xml) | mssa.ms.2102 | MS 2102 | Ramon Llado correspondence | 
