@@ -1640,6 +1640,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.dawson.xml](11810.xml) | beinecke.dawson | GEN MSS 1608 | Tom and Judy Dawson Collection of Playing Card Ephemera | 
  [beinecke.hollinghurst.xml](11812.xml) | beinecke.hollinghurst | OSB MSS 321 | Alan Hollinghurst papers | 
  [beinecke.feinman.xml](11813.xml) | beinecke.feinman | YCAL MSS 1524 | Alvin Feinman papers | 
+ [beinecke.lobel.xml](11814.xml) | beinecke.lobel | GEN MSS 2054 | Arnold Lobel papers | 
  [beinecke.britishpunk.xml](11816.xml) | beinecke.britishpunk | GEN MSS 2084 | British punk archive | 
  [beinecke.gavin.xml](11819.xml) | beinecke.gavin | GEN MSS 1724 | Father Carney Gavin legacy collection of Holy Land photographs | 
  [beinecke.jdodd.xml](11821.xml) | beinecke.jdodd | YCAL MSS 1411 | Jonathan Dodd collection of Edward Albee, Stephen Sondheim, and Tennessee Williams | 
