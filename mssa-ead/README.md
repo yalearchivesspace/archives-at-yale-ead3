@@ -127,7 +127,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0388.xml](2019.xml) | mssa.ru.0388 | RU 388 | Frederick A. Davis landscape plans for the Yale Record building, Yale University | 
  [mssa.ru.0389.xml](2020.xml) | mssa.ru.0389 | RU 389 | Yale Digital Media Center for the Arts, symposia material | 
  [mssa.ru.0391.xml](2021.xml) | mssa.ru.0391 | RU 391 | Yale College, Class of 1940, records | 
- [mssa.ru.0395.xml](2022.xml) | mssa.ru.0395 | RU 395 | Class of 1861, Yale College, record | 
+ [mssa.ru.0395.xml](2022.xml) | mssa.ru.0395 | RU 395 | Class of 1861, Yale College, records | 
  [mssa.ru.0396.xml](2023.xml) | mssa.ru.0396 | RU 396 | Class of 1902, Sheffield Scientific School, Yale University, records | 
  [mssa.ru.0398.xml](2024.xml) | mssa.ru.0398 | RU 398 | Hillary Rodham Clinton address commemorating the Comer School Development Program, School of Medicine, Yale University | 
  [mssa.ru.0399.xml](2025.xml) | mssa.ru.0399 | RU 399 | School of Art, Yale University, memorabilia | 
