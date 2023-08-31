@@ -78,5 +78,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0072.xml](13030.xml) | med.ms.0072 | Ms Coll 72 | Bert Hansen collection of historical newspaper research | 
  [med.pam.0013.xml](13036.xml) | med.pam.0013 | Pam Coll 13 | Harvey Cushing reprints and pamphlets | 
  [med.ms.0092.xml](13047.xml) | med.ms.0092 | Ms Coll 92 | Dr. Thomas Siveter papers | 
- [13290.xml](13290.xml) |  | Ms Coll 95 | Katharine Ketcham collection | 
+ [med.ms.0095.xml](13290.xml) | med.ms.0095 | Ms Coll 95 | Katharine Ketcham collection | 
 
