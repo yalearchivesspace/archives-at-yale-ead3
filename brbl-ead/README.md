@@ -1656,6 +1656,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.plante.xml](11836.xml) | beinecke.plante | OSB MSS 308 | David Plante papers | 
  [beinecke.shapirod.xml](11837.xml) | beinecke.shapirod | YCAL MSS 1422 | David Shapiro papers | 
  [beinecke.myles.xml](11839.xml) | beinecke.myles | YCAL MSS 1466 | Eileen Myles papers | 
+ [beinecke.tgluck.xml](11842.xml) | beinecke.tgluck | YCAL MSS 1535 | Tereze Glück papers | 
  [beinecke.bland.xml](11843.xml) | beinecke.bland | JWJ MSS 310 | Ed Bland papers | 
  [beinecke.gustafson .xml](11844.xml) | beinecke.gustafson  | GEN MSS 997 | R. Eric Gustafson papers | 
  [beinecke.hollo.xml](11847.xml) | beinecke.hollo | GEN MSS 1701 | Anselm Hollo papers | 
@@ -1664,6 +1665,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.oleary.xml](11856.xml) | beinecke.oleary | GEN MSS 1780 | Jean O'Leary papers | 
  [beinecke.katz.xml](11857.xml) | beinecke.katz | YCAL MSS 1409 | Leon Katz papers | 
  [beinecke.perenyi.xml](11858.xml) | beinecke.perenyi | GEN MSS 1771 | Eleanor Perényi papers | 
+ [beinecke.cheney.xml](11861.xml) | beinecke.cheney | YCAL MSS 1534 | Russell Cheney papers | 
  [beinecke.strub.xml](11862.xml) | beinecke.strub | GEN MSS 1781 | Sean Strub papers | 
  [beinecke.peranio.xml](11863.xml) | beinecke.peranio | YCAL MSS 1346 | Vincent Peranio Papers | 
  [beinecke.thurd.xml](11864.xml) | beinecke.thurd | GEN MSS 1703 | Thacher Hurd papers | 
@@ -1714,6 +1716,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.nortonhall.xml](12049.xml) | beinecke.nortonhall | OSB MSS 226 | Papers relating to Norton Hall, South Yorkshire | 
  [beinecke.emeryhuston.xml](12064.xml) | beinecke.emeryhuston | WA MSS S-4354 | Emery Huston papers relating to the 1920 Pikes Peak Hill Climb | 
  [beinecke.gaust.xml](12066.xml) | beinecke.gaust | OSB MSS 270 | George Aust papers | 
+ [12069.xml](12069.xml) |  | YCAL MSS 1378 | Eugene O'Neil: A Documentary Film | 
+ [12071.xml](12071.xml) |  | YCAL MSS 1379 | Playwrights' Theatre Footage of O'Neill Festival | 
  [beinecke.leephotographs.xml](12075.xml) | beinecke.leephotographs | WA MSS S-4426 | Joseph W. Lee and Nancy L. Kim Lee photographs | 
  [beinecke.photoorderbook.xml](12083.xml) | beinecke.photoorderbook | WA Photos Folio 214 | Photographic order book for images of California, Hawaii, and Yellowstone National Park | 
  [beinecke.westernfilmscenes.xml](12085.xml) | beinecke.westernfilmscenes | WA Photos 1292 | Photographs of scenes from films relating to the American West, Southwest, and Mexico | 
@@ -1785,6 +1789,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.stephensbarge.xml](12782.xml) | beinecke.stephensbarge | YCAL MSS 1124 | Stephen Sbarge Papers | 
  [beinecke.eventrecordings.xml](12787.xml) | beinecke.eventrecordings | GEN MSS 2108 | Beinecke Rare Book and Manuscript Library event recordings | 
  [beinecke.eliasloomisletters.xml](12811.xml) | beinecke.eliasloomisletters | GEN MSS 2110 | Letters to Elias Loomis | 
+ [beinecke.solomon.xml](12813.xml) | beinecke.solomon | YCAL MSS 1603 | Interview of Joseph Solomon by Myron Brody regarding Florine Stetheimer | 
+ [beinecke.horganinterview.xml](12826.xml) | beinecke.horganinterview | YCAL MSS 1604 | Paul Horgan interview | 
  [beinecke.utahphotographs.xml](12836.xml) | beinecke.utahphotographs | WA Photos 359 | Cartes-de-visite photographs of individuals in Salt Lake City, Utah. | 
  [beinecke.cbhausten.xml](12864.xml) | beinecke.cbhausten | GEN MSS 413 | Charles Beecher Hogan papers relating to Jane Austen | 
  [beinecke.marymuranishialbums.xml](12876.xml) | beinecke.marymuranishialbums | WA Photos 1337 | Mary Shizuko Mitsueda Muranishi photograph albums related to Japanese American life | 
