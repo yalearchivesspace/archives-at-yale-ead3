@@ -2933,4 +2933,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2094.xml](12819.xml) | mssa.ms.2094 | MS 2094 | Henry Dutton family papers | 
  [mssa.ms.2135.xml](12861.xml) | mssa.ms.2135 | MS.2135 | D. Allan Bromley Papers | 
  [13145.xml](13145.xml) |  | RU 1185 | "Yale Paleoecology and Seafloor Research" memoir by Donald C. Rhoads | 
+ [mssa.ru.1186.xml](13202.xml) | mssa.ru.1186 | RU 1186 | Connecticut Mental Health Center records | 
 
