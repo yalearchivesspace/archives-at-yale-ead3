@@ -2887,7 +2887,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2100.xml](11307.xml) | mssa.ms.2100 | MS 2100 | Felipe Lorenzo Famoso diary | 
  [mssa.ms.2096.xml](11316.xml) | mssa.ms.2096 | MS 2096 | Stephen Reinhardt papers | 
  [mssa.ms.2098.xml](11347.xml) | mssa.ms.2098 | MS 2098 | Kent A. Leslie Collection on Robert Bradford Williams | 
- [mssa.ru.1159.xml](11363.xml) | mssa.ru.1159 | RU 1159 | Walter Irenaeus Lowe, Yale College Class of 1890, photographs documenting life at Yale University | 
  [mssa.ms.2104.xml](11369.xml) | mssa.ms.2104 | MS 2104 | Stephen Kellert papers | 
  [mssa.ms.2105.xml](11370.xml) | mssa.ms.2105 | MS 2105 | Michael Antisdale and Mark R. Melanson Papers | 
  [mssa.ru.1160.xml](11431.xml) | mssa.ru.1160 | RU 1160 | New Blue, Yale University, records | 
