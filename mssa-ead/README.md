@@ -2930,7 +2930,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2127.xml](12472.xml) | mssa.ms.2127 | MS 2127 | James C. Hatch papers | 
  [mssa.ms.2129.xml](12804.xml) | mssa.ms.2129 | MS 2129 | Alan Trachtenberg Papers | 
  [mssa.ms.2094.xml](12819.xml) | mssa.ms.2094 | MS 2094 | Henry Dutton family papers | 
- [mssa.ms.2135.xml](12861.xml) | mssa.ms.2135 | MS.2135 | D. Allan Bromley Papers | 
  [13145.xml](13145.xml) |  | RU 1185 | "Yale Paleoecology and Seafloor Research" memoir by Donald C. Rhoads | 
  [mssa.ru.1186.xml](13202.xml) | mssa.ru.1186 | RU 1186 | Connecticut Mental Health Center records | 
 
