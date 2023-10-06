@@ -1604,6 +1604,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.drucker.xml](11654.xml) | beinecke.drucker | YCAL MSS 1230 | Johanna Drucker papers | 
  [beinecke.astronomy.xml](11660.xml) | beinecke.astronomy | GEN MSS 731 | Yale University Department of Astronomy collection of astronomical reference materials | 
  [beinecke.kuskin.xml](11665.xml) | beinecke.kuskin | GEN MSS 791 | Karla Kuskin papers | 
+ [11669.xml](11669.xml) |  | JWJ MSS 198 | Amiri Baraka papers | 
  [beinecke.furnisspound.xml](11673.xml) | beinecke.furnisspound | YCAL MSS 633 | Robert M. Furniss collection of Ezra Pound | 
  [beinecke.russlerburstein.xml](11674.xml) | beinecke.russlerburstein | YCAL MSS 1117 | Goldie Russler and Abraham Burstein papers | 
  [beinecke.backwoodsbroadsides.xml](11676.xml) | beinecke.backwoodsbroadsides | YCAL MSS 1231 | Backwoods Broadsides records | 
