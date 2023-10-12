@@ -1810,6 +1810,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.marblepollock.xml](12993.xml) | beinecke.marblepollock | YCAL MSS 1541 | Anna Marble-Pollock cat collection | 
  [beinecke.felver.xml](13001.xml) | beinecke.felver | WA Photos 1342 | Chris Felver photographs | 
  [ead.beinecke.detroitcardoza.xml](13014.xml) | ead.beinecke.detroitcardoza | WA Photos 1344 | Photochroms of Sites in the United States and Mexico | 
+ [beinecke.holker.xml](13023.xml) | beinecke.holker | GEN MSS 2092 | John Holker papers | 
  [beinecke.rbleighton.xml](13041.xml) | beinecke.rbleighton | WA MSS S-4538 | Robert Henry Leighton Letters to the Leighton Family | 
  [beinecke.hhstevens.xml](13043.xml) | beinecke.hhstevens | WA MSS S-4539 | Helen Howard Stevens and Sarah Martha Robinson Stevens Letters | 
  [beinecke.tommandel.xml](13052.xml) | beinecke.tommandel | YCAL MSS 1608 | Tom Mandel papers | 
