@@ -584,7 +584,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.c205.xml](1112.xml) | beinecke.c205 | OSBORN C205 | Letters to Edward Southwell (1671-1730) and others | 
  [beinecke.c231.xml](1113.xml) | beinecke.c231 | OSBORN C231 | [Collection of autograph letters of various English literati] | 
  [beinecke.c232.xml](1114.xml) | beinecke.c232 | OSBORN C232 | [Collection of autograph letters of various English peers, statesmen, antiquaries, etc.] | 
- [beinecke.c357.xml](1115.xml) | beinecke.c357 | OSBORN C357 | 11 AL to various recipients; Salop | 
+ [beinecke.c357.xml](1115.xml) | beinecke.c357 | OSBORN C357 | John Taylor Letters | 
  [beinecke.c8.xml](1116.xml) | beinecke.c8 | OSBORN C8 | [Edmund Burke letters] | 
  [beinecke.d1.xml](1117.xml) | beinecke.d1 | OSBORN D1 | "Collection towards forming a history of the now obsolete office of the Master of the Revells" | 
  [beinecke.d148.xml](1118.xml) | beinecke.d148 | OSBORN D148 | "Original letters" | 
@@ -602,7 +602,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.fb140.xml](1130.xml) | beinecke.fb140 | OSBORN FB140 | A collection of poems sayters and lampoones | 
  [beinecke.fb145.xml](1131.xml) | beinecke.fb145 | OSBORN FB145 | [Collection of prints, letters, and printed ephemera pertaining to the Earl of Strafford] | 
  [beinecke.fb150.xml](1132.xml) | beinecke.fb150 | OSBORN FB150 | [Commonplace book] | 
- [beinecke.fb152.xml](1133.xml) | beinecke.fb152 | OSBORN FB152 | 3 ALS and 5 DS | 
+ [beinecke.fb152.xml](1133.xml) | beinecke.fb152 | OSBORN FB152 | Edward Hyde Clarendon Letters and Documents | 
  [beinecke.fb153.xml](1134.xml) | beinecke.fb153 | OSBORN FB153 | [Papers: collection of documents from his papers relating to the Popish Plot] | 
  [beinecke.fb155.xml](1135.xml) | beinecke.fb155 | OSBORN FB155 | [Commonplace book]. | 
  [beinecke.fb156.xml](1136.xml) | beinecke.fb156 | OSBORN FB156 | [Parliamentary speeches, debates, etc., and other miscellaneous manuscripts] | 
@@ -1824,6 +1824,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ecmason.xml](13212.xml) | beinecke.ecmason | WA MSS S-4549 | Edwin Cooley Mason and Minerva Needham Mason letters to Rodney Mason | 
  [13281.xml](13281.xml) |  | WA MSS S-4551 | Trinity Test Collection on the Manhattan Project Medical Group | 
  [beinecke.hsfowler.xml](13293.xml) | beinecke.hsfowler | WA MSS S-4552 | Helen Solberg Fowler papers | 
+ [13310.xml](13310.xml) |  | GEN MSS 827 | Edward Parker Read Papers | 
  [beinecke.miningforms.xml](13342.xml) | beinecke.miningforms | WA MSS S-1359 | Mining Forms and Certificates Collection | 
  [beinecke.californialetters.xml](13344.xml) | beinecke.californialetters | WA MSS S-1337 | California Letters | 
  [beinecke.lchoris.xml](13346.xml) | beinecke.lchoris | WA MSS S-260 | Louis Choris Paintings and Sketches | 
