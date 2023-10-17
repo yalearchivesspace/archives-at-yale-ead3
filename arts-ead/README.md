@@ -278,5 +278,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.art.0036.xml](12303.xml) | arts.art.0036 | ART 36 | Artspace records | 
  [12798.xml](12798.xml) |  | VRC 1990a | Garvin City Planning Image Collection | 
  [arts.dra.0050.xml](12858.xml) | arts.dra.0050 | DRA 50 | Norman Walsh Taylor papers | 
- [13320.xml](13320.xml) |  | ALSC MS 003 | Raymond Deghels papers | 
+ [ead.arts.alsc.0003.xml](13320.xml) | ead.arts.alsc.0003 | ALSC MS 003 | Raymond Deghels papers | 
 
