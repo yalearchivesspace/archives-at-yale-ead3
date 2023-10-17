@@ -80,4 +80,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0092.xml](13047.xml) | med.ms.0092 | Ms Coll 92 | Dr. Thomas Siveter papers | 
  [med.ms.0095.xml](13290.xml) | med.ms.0095 | Ms Coll 95 | Katharine Ketcham collection | 
  [med.ms.0097.xml](13335.xml) | med.ms.0097 | Ms Coll 97 | Anti-abortion movement ephemera | 
+ [med.ms.0098.xml](13349.xml) | med.ms.0098 | Ms Coll 98 | Sofia Simmonds papers | 
+ [med.ms.0099.xml](13350.xml) | med.ms.0099 | Ms Coll 99 | Franklin Hutchinson papers | 
 
