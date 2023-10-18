@@ -31,7 +31,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.ia.S003.xml](5446.xml) | ycba.ia.S003 | S003 | Kevin Owens Watercolors of the Yale Center for British Art | 
  [ycba.ia.S009.xml](5447.xml) | ycba.ia.S009 | S009 | Paul Mellon notebooks | 
  [ycba.ia.S015.xml](5448.xml) | ycba.ia.S015 | S015 | Jules David Prown Interviews by Jack Meyers | 
- [ycba.ia.A007.xml](5454.xml) | ycba.ia.A007 | A007 | Paul Mellon Centre for Studies in British Art newsletters | 
  [ycba.ia.S002.xml](5511.xml) | ycba.ia.S002 | S002 | Yale Center for British Art Cross-Sectional Model | 
  [ycba.ia.S017.xml](5513.xml) | ycba.ia.S017 | S017 | Meyers Family Copy of National Geographic Magazine Issue on the National Gallery of Art | 
  [ycba.ia.S014.xml](5514.xml) | ycba.ia.S014 | S014 | Jules David Prown Interview by Alessandra Latour recording | 
@@ -43,4 +42,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.ia.A032.xml](10720.xml) | ycba.ia.A032 | A032 | Yale Center for British Art annual reports | 
  [ycba.ia.A011.xml](10731.xml) | ycba.ia.A011 | A011 | Yale Center for British Art printed materials | 
  [ycba.ia.S004.xml](10746.xml) | ycba.ia.S004 | S004 | Jules David Prown collection of Louis I. Kahn Interviews by John W. Cook and Heinrich Klotz | 
+ [11403.xml](11403.xml) |  |  S022 | John Baskett papers | 
+ [13080.xml](13080.xml) |  | S018 | Duncan Robinson papers on Paul Mellon | 
 
