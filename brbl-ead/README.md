@@ -1642,6 +1642,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hollinghurst.xml](11812.xml) | beinecke.hollinghurst | OSB MSS 321 | Alan Hollinghurst papers | 
  [beinecke.feinman.xml](11813.xml) | beinecke.feinman | YCAL MSS 1524 | Alvin Feinman papers | 
  [beinecke.lobel.xml](11814.xml) | beinecke.lobel | GEN MSS 2054 | Arnold Lobel papers | 
+ [beinecke.smedley.xml](11815.xml) | beinecke.smedley | WA MSS S-4526 | Betty Dunn Smedley papers | 
  [beinecke.britishpunk.xml](11816.xml) | beinecke.britishpunk | GEN MSS 2084 | British punk archive | 
  [beinecke.gavin.xml](11819.xml) | beinecke.gavin | GEN MSS 1724 | Father Carney Gavin legacy collection of Holy Land photographs | 
  [beinecke.jdodd.xml](11821.xml) | beinecke.jdodd | YCAL MSS 1411 | Jonathan Dodd collection of Edward Albee, Stephen Sondheim, and Tennessee Williams | 
@@ -1809,6 +1810,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.photomigrants.xml](12990.xml) | beinecke.photomigrants | WA Photos Folio 225 | Photographs of Migrant Agricultural Laborers in California | 
  [beinecke.marblepollock.xml](12993.xml) | beinecke.marblepollock | YCAL MSS 1541 | Anna Marble-Pollock cat collection | 
  [beinecke.felver.xml](13001.xml) | beinecke.felver | WA Photos 1342 | Chris Felver photographs | 
+ [beinecke.winks.xml](13007.xml) | beinecke.winks | GEN MSS 2087 | Robin W. Winks papers relating to United States intelligence services and officers | 
  [ead.beinecke.detroitcardoza.xml](13014.xml) | ead.beinecke.detroitcardoza | WA Photos 1344 | Photochroms of Sites in the United States and Mexico | 
  [beinecke.holker.xml](13023.xml) | beinecke.holker | GEN MSS 2092 | John Holker papers | 
  [beinecke.rbleighton.xml](13041.xml) | beinecke.rbleighton | WA MSS S-4538 | Robert Henry Leighton Letters to the Leighton Family | 
@@ -1822,7 +1824,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.steinbergfoundation.xml](13107.xml) | beinecke.steinbergfoundation | YCAL MSS 1609 | Saul Steinberg Foundation records | 
  [Beinecke.stepto.xml](13141.xml) | Beinecke.stepto | JWJ MSS 379 | Robert B. Stepto papers | 
  [beinecke.ecmason.xml](13212.xml) | beinecke.ecmason | WA MSS S-4549 | Edwin Cooley Mason and Minerva Needham Mason letters to Rodney Mason | 
- [13281.xml](13281.xml) |  | WA MSS S-4551 | Trinity Test Collection on the Manhattan Project Medical Group | 
+ [13281.xml](13281.xml) |  | WA MSS S-4551 | The Manhattan Project Medical Group Trinity test collection | 
  [beinecke.hsfowler.xml](13293.xml) | beinecke.hsfowler | WA MSS S-4552 | Helen Solberg Fowler papers | 
  [13310.xml](13310.xml) |  | GEN MSS 827 | Edward Parker Read Papers | 
  [beinecke.miningforms.xml](13342.xml) | beinecke.miningforms | WA MSS S-1359 | Mining Forms and Certificates Collection | 
