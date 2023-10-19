@@ -1812,6 +1812,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.felver.xml](13001.xml) | beinecke.felver | WA Photos 1342 | Chris Felver photographs | 
  [beinecke.winks.xml](13007.xml) | beinecke.winks | GEN MSS 2087 | Robin W. Winks papers relating to United States intelligence services and officers | 
  [ead.beinecke.detroitcardoza.xml](13014.xml) | ead.beinecke.detroitcardoza | WA Photos 1344 | Photochroms of Sites in the United States and Mexico | 
+ [beinecke.gordon.xml](13022.xml) | beinecke.gordon | OSB MSS 324 | Gordon of Gordonstoun papers | 
  [beinecke.holker.xml](13023.xml) | beinecke.holker | GEN MSS 2092 | John Holker papers | 
  [beinecke.rbleighton.xml](13041.xml) | beinecke.rbleighton | WA MSS S-4538 | Robert Henry Leighton Letters to the Leighton Family | 
  [beinecke.hhstevens.xml](13043.xml) | beinecke.hhstevens | WA MSS S-4539 | Helen Howard Stevens and Sarah Martha Robinson Stevens Letters | 
