@@ -1826,7 +1826,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.steinbergfoundation.xml](13107.xml) | beinecke.steinbergfoundation | YCAL MSS 1609 | Saul Steinberg Foundation records | 
  [Beinecke.stepto.xml](13141.xml) | Beinecke.stepto | JWJ MSS 379 | Robert B. Stepto papers | 
  [beinecke.ecmason.xml](13212.xml) | beinecke.ecmason | WA MSS S-4549 | Edwin Cooley Mason and Minerva Needham Mason letters to Rodney Mason | 
- [13281.xml](13281.xml) |  | WA MSS S-4551 | The Manhattan Project Medical Group Trinity test collection | 
+ [beinecke.manhattanproject.xml](13281.xml) | beinecke.manhattanproject | WA MSS S-4551 | The Manhattan Project Medical Group collection | 
  [beinecke.hsfowler.xml](13293.xml) | beinecke.hsfowler | WA MSS S-4552 | Helen Solberg Fowler papers | 
  [13310.xml](13310.xml) |  | GEN MSS 827 | Edward Parker Read Papers | 
  [beinecke.miningforms.xml](13342.xml) | beinecke.miningforms | WA MSS S-1359 | Mining Forms and Certificates Collection | 
