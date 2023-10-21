@@ -82,4 +82,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0097.xml](13335.xml) | med.ms.0097 | Ms Coll 97 | Anti-abortion movement ephemera | 
  [med.ms.0098.xml](13349.xml) | med.ms.0098 | Ms Coll 98 | Sofia Simmonds papers | 
  [med.ms.0099.xml](13350.xml) | med.ms.0099 | Ms Coll 99 | Franklin Hutchinson papers | 
+ [med.ms.0100.xml](13357.xml) | med.ms.0100 | Ms Coll 100 | Tom Ferguson collection | 
+ [med.ms.0101.xml](13358.xml) | med.ms.0101 | Ms Coll 101 | Life magazines featuring in utero photography by Lennart Nilsson, autographed | 
 
