@@ -31,6 +31,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.ia.S003.xml](5446.xml) | ycba.ia.S003 | S003 | Kevin Owens Watercolors of the Yale Center for British Art | 
  [ycba.ia.S009.xml](5447.xml) | ycba.ia.S009 | S009 | Paul Mellon notebooks | 
  [ycba.ia.S015.xml](5448.xml) | ycba.ia.S015 | S015 | Jules David Prown Interviews by Jack Meyers | 
+ [ycba.ia.A007.xml](5454.xml) | ycba.ia.A007 | A007 | Paul Mellon Centre for Studies in British Art newsletters | 
  [ycba.ia.S002.xml](5511.xml) | ycba.ia.S002 | S002 | Yale Center for British Art Cross-Sectional Model | 
  [ycba.ia.S017.xml](5513.xml) | ycba.ia.S017 | S017 | Meyers Family Copy of National Geographic Magazine Issue on the National Gallery of Art | 
  [ycba.ia.S014.xml](5514.xml) | ycba.ia.S014 | S014 | Jules David Prown Interview by Alessandra Latour recording | 
