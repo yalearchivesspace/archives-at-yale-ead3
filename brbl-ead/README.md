@@ -1639,6 +1639,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.longway.xml](11801.xml) | beinecke.longway | YCAL MSS 1249 | <title>A Long Way from Home: The Untold Story of Baseball's Desegregation</title> digital archive | 
  [beinecke.douglass.xml](11807.xml) | beinecke.douglass | JWJ MSS 240 | Walter O. Evans collection of Frederick Douglass and Douglass Family papers | 
  [beinecke.dawson.xml](11810.xml) | beinecke.dawson | GEN MSS 1608 | Tom and Judy Dawson Collection of Playing Card Ephemera | 
+ [beinecke.campbellkramer.xml](11811.xml) | beinecke.campbellkramer | YCAL MSS 1553 | Agnes Campbell and Kent Kramer collection of Margaret Anderson | 
  [beinecke.hollinghurst.xml](11812.xml) | beinecke.hollinghurst | OSB MSS 321 | Alan Hollinghurst papers | 
  [beinecke.feinman.xml](11813.xml) | beinecke.feinman | YCAL MSS 1524 | Alvin Feinman papers | 
  [beinecke.lobel.xml](11814.xml) | beinecke.lobel | GEN MSS 2054 | Arnold Lobel papers | 
@@ -1662,6 +1663,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bland.xml](11843.xml) | beinecke.bland | JWJ MSS 310 | Ed Bland papers | 
  [beinecke.gustafson .xml](11844.xml) | beinecke.gustafson  | GEN MSS 997 | R. Eric Gustafson papers | 
  [beinecke.hollo.xml](11847.xml) | beinecke.hollo | GEN MSS 1701 | Anselm Hollo papers | 
+ [beinecke.bsmith.xml](11849.xml) | beinecke.bsmith | YCAL MSS 1554 | Bradley Smith collection of Henry Miller | 
  [beinecke.sklar.xml](11850.xml) | beinecke.sklar | YCAL MSS 1446 | George Sklar and Miriam Blecher papers | 
  [beinecke.wodening.xml](11855.xml) | beinecke.wodening | YCAL MSS 1331 | Jane Wodening papers | 
  [beinecke.oleary.xml](11856.xml) | beinecke.oleary | GEN MSS 1780 | Jean O'Leary papers | 
@@ -1783,6 +1785,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jeremiahdayletters.xml](12748.xml) | beinecke.jeremiahdayletters | GEN MSS 1959 | Letters to Jeremiah Day | 
  [beinecke.jppeters.xml](12749.xml) | beinecke.jppeters | GEN MSS 1996 | John P. Peters Collection of Drawings and Plans of an Archeological Excavation at Nippur | 
  [beinecke.ewer.xml](12753.xml) | beinecke.ewer | WA MSS S-3098 | Gary W. Ewer notes for presentation on daguerreotypes by Robert H. Vance | 
+ [beinecke.bertrand.xml](12758.xml) | beinecke.bertrand | GEN MSS 2055 | André Bertrand and André Schneider papers | 
  [beinecke.eden2.xml](12759.xml) | beinecke.eden2 | GEN MSS 1892 | Visual Poem Eden II and Related Material | 
  [beinecke.rwarren.xml](12763.xml) | beinecke.rwarren | YCAL MSS 1611 | Rosanna Warren Papers | 
  [beinecke.pirelli.xml](12767.xml) | beinecke.pirelli | GEN MSS 2062 | Pirelli strike fliers and newspapers | 
