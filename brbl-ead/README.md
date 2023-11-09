@@ -1482,6 +1482,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.smithfrank.xml](10839.xml) | beinecke.smithfrank | YCAL MSS 1123 | Frank L. Smith collection | 
  [beinecke.printmakers.xml](10841.xml) | beinecke.printmakers | GEN MSS 1474 | Printmakers Gathering Portfolio | 
  [beinecke.luckwpf178.xml](10847.xml) | beinecke.luckwpf178 | WA Photos Folio 178 | Photographs of Haida Gwaii, British Columbia | 
+ [beinecke.hwalke.xml](10849.xml) | beinecke.hwalke | WA MSS S-3349 | Henry Walke artwork | 
  [beinecke.carroll.xml](10941.xml) | beinecke.carroll | JWJ MSS 188 | Sandi Carroll Papers Relating to Early Productions of August Wilson's <title>Seven Guitars</title> | 
  [beinecke.jcwilson.xml](10942.xml) | beinecke.jcwilson | YCAL MSS 1127 | John C. Wilson Papers | 
  [beinecke.caesar.xml](10944.xml) | beinecke.caesar | YCAL MSS 1245 | Sid Caesar papers | 
@@ -1541,6 +1542,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wilsoncipx.xml](11351.xml) | beinecke.wilsoncipx | WA Photos Folio 184 | Critical Indigenous Photographic Exchange Collection | 
  [beinecke.giddings.xml](11355.xml) | beinecke.giddings | GEN MSS 882 | Franklin Henry Giddings collection | 
  [beinecke.waphotosfolio185.xml](11356.xml) | beinecke.waphotosfolio185 | WA Photos Folio 185 | Photographs of Arizona, Nebraska, New Mexico, Pine Ridge Indian Reservation, and South Dakota | 
+ [beinecke.barkerh.xml](11358.xml) | beinecke.barkerh | WA MSS S-4535 | Hiram Barker papers | 
  [beinecke.bluepress.xml](11359.xml) | beinecke.bluepress | YCAL MSS 1235 | Blue Press records | 
  [beinecke.boumanpurdy.xml](11360.xml) | beinecke.boumanpurdy | YCAL MSS 1510 | Jan Erik Bouman collection of James Purdy | 
  [beinecke.sasse.xml](11365.xml) | beinecke.sasse | WA MSS S-3469 | A. H. Sasse papers | 
