@@ -1837,5 +1837,4 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.miningforms.xml](13342.xml) | beinecke.miningforms | WA MSS S-1359 | Mining Forms and Certificates Collection | 
  [beinecke.californialetters.xml](13344.xml) | beinecke.californialetters | WA MSS S-1337 | California Letters | 
  [beinecke.lchoris.xml](13346.xml) | beinecke.lchoris | WA MSS S-260 | Louis Choris Paintings and Sketches | 
- [13375.xml](13375.xml) |  | GEN MSS 2128 | Joshua P. Smith Collection of East German Underground Art and Photography | 
 
