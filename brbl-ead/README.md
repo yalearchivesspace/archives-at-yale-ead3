@@ -1828,7 +1828,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beiencke.joshuaross.xml](13085.xml) | beiencke.joshuaross | WA MSS S-4543 | Joshua Ross papers | 
  [beinecke.voynichprovenance.xml](13090.xml) | beinecke.voynichprovenance | Beinecke MS 408A | Wilfred M. Voynich and Ethel Voynich  provenance and research files on the Cipher (Voynich) manuscript | 
  [beinecke.bcallison.xml](13093.xml) | beinecke.bcallison | WA MSS S-4544 | Bill Callison collection of Peace and Freedom Party of California papers | 
- [beinecke.steinbergfoundation.xml](13107.xml) | beinecke.steinbergfoundation | YCAL MSS 1609 | Saul Steinberg Foundation records | 
  [Beinecke.stepto.xml](13141.xml) | Beinecke.stepto | JWJ MSS 379 | Robert B. Stepto papers | 
  [beinecke.ecmason.xml](13212.xml) | beinecke.ecmason | WA MSS S-4549 | Edwin Cooley Mason and Minerva Needham Mason letters to Rodney Mason | 
  [beinecke.manhattanproject.xml](13281.xml) | beinecke.manhattanproject | WA MSS S-4551 | The Manhattan Project Medical Group collection | 
