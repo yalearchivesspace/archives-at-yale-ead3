@@ -1818,7 +1818,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.felver.xml](13001.xml) | beinecke.felver | WA Photos 1342 | Chris Felver photographs | 
  [beinecke.winks.xml](13007.xml) | beinecke.winks | GEN MSS 2087 | Robin W. Winks papers relating to United States intelligence services and officers | 
  [ead.beinecke.detroitcardoza.xml](13014.xml) | ead.beinecke.detroitcardoza | WA Photos 1344 | Photochroms of Sites in the United States and Mexico | 
- [beinecke.gordon.xml](13022.xml) | beinecke.gordon | OSB MSS 324 | Gordon of Gordonstoun papers | 
+ [beinecke.gordon.xml](13022.xml) | beinecke.gordon | OSB MSS 342 | Gordon of Gordonstoun papers | 
  [beinecke.holker.xml](13023.xml) | beinecke.holker | GEN MSS 2092 | John Holker papers | 
  [beinecke.rbleighton.xml](13041.xml) | beinecke.rbleighton | WA MSS S-4538 | Robert Henry Leighton Letters to the Leighton Family | 
  [beinecke.hhstevens.xml](13043.xml) | beinecke.hhstevens | WA MSS S-4539 | Helen Howard Stevens and Sarah Martha Robinson Stevens Letters | 
@@ -1826,6 +1826,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.baconfamilyletters.xml](13064.xml) | beinecke.baconfamilyletters | WA MSS S-4541 | Bacon family letters | 
  [beinecke.sfcleveland.xml](13079.xml) | beinecke.sfcleveland | WA MSS S-4542 | Samuel Francis Cleveland papers | 
  [beiencke.joshuaross.xml](13085.xml) | beiencke.joshuaross | WA MSS S-4543 | Joshua Ross papers | 
+ [beinecke.scuro.xml](13086.xml) | beinecke.scuro | GEN MSS 2117 | Enrico Scuro Photographs | 
  [beinecke.voynichprovenance.xml](13090.xml) | beinecke.voynichprovenance | Beinecke MS 408A | Wilfred M. Voynich and Ethel Voynich  provenance and research files on the Cipher (Voynich) manuscript | 
  [beinecke.bcallison.xml](13093.xml) | beinecke.bcallison | WA MSS S-4544 | Bill Callison collection of Peace and Freedom Party of California papers | 
  [Beinecke.stepto.xml](13141.xml) | Beinecke.stepto | JWJ MSS 379 | Robert B. Stepto papers | 
