@@ -1837,4 +1837,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.miningforms.xml](13342.xml) | beinecke.miningforms | WA MSS S-1359 | Mining Forms and Certificates Collection | 
  [beinecke.californialetters.xml](13344.xml) | beinecke.californialetters | WA MSS S-1337 | California Letters | 
  [beinecke.lchoris.xml](13346.xml) | beinecke.lchoris | WA MSS S-260 | Louis Choris Paintings and Sketches | 
+ [beinecke.downey.xml](13354.xml) | beinecke.downey | GEN MSS 2125 | John T. Downey papers | 
 
