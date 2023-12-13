@@ -1838,4 +1838,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.californialetters.xml](13344.xml) | beinecke.californialetters | WA MSS S-1337 | California Letters | 
  [beinecke.lchoris.xml](13346.xml) | beinecke.lchoris | WA MSS S-260 | Louis Choris Paintings and Sketches | 
  [beinecke.downey.xml](13354.xml) | beinecke.downey | GEN MSS 2125 | John T. Downey papers | 
+ [beinecke.deweylowell.xml](13363.xml) | beinecke.deweylowell | YCAL MSS 1616 | Dewey-Lowell family papers | 
 
