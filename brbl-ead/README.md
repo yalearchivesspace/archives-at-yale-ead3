@@ -1834,6 +1834,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.scole.xml](13275.xml) | beinecke.scole | YCAL MSS 1615 | Susan Cole papers | 
  [beinecke.manhattanproject.xml](13281.xml) | beinecke.manhattanproject | WA MSS S-4551 | The Manhattan Project Medical Group collection | 
  [beinecke.hsfowler.xml](13293.xml) | beinecke.hsfowler | WA MSS S-4552 | Helen Solberg Fowler papers | 
+ [beinecke.lauramcphee.xml](13309.xml) | beinecke.lauramcphee | WA MSS S-4553 | Laura McPhee papers | 
  [13310.xml](13310.xml) |  | GEN MSS 827 | Edward Parker Read Papers | 
  [beinecke.miningforms.xml](13342.xml) | beinecke.miningforms | WA MSS S-1359 | Mining Forms and Certificates Collection | 
  [beinecke.californialetters.xml](13344.xml) | beinecke.californialetters | WA MSS S-1337 | California Letters | 
