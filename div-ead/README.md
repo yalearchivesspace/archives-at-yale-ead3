@@ -354,4 +354,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.329.xml](12982.xml) | divinity.329 | RG 329 | Adele Shepard Collection of Edwards and Dwight Family Papers | 
  [divinity.330.xml](12988.xml) | divinity.330 | RG 330 | William Johnson Everett Papers | 
  [divinity.331.xml](13118.xml) | divinity.331 | RG 331 | Elizabeth Hart Frazier and Donald Hart Frazier Papers | 
+ [divinity.326.xml](13406.xml) | divinity.326 | RG 326 | Robert L. Calhoun Papers | 
 
