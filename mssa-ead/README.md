@@ -2798,6 +2798,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2039.xml](5267.xml) | mssa.ms.2039 | MS 2039 | Project Maje records | 
  [mssa.ms.2012.xml](5268.xml) | mssa.ms.2012 | MS 2012 | F. Herbert Bormann papers | 
  [mssa.ms.2023.xml](5269.xml) | mssa.ms.2023 | MS 2023 | Traugott Lawler papers | 
+ [mssa.ms.2022.xml](5270.xml) | mssa.ms.2022 | MS 2022 | Daniel Pinello interviews on same-sex marriage | 
  [mssa.ms.2024.xml](5274.xml) | mssa.ms.2024 | MS 2024 | Manuscripts and Archives, Yale University Library Gaylesta publications collection | 
  [mssa.ms.2025.xml](5275.xml) | mssa.ms.2025 | MS 2025 | Manuscripts and Archives, Yale University Library Good Vibrations publications collection | 
  [mssa.ms.2026.xml](5278.xml) | mssa.ms.2026 | MS 2026 | Elisha Spencer Benton diary | 
