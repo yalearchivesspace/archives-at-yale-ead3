@@ -1675,6 +1675,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.strub.xml](11862.xml) | beinecke.strub | GEN MSS 1781 | Sean Strub papers | 
  [beinecke.peranio.xml](11863.xml) | beinecke.peranio | YCAL MSS 1346 | Vincent Peranio Papers | 
  [beinecke.thurd.xml](11864.xml) | beinecke.thurd | GEN MSS 1703 | Thacher Hurd papers | 
+ [beinecke.olney.xml](11865.xml) | beinecke.olney | YCAL MSS 1549 | Richard Olney papers | 
  [beinecke.wiborg.xml](11869.xml) | beinecke.wiborg | YCAL MSS 1408 | Mary Hoyt Wiborg papers | 
  [beinecke.mjamesslack.xml](11871.xml) | beinecke.mjamesslack | WA MSS S-4440 | M. James Slack papers | 
  [beinecke.dickenson.xml](11874.xml) | beinecke.dickenson | JWJ MSS 319 | Vic Dickenson papers | 
@@ -1829,7 +1830,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.scuro.xml](13086.xml) | beinecke.scuro | GEN MSS 2117 | Enrico Scuro Photographs | 
  [beinecke.voynichprovenance.xml](13090.xml) | beinecke.voynichprovenance | Beinecke MS 408A | Wilfred M. Voynich and Ethel Voynich  provenance and research files on the Cipher (Voynich) manuscript | 
  [beinecke.bcallison.xml](13093.xml) | beinecke.bcallison | WA MSS S-4544 | Bill Callison collection of Peace and Freedom Party of California papers | 
- [beinecke.steinbergfoundation.xml](13107.xml) | beinecke.steinbergfoundation | YCAL MSS 1609 | Saul Steinberg Foundation records | 
  [Beinecke.stepto.xml](13141.xml) | Beinecke.stepto | JWJ MSS 379 | Robert B. Stepto papers | 
  [beinecke.ecmason.xml](13212.xml) | beinecke.ecmason | WA MSS S-4549 | Edwin Cooley Mason and Minerva Needham Mason letters to Rodney Mason | 
  [beinecke.scole.xml](13275.xml) | beinecke.scole | YCAL MSS 1615 | Susan Cole papers | 
