@@ -2,8 +2,8 @@
 
 EAD | EAD ID | Identifier | Title | Other versions
 --- | ------ | ---------- | ----- | --------------
- [divinity.001.xml](35.xml) | divinity.001 | RG 1 | Foster Family Papers | 
- [divinity.010.xml](36.xml) | divinity.010 | RG 10 | Miner Searle Bates Papers | 
+ [divinity.001.xml](35.xml) | divinity.001 | RG 1 | Foster family papers | 
+ [divinity.010.xml](36.xml) | divinity.010 | RG 10 | Miner Searle Bates papers | 
  [divinity.100.xml](37.xml) | divinity.100 | RG 100 | American Lutheran Church Women in World Mission Oral History Project / Evangelical Lutheran Church Women in Global Mission Oral History Project Records | 
  [divinity.102.xml](38.xml) | divinity.102 | RG 102 | Episcopal Churchpeople for a Free Southern Africa Records | 
  [divinity.104.xml](39.xml) | divinity.104 | RG 104 | United Ministries in Higher Education Records | 
@@ -123,7 +123,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.197.xml](158.xml) | divinity.197 | RG 197 | Marjorie Tooker Whittlesey Papers | 
  [divinity.198.xml](159.xml) | divinity.198 | RG 198 | Morgan Phelps Noyes Papers | 
  [divinity.199.xml](160.xml) | divinity.199 | RG 199 | International Association for Mission Studies Records | 
- [divinity.002.xml](161.xml) | divinity.002 | RG 2 | Arthur Judson Brown Papers | 
+ [divinity.002.xml](161.xml) | divinity.002 | RG 2 | Arthur Judson Brown papers | 
  [divinity.020.xml](162.xml) | divinity.020 | RG 20 | Albert and Celia Steward Papers | 
  [divinity.200.xml](163.xml) | divinity.200 | RG 200 | Sidney R. Anderson Papers | 
  [divinity.201.xml](164.xml) | divinity.201 | RG 201 | Melvin Wittler Papers | 
@@ -188,7 +188,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.265.xml](233.xml) | divinity.265 | RG 265 | Morse Family Papers: William Reginald and Anne Crosse Morse | 
  [divinity.027.xml](234.xml) | divinity.027 | RG 27 | Yale Divinity School Faculty Writings and Publications | 
  [divinity.028.xml](235.xml) | divinity.028 | RG 28 | Dwight L. Moody Papers | 
- [divinity.003.xml](236.xml) | divinity.003 | RG 3 | Kenneth Scott Latourette Papers | 
+ [divinity.003.xml](236.xml) | divinity.003 | RG 3 | Kenneth Scott Latourette papers | 
  [divinity.031.xml](238.xml) | divinity.031 | RG 31 | Katherine Vaughn Papers | 
  [divinity.032.xml](239.xml) | divinity.032 | RG 32 | George Sherwood Eddy Papers | 
  [divinity.033.xml](240.xml) | divinity.033 | RG 33 | Records of Religious Educational Institutions | 
@@ -198,7 +198,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.037.xml](244.xml) | divinity.037 | RG 37 | Charles Reynolds Brown Papers | 
  [divinity.038.xml](245.xml) | divinity.038 | RG 38 | Robert Parmelee Wilder Papers | 
  [divinity.039.xml](246.xml) | divinity.039 | RG 39 | Horace Bushnell Papers | 
- [divinity.004.xml](247.xml) | divinity.004 | RG 4 | Hartwell Family Papers | 
+ [divinity.004.xml](247.xml) | divinity.004 | RG 4 | Hartwell family papers | 
  [divinity.040.xml](248.xml) | divinity.040 | RG 40 | Henry Burt Wright Papers | 
  [divinity.041.xml](249.xml) | divinity.041 | RG 41 | Yale Divinity School Theses | 
  [divinity.042.xml](250.xml) | divinity.042 | RG 42 | Student Volunteer Movement for Foreign Missions Records | 
@@ -214,7 +214,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.047.xml](260.xml) | divinity.047 | RG 47 | Interseminary Commission for Training for the Rural Ministry Records | 
  [divinity.048.xml](261.xml) | divinity.048 | RG 48 | New England Church Records | 
  [divinity.049.xml](262.xml) | divinity.049 | RG 49 | Liston Pope Papers | 
- [divinity.005.xml](263.xml) | divinity.005 | RG 5 | Smith Family Papers | 
+ [divinity.005.xml](263.xml) | divinity.005 | RG 5 | Smith family papers | 
  [divinity.050.xml](264.xml) | divinity.050 | RG 50 | Douglas Clyde Macintosh Papers | 
  [divinity.051.xml](265.xml) | divinity.051 | RG 51 | George Leon Walker and Williston Walker Papers | 
  [divinity.052.xml](266.xml) | divinity.052 | RG 52 | Henry David Gray Papers | 
@@ -224,7 +224,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.057.xml](271.xml) | divinity.057 | RG 57 | Student Christian Movement in New England Records | 
  [divinity.058.xml](272.xml) | divinity.058 | RG 58 | YMCA - Student Division Records | 
  [divinity.059.xml](273.xml) | divinity.059 | RG 59 | Paul Herman Vieth Papers | 
- [divinity.006.xml](274.xml) | divinity.006 | RG 6 | William Richard Johnson Papers | 
+ [divinity.006.xml](274.xml) | divinity.006 | RG 6 | William Richard Johnson papers | 
  [divinity.060.xml](275.xml) | divinity.060 | RG 60 | Beach Family Papers | 
  [divinity.060a.xml](276.xml) | divinity.060a | RG 60A | David Nelson Beach, Jr. Papers | 
  [divinity.061.xml](277.xml) | divinity.061 | RG 61 | Issues of Peace and War Pamphlet Collection | 
@@ -235,7 +235,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.066.xml](282.xml) | divinity.066 | RG 66 | Enoch Hale Papers | 
  [divinity.067.xml](283.xml) | divinity.067 | RG 67 | Henry Knox Sherrill Family Papers | 
  [divinity.069.xml](284.xml) | divinity.069 | RG 69 | Otis Olney Wright Papers | 
- [divinity.007.xml](285.xml) | divinity.007 | RG 7 | Campbell Family Papers | 
+ [divinity.007.xml](285.xml) | divinity.007 | RG 7 | Campbell family papers | 
  [divinity.070.xml](286.xml) | divinity.070 | RG 70 | Standard Bible Committee Records | 
  [divinity.071.xml](287.xml) | divinity.071 | RG 71 | Millar Burrows Papers | 
  [divinity.072.xml](288.xml) | divinity.072 | RG 72 | Horace Waller Papers | 
@@ -246,7 +246,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.077.xml](294.xml) | divinity.077 | RG 77 | Samuel Clarke Bushnell Papers | 
  [divinity.078.xml](295.xml) | divinity.078 | RG 78 | Bruce Maguire / Student YMCA Papers | 
  [divinity.079.xml](296.xml) | divinity.079 | RG 79 | William H. Genné Papers | 
- [divinity.008.xml](297.xml) | divinity.008 | RG 8 | China Records Project Miscellaneous Personal Papers Collection | 
+ [divinity.008.xml](297.xml) | divinity.008 | RG 8 | China Records Project miscellaneous personal papers collection | 
  [divinity.080.xml](298.xml) | divinity.080 | RG 80 | Raymond Philip Morris Papers | 
  [divinity.081.xml](299.xml) | divinity.081 | RG 81 | American Theological Library Association Library Development Program Records | 
  [divinity.082.xml](300.xml) | divinity.082 | RG 82 | Manly Family Papers | 
@@ -257,7 +257,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.087.xml](305.xml) | divinity.087 | RG 87 | Wider City Parish Records | 
  [divinity.088.xml](306.xml) | divinity.088 | RG 88 | University Christian Movement in New England Records | 
  [divinity.088a.xml](307.xml) | divinity.088a | RG 88A | University Christian Movement in New England Records - Addendum A | 
- [divinity.009.xml](309.xml) | divinity.009 | RG 9 | Lyman Hoover Papers | 
+ [divinity.009.xml](309.xml) | divinity.009 | RG 9 | Lyman Hoover papers | 
  [divinity.090.xml](310.xml) | divinity.090 | RG 90 | Committee on Christian Literature For Women and Children in Mission Fields, Inc. Records | 
  [divinity.091.xml](311.xml) | divinity.091 | RG 91 | Melatiah Everett Dwight Papers | 
  [divinity.093.xml](312.xml) | divinity.093 | RG 93 | Eleazar Thompson Fitch Papers | 
@@ -319,7 +319,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.303.xml](11048.xml) | divinity.303 | RG 303 | New England Women Ministers Association Records | 
  [divinity.292.xml](11056.xml) | divinity.292 | RG 292 | John Winthrop Platner papers | 
  [divinity.293.xml](11063.xml) | divinity.293 | RG 293 | Edward Robie Papers | 
- [divinity.294.xml](11064.xml) | divinity.294 | RG 294 | Moses Stuart Papers | 
+ [divinity.294.xml](11064.xml) | divinity.294 | RG 294 | Moses Stuart papers | 
  [divinity.296.xml](11065.xml) | divinity.296 | RG 296 | Irah Chase Papers | 
  [divinity.297.xml](11066.xml) | divinity.297 | RG 297 | Harry P. Dewey Papers | 
  [divinity.275.xml](11196.xml) | divinity.275 | RG 275 | Andover Theological Seminary Records | 
