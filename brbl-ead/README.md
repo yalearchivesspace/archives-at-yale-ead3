@@ -1506,6 +1506,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.simonetti.xml](11043.xml) | beinecke.simonetti | GEN MSS 1497 | Gianni Emilio Simonetti papers | 
  [beinecke.robertolenbutler.xml](11049.xml) | beinecke.robertolenbutler | YCAL MSS 1146 | Robert Olen Butler papers | 
  [beinecke.blanch.xml](11052.xml) | beinecke.blanch | OSB MSS 202 | Lesley Blanch papers | 
+ [beinecke.egeotto.xml](11062.xml) | beinecke.egeotto | GEN MSS 1498 | Otto F. Ege collection | 
  [beinecke.kotanyi.xml](11073.xml) | beinecke.kotanyi | GEN MSS 1499 | Attila Kotányi papers | 
  [beinecke.aigner.xml](11074.xml) | beinecke.aigner | GEN MSS 1837 | Lucien Aigner photographs and papers | 
  [beinecke.spinelliarchive.xml](11076.xml) | beinecke.spinelliarchive | GEN MSS 109 | Spinelli Archive | 
