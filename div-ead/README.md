@@ -16,7 +16,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.107a.xml](46.xml) | divinity.107a | RG 107A | Council for Ecumenical Student Christian Ministry Records - Addendum A | 
  [divinity.108.xml](47.xml) | divinity.108 | RG 108 | Willard Livingstone Beard Family Papers | 
  [divinity.109.xml](48.xml) | divinity.109 | RG 109 | Henry S. Huntington Family Papers | 
- [divinity.011.xml](49.xml) | divinity.011 | RG 11 | United Board for Christian Higher Education in Asia Records | 
+ [divinity.011.xml](49.xml) | divinity.011 | RG 11 | United Board for Christian Higher Education in Asia records | 
  [divinity.110.xml](50.xml) | divinity.110 | RG 110 | Forman Family Papers | 
  [divinity.111.xml](51.xml) | divinity.111 | RG 111 | Samuel Slie Papers | 
  [divinity.112.xml](52.xml) | divinity.112 | RG 112 | Norman E. Thomas Papers | 
@@ -27,16 +27,16 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.117.xml](57.xml) | divinity.117 | RG 117 | Henry Harris Jessup Papers | 
  [divinity.118.xml](58.xml) | divinity.118 | RG 118 | William James Mutch Papers | 
  [divinity.119.xml](59.xml) | divinity.119 | RG 119 | Frank Chamberlin Porter Papers | 
- [divinity.011a.xml](60.xml) | divinity.011a | RG 11A | United Board for Christian Higher Education in Asia Records - Addendum A | 
- [divinity.011b.xml](61.xml) | divinity.011b | RG 11B | United Board for Christian Higher Education in Asia Records - Addendum B | 
- [divinity.011c.xml](62.xml) | divinity.011c | RG 11C | United Board for Christian Higher Education in Asia Records - Addendum C | 
- [divinity.011d.xml](63.xml) | divinity.011d | RG 11D | United Board for Christian Higher Education in Asia Records - Addendum D | 
- [divinity.011e.xml](64.xml) | divinity.011e | RG 11E | United Board for Christian Higher Education in Asia Records - Addendum E | 
- [divinity.011f.xml](65.xml) | divinity.011f | RG 11F | United Board for Christian Higher Education in Asia Records - Addendum F | 
- [divinity.011g.xml](66.xml) | divinity.011g | RG 11G | United Board for Christian Higher Education in Asia Records - Addendum G | 
- [divinity.11h.xml](67.xml) | divinity.11h | RG 11H | United Board for Christian Higher Education in Asia Records - Addendum H | 
- [divinity.011i.xml](68.xml) | divinity.011i | RG 11I | United Board for Christian Higher Education in Asia Records - Addendum I | 
- [divinity.012.xml](69.xml) | divinity.012 | RG 12 | Dwight W. Edwards Papers | 
+ [divinity.011a.xml](60.xml) | divinity.011a | RG 11A | United Board for Christian Higher Education in Asia records - Addendum A | 
+ [divinity.011b.xml](61.xml) | divinity.011b | RG 11B | United Board for Christian Higher Education in Asia records - Addendum B | 
+ [divinity.011c.xml](62.xml) | divinity.011c | RG 11C | United Board for Christian Higher Education in Asia records - Addendum C | 
+ [divinity.011d.xml](63.xml) | divinity.011d | RG 11D | United Board for Christian Higher Education in Asia records - Addendum D | 
+ [divinity.011e.xml](64.xml) | divinity.011e | RG 11E | United Board for Christian Higher Education in Asia records - Addendum E | 
+ [divinity.011f.xml](65.xml) | divinity.011f | RG 11F | United Board for Christian Higher Education in Asia records - Addendum F | 
+ [divinity.011g.xml](66.xml) | divinity.011g | RG 11G | United Board for Christian Higher Education in Asia records - Addendum G | 
+ [divinity.11h.xml](67.xml) | divinity.11h | RG 11H | United Board for Christian Higher Education in Asia records - Addendum H | 
+ [divinity.011i.xml](68.xml) | divinity.011i | RG 11I | United Board for Christian Higher Education in Asia records - Addendum I | 
+ [divinity.012.xml](69.xml) | divinity.012 | RG 12 | Dwight W. Edwards papers | 
  [divinity.120.xml](70.xml) | divinity.120 | RG 120 | John and Eleanor Reuling Papers | 
  [divinity.121.xml](71.xml) | divinity.121 | RG 121 | Reinhold Riemer Papers | 
  [divinity.122.xml](72.xml) | divinity.122 | RG 122 | Frank Knight Sanders Papers | 
@@ -47,7 +47,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.127.xml](77.xml) | divinity.127 | RG 127 | John David Hayes Papers | 
  [divinity.128.xml](78.xml) | divinity.128 | RG 128 | William Henricks Wiser and Charlotte Viall Wiser Papers | 
  [divinity.129.xml](79.xml) | divinity.129 | RG 129 | John William Colenso Papers | 
- [divinity.013.xml](80.xml) | divinity.013 | RG 13 | Chinese Students' Christian Association in North America Records | 
+ [divinity.013.xml](80.xml) | divinity.013 | RG 13 | Chinese Students' Christian Association in North America records | 
  [divinity.130.xml](81.xml) | divinity.130 | RG 130 | Bright Family Papers | 
  [divinity.131.xml](82.xml) | divinity.131 | RG 131 | Henry Hallam Tweedy Papers | 
  [divinity.132.xml](83.xml) | divinity.132 | RG 132 | Shanghai American School Records, including the Phoebe White Wentworth Collection of Shanghai American School History and Memorabilia | 
@@ -57,7 +57,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.137.xml](87.xml) | divinity.137 | RG 137 | Hugh Hubbard Papers | 
  [divinity.138.xml](88.xml) | divinity.138 | RG 138 | Merrill and Lucile Ady Papers | 
  [divinity.139.xml](89.xml) | divinity.139 | RG 139 | Eva Asher Papers | 
- [divinity.014.xml](90.xml) | divinity.014 | RG 14 | Trustees of Lingnan University Records | 
+ [divinity.014.xml](90.xml) | divinity.014 | RG 14 | Trustees of Lingnan University records | 
  [divinity.140.xml](91.xml) | divinity.140 | RG 140 | Constance Buell Papers | 
  [divinity.141.xml](92.xml) | divinity.141 | RG 141 | Robert E. and Gladys Wilson Bundy Papers | 
  [divinity.142.xml](93.xml) | divinity.142 | RG 142 | Elsie Clark Krug Papers | 
@@ -69,7 +69,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.148.xml](99.xml) | divinity.148 | RG 148 | Randolph C. Sailer Papers | 
  [divinity.149.xml](100.xml) | divinity.149 | RG 149 | Abbie G. Sanderson Papers | 
  [divinity.014a.xml](101.xml) | divinity.014a | RG 14A | Lingnan Foundation records | 
- [divinity.015.xml](102.xml) | divinity.015 | RG 15 | Ellison and Lottie Hildreth Papers | 
+ [divinity.015.xml](102.xml) | divinity.015 | RG 15 | Ellison and Lottie Hildreth papers | 
  [divinity.150.xml](103.xml) | divinity.150 | RG 150 | Lennig Sweet Papers | 
  [divinity.151.xml](104.xml) | divinity.151 | RG 151 | Whitener Family Papers | 
  [divinity.152.xml](105.xml) | divinity.152 | RG 152 | Young Family Papers | 
@@ -81,7 +81,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.157.xml](111.xml) | divinity.157 | RG 157 | Bernard and Katherine Read Papers | 
  [divinity.158.xml](112.xml) | divinity.158 | RG 158 | Merrill Isely Papers | 
  [divinity.159.xml](113.xml) | divinity.159 | RG 159 | Lillian Picken Papers | 
- [divinity.016.xml](114.xml) | divinity.016 | RG 16 | Thomas Torrance Papers | 
+ [divinity.016.xml](114.xml) | divinity.016 | RG 16 | Thomas Torrance papers | 
  [divinity.160.xml](115.xml) | divinity.160 | RG 160 | George and Grace Snyder Papers | 
  [divinity.161.xml](116.xml) | divinity.161 | RG 161 | Albert Dewey Papers | 
  [divinity.162.xml](117.xml) | divinity.162 | RG 162 | World Council of Churches Records | 
@@ -91,7 +91,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.166.xml](123.xml) | divinity.166 | RG 166 | Gerald H. Anderson Papers | 
  [divinity.168.xml](125.xml) | divinity.168 | RG 168 | Ernest and Olivia Ikenberry Papers | 
  [divinity.169.xml](126.xml) | divinity.169 | RG 169 | Edward Curtis Dahl Papers | 
- [divinity.017.xml](127.xml) | divinity.017 | RG 17 | Border Service Department of the Church of Christ in China Records | 
+ [divinity.017.xml](127.xml) | divinity.017 | RG 17 | Border Service Department of the Church of Christ in China records | 
  [divinity.170.xml](128.xml) | divinity.170 | RG 170 | James and Margaret Goff Papers | 
  [divinity.171.xml](129.xml) | divinity.171 | RG 171 | Ruth M. Harris Papers | 
  [divinity.172.xml](130.xml) | divinity.172 | RG 172 | George A. Lindbeck Papers | 
@@ -101,7 +101,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.177.xml](135.xml) | divinity.177 | RG 177 | Roy and Clara Creighton Papers | 
  [divinity.178.xml](136.xml) | divinity.178 | RG 178 | Charlotte B. DeForest Papers | 
  [divinity.179.xml](137.xml) | divinity.179 | RG 179 | Alva I. Cox Jr. Papers | 
- [divinity.018.xml](138.xml) | divinity.018 | RG 18 | Hayes Family Papers | 
+ [divinity.018.xml](138.xml) | divinity.018 | RG 18 | Hayes Family papers | 
  [divinity.180.xml](139.xml) | divinity.180 | RG 180 | Foundation for Theological Education in South East Asia Records | 
  [divinity.180a.xml](140.xml) | divinity.180a | RG 180A | Foundation for Theological Education in South East Asia Records - Addendum A | 
  [divinity.181.xml](141.xml) | divinity.181 | RG 181 | Duane and Marian Waln Papers | 
@@ -113,7 +113,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.187.xml](147.xml) | divinity.187 | RG 187 | Associate Board of the Women's Christian College (Madras, India) Records | 
  [divinity.188.xml](148.xml) | divinity.188 | RG 188 | Laurence and Virginia Judd Papers | 
  [divinity.189.xml](149.xml) | divinity.189 | RG 189 | Walter and Margaret Tong Papers | 
- [divinity.019.xml](150.xml) | divinity.019 | RG 19 | George and Mary Schlosser Papers | 
+ [divinity.019.xml](150.xml) | divinity.019 | RG 19 | George and Mary Schlosser papers | 
  [divinity.190.xml](151.xml) | divinity.190 | RG 190 | James Laughton Papers | 
  [divinity.191.xml](152.xml) | divinity.191 | RG 191 | Philip C. Landers Papers | 
  [divinity.192.xml](153.xml) | divinity.192 | RG 192 | Carl and Elisabeth Wahl Papers | 
@@ -124,7 +124,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.198.xml](159.xml) | divinity.198 | RG 198 | Morgan Phelps Noyes Papers | 
  [divinity.199.xml](160.xml) | divinity.199 | RG 199 | International Association for Mission Studies Records | 
  [divinity.002.xml](161.xml) | divinity.002 | RG 2 | Arthur Judson Brown papers | 
- [divinity.020.xml](162.xml) | divinity.020 | RG 20 | Albert and Celia Steward Papers | 
+ [divinity.020.xml](162.xml) | divinity.020 | RG 20 | Albert and Celia Steward papers | 
  [divinity.200.xml](163.xml) | divinity.200 | RG 200 | Sidney R. Anderson Papers | 
  [divinity.201.xml](164.xml) | divinity.201 | RG 201 | Melvin Wittler Papers | 
  [divinity.202.xml](165.xml) | divinity.202 | RG 202 | Nils Arne Bendtz Papers | 
@@ -134,14 +134,14 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.206.xml](169.xml) | divinity.206 | RG 206 | Eugene A. Turner Papers | 
  [divinity.207.xml](170.xml) | divinity.207 | RG 207 | John Curtis and Mary Snell Smith Papers | 
  [divinity.208.xml](171.xml) | divinity.208 | RG 208 | John B. Lindner Papers | 
- [divinity.021.xml](173.xml) | divinity.021 | RG 21 | Esther Tappert Mortensen Papers | 
+ [divinity.021.xml](173.xml) | divinity.021 | RG 21 | Esther Tappert Mortensen papers | 
  [divinity.210.xml](174.xml) | divinity.210 | RG 210 | Ellsworth Eliot Collection | 
  [divinity.212.xml](176.xml) | divinity.212 | RG 212 | United Mission to Nepal records | 
  [divinity.213.xml](177.xml) | divinity.213 | RG 213 | Central Asia Fellowship Records | 
  [divinity.217.xml](181.xml) | divinity.217 | RG 217 | Leonard and Marjorie Caldwell Papers | 
  [divinity.218.xml](182.xml) | divinity.218 | RG 218 | Records of the Bible Translation and Utilization Program, NCCUSA | 
  [divinity.219.xml](183.xml) | divinity.219 | RG 219 | Charles and Joy Sheffey Papers | 
- [divinity.022.xml](184.xml) | divinity.022 | RG 22 | Daniel S. and Jane Balderston Dye Papers | 
+ [divinity.022.xml](184.xml) | divinity.022 | RG 22 | Daniel S. and Jane Balderston Dye papers | 
  [divinity.220.xml](185.xml) | divinity.220 | RG 220 | Anna and Stanley Wilson Papers | 
  [divinity.221.xml](186.xml) | divinity.221 | RG 221 | Missionary Ephemera Collection | 
  [divinity.222.xml](187.xml) | divinity.222 | RG 222 | Bradford Edward Ableson Papers | 
@@ -152,7 +152,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.227.xml](192.xml) | divinity.227 | RG 227 | Paul and Frieda Taylor Family Papers | 
  [divinity.228.xml](193.xml) | divinity.228 | RG 228 | Jan H. Boer Collection on Christian-Muslim Relations in Nigeria | 
  [divinity.229.xml](194.xml) | divinity.229 | RG 229 | Lee McGee Street Papers | 
- [divinity.023.xml](195.xml) | divinity.023 | RG 23 | Franklin and Bertha Schweinfurth Ohlinger Papers | 
+ [divinity.023.xml](195.xml) | divinity.023 | RG 23 | Franklin and Bertha Schweinfurth Ohlinger papers | 
  [divinity.230.xml](196.xml) | divinity.230 | RG 230 | H. Boone Porter Papers | 
  [divinity.231.xml](197.xml) | divinity.231 | RG 231 | Commission on Christian Higher Education Research Project records | 
  [divinity.232.xml](198.xml) | divinity.232 | RG 232 | Eunice Johnson Collection on Timothy Richard | 
@@ -162,7 +162,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.236.xml](202.xml) | divinity.236 | RG 236 | Council of Church Boards of Education Records | 
  [divinity.238.xml](204.xml) | divinity.238 | RG 238 | Howard Olson Family Papers | 
  [divinity.239.xml](205.xml) | divinity.239 | RG 239 | United Student Christian Council records | 
- [divinity.024.xml](206.xml) | divinity.024 | RG 24 | James Claude Thomson and James C. Thomson Jr. Papers | 
+ [divinity.024.xml](206.xml) | divinity.024 | RG 24 | James Claude Thomson and James C. Thomson Jr. papers | 
  [divinity.240.xml](207.xml) | divinity.240 | RG 240 | Daniel Webster Crofts Papers | 
  [divinity.241.xml](208.xml) | divinity.241 | RG 241 | Gwen Coventry Papers | 
  [divinity.244.xml](211.xml) | divinity.244 | RG 244 | Rugh Family Papers | 
@@ -171,7 +171,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.247.xml](214.xml) | divinity.247 | RG 247 | National Student Christian Federation Records | 
  [divinity.248.xml](215.xml) | divinity.248 | RG 248 | McCandliss-Judson Family Papers | 
  [divinity.249.xml](216.xml) | divinity.249 | RG 249 | Henry Hale Bucher, Sr. and Louise Scott Bucher Papers | 
- [divinity.025.xml](217.xml) | divinity.025 | RG 25 | Karl and Ada Scheufler Papers | 
+ [divinity.025.xml](217.xml) | divinity.025 | RG 25 | Karl and Ada Scheufler papers | 
  [divinity.250.xml](218.xml) | divinity.250 | RG 250 | Henry Hale Bucher, Jr. Papers | 
  [divinity.251.xml](219.xml) | divinity.251 | RG 251 | Walter and Ruth Marie Taylor Papers | 
  [divinity.252.xml](220.xml) | divinity.252 | RG 252 | Benjamin Severance Winchester Papers | 
@@ -180,36 +180,36 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.256.xml](223.xml) | divinity.256 | RG 256 | Leander E. Keck Papers | 
  [divinity.257.xml](224.xml) | divinity.257 | RG 257 | Dean and Fanny Wickes Papers | 
  [divinity.259.xml](226.xml) | divinity.259 | RG 259 | Campus Ministry Advancement Records | 
- [divinity.026.xml](227.xml) | divinity.026 | RG 26 | Charles Telford Erickson Papers | 
+ [divinity.026.xml](227.xml) | divinity.026 | RG 26 | Charles Telford Erickson papers | 
  [divinity.260.xml](228.xml) | divinity.260 | RG 260 | D.T. Niles Papers | 
  [divinity.261.xml](229.xml) | divinity.261 | RG 261 | Kirkridge Retreat and Study Center records | 
  [divinity.262.xml](230.xml) | divinity.262 | RG 262 | National Council on Religion and Public Education Records | 
  [divinity.263.xml](231.xml) | divinity.263 | RG 263 | John Sung Papers | 
  [divinity.265.xml](233.xml) | divinity.265 | RG 265 | Morse Family Papers: William Reginald and Anne Crosse Morse | 
  [divinity.027.xml](234.xml) | divinity.027 | RG 27 | Yale Divinity School Faculty Writings and Publications | 
- [divinity.028.xml](235.xml) | divinity.028 | RG 28 | Dwight L. Moody Papers | 
+ [divinity.028.xml](235.xml) | divinity.028 | RG 28 | Dwight L. Moody papers | 
  [divinity.003.xml](236.xml) | divinity.003 | RG 3 | Kenneth Scott Latourette papers | 
- [divinity.031.xml](238.xml) | divinity.031 | RG 31 | Katherine Vaughn Papers | 
- [divinity.032.xml](239.xml) | divinity.032 | RG 32 | George Sherwood Eddy Papers | 
+ [divinity.031.xml](238.xml) | divinity.031 | RG 31 | Katherine Vaughn papers | 
+ [divinity.032.xml](239.xml) | divinity.032 | RG 32 | George Sherwood Eddy papers | 
  [divinity.033.xml](240.xml) | divinity.033 | RG 33 | Records of Religious Educational Institutions | 
  [divinity.034.xml](241.xml) | divinity.034 | RG 34 | Records of Religious and Benevolent Societies, Organizations, and Meetings | 
- [divinity.035.xml](242.xml) | divinity.035 | RG 35 | Clarence Prouty Shedd Papers | 
- [divinity.036.xml](243.xml) | divinity.036 | RG 36 | George Albert Coe Papers | 
- [divinity.037.xml](244.xml) | divinity.037 | RG 37 | Charles Reynolds Brown Papers | 
- [divinity.038.xml](245.xml) | divinity.038 | RG 38 | Robert Parmelee Wilder Papers | 
- [divinity.039.xml](246.xml) | divinity.039 | RG 39 | Horace Bushnell Papers | 
+ [divinity.035.xml](242.xml) | divinity.035 | RG 35 | Clarence Prouty Shedd papers | 
+ [divinity.036.xml](243.xml) | divinity.036 | RG 36 | George Albert Coe papers | 
+ [divinity.037.xml](244.xml) | divinity.037 | RG 37 | Charles Reynolds Brown papers | 
+ [divinity.038.xml](245.xml) | divinity.038 | RG 38 | Robert Parmelee Wilder papers | 
+ [divinity.039.xml](246.xml) | divinity.039 | RG 39 | Horace Bushnell papers | 
  [divinity.004.xml](247.xml) | divinity.004 | RG 4 | Hartwell family papers | 
- [divinity.040.xml](248.xml) | divinity.040 | RG 40 | Henry Burt Wright Papers | 
+ [divinity.040.xml](248.xml) | divinity.040 | RG 40 | Henry Burt Wright papers | 
  [divinity.041.xml](249.xml) | divinity.041 | RG 41 | Yale Divinity School Theses | 
- [divinity.042.xml](250.xml) | divinity.042 | RG 42 | Student Volunteer Movement for Foreign Missions Records | 
- [divinity.042a.xml](251.xml) | divinity.042a | RG 42a | Student Volunteer Movement for Foreign Missions Records - Addendum A | 
- [divinity.043.xml](252.xml) | divinity.043 | RG 43 | Theological Discussion Group Papers | 
- [divinity.045.xml](253.xml) | divinity.045 | RG 45 | John R. Mott Papers | 
- [divinity.046.xml](254.xml) | divinity.046 | RG 46 | World Student Christian Federation Records | 
- [divinity.046a.xml](255.xml) | divinity.046a | RG 46A | World Student Christian Federation North America Regional Office Records | 
- [divinity.046b.xml](256.xml) | divinity.046b | RG 46B | World Student Christian Federation Board of Trustees in the U.S. Records | 
- [divinity.046c.xml](257.xml) | divinity.046c | RG 46C | World Student Christian Federation Records, Addendum | 
- [divinity.046d.xml](258.xml) | divinity.046d | RG 46D | World Student Christian Federation Africa Region Records | 
+ [divinity.042.xml](250.xml) | divinity.042 | RG 42 | Student Volunteer Movement for Foreign Missions records | 
+ [divinity.042a.xml](251.xml) | divinity.042a | RG 42a | Student Volunteer Movement for Foreign Missions records - Addendum A | 
+ [divinity.043.xml](252.xml) | divinity.043 | RG 43 | Theological Discussion Group papers | 
+ [divinity.045.xml](253.xml) | divinity.045 | RG 45 | John R. Mott papers | 
+ [divinity.046.xml](254.xml) | divinity.046 | RG 46 | World Student Christian Federation records | 
+ [divinity.046a.xml](255.xml) | divinity.046a | RG 46A | World Student Christian Federation North America Regional Office records | 
+ [divinity.046b.xml](256.xml) | divinity.046b | RG 46B | World Student Christian Federation Board of Trustees in the U.S. records | 
+ [divinity.046c.xml](257.xml) | divinity.046c | RG 46C | World Student Christian Federation records - Addendum | 
+ [divinity.046d.xml](258.xml) | divinity.046d | RG 46D | World Student Christian Federation Africa Region records | 
  [divinity.046e.xml](259.xml) | divinity.046e | RG 46E | World Student Christian Federation Europe Region records | 
  [divinity.047.xml](260.xml) | divinity.047 | RG 47 | Interseminary Commission for Training for the Rural Ministry Records | 
  [divinity.048.xml](261.xml) | divinity.048 | RG 48 | New England Church Records | 
