@@ -284,7 +284,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0667.xml](2180.xml) | mssa.ru.0667 | RU 667 | George B. Peck, Class of 1871, Yale School of Medicine, photograph album documenting life at Yale | 
  [mssa.ru.0670.xml](2181.xml) | mssa.ru.0670 | RU 670 | Edward S. Harkness, Class of 1897, Yale College, Photograph Collection Documenting Student life at Yale | 
  [mssa.ru.0671.xml](2182.xml) | mssa.ru.0671 | RU 671 | Hollon A. Farr, Class of 1896, Yale College, photograph collection documenting life at Yale and in New England | 
- [mssa.ru.0672.xml](2183.xml) | mssa.ru.0672 | RU 672 | Howard C. Tracy, Class of 1887, Yale College, photograph collectiondocumenting life at Yale | 
+ [mssa.ru.0672.xml](2183.xml) | mssa.ru.0672 | RU 672 | Howard C. Tracy, Class of 1887, Yale College, photograph collection documenting life at Yale | 
  [mssa.ru.0673.xml](2184.xml) | mssa.ru.0673 | RU 673 | Glen Wright, Class of 1891, Yale College, Photograph Collection Documenting Life at Yale and in New Haven | 
  [mssa.ru.0674.xml](2185.xml) | mssa.ru.0674 | RU 674 | Frederick Dwight, Class of 1894, Yale College, photograph collection documenting life at Yale | 
  [mssa.ru.0675.xml](2186.xml) | mssa.ru.0675 | RU 675 | Samuel Colgate, Class of 1891, Yale College, photograph collection documenting life at Yale | 
