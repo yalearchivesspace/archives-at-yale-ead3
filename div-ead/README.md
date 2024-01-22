@@ -211,27 +211,27 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.046c.xml](257.xml) | divinity.046c | RG 46C | World Student Christian Federation records - Addendum | 
  [divinity.046d.xml](258.xml) | divinity.046d | RG 46D | World Student Christian Federation Africa Region records | 
  [divinity.046e.xml](259.xml) | divinity.046e | RG 46E | World Student Christian Federation Europe Region records | 
- [divinity.047.xml](260.xml) | divinity.047 | RG 47 | Interseminary Commission for Training for the Rural Ministry Records | 
- [divinity.048.xml](261.xml) | divinity.048 | RG 48 | New England Church Records | 
- [divinity.049.xml](262.xml) | divinity.049 | RG 49 | Liston Pope Papers | 
+ [divinity.047.xml](260.xml) | divinity.047 | RG 47 | Interseminary Commission for Training for the Rural Ministry records | 
+ [divinity.048.xml](261.xml) | divinity.048 | RG 48 | New England church records | 
+ [divinity.049.xml](262.xml) | divinity.049 | RG 49 | Liston Pope papers | 
  [divinity.005.xml](263.xml) | divinity.005 | RG 5 | Smith family papers | 
- [divinity.050.xml](264.xml) | divinity.050 | RG 50 | Douglas Clyde Macintosh Papers | 
- [divinity.051.xml](265.xml) | divinity.051 | RG 51 | George Leon Walker and Williston Walker Papers | 
- [divinity.052.xml](266.xml) | divinity.052 | RG 52 | Henry David Gray Papers | 
- [divinity.054.xml](268.xml) | divinity.054 | RG 54 | New England Commission for United Ministries in Higher Education Records | 
- [divinity.055.xml](269.xml) | divinity.055 | RG 55 | Catholic Apostolic Church Records | 
- [divinity.056.xml](270.xml) | divinity.056 | RG 56 | Congregational Church Records | 
- [divinity.057.xml](271.xml) | divinity.057 | RG 57 | Student Christian Movement in New England Records | 
- [divinity.058.xml](272.xml) | divinity.058 | RG 58 | YMCA - Student Division Records | 
- [divinity.059.xml](273.xml) | divinity.059 | RG 59 | Paul Herman Vieth Papers | 
+ [divinity.050.xml](264.xml) | divinity.050 | RG 50 | Douglas Clyde Macintosh papers | 
+ [divinity.051.xml](265.xml) | divinity.051 | RG 51 | George Leon Walker and Williston Walker papers | 
+ [divinity.052.xml](266.xml) | divinity.052 | RG 52 | Henry David Gray papers | 
+ [divinity.054.xml](268.xml) | divinity.054 | RG 54 | New England Commission for United Ministries in Higher Education records | 
+ [divinity.055.xml](269.xml) | divinity.055 | RG 55 | Catholic Apostolic Church records | 
+ [divinity.056.xml](270.xml) | divinity.056 | RG 56 | Congregational Church records | 
+ [divinity.057.xml](271.xml) | divinity.057 | RG 57 | Student Christian Movement in New England records | 
+ [divinity.058.xml](272.xml) | divinity.058 | RG 58 | YMCA - Student Division records | 
+ [divinity.059.xml](273.xml) | divinity.059 | RG 59 | Paul Herman Vieth papers | 
  [divinity.006.xml](274.xml) | divinity.006 | RG 6 | William Richard Johnson papers | 
- [divinity.060.xml](275.xml) | divinity.060 | RG 60 | Beach Family Papers | 
- [divinity.060a.xml](276.xml) | divinity.060a | RG 60A | David Nelson Beach, Jr. Papers | 
- [divinity.061.xml](277.xml) | divinity.061 | RG 61 | Issues of Peace and War Pamphlet Collection | 
- [divinity.062.xml](278.xml) | divinity.062 | RG 62 | Danforth Study of Campus Ministries Records | 
- [divinity.063.xml](279.xml) | divinity.063 | RG 63 | Dutton Family Papers | 
- [divinity.064.xml](280.xml) | divinity.064 | RG 64 | National Campus Ministry Association Records | 
- [divinity.065.xml](281.xml) | divinity.065 | RG 65 | Gerald H. Beard Papers | 
+ [divinity.060.xml](275.xml) | divinity.060 | RG 60 | Beach Family papers | 
+ [divinity.060a.xml](276.xml) | divinity.060a | RG 60A | David Nelson Beach, Jr. papers | 
+ [divinity.061.xml](277.xml) | divinity.061 | RG 61 | Issues of Peace and War pamphlet collection | 
+ [divinity.062.xml](278.xml) | divinity.062 | RG 62 | Danforth Study of Campus Ministries records | 
+ [divinity.063.xml](279.xml) | divinity.063 | RG 63 | Dutton family papers | 
+ [divinity.064.xml](280.xml) | divinity.064 | RG 64 | National Campus Ministry Association records | 
+ [divinity.065.xml](281.xml) | divinity.065 | RG 65 | Gerald H. Beard papers | 
  [divinity.066.xml](282.xml) | divinity.066 | RG 66 | Enoch Hale Papers | 
  [divinity.067.xml](283.xml) | divinity.067 | RG 67 | Henry Knox Sherrill Family Papers | 
  [divinity.069.xml](284.xml) | divinity.069 | RG 69 | Otis Olney Wright Papers | 
@@ -274,7 +274,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.266a.xml](5385.xml) | divinity.266a | RG 266A | Church of the Redeemer (New Haven, Conn.) Records - Addendum A | 
  [divinity.264.xml](5388.xml) | divinity.264 | RG 264 | National Religious Partnership for the Environment Records | 
  [divinity.258.xml](5390.xml) | divinity.258 | RG 258 | Harry Croswell Papers | 
- [divinity.053.xml](5393.xml) | divinity.053 | RG 53 | Yale University Divinity School Memorabilia Collection | 
+ [divinity.053.xml](5393.xml) | divinity.053 | RG 53 | Yale University Divinity School memorabilia collection | 
  [divinity.243.xml](5394.xml) | divinity.243 | RG 243 | William H. Poteat Papers | 
  [divinity.237.xml](5395.xml) | divinity.237 | RG 237 | Christian Conference of Asia Records | 
  [divinity.214.xml](5398.xml) | divinity.214 | RG 214 | International Nepal Fellowship records | 
