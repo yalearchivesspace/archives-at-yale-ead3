@@ -48,7 +48,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [arts.art.0001.xml](363.xml) | arts.art.0001 | ART 1 | Volvelle collection | 
  [arts.art.0013.xml](364.xml) | arts.art.0013 | ART 13 | Faber Birren papers | 
  [arts.art.0014.xml](365.xml) | arts.art.0014 | ART 14 | Winterhouse Art and Design Collection of Volume 1 Number 1 | 
- [arts.art.0015.xml](366.xml) | arts.art.0015 | ART 15 | Dean Sakamoto Collection of Yale School of Architecture Exhibition Publications | 
  [arts.art.0017.xml](367.xml) | arts.art.0017 | ART 17 | Winterhouse Art and Design Collection of Ezra Winter | 
  [arts.art.0019.xml](368.xml) | arts.art.0019 | ART 19 | Winterhouse Art and Design collection of Pentagram ephemera | 
  [arts.art.0002.xml](369.xml) | arts.art.0002 | ART 2 | Artists Pamphlet collection | 
