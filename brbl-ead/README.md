@@ -1662,9 +1662,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.plante.xml](11836.xml) | beinecke.plante | OSB MSS 308 | David Plante papers | 
  [beinecke.shapirod.xml](11837.xml) | beinecke.shapirod | YCAL MSS 1422 | David Shapiro papers | 
  [beinecke.myles.xml](11839.xml) | beinecke.myles | YCAL MSS 1466 | Eileen Myles papers | 
+ [beinecke.weissman.xml](11841.xml) | beinecke.weissman | YCAL MSS 1556 | Norman Weissman papers | 
  [beinecke.tgluck.xml](11842.xml) | beinecke.tgluck | YCAL MSS 1535 | Tereze Glück papers | 
  [beinecke.bland.xml](11843.xml) | beinecke.bland | JWJ MSS 310 | Ed Bland papers | 
  [beinecke.gustafson .xml](11844.xml) | beinecke.gustafson  | GEN MSS 997 | R. Eric Gustafson papers | 
+ [beinecke.rmkoster.xml](11845.xml) | beinecke.rmkoster | YCAL MSS 1540 | R. M. Koster papers | 
  [beinecke.hollo.xml](11847.xml) | beinecke.hollo | GEN MSS 1701 | Anselm Hollo papers | 
  [beinecke.bsmith.xml](11849.xml) | beinecke.bsmith | YCAL MSS 1554 | Bradley Smith collection of Henry Miller | 
  [beinecke.sklar.xml](11850.xml) | beinecke.sklar | YCAL MSS 1446 | George Sklar and Miriam Blecher papers | 
@@ -1672,6 +1674,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.oleary.xml](11856.xml) | beinecke.oleary | GEN MSS 1780 | Jean O'Leary papers | 
  [beinecke.katz.xml](11857.xml) | beinecke.katz | YCAL MSS 1409 | Leon Katz papers | 
  [beinecke.perenyi.xml](11858.xml) | beinecke.perenyi | GEN MSS 1771 | Eleanor Perényi papers | 
+ [beinecke.jacksonr.xml](11860.xml) | beinecke.jacksonr | YCAL MSS 1530 | Roger Jackson collection of Henry Miller and Irving Stettner | 
  [beinecke.cheney.xml](11861.xml) | beinecke.cheney | YCAL MSS 1534 | Russell Cheney papers | 
  [beinecke.strub.xml](11862.xml) | beinecke.strub | GEN MSS 1781 | Sean Strub papers | 
  [beinecke.peranio.xml](11863.xml) | beinecke.peranio | YCAL MSS 1346 | Vincent Peranio Papers | 
@@ -1796,6 +1799,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.internationalimperialcourt.xml](12771.xml) | beinecke.internationalimperialcourt | GEN MSS 1840 | International Imperial Court System collection | 
  [beinecke.harada.xml](12775.xml) | beinecke.harada | WA Photos 1336 | Photographs Related to the United States Military Intelligence Service and Japanese American Soldiers in the Philippines and Japan | 
  [beinecke.aheloiseabel.xml](12780.xml) | beinecke.aheloiseabel | WA MSS S-3943 | Annie Heloise Abel notebooks | 
+ [beinecke.suttonjf.xml](12781.xml) | beinecke.suttonjf | YCAL MSS 1522 | John Frederick Sutton collection of glass slides and motion picture films | 
  [beinecke.stephensbarge.xml](12782.xml) | beinecke.stephensbarge | YCAL MSS 1124 | Stephen Sbarge Papers | 
  [beinecke.eventrecordings.xml](12787.xml) | beinecke.eventrecordings | GEN MSS 2108 | Beinecke Rare Book and Manuscript Library event recordings | 
  [beinecke.eliasloomisletters.xml](12811.xml) | beinecke.eliasloomisletters | GEN MSS 2110 | Letters to Elias Loomis | 
@@ -1819,6 +1823,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.marblepollock.xml](12993.xml) | beinecke.marblepollock | YCAL MSS 1541 | Anna Marble-Pollock cat collection | 
  [beinecke.felver.xml](13001.xml) | beinecke.felver | WA Photos 1342 | Chris Felver photographs | 
  [beinecke.winks.xml](13007.xml) | beinecke.winks | GEN MSS 2087 | Robin W. Winks papers relating to United States intelligence services and officers | 
+ [beinecke.krech.xml](13009.xml) | beinecke.krech | GEN MSS 2091 | Shepard Krech collection of George Cruikshank | 
  [ead.beinecke.detroitcardoza.xml](13014.xml) | ead.beinecke.detroitcardoza | WA Photos 1344 | Photochroms of Sites in the United States and Mexico | 
  [beinecke.gordon.xml](13022.xml) | beinecke.gordon | OSB MSS 342 | Gordon of Gordonstoun papers | 
  [beinecke.holker.xml](13023.xml) | beinecke.holker | GEN MSS 2092 | John Holker papers | 
