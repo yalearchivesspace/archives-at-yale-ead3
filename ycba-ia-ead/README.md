@@ -44,6 +44,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.ia.A011.xml](10731.xml) | ycba.ia.A011 | A011 | Yale Center for British Art printed materials | 
  [ycba.ia.S004.xml](10746.xml) | ycba.ia.S004 | S004 | Jules David Prown collection of Louis I. Kahn Interviews by John W. Cook and Heinrich Klotz | 
  [11403.xml](11403.xml) |  |  S022 | John Baskett papers | 
- [ycba.mss.0066.xml](11734.xml) | ycba.mss.0066 | Folio A 2023 69 | A voyage from England to Bombay with descriptions in Asia, Africa, and South America | 
  [13080.xml](13080.xml) |  | S018 | Duncan Robinson papers on Paul Mellon | 
 
