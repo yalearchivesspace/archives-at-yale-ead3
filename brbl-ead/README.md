@@ -1836,9 +1836,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.scuro.xml](13086.xml) | beinecke.scuro | GEN MSS 2117 | Enrico Scuro Photographs | 
  [beinecke.voynichprovenance.xml](13090.xml) | beinecke.voynichprovenance | Beinecke MS 408A | Wilfred M. Voynich and Ethel Voynich  provenance and research files on the Cipher (Voynich) manuscript | 
  [beinecke.bcallison.xml](13093.xml) | beinecke.bcallison | WA MSS S-4544 | Bill Callison collection of Peace and Freedom Party of California papers | 
+ [beinecke.steinbergfoundation.xml](13107.xml) | beinecke.steinbergfoundation | YCAL MSS 1609 | Saul Steinberg Foundation records | 
  [Beinecke.stepto.xml](13141.xml) | Beinecke.stepto | JWJ MSS 379 | Robert B. Stepto papers | 
  [beinecke.edwardburns.xml](13172.xml) | beinecke.edwardburns | YCAL MSS 1610 | Edward Burns collection of Alice B. Toklas and Gertrude Stein papers | 
  [beinecke.ecmason.xml](13212.xml) | beinecke.ecmason | WA MSS S-4549 | Edwin Cooley Mason and Minerva Needham Mason letters to Rodney Mason | 
+ [beinecke.alexis.xml](13263.xml) | beinecke.alexis | GEN MSS 2121 | André Alexis papers | 
  [beinecke.scole.xml](13275.xml) | beinecke.scole | YCAL MSS 1615 | Susan Cole papers | 
  [beinecke.manhattanproject.xml](13281.xml) | beinecke.manhattanproject | WA MSS S-4551 | The Manhattan Project Medical Group collection | 
  [beinecke.hsfowler.xml](13293.xml) | beinecke.hsfowler | WA MSS S-4552 | Helen Solberg Fowler papers | 
