@@ -1729,6 +1729,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.gaust.xml](12066.xml) | beinecke.gaust | OSB MSS 270 | George Aust papers | 
  [12069.xml](12069.xml) |  | YCAL MSS 1378 | Eugene O'Neil: A Documentary Film | 
  [12071.xml](12071.xml) |  | YCAL MSS 1379 | Playwrights' Theatre Footage of O'Neill Festival | 
+ [beinecke.chast.xml](12072.xml) | beinecke.chast | GEN MSS 2127 | Roz Chast papers | 
  [beinecke.leephotographs.xml](12075.xml) | beinecke.leephotographs | WA MSS S-4426 | Joseph W. Lee and Nancy L. Kim Lee photographs | 
  [beinecke.photoorderbook.xml](12083.xml) | beinecke.photoorderbook | WA Photos Folio 214 | Photographic order book for images of California, Hawaii, and Yellowstone National Park | 
  [beinecke.westernfilmscenes.xml](12085.xml) | beinecke.westernfilmscenes | WA Photos 1292 | Photographs of scenes from films relating to the American West, Southwest, and Mexico | 
@@ -1844,9 +1845,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.scole.xml](13275.xml) | beinecke.scole | YCAL MSS 1615 | Susan Cole papers | 
  [beinecke.manhattanproject.xml](13281.xml) | beinecke.manhattanproject | WA MSS S-4551 | The Manhattan Project Medical Group collection | 
  [beinecke.hsfowler.xml](13293.xml) | beinecke.hsfowler | WA MSS S-4552 | Helen Solberg Fowler papers | 
+ [beinecke.pkennedy.xml](13302.xml) | beinecke.pkennedy | GEN MSS 2126 | Paul Kennedy papers | 
  [beinecke.lauramcphee.xml](13309.xml) | beinecke.lauramcphee | WA MSS S-4553 | Laura McPhee papers | 
  [13310.xml](13310.xml) |  | GEN MSS 827 | Edward Parker Read Papers | 
  [beinecke.imperialbritish.xml](13324.xml) | beinecke.imperialbritish | OSB MSS 344 | Imperial British East Africa Company papers | 
+ [beinecke.lyman.xml](13337.xml) | beinecke.lyman | GEN MSS 2122 | Donald Lyman papers | 
  [beinecke.miningforms.xml](13342.xml) | beinecke.miningforms | WA MSS S-1359 | Mining Forms and Certificates Collection | 
  [beinecke.californialetters.xml](13344.xml) | beinecke.californialetters | WA MSS S-1337 | California Letters | 
  [beinecke.lchoris.xml](13346.xml) | beinecke.lchoris | WA MSS S-260 | Louis Choris Paintings and Sketches | 
