@@ -86,4 +86,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0101.xml](13358.xml) | med.ms.0101 | Ms Coll 101 | Life magazines featuring in utero photography by Lennart Nilsson, autographed | 
  [med.ms.0096.xml](13360.xml) | med.ms.0096 | Ms Coll 96 | Medical diplomas and certificates collection | 
  [ms.med.0102.xml](13442.xml) | ms.med.0102 | Ms Coll 102 | Ravi D. Goel collection of George T. Pack papers | 
+ [med.pam.0014.xml](13444.xml) | med.pam.0014 | Pam Coll 14 | Pamphlets on venereal disease | 
 
