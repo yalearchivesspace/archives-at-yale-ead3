@@ -27,4 +27,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [lwl.mss.044.xml](13378.xml) | lwl.mss.044 | LWL MSS 44 | James Barry Papers | 
  [lwl.mss.028.xml](13420.xml) | lwl.mss.028 | LWL MSS 28 | Thomas Osbert Mordaunt correspondence | 
  [lwl.mss.018.xml](13423.xml) | lwl.mss.018 | LWL MSS 18 | Lee Family Financial Papers | 
+ [ lwl.mss.047.xml](13450.xml) |  lwl.mss.047 | LWL MSS 47 | William Henry Zuylestein, Earl of Rochford, papers | 
 
