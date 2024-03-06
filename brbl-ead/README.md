@@ -1855,6 +1855,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lchoris.xml](13346.xml) | beinecke.lchoris | WA MSS S-260 | Louis Choris Paintings and Sketches | 
  [beinecke.govan.xml](13348.xml) | beinecke.govan | JWJ MSS 381 | Sandra Govan collection of Gwendolyn Bennett and Richard Bruce Nugent interviews | 
  [beinecke.downey.xml](13354.xml) | beinecke.downey | GEN MSS 2125 | John T. Downey papers | 
+ [beinecke.jiviney.xml](13356.xml) | beinecke.jiviney | GEN.MSS.2124 | John Irwin Viney papers | 
  [beinecke.deweylowell.xml](13363.xml) | beinecke.deweylowell | YCAL MSS 1616 | Dewey-Lowell family papers | 
  [beinecke.godfrey.xml](13377.xml) | beinecke.godfrey | YCAL MSS 1617 | John Godfrey Papers | 
  [beinecke.baldwinwinfield.xml](13401.xml) | beinecke.baldwinwinfield | JWJ MSS 156 | James Baldwin correspondence with Orilla Miller Winfield | 
