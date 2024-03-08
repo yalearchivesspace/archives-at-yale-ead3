@@ -1747,6 +1747,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bensonphotographs.xml](12142.xml) | beinecke.bensonphotographs | WA Photos 1296 | Ruth Wilhelmina Kohlstedt Benson and Eloise Jeanette Benson Nicholl photographs and photograph albums of California life | 
  [beinecke.begon.xml](12152.xml) | beinecke.begon | GEN MSS 1756 | Michel Bégon papers | 
  [beinecke.wwirwin.xml](12153.xml) | beinecke.wwirwin | WA MSS S-4453 | William Wallace Irwin papers | 
+ [beinecke.fscummings.xml](12160.xml) | beinecke.fscummings | WA MSS S-4487 | Frank Schilling Cummings papers | 
  [beinecke.thouin.xml](12163.xml) | beinecke.thouin | GEN MSS 1758 | André Thouin papers | 
  [beinecke.solomondbutcher.xml](12165.xml) | beinecke.solomondbutcher | WA Photos 1273 | Solomon D. Butcher photographs and photographic postcards of Nebraska | 
  [beinecke.mpschon.xml](12166.xml) | beinecke.mpschon | WA MSS S-4486 | Michael P. Schon collection of Peace and Freedom Party of California papers | 
