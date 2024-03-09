@@ -1850,6 +1850,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lauramcphee.xml](13309.xml) | beinecke.lauramcphee | WA MSS S-4553 | Laura McPhee papers | 
  [13310.xml](13310.xml) |  | GEN MSS 827 | Edward Parker Read Papers | 
  [beinecke.imperialbritish.xml](13324.xml) | beinecke.imperialbritish | OSB MSS 344 | Imperial British East Africa Company papers | 
+ [beinecke.dphillips.xml](13333.xml) | beinecke.dphillips | GEN MSS 2132 | David F. Phillips papers | 
  [beinecke.lyman.xml](13337.xml) | beinecke.lyman | GEN MSS 2122 | Donald Lyman papers | 
  [beinecke.miningforms.xml](13342.xml) | beinecke.miningforms | WA MSS S-1359 | Mining Forms and Certificates Collection | 
  [beinecke.californialetters.xml](13344.xml) | beinecke.californialetters | WA MSS S-1337 | California Letters | 
@@ -1859,6 +1860,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jiviney.xml](13356.xml) | beinecke.jiviney | GEN.MSS.2124 | John Irwin Viney papers | 
  [beinecke.deweylowell.xml](13363.xml) | beinecke.deweylowell | YCAL MSS 1616 | Dewey-Lowell family papers | 
  [beinecke.godfrey.xml](13377.xml) | beinecke.godfrey | YCAL MSS 1617 | John Godfrey Papers | 
+ [beinecke.videoverite.xml](13385.xml) | beinecke.videoverite | GEN MSS 2130 | Video Verité papers | 
  [beinecke.baldwinwinfield.xml](13401.xml) | beinecke.baldwinwinfield | JWJ MSS 156 | James Baldwin correspondence with Orilla Miller Winfield | 
  [westfamily.xml](13404.xml) | westfamily | WA MSS S-4127 | William Steele West family papers | 
+ [beinecke.brig.xml](13418.xml) | beinecke.brig | YCAL MSS 1618 | Ilya Simakov collection of the Living Theatre 2008 tour of The Brig | 
 
