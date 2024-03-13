@@ -358,4 +358,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.334.xml](13414.xml) | divinity.334 | RG 334 | Wood Family Ephemera Collection | 
  [divinity.333.xml](13424.xml) | divinity.333 | RG 333 | John Luther Dickson Papers | 
  [divinity.323.xml](13437.xml) | divinity.323 | RG 323 | Lamin Sanneh Papers | 
+ [divinity.339.xml](13465.xml) | divinity.339 | RG 339 | Mills Family Papers | 
 
