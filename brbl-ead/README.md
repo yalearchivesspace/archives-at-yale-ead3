@@ -1860,6 +1860,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.downey.xml](13354.xml) | beinecke.downey | GEN MSS 2125 | John T. Downey papers | 
  [beinecke.jiviney.xml](13356.xml) | beinecke.jiviney | GEN.MSS.2124 | John Irwin Viney papers | 
  [beinecke.deweylowell.xml](13363.xml) | beinecke.deweylowell | YCAL MSS 1616 | Dewey-Lowell family papers | 
+ [13375.xml](13375.xml) |  | GEN MSS 2128 | Joshua P. Smith Collection of East German Underground Art and Photography | 
  [beinecke.godfrey.xml](13377.xml) | beinecke.godfrey | YCAL MSS 1617 | John Godfrey Papers | 
  [beinecke.videoverite.xml](13385.xml) | beinecke.videoverite | GEN MSS 2130 | Video Verité papers | 
  [beinecke.baldwinwinfield.xml](13401.xml) | beinecke.baldwinwinfield | JWJ MSS 156 | James Baldwin correspondence with Orilla Miller Winfield | 
