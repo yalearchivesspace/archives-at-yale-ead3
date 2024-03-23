@@ -29,4 +29,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [lwl.mss.018.xml](13423.xml) | lwl.mss.018 | LWL MSS 18 | Lee Family Financial Papers | 
  [lwl.mss.047.xml](13450.xml) | lwl.mss.047 | LWL MSS 47 | William Henry Zuylestein, Earl of Rochford, papers | 
  [lwl.mss.048.xml](13464.xml) | lwl.mss.048 | LWL MSS 48 | Anne Seymour Damer Collection | 
+ [lwl.mss.049.xml](13478.xml) | lwl.mss.049 | LWL MSS 49 | Elizabeth Montagu collection | 
 
