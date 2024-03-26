@@ -1773,6 +1773,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.dyerwhite.xml](12288.xml) | beinecke.dyerwhite | GEN MSS 1862 | Dyer White papers | 
  [beinecke.echaurren.xml](12289.xml) | beinecke.echaurren | GEN MSS 2001 | Pablo Echaurren papers | 
  [beinecke.dorsetdocuments.xml](12293.xml) | beinecke.dorsetdocuments | GEN MSS 1870 | Collection of Dorset, England legal documents | 
+ [beinecke.posada.xml](12296.xml) | beinecke.posada | GEN MSS 2135 | Antonio Vanegas Arroyo collection of José Guadalupe Posada | 
  [beinecke.jsdarling.xml](12300.xml) | beinecke.jsdarling | GEN MSS 1877 | Joseph and Samuel Darling Account Books and Daybooks | 
  [beinecke.sjhitchcock.xml](12301.xml) | beinecke.sjhitchcock | GEN MSS 1878 | Samuel J. Hitchcock Papers | 
  [beinecke.matte.xml](12304.xml) | beinecke.matte | GEN MSS 2115 | Matte records | 
