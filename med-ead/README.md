@@ -89,6 +89,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0104.xml](13443.xml) | med.ms.0104 | Ms Coll 104 | José Manuel Rodríguez Delgado papers | 
  [med.pam.0014.xml](13444.xml) | med.pam.0014 | Pam Coll 14 | Pamphlets on venereal disease | 
  [med.ms.0103.xml](13451.xml) | med.ms.0103 | Ms Coll 103 | Penicillin collection | 
- [med.pa,.0016.xml](13474.xml) | med.pa,.0016 | Pam Coll 16 | Pharmaceutical and chemical company publications | 
+ [med.pam.0016.xml](13474.xml) | med.pam.0016 | Pam Coll 16 | Pharmaceutical and chemical company publications | 
  [med.pam.0015.xml](13475.xml) | med.pam.0015 | Pam Coll 15 | Pamphlets on alcoholism | 
 
