@@ -1869,5 +1869,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [westfamily.xml](13404.xml) | westfamily | WA MSS S-4127 | William Steele West family papers | 
  [beinecke.brig.xml](13418.xml) | beinecke.brig | YCAL MSS 1618 | Ilya Simakov collection of the Living Theatre 2008 tour of The Brig | 
  [beinecke.alexanian.xml](13440.xml) | beinecke.alexanian | GEN MSS 2133 | Kohar Alexanian papers | 
+ [beinecke.sobincorrwrit.xml](13449.xml) | beinecke.sobincorrwrit | YCAL MSS 1620 | Gustaf Sobin Correspondence and Writings | 
  [beinecke.gould.xml](13467.xml) | beinecke.gould | GENAM MSS Gould | Annie Allender Gould papers | 
 
