@@ -1100,7 +1100,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bevan.xml](1644.xml) | beinecke.bevan | YCAL MSS 537 | Frank Poole Bevan Papers | 
  [beinecke.bennettm.xml](1645.xml) | beinecke.bennettm | YCAL MSS 538 | Michael Bennett papers | 
  [beinecke.vizenor.xml](1646.xml) | beinecke.vizenor | YCAL MSS 539 | Gerald Robert Vizenor papers | 
- [beinecke.olga.xml](1647.xml) | beinecke.olga | YCAL MSS 54 | Olga Rudge Papers | 
+ [beinecke.olga.xml](1647.xml) | beinecke.olga | YCAL MSS 54 | Olga Rudge papers | 
  [beinecke.gouldl.xml](1648.xml) | beinecke.gouldl | YCAL MSS 540 | Lois Gould papers | 
  [beinecke.gabo.xml](1649.xml) | beinecke.gabo | YCAL MSS 541 | Naum Gabo papers | 
  [beinecke.szold.xml](1650.xml) | beinecke.szold | YCAL MSS 544 | Bernardine Szold-Fritz correspondence | 
