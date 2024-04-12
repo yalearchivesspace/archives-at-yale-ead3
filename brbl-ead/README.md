@@ -1871,4 +1871,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.alexanian.xml](13440.xml) | beinecke.alexanian | GEN MSS 2133 | Kohar Alexanian papers | 
  [beinecke.sobincorrwrit.xml](13449.xml) | beinecke.sobincorrwrit | YCAL MSS 1620 | Gustaf Sobin Correspondence and Writings | 
  [beinecke.gould.xml](13467.xml) | beinecke.gould | GENAM MSS Gould | Annie Allender Gould papers | 
+ [beinecke.american1919.xml](13492.xml) | beinecke.american1919 | JWJ MSS 126 | American 1919 race riots collection | 
 
