@@ -1870,6 +1870,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.brig.xml](13418.xml) | beinecke.brig | YCAL MSS 1618 | Ilya Simakov collection of the Living Theatre 2008 tour of The Brig | 
  [beinecke.alexanian.xml](13440.xml) | beinecke.alexanian | GEN MSS 2133 | Kohar Alexanian papers | 
  [beinecke.sobincorrwrit.xml](13449.xml) | beinecke.sobincorrwrit | YCAL MSS 1620 | Gustaf Sobin Correspondence and Writings | 
+ [habermantrusty.xml](13456.xml) | habermantrusty | JWJ MSS 384 | Karen Haberman Trusty Collection of Mississippi Freedom Project | 
  [beinecke.gould.xml](13467.xml) | beinecke.gould | GENAM MSS Gould | Annie Allender Gould papers | 
  [beinecke.american1919.xml](13492.xml) | beinecke.american1919 | JWJ MSS 126 | American 1919 race riots collection | 
 
