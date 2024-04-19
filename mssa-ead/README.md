@@ -562,7 +562,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0545.xml](2459.xml) | mssa.ru.0545 | RU 545 | Human Resources Office, Yale University, records | 
  [mssa.ru.0562.xml](2460.xml) | mssa.ru.0562 | RU 562 | Yale School of Music grade books | 
  [mssa.ru.0563.xml](2461.xml) | mssa.ru.0563 | RU 563 | Department of Pathology, School of Medicine, Yale University, records | 
- [mssa.ru.0576.xml](2462.xml) | mssa.ru.0576 | RU 576 | Yale College records concerning the floating counselor program | 
  [mssa.ru.0583.xml](2463.xml) | mssa.ru.0583 | RU 583 | Committee on Bachelor of Arts Degree, Yale College, Records | 
  [mssa.ru.0586.xml](2464.xml) | mssa.ru.0586 | RU 586 | Navy V-12 program, Yale University, records | 
  [mssa.ru.0593.xml](2465.xml) | mssa.ru.0593 | RU 593 | Department of International Relations, Yale University, records | 
@@ -2111,7 +2110,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0206.xml](4038.xml) | mssa.ms.0206 | MS 206 | Charles Andrews Fenton papers | 
  [mssa.ms.0207.xml](4039.xml) | mssa.ms.0207 | MS 207 | James William Fesler papers | 
  [mssa.ms.0230.xml](4040.xml) | mssa.ms.0230 | MS 230 | Gardiner-Tyler Family Papers | 
- [mssa.ms.0240.xml](4041.xml) | mssa.ms.0240 | MS 240 | Gilman Family Papers | 
+ [mssa.ms.0240.xml](4041.xml) | mssa.ms.0240 | MS 240 | Gilman Family papers | 
  [mssa.ms.0281.xml](4042.xml) | mssa.ms.0281 | MS 281 | Charles Dewey Hilles papers | 
  [mssa.ms.0282.xml](4043.xml) | mssa.ms.0282 | MS 282 | Hillhouse family papers | 
  [mssa.ms.0309.xml](4044.xml) | mssa.ms.0309 | MS 309 | William Kent family papers | 
