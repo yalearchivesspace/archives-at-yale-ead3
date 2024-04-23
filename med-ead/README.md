@@ -87,8 +87,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0096.xml](13360.xml) | med.ms.0096 | Ms Coll 96 | Medical diplomas and certificates collection | 
  [ms.med.0102.xml](13442.xml) | ms.med.0102 | Ms Coll 102 | Ravi D. Goel collection of George T. Pack papers | 
  [med.ms.0104.xml](13443.xml) | med.ms.0104 | Ms Coll 104 | José Manuel Rodríguez Delgado papers | 
- [med.pam.0014.xml](13444.xml) | med.pam.0014 | Pam Coll 14 | Pamphlets on venereal disease | 
+ [med.pam.0014.xml](13444.xml) | med.pam.0014 | Pam Coll 14 | Pamphlets on venereal disease (sexually transmitted disease) | 
  [med.ms.0103.xml](13451.xml) | med.ms.0103 | Ms Coll 103 | Penicillin collection | 
  [med.pam.0016.xml](13474.xml) | med.pam.0016 | Pam Coll 16 | Pharmaceutical and chemical company publications | 
  [med.pam.0015.xml](13475.xml) | med.pam.0015 | Pam Coll 15 | Pamphlets on alcoholism | 
+ [med.pam.0020.xml](13506.xml) | med.pam.0020 | Pam Coll 20 | Pamphlets on civil defense | 
+ [med.pam.0021.xml](13507.xml) | med.pam.0021 | Pam Coll 21 | Publications on smoking, tobacco, and cancer | 
+ [med.pam.0018.xml](13508.xml) | med.pam.0018 | Pam Coll 18 | Publications on birth control and pregnancy health | 
 
