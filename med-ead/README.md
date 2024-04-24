@@ -94,4 +94,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.pam.0020.xml](13506.xml) | med.pam.0020 | Pam Coll 20 | Pamphlets on civil defense | 
  [med.pam.0021.xml](13507.xml) | med.pam.0021 | Pam Coll 21 | Publications on smoking, tobacco, and cancer | 
  [med.pam.0018.xml](13508.xml) | med.pam.0018 | Pam Coll 18 | Publications on birth control and pregnancy health | 
+ [med.pam.0019.xml](13513.xml) | med.pam.0019 | Pam Coll 19 | Publications on fluoridation | 
 
