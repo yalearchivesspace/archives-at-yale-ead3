@@ -1443,7 +1443,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wrbenet.xml](5845.xml) | beinecke.wrbenet | YCAL MSS 1100 | William Rose Benét Papers | 
  [beinecke.tellefsen.xml](5848.xml) | beinecke.tellefsen | GEN MSS 1431 | Lisbet Tellefsen papers | 
  [beinecke.pryor.xml](5860.xml) | beinecke.pryor | JWJ MSS 179 | Richard Pryor collection | 
- [beinecke.bourneg.xml](5871.xml) | beinecke.bourneg | Gen MSS 1438 | Bourne Family Papers | 
+ [beinecke.bourneg.xml](5871.xml) | beinecke.bourneg | Gen MSS 1438 | Bourne family papers | 
  [beinecke.carrega.xml](5876.xml) | beinecke.carrega | GEN MSS 1450 | Ugo Carrega artwork | 
  [beinecke.nwcompany.xml](5879.xml) | beinecke.nwcompany | WA MSS S-3238 | North West Company voyageur contracts | 
  [beinecke.nuland.xml](5883.xml) | beinecke.nuland | YCAL MSS 1113 | Sherwin B. Nuland papers | 
@@ -1871,6 +1871,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.alexanian.xml](13440.xml) | beinecke.alexanian | GEN MSS 2133 | Kohar Alexanian papers | 
  [beinecke.sobincorrwrit.xml](13449.xml) | beinecke.sobincorrwrit | YCAL MSS 1620 | Gustaf Sobin Correspondence and Writings | 
  [habermantrusty.xml](13456.xml) | habermantrusty | JWJ MSS 384 | Karen Haberman Trusty Collection of Mississippi Freedom Project | 
- [beinecke.gould.xml](13467.xml) | beinecke.gould | GENAM MSS Gould | Annie Allender Gould papers | 
  [beinecke.american1919.xml](13492.xml) | beinecke.american1919 | JWJ MSS 126 | American 1919 race riots collection | 
 
