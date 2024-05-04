@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,7 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/mssa.ms.0602">mssa.ms.0602</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/mssa.ms.0602">mssa.ms.0602</recordid>
       <otherrecordid localtype="BIB">613965</otherrecordid>
       <filedesc>
          <titlestmt>
@@ -23,7 +24,9 @@
                <addressline>Yale University Library</addressline>
                <addressline>P.O. Box 208240</addressline>
                <addressline>New Haven, CT 06520-8240</addressline>
-               <addressline localtype="email">mssa.assist@yale.edu</addressline>
+               <addressline localtype="telephone">(203) 432-1735</addressline>
+               <addressline localtype="fax">(203) 432-7441</addressline>
+               <addressline localtype="email">beinecke.library@yale.edu</addressline>
                <addressline>
                   <ref href="http://www.library.yale.edu/mssa/"
                        linktitle="http://www.library.yale.edu/mssa/"
@@ -36,6 +39,9 @@
          <notestmt>
             <controlnote>
                <p>This encoded finding aid is compliant with the Yale EAD Best Practice Guidelines, Version 1.0.</p>
+            </controlnote>
+            <controlnote localtype="digital">
+               <p>This collection contains <num localtype="objects" altrender="6">6</num> published digital objects. And those objects are comprised of <num localtype="files" altrender="15">15</num> digital files.</p>
             </controlnote>
          </notestmt>
       </filedesc>
@@ -68,10 +74,17 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2021-06-19T07:16:18+00:00</eventdatetime>
+            <eventdatetime>2024-05-04T07:05:13+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.7.1.yale.20200820</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday June 19, 2021 at 07:16</eventdescription>
+            <agent>ArchivesSpace yale-rebased-v3.3.1</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Saturday May  4, 2024 at 07:05</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime>September 2021</eventdatetime>
+            <agenttype value="unknown"/>
+            <agent/>
+            <eventdescription>Finding aid revised to replace racist and harmful descriptive language. See the processing note for more information.</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -109,35 +122,26 @@
          </unitdatestructured>
          <abstract id="aspace_ca49d2400e0c2fb4652e344b35697f60">Letters and manuscripts to and from Yung Wing, the first Chinese student to graduate from Yale (1854). Also included are electrostatic copies of all the Yung Wing material from other collections in Manuscripts and Archives and Beinecke Rare Book and Manuscript Library, as well as three unfilmed additions of correspondence from Mary Kellogg Yung, wife of Yung Wing, with Jane Bartlett Kellogg, her sister, and Mary Bartlett Kellogg, her mother. Exhibit panels, printed material, and audiovisual items pertaining to Yung Wing complete the papers.</abstract>
          <origination label="Creator">
-            <persname identifier="http://id.loc.gov/authorities/names/n81146562" source="naf">
+            <persname>
                <part localtype="agent_person">Yung, Wing, 1828-1912</part>
             </persname>
          </origination>
-    
       </did>
-      <altformavail id="aspace_01dc7855fd141dbfca08b63a1990cf0a">
-         <head>Existence and Location of Copies</head>
-         <p>The collection, with the exception of Accessions 1999-M-068, 2000-M-097, 2001-M-052, and 2005-M-073, is also available on microfilm (177 frames on 1 reel, 35mm.) from Manuscripts and Archives, Yale University Library, at cost. Order no. HM18.</p>  
-      </altformavail>
       <accessrestrict id="aspace_97f54aba0a02070ec4cacbf38a3eccad">
          <head>Conditions Governing Access</head>
-         <p>The collection, with the exception of Accessions 1999-M-068, 2000-M-097, 2001-M-052, and 2005-M-073, is also available on microfilm. For the portions which have been filmed, patrons must use HM 18 instead of the originals. The materials are open for research. Original audiovisual materials, as well as preservation and duplicating masters, may not be played. Researchers must consult use copies, or if none exist must pay for a use copy, which is retained by the repository. Researchers wishing to obtain an additional copy for their personal use should consult Copying Services information on the Manuscripts and Archives web site.Copies of commercially produced audiovisual materials contained in this collection cannot be made for researcher use outside of the repository.</p>  
+         <p>The collection, with the exception of Accessions 1999-M-068, 2000-M-097, 2001-M-052, and 2005-M-073, is also available on microfilm. For the portions which have been filmed, patrons must use HM 18 instead of the originals. The materials are open for research. Original audiovisual materials, as well as preservation and duplicating masters, may not be played. Researchers must consult use copies, or if none exist must pay for a use copy, which is retained by the repository. Researchers wishing to obtain an additional copy for their personal use should consult Copying Services information on the Manuscripts and Archives web site.Copies of commercially produced audiovisual materials contained in this collection cannot be made for researcher use outside of the repository.</p>
       </accessrestrict>
       <acqinfo id="aspace_28c1943b360625186df051545cb81aae">
          <head>Immediate Source of Acquisition</head>
-         <p>Papers transferred from various collections in Manuscripts and Archives and the Beinecke Rare Book Library; gift of Jane Kellogg, 1998; gift of Elizabeth Jones, 2000; transfer from the Department of History, 2001; and gift of Zhuhai International Culture Association, China, 2005.</p>  
+         <p>Papers transferred from various collections in Manuscripts and Archives and the Beinecke Rare Book Library; gift of Jane Kellogg, 1998; gift of Elizabeth Jones, 2000; transfer from the Department of History, 2001; and gift of Zhuhai International Culture Association, China, 2005.</p>
       </acqinfo>
-      <userestrict id="aspace_5c788f83ebab681132942c10b93fe10d">
-         <head>Conditions Governing Use</head>
-         <p>Copyright status for collection materials is unknown, though much of the material in this collection is likely in the public domain. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>  
-      </userestrict>
-      <prefercite id="aspace_8643ee6852a5ca4604cff0dcfa8c44eb">
-         <head>Preferred Citation</head>
-         <p>Yung Wing Papers (MS 602). Manuscripts and Archives, Yale University Library.</p>  
-      </prefercite>
+      <altformavail id="aspace_01dc7855fd141dbfca08b63a1990cf0a">
+         <head>Existence and Location of Copies</head>
+         <p>The collection, with the exception of Accessions 1999-M-068, 2000-M-097, 2001-M-052, and 2005-M-073, is also available on microfilm (177 frames on 1 reel, 35mm.) from Manuscripts and Archives, Yale University Library, at cost. Order no. HM18.</p>
+      </altformavail>
       <arrangement id="aspace_61def2f58a91195153ce4b5ba2033a7a">
          <head>Arrangement</head>
-         <p>The microfilmed items are arranged alphabetically by correspondent with a folder of poems placed at the end. There is also a folder of photocopied material which is arranged chronologically, 1848-1910. Unfilmed additions to the collection are arranged by type of material.</p>  
+         <p>The microfilmed items are arranged alphabetically by correspondent with a folder of poems placed at the end. There is also a folder of photocopied material which is arranged chronologically, 1848-1910. Unfilmed additions to the collection are arranged by type of material.</p>
       </arrangement>
       <bioghist id="aspace_7a4a144d14cf66a83a4bf6b05ac7fd44">
          <head>Biographical / Historical</head>
@@ -148,7 +152,7 @@
          <p>On reaching his native land after an absence of eight years he engaged in many different occupations before gaining the position and influence necessary to secure the educational advantages he desired for China. After regaining his command of the Chinese language he was at first for a short time secretary to Dr. Peter Parker (B.A. Yale 1831), for many years a medical missionary in Canton and at that time United States Commissioner, was then interpreter in the Hong Kong Supreme Court, then in the Imperial Customs Translating Department at Shanghai. The last position was financially a good one, but on account of the system of graft he found to prevail, he resigned after four months. In 1859 he engaged in the tea and silk commission business, which he continued with profit until 1863, when he entered the service of the Viceroy Tsang Kwoh Fan. In June 1864, he was sent abroad by the viceroy to purchase machinery for a machine shop, afterward known as the Kiang Nan Arsenal, near Shanghai. To this a mechanical school was afterward attached at Yung Wing's suggestion.</p>
          <p>After visiting France and England he decided to make his purchase in the United States, and reached New Haven in season to attend his class decennial reunion. He spent six months in this country while the machinery was being constructed in Fitchburg, Massachusetts, and then, in the spring of 1865, left New York for San Francisco by way of the Isthmus of Panama, and finished the circuit of the globe. A few months after his return to China he received an official document making him a Mandarin of the fifth rank, and later he was raised to the fourth rank.</p>
          <p>In 1868 the opportunity suddenly came to present his plan to the prime minister for the education of picked Chinese youths abroad for public service, but the retirement and death of this official caused a delay of two years, when the Chinese Educational Commission was finally authorized. A group of thirty students was to be sent to the United States annually for four years, each student to have fifteen years to complete his education. If the first and second detachments proved a success the experiment was to be continued indefinitely. Headquarters were established in Hartford, Conn., where a preparatory school was built. In the autumn of 1872 the first group of students reached this country, and in 1875 the last group came. Yung Wing was appointed chief commissioner, and with this office promoted to the third official rank.</p>
-         <p>In 1873 he made a brief visit to China and induced the government to send large orders for Gatling guns, and while there he was appointed to visit Peru and investigate the condition of Chinese coolies in that country. In 1878 he was appointed associate minister to Washington, and also raised to the second rank of Mandarin, and invested with the title of Taou Tae (or Intendant) of the Province of Kiang Su. Through the efforts of the reactionary party, the Educational Commission was abolished in 1881 and the students were recalled. Recently, however, through the influence of some of the students who have risen to power, the work of the commission has been revived.</p>
+         <p>In 1873 he made a brief visit to China and induced the government to send large orders for Gatling guns. While in China, he was appointed to visit Peru and investigate the condition of [Chinese laborers] in that country. In 1878 he was appointed associate minister to Washington, and also raised to the second rank of Mandarin, and invested with the title of Taou Tae (or Intendant) of the Province of Kiang Su. Through the efforts of the reactionary party, the Educational Commission was abolished in 1881 and the students were recalled. Recently, however, through the influence of some of the students who have risen to power, the work of the commission has been revived.</p>
          <p>In the spring of 1882 Dr. Yung returned to China. While in Peking he prepared a plan for the suppression of the Indian opium trade in China, but he was informed that the government could not then find suitable men to carry out the plan, and it was laid aside for many years. In the spring of 1883 he returned to the United States, where he remained until the outbreak of war between China and Japan, working with the reform party. In 1895 he went again to China to see the Viceroy Chang Chi Tung, by whom he had been commissioned to raise a loan in London to enable the government to continue the war, and was appointed secretary of foreign affairs for Kiang Nan, but soon severed his official connection with that province, and made his headquarters in Shanghai, where he labored for the establishment of a national banking system and received a concession for a railroad to be built with Chinese capital, but at that time both projects failed. In 1897 he represented China at the jubilee of Queen Victoria in London. In 1902 he returned permanently to the United States.</p>
          <p>After the empress dowager gained control of the government in 1898 a price was placed upon his head, but the ban was removed in 1905. Since the establishment of the republic he had been keenly interested in its progress, and had been in constant correspondence with its leading spirits.</p>
          <p>In 1876 he received the degree of Doctor of Laws from Yale. In 1909 Henry Holt &amp; Company published his autobiography, <title render="italic">
@@ -158,13 +162,25 @@
          <p>He married February 24, 1875, Mary Louisa, daughter of Bela Crocker and Mary Golden (Bartlett) Kellogg, of Avon, Conn., and had two sons, the elder a graduate of the Sheffield Scientific School in 1898, and the younger of the College in 1902. Mrs. Yung died May 29, 1886.</p>
          <p>[From <title render="italic">
                <part>The Obituary Record of the Graduates of Yale University</part>
-            </title>, 1910-1915, pp. 183-86.]</p>  
+            </title>, 1910-1915, pp. 183-86.]</p>
       </bioghist>
+      <prefercite id="aspace_8643ee6852a5ca4604cff0dcfa8c44eb">
+         <head>Preferred Citation</head>
+         <p>Yung Wing Papers (MS 602). Manuscripts and Archives, Yale University Library.</p>
+      </prefercite>
+      <processinfo id="aspace_692043b68c7644c123b1e77f5888bd24">
+         <head>Processing Information</head>
+         <p>This finding aid was revised in 2021 to address outdated and harmful descriptive language. During that revision, a racist descriptor in the collection's biographical note, which is extracted from The Obituary Record of the Graduates of Yale University, 1910-1915, was removed and replaced with currently accepted terminology (i.e., "Chinese laborers").</p>
+         <p>versions of this finding aid may be available. Please contact Manuscripts and Archives for details. If you have questions or comments about these revisions, please contact the Manuscripts and Archives. For more information on reparative archival description at Yale, see</p>
+      </processinfo>
       <scopecontent id="aspace_c9ce9f37b01c5ac2172c0396407f0976">
          <head>Scope and Contents</head>
-         <p>Letters and manuscripts to and from Yung Wing, the first Chinese student to graduate from Yale (1854). Also included are electrostatic copies of all the Yung Wing material from other collections in Manuscripts and Archives and Beinecke Rare Book Library, as well as three unfilmed additions of correspondence from Mary Kellogg Yung, wife of Yung Wing, with Jane Bartlett Kellogg, her sister, and Mary Bartlett Kellogg, her mother. Exhibit panels, printed material, and audiovisual items pertaining to Yung Wing complete the papers.</p>  
+         <p>Letters and manuscripts to and from Yung Wing, the first Chinese student to graduate from Yale (1854). Also included are electrostatic copies of all the Yung Wing material from other collections in Manuscripts and Archives and Beinecke Rare Book Library, as well as three unfilmed additions of correspondence from Mary Kellogg Yung, wife of Yung Wing, with Jane Bartlett Kellogg, her sister, and Mary Bartlett Kellogg, her mother. Exhibit panels, printed material, and audiovisual items pertaining to Yung Wing complete the papers.</p>
       </scopecontent>
-  
+      <userestrict id="aspace_5c788f83ebab681132942c10b93fe10d">
+         <head>Conditions Governing Use</head>
+         <p>Copyright status for collection materials is unknown, though much of the material in this collection is likely in the public domain. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.</p>
+      </userestrict>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85024238"
                   source="lcsh">
@@ -175,53 +191,41 @@
                    source="lcsh">
             <part localtype="geographic">Asia</part>
          </geogname>
-         <persname identifier="http://id.loc.gov/authorities/names/n85197605"
-                   rules="aacr"
-                   source="naf">
+         <persname rules="aacr">
             <part localtype="agent_person">Dexter, Franklin Bowditch, 1842-1920</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n88641749"
-                   rules="aacr"
-                   source="naf">
+         <persname rules="aacr">
             <part localtype="agent_person">Dwight, Timothy, 1828-1916</part>
          </persname>
          <persname rules="aacr" source="local">
             <part localtype="agent_person">Gallaudet, Susan Denison</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n82163968" source="naf">
+         <persname>
             <part localtype="agent_person">Gallaudet, T. H. (Thomas Hopkins), 1787-1851</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n82255854"
-                   rules="aacr"
-                   source="naf">
+         <persname rules="aacr">
             <part localtype="agent_person">Porter, Noah, 1811-1892</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/no2014078360"
-                   source="naf">
+         <persname>
             <part localtype="agent_person">Schwab, John Christopher, 1865-1916</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/nr97034053"
-                   rules="aacr"
-                   source="naf">
+         <persname rules="aacr">
             <part localtype="agent_person">Van Name, Addison</part>
          </persname>
          <persname rules="aacr" source="local">
             <part localtype="agent_person">Whedon, Susan H.</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n81146562" source="naf">
+         <persname>
             <part localtype="agent_person">Yung, Wing, 1828-1912</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n93012554"
-                   rules="aacr"
-                   source="naf">
+         <corpname rules="aacr">
             <part localtype="agent_corporate_entity">Chinese Educational Commission</part>
          </corpname>
          <corpname source="local">
             <part localtype="agent_corporate_entity">Yale College (1718-1887). Class of 1854</part>
          </corpname>
-         <corpname source="naf">
-            <part identifier="http://id.loc.gov/authorities/names/n79043367"
-                  localtype="agent_corporate_entity">Yale University</part>
+         <corpname>
+            <part localtype="agent_corporate_entity">Yale University</part>
             <part localtype="topical">Students</part>
          </corpname>
       </controlaccess>
@@ -260,13 +264,36 @@
                              id="aspace_ref12_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
+                  <daoset altrender="/repositories/12/digital_objects/180670">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10013180"
+                          identifier="oid:10013180"
+                          linktitle="2 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/32274270/full/!150,150/0/default.jpg"
+                          identifier="oid:10013180"
+                          linktitle="Letter from Yung Wing to Franklin Bowditch Dexter, page 1."
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10013180"
+                          identifier="oid:10013180"
+                          linktitle="Letter from Yung Wing to Franklin Bowditch Dexter, page 1."
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Dexter, Franklin B.</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
-               <altformavail id="aspace_dc64e157cad155f5a207b40c6249cf8d">
-                  <head>Existence and Location of Copies</head>
-                  <p>A copy of this material is available in digital form from Manuscripts and Archives. Contact Manuscripts and Archives at <ref actuate="onrequest"
-                          href="mailto:mssa.assist@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_s01_b001_f0001(*)"
-                          show="new">mssa.assist@yale.edu</ref> to request access to the digital copy.</p>
-               </altformavail>
             </c>
             <c altrender="/repositories/12/archival_objects/1189800"
                id="ref13"
@@ -296,8 +323,8 @@
                <altformavail id="aspace_c351302f571fcd82144d07fd477f1a1c">
                   <head>Existence and Location of Copies</head>
                   <p>A copy of this material is available in digital form from Manuscripts and Archives. Contact Manuscripts and Archives at <ref actuate="onrequest"
-                          href="mailto:mssa.assist@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_s01_b001_f0002(*)"
-                          show="new">mssa.assist@yale.edu</ref> to request access to the digital copy.</p>
+                          href="mailto:beinecke.library@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_s01_b001_f0002(*)"
+                          show="new">beinecke.library@yale.edu</ref> to request access to the digital copy.</p>
                </altformavail>
             </c>
             <c altrender="/repositories/12/archival_objects/1189801"
@@ -328,8 +355,8 @@
                <altformavail id="aspace_a07b6538de71ca078ffda9b7a6b0c521">
                   <head>Existence and Location of Copies</head>
                   <p>A copy of this material is available in digital form from Manuscripts and Archives. Contact Manuscripts and Archives at <ref actuate="onrequest"
-                          href="mailto:mssa.assist@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_s01_b001_f0003(*)"
-                          show="new">mssa.assist@yale.edu</ref> to request access to the digital copy.</p>
+                          href="mailto:beinecke.library@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_s01_b001_f0003(*)"
+                          show="new">beinecke.library@yale.edu</ref> to request access to the digital copy.</p>
                </altformavail>
             </c>
             <c altrender="/repositories/12/archival_objects/1189802"
@@ -356,13 +383,36 @@
                              id="aspace_ref15_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
+                  <daoset altrender="/repositories/12/digital_objects/180669">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10013182"
+                          identifier="oid:10013182"
+                          linktitle="1 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/32273004/full/!150,150/0/default.jpg"
+                          identifier="oid:10013182"
+                          linktitle="Letter from Yung Wing to Thomas H. Gallaudet."
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10013182"
+                          identifier="oid:10013182"
+                          linktitle="Letter from Yung Wing to Thomas H. Gallaudet."
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Gallaudet, Thomas Hopkins</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
-               <altformavail id="aspace_f5f3a8a0f8f0b91a0eb334d104242d3b">
-                  <head>Existence and Location of Copies</head>
-                  <p>A copy of this material is available in digital form from Manuscripts and Archives. Contact Manuscripts and Archives at <ref actuate="onrequest"
-                          href="mailto:mssa.assist@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_s01_b001_f0004(*)"
-                          show="new">mssa.assist@yale.edu</ref> to request access to the digital copy.</p>
-               </altformavail>
             </c>
             <c altrender="/repositories/12/archival_objects/1189803"
                id="ref16"
@@ -388,13 +438,36 @@
                              id="aspace_ref16_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
+                  <daoset altrender="/repositories/12/digital_objects/180668">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10013168"
+                          identifier="oid:10013168"
+                          linktitle="6 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/32275541/full/!150,150/0/default.jpg"
+                          identifier="oid:10013168"
+                          linktitle="Letter from Yung Wing to Noah Porter, page 1."
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10013168"
+                          identifier="oid:10013168"
+                          linktitle="Letter from Yung Wing to Noah Porter, page 1."
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Porter, Noah</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
-               <altformavail id="aspace_707bb77f87c7c923e1d803342fbaec56">
-                  <head>Existence and Location of Copies</head>
-                  <p>A copy of this material is available in digital form from Manuscripts and Archives. Contact Manuscripts and Archives at <ref actuate="onrequest"
-                          href="mailto:mssa.assist@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_s01_b001_f0005(*)"
-                          show="new">mssa.assist@yale.edu</ref> to request access to the digital copy.</p>
-               </altformavail>
             </c>
             <c altrender="/repositories/12/archival_objects/1189804"
                id="ref17"
@@ -420,13 +493,36 @@
                              id="aspace_ref17_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
+                  <daoset altrender="/repositories/12/digital_objects/180667">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10013178"
+                          identifier="oid:10013178"
+                          linktitle="2 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/32278070/full/!150,150/0/default.jpg"
+                          identifier="oid:10013178"
+                          linktitle="Letter from Yung Wing to John C. Schwab, page 1."
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10013178"
+                          identifier="oid:10013178"
+                          linktitle="Letter from Yung Wing to John C. Schwab, page 1."
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Schwab, John Christopher</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
-               <altformavail id="aspace_fcc73fb6b3aea922fa4d7f94f40b363c">
-                  <head>Existence and Location of Copies</head>
-                  <p>A copy of this material is available in digital form from Manuscripts and Archives. Contact Manuscripts and Archives at <ref actuate="onrequest"
-                          href="mailto:mssa.assist@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_s01_b001_f0006(*)"
-                          show="new">mssa.assist@yale.edu</ref> to request access to the digital copy.</p>
-               </altformavail>
             </c>
             <c altrender="/repositories/12/archival_objects/1189805"
                id="ref18"
@@ -452,6 +548,35 @@
                              id="aspace_ref18_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
+                  <daoset altrender="/repositories/12/digital_objects/180672">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10013174"
+                          identifier="oid:10013174"
+                          linktitle="3 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/32281135/full/!150,150/0/default.jpg"
+                          identifier="oid:10013174"
+                          linktitle="Letter from Yung Wing to Addison Van Name."
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10013174"
+                          identifier="oid:10013174"
+                          linktitle="Letter from Yung Wing to Addison Van Name."
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Van Name, Addison</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
             </c>
             <c altrender="/repositories/12/archival_objects/1189806"
@@ -498,13 +623,36 @@
                              id="aspace_ref20_c3"
                              label="Mixed Materials"
                              localtype="reel">1U</container>
+                  <daoset altrender="/repositories/12/digital_objects/180671">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/manifests/10013177"
+                          identifier="oid:10013177"
+                          linktitle="1 images"
+                          linkrole="text-json"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/iiif/2/32282393/full/!150,150/0/default.jpg"
+                          identifier="oid:10013177"
+                          linktitle="Poem by Yung Wing while a junior in Yale College."
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://collections.library.yale.edu/catalog/10013177"
+                          identifier="oid:10013177"
+                          linktitle="Poem by Yung Wing while a junior in Yale College."
+                          linkrole="text-html"
+                          show="new"/>
+                     <descriptivenote>
+                        <p>Poems</p>
+                     </descriptivenote>
+                  </daoset>
                </did>
-               <altformavail id="aspace_0d48409de9625edd1ea0440a86871ade">
-                  <head>Existence and Location of Copies</head>
-                  <p>A copy of this material is available in digital form from Manuscripts and Archives. Contact Manuscripts and Archives at <ref actuate="onrequest"
-                          href="mailto:mssa.assist@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_s01_b001_f0009"
-                          show="new">mssa.assist@yale.edu</ref> to request access to the digital copy.</p>
-               </altformavail>
             </c>
             <c altrender="/repositories/12/archival_objects/1189808"
                id="ref21"
@@ -572,8 +720,8 @@
                <altformavail id="aspace_8f4de70f2531fc070c890b485ee27130">
                   <head>Existence and Location of Copies</head>
                   <p>A copy of this material is available in digital form from Manuscripts and Archives. Contact Manuscripts and Archives at <ref actuate="onrequest"
-                          href="mailto:mssa.assist@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_1999-m-068_b001_f0001-[Preservica] ms_0602_1999-m-068_b001_f0004"
-                          show="new">mssa.assist@yale.edu</ref> to request access to the digital copy.</p>
+                          href="mailto:beinecke.library@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_1999-m-068_b001_f0001-[Preservica] ms_0602_1999-m-068_b001_f0004"
+                          show="new">beinecke.library@yale.edu</ref> to request access to the digital copy.</p>
                </altformavail>
             </c>
             <c altrender="/repositories/12/archival_objects/1189811"
@@ -604,8 +752,8 @@
                   <altformavail id="aspace_3882277f4989bc5784881d43186cc96e">
                      <head>Existence and Location of Copies</head>
                      <p>A copy of this material is available in digital form from Manuscripts and Archives. Contact Manuscripts and Archives at <ref actuate="onrequest"
-                             href="mailto:mssa.assist@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_1999-M-068_b001_f0005"
-                             show="new">mssa.assist@yale.edu</ref> to request access to the digital copy.</p>
+                             href="mailto:beinecke.library@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_1999-M-068_b001_f0005"
+                             show="new">beinecke.library@yale.edu</ref> to request access to the digital copy.</p>
                   </altformavail>
                </c>
                <c altrender="/repositories/12/archival_objects/1189813"
@@ -630,8 +778,8 @@
                   <altformavail id="aspace_94f21ff50d3f118efe78d1b3125cd9bd">
                      <head>Existence and Location of Copies</head>
                      <p>A copy of this material is available in digital form from Manuscripts and Archives. Contact Manuscripts and Archives at <ref actuate="onrequest"
-                             href="mailto:mssa.assist@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_1999-M-068_b001_f0006"
-                             show="new">mssa.assist@yale.edu</ref> to request access to the digital copy.</p>
+                             href="mailto:beinecke.library@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_1999-M-068_b001_f0006"
+                             show="new">beinecke.library@yale.edu</ref> to request access to the digital copy.</p>
                   </altformavail>
                </c>
             </c>
@@ -657,8 +805,8 @@
                <altformavail id="aspace_5ee3224e65b739e112019064adf5321c">
                   <head>Existence and Location of Copies</head>
                   <p>A copy of this material is available in digital form from Manuscripts and Archives. Contact Manuscripts and Archives at <ref actuate="onrequest"
-                          href="mailto:mssa.assist@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_1999-m-068_b001_f0007"
-                          show="new">mssa.assist@yale.edu</ref> to request access to the digital copy.</p>
+                          href="mailto:beinecke.library@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_1999-m-068_b001_f0007"
+                          show="new">beinecke.library@yale.edu</ref> to request access to the digital copy.</p>
                </altformavail>
             </c>
             <c altrender="/repositories/12/archival_objects/1189815"
@@ -687,8 +835,8 @@
                <altformavail id="aspace_0ee307facdb6336862b0d3c6e7144247">
                   <head>Existence and Location of Copies</head>
                   <p>A copy of this material is available in digital form from Manuscripts and Archives. Contact Manuscripts and Archives at <ref actuate="onrequest"
-                          href="mailto:mssa.assist@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_1999-m-068_b001_f0008"
-                          show="new">mssa.assist@yale.edu</ref> to request access to the digital copy.</p>
+                          href="mailto:beinecke.library@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_1999-m-068_b001_f0008"
+                          show="new">beinecke.library@yale.edu</ref> to request access to the digital copy.</p>
                </altformavail>
             </c>
          </c>
@@ -815,34 +963,36 @@
                         <title>
                            <part>Boy Students</part>
                         </title> [videorecording] </unittitle>
+                     <unitid>2005-m-073-0003</unitid>
                      <origination label="Creator">
-                        <persname identifier="n85269058" source="naf">
+                        <persname>
                            <part localtype="agent_person">Qian, Gang, 1953-</part>
                         </persname>
                      </origination>
                      <origination label="Creator">
-                        <persname identifier="n2006009698" rules="aacr" source="naf">
+                        <persname rules="aacr">
                            <part localtype="agent_person">Hu, Jingcao</part>
                         </persname>
                      </origination>
                      <origination label="Creator">
-                        <persname identifier="nr97001328" rules="aacr" source="naf">
+                        <persname rules="aacr">
                            <part localtype="agent_person">Wang, Xiaopeng</part>
                         </persname>
                      </origination>
                      <origination label="Creator">
-                        <persname identifier="n78092460" rules="aacr" source="naf">
+                        <persname rules="aacr">
                            <part localtype="agent_person">Wang, Zhongxin</part>
                         </persname>
                      </origination>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
-                        <quantity>3</quantity>
-                        <unittype>DVD-Rs</unittype>
+                        <quantity>1</quantity>
+                        <unittype>DVD-R</unittype>
                      </physdescstructured>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
-                        <quantity>03:47:00</quantity>
-                        <unittype>Duration (HH:MM:SS.mmm)</unittype>
+                        <quantity>2370764800</quantity>
+                        <unittype>bytes</unittype>
                      </physdescstructured>
+                     <physdesc localtype="container_summary">2.37 Gigabytes. This reflects the size of the carrier media, but may not accurately reflect the extent of digital files available for research.</physdesc>
                      <unitdatestructured label="creation" unitdatetype="inclusive">
                         <datesingle standarddate="2004">2004</datesingle>
                      </unitdatestructured>
@@ -852,12 +1002,42 @@
                            <p>The materials are in English.</p>
                         </descriptivenote>
                      </langmaterial>
-                     <container localtype="box" id="d4e2">2</container>
-                     <container localtype="box" id="d4e4">2U</container>
-                     <container localtype="box" id="d4e6">3</container>
-                     <container localtype="box" id="d4e8">3U</container>
-                     <container localtype="box" id="d4e10">4</container>
-                     <container localtype="box" id="d4e12">4U</container>
+                     <container altrender="/repositories/12/top_containers/132559 /locations/9"
+                                containerid="39002063474119"
+                                encodinganalog="CD case"
+                                id="aspace_ref37_c1"
+                                label="Mixed Materials"
+                                localtype="box">2</container>
+                     <container altrender="/repositories/12/top_containers/301241 /locations/9"
+                                containerid="39002112734216"
+                                encodinganalog="DVD case"
+                                id="aspace_ref37_c2"
+                                label="Mixed Materials"
+                                localtype="box">2U</container>
+                     <container altrender="/repositories/12/top_containers/132561 /locations/9"
+                                containerid="39002063474127"
+                                encodinganalog="CD case"
+                                id="aspace_ref37_c3"
+                                label="Mixed Materials"
+                                localtype="box">3</container>
+                     <container altrender="/repositories/12/top_containers/301242 /locations/9"
+                                containerid="39002112734224"
+                                encodinganalog="DVD case"
+                                id="aspace_ref37_c4"
+                                label="Mixed Materials"
+                                localtype="box">3U</container>
+                     <container altrender="/repositories/12/top_containers/132563 /locations/9"
+                                containerid="39002063474135"
+                                encodinganalog="CD case"
+                                id="aspace_ref37_c5"
+                                label="Mixed Materials"
+                                localtype="box">4U</container>
+                     <container altrender="/repositories/12/top_containers/301243 /locations/3564"
+                                containerid="39002112272878"
+                                encodinganalog="DVD case"
+                                id="aspace_ref37_c6"
+                                label="Mixed Materials"
+                                localtype="box">4</container>
                   </did>
                   <scopecontent id="aspace_9ddea3fe5d53a83c5b9cad02eb9fca16">
                      <head>Scope and Contents</head>
@@ -882,10 +1062,16 @@
                   level="file">
                   <did>
                      <unittitle>"The Journey of Yung Wing"</unittitle>
+                     <unitid>2005-m-073-0004</unitid>
                      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
                         <quantity>1</quantity>
-                        <unittype>CD-R</unittype>
+                        <unittype>DVD-R</unittype>
                      </physdescstructured>
+                     <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                        <quantity>287644504</quantity>
+                        <unittype>bytes</unittype>
+                     </physdescstructured>
+                     <physdesc localtype="container_summary">287.64 Megabytes.</physdesc>
                      <unitdatestructured altrender="Undated" label="creation" unitdatetype="inclusive">
                         <daterange>
                            <fromdate standarddate="1848">1848</fromdate>
@@ -921,8 +1107,8 @@
                                   localtype="RestrictedFragileSpecColl">
                      <head>Conditions Governing Access</head>
                      <p>As a preservation measure, original materials may not be used. Digital access copies must be provided for use. Contact Manuscripts and Archives at <ref actuate="onrequest"
-                             href="mailto:mssa.assist@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_2005-m-073_b006."
-                             show="new">mssa.assist@yale.edu</ref> to request access</p>
+                             href="mailto:beinecke.library@yale.edu?subject=Digital Copy Request: [Preservica] ms_0602_2005-m-073_b006."
+                             show="new">beinecke.library@yale.edu</ref> to request access</p>
                   </accessrestrict>
                </c>
                <c altrender="/repositories/12/archival_objects/1189832"
