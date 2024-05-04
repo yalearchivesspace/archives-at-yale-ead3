@@ -1850,6 +1850,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.manhattanproject.xml](13281.xml) | beinecke.manhattanproject | WA MSS S-4551 | The Manhattan Project Medical Group collection | 
  [beinecke.hsfowler.xml](13293.xml) | beinecke.hsfowler | WA MSS S-4552 | Helen Solberg Fowler papers | 
  [beinecke.pkennedy.xml](13302.xml) | beinecke.pkennedy | GEN MSS 2126 | Paul Kennedy papers | 
+ [beinecke.nottage.xml](13307.xml) | beinecke.nottage | JWJ MSS 382 | Lynn Nottage papers | 
  [beinecke.lauramcphee.xml](13309.xml) | beinecke.lauramcphee | WA MSS S-4553 | Laura McPhee papers | 
  [13310.xml](13310.xml) |  | GEN MSS 827 | Edward Parker Read Papers | 
  [beinecke.imperialbritish.xml](13324.xml) | beinecke.imperialbritish | OSB MSS 344 | Imperial British East Africa Company papers | 
