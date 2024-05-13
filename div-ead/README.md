@@ -360,4 +360,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.323.xml](13437.xml) | divinity.323 | RG 323 | Lamin Sanneh Papers | 
  [divinity.339.xml](13465.xml) | divinity.339 | RG 339 | Mills Family Papers | 
  [divinity.332.xml](13517.xml) | divinity.332 | RG 332 | Ecclesia Ministries Records | 
+ [divinity.341.xml](13521.xml) | divinity.341 | RG 341 | Archie R. Crouch Papers | 
 
