@@ -1873,6 +1873,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.alexanian.xml](13440.xml) | beinecke.alexanian | GEN MSS 2133 | Kohar Alexanian papers | 
  [beinecke.sobincorrwrit.xml](13449.xml) | beinecke.sobincorrwrit | YCAL MSS 1620 | Gustaf Sobin Correspondence and Writings | 
  [habermantrusty.xml](13456.xml) | habermantrusty | JWJ MSS 384 | Karen Haberman Trusty Collection of Mississippi Freedom Project | 
+ [beinecke.whittakerephem.xml](13477.xml) | beinecke.whittakerephem | GEN MSS 2134 | Donald Whittaker collection of gay and lesbian ephemera | 
  [beinecke.womenatyale.xml](13479.xml) | beinecke.womenatyale | GEN MSS 1607 | 20 Portraits: Women at Yale | 
  [beinecke.american1919.xml](13492.xml) | beinecke.american1919 | JWJ MSS 126 | American 1919 race riots collection | 
 
