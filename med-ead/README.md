@@ -97,4 +97,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.pam.0018.xml](13508.xml) | med.pam.0018 | Pam Coll 18 | Publications on birth control and pregnancy health | 
  [med.pam.0019.xml](13513.xml) | med.pam.0019 | Pam Coll 19 | Publications on fluoridation | 
  [med.pam.0022.xml](13523.xml) | med.pam.0022 | Pam Coll 22 | Atomic Bomb Casualty Commission publications | 
+ [med.pam.0017.xml](13525.xml) | med.pam.0017 | Pam Coll 17 | Publications on the costs of medical care | 
 
