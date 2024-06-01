@@ -1443,7 +1443,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wrbenet.xml](5845.xml) | beinecke.wrbenet | YCAL MSS 1100 | William Rose Benét Papers | 
  [beinecke.tellefsen.xml](5848.xml) | beinecke.tellefsen | GEN MSS 1431 | Lisbet Tellefsen papers | 
  [beinecke.pryor.xml](5860.xml) | beinecke.pryor | JWJ MSS 179 | Richard Pryor collection | 
- [beinecke.bourneg.xml](5871.xml) | beinecke.bourneg | Gen MSS 1438 | Bourne family papers | 
+ [beinecke.bourneg.xml](5871.xml) | beinecke.bourneg | GEN MSS 1438 | Bourne family papers | 
  [beinecke.carrega.xml](5876.xml) | beinecke.carrega | GEN MSS 1450 | Ugo Carrega artwork | 
  [beinecke.nwcompany.xml](5879.xml) | beinecke.nwcompany | WA MSS S-3238 | North West Company voyageur contracts | 
  [beinecke.nuland.xml](5883.xml) | beinecke.nuland | YCAL MSS 1113 | Sherwin B. Nuland papers | 
@@ -1866,14 +1866,20 @@ EAD | EAD ID | Identifier | Title | Other versions
  [13375.xml](13375.xml) |  | GEN MSS 2128 | Joshua P. Smith Collection of East German Underground Art and Photography | 
  [beinecke.godfrey.xml](13377.xml) | beinecke.godfrey | YCAL MSS 1617 | John Godfrey Papers | 
  [beinecke.videoverite.xml](13385.xml) | beinecke.videoverite | GEN MSS 2130 | Video Verité papers | 
+ [beinecke.ptyoung.xml](13391.xml) | beinecke.ptyoung | JWJ MSS 387 | Phillip T. Young correspondence and photographs | 
  [beinecke.baldwinwinfield.xml](13401.xml) | beinecke.baldwinwinfield | JWJ MSS 156 | James Baldwin correspondence with Orilla Miller Winfield | 
  [westfamily.xml](13404.xml) | westfamily | WA MSS S-4127 | William Steele West family papers | 
  [beinecke.moorej.xml](13405.xml) | beinecke.moorej | JWJ MSS 383 | Juanita Moore papers | 
  [beinecke.brig.xml](13418.xml) | beinecke.brig | YCAL MSS 1618 | Ilya Simakov collection of the Living Theatre 2008 tour of The Brig | 
+ [beinecke.bopparty.xml](13429.xml) | beinecke.bopparty | GEN MSS 2140 | Black Oppressed People's Party papers | 
+ [beinecke.epamphlets.xml](13431.xml) | beinecke.epamphlets | YCAL MSS 1621 | Collection of erotic fiction reader pamphlets | 
  [beinecke.alexanian.xml](13440.xml) | beinecke.alexanian | GEN MSS 2133 | Kohar Alexanian papers | 
  [beinecke.sobincorrwrit.xml](13449.xml) | beinecke.sobincorrwrit | YCAL MSS 1620 | Gustaf Sobin Correspondence and Writings | 
  [habermantrusty.xml](13456.xml) | habermantrusty | JWJ MSS 384 | Karen Haberman Trusty Collection of Mississippi Freedom Project | 
+ [beinecke.wrightfamily.xml](13458.xml) | beinecke.wrightfamily | GEN MSS 2141 | Wright family papers | 
+ [beinecke.gould.xml](13467.xml) | beinecke.gould | GEN MSS 2138 | Annie Allender Gould papers | 
  [beinecke.whittakerephem.xml](13477.xml) | beinecke.whittakerephem | GEN MSS 2134 | Donald Whittaker collection of gay and lesbian ephemera | 
  [beinecke.womenatyale.xml](13479.xml) | beinecke.womenatyale | GEN MSS 1607 | 20 Portraits: Women at Yale | 
  [beinecke.american1919.xml](13492.xml) | beinecke.american1919 | JWJ MSS 126 | American 1919 race riots collection | 
+ [beinecke.sack.xml](13499.xml) | beinecke.sack | GEN MSS 2139 | Leo R. Sack papers | 
 
