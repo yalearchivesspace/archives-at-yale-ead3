@@ -1880,6 +1880,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.gould.xml](13467.xml) | beinecke.gould | GEN MSS 2138 | Annie Allender Gould papers | 
  [beinecke.whittakerephem.xml](13477.xml) | beinecke.whittakerephem | GEN MSS 2134 | Donald Whittaker collection of gay and lesbian ephemera | 
  [beinecke.womenatyale.xml](13479.xml) | beinecke.womenatyale | GEN MSS 1607 | 20 Portraits: Women at Yale | 
+ [beinecke.antidraft.xml](13489.xml) | beinecke.antidraft | GEN MSS 2137 | Cold War antidraft and pacifism collection | 
  [beinecke.american1919.xml](13492.xml) | beinecke.american1919 | JWJ MSS 126 | American 1919 race riots collection | 
  [beinecke.sack.xml](13499.xml) | beinecke.sack | GEN MSS 2139 | Leo R. Sack papers | 
 
