@@ -2889,6 +2889,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2098.xml](11347.xml) | mssa.ms.2098 | MS 2098 | Kent A. Leslie Collection on Robert Bradford Williams | 
  [mssa.ms.2104.xml](11369.xml) | mssa.ms.2104 | MS 2104 | Stephen Kellert papers | 
  [mssa.ms.2105.xml](11370.xml) | mssa.ms.2105 | MS 2105 | Michael Antisdale and Mark R. Melanson Papers | 
+ [mssa.ms.2106.xml](11385.xml) | mssa.ms.2106 | MS 2106 | Love Makes a Family Political Action Committee records | 
  [mssa.ru.1160.xml](11431.xml) | mssa.ru.1160 | RU 1160 | New Blue, Yale University, records | 
  [mssa.ru.1161.xml](11440.xml) | mssa.ru.1161 | RU 1161 | <emph render="italic">Colossal Keepsake</emph> motion picture film by Peter Hentschel and William Richardson | 
  [mssa.ms.2099.xml](11470.xml) | mssa.ms.2099 | MS 2099 | Catalunya independence movement ephemera | 
