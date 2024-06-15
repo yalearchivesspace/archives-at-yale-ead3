@@ -16,4 +16,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [oham.yost.xml](11805.xml) | oham.yost | YOST | YOST: Y / Opera / Studies Today | 
  [oham.mbc.xml](12801.xml) | oham.mbc | MBC | Music and the Black Church | 
  [oham.100@100.xml](12939.xml) | oham.100@100 | 100@100 | 100@100: Women Composers Interviewed by Mt. Holyoke College Students | 
+ [oham.dd.xml](13536.xml) | oham.dd | DD | Keeley Brooks Interviews on Dorothy DeLay | 
 
