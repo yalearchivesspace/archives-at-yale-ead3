@@ -1701,7 +1701,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.wingfamily.xml](11937.xml) | beinecke.wingfamily | WA MSS S-4348 | Wing Family Correspondence | 
  [beinecke.stimson.xml](11940.xml) | beinecke.stimson | WA Photos 1072 | Joseph Elam Stimson Photographs | 
  [beinecke.lbreuer.xml](11946.xml) | beinecke.lbreuer | YCAL MSS 1392 | Lee Breuer papers | 
- [beinecke.ernst.xml](11947.xml) | beinecke.ernst | YCAL MSS 1209 | K.S. Ernst papers | 
+ [beinecke.ernst.xml](11947.xml) | beinecke.ernst | YCAL MSS 1315 | K.S. Ernst papers | 
  [beinecke.basinski.xml](11949.xml) | beinecke.basinski | YCAL MSS 1242 | Michael Basinski poems and other papers | 
  [beinecke.amontiel.xml](11950.xml) | beinecke.amontiel | WA MSS S-4392 | Anya Montiel collection of Native American HIV/AIDS awareness materials | 
  [beinecke.peoplespark.xml](11956.xml) | beinecke.peoplespark | WA MSS S-4353 | Ephemera concerning the People's Park protests | 
