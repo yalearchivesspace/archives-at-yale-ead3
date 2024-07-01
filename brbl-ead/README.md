@@ -1357,7 +1357,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.genmusmisc.xml](5397.xml) | beinecke.genmusmisc | GEN MSS MUSIC MISC | General Collection manuscript music miscellany | 
  [beinecke.steinberg.xml](5449.xml) | beinecke.steinberg | YCAL MSS 1053 | Saul Steinberg papers | 
  [beinecke.berlandi.xml](5452.xml) | beinecke.berlandi | WA MSS S-300 | Jean Louis Berlandier papers | 
- [beinecke.barrie.xml](5455.xml) | beinecke.barrie | GEN MSS 1400 | J. M. Barrie collection | 
+ [beinecke.barrie.xml](5455.xml) | beinecke.barrie | GEN MSS 1400 | J. M. Barrie Collection | 
  [beinecke.watkins.xml](5459.xml) | beinecke.watkins | YCAL MSS 1079 | Maurine Watkins papers | 
  [beinecke.allen.xml](5460.xml) | beinecke.allen | GEN MSS 1401 | Nathaniel T. Allen collection | 
  [beinecke.linnell.xml](5462.xml) | beinecke.linnell | GEN MSS 1396 | Tracings of illustrations by William Blake for Dante's Divina Commedia. | 
