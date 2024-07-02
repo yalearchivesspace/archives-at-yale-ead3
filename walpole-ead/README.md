@@ -31,4 +31,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [lwl.mss.048.xml](13464.xml) | lwl.mss.048 | LWL MSS 48 | Anne Seymour Damer Collection | 
  [lwl.mss.049.xml](13478.xml) | lwl.mss.049 | LWL MSS 49 | Elizabeth Montagu Collection | 
  [lwl.mss.050.xml](13488.xml) | lwl.mss.050 | LWL MSS 50 | Mary and Agnes Berry Collection | 
+ [lwl.mss.045.xml](13552.xml) | lwl.mss.045 | LWL MSS 45 | Thomas Fowke Papers | 
 
