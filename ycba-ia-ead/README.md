@@ -13,6 +13,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.ia.A026.xml](5415.xml) | ycba.ia.A026 | A026 | Yale Center for British Art Prints and Drawings Department records | 
  [ycba.ia.A024.xml](5416.xml) | ycba.ia.A024 | A024 | Yale Center for British Art Paintings and Sculpture Department records | 
  [ycba.ia.A016.xml](5417.xml) | ycba.ia.A016 | A016 | Yale Center for British Art Education Department records | 
+ [ycba.ia.S005.xml](5418.xml) | ycba.ia.S005 | S005 | Paul Mellon Brick House photographs | 
  [ycba.ia.A013.xml](5419.xml) | ycba.ia.A013 | A013 | Yale Center for British Art Collections Information and Access Department records | 
  [ycba.ia.A014.xml](5420.xml) | ycba.ia.A014 | A014 | Yale Center for British Art Communications and Marketing Department records | 
  [ycba.ia.A010.xml](5421.xml) | ycba.ia.A010 | A010 | Collection of Mellon Family and Yale Center for British Art-related Publications | 
