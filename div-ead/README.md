@@ -362,4 +362,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.332.xml](13517.xml) | divinity.332 | RG 332 | Ecclesia Ministries Records | 
  [divinity.341.xml](13521.xml) | divinity.341 | RG 341 | Archie R. Crouch Papers | 
  [divinity.344.xml](13540.xml) | divinity.344 | RG 344 | George Hibbert Driver Papers | 
+ [divinity.338.xml](13573.xml) | divinity.338 | RG 338 | Jay and Marjory Kapenga Papers | 
 
