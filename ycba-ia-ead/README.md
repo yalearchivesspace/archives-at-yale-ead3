@@ -45,4 +45,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.ia.S004.xml](10746.xml) | ycba.ia.S004 | S004 | Jules David Prown collection of Louis I. Kahn Interviews by John W. Cook and Heinrich Klotz | 
  [11403.xml](11403.xml) |  |  S022 | John Baskett papers | 
  [13080.xml](13080.xml) |  | S018 | Duncan Robinson papers on Paul Mellon | 
+ [13565.xml](13565.xml) |  | S023 | Patrick Noon papers | 
 
