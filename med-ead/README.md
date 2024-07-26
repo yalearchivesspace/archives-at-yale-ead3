@@ -99,4 +99,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.pam.0022.xml](13523.xml) | med.pam.0022 | Pam Coll 22 | Atomic Bomb Casualty Commission publications | 
  [med.pam.0017.xml](13525.xml) | med.pam.0017 | Pam Coll 17 | Publications on the costs of medical care | 
  [med.pam.0023.xml](13532.xml) | med.pam.0023 | Pam Coll 23 | Aviation medicine collection | 
+ [med.pam.0024.xml](13538.xml) | med.pam.0024 | Pam Coll 24 | Health pamphlets issued by Metropolitan Life and other insurance companies | 
 
