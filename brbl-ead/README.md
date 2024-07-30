@@ -783,7 +783,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.northwest.xml](1319.xml) | beinecke.northwest | WA MSS S-2704 | Northwestern Pacific Railroad Company records | 
  [beinecke.greyz.xml](1320.xml) | beinecke.greyz | WA MSS S-2705 | Betty Zane Grosso collection of Zane and Dolly Grey papers | 
  [beinecke.perkinsgc.xml](1321.xml) | beinecke.perkinsgc | WA MSS S-2706 | George Clement Perkins papers | 
- [beinecke.kilpatrick.xml](1322.xml) | beinecke.kilpatrick | WA MSS S-2707 | Kilpatrick collection of Cherokee manuscripts | 
+ [beinecke.kilpatrick.xml](1322.xml) | beinecke.kilpatrick | WA MSS S-270 | Kilpatrick collection of Cherokee manuscripts | 
  [beinecke.swett.xml](1323.xml) | beinecke.swett | WA MSS S-2708 | Leonard H. Swett papers | 
  [beinecke.gornall.xml](1324.xml) | beinecke.gornall | WA MSS S-2715 | Lola Gornall papers | 
  [beinecke.slotkin.xml](1325.xml) | beinecke.slotkin | WA MSS S-2716 | Richard Slotkin papers | 
