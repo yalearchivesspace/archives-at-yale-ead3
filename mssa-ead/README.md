@@ -2834,7 +2834,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2056.xml](5557.xml) | mssa.ms.2056 | MS 2056 | Walter Hinds Allen papers | 
  [mssa.ms.2052.xml](5558.xml) | mssa.ms.2052 | MS 2052 | Robert A. Burt papers | 
  [mssa.ms.2057.xml](5582.xml) | mssa.ms.2057 | MS 2057 | Jean M. Conklin papers | 
- [mssa.ms.2058.xml](5584.xml) | mssa.ms.2058 | MS 2058 | Spanish Civil War Collection | 
+ [mssa.ms.2058.xml](5584.xml) | mssa.ms.2058 | MS 2058 | Spanish Civil War collection | 
  [mssa.ms.2061.xml](5638.xml) | mssa.ms.2061 | MS 2061 | Charles W. Toth correspondence with Tram Combs | 
  [mssa.ms.2055.xml](5644.xml) | mssa.ms.2055 | MS 2055 | Warren L. Duffield papers | 
  [mssa.ms.2064.xml](5645.xml) | mssa.ms.2064 | MS 2064 | Edward M. Dew III collection on Suriname | 
@@ -2849,7 +2849,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1147.xml](5706.xml) | mssa.ru.1147 | RU 1147 | Associate University Librarian for Program Development and Research, Yale University, records | 
  [mssa.ms.2067.xml](5716.xml) | mssa.ms.2067 | MS 2067 | Japanese lesbian, gay, bisexual, transgender, and queer collection | 
  [mssa.ms.2069.xml](5735.xml) | mssa.ms.2069 | MS 2069 | Harry W. Selden right wing materials collection | 
- [mssa.ms.2070.xml](5838.xml) | mssa.ms.2070 | MS 2070 | Charles Hill Papers | 
+ [mssa.ms.2070.xml](5838.xml) | mssa.ms.2070 | MS 2070 | Charles Hill papers | 
  [mssa.ms.2071.xml](5843.xml) | mssa.ms.2071 | MS 2071 | Ronald Dworkin papers | 
  [mssa.ms.2068.xml](5888.xml) | mssa.ms.2068 | MS 2068 | James Gustave Speth papers | 
  [mssa.ms.2072.xml](5891.xml) | mssa.ms.2072 | MS 2072 | Lewis B. Cullman papers | 
