@@ -1650,6 +1650,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.britishpunk.xml](11816.xml) | beinecke.britishpunk | GEN MSS 2084 | British punk archive | 
  [beinecke.saunders.xml](11818.xml) | beinecke.saunders | GEN MSS 2093 | Norman Saunders papers | 
  [beinecke.gavin.xml](11819.xml) | beinecke.gavin | GEN MSS 1724 | Father Carney Gavin legacy collection of Holy Land photographs | 
+ [beinecke.jacob.xml](11820.xml) | beinecke.jacob | GEN MSS 2089 | John P. Jacob collection | 
  [beinecke.jdodd.xml](11821.xml) | beinecke.jdodd | YCAL MSS 1411 | Jonathan Dodd collection of Edward Albee, Stephen Sondheim, and Tennessee Williams | 
  [beinecke.everhardy.xml](11823.xml) | beinecke.everhardy | WA MSS S-4148 | Louise Everhardy papers | 
  [beinecke.disneyfamily.xml](11825.xml) | beinecke.disneyfamily | WA MSS S-4149 | Loren and Stanley Disney Family Papers | 
