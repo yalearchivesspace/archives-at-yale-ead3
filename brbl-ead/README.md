@@ -1861,7 +1861,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.miningforms.xml](13342.xml) | beinecke.miningforms | WA MSS S-1359 | Mining Forms and Certificates Collection | 
  [beinecke.californialetters.xml](13344.xml) | beinecke.californialetters | WA MSS S-1337 | California Letters | 
  [beinecke.lchoris.xml](13346.xml) | beinecke.lchoris | WA MSS S-260 | Louis Choris Paintings and Sketches | 
- [beinecke.govan.xml](13348.xml) | beinecke.govan | JWJ MSS 381 | Sandra Govan collection of Gwendolyn Bennett and Richard Bruce Nugent interviews | 
+ [beinecke.govan.xml](13348.xml) | beinecke.govan | JWJ MSS 381 | Sandra Y. Govan collection of Gwendolyn Bennett and Richard Bruce Nugent interviews | 
  [beinecke.downey.xml](13354.xml) | beinecke.downey | GEN MSS 2125 | John T. Downey papers | 
  [beinecke.jiviney.xml](13356.xml) | beinecke.jiviney | GEN MSS 2124 | John Irwin Viney papers | 
  [beinecke.deweylowell.xml](13363.xml) | beinecke.deweylowell | YCAL MSS 1616 | Dewey-Lowell family papers | 
