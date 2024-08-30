@@ -2935,4 +2935,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1186.xml](13202.xml) | mssa.ru.1186 | RU 1186 | Connecticut Mental Health Center records | 
  [mssa.ms.2136.xml](13394.xml) | mssa.ms.2136 | MS 2136 | Oliver Ellsworth Huntington family papers | 
  [mssa.ms.2130.xml](13472.xml) | mssa.ms.2130 | MS 2130 | Beatrice Tinsley papers | 
+ [mssa.ms.2137.xml](13589.xml) | mssa.ms.2137 | MS 2137 | Gaddis Smith papers | 
 
