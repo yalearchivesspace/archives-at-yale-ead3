@@ -642,6 +642,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.needham.xml](1171.xml) | beinecke.needham | Tibet MSS 64 | Wesley E. Needham Papers | 
  [beinecke.micro.xml](1173.xml) | beinecke.micro | WA MFM 1-6 | Women in the West: Microfilm Sets | 
  [beinecke.curtis.xml](1174.xml) | beinecke.curtis | WA MSS 122-125 | Samuel Ryan Curtis Papers | 
+ [beinecke.eld.xml](1175.xml) | beinecke.eld | WA MSS 161-162 | Henry Eld papers | 
  [beinecke.emmonsgf.xml](1176.xml) | beinecke.emmonsgf | WA MSS 166-169, WA MSS S-4386 | George F. Emmons papers | 
  [beinecke.faulk.xml](1178.xml) | beinecke.faulk | WA MSS 195 | Andrew Jackson Faulk papers | 
  [beinecke.geary.xml](1179.xml) | beinecke.geary | WA MSS 212 | John White Geary papers | 
@@ -1527,6 +1528,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.steinbeckcol.xml](11257.xml) | beinecke.steinbeckcol | YCAL MSS 1191 | Collection of Film Material Relating to John Steinbeck | 
  [beinecke.waphotosfolio149.xml](11259.xml) | beinecke.waphotosfolio149 | WA Photos Folio 149 | Photographs of Arizona, Cambodia, New Mexico, and the Pine Ridge Indian Reservation | 
  [beinecke.waphotosfolio155.xml](11274.xml) | beinecke.waphotosfolio155 | WA Photos Folio 155 | Photographs of Arizona, Connecticut, New Mexico, and South Dakota | 
+ [beinecke.bernhardtm.xml](11287.xml) | beinecke.bernhardtm | YCAL MSS 1196 | Melvin Bernhardt papers | 
  [beinecke.galassi.xml](11289.xml) | beinecke.galassi | YCAL MSS 1197 | Jonathan Galassi papers | 
  [beinecke.davisfo.xml](11291.xml) | beinecke.davisfo | GEN MSS 1520 | R. G. Davis papers relating to Dario Fo | 
  [beinecke.kayryan.xml](11296.xml) | beinecke.kayryan | YCAL MSS 1330 | Kay Ryan papers | 
@@ -1648,6 +1650,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lobel.xml](11814.xml) | beinecke.lobel | GEN MSS 2054 | Arnold Lobel papers | 
  [beinecke.smedley.xml](11815.xml) | beinecke.smedley | WA MSS S-4526 | Betty Dunn Smedley papers | 
  [beinecke.britishpunk.xml](11816.xml) | beinecke.britishpunk | GEN MSS 2084 | British punk archive | 
+ [beinecke.luhanfamily.xml](11817.xml) | beinecke.luhanfamily | YCAL MSS 1555 | Mabel Dodge Luhan and family papers | 
  [beinecke.saunders.xml](11818.xml) | beinecke.saunders | GEN MSS 2093 | Norman Saunders papers | 
  [beinecke.gavin.xml](11819.xml) | beinecke.gavin | GEN MSS 1724 | Father Carney Gavin legacy collection of Holy Land photographs | 
  [beinecke.jacob.xml](11820.xml) | beinecke.jacob | GEN MSS 2089 | John P. Jacob collection | 
@@ -1672,18 +1675,22 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.hollo.xml](11847.xml) | beinecke.hollo | GEN MSS 1701 | Anselm Hollo papers | 
  [beinecke.bsmith.xml](11849.xml) | beinecke.bsmith | YCAL MSS 1554 | Bradley Smith collection of Henry Miller | 
  [beinecke.sklar.xml](11850.xml) | beinecke.sklar | YCAL MSS 1446 | George Sklar and Miriam Blecher papers | 
+ [beinecke.hohenzollern.xml](11852.xml) | beinecke.hohenzollern | GEN MSS 2101 | Hohenzollern-Schlaberg-Hughes collection | 
  [beinecke.wodening.xml](11855.xml) | beinecke.wodening | YCAL MSS 1331 | Jane Wodening papers | 
  [beinecke.oleary.xml](11856.xml) | beinecke.oleary | GEN MSS 1780 | Jean O'Leary papers | 
  [beinecke.katz.xml](11857.xml) | beinecke.katz | YCAL MSS 1409 | Leon Katz papers | 
  [beinecke.perenyi.xml](11858.xml) | beinecke.perenyi | GEN MSS 1771 | Eleanor Perényi papers | 
+ [beinecke.burton.xml](11859.xml) | beinecke.burton | OSB MSS 343 | Peter Burton papers | 
  [beinecke.jacksonr.xml](11860.xml) | beinecke.jacksonr | YCAL MSS 1530 | Roger Jackson collection of Henry Miller and Irving Stettner | 
  [beinecke.cheney.xml](11861.xml) | beinecke.cheney | YCAL MSS 1534 | Russell Cheney papers | 
  [beinecke.strub.xml](11862.xml) | beinecke.strub | GEN MSS 1781 | Sean Strub papers | 
  [beinecke.peranio.xml](11863.xml) | beinecke.peranio | YCAL MSS 1346 | Vincent Peranio Papers | 
  [beinecke.thurd.xml](11864.xml) | beinecke.thurd | GEN MSS 1703 | Thacher Hurd papers | 
  [beinecke.olney.xml](11865.xml) | beinecke.olney | YCAL MSS 1549 | Richard Olney papers | 
+ [beinecke.vandercam.xml](11866.xml) | beinecke.vandercam | GEN MSS 2094 | Serge Vandercam papers | 
  [beinecke.wiborg.xml](11869.xml) | beinecke.wiborg | YCAL MSS 1408 | Mary Hoyt Wiborg papers | 
  [beinecke.mjamesslack.xml](11871.xml) | beinecke.mjamesslack | WA MSS S-4440 | M. James Slack papers | 
+ [beinecke.mariah.xml](11872.xml) | beinecke.mariah | GEN MSS 2096 | Paul Mariah papers | 
  [beinecke.dickenson.xml](11874.xml) | beinecke.dickenson | JWJ MSS 319 | Vic Dickenson papers | 
  [beinecke.henning.xml](11876.xml) | beinecke.henning | YCAL MSS 1303 | Barbara Henning papers | 
  [beinecke.qualls.xml](11877.xml) | beinecke.qualls | YCAL MSS 364 | Larry Qualls photographs and papers | 
@@ -1829,9 +1836,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.photomigrants.xml](12990.xml) | beinecke.photomigrants | WA Photos Folio 225 | Photographs of Migrant Agricultural Laborers in California | 
  [beinecke.marblepollock.xml](12993.xml) | beinecke.marblepollock | YCAL MSS 1541 | Anna Marble-Pollock cat collection | 
  [beinecke.felver.xml](13001.xml) | beinecke.felver | WA Photos 1342 | Chris Felver photographs | 
+ [beinecke.livingstonmurphy.xml](13006.xml) | beinecke.livingstonmurphy | GEN MSS 1272 | Ray Livingston Murphy collection of Edward Robert Bulwer-Lytton, Baron Lytton | 
  [beinecke.winks.xml](13007.xml) | beinecke.winks | GEN MSS 2087 | Robin W. Winks papers relating to United States intelligence services and officers | 
+ [beinecke.duckworth.xml](13008.xml) | beinecke.duckworth | OSB MSS 336 | Sir John Thomas Duckworth papers | 
  [beinecke.krech.xml](13009.xml) | beinecke.krech | GEN MSS 2091 | Shepard Krech collection of George Cruikshank | 
  [ead.beinecke.detroitcardoza.xml](13014.xml) | ead.beinecke.detroitcardoza | WA Photos 1344 | Photochroms of Sites in the United States and Mexico | 
+ [beinecke.handleyread.xml](13020.xml) | beinecke.handleyread | GEN MSS 2095 | Charles Handley-Read papers relating to Wyndham Lewis | 
+ [beinecke.martin.xml](13021.xml) | beinecke.martin | GEN MSS 2098 | John Martin collection of Wyndham Lewis | 
  [beinecke.gordon.xml](13022.xml) | beinecke.gordon | OSB MSS 342 | Gordon of Gordonstoun papers | 
  [beinecke.holker.xml](13023.xml) | beinecke.holker | GEN MSS 2092 | John Holker papers | 
  [beinecke.rbleighton.xml](13041.xml) | beinecke.rbleighton | WA MSS S-4538 | Robert Henry Leighton Letters to the Leighton Family | 
@@ -1850,7 +1861,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.alexis.xml](13263.xml) | beinecke.alexis | GEN MSS 2121 | André Alexis papers | 
  [beinecke.scole.xml](13275.xml) | beinecke.scole | YCAL MSS 1615 | Susan Cole papers | 
  [beinecke.manhattanproject.xml](13281.xml) | beinecke.manhattanproject | WA MSS S-4551 | The Manhattan Project Medical Group collection | 
+ [beinecke.tocqueville.xml](13288.xml) | beinecke.tocqueville | GEN MSS 2099 | Alexis de Tocqueville papers | 
  [beinecke.hsfowler.xml](13293.xml) | beinecke.hsfowler | WA MSS S-4552 | Helen Solberg Fowler papers | 
+ [beinecke.autographremnants.xml](13294.xml) | beinecke.autographremnants | OSB MSS 346 | Autograph album remnants collection | 
  [beinecke.pkennedy.xml](13302.xml) | beinecke.pkennedy | GEN MSS 2126 | Paul Kennedy papers | 
  [beinecke.nottage.xml](13307.xml) | beinecke.nottage | JWJ MSS 382 | Lynn Nottage papers | 
  [beinecke.lauramcphee.xml](13309.xml) | beinecke.lauramcphee | WA MSS S-4553 | Laura McPhee papers | 
