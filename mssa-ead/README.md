@@ -1923,7 +1923,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.0634.xml](3849.xml) | mssa.ms.0634 | MS 634 | Arnold Oscar Wolfers papers | 
  [mssa.ms.0641.xml](3850.xml) | mssa.ms.0641 | MS 641 | Alan Mara Bateman papers | 
  [mssa.ms.0666.xml](3851.xml) | mssa.ms.0666 | MS 666 | Sir William Wiseman papers | 
- [mssa.ms.0715.xml](3852.xml) | mssa.ms.0715 | MS 715 | Dickson H. and Marjorie B. Leavens papers | 
+ [mssa.ms.0715.xml](3852.xml) | mssa.ms.0715 | MS 715 | Dickson Hammond and Marjorie Browning Leavens papers | 
  [mssa.ms.0748.xml](3853.xml) | mssa.ms.0748 | MS 748 | American Life collection | 
  [mssa.ms.0760.xml](3854.xml) | mssa.ms.0760 | MS 760 | Nathan Sinai papers | 
  [mssa.ms.0764.xml](3855.xml) | mssa.ms.0764 | MS 764 | Connecticut Regional Medical Program Records | 
