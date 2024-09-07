@@ -1898,4 +1898,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.antidraft.xml](13489.xml) | beinecke.antidraft | GEN MSS 2137 | Cold War antidraft and pacifism collection | 
  [beinecke.american1919.xml](13492.xml) | beinecke.american1919 | JWJ MSS 126 | American 1919 race riots collection | 
  [beinecke.sack.xml](13499.xml) | beinecke.sack | GEN MSS 2139 | Leo R. Sack papers | 
+ [beinecke.dorothygray.xml](13564.xml) | beinecke.dorothygray | JWJ MSS 386 | Dorothy Gray papers | 
 
