@@ -1689,6 +1689,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.olney.xml](11865.xml) | beinecke.olney | YCAL MSS 1549 | Richard Olney papers | 
  [beinecke.vandercam.xml](11866.xml) | beinecke.vandercam | GEN MSS 2094 | Serge Vandercam papers | 
  [beinecke.wiborg.xml](11869.xml) | beinecke.wiborg | YCAL MSS 1408 | Mary Hoyt Wiborg papers | 
+ [beinecke.steuart.xml](11870.xml) | beinecke.steuart | OSB MSS 341 | Steuart family papers | 
  [beinecke.mjamesslack.xml](11871.xml) | beinecke.mjamesslack | WA MSS S-4440 | M. James Slack papers | 
  [beinecke.mariah.xml](11872.xml) | beinecke.mariah | GEN MSS 2096 | Paul Mariah papers | 
  [beinecke.dickenson.xml](11874.xml) | beinecke.dickenson | JWJ MSS 319 | Vic Dickenson papers | 
