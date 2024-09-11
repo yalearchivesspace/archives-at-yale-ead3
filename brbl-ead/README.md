@@ -1673,9 +1673,11 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.gustafson .xml](11844.xml) | beinecke.gustafson  | GEN MSS 997 | R. Eric Gustafson papers | 
  [beinecke.rmkoster.xml](11845.xml) | beinecke.rmkoster | YCAL MSS 1540 | R. M. Koster papers | 
  [beinecke.hollo.xml](11847.xml) | beinecke.hollo | GEN MSS 1701 | Anselm Hollo papers | 
+ [beinecke.spennato.xml](11848.xml) | beinecke.spennato | GEN MSS 2102 | Antoine Spennato collection of Jacques Spacagna | 
  [beinecke.bsmith.xml](11849.xml) | beinecke.bsmith | YCAL MSS 1554 | Bradley Smith collection of Henry Miller | 
  [beinecke.sklar.xml](11850.xml) | beinecke.sklar | YCAL MSS 1446 | George Sklar and Miriam Blecher papers | 
  [beinecke.hohenzollern.xml](11852.xml) | beinecke.hohenzollern | GEN MSS 2101 | Hohenzollern-Schlaberg-Hughes collection | 
+ [beinecke.rachewiltz.xml](11854.xml) | beinecke.rachewiltz | YCAL MSS 1527 | Mary de Rachewiltz papers | 
  [beinecke.wodening.xml](11855.xml) | beinecke.wodening | YCAL MSS 1331 | Jane Wodening papers | 
  [beinecke.oleary.xml](11856.xml) | beinecke.oleary | GEN MSS 1780 | Jean O'Leary papers | 
  [beinecke.katz.xml](11857.xml) | beinecke.katz | YCAL MSS 1409 | Leon Katz papers | 
@@ -1692,6 +1694,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.steuart.xml](11870.xml) | beinecke.steuart | OSB MSS 341 | Steuart family papers | 
  [beinecke.mjamesslack.xml](11871.xml) | beinecke.mjamesslack | WA MSS S-4440 | M. James Slack papers | 
  [beinecke.mariah.xml](11872.xml) | beinecke.mariah | GEN MSS 2096 | Paul Mariah papers | 
+ [beinecke.takamiya.xml](11873.xml) | beinecke.takamiya | OSB MSS 345 | Toshiyuki Takamiya collection of Arthur Charles Fox-Davies | 
  [beinecke.dickenson.xml](11874.xml) | beinecke.dickenson | JWJ MSS 319 | Vic Dickenson papers | 
  [beinecke.henning.xml](11876.xml) | beinecke.henning | YCAL MSS 1303 | Barbara Henning papers | 
  [beinecke.qualls.xml](11877.xml) | beinecke.qualls | YCAL MSS 364 | Larry Qualls photographs and papers | 
@@ -1863,6 +1866,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.scole.xml](13275.xml) | beinecke.scole | YCAL MSS 1615 | Susan Cole papers | 
  [beinecke.manhattanproject.xml](13281.xml) | beinecke.manhattanproject | WA MSS S-4551 | The Manhattan Project Medical Group collection | 
  [beinecke.tocqueville.xml](13288.xml) | beinecke.tocqueville | GEN MSS 2099 | Alexis de Tocqueville papers | 
+ [beinecke.tocquevillefamily.xml](13289.xml) | beinecke.tocquevillefamily | GEN MSS 2100 | Tocqueville family papers | 
  [beinecke.hsfowler.xml](13293.xml) | beinecke.hsfowler | WA MSS S-4552 | Helen Solberg Fowler papers | 
  [beinecke.autographremnants.xml](13294.xml) | beinecke.autographremnants | OSB MSS 346 | Autograph album remnants collection | 
  [beinecke.pkennedy.xml](13302.xml) | beinecke.pkennedy | GEN MSS 2126 | Paul Kennedy papers | 
