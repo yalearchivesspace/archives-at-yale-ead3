@@ -2,10 +2,6 @@
 
 EAD | EAD ID | Identifier | Title | Other versions
 --- | ------ | ---------- | ----- | --------------
- [ycba.mss.0001.xml](2.xml) | ycba.mss.0001 | MSS 1 | Fred Mallender Collection of British Commonwealth postage stamps | 
- [ycba.mss.0010.xml](3.xml) | ycba.mss.0010 | MSS 10  | Extra-illustrated Life of Nollekens | 
- [ycba.mss.0011.xml](4.xml) | ycba.mss.0011 | MSS 11 | Robert Provo Norris Collection | 
- [ycba.mss.0012.xml](5.xml) | ycba.mss.0012 | MSS 12 | Keith Marshall collection of photographs | 
  [ycba.mss.0013.xml](6.xml) | ycba.mss.0013 | MSS 13 | Backhouse and Mounsey collection | 
  [ycba.mss.0014.xml](7.xml) | ycba.mss.0014 | MSS 14  | Sam Smith Collection | 
  [ycba.mss.0015.xml](8.xml) | ycba.mss.0015 | MSS 15 | Charles Robert Leslie Collection | 
@@ -43,7 +39,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0056.xml](11067.xml) | ycba.mss.0056 | MSS 56 | Edward Burne-Jones Letters to John Ruskin | 
  [ycba.mss.0060.xml](11090.xml) | ycba.mss.0060 | MSS 60 | John McHale archive | 
  [ycba.mss.0059.xml](11283.xml) | ycba.mss.0059 | MSS 59 | Edward Lear archive | 
- [ycba.mss.0066.xml](11734.xml) | ycba.mss.0066 | Folio A 2023 69 | James Forbes archive | 
  [ycba.mss.0020.xml](11756.xml) | ycba.mss.0020 | MSS 20 | Henry Perlee Parker collection | 
  [ycba.mss.0021.xml](11760.xml) | ycba.mss.0021 | MSS 21 | John Christie archive | 
  [ycba.mss.0022.xml](11762.xml) | ycba.mss.0022 | MSS 22 | Letters to Richard Redgrave | 
