@@ -2,6 +2,10 @@
 
 EAD | EAD ID | Identifier | Title | Other versions
 --- | ------ | ---------- | ----- | --------------
+ [ycba.mss.0001.xml](2.xml) | ycba.mss.0001 | MSS 1 | Fred Mallender Collection of British Commonwealth postage stamps | 
+ [ycba.mss.0010.xml](3.xml) | ycba.mss.0010 | MSS 10  | Extra-illustrated Life of Nollekens | 
+ [ycba.mss.0011.xml](4.xml) | ycba.mss.0011 | MSS 11 | Robert Provo Norris Collection | 
+ [ycba.mss.0012.xml](5.xml) | ycba.mss.0012 | MSS 12 | Keith Marshall collection of photographs | 
  [ycba.ia.A012.xml](5369.xml) | ycba.ia.A012 | A012 | Yale Center for British Art Advancement and External Affairs Department records | 
  [ycba.ia.S006.xml](5370.xml) | ycba.ia.S006 | S006 | Paul Mellon collection of Basil Taylor papers | 
  [ycba.ia.A001.xml](5371.xml) | ycba.ia.A001 | A001 | Yale Center for British Art building construction and maintenance collection | 
@@ -44,6 +48,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.ia.A011.xml](10731.xml) | ycba.ia.A011 | A011 | Yale Center for British Art printed materials | 
  [ycba.ia.S004.xml](10746.xml) | ycba.ia.S004 | S004 | Jules David Prown collection of Louis I. Kahn Interviews by John W. Cook and Heinrich Klotz | 
  [11403.xml](11403.xml) |  |  S022 | John Baskett papers | 
+ [ycba.mss.0066.xml](11734.xml) | ycba.mss.0066 | Folio A 2023 69 | James Forbes archive | 
  [13080.xml](13080.xml) |  | S018 | Duncan Robinson papers on Paul Mellon | 
  [13565.xml](13565.xml) |  | S023 | Patrick Noon papers | 
 
