@@ -1904,4 +1904,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.american1919.xml](13492.xml) | beinecke.american1919 | JWJ MSS 126 | American 1919 race riots collection | 
  [beinecke.sack.xml](13499.xml) | beinecke.sack | GEN MSS 2139 | Leo R. Sack papers | 
  [beinecke.dorothygray.xml](13564.xml) | beinecke.dorothygray | JWJ MSS 386 | Dorothy Gray papers | 
+ [beinecke.mcnamee.xml](13615.xml) | beinecke.mcnamee | YCAL MSS 1212 | Leland McNamee papers | 
 
