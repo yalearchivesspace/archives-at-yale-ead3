@@ -2913,6 +2913,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1396.xml](11792.xml) | mssa.ms.1396 | MS 1396 | Joseph Stewart Fruton papers | 
  [mssa.ru.1172.xml](11898.xml) | mssa.ru.1172 | RU 1172 | Yale Slavic Chorus, Yale University, records | 
  [mssa.ru.1173.xml](11920.xml) | mssa.ru.1173 | RU 1173 | Environmental Action Group, Yale University, Records | 
+ [mssa.ms.2118.xml](11921.xml) | mssa.ms.2118 | MS 2118 | Charles A. Reich papers | 
  [mssa.ms.2120.xml](11951.xml) | mssa.ms.2120 | MS 2120 | Susan M. Watkins papers | 
  [mssa.ms.2119.xml](11952.xml) | mssa.ms.2119 | MS 2119 | Mary Dillman papers | 
  [mssa.ru.1176.xml](11960.xml) | mssa.ru.1176 | RU 1176 | Gilbert Dean, Class of 1841, Yale College, notes and ephemera | 
