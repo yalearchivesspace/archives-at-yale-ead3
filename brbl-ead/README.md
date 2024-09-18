@@ -1696,6 +1696,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mariah.xml](11872.xml) | beinecke.mariah | GEN MSS 2096 | Paul Mariah papers | 
  [beinecke.takamiya.xml](11873.xml) | beinecke.takamiya | OSB MSS 345 | Toshiyuki Takamiya collection of Arthur Charles Fox-Davies | 
  [beinecke.dickenson.xml](11874.xml) | beinecke.dickenson | JWJ MSS 319 | Vic Dickenson papers | 
+ [beinecke.skramer.xml](11875.xml) | beinecke.skramer | GEN MSS 2090 | Sidney B. Kramer papers and business records | 
  [beinecke.henning.xml](11876.xml) | beinecke.henning | YCAL MSS 1303 | Barbara Henning papers | 
  [beinecke.qualls.xml](11877.xml) | beinecke.qualls | YCAL MSS 364 | Larry Qualls photographs and papers | 
  [beinecke.detroitin2018.xml](11882.xml) | beinecke.detroitin2018 | GEN MSS 1601 | Detroit in 2018 | 
