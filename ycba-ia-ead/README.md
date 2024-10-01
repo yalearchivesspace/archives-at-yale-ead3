@@ -113,6 +113,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0086.xml](12973.xml) | ycba.mss.0086 | MSS 86 | Helen Haywood archive | 
  [ycba.mss.0087.xml](12974.xml) | ycba.mss.0087 | MSS 87 | Tilson Family Archive | 
  [ycba.mss.0088.xml](12991.xml) | ycba.mss.0088 | MSS 88 | Collection of designs for Worcester porcelain | 
- [13080.xml](13080.xml) |  | S018 | Duncan Robinson papers on Paul Mellon | 
+ [ycba.s018.xml](13080.xml) | ycba.s018 | S018 | Duncan Robinson papers on Paul Mellon | 
  [13565.xml](13565.xml) |  | S023 | Patrick Noon papers | 
 
