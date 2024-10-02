@@ -84,7 +84,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0056.xml](11067.xml) | ycba.mss.0056 | MSS 56 | Edward Burne-Jones Letters to John Ruskin | 
  [ycba.mss.0060.xml](11090.xml) | ycba.mss.0060 | MSS 60 | John McHale archive | 
  [ycba.mss.0059.xml](11283.xml) | ycba.mss.0059 | MSS 59 | Edward Lear archive | 
- [11403.xml](11403.xml) |  |  S022 | John Baskett papers | 
+ [ycba.s022.xml](11403.xml) | ycba.s022 |  S022 | John Baskett papers | 
  [ycba.mss.0066.xml](11734.xml) | ycba.mss.0066 | Folio A 2023 69 | James Forbes archive | 
  [ycba.mss.0020.xml](11756.xml) | ycba.mss.0020 | MSS 20 | Henry Perlee Parker collection | 
  [ycba.mss.0021.xml](11760.xml) | ycba.mss.0021 | MSS 21 | John Christie archive | 
@@ -114,5 +114,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0087.xml](12974.xml) | ycba.mss.0087 | MSS 87 | Tilson Family Archive | 
  [ycba.mss.0088.xml](12991.xml) | ycba.mss.0088 | MSS 88 | Collection of designs for Worcester porcelain | 
  [ycba.s018.xml](13080.xml) | ycba.s018 | S018 | Duncan Robinson papers on Paul Mellon | 
- [13565.xml](13565.xml) |  | S023 | Patrick Noon papers | 
+ [ycba.s019.xml](13213.xml) | ycba.s019 | S019 | Louis I. Kahn Yale Center for British Art sketches | 
+ [ycba.s023.xml](13565.xml) | ycba.s023 | S023 | Patrick Noon papers | 
 
