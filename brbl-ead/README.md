@@ -1906,6 +1906,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.american1919.xml](13492.xml) | beinecke.american1919 | JWJ MSS 126 | American 1919 race riots collection | 
  [beinecke.mountaindreamportraits.xml](13493.xml) | beinecke.mountaindreamportraits | GEN MSS 2136 | Bea Nettles, Photographic Portraits for Mountain Dream Tarot | 
  [beinecke.sack.xml](13499.xml) | beinecke.sack | GEN MSS 2139 | Leo R. Sack papers | 
+ [beinecke.balog.xml](13551.xml) | beinecke.balog | WA MSS S-4558.  | James Balog Extreme Ice Survey photograph collection | 
  [beinecke.dorothygray.xml](13564.xml) | beinecke.dorothygray | JWJ MSS 386 | Dorothy Gray papers | 
  [beinecke.mcnamee.xml](13615.xml) | beinecke.mcnamee | YCAL MSS 1212 | Leland McNamee papers | 
 
