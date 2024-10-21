@@ -27,6 +27,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0009.xml](25.xml) | ycba.mss.0009 | MSS 9  | Edgar Hockley collection | 
  [ycba.mss.0084.xml](26.xml) | ycba.mss.0084 | MSS 84 | Paul Mellon collection of British artists' correspondence | 
  [ycba.mss.0068.xml](27.xml) | ycba.mss.0068 | MSS 68 | James Bruce archive | 
+ [ycba.mss.0077.xml](29.xml) | ycba.mss.0077 | MSS 77 | Daniel King Circle Press Archive | 
  [ycba.mss.0024.xml](30.xml) | ycba.mss.0024 | MSS 24 | Paul Nash Letters to Mercia Oakley | 
  [ycba.mss.0044.xml](31.xml) | ycba.mss.0044 | MSS 44  | Pugin family archive | 
  [ycba.mss.0007.xml](33.xml) | ycba.mss.0007 | MSS 7 | Clare Leighton collection | 
