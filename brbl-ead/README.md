@@ -1912,5 +1912,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mclellan.xml](13588.xml) | beinecke.mclellan | GEN MSS 2143 | David Stanley and Ann Handforth McLellan papers | 
  [beinecke.mcnamee.xml](13615.xml) | beinecke.mcnamee | YCAL MSS 1212 | Leland McNamee papers | 
  [beinecke.emanuel.xml](13616.xml) | beinecke.emanuel | JWJ MSS 389 | Bessie Emanuel papers | 
+ [beinecke.walder.xml](13617.xml) | beinecke.walder | JWJ MSS 390 | Ingrid Lothigius-Walder collection of the Harlem Jazz Festival | 
  [beinecke.newcomb.xml](13621.xml) | beinecke.newcomb | GEN MSS 2145 | Ruth Wetmore Newcomb papers | 
 
