@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,7 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/music.mss.0046">music.mss.0046</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/music.mss.0046">music.mss.0046</recordid>
       <otherrecordid localtype="BIB">3814653</otherrecordid>
       <filedesc>
          <titlestmt>
@@ -17,11 +18,12 @@
             <author>Compiled by John Mangan<lb/>May 1995</author>
          </titlestmt>
          <publicationstmt>
-            <publisher>Yale University Music Library</publisher>
+            <publisher>Gilmore Music Library</publisher>
             <address>
                <addressline>120 High Street </addressline>
                <addressline>PO Box 208240</addressline>
                <addressline>New Haven, CT 06520</addressline>
+               <addressline localtype="telephone"> (203) 432-0497 </addressline>
                <addressline localtype="email">musicspecialcollections@yale.edu</addressline>
                <addressline>
                   <ref href="https://guides.library.yale.edu/MusicSpecialCollections"
@@ -37,20 +39,17 @@
                <p>This finding aid, which is compliant with the Yale EAD Best Practice Guidelines, Version 1.0., has a MARC record in Yale's ILS with the following bib number: <num localtype="Orbis-bib">3814653</num>.</p>
             </controlnote>
             <controlnote localtype="onsite">
-               <p>Boxes: 1-31</p>
+               <p>Boxes: 1-2, 4-31</p>
             </controlnote>
             <controlnote localtype="offsite">
-               <p>Box: 3</p>
-            </controlnote>
-            <controlnote localtype="digital">
-               <p>This collection contains <num localtype="objects" altrender="60">60</num> published digital objects.</p>
+               <p>Boxes: 3, 3A, 9A</p>
             </controlnote>
          </notestmt>
       </filedesc>
       <maintenancestatus value="derived"/>
       <maintenanceagency countrycode="US">
          <agencycode>US-CtY-Mus</agencycode>
-         <agencyname>Yale University Music Library</agencyname>
+         <agencyname>Gilmore Music Library</agencyname>
       </maintenanceagency>
       <languagedeclaration>
          <language langcode="eng">English</language>
@@ -76,10 +75,10 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2021-10-20T00:14:32+00:00</eventdatetime>
+            <eventdatetime>2024-10-29T00:05:59+00:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.7.1.yale.20200820</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday October 20, 2021 at 00:14</eventdescription>
+            <agent>ArchivesSpace yale-rebased-v3.3.1</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday October 29, 2024 at 00:05</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -89,19 +88,23 @@
          <unitid>MSS 46</unitid>
          <repository>
             <corpname>
-               <part>Yale University Music Library</part>
+               <part>Gilmore Music Library</part>
             </corpname>
          </repository>
          <langmaterial>
-            <language langcode="rus">Russian</language>
-            <language langcode="rus">Russian</language>
-            <language langcode="eng">English</language>
             <language langcode="ger">German</language>
             <language langcode="fre">French</language>
-            <descriptivenote>
-               <p>Materials chiefly in Russian, English, German, and French.</p>
-            </descriptivenote>
          </langmaterial>
+         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>15</quantity>
+            <unittype>Linear Feet</unittype>
+         </physdescstructured>
+         <physdesc localtype="container_summary">(31 boxes)</physdesc>
+         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>15</quantity>
+            <unittype>Linear Feet</unittype>
+         </physdescstructured>
+         <physdesc localtype="container_summary">(31 boxes)</physdesc>
          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
             <quantity>15</quantity>
             <unittype>Linear Feet</unittype>
@@ -117,9 +120,29 @@
                <todate standarddate="1982">1982</todate>
             </daterange>
          </unitdatestructured>
+         <unitdatestructured altrender="1902-1982 (inclusive)"
+                             calendar="gregorian"
+                             era="ce"
+                             label="creation"
+                             unitdatetype="inclusive">
+            <daterange>
+               <fromdate standarddate="1902">1902</fromdate>
+               <todate standarddate="1982">1982</todate>
+            </daterange>
+         </unitdatestructured>
+         <unitdatestructured altrender="1902-1982 (inclusive)"
+                             calendar="gregorian"
+                             era="ce"
+                             label="creation"
+                             unitdatetype="inclusive">
+            <daterange>
+               <fromdate standarddate="1902">1902</fromdate>
+               <todate standarddate="1982">1982</todate>
+            </daterange>
+         </unitdatestructured>
          <abstract id="aspace_449e61ce4a9e51ea9e35ccc4d53584a4">Music, correspondence and other papers, photographs, and additional materials by and about the Russian composer Thomas de Hartmann (1886-1956)</abstract>
          <origination label="Creator">
-            <persname identifier="http://id.loc.gov/authorities/names/n81080909" source="naf">
+            <persname>
                <part localtype="agent_person">Hartmann, Thomas de, 1885-1956</part>
             </persname>
          </origination>
@@ -152,7 +175,7 @@
       </scopecontent>
       <bioghist id="aspace_bh1">
          <head>Biographical / Historical</head>
-         <p>The Thomas de Hartmann Papers reflect a life of early successes followed by constant struggle in the wake of two world wars and the Russian Revolution. De Hartmann (1886-1956) was born in the Ukraine to a family of Russian aristocrats and showed an inspired ability for music by improvising melodies at the piano before the age of five. At age nine, following the death of his father, de Hartmann was sent to the military academy in St. Petersburg. There he found a sympathetic supporter in the director of the academy, who recognized the unusual talent of the young de Hartmann and allowed him to pursue his musical studies alongside his military training. In 1897 at the age of eleven, de Hartmann began his formal training in music as a composition student of Anton Arensky, renowned former professor of composition at the Moscow Conservatory and current director of the Imperial Chapel in St. Petersburg. With the death of Arensky four years later, de Hartmann undertook the study of counterpoint with Sergei Taneev, whose previous students had included Scriabin, Rachmaninoff, and Glière. De Hartmann later entered the St. Petersburg Imperial Conservatory, then under the directorship of Rimsky-Korsakov, where he studied piano with Anna Esipova-Lechetizky. He received his artist's diploma in 1904 at the age of eighteen.</p>
+         <p>The Thomas de Hartmann Papers reflect a life of early successes followed by constant struggle in the wake of two world wars and the Russian Revolution. De Hartmann (1886-1956) was born in Khoruzhivka, Sumy Oblast', Ukraine (then part of the Russian Empire) to a family of aristocrats and showed an inspired ability for music by improvising melodies at the piano before the age of five. At age nine, following the death of his father, de Hartmann was sent to the military academy in St. Petersburg. There he found a sympathetic supporter in the director of the academy, who recognized the unusual talent of the young de Hartmann and allowed him to pursue his musical studies alongside his military training. In 1897 at the age of eleven, de Hartmann began his formal training in music as a composition student of Anton Arensky, renowned former professor of composition at the Moscow Conservatory and current director of the Imperial Chapel in St. Petersburg. With the death of Arensky four years later, de Hartmann undertook the study of counterpoint with Sergei Taneev, whose previous students had included Scriabin, Rachmaninoff, and Glière. De Hartmann later entered the St. Petersburg Imperial Conservatory, then under the directorship of Rimsky-Korsakov, where he studied piano with Anna Esipova-Lechetizky. He received his artist's diploma in 1904 at the age of eighteen.</p>
          <p>In 1906 his four-act ballet <emph render="italic">The Pink Flower</emph> was performed in the Imperial opera houses of Moscow and St. Petersburg with Nijinsky, Pavlova, and Fokine dancing the principal roles. The work was favorably received and the young de Hartmann experienced a considerable amount of notoriety in the culturally elite circles of Russia. De Hartmann's first songs, pieces for piano, and works for chamber ensemble were published by Jurgenson. Tsar Nicolas II also attended <emph render="italic">The Pink Flower</emph> in St. Petersburg and he too found great favor with the work and the composer. Shortly thereafter, the Tsar allowed de Hartmann to defer his military service so that he might pursue a full-time career in music. Seizing the opportunity, de Hartmann immediately departed for Munich to study with the famous conductor and former pupil of Wagner, Felix Mottl.</p>
          <p>In 1908 Munich was fertile soil for artists of any ilk, a center of creative activity which was rivaled only by Paris and Vienna. Not long after his arrival, de Hartmann attended an art exhibition that contained works by then-unknown painters such as Van Gogh, Gauguin, and Kandinsky. De Hartmann later recounted: "Music in Germany had reached an impasse...it seemed clear to me that new forms and techniques had to be found, and more than anything else I wished to find my own way. Soon I found it through the art of painting." De Hartmann was introduced to Kandinsky by mutual friends and, though Kandinsky was 20 years his senior, the two formed a strong bond of friendship that lasted until Kandinsky's death forty years later. De Hartmann was intrigued by Kandinsky's creative vision and assertion that any means of expression was permitted if it helped the artist convey his "inner sound." Kandinsky introduced de Hartmann to Alexander Sacharoff, a young Russian dancer. The three held all-night sessions of collaborative improvisation with de Hartmann at the piano, Kandinsky shouting out dramatic scenarios based loosely on Russian folklore, and Sacharoff interpreting the music and storyline in dance. This exploration of the interrelatedness of their creative mediums led first to a setting of the Greek legend <emph render="italic">Daphnis and Chloe</emph> and later, in 1909, to the creation of the seminal one-act opera <emph render="italic">Der Gelbe Klang</emph>. Neither work was staged at that time.</p>
          <p>In 1912 de Hartmann published an article entitled "Über Anarchie in der Musik." It appeared in the avant-garde periodical <emph render="italic">Der Blaue Reiter</emph> which was published by Kandinsky and Franz Marc, where de Hartmann wrote, "External laws do not exist. In music, every means that arises from inner necessity is correct. Anarchy in art should be greeted. Only this principle can lead us to a shining future, a new rebirth." During a return visit to St. Petersburg, de Hartmann met and later married Olga Arkadaevna Schumacher, the daughter of a prominent government dignitary. Olga returned with de Hartmann to Munich. With the outbreak of World War I in 1914, de Hartmann was ordered back to his regiment in St. Petersburg (now Petrograd). Still a Russian officer, he was intermittently sent to the front. Though active in the war effort, he managed to compose <emph render="italic">The Forces of Love and Sorcery</emph>, a marionette opera which was performed in St. Petersburg in 1915.</p>
@@ -167,6 +190,10 @@
          <p>De Hartmann later returned to New York where he continued to compose, performed occasionally, and began work on his memoir of Gurdjieff. On April 16, 1956, an American debut concert of de Hartmann's music was scheduled to be performed in New York's Town Hall. On March 28, de Hartmann died of a heart attack. De Hartmann's students went ahead and performed the concert as a memorial tribute. Olga de Hartmann devoted the rest of her life to promoting interest in her husband's music both in America and abroad. She lived her final years at the center of a group of Gurdjieff followers in Santa Fe, New Mexico, where she died in 1979 at the age of 94.</p>
          <p>De Hartmann's output as a composer includes four symphonies, several operas, concertos, sonatas, and songs with texts by Proust, Verlaine, Joyce, and Shelley as well as 53 film scores. His music has been interpreted by performers and conductors such as Stokowski, Leduc, Bigot, Casals, Tortelier, and Rampal.</p>
       </bioghist>
+      <processinfo id="aspace_483acfefdd443c695cd56348a59b89f5">
+         <head>Processing Information</head>
+         <p>This material was created before the independence of Ukraine and contains outdated language (i.e., "the Ukraine"). Instances of "the Ukraine" not supplied by the creator of this collection have been updated to reflect current language usage.</p>
+      </processinfo>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh2009119702"
                   source="lcsh">
@@ -182,64 +209,58 @@
                   source="lcsh">
             <part localtype="topical">Piano music</part>
          </subject>
-         <persname identifier="http://id.loc.gov/authorities/names/n80133189" source="naf">
+         <persname>
             <part localtype="agent_person">Ansermet, Ernest, 1883-1969</part>
          </persname>
          <persname source="local">
             <part localtype="agent_person">Belaieff, M. P. (Mitrofan Petrovich)</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n83133750" source="naf">
+         <persname>
             <part localtype="agent_person">Bigot, Eugène, 1888-1965</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n50042122" source="naf">
+         <persname>
             <part localtype="agent_person">Boult, Adrian, 1889-1983</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/no2012139195"
-                   source="naf">
+         <persname>
             <part localtype="agent_person">Crosby, John, 1926-2002</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n82093712" source="naf">
+         <persname>
             <part localtype="agent_person">Fokine, Michel, 1880-1942</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n80079449" source="naf">
+         <persname>
             <part localtype="agent_person">Glazunov, Aleksandr Konstantinovich, 1865-1936</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n81081347" source="naf">
+         <persname>
             <part localtype="agent_person">Gurdjieff, Georges Ivanovitch, 1872-1949</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n83213867" source="naf">
+         <persname>
             <part localtype="agent_person">Hartmann, Olga de, 1885-1979</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n81080909" source="naf">
+         <persname>
             <part localtype="agent_person">Hartmann, Thomas de, 1885-1956</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n93078459"
-                   rules="aacr"
-                   source="naf">
+         <persname rules="aacr">
             <part localtype="agent_person">Kandinsky, Nina</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n79059310" source="naf">
+         <persname>
             <part localtype="agent_person">Kandinsky, Wassily, 1866-1944</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n81142296" source="naf">
+         <persname>
             <part localtype="agent_person">Koussevitzky, Serge, 1874-1951</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/no88000705"
-                   source="naf">
+         <persname>
             <part localtype="agent_person">Leschetizky, Theodor, 1830-1915</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n80079451"
-                   rules="aacr"
-                   source="naf">
+         <persname rules="aacr">
             <part localtype="agent_person">Medtner, Nikolay Karlovich, 1880-1951</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n84072870" source="naf">
+         <persname>
             <part localtype="agent_person">Rodzinski, Artur, 1892-1958</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n50046708" source="naf">
+         <persname>
             <part localtype="agent_person">Weingartner, Felix, 1863-1942</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/n50016037" source="naf">
+         <persname>
             <part localtype="agent_person">Wood, Henry J. (Henry Joseph), 1869-1944</part>
          </persname>
       </controlaccess>
@@ -702,6 +723,39 @@
                      <p>Opera.</p>
                   </odd>
                </c>
+               <c altrender="/repositories/6/archival_objects/2549744"
+                  id="aspace_G189"
+                  level="file">
+                  <did>
+                     <unittitle>
+                        <title localtype="simple" render="italic">
+                           <part>[Fête en Ukraine, op. 62.]</part>
+                        </title> Une fête en Ukraine.</unittitle>
+                     <physdesc id="aspace_dfde423d7b90d171528939c66e2d461e">31 parts ; 35 cm.</physdesc>
+                     <container altrender="/repositories/6/top_containers/377688 /locations/9"
+                                containerid="39002129904596"
+                                id="aspace_G189_c1"
+                                label="Mixed Materials"
+                                localtype="box">3A</container>
+                     <container id="aspace_G189_c2" localtype="folder" parent="aspace_G189_c1">26</container>
+                  </did>
+               </c>
+               <c altrender="/repositories/6/archival_objects/2549745"
+                  id="aspace_G195"
+                  level="file">
+                  <did>
+                     <unittitle>
+                        <title localtype="simple" render="italic">
+                           <part>[Fête en Ukraine, op. 62.]</part>
+                        </title> Une fête en Ukraine.</unittitle>
+                     <physdesc id="aspace_7f65dd6072b05c096fcb13b13383fe3f">28 parts ; 35 cm.</physdesc>
+                     <container altrender="/repositories/6/top_containers/300663"
+                                id="aspace_G195_c1"
+                                label="Mixed Materials"
+                                localtype="box">4</container>
+                     <container id="aspace_G195_c2" localtype="folder" parent="aspace_G195_c1">27</container>
+                  </did>
+               </c>
                <c altrender="/repositories/6/archival_objects/2549739"
                   id="aspace_G154"
                   level="file">
@@ -733,7 +787,7 @@
                            <part>[Fête de la patronne, op. 77]</part>
                         </title> Musique pour la Fête de la patronne d'après Degas [for orchestra]</unittitle>
                      <physdesc id="aspace_a959e0684345448753d21fbd6393eb65">1 score (58 p.) ; 36 cm.</physdesc>
-                     <container altrender="/repositories/6/top_containers/377688"
+                     <container altrender="/repositories/6/top_containers/377688 /locations/9"
                                 containerid="39002129904596"
                                 id="aspace_G159_c1"
                                 label="Mixed Materials"
@@ -757,7 +811,7 @@
                            <part>[Fête de la patronne, op. 77, arr.]</part>
                         </title> Musique pour la Fête de la patronne d'après Degas.</unittitle>
                      <physdesc id="aspace_751e73e47b63d1df7b5c33029f92ffff">16 p. of music ; 35 cm.</physdesc>
-                     <container altrender="/repositories/6/top_containers/377688"
+                     <container altrender="/repositories/6/top_containers/377688 /locations/9"
                                 containerid="39002129904596"
                                 id="aspace_G166_c1"
                                 label="Mixed Materials"
@@ -782,7 +836,7 @@
                            <part>[Fête de la patronne, op. 77, arr.]</part>
                         </title> Musique pour la Fête de la patronne d'après Degas.</unittitle>
                      <physdesc id="aspace_0bdb56786e46abcc0f9757f61cdc355e">19 p. of music ; 35 cm.</physdesc>
-                     <container altrender="/repositories/6/top_containers/377688"
+                     <container altrender="/repositories/6/top_containers/377688 /locations/9"
                                 containerid="39002129904596"
                                 id="aspace_G174_c1"
                                 label="Mixed Materials"
@@ -806,7 +860,7 @@
                            <part>[Fête en Ukraine, op. 62, arr.]</part>
                         </title> Fête en Ukraine, ballet en un acte.</unittitle>
                      <physdesc id="aspace_a19af8c6ab99b9dc63d4720963ff43ce">56 p. of music ; 27 cm.</physdesc>
-                     <container altrender="/repositories/6/top_containers/377688"
+                     <container altrender="/repositories/6/top_containers/377688 /locations/9"
                                 containerid="39002129904596"
                                 id="aspace_G182_c1"
                                 label="Mixed Materials"
@@ -819,49 +873,6 @@
                      <p>Arr. for piano.</p>
                      <p>Annotations in pencil, 1 copy only.</p>
                      <p>2 copies.</p>
-                  </odd>
-               </c>
-               <c altrender="/repositories/6/archival_objects/2549744"
-                  id="aspace_G189"
-                  level="file">
-                  <did>
-                     <unittitle>
-                        <title localtype="simple" render="italic">
-                           <part>[Fête en Ukraine, op. 62.]</part>
-                        </title> Une fête en Ukraine.</unittitle>
-                     <physdesc id="aspace_dfde423d7b90d171528939c66e2d461e">31 parts ; 35 cm.</physdesc>
-                     <container altrender="/repositories/6/top_containers/377688"
-                                containerid="39002129904596"
-                                id="aspace_G189_c1"
-                                label="Mixed Materials"
-                                localtype="box">3A</container>
-                     <container id="aspace_G189_c2" localtype="folder" parent="aspace_G189_c1">26</container>
-                  </did>
-                  <odd id="aspace_06a3946ac09a8cbd5b894c099f45ee12">
-                     <head>General</head>
-                     <p>Manuscript.</p>
-                     <p>Ballet.</p>
-                  </odd>
-               </c>
-               <c altrender="/repositories/6/archival_objects/2549745"
-                  id="aspace_G195"
-                  level="file">
-                  <did>
-                     <unittitle>
-                        <title localtype="simple" render="italic">
-                           <part>[Fête en Ukraine, op. 62.]</part>
-                        </title> Une fête en Ukraine.</unittitle>
-                     <physdesc id="aspace_7f65dd6072b05c096fcb13b13383fe3f">28 parts ; 35 cm.</physdesc>
-                     <container altrender="/repositories/6/top_containers/300663"
-                                id="aspace_G195_c1"
-                                label="Mixed Materials"
-                                localtype="box">4</container>
-                     <container id="aspace_G195_c2" localtype="folder" parent="aspace_G195_c1">27</container>
-                  </did>
-                  <odd id="aspace_50b448375a0ba46073465e2f7fa005a5">
-                     <head>General</head>
-                     <p>Manuscript.</p>
-                     <p>Ballet.</p>
                   </odd>
                </c>
                <c altrender="/repositories/6/archival_objects/2549746"
@@ -2143,6 +2154,7 @@
                      </unittitle>
                      <physdesc id="aspace_176bb4992e553184be1eee23c9178016">1 score (72 p.) ; 35 cm.</physdesc>
                      <container altrender="/repositories/6/top_containers/300668"
+                                containerid="39002022374475"
                                 id="aspace_G498_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
@@ -2166,6 +2178,7 @@
                      </unittitle>
                      <physdesc id="aspace_5434febd1c3ee5dde8d632e7a2d34178">1 score (24 p.) ; 36 cm.</physdesc>
                      <container altrender="/repositories/6/top_containers/300668"
+                                containerid="39002022374475"
                                 id="aspace_G503_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
@@ -2191,6 +2204,7 @@
                      </unittitle>
                      <physdesc id="aspace_abf2f966802963bed88b30de1f65eb60">28 parts ; 34 cm.</physdesc>
                      <container altrender="/repositories/6/top_containers/300668"
+                                containerid="39002022374475"
                                 id="aspace_G509_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
@@ -2211,6 +2225,7 @@
                         </title> La gurla: concerto pour harpe et orchestre.</unittitle>
                      <physdesc id="aspace_ca0094326750252631cf80f7e232cf56">1 part (21 p.) ; 35 cm.</physdesc>
                      <container altrender="/repositories/6/top_containers/300668"
+                                containerid="39002022374475"
                                 id="aspace_G513_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
@@ -2232,6 +2247,7 @@
                         </title> Rapsodie slave (d'après P. Mérimé)</unittitle>
                      <physdesc id="aspace_bbe69f293fa365016e7b4c907b9c9564">1 score (59 p.) ; 36 cm.</physdesc>
                      <container altrender="/repositories/6/top_containers/300668"
+                                containerid="39002022374475"
                                 id="aspace_G518_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
@@ -2253,6 +2269,7 @@
                         </title> La gurla: concerto pour harpe et orchestre.</unittitle>
                      <physdesc id="aspace_7ca97266a911d3ad37ea36988e291bf7">11 parts ; 34 cm.</physdesc>
                      <container altrender="/repositories/6/top_containers/300668"
+                                containerid="39002022374475"
                                 id="aspace_G523_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
@@ -2273,6 +2290,7 @@
                         </title> La gurla pour harpe et orchestre.</unittitle>
                      <physdesc id="aspace_f8368b51ae6ff86b893c7c5e237eb305">1 score (47 p.) ; 35 cm.</physdesc>
                      <container altrender="/repositories/6/top_containers/300668"
+                                containerid="39002022374475"
                                 id="aspace_G527_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
@@ -2295,6 +2313,7 @@
                      </unittitle>
                      <physdesc id="aspace_a9721e39e18b41407cb84b448135b510">3 p. of music in 1 quire.</physdesc>
                      <container altrender="/repositories/6/top_containers/300668"
+                                containerid="39002022374475"
                                 id="aspace_G532_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
@@ -2315,6 +2334,7 @@
                         </title> Koladky: Noëls ucrainiens, chant spirituel.</unittitle>
                      <physdesc id="aspace_5a62f9c94d741732cde65da4a424bbdd">1 score (45 p.) ; 36 cm.</physdesc>
                      <container altrender="/repositories/6/top_containers/300668"
+                                containerid="39002022374475"
                                 id="aspace_G535_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
@@ -2339,6 +2359,7 @@
                      </unittitle>
                      <physdesc id="aspace_ff91581af371f6f8f023eb53dcccdabd">1 score (8 p.) ; 35 cm.</physdesc>
                      <container altrender="/repositories/6/top_containers/300668"
+                                containerid="39002022374475"
                                 id="aspace_G542_c1"
                                 label="Mixed Materials"
                                 localtype="box">9</container>
@@ -2360,10 +2381,11 @@
                         </title>
                      </unittitle>
                      <physdesc id="aspace_4e30e24fb05cd6e72700626acb2e147c">36 parts ; 36 cm.</physdesc>
-                     <container altrender="/repositories/6/top_containers/300668"
+                     <container altrender="/repositories/6/top_containers/389592 /locations/9"
+                                containerid="39002137430824"
                                 id="aspace_G546_c1"
                                 label="Mixed Materials"
-                                localtype="box">9</container>
+                                localtype="box">9A</container>
                      <container id="aspace_G546_c2" localtype="folder" parent="aspace_G546_c1">80</container>
                   </did>
                   <odd id="aspace_1dc566c276b7f8eb3de5d5574af563fc">
@@ -5855,6 +5877,7 @@
                            </title> Der Gelbe Klang / Wassily Kandinsky. -- Munich, 1912.</unittitle>
                         <physdesc id="aspace_39471061a66201d18ce2c2eb9be2f511">19 p. ; 29 cm.</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1554_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
@@ -5877,6 +5900,7 @@
                            </title> The yellow sound.</unittitle>
                         <physdesc id="aspace_9a4bc3ce2198bdc6d94a332669725286">24 p. ; 35 cm.</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1561_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
@@ -5899,6 +5923,7 @@
                            </title> The yellow sound.</unittitle>
                         <physdesc id="aspace_58283e4e37098093169a4042632708f2">17 p. ; 27 cm.</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1567_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
@@ -5923,6 +5948,7 @@
                         </unittitle>
                         <physdesc id="aspace_0a36c24c76d20f1bda208b854c463d91">11 p. ; 22 x 36 cm.</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1574_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
@@ -5945,6 +5971,7 @@
                         </unittitle>
                         <physdesc id="aspace_0934dcfe7e2a2492dbe32bae1ae97eb5">14 p. ; 28 cm.</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1578_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
@@ -5965,6 +5992,7 @@
                            </title> The yellow sound, a stage-composition by Kandinsky.</unittitle>
                         <physdesc id="aspace_1e4efbdf3964f4cd4318d281905561ea">22 p. ; 28 cm.</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1581_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
@@ -5986,6 +6014,7 @@
                         </unittitle>
                         <physdesc id="aspace_910ca0d059d5799ae58cde3bffb2f4c2">7 p. ; 27 cm.</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1585_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
@@ -6006,6 +6035,7 @@
                            </title> The yellow sound.</unittitle>
                         <physdesc id="aspace_9796c65cbea8ee9219c33a9610e2b408">24 p. ; 28 cm.</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1588_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
@@ -6028,6 +6058,7 @@
                         </unittitle>
                         <physdesc id="aspace_300ed75c6216f1fe39b1c93ef6142717">1 p. ; 23 cm.</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1593_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
@@ -6050,6 +6081,7 @@
                         </unittitle>
                         <physdesc id="aspace_3860b71df16dfa014bc3cd5a4c606710">2 p. ; 16 cm.</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1597_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
@@ -6072,6 +6104,7 @@
                         </unittitle>
                         <physdesc id="aspace_5c4dcabe32b7f029a0ea721493f4c50f">1 p. ; 22 cm.</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1601_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
@@ -6100,6 +6133,7 @@
                            </title> The yellow sound / Wassily Kandinsky, text ; Thomas de Hartmann, music ; Gunther Schuller, arranger and orchestrator ; Ian Strasfogel, theatrical realization.</unittitle>
                         <physdesc id="aspace_f8f23f4c80b3b297edf869d5f39b129a">12 p. + 1 p. insert ; 23 cm.</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1606_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
@@ -6134,6 +6168,7 @@
                         </unitdatestructured>
                         <physdesc id="aspace_a227c992b464281600f8f148ea5931ec">1 item</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1614_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
@@ -6150,6 +6185,7 @@
                                   unitdatetype="inclusive">1982 [English]</unitdate>
                         <physdesc id="aspace_f927504a54213979dfdef68f058606de">13 items</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1615_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
@@ -6166,6 +6202,7 @@
                                   unitdatetype="inclusive">1982 [German]</unitdate>
                         <physdesc id="aspace_fda33cc4bcfcfa191ffeee250276014b">7 items</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1616_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
@@ -6187,6 +6224,7 @@
                         <unittitle>Ticket order form for Guggenheim production of Der Gelbe Klang.</unittitle>
                         <physdesc id="aspace_e3a8b22fe58032a3331fa90a38af1c6c">2 items</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1618_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
@@ -6200,6 +6238,7 @@
                         <unittitle>Taken from G. Münter's book, p. 91.</unittitle>
                         <physdesc id="aspace_d7af13f383040815e5adb5ddb77abc84">3 p. ; 27 cm. - 1 item</physdesc>
                         <container altrender="/repositories/6/top_containers/300683"
+                                   containerid="39002022374608"
                                    id="aspace_G1619_c1"
                                    label="Mixed Materials"
                                    localtype="box">22</container>
