@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,7 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/beinecke.eaton">beinecke.eaton</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/beinecke.eaton">beinecke.eaton</recordid>
       <otherrecordid localtype="BIB">9958866</otherrecordid>
       <filedesc>
          <titlestmt>
@@ -22,6 +23,7 @@
             <address>
                <addressline>P. O. Box 208330</addressline>
                <addressline>New Haven, CT 06520-8330</addressline>
+               <addressline localtype="telephone">(203) 432-2977 </addressline>
                <addressline localtype="email">beinecke.library@yale.edu</addressline>
                <addressline>
                   <ref href="http://beinecke.library.yale.edu/"
@@ -67,10 +69,10 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2021-07-04T03:22:34+00:00</eventdatetime>
+            <eventdatetime>2024-11-28T01:32:30-05:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.7.1.yale.20200820</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Sunday July  4, 2021 at 03:22</eventdescription>
+            <agent>ArchivesSpace yale-rebased-v3.3.1</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday November 28, 2024 at 01:32</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -101,39 +103,38 @@
          </unitdatestructured>
          <abstract id="aspace_71328bf6ff0e50283f5f5dbd2175f490">The writings consist of manuscript and typescript drafts of various works by Walter Prichard Eaton. Included is a typescript draft of The Ecole Des Beaux-Arts in the 90's by Charles Morris.</abstract>
          <origination label="Creator">
-            <persname identifier="http://id.loc.gov/authorities/names/n50024437" source="naf">
+            <persname>
                <part localtype="agent_person">Eaton, Walter Prichard, 1878-1957</part>
             </persname>
          </origination>
-    
       </did>
       <acqinfo id="aspace_ba63446974d3141b52bfaeb921e4c5cf">
          <head>Immediate Source of Acquisition</head>
-         <p>Source unknown.</p>  
+         <p>Source unknown.</p>
       </acqinfo>
       <accessrestrict id="aspace_212992f0bc5a2ab4b2ea402aab32ba1b">
          <head>Conditions Governing Access</head>
-         <p>The materials are open for research.</p>  
+         <p>The materials are open for research.</p>
       </accessrestrict>
       <userestrict id="aspace_f4f8bccda857764ad58bf787fa5a5951">
          <head>Conditions Governing Use</head>
-         <p>The Walter Prichard Eaton Papers is the physical property of the Beinecke Rare Book and Manuscript Library, Yale University. Literary rights, including copyright, belong to the authors or their legal heirs and assigns. For further information, consult the appropriate curator.</p>  
+         <p>The Walter Prichard Eaton Papers is the physical property of the Beinecke Rare Book and Manuscript Library, Yale University. Literary rights, including copyright, belong to the authors or their legal heirs and assigns. For further information, consult the appropriate curator.</p>
       </userestrict>
       <prefercite id="aspace_e33b539a63ee86b3d97a5a84bc803939">
          <head>Preferred Citation</head>
-         <p>Walter Prichard Eaton Papers. Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library.</p>  
+         <p>Walter Prichard Eaton Papers. Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library.</p>
       </prefercite>
       <processinfo id="aspace_b082b471fe880d86434577845ac3825c">
          <head>Processing Information</head>
-         <p>This collection includes materials previously identified by the following call number: Za Eaton.</p>  
+         <p>This collection includes materials previously identified by the following call number: Za Eaton.</p>
       </processinfo>
       <bioghist id="aspace_63cb1bfd9d9e25e20e898a7998ba9005">
          <head>Walter Prichard Eaton, 1878–1957</head>
-         <p>Walter Prichard Eaton, American drama critic and author. He was Associate Professor of Playwriting at Yale University.</p>  
+         <p>Walter Prichard Eaton, American drama critic and author. He was Associate Professor of Playwriting at Yale University.</p>
       </bioghist>
       <scopecontent id="aspace_a835574155285098d951f782be4ea73d">
          <head>Scope and Contents</head>
-         <p>The writings consist of manuscript and typescript drafts of various works by Walter Prichard Eaton. Included is a typescript draft of "The Ecole Des Beaux-Arts in the 90's" by Charles Morris.</p>  
+         <p>The writings consist of manuscript and typescript drafts of various works by Walter Prichard Eaton. Included is a typescript draft of "The Ecole Des Beaux-Arts in the 90's" by Charles Morris.</p>
       </scopecontent>
       <controlaccess>
          <subject identifier="http://id.loc.gov/authorities/subjects/sh85004341"
@@ -163,17 +164,14 @@
             <part localtype="occupation">Theater critics</part>
             <part localtype="geographic">United States</part>
          </occupation>
-         <persname identifier="http://id.loc.gov/authorities/names/n50024437" source="naf">
+         <persname>
             <part localtype="agent_person">Eaton, Walter Prichard, 1878-1957</part>
          </persname>
-         <persname identifier="http://id.loc.gov/authorities/names/no99047877"
-                   rules="aacr"
-                   source="naf">
+         <persname rules="aacr">
             <part localtype="agent_person">Morris, Charles, 1869-1930</part>
          </persname>
-         <corpname source="naf">
-            <part identifier="http://id.loc.gov/authorities/names/n79043367"
-                  localtype="agent_corporate_entity">Yale University</part>
+         <corpname>
+            <part localtype="agent_corporate_entity">Yale University</part>
             <part localtype="topical">Faculty</part>
          </corpname>
       </controlaccess>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/">
@@ -8,7 +9,7 @@
             relatedencoding="marc"
             repositoryencoding="iso15511"
             scriptencoding="iso15924">
-      <recordid instanceurl="http://hdl.handle.net/10079/fa/beinecke.grahamwa">beinecke.grahamwa</recordid>
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/beinecke.grahamwa">beinecke.grahamwa</recordid>
       <otherrecordid localtype="BIB">9865347</otherrecordid>
       <filedesc>
          <titlestmt>
@@ -22,6 +23,7 @@
             <address>
                <addressline>P. O. Box 208330</addressline>
                <addressline>New Haven, CT 06520-8330</addressline>
+               <addressline localtype="telephone">(203) 432-2977 </addressline>
                <addressline localtype="email">beinecke.library@yale.edu</addressline>
                <addressline>
                   <ref href="http://beinecke.library.yale.edu/"
@@ -67,10 +69,10 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2022-02-16T04:31:42+00:00</eventdatetime>
+            <eventdatetime>2024-11-28T01:31:28-05:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace 2.7.1.yale.20200820</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday February 16, 2022 at 04:31</eventdescription>
+            <agent>ArchivesSpace yale-rebased-v3.3.1</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Thursday November 28, 2024 at 01:31</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
@@ -99,9 +101,7 @@
          </unitdatestructured>
          <abstract id="aspace_c002ca7933696f8abc5c09c262d6a4e7">The William A. Graham collection of television scripts contains scripts and other material for American television anthology series and other programs from the mid 1950s through late 1960s.</abstract>
          <origination label="Creator">
-            <persname identifier="http://id.loc.gov/authorities/names/n88226183"
-                      rules="aacr"
-                      source="naf">
+            <persname rules="aacr">
                <part localtype="agent_person">Graham, William A., 1926-2013</part>
             </persname>
          </origination>
@@ -165,17 +165,13 @@
          <occupation source="local">
             <part localtype="occupation">Directors</part>
          </occupation>
-         <persname identifier="http://id.loc.gov/authorities/names/n88226183"
-                   rules="aacr"
-                   source="naf">
+         <persname rules="aacr">
             <part localtype="agent_person">Graham, William A., 1926-2013</part>
          </persname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n78017871"
-                   rules="aacr"
-                   source="naf">
+         <corpname rules="aacr">
             <part localtype="agent_corporate_entity">Kraft Foods Company</part>
          </corpname>
-         <corpname identifier="http://id.loc.gov/authorities/names/n80045080" source="naf">
+         <corpname>
             <part localtype="agent_corporate_entity">United States Steel Corporation</part>
          </corpname>
       </controlaccess>
