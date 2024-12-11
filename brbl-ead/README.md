@@ -1911,6 +1911,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.balog.xml](13551.xml) | beinecke.balog | WA MSS S-4558.  | James Balog Extreme Ice Survey photograph collection | 
  [beinecke.dorothygray.xml](13564.xml) | beinecke.dorothygray | JWJ MSS 386 | Dorothy Gray papers | 
  [beinecke.ferrell.xml](13570.xml) | beinecke.ferrell | WA MSS S-4556  | J. L. Ferrell papers | 
+ [beinecke.schjeldahl.xml](13587.xml) | beinecke.schjeldahl | YCAL MSS 1625 | Peter Schjeldahl papers | 
  [beinecke.mclellan.xml](13588.xml) | beinecke.mclellan | GEN MSS 2143 | David Stanley and Ann Handforth McLellan papers | 
  [beinecke.mcnamee.xml](13615.xml) | beinecke.mcnamee | YCAL MSS 1212 | Leland McNamee papers | 
  [beinecke.emanuel.xml](13616.xml) | beinecke.emanuel | JWJ MSS 389 | Bessie Emanuel papers | 
