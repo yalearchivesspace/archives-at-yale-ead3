@@ -1829,7 +1829,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.miamisouthflorida.xml](12853.xml) | beinecke.miamisouthflorida | GEN MSS 2109 | Miami and South Florida | 
  [beinecke.cbhausten.xml](12864.xml) | beinecke.cbhausten | GEN MSS 413 | Charles Beecher Hogan papers relating to Jane Austen | 
  [beinecke.marymuranishialbums.xml](12876.xml) | beinecke.marymuranishialbums | WA Photos 1337 | Mary Shizuko Mitsueda Muranishi photograph albums related to Japanese American life | 
- [beinecke.genetjean.xml](12887.xml) | beinecke.genetjean | GEN MSS 1739 | Collection of Jean Genet Drafts and Proofs | 
+ [beinecke.genetjean.xml](12887.xml) | beinecke.genetjean | GEN MSS 1739 | Jean Genet papers | 
  [beinecke.jmosbornresearch.xml](12910.xml) | beinecke.jmosbornresearch | OSB MSS 333 | James Marshall Osborn Research Files | 
  [beinecke.schollhorn .xml](12911.xml) | beinecke.schollhorn  | WA MSS S-4527 | Drawings and Sketches of Oregon and Washington | 
  [beinecke.brownjoe.xml](12913.xml) | beinecke.brownjoe | JWJ MSS 376 | Joe C. Brown papers | 
