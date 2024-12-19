@@ -1917,6 +1917,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.emanuel.xml](13616.xml) | beinecke.emanuel | JWJ MSS 389 | Bessie Emanuel papers | 
  [beinecke.walder.xml](13617.xml) | beinecke.walder | JWJ MSS 390 | Ingrid Lothigius-Walder collection of the Harlem Jazz Festival | 
  [beinecke.newcomb.xml](13621.xml) | beinecke.newcomb | GEN MSS 2145 | Ruth Wetmore Newcomb papers | 
+ [beinecke.emberley.xml](13622.xml) | beinecke.emberley | GEN MSS 2144 | Ed and Barbara Emberley papers | 
  [beinecke.bookstore.xml](13623.xml) | beinecke.bookstore | GEN MSS 2148 | 19th Century French Bookstore Poster collection | 
  [beinecke.katherinedunham.xml](13658.xml) | beinecke.katherinedunham | JWJ MSS 247 | Katherine Dunham collection | 
 
