@@ -70,6 +70,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0082.xml](12214.xml) | med.ms.0082 | Ms Coll 82 | Waltham Hospital medical records | 
  [med.ms.0083.xml](12221.xml) | med.ms.0083 | Ms Coll 83 | Wilfrid Rall computational neuroscience research collection | 
  [med.ms.0084.xml](12352.xml) | med.ms.0084 | Ms Coll 84 | Robert Bogdan international collection on disability, healthcare, and body modification | 
+ [med.ms.0063.xml](12823.xml) | med.ms.0063 | MS Coll 63 | Gary C. Burget papers | 
  [med.ms.0085.xml](12837.xml) | med.ms.0085 | Ms Coll 85 | Polly Luckett Murray papers | 
  [med.ms.0086.xml](12839.xml) | med.ms.0086 | Ms Coll 86 | Michael L. Charney papers | 
  [med.ms.0087.xml](12845.xml) | med.ms.0087 | Ms Coll 87 | Gloria Robinson student papers | 
