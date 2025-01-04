@@ -24,7 +24,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.prince.xml](529.xml) | beinecke.prince | GEN MSS 1069 | Stéphane Prince papers | 
  [beinecke.strat.xml](530.xml) | beinecke.strat | GEN MSS 107 | Stratemeyer Syndicate records | 
  [beinecke.macfall.xml](531.xml) | beinecke.macfall | GEN MSS 1079 | Haldane Macfall collection | 
- [beinecke.jolas.xml](532.xml) | beinecke.jolas | GEN MSS 108 | Euge?ne and Maria Jolas papers | 
+ [beinecke.jolas.xml](532.xml) | beinecke.jolas | GEN MSS 108 | Eugène and Maria Jolas papers | 
  [beinecke.amhisfin.xml](533.xml) | beinecke.amhisfin | GEN MSS 1081 | American Historical Financial Documents Collection | 
  [beinecke.strong.xml](534.xml) | beinecke.strong | GEN MSS 1084 | Leonard Strong collection | 
  [beinecke.carrillo.xml](535.xml) | beinecke.carrillo | GEN MSS 1089 | Carrillo de Albornoz and Aldama family papers | 
