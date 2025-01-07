@@ -1919,5 +1919,8 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.newcomb.xml](13621.xml) | beinecke.newcomb | GEN MSS 2145 | Ruth Wetmore Newcomb papers | 
  [beinecke.emberley.xml](13622.xml) | beinecke.emberley | GEN MSS 2144 | Ed and Barbara Emberley papers | 
  [beinecke.bookstore.xml](13623.xml) | beinecke.bookstore | GEN MSS 2148 | 19th Century French Bookstore Poster collection | 
+ [beinecke.olson.xml](13631.xml) | beinecke.olson | GEN MSS 2146 | Sidney A. Olson papers | 
+ [beinecke.ajwilson.xml](13632.xml) | beinecke.ajwilson | GEN MSS 2147 | Archibald John Wilson papers | 
+ [beinecke.mcpheebeahan.xml](13633.xml) | beinecke.mcpheebeahan | WA MSS S-4557 | Laura McPhee and Virginia Beahan papers | 
  [beinecke.katherinedunham.xml](13658.xml) | beinecke.katherinedunham | JWJ MSS 247 | Katherine Dunham collection | 
 
