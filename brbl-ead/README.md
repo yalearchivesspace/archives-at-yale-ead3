@@ -1348,7 +1348,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
  [beinecke.elstevenson.xml](4048.xml) | beinecke.elstevenson | GEN MSS 1517 | Edward Luther Stevenson papers | 
  [beinecke.svbenet.xml](5313.xml) | beinecke.svbenet | YCAL MSS 1046 | Stephen Vincent Benét and Rosemary Benét papers | 
- [beinecke.khayati.xml](5317.xml) | beinecke.khayati | GEN MSS 1480 | Mustapha Khayati papers | 
  [beinecke.westtheater.xml](5318.xml) | beinecke.westtheater | WA MSS S-3071 | Western Theater Souvenir Program Collection | 
  [beinecke.nevada.xml](5319.xml) | beinecke.nevada | WA MSS S-3072 | Nevada Legislature records | 
  [beinecke.neville.xml](5342.xml) | beinecke.neville | GEN MSS 862 | Richard Neville papers | 
@@ -1533,6 +1532,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.galassi.xml](11289.xml) | beinecke.galassi | YCAL MSS 1197 | Jonathan Galassi papers | 
  [beinecke.davisfo.xml](11291.xml) | beinecke.davisfo | GEN MSS 1520 | R. G. Davis papers relating to Dario Fo | 
  [beinecke.kayryan.xml](11296.xml) | beinecke.kayryan | YCAL MSS 1330 | Kay Ryan papers | 
+ [beinecke.mankowitz.xml](11297.xml) | beinecke.mankowitz | OSB MSS 307 | Wolf Mankowitz papers | 
  [beinecke.wsmithmason.xml](11301.xml) | beinecke.wsmithmason | GEN MSS 1459 | William Smith Mason Papers | 
  [beinecke.bayareafliers.xml](11310.xml) | beinecke.bayareafliers | WA MSS S-3415 | Fliers for Punk Rock Music and New Wave Music Shows in the San Francisco Bay Area, California | 
  [beinecke.rexbeach.xml](11320.xml) | beinecke.rexbeach | WA MSS S-3417 | Rex Beach papers | 
@@ -1673,6 +1673,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.bland.xml](11843.xml) | beinecke.bland | JWJ MSS 310 | Ed Bland papers | 
  [beinecke.gustafson .xml](11844.xml) | beinecke.gustafson  | GEN MSS 997 | R. Eric Gustafson papers | 
  [beinecke.rmkoster.xml](11845.xml) | beinecke.rmkoster | YCAL MSS 1540 | R. M. Koster papers | 
+ [beinecke.finch.xml](11846.xml) | beinecke.finch | YCAL MSS 1558 | Annie Finch papers | 
  [beinecke.hollo.xml](11847.xml) | beinecke.hollo | GEN MSS 1701 | Anselm Hollo papers | 
  [beinecke.spennato.xml](11848.xml) | beinecke.spennato | GEN MSS 2102 | Antoine Spennato collection of Jacques Spacagna | 
  [beinecke.bsmith.xml](11849.xml) | beinecke.bsmith | YCAL MSS 1554 | Bradley Smith collection of Henry Miller | 
@@ -1691,6 +1692,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.thurd.xml](11864.xml) | beinecke.thurd | GEN MSS 1703 | Thacher Hurd papers | 
  [beinecke.olney.xml](11865.xml) | beinecke.olney | YCAL MSS 1549 | Richard Olney papers | 
  [beinecke.vandercam.xml](11866.xml) | beinecke.vandercam | GEN MSS 2094 | Serge Vandercam papers | 
+ [beinecke.sparagna.xml](11867.xml) | beinecke.sparagna | GEN MSS 1766 | Vincenzo Sparagna papers | 
  [beinecke.wiborg.xml](11869.xml) | beinecke.wiborg | YCAL MSS 1408 | Mary Hoyt Wiborg papers | 
  [beinecke.steuart.xml](11870.xml) | beinecke.steuart | OSB MSS 341 | Steuart family papers | 
  [beinecke.mjamesslack.xml](11871.xml) | beinecke.mjamesslack | WA MSS S-4440 | M. James Slack papers | 
@@ -1923,4 +1925,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ajwilson.xml](13632.xml) | beinecke.ajwilson | GEN MSS 2147 | Archibald John Wilson papers | 
  [beinecke.mcpheebeahan.xml](13633.xml) | beinecke.mcpheebeahan | WA MSS S-4557 | Laura McPhee and Virginia Beahan papers | 
  [beinecke.katherinedunham.xml](13658.xml) | beinecke.katherinedunham | JWJ MSS 247 | Katherine Dunham collection | 
+ [beinecke.welles.xml](13700.xml) | beinecke.welles | YCAL MSS 1628 | Winifred Welles papers | 
 
