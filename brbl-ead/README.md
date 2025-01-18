@@ -1346,7 +1346,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ycglmisc.xml](1892.xml) | beinecke.ycglmisc | YCGL MSS MISC | Yale Collection of German Literature manuscript miscellany | 
  [beinecke.macdon.xml](1893.xml) | beinecke.macdon | GEN MSS 1394 | A. J. Macdonald Writings on American Utopian Communities | 
  [beinecke.waddell.xml](1895.xml) | beinecke.waddell | WA MSS S-3049 | John Waddell Collection of Mining Papers | 
- [beinecke.elstevenson.xml](4048.xml) | beinecke.elstevenson | GEN MSS 1517 | Edward Luther Stevenson papers | 
  [beinecke.svbenet.xml](5313.xml) | beinecke.svbenet | YCAL MSS 1046 | Stephen Vincent Benét and Rosemary Benét papers | 
  [beinecke.westtheater.xml](5318.xml) | beinecke.westtheater | WA MSS S-3071 | Western Theater Souvenir Program Collection | 
  [beinecke.nevada.xml](5319.xml) | beinecke.nevada | WA MSS S-3072 | Nevada Legislature records | 
