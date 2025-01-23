@@ -1855,6 +1855,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.holker.xml](13023.xml) | beinecke.holker | GEN MSS 2092 | John Holker papers | 
  [beinecke.rbleighton.xml](13041.xml) | beinecke.rbleighton | WA MSS S-4538 | Robert Henry Leighton Letters to the Leighton Family | 
  [beinecke.hhstevens.xml](13043.xml) | beinecke.hhstevens | WA MSS S-4539 | Helen Howard Stevens and Sarah Martha Robinson Stevens Letters | 
+ [beinecke.asawelsh.xml](13050.xml) | beinecke.asawelsh | WA Photos 1343 | Photograph albums and photographic postcards of Minnesota, Montana, North Dakota, and Wisconsin | 
  [beinecke.tommandel.xml](13052.xml) | beinecke.tommandel | YCAL MSS 1608 | Tom Mandel papers | 
  [beinecke.baconfamilyletters.xml](13064.xml) | beinecke.baconfamilyletters | WA MSS S-4541 | Bacon family letters | 
  [beinecke.sfcleveland.xml](13079.xml) | beinecke.sfcleveland | WA MSS S-4542 | Samuel Francis Cleveland papers | 
