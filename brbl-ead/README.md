@@ -1925,5 +1925,4 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.ajwilson.xml](13632.xml) | beinecke.ajwilson | GEN MSS 2147 | Archibald John Wilson papers | 
  [beinecke.mcpheebeahan.xml](13633.xml) | beinecke.mcpheebeahan | WA MSS S-4557 | Laura McPhee and Virginia Beahan papers | 
  [beinecke.katherinedunham.xml](13658.xml) | beinecke.katherinedunham | JWJ MSS 247 | Katherine Dunham collection | 
- [beinecke.welles.xml](13700.xml) | beinecke.welles | YCAL MSS 1628 | Winifred Welles papers | 
 
