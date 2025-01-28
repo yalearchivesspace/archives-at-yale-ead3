@@ -282,4 +282,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ead.arts.bkp.0182.xml](13347.xml) | ead.arts.bkp.0182 | BKP 182 | Collection of occult bookplates | 
  [ead.arts.alsc.0004.xml](13372.xml) | ead.arts.alsc.0004 | ALSC MS 0004 | Jane Davis Doggett papers | 
  [13432.xml](13432.xml) |  | ARCH 0001 | Colin Rowe papers | 
+ [ead.arts.alsc.0005.xml](13687.xml) | ead.arts.alsc.0005 | ALSC MS 0005 | Bena Frank Mayer papers | 
 
