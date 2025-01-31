@@ -145,4 +145,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.157.xml](12226.xml) | music.mss.157 | MSS 157 | Paul Raspe Collection of Yale Ensemble Recordings | 
  [music.mss.158.xml](12361.xml) | music.mss.158 | MSS 158 | Historical Wire Recordings Collection | 
  [music.mss.159.xml](12616.xml) | music.mss.159 | MSS 159 | Ronald Roseman Collection | 
+ [music.mss.0076.xml](13710.xml) | music.mss.0076 | MSS 76 | Charles Frink Papers | 
 
