@@ -73,6 +73,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.conradj.xml](588.xml) | beinecke.conradj | GEN MSS 1207 | Joseph Conrad Collection | 
  [beinecke.baskin.xml](589.xml) | beinecke.baskin | GEN MSS 1229 | Leonard Baskin papers | 
  [beinecke.reade.xml](590.xml) | beinecke.reade | GEN MSS 124 | Charles Reade collection | 
+ [beinecke.fields.xml](591.xml) | beinecke.fields | GEN MSS 1243 | Danny Fields papers | 
  [beinecke.piozzi.xml](592.xml) | beinecke.piozzi | GEN MSS 125 | Hester Lynch Piozzi collection | 
  [beinecke.giaccone.xml](593.xml) | beinecke.giaccone | GEN MSS 1255 | Fausto Giaccone photographs and papers | 
  [beinecke.carol.xml](594.xml) | beinecke.carol | GEN MSS 126 | Edward Bliss Reed carol collection | 
@@ -1925,5 +1926,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.olson.xml](13631.xml) | beinecke.olson | GEN MSS 2146 | Sidney A. Olson papers | 
  [beinecke.ajwilson.xml](13632.xml) | beinecke.ajwilson | GEN MSS 2147 | Archibald John Wilson papers | 
  [beinecke.mcpheebeahan.xml](13633.xml) | beinecke.mcpheebeahan | WA MSS S-4557 | Laura McPhee and Virginia Beahan papers | 
+ [beinecke.apple.xml](13651.xml) | beinecke.apple | YCAL MSS 1627 | Apple correspondence files | 
  [beinecke.katherinedunham.xml](13658.xml) | beinecke.katherinedunham | JWJ MSS 247 | Katherine Dunham collection | 
 
