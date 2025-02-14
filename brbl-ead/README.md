@@ -1805,7 +1805,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.restau.xml](12347.xml) | beinecke.restau | YCAL MSS 1597 | Restau Press records and J. Mark Nunnelee papers | 
  [beinecke.lyonfamilybusiness.xml](12356.xml) | beinecke.lyonfamilybusiness | GEN MSS 1960 | Lyon Family Business Papers | 
  [beinecke.landmarks.xml](12362.xml) | beinecke.landmarks | GEN MSS 2106 | Landmarks Foundation records | 
- [beinecke.nicholson-smtih.xml](12367.xml) | beinecke.nicholson-smtih | GEN MSS 2131 | Donald Nicholson-Smith papers | 
+ [beinecke.nicholson-smith.xml](12367.xml) | beinecke.nicholson-smith | GEN MSS 2131 | Donald Nicholson-Smith papers | 
  [beinecke.willis.xml](12489.xml) | beinecke.willis | WA MSS S-4516 | John Willis photographs | 
  [beinecke.deloria1.xml](12492.xml) | beinecke.deloria1 | WA MSS S-4519 | Sacred Land Film Project, Vine Deloria interview | 
  [beinecke.gimbeldickens.xml](12609.xml) | beinecke.gimbeldickens | GEN MSS 1998 | Manuscripts in the Richard Gimbel Collection of Charles Dickens | 
