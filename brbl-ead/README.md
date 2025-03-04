@@ -1928,4 +1928,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mcpheebeahan.xml](13633.xml) | beinecke.mcpheebeahan | WA MSS S-4557 | Laura McPhee and Virginia Beahan papers | 
  [beinecke.apple.xml](13651.xml) | beinecke.apple | YCAL MSS 1627 | Apple correspondence files | 
  [beinecke.katherinedunham.xml](13658.xml) | beinecke.katherinedunham | JWJ MSS 247 | Katherine Dunham collection | 
+ [beinecke.mapcollection.xml](13742.xml) | beinecke.mapcollection | 2023.629 | Claude Seaver and Robin W. Winks collection of road maps | 
 
