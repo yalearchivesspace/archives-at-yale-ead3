@@ -1913,6 +1913,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mountaindreamportraits.xml](13493.xml) | beinecke.mountaindreamportraits | GEN MSS 2136 | Bea Nettles, Photographic Portraits for Mountain Dream Tarot | 
  [beinecke.sack.xml](13499.xml) | beinecke.sack | GEN MSS 2139 | Leo R. Sack papers | 
  [beinecke.downes.xml](13535.xml) | beinecke.downes | GEN MSS 2142 | Rackstraw Downes papers | 
+ [beinecke.paj.xml](13537.xml) | beinecke.paj | YCAL MSS 1622 | PAJ records and Bonnie Marranca papers | 
  [beinecke.balog.xml](13551.xml) | beinecke.balog | WA MSS S-4558.  | James Balog Extreme Ice Survey photograph collection | 
  [beinecke.dorothygray.xml](13564.xml) | beinecke.dorothygray | JWJ MSS 386 | Dorothy Gray papers | 
  [beinecke.ferrell.xml](13570.xml) | beinecke.ferrell | WA MSS S-4556  | J. L. Ferrell papers | 
