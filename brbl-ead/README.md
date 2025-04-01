@@ -1932,6 +1932,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.katherinedunham.xml](13658.xml) | beinecke.katherinedunham | JWJ MSS 247 | Katherine Dunham collection | 
  [beinecke.welles.xml](13700.xml) | beinecke.welles | YCAL MSS 1628 | Winifred Welles papers | 
  [beinecke.berrigan.xml](13702.xml) | beinecke.berrigan | YCAL MSS 1629 | Sandra Berrigan papers | 
+ [beinecke.dgallup.xml](13723.xml) | beinecke.dgallup | YCAL MSS 1630 | Dick Gallup papers | 
  [beinecke.petree.xml](13726.xml) | beinecke.petree | YCAL MSS 1631 | Michael Petree collection of Restau Press | 
  [beinecke.levinj.xml](13729.xml) | beinecke.levinj | WA MSS S-4559 | John Levin collection of political activism for the Progressive Labor Party | 
  [beinecke.mapcollection.xml](13742.xml) | beinecke.mapcollection | 2023.629 | Claude Seaver and Robin W. Winks collection of road maps | 
