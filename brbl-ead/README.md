@@ -1937,4 +1937,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.levinj.xml](13729.xml) | beinecke.levinj | WA MSS S-4559 | John Levin collection of political activism for the Progressive Labor Party | 
  [beinecke.mapcollection.xml](13742.xml) | beinecke.mapcollection | 2023.629 | Claude Seaver and Robin W. Winks collection of road maps | 
  [beinecke.breche.xml](13751.xml) | beinecke.breche | GEN MSS 2152 | La Brèche records | 
+ [beinecke.franks.xml](13762.xml) | beinecke.franks | GEN MSS 2153 | Gary Franks papers | 
 
