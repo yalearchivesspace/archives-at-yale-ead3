@@ -17,5 +17,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [oham.wr.xml](12273.xml) | oham.wr | WR | Willie Ruff Interviews | 
  [oham.mbc.xml](12801.xml) | oham.mbc | MBC | Music and the Black Church | 
  [oham.100@100.xml](12939.xml) | oham.100@100 | 100@100 | 100@100: Women Composers Interviewed by Mt. Holyoke College Students | 
- [oham.dd.xml](13536.xml) | oham.dd | DD | Dorothy DeLay Oral History by Keeley Brooks | 
+ [oham.dd.xml](13536.xml) | oham.dd | DD | 54 Years in the Studio: An Oral History on Dorothy DeLay | 
 
