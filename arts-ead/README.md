@@ -282,4 +282,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ead.arts.alsc.0004.xml](13372.xml) | ead.arts.alsc.0004 | ALSC MS 0004 | Jane Davis Doggett papers | 
  [13432.xml](13432.xml) |  | ARCH 0001 | Colin Rowe papers | 
  [ead.arts.alsc.0005.xml](13687.xml) | ead.arts.alsc.0005 | ALSC MS 0005 | Bena Frank Mayer papers | 
+ [ead.arts.aob.0068.xml](13798.xml) | ead.arts.aob.0068 | AOB 68 | Albert Schiller Collection | 
 
