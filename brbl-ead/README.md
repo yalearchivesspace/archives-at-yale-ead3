@@ -1512,7 +1512,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.egeotto.xml](11062.xml) | beinecke.egeotto | GEN MSS 1498 | Otto F. Ege collection | 
  [beinecke.kotanyi.xml](11073.xml) | beinecke.kotanyi | GEN MSS 1499 | Attila Kotányi papers | 
  [beinecke.aigner.xml](11074.xml) | beinecke.aigner | GEN MSS 1837 | Lucien Aigner photographs and papers | 
- [beinecke.spinelliarchive.xml](11076.xml) | beinecke.spinelliarchive | GEN MSS 109 | Spinelli Archive | 
+ [beinecke.spinelliarchive.xml](11076.xml) | beinecke.spinelliarchive | GEN MSS 109 | Spinelli archive | 
  [beinecke.mycue.xml](11079.xml) | beinecke.mycue | GEN MSS 822 | Edward Mycue papers | 
  [beinecke.variety.xml](11080.xml) | beinecke.variety | YCAL MSS 1189 | Variety's Protected Material Department Submissions | 
  [beinecke.wppy.xml](11084.xml) | beinecke.wppy | YCAL MSS 1147 | World Performance Project at Yale records | 
