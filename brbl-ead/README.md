@@ -1930,6 +1930,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.mcpheebeahan.xml](13633.xml) | beinecke.mcpheebeahan | WA MSS S-4557 | Laura McPhee and Virginia Beahan papers | 
  [beinecke.apple.xml](13651.xml) | beinecke.apple | YCAL MSS 1627 | Apple correspondence files | 
  [beinecke.katherinedunham.xml](13658.xml) | beinecke.katherinedunham | JWJ MSS 247 | Katherine Dunham collection | 
+ [beinecke.meservekunhardtfamily.xml](13670.xml) | beinecke.meservekunhardtfamily | GEN MSS 2149 | Meserve-Kunhardt Family papers | 
  [beinecke.welles.xml](13700.xml) | beinecke.welles | YCAL MSS 1628 | Winifred Welles papers | 
  [beinecke.berrigan.xml](13702.xml) | beinecke.berrigan | YCAL MSS 1629 | Sandra Berrigan papers | 
  [beinecke.stephenjohnkeynes.xml](13715.xml) | beinecke.stephenjohnkeynes | GEN MSS 2151 | Stephen John Keynes Collection Files | 
