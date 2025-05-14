@@ -61,6 +61,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0023.xml](11586.xml) | med.ms.0023 | Ms Coll 23 | Harry Gideon Wells papers | 
  [med.ms.0069.xml](11652.xml) | med.ms.0069 | Ms Coll 69 | "The Doctor" by Sir Luke Fildes collection | 
  [med.ms.0024.xml](11709.xml) | med.ms.0024 | Ms Coll 24 | Ronald H. Fishbein collection on the Nathan Smith family | 
+ [med.ms.0074.xml](11728.xml) | med.ms.0074 | Ms Coll 74 | Connecticut State Medical Society records | 
  [med.pam.0001.xml](11745.xml) | med.pam.0001 | Pam Coll 1 | Medical college catalogs, introductory and valedictory addresses, and ephemera collection | 
  [med.pam.0011.xml](11782.xml) | med.pam.0011 | Pam Coll 11 | Yale Child Study Center reference collection | 
  [med.pam.0002.xml](11808.xml) | med.pam.0002 | Pam Coll 2 | Hospital annual reports and ephemera collection | 
