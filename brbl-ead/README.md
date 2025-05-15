@@ -1585,6 +1585,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.brodskyheyen.xml](11496.xml) | beinecke.brodskyheyen | YCAL MSS 1257 | Louis Daniel Brodsky collection of William Heyen papers | 
  [beinecke.mbernstein.xml](11499.xml) | beinecke.mbernstein | GEN MSS 1556 | Michèle Bernstein papers | 
  [beinecke.basquinbute.xml](11500.xml) | beinecke.basquinbute | YCAL MSS 1007 | Kit Smyth Basquin collection of Mary Ellen Bute | 
+ [11502.xml](11502.xml) |  | GEN MSS 1557 | "The Magic Mountain: Documentary on Czeslaw Milosz" | 
  [beinecke.spaprogs.xml](11514.xml) | beinecke.spaprogs | WA MSS S-3651 | Spanish programs for American Western films | 
  [beinecke.spapress.xml](11515.xml) | beinecke.spapress | WA MSS S-3650 | Spanish pressbooks for American Western films | 
  [beinecke.usbuttons.xml](11519.xml) | beinecke.usbuttons | WA MSS S-3822 | Collection of United States social pinback buttons | 
