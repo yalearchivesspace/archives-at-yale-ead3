@@ -1938,10 +1938,12 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.dgallup.xml](13723.xml) | beinecke.dgallup | YCAL MSS 1630 | Dick Gallup papers | 
  [beinecke.petree.xml](13726.xml) | beinecke.petree | YCAL MSS 1631 | Michael Petree collection of Restau Press | 
  [beinecke.levinj.xml](13729.xml) | beinecke.levinj | WA MSS S-4559 | John Levin collection of political activism for the Progressive Labor Party | 
+ [beinecke.giroux.xml](13738.xml) | beinecke.giroux | YCAL MSS 1632 | Robert Giroux papers | 
  [beinecke.mapcollection.xml](13742.xml) | beinecke.mapcollection | 2023.629 | Claude Seaver and Robin W. Winks collection of road maps | 
  [beinecke.breche.xml](13751.xml) | beinecke.breche | GEN MSS 2152 | La Brèche records | 
  [beinecke.surfing.xml](13757.xml) | beinecke.surfing | WA MSS S-4560 | Western US surfing ephemera collection | 
  [beinecke.colt.xml](13759.xml) | beinecke.colt | YCAL MSS 1633 | Susannah Colt papers related to Maxine and Victor Kumin | 
  [beinecke.franks.xml](13762.xml) | beinecke.franks | GEN MSS 2153 | Gary Franks papers | 
  [beinecke.russellunionpacificrailroad.xml](13771.xml) | beinecke.russellunionpacificrailroad | ZZc10 864un | Andrew J. Russell photographs taken during construction of the Union Pacific Railroad | 
+ [beinecke.macveagh.xml](13779.xml) | beinecke.macveagh | GEN MSS 2156 | Lincoln MacVeagh diaries | 
 
