@@ -1945,5 +1945,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.colt.xml](13759.xml) | beinecke.colt | YCAL MSS 1633 | Susannah Colt papers related to Maxine and Victor Kumin | 
  [beinecke.franks.xml](13762.xml) | beinecke.franks | GEN MSS 2153 | Gary Franks papers | 
  [beinecke.russellunionpacificrailroad.xml](13771.xml) | beinecke.russellunionpacificrailroad | ZZc10 864un | Andrew J. Russell photographs taken during construction of the Union Pacific Railroad | 
+ [beinecke.smithreidi.xml](13776.xml) | beinecke.smithreidi | GEN MSS 2154 | Inez Smith Reid papers | 
+ [beinecke.mackjpc.xml](13777.xml) | beinecke.mackjpc | GEN MSS 2155 | Julia P. Cooper Mack papers | 
  [beinecke.macveagh.xml](13779.xml) | beinecke.macveagh | GEN MSS 2156 | Lincoln MacVeagh diaries | 
 
