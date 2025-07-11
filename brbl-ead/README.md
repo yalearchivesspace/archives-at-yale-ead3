@@ -1934,7 +1934,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.meservekunhardtfamily.xml](13670.xml) | beinecke.meservekunhardtfamily | GEN MSS 2149 | Meserve-Kunhardt Family papers | 
  [beinecke.welles.xml](13700.xml) | beinecke.welles | YCAL MSS 1628 | Winifred Welles papers | 
  [beinecke.berrigan.xml](13702.xml) | beinecke.berrigan | YCAL MSS 1629 | Sandra Berrigan papers | 
- [beinecke.stephenjohnkeynes.xml](13715.xml) | beinecke.stephenjohnkeynes | GEN MSS 2151 | Stephen John Keynes Collection Files | 
+ [beinecke.stephenjohnkeynes.xml](13715.xml) | beinecke.stephenjohnkeynes | GEN MSS 2151 | Stephen John Keynes collection files | 
  [beinecke.dgallup.xml](13723.xml) | beinecke.dgallup | YCAL MSS 1630 | Dick Gallup papers | 
  [beinecke.petree.xml](13726.xml) | beinecke.petree | YCAL MSS 1631 | Michael Petree collection of Restau Press | 
  [beinecke.levinj.xml](13729.xml) | beinecke.levinj | WA MSS S-4559 | John Levin collection of political activism for the Progressive Labor Party | 
