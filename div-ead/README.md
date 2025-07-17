@@ -365,4 +365,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.338.xml](13573.xml) | divinity.338 | RG 338 | Jay and Marjory Kapenga Papers | 
  [divinity.343.xml](13583.xml) | divinity.343 | RG 343 | Woodberry Family Papers | 
  [divinity.342.xml](13599.xml) | divinity.342 | RG 342 | Records of Ecumenical Work for Coordination and Documentation of Missions and World Christianity | 
+ [divinity.348.xml](13826.xml) | divinity.348 | RG 348 | Religious Education Association: an Association of Professors, Practitioners, and Researchers in Religious Education records | 
 
