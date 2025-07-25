@@ -1950,4 +1950,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.macveagh.xml](13779.xml) | beinecke.macveagh | GEN MSS 2156 | Lincoln MacVeagh diaries | 
  [beinecke.barnettafrica.xml](13819.xml) | beinecke.barnettafrica | GEN MSS 2158 | Claude Barnett and Etta Moten Barnett papers concerning trips to Africa | 
  [​​beinecke.waphotosstereos.xml](13823.xml) | ​​beinecke.waphotosstereos | WA Photos Stereos | Western Americana stereograph collection | 
+ [beinecke.afwhitcomb.xml](13838.xml) | beinecke.afwhitcomb | WA MSS S-4561 | Aldebert F. Whitcomb family correspondence and photographs | 
 
