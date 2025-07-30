@@ -2942,4 +2942,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [13656.xml](13656.xml) |  | RU 1194 | Oral history interviews for "The Greek Diaspora in the United States" | 
  [mssa.ru.1196.xml](13744.xml) | mssa.ru.1196 | RU 1196 | Records of the Yale Swimming and Diving Association | 
  [mssa.ru.1197.xml](13783.xml) | mssa.ru.1197 | RU 1197 | Office of International Affairs, Yale University, records | 
+ [mssa.ru.1202.xml](13854.xml) | mssa.ru.1202 | RU 1202 | Anketell, Edward Augustus, 1840-1913 records documenting student life | 
 
