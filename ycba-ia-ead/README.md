@@ -51,7 +51,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.ia.A015.xml](5431.xml) | ycba.ia.A015 | A015 | Yale Center for British Art Conservation Department records | 
  [ycba.ia.S008.xml](5432.xml) | ycba.ia.S008 | S008 | Paul and Rachel Mellon dealer files | 
  [ycba.ia.A020.xml](5434.xml) | ycba.ia.A020 | A020 | Yale Center for British Art Information Technology Department records | 
- [ycba.ia.A017.xml](5436.xml) | ycba.ia.A017 | A017 | Yale Center for British Art Exhibitions and Publications Department records | 
+ [ycba.ia.A017.xml](5436.xml) | ycba.ia.A017 | A 017 | Yale Center for British Art Exhibitions and Publications Department records | 
  [ycba.ia.A019.xml](5438.xml) | ycba.ia.A019 | A019 | Yale Center for British Art Imaging Services Department records | 
  [ycba.ia.S012.xml](5440.xml) | ycba.ia.S012 | S012 | Jules David Prown Oral History Project recordings and transcripts | 
  [ycba.ia.S013.xml](5441.xml) | ycba.ia.S013 | S013 | Jules David Prown interview by Karen E. Denavit manuscript | 
