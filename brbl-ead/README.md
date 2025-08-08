@@ -1948,6 +1948,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.smithreidi.xml](13776.xml) | beinecke.smithreidi | GEN MSS 2154 | Inez Smith Reid papers | 
  [beinecke.mackjpc.xml](13777.xml) | beinecke.mackjpc | GEN MSS 2155 | Julia P. Cooper Mack papers | 
  [beinecke.macveagh.xml](13779.xml) | beinecke.macveagh | GEN MSS 2156 | Lincoln MacVeagh diaries | 
+ [beinecke.pinello.xml](13817.xml) | beinecke.pinello | GEN MSS 2159 | Daniel Pinello papers | 
  [beinecke.barnettafrica.xml](13819.xml) | beinecke.barnettafrica | GEN MSS 2158 | Claude Barnett and Etta Moten Barnett papers concerning trips to Africa | 
  [​​beinecke.waphotosstereos.xml](13823.xml) | ​​beinecke.waphotosstereos | WA Photos Stereos | Western Americana stereograph collection | 
  [beinecke.afwhitcomb.xml](13838.xml) | beinecke.afwhitcomb | WA MSS S-4561 | Aldebert F. Whitcomb family correspondence and photographs | 
