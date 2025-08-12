@@ -33,7 +33,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0007.xml](33.xml) | ycba.mss.0007 | MSS 7 | Clare Leighton collection | 
  [ycba.ia.A012.xml](5369.xml) | ycba.ia.A012 | A012 | Yale Center for British Art Advancement and External Affairs Department records | 
  [ycba.ia.S006.xml](5370.xml) | ycba.ia.S006 | S006 | Paul Mellon collection of Basil Taylor papers | 
- [ycba.ia.A001.xml](5371.xml) | ycba.ia.A001 | A001 | Yale Center for British Art building construction and maintenance collection | 
+ [ycba.ia.A001.xml](5371.xml) | ycba.ia.A001 | A 001 | Yale Center for British Art building construction and maintenance collection | 
  [ycba.ia.A003.xml](5409.xml) | ycba.ia.A003 | A003 | Yale Center for British Art building history collection | 
  [ycba.ia.A031.xml](5410.xml) | ycba.ia.A031 | A031 | Yale Center for British Art Research Department records | 
  [ycba.ia.A030.xml](5411.xml) | ycba.ia.A030 | A030 | Yale Center for British Art Registration Department records | 
