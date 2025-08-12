@@ -2650,6 +2650,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1178.xml](4835.xml) | mssa.ms.1178 | MS 1178 | Frank Logue papers | 
  [mssa.ms.1393.xml](4837.xml) | mssa.ms.1393 | MS 1393 | Baruch Nadel papers | 
  [mssa.ms.1458.xml](4838.xml) | mssa.ms.1458 | MS 1458 | Whitelaw Reid papers | 
+ [mssa.ms.1563.xml](4840.xml) | mssa.ms.1563 | MS 1563 | Benno C. Schmidt, Jr. personal papers | 
  [mssa.ms.1631.xml](4844.xml) | mssa.ms.1631 | MS 1631 | Patricia McGowan Wald papers | 
  [mssa.ms.1670.xml](4846.xml) | mssa.ms.1670 | MS 1670 | Russian state military archives collection | 
  [mssa.ms.1701.xml](4847.xml) | mssa.ms.1701 | MS 1701 | Palestinian liberation movement collection | 
