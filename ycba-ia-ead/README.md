@@ -64,7 +64,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.ia.S002.xml](5511.xml) | ycba.ia.S002 | S002 | Yale Center for British Art Cross-Sectional Model | 
  [ycba.ia.S017.xml](5513.xml) | ycba.ia.S017 | S017 | Meyers Family Copy of National Geographic Magazine Issue on the National Gallery of Art | 
  [ycba.ia.S014.xml](5514.xml) | ycba.ia.S014 | S014 | Jules David Prown Interview by Alessandra Latour recording | 
- [ycba.ia.A002.xml](5545.xml) | ycba.ia.A002 | A002 | Collection of historic photographs and negatives of the Yale Center for British Art | 
+ [ycba.ia.A002.xml](5545.xml) | ycba.ia.A002 | A 002 | Collection of historic photographs and negatives of the Yale Center for British Art | 
  [ycba.ia.A008.xml](5560.xml) | ycba.ia.A008 | A008 | Paul Mellon Centre for Studies in British Art Publications | 
  [ycba.ia.A009.xml](5572.xml) | ycba.ia.A009 | A009 | Yale Center for British Art Publications | 
  [ycba.ia.A004.xml](5689.xml) | ycba.ia.A004 | A004 | "Conserving the Yale Center for British Art" film recordings by Zach Bjork | 
