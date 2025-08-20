@@ -31,43 +31,43 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0024.xml](30.xml) | ycba.mss.0024 | MSS 24 | Paul Nash Letters to Mercia Oakley | 
  [ycba.mss.0044.xml](31.xml) | ycba.mss.0044 | MSS 44  | Pugin family archive | 
  [ycba.mss.0007.xml](33.xml) | ycba.mss.0007 | MSS 7 | Clare Leighton collection | 
- [ycba.ia.A012.xml](5369.xml) | ycba.ia.A012 | A012 | Yale Center for British Art Advancement and External Affairs Department records | 
- [ycba.ia.S006.xml](5370.xml) | ycba.ia.S006 | S006 | Paul Mellon collection of Basil Taylor papers | 
+ [ycba.ia.A012.xml](5369.xml) | ycba.ia.A012 | A 012 | Yale Center for British Art Advancement and External Affairs Department records | 
+ [ycba.ia.S006.xml](5370.xml) | ycba.ia.S006 | S 006 | Paul Mellon collection of Basil Taylor papers | 
  [ycba.ia.A001.xml](5371.xml) | ycba.ia.A001 | A 001 | Yale Center for British Art building construction and maintenance collection | 
- [ycba.ia.A003.xml](5409.xml) | ycba.ia.A003 | A003 | Yale Center for British Art building history collection | 
- [ycba.ia.A031.xml](5410.xml) | ycba.ia.A031 | A031 | Yale Center for British Art Research Department records | 
- [ycba.ia.A030.xml](5411.xml) | ycba.ia.A030 | A030 | Yale Center for British Art Registration Department records | 
- [ycba.ia.A029.xml](5412.xml) | ycba.ia.A029 | A029 | Yale Center for British Art Reference Library and Archives Department records | 
- [ycba.ia.A028.xml](5414.xml) | ycba.ia.A028 | A028 | Yale Center for British Art Rare Books and Manuscripts Department records | 
- [ycba.ia.A026.xml](5415.xml) | ycba.ia.A026 | A026 | Yale Center for British Art Prints and Drawings Department records | 
- [ycba.ia.A024.xml](5416.xml) | ycba.ia.A024 | A024 | Yale Center for British Art Paintings and Sculpture Department records | 
- [ycba.ia.A016.xml](5417.xml) | ycba.ia.A016 | A016 | Yale Center for British Art Education Department records | 
- [ycba.ia.S005.xml](5418.xml) | ycba.ia.S005 | S005 | Paul Mellon Brick House photographs | 
- [ycba.ia.A013.xml](5419.xml) | ycba.ia.A013 | A013 | Yale Center for British Art Collections Information and Access Department records | 
- [ycba.ia.A014.xml](5420.xml) | ycba.ia.A014 | A014 | Yale Center for British Art Communications and Marketing Department records | 
- [ycba.ia.A010.xml](5421.xml) | ycba.ia.A010 | A010 | Collection of Mellon Family and Yale Center for British Art-related Publications | 
+ [ycba.ia.A003.xml](5409.xml) | ycba.ia.A003 | A 003 | Yale Center for British Art building history collection | 
+ [ycba.ia.A031.xml](5410.xml) | ycba.ia.A031 | A 031 | Yale Center for British Art Research Department records | 
+ [ycba.ia.A030.xml](5411.xml) | ycba.ia.A030 | A 030 | Yale Center for British Art Registration Department records | 
+ [ycba.ia.A029.xml](5412.xml) | ycba.ia.A029 | A 029 | Yale Center for British Art Reference Library and Archives Department records | 
+ [ycba.ia.A028.xml](5414.xml) | ycba.ia.A028 | A 028 | Yale Center for British Art Rare Books and Manuscripts Department records | 
+ [ycba.ia.A026.xml](5415.xml) | ycba.ia.A026 | A 026 | Yale Center for British Art Prints and Drawings Department records | 
+ [ycba.ia.A024.xml](5416.xml) | ycba.ia.A024 | A 024 | Yale Center for British Art Paintings and Sculpture Department records | 
+ [ycba.ia.A016.xml](5417.xml) | ycba.ia.A016 | A 016 | Yale Center for British Art Education Department records | 
+ [ycba.ia.S005.xml](5418.xml) | ycba.ia.S005 | S 005 | Paul Mellon Brick House photographs | 
+ [ycba.ia.A013.xml](5419.xml) | ycba.ia.A013 | A 013 | Yale Center for British Art Collections Information and Access Department records | 
+ [ycba.ia.A014.xml](5420.xml) | ycba.ia.A014 | A 014 | Yale Center for British Art Communications and Marketing Department records | 
+ [ycba.ia.A010.xml](5421.xml) | ycba.ia.A010 | A 010 | Collection of Mellon Family and Yale Center for British Art-related Publications | 
  [ycba.ia.A006.xml](5422.xml) | ycba.ia.A006 | A006 | Collection of Audio and Video Recordings on the Yale Center for British Art | 
- [ycba.ia.S007.xml](5423.xml) | ycba.ia.S007 | S007 | Paul Mellon correspondence with E. Bartlett Barnes | 
- [ycba.ia.A015.xml](5431.xml) | ycba.ia.A015 | A015 | Yale Center for British Art Conservation Department records | 
- [ycba.ia.S008.xml](5432.xml) | ycba.ia.S008 | S008 | Paul and Rachel Mellon dealer files | 
- [ycba.ia.A020.xml](5434.xml) | ycba.ia.A020 | A020 | Yale Center for British Art Information Technology Department records | 
+ [ycba.ia.S007.xml](5423.xml) | ycba.ia.S007 | S 007 | Paul Mellon correspondence with E. Bartlett Barnes | 
+ [ycba.ia.A015.xml](5431.xml) | ycba.ia.A015 | A 015 | Yale Center for British Art Conservation Department records | 
+ [ycba.ia.S008.xml](5432.xml) | ycba.ia.S008 | S 008 | Paul and Rachel Mellon dealer files | 
+ [ycba.ia.A020.xml](5434.xml) | ycba.ia.A020 | A 020 | Yale Center for British Art Information Technology Department records | 
  [ycba.ia.A017.xml](5436.xml) | ycba.ia.A017 | A 017 | Yale Center for British Art Exhibitions and Publications Department records | 
- [ycba.ia.A019.xml](5438.xml) | ycba.ia.A019 | A019 | Yale Center for British Art Imaging Services Department records | 
- [ycba.ia.S012.xml](5440.xml) | ycba.ia.S012 | S012 | Jules David Prown Oral History Project recordings and transcripts | 
- [ycba.ia.S013.xml](5441.xml) | ycba.ia.S013 | S013 | Jules David Prown interview by Karen E. Denavit manuscript | 
- [ycba.ia.A023.xml](5443.xml) | ycba.ia.A023 | A023 | Yale Center for British Art Operations Department records | 
- [ycba.ia.A021.xml](5444.xml) | ycba.ia.A021 | A021 | Yale Center for British Art Museum Shop records | 
- [ycba.ia.S003.xml](5446.xml) | ycba.ia.S003 | S003 | Kevin Owens Watercolors of the Yale Center for British Art | 
- [ycba.ia.S009.xml](5447.xml) | ycba.ia.S009 | S009 | Paul Mellon notebooks | 
- [ycba.ia.S015.xml](5448.xml) | ycba.ia.S015 | S015 | Jules David Prown Interviews by Jack Meyers | 
- [ycba.ia.A007.xml](5454.xml) | ycba.ia.A007 | A007 | Paul Mellon Centre for Studies in British Art newsletters | 
- [ycba.ia.S002.xml](5511.xml) | ycba.ia.S002 | S002 | Yale Center for British Art Cross-Sectional Model | 
- [ycba.ia.S017.xml](5513.xml) | ycba.ia.S017 | S017 | Meyers Family Copy of National Geographic Magazine Issue on the National Gallery of Art | 
- [ycba.ia.S014.xml](5514.xml) | ycba.ia.S014 | S014 | Jules David Prown Interview by Alessandra Latour recording | 
+ [ycba.ia.A019.xml](5438.xml) | ycba.ia.A019 | A 019 | Yale Center for British Art Imaging Services Department records | 
+ [ycba.ia.S012.xml](5440.xml) | ycba.ia.S012 | S 012 | Jules David Prown Oral History Project recordings and transcripts | 
+ [ycba.ia.S013.xml](5441.xml) | ycba.ia.S013 | S 013 | Jules David Prown interview by Karen E. Denavit manuscript | 
+ [ycba.ia.A023.xml](5443.xml) | ycba.ia.A023 | A 023 | Yale Center for British Art Operations Department records | 
+ [ycba.ia.A021.xml](5444.xml) | ycba.ia.A021 | A 021 | Yale Center for British Art Museum Shop records | 
+ [ycba.ia.S003.xml](5446.xml) | ycba.ia.S003 | S 003 | Kevin Owens Watercolors of the Yale Center for British Art | 
+ [ycba.ia.S009.xml](5447.xml) | ycba.ia.S009 | S 009 | Paul Mellon notebooks | 
+ [ycba.ia.S015.xml](5448.xml) | ycba.ia.S015 | S 015 | Jules David Prown Interviews by Jack Meyers | 
+ [ycba.ia.A007.xml](5454.xml) | ycba.ia.A007 | A 007 | Paul Mellon Centre for Studies in British Art newsletters | 
+ [ycba.ia.S002.xml](5511.xml) | ycba.ia.S002 | S 002 | Yale Center for British Art Cross-Sectional Model | 
+ [ycba.ia.S017.xml](5513.xml) | ycba.ia.S017 | S 017 | Meyers Family Copy of National Geographic Magazine Issue on the National Gallery of Art | 
+ [ycba.ia.S014.xml](5514.xml) | ycba.ia.S014 | S 014 | Jules David Prown Interview by Alessandra Latour recording | 
  [ycba.ia.A002.xml](5545.xml) | ycba.ia.A002 | A 002 | Collection of historic photographs and negatives of the Yale Center for British Art | 
- [ycba.ia.A008.xml](5560.xml) | ycba.ia.A008 | A008 | Paul Mellon Centre for Studies in British Art Publications | 
- [ycba.ia.A009.xml](5572.xml) | ycba.ia.A009 | A009 | Yale Center for British Art Publications | 
- [ycba.ia.A004.xml](5689.xml) | ycba.ia.A004 | A004 | "Conserving the Yale Center for British Art" film recordings by Zach Bjork | 
+ [ycba.ia.A008.xml](5560.xml) | ycba.ia.A008 | A 008 | Paul Mellon Centre for Studies in British Art Publications | 
+ [ycba.ia.A009.xml](5572.xml) | ycba.ia.A009 | A 009 | Yale Center for British Art Publications | 
+ [ycba.ia.A004.xml](5689.xml) | ycba.ia.A004 | A 004 | "Conserving the Yale Center for British Art" film recordings by Zach Bjork | 
  [ycba.mss.0032.xml](5704.xml) | ycba.mss.0032 | MSS 32  | Matthew Shepperson archive | 
  [ycba.mss.0050.xml](5731.xml) | ycba.mss.0050 | MSS 50 | Collection of Cabaret Theatre Club and Cave of the Golden Calf printed ephemera | 
  [ycba.mss.0039.xml](5750.xml) | ycba.mss.0039 | MSS 39  | Vanessa Bell and Duncan Grant letters to Kenneth Clark and Jane Clark | 
@@ -78,14 +78,14 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0045.xml](5895.xml) | ycba.mss.0045 | MSS 45 | Edward Burne-Jones Letters to Cormell Price | 
  [ycba.mss.0053.xml](10701.xml) | ycba.mss.0053 | MSS 53  | Thomas Woolner Letters to John Frederick Lewis | 
  [ycba.mss.0054.xml](10704.xml) | ycba.mss.0054 | MSS 54  | Royal College of Art Sketch Club Collection | 
- [ycba.ia.A005.xml](10718.xml) | ycba.ia.A005 | A005 | Jack Brown scrapbook | 
- [ycba.ia.A032.xml](10720.xml) | ycba.ia.A032 | A032 | Yale Center for British Art annual reports | 
- [ycba.ia.A011.xml](10731.xml) | ycba.ia.A011 | A011 | Yale Center for British Art printed materials | 
- [ycba.ia.S004.xml](10746.xml) | ycba.ia.S004 | S004 | Jules David Prown collection of Louis I. Kahn Interviews by John W. Cook and Heinrich Klotz | 
+ [ycba.ia.A005.xml](10718.xml) | ycba.ia.A005 | A 005 | Jack Brown scrapbook | 
+ [ycba.ia.A032.xml](10720.xml) | ycba.ia.A032 | A 032 | Yale Center for British Art annual reports | 
+ [ycba.ia.A011.xml](10731.xml) | ycba.ia.A011 | A 011 | Yale Center for British Art printed materials | 
+ [ycba.ia.S004.xml](10746.xml) | ycba.ia.S004 | S 004 | Jules David Prown collection of Louis I. Kahn Interviews by John W. Cook and Heinrich Klotz | 
  [ycba.mss.0056.xml](11067.xml) | ycba.mss.0056 | MSS 56 | Edward Burne-Jones Letters to John Ruskin | 
  [ycba.mss.0060.xml](11090.xml) | ycba.mss.0060 | MSS 60 | John McHale archive | 
  [ycba.mss.0059.xml](11283.xml) | ycba.mss.0059 | MSS 59 | Edward Lear archive | 
- [ycba.s022.xml](11403.xml) | ycba.s022 |  S022 | John Baskett papers | 
+ [ycba.s022.xml](11403.xml) | ycba.s022 |  S 022 | John Baskett papers | 
  [ycba.mss.0020.xml](11756.xml) | ycba.mss.0020 | MSS 20 | Henry Perlee Parker collection | 
  [ycba.mss.0021.xml](11760.xml) | ycba.mss.0021 | MSS 21 | John Christie archive | 
  [ycba.mss.0022.xml](11762.xml) | ycba.mss.0022 | MSS 22 | Letters to Richard Redgrave | 
@@ -116,7 +116,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0086.xml](12973.xml) | ycba.mss.0086 | MSS 86 | Helen Haywood archive | 
  [ycba.mss.0087.xml](12974.xml) | ycba.mss.0087 | MSS 87 | Tilson Family Archive | 
  [ycba.mss.0088.xml](12991.xml) | ycba.mss.0088 | MSS 88 | Collection of designs for Worcester porcelain | 
- [ycba.s018.xml](13080.xml) | ycba.s018 | S018 | Duncan Robinson papers on Paul Mellon | 
- [ycba.s019.xml](13213.xml) | ycba.s019 | S019 | Louis I. Kahn Yale Center for British Art sketches | 
- [ycba.s023.xml](13565.xml) | ycba.s023 | S023 | Patrick Noon papers | 
+ [ycba.s018.xml](13080.xml) | ycba.s018 | S 018 | Duncan Robinson papers on Paul Mellon | 
+ [ycba.s019.xml](13213.xml) | ycba.s019 | S 019 | Louis I. Kahn Yale Center for British Art sketches | 
+ [ycba.s023.xml](13565.xml) | ycba.s023 | S 023 | Patrick Noon papers | 
 
