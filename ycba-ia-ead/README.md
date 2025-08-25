@@ -46,7 +46,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.ia.A013.xml](5419.xml) | ycba.ia.A013 | A 013 | Yale Center for British Art Collections Information and Access Department records | 
  [ycba.ia.A014.xml](5420.xml) | ycba.ia.A014 | A 014 | Yale Center for British Art Communications and Marketing Department records | 
  [ycba.ia.A010.xml](5421.xml) | ycba.ia.A010 | A 010 | Collection of Mellon Family and Yale Center for British Art-related Publications | 
- [ycba.ia.A006.xml](5422.xml) | ycba.ia.A006 | A006 | Collection of Audio and Video Recordings on the Yale Center for British Art | 
+ [ycba.ia.A006.xml](5422.xml) | ycba.ia.A006 | A 006 | Collection of Audio and Video Recordings on the Yale Center for British Art | 
  [ycba.ia.S007.xml](5423.xml) | ycba.ia.S007 | S 007 | Paul Mellon correspondence with E. Bartlett Barnes | 
  [ycba.ia.A015.xml](5431.xml) | ycba.ia.A015 | A 015 | Yale Center for British Art Conservation Department records | 
  [ycba.ia.S008.xml](5432.xml) | ycba.ia.S008 | S 008 | Paul and Rachel Mellon dealer files | 
