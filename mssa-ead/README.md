@@ -2934,6 +2934,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2129.xml](12804.xml) | mssa.ms.2129 | MS 2129 | Alan Trachtenberg Papers | 
  [mssa.ms.2094.xml](12819.xml) | mssa.ms.2094 | MS 2094 | Henry Dutton family papers | 
  [mssa.ms.2131.xml](12833.xml) | mssa.ms.2131 | MS 2131 | Edward V. Knight papers | 
+ [mssa.ms.2134 .xml](12975.xml) | mssa.ms.2134  | MS 2134 | Camille Paglia papers | 
  [13145.xml](13145.xml) |  | RU 1185 | "Yale Paleoecology and Seafloor Research" memoir by Donald C. Rhoads | 
  [mssa.ru.1186.xml](13202.xml) | mssa.ru.1186 | RU 1186 | Connecticut Mental Health Center records | 
  [mssa.ms.2136.xml](13394.xml) | mssa.ms.2136 | MS 2136 | Oliver Ellsworth Huntington family papers | 
