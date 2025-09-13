@@ -1954,4 +1954,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [​​beinecke.waphotosstereos.xml](13823.xml) | ​​beinecke.waphotosstereos | WA Photos Stereos | Western Americana stereograph collection | 
  [beinecke.afwhitcomb.xml](13838.xml) | beinecke.afwhitcomb | WA MSS S-4561 | Aldebert F. Whitcomb family correspondence and photographs | 
  [beinecke.halleck.xml](13884.xml) | beinecke.halleck | YCAL MSS 562 | Fitz-Greene Halleck collection | 
+ [beinecke.paladinivinicio.xml](13888.xml) | beinecke.paladinivinicio | GEN MSS 1148 | Vinicio Paladini architectural design photographs and drawings | 
 
