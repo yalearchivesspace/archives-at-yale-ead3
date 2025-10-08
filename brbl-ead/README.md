@@ -1952,7 +1952,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.pinello.xml](13817.xml) | beinecke.pinello | GEN MSS 2159 | Daniel Pinello papers | 
  [beinecke.barnettafrica.xml](13819.xml) | beinecke.barnettafrica | GEN MSS 2158 | Claude Barnett and Etta Moten Barnett papers concerning trips to Africa | 
  [​​beinecke.waphotosstereos.xml](13823.xml) | ​​beinecke.waphotosstereos | WA Photos Stereos | Western Americana stereograph collection | 
- [beinecke.afwhitcomb.xml](13838.xml) | beinecke.afwhitcomb | WA MSS S-4561 | Aldebert F. Whitcomb family correspondence and photographs | 
+ [beinecke.afwhitcomb.xml](13838.xml) | beinecke.afwhitcomb | WA MSS S-4561 | Adelbert F. Whitcomb family correspondence and photographs | 
  [beinecke.construction.xml](13873.xml) | beinecke.construction | BRBL RECORD GROUP 2 | Beinecke Library construction photographs | 
  [beinecke.halleck.xml](13884.xml) | beinecke.halleck | YCAL MSS 562 | Fitz-Greene Halleck collection | 
  [beinecke.paladinivinicio.xml](13888.xml) | beinecke.paladinivinicio | GEN MSS 1148 | Vinicio Paladini architectural design photographs and drawings | 
