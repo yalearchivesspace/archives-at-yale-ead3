@@ -282,4 +282,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [13432.xml](13432.xml) |  | ARCH 0001 | Colin Rowe papers | 
  [ead.arts.alsc.0005.xml](13687.xml) | ead.arts.alsc.0005 | ALSC MS 0005 | Bena Frank Mayer papers | 
  [ead.arts.aob.0068.xml](13798.xml) | ead.arts.aob.0068 | AOB 68 | Albert Schiller Collection | 
+ [arts.aob.0002.xml](13901.xml) | arts.aob.0002 | AOB 2 | Scrapbook and album collection | 
 
