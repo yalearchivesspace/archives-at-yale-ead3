@@ -105,4 +105,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.pam.0024.xml](13538.xml) | med.pam.0024 | Pam Coll 24 | Health pamphlets issued by Metropolitan Life and other insurance companies | 
  [med.pam.0026.xml](13642.xml) | med.pam.0026 | Pam Coll 26 | Pamphlets on sex education and sexual health | 
  [med.pam.0025.xml](13646.xml) | med.pam.0025 | Pam Coll 25 | Tuberculosis pamphlets and ephemera | 
+ [med.pam.0027.xml](13864.xml) | med.pam.0027 | Pam Coll 27 | History of medicine reprints and publications | 
 
