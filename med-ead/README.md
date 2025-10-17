@@ -106,4 +106,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.pam.0026.xml](13642.xml) | med.pam.0026 | Pam Coll 26 | Pamphlets on sex education and sexual health | 
  [med.pam.0025.xml](13646.xml) | med.pam.0025 | Pam Coll 25 | Tuberculosis pamphlets and ephemera | 
  [med.pam.0027.xml](13864.xml) | med.pam.0027 | Pam Coll 27 | History of medicine reprints and publications | 
+ [med.pam.0028.xml](13874.xml) | med.pam.0028 | Pam Coll 28 | History of medicine biography reprints and publications | 
+ [med.pam.0029.xml](13878.xml) | med.pam.0029 | Pam Coll 29 | Yale School of Medicine reprints | 
 
