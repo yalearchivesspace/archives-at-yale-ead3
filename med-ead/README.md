@@ -108,4 +108,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.pam.0027.xml](13864.xml) | med.pam.0027 | Pam Coll 27 | History of medicine reprints and publications | 
  [med.pam.0028.xml](13874.xml) | med.pam.0028 | Pam Coll 28 | History of medicine biography reprints and publications | 
  [med.pam.0029.xml](13878.xml) | med.pam.0029 | Pam Coll 29 | Yale School of Medicine reprints | 
+ [med.ms.0110.xml](13923.xml) | med.ms.0110 | Ms Coll 110 | Hospital for Joint Diseases and Fordham Hospital lantern slides | 
+ [med.ms.0112.xml](13926.xml) | med.ms.0112 | Ms Coll 112 | Eugen Sandow bodybuilding lantern slides | 
 
