@@ -110,4 +110,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.pam.0029.xml](13878.xml) | med.pam.0029 | Pam Coll 29 | Yale School of Medicine reprints | 
  [med.ms.0110.xml](13923.xml) | med.ms.0110 | Ms Coll 110 | Hospital for Joint Diseases and Fordham Hospital lantern slides | 
  [med.ms.0112.xml](13926.xml) | med.ms.0112 | Ms Coll 112 | Eugen Sandow bodybuilding lantern slides | 
+ [med.ms.0113.xml](13927.xml) | med.ms.0113 | Ms Coll 113 | Arnold Gesell child development lantern slides | 
 
