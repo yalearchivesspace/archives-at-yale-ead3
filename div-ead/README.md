@@ -367,4 +367,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [divinity.342.xml](13599.xml) | divinity.342 | RG 342 | Records of Ecumenical Work for Coordination and Documentation of Missions and World Christianity | 
  [divinity.348.xml](13826.xml) | divinity.348 | RG 348 | Religious Education Association: an Association of Professors, Practitioners, and Researchers in Religious Education records | 
  [divinity.347.xml](13885.xml) | divinity.347 | RG 347 | Records of Mission and World Christian Educational and Medical Institutions and Organizations | 
+ [divinity.349.xml](13925.xml) | divinity.349 | RG 349 | Records of Mission and World Christian Agencies and Organizations | 
 
