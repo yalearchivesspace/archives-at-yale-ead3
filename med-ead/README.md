@@ -112,4 +112,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0112.xml](13926.xml) | med.ms.0112 | Ms Coll 112 | Eugen Sandow bodybuilding lantern slides | 
  [med.ms.0113.xml](13927.xml) | med.ms.0113 | Ms Coll 113 | Arnold Gesell child development lantern slides | 
  [med.ms.0117.xml](13928.xml) | med.ms.0117 | Ms Coll 117 | Slides of psychiatric interest | 
+ [med.ms.0111.xml](13929.xml) | med.ms.0111 | Ms Coll 111 | Smith Ely Jelliffe collection of New York State Psychiatric Institute lantern slides | 
 
