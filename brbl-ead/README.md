@@ -1643,6 +1643,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.oharanavajo.xml](11789.xml) | beinecke.oharanavajo | WA MSS S-2625 | Geoffrey O'Hara cylinder recordings and lantern slides of Navajo Indians | 
  [beinecke.bayley.xml](11791.xml) | beinecke.bayley | GEN MSS 1603 | Roberta Bayley photographs and papers | 
  [beinecke.victoriasw.xml](11793.xml) | beinecke.victoriasw | OSB MSS 222 | Victoria Sackville-West papers | 
+ [beinecke.grenfellpress.xml](11794.xml) | beinecke.grenfellpress | YCAL MSS 1246 | Grenfell Press collection | 
  [beinecke.okeeffe.xml](11797.xml) | beinecke.okeeffe | YCAL MSS 1381 | Georgia O'Keeffe Writings and Other Papers | 
  [beinecke.mtlicenses.xml](11800.xml) | beinecke.mtlicenses | WA MSS S-4310 | Collection of licenses and tax receipts for businesses in Montana Territory | 
  [beinecke.longway.xml](11801.xml) | beinecke.longway | YCAL MSS 1249 | <title>A Long Way from Home: The Untold Story of Baseball's Desegregation</title> digital archive | 
