@@ -113,4 +113,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0113.xml](13927.xml) | med.ms.0113 | Ms Coll 113 | Arnold Gesell child development lantern slides | 
  [med.ms.0117.xml](13928.xml) | med.ms.0117 | Ms Coll 117 | Slides of psychiatric interest | 
  [med.ms.0111.xml](13929.xml) | med.ms.0111 | Ms Coll 111 | Smith Ely Jelliffe collection of New York State Psychiatric Institute lantern slides | 
+ [med.ms.0119.xml](13932.xml) | med.ms.0119 | Ms Coll 119 | Yale School of Medicine, Department of Public Health lantern slides | 
+ [med.ms.0114.xml](13933.xml) | med.ms.0114 | Ms Coll 114 | Edward N. DeWitt ophthalmology lantern slides | 
+ [med.ms.0116.xml](13934.xml) | med.ms.0116 | Ms Coll 116 | History of medicine lantern slides | 
 
