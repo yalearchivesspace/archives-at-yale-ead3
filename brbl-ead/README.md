@@ -1960,4 +1960,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.paladinivinicio.xml](13888.xml) | beinecke.paladinivinicio | GEN MSS 1148 | Vinicio Paladini architectural design photographs and drawings | 
  [13889.xml](13889.xml) |  | WA  Photos Folio 210 | Hammond-Tillamook Lumber Company. Garibaldi, Oregon. Redmond Studio, Portland, Oregon. Photo 910 Theo. Mentzer | 
  [beinecke.blackpanther.xml](13894.xml) | beinecke.blackpanther | GEN MSS 2097 | Black Panther Party collection | 
+ [beinecke.plath.xml](13917.xml) | beinecke.plath | YCAL MSS 1369 | Plath family papers | 
 
