@@ -596,7 +596,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0750.xml](2494.xml) | mssa.ru.0750 | RU 750 | Yale University military and wartime activities photographs | 
  [mssa.ru.0755.xml](2495.xml) | mssa.ru.0755 | RU 755 | Publications Office, Yale University Library, records | 
  [mssa.ru.0756.xml](2496.xml) | mssa.ru.0756 | RU 756 | Howard Levitin, associate dean, School of Medicine, Yale University, records | 
- [mssa.ru.0759.xml](2497.xml) | mssa.ru.0759 | RU 759 | Yale College records of the associate dean for administration | 
  [mssa.ru.0761.xml](2498.xml) | mssa.ru.0761 | RU 761 | Office of Grant and Contract Administration, Yale University, records concerning Department of Energy contracts | 
  [mssa.ru.0776.xml](2499.xml) | mssa.ru.0776 | RU 776 | Benoni J. Truslow, Class of 1934, Sheffield Scientific School, photograph collection documenting life at Yale | 
  [mssa.ru.0777.xml](2500.xml) | mssa.ru.0777 | RU 777 | Yale Club of New York City photograph collection | 
@@ -2946,4 +2945,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1197.xml](13783.xml) | mssa.ru.1197 | RU 1197 | Office of International Affairs, Yale University, records | 
  [mssa.ru.1202.xml](13854.xml) | mssa.ru.1202 | RU 1202 | Edward Augustus Anketell, class of 1864, records documenting student life | 
  [mssa.ru.1203.xml](13855.xml) | mssa.ru.1203 | RU 1203 | Isaac Mills (1767-1843), records | 
+ [mssa.ru.1204.xml](13863.xml) | mssa.ru.1204 | RU 1204 | Theater, Dance and Performance Studies, Yale University, records | 
 
