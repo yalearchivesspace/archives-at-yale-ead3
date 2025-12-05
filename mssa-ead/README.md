@@ -312,7 +312,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0737.xml](2208.xml) | mssa.ru.0737 | RU 737 | Yale and New Haven print card index | 
  [mssa.ru.0741.xml](2209.xml) | mssa.ru.0741 | RU 741 | Technical Services, Department of Manuscripts and Archives, Yale University, records | 
  [mssa.ru.0742.xml](2210.xml) | mssa.ru.0742 | RU 742 | Yale College Council records | 
- [mssa.ru.0746.xml](2211.xml) | mssa.ru.0746 | RU 746 | Yale University Library, records of search committees | 
  [mssa.ru.0749.xml](2212.xml) | mssa.ru.0749 | RU 749 | Yale Law School photographs of events, activities, and individuals | 
  [mssa.ru.0751.xml](2213.xml) | mssa.ru.0751 | RU 751 | Yale University Corporation and university advisory groups photographs | 
  [mssa.ru.0752.xml](2214.xml) | mssa.ru.0752 | RU 752 | Yale University Art Gallery photographs of collections | 
