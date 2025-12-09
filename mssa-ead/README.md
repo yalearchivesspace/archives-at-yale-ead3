@@ -2930,6 +2930,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1180.xml](12366.xml) | mssa.ru.1180 | RU 1180 | Department of Philosophy, Yale University, records | 
  [mssa.ru.1181.xml](12471.xml) | mssa.ru.1181 | RU 1181 | Latinx student life at Yale records | 
  [mssa.ms.2127.xml](12472.xml) | mssa.ms.2127 | MS 2127 | James C. Hatch papers | 
+ [mssa.ms.2128.xml](12784.xml) | mssa.ms.2128 | MS 2128 | Chris Ogden papers | 
  [mssa.ms.2129.xml](12804.xml) | mssa.ms.2129 | MS 2129 | Alan Trachtenberg Papers | 
  [mssa.ms.2094.xml](12819.xml) | mssa.ms.2094 | MS 2094 | Henry Dutton family papers | 
  [mssa.ms.2131.xml](12833.xml) | mssa.ms.2131 | MS 2131 | Edward V. Knight papers | 
@@ -2946,4 +2947,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.1202.xml](13854.xml) | mssa.ru.1202 | RU 1202 | Edward Augustus Anketell, class of 1864, records documenting student life | 
  [mssa.ru.1203.xml](13855.xml) | mssa.ru.1203 | RU 1203 | Isaac Mills (1767-1843), records | 
  [mssa.ru.1204.xml](13863.xml) | mssa.ru.1204 | RU 1204 | Theater, Dance and Performance Studies, Yale University, records | 
+ [mssa.ms.555xxx.xml](13943.xml) | mssa.ms.555xxx | MS/RU.555xxx | Demo Resource - December 2025 | 
 
