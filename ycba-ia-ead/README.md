@@ -116,6 +116,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0086.xml](12973.xml) | ycba.mss.0086 | MSS 86 | Helen Haywood archive | 
  [ycba.mss.0087.xml](12974.xml) | ycba.mss.0087 | MSS 87 | Tilson Family Archive | 
  [ycba.mss.0088.xml](12991.xml) | ycba.mss.0088 | MSS 88 | Collection of designs for Worcester porcelain | 
+ [ycba.mss.0036.xml](13061.xml) | ycba.mss.0036 | MSS 36 | James Meller collection of John McHale and Magda Cordell McHale papers | 
  [ycba.s018.xml](13080.xml) | ycba.s018 | S 018 | Duncan Robinson papers on Paul Mellon | 
  [ycba.s019.xml](13213.xml) | ycba.s019 | S 019 | Louis I. Kahn Yale Center for British Art sketches | 
  [ycba.s023.xml](13565.xml) | ycba.s023 | S 023 | Patrick Noon papers | 
