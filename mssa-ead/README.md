@@ -1691,7 +1691,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1169.xml](3618.xml) | mssa.ms.1169 | MS 1169 | Robbins family papers | 
  [mssa.ms.1192.xml](3619.xml) | mssa.ms.1192 | MS 1192 | William Inglis Morse collection | 
  [mssa.ms.1200.xml](3620.xml) | mssa.ms.1200 | MS 1200 | New England Grenfell Association records | 
- [mssa.ms.1206.xml](3621.xml) | mssa.ms.1206 | MS 1206 | Mina Curtiss Collection | 
+ [mssa.ms.1206.xml](3621.xml) | mssa.ms.1206 | MS 1206 | Mina Curtiss collection | 
  [mssa.ms.1217.xml](3622.xml) | mssa.ms.1217 | MS 1217 | Karl Owen Thompson collection | 
  [mssa.ms.1221.xml](3623.xml) | mssa.ms.1221 | MS 1221 | Eugene Harold Kone papers | 
  [mssa.ms.1225.xml](3624.xml) | mssa.ms.1225 | MS 1225 | Gad Day family papers | 
