@@ -576,7 +576,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.whirlwin.xml](1103.xml) | beinecke.whirlwin | OSB MSS 9 | Whirlwind Hill Farm papers | 
  [beinecke.esimpso.xml](1104.xml) | beinecke.esimpso | OSB MSS 90 | Evelyn Simpson papers | 
  [beinecke.nicholls.xml](1105.xml) | beinecke.nicholls | Osborn c467 | Norton Nicholls papers | 
- [beinecke.manche.xml](1106.xml) | beinecke.manche | OSB MSS fc.37 | Manchester papers | 
+ [beinecke.manche.xml](1106.xml) | beinecke.manche | OSB MSS fc37 | Manchester papers | 
  [beinecke.burney.xml](1107.xml) | beinecke.burney | OSB MSS fd 59 | Burney-Lear drawings collection | 
  [beinecke.osbfile.xml](1108.xml) | beinecke.osbfile | OSB MSS FILE | Osborn Manuscript Files | 
  [beinecke.eknollys.xml](1109.xml) | beinecke.eknollys | OSB MSS 205 | Eardley Knollys papers | 
