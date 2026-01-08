@@ -285,4 +285,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ead.arts.alsc.0006.xml](13882.xml) | ead.arts.alsc.0006 | ALSC MS 0006 | Sheila Levrant de Bretteville papers | 
  [arts.aob.0002.xml](13901.xml) | arts.aob.0002 | AOB 2 | Scrapbook and album collection | 
  [arts.art.0030.xml](13936.xml) | arts.art.0030 | ART 30 | Birren collection of paint catalogs and samples | 
+ [ead.arts.alsc.0007.xml](13950.xml) | ead.arts.alsc.0007 | ALSC MS 0007 | Graphic Design Program collection of faculty problem books | 
 
