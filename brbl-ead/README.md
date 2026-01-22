@@ -1963,4 +1963,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.blackpanther.xml](13894.xml) | beinecke.blackpanther | GEN MSS 2097 | Black Panther Party collection | 
  [beinecke.gansterpaul.xml](13916.xml) | beinecke.gansterpaul | GEN MSS 2160 | Paul Ganster collection of Freddy Fixer Parade photographs | 
  [beinecke.plath.xml](13917.xml) | beinecke.plath | YCAL MSS 1369 | Plath family papers | 
+ [beinecke.sheldon.xml](13931.xml) | beinecke.sheldon | GEN MSS 2104 | Sheldon family papers | 
 
