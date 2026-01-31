@@ -24,6 +24,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [lwl.mss.038.xml](12802.xml) | lwl.mss.038 | LWL MSS 38 | W. S. Lewis Collection of George Townshend Correspondence | 
  [lwl.mss.034.xml](13055.xml) | lwl.mss.034 | LWL MSS 34 | Lewis Walpole Library Topographical Prints Collection | 
  [lwl.mss.007.xml](13134.xml) | lwl.mss.007 | LWL MSS 7 | Charles Hanbury-Williams Papers | 
+ [lwl.mss.051.xml](13178.xml) | lwl.mss.051 | LWL MSS 51 | Ronald Paulson Papers | 
  [lwl.mss.044.xml](13378.xml) | lwl.mss.044 | LWL MSS 44 | James Barry Papers | 
  [lwl.mss.028.xml](13420.xml) | lwl.mss.028 | LWL MSS 28 | Thomas Osbert Mordaunt Correspondence | 
  [lwl.mss.018.xml](13423.xml) | lwl.mss.018 | LWL MSS 18 | Lee Family Financial Papers | 
