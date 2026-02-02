@@ -76,6 +76,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0047.xml](5859.xml) | ycba.mss.0047 | MSS 47 | Dante Gabriel Rossetti Letters to Ellen Heaton | 
  [ycba.mss.0017.xml](5884.xml) | ycba.mss.0017 | MSS 17  | Roger W. Moss Collection of Manuscript, Original Art and Printed Material by and about Richard Shirley Smith | 
  [ycba.mss.0045.xml](5895.xml) | ycba.mss.0045 | MSS 45 | Edward Burne-Jones Letters to Cormell Price | 
+ [10655.xml](10655.xml) |  | MSS 73  | Poetry Box archive | 
  [ycba.mss.0053.xml](10701.xml) | ycba.mss.0053 | MSS 53 | Thomas Woolner Letters to John Frederick Lewis | 
  [ycba.mss.0054.xml](10704.xml) | ycba.mss.0054 | MSS 54 | Royal College of Art Sketch Club Collection | 
  [ycba.ia.A005.xml](10718.xml) | ycba.ia.A005 | A 005 | Jack Brown scrapbook | 
