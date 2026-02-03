@@ -117,4 +117,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0114.xml](13933.xml) | med.ms.0114 | Ms Coll 114 | Edward N. DeWitt ophthalmology lantern slides | 
  [med.ms.0116.xml](13934.xml) | med.ms.0116 | Ms Coll 116 | History of medicine lantern slides | 
  [med.ms.0115.xml](13935.xml) | med.ms.0115 | Ms Coll 115 | Yale School of Medicine lantern slide collection | 
+ [med.ms.0122.xml](13956.xml) | med.ms.0122 | Ms Coll 122 | Earl Rosenblum papers | 
 
