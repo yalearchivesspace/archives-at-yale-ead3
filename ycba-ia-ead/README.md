@@ -93,7 +93,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0023.xml](11763.xml) | ycba.mss.0023 | MSS 23 | Cathy Courtney collection of artists' books ephemera | 
  [ycba.mss.0027.xml](11764.xml) | ycba.mss.0027 | MSS 27 | Grimston family letters | 
  [ycba.mss.0026.xml](11766.xml) | ycba.mss.0026 | MSS 26 | James Wales archive | 
- [ycba.mss.0033.xml](11767.xml) | ycba.mss.0033 | MSS 33 | Wake and Bellhouse collection | 
+ [ycba.mss.0033.xml](11767.xml) | ycba.mss.0033 | MSS 33 | Wake and Bellhouse family papers | 
  [ycba.mss.0034.xml](11770.xml) | ycba.mss.0034 | MSS 34 | Album of letters to David Roberts, with autographs, engraved portraits, and printed ephemera, compiled by Henry Sanford Bicknell | 
  [ycba.mss.0035.xml](11771.xml) | ycba.mss.0035 | MSS 35 | Rowe collection of botanical specimens | 
  [ycba.mss.0037.xml](11772.xml) | ycba.mss.0037 | MSS 37 | John Ruskin letters to John Henry Le Keux | 
@@ -101,13 +101,13 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0040.xml](11775.xml) | ycba.mss.0040 | MSS 40 | Stanley Wootton archive | 
  [ycba.mss.0042.xml](11776.xml) | ycba.mss.0042 | MSS 42 | Collection of letters to Robert Clutterbuck concerning his History and antiquities of the county of Hertford | 
  [ycba.mss.0043.xml](11778.xml) | ycba.mss.0043 | MSS 43 | Bainbridge deer park management archive | 
- [ycba.mss.0048.xml](11779.xml) | ycba.mss.0048 | MSS 48 | Edgeworthstown archive | 
+ [ycba.mss.0048.xml](11779.xml) | ycba.mss.0048 | MSS 48 | Edgeworthstown records | 
  [ycba.mss.0049.xml](11781.xml) | ycba.mss.0049 | MSS 49 | Alfred Wareing archive | 
  [ycba.mss.0051.xml](11784.xml) | ycba.mss.0051 | MSS 51 | Postcards of the British royal family | 
  [ycba.mss.0055.xml](11785.xml) | ycba.mss.0055 | MSS 55 | John Bastin archive | 
  [ycba.mss.0057.xml](11786.xml) | ycba.mss.0057 | MSS 57 | Linda Benedict-Jones archive | 
  [11824.xml](11824.xml) |  | S 021 | Yale Center for British Art oral history collection | 
- [ycba.mss.0067.xml](12052.xml) | ycba.mss.0067 | MSS 67 | Frank Brangwyn archive | 
+ [ycba.mss.0067.xml](12052.xml) | ycba.mss.0067 | MSS 67 | Frank Brangwyn papers | 
  [ycba.mss.0072.xml](12056.xml) | ycba.mss.0072 | MSS 72 | Hubert von Herkomer archive | 
  [ycba.mss.0076.xml](12058.xml) | ycba.mss.0076 | MSS 76 | Edward McKnight Kauffer photographic negatives | 
  [ycba.mss.0080.xml](12227.xml) | ycba.mss.0080 | MSS 80 | Joseph Southall archive | 
@@ -115,7 +115,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0083.xml](12751.xml) | ycba.mss.0083 | MSS 83 | British transportation ephemera collection | 
  [ycba.mss.0085.xml](12766.xml) | ycba.mss.0085 | MSS 85 | Paul Oppé letters to Janet Camp Troxell | 
  [ycba.mss.0086.xml](12973.xml) | ycba.mss.0086 | MSS 86 | Helen Haywood archive | 
- [ycba.mss.0087.xml](12974.xml) | ycba.mss.0087 | MSS 87 | Tilson Family Archive | 
+ [ycba.mss.0087.xml](12974.xml) | ycba.mss.0087 | MSS 87 | Tilson Family papers | 
  [ycba.mss.0088.xml](12991.xml) | ycba.mss.0088 | MSS 88 | Collection of designs for Worcester porcelain | 
  [ycba.mss.0036.xml](13061.xml) | ycba.mss.0036 | MSS 36 | James Meller collection of John McHale and Magda Cordell McHale papers | 
  [ycba.mss.0074.xml](13070.xml) | ycba.mss.0074 | MSS 74 | John Reynolds archive | 
