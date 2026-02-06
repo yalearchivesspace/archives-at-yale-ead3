@@ -80,6 +80,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0072.xml](13030.xml) | med.ms.0072 | Ms Coll 72 | Bert Hansen collection of historical newspaper research | 
  [med.pam.0013.xml](13036.xml) | med.pam.0013 | Pam Coll 13 | Harvey Cushing reprints and pamphlets | 
  [med.ms.0092.xml](13047.xml) | med.ms.0092 | Ms Coll 92 | Dr. Thomas Siveter papers | 
+ [med.ms.0017.xml](13235.xml) | med.ms.0017 | Ms Coll 17 | Grace Goldin collection | 
  [med.ms.0094.xml](13240.xml) | med.ms.0094 | Ms Coll 94 | Medical postcards collection | 
  [med.ms.0095.xml](13290.xml) | med.ms.0095 | Ms Coll 95 | Katharine Ketcham collection | 
  [med.ms.0097.xml](13335.xml) | med.ms.0097 | Ms Coll 97 | Anti-abortion movement ephemera | 
