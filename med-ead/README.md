@@ -119,4 +119,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0116.xml](13934.xml) | med.ms.0116 | Ms Coll 116 | History of medicine lantern slides | 
  [med.ms.0115.xml](13935.xml) | med.ms.0115 | Ms Coll 115 | Yale School of Medicine lantern slide collection | 
  [med.ms.0122.xml](13956.xml) | med.ms.0122 | Ms Coll 122 | Earl Rosenblum papers | 
+ [med.ms.0123.xml](13964.xml) | med.ms.0123 | Ms Coll 123 | Stanley B. Burns collection of postmortem and memorial photography and ephemera | 
 
