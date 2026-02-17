@@ -76,7 +76,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0047.xml](5859.xml) | ycba.mss.0047 | MSS 47 | Dante Gabriel Rossetti Letters to Ellen Heaton | 
  [ycba.mss.0017.xml](5884.xml) | ycba.mss.0017 | MSS 17  | Roger W. Moss Collection of Manuscript, Original Art and Printed Material by and about Richard Shirley Smith | 
  [ycba.mss.0045.xml](5895.xml) | ycba.mss.0045 | MSS 45 | Edward Burne-Jones Letters to Cormell Price | 
- [http:// hdl.handle.net/10079/fa/.xml](10655.xml) | http:// hdl.handle.net/10079/fa/ | MSS 73  | Poetry Box archive | 
+ [ycba.mss.0073.xml](10655.xml) | ycba.mss.0073 | MSS 73  | Poetry Box archive | 
  [ycba.mss.0053.xml](10701.xml) | ycba.mss.0053 | MSS 53 | Thomas Woolner Letters to John Frederick Lewis | 
  [ycba.mss.0054.xml](10704.xml) | ycba.mss.0054 | MSS 54 | Royal College of Art Sketch Club Collection | 
  [ycba.ia.A005.xml](10718.xml) | ycba.ia.A005 | A 005 | Jack Brown scrapbook | 
@@ -106,7 +106,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0051.xml](11784.xml) | ycba.mss.0051 | MSS 51 | Postcards of the British royal family | 
  [ycba.mss.0055.xml](11785.xml) | ycba.mss.0055 | MSS 55 | John Bastin archive | 
  [ycba.mss.0057.xml](11786.xml) | ycba.mss.0057 | MSS 57 | Linda Benedict-Jones archive | 
- [11824.xml](11824.xml) |  | S 021 | Yale Center for British Art oral history collection | 
+ [ycba.ia.s021.xml](11824.xml) | ycba.ia.s021 | S 021 | Yale Center for British Art oral history collection | 
  [ycba.mss.0067.xml](12052.xml) | ycba.mss.0067 | MSS 67 | Frank Brangwyn papers | 
  [ycba.mss.0072.xml](12056.xml) | ycba.mss.0072 | MSS 72 | Hubert von Herkomer archive | 
  [ycba.mss.0076.xml](12058.xml) | ycba.mss.0076 | MSS 76 | Edward McKnight Kauffer photographic negatives | 
