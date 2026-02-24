@@ -1602,7 +1602,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1783.xml](3528.xml) | mssa.ms.1783 | MS 1783 | Jerome Medalie papers | 
  [mssa.ms.1787.xml](3529.xml) | mssa.ms.1787 | MS 1787 | Joseph Goldstein papers | 
  [mssa.ms.1789.xml](3531.xml) | mssa.ms.1789 | MS 1789 | Paul B. Beeson papers | 
- [mssa.ms.1790.xml](3532.xml) | mssa.ms.1790 | MS 1790 | David Brion Davis papers  | 
+ [mssa.ms.1790.xml](3532.xml) | mssa.ms.1790 | MS 1790 | David Brion Davis papers | 
  [mssa.ms.1792.xml](3533.xml) | mssa.ms.1792 | MS 1792 | Roger Sherman McCollester papers | 
  [mssa.ms.1793.xml](3534.xml) | mssa.ms.1793 | MS 1793 | William Winter Dean papers | 
  [mssa.ms.1797.xml](3535.xml) | mssa.ms.1797 | MS 1797 | John Pease Norton papers | 
