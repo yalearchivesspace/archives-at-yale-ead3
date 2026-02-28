@@ -1788,6 +1788,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.jonesd.xml](12251.xml) | beinecke.jonesd | GEN MSS 903 | David Jones letters to Harman Grisewood | 
  [beinecke.henry.xml](12252.xml) | beinecke.henry | GEN MSS 1954 | William A. Henry papers | 
  [beinecke.saxe.xml](12254.xml) | beinecke.saxe | YCAL MSS 1217 | Stephen O. Saxe set designs, costume designs, and papers | 
+ [beinecke.schøyen.xml](12255.xml) | beinecke.schøyen | OSB MSS 437 | Martin Schøyen collection of medieval seal matrices | 
  [beinecke.cadmus.xml](12262.xml) | beinecke.cadmus | GEN MSS 1977 | Paul Cadmus papers | 
  [beinecke.jknight.xml](12268.xml) | beinecke.jknight | GEN MSS 1855 | Jonathan Knight account books and daybooks | 
  [beinecke.nicaraguacanal.xml](12271.xml) | beinecke.nicaraguacanal | GEN MSS 1774 | Nicaragua Canal Company records | 
@@ -1964,4 +1965,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.gansterpaul.xml](13916.xml) | beinecke.gansterpaul | GEN MSS 2160 | Paul Ganster collection of Freddy Fixer Parade photographs | 
  [beinecke.plath.xml](13917.xml) | beinecke.plath | YCAL MSS 1369 | Plath family papers | 
  [beinecke.sheldon.xml](13931.xml) | beinecke.sheldon | GEN MSS 2104 | Sheldon family papers | 
+ [beinecke.dine.xml](13952.xml) | beinecke.dine | YCAL MSS 1557 | Jim Dine papers | 
+ [beinecke.chicanostudent.xml](13955.xml) | beinecke.chicanostudent | GEN MSS 2105 | Chicano Student Activists ephemera | 
+ [beinecke.lowrider.xml](13957.xml) | beinecke.lowrider | GEN MSS 2161 | Lowrider and Cholo printed ephemera | 
 
