@@ -105,7 +105,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [ycba.mss.0049.xml](11781.xml) | ycba.mss.0049 | MSS 49 | Alfred Wareing archive | 
  [ycba.mss.0051.xml](11784.xml) | ycba.mss.0051 | MSS 51 | Postcards of the British royal family | 
  [ycba.mss.0055.xml](11785.xml) | ycba.mss.0055 | MSS 55 | John Bastin archive | 
- [ycba.mss.0057.xml](11786.xml) | ycba.mss.0057 | MSS 57 | Linda Benedict-Jones archive | 
+ [ycba.mss.0057.xml](11786.xml) | ycba.mss.0057 | MSS 57 | Linda Benedict-Jones papers | 
  [ycba.ia.s021.xml](11824.xml) | ycba.ia.s021 | S 021 | Yale Center for British Art oral history collection | 
  [ycba.mss.0067.xml](12052.xml) | ycba.mss.0067 | MSS 67 | Frank Brangwyn papers | 
  [ycba.mss.0072.xml](12056.xml) | ycba.mss.0072 | MSS 72 | Hubert von Herkomer archive | 
