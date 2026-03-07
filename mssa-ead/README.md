@@ -583,7 +583,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0704.xml](2482.xml) | mssa.ru.0704 | RU 704 | Paul Wilkinson photograph collection documenting Yale during World War II | 
  [mssa.ru.0710.xml](2483.xml) | mssa.ru.0710 | RU 710 | Department of Mathematics, Yale University, records | 
  [mssa.ru.0714.xml](2484.xml) | mssa.ru.0714 | RU 714 | United States Bicentennial Committee, Yale University, records | 
- [mssa.ru.0716.xml](2485.xml) | mssa.ru.0716 | RU 716 | Administrative Research Office, Yale University, records | 
  [mssa.ru.0720.xml](2486.xml) | mssa.ru.0720 | RU 720 | Yale Summer and Special Programs records concerning the Summer Language Institute | 
  [mssa.ru.0721.xml](2487.xml) | mssa.ru.0721 | RU 721 | Yale Summer and Special Programs records concerning the American Economic Association Summer Minority Program | 
  [mssa.ru.0722.xml](2488.xml) | mssa.ru.0722 | RU 722 | Department of Microbiology, Yale University, records | 
