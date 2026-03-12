@@ -1965,6 +1965,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.gansterpaul.xml](13916.xml) | beinecke.gansterpaul | GEN MSS 2160 | Paul Ganster collection of Freddy Fixer Parade photographs | 
  [beinecke.plath.xml](13917.xml) | beinecke.plath | YCAL MSS 1369 | Plath family papers | 
  [beinecke.sheldon.xml](13931.xml) | beinecke.sheldon | GEN MSS 2104 | Sheldon family papers | 
+ [beinecke.ames.xml](13948.xml) | beinecke.ames | YCAL MSS 1430 | Lois Ames collection of Sylvia Plath | 
  [beinecke.dine.xml](13952.xml) | beinecke.dine | YCAL MSS 1557 | Jim Dine papers | 
  [beinecke.chicanostudent.xml](13955.xml) | beinecke.chicanostudent | GEN MSS 2105 | Chicano Student Activists ephemera | 
  [beinecke.lowrider.xml](13957.xml) | beinecke.lowrider | GEN MSS 2161 | Lowrider and Cholo printed ephemera | 
