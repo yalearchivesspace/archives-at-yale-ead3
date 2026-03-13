@@ -1970,4 +1970,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.chicanostudent.xml](13955.xml) | beinecke.chicanostudent | GEN MSS 2105 | Chicano Student Activists ephemera | 
  [beinecke.lowrider.xml](13957.xml) | beinecke.lowrider | GEN MSS 2161 | Lowrider and Cholo printed ephemera | 
  [beinecke.marinettilibroni.xml](13973.xml) | beinecke.marinettilibroni | GEN MSS 475 | Filippo Tommaso Marinetti "Libroni" scrapbooks on futurism slides | 
+ [beinecke.newhavendance.xml](13980.xml) | beinecke.newhavendance | GEN MSS 2164 | New Haven Dance Oral Histories collection | 
 
