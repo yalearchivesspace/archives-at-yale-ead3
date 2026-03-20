@@ -121,4 +121,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0122.xml](13956.xml) | med.ms.0122 | Ms Coll 122 | Earl Rosenblum papers | 
  [med.ms.0123.xml](13964.xml) | med.ms.0123 | Ms Coll 123 | Stanley B. Burns, MD, collection of postmortem and memorial photography and ephemera | 
  [med.ms.0124.xml](13972.xml) | med.ms.0124 | Ms Coll 124 | Yale School of Medicine Department of Pathology teaching collection of medical illustrations | 
+ [med.pam.0032.xml](13993.xml) | med.pam.0032 | Pam Coll 32 | Gertrude Van Wagenen reprints | 
 
