@@ -1961,7 +1961,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.halleck.xml](13884.xml) | beinecke.halleck | YCAL MSS 562 | Fitz-Greene Halleck collection | 
  [beinecke.paladinivinicio.xml](13888.xml) | beinecke.paladinivinicio | GEN MSS 1148 | Vinicio Paladini architectural design photographs and drawings | 
  [13889.xml](13889.xml) |  | WA  Photos Folio 210 | Hammond-Tillamook Lumber Company. Garibaldi, Oregon. Redmond Studio, Portland, Oregon. Photo 910 Theo. Mentzer | 
+ [beinecke.sheikhfphotographs.xml](13890.xml) | beinecke.sheikhfphotographs | WA Photos 1349 | Fazal Sheikh photographs | 
  [beinecke.blackpanther.xml](13894.xml) | beinecke.blackpanther | GEN MSS 2097 | Black Panther Party collection | 
+ [beinecke.talbott.xml](13895.xml) | beinecke.talbott | GEN MSS 2103 | Strobe Talbott papers | 
  [beinecke.gansterpaul.xml](13916.xml) | beinecke.gansterpaul | GEN MSS 2160 | Paul Ganster collection of Freddy Fixer Parade photographs | 
  [beinecke.plath.xml](13917.xml) | beinecke.plath | YCAL MSS 1369 | Plath family papers | 
  [beinecke.sheldon.xml](13931.xml) | beinecke.sheldon | GEN MSS 2104 | Sheldon family papers | 
