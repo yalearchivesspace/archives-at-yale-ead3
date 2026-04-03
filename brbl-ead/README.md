@@ -1973,5 +1973,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [beinecke.lowrider.xml](13957.xml) | beinecke.lowrider | GEN MSS 2161 | Lowrider and Cholo printed ephemera | 
  [beinecke.marinettilibroni.xml](13973.xml) | beinecke.marinettilibroni | GEN MSS 475 | Filippo Tommaso Marinetti "Libroni" scrapbooks on futurism slides | 
  [beinecke.newhavendance.xml](13980.xml) | beinecke.newhavendance | GEN MSS 2164 | New Haven Dance Oral Histories collection | 
+ [beinecke.morgenthau.xml](13982.xml) | beinecke.morgenthau | GEN MSS 2165 | Henry Kissinger and Hans Morgenthau correspondence | 
+ [beinecke.jamesscott.xml](13989.xml) | beinecke.jamesscott | GEN MSS 2166 | James C. Scott papers | 
  [beinecke.templetonrobert.xml](13990.xml) | beinecke.templetonrobert | JWJ MSS 33 | Robert Templeton drawings and sketches related to the trial of Bobby G. Seale and Ericka Huggins, New Haven, Connecticut | 
 
