@@ -120,7 +120,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0115.xml](13935.xml) | med.ms.0115 | Ms Coll 115 | Yale School of Medicine lantern slide collection | 
  [med.ms.0122.xml](13956.xml) | med.ms.0122 | Ms Coll 122 | Earl Rosenblum papers | 
  [med.ms.0123.xml](13964.xml) | med.ms.0123 | Ms Coll 123 | Stanley B. Burns, MD, collection of postmortem and memorial photography and ephemera | 
- [med.ms.0124.xml](13972.xml) | med.ms.0124 | Ms Coll 124 | Yale School of Medicine Department of Pathology teaching collection of medical illustrations | 
+ [med.ms.0124.xml](13972.xml) | med.ms.0124 | Ms Coll 124 | Yale School of Medicine, Department of Pathology teaching collection of medical illustrations | 
  [med.pam.0032.xml](13993.xml) | med.pam.0032 | Pam Coll 32 | Gertrude Van Wagenen reprints | 
  [med.ms.0126.xml](13994.xml) | med.ms.0126 | Ms Coll 126 | United States enters World War II newspapers collection | 
 
