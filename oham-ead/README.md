@@ -11,6 +11,9 @@ EAD | EAD ID | Identifier | Title | Other versions
  [oham.ohiii.xml](5484.xml) | oham.ohiii | OHIII | Duke Ellington Oral History | 
  [oham.bl.xml](5519.xml) | oham.bl | BL | Connor and Neff Blues Interviews | 
  [oham.rwa.xml](5551.xml) | oham.rwa | RWA | Russ Wiltse Video Collection | 
+ [oham.rc.xml](10649.xml) | oham.rc | RC | Robert Carl In C interviews | 
+ [oham.ab.xml](11099.xml) | oham.ab | AB | Amy Beal Interviews | 
+ [oham.gpj.xml](11328.xml) | oham.gpj | GPJ | Grand Pianists of Jazz | 
  [oham.nmusa.xml](11627.xml) | oham.nmusa | NMB | NewMusicBox Interviews | 
  [oham.ohviii.xml](11799.xml) | oham.ohviii | OHVIII | Alone Together: Musicians in the Time of Covid | 
  [oham.yost.xml](11805.xml) | oham.yost | YOST | Yale Opera Studies Today | 
