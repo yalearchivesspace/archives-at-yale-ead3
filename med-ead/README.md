@@ -123,4 +123,5 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0124.xml](13972.xml) | med.ms.0124 | Ms Coll 124 | Yale School of Medicine, Department of Pathology teaching collection of medical illustrations | 
  [med.pam.0032.xml](13993.xml) | med.pam.0032 | Pam Coll 32 | Gertrude Van Wagenen reprints | 
  [med.ms.0126.xml](13994.xml) | med.ms.0126 | Ms Coll 126 | United States enters World War II newspapers collection | 
+ [med.ms.0127.xml](14017.xml) | med.ms.0127 | Ms Coll 127 | C. N. H. (Cyril Norman Hugh) Long photographs | 
 
