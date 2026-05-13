@@ -110,7 +110,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [music.mss.0050.xml](10638.xml) | music.mss.0050 | MSS 50 | The Paul Bekker Papers | 
  [music.mss.0014.xml](10652.xml) | music.mss.0014 | MSS 14 | The Charles Ives Papers | 
  [music.mss.0015.xml](10672.xml) | music.mss.0015 | MSS 15 | Quincy Porter Papers | 
- [music.mss.0029.xml](10673.xml) | music.mss.0029 | MSS 29, MSS 29A | The Virgil Thomson Papers | 
+ [music.mss.0029.xml](10673.xml) | music.mss.0029 | MSS 29, MSS 29A | The Virgil Thomson Papers  | 
  [music.mss.0030.xml](10674.xml) | music.mss.0030 | MSS 30 | Papers of Kurt Weill and Lotte Lenya | 
  [music.mss.0031.xml](10675.xml) | music.mss.0031 | MSS 31 | The David Stanley Smith Papers | 
  [music.mss.0032.xml](10676.xml) | music.mss.0032 | MSS 32 | The Horatio Parker Papers | 
