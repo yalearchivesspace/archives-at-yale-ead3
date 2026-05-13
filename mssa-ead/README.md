@@ -1976,7 +1976,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1605.xml](3906.xml) | mssa.ms.1605 | MS 1605 | Frederick Albert Pottle papers | 
  [mssa.ms.1625.xml](3907.xml) | mssa.ms.1625 | MS 1625 | Vincent Price papers | 
  [mssa.ms.1629.xml](3908.xml) | mssa.ms.1629 | MS 1629 | Thomas Goddard Bergin papers | 
- [mssa.ms.1636.xml](3909.xml) | mssa.ms.1636 | MS 1636 | Myres Smith McDougal papers | 
+ [mssa.ms.1636.xml](3909.xml) | mssa.ms.1636 | MS 1636 | Myres Smith McDougal papers  | 
  [mssa.ms.1637.xml](3910.xml) | mssa.ms.1637 | MS 1637 | W. Cameron Caswell and John Marshall Holcombe, Jr. collection | 
  [mssa.ms.1216.xml](3911.xml) | mssa.ms.1216 | MS 1216 | Sargent family papers | 
  [mssa.ms.1660.xml](3912.xml) | mssa.ms.1660 | MS 1660 | Sally Provence papers | 
