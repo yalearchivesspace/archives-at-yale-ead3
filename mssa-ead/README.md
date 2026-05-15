@@ -1821,7 +1821,6 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1755.xml](3750.xml) | mssa.ms.1755 | MS 1755 | Arthur Howe Jr. papers | 
  [mssa.ms.1759.xml](3751.xml) | mssa.ms.1759 | MS 1759 | Hermann John Weigand papers | 
  [mssa.ms.1765.xml](3752.xml) | mssa.ms.1765 | MS 1765 | George Roy Hill papers | 
- [mssa.ms.1767.xml](3753.xml) | mssa.ms.1767 | MS 1767 | Insignia Films Lindbergh documentary collection | 
  [mssa.ms.1779.xml](3754.xml) | mssa.ms.1779 | MS 1779 | Central America collection | 
  [mssa.ms.1780.xml](3755.xml) | mssa.ms.1780 | MS 1780 | Caribbean collection | 
  [mssa.ms.1786.xml](3756.xml) | mssa.ms.1786 | MS 1786 | Milton Irwin Roemer Papers | 
