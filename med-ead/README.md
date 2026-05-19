@@ -49,6 +49,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.pam.0008.xml](5713.xml) | med.pam.0008 | Pam Coll 8 | William Helfand collection of medical ephemera | 
  [med.ms.0057.xml](5852.xml) | med.ms.0057 | Ms Coll 57 | Thomas L. Lentz collection on the history of cell biology and anatomy at Yale | 
  [med.ms.0058.xml](5890.xml) | med.ms.0058 | Ms Coll 58 | Dryden P. Morse papers | 
+ [med.pam.0009.xml](10775.xml) | med.pam.0009 | Pam Coll 9 | Patent medicine and pharmacies collection | 
  [med.pam.0010.xml](10789.xml) | med.pam.0010 | Pam Coll 10 | Cancer "cures" collection | 
  [med.ms.0059.xml](10832.xml) | med.ms.0059 | Ms Coll 59 | James Augustine Haran papers | 
  [med.ms.0060.xml](11034.xml) | med.ms.0060 | Ms Coll 60 | Medical illustrations for Harvey Cushing by Mildred Codding and others | 
