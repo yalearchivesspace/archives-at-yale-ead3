@@ -2913,6 +2913,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.2118.xml](11921.xml) | mssa.ms.2118 | MS 2118 | Charles A. Reich papers | 
  [mssa.ms.2120.xml](11951.xml) | mssa.ms.2120 | MS 2120 | Susan M. Watkins papers | 
  [mssa.ms.2119.xml](11952.xml) | mssa.ms.2119 | MS 2119 | Mary Dillman papers | 
+ [mssa.ru.1175.xml](11959.xml) | mssa.ru.1175 | RU 1175 | Coeducation, Yale University, records and memorabilia | 
  [mssa.ru.1176.xml](11960.xml) | mssa.ru.1176 | RU 1176 | Gilbert Dean, Class of 1841, Yale College, notes and ephemera | 
  [mssa.ms.2121.xml](11961.xml) | mssa.ms.2121 | MS 2121 | Robert Lane and Dana Ward interview transcripts on political ideology | 
  [mssa.ms.2122.xml](12003.xml) | mssa.ms.2122 | MS 2122 | Carolyn Davidson Hill Diary and Family Papers | 
