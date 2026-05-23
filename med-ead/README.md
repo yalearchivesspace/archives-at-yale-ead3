@@ -122,6 +122,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [med.ms.0122.xml](13956.xml) | med.ms.0122 | Ms Coll 122 | Earl Rosenblum papers | 
  [med.ms.0123.xml](13964.xml) | med.ms.0123 | Ms Coll 123 | Stanley B. Burns, MD, collection of postmortem and memorial photography and ephemera | 
  [med.ms.0124.xml](13972.xml) | med.ms.0124 | Ms Coll 124 | Yale School of Medicine, Department of Pathology teaching collection of medical illustrations | 
+ [med.pam.0030.xml](13991.xml) | med.pam.0030 | Pam Coll 30 | History of medicine and science organizations and institutions collection | 
  [med.pam.0032.xml](13993.xml) | med.pam.0032 | Pam Coll 32 | Gertrude Van Wagenen reprints | 
  [med.ms.0126.xml](13994.xml) | med.ms.0126 | Ms Coll 126 | United States enters World War II newspapers collection | 
  [med.ms.0127.xml](14017.xml) | med.ms.0127 | Ms Coll 127 | C. N. H. (Cyril Norman Hugh) Long photographs | 
