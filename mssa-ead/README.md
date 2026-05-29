@@ -967,7 +967,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ru.0971.xml](2891.xml) | mssa.ru.0971 | RU 971 | Department of Athletics, Yale University, motion pictures and audiorecordings documenting football | 
  [mssa.ru.0693.xml](2892.xml) | mssa.ru.0693 | RU 693 | <title render="italic">Yale Daily News</title> photographs | 
  [mssa.ru.0657.xml](2893.xml) | mssa.ru.0657 | RU 657 | Walter Freeman, Class of 1916, Yale College, photograph albums documenting life at Yale | 
- [mssa.ru.0222.xml](2894.xml) | mssa.ru.0222 | RU 222 | Trumbull College, Yale University, student records for the Classes of 1964-2012 maintained by the dean | 
+ [mssa.ru.0222.xml](2894.xml) | mssa.ru.0222 | RU 222 | Trumbull College, Yale University, student records for the Classes of 1964-2015 maintained by the dean | 
  [mssa.ru.0821.xml](2895.xml) | mssa.ru.0821 | RU 821 | Office on the Education of Women, Yale University, records | 
  [mssa.ru.0172.xml](2896.xml) | mssa.ru.0172 | RU 172 | Saybrook College, Yale University, student records for the Classes of 1964-2015 maintained by the dean | 
  [mssa.ru.0521.xml](2897.xml) | mssa.ru.0521 | RU 521 | Insurance Office, Yale University, records | 
