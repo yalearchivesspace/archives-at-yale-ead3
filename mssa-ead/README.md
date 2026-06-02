@@ -1422,7 +1422,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [mssa.ms.1440.xml](3349.xml) | mssa.ms.1440 | MS 1440 | Matthew Goniwe papers | 
  [mssa.ms.1441.xml](3350.xml) | mssa.ms.1441 | MS 1441 | William Callyhan Robinson papers | 
  [mssa.ms.1442.xml](3351.xml) | mssa.ms.1442 | MS 1442 | Jonathan Humphrey Bissell papers | 
- [mssa.ms.1444.xml](3352.xml) | mssa.ms.1444 | MS 1444 | Anne Nelson-Black papers | 
+ [mssa.ms.1444.xml](3352.xml) | mssa.ms.1444 | MS 1444 | Anne Nelson papers | 
  [mssa.ms.1445.xml](3353.xml) | mssa.ms.1445 | MS 1445 | Wendell W. Mischler papers | 
  [mssa.ms.1448.xml](3354.xml) | mssa.ms.1448 | MS 1448 | Milton Stahl Garver papers | 
  [mssa.ms.1449.xml](3355.xml) | mssa.ms.1449 | MS 1449 | William Channing Woodbridge papers | 
