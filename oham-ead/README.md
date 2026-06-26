@@ -12,6 +12,7 @@ EAD | EAD ID | Identifier | Title | Other versions
  [oham.bl.xml](5519.xml) | oham.bl | BL | Connor and Neff Blues Interviews | 
  [oham.rwa.xml](5551.xml) | oham.rwa | RWA | Russ Wiltse Video Collection | 
  [oham.rc.xml](10649.xml) | oham.rc | RC | Robert Carl In C interviews | 
+ [11045.xml](11045.xml) |  | MBMF | Music by My Friends (Tom Johnson Interviews) | 
  [oham.ab.xml](11099.xml) | oham.ab | AB | Amy Beal Interviews | 
  [oham.gpj.xml](11328.xml) | oham.gpj | GPJ | Grand Pianists of Jazz | 
  [oham.nmusa.xml](11627.xml) | oham.nmusa | NMB | NewMusicBox Interviews | 
